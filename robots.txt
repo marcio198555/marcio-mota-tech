@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Public profile page for Marcio Mota, independent Tech & Maison reviewer in Switzerland.
