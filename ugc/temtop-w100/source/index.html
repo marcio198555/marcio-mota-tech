@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Temtop W100 – UGC ad</title>
+<style>
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100 900;font-display:block;src:url(fonts/montserrat-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100 900;font-display:block;src:url(fonts/montserrat-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+:root{--orange:#FF7A00;--orange2:#FFA43A;--yellow:#FFE14D;--ink:#121826;--red:#FF3B30;--green:#22C55E}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased;color:var(--ink)}
+.em{font-family:'Noto Color Emoji',sans-serif;font-weight:400;line-height:1}
+#stage{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:hidden;background:#000}
+#world{position:absolute;left:-40px;top:-60px;width:1160px;height:2040px}
+.scene{position:absolute;left:40px;top:60px;width:1080px;height:1920px;overflow:hidden;opacity:0;visibility:hidden}
+.abs{position:absolute;left:0;top:0;transform-origin:50% 50%}
+.fill{position:absolute;inset:0}
+canvas.fx{position:absolute;left:0;top:0;width:1080px;height:1920px}
+img{display:block;user-select:none}
+
+/* chips */
+.chip{position:absolute;display:flex;align-items:center;gap:16px;padding:16px 32px 16px 20px;border-radius:999px;background:#fff;color:var(--ink);
+  font-weight:800;font-size:48px;letter-spacing:-.5px;white-space:nowrap;box-shadow:0 16px 34px rgba(10,20,40,.24),0 3px 0 rgba(0,0,0,.06);opacity:0}
+.chip .em{font-size:56px}
+.chip .t2{display:flex;flex-direction:column;line-height:1.02}
+.chip .t2 small{font-size:27px;font-weight:600;opacity:.62;letter-spacing:0;margin-top:4px}
+.chip.dark{background:#0f1726;color:#fff;box-shadow:0 16px 34px rgba(0,0,0,.35)}
+.chip.orange{background:var(--orange);color:#fff}
+.tag{position:absolute;left:60px;top:250px;padding:12px 26px 12px 18px;border-radius:18px;font-weight:900;font-size:40px;letter-spacing:1px;display:flex;gap:12px;align-items:center;opacity:0}
+
+/* captions */
+#captions{position:absolute;left:0;top:0;width:1080px;height:1920px;pointer-events:none}
+.capbox{position:absolute;left:70px;width:940px;text-align:center;font-weight:900;font-size:80px;line-height:1.06;text-transform:uppercase;letter-spacing:-1.5px}
+.w{display:inline-block;position:relative;margin:0 .13em;transform-origin:50% 70%}
+.w .s,.w .f{display:block;white-space:nowrap}
+.w .s{position:absolute;left:0;top:0;color:#000;-webkit-text-stroke:17px #000;text-shadow:0 9px 0 rgba(0,0,0,.45)}
+.w .f{position:relative;color:#fff}
+.w.on .f{color:var(--yellow)}
+.sub2{font-size:.55em;vertical-align:-.12em}
+
+/* hook */
+#hook{position:absolute;left:0;top:0;width:1080px;height:1920px;pointer-events:none}
+.hl{position:absolute;left:40px;width:1000px;text-align:center;font-weight:900;text-transform:uppercase;letter-spacing:-2px;line-height:1}
+.hl .w .s{-webkit-text-stroke:20px #000}
+
+#flash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
+
+/* phone mockup */
+.phone{position:absolute;width:480px;height:980px;border-radius:70px;background:#0b0d12;padding:16px;box-shadow:0 40px 80px rgba(20,40,80,.35),inset 0 0 0 3px #2a2f3a}
+.phone .scr{position:relative;width:100%;height:100%;border-radius:56px;overflow:hidden;background:linear-gradient(180deg,#f3f6fb,#e9eef6)}
+.phone .island{position:absolute;left:50%;top:16px;width:130px;height:36px;margin-left:-65px;border-radius:20px;background:#000}
+.phone .sb{position:absolute;left:38px;right:34px;top:20px;display:flex;justify-content:space-between;font-weight:700;font-size:22px;color:#111}
+.phone .hd{position:absolute;left:28px;right:28px;top:84px}
+.phone .hd b{display:block;font-size:34px;font-weight:900;letter-spacing:-.5px}
+.phone .hd span{font-size:21px;font-weight:600;color:#3a4252}
+.phone .dot{display:inline-block;width:13px;height:13px;border-radius:50%;background:var(--green);margin-right:8px;vertical-align:1px}
+.card{position:absolute;background:#fff;border-radius:26px;box-shadow:0 6px 16px rgba(20,40,80,.08);padding:16px 18px}
+.card .k{font-size:20px;font-weight:600;color:#5b6475}
+.card .v{font-size:36px;font-weight:900;letter-spacing:-.5px;margin-top:2px}
+.card .v small{font-size:20px;font-weight:700;color:#5b6475;margin-left:4px}
+.pill{display:inline-block;padding:4px 12px;border-radius:999px;font-weight:800;font-size:20px}
+</style>
+</head>
+<body>
+<div id="stage">
+ <div id="world">
+
+  <!-- 1. HOOK -->
+  <div class="scene" id="sc1">
+   <div class="fill" id="s1bg" style="background:radial-gradient(130% 85% at 72% 18%,#33405a 0%,#141b27 52%,#06080c 100%)"></div>
+   <canvas class="fx" id="s1fx" width="1080" height="1920"></canvas>
+   <div class="fill" style="background:radial-gradient(90% 60% at 50% 50%,rgba(0,0,0,0) 50%,rgba(0,0,0,.55) 100%)"></div>
+  </div>
+
+  <!-- 2. REVEAL -->
+  <div class="scene" id="sc2">
+   <div class="fill" style="background:radial-gradient(85% 55% at 50% 44%,#ffffff 0%,#f1f4f8 52%,#d7dee8 100%)"></div>
+   <div class="abs" id="s2rays" style="left:-460px;top:-160px;width:2000px;height:2000px;border-radius:50%;opacity:.5;background:repeating-conic-gradient(from 0deg,rgba(255,170,60,.16) 0deg 7deg,rgba(255,255,255,0) 7deg 18deg);-webkit-mask-image:radial-gradient(circle,#000 0%,rgba(0,0,0,.6) 30%,transparent 62%)"></div>
+   <div class="abs" id="s2glow" style="left:90px;top:330px;width:900px;height:900px;border-radius:50%;background:radial-gradient(circle,rgba(255,150,40,.42) 0%,rgba(255,150,40,.12) 45%,rgba(255,150,40,0) 70%)"></div>
+   <div class="abs" id="s2shadow" style="left:150px;top:1180px;width:780px;height:90px;border-radius:50%;background:radial-gradient(closest-side,rgba(20,30,50,.38),rgba(20,30,50,0))"></div>
+   <img class="abs" id="s2hero" src="assets/hero_s3@2x.png" style="left:100px;top:330px;width:880px;height:884px">
+   <div class="abs" id="s2title" style="left:0;top:236px;width:1080px;text-align:center;opacity:0">
+     <span style="display:inline-block;background:var(--ink);color:#fff;font-weight:900;font-size:96px;letter-spacing:-2px;padding:14px 40px 16px;border-radius:26px;box-shadow:0 18px 40px rgba(18,24,38,.35)">TEMTOP <span style="color:var(--orange)">W100</span></span>
+   </div>
+  </div>
+
+  <!-- 3. TWO-IN-ONE -->
+  <div class="scene" id="sc3">
+   <div class="fill" style="background:linear-gradient(180deg,#f7f9fc 0%,#e6ecf4 100%)"></div>
+   <div class="fill" style="opacity:.55;background-image:radial-gradient(rgba(30,50,90,.14) 2.2px,transparent 2.6px);background-size:44px 44px"></div>
+   <img class="abs" id="s3sensor" src="assets/sensor@2x.png" style="left:30px;top:300px;width:541px;height:760px">
+   <img class="abs" id="s3display" src="assets/display@2x.png" style="left:410px;top:880px;width:640px;height:438px">
+   <div class="chip" id="s3chipA" style="left:540px;top:380px"><span class="em">🌦️</span><span>Station météo</span></div>
+   <div class="chip" id="s3chipB" style="left:500px;top:735px"><span class="em">🫁</span><span>Qualité de l'air</span></div>
+   <div class="abs" id="s3stamp" style="left:420px;top:700px;width:300px;height:300px;opacity:0">
+     <div style="position:absolute;inset:0;border-radius:50%;background:var(--orange);box-shadow:0 22px 50px rgba(255,110,0,.45),inset 0 0 0 10px rgba(255,255,255,.9),inset 0 0 0 16px var(--orange),inset 0 0 0 19px rgba(255,255,255,.55)"></div>
+     <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;font-weight:900;line-height:.9">
+       <span style="font-size:112px;letter-spacing:-2px;white-space:nowrap">2<span style="font-size:.5em;letter-spacing:1px;margin:0 14px;vertical-align:.32em">EN</span>1</span>
+     </div>
+   </div>
+  </div>
+
+  <!-- 4. OUTDOOR -->
+  <div class="scene" id="sc4">
+   <div class="fill" style="background:linear-gradient(180deg,#2f86de 0%,#5aa9f2 38%,#a9d6ff 78%,#d9efff 100%)"></div>
+   <div class="abs" id="s4sun" style="left:690px;top:40px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(255,250,215,1) 0%,rgba(255,236,150,.85) 16%,rgba(255,220,120,.35) 38%,rgba(255,220,120,0) 70%)"></div>
+   <div class="abs" id="s4rays" style="left:500px;top:-150px;width:900px;height:900px;border-radius:50%;opacity:0;background:repeating-conic-gradient(from 0deg,rgba(255,245,200,.35) 0deg 6deg,rgba(255,255,255,0) 6deg 20deg);-webkit-mask-image:radial-gradient(circle,#000 8%,transparent 66%)"></div>
+   <canvas class="fx" id="s4clouds" width="1080" height="1920"></canvas>
+   <img class="abs" id="s4sensor" src="assets/sensor@2x.png" style="left:-20px;top:380px;width:641px;height:900px">
+   <canvas class="fx" id="s4fx" width="1080" height="1920"></canvas>
+   <svg class="abs" width="1080" height="1920" style="left:0;top:0;overflow:visible">
+     <path id="s4l1" d="M650 448 L400 446" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="6 0"/>
+     <circle id="s4d1" cx="392" cy="446" r="11" fill="#fff" stroke="#1d6fd0" stroke-width="5" opacity="0"/>
+     <path id="s4l2" d="M650 606 L560 642" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
+     <circle id="s4d2" cx="552" cy="645" r="11" fill="#fff" stroke="#1d6fd0" stroke-width="5" opacity="0"/>
+   </svg>
+   <div class="tag" id="s4tag" style="background:#fff;color:#1d6fd0"><span class="em" style="font-size:44px">🌤️</span>DEHORS</div>
+   <div class="chip" id="s4c1" style="left:650px;top:400px"><span class="em">💨</span><span class="t2">Vent<small>vitesse + direction</small></span></div>
+   <div class="chip" id="s4c2" style="left:650px;top:560px"><span class="em">🌧️</span><span>Pluie</span></div>
+   <div class="chip" id="s4c3" style="left:650px;top:720px"><span class="em">☀️</span><span>UV</span></div>
+   <div class="chip" id="s4c4" style="left:650px;top:880px"><span class="em">🔆</span><span>Luminosité</span></div>
+  </div>
+
+  <!-- 5. INDOOR -->
+  <div class="scene" id="sc5">
+   <div class="fill" style="background:linear-gradient(180deg,#f8ede2 0%,#f1dcc8 55%,#e2c3a6 100%)"></div>
+   <canvas class="fx" id="s5fx" width="1080" height="1920"></canvas>
+   <div class="abs" id="s5shadow" style="left:120px;top:1300px;width:840px;height:80px;border-radius:50%;background:radial-gradient(closest-side,rgba(70,40,20,.32),rgba(70,40,20,0))"></div>
+   <img class="abs" id="s5display" src="assets/display@2x.png" style="left:70px;top:700px;width:940px;height:644px">
+   <div class="tag" id="s5tag" style="background:var(--ink);color:#fff"><span class="em" style="font-size:44px">🏠</span>DEDANS</div>
+   <div class="chip" id="s5c1" style="left:90px;top:372px"><span class="em">🫧</span><span>CO<span class="sub2">2</span></span></div>
+   <div class="chip" id="s5c2" style="left:90px;top:478px"><span class="em">🌫️</span><span class="t2">Particules fines<small>PM2.5 · PM10</small></span></div>
+   <div class="chip" id="s5c3" style="left:90px;top:610px;z-index:3"><span class="em">🧪</span><span class="t2">COV<small>composés organiques volatils</small></span></div>
+   <div class="chip" id="s5live" style="left:640px;top:316px;background:var(--red);color:#fff;font-size:38px;padding:14px 28px 14px 22px"><span id="s5dot" style="display:inline-block;width:22px;height:22px;border-radius:50%;background:#fff"></span><span>EN TEMPS RÉEL</span></div>
+  </div>
+
+  <!-- 6. SCREEN -->
+  <div class="scene" id="sc6">
+   <div class="fill" style="background:radial-gradient(90% 60% at 50% 45%,#1d3150 0%,#0c1526 60%,#060a12 100%)"></div>
+   <img class="abs" id="s6display" src="assets/display@2x.png" style="left:0;top:0;width:1264px;height:866px;transform-origin:0 0">
+   <div class="abs" id="s6ripple" style="left:0;top:0;width:0;height:0"></div>
+   <div class="abs em" id="s6hand" style="left:0;top:0;font-size:170px;opacity:0;transform-origin:30% 10%">👆</div>
+   <div class="chip" id="s6c1" style="left:0;top:300px"><span class="em">📱</span><span>Écran tactile 7"</span></div>
+   <div class="chip" id="s6c2" style="left:0;top:410px"><span class="em">⛅</span><span>Prévisions météo</span></div>
+  </div>
+
+  <!-- 7. ALERT -->
+  <div class="scene" id="sc7">
+   <div class="fill" style="background:radial-gradient(100% 70% at 50% 45%,#2a1517 0%,#120a0b 60%,#050304 100%)"></div>
+   <div class="fill" id="s7pulse" style="background:radial-gradient(70% 50% at 50% 50%,rgba(255,50,40,.55) 0%,rgba(255,50,40,0) 70%);opacity:0"></div>
+   <div class="abs" id="s7rings" style="left:540px;top:950px;width:0;height:0"></div>
+   <img class="abs" id="s7display" src="assets/display@2x.png" style="left:100px;top:650px;width:880px;height:603px">
+   <canvas class="fx" id="s7fx" width="1080" height="1920"></canvas>
+   <div class="abs" id="s7banner" style="left:0;top:470px;width:1080px;text-align:center;opacity:0">
+     <span style="display:inline-flex;align-items:center;gap:16px;background:var(--red);color:#fff;font-weight:900;font-size:58px;letter-spacing:-1px;padding:18px 40px 18px 30px;border-radius:999px;box-shadow:0 18px 50px rgba(255,59,48,.55)"><span class="em" style="font-size:62px">⚠️</span>AIR TROP CHARGÉ</span>
+   </div>
+  </div>
+
+  <!-- 8. APP -->
+  <div class="scene" id="sc8">
+   <div class="fill" style="background:linear-gradient(180deg,#e3efff 0%,#f6faff 60%,#ffffff 100%)"></div>
+   <div class="abs" style="left:300px;top:380px;width:860px;height:860px;border-radius:50%;background:radial-gradient(circle,rgba(70,140,255,.22),rgba(70,140,255,0) 68%)"></div>
+   <img class="abs" id="s8display" src="assets/display@2x.png" style="left:24px;top:1010px;width:400px;height:274px">
+   <svg class="abs" id="s8wifi" width="1080" height="1920" style="left:0;top:0;overflow:visible"></svg>
+   <div class="phone abs" id="s8phone" style="left:470px;top:330px">
+     <div class="scr">
+       <div class="island"></div>
+       <div class="sb"><span>9:41</span><span>●●● ⌁</span></div>
+       <div class="hd"><b>Ma station</b><span><i class="dot"></i>En ligne · Maison</span></div>
+       <div class="card" style="left:22px;right:22px;top:178px;height:124px;display:flex;align-items:center;gap:16px">
+         <span class="em" style="font-size:58px">😊</span>
+         <div><div class="k">Qualité de l'air</div><div class="v" style="font-size:38px">Bonne <span class="pill" style="background:#dcfce7;color:#15803d;vertical-align:6px">OK</span></div></div>
+       </div>
+       <div class="card" style="left:22px;width:200px;top:318px;height:122px"><div class="k">🌡️ Intérieur</div><div class="v">21,4<small>°C</small></div></div>
+       <div class="card" style="left:234px;width:200px;top:318px;height:122px"><div class="k">💧 Humidité</div><div class="v">47<small>%</small></div></div>
+       <div class="card" style="left:22px;width:200px;top:454px;height:122px"><div class="k">🫧 CO<span class="sub2">2</span></div><div class="v">612<small>ppm</small></div></div>
+       <div class="card" style="left:234px;width:200px;top:454px;height:122px"><div class="k">🌫️ PM2.5</div><div class="v">5<small>µg/m³</small></div></div>
+       <div class="card" style="left:22px;right:22px;top:590px;height:116px;display:flex;align-items:center;gap:14px">
+         <span class="em" style="font-size:52px">🌤️</span>
+         <div><div class="k">Dehors · vent</div><div class="v" style="font-size:34px">16°C · 12 km/h</div></div>
+       </div>
+       <div class="card" style="left:22px;right:22px;top:720px;height:200px">
+         <div class="k">Historique 24 h</div>
+         <svg width="400" height="130" style="margin-top:8px"><path id="s8chart" d="M0 92 C40 80 60 96 95 70 S150 40 190 58 S250 98 290 66 S350 28 400 40" stroke="#ff7a00" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M0 92 C40 80 60 96 95 70 S150 40 190 58 S250 98 290 66 S350 28 400 40 L400 130 L0 130Z" fill="rgba(255,122,0,.12)"/></svg>
+       </div>
+     </div>
+   </div>
+   <div class="chip dark" id="s8c1" style="left:0;top:236px"><span class="em">📍</span><span>Où que tu sois</span></div>
+  </div>
+
+  <!-- 9. CTA -->
+  <div class="scene" id="sc9">
+   <div class="fill" style="background:linear-gradient(165deg,#ffb047 0%,#ff7a00 52%,#ee5a00 100%)"></div>
+   <div class="abs" id="s9rays" style="left:-460px;top:-140px;width:2000px;height:2000px;border-radius:50%;opacity:.55;background:repeating-conic-gradient(from 0deg,rgba(255,255,255,.14) 0deg 8deg,rgba(255,255,255,0) 8deg 20deg);-webkit-mask-image:radial-gradient(circle,#000 0%,rgba(0,0,0,.5) 34%,transparent 64%)"></div>
+   <div class="abs" id="s9shine" style="left:-600px;top:0;width:300px;height:1920px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.28),rgba(255,255,255,0));transform:skewX(-18deg)"></div>
+   <div class="abs" id="s9title" style="left:0;top:210px;width:1080px;text-align:center;color:#fff;font-weight:900;font-size:124px;letter-spacing:-4px;line-height:1;text-shadow:0 10px 0 rgba(150,50,0,.35)">TEMTOP W100</div>
+   <div class="abs" id="s9sub" style="left:0;top:356px;width:1080px;text-align:center;color:#fff;font-weight:800;font-size:44px;letter-spacing:-.5px;opacity:.96">Station météo + qualité de l'air</div>
+   <div class="abs" id="s9shadow" style="left:170px;top:1222px;width:740px;height:70px;border-radius:50%;background:radial-gradient(closest-side,rgba(120,40,0,.45),rgba(120,40,0,0))"></div>
+   <img class="abs" id="s9hero" src="assets/hero_s3@2x.png" style="left:130px;top:440px;width:820px;height:823px">
+   <div class="abs" id="s9cta" style="left:0;top:1290px;width:1080px;text-align:center;opacity:0">
+     <span style="display:inline-flex;align-items:center;gap:14px;background:#fff;color:#e85d00;font-weight:900;font-size:52px;letter-spacing:-1px;padding:20px 44px 20px 34px;border-radius:999px;box-shadow:0 18px 40px rgba(120,40,0,.35)"><span class="em" style="font-size:58px">👇</span>LIEN JUSTE EN DESSOUS</span>
+   </div>
+  </div>
+
+ </div>
+ <div id="hook"></div>
+ <div id="captions"></div>
+ <div id="flash"></div>
+</div>
+
+<script src="timeline.js"></script>
+<script>
+const DUR=29.2;
+const $=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const lerp=(a,b,u)=>a+(b-a)*u;
+const E={lin:u=>u,outC:u=>1-Math.pow(1-u,3),inC:u=>u*u*u,ioC:u=>u<.5?4*u*u*u:1-Math.pow(-2*u+2,3)/2,
+  outB:u=>{const c1=1.9,c3=c1+1;return 1+c3*Math.pow(u-1,3)+c1*Math.pow(u-1,2)},
+  outQ:u=>1-Math.pow(1-u,4),inQ:u=>u*u*u*u,ioS:u=>-(Math.cos(Math.PI*u)-1)/2};
+const pr=(t,a,b,e=E.lin)=>e(clamp((t-a)/(b-a)));
+function mulberry(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function tf(el,{x=0,y=0,s=1,sx=null,sy=null,r=0,o=null,blur=0}={}){
+  el.style.transform=`translate(${x.toFixed(2)}px,${y.toFixed(2)}px) rotate(${r.toFixed(3)}deg) scale(${(sx??s).toFixed(4)},${(sy??s).toFixed(4)})`;
+  if(o!==null) el.style.opacity=clamp(o).toFixed(3);
+  el.style.filter=blur>0.05?`blur(${blur.toFixed(2)}px)`:'none';
+}
+// word timing helpers
+const W=TL.words, P=TL.phrases;
+const wt=(p,i)=>W.find(w=>w.p===p&&w.i===i).t;
+// chip pop-in: appears at time a
+function pop(el,t,a,{dx=0,dy=0,r0=-6,from=0.4}={}){
+  const u=pr(t,a,a+0.38,E.outB), o=pr(t,a,a+0.12);
+  tf(el,{x:dx*(1-pr(t,a,a+0.3,E.outC)),y:dy*(1-pr(t,a,a+0.3,E.outC)),s:t<a?from:lerp(from,1,u),r:r0*(1-pr(t,a,a+0.3,E.outC)),o:t<a?0:o});
+}
+
+/* ---------------- scenes ---------------- */
+const SC=[
+ {id:'sc1',a:0.00,b:2.00},{id:'sc2',a:2.00,b:4.26},{id:'sc3',a:4.26,b:8.50},{id:'sc4',a:8.50,b:12.43},
+ {id:'sc5',a:12.43,b:17.24},{id:'sc6',a:17.24,b:21.09},{id:'sc7',a:21.09,b:23.62},{id:'sc8',a:23.62,b:26.27},{id:'sc9',a:26.27,b:DUR}];
+const TR_IN=0.26,TR_OUT=0.2;
+function sceneState(i,t){
+  const sc=SC[i];
+  if(t<sc.a||t>sc.b+TR_OUT) return null;
+  let o=1,s=1,bl=0,y=0;
+  if(sc.a>0&&t<sc.a+TR_IN){const u=pr(t,sc.a,sc.a+TR_IN,E.outC);o=u;s=lerp(1.18,1,u);bl=(1-u)*12}
+  if(t>sc.b){const u=pr(t,sc.b,sc.b+TR_OUT,E.inC);o*=1-u;s*=lerp(1,1.3,u);bl=Math.max(bl,u*16)}
+  return {o,s,bl,lt:t-sc.a};
+}
+
+/* ---------------- canvases ---------------- */
+// scene 1: dust in a light beam
+const s1=$('s1fx').getContext('2d');
+const R1=mulberry(7); const dust=[];
+for(let i=0;i<520;i++){const big=R1()<.12;dust.push({x:R1()*1080,y:R1()*1920,r:big?6+R1()*18:1+R1()*3.2,big,vx:(R1()-.5)*16,vy:-4-R1()*9,ax:10+R1()*34,fx:.15+R1()*.5,ph:R1()*6.28,a:big?.07+R1()*.1:.45+R1()*.55})}
+function beamDist(x,y){ // distance to beam axis (from top-right going down-left)
+  const ox=1010,oy=-120,dx=Math.cos(2.02),dy=Math.sin(2.02); const px=x-ox,py=y-oy; return Math.abs(px*dy-py*dx);}
+function drawS1(t){
+  const c=s1; c.clearRect(0,0,1080,1920);
+  // beam
+  c.save(); c.translate(1010,-120); c.rotate(2.02-Math.PI/2); c.filter='blur(38px)';
+  const g=c.createLinearGradient(-330,0,330,0);
+  const k=0.85+0.15*Math.sin(t*2.1);
+  g.addColorStop(0,'rgba(255,230,190,0)');g.addColorStop(.3,`rgba(255,232,195,${.2*k})`);g.addColorStop(.5,`rgba(255,240,210,${.36*k})`);g.addColorStop(.7,`rgba(255,232,195,${.2*k})`);g.addColorStop(1,'rgba(255,230,190,0)');
+  c.fillStyle=g; c.fillRect(-330,0,660,2600); c.restore();
+  c.filter='none';
+  for(const d of dust){
+    let x=d.x+d.vx*t+Math.sin(t*d.fx*6.28+d.ph)*d.ax, y=d.y+d.vy*t+Math.cos(t*d.fx*4+d.ph)*d.ax*.6;
+    x=((x%1080)+1080)%1080; y=((y%1920)+1920)%1920;
+    const bd=beamDist(x,y); const inBeam=Math.exp(-(bd*bd)/(2*230*230));
+    const a=d.a*(0.1+0.9*inBeam);
+    if(d.big){const gr=c.createRadialGradient(x,y,0,x,y,d.r);gr.addColorStop(0,`rgba(255,240,220,${a})`);gr.addColorStop(1,'rgba(255,240,220,0)');c.fillStyle=gr;c.beginPath();c.arc(x,y,d.r,0,6.283);c.fill();}
+    else{c.fillStyle=`rgba(255,244,228,${a})`;c.beginPath();c.arc(x,y,d.r,0,6.283);c.fill();}
+  }
+}
+// scene 4: clouds, wind & rain
+const s4c=$('s4clouds').getContext('2d'), s4=$('s4fx').getContext('2d');
+const R4=mulberry(11); const clouds=[];
+for(let i=0;i<6;i++){const blobs=[];const n=5+Math.floor(R4()*4);for(let j=0;j<n;j++)blobs.push({dx:(j-n/2)*55+R4()*30,dy:(R4()-.5)*40-(j%2)*20,r:50+R4()*55});clouds.push({x:R4()*1300-150,y:120+R4()*1100,sp:12+R4()*22,s:.6+R4()*.8,o:.55+R4()*.35,blobs})}
+const winds=[];for(let i=0;i<16;i++)winds.push({y:300+R4()*420,len:160+R4()*260,sp:1500+R4()*900,ph:R4(),amp:6+R4()*16,w:3+R4()*4});
+const drops=[];for(let i=0;i<170;i++)drops.push({x:R4()*1250,y:R4()*1920,sp:1700+R4()*900,len:40+R4()*50,a:.25+R4()*.4});
+function drawS4(t,lt){
+  const c=s4c; c.clearRect(0,0,1080,1920); c.filter='blur(6px)';
+  for(const cl of clouds){const x=((cl.x+cl.sp*t)%1400)-160;
+    c.fillStyle=`rgba(255,255,255,${cl.o})`;
+    for(const b of cl.blobs){c.beginPath();c.arc(x+b.dx*cl.s,cl.y+b.dy*cl.s,b.r*cl.s,0,6.283);c.fill();}}
+  c.filter='none';
+  const f=s4; f.clearRect(0,0,1080,1920);
+  // wind streaks (P6)
+  const wA=clamp((t-8.62)/.25)*clamp((10.45-t)/.35);
+  if(wA>0){f.lineCap='round';
+    for(const w of winds){const span=1080+w.len+400; const x=1080+200-((t*w.sp+w.ph*span)%span);
+      f.strokeStyle=`rgba(255,255,255,${.75*wA})`;f.lineWidth=w.w;f.beginPath();
+      for(let k=0;k<=12;k++){const xx=x+k*w.len/12, yy=w.y+Math.sin(xx/120+w.ph*6)*w.amp; if(k)f.lineTo(xx,yy); else f.moveTo(xx,yy);}
+      f.stroke();}}
+  // rain (P7)
+  const rA=clamp((t-10.02)/.2)*clamp((11.45-t)/.35);
+  if(rA>0){f.lineCap='round';f.lineWidth=4;
+    for(const d of drops){const y=((d.y+t*d.sp)%2100)-100, x=d.x-y*.18;
+      f.strokeStyle=`rgba(235,245,255,${d.a*rA})`;f.beginPath();f.moveTo(x,y);f.lineTo(x-d.len*.18,y+d.len);f.stroke();}}
+}
+// scene 5: warm bokeh
+const s5=$('s5fx').getContext('2d'); const R5=mulberry(5); const bok=[];
+for(let i=0;i<26;i++)bok.push({x:R5()*1080,y:R5()*1500,r:30+R5()*90,a:.10+R5()*.18,sp:4+R5()*10,ph:R5()*6.28,hue:R5()<.5?'255,214,150':'255,236,205'});
+function drawS5(t){const c=s5;c.clearRect(0,0,1080,1920);c.filter='blur(10px)';
+  for(const b of bok){const x=b.x+Math.sin(t*.4+b.ph)*30, y=b.y-((t*b.sp)%60);
+    const g=c.createRadialGradient(x,y,0,x,y,b.r);g.addColorStop(0,`rgba(${b.hue},${b.a})`);g.addColorStop(.7,`rgba(${b.hue},${b.a*.7})`);g.addColorStop(1,`rgba(${b.hue},0)`);
+    c.fillStyle=g;c.beginPath();c.arc(x,y,b.r,0,6.283);c.fill();}
+  c.filter='none';}
+// scene 7: haze building up
+const s7=$('s7fx').getContext('2d'); const R7=mulberry(3); const haze=[];
+for(let i=0;i<90;i++)haze.push({x:R7()*1080,y:500+R7()*1000,r:60+R7()*140,vx:(R7()-.5)*40,vy:-10-R7()*20,a:.05+R7()*.08,ph:R7()*6.28});
+function drawS7(t){const c=s7;c.clearRect(0,0,1080,1920);const k=pr(t,21.15,22.6,E.ioS);if(k<=0)return;c.filter='blur(14px)';
+  for(const h of haze){const x=h.x+h.vx*(t-21)+Math.sin(t+h.ph)*20, y=h.y+h.vy*(t-21);
+    const g=c.createRadialGradient(x,y,0,x,y,h.r);g.addColorStop(0,`rgba(175,165,155,${h.a*k*2.6})`);g.addColorStop(1,'rgba(170,160,150,0)');
+    c.fillStyle=g;c.beginPath();c.arc(x,y,h.r,0,6.283);c.fill();}
+  c.filter='none';}
+
+/* ---------------- captions ---------------- */
+// chunk breaks (word index where a new chunk starts) per phrase; phrase 0 is the big hook
+const BREAKS={4:[3],6:[1],11:[2],15:[2,5],17:[3],19:[4],21:[5]};
+const CH=[];
+for(let p=1;p<P.length;p++){
+  const ws=W.filter(w=>w.p===p); const br=BREAKS[p]||[]; let cur=[];
+  ws.forEach((w,k)=>{ if(br.includes(k)&&cur.length){CH.push(cur);cur=[]} cur.push(w); });
+  if(cur.length) CH.push(cur);
+}
+CH.forEach((c,k)=>{c.s=c[0].t; const nx=CH[k+1]; const lastEnd=c[c.length-1].e; c.e=nx?(nx[0].t-lastEnd>0.45?lastEnd+0.3:nx[0].t):lastEnd+0.9;});
+const fmt=s=>s.replace('₂','<span class="sub2">2</span>');
+function wordHTML(txt){const h=fmt(txt);return `<span class="w"><span class="s">${h}</span><span class="f">${h}</span></span>`}
+let curChunk=-1; const capEl=$('captions');
+function drawCaptions(t){
+  let k=CH.findIndex(c=>t>=c.s-0.02&&t<c.e);
+  if(t<2.0) k=-1;
+  if(k!==curChunk){curChunk=k; capEl.innerHTML=k<0?'':`<div class="capbox" id="capbox">${CH[k].map(w=>wordHTML(w.w)).join(' ')}</div>`;}
+  if(k<0) return;
+  const box=$('capbox'); const c=CH[k];
+  const cy=t>26.27?1490:1400; // center line
+  box.style.top=(cy-box.offsetHeight/2)+'px';
+  const els=box.querySelectorAll('.w');
+  c.forEach((w,i)=>{const el=els[i]; const a=w.t-0.04;
+    if(t<a){el.style.opacity=0;el.style.transform='scale(.5)';return;}
+    const u=pr(t,a,a+0.2,E.outB); el.style.opacity=pr(t,a,a+0.06);
+    const next=c[i+1]; const on=t>=a&&(!next||t<next.t-0.04);
+    el.classList.toggle('on',on);
+    el.style.transform=`translateY(${(1-pr(t,a,a+.18,E.outC))*18}px) scale(${lerp(.55,1,u)*(on?1.06:1)})`;
+  });
+  // fade out at chunk end
+  box.style.opacity=1-pr(t,c.e-0.08,c.e);
+}
+
+/* ---------------- hook text ---------------- */
+const HOOK=[ // [phrase0 word index list, font size, top, color]
+ {ws:[0,1,2],fs:80,top:640,col:'#fff'},
+ {ws:[3,4,5],fs:80,top:735,col:'#fff'},
+ {ws:[6],fs:150,top:830,col:'#FFE14D'},
+ {ws:[7,8],fs:96,top:990,col:'#fff',emoji:true}];
+const hookEl=$('hook');
+hookEl.innerHTML=HOOK.map((l,li)=>`<div class="hl" id="hl${li}" style="top:${l.top}px;font-size:${l.fs}px">${l.ws.map(i=>{const w=W.find(x=>x.p===0&&x.i===i);return `<span class="w" data-i="${i}"><span class="s">${w.w.toUpperCase()}</span><span class="f" style="color:${l.col}">${w.w.toUpperCase()}</span></span>`}).join(' ')}${l.emoji?' <span class="w em" id="hookEmoji" style="font-size:.95em;vertical-align:-.06em">😳</span>':''}</div>`).join('');
+function drawHook(t){
+  const vis=t<2.18; hookEl.style.display=vis?'block':'none'; if(!vis) return;
+  const out=pr(t,1.98,2.18,E.inC);
+  hookEl.style.opacity=1-out;
+  hookEl.style.transform=`scale(${lerp(1,1.03,pr(t,0,2))*lerp(1,1.25,out)})`;
+  hookEl.querySelectorAll('.w[data-i]').forEach(el=>{const i=+el.dataset.i; const a=W.find(x=>x.p===0&&x.i===i).t-0.03;
+    if(t<a){el.style.opacity=0;return;}
+    const u=pr(t,a,a+0.16,E.outC); el.style.opacity=pr(t,a,a+0.05);
+    el.style.transform=`scale(${lerp(1.7,1,u)}) rotate(${(1-u)*-4}deg)`;});
+  const em=$('hookEmoji'); const ea=1.62;
+  if(t<ea){em.style.opacity=0}else{const u=pr(t,ea,ea+.3,E.outB);em.style.opacity=1;em.style.transform=`scale(${lerp(.2,1,u)}) rotate(${Math.sin((t-ea)*14)*8*(1-pr(t,ea,ea+.6))}deg)`;}
+}
+
+/* ---------------- per-scene animation ---------------- */
+function S1(t){drawS1(t); tf($('s1bg'),{s:lerp(1,1.08,pr(t,0,2.2))}); tf($('s1fx'),{s:lerp(1,1.1,pr(t,0,2.2))});}
+function S2(t){
+  const a=2.0;
+  const u=pr(t,a,a+0.55,E.outB);
+  tf($('s2hero'),{y:lerp(170,0,pr(t,a,a+0.45,E.outC)),s:lerp(.5,1,u)*lerp(1,1.05,pr(t,a+.5,4.3)),r:lerp(-7,0,pr(t,a,a+.5,E.outC))});
+  tf($('s2shadow'),{s:lerp(.4,1,pr(t,a,a+.5,E.outC)),o:pr(t,a,a+.4)});
+  tf($('s2glow'),{s:lerp(.6,1.05,pr(t,a,a+.8,E.outC))+0.03*Math.sin(t*3),o:pr(t,a,a+.5)});
+  tf($('s2rays'),{r:t*9,o:.55*pr(t,a,a+.6)});
+  const ta=wt(2,1)-0.06; pop($('s2title'),t,ta,{dy:-40,r0:-5,from:.3});
+}
+function S3(t){
+  const sa=P[3].s-0.1, da=P[4].s-0.08, st=wt(5,2)-0.05;
+  const join=pr(t,st-0.25,st+0.1,E.ioC);
+  tf($('s3sensor'),{x:lerp(-640,0,pr(t,sa,sa+.42,E.outC))+join*40,y:Math.sin(t*1.6)*6,r:lerp(-8,0,pr(t,sa,sa+.42,E.outC))});
+  tf($('s3display'),{x:lerp(760,0,pr(t,da,da+.42,E.outC))-join*40,y:Math.sin(t*1.6+1)*6,r:lerp(8,0,pr(t,da,da+.42,E.outC))});
+  pop($('s3chipA'),t,wt(3,1)-0.05,{dx:-40});
+  pop($('s3chipB'),t,wt(4,4)-0.05,{dx:40});
+  const fadeChips=pr(t,st-0.2,st+0.05);
+  if(t>st-0.2){$('s3chipA').style.opacity=1-fadeChips;$('s3chipB').style.opacity=1-fadeChips;}
+  // stamp slam
+  const el=$('s3stamp');
+  if(t<st){tf(el,{o:0,s:2.4});}else{const u=pr(t,st,st+.32,E.outB);tf(el,{s:lerp(2.4,1,u)*(1+0.02*Math.sin((t-st)*5)),r:lerp(-28,-10,u),o:pr(t,st,st+.08)});}
+}
+function S4(t){
+  drawS4(t,t-8.5);
+  const a=8.5;
+  tf($('s4sensor'),{y:lerp(520,0,pr(t,a,a+.5,E.outC))+Math.sin(t*1.4)*9,r:lerp(6,0,pr(t,a,a+.5,E.outC))+Math.sin(t*1.1)*.6});
+  const uvOn=pr(t,wt(8,1)-.1,wt(8,1)+.4,E.outC), lumOn=pr(t,wt(9,2)-.1,wt(9,2)+.4,E.outC);
+  tf($('s4sun'),{s:1+.18*uvOn+.22*lumOn+.03*Math.sin(t*3),o:.85+.15*uvOn});
+  tf($('s4rays'),{r:t*12,o:.15+.55*Math.max(uvOn,lumOn)});
+  pop($('s4tag'),t,P[6].s-0.05,{dx:-60,r0:0});
+  const c1=wt(6,4)-0.06,c2=wt(7,1)-0.06,c3=wt(8,1)-0.06,c4=wt(9,2)-0.06;
+  pop($('s4c1'),t,c1,{dx:60});pop($('s4c2'),t,c2,{dx:60});pop($('s4c3'),t,c3,{dx:60});pop($('s4c4'),t,c4,{dx:60});
+  const L=(id,dot,a,len)=>{const p=$(id),d=$(dot),u=pr(t,a+.08,a+.35,E.outC);p.setAttribute('stroke-dasharray',`${len*u} ${len}`);p.style.opacity=u>0?1:0;d.setAttribute('opacity',pr(t,a+.3,a+.4));};
+  L('s4l1','s4d1',c1,252);L('s4l2','s4d2',c2,98);
+}
+function S5(t){
+  drawS5(t);
+  const a=12.43;
+  tf($('s5display'),{y:lerp(560,0,pr(t,a,a+.5,E.outC))+Math.sin(t*1.5)*7,s:lerp(.9,1,pr(t,a,a+.5,E.outC))*lerp(1,1.04,pr(t,a+.5,17.3))});
+  tf($('s5shadow'),{o:pr(t,a+.2,a+.6),s:1+Math.sin(t*1.5)*.02});
+  pop($('s5tag'),t,P[10].s-0.05,{dx:-60,r0:0});
+  pop($('s5c1'),t,wt(11,3)-0.06,{dx:-80});
+  pop($('s5c2'),t,wt(12,1)-0.06,{dx:-80});
+  pop($('s5c3'),t,wt(13,2)-0.06,{dx:-80});
+  pop($('s5live'),t,wt(14,0)-0.04,{dy:-30,r0:4});
+  $('s5dot').style.opacity=(0.35+0.65*(0.5+0.5*Math.cos((t-16.3)*9))).toFixed(3);
+}
+function S6(t){
+  const a=17.24,b=21.09;
+  const z=pr(t,a,b,E.ioS);
+  const k=lerp(.80,1.18,z)*(1-0.012*Math.exp(-Math.pow((t-tapT)/.08,2)));
+  const cx=664,cy=344; const tx=540+lerp(0,-40,z), ty=lerp(860,827,z);
+  const L=tx-cx*k, T=ty-cy*k;
+  const img=$('s6display'); img.style.transform=`translate(${L.toFixed(2)}px,${T.toFixed(2)}px) scale(${k.toFixed(4)})`;
+  // tap on the compass (1x 318,150 -> @2x 636,300)
+  const px=L+636*k, py=T+300*k;
+  const hand=$('s6hand');
+  const ha=tapT-0.42;
+  if(t<ha){hand.style.opacity=0}else{
+    const u=pr(t,ha,tapT,E.outC), back=pr(t,tapT+.25,tapT+.6,E.inC);
+    const hx=lerp(px+330,px-38,u)+back*260, hy=lerp(py+520,py-8,u)+back*300;
+    hand.style.opacity=(1-back).toFixed(3);
+    const press=Math.exp(-Math.pow((t-tapT)/.06,2));
+    hand.style.transform=`translate(${hx.toFixed(1)}px,${hy.toFixed(1)}px) rotate(${-12+8*u}deg) scale(${1-0.1*press})`;}
+  const rp=$('s6ripple'); let html='';
+  for(let j=0;j<3;j++){const ra=tapT+j*.12; if(t<ra) continue; const u=pr(t,ra,ra+.7,E.outC); const R=lerp(10,170,u);
+    html+=`<div style="position:absolute;left:${(px-R).toFixed(1)}px;top:${(py-R).toFixed(1)}px;width:${(2*R).toFixed(1)}px;height:${(2*R).toFixed(1)}px;border-radius:50%;border:${(8*(1-u)+2).toFixed(1)}px solid rgba(255,255,255,${(.9*(1-u)).toFixed(3)})"></div>`;}
+  rp.innerHTML=html;
+  const c1=$('s6c1'),c2=$('s6c2');
+  c1.style.left=(540-c1.offsetWidth/2)+'px'; c2.style.left=(540-c2.offsetWidth/2)+'px';
+  pop(c1,t,wt(15,4)-0.06,{dy:-40}); pop(c2,t,wt(16,2)-0.06,{dy:-40});
+}
+let tapT=0;
+function S7(t){
+  drawS7(t);
+  const bA=wt(17,3)-0.06, al=wt(18,1)-0.08;
+  const shake=t>al?Math.exp(-(t-al)*4)*Math.sin((t-al)*55)*10:0;
+  tf($('s7display'),{x:shake,y:Math.sin(t*1.3)*6,s:lerp(1,1.04,pr(t,21.1,23.7))});
+  pop($('s7banner'),t,bA,{dy:-50,r0:-3,from:.3});
+  if(t>bA+.4){$('s7banner').style.transform+=` scale(${1+.035*Math.sin((t-bA)*12)})`;}
+  $('s7pulse').style.opacity=(t<bA?0.25*pr(t,21.2,bA):0.55+0.45*Math.sin((t-bA)*9)*Math.sin((t-bA)*9)).toFixed(3);
+  let html='';
+  if(t>al){for(let j=0;j<4;j++){const ra=al+j*.28; if(t<ra) continue; const u=pr(t,ra,ra+.9,E.outC); const R=lerp(300,760,u);
+    html+=`<div style="position:absolute;left:${-R}px;top:${-R*.72}px;width:${2*R}px;height:${1.44*R}px;border-radius:50%;border:${(10*(1-u)+2).toFixed(1)}px solid rgba(255,70,55,${(.8*(1-u)).toFixed(3)})"></div>`;}}
+  $('s7rings').innerHTML=html;
+}
+function S8(t){
+  const a=23.62;
+  const u=pr(t,a,a+.55,E.outB);
+  tf($('s8phone'),{y:lerp(900,0,pr(t,a,a+.5,E.outC))+Math.sin(t*1.4)*6,r:lerp(14,3,u)+Math.sin(t*1.1)*.5,s:lerp(.8,1,u)});
+  tf($('s8display'),{x:lerp(-460,0,pr(t,a+.05,a+.45,E.outC)),y:Math.sin(t*1.4+1)*5});
+  // wifi arcs from display (400,1010) toward phone
+  let svg='';
+  for(let j=0;j<4;j++){const ph=((t-a-0.4)*1.4+j*.25)%1; if(t<a+.4+j*.18) continue;
+    const r=40+ph*190, op=(1-ph)*.9;
+    svg+=`<path d="M ${380+r*Math.cos(-1.25)} ${1030+r*Math.sin(-1.25)} A ${r} ${r} 0 0 1 ${380+r*Math.cos(-0.15)} ${1030+r*Math.sin(-0.15)}" stroke="rgba(255,122,0,${op.toFixed(3)})" stroke-width="12" fill="none" stroke-linecap="round"/>`;}
+  $('s8wifi').innerHTML=svg;
+  const ch=$('s8chart'); const len=520; const cu=pr(t,a+.5,a+1.6,E.outC); ch.setAttribute('stroke-dasharray',`${len*cu} ${len}`);
+  const c1=$('s8c1'); c1.style.left=(540-c1.offsetWidth/2)+'px'; pop(c1,t,P[20].s-0.05,{dy:-40});
+}
+function S9(t){
+  const a=26.27;
+  tf($('s9hero'),{y:lerp(380,0,pr(t,a,a+.5,E.outC))+Math.sin(t*1.5)*6,s:lerp(.6,1,pr(t,a,a+.6,E.outB))*lerp(1,1.05,pr(t,a+.6,DUR))});
+  tf($('s9shadow'),{o:pr(t,a+.2,a+.6)});
+  pop($('s9title'),t,a+0.02,{dy:-80,r0:-3,from:.5});
+  pop($('s9sub'),t,a+0.18,{dy:-30,r0:0,from:.8});
+  tf($('s9rays'),{r:t*8});
+  tf($('s9shine'),{x:lerp(0,2100,pr(t,a+.7,a+1.5,E.ioS))});
+  const ca=wt(21,4)-0.08; pop($('s9cta'),t,ca,{dy:60,r0:0,from:.5});
+  if(t>ca+.4){$('s9cta').style.transform+=` translateY(${(Math.abs(Math.sin((t-ca)*5.5))*-10).toFixed(1)}px)`;}
+}
+const RUN=[S1,S2,S3,S4,S5,S6,S7,S8,S9];
+
+/* ---------------- main ---------------- */
+function renderFrame(t){
+  tapT=wt(15,5)+0.05;
+  // handheld camera drift on the whole world
+  const sx=3.2*Math.sin(t*2*Math.PI*.37)+1.6*Math.sin(t*2*Math.PI*1.13+1.3);
+  const sy=2.6*Math.sin(t*2*Math.PI*.29+2.1)+1.4*Math.sin(t*2*Math.PI*.97);
+  const sr=.22*Math.sin(t*2*Math.PI*.23+.5);
+  $('world').style.transform=`translate(${sx.toFixed(2)}px,${sy.toFixed(2)}px) rotate(${sr.toFixed(3)}deg)`;
+  SC.forEach((sc,i)=>{
+    const el=$(sc.id), st=sceneState(i,t);
+    if(!st){el.style.visibility='hidden';return;}
+    el.style.visibility='visible'; el.style.zIndex=i+1;
+    el.style.opacity=st.o.toFixed(3);
+    el.style.transform=`scale(${st.s.toFixed(4)})`;
+    el.style.filter=st.bl>0.05?`blur(${st.bl.toFixed(2)}px)`:'none';
+    RUN[i](t);
+  });
+  drawHook(t);
+  drawCaptions(t);
+  // flash on reveal and on the 2en1 stamp
+  const st=wt(5,2)-0.05;
+  const fl=Math.max(Math.exp(-Math.pow((t-2.02)/.09,2))*.95*(t>=1.95?1:0), Math.exp(-Math.pow((t-st-0.02)/.06,2))*.35);
+  $('flash').style.opacity=fl.toFixed(3);
+}
+window.renderFrame=renderFrame;
+window.DUR=DUR;
+window.ready=Promise.all([document.fonts.load('900 80px Montserrat'),document.fonts.load('800 44px Montserrat'),document.fonts.load('600 25px Montserrat'),document.fonts.load('48px "Noto Color Emoji"'),
+  ...[...document.images].map(im=>im.decode().catch(()=>{}))]).then(()=>document.fonts.ready).then(()=>{renderFrame(0);return true;});
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "temtop-w100-ugc-ad",
+  "private": true,
+  "description": "Frame-accurate renderer for the Temtop W100 UGC ad (HTML composition -> MP4)",
+  "scripts": { "build": "bash build.sh" },
+  "dependencies": { "playwright-core": "1.56.1" }
+}
