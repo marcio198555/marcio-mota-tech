@@ -10,8 +10,7 @@ C, ST = S + '/clips/', S + '/stock/'
 
 # (t0, t1, source, in_point, zoom_from, zoom_to, center_x, center_y, punch, crop_center_x_for_landscape)
 SHOTS = [
-    (0.00, 2.30, C + 'P_hook.mp4', 0.00, 1.00, 1.00, .50, .50, False, None),         # presenter, selfie
-    (2.30, 3.55, ST + 'dustB.mp4', 0.40, 1.00, 1.08, .55, .55, True, None),          # "l'air de mon appart"
+    (0.00, 3.55, C + 'P_hook.mp4', 0.00, 1.00, 1.00, .50, .50, False, None),         # presenter talking, selfie
     (3.55, 5.05, C + 'K04_aq_cook.mp4', 2.20, 1.00, 1.05, .50, .55, True, None),     # red reading: "scotché"
     (5.05, 7.10, C + 'K04_home.mp4', 0.00, 1.00, 1.04, .50, .58, True, None),        # reveal, home screen
     (7.10, 8.35, C + 'K03_par.mp4', 0.20, 1.00, 1.03, .50, .45, True, None),         # outdoor sensor

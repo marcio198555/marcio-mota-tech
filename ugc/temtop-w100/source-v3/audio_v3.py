@@ -160,7 +160,7 @@ def bed(x, t0, t1, gain, fi=0.1, fo=0.1):
     place(amb, x * fade(len(x), fi, fo)[:, None], t0, gain)
 
 # ---------------------------------------------------------------- ambience / foley per shot
-bed(noise_bed(2.3, 120, 900, 50, 0.2) * 0.02, 0.0, 2.30, 1.0, 0.05, 0.1)                  # quiet living room
+bed(noise_bed(3.6, 120, 900, 50, 0.2) * 0.02, 0.0, 3.55, 1.0, 0.05, 0.1)                  # quiet living room
 bed(wind(1.3, 11), 7.10, 8.35, 0.05, 0.12, 0.1)                                           # alpine sensor
 bed(read_wav(A + 'k05.wav'), 10.30, 13.00, 2.2, 0.05, 0.25)                               # real rain + wind of the K05 shot
 bed(wind(3.5, 12), 13.00, 16.40, 0.06, 0.2, 0.2)                                          # above the clouds
@@ -179,7 +179,7 @@ bed(typ, 37.45, 39.10, 0.55, 0.04, 0.2)                                         
 sfx = np.zeros((N, 2))
 place(sfx, riser(1.5), DROP_VIDEO - 1.5, 1.0)
 place(sfx, impact(), DROP_VIDEO, 0.8); place(sfx, crash(), DROP_VIDEO, 0.4)
-for kk, tc in enumerate([2.30, 7.10, 10.30, 16.40, 20.15, 29.85, 31.40, 35.95, 37.45, 45.15, 47.95]):
+for kk, tc in enumerate([7.10, 10.30, 16.40, 20.15, 29.85, 31.40, 35.95, 37.45, 45.15, 47.95]):
     place(sfx, whoosh(0.42, seed=kk + 1), tc - 0.22, 0.38)
 for kk, tc in enumerate([41.25, 43.25]):                                                  # page swipes on the display
     place(sfx, whoosh(0.3, 600, 5200, seed=30 + kk), tc - 0.12, 0.3)

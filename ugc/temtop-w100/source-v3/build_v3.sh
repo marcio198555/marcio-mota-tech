@@ -38,9 +38,13 @@ python3 screen/screen_replace_occ.py $V2/K07_par.mp4 $U/frames_home_morning clip
 cp $V2/K03_par.mp4 $V2/K05_omni.mp4 clips/
 python3 ../source-v2/parallax.py ../source-v2/kf/K03.jpg clips/K03_par4.mp4 4.0 30 orbit
 
-# 3. presenter: exact screen + blinks + handheld 2.5D camera
-python3 screen/presenter.py kf/m_kf01.png kf/m_kf01_quad.npy $U/frames_home_morning/f_0000.png clips/P_hook.mp4 3.0 30 1.05 '[[222,492,31,11,11],[362,505,31,11,11]]' 0.07
-python3 screen/presenter.py kf/m_kf02_cta.png kf/m_kf02_cta_quad.npy $U/frames_home_morning/f_0000.png clips/P_cta.mp4 3.6 30 1.55 '[[228,491,33,13,13],[370,504,30,12,12]]' 0.06
+# 3. presenter: the talking heads from LeapTalk (talk/*.mp4, see CREDITS.md) go back into the keyframes with the
+#    exact screen and the handheld camera; the W100 floating under the pointing finger is removed first
+python3 screen/clean_plate.py kf/m_kf02_cta.png kf/m_kf02_cta_clean.png '[[528,1031],[750,1050],[752,1262],[512,1232]]' \
+  '[[0,940],[515,940],[515,1376],[0,1376]]'
+python3 screen/talking.py kf/m_kf01.png kf/m_kf01_quad.npy $U/frames_home_morning/f_0000.png talk/lt_hook.mp4 0,180,620 -0.25 \
+  clips/P_hook.mp4 3.55 30 '[[419,580],[733,577],[750,598],[743,700],[708,882],[377,830],[371,808],[411,592]]' 0.07
+python3 screen/talking.py kf/m_kf02_cta_clean.png - - talk/lt_cta.mp4 0,180,620 0.065 clips/P_cta.mp4 3.5 30 - 0.06
 
 # 4. edit, motion graphics, sound, final picture
 python3 build_base_v3.py

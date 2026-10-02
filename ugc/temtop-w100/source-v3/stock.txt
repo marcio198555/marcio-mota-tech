@@ -4,5 +4,4 @@ pan     https://videos.pexels.com/video-files/12837557/12837557-hd_1080_1920_25f
 window2 https://videos.pexels.com/video-files/9902447/9902447-uhd_4096_2160_25fps.mp4
 typing  https://videos.pexels.com/video-files/7967182/7967182-hd_1080_1920_25fps.mp4
 phone   https://videos.pexels.com/video-files/4333086/4333086-uhd_3840_2160_25fps.mp4
-dustB   https://videos.pexels.com/video-files/39513793/16833679_1080_1920_24fps.mp4
 sun     https://videos.pexels.com/video-files/12279773/12279773-hd_1080_1920_60fps.mp4

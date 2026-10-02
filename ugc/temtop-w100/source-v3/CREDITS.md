@@ -10,11 +10,22 @@
 
 ## Le présentateur
 
-- Deux images clés générées par IA (`kf/`) avec Nano Banana 2 Edit (Cloudinary) : `m_kf01` (selfie avec la W100) et `m_kf02_cta` (il pointe vers le lien).
-- Animation locale (`screen/presenter.py`) :
-  - écran exact incrusté ;
-  - clignements des yeux ;
-  - caméra de selfie tenue à la main en 2,5D (profondeur Depth Anything V2).
+- **Images clés** (`kf/`) : deux images générées par IA avec Nano Banana 2 Edit (Cloudinary) :
+  - `m_kf01` : selfie avec la W100 ;
+  - `m_kf02_cta` : il pointe vers le lien.
+  - Dans `m_kf02_cta_clean.png`, la W100 qui flottait sous son doigt a été effacée (`screen/clean_plate.py`, remplissage de l'arrière-plan flou).
+- **Il parle** grâce à [LeapTalk](https://huggingface.co/z-rx/leaptalk), via le Space Hugging Face gratuit [`hugging-apps/leaptalk-talking-head`](https://huggingface.co/spaces/hugging-apps/leaptalk-talking-head). Le modèle repose sur SoulX-FlashHead 1.3B et wav2vec2, tous sous licence Apache-2.0.
+  - Entrées : le carré 620×620 en (0, 180) de chaque image clé et la voix off. Pour l'accroche, la voix est prise depuis le début (max_seconds 3,4). Pour la fin, l'extrait va de 47,70 à 50,90 s (max_seconds 3,3).
+  - Réglages : 1 pas, guidance 1,0, seed 42, recadrage du visage désactivé.
+  - Sorties : `talk/lt_hook.mp4` et `talk/lt_cta.mp4`, en 512×512 et 25 i/s.
+  - Le Space a été appelé par son API Gradio (`/gradio_api/call/v2/generate`).
+- **Intégration** (`screen/talking.py`) :
+  - le visage animé est recollé en pleine résolution, avec une couleur ajustée sur l'image clé ;
+  - l'écran exact de la W100 est incrusté, et l'appareil reste rigide dans la main ;
+  - autour du carré généré, le corps suit les mouvements de la tête : le flux optique est prolongé avec une atténuation, sans couture ;
+  - les images sont recalées de 25 à 30 i/s par interpolation de mouvement ;
+  - la synchro lèvres/voix est vérifiée à une image près ;
+  - la caméra de selfie tenue à la main est simulée en 2,5D (profondeur Depth Anything V2).
 - C'est une personne fictive, générée par IA : il faut le signaler (étiquette « contenu généré par IA »).
 
 ## Plans réels (Pexels)
@@ -28,7 +39,6 @@
 | `window2` | Homme de dos qui ouvre la fenêtre | Ron Lach | https://www.pexels.com/video/back-view-of-a-man-opening-a-window-9902447/ |
 | `typing` | Mains qui tapent sur un portable | Darlene Alderson | https://www.pexels.com/video/man-typing-on-the-laptop-on-his-desk-7967182/ |
 | `phone` | Main d'homme avec un smartphone | Ketut Subiyanto | https://www.pexels.com/video/close-up-shot-of-a-man-s-hand-using-a-phone-4333086/ |
-| `dustB` | Poussière dans un rayon de soleil | Havvanur Akın | https://www.pexels.com/video/ethereal-dust-particles-in-sunbeam-39513793/ |
 | `sun` | Soleil au-dessus des nuages | Altaf Shah | https://www.pexels.com/video/sun-and-clouds-12279773/ |
 
 ## Son
