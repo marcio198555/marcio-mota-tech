@@ -3,6 +3,7 @@
 | Version | Vidéo | Couverture | Style |
 |---|---|---|---|
 | **v3 (recommandée)** | [`temtop-w100-ugc-v3-9x16.mp4`](temtop-w100-ugc-v3-9x16.mp4) | [`cover-v3.jpg`](cover-v3.jpg) | 54 s. Un présentateur homme qui parle face caméra (lèvres synchronisées sur la voix), de vrais plans d'un homme en action, et les vrais écrans de la W100 reconstitués d'après le manuel |
+| v3 sans avatar | [`temtop-w100-ugc-v3-sans-avatar-9x16.mp4`](temtop-w100-ugc-v3-sans-avatar-9x16.mp4) | [`cover-v3.jpg`](cover-v3.jpg) | 54 s. La même pub, sans présentateur IA. Au début, l'écran météo puis la poussière dans un rayon de soleil. À la fin, l'écran qualité de l'air au vert |
 | v2 | [`temtop-w100-ugc-v2-9x16.mp4`](temtop-w100-ugc-v2-9x16.mp4) | [`cover-v2.jpg`](cover-v2.jpg) | 29 s. Vrais plans vidéo : le produit en situation (plans IA réalistes) et des scènes de vie (Pexels), avec bruitages réels |
 | v1 | [`temtop-w100-ugc-9x16.mp4`](temtop-w100-ugc-9x16.mp4) | [`cover.jpg`](cover.jpg) | 29 s. Motion design animé à partir des photos du produit |
 
@@ -18,7 +19,7 @@ Caractéristiques communes aux versions :
 
 | Temps | Voix off | Image |
 |---|---|---|
-| 0:00 | Je pensais acheter une simple station météo… et en fait, c'est l'air de mon appart qui m'a scotché. | Le présentateur parle face caméra, la W100 à la main, puis une mesure PM2.5 en rouge |
+| 0:00 | Je pensais acheter une simple station météo… et en fait, c'est l'air de mon appart qui m'a scotché. | Le présentateur parle face caméra, la W100 à la main, puis une mesure PM2.5 en rouge. Sans avatar : l'écran météo, puis la poussière dans un rayon de soleil |
 | 0:05 | Voici la Temtop W100 : un capteur pour l'extérieur, et un écran tactile pour l'intérieur. | Révélation sur le drop de la musique, capteur dans les Alpes, doigt sur l'écran |
 | 0:10 | Dehors, le capteur mesure le vent et sa direction, la pluie, les UV, la luminosité et la pression. | Capteur sous la pluie, ciel, pastilles des 6 mesures |
 | 0:16 | Et il envoie tout à l'écran sans fil, jusqu'à mille mètres en terrain dégagé. | Écran partagé entre le capteur et l'écran, liaison LoRa animée, « 1000 m* » |
@@ -27,7 +28,7 @@ Caractéristiques communes aux versions :
 | 0:31 | Quand je cuisine, les particules grimpent : j'ai réglé un seuil, l'écran bipe… et j'ouvre la fenêtre. | Wok, PM2.5 qui monte, réglage du seuil à 25 µg/m³, alarme, fenêtre ouverte |
 | 0:37 | En télétravail, quand le CO2 monte, je sais qu'il est temps d'aérer. | Clavier, CO₂ qui passe au rouge (> 1 500 ppm) avec l'icône d'alarme |
 | 0:41 | Il garde l'historique jour par jour, affiche la météo des sept prochains jours… et en wifi, je vois tout dans l'appli Temtop. | Historique PM2.5, prévisions à 7 jours (Lausanne), téléphone |
-| 0:48 | Arrête de deviner ce que tu respires. Le lien est juste en dessous ! | Le présentateur, face caméra, pointe vers le bouton « Lien juste en dessous », puis la carte de fin |
+| 0:48 | Arrête de deviner ce que tu respires. Le lien est juste en dessous ! | Le présentateur, face caméra, pointe vers le bouton « Lien juste en dessous », puis la carte de fin. Sans avatar : l'écran qualité de l'air au vert, avec le bouton sous l'appareil |
 
 Chaque fonction citée vient de la fiche produit ou du manuel officiels.
 - Le capteur extérieur mesure la pluie, les UV, la vitesse et la direction du vent, la luminosité et la pression.
@@ -47,6 +48,7 @@ Les écrans montrés sont des répliques des vraies pages de l'appareil (manuel 
   - Ses lèvres, ses dents, ses clignements et les mouvements de sa tête sont générés à partir de la voix off par LeapTalk (licence Apache-2.0, usage commercial permis).
   - Le visage animé est recollé en pleine résolution sur l'image, avec l'écran exact de la W100.
   - Active l'étiquette « contenu généré par IA » sur TikTok et YouTube.
+- **Version sans avatar** : aucune personne générée par IA. Les plans du produit restent des images IA réalistes, comme en v2.
 - **Plans Pexels** : on y voit surtout des mains, des dos ou des silhouettes. Le coureur est de profil, à contre-jour. La licence interdit de faire croire qu'une personne filmée recommande le produit. Pour une pub sponsorisée, le plus sûr reste tes propres images.
 - **Voix et musique ElevenLabs** : l'usage commercial exige un abonnement payant.
 - Sources détaillées et crédits : [`source-v3/CREDITS.md`](source-v3/CREDITS.md). Reconstruction : `source-v3/build_v3.sh`.

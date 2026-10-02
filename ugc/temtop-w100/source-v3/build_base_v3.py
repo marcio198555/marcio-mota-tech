@@ -1,7 +1,7 @@
 # Footage track of the v3 ad (pictures only, no text): every shot is decoded at 30 fps, cropped to
 # 1080x1920 (landscape stock is cropped to a 9:16 window around the subject), given a slow zoom and a
 # short punch-in on the cut, and written in order to work/base_v3.mp4.
-import os, subprocess, numpy as np, cv2
+import os, sys, subprocess, numpy as np, cv2
 
 S = os.path.dirname(os.path.abspath(__file__))
 os.makedirs(S + '/work', exist_ok=True)
@@ -36,6 +36,13 @@ SHOTS = [
     (51.40, 54.00, 'BLUR:' + C + 'K04_home.mp4', 0.30, 1.10, 1.20, .50, .55, False, None),  # end card backdrop
 ]
 
+# Same edit without the AI presenter (python3 build_base_v3.py noavatar): product and ambience shots instead.
+NOAV = sys.argv[1:] == ['noavatar']
+if NOAV:
+    SHOTS[0:1] = [(0.00, 2.30, C + 'K04z_home.mp4', 1.60, 1.00, 1.07, .50, .55, False, None),  # the weather screen
+                  (2.30, 3.55, ST + 'dustB.mp4', 0.40, 1.00, 1.08, .55, .55, True, None)]       # "l'air de mon appart"
+    SHOTS[-2] = (47.95, 51.40, C + 'K04_aq_good.mp4', 0.30, 1.00, 1.08, .50, .58, True, None)  # green air: "arrête de deviner"
+
 
 def decode(src, t_in, n, crop_cx=None):
     """n frames at 30 fps from src starting at t_in, as 1080x1920. crop_cx: 9:16 window centre (fraction of
@@ -64,7 +71,7 @@ def zoomed(img, z, cx, cy):
 
 
 enc = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
-                        '-c:v', 'libx264', '-preset', 'slow', '-crf', '14', '-pix_fmt', 'yuv420p', S + '/work/base_v3.mp4'], stdin=subprocess.PIPE)
+                        '-c:v', 'libx264', '-preset', 'slow', '-crf', '14', '-pix_fmt', 'yuv420p', S + ('/work/base_v3_noavatar.mp4' if NOAV else '/work/base_v3.mp4')], stdin=subprocess.PIPE)
 total = 0
 for (t0, t1, src, tin, z0, z1, cx, cy, punch, ccx) in SHOTS:
     n = int(round(t1 * FPS)) - int(round(t0 * FPS))

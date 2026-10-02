@@ -15,7 +15,8 @@ async function open(html) {
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
   page.on('console', (m) => { if (m.type() === 'error') console.error('[page]', m.text()); });
   page.on('pageerror', (e) => console.error('[pageerror]', e.message));
-  await page.goto('file://' + path.resolve(html));
+  const [file, query] = html.split('?');                     // e.g. overlay/index.html?noavatar
+  await page.goto('file://' + path.resolve(file) + (query ? '?' + query : ''));
   await page.waitForFunction(() => window.ready !== undefined);
   await page.evaluate(() => window.ready);
   return { browser, page };

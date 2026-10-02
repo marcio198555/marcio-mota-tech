@@ -25,6 +25,7 @@ ffmpeg -v error -y -i clips/K04_omni_1080.mp4 -vf "crop=636:1130:242:550,scale=1
 ffmpeg -v error -y -i clips/K04_omni_1080.mp4 -vf "crop=490:872:315:679,scale=1080:1920:flags=lanczos" clips/k04_z2.2.mp4
 R=screen/screen_replace.py; U=screen/ui
 python3 $R clips/K04_omni_1080.mp4 $U/frames_aq_cook clips/K04_aq_cook.mp4
+python3 $R clips/K04_omni_1080.mp4 $U/frames_aq_good clips/K04_aq_good.mp4          # CTA of the version without avatar
 python3 $R clips/K04_omni_1080.mp4 $U/frames_home_morning clips/K04_home.mp4
 python3 $R clips/k04_z1.7.mp4 $U/frames_home_morning clips/K04z_home.mp4
 python3 $R clips/k04_z1.7.mp4 $U/frames_aq_good clips/K04z_aq_good.mp4
@@ -58,3 +59,10 @@ ffmpeg -v error -y -ss 1.0 -t 1.4 -i stock/pan.mp4 -vn -ar 48000 -ac 2 audio/pan
 python3 audio_v3.py
 bash master.sh work/mix_pre.wav work/mix_master.wav
 python3 composite_v3.py ../temtop-w100-ugc-v3-9x16.mp4
+
+# 5. the same ad without the AI presenter (product and ambience shots instead of the two presenter shots)
+python3 build_base_v3.py noavatar
+node render_ov.js frames 'overlay/index.html?noavatar' work/oframes_noavatar 30 0 1620
+python3 audio_v3.py noavatar
+bash master.sh work/mix_pre_noavatar.wav work/mix_master_noavatar.wav
+python3 composite_v3.py ../temtop-w100-ugc-v3-sans-avatar-9x16.mp4 noavatar

@@ -27,6 +27,10 @@
   - la synchro lèvres/voix est vérifiée à une image près ;
   - la caméra de selfie tenue à la main est simulée en 2,5D (profondeur Depth Anything V2).
 - C'est une personne fictive, générée par IA : il faut le signaler (étiquette « contenu généré par IA »).
+- **Version sans avatar** (`build_base_v3.py noavatar`) : les deux plans du présentateur sont remplacés.
+  - Au début : l'écran météo (`K04z_home`), puis la poussière dans un rayon de soleil (`dustB`).
+  - À la fin : l'écran qualité de l'air au vert, en plan large (`K04_aq_good`).
+  - La voix, la musique et les sous-titres sont les mêmes.
 
 ## Plans réels (Pexels)
 
@@ -40,6 +44,7 @@
 | `typing` | Mains qui tapent sur un portable | Darlene Alderson | https://www.pexels.com/video/man-typing-on-the-laptop-on-his-desk-7967182/ |
 | `phone` | Main d'homme avec un smartphone | Ketut Subiyanto | https://www.pexels.com/video/close-up-shot-of-a-man-s-hand-using-a-phone-4333086/ |
 | `sun` | Soleil au-dessus des nuages | Altaf Shah | https://www.pexels.com/video/sun-and-clouds-12279773/ |
+| `dustB` | Poussière dans un rayon de soleil (version sans avatar) | Havvanur Akın | https://www.pexels.com/video/ethereal-dust-particles-in-sunbeam-39513793/ |
 
 ## Son
 

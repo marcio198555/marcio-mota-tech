@@ -2,7 +2,7 @@
 # lands on the product reveal and whose real final hit lands on the end card, plus foley/ambience
 # matched to every shot (ElevenLabs SFX, the stock clips' own sound, and light synthesis).
 # Writes work/mix_pre.wav (stereo 48 kHz); mastering to -14 LUFS is done by master.sh.
-import json, wave, os
+import json, wave, os, sys
 import numpy as np
 from scipy import signal
 
@@ -11,6 +11,7 @@ A = S + '/audio/'
 SR, DUR = 48000, 54.0
 N = int(SR * DUR)
 VO_OFFSET = 0.25
+NOAV = sys.argv[1:] == ['noavatar']                     # edit without the AI presenter: one more cut at 2.30
 rng = np.random.default_rng(42)
 TL = json.load(open(S + '/timeline_v3.json'))['words']
 wt = lambda p, i: next(w['t'] for w in TL if w['p'] == p and w['i'] == i) + VO_OFFSET
@@ -179,7 +180,7 @@ bed(typ, 37.45, 39.10, 0.55, 0.04, 0.2)                                         
 sfx = np.zeros((N, 2))
 place(sfx, riser(1.5), DROP_VIDEO - 1.5, 1.0)
 place(sfx, impact(), DROP_VIDEO, 0.8); place(sfx, crash(), DROP_VIDEO, 0.4)
-for kk, tc in enumerate([7.10, 10.30, 16.40, 20.15, 29.85, 31.40, 35.95, 37.45, 45.15, 47.95]):
+for kk, tc in enumerate([2.30] * NOAV + [7.10, 10.30, 16.40, 20.15, 29.85, 31.40, 35.95, 37.45, 45.15, 47.95]):
     place(sfx, whoosh(0.42, seed=kk + 1), tc - 0.22, 0.38)
 for kk, tc in enumerate([41.25, 43.25]):                                                  # page swipes on the display
     place(sfx, whoosh(0.3, 600, 5200, seed=30 + kk), tc - 0.12, 0.3)
@@ -223,6 +224,7 @@ print('vo rms %.1f dB, music rms %.1f dB, music gain %.3f, peak %.2f' % (vo_rms,
 for name, x in (('vo', vo_st), ('music', music * music_gain * duck[:, None]), ('sfx', sfx * SFX_GAIN), ('amb', amb * AMB_GAIN)):
     xs = x[np.abs(x).sum(1) > 1e-5]
     print('  stem %-5s rms %.1f dB' % (name, rms_db(xs) if len(xs) else -99))
-w = wave.open(S + '/work/mix_pre.wav', 'wb'); w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)
+OUT = S + ('/work/mix_pre_noavatar.wav' if NOAV else '/work/mix_pre.wav')
+w = wave.open(OUT, 'wb'); w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)
 w.writeframes((np.clip(mix, -1, 1) * 32767).astype(np.int16).tobytes()); w.close()
-print('written work/mix_pre.wav')
+print('written', OUT)
