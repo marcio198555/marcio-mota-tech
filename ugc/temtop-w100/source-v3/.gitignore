@@ -1,0 +1,7 @@
+clips/
+stock/
+work/
+models/
+node_modules/
+audio/*.wav
+screen/ui/frames_*/

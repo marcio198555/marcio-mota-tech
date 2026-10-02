@@ -2,16 +2,53 @@
 
 | Version | Vidéo | Couverture | Style |
 |---|---|---|---|
-| **v2 (recommandée)** | [`temtop-w100-ugc-v2-9x16.mp4`](temtop-w100-ugc-v2-9x16.mp4) | [`cover-v2.jpg`](cover-v2.jpg) | Vrais plans vidéo : le produit en situation (plans IA réalistes) et des scènes de vie (Pexels), avec bruitages réels |
-| v1 | [`temtop-w100-ugc-9x16.mp4`](temtop-w100-ugc-9x16.mp4) | [`cover.jpg`](cover.jpg) | Motion design animé à partir des photos du produit |
+| **v3 (recommandée)** | [`temtop-w100-ugc-v3-9x16.mp4`](temtop-w100-ugc-v3-9x16.mp4) | [`cover-v3.jpg`](cover-v3.jpg) | 54 s. Un présentateur homme, une voix d'homme, de vrais plans d'un homme en action, et les vrais écrans de la W100 reconstitués d'après le manuel |
+| v2 | [`temtop-w100-ugc-v2-9x16.mp4`](temtop-w100-ugc-v2-9x16.mp4) | [`cover-v2.jpg`](cover-v2.jpg) | 29 s. Vrais plans vidéo : le produit en situation (plans IA réalistes) et des scènes de vie (Pexels), avec bruitages réels |
+| v1 | [`temtop-w100-ugc-9x16.mp4`](temtop-w100-ugc-9x16.mp4) | [`cover.jpg`](cover.jpg) | 29 s. Motion design animé à partir des photos du produit |
 
-Caractéristiques communes aux deux versions :
-- format 1080×1920 (9:16), 30 i/s, 29 s ;
+Caractéristiques communes aux versions :
+- format 1080×1920 (9:16), 30 i/s ;
 - H.264 + AAC, son masterisé à −14 LUFS ;
 - format « faceless UGC » : voix off naturelle, sous-titres mot à mot façon CapCut, puces animées ;
 - textes placés hors des zones couvertes par l'interface d'Instagram et de TikTok.
 
-## Script (voix off)
+## Version 3 (54 s)
+
+### Script (voix off « Kevin », ElevenLabs)
+
+| Temps | Voix off | Image |
+|---|---|---|
+| 0:00 | Je pensais acheter une simple station météo… et en fait, c'est l'air de mon appart qui m'a scotché. | Le présentateur en selfie avec la W100, puis une mesure PM2.5 en rouge |
+| 0:05 | Voici la Temtop W100 : un capteur pour l'extérieur, et un écran tactile pour l'intérieur. | Révélation sur le drop de la musique, capteur dans les Alpes, doigt sur l'écran |
+| 0:10 | Dehors, le capteur mesure le vent et sa direction, la pluie, les UV, la luminosité et la pression. | Capteur sous la pluie, ciel, pastilles des 6 mesures |
+| 0:16 | Et il envoie tout à l'écran sans fil, jusqu'à mille mètres en terrain dégagé. | Écran partagé entre le capteur et l'écran, liaison LoRa animée, « 1000 m* » |
+| 0:20 | Dedans, l'écran de sept pouces suit en temps réel les particules fines, le CO2, les COV et l'indice de qualité de l'air. | Page « Air Quality » de l'appareil |
+| 0:27 | Le matin, je jette un œil au vent et à la température avant d'aller courir. | Écran d'accueil à 7 h 42 (vent 2,6 m/s, 12,4 °C), puis un homme qui court au bord du lac |
+| 0:31 | Quand je cuisine, les particules grimpent : j'ai réglé un seuil, l'écran bipe… et j'ouvre la fenêtre. | Wok, PM2.5 qui monte, réglage du seuil à 25 µg/m³, alarme, fenêtre ouverte |
+| 0:37 | En télétravail, quand le CO2 monte, je sais qu'il est temps d'aérer. | Clavier, CO₂ qui passe au rouge (> 1 500 ppm) avec l'icône d'alarme |
+| 0:41 | Il garde l'historique jour par jour, affiche la météo des sept prochains jours… et en wifi, je vois tout dans l'appli Temtop. | Historique PM2.5, prévisions à 7 jours (Lausanne), téléphone |
+| 0:48 | Arrête de deviner ce que tu respires. Le lien est juste en dessous ! | Le présentateur pointe vers le bouton « Lien juste en dessous », puis la carte de fin |
+
+Chaque fonction citée vient de la fiche produit ou du manuel officiels.
+- Le capteur extérieur mesure la pluie, les UV, la vitesse et la direction du vent, la luminosité et la pression.
+- La liaison LoRa porte jusqu'à 1000 m en terrain dégagé.
+- L'écran tactile fait 7".
+- Il mesure PM2.5, PM10, CO₂, TVOC et AQI.
+- Il gère des seuils d'alerte avec buzzer.
+- Il garde un historique par jour et par mois.
+- Il affiche les prévisions à 7 jours une fois connecté.
+- Il propose l'appli Temtop en Wi-Fi.
+
+Les écrans montrés sont des répliques des vraies pages de l'appareil (manuel V1.0), en °C. Leurs valeurs sont cohérentes d'un plan à l'autre et colorées selon les seuils officiels.
+
+### Ce qu'il faut savoir avant de publier la v3
+
+- **Présentateur IA** : l'homme du début et de la fin est une personne fictive, générée par IA. Son image est animée en local (clignements, caméra tenue à la main) : il ne parle pas à l'écran, la voix est en off. Active l'étiquette « contenu généré par IA » sur TikTok et YouTube.
+- **Plans Pexels** : on y voit surtout des mains, des dos ou des silhouettes. Le coureur est de profil, à contre-jour. La licence interdit de faire croire qu'une personne filmée recommande le produit. Pour une pub sponsorisée, le plus sûr reste tes propres images.
+- **Voix et musique ElevenLabs** : l'usage commercial exige un abonnement payant.
+- Sources détaillées et crédits : [`source-v3/CREDITS.md`](source-v3/CREDITS.md). Reconstruction : `source-v3/build_v3.sh`.
+
+## Script v1 et v2 (voix off)
 
 | Temps | Voix off |
 |---|---|

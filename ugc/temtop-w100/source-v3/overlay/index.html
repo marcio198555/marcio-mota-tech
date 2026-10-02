@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Temtop W100 – overlay v3</title>
+<!-- Transparent motion-graphics layer of the v3 ad (captions, feature chips, LoRa link, alert,
+     end card), rendered as RGBA frames and composited over the footage track. Deterministic:
+     renderFrame(t). Word times come from timeline_v3.js (voice-over offset already applied). -->
+<style>
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100 900;font-display:block;src:url(../../source/fonts/montserrat-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100 900;font-display:block;src:url(../../source/fonts/montserrat-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+:root{--orange:#FF7A00;--yellow:#FFE14D;--ink:#121826;--red:#FF3B30;--green:#22C55E;--blue:#1d6fd0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent}
+body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased;color:var(--ink)}
+.em{font-family:'Noto Color Emoji',sans-serif;font-weight:400;line-height:1}
+#stage{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:hidden}
+.abs{position:absolute;left:0;top:0;transform-origin:50% 50%}
+.fill{position:absolute;inset:0}
+img{display:block;user-select:none}
+.chip{position:absolute;left:0;top:0;display:flex;align-items:center;gap:14px;padding:14px 30px 14px 18px;border-radius:999px;background:#fff;color:var(--ink);
+  font-weight:800;font-size:44px;letter-spacing:-.5px;white-space:nowrap;box-shadow:0 16px 34px rgba(0,0,0,.32),0 3px 0 rgba(0,0,0,.06);opacity:0;visibility:hidden}
+.chip .em{font-size:50px}
+.chip .t2{display:flex;flex-direction:column;line-height:1.02}
+.chip .t2 small{font-size:27px;font-weight:700;letter-spacing:0;margin-top:5px;color:#4b5563;display:flex;align-items:center;gap:8px;font-variant-numeric:tabular-nums}
+.chip.dark{background:#0f1726;color:#fff;box-shadow:0 16px 34px rgba(0,0,0,.45)}
+.chip.sm{font-size:38px;padding:11px 24px 11px 14px;gap:11px}
+.chip.sm .em{font-size:42px}
+.chip.dark .t2 small{color:#cbd5e1}
+.tag{position:absolute;left:0;top:0;padding:11px 24px 11px 16px;border-radius:18px;font-weight:900;font-size:38px;letter-spacing:1px;display:flex;gap:12px;align-items:center;opacity:0;visibility:hidden;box-shadow:0 12px 28px rgba(0,0,0,.32);white-space:nowrap}
+.dot{display:inline-block;width:18px;height:18px;border-radius:50%;flex:none}
+.sub2{font-size:.58em;vertical-align:-.14em}
+#captions{position:absolute;left:0;top:0;width:1080px;height:1920px;pointer-events:none}
+.capbox{position:absolute;left:60px;width:960px;text-align:center;font-weight:900;font-size:76px;line-height:1.08;text-transform:uppercase;letter-spacing:-1.5px}
+.w{display:inline-block;position:relative;margin:0 .12em;transform-origin:50% 70%}
+.w .s,.w .f{display:block;white-space:nowrap}
+.w .s{position:absolute;left:0;top:0;color:#000;-webkit-text-stroke:16px #000;text-shadow:0 8px 0 rgba(0,0,0,.45)}
+.w .f{position:relative;color:#fff}
+.w.on .f{color:var(--yellow)}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
+.big{position:absolute;left:0;width:1080px;text-align:center;font-weight:900;letter-spacing:-2px;line-height:1;opacity:0;visibility:hidden}
+</style>
+</head>
+<body>
+<div id="stage">
+ <div class="fill" id="vign" style="background:radial-gradient(125% 80% at 50% 48%,rgba(0,0,0,0) 56%,rgba(0,0,0,.28) 100%)"></div>
+ <div class="fill" id="redv" style="background:radial-gradient(95% 68% at 50% 50%,rgba(255,40,30,0) 40%,rgba(255,40,30,.55) 100%);opacity:0;visibility:hidden"></div>
+
+ <!-- reveal -->
+ <div class="abs" id="title" style="left:0;top:250px;width:1080px;text-align:center;opacity:0;visibility:hidden">
+   <span style="display:inline-block;background:var(--ink);color:#fff;font-weight:900;font-size:96px;letter-spacing:-2px;padding:14px 40px 16px;border-radius:26px;box-shadow:0 18px 40px rgba(0,0,0,.45)">TEMTOP <span style="color:var(--orange)">W100</span></span>
+ </div>
+ <div class="chip" id="cSensor"><span class="em">🌤️</span><span>Capteur extérieur</span></div>
+ <div class="chip" id="cTouch"><span class="em">👆</span><span>Écran tactile 7"</span></div>
+ <div class="abs" id="ripple" style="width:0;height:0"></div>
+
+ <!-- outdoor -->
+ <div class="tag" id="tOut" style="background:#fff;color:var(--blue)"><span class="em" style="font-size:42px">🌤️</span>DEHORS</div>
+ <div class="chip" id="o1"><span class="em">💨</span><span>Vent</span></div>
+ <div class="chip" id="o2"><span class="em">🧭</span><span>Direction</span></div>
+ <div class="chip" id="o3"><span class="em">🌧️</span><span>Pluie</span></div>
+ <div class="chip" id="o4"><span class="em">☀️</span><span>UV</span></div>
+ <div class="chip" id="o5"><span class="em">🔆</span><span>Luminosité</span></div>
+ <div class="chip" id="o6"><span class="em">⏲️</span><span>Pression</span></div>
+
+ <!-- LoRa link between the outdoor sensor (top) and the display (bottom) -->
+ <svg class="abs" id="link" width="1080" height="1920" style="visibility:hidden">
+   <defs><linearGradient id="lg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7dd3fc"/><stop offset="1" stop-color="#FF7A00"/></linearGradient></defs>
+   <g id="waves"></g>
+   <path id="beam" d="M 540 520 C 640 700, 440 1000, 540 1230" stroke="url(#lg)" stroke-width="12" fill="none" stroke-linecap="round" stroke-dasharray="2 34"/>
+   <circle id="pkt" r="16" fill="#fff" stroke="#FF7A00" stroke-width="6"/>
+ </svg>
+ <div class="chip dark" id="cLink"><span class="em">📡</span><span class="t2"><span>Sans fil</span><small>liaison LoRa</small></span></div>
+ <div class="big" id="kmBig" style="top:1020px;font-size:150px;color:#fff;-webkit-text-stroke:0"><span style="display:inline-block;background:var(--orange);padding:6px 34px 14px;border-radius:30px;box-shadow:0 20px 50px rgba(0,0,0,.45)">1000 m<span style="font-size:.5em;vertical-align:.7em">*</span></span></div>
+ <div class="big" id="kmSub" style="top:1220px;font-size:40px;font-weight:800;letter-spacing:0;color:#fff;text-shadow:0 3px 10px rgba(0,0,0,.8)">*en terrain dégagé</div>
+
+ <!-- indoor -->
+ <div class="tag" id="tIn" style="background:var(--ink);color:#fff"><span class="em" style="font-size:42px">🏠</span>DEDANS</div>
+ <div class="chip" id="live" style="background:var(--red);color:#fff;font-size:34px;padding:13px 26px 13px 20px"><span id="liveDot" class="dot" style="width:22px;height:22px;background:#fff"></span><span>EN TEMPS RÉEL</span></div>
+ <div class="chip sm" id="i1"><span class="em">🌫️</span><span>Particules fines · PM2.5 / PM10</span></div>
+ <div class="chip sm" id="i2"><span class="em">🫧</span><span>CO<span class="sub2">2</span></span></div>
+ <div class="chip sm" id="i3"><span class="em">🧪</span><span>COV</span></div>
+ <div class="chip sm" id="i4"><span class="em">📊</span><span>Indice AQI</span></div>
+
+ <!-- morning -->
+ <div class="tag" id="tMorn" style="background:#fff7ed;color:#c2410c"><span class="em" style="font-size:42px">🌅</span>7 H 42</div>
+ <div class="chip sm" id="m1"><span class="em">💨</span><span>Vent 2,6 m/s</span></div>
+ <div class="chip sm" id="m2"><span class="em">🌡️</span><span>12,4 °C dehors</span></div>
+
+ <!-- kitchen -->
+ <div class="tag" id="tCook" style="background:#fff;color:#b45309"><span class="em" style="font-size:42px">🍳</span>EN CUISINE</div>
+ <div class="chip sm" id="k1"><span class="em">🌫️</span><span>PM2.5 en hausse</span></div>
+ <div class="chip sm dark" id="k2"><span class="em">🔔</span><span>Alerte PM2.5 au-delà de 25 µg/m³</span></div>
+ <div class="abs" id="bip" style="left:0;top:0;opacity:0;visibility:hidden"><span style="display:inline-block;background:var(--yellow);color:#111;font-weight:900;font-size:86px;letter-spacing:-1px;padding:10px 34px 14px;border-radius:24px;box-shadow:0 16px 40px rgba(0,0,0,.45);border:6px solid #111">BIP ! BIP !</span></div>
+ <div class="chip sm" id="k3"><span class="em">🪟</span><span>J'aère</span></div>
+
+ <!-- home office -->
+ <div class="tag" id="tWork" style="background:var(--ink);color:#fff"><span class="em" style="font-size:42px">💻</span>TÉLÉTRAVAIL</div>
+ <div class="chip sm" id="w1"><span class="em">🫧</span><span>CO<span class="sub2">2</span> en hausse</span><i class="dot" id="co2d" style="background:#f39233"></i></div>
+
+ <!-- history, forecast, app -->
+ <div class="chip" id="h1"><span class="em">📊</span><span class="t2"><span>Historique</span><small>par jour et par mois</small></span></div>
+ <div class="chip" id="h2"><span class="em">🗓️</span><span class="t2"><span>Météo à 7 jours</span><small>dès qu'il est connecté</small></span></div>
+ <div class="chip dark" id="h3"><span class="em">📲</span><span class="t2"><span>Appli Temtop</span><small>via le Wi-Fi</small></span></div>
+
+ <!-- call to action (presenter) -->
+ <div class="abs" id="cta" style="left:0;top:1500px;width:1080px;text-align:center;opacity:0;visibility:hidden">
+   <span style="display:inline-flex;align-items:center;gap:14px;background:var(--orange);color:#fff;font-weight:900;font-size:54px;letter-spacing:-1px;padding:20px 44px 20px 34px;border-radius:999px;box-shadow:0 18px 40px rgba(0,0,0,.4)"><span class="em" style="font-size:58px">👇</span>LIEN JUSTE EN DESSOUS</span>
+ </div>
+
+ <!-- end card -->
+ <div class="abs" id="end" style="width:1080px;height:1920px;opacity:0;visibility:hidden;overflow:hidden">
+   <div class="fill" style="background:linear-gradient(165deg,rgba(255,176,71,.86) 0%,rgba(255,122,0,.90) 52%,rgba(238,90,0,.95) 100%)"></div>
+   <div class="abs" id="eRays" style="left:-460px;top:-140px;width:2000px;height:2000px;border-radius:50%;opacity:.55;background:repeating-conic-gradient(from 0deg,rgba(255,255,255,.14) 0deg 8deg,rgba(255,255,255,0) 8deg 20deg);-webkit-mask-image:radial-gradient(circle,#000 0%,rgba(0,0,0,.5) 34%,transparent 64%)"></div>
+   <div class="abs" id="eShine" style="left:-600px;top:0;width:300px;height:1920px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.28),rgba(255,255,255,0));transform:skewX(-18deg)"></div>
+   <div class="abs" id="eTitle" style="left:0;top:210px;width:1080px;text-align:center;color:#fff;font-weight:900;font-size:124px;letter-spacing:-4px;line-height:1;text-shadow:0 10px 0 rgba(150,50,0,.35);opacity:0">TEMTOP W100</div>
+   <div class="abs" id="eSub" style="left:0;top:356px;width:1080px;text-align:center;color:#fff;font-weight:800;font-size:44px;letter-spacing:-.5px;opacity:0">Station météo + qualité de l'air</div>
+   <div class="abs" id="eShadow" style="left:170px;top:1222px;width:740px;height:70px;border-radius:50%;background:radial-gradient(closest-side,rgba(120,40,0,.45),rgba(120,40,0,0));opacity:0"></div>
+   <img class="abs" id="eHero" src="../assets/hero_v3@2x.png" style="left:130px;top:440px;width:820px;height:823px">
+   <div class="abs" id="eCta" style="left:0;top:1300px;width:1080px;text-align:center;opacity:0">
+     <span style="display:inline-flex;align-items:center;gap:14px;background:#fff;color:#e85d00;font-weight:900;font-size:52px;letter-spacing:-1px;padding:20px 44px 20px 34px;border-radius:999px;box-shadow:0 18px 40px rgba(120,40,0,.35)"><span class="em" style="font-size:58px">👇</span>LIEN JUSTE EN DESSOUS</span>
+   </div>
+ </div>
+
+ <div id="captions"></div>
+ <div id="flash"></div>
+</div>
+
+<script src="../timeline_v3.js"></script>
+<script>
+const DUR=54.0;
+const $=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const lerp=(a,b,u)=>a+(b-a)*u;
+const E={lin:u=>u,outC:u=>1-Math.pow(1-u,3),inC:u=>u*u*u,ioS:u=>-(Math.cos(Math.PI*u)-1)/2,
+  outB:u=>{const c1=1.9,c3=c1+1;return 1+c3*Math.pow(u-1,3)+c1*Math.pow(u-1,2)}};
+const pr=(t,a,b,e=E.lin)=>e(clamp((t-a)/(b-a)));
+function tf(el,{x=0,y=0,s=1,r=0,o=null}={}){
+  el.style.transform=`translate(${x.toFixed(2)}px,${y.toFixed(2)}px) rotate(${r.toFixed(3)}deg) scale(${s.toFixed(4)})`;
+  if(o!==null) el.style.opacity=clamp(o).toFixed(3);
+}
+const show=(el,v)=>{el.style.visibility=v?'visible':'hidden'};
+const W=TL.words;
+const wt=(p,i)=>W.find(w=>w.p===p&&w.i===i).t;          // start of word i of line p (video time)
+
+// pops in at a, leaves at b
+function chipAnim(el,t,a,b,{dx=0,dy=0,r0=-6,from=0.4,ox=0,oy=0,os=0.8,dur=0.14}={}){
+  if(t<a||t>b+dur){show(el,false);el.style.opacity=0;return false;}
+  show(el,true);
+  const u=pr(t,a,a+0.38,E.outB),o=pr(t,a,a+0.12),m=pr(t,a,a+0.3,E.outC),q=pr(t,b,b+dur,E.inC);
+  tf(el,{x:dx*(1-m)+ox*q,y:dy*(1-m)+oy*q,s:lerp(from,1,u)*lerp(1,os,q),r:r0*(1-m),o:o*(1-q)});
+  return true;
+}
+
+/* ---------- shots (video time) used to keep text off the important part of each picture ---------- */
+const CUTS=[0,2.30,3.55,5.05,7.10,8.35,10.30,13.00,16.40,20.15,24.00,27.45,29.85,31.40,32.60,33.85,35.25,35.95,37.45,39.10,41.25,43.25,45.15,47.95,51.40,54];
+const CAPY=[1460,1120,1530,1530,1460,1520,1500,1500,1080,455,455,455,1470,1580,455,455,455,1470,600,455,455,455,1500,1120,1500];
+const shotIx=t=>{let k=0;while(k<CUTS.length-2&&t>=CUTS[k+1])k++;return k;};
+
+/* ---------- sections ---------- */
+function secReveal(t){
+  chipAnim($('title'),t,wt(2,0)-0.04,7.02,{dy:-40,r0:-5,from:.3});
+  chipAnim($('cSensor'),t,wt(3,1)-0.06,8.30,{dy:-40});
+  chipAnim($('cTouch'),t,wt(3,6)-0.06,10.22,{dy:-40});
+  // tap ripple where the finger touches the glass (K07)
+  const tapT=8.62, px=542, py=905; let h='';
+  if(t>=tapT&&t<tapT+1.0){
+    const d=Math.exp(-Math.pow((t-tapT-0.04)/.09,2));
+    h+=`<div style="position:absolute;left:${px-26}px;top:${py-26}px;width:52px;height:52px;border-radius:50%;background:rgba(255,255,255,${(0.6*d).toFixed(3)});box-shadow:0 0 34px 10px rgba(255,255,255,${(0.55*d).toFixed(3)})"></div>`;
+    for(let j=0;j<3;j++){const ra=tapT+j*.12; if(t<ra) continue; const u=pr(t,ra,ra+.7,E.outC); const R=lerp(14,160,u);
+      h+=`<div style="position:absolute;left:${(px-R).toFixed(1)}px;top:${(py-R).toFixed(1)}px;width:${(2*R).toFixed(1)}px;height:${(2*R).toFixed(1)}px;border-radius:50%;border:${(7*(1-u)+2).toFixed(1)}px solid rgba(255,255,255,${(.85*(1-u)).toFixed(3)})"></div>`;}
+  }
+  $('ripple').innerHTML=h;
+}
+function secOut(t){
+  const b=16.22;
+  chipAnim($('tOut'),t,wt(4,0)-0.05,b,{dx:-60,r0:0,ox:-90});
+  const ts=[wt(4,5),wt(4,8),wt(4,10),wt(5,1),wt(5,3),wt(5,6)];
+  ['o1','o2','o3','o4','o5','o6'].forEach((id,k)=>chipAnim($(id),t,ts[k]-0.06,b+0.02*(k+1),{dy:30,r0:k%2?5:-5,ox:-90}));
+}
+function secLink(t){
+  const a=16.40,b=20.12, svg=$('link');
+  const vis=t>=a&&t<b+0.15; show(svg,vis);
+  if(vis){
+    const o=pr(t,a,a+0.25)*(1-pr(t,b,b+0.15));
+    svg.style.opacity=o.toFixed(3);
+    const beam=$('beam'); beam.style.strokeDashoffset=(-(t-a)*220).toFixed(1);
+    const L=beam.__len, u=((t-a)*0.9)%1, p=beam.getPointAtLength(L*E.ioS(u));
+    $('pkt').setAttribute('cx',p.x.toFixed(1)); $('pkt').setAttribute('cy',p.y.toFixed(1));
+    let g='';
+    for(let j=0;j<3;j++){const ph=((t-a)*0.8+j/3)%1; const R=lerp(30,190,ph);
+      g+=`<circle cx="540" cy="470" r="${R.toFixed(1)}" fill="none" stroke="rgba(255,255,255,${(0.75*(1-ph)).toFixed(3)})" stroke-width="${(8*(1-ph)+2).toFixed(1)}"/>`;}
+    $('waves').innerHTML=g;
+  }
+  chipAnim($('cLink'),t,wt(6,6)-0.06,b,{dy:-30});
+  chipAnim($('kmBig'),t,wt(6,8)-0.04,b,{dy:60,r0:-4,from:.3});
+  chipAnim($('kmSub'),t,wt(6,12)-0.06,b,{dy:20,r0:0,from:.8});
+}
+function secIn(t){
+  const b=27.32;
+  chipAnim($('tIn'),t,wt(7,0)-0.05,b,{dx:-60,r0:0,ox:-90});
+  chipAnim($('live'),t,wt(7,7)-0.05,b,{dy:-30,r0:4,ox:90});
+  $('liveDot').style.opacity=(0.35+0.65*(0.5+0.5*Math.cos((t-22)*9))).toFixed(3);
+  chipAnim($('i1'),t,wt(7,10)-0.06,24.00,{dy:30,r0:-5,ox:-90});
+  chipAnim($('i2'),t,wt(8,1)-0.06,b+0.02,{dy:30,r0:5,ox:-90});
+  chipAnim($('i3'),t,wt(8,3)-0.06,b+0.04,{dy:30,r0:-5,ox:-90});
+  chipAnim($('i4'),t,wt(8,5)-0.06,b+0.06,{dy:30,r0:5,ox:-90});
+}
+function secMorning(t){
+  const b=30.40;
+  chipAnim($('tMorn'),t,wt(9,0)-0.05,b,{dx:-60,r0:0,ox:-90});
+  chipAnim($('m1'),t,wt(9,7)-0.06,b+0.02,{dy:30,r0:-5,ox:-90});
+  chipAnim($('m2'),t,wt(9,11)-0.06,b+0.04,{dy:30,r0:5,ox:-90});
+}
+function secKitchen(t){
+  chipAnim($('tCook'),t,wt(10,0)-0.05,35.92,{dx:-60,r0:0,ox:-90});
+  chipAnim($('k1'),t,wt(10,4)-0.06,33.82,{dy:30,r0:-5,ox:-90});
+  chipAnim($('k2'),t,wt(11,3)-0.06,35.20,{dy:30,r0:5,ox:-90});
+  const bA=wt(11,5)-0.06;
+  if(chipAnim($('bip'),t,bA,35.92,{dy:-40,r0:-14,from:.2})) $('bip').style.transform+=` rotate(${(Math.sin((t-bA)*38)*3).toFixed(2)}deg)`;
+  chipAnim($('k3'),t,wt(12,3)-0.06,37.40,{dy:30,r0:-5,ox:-90});
+  // red pulse while the display beeps, and briefly when CO2 crosses 1500 ppm
+  let o=0;
+  if(t>=bA&&t<35.96) o=(0.45+0.4*Math.pow(Math.sin((t-bA)*7),2))*(1-pr(t,35.80,35.96));
+  if(t>=40.15&&t<41.22) o=Math.max(o,(0.25+0.25*Math.pow(Math.sin((t-40.15)*6),2))*(1-pr(t,41.0,41.22)));
+  $('redv').style.opacity=o.toFixed(3); show($('redv'),o>0.002);
+}
+function secWork(t){
+  chipAnim($('tWork'),t,wt(13,0)-0.05,41.20,{dx:-60,r0:0,ox:-90});
+  const ct=Math.floor((t-39.10+0.9)*24+1e-6)/24, u=clamp((ct-0.2)/2.4), co2=Math.round(lerp(1062,1538,u*u*(3-2*u)));
+  $('co2d').style.background=co2<=1000?'#37c25b':co2<=1500?'#f39233':'#ef4040';
+  chipAnim($('w1'),t,wt(13,5)-0.06,41.20,{dy:30,r0:-5,ox:-90});
+}
+function secHistory(t){
+  chipAnim($('h1'),t,wt(14,0)-0.04,43.20,{dy:-30});
+  chipAnim($('h2'),t,wt(14,8)-0.06,45.10,{dy:-30});
+  chipAnim($('h3'),t,wt(15,2)-0.06,47.90,{dy:-30});
+}
+function secCta(t){
+  const a=wt(17,0)-0.04;
+  if(chipAnim($('cta'),t,a,51.36,{dy:60,r0:0,from:.5})&&t>a+.4)
+    $('cta').style.transform+=` translateY(${(Math.abs(Math.sin((t-a)*5.5))*-12).toFixed(1)}px)`;
+}
+function secEnd(t){
+  const a=51.40, el=$('end');
+  if(t<a){show(el,false);return;}
+  show(el,true);
+  el.style.opacity=pr(t,a,a+0.22,E.outC).toFixed(3);
+  tf($('eHero'),{y:lerp(380,0,pr(t,a,a+.5,E.outC))+Math.sin(t*1.5)*6,s:lerp(.6,1,pr(t,a,a+.6,E.outB))*lerp(1,1.05,pr(t,a+.6,DUR))});
+  tf($('eShadow'),{o:pr(t,a+.2,a+.6)});
+  chipAnim($('eTitle'),t,a+0.02,99,{dy:-80,r0:-3,from:.5});
+  chipAnim($('eSub'),t,a+0.18,99,{dy:-30,r0:0,from:.8});
+  tf($('eRays'),{r:t*8});
+  tf($('eShine'),{x:lerp(0,2100,pr(t,a+.7,a+1.5,E.ioS))});
+  const ca=a+0.45;
+  if(chipAnim($('eCta'),t,ca,99,{dy:60,r0:0,from:.5})&&t>ca+.4)
+    $('eCta').style.transform+=` translateY(${(Math.abs(Math.sin((t-ca)*5.5))*-10).toFixed(1)}px)`;
+}
+
+/* ---------- captions: 2-4 words per chunk, current word in yellow ---------- */
+const clean=s=>s.replace(/[,.…:;]+$/u,'').replace(/ /g,' ');
+const disp=s=>clean(s).replace(/^CO2$/,'CO₂');
+const CH=[];
+{ let cur=[], prevP=-1;
+  const flush=()=>{if(cur.length){CH.push(cur);cur=[];}};
+  for(const w of W){
+    if(w.p!==prevP) flush(); prevP=w.p;
+    const len=cur.reduce((n,x)=>n+disp(x.w).length+1,0)+disp(w.w).length;
+    if(cur.length>=3||len>17) flush();
+    cur.push(w);
+    if(/[,.…:!]$/u.test(w.w)&&cur.length>=2) flush();
+  }
+  flush(); }
+CH.forEach((c,k)=>{c.s=c[0].t; const nx=CH[k+1]; const lastEnd=c[c.length-1].e; c.e=nx?(nx[0].t-lastEnd>0.45?lastEnd+0.3:nx[0].t):lastEnd+0.6;});
+const fmt=s=>s.replace('₂','<span class="sub2">2</span>');
+function wordHTML(txt){const h=fmt(txt.toUpperCase());return `<span class="w"><span class="s">${h}</span><span class="f">${h}</span></span>`}
+let curChunk=-1; const capEl=$('captions');
+function drawCaptions(t){
+  let k=CH.findIndex(c=>t>=c.s-0.02&&t<c.e);
+  if(t>=51.40||(t>=wt(6,8)-0.06&&t<20.15)) k=-1;    // end card / the 1000 m badge takes over
+  if(k!==curChunk){curChunk=k; capEl.innerHTML=k<0?'':`<div class="capbox" id="capbox">${CH[k].map(w=>wordHTML(disp(w.w))).join(' ')}</div>`;}
+  if(k<0) return;
+  const box=$('capbox'), c=CH[k];
+  const cy=CAPY[shotIx(t)];
+  box.style.top=(cy-box.offsetHeight/2)+'px';
+  const els=box.querySelectorAll('.w');
+  c.forEach((w,i)=>{const el=els[i]; const a=w.t-0.04;
+    if(t<a){el.style.opacity=0;el.style.transform='scale(.5)';return;}
+    const u=pr(t,a,a+0.2,E.outB); el.style.opacity=pr(t,a,a+0.06);
+    const next=c[i+1]; const on=t>=a&&(!next||t<next.t-0.04);
+    el.classList.toggle('on',on);
+    el.style.transform=`translateY(${(1-pr(t,a,a+.18,E.outC))*18}px) scale(${lerp(.55,1,u)*(on?1.06:1)})`;
+  });
+  box.style.opacity=1-pr(t,c.e-0.08,c.e);
+}
+
+/* ---------- layout (after fonts) ---------- */
+function layout(){
+  const centre=(id,top)=>{const el=$(id); el.style.left=(540-el.offsetWidth/2)+'px'; el.style.top=top+'px';};
+  const place=(id,x,y)=>{const el=$(id); el.style.left=x+'px'; el.style.top=y+'px'; return el;};
+  centre('cSensor',250); centre('cTouch',250); centre('h1',250); centre('h2',250); centre('h3',250);
+  // outdoor: tag + 2 x 3 grid of chips
+  place('tOut',60,250);
+  const gy=[350,462,574];
+  ['o1','o3','o5'].forEach((id,k)=>place(id,60,gy[k]));
+  ['o2','o4','o6'].forEach((id,k)=>place(id,540,gy[k]));
+  // LoRa
+  centre('cLink',900);
+  // indoor: tag, live badge, chips in two rows
+  place('tIn',60,250); const lv=$('live'); place('live',1020-lv.offsetWidth,250);
+  place('i1',60,335); const i2=place('i2',60,335); const i3=place('i3',60+i2.offsetWidth+16,335); place('i4',60+i2.offsetWidth+16+i3.offsetWidth+16,335);
+  // morning, kitchen, office
+  place('tMorn',60,250); place('m1',60,335); place('m2',60+$('m1').offsetWidth+16,335);
+  place('tCook',60,250); place('k1',60,335); place('k2',60,335); place('k3',60,335);
+  const bp=$('bip'); bp.style.left=(540-bp.offsetWidth/2)+'px'; bp.style.top='1410px';
+  place('tWork',60,250); place('w1',60,335);
+  for(const id of ['beam']){const p=$(id); p.__len=p.getTotalLength();}
+}
+
+/* ---------- main ---------- */
+function renderFrame(t){
+  $('vign').style.opacity=(1-pr(t,51.40,51.6)).toFixed(3);
+  secReveal(t); secOut(t); secLink(t); secIn(t); secMorning(t); secKitchen(t); secWork(t); secHistory(t); secCta(t); secEnd(t);
+  drawCaptions(t);
+  const rv=5.07;                 // music drop, on the cut to the product reveal
+  const fl=Math.max(Math.exp(-Math.pow((t-rv)/.08,2))*.55*(t>=rv-0.1?1:0), Math.exp(-Math.pow((t-51.42)/.07,2))*.4*(t>=51.3?1:0));
+  $('flash').style.opacity=fl.toFixed(3);
+}
+window.renderFrame=renderFrame;
+window.DUR=DUR;
+window.ready=Promise.all([document.fonts.load('900 80px Montserrat'),document.fonts.load('800 44px Montserrat'),document.fonts.load('700 28px Montserrat'),document.fonts.load('48px "Noto Color Emoji"'),
+  ...[...document.images].map(im=>im.decode().catch(()=>{}))]).then(()=>document.fonts.ready).then(()=>{layout();renderFrame(0);return true;});
+</script>
+</body>
+</html>
