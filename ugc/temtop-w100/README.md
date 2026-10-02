@@ -1,9 +1,15 @@
 # Pub UGC — Temtop W100 (Reels / TikTok / Shorts)
 
-**Vidéo :** [`temtop-w100-ugc-9x16.mp4`](temtop-w100-ugc-9x16.mp4) — 1080×1920 (9:16), 30 i/s, 29 s, H.264 + AAC, son masterisé à −14 LUFS.
-**Couverture suggérée :** [`cover.jpg`](cover.jpg)
+| Version | Vidéo | Couverture | Style |
+|---|---|---|---|
+| **v2 (recommandée)** | [`temtop-w100-ugc-v2-9x16.mp4`](temtop-w100-ugc-v2-9x16.mp4) | [`cover-v2.jpg`](cover-v2.jpg) | Vrais plans vidéo : le produit en situation (plans IA réalistes) et des scènes de vie (Pexels), avec bruitages réels |
+| v1 | [`temtop-w100-ugc-9x16.mp4`](temtop-w100-ugc-9x16.mp4) | [`cover.jpg`](cover.jpg) | Motion design animé à partir des photos du produit |
 
-Format « faceless UGC » : voix off naturelle, sous-titres mot à mot façon CapCut, visuels produit animés, musique et bruitages. Les textes restent hors des zones couvertes par l'interface d'Instagram et de TikTok (environ 230 → 1540 px en hauteur).
+Caractéristiques communes aux deux versions :
+- format 1080×1920 (9:16), 30 i/s, 29 s ;
+- H.264 + AAC, son masterisé à −14 LUFS ;
+- format « faceless UGC » : voix off naturelle, sous-titres mot à mot façon CapCut, puces animées ;
+- textes placés hors des zones couvertes par l'interface d'Instagram et de TikTok.
 
 ## Script (voix off)
 
@@ -19,21 +25,34 @@ Format « faceless UGC » : voix off naturelle, sous-titres mot à mot façon Ca
 | 0:23 | Et tu suis tout depuis l'appli, même quand t'es pas là. |
 | 0:26 | Je te mets le lien juste en dessous ! |
 
-Toutes les fonctions citées sont reprises de la fiche produit officielle (temtopus.com) : PM2.5/PM10, CO₂, COV (TVOC), AQI, vent (vitesse et direction), pluie, UV, luminosité, écran tactile 7", prévisions, alertes de seuil, suivi à distance par appli WiFi.
+Toutes les fonctions citées viennent de la fiche produit officielle (temtopus.com) :
+- PM2.5 / PM10, CO₂, COV (TVOC), AQI ;
+- vent (vitesse et direction), pluie, UV, luminosité ;
+- écran tactile 7", prévisions météo ;
+- alertes de seuil, suivi à distance par l'appli WiFi.
 
-## Storyboard
+## Plan de montage v2
 
-| Temps | Scène | À l'écran |
-|---|---|---|
-| 0:00–0:02 | Accroche | Poussière dans un rayon de lumière, texte géant « … ce que tu **RESPIRES** chez toi ? 😳 » |
-| 0:02–0:04 | Révélation | Flash, apparition du kit, titre « TEMTOP W100 » |
-| 0:04–0:08 | 2 en 1 | Capteur et écran entrent séparément (« Station météo », « Qualité de l'air »), puis tampon « 2 EN 1 » |
-| 0:08–0:12 | Dehors | Capteur sur un ciel animé : rafales (vent), gouttes (pluie), soleil (UV, luminosité) |
-| 0:12–0:17 | Dedans | Écran dans un intérieur chaleureux : CO₂, particules fines, COV, badge « en temps réel » |
-| 0:17–0:21 | Écran tactile | Zoom sur l'écran, tap du doigt, « Prévisions météo » |
-| 0:21–0:23 | Alerte | L'air se charge (fumée), bannière « ⚠️ Air trop chargé », ondes d'alerte |
-| 0:23–0:26 | Appli | Smartphone et ondes WiFi, « Où que tu sois » |
-| 0:26–0:29 | Appel à l'action | Fond orange, « TEMTOP W100 », bouton « 👇 Lien juste en dessous » |
+| Temps | Plan | Source | Habillage |
+|---|---|---|---|
+| 0:00–0:01 | Poussière dorée dans un rayon de soleil | Pexels | Accroche géante « … ce que tu **RESPIRES** chez toi ? 😳 » |
+| 0:01–0:02 | Homme qui s'étire au réveil | Pexels | Montée sonore |
+| 0:02–0:04 | Écran posé sur un buffet, vue sur la montagne | IA | Flash sur le drop de la musique, flèche dessinée, titre « TEMTOP W100 » |
+| 0:04–0:05 | Capteur extérieur dans les Alpes | IA | Puce « Station météo » |
+| 0:05–0:07 | Zoom sur l'écran | IA | Puce « Qualité de l'air » |
+| 0:07–0:08 | Écran partagé : capteur en haut, écran en bas | IA | Tampon « 2 EN 1 » |
+| 0:08–0:10 | Capteur sous la pluie, coupelles qui tournent | IA, avec son réel de pluie | DEHORS, puces Vent et Pluie |
+| 0:10–0:12 | Soleil au-dessus des nuages | Pexels | Puces UV et Luminosité |
+| 0:12–0:15 | Gazinière allumée, puis poêle qui flambe | Pexels | DEDANS, avec des mesures CO₂, PM2.5 et COV qui grimpent en direct |
+| 0:15–0:17 | Gros plan sur l'écran | IA | Badge « EN TEMPS RÉEL » |
+| 0:17–0:19 | Doigt qui touche l'écran | IA | Onde de tap synchronisée avec le son |
+| 0:19–0:21 | Mer de nuages | Pexels | Carte des prévisions sur 4 jours |
+| 0:21–0:22 | Fumée de cuisson | Pexels | Vignette rouge, bannière « ⚠️ AIR TROP CHARGÉ » |
+| 0:22–0:23 | Femme qui ouvre la fenêtre | Pexels | Notification sur le téléphone, alarme |
+| 0:23–0:26 | Couple dehors avec un téléphone | Pexels | Carte de l'appli qui sort du téléphone, « Où que tu sois » |
+| 0:26–0:29 | Produit sur fond orange, vidéo floutée derrière | Photo officielle | Bouton « 👇 Lien juste en dessous », coup final de la musique |
+
+Les sources détaillées, les auteurs et les modèles utilisés sont dans [`source-v2/CREDITS.md`](source-v2/CREDITS.md).
 
 ## Légende proposée pour le post
 
@@ -44,15 +63,41 @@ La Temtop W100 = station météo + moniteur de qualité de l'air (CO₂, particu
 #pub #temtop #stationmeteo #qualitedelair #maisonconnectee #techsuisse
 ```
 
-Si la vidéo est payée ou le produit offert, garde la mention **#pub** et active le label « Partenariat rémunéré » sur Instagram (et « Contenu de marque » sur TikTok).
+Si la vidéo est payée ou le produit offert :
+- garde la mention **#pub** ;
+- active le label « Partenariat rémunéré » sur Instagram et « Contenu de marque » sur TikTok.
 
 ## À savoir avant de publier
 
-- **Voix off** : générée avec ElevenLabs (modèle `eleven_v3`, voix « Kevin – Création de contenus »). L'usage commercial demande un abonnement ElevenLabs payant, car l'offre gratuite ne l'autorise pas.
-- **Visuels produit** : détourés des images officielles Temtop. Dans le cadre d'une collaboration, fais-les valider par la marque.
-- **Écran du smartphone** : c'est une maquette d'illustration (valeurs fictives), pas une capture de la vraie appli. Si possible, remplace-la par une capture d'écran réelle.
-- **Musique et bruitages** : synthétisés spécialement pour cette vidéo, sans aucun sample externe, donc libres de droits.
-- **Police** : Montserrat (SIL Open Font License, voir `source/fonts/OFL.txt`).
+### Plans générés par IA (v2)
+
+Quatre plans du produit sont générés par IA à partir des photos officielles.
+- Active l'étiquette « Contenu généré par IA » sur TikTok, obligatoire pour les images réalistes générées par IA. Sur YouTube, coche aussi la case « contenu modifié ou synthétique ».
+- En arrêt sur image, quelques petits textes de l'écran peuvent être légèrement déformés : c'est un artefact typique de l'IA.
+
+### Personnes filmées (v2)
+
+Les plans Pexels sont libres d'usage commercial. En revanche, leur licence interdit de faire croire que les personnes filmées recommandent le produit.
+- Ici, ces plans servent d'illustration : personne ne parle du produit.
+- Pour une pub sponsorisée, le plus sûr est de remplacer les plans avec des personnes reconnaissables par tes propres images, surtout le couple au téléphone.
+
+### Voix off et musique
+
+La voix off (`eleven_v3`, voix « Kevin – Création de contenus ») et la musique de la v2 ont été générées avec ElevenLabs. L'offre gratuite n'autorise pas l'usage commercial : pour une pub, il faut un abonnement payant.
+
+Pour les plans vidéo IA (vidIQ, modèle Gemini Omni Flash), vérifie les conditions d'utilisation commerciale de vidIQ.
+
+### Valeurs affichées
+
+La notification, la carte de l'appli, l'écran du smartphone de la v1 et les mesures qui grimpent sont des illustrations avec des valeurs fictives, pas des captures de l'appli réelle. Si possible, remplace-les par de vraies captures.
+
+### Visuels produit
+
+Ils sont tirés des images officielles Temtop. Dans le cadre d'une collaboration, fais-les valider par la marque.
+
+### Musique et police
+
+La musique et les bruitages de la v1 ont été synthétisés pour cette vidéo, sans aucun sample externe. La police est Montserrat (SIL Open Font License, voir `source/fonts/OFL.txt`).
 
 ## Version tournée face caméra (optionnel)
 
@@ -65,11 +110,34 @@ Le même script fonctionne pour une version filmée par toi :
 5. **Appli** : enregistrement d'écran de la vraie appli sur ton téléphone.
 6. **CTA** : face caméra, tu pointes vers le bas.
 
-## Modifier ou regénérer la vidéo
+## Modifier ou regénérer les vidéos
 
-Tout le montage est du code : `source/index.html` (composition animée, une fonction `renderFrame(t)` par image), `source/timeline.json` (timings mot à mot), `source/audio.py` (musique, bruitages, mixage) et `source/vo_edit.py` (resserrage des pauses de la voix off).
+Tout le montage est du code.
+
+### v1 (`source/`)
+
+| Fichier | Rôle |
+|---|---|
+| `index.html` | Composition animée, une fonction `renderFrame(t)` par image |
+| `timeline.json` | Timings mot à mot |
+| `audio.py` | Musique, bruitages et mixage |
+| `vo_edit.py` | Resserrage des pauses de la voix off |
 
 ```bash
-cd source
-./build.sh        # python3 (numpy, scipy), node 18+, ffmpeg et Chromium (variable CHROME)
+cd source && ./build.sh    # python3 (numpy, scipy), node 18+, ffmpeg et Chromium (variable CHROME)
 ```
+
+### v2 (`source-v2/`)
+
+| Fichier | Rôle |
+|---|---|
+| `build_base.py` | Piste des vrais plans : coupes, punch-ins, écran partagé |
+| `overlay/index.html` | Calque transparent : sous-titres, puces, alertes, écran final |
+| `audio_v2.py` | Voix, musique, bruitages et ambiances |
+| `composite.py` | Assemblage final |
+
+```bash
+cd source-v2 && ./build_v2.sh    # en plus : opencv-python, onnxruntime et curl
+```
+
+Le script télécharge lui-même les plans Pexels listés dans `stock.txt`.

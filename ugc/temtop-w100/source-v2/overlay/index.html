@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Temtop W100 – overlay v2</title>
+<!-- Transparent motion-graphics layer (captions, chips, alerts, end card) rendered as RGBA frames
+     and composited over the real footage track (base_v2.mp4). Deterministic: renderFrame(t). -->
+<style>
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100 900;font-display:block;src:url(../../source/fonts/montserrat-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100 900;font-display:block;src:url(../../source/fonts/montserrat-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+:root{--orange:#FF7A00;--orange2:#FFA43A;--yellow:#FFE14D;--ink:#121826;--red:#FF3B30;--green:#22C55E;--blue:#1d6fd0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent}
+body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased;color:var(--ink)}
+.em{font-family:'Noto Color Emoji',sans-serif;font-weight:400;line-height:1}
+#stage{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:hidden}
+.abs{position:absolute;left:0;top:0;transform-origin:50% 50%}
+.fill{position:absolute;inset:0}
+img{display:block;user-select:none}
+
+/* chips */
+.chip{position:absolute;left:0;top:0;display:flex;align-items:center;gap:16px;padding:16px 32px 16px 20px;border-radius:999px;background:#fff;color:var(--ink);
+  font-weight:800;font-size:48px;letter-spacing:-.5px;white-space:nowrap;box-shadow:0 16px 34px rgba(0,0,0,.32),0 3px 0 rgba(0,0,0,.06);opacity:0;visibility:hidden}
+.chip .em{font-size:56px}
+.chip .t2{display:flex;flex-direction:column;line-height:1.02}
+.chip .t2 small{font-size:28px;font-weight:700;letter-spacing:0;margin-top:6px;color:#4b5563;display:flex;align-items:center;gap:9px;font-variant-numeric:tabular-nums}
+.chip .t2 small b{font-weight:900}
+.chip.dark{background:#0f1726;color:#fff;box-shadow:0 16px 34px rgba(0,0,0,.45)}
+.tag{position:absolute;padding:12px 26px 12px 18px;border-radius:18px;font-weight:900;font-size:40px;letter-spacing:1px;display:flex;gap:12px;align-items:center;opacity:0;visibility:hidden;box-shadow:0 12px 28px rgba(0,0,0,.32)}
+.ld{display:inline-block;width:16px;height:16px;border-radius:50%;background:#16a34a;flex:none}
+.sub2{font-size:.55em;vertical-align:-.12em}
+
+/* forecast card */
+.fd{display:flex;flex-direction:column;align-items:center;color:#fff;opacity:0}
+.fd b{font-size:30px;font-weight:800;letter-spacing:1.5px;opacity:.82}
+.fd .em{font-size:84px;margin:16px 0 12px}
+.fd i{font-style:normal;font-size:54px;font-weight:900;letter-spacing:-1px;line-height:1}
+.fd small{font-size:30px;font-weight:700;opacity:.62;margin-top:4px}
+
+/* app card */
+.ms{flex:1;background:#f3f4f6;border-radius:20px;padding:12px 14px}
+.ms small{display:block;font-size:19px;font-weight:700;color:#6b7280;white-space:nowrap}
+.ms small .em{font-size:20px}
+.ms b{display:block;font-size:31px;font-weight:900;letter-spacing:-.5px;margin-top:2px;white-space:nowrap}
+
+/* captions */
+#captions{position:absolute;left:0;top:0;width:1080px;height:1920px;pointer-events:none}
+.capbox{position:absolute;left:70px;width:940px;text-align:center;font-weight:900;font-size:80px;line-height:1.06;text-transform:uppercase;letter-spacing:-1.5px}
+.w{display:inline-block;position:relative;margin:0 .13em;transform-origin:50% 70%}
+.w .s,.w .f{display:block;white-space:nowrap}
+.w .s{position:absolute;left:0;top:0;color:#000;-webkit-text-stroke:17px #000;text-shadow:0 9px 0 rgba(0,0,0,.45)}
+.w .f{position:relative;color:#fff}
+.w.on .f{color:var(--yellow)}
+
+/* hook */
+#hook{position:absolute;left:0;top:0;width:1080px;height:1920px;pointer-events:none}
+.hl{position:absolute;left:40px;width:1000px;text-align:center;font-weight:900;text-transform:uppercase;letter-spacing:-2px;line-height:1}
+.hl .w .s{-webkit-text-stroke:20px #000}
+
+#flash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
+</style>
+</head>
+<body>
+<div id="stage">
+ <!-- grade helpers over the footage -->
+ <div class="fill" id="vign" style="background:radial-gradient(125% 80% at 50% 48%,rgba(0,0,0,0) 56%,rgba(0,0,0,.30) 100%)"></div>
+ <div class="fill" id="redv" style="background:radial-gradient(95% 68% at 50% 50%,rgba(255,40,30,0) 38%,rgba(255,40,30,.58) 100%);opacity:0;visibility:hidden"></div>
+
+ <!-- reveal: hand-drawn arrow + name -->
+ <svg class="abs" id="arrow" width="1080" height="1920" style="overflow:visible;visibility:hidden">
+  <path id="arB" d="M 250 560 C 210 730, 370 860, 505 892" stroke="#000" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <path id="ahB" d="M 464 852 L 505 892 L 450 909" stroke="#000" stroke-width="28" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path id="arW" d="M 250 560 C 210 730, 370 860, 505 892" stroke="#fff" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path id="ahW" d="M 464 852 L 505 892 L 450 909" stroke="#fff" stroke-width="13" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+ </svg>
+ <div class="abs" id="title" style="left:0;top:250px;width:1080px;text-align:center;opacity:0;visibility:hidden">
+   <span style="display:inline-block;background:var(--ink);color:#fff;font-weight:900;font-size:96px;letter-spacing:-2px;padding:14px 40px 16px;border-radius:26px;box-shadow:0 18px 40px rgba(0,0,0,.45)">TEMTOP <span style="color:var(--orange)">W100</span></span>
+ </div>
+
+ <!-- two-in-one -->
+ <div class="chip" id="cA"><span class="em">🌦️</span><span>Station météo</span></div>
+ <div class="chip" id="cB"><span class="em">🫁</span><span>Qualité de l'air</span></div>
+ <div class="abs" id="divider" style="left:0;top:953px;width:1080px;height:14px;background:#fff;box-shadow:0 0 26px rgba(0,0,0,.5);visibility:hidden"></div>
+ <div class="abs" id="stamp" style="left:390px;top:810px;width:300px;height:300px;opacity:0;visibility:hidden">
+   <div style="position:absolute;inset:0;border-radius:50%;background:var(--orange);box-shadow:0 22px 50px rgba(0,0,0,.45),inset 0 0 0 10px rgba(255,255,255,.9),inset 0 0 0 16px var(--orange),inset 0 0 0 19px rgba(255,255,255,.55)"></div>
+   <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;font-weight:900;line-height:.9">
+     <span style="font-size:112px;letter-spacing:-2px;white-space:nowrap">2<span style="font-size:.5em;letter-spacing:1px;margin:0 14px;vertical-align:.32em">EN</span>1</span>
+   </div>
+ </div>
+
+ <!-- outdoor -->
+ <div class="tag" id="tOut" style="left:60px;top:250px;background:#fff;color:var(--blue)"><span class="em" style="font-size:44px">🌤️</span>DEHORS</div>
+ <div class="chip" id="o1"><span class="em">💨</span><span>Vent</span></div>
+ <div class="chip" id="o2"><span class="em">🌧️</span><span>Pluie</span></div>
+ <div class="chip" id="o3"><span class="em">☀️</span><span>UV</span></div>
+ <div class="chip" id="o4"><span class="em">🔆</span><span>Luminosité</span></div>
+
+ <!-- indoor, with live readings -->
+ <div class="tag" id="tIn" style="left:60px;top:250px;background:var(--ink);color:#fff"><span class="em" style="font-size:44px">🏠</span>DEDANS</div>
+ <div class="chip" id="live" style="background:var(--red);color:#fff;font-size:36px;padding:14px 28px 14px 22px"><span id="liveDot" style="display:inline-block;width:22px;height:22px;border-radius:50%;background:#fff"></span><span>EN TEMPS RÉEL</span></div>
+ <div class="chip" id="i1"><span class="em">🫧</span><span class="t2"><span>CO<span class="sub2">2</span></span><small><i class="ld" id="d1"></i><b id="v1">640</b>ppm</small></span></div>
+ <div class="chip" id="i2"><span class="em">🌫️</span><span class="t2"><span>Particules fines</span><small><i class="ld" id="d2"></i>PM2.5 ·<b id="v2">9</b>µg/m³</small></span></div>
+ <div class="chip" id="i3"><span class="em">🧪</span><span class="t2"><span>COV</span><small><i class="ld" id="d3"></i><b id="v3">0,21</b>mg/m³</small></span></div>
+
+ <!-- touchscreen -->
+ <div class="abs" id="ripple" style="left:0;top:0;width:0;height:0"></div>
+ <div class="chip" id="cT"><span class="em">📱</span><span>Écran tactile 7"</span></div>
+
+ <!-- forecast -->
+ <div class="chip" id="cF"><span class="em">⛅</span><span>Prévisions météo</span></div>
+ <div class="abs" id="fc" style="left:80px;top:390px;width:920px;height:330px;border-radius:44px;background:rgba(12,20,36,.60);border:2px solid rgba(255,255,255,.22);box-shadow:0 30px 60px rgba(0,0,0,.35);opacity:0;visibility:hidden">
+   <div style="display:flex;justify-content:space-around;align-items:center;height:100%;padding:0 24px">
+     <div class="fd"><b>LUN.</b><span class="em">☀️</span><i>22°</i><small>12°</small></div>
+     <div class="fd"><b>MAR.</b><span class="em">⛅</span><i>19°</i><small>11°</small></div>
+     <div class="fd"><b>MER.</b><span class="em">🌧️</span><i>15°</i><small>9°</small></div>
+     <div class="fd"><b>JEU.</b><span class="em">🌤️</span><i>18°</i><small>10°</small></div>
+   </div>
+ </div>
+
+ <!-- alert -->
+ <div class="abs" id="banner" style="left:0;top:300px;width:1080px;text-align:center;opacity:0;visibility:hidden">
+   <span style="display:inline-flex;align-items:center;gap:16px;background:var(--red);color:#fff;font-weight:900;font-size:58px;letter-spacing:-1px;padding:18px 40px 18px 30px;border-radius:999px;box-shadow:0 18px 50px rgba(120,0,0,.55)"><span class="em" style="font-size:62px">⚠️</span>AIR TROP CHARGÉ</span>
+ </div>
+ <div class="abs" id="notif" style="left:44px;top:205px;width:992px;padding:26px 30px 28px 26px;border-radius:44px;background:rgba(246,246,248,.97);box-shadow:0 24px 60px rgba(0,0,0,.45);display:flex;gap:24px;align-items:flex-start;visibility:hidden">
+   <div style="flex:none;width:100px;height:100px;border-radius:24px;background:linear-gradient(160deg,#ffa43a,#ff6a00);display:flex;align-items:center;justify-content:center"><span class="em" style="font-size:58px">🌡️</span></div>
+   <div style="flex:1;min-width:0">
+     <div style="display:flex;justify-content:space-between;font-size:28px;font-weight:700;color:#6b7280;letter-spacing:.5px"><span>TEMTOP W100</span><span style="font-weight:600;letter-spacing:0">maintenant</span></div>
+     <div style="font-size:41px;font-weight:900;color:#111;margin-top:6px;letter-spacing:-.5px"><span class="em" style="font-size:38px">⚠️</span> Qualité de l'air dégradée</div>
+     <div style="font-size:31px;font-weight:600;color:#374151;margin-top:6px;line-height:1.25">Particules fines au-dessus du seuil. Aère la pièce !</div>
+   </div>
+ </div>
+
+ <!-- app -->
+ <div class="abs" id="app" style="left:480px;top:785px;width:440px;padding:26px 24px 24px;border-radius:40px;background:#fff;box-shadow:0 30px 70px rgba(0,0,0,.42);visibility:hidden">
+   <div style="display:flex;align-items:center;gap:14px">
+     <div style="flex:none;width:64px;height:64px;border-radius:18px;background:linear-gradient(160deg,#ffa43a,#ff6a00);display:flex;align-items:center;justify-content:center"><span class="em" style="font-size:36px">🏠</span></div>
+     <div><b style="display:block;font-size:32px;font-weight:900;letter-spacing:-.5px;line-height:1.1">Ma maison</b><span style="font-size:22px;font-weight:700;color:#16a34a;display:flex;align-items:center;gap:7px"><i class="ld" style="width:12px;height:12px;background:#22c55e"></i>En ligne · à l'instant</span></div>
+   </div>
+   <div style="margin-top:18px;padding:14px 18px;border-radius:24px;background:#ecfdf3;display:flex;align-items:center;justify-content:space-between">
+     <div><div style="font-size:22px;font-weight:700;color:#4b5563">Qualité de l'air</div><div style="font-size:42px;font-weight:900;color:#15803d;letter-spacing:-.5px;line-height:1.1">Bonne</div></div>
+     <span class="em" style="font-size:60px">😊</span>
+   </div>
+   <div style="display:flex;gap:10px;margin-top:12px">
+     <div class="ms"><small><span class="em">🌡️</span> Intérieur</small><b>21,4°</b></div>
+     <div class="ms"><small><span class="em">🫧</span> CO<span class="sub2">2</span></small><b>612</b></div>
+     <div class="ms"><small><span class="em">💨</span> Vent</small><b>12 km/h</b></div>
+   </div>
+ </div>
+ <div class="chip dark" id="cW"><span class="em">📍</span><span>Où que tu sois</span></div>
+
+ <!-- end card (semi-transparent over the blurred footage) -->
+ <div class="abs" id="end" style="width:1080px;height:1920px;opacity:0;visibility:hidden;overflow:hidden">
+   <div class="fill" style="background:linear-gradient(165deg,rgba(255,176,71,.86) 0%,rgba(255,122,0,.90) 52%,rgba(238,90,0,.95) 100%)"></div>
+   <div class="abs" id="eRays" style="left:-460px;top:-140px;width:2000px;height:2000px;border-radius:50%;opacity:.55;background:repeating-conic-gradient(from 0deg,rgba(255,255,255,.14) 0deg 8deg,rgba(255,255,255,0) 8deg 20deg);-webkit-mask-image:radial-gradient(circle,#000 0%,rgba(0,0,0,.5) 34%,transparent 64%)"></div>
+   <div class="abs" id="eShine" style="left:-600px;top:0;width:300px;height:1920px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.28),rgba(255,255,255,0));transform:skewX(-18deg)"></div>
+   <div class="abs" id="eTitle" style="left:0;top:210px;width:1080px;text-align:center;color:#fff;font-weight:900;font-size:124px;letter-spacing:-4px;line-height:1;text-shadow:0 10px 0 rgba(150,50,0,.35);opacity:0">TEMTOP W100</div>
+   <div class="abs" id="eSub" style="left:0;top:356px;width:1080px;text-align:center;color:#fff;font-weight:800;font-size:44px;letter-spacing:-.5px;opacity:0">Station météo + qualité de l'air</div>
+   <div class="abs" id="eShadow" style="left:170px;top:1222px;width:740px;height:70px;border-radius:50%;background:radial-gradient(closest-side,rgba(120,40,0,.45),rgba(120,40,0,0));opacity:0"></div>
+   <img class="abs" id="eHero" src="../../source/assets/hero_s3@2x.png" style="left:130px;top:440px;width:820px;height:823px">
+   <div class="abs" id="eCta" style="left:0;top:1290px;width:1080px;text-align:center;opacity:0">
+     <span style="display:inline-flex;align-items:center;gap:14px;background:#fff;color:#e85d00;font-weight:900;font-size:52px;letter-spacing:-1px;padding:20px 44px 20px 34px;border-radius:999px;box-shadow:0 18px 40px rgba(120,40,0,.35)"><span class="em" style="font-size:58px">👇</span>LIEN JUSTE EN DESSOUS</span>
+   </div>
+ </div>
+
+ <div id="hook"></div>
+ <div id="captions"></div>
+ <div id="flash"></div>
+</div>
+
+<script src="../../source/timeline.js"></script>
+<script>
+const DUR=29.2;
+const $=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const lerp=(a,b,u)=>a+(b-a)*u;
+const E={lin:u=>u,outC:u=>1-Math.pow(1-u,3),inC:u=>u*u*u,ioC:u=>u<.5?4*u*u*u:1-Math.pow(-2*u+2,3)/2,
+  outB:u=>{const c1=1.9,c3=c1+1;return 1+c3*Math.pow(u-1,3)+c1*Math.pow(u-1,2)},ioS:u=>-(Math.cos(Math.PI*u)-1)/2};
+const pr=(t,a,b,e=E.lin)=>e(clamp((t-a)/(b-a)));
+function tf(el,{x=0,y=0,s=1,sx=null,sy=null,r=0,o=null}={}){
+  el.style.transform=`translate(${x.toFixed(2)}px,${y.toFixed(2)}px) rotate(${r.toFixed(3)}deg) scale(${(sx??s).toFixed(4)},${(sy??s).toFixed(4)})`;
+  if(o!==null) el.style.opacity=clamp(o).toFixed(3);
+}
+const show=(el,v)=>{el.style.visibility=v?'visible':'hidden'};
+const W=TL.words, P=TL.phrases;
+const wt=(p,i)=>W.find(w=>w.p===p&&w.i===i).t;
+const tapT=wt(15,5)+0.05;
+
+// enters (pop) at a, leaves at b
+function chipAnim(el,t,a,b,{dx=0,dy=0,r0=-6,from=0.4,ox=0,oy=0,os=0.8,dur=0.14}={}){
+  if(t<a||t>b+dur){show(el,false);el.style.opacity=0;return false;}
+  show(el,true);
+  const u=pr(t,a,a+0.38,E.outB),o=pr(t,a,a+0.12),m=pr(t,a,a+0.3,E.outC),q=pr(t,b,b+dur,E.inC);
+  tf(el,{x:dx*(1-m)+ox*q,y:dy*(1-m)+oy*q,s:lerp(from,1,u)*lerp(1,os,q),r:r0*(1-m),o:o*(1-q)});
+  return true;
+}
+
+/* ---------------- sections ---------------- */
+function secReveal(t){
+  const a=2.18,b=4.18, svg=$('arrow');
+  const vis=t>=a&&t<b+0.14; show(svg,vis);
+  if(vis){
+    const u=pr(t,a,a+0.3,E.outC), h=pr(t,a+0.27,a+0.4,E.outC), q=pr(t,b,b+0.14);
+    for(const id of ['arB','arW']){const p=$(id),L=p.__len;p.style.strokeDasharray=`${(L*u).toFixed(1)} ${L}`;}
+    for(const id of ['ahB','ahW']){const p=$(id),L=p.__len;p.style.strokeDasharray=`${(L*h).toFixed(1)} ${L}`;}
+    svg.style.opacity=(1-q).toFixed(3);
+    svg.style.transform=`translate(${(Math.sin(t*9)*3).toFixed(1)}px,${(Math.cos(t*7)*3).toFixed(1)}px)`;
+  }
+  chipAnim($('title'),t,wt(2,1)-0.06,4.18,{dy:-40,r0:-5,from:.3});
+}
+function secTwo(t){
+  chipAnim($('cA'),t,wt(3,1)-0.05,7.12,{dx:-40});
+  chipAnim($('cB'),t,wt(4,4)-0.05,7.14,{dx:40});
+  const sa=7.20,sb=8.44, dv=$('divider');
+  const dvis=t>=sa&&t<sb+0.12; show(dv,dvis);
+  if(dvis) tf(dv,{sx:pr(t,sa,sa+0.18,E.outC),sy:1,o:1-pr(t,sb,sb+0.12)});
+  const st=wt(5,2)-0.05, el=$('stamp');
+  if(t<st||t>sb+0.14){show(el,false);}else{show(el,true);
+    const u=pr(t,st,st+.32,E.outB), q=pr(t,sb,sb+0.14,E.inC);
+    tf(el,{s:lerp(2.4,1,u)*(1+0.02*Math.sin((t-st)*5))*lerp(1,1.5,q),r:lerp(-28,-10,u),o:pr(t,st,st+.08)*(1-q)});}
+}
+function secOut(t){
+  const b=12.36;
+  chipAnim($('tOut'),t,P[6].s-0.05,b,{dx:-60,r0:0,ox:-90});
+  const ts=[wt(6,4),wt(7,1),wt(8,1),wt(9,2)];
+  ['o1','o2','o3','o4'].forEach((id,k)=>chipAnim($(id),t,ts[k]-0.06,b+0.02*(k+1),{dy:30,r0:k%2?5:-5,ox:-90}));
+}
+// live readings that climb while the pan flames
+const lvl=(v,a,b)=>v<a?'#16a34a':v<b?'#ea8a00':'#dc2626';
+const thou=n=>n>=1000?`${Math.floor(n/1000)} ${String(n%1000).padStart(3,'0')}`:String(n);
+function readings(t){
+  const co2=Math.round(640+510*Math.pow(pr(t,13.4,17.2,E.ioS),1.3)+6*Math.sin(t*7)+4*Math.sin(t*13.3));
+  const pm=Math.max(5,Math.round(9+49*Math.pow(pr(t,14.2,17.2,E.ioS),1.2)+1.2*Math.sin(t*9.1)));
+  const cov=0.21+0.25*pr(t,15.0,17.2,E.ioS)+0.006*Math.sin(t*11);
+  return {co2,pm,cov};
+}
+function secIn(t){
+  const b=17.16;
+  chipAnim($('tIn'),t,P[10].s-0.05,b,{dx:-60,r0:0,ox:-90});
+  chipAnim($('live'),t,wt(14,0)-0.04,b,{dy:-30,r0:4,ox:90});
+  $('liveDot').style.opacity=(0.35+0.65*(0.5+0.5*Math.cos((t-16.3)*9))).toFixed(3);
+  const ts=[wt(11,3),wt(12,1),wt(13,2)];
+  ['i1','i2','i3'].forEach((id,k)=>chipAnim($(id),t,ts[k]-0.06,b+0.02*(k+1),{dy:30,r0:k%2?5:-5,ox:-90}));
+  if(t>13.5&&t<17.4){
+    const r=readings(t);
+    $('v1').textContent=thou(r.co2); const c1=lvl(r.co2,800,1000); $('d1').style.background=c1; $('v1').style.color=c1;
+    $('v2').textContent=String(r.pm); const c2=lvl(r.pm,12.5,35.5); $('d2').style.background=c2; $('v2').style.color=c2;
+    $('v3').textContent=r.cov.toFixed(2).replace('.',','); const c3=lvl(r.cov,0.3,0.6); $('d3').style.background=c3; $('v3').style.color=c3;
+  }
+}
+function secTouch(t){
+  chipAnim($('cT'),t,wt(15,4)-0.06,19.52,{dy:-40});
+  const px=530,py=893; let html='';
+  if(t>=tapT&&t<tapT+1.1){
+    const d=Math.exp(-Math.pow((t-tapT-0.04)/.09,2));
+    html+=`<div style="position:absolute;left:${px-28}px;top:${py-28}px;width:56px;height:56px;border-radius:50%;background:rgba(255,255,255,${(0.7*d).toFixed(3)});box-shadow:0 0 36px 10px rgba(255,255,255,${(0.65*d).toFixed(3)})"></div>`;
+    for(let j=0;j<3;j++){const ra=tapT+j*.12; if(t<ra) continue; const u=pr(t,ra,ra+.7,E.outC); const R=lerp(14,175,u);
+      html+=`<div style="position:absolute;left:${(px-R).toFixed(1)}px;top:${(py-R).toFixed(1)}px;width:${(2*R).toFixed(1)}px;height:${(2*R).toFixed(1)}px;border-radius:50%;border:${(8*(1-u)+2).toFixed(1)}px solid rgba(255,255,255,${(.9*(1-u)).toFixed(3)})"></div>`;}
+  }
+  $('ripple').innerHTML=html;
+}
+function secForecast(t){
+  chipAnim($('cF'),t,wt(16,2)-0.06,21.0,{dy:-40});
+  const a=19.80,b=21.0, el=$('fc');
+  if(t<a||t>b+0.14){show(el,false);return;}
+  show(el,true);
+  const u=pr(t,a,a+0.45,E.outB), q=pr(t,b,b+0.14,E.inC);
+  tf(el,{y:lerp(80,0,pr(t,a,a+0.35,E.outC))-40*q,s:lerp(.85,1,u)*lerp(1,.9,q),o:pr(t,a,a+0.15)*(1-q)});
+  el.querySelectorAll('.fd').forEach((d,k)=>{const ka=a+0.14+k*0.08, v=pr(t,ka,ka+0.3,E.outB);
+    d.style.opacity=pr(t,ka,ka+0.1).toFixed(3); d.style.transform=`translateY(${((1-pr(t,ka,ka+.25,E.outC))*40).toFixed(1)}px) scale(${lerp(.6,1,v).toFixed(4)})`;});
+}
+function secAlert(t){
+  const rv=$('redv'), bA=wt(17,3)-0.06, al=wt(18,1)-0.06;
+  let o=0;
+  if(t>=21.09&&t<23.72){o=t<bA?0.45*pr(t,21.15,bA):0.55+0.4*Math.pow(Math.sin((t-bA)*7),2); o*=1-pr(t,23.58,23.72);}
+  rv.style.opacity=o.toFixed(3); show(rv,o>0.002);
+  if(chipAnim($('banner'),t,bA,22.74,{dy:-50,r0:-3,from:.3,oy:-60})&&t>bA+.4&&t<22.74)
+    $('banner').style.transform+=` scale(${(1+.035*Math.sin((t-bA)*12)).toFixed(4)})`;
+  const n=$('notif'), na=22.84, nb=23.56;
+  if(t<na||t>nb+0.2){show(n,false);return;}
+  show(n,true);
+  const u=pr(t,na,na+0.38,E.outB), q=pr(t,nb,nb+0.2,E.inC);
+  const shake=t>al?Math.exp(-(t-al)*6)*Math.sin((t-al)*60)*14:0;
+  tf(n,{x:shake,y:lerp(-440,0,u)-480*q,o:1});
+}
+function secApp(t){
+  const a=wt(19,5)-0.10, b=26.2, el=$('app');
+  if(t<a||t>b+0.12){show(el,false);}else{show(el,true);
+    const u=pr(t,a,a+0.5,E.outB), m=pr(t,a,a+0.42,E.outC), q=pr(t,b,b+0.12,E.inC);
+    const cx=480+220, cy=785+el.offsetHeight/2, fx=860-cx, fy=1330-cy; // flies out of the phone
+    tf(el,{x:fx*(1-m),y:fy*(1-m)+Math.sin((t-a)*2.2)*6*m,s:lerp(.12,1,u)*lerp(1,.9,q),r:lerp(-10,-2,m),o:pr(t,a,a+0.1)*(1-q)});}
+  chipAnim($('cW'),t,P[20].s-0.05,26.2,{dy:-40});
+}
+function secEnd(t){
+  const a=26.27, el=$('end');
+  if(t<a){show(el,false);return;}
+  show(el,true);
+  el.style.opacity=pr(t,a,a+0.22,E.outC).toFixed(3);
+  tf($('eHero'),{y:lerp(380,0,pr(t,a,a+.5,E.outC))+Math.sin(t*1.5)*6,s:lerp(.6,1,pr(t,a,a+.6,E.outB))*lerp(1,1.05,pr(t,a+.6,DUR))});
+  tf($('eShadow'),{o:pr(t,a+.2,a+.6)});
+  chipAnim($('eTitle'),t,a+0.02,99,{dy:-80,r0:-3,from:.5});
+  chipAnim($('eSub'),t,a+0.18,99,{dy:-30,r0:0,from:.8});
+  tf($('eRays'),{r:t*8});
+  tf($('eShine'),{x:lerp(0,2100,pr(t,a+.7,a+1.5,E.ioS))});
+  const ca=wt(21,4)-0.08;
+  if(chipAnim($('eCta'),t,ca,99,{dy:60,r0:0,from:.5})&&t>ca+.4)
+    $('eCta').style.transform+=` translateY(${(Math.abs(Math.sin((t-ca)*5.5))*-10).toFixed(1)}px)`;
+}
+
+/* ---------------- captions ---------------- */
+const BREAKS={4:[3],6:[1],11:[2],15:[2,5],17:[3],19:[4],21:[5]};
+const CH=[];
+for(let p=1;p<P.length;p++){
+  const ws=W.filter(w=>w.p===p); const br=BREAKS[p]||[]; let cur=[];
+  ws.forEach((w,k)=>{ if(br.includes(k)&&cur.length){CH.push(cur);cur=[]} cur.push(w); });
+  if(cur.length) CH.push(cur);
+}
+CH.forEach((c,k)=>{c.s=c[0].t; const nx=CH[k+1]; const lastEnd=c[c.length-1].e; c.e=nx?(nx[0].t-lastEnd>0.45?lastEnd+0.3:nx[0].t):lastEnd+0.9;});
+const fmt=s=>s.replace('₂','<span class="sub2">2</span>');
+function wordHTML(txt){const h=fmt(txt);return `<span class="w"><span class="s">${h}</span><span class="f">${h}</span></span>`}
+let curChunk=-1; const capEl=$('captions');
+function drawCaptions(t){
+  let k=CH.findIndex(c=>t>=c.s-0.02&&t<c.e);
+  if(t<2.0) k=-1;
+  if(k!==curChunk){curChunk=k; capEl.innerHTML=k<0?'':`<div class="capbox" id="capbox">${CH[k].map(w=>wordHTML(w.w)).join(' ')}</div>`;}
+  if(k<0) return;
+  const box=$('capbox'), c=CH[k];
+  const cy=t>26.27?1490:1400;
+  box.style.top=(cy-box.offsetHeight/2)+'px';
+  const els=box.querySelectorAll('.w');
+  c.forEach((w,i)=>{const el=els[i]; const a=w.t-0.04;
+    if(t<a){el.style.opacity=0;el.style.transform='scale(.5)';return;}
+    const u=pr(t,a,a+0.2,E.outB); el.style.opacity=pr(t,a,a+0.06);
+    const next=c[i+1]; const on=t>=a&&(!next||t<next.t-0.04);
+    el.classList.toggle('on',on);
+    el.style.transform=`translateY(${(1-pr(t,a,a+.18,E.outC))*18}px) scale(${lerp(.55,1,u)*(on?1.06:1)})`;
+  });
+  box.style.opacity=1-pr(t,c.e-0.08,c.e);
+}
+
+/* ---------------- hook ---------------- */
+const HOOK=[
+ {ws:[0,1,2],fs:80,top:640,col:'#fff'},
+ {ws:[3,4,5],fs:80,top:735,col:'#fff'},
+ {ws:[6],fs:150,top:830,col:'#FFE14D'},
+ {ws:[7,8],fs:96,top:990,col:'#fff',emoji:true}];
+const hookEl=$('hook');
+hookEl.innerHTML=HOOK.map((l,li)=>`<div class="hl" style="top:${l.top}px;font-size:${l.fs}px">${l.ws.map(i=>{const w=W.find(x=>x.p===0&&x.i===i);return `<span class="w" data-i="${i}"><span class="s">${w.w.toUpperCase()}</span><span class="f" style="color:${l.col}">${w.w.toUpperCase()}</span></span>`}).join(' ')}${l.emoji?' <span class="w em" id="hookEmoji" style="font-size:.95em;vertical-align:-.06em">😳</span>':''}</div>`).join('');
+function drawHook(t){
+  const vis=t<2.18; hookEl.style.display=vis?'block':'none'; if(!vis) return;
+  const out=pr(t,1.98,2.18,E.inC);
+  hookEl.style.opacity=1-out;
+  hookEl.style.transform=`scale(${lerp(1,1.03,pr(t,0,2))*lerp(1,1.25,out)})`;
+  hookEl.querySelectorAll('.w[data-i]').forEach(el=>{const i=+el.dataset.i; const a=W.find(x=>x.p===0&&x.i===i).t-0.03;
+    if(t<a){el.style.opacity=0;return;}
+    const u=pr(t,a,a+0.16,E.outC); el.style.opacity=pr(t,a,a+0.05);
+    el.style.transform=`scale(${lerp(1.7,1,u)}) rotate(${(1-u)*-4}deg)`;});
+  const em=$('hookEmoji'), ea=1.62;
+  if(t<ea){em.style.opacity=0}else{const u=pr(t,ea,ea+.3,E.outB);em.style.opacity=1;em.style.transform=`scale(${lerp(.2,1,u)}) rotate(${Math.sin((t-ea)*14)*8*(1-pr(t,ea,ea+.6))}deg)`;}
+}
+
+/* ---------------- layout (after fonts) ---------------- */
+function layout(){
+  const centre=(id,top)=>{const el=$(id); el.style.left=(540-el.offsetWidth/2)+'px'; el.style.top=top+'px';};
+  centre('cA',250); centre('cB',362); centre('cT',250); centre('cF',250); centre('cW',250);
+  const place=(id,x,y)=>{const el=$(id); el.style.left=x+'px'; el.style.top=y+'px'; return el;};
+  // outdoor 2x2 grid
+  const o1=place('o1',60,348); place('o2',60+o1.offsetWidth+18,348);
+  const o3=place('o3',60,348+o1.offsetHeight+16); place('o4',60+o3.offsetWidth+18,348+o1.offsetHeight+16);
+  // indoor: lock widths at their widest reading so the row never reflows
+  $('v1').textContent='1 150'; const i1=place('i1',60,348); i1.style.width=i1.offsetWidth+'px'; $('v1').textContent='640';
+  $('v2').textContent='58'; const i2=place('i2',60+i1.offsetWidth+18,348); i2.style.width=i2.offsetWidth+'px'; $('v2').textContent='9';
+  place('i3',60,348+i1.offsetHeight+16);
+  const lv=$('live'); lv.style.left=(1020-lv.offsetWidth)+'px'; lv.style.top='250px';
+  for(const id of ['arB','arW','ahB','ahW']){const p=$(id); p.__len=Math.ceil(p.getTotalLength())+2;}
+}
+
+/* ---------------- main ---------------- */
+function renderFrame(t){
+  $('vign').style.opacity=(1-pr(t,26.27,26.5)).toFixed(3);
+  secReveal(t); secTwo(t); secOut(t); secIn(t); secTouch(t); secForecast(t); secAlert(t); secApp(t); secEnd(t);
+  drawHook(t);
+  drawCaptions(t);
+  const st=wt(5,2)-0.05;
+  const fl=Math.max(Math.exp(-Math.pow((t-2.02)/.09,2))*.9*(t>=1.95?1:0), Math.exp(-Math.pow((t-st-0.02)/.06,2))*.35, Math.exp(-Math.pow((t-26.29)/.07,2))*.4*(t>=26.2?1:0));
+  $('flash').style.opacity=fl.toFixed(3);
+}
+window.renderFrame=renderFrame;
+window.DUR=DUR;
+window.ready=Promise.all([document.fonts.load('900 80px Montserrat'),document.fonts.load('800 44px Montserrat'),document.fonts.load('700 28px Montserrat'),document.fonts.load('600 25px Montserrat'),document.fonts.load('48px "Noto Color Emoji"'),
+  ...[...document.images].map(im=>im.decode().catch(()=>{}))]).then(()=>document.fonts.ready).then(()=>{layout();renderFrame(0);return true;});
+</script>
+</body>
+</html>
