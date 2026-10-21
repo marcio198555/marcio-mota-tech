@@ -1,9 +1,13 @@
 import json, sys
 from faster_whisper import WhisperModel
+import subprocess, numpy as np
+def load(f):
+    raw = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', f, '-ac', '1', '-ar', '16000', '-f', 's16le', '-'], capture_output=True).stdout
+    return np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
 m = WhisperModel('medium', device='cpu', compute_type='int8')
 res = {}
 for f, lang in [('out/voix_off_v2.mp3', 'fr'), ('out/voix_off.mp3', 'fr'), ('out/music_el.mp3', None)]:
-    segs, info = m.transcribe(f, language=lang, word_timestamps=True, vad_filter=(lang is None))
+    segs, info = m.transcribe(load(f), language=lang, word_timestamps=True, vad_filter=(lang is None))
     words = []
     text = []
     for s in segs:
