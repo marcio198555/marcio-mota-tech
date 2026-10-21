@@ -1,0 +1,21 @@
++ python3 -m pip install -q gradio_client
++ tail -2
++ timeout 1500 python3 bridge/wan.py
+Loaded as API: https://zerogpu-aoti-wan2-2-fp8da-aoti-faster.hf.space
+ENDPOINTS {"/generate_video": ["input_image", "prompt", "steps", "negative_prompt", "duration_seconds", "guidance_scale", "guidance_scale_2", "seed", "randomize_seed"]}
+USING /generate_video
+RESULT wan_sleep ('/tmp/gradio/9e879bc46f5e8ca5e0084523745c0d1af3672fb65b1fcddc76704d0b1d5ce73a/tmpl4mi0h00.mp4', 7) 45.4
+SAVED wan_sleep
+RESULT wan_end ('/tmp/gradio/2efd26f50a35af8a903c0a3766596a3199690472f5643ce461a6d65ffca17735/tmp3osp1ku5.mp4', 11) 56.5
+SAVED wan_end
++ ls -la out
+total 16484
+drwxr-xr-x 2 runner runner    4096 Oct 21 05:31 .
+drwxr-xr-x 8 runner runner    4096 Oct 21 05:30 ..
+-rw-r--r-- 1 runner runner 6063175 Oct 21 05:30 ai_end_9x16.png
+-rw-r--r-- 1 runner runner 4275671 Oct 21 05:30 ai_sleep_16x9.png
+-rw-r--r-- 1 runner runner 4963422 Oct 21 05:30 ai_sleep_9x16.png
+-rw-r--r-- 1 runner runner     636 Oct 21 05:31 job.log
+-rw-r--r-- 1 runner runner 1141061 Oct 21 05:30 voix_off.mp3
+-rw-r--r-- 1 runner runner  264804 Oct 21 05:31 wan_end.mp4
+-rw-r--r-- 1 runner runner  148018 Oct 21 05:30 wan_sleep.mp4
