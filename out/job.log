@@ -1,32 +1,64 @@
++ sudo apt-get update -qq
++ sudo apt-get install -y -qq ffmpeg
++ ffmpeg -version
++ head -1
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
 + python3 -m pip install -q faster-whisper
 + tail -2
-+ timeout 2400 python3 bridge/asr.py
++ timeout 1500 python3 bridge/asr.py
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+out/voix_off_v2.mp3 fr  Imagine, il est 23h47, tu dors profondément, et à côté de toi quelque chose compte chacune  de tes respirations, cette lampe, sans caméra, et sans rien au poignet, et toi tu dormirais  à côté d'un radar, dis-le moi en commentaire.
+out/voix_off.mp3 fr  Cette lampe va me regarder dormir, sans caméra, et sans rien au poignet, voici la lampe slipal.  Sur la boîte, une promesse, mieux dormir, quantifié, ça c'est mon langage.  On ouvre, tout est calé au millimètre, avec un guide de démarrage rapide, premier  allumage, une seule molette pilote tout.  O
+[0;93m2026-10-21 05:39:52.969209243 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+out/music_el.mp3 en 
++ python3 -m pip install -q torch --index-url https://download.pytorch.org/whl/cpu
++ tail -2
++ python3 -m pip install -q spandrel opencv-python-headless
++ tail -2
++ curl -fsSL -o RealESRGAN_x2plus.pth https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plus.pth
++ nproc
+4
++ timeout 2400 python3 bridge/upscale.py
 Traceback (most recent call last):
-  File "/home/runner/work/marcio-mota-tech/marcio-mota-tech/bridge/asr.py", line 10, in <module>
-    segs, info = m.transcribe(load(f), language=lang, word_timestamps=True, vad_filter=(lang is None))
-                              ^^^^^^^
-  File "/home/runner/work/marcio-mota-tech/marcio-mota-tech/bridge/asr.py", line 5, in load
-    raw = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', f, '-ac', '1', '-ar', '16000', '-f', 's16le', '-'], capture_output=True).stdout
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/subprocess.py", line 548, in run
-    with Popen(*popenargs, **kwargs) as process:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/subprocess.py", line 1026, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.12/subprocess.py", line 1955, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'
+  File "/home/runner/work/marcio-mota-tech/marcio-mota-tech/bridge/upscale.py", line 3, in <module>
+    from spandrel import ModelLoader
+  File "/home/runner/.local/lib/python3.12/site-packages/spandrel/__init__.py", line 8, in <module>
+    from .__helpers.loader import ModelLoader
+  File "/home/runner/.local/lib/python3.12/site-packages/spandrel/__helpers/loader.py", line 10, in <module>
+    from .main_registry import MAIN_REGISTRY
+  File "/home/runner/.local/lib/python3.12/site-packages/spandrel/__helpers/main_registry.py", line 3, in <module>
+    from ..architectures import (
+  File "/home/runner/.local/lib/python3.12/site-packages/spandrel/architectures/LaMa/__init__.py", line 11, in <module>
+    from .__arch.LaMa import LaMa
+  File "/home/runner/.local/lib/python3.12/site-packages/spandrel/architectures/LaMa/__arch/LaMa.py", line 13, in <module>
+    from torchvision.transforms.functional import InterpolationMode, rotate
+  File "/home/runner/.local/lib/python3.12/site-packages/torchvision/__init__.py", line 8, in <module>
+    from torchvision import (
+  File "/home/runner/.local/lib/python3.12/site-packages/torchvision/_meta_registrations.py", line 163, in <module>
+    @torch.library.register_fake("torchvision::nms")
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/lib/python3.12/site-packages/torch/library.py", line 1271, in register
+    use_lib._register_fake(
+  File "/home/runner/.local/lib/python3.12/site-packages/torch/library.py", line 354, in _register_fake
+    handle = entry.fake_impl.register(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/lib/python3.12/site-packages/torch/_library/fake_impl.py", line 87, in register
+    lib.impl(self.qualname, meta_kernel, "Meta", allow_override=allow_override)
+  File "/home/runner/.local/lib/python3.12/site-packages/torch/library.py", line 496, in impl
+    if torch._C._dispatch_has_kernel_for_dispatch_key(
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: operator torchvision::nms does not exist
 + ls -la out
-total 18732
-drwxr-xr-x 2 runner runner    4096 Oct 21 05:35 .
-drwxr-xr-x 8 runner runner    4096 Oct 21 05:35 ..
--rw-r--r-- 1 runner runner 6063175 Oct 21 05:35 ai_end_9x16.png
--rw-r--r-- 1 runner runner 4275671 Oct 21 05:35 ai_sleep_16x9.png
--rw-r--r-- 1 runner runner 4963422 Oct 21 05:35 ai_sleep_9x16.png
--rw-r--r-- 1 runner runner    1369 Oct 21 05:35 job.log
--rw-r--r-- 1 runner runner 1938706 Oct 21 05:35 music_el.mp3
--rw-r--r-- 1 runner runner 1141061 Oct 21 05:35 voix_off.mp3
--rw-r--r-- 1 runner runner  357805 Oct 21 05:35 voix_off_v2.mp3
--rw-r--r-- 1 runner runner  264804 Oct 21 05:35 wan_end.mp4
--rw-r--r-- 1 runner runner  148018 Oct 21 05:35 wan_sleep.mp4
+total 18744
+drwxr-xr-x 2 runner runner    4096 Oct 21 05:39 .
+drwxr-xr-x 8 runner runner    4096 Oct 21 05:40 ..
+-rw-r--r-- 1 runner runner 6063175 Oct 21 05:38 ai_end_9x16.png
+-rw-r--r-- 1 runner runner 4275671 Oct 21 05:38 ai_sleep_16x9.png
+-rw-r--r-- 1 runner runner 4963422 Oct 21 05:38 ai_sleep_9x16.png
+-rw-r--r-- 1 runner runner    8289 Oct 21 05:39 asr.json
+-rw-r--r-- 1 runner runner    3811 Oct 21 05:40 job.log
+-rw-r--r-- 1 runner runner 1938706 Oct 21 05:38 music_el.mp3
+-rw-r--r-- 1 runner runner 1141061 Oct 21 05:38 voix_off.mp3
+-rw-r--r-- 1 runner runner  357805 Oct 21 05:38 voix_off_v2.mp3
+-rw-r--r-- 1 runner runner  264804 Oct 21 05:38 wan_end.mp4
+-rw-r--r-- 1 runner runner  148018 Oct 21 05:38 wan_sleep.mp4
