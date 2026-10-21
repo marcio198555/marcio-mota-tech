@@ -8,19 +8,28 @@ jobs:
   fetch:
     if: "!contains(github.event.head_commit.message, '[skip-bridge]')"
     runs-on: ubuntu-latest
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
-      - name: Download voice-over
-        env:
-          VO_URL: 'https://storage.googleapis.com/xi-backend/database/workspace/e26e5920fc1f46a59140ce6b6d123ff6/content_generation/vDKMddFVliA2ei95PjIv/JnfCUlMTHVohlcoSnMmQ/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261020T210942Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=89c9afe6d43c3fb256061b70d8df9ef0ad50f734aeee11d698d986889b2b5df1dcb23436bb3870d9a0aaf5089a73b44c0252d23bfd153fdafc58b99e9c53e94c805621b7b38710a1787e3b6d40decc99d99355567fc7acc536ab8508761d4a175ea87659a75fb3f8e67fbbc5d899c8873e9ce271902f31df3855323d6499de5bbe5395f2e650c5f9cf07aca159bc73382088c5d1220f47706b646bb8c375b0c4ff6584a2a50fb7fba8b186e708df235e004ec001eb7f33443acb2372715fe55e189f75b0a1e58bf37cef18441f56857adfcf0282fbf15fa81b561df4a07b08cb4dab8099651f1664b3cb46afb2042573bfb6ca9503ccfca4d95cd9722b21b990'
+      - name: Download listed URLs
         run: |
           mkdir -p out
-          curl -fL --retry 3 -o out/voix_off.mp3 "$VO_URL"
-          ls -la out
-      - name: Commit result
+          if [ -f bridge/urls.txt ]; then
+            while read -r name url; do
+              [ -z "$name" ] && continue
+              curl -fL --retry 3 -o "out/$name" "$url" && echo "OK $name" || echo "FAILED $name"
+            done < bridge/urls.txt
+          fi
+      - name: Run job
+        continue-on-error: true
+        run: |
+          if [ -f bridge/job.sh ]; then bash bridge/job.sh 2>&1 | tee out/job.log; fi
+      - name: Commit outputs
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add out/voix_off.mp3
-          git commit -m "voix off [skip-bridge]"
-          git push
+          git add -f out || true
+          git commit -m "bridge output [skip-bridge]" || echo "nothing to commit"
+          git pull --rebase origin claude/voix-off-reel || true
+          git push origin HEAD:claude/voix-off-reel
