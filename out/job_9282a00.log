@@ -1,0 +1,29 @@
++ sudo apt-get update -qq
++ sudo apt-get install -y -qq ffmpeg
++ ffmpeg -version
++ head -1
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
++ python3 -m pip install -q gradio_client
++ tail -2
++ timeout 900 python3 bridge/wan.py
+Loaded as API: https://zerogpu-aoti-wan2-2-fp8da-aoti-faster.hf.space
+ENDPOINTS {"/generate_video": ["input_image", "prompt", "steps", "negative_prompt", "duration_seconds", "guidance_scale", "guidance_scale_2", "seed", "randomize_seed"]}
+USING /generate_video
+RESULT wan_wake ('/tmp/gradio/c09ca2f66fe0eeed5db193c6c2b9e4a364dd7bc813498429bd5e03fa321c1c0e/tmp39xxqsu6.mp4', 21) 41.5
+SAVED wan_wake
++ python3 -m pip install -q torch torchvision --index-url https://download.pytorch.org/whl/cpu
++ tail -2
++ python3 -m pip install -q spandrel opencv-python-headless
++ tail -2
++ python3 -c 'import torch, torchvision, spandrel; print(torch.__version__, torchvision.__version__)'
+2.14.1+cpu 0.29.1+cpu
++ curl -fsSL -o RealESRGAN_x2plus.pth https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plus.pth
++ nproc
+4
++ timeout 2700 python3 bridge/upscale.py
+model ESRGAN 2
+wan_end 0 65 27.7
+wan_end 10 65 303.2
+wan_end 20 65 582.1
+wan_end 30 65 859.9
+wan_end 40 65 1137.8
