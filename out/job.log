@@ -3,27 +3,30 @@
 + timeout 2400 python3 bridge/asr.py
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 Traceback (most recent call last):
-  File "/home/runner/work/marcio-mota-tech/marcio-mota-tech/bridge/asr.py", line 6, in <module>
-    segs, info = m.transcribe(f, language=lang, word_timestamps=True, vad_filter=(lang is None))
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/.local/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 876, in transcribe
-    audio = decode_audio(audio, sampling_rate=sampling_rate)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/.local/lib/python3.12/site-packages/faster_whisper/audio.py", line 46, in decode_audio
-    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "av/container/core.py", line 479, in av.container.core.open
-TypeError: open() got an unexpected keyword argument 'metadata_errors'
+  File "/home/runner/work/marcio-mota-tech/marcio-mota-tech/bridge/asr.py", line 10, in <module>
+    segs, info = m.transcribe(load(f), language=lang, word_timestamps=True, vad_filter=(lang is None))
+                              ^^^^^^^
+  File "/home/runner/work/marcio-mota-tech/marcio-mota-tech/bridge/asr.py", line 5, in load
+    raw = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', f, '-ac', '1', '-ar', '16000', '-f', 's16le', '-'], capture_output=True).stdout
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'
 + ls -la out
 total 18732
-drwxr-xr-x 2 runner runner    4096 Oct 21 05:34 .
-drwxr-xr-x 8 runner runner    4096 Oct 21 05:34 ..
--rw-r--r-- 1 runner runner 6063175 Oct 21 05:34 ai_end_9x16.png
--rw-r--r-- 1 runner runner 4275671 Oct 21 05:34 ai_sleep_16x9.png
--rw-r--r-- 1 runner runner 4963422 Oct 21 05:34 ai_sleep_9x16.png
--rw-r--r-- 1 runner runner    1190 Oct 21 05:34 job.log
--rw-r--r-- 1 runner runner 1938706 Oct 21 05:34 music_el.mp3
--rw-r--r-- 1 runner runner 1141061 Oct 21 05:34 voix_off.mp3
--rw-r--r-- 1 runner runner  357805 Oct 21 05:34 voix_off_v2.mp3
--rw-r--r-- 1 runner runner  264804 Oct 21 05:34 wan_end.mp4
--rw-r--r-- 1 runner runner  148018 Oct 21 05:34 wan_sleep.mp4
+drwxr-xr-x 2 runner runner    4096 Oct 21 05:35 .
+drwxr-xr-x 8 runner runner    4096 Oct 21 05:35 ..
+-rw-r--r-- 1 runner runner 6063175 Oct 21 05:35 ai_end_9x16.png
+-rw-r--r-- 1 runner runner 4275671 Oct 21 05:35 ai_sleep_16x9.png
+-rw-r--r-- 1 runner runner 4963422 Oct 21 05:35 ai_sleep_9x16.png
+-rw-r--r-- 1 runner runner    1369 Oct 21 05:35 job.log
+-rw-r--r-- 1 runner runner 1938706 Oct 21 05:35 music_el.mp3
+-rw-r--r-- 1 runner runner 1141061 Oct 21 05:35 voix_off.mp3
+-rw-r--r-- 1 runner runner  357805 Oct 21 05:35 voix_off_v2.mp3
+-rw-r--r-- 1 runner runner  264804 Oct 21 05:35 wan_end.mp4
+-rw-r--r-- 1 runner runner  148018 Oct 21 05:35 wan_sleep.mp4
