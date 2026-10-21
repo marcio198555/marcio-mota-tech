@@ -8,7 +8,7 @@ jobs:
   fetch:
     if: "!contains(github.event.head_commit.message, '[skip-bridge]')"
     runs-on: ubuntu-latest
-    timeout-minutes: 75
+    timeout-minutes: 80
     steps:
       - uses: actions/checkout@v4
       - name: Download listed URLs
@@ -23,7 +23,7 @@ jobs:
       - name: Run job
         continue-on-error: true
         run: |
-          if [ -f bridge/job.sh ]; then bash bridge/job.sh 2>&1 | tee out/job.log; fi
+          if [ -f bridge/job.sh ]; then bash bridge/job.sh 2>&1 | tee out/job_${GITHUB_SHA::7}.log; fi
       - name: Commit outputs
         if: always()
         run: |
@@ -31,5 +31,5 @@ jobs:
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add -f out || true
           git commit -m "bridge output [skip-bridge]" || echo "nothing to commit"
-          git pull --rebase origin claude/voix-off-reel || true
+          git pull --rebase -X theirs origin claude/voix-off-reel || true
           git push origin HEAD:claude/voix-off-reel
