@@ -35,3 +35,6 @@ Sous-agents (`.claude/agents/`) : research-analyst, search-specialist, data-rese
 ## Non installé volontairement
 - remotion-dev/skills : pas de fichier LICENSE dans le dépôt (à installer soi-même avec `npx skills add remotion-dev/skills` si besoin).
 - last30days : scripts réseau bloqués dans ce conteneur et risque de transmission de jetons Apify.
+| graphify | github.com/Graphify-Labs/graphify (CLI : `pip install graphifyy`) | Apache-2.0 |
+| find-skills | github.com/vercel-labs/skills | MIT |
+| remotion-best-practices, remotion-captions, remotion-create, remotion-render, remotion-multimedia | github.com/remotion-dev/skills (installé à la demande de Marcio ; pas de fichier LICENSE dans le dépôt, Remotion gratuit pour les particuliers) | voir remotion.dev/license |
