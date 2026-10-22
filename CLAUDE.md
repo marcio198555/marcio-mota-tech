@@ -16,10 +16,10 @@ Réponses en français, courtes. Les skills de `.claude/skills/` sont à utilise
 - Reels : skills perso `strategie-contenu-reels`, `montage-reel-pro`, `equipe-agents-reels`, plus `viral-instagram-reels`, `viral-hooks`, `viral-captions-and-ctas`, `viral-short-form`, `social`.
 - Vidéo : `video-editing` (dérush), `remotion-*` ou `hyperframes*` (animations, sous-titres), `media-use`.
 - Comprendre un dossier ou un projet : `graphify`.
+- OmniRoute (passerelle multi-modèles, compression de tokens) : `omniroute-*` ; prospection et UGC en plus : `omni-*`.
 
 ## Règles de prospection
 - Ne jamais recontacter une marque déjà présente dans Gmail (envoyés ou conversation) ni un partenaire existant.
 - N'utiliser que des adresses e-mail trouvées sur une source officielle, jamais devinées.
 - Ne pas reprendre dans les e-mails des chiffres d'audience non vérifiés (d'après Metricool, environ 48 % des abonnés sont en Inde).
 - Jamais plus de ~400 e-mails par jour depuis Gmail.
-- OmniRoute (passerelle multi-modèles, compression de tokens) : `omniroute-*` ; prospection et UGC en plus : `omni-*`.
