@@ -22,3 +22,4 @@ Réponses en français, courtes. Les skills de `.claude/skills/` sont à utilise
 - N'utiliser que des adresses e-mail trouvées sur une source officielle, jamais devinées.
 - Ne pas reprendre dans les e-mails des chiffres d'audience non vérifiés (d'après Metricool, environ 48 % des abonnés sont en Inde).
 - Jamais plus de ~400 e-mails par jour depuis Gmail.
+- OmniRoute (passerelle multi-modèles, compression de tokens) : `omniroute-*` ; prospection et UGC en plus : `omni-*`.

@@ -38,3 +38,5 @@ Sous-agents (`.claude/agents/`) : research-analyst, search-specialist, data-rese
 | graphify | github.com/Graphify-Labs/graphify (CLI : `pip install graphifyy`) | Apache-2.0 |
 | find-skills | github.com/vercel-labs/skills | MIT |
 | remotion-best-practices, remotion-captions, remotion-create, remotion-render, remotion-multimedia | github.com/remotion-dev/skills (installé à la demande de Marcio ; pas de fichier LICENSE dans le dépôt, Remotion gratuit pour les particuliers) | voir remotion.dev/license |
+| omni-ai-cold-outreach, omni-ai-ugc-ads, omni-social-selling, omni-video-outreach, omni-social-post-writer-seo, omni-apify-trend-analysis, omni-apify-market-research | github.com/diegosouzapw/awesome-omni-skills (sélection parmi 4 715 skills ; champ `name` préfixé `omni-`) | MIT |
+| omniroute-cli-setup, omniroute-compression, omniroute-context-rtk, omniroute-combos-routing | github.com/diegosouzapw/OmniRoute (le serveur OmniRoute s'installe sur ton ordinateur : `npm install -g omniroute`) | MIT |
