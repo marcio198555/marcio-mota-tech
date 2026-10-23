@@ -321,3 +321,45 @@
 {"id": "T039", "brand": "Schulte-Ufer", "domain": "schulteufer.de", "to": "info@schulte-ufer-kg.de", "ts": "2026-10-23T11:08:11.600979"}
 {"id": "T040", "brand": "NIGRIN", "domain": "nigrin.com", "to": "service@nigrin.com", "ts": "2026-10-23T11:08:11.600992"}
 {"id": "T041", "brand": "Bike-Eye", "domain": "bike-eye.com", "to": "tony@bike-eye.com", "ts": "2026-10-23T11:08:11.601003"}
+{"id": "U001", "brand": "Hepper", "domain": "hepper.com", "to": "hi@hepper.com", "ts": "2026-10-23T11:15:08.684327"}
+{"id": "U002", "brand": "Planck", "domain": "planckgear.com", "to": "hello@planckgear.com", "ts": "2026-10-23T11:15:27.444130"}
+{"id": "U003", "brand": "Smartish", "domain": "smartish.com", "to": "support@smartish.com", "ts": "2026-10-23T11:15:27.444175"}
+{"id": "U004", "brand": "Papalook", "domain": "papalook.com", "to": "influencer@papalook.com", "ts": "2026-10-23T11:15:27.444187", "bounced": true}
+{"id": "U005", "brand": "nonda", "domain": "nonda.co", "to": "marketing@nonda.us", "ts": "2026-10-23T11:15:27.444194"}
+{"id": "U006", "brand": "Lawson Hammock", "domain": "lawsonhammock.com", "to": "info@lawsonhammock.com", "ts": "2026-10-23T11:15:50.529728"}
+{"id": "U007", "brand": "Amok Equipment", "domain": "amokequipment.com", "to": "support@amokequipment.com", "ts": "2026-10-23T11:15:50.529771"}
+{"id": "U008", "brand": "Antlion Audio", "domain": "antlionaudio.com", "to": "customerservice@antlionaudio.com", "ts": "2026-10-23T11:15:50.529783"}
+{"id": "U009", "brand": "Enegitech", "domain": "enegitech.com", "to": "sales@enegitech.com", "ts": "2026-10-23T11:15:50.529790"}
+{"id": "U010", "brand": "Reto Project", "domain": "retoproject.com", "to": "cs@retoproject.com", "ts": "2026-10-23T11:15:50.529796"}
+{"id": "U011", "brand": "Wixey", "domain": "wixey.com", "to": "digital@wixey.com", "ts": "2026-10-23T11:16:21.045823"}
+{"id": "U012", "brand": "Flexcut", "domain": "flexcut.com", "to": "customerservice@flexcut.com", "ts": "2026-10-23T11:16:21.045884"}
+{"id": "U013", "brand": "Radius Garden", "domain": "radiusgarden.com", "to": "contact@americanlawnmower.com", "ts": "2026-10-23T11:16:21.045904"}
+{"id": "U014", "brand": "Camplux", "domain": "camplux.com", "to": "support.eu@camplux.com", "ts": "2026-10-23T11:16:21.045917"}
+{"id": "U015", "brand": "Barker Beds", "domain": "bigbarker.com", "to": "info@bigbarker.com", "ts": "2026-10-23T11:16:21.045928"}
+{"id": "U016", "brand": "Kuranda", "domain": "kuranda.com", "to": "contact@kuranda.com", "ts": "2026-10-23T11:16:21.045938"}
+{"id": "U017", "brand": "Corona Tools", "domain": "coronatools.com", "to": "marketing@coronatools.com", "ts": "2026-10-23T11:16:46.243826"}
+{"id": "U018", "brand": "Crazy Creek", "domain": "crazycreek.com", "to": "chairs@crazycreek.com", "ts": "2026-10-23T11:16:46.243883"}
+{"id": "U019", "brand": "Smithey Ironware", "domain": "smithey.com", "to": "support@smithey.com", "ts": "2026-10-23T11:16:46.243899"}
+{"id": "U020", "brand": "Victoria Cookware", "domain": "victoriacookware.com", "to": "info@victoriacookware.eu", "ts": "2026-10-23T11:16:46.243908"}
+{"id": "U021", "brand": "MagMod", "domain": "magnetmod.com", "to": "support@magnetmod.com", "ts": "2026-10-23T11:16:46.243917"}
+{"id": "U022", "brand": "Nikwax", "domain": "nikwax.com", "to": "info@nikwax.com", "ts": "2026-10-23T11:16:46.243924"}
+{"id": "U023", "brand": "The Rag Company", "domain": "theragcompany.com", "to": "support@theragcompany.com", "ts": "2026-10-23T11:16:46.243932"}
+{"id": "U024", "brand": "OP/TECH USA", "domain": "optechusa.com", "to": "info@optechusa.com", "ts": "2026-10-23T11:17:18.132950"}
+{"id": "U025", "brand": "OneTigris", "domain": "onetigris.com", "to": "camping.support@onetigris.com", "ts": "2026-10-23T11:17:18.132999"}
+{"id": "U026", "brand": "Distil Union", "domain": "distilunion.com", "to": "heyhey@distilunion.com", "ts": "2026-10-23T11:17:18.133011"}
+{"id": "U027", "brand": "Field Company", "domain": "fieldcompany.com", "to": "help@fieldcompany.com", "ts": "2026-10-23T11:17:18.133019"}
+{"id": "U028", "brand": "FINEX", "domain": "finexusa.com", "to": "cookwithus@finexusa.com", "ts": "2026-10-23T11:17:18.133025"}
+{"id": "U029", "brand": "Brainwavz", "domain": "brainwavzaudio.com", "to": "marketing@yourbrainwavz.com", "ts": "2026-10-23T11:17:18.133030"}
+{"id": "U030", "brand": "Marquette Castings", "domain": "marquettecastings.com", "to": "support@marquettecastings.com", "ts": "2026-10-23T11:17:18.133036", "bounced": true}
+{"id": "U031", "brand": "NATO Strap Co", "domain": "natostrapco.com", "to": "info@natostrapco.com", "ts": "2026-10-23T11:17:18.133041"}
+{"id": "U032", "brand": "Borough Furnace", "domain": "boroughfurnace.com", "to": "info@boroughfurnace.com", "ts": "2026-10-23T11:17:28.079123"}
+{"id": "U033", "brand": "Grangers", "domain": "grangers.co.uk", "to": "hello@grangers.co.uk", "ts": "2026-10-23T11:17:28.079177"}
+{"id": "U034", "brand": "Arcos", "domain": "arcos.com", "to": "support@arcos.com", "ts": "2026-10-23T11:17:28.079194"}
+{"id": "U035", "brand": "TORCH EDC", "domain": "torchedc.com", "to": "cs@torchedc.com", "ts": "2026-10-23T11:17:28.079205"}
+{"id": "U036", "brand": "Heypresso", "domain": "heypresso.com", "to": "info@heypresso.com", "ts": "2026-10-23T11:17:28.079259"}
+{"id": "U037", "brand": "Scanpan", "domain": "scanpan.com", "to": "service@scanpan.dk", "ts": "2026-10-23T11:17:28.079324"}
+{"id": "U038", "brand": "Mueller", "domain": "muellerhome.us", "to": "support@muellerhome.us", "ts": "2026-10-23T11:17:28.079340"}
+{"id": "U039", "brand": "Robert Welch", "domain": "robertwelch.com", "to": "help@robertwelch.com", "ts": "2026-10-23T11:17:28.079351"}
+{"id": "U040", "brand": "Made In", "domain": "madeincookware.com", "to": "hello@madeincookware.com", "ts": "2026-10-23T11:17:28.079361"}
+{"id": "U041", "brand": "Dalstrong", "domain": "dalstrong.com", "to": "info@dalstrong.com", "ts": "2026-10-23T11:17:28.079370"}
+{"id": "U042", "brand": "Teakhaus", "domain": "teakhaus.com", "to": "customercare@teakhaus.com", "ts": "2026-10-23T11:17:28.079379"}
