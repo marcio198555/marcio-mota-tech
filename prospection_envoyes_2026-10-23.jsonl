@@ -104,7 +104,7 @@
 {"id": "N010", "brand": "Fugentorpedo", "domain": "fugentorpedo.de", "to": "info@fugentorpedo.de", "ts": "2026-10-23T06:15:34.693850"}
 {"id": "N042", "brand": "Terra Nova", "domain": "terra-nova.co.uk", "to": "marketing@terra-nova.co.uk", "ts": "2026-10-23T06:15:37.949584"}
 {"id": "N029", "brand": "DD Hammocks", "domain": "ddhammocks.com", "to": "sales@ddhammocks.com", "ts": "2026-10-23T06:15:39.048362"}
-{"id": "N030", "brand": "Gr\u00fcezi bag", "domain": "gz-bag.de", "to": "info@gz-bag.de", "ts": "2026-10-23T06:15:39.076429"}
+{"id": "N030", "brand": "Grüezi bag", "domain": "gz-bag.de", "to": "info@gz-bag.de", "ts": "2026-10-23T06:15:39.076429"}
 {"id": "N031", "brand": "Ergon", "domain": "ergonbike.com", "to": "service@rtisports.de", "ts": "2026-10-23T06:15:39.103397"}
 {"id": "N032", "brand": "Tentsile", "domain": "tentsile.com", "to": "press@tentsile.com", "ts": "2026-10-23T06:15:39.129331", "bounced": true}
 {"id": "N058", "brand": "Contixo", "domain": "contixo.com", "to": "support@contixo.com", "ts": "2026-10-23T06:15:46.787820"}
@@ -115,7 +115,7 @@
 {"id": "N044", "brand": "GIVI Bike", "domain": "givi-bike.com", "to": "shop@givi-bike.com", "ts": "2026-10-23T06:16:00.026109"}
 {"id": "N060", "brand": "Retekess", "domain": "retekess.com", "to": "support@retekess.com", "ts": "2026-10-23T06:16:06.531549"}
 {"id": "N013", "brand": "Chrambl", "domain": "chrambl.com", "to": "office@chrambl.com", "ts": "2026-10-23T06:16:08.627396"}
-{"id": "N061", "brand": "MakiMate", "domain": "makimate.com", "to": "contact@makimate.com", "ts": "2026-10-23T06:16:11.689752"}
+{"id": "N061", "brand": "MakiMate", "domain": "makimate.com", "to": "contact@makimate.com", "ts": "2026-10-23T06:16:11.689752", "bounced": true}
 {"id": "N014", "brand": "Birkmann", "domain": "birkmann.de", "to": "kundenservice@birkmann.de", "ts": "2026-10-23T06:16:13.695827"}
 {"id": "N045", "brand": "LiteAF", "domain": "liteaf.com", "to": "info@liteaf.com", "ts": "2026-10-23T06:16:14.951649"}
 {"id": "N062", "brand": "4URPC", "domain": "4urpc.com", "to": "support@4urpc.com", "ts": "2026-10-23T06:16:18.123541"}
@@ -297,10 +297,10 @@
 {"id": "T015", "brand": "Rig-Tig", "domain": "rig-tig.com", "to": "hello@rig-tig.com", "ts": "2026-10-23T11:06:33.470706"}
 {"id": "T016", "brand": "Effetto Mariposa", "domain": "effettomariposa.eu", "to": "info@effettomariposa.com", "ts": "2026-10-23T11:06:39.464510"}
 {"id": "T017", "brand": "Rock N Roll", "domain": "rocklube.com", "to": "contact@rocklube.com", "ts": "2026-10-23T11:06:39.464550"}
-{"id": "T018", "brand": "K\u00fcchenkompane", "domain": "kuechenkompane.de", "to": "info@kuechenkompane.de", "ts": "2026-10-23T11:06:39.464562"}
+{"id": "T018", "brand": "Küchenkompane", "domain": "kuechenkompane.de", "to": "info@kuechenkompane.de", "ts": "2026-10-23T11:06:39.464562"}
 {"id": "T019", "brand": "Mudhugger", "domain": "themudhugger.co.uk", "to": "sales@themudhugger.co.uk", "ts": "2026-10-23T11:06:39.464570"}
 {"id": "T020", "brand": "Granite Gear", "domain": "granitegear.com", "to": "info@granitegear.com", "ts": "2026-10-23T11:06:39.464575"}
-{"id": "T021", "brand": "G\u00fcde", "domain": "guede-solingen.de", "to": "info@guede-solingen.de", "ts": "2026-10-23T11:07:14.165087"}
+{"id": "T021", "brand": "Güde", "domain": "guede-solingen.de", "to": "info@guede-solingen.de", "ts": "2026-10-23T11:07:14.165087"}
 {"id": "T022", "brand": "Ritzenhoff", "domain": "ritzenhoff.de", "to": "brian.raile@ritzenhoff.de", "ts": "2026-10-23T11:07:14.165142"}
 {"id": "T023", "brand": "LEONARDO", "domain": "leonardo.de", "to": "service@leonardo.de", "ts": "2026-10-23T11:07:14.165160"}
 {"id": "T024", "brand": "METALTEX", "domain": "metaltex.com", "to": "info@metaltex.com", "ts": "2026-10-23T11:07:14.165172"}
