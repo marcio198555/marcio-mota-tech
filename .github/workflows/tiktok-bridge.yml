@@ -21,8 +21,10 @@ jobs:
       - name: Cache Piper
         uses: actions/cache@v4
         with:
-          path: ~/.cache/piper
-          key: piper-2023.11.14-2-fr-v1
+          path: |
+            ~/.cache/piper
+            ~/.cache/huggingface
+          key: piper-2023.11.14-2-fr-whisper-medium-v1
       - name: Download listed URLs
         run: |
           mkdir -p bridge/out
@@ -42,7 +44,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add -f bridge/out autopilot/tts/out || true
+          git add -f bridge/out autopilot/tts/out autopilot/asr/out || true
           git commit -m "bridge output [skip-bridge]" || echo "nothing to commit"
           git pull --rebase -X theirs origin tiktok-autopilot || true
           git push origin HEAD:tiktok-autopilot

@@ -1,0 +1,83 @@
+{
+ "duration": 37.088,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton robot tondeuse grimpe quarante-cinq pour cent ?",
+   "start": 0.12,
+   "end": 2.428
+  },
+  {
+   "id": "s02",
+   "text": "Ça ne veut pas dire quarante-cinq degrés.",
+   "start": 2.528,
+   "end": 4.55
+  },
+  {
+   "id": "s03",
+   "text": "Sur les fiches techniques, la pente est en pour cent.",
+   "start": 4.87,
+   "end": 7.368
+  },
+  {
+   "id": "s04",
+   "text": "Et c'est là que beaucoup se font avoir.",
+   "start": 7.468,
+   "end": 9.473
+  },
+  {
+   "id": "s05",
+   "text": "Quarante-cinq pour cent, c'est quarante-cinq centimètres de montée pour un mètre à plat.",
+   "start": 9.613,
+   "end": 13.724
+  },
+  {
+   "id": "s06",
+   "text": "En degrés, ça fait seulement vingt-quatre.",
+   "start": 13.824,
+   "end": 16.184
+  },
+  {
+   "id": "s07",
+   "text": "Et quarante-cinq degrés, c'est cent pour cent de pente.",
+   "start": 16.344,
+   "end": 19.148
+  },
+  {
+   "id": "s08",
+   "text": "Pour un robot, c'est un mur.",
+   "start": 19.248,
+   "end": 21.163
+  },
+  {
+   "id": "s09",
+   "text": "Avant d'acheter, mesure ton jardin avec une appli niveau.",
+   "start": 21.423,
+   "end": 24.268
+  },
+  {
+   "id": "s10",
+   "text": "Repère simple : vingt degrés, c'est déjà trente-six pour cent.",
+   "start": 24.368,
+   "end": 27.484
+  },
+  {
+   "id": "s11",
+   "text": "Et garde de la marge : sur l'herbe mouillée, ça glisse.",
+   "start": 27.624,
+   "end": 31.03
+  },
+  {
+   "id": "s12",
+   "text": "Écris l'angle de ton jardin en commentaire.",
+   "start": 31.25,
+   "end": 33.774
+  },
+  {
+   "id": "s13",
+   "text": "Et abonne-toi : je mesure tout avant que tu achètes.",
+   "start": 33.874,
+   "end": 36.788
+  }
+ ]
+}

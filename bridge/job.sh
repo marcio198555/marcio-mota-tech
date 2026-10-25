@@ -1,5 +1,5 @@
 set -x
-# Voix off : Piper (synthese vocale libre, hors ligne) + voix francaises.
+# 1) Voix off : Piper (synthèse vocale libre, hors ligne) + voix françaises.
 P="$HOME/.cache/piper"
 mkdir -p "$P/voices"
 if [ ! -x "$P/piper/piper" ]; then
@@ -11,6 +11,11 @@ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-me
   [ -s "$P/voices/$n.onnx" ] || curl -fsSL -o "$P/voices/$n.onnx" "https://huggingface.co/rhasspy/piper-voices/resolve/main/$v.onnx"
   [ -s "$P/voices/$n.onnx.json" ] || curl -fsSL -o "$P/voices/$n.onnx.json" "https://huggingface.co/rhasspy/piper-voices/resolve/main/$v.onnx.json"
 done
-ls -la "$P/voices"
 python3 autopilot/tts/synth.py --piper "$P/piper/piper" --voices "$P/voices"
-ls -laR autopilot/tts/out | head -80
+
+# 2) Transcription mot à mot des voix off listées dans autopilot/asr/todo.txt
+if [ -f autopilot/asr/todo.txt ]; then
+  python3 -m pip install -q faster-whisper 2>&1 | tail -1
+  python3 autopilot/asr/asr.py
+fi
+ls -la autopilot/tts/out autopilot/asr/out 2>/dev/null | head -40
