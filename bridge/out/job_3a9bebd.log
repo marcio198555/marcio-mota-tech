@@ -1,0 +1,66 @@
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ curl -fsSL -o /tmp/piper.tgz https://github.com/rhasspy/piper/releases/download/2023.11.14-2/piper_linux_x86_64.tar.gz
++ tar -xzf /tmp/piper.tgz -C /home/runner/.cache/piper
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/tom/medium/fr_FR-tom-medium.onnx
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/tom/medium/fr_FR-tom-medium.onnx.json
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/upmc/medium/fr_FR-upmc-medium.onnx
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/upmc/medium/fr_FR-upmc-medium.onnx.json
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/mls/medium/fr_FR-mls-medium.onnx
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/mls/medium/fr_FR-mls-medium.onnx.json
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+skip day01
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+Traceback (most recent call last):
+  File "/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/asr/asr.py", line 23, in <module>
+    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", p, "-ac", "1", "-ar", "16000", "-f", "s16le", "-"],
+          ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         capture_output=True, check=True).stdout
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 555, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1990, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'
++ ls -la autopilot/tts/out autopilot/asr/out
++ head -40
+autopilot/asr/out:
+total 8
+drwxr-xr-x 2 runner runner 4096 Oct 25 07:26 .
+drwxr-xr-x 3 runner runner 4096 Oct 25 07:26 ..
+
+autopilot/tts/out:
+total 12
+drwxr-xr-x 3 runner runner 4096 Oct 25 07:26 .
+drwxr-xr-x 4 runner runner 4096 Oct 25 07:26 ..
+drwxr-xr-x 2 runner runner 4096 Oct 25 07:26 day01
