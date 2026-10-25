@@ -126,15 +126,22 @@
     const space = ctx.measureText(' ').width;
     const widths = words.map(wd => ctx.measureText(wd[2]).width);
     const total = widths.reduce((a, b) => a + b, 0) + space * Math.max(0, words.length - 1);
-    const nLines = Math.max(1, Math.ceil(total / maxW));
-    const target = total / nLines;
-    // lignes équilibrées (pas de mot orphelin)
-    const lines = [[]]; let lw = 0;
-    words.forEach((wd, i) => {
-      const w = widths[i], cur = lines[lines.length - 1];
-      if (cur.length && (lw + w > maxW || (lw + w / 2 > target && lines.length < nLines))) { lines.push([]); lw = 0; }
-      lines[lines.length - 1].push({ wd, w }); lw += w + space;
-    });
+    // découpe équilibrée : nombre minimal de lignes, puis largeur maximale la plus petite possible
+    const m = widths.length;
+    const lineW = (i, j) => { let sw = 0; for (let q = i; q < j; q++) sw += widths[q]; return sw + space * (j - i - 1); };
+    let n = 1, gw = 0;
+    for (let i = 0; i < m; i++) { const w = widths[i]; if (gw > 0 && gw + space + w > maxW) { n++; gw = w; } else gw += (gw > 0 ? space : 0) + w; }
+    const INF = 1e9, best = [], prev = [];
+    for (let q = 0; q <= n; q++) { best.push(new Array(m + 1).fill(INF)); prev.push(new Array(m + 1).fill(-1)); }
+    best[0][0] = 0;
+    for (let q = 1; q <= n; q++) for (let j = 1; j <= m; j++) for (let i = q - 1; i < j; i++) {
+      if (best[q - 1][i] >= INF) continue;
+      const w = lineW(i, j); if (w > maxW && j - i > 1) continue;
+      const v = Math.max(best[q - 1][i], w); if (v < best[q][j]) { best[q][j] = v; prev[q][j] = i; }
+    }
+    const lines = [];
+    if (best[n][m] < INF) { let j = m; for (let q = n; q >= 1; q--) { const i = prev[q][j]; lines.unshift(words.slice(i, j).map((wd, r) => ({ wd, w: widths[i + r] }))); j = i; } }
+    else { lines.push(words.map((wd, r) => ({ wd, w: widths[r] }))); }
     const k = ease.back(prog(t, seg.start - 0.05, 0.16));
     const scale = 0.86 + 0.14 * k;
     ctx.translate(cx, cy); ctx.scale(scale, scale);
