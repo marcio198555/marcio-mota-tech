@@ -125,14 +125,15 @@
       });
 
       // Black Friday puis abonnement
-      const mid = S('s10') + (E('s10') - S('s10')) * 0.5;
+      const w10 = ((ENG.segById('s10') || {}).words || []).find(w => w[2] === 'Et');
+      const mid = w10 ? w10[0] - 0.08 : S('s10') + (E('s10') - S('s10')) * 0.3;
       block(ctx, t, S('s10'), mid, () => {
         const k = ease.back(prog(t, S('s10'), 0.35));
         bookmark(ctx, 520, 600, 1.5 * Math.max(0.01, k), C.gold2);
         text(ctx, 'ENREGISTRE', 520, 870, { size: 120, weight: 900, color: C.white });
         chip(ctx, 'POUR LE BLACK FRIDAY', 520, 990, { color: C.gold, size: 34, dot: C.red });
       });
-      block(ctx, t, mid, END + 1, () => followCTA(ctx, t, mid));
+      block(ctx, t, mid, END + 1, () => followCTA(ctx, t, mid, { next: ['l\'erreur de fenêtre', 'que tout le monde fait'] }));
 
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });

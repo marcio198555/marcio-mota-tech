@@ -216,12 +216,27 @@
   }
 
   // Fin : appel à s'abonner (identique sur toutes les vidéos).
-  function followCTA(ctx, t, t0) {
-    text(ctx, '@marcio.mota8', 520, 560, { size: 104, weight: 900, color: C.white, maxWidth: 880 });
-    chip(ctx, 'JE MESURE TOUT', 520, 690, { color: C.gold, dot: C.red, size: 42 });
-    text(ctx, 'avant que tu achètes', 520, 810, { size: 62, weight: 800, color: C.gold2 });
+  // o.next = ['ligne 1', 'ligne 2'] : annonce de la vidéo du lendemain (raison concrète de s'abonner)
+  function followCTA(ctx, t, t0, o = {}) {
+    let by = 960;
+    if (o.next) {
+      text(ctx, '@marcio.mota8', 520, 470, { size: 96, weight: 900, color: C.white, maxWidth: 880 });
+      chip(ctx, 'JE MESURE TOUT', 520, 590, { color: C.gold, dot: C.red, size: 38 });
+      const k = ease.back(prog(t, t0 + 0.25, 0.35));
+      ctx.save(); ctx.globalAlpha *= clamp(k * 2); ctx.translate(520, 790); ctx.scale(0.9 + 0.1 * k, 0.9 + 0.1 * k);
+      roundRect(ctx, -410, -105, 820, 92 + o.next.length * 66, 34); ctx.fillStyle = 'rgba(201,168,76,0.14)'; ctx.fill();
+      ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(230,198,106,0.55)'; ctx.stroke();
+      text(ctx, 'DEMAIN', 0, -62, { size: 34, family: F.mono, weight: 700, color: C.gold2, letter: 6 });
+      o.next.forEach((ln, i) => text(ctx, ln, 0, 4 + i * 66, { size: 54, weight: 900, color: C.white, maxWidth: 780 }));
+      ctx.restore();
+      by = 790 - 105 + 92 + o.next.length * 66 + 95;
+    } else {
+      text(ctx, '@marcio.mota8', 520, 560, { size: 104, weight: 900, color: C.white, maxWidth: 880 });
+      chip(ctx, 'JE MESURE TOUT', 520, 690, { color: C.gold, dot: C.red, size: 42 });
+      text(ctx, 'avant que tu achètes', 520, 810, { size: 62, weight: 800, color: C.gold2 });
+    }
     const p = 1 + 0.05 * Math.sin((t - t0) * 7);
-    ctx.save(); ctx.translate(520, 960); ctx.scale(p, p);
+    ctx.save(); ctx.translate(520, by); ctx.scale(p, p);
     roundRect(ctx, -220, -58, 440, 116, 58); ctx.fillStyle = C.red; ctx.fill();
     text(ctx, "S'ABONNER", 0, 2, { size: 54, weight: 900, color: C.white });
     ctx.restore();

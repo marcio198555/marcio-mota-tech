@@ -142,7 +142,7 @@
         chip(ctx, 'À TON COLOC', 520, 1000, { color: C.gold, size: 34 });
       });
 
-      block(ctx, t, S('s10'), END + 1, () => followCTA(ctx, t, S('s10')));
+      block(ctx, t, S('s10'), END + 1, () => followCTA(ctx, t, S('s10'), { next: ['combien de temps pour', 'casser ton mot de passe'] }));
 
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });

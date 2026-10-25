@@ -95,7 +95,7 @@
         chip(ctx, 'À CELUI QUI UTILISE SON PRÉNOM', 520, 1000, { color: C.gold, size: 28 });
       });
 
-      block(ctx, t, S('s10'), END + 1, () => followCTA(ctx, t, S('s10')));
+      block(ctx, t, S('s10'), END + 1, () => followCTA(ctx, t, S('s10'), { next: ['l\'eau en trop dans', 'ta bouilloire : combien ?'] }));
 
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });

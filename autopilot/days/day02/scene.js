@@ -142,7 +142,7 @@
       });
 
       // S'ABONNER
-      block(ctx, t, S('s11'), END + 1, () => followCTA(ctx, t, S('s11')));
+      block(ctx, t, S('s11'), END + 1, () => followCTA(ctx, t, S('s11'), { next: ['le piège des', 'batteries externes'] }));
 
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });
