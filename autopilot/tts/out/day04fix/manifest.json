@@ -1,0 +1,21 @@
+{
+ "job": "day04fix",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s02",
+   "text": "Tu gaspilles beaucoup d'énergie.",
+   "file": "s02.wav",
+   "duration": 1.815,
+   "rate": 44100
+  },
+  {
+   "id": "s06",
+   "text": "Et quand il fait très froid, ou avec un courant d'air : au moins trois minutes.",
+   "file": "s06.wav",
+   "duration": 3.945,
+   "rate": 44100
+  }
+ ],
+ "total": 5.76
+}
