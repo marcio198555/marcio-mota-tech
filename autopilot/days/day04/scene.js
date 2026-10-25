@@ -61,12 +61,12 @@
       block(ctx, t, 0, S('s03'), () => {
         windowFrame(ctx, 520, 720, 400, 480, 'tilt', 1);
         heatWaves(ctx, 520, 470, t, 3);
-        text(ctx, 'OSCILLO-BATTANT', 520, 1000, { size: 92, weight: 900, color: C.white, maxWidth: 900 });
-        chip(ctx, 'EN HIVER', 520, 1100, { color: C.fg, size: 32, dot: '#7fb3ff' });
-        const xk = ease.back(prog(t, 0.6, 0.35));
+        text(ctx, 'OSCILLO-BATTANT', 520, 1030, { size: 84, weight: 900, color: C.white, maxWidth: 820 });
+        chip(ctx, 'EN HIVER', 520, 1120, { color: C.fg, size: 36, dot: '#7fb3ff' });
+        const xk = 1;
         if (xk > 0) { ctx.save(); ctx.translate(790, 520); ctx.scale(xk, xk); ctx.strokeStyle = C.red2; ctx.lineWidth = 22; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(-60, -60); ctx.lineTo(60, 60); ctx.moveTo(60, -60); ctx.lineTo(-60, 60); ctx.stroke(); ctx.restore(); }
         const sk = prog(t, S('s02'), 0.3);
-        if (sk > 0) text(ctx, 'tu chauffes dehors', 520, 1190, { size: 54, weight: 800, color: '#ff8a6b', alpha: sk });
+        if (sk > 0) text(ctx, 'énergie perdue', 520, 1205, { size: 54, weight: 800, color: '#ff8a6b', alpha: sk });
       });
 
       // OFSP
@@ -75,7 +75,7 @@
         text(ctx, '🇨🇭', 520, 620, { size: 90, family: F.emoji, weight: 400 });
         text(ctx, 'Office fédéral', 520, 740, { size: 64, weight: 800, color: C.white });
         text(ctx, 'de la santé publique', 520, 820, { size: 64, weight: 800, color: C.white, maxWidth: 740 });
-        chip(ctx, 'RECOMMANDATION', 520, 1010, { color: C.gold, size: 30 });
+        chip(ctx, 'RECOMMANDATION', 520, 1010, { color: C.gold, size: 36 });
       });
 
       // 3 fois par jour
@@ -102,15 +102,16 @@
         const left = Math.max(0, 300 - Math.round(frac * 300));
         clock(ctx, 790, 700, 150, frac, '5:00', C.gold2);
         text(ctx, 'GRAND OUVERT', 520, 1040, { size: 84, weight: 900, color: C.white });
-        chip(ctx, 'AU MOINS 5 MINUTES', 520, 1140, { color: C.gold, size: 32 });
+        chip(ctx, 'AU MOINS 5 MINUTES', 520, 1140, { color: C.gold, size: 36 });
       });
 
       // Très froid : 3 minutes
       block(ctx, t, S('s06'), S('s07'), () => {
         text(ctx, '❄️', 330, 640, { size: 200, family: F.emoji, weight: 400 });
         text(ctx, '💨', 720, 640, { size: 200, family: F.emoji, weight: 400 });
+        text(ctx, 'AU MOINS', 520, 800, { size: 56, weight: 900, color: C.fg });
         text(ctx, '3 MIN', 520, 930, { size: 200, weight: 900, color: '#9fd0ff' });
-        text(ctx, 'si très froid ou courant d\'air', 520, 1080, { size: 50, weight: 800, color: C.fg, maxWidth: 880 });
+        text(ctx, 'si très froid ou courant d\'air', 520, 1080, { size: 50, weight: 800, color: C.fg, maxWidth: 820 });
       });
 
       // On referme
@@ -139,7 +140,7 @@
         ctx.fillStyle = C.gold2; ctx.beginPath(); ctx.moveTo(-120, 40); ctx.quadraticCurveTo(-110, -90, 40, -90); ctx.lineTo(40, -160); ctx.lineTo(170, -40); ctx.lineTo(40, 80); ctx.lineTo(40, 10); ctx.quadraticCurveTo(-60, 0, -120, 40); ctx.closePath(); ctx.fill();
         ctx.restore();
         text(ctx, 'ENVOIE ÇA', 520, 880, { size: 110, weight: 900, color: C.white });
-        chip(ctx, 'À TON COLOC', 520, 1000, { color: C.gold, size: 34 });
+        chip(ctx, 'À TON COLOC', 520, 1000, { color: C.gold, size: 38 });
       });
 
       block(ctx, t, S('s10'), END + 1, () => followCTA(ctx, t, S('s10'), { next: ['combien de temps pour', 'casser ton mot de passe'] }));

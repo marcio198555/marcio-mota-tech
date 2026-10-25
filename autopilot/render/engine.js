@@ -118,6 +118,7 @@
     pages.forEach(p => { if (p.length && t >= p[0][0] - 0.05) cur = p; });
     return cur;
   }
+  const SOFT = new Set("le la les l' un une des du de d' à au aux en et ou pour par sur sous dans avec sans son sa ses ton ta tes mon ma mes ce cet cette ces qui que qu' très plus moins ne n' se s' te t' je j' tu il elle on nous vous".split(' '));
   function captions(ctx, t, o = {}) {
     const segs = TL.segments;
     let seg = null;
@@ -145,7 +146,9 @@
     for (let q = 1; q <= n; q++) for (let j = 1; j <= m; j++) for (let i = q - 1; i < j; i++) {
       if (best[q - 1][i] >= INF) continue;
       const w = lineW(i, j); if (w > maxW && j - i > 1) continue;
-      const v = Math.max(best[q - 1][i], w); if (v < best[q][j]) { best[q][j] = v; prev[q][j] = i; }
+      // une ligne (sauf la dernière) ne finit jamais par un article, une préposition ou un possessif
+      const pen = (j < m && SOFT.has(words[j - 1][2].toLowerCase().replace(/[\u00a0\u202f].*$/, ''))) ? maxW : 0;
+      const v = Math.max(best[q - 1][i], w + pen); if (v < best[q][j]) { best[q][j] = v; prev[q][j] = i; }
     }
     const lines = [];
     if (best[n][m] < INF) { let j = m; for (let q = n; q >= 1; q--) { const i = prev[q][j]; lines.unshift(words.slice(i, j).map((wd, r) => ({ wd, w: widths[i + r] }))); j = i; } }
@@ -226,7 +229,7 @@
       ctx.save(); ctx.globalAlpha *= clamp(k * 2); ctx.translate(520, 790); ctx.scale(0.9 + 0.1 * k, 0.9 + 0.1 * k);
       roundRect(ctx, -410, -105, 820, 92 + o.next.length * 66, 34); ctx.fillStyle = 'rgba(201,168,76,0.14)'; ctx.fill();
       ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(230,198,106,0.55)'; ctx.stroke();
-      text(ctx, 'DEMAIN', 0, -62, { size: 34, family: F.mono, weight: 700, color: C.gold2, letter: 6 });
+      text(ctx, 'DEMAIN', 0, -62, { size: 38, family: F.mono, weight: 700, color: C.gold2, letter: 6 });
       o.next.forEach((ln, i) => text(ctx, ln, 0, 4 + i * 66, { size: 54, weight: 900, color: C.white, maxWidth: 780 }));
       ctx.restore();
       by = 790 - 105 + 92 + o.next.length * 66 + 95;

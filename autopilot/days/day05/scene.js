@@ -1,11 +1,11 @@
-// Jour 5 — « 8 lettres minuscules = 3 semaines » : temps pour casser un mot de passe (Hive Systems 2025, bcrypt, 12 × RTX 5090).
+// Jour 5 — « 8 lettres minuscules = 2 semaines » : temps pour casser un mot de passe (Hive Systems 2026, bcrypt, 16 × RTX 5090).
 (function () {
   const { C, F, clamp, lerp, ease, prog, S, E, background, text, roundRect, chip, captions, brand, block, followCTA } = ENG;
   const END = E('s10') + 0.55;
 
   function field(ctx, cx, cy, w, dots, o = {}) {
     roundRect(ctx, cx - w / 2, cy - 70, w, 140, 30); ctx.fillStyle = '#e9edf5'; ctx.fill();
-    text(ctx, o.label || 'MOT DE PASSE', cx - w / 2 + 30, cy - 100, { size: 28, family: F.mono, weight: 700, color: C.muted, align: 'left', letter: 3 });
+    text(ctx, o.label || 'MOT DE PASSE', cx - w / 2 + 10, cy - 104, { size: 36, family: F.mono, weight: 700, color: C.fg, align: 'left', letter: 2 });
     for (let i = 0; i < dots; i++) { ctx.fillStyle = '#0b1220'; ctx.beginPath(); ctx.arc(cx - w / 2 + 70 + i * 62, cy, 17, 0, Math.PI * 2); ctx.fill(); }
   }
   function gpu(ctx, x, y, s) {
@@ -22,27 +22,29 @@
 
       // ACCROCHE
       block(ctx, t, 0, S('s02'), () => {
-        field(ctx, 520, 520, 600, 8, { label: '8 MINUSCULES' });
-        text(ctx, '3 SEMAINES', 520, 800, { size: 150, weight: 900, color: C.red2, shadow: 'rgba(255,59,78,0.45)', shadowBlur: 40, maxWidth: 900 });
+        field(ctx, 520, 520, 600, 8, { label: '8 MINUSCULES AU HASARD' });
+        text(ctx, '2 SEMAINES', 520, 800, { size: 150, weight: 900, color: C.red2, shadow: 'rgba(255,59,78,0.45)', shadowBlur: 40, maxWidth: 800 });
         text(ctx, 'pour le casser', 520, 940, { size: 64, weight: 800, color: C.white });
         text(ctx, '⏳', 520, 1110, { size: 110, family: F.emoji, weight: 400 });
       });
 
-      // Hive Systems 2025 : 12 GPU
+      // Hive Systems 2026 : 16 GPU
       block(ctx, t, S('s02'), S('s03'), () => {
-        chip(ctx, 'HIVE SYSTEMS · 2025', 520, 420, { color: C.gold, size: 32 });
-        for (let i = 0; i < 12; i++) {
-          const k = ease.back(prog(t, S('s02') + 0.2 + i * 0.08, 0.3));
-          if (k > 0) gpu(ctx, 250 + (i % 3) * 270, 560 + Math.floor(i / 3) * 120, 1.05 * k);
+        chip(ctx, 'HIVE SYSTEMS · 2026', 520, 420, { color: C.gold, size: 36 });
+        for (let i = 0; i < 16; i++) {
+          const k = ease.back(prog(t, S('s02') + 0.2 + i * 0.06, 0.3));
+          if (k > 0) gpu(ctx, 205 + (i % 4) * 210, 560 + Math.floor(i / 4) * 115, 0.95 * k);
         }
-        text(ctx, '12 cartes graphiques', 520, 1110, { size: 60, weight: 800, color: C.white });
+        text(ctx, '16 cartes graphiques', 520, 1110, { size: 60, weight: 800, color: C.white });
       });
 
-      // 8 chiffres : 15 min
+      // 8 chiffres : ~10 min (même étude : 26^8 / 10^8 = 2 088 fois moins de combinaisons)
       block(ctx, t, S('s03'), S('s04'), () => {
         field(ctx, 520, 520, 600, 8, { label: '8 CHIFFRES (PIN)' });
-        text(ctx, '15 MIN', 520, 820, { size: 200, weight: 900, color: C.red2 });
-        text(ctx, 'un quart d\'heure', 520, 980, { size: 60, weight: 800, color: C.fg });
+        text(ctx, '≈ 10 MIN', 520, 790, { size: 170, weight: 900, color: C.red2, maxWidth: 820 });
+        text(ctx, 'une dizaine de minutes', 520, 930, { size: 56, weight: 800, color: C.fg });
+        text(ctx, '2 semaines ÷ 2 088 ≈ 10 min', 520, 1030, { size: 38, family: F.mono, weight: 700, color: 'rgba(255,255,255,0.8)' });
+        text(ctx, '(26⁸ ÷ 10⁸ combinaisons)', 520, 1082, { size: 36, family: F.mono, weight: 400, color: 'rgba(255,255,255,0.7)' });
       });
 
       // Déjà fuité : instantané
@@ -50,7 +52,7 @@
         text(ctx, '⚡', 520, 560, { size: 220, family: F.emoji, weight: 400 });
         text(ctx, 'DÉJÀ FUITÉ ?', 520, 790, { size: 100, weight: 900, color: C.white });
         text(ctx, 'INSTANTANÉ', 520, 920, { size: 120, weight: 900, color: C.red2, maxWidth: 900 });
-        chip(ctx, 'LES LISTES DE FUITES PASSENT EN PREMIER', 520, 1060, { color: C.muted, size: 24 });
+        chip(ctx, 'FUITES TESTÉES EN PREMIER', 520, 1060, { color: C.fg, size: 36 });
       });
 
       // La longueur
@@ -58,13 +60,14 @@
         text(ctx, 'LA LONGUEUR', 520, 430, { size: 110, weight: 900, color: C.gold2 });
         const n = 6;
         for (let i = 0; i < n; i++) {
-          const k = ease.out(prog(t, S('s06') - 0.2 + i * 0.22, 0.4));
+          const k = ease.out(prog(t, S('s05') + 0.3 + i * 0.22, 0.4));
           const h = 18 * Math.pow(2, i) * k;
           const x = 190 + i * 130, base = 1180;
           roundRect(ctx, x - 44, base - h, 88, Math.max(1, h), 14); ctx.fillStyle = i === n - 1 ? C.gold2 : '#3d5a80'; ctx.fill();
-          text(ctx, '+' + (i + 1), x, base + 44, { size: 34, family: F.mono, weight: 700, color: C.muted });
+          text(ctx, '+' + (i + 1), x, base + 40, { size: 36, family: F.mono, weight: 700, color: C.fg });
         }
-        text(ctx, 'caractères en plus →', 520, 530, { size: 36, family: F.mono, weight: 700, color: C.muted });
+        text(ctx, 'chaque minuscule en plus : × 26', 520, 530, { size: 40, weight: 800, color: C.white, maxWidth: 820 });
+        text(ctx, 'schéma, pas à l\'échelle', 520, 590, { size: 36, family: F.mono, weight: 400, color: 'rgba(255,255,255,0.7)' });
       });
 
       // Gestionnaire
@@ -72,15 +75,15 @@
         text(ctx, '🔐', 520, 560, { size: 220, family: F.emoji, weight: 400 });
         text(ctx, '1 SITE', 520, 790, { size: 110, weight: 900, color: C.white });
         text(ctx, '= 1 MOT DE PASSE', 520, 910, { size: 84, weight: 900, color: C.gold2, maxWidth: 900 });
-        chip(ctx, 'DANS UN GESTIONNAIRE', 520, 1040, { color: C.fg, size: 30 });
+        chip(ctx, 'DANS UN GESTIONNAIRE', 520, 1040, { color: C.fg, size: 36 });
       });
 
       // 2FA
       block(ctx, t, S('s08'), S('s09'), () => {
         roundRect(ctx, 350, 380, 340, 560, 52); ctx.fillStyle = '#05080f'; ctx.fill(); ctx.lineWidth = 8; ctx.strokeStyle = '#2b3850'; ctx.stroke();
-        text(ctx, 'CODE', 520, 560, { size: 30, family: F.mono, weight: 700, color: C.muted, letter: 4 });
+        text(ctx, 'CODE', 520, 560, { size: 36, family: F.mono, weight: 700, color: C.fg, letter: 4 });
         text(ctx, '482 913', 520, 650, { size: 66, family: F.mono, weight: 700, color: C.gold2 });
-        text(ctx, 'exemple', 520, 730, { size: 26, family: F.mono, weight: 400, color: C.muted });
+        chip(ctx, 'EXEMPLE', 520, 745, { size: 36, color: C.gold });
         text(ctx, 'DOUBLE', 520, 1030, { size: 96, weight: 900, color: C.white });
         text(ctx, 'AUTHENTIFICATION', 520, 1130, { size: 70, weight: 900, color: C.gold2, maxWidth: 900 });
       });
@@ -92,7 +95,7 @@
         ctx.fillStyle = C.gold2; ctx.beginPath(); ctx.moveTo(-120, 40); ctx.quadraticCurveTo(-110, -90, 40, -90); ctx.lineTo(40, -160); ctx.lineTo(170, -40); ctx.lineTo(40, 80); ctx.lineTo(40, 10); ctx.quadraticCurveTo(-60, 0, -120, 40); ctx.closePath(); ctx.fill();
         ctx.restore();
         text(ctx, 'ENVOIE ÇA', 520, 880, { size: 110, weight: 900, color: C.white });
-        chip(ctx, 'À CELUI QUI UTILISE SON PRÉNOM', 520, 1000, { color: C.gold, size: 28 });
+        chip(ctx, 'À CELUI QUI UTILISE SON PRÉNOM', 520, 1000, { color: C.gold, size: 36 });
       });
 
       block(ctx, t, S('s10'), END + 1, () => followCTA(ctx, t, S('s10'), { next: ['l\'eau en trop dans', 'ta bouilloire : combien ?'] }));

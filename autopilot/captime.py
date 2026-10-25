@@ -81,7 +81,8 @@ UNIT_RE = re.compile(r"^(mAh|Wh|kWh|V|W|A|%|°C|°|cm|mm|m|km|Mbit/s|Gbit/s|Go|M
                      r"[\s.,:;!?…)]*$")
 FUNC = set("le la les l' un une des du de d' à au aux en et ou pour par sur sous dans avec sans son sa ses ton ta tes mon ma mes "
            "notre votre leur leurs ce cet cette ces qui que qu' chaque combien très plus moins".split())
-PHRASES = ["je mesure tout", "Black Friday", "Hive Systems", "code PIN", "USB 2", "L'Office fédéral", "santé publique"]
+PHRASES = ["je mesure tout", "Black Friday", "Hive Systems", "code PIN", "USB 2", "L'Office fédéral", "santé publique",
+           "mot de passe", "double authentification", "quasi instantané", "change tout", "en trop", "par jour", "en hiver"]
 
 
 def spoken(tok):

@@ -26,17 +26,18 @@
  },
  "4": {
   "title": "Oscillo-battant en hiver : ce que conseille l'OFSP",
-  "text": "Oscillo-battant tout l'hiver ? Mauvaise idée 🪟 L'Office fédéral de la santé publique conseille d'aérer 3 fois par jour (matin, midi, soir), fenêtres grandes ouvertes, au moins 5 minutes (3 minutes s'il fait très froid ou avec un courant d'air), puis de refermer. Ça limite aussi l'humidité et les moisissures.\n\nEnvoie ça à ton coloc 😅\n\nDemain : combien de temps pour casser ton mot de passe 🔐 Abonne-toi pour ne pas le rater.\n\n#aeration #hiver #chauffage #maison #astucemaison #economiedenergie #suisse #apprendresurtiktok #pourtoi #fyp",
+  "text": "Oscillo-battant tout l'hiver ? Mauvaise idée 🪟 L'Office fédéral de la santé publique conseille d'aérer 3 fois par jour (matin, midi, soir), fenêtres grandes ouvertes, au moins 5 minutes (au moins 3 minutes s'il fait très froid ou avec un courant d'air), puis de refermer. Ça limite aussi l'humidité et les moisissures.\n\nEnvoie ça à ton coloc 😅\n\nDemain : combien de temps pour casser ton mot de passe 🔐 Abonne-toi pour ne pas le rater.\n\n#aeration #hiver #chauffage #maison #astucemaison #economiedenergie #suisse #apprendresurtiktok #pourtoi #fyp",
   "sources": [
    "https://www.bag.admin.ch/fr/aeration-et-chauffage-appropries"
   ]
  },
  "5": {
   "title": "Combien de temps pour casser ton mot de passe ?",
-  "text": "8 lettres minuscules = 3 semaines pour casser ton mot de passe 🔐 D'après le tableau 2025 de Hive Systems (12 cartes graphiques RTX 5090). 8 chiffres : un quart d'heure. Et s'il a déjà fuité, c'est quasi instantané. La parade : un mot de passe long et unique par site, un gestionnaire, et la double authentification.\n\nEnvoie ça à celui qui utilise son prénom 👀\n\nDemain : ce que te coûte l'eau en trop dans ta bouilloire 💧 Abonne-toi pour ne pas le rater.\n\n#motdepasse #cybersecurite #securite #astucetech #internet #tech #apprendresurtiktok #pourtoi #fyp",
+  "text": "8 lettres minuscules au hasard = environ 2 semaines pour casser ton mot de passe 🔐 D'après l'étude 2026 de Hive Systems (16 cartes graphiques RTX 5090). 8 chiffres : environ 10 minutes (26⁸ ÷ 10⁸, soit 2 088 fois moins de combinaisons). Et s'il a déjà fuité ou si c'est un mot courant, c'est quasi instantané. La parade : un mot de passe long et unique par site, un gestionnaire, et la double authentification.\n\nEnvoie ça à celui qui utilise son prénom 👀\n\nDemain : ce que te coûte l'eau en trop dans ta bouilloire 💧 Abonne-toi pour ne pas le rater.\n\n#motdepasse #cybersecurite #securite #astucetech #internet #tech #apprendresurtiktok #pourtoi #fyp",
   "sources": [
-   "https://www.hivesystems.com/blog/are-your-passwords-in-the-green-2025",
-   "https://heise.de/-10373456"
+   "https://www.hivesystems.com/blog/are-your-passwords-in-the-green",
+   "https://www.hivesystems.com/password-table",
+   "Calcul : 26^8 / 10^8 = 2 088 ; 14 jours / 2 088 ≈ 9,7 min"
   ]
  },
  "6": {
