@@ -1,0 +1,58 @@
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+[2026-10-25 08:03:06.627] [piper] [info] Loaded voice in 0.552755662 second(s)
+[2026-10-25 08:03:06.628] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day01fix/s03.wav
+[2026-10-25 08:03:07.368] [piper] [info] Real-time factor: 0.2453142815483093 (infer=0.729111871 sec, audio=2.972154195011338 sec)
+[2026-10-25 08:03:07.369] [piper] [info] Terminated piper
+skip day01
+day01fix s03 3.09 s
+done day01fix 3.092 s
+skip day02
+skip day03
+skip day04
+skip day05
+skip day06
+skip day07
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+asr: rien à faire
++ ls -la autopilot/tts/out autopilot/asr/out
++ head -40
+autopilot/asr/out:
+total 12
+drwxr-xr-x 2 runner runner 4096 Oct 25 08:02 .
+drwxr-xr-x 3 runner runner 4096 Oct 25 08:02 ..
+-rw-r--r-- 1 runner runner 3580 Oct 25 08:02 day01_vo.json
+
+autopilot/tts/out:
+total 40
+drwxr-xr-x 10 runner runner 4096 Oct 25 08:03 .
+drwxr-xr-x  4 runner runner 4096 Oct 25 08:02 ..
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:02 day01
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:03 day01fix
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:02 day02
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:02 day03
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:02 day04
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:02 day05
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:02 day06
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:02 day07

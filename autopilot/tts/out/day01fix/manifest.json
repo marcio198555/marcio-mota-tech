@@ -1,0 +1,14 @@
+{
+ "job": "day01fix",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s03",
+   "text": "Sur les fiches techniques, la pente est souvent en pour cent.",
+   "file": "s03.wav",
+   "duration": 3.092,
+   "rate": 44100
+  }
+ ],
+ "total": 3.092
+}
