@@ -1,0 +1,52 @@
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+skip day01
+skip day01fix
+skip day02
+skip day03
+skip day04
+skip day05
+skip day06
+skip day07
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+asr: rien à faire
++ ls -la autopilot/tts/out autopilot/asr/out
++ head -40
+autopilot/asr/out:
+total 12
+drwxr-xr-x 2 runner runner 4096 Oct 25 08:14 .
+drwxr-xr-x 3 runner runner 4096 Oct 25 08:14 ..
+-rw-r--r-- 1 runner runner 3580 Oct 25 08:14 day01_vo.json
+
+autopilot/tts/out:
+total 40
+drwxr-xr-x 10 runner runner 4096 Oct 25 08:14 .
+drwxr-xr-x  4 runner runner 4096 Oct 25 08:14 ..
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:14 day01
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:14 day01fix
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:14 day02
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:14 day03
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:14 day04
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:14 day05
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:14 day06
+drwxr-xr-x  2 runner runner 4096 Oct 25 08:14 day07
