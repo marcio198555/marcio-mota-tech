@@ -1,0 +1,14 @@
+{
+ "job": "day04cta",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : demain, combien de temps il faut pour casser ton mot de passe.",
+   "file": "s10.wav",
+   "duration": 4.369,
+   "rate": 44100
+  }
+ ],
+ "total": 4.369
+}

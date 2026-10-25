@@ -1,0 +1,14 @@
+{
+ "job": "day05cta",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : demain, ce que te coûte l'eau en trop dans ta bouilloire.",
+   "file": "s10.wav",
+   "duration": 4.096,
+   "rate": 44100
+  }
+ ],
+ "total": 4.096
+}

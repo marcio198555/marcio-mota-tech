@@ -1,0 +1,14 @@
+{
+ "job": "day03cta",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s10",
+   "text": "Garde ça pour le Black Friday. Et abonne-toi : demain, l'erreur que tout le monde fait avec sa fenêtre en hiver.",
+   "file": "s10.wav",
+   "duration": 6.678,
+   "rate": 44100
+  }
+ ],
+ "total": 6.678
+}
