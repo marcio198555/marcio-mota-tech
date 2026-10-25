@@ -20,10 +20,8 @@ if not pending:
 
 model = WhisperModel("medium", device="cpu", compute_type="int8")
 for p in pending:
-    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", p, "-ac", "1", "-ar", "16000", "-f", "s16le", "-"],
-                         capture_output=True, check=True).stdout
-    audio = np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
-    segs, info = model.transcribe(audio, language="fr", word_timestamps=True, beam_size=5)
+    # faster-whisper décode le fichier lui-même (PyAV), pas besoin de ffmpeg sur le runner
+    segs, info = model.transcribe(p, language="fr", word_timestamps=True, beam_size=5)
     words, text = [], []
     for s in segs:
         text.append(s.text.strip())
