@@ -120,16 +120,16 @@
         chip(ctx, 'BONUS', 520, 305, { color: C.gold, size: 34, dot: C.gold });
         // silhouette
         ctx.save(); ctx.translate(430, 0); ctx.fillStyle = '#2b3850';
-        ctx.beginPath(); ctx.arc(0, 480, 62, 0, Math.PI * 2); ctx.fill();
-        roundRect(ctx, -95, 560, 190, 380, 70); ctx.fill();
-        roundRect(ctx, -85, 900, 75, 300, 30); ctx.fill(); roundRect(ctx, 10, 900, 75, 300, 30); ctx.fill();
+        ctx.beginPath(); ctx.arc(0, 520, 58, 0, Math.PI * 2); ctx.fill();
+        roundRect(ctx, -90, 595, 180, 340, 66); ctx.fill();
+        roundRect(ctx, -80, 900, 70, 250, 28); ctx.fill(); roundRect(ctx, 10, 900, 70, 250, 28); ctx.fill();
         ctx.restore();
         const hk = ease.inOut(prog(t, S('s09') + 0.4, 1.2));
         ctx.save(); ctx.strokeStyle = C.gold2; ctx.lineWidth = 6; ctx.lineCap = 'round';
-        const yb = 1200, yt = lerp(1200, 418, hk);
+        const yb = 1150, yt = lerp(1150, 462, hk);
         ctx.beginPath(); ctx.moveTo(640, yb); ctx.lineTo(640, yt); ctx.moveTo(610, yb); ctx.lineTo(670, yb); ctx.moveTo(610, yt); ctx.lineTo(670, yt); ctx.stroke(); ctx.restore();
         if (hk > 0.98) text(ctx, '1,78 m', 760, 800, { size: 76, family: F.mono, weight: 700, color: C.gold2, align: 'left' });
-        chip(ctx, 'MODÈLES COMPATIBLES', 520, 1250, { color: C.fg, size: 28 });
+        chip(ctx, 'MODÈLES COMPATIBLES', 520, 378, { color: C.fg, size: 26 });
       });
 
       // ENREGISTRER

@@ -105,7 +105,7 @@
   // Sous-titres façon TikTok : phrase du segment, mot courant en or.
   function wordsFor(seg) {
     if (seg.words && seg.words.length) return seg.words;
-    const toks = seg.text.split(/\s+/).filter(Boolean);
+    const toks = (seg.display || seg.text).split(/ +/).filter(Boolean);
     const total = toks.reduce((a, w) => a + w.length + 1, 0);
     let acc = 0; const d = seg.end - seg.start;
     return toks.map(w => { const s = seg.start + d * acc / total; acc += w.length + 1; return [s, seg.start + d * acc / total, w]; });

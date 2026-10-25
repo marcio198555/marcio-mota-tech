@@ -1,0 +1,46 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton mot de passe de huit lettres minuscules ? Trois semaines pour le casser."
+  },
+  {
+   "id": "s02",
+   "text": "C'est le calcul de Hive Systems pour 2025, avec douze cartes graphiques haut de gamme."
+  },
+  {
+   "id": "s03",
+   "text": "Huit chiffres, comme un code PIN : un quart d'heure."
+  },
+  {
+   "id": "s04",
+   "text": "Et s'il a déjà fuité, c'est quasi instantané : les pirates testent d'abord les listes de fuites."
+  },
+  {
+   "id": "s05",
+   "text": "Ce qui change tout : la longueur."
+  },
+  {
+   "id": "s06",
+   "text": "Chaque caractère en plus multiplie le temps de calcul."
+  },
+  {
+   "id": "s07",
+   "text": "Un mot de passe long et différent pour chaque site, rangé dans un gestionnaire."
+  },
+  {
+   "id": "s08",
+   "text": "Et active la double authentification."
+  },
+  {
+   "id": "s09",
+   "text": "Envoie ça à quelqu'un qui utilise encore son prénom comme mot de passe."
+  },
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : je mesure tout."
+  }
+ ]
+}

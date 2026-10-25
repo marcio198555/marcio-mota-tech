@@ -1,0 +1,46 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta fenêtre en oscillo-battant tout l'hiver ? Mauvaise idée."
+  },
+  {
+   "id": "s02",
+   "text": "Tu chauffes surtout l'extérieur."
+  },
+  {
+   "id": "s03",
+   "text": "L'Office fédéral de la santé publique conseille autre chose."
+  },
+  {
+   "id": "s04",
+   "text": "Aérer trois fois par jour : le matin, à midi, et avant d'aller te coucher."
+  },
+  {
+   "id": "s05",
+   "text": "Fenêtres grandes ouvertes, au moins cinq minutes."
+  },
+  {
+   "id": "s06",
+   "text": "Et quand il fait très froid, ou avec un courant d'air, trois minutes suffisent."
+  },
+  {
+   "id": "s07",
+   "text": "Ensuite, tu refermes tout."
+  },
+  {
+   "id": "s08",
+   "text": "Bonus : ça limite l'humidité, et donc les moisissures."
+  },
+  {
+   "id": "s09",
+   "text": "Envoie ça à ton coloc qui laisse la fenêtre entrouverte."
+  },
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : je mesure tout."
+  }
+ ]
+}
