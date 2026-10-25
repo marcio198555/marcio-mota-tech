@@ -1,0 +1,77 @@
+{
+ "job": "day03",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Vingt mille milliampères-heure, divisé par quatre mille… cinq recharges ?",
+   "file": "s01.wav",
+   "duration": 3.969,
+   "rate": 44100
+  },
+  {
+   "id": "s02",
+   "text": "Non. Ta batterie externe n'en fera jamais cinq.",
+   "file": "s02.wav",
+   "duration": 3.375,
+   "rate": 44100
+  },
+  {
+   "id": "s03",
+   "text": "Le chiffre sur la boîte est calculé à trois virgule sept volts.",
+   "file": "s03.wav",
+   "duration": 4.085,
+   "rate": 44100
+  },
+  {
+   "id": "s04",
+   "text": "Le vrai chiffre, c'est l'énergie : soixante-quatorze wattheures.",
+   "file": "s04.wav",
+   "duration": 3.742,
+   "rate": 44100
+  },
+  {
+   "id": "s05",
+   "text": "Un téléphone de quatre mille milliampères-heure, c'est environ quinze wattheures.",
+   "file": "s05.wav",
+   "duration": 4.213,
+   "rate": 44100
+  },
+  {
+   "id": "s06",
+   "text": "Et en route, environ dix-huit pour cent se perdent en chaleur, d'après Anker.",
+   "file": "s06.wav",
+   "duration": 4.439,
+   "rate": 44100
+  },
+  {
+   "id": "s07",
+   "text": "Résultat : trois à quatre recharges. Pas cinq.",
+   "file": "s07.wav",
+   "duration": 3.752,
+   "rate": 44100
+  },
+  {
+   "id": "s08",
+   "text": "Avant d'acheter, regarde les wattheures, pas les milliampères-heure.",
+   "file": "s08.wav",
+   "duration": 3.551,
+   "rate": 44100
+  },
+  {
+   "id": "s09",
+   "text": "Bonus : en avion, la limite, c'est cent wattheures.",
+   "file": "s09.wav",
+   "duration": 3.313,
+   "rate": 44100
+  },
+  {
+   "id": "s10",
+   "text": "Garde ça pour le Black Friday, et abonne-toi : je mesure tout.",
+   "file": "s10.wav",
+   "duration": 3.922,
+   "rate": 44100
+  }
+ ],
+ "total": 38.361
+}
