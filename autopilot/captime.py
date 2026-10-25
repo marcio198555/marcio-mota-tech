@@ -82,7 +82,8 @@ UNIT_RE = re.compile(r"^(mAh|Wh|kWh|V|W|A|%|°C|°|cm|mm|m|km|Mbit/s|Gbit/s|Go|M
 FUNC = set("le la les l' un une des du de d' à au aux en et ou pour par sur sous dans avec sans son sa ses ton ta tes mon ma mes "
            "notre votre leur leurs ce cet cette ces qui que qu' chaque combien très plus moins".split())
 PHRASES = ["je mesure tout", "Black Friday", "Hive Systems", "code PIN", "USB 2", "L'Office fédéral", "santé publique",
-           "mot de passe", "double authentification", "quasi instantané", "change tout", "en trop", "par jour", "en hiver"]
+           "mot de passe", "double authentification", "quasi instantané", "change tout", "en trop", "par jour", "en hiver",
+           "tout le monde"]
 
 
 def spoken(tok):
@@ -242,12 +243,19 @@ for seg in tl["segments"]:
     wt = weights(toks)
     W = sum(wt) or 1
     # ancres : chaque « | » est calé sur une pause, en gardant l'ordre (affectation optimale)
-    marks, acc = [], 0.0
+    # repères : changements de carton (« | ») et fins de mots ponctués, qui tombent souvent sur une pause
+    marks, kinds, acc = [], [], 0.0
     for t, ww in zip(toks, wt):
         if t == "|":
-            marks.append(acc)
+            if marks and abs(marks[-1] - acc) < 1e-9:
+                kinds[-1] = "|"
+            else:
+                marks.append(acc); kinds.append("|")
         acc += ww
-    K, J, MISS = len(marks), len(gaps), 0.45
+        if t != "|" and re.search(r"[,.:;?!…]$", t.replace(NNBSP, "").replace(NBSP, "")) and acc < W - 1e-9:
+            marks.append(acc); kinds.append("p")
+    K, J = len(marks), len(gaps)
+    MISSK = [0.45 if k == "|" else 0.3 for k in kinds]
     memo = {}
 
     def best(k, j):  # marqueurs k.. avec les pauses j..
@@ -256,7 +264,7 @@ for seg in tl["segments"]:
         if (k, j) in memo:
             return memo[(k, j)]
         c0, r0 = best(k + 1, j)
-        res = (c0 + MISS, [None] + r0)
+        res = (c0 + MISSK[k], [None] + r0)
         for q in range(j, J):
             d = abs(gaps[q][0] - marks[k] / W * L)
             if d < 0.4 * L:
@@ -272,7 +280,9 @@ for seg in tl["segments"]:
     for k, q in enumerate(assign):
         if q is not None:
             anchors.append((marks[k], gaps[q][0]))
-        else:  # sans pause : proportionnel entre les ancres voisines
+        elif kinds[k] == "p":
+            continue  # virgule sans pause : pas d'ancre
+        else:  # « | » sans pause : proportionnel entre les ancres voisines
             lo = max(f for f in fixed if f[0] <= marks[k] + 1e-9)
             hi = min((f for f in fixed if f[0] >= marks[k] - 1e-9 and f != lo), default=(W, L))
             pos = lo[1] if hi[0] - lo[0] < 1e-9 else lo[1] + (marks[k] - lo[0]) / (hi[0] - lo[0]) * (hi[1] - lo[1])
@@ -286,10 +296,13 @@ for seg in tl["segments"]:
         return L
 
     def ptime(p, start):  # position parole -> temps réel (début : après la pause ; fin : avant)
-        for k, (s, e) in enumerate(isl):
+        for k, (s0, e0) in enumerate(isl):
             a0, a1 = cum[k], cum[k + 1]
             if (p < a1 - 1e-6) or (not start and p <= a1 + 1e-6) or k == len(isl) - 1:
-                return s + max(0.0, min(p - a0, e - s))
+                tt = s0 + max(0.0, min(p - a0, e0 - s0))
+                if start and k < len(isl) - 1 and e0 - tt < 0.12:
+                    return isl[k + 1][0]  # un mot qui commencerait juste avant une pause est dit après
+                return tt
         return isl[-1][1]
 
     words, acc = [], 0.0

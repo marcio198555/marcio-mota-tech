@@ -44,7 +44,7 @@
 
       // 3,7 V
       block(ctx, t, S('s03'), S('s04'), () => {
-        powerbank(ctx, 360, 700, 0.9, '20 000', { small: 'à 3,7 V', smallColor: C.gold2 });
+        powerbank(ctx, 360, 700, 0.9, '20 000');
         const k = ease.back(prog(t, S('s03') + 0.6, 0.4));
         ctx.save(); ctx.translate(740, 640); ctx.scale(k, k);
         ctx.lineWidth = 12; ctx.strokeStyle = C.gold2; ctx.beginPath(); ctx.arc(0, 0, 120, 0, Math.PI * 2); ctx.stroke();
@@ -62,7 +62,7 @@
         ctx.save(); ctx.translate(520, 880); ctx.scale(Math.max(0.01, k), Math.max(0.01, k));
         text(ctx, '74 Wh', 0, 0, { size: 220, weight: 900, color: C.gold2, shadow: 'rgba(201,168,76,0.5)', shadowBlur: 50 });
         ctx.restore();
-        chip(ctx, 'ÉNERGIE STOCKÉE', 520, 1100, { color: C.gold, size: 34 });
+        chip(ctx, 'ÉNERGIE STOCKÉE', 520, 1100, { color: C.gold, size: 36 });
       });
 
       // Téléphone ≈ 15 Wh
@@ -98,7 +98,7 @@
         text(ctx, '3 à 4', 520, 840, { size: 180, weight: 900, color: C.white });
         text(ctx, 'PAS 5', 520, 990, { size: 96, weight: 900, color: C.red2 });
         const ck = ease.out(prog(t, S('s07') + 1.2, 0.4));
-        text(ctx, '61 Wh ÷ 15,4 Wh ≈ 3,9', 520, 1095, { size: 40, family: F.mono, weight: 700, color: C.fg, alpha: ck });
+        text(ctx, '61 Wh ÷ 15,4 Wh ≈ 3,96', 520, 1095, { size: 40, family: F.mono, weight: 700, color: C.fg, alpha: ck });
         text(ctx, 'moins les pertes de charge du téléphone', 520, 1152, { size: 36, weight: 700, color: 'rgba(255,255,255,0.8)', alpha: ck, maxWidth: 820 });
       });
 
@@ -112,7 +112,7 @@
         text(ctx, '74 Wh', 520, 860, { size: 130, family: F.mono, weight: 700, color: '#05080f' });
         const k2 = ease.out(prog(t, S('s08') + 0.9, 0.5));
         ctx.save(); ctx.strokeStyle = C.gold; ctx.lineWidth = 12; ctx.beginPath(); ctx.ellipse(520, 860, 250, 110, 0, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * k2); ctx.stroke(); ctx.restore();
-        chip(ctx, 'REGARDE LES Wh', 520, 1110, { color: C.gold, size: 34 });
+        chip(ctx, 'REGARDE LES Wh', 520, 1110, { color: C.gold, size: 36 });
       });
 
       // Avion : 100 Wh
@@ -131,9 +131,9 @@
         const k = ease.back(prog(t, S('s10'), 0.35));
         bookmark(ctx, 520, 600, 1.5 * Math.max(0.01, k), C.gold2);
         text(ctx, 'ENREGISTRE', 520, 870, { size: 120, weight: 900, color: C.white });
-        chip(ctx, 'POUR LE BLACK FRIDAY', 520, 990, { color: C.gold, size: 34, dot: C.red });
+        chip(ctx, 'POUR LE BLACK FRIDAY', 520, 990, { color: C.gold, size: 36, dot: C.red });
       });
-      block(ctx, t, mid, END + 1, () => followCTA(ctx, t, mid, { next: ['l\'erreur de fenêtre', 'que tout le monde fait'] }));
+      block(ctx, t, mid, END + 1, () => followCTA(ctx, t, mid, { next: ['l\'erreur de fenêtre', 'que tout le monde fait en hiver'] }));
 
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });

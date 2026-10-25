@@ -118,7 +118,7 @@
     pages.forEach(p => { if (p.length && t >= p[0][0] - 0.05) cur = p; });
     return cur;
   }
-  const SOFT = new Set("le la les l' un une des du de d' à au aux en et ou pour par sur sous dans avec sans son sa ses ton ta tes mon ma mes ce cet cette ces qui que qu' très plus moins ne n' se s' te t' je j' tu il elle on nous vous".split(' '));
+  const SOFT = new Set("le la les l' un une d'un d'une des du de d' à au aux en et ou pour par sur sous dans avec sans son sa ses ton ta tes mon ma mes ce cet cette ces qui que qu' très plus moins ne n' se s' te t' je j' tu il elle on nous vous".split(' '));
   function captions(ctx, t, o = {}) {
     const segs = TL.segments;
     let seg = null;
@@ -147,7 +147,8 @@
       if (best[q - 1][i] >= INF) continue;
       const w = lineW(i, j); if (w > maxW && j - i > 1) continue;
       // une ligne (sauf la dernière) ne finit jamais par un article, une préposition ou un possessif
-      const pen = (j < m && SOFT.has(words[j - 1][2].toLowerCase().replace(/[\u00a0\u202f].*$/, ''))) ? maxW : 0;
+      const lastW = words[j - 1][2].toLowerCase().replace(/[\u00a0\u202f].*$/, '');
+      const pen = (j < m && (SOFT.has(lastW) || /^[\d\s\u202f,]+$/.test(words[j - 1][2]))) ? maxW : 0;
       const v = Math.max(best[q - 1][i], w + pen); if (v < best[q][j]) { best[q][j] = v; prev[q][j] = i; }
     }
     const lines = [];

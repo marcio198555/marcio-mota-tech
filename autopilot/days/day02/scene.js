@@ -26,7 +26,7 @@
     ctx.beginPath(); ctx.moveTo(95, -10); ctx.lineTo(95, -80); ctx.moveTo(75, -58); ctx.lineTo(95, -80); ctx.lineTo(115, -58); ctx.stroke();
     ctx.restore();
   }
-  function step(ctx, n, label) { chip(ctx, n + ' · ' + label, 520, 305, { color: C.gold, size: 34, dot: C.red }); }
+  function step(ctx, n, label) { chip(ctx, n + ' · ' + label, 520, 310, { color: C.gold, size: 36, dot: C.red }); }
 
   window.SCENE = {
     duration: END,
@@ -44,7 +44,7 @@
         });
         text(ctx, 'INSTRUMENTS', 520, 860, { size: 104, weight: 900, color: C.white });
         text(ctx, 'CACHÉS', 520, 965, { size: 104, weight: 900, color: C.white });
-        chip(ctx, 'DANS TON IPHONE', 520, 1085, { color: C.gold, size: 34 });
+        chip(ctx, 'DANS TON IPHONE', 520, 1085, { color: C.gold, size: 36 });
         const lk = prog(t, S('s02'), 0.3);
         if (lk > 0) text(ctx, 'jamais ouverts ?', 520, 1180, { size: 54, weight: 800, color: C.muted, alpha: lk });
       });
@@ -118,7 +118,7 @@
 
       // BONUS : taille d'une personne
       block(ctx, t, S('s09'), S('s10'), () => {
-        chip(ctx, 'BONUS', 520, 305, { color: C.gold, size: 34, dot: C.gold });
+        chip(ctx, 'BONUS', 520, 310, { color: C.gold, size: 36, dot: C.gold });
         // silhouette
         ctx.save(); ctx.translate(330, 0); ctx.fillStyle = '#2b3850';
         ctx.beginPath(); ctx.arc(0, 520, 58, 0, Math.PI * 2); ctx.fill();
@@ -130,7 +130,7 @@
         const yb = 1150, yt = lerp(1150, 462, hk);
         ctx.beginPath(); ctx.moveTo(540, yb); ctx.lineTo(540, yt); ctx.moveTo(510, yb); ctx.lineTo(570, yb); ctx.moveTo(510, yt); ctx.lineTo(570, yt); ctx.stroke(); ctx.restore();
         if (hk > 0.98) { text(ctx, '1,78 m', 595, 790, { size: 72, family: F.mono, weight: 700, color: C.gold2, align: 'left' }); text(ctx, 'exemple', 597, 862, { size: 40, weight: 700, color: 'rgba(255,255,255,0.8)', align: 'left' }); }
-        chip(ctx, 'MODÈLES COMPATIBLES', 520, 380, { color: C.fg, size: 30 });
+        chip(ctx, 'MODÈLES COMPATIBLES', 520, 385, { color: C.fg, size: 36 });
       });
 
       // ENREGISTRER
