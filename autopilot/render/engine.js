@@ -166,9 +166,9 @@
 
   // Bloc de scène : fondu + léger zoom en entrée/sortie (le bloc qui commence à 0 est complet dès l'image 0).
   function block(ctx, t, start, end, fn) {
-    if (t < start - 0.001 || t >= end + 0.2) return;
-    const fin = start <= 0 ? 1 : ease.out(prog(t, start, 0.22));
-    const a = Math.min(fin, 1 - ease.in(prog(t, end - 0.02, 0.2)));
+    if (t < start - 0.001 || t >= end + 0.001) return;
+    const fin = start <= 0 ? 1 : ease.out(prog(t, start, 0.18));
+    const a = Math.min(fin, 1 - ease.in(prog(t, end - 0.12, 0.12)));
     if (a <= 0) return;
     const k = start <= 0 ? 1 : ease.out(prog(t, start, 0.35));
     ctx.save(); ctx.globalAlpha = a;

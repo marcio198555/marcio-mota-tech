@@ -59,12 +59,12 @@
 
       // ACCROCHE
       block(ctx, t, 0, S('s03'), () => {
-        windowFrame(ctx, 520, 640, 420, 520, 'tilt', 1);
-        heatWaves(ctx, 520, 370, t, 3);
+        windowFrame(ctx, 520, 720, 400, 480, 'tilt', 1);
+        heatWaves(ctx, 520, 470, t, 3);
         text(ctx, 'OSCILLO-BATTANT', 520, 1000, { size: 92, weight: 900, color: C.white, maxWidth: 900 });
         chip(ctx, 'EN HIVER', 520, 1100, { color: C.fg, size: 32, dot: '#7fb3ff' });
         const xk = ease.back(prog(t, 0.6, 0.35));
-        if (xk > 0) { ctx.save(); ctx.translate(800, 420); ctx.scale(xk, xk); ctx.strokeStyle = C.red2; ctx.lineWidth = 22; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(-60, -60); ctx.lineTo(60, 60); ctx.moveTo(60, -60); ctx.lineTo(-60, 60); ctx.stroke(); ctx.restore(); }
+        if (xk > 0) { ctx.save(); ctx.translate(790, 520); ctx.scale(xk, xk); ctx.strokeStyle = C.red2; ctx.lineWidth = 22; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(-60, -60); ctx.lineTo(60, 60); ctx.moveTo(60, -60); ctx.lineTo(-60, 60); ctx.stroke(); ctx.restore(); }
         const sk = prog(t, S('s02'), 0.3);
         if (sk > 0) text(ctx, 'tu chauffes dehors', 520, 1190, { size: 54, weight: 800, color: '#ff8a6b', alpha: sk });
       });
