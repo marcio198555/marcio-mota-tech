@@ -31,6 +31,13 @@ production et programmation des 7 vidéos du vendredi au jeudi suivant. Jamais p
 2. Commits : terminer le message par `[skip-bridge]` sauf quand on veut lancer la synthèse vocale.
    Toujours committer avant `git pull --rebase origin tiktok-autopilot`.
 3. Studio de travail : `/home/claude/studio/dayNN/` (hors dépôt). Bruitages : `python3 autopilot/audio/synth.py sfx /home/claude/studio/sfx`.
+   Outils : `autopilot/tools/produce.sh NN` (sous-titres + rendu + musique + mixage → `/home/claude/studio/dayNN/dayNN_final.mp4`),
+   `autopilot/tools/swap_end.py NN <job_voix> ["display"]` (remplace le dernier segment de voix en gardant les blancs),
+   `autopilot/tools/build_page.py` (page de suivi). Après chaque vidéo, copier `timeline.json`, `cues.json` et `vo.wav`
+   dans `autopilot/days/dayNN/studio/` pour pouvoir la refaire plus tard.
+4. Vidéos déjà montées (ex. jours 6 et 7) : copier `autopilot/days/dayNN/studio/*` dans `/home/claude/studio/dayNN/`,
+   écrire le job voix de la nouvelle fin (`tts/jobs/dayNNcta.json`, même id que le dernier segment), le synthétiser,
+   puis `swap_end.py`, ajouter `{ next: [...] }` au `followCTA` de la scène, ajouter un repère `ui_pop` et `produce.sh NN`.
 
 ## 2. Bilan hebdo (avant toute production)
 1. Metricool `getAnalyticsDataByMetrics`, blogId 6563196, du vendredi précédent à hier (Europe/Zurich) :
