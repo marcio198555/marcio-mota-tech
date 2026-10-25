@@ -2,9 +2,11 @@
 import json, pathlib
 
 REPO = pathlib.Path('/home/claude/marcio-mota-tech/autopilot')
-OUT = pathlib.Path('/tmp/claude-0/-home-claude/d5c551c1-d86a-5946-8395-e58e191f42ac/scratchpad/studio/autopilot.html')
-ASSETS = json.loads(pathlib.Path('/home/claude/studio/assets.json').read_text()) if pathlib.Path('/home/claude/studio/assets.json').exists() else {}
-SCHED = json.loads(pathlib.Path('/home/claude/studio/scheduled.json').read_text()) if pathlib.Path('/home/claude/studio/scheduled.json').exists() else {}
+import sys
+OUT = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else '/home/claude/studio/autopilot.html')
+OUT.parent.mkdir(parents=True, exist_ok=True)
+ASSETS = json.loads((REPO / 'tools/assets.json').read_text()) if (REPO / 'tools/assets.json').exists() else {}
+SCHED = json.loads((REPO / 'tools/scheduled.json').read_text()) if (REPO / 'tools/scheduled.json').exists() else {}
 
 plan = json.loads((REPO / 'plan.json').read_text())
 caps = json.loads((REPO / 'days/captions.json').read_text())
@@ -21,6 +23,7 @@ for d in range(1, 6):
     week.append({
         'day': d, 'date': p['date'], 'title': caps[str(d)]['title'], 'mechanic': p['mecanique'], 'refs': p['refs'],
         'hook': p['accroche'], 'money': p['argent'], 'vo': vo, 'caption': caps[str(d)]['text'], 'sources': caps[str(d)]['sources'],
+        'url': (json.loads((REPO / f'days/day{d:02d}/post.json').read_text()).get('url', '') if (REPO / f'days/day{d:02d}/post.json').exists() else ''),
         'video': ASSETS.get(str(d), ''), 'status': SCHED.get(str(d), {}).get('status', 'produite'),
         'when': SCHED.get(str(d), {}).get('when', p.get('heure', '10:00')),
     })
@@ -192,7 +195,7 @@ function copyBtn(label, getText, target){
 function render(){
   const chips=document.getElementById('chips');
   const sched=DATA.week.filter(w=>w.status==='programmée').length;
-  [['ok','TikTok connecté à Metricool'],['live',sched+' vidéo'+(sched>1?'s':'')+' programmée'+(sched>1?'s':'')],['gold','1 vidéo par jour'],['info','Prochain lot : vendredi 30.10']].forEach(([d,t])=>{ const s=el('span','chip'); s.append(el('span','dot '+d), el('span','',t)); chips.append(s); });
+  [['ok','TikTok connecté à Metricool'],['live',DATA.week.filter(w=>w.status==='publiée').length+' publiée · '+sched+' programmée'+(sched>1?'s':'')],['gold','1 vidéo par jour'],['info','Prochain lot : vendredi 30.10']].forEach(([d,t])=>{ const s=el('span','chip'); s.append(el('span','dot '+d), el('span','',t)); chips.append(s); });
   const wk=document.getElementById('week'); document.getElementById('week-count').textContent=DATA.week.length+' vidéos';
   DATA.week.forEach(w=>{
     const card=el('article','card');
@@ -202,6 +205,7 @@ function render(){
     const m=el('div','meta'); m.append(el('span','', 'Jour '+w.day+' · '+fmtDate(w.date)+' · '+w.when));
     const st=STATUS[w.status]||['todo',w.status]; m.append(el('span','status '+st[0], st[1])); b.append(m);
     b.append(el('h3','',w.title), el('div','hook','Accroche : '+w.hook), el('div','mech','Mécanique : '+w.mechanic+' · '+w.money));
+    if(w.url){ const a=el('a','', 'Voir sur TikTok'); a.href=w.url; a.rel='noopener'; a.target='_blank'; b.append(a); }
     const d1=document.createElement('details'); d1.append(el('summary','','Voix off, mot pour mot')); const ol=el('ol','vo'); w.vo.forEach(l=>ol.append(el('li','',l))); d1.append(ol); b.append(d1);
     const d2=document.createElement('details'); d2.append(el('summary','','Description TikTok')); const cap=el('div','caption',w.caption); d2.append(cap, copyBtn('Copier la description',()=>w.caption,cap)); b.append(d2);
     const d3=document.createElement('details'); d3.append(el('summary','','Sources'));
