@@ -3,45 +3,511 @@
  "fuseau": "Europe/Zurich",
  "heure_par_defaut": "10:00",
  "references_virales": {
-  "R1": {"titre": "Fonction cachée d'un objet du quotidien (porte-essuie-tout)", "createur": "@cippirippicippi", "vues": "21,6 M vues, 1,1 M j'aime", "source": "https://au.news.yahoo.com/paper-towel-holders-secret-storage-193541555.html"},
-  "R2": {"titre": "Fonction cachée de l'iPhone (déplacer plusieurs apps)", "createur": "kevin_benjis (14 000 abonnés)", "vues": "1,5 M vues", "source": "https://tomsguide.com/news/this-hidden-iphone-feature-can-save-you-time-and-it-just-went-viral-on-tiktok"},
-  "R3": {"titre": "Astuce virale démontée par des experts (torchon sur le lave-vaisselle)", "createur": "@laylaypearle", "vues": "2,3 M vues", "source": "https://www.idealhome.co.uk/house-manual/cleaning/dishwasher-tea-towel-tiktok-hack-debunked"},
-  "R4": {"titre": "Le vrai coût de chaque appareil, mesuré", "createur": "@havinthecraic", "vues": "plus de 200 000 vues", "source": "https://www.kildarenow.com/news/irish-tiktoker-calculates-cost-of-everyday-household-electrical-items-with-surprising-results-7234872"},
-  "R5": {"titre": "Mythe de la charge du téléphone (batterie à 100 % après 2 ans)", "createur": "@shoandtech", "vues": "virale (chiffre non publié)", "source": "https://bgr.com/tech/viral-tiktok-battery-health-100-percent-2-years/"},
-  "R6": {"titre": "Le gadget caché dans ton appareil (sonde du Ninja)", "createur": "@bowesy5", "vues": "virale (chiffre non publié)", "source": "https://www.tomsguide.com/home/home-appliances/viral-tiktok-reveals-secret-gadget-built-into-ninja-air-fryer"},
-  "R7": {"titre": "#TikTokMadeMeBuyIt", "createur": "hashtag", "vues": "plus d'1 milliard de vues", "source": "https://ppc.land/hashtag-tiktokmademebuyit-reaches-more-than-1-billion-views"},
-  "R8": {"titre": "Analyse de 13,5 M de clips (Opus Clip, 2026) : 30-45 s, résultat montré dans les 3 premières secondes, sous-titres incrustés, accroches « chiffre précis », « contre-pied », « ne l'achète pas avant… »", "createur": "Opus Clip", "vues": "étude", "source": "https://www.opus.pro/blog/anatomy-of-a-viral-tiktok-2026"}
+  "R1": {
+   "titre": "Fonction cachée d'un objet du quotidien (porte-essuie-tout)",
+   "createur": "@cippirippicippi",
+   "vues": "21,6 M vues, 1,1 M j'aime",
+   "source": "https://au.news.yahoo.com/paper-towel-holders-secret-storage-193541555.html"
+  },
+  "R2": {
+   "titre": "Fonction cachée de l'iPhone (déplacer plusieurs apps)",
+   "createur": "kevin_benjis (14 000 abonnés)",
+   "vues": "1,5 M vues",
+   "source": "https://tomsguide.com/news/this-hidden-iphone-feature-can-save-you-time-and-it-just-went-viral-on-tiktok"
+  },
+  "R3": {
+   "titre": "Astuce virale démontée par des experts (torchon sur le lave-vaisselle)",
+   "createur": "@laylaypearle",
+   "vues": "2,3 M vues",
+   "source": "https://www.idealhome.co.uk/house-manual/cleaning/dishwasher-tea-towel-tiktok-hack-debunked"
+  },
+  "R4": {
+   "titre": "Le vrai coût de chaque appareil, mesuré",
+   "createur": "@havinthecraic",
+   "vues": "plus de 200 000 vues",
+   "source": "https://www.kildarenow.com/news/irish-tiktoker-calculates-cost-of-everyday-household-electrical-items-with-surprising-results-7234872"
+  },
+  "R5": {
+   "titre": "Mythe de la charge du téléphone (batterie à 100 % après 2 ans)",
+   "createur": "@shoandtech",
+   "vues": "virale (chiffre non publié)",
+   "source": "https://bgr.com/tech/viral-tiktok-battery-health-100-percent-2-years/"
+  },
+  "R6": {
+   "titre": "Le gadget caché dans ton appareil (sonde du Ninja)",
+   "createur": "@bowesy5",
+   "vues": "virale (chiffre non publié)",
+   "source": "https://www.tomsguide.com/home/home-appliances/viral-tiktok-reveals-secret-gadget-built-into-ninja-air-fryer"
+  },
+  "R7": {
+   "titre": "#TikTokMadeMeBuyIt",
+   "createur": "hashtag",
+   "vues": "plus d'1 milliard de vues",
+   "source": "https://ppc.land/hashtag-tiktokmademebuyit-reaches-more-than-1-billion-views"
+  },
+  "R8": {
+   "titre": "Analyse de 13,5 M de clips (Opus Clip, 2026) : 30-45 s, résultat montré dans les 3 premières secondes, sous-titres incrustés, accroches « chiffre précis », « contre-pied », « ne l'achète pas avant… »",
+   "createur": "Opus Clip",
+   "vues": "étude",
+   "source": "https://www.opus.pro/blog/anatomy-of-a-viral-tiktok-2026"
+  }
  },
  "jours": [
-  {"jour": 1, "date": "2026-10-25", "sujet": "45 % de pente ≠ 45° : le piège des robots tondeuses", "mecanique": "Contre-pied : le chiffre qui piège", "refs": ["R3", "R8"], "accroche": "45 % ≠ 45°", "argent": "Croissance ; affiliation robots tondeuses (Black Friday)", "statut": "programmée"},
-  {"jour": 2, "date": "2026-10-26", "sujet": "3 instruments de mesure cachés dans ton iPhone", "mecanique": "La fonction cachée", "refs": ["R2", "R1"], "accroche": "3 instruments cachés dans ton iPhone", "argent": "Croissance (enregistrements, abonnés)", "statut": "produite"},
-  {"jour": 3, "date": "2026-10-27", "sujet": "20 000 mAh ≠ 5 recharges : le piège des batteries externes", "mecanique": "Le calcul qui choque + ne l'achète pas avant", "refs": ["R8", "R4"], "accroche": "20 000 ÷ 4 000 = 5 ? NON.", "argent": "Affiliation batteries externes (Black Friday)", "statut": "produite"},
-  {"jour": 4, "date": "2026-10-28", "sujet": "Fenêtre en oscillo-battant en hiver : mauvaise idée (OFSP)", "mecanique": "Tu le fais mal (contre-pied)", "refs": ["R3", "R8"], "accroche": "Oscillo-battant tout l'hiver ? ✕", "argent": "Croissance (partages) ; marques capteurs d'air et de fenêtres", "statut": "produite"},
-  {"jour": 5, "date": "2026-10-29", "sujet": "8 lettres minuscules = 3 semaines pour casser ton mot de passe", "mecanique": "Le chiffre précis qui fait peur", "refs": ["R8"], "accroche": "8 minuscules → 3 SEMAINES", "argent": "Affiliation gestionnaire de mots de passe", "statut": "produite"},
-  {"jour": 6, "date": "2026-10-30", "sujet": "L'eau en trop dans ta bouilloire : environ 20 CHF par an", "mecanique": "Le vrai coût de tes appareils", "refs": ["R4"], "accroche": "20 CHF par an pour de l'eau en trop", "argent": "Affiliation bouilloires à température, prises connectées", "statut": "produite"},
-  {"jour": 7, "date": "2026-10-31", "sujet": "Deux câbles USB-C identiques : 60 W ou 240 W", "mecanique": "Le piège invisible + Black Friday", "refs": ["R8", "R3"], "accroche": "IDENTIQUES ? 60 W / 240 W", "argent": "Affiliation câbles certifiés (Black Friday)", "statut": "produite"},
-  {"jour": 8, "date": "2026-11-01", "sujet": "Le mode sombre économise-t-il vraiment ta batterie ?", "mecanique": "Mythe ou réalité", "refs": ["R5", "R3"], "accroche": "Mode sombre = plus de batterie ? Ça dépend de ton écran.", "a_verifier": ["OLED vs LCD : pixels noirs éteints", "étude Purdue 2021 sur le mode sombre (gain selon la luminosité)"], "argent": "Croissance", "statut": "à produire"},
-  {"jour": 9, "date": "2026-11-02", "sujet": "Baisser le chauffage de 1 °C : combien tu économises vraiment", "mecanique": "Le vrai coût / le chiffre précis", "refs": ["R4", "R8"], "accroche": "−1 °C = −?% sur ta facture", "a_verifier": ["chiffre officiel SuisseEnergie ou OFEN (économie par degré)", "température recommandée par pièce"], "argent": "Marques thermostats connectés", "statut": "à produire"},
-  {"jour": 10, "date": "2026-11-03", "sujet": "Ampoules : lis les lumens, pas les watts", "mecanique": "Le piège de l'étiquette", "refs": ["R3", "R8"], "accroche": "« Équivalent 60 W » ne veut rien dire", "a_verifier": ["règlement UE sur l'étiquetage des lampes (lumens)", "correspondance lumens / anciennes ampoules"], "argent": "Affiliation ampoules connectées", "statut": "à produire"},
-  {"jour": 11, "date": "2026-11-04", "sujet": "La prise connectée qui te montre où part ton argent", "mecanique": "TikTok Made Me Buy It, version honnête", "refs": ["R7", "R4"], "accroche": "Ce petit objet m'a montré ce qui coûte le plus chez moi", "a_verifier": ["prix et précision de prises avec mesure (fiches fabricant)", "ne présenter aucune mesure non faite"], "argent": "Affiliation prises connectées", "statut": "à produire"},
-  {"jour": 12, "date": "2026-11-05", "sujet": "Ton frigo est-il réglé trop froid ?", "mecanique": "Tu le fais mal", "refs": ["R3"], "accroche": "Frigo à 2 °C ? Tu paies pour rien.", "a_verifier": ["température recommandée frigo et congélateur (OSAV, SuisseEnergie)", "surconsommation par degré en moins"], "argent": "Marques thermomètres connectés", "statut": "à produire"},
-  {"jour": 13, "date": "2026-11-06", "sujet": "Fermer les applis en arrière-plan n'économise pas ta batterie", "mecanique": "Mythe démonté", "refs": ["R5", "R3"], "accroche": "Arrête de fermer tes applis", "a_verifier": ["position officielle Apple et Google"], "argent": "Croissance", "statut": "à produire"},
-  {"jour": 14, "date": "2026-11-07", "sujet": "Décibels : +10 dB, c'est 2 fois plus fort", "mecanique": "Le chiffre qui trompe", "refs": ["R8"], "accroche": "70 dB → 80 dB : ce n'est pas +14 %", "a_verifier": ["+3 dB = puissance ×2, +10 dB = perçu ×2 (SUVA ou source acoustique officielle)", "niveaux de bruit typiques"], "argent": "Marques audio, aspirateurs silencieux", "statut": "à produire"},
-  {"jour": 15, "date": "2026-11-08", "sujet": "Le couvercle sur la casserole : combien d'énergie en moins", "mecanique": "Le vrai coût", "refs": ["R4"], "accroche": "Sans couvercle, tu chauffes la cuisine", "a_verifier": ["chiffre SuisseEnergie ou étude sur l'économie avec couvercle"], "argent": "Croissance", "statut": "à produire"},
-  {"jour": 16, "date": "2026-11-09", "sujet": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse les murs", "mecanique": "L'astuce que personne n'explique", "refs": ["R2"], "accroche": "Ton Wi-Fi rapide ne passe pas les murs", "a_verifier": ["portée et débit 2,4 vs 5 GHz (sources fabricants ou OFCOM)"], "argent": "Marques Wi-Fi maillé", "statut": "à produire"},
-  {"jour": 17, "date": "2026-11-10", "sujet": "Black Friday : repérer une fausse promo", "mecanique": "Ne l'achète pas avant de savoir ça", "refs": ["R8"], "accroche": "−50 % ? Vérifie ce prix barré", "a_verifier": ["ordonnance suisse sur l'indication des prix (OIP), règles des prix comparatifs (SECO)"], "argent": "Affiliation (bons plans vérifiés)", "statut": "à produire"},
-  {"jour": 18, "date": "2026-11-11", "sujet": "Lave-vaisselle : le programme le plus long consomme le moins", "mecanique": "Contre-pied", "refs": ["R3"], "accroche": "Le programme de 3 h est le plus économique", "a_verifier": ["étiquette énergie UE basée sur le programme éco", "explication fabricant (température plus basse, plus long)"], "argent": "Croissance", "statut": "à produire"},
-  {"jour": 19, "date": "2026-11-12", "sujet": "Ton chargeur 65 W ne charge pas ton téléphone à 65 W", "mecanique": "Le piège du chiffre sur la boîte", "refs": ["R3", "R8"], "accroche": "65 W sur la boîte, 25 W dans ton téléphone", "a_verifier": ["puissance de charge max de modèles courants (fiches fabricant)", "USB Power Delivery"], "argent": "Affiliation chargeurs GaN", "statut": "à produire"},
-  {"jour": 20, "date": "2026-11-13", "sujet": "Caméra de surveillance : ce que la loi suisse t'interdit de filmer", "mecanique": "Ce que personne ne te dit", "refs": ["R8"], "accroche": "Ta caméra filme le trottoir ? C'est interdit.", "a_verifier": ["guide du PFPDT sur la vidéosurveillance par des privés"], "argent": "Marques caméras", "statut": "à produire"},
-  {"jour": 21, "date": "2026-11-14", "sujet": "Combien de lux pour bien travailler (500 lx)", "mecanique": "Je mesure tout", "refs": ["R8"], "accroche": "Ton bureau est trop sombre (chiffres)", "a_verifier": ["norme EN 12464-1 citée par un organisme officiel (SUVA)"], "argent": "Affiliation lampes de bureau", "statut": "à produire"},
-  {"jour": 22, "date": "2026-11-15", "sujet": "Lave-linge à 30 °C ou 60 °C : l'énergie en jeu", "mecanique": "Le vrai coût", "refs": ["R4"], "accroche": "60 °C coûte jusqu'à X fois plus", "a_verifier": ["consommation selon la température (SuisseEnergie, étiquette UE)"], "argent": "Croissance", "statut": "à produire"},
-  {"jour": 23, "date": "2026-11-16", "sujet": "Lampes torches : les lumens gonflés", "mecanique": "Le piège de l'étiquette", "refs": ["R3"], "accroche": "10 000 lumens ? Sûrement pas.", "a_verifier": ["norme ANSI/PLATO FL1"], "argent": "Affiliation lampes certifiées FL1", "statut": "à produire"},
-  {"jour": 24, "date": "2026-11-17", "sujet": "Robot aspirateur « 8 000 Pa » : ça veut dire quoi", "mecanique": "Le chiffre qui impressionne", "refs": ["R3", "R8"], "accroche": "8 000 Pa, c'est beaucoup ?", "a_verifier": ["définition Pa, conversion, ce que le chiffre ne dit pas (débit d'air)"], "argent": "Affiliation robots aspirateurs (Black Friday)", "statut": "à produire"},
-  {"jour": 25, "date": "2026-11-18", "sujet": "Le mode avion fait-il charger plus vite ?", "mecanique": "Mythe ou réalité", "refs": ["R5"], "accroche": "Mode avion = charge express ?", "a_verifier": ["source technique sur la consommation radio pendant la charge"], "argent": "Croissance", "statut": "à produire"},
-  {"jour": 26, "date": "2026-11-19", "sujet": "L'humidité idéale chez toi en hiver", "mecanique": "Je mesure tout", "refs": ["R8"], "accroche": "Ton salon est un désert (ou une serre)", "a_verifier": ["taux d'humidité recommandé (OFSP ou source officielle)"], "argent": "Affiliation hygromètres", "statut": "à produire"},
-  {"jour": 27, "date": "2026-11-20", "sujet": "3 gadgets à moins de 20 CHF vraiment utiles en hiver", "mecanique": "TikTok Made Me Buy It, version honnête", "refs": ["R7"], "accroche": "3 objets à moins de 20 CHF qui servent vraiment", "a_verifier": ["prix et fonctions officiels ; aucune promesse non mesurée"], "argent": "Affiliation (Black Friday)", "statut": "à produire"},
-  {"jour": 28, "date": "2026-11-21", "sujet": "Sèche-linge ou étendoir : le coût réel en CHF", "mecanique": "Le vrai coût", "refs": ["R4"], "accroche": "Ton sèche-linge te coûte X CHF par lessive", "a_verifier": ["consommation type par cycle (étiquette UE), tarif ElCom 2026"], "argent": "Croissance", "statut": "à produire"},
-  {"jour": 29, "date": "2026-11-22", "sujet": "Black Friday tech : 5 erreurs à éviter", "mecanique": "Ne l'achète pas avant de savoir ça", "refs": ["R8"], "accroche": "5 erreurs qui coûtent cher vendredi", "a_verifier": ["reprendre uniquement des faits déjà vérifiés dans les vidéos du mois"], "argent": "Affiliation (bons plans vérifiés)", "statut": "à produire"},
-  {"jour": 30, "date": "2026-11-23", "sujet": "30 jours de mesures : ce que j'ai appris", "mecanique": "Récapitulatif + question à la communauté", "refs": ["R8"], "accroche": "30 vidéos, 30 chiffres : le plus fou ?", "a_verifier": ["chiffres réels du compte (Metricool)"], "argent": "Croissance ; preuve pour le media kit", "statut": "à produire"}
- ]
+  {
+   "jour": 1,
+   "date": "2026-10-25",
+   "sujet": "45 % de pente ≠ 45° : le piège des robots tondeuses",
+   "mecanique": "Contre-pied : le chiffre qui piège",
+   "refs": [
+    "R3",
+    "R8"
+   ],
+   "accroche": "45 % ≠ 45°",
+   "argent": "Croissance ; affiliation robots tondeuses (Black Friday)",
+   "statut": "programmée"
+  },
+  {
+   "jour": 2,
+   "date": "2026-10-26",
+   "sujet": "3 instruments de mesure cachés dans ton iPhone",
+   "mecanique": "La fonction cachée",
+   "refs": [
+    "R2",
+    "R1"
+   ],
+   "accroche": "3 instruments cachés dans ton iPhone",
+   "argent": "Croissance (enregistrements, abonnés)",
+   "statut": "à programmer"
+  },
+  {
+   "jour": 3,
+   "date": "2026-10-27",
+   "sujet": "20 000 mAh ≠ 5 recharges : le piège des batteries externes",
+   "mecanique": "Le calcul qui choque + ne l'achète pas avant",
+   "refs": [
+    "R8",
+    "R4"
+   ],
+   "accroche": "20 000 ÷ 4 000 = 5 ? NON.",
+   "argent": "Affiliation batteries externes (Black Friday)",
+   "statut": "à programmer"
+  },
+  {
+   "jour": 4,
+   "date": "2026-10-28",
+   "sujet": "Fenêtre en oscillo-battant en hiver : mauvaise idée (OFSP)",
+   "mecanique": "Tu le fais mal (contre-pied)",
+   "refs": [
+    "R3",
+    "R8"
+   ],
+   "accroche": "Oscillo-battant tout l'hiver ? ✕",
+   "argent": "Croissance (partages) ; marques capteurs d'air et de fenêtres",
+   "statut": "à programmer",
+   "heure": "18:00",
+   "note": "Test d'heure : 18 h au lieu de 10 h (à comparer au bilan du vendredi)"
+  },
+  {
+   "jour": 5,
+   "date": "2026-10-29",
+   "sujet": "8 lettres minuscules = 3 semaines pour casser ton mot de passe",
+   "mecanique": "Le chiffre précis qui fait peur",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "8 minuscules → 3 SEMAINES",
+   "argent": "Affiliation gestionnaire de mots de passe",
+   "statut": "à programmer"
+  },
+  {
+   "jour": 6,
+   "date": "2026-10-30",
+   "sujet": "L'eau en trop dans ta bouilloire : environ 20 CHF par an",
+   "mecanique": "Le vrai coût de tes appareils",
+   "refs": [
+    "R4"
+   ],
+   "accroche": "20 CHF par an pour de l'eau en trop",
+   "argent": "Affiliation bouilloires à température, prises connectées",
+   "statut": "produite (fin à refaire)",
+   "annoncee": true,
+   "note": "Annoncée à la fin de la vidéo du jeudi 29.10 : garder ce sujet. Vidéo déjà montée (days/day06) ; remplacer la fin par l'annonce du lendemain (tools/swap_end.py) avant de programmer."
+  },
+  {
+   "jour": 7,
+   "date": "2026-10-31",
+   "sujet": "Deux câbles USB-C identiques : 60 W ou 240 W",
+   "mecanique": "Le piège invisible + Black Friday",
+   "refs": [
+    "R8",
+    "R3"
+   ],
+   "accroche": "IDENTIQUES ? 60 W / 240 W",
+   "argent": "Affiliation câbles certifiés (Black Friday)",
+   "statut": "produite (fin à refaire)",
+   "note": "Vidéo déjà montée (days/day07) ; remplacer la fin par l'annonce du lendemain (tools/swap_end.py) avant de programmer."
+  },
+  {
+   "jour": 8,
+   "date": "2026-11-01",
+   "sujet": "Le mode sombre économise-t-il vraiment ta batterie ?",
+   "mecanique": "Mythe ou réalité",
+   "refs": [
+    "R5",
+    "R3"
+   ],
+   "accroche": "Mode sombre = plus de batterie ? Ça dépend de ton écran.",
+   "a_verifier": [
+    "OLED vs LCD : pixels noirs éteints",
+    "étude Purdue 2021 sur le mode sombre (gain selon la luminosité)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée"
+  },
+  {
+   "jour": 9,
+   "date": "2026-11-02",
+   "sujet": "Baisser le chauffage de 1 °C : combien tu économises vraiment",
+   "mecanique": "Le vrai coût / le chiffre précis",
+   "refs": [
+    "R4",
+    "R8"
+   ],
+   "accroche": "−1 °C = −?% sur ta facture",
+   "a_verifier": [
+    "chiffre officiel SuisseEnergie ou OFEN (économie par degré)",
+    "température recommandée par pièce"
+   ],
+   "argent": "Marques thermostats connectés",
+   "statut": "idée"
+  },
+  {
+   "jour": 10,
+   "date": "2026-11-03",
+   "sujet": "Ampoules : lis les lumens, pas les watts",
+   "mecanique": "Le piège de l'étiquette",
+   "refs": [
+    "R3",
+    "R8"
+   ],
+   "accroche": "« Équivalent 60 W » ne veut rien dire",
+   "a_verifier": [
+    "règlement UE sur l'étiquetage des lampes (lumens)",
+    "correspondance lumens / anciennes ampoules"
+   ],
+   "argent": "Affiliation ampoules connectées",
+   "statut": "idée"
+  },
+  {
+   "jour": 11,
+   "date": "2026-11-04",
+   "sujet": "La prise connectée qui te montre où part ton argent",
+   "mecanique": "TikTok Made Me Buy It, version honnête",
+   "refs": [
+    "R7",
+    "R4"
+   ],
+   "accroche": "Ce petit objet m'a montré ce qui coûte le plus chez moi",
+   "a_verifier": [
+    "prix et précision de prises avec mesure (fiches fabricant)",
+    "ne présenter aucune mesure non faite"
+   ],
+   "argent": "Affiliation prises connectées",
+   "statut": "idée"
+  },
+  {
+   "jour": 12,
+   "date": "2026-11-05",
+   "sujet": "Ton frigo est-il réglé trop froid ?",
+   "mecanique": "Tu le fais mal",
+   "refs": [
+    "R3"
+   ],
+   "accroche": "Frigo à 2 °C ? Tu paies pour rien.",
+   "a_verifier": [
+    "température recommandée frigo et congélateur (OSAV, SuisseEnergie)",
+    "surconsommation par degré en moins"
+   ],
+   "argent": "Marques thermomètres connectés",
+   "statut": "idée"
+  },
+  {
+   "jour": 13,
+   "date": "2026-11-06",
+   "sujet": "Fermer les applis en arrière-plan n'économise pas ta batterie",
+   "mecanique": "Mythe démonté",
+   "refs": [
+    "R5",
+    "R3"
+   ],
+   "accroche": "Arrête de fermer tes applis",
+   "a_verifier": [
+    "position officielle Apple et Google"
+   ],
+   "argent": "Croissance",
+   "statut": "idée"
+  },
+  {
+   "jour": 14,
+   "date": "2026-11-07",
+   "sujet": "Décibels : +10 dB, c'est 2 fois plus fort",
+   "mecanique": "Le chiffre qui trompe",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "70 dB → 80 dB : ce n'est pas +14 %",
+   "a_verifier": [
+    "+3 dB = puissance ×2, +10 dB = perçu ×2 (SUVA ou source acoustique officielle)",
+    "niveaux de bruit typiques"
+   ],
+   "argent": "Marques audio, aspirateurs silencieux",
+   "statut": "idée"
+  },
+  {
+   "jour": 15,
+   "date": "2026-11-08",
+   "sujet": "Le couvercle sur la casserole : combien d'énergie en moins",
+   "mecanique": "Le vrai coût",
+   "refs": [
+    "R4"
+   ],
+   "accroche": "Sans couvercle, tu chauffes la cuisine",
+   "a_verifier": [
+    "chiffre SuisseEnergie ou étude sur l'économie avec couvercle"
+   ],
+   "argent": "Croissance",
+   "statut": "idée"
+  },
+  {
+   "jour": 16,
+   "date": "2026-11-09",
+   "sujet": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse les murs",
+   "mecanique": "L'astuce que personne n'explique",
+   "refs": [
+    "R2"
+   ],
+   "accroche": "Ton Wi-Fi rapide ne passe pas les murs",
+   "a_verifier": [
+    "portée et débit 2,4 vs 5 GHz (sources fabricants ou OFCOM)"
+   ],
+   "argent": "Marques Wi-Fi maillé",
+   "statut": "idée"
+  },
+  {
+   "jour": 17,
+   "date": "2026-11-10",
+   "sujet": "Black Friday : repérer une fausse promo",
+   "mecanique": "Ne l'achète pas avant de savoir ça",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "−50 % ? Vérifie ce prix barré",
+   "a_verifier": [
+    "ordonnance suisse sur l'indication des prix (OIP), règles des prix comparatifs (SECO)"
+   ],
+   "argent": "Affiliation (bons plans vérifiés)",
+   "statut": "idée"
+  },
+  {
+   "jour": 18,
+   "date": "2026-11-11",
+   "sujet": "Lave-vaisselle : le programme le plus long consomme le moins",
+   "mecanique": "Contre-pied",
+   "refs": [
+    "R3"
+   ],
+   "accroche": "Le programme de 3 h est le plus économique",
+   "a_verifier": [
+    "étiquette énergie UE basée sur le programme éco",
+    "explication fabricant (température plus basse, plus long)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée"
+  },
+  {
+   "jour": 19,
+   "date": "2026-11-12",
+   "sujet": "Ton chargeur 65 W ne charge pas ton téléphone à 65 W",
+   "mecanique": "Le piège du chiffre sur la boîte",
+   "refs": [
+    "R3",
+    "R8"
+   ],
+   "accroche": "65 W sur la boîte, 25 W dans ton téléphone",
+   "a_verifier": [
+    "puissance de charge max de modèles courants (fiches fabricant)",
+    "USB Power Delivery"
+   ],
+   "argent": "Affiliation chargeurs GaN",
+   "statut": "idée"
+  },
+  {
+   "jour": 20,
+   "date": "2026-11-13",
+   "sujet": "Caméra de surveillance : ce que la loi suisse t'interdit de filmer",
+   "mecanique": "Ce que personne ne te dit",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "Ta caméra filme le trottoir ? C'est interdit.",
+   "a_verifier": [
+    "guide du PFPDT sur la vidéosurveillance par des privés"
+   ],
+   "argent": "Marques caméras",
+   "statut": "idée"
+  },
+  {
+   "jour": 21,
+   "date": "2026-11-14",
+   "sujet": "Combien de lux pour bien travailler (500 lx)",
+   "mecanique": "Je mesure tout",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "Ton bureau est trop sombre (chiffres)",
+   "a_verifier": [
+    "norme EN 12464-1 citée par un organisme officiel (SUVA)"
+   ],
+   "argent": "Affiliation lampes de bureau",
+   "statut": "idée"
+  },
+  {
+   "jour": 22,
+   "date": "2026-11-15",
+   "sujet": "Lave-linge à 30 °C ou 60 °C : l'énergie en jeu",
+   "mecanique": "Le vrai coût",
+   "refs": [
+    "R4"
+   ],
+   "accroche": "60 °C coûte jusqu'à X fois plus",
+   "a_verifier": [
+    "consommation selon la température (SuisseEnergie, étiquette UE)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée"
+  },
+  {
+   "jour": 23,
+   "date": "2026-11-16",
+   "sujet": "Lampes torches : les lumens gonflés",
+   "mecanique": "Le piège de l'étiquette",
+   "refs": [
+    "R3"
+   ],
+   "accroche": "10 000 lumens ? Sûrement pas.",
+   "a_verifier": [
+    "norme ANSI/PLATO FL1"
+   ],
+   "argent": "Affiliation lampes certifiées FL1",
+   "statut": "idée"
+  },
+  {
+   "jour": 24,
+   "date": "2026-11-17",
+   "sujet": "Robot aspirateur « 8 000 Pa » : ça veut dire quoi",
+   "mecanique": "Le chiffre qui impressionne",
+   "refs": [
+    "R3",
+    "R8"
+   ],
+   "accroche": "8 000 Pa, c'est beaucoup ?",
+   "a_verifier": [
+    "définition Pa, conversion, ce que le chiffre ne dit pas (débit d'air)"
+   ],
+   "argent": "Affiliation robots aspirateurs (Black Friday)",
+   "statut": "idée"
+  },
+  {
+   "jour": 25,
+   "date": "2026-11-18",
+   "sujet": "Le mode avion fait-il charger plus vite ?",
+   "mecanique": "Mythe ou réalité",
+   "refs": [
+    "R5"
+   ],
+   "accroche": "Mode avion = charge express ?",
+   "a_verifier": [
+    "source technique sur la consommation radio pendant la charge"
+   ],
+   "argent": "Croissance",
+   "statut": "idée"
+  },
+  {
+   "jour": 26,
+   "date": "2026-11-19",
+   "sujet": "L'humidité idéale chez toi en hiver",
+   "mecanique": "Je mesure tout",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "Ton salon est un désert (ou une serre)",
+   "a_verifier": [
+    "taux d'humidité recommandé (OFSP ou source officielle)"
+   ],
+   "argent": "Affiliation hygromètres",
+   "statut": "idée"
+  },
+  {
+   "jour": 27,
+   "date": "2026-11-20",
+   "sujet": "3 gadgets à moins de 20 CHF vraiment utiles en hiver",
+   "mecanique": "TikTok Made Me Buy It, version honnête",
+   "refs": [
+    "R7"
+   ],
+   "accroche": "3 objets à moins de 20 CHF qui servent vraiment",
+   "a_verifier": [
+    "prix et fonctions officiels ; aucune promesse non mesurée"
+   ],
+   "argent": "Affiliation (Black Friday)",
+   "statut": "idée"
+  },
+  {
+   "jour": 28,
+   "date": "2026-11-21",
+   "sujet": "Sèche-linge ou étendoir : le coût réel en CHF",
+   "mecanique": "Le vrai coût",
+   "refs": [
+    "R4"
+   ],
+   "accroche": "Ton sèche-linge te coûte X CHF par lessive",
+   "a_verifier": [
+    "consommation type par cycle (étiquette UE), tarif ElCom 2026"
+   ],
+   "argent": "Croissance",
+   "statut": "idée"
+  },
+  {
+   "jour": 29,
+   "date": "2026-11-22",
+   "sujet": "Black Friday tech : 5 erreurs à éviter",
+   "mecanique": "Ne l'achète pas avant de savoir ça",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "5 erreurs qui coûtent cher vendredi",
+   "a_verifier": [
+    "reprendre uniquement des faits déjà vérifiés dans les vidéos du mois"
+   ],
+   "argent": "Affiliation (bons plans vérifiés)",
+   "statut": "idée"
+  },
+  {
+   "jour": 30,
+   "date": "2026-11-23",
+   "sujet": "30 jours de mesures : ce que j'ai appris",
+   "mecanique": "Récapitulatif + question à la communauté",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "30 vidéos, 30 chiffres : le plus fou ?",
+   "a_verifier": [
+    "chiffres réels du compte (Metricool)"
+   ],
+   "argent": "Croissance ; preuve pour le media kit",
+   "statut": "idée"
+  }
+ ],
+ "rythme": "1 vidéo par jour ; chaque vendredi : bilan de la semaine + production des 7 vidéos du vendredi au jeudi (demande de Marcio du 25.10.2026)",
+ "objectif": "Gagner des abonnés et des vues"
 }

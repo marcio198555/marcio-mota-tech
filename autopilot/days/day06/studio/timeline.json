@@ -1,0 +1,75 @@
+{
+ "duration": 33.04,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Tu fais bouillir trop d'eau ? Ça peut te coûter vingt francs par an.",
+   "start": 0.12,
+   "end": 3.116,
+   "display": "Tu fais bouillir trop d'eau ? Ça peut te coûter 20 francs par an."
+  },
+  {
+   "id": "s02",
+   "text": "Le calcul est simple.",
+   "start": 3.366,
+   "end": 4.593,
+   "display": "Le calcul est simple."
+  },
+  {
+   "id": "s03",
+   "text": "Chauffer un litre d'eau de quinze à cent degrés, c'est environ cent wattheures.",
+   "start": 4.693,
+   "end": 8.802,
+   "display": "Chauffer 1 litre d'eau de 15 à 100 °C, c'est environ 100 Wh."
+  },
+  {
+   "id": "s04",
+   "text": "Au tarif moyen suisse de 2026, vingt-sept virgule sept centimes le kilowattheure…",
+   "start": 8.952,
+   "end": 14.22,
+   "display": "Au tarif moyen suisse de 2026, 27,7 centimes le kWh…"
+  },
+  {
+   "id": "s05",
+   "text": "…un litre de trop, c'est près de trois centimes.",
+   "start": 14.32,
+   "end": 16.805,
+   "display": "…un litre de trop, c'est près de 3 centimes."
+  },
+  {
+   "id": "s06",
+   "text": "Deux fois par jour, toute l'année : vingt francs. Et c'est sans compter les pertes.",
+   "start": 17.005,
+   "end": 21.461,
+   "display": "Deux fois par jour, toute l'année : 20 francs. Et c'est sans compter les pertes."
+  },
+  {
+   "id": "s07",
+   "text": "L'astuce : verse d'abord l'eau dans ta tasse, puis dans la bouilloire.",
+   "start": 21.711,
+   "end": 25.654,
+   "display": "L'astuce : verse d'abord l'eau dans ta tasse, puis dans la bouilloire."
+  },
+  {
+   "id": "s08",
+   "text": "Tu chauffes exactement ce qu'il faut.",
+   "start": 25.754,
+   "end": 27.562,
+   "display": "Tu chauffes exactement ce qu'il faut."
+  },
+  {
+   "id": "s09",
+   "text": "Dis-moi en commentaire combien de tasses tu bois par jour.",
+   "start": 27.762,
+   "end": 30.665,
+   "display": "Dis-moi en commentaire combien de tasses tu bois par jour."
+  },
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : je mesure tout.",
+   "start": 30.765,
+   "end": 32.74,
+   "display": "Et abonne-toi : je mesure tout."
+  }
+ ]
+}

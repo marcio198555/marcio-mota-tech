@@ -1,0 +1,57 @@
+[
+ {
+  "file": "/home/claude/studio/sfx/impact.wav",
+  "t": 0.02,
+  "db": -13
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 3.216,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 8.802,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 16.855,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 21.561,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 27.612,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 30.615,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 6.693,
+  "db": -14
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 14.32,
+  "db": -14
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 17.605,
+  "db": -14
+ },
+ {
+  "file": "/home/claude/studio/sfx/success.wav",
+  "t": 30.845,
+  "db": -13
+ }
+]

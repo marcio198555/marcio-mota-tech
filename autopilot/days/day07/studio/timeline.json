@@ -1,0 +1,68 @@
+{
+ "duration": 33.939,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ces deux câbles USB-C ont l'air identiques.",
+   "start": 0.12,
+   "end": 2.493,
+   "display": "Ces deux câbles USB-C ont l'air identiques."
+  },
+  {
+   "id": "s02",
+   "text": "Pourtant, l'un plafonne à soixante watts, l'autre peut monter à deux cent quarante.",
+   "start": 2.593,
+   "end": 6.596,
+   "display": "Pourtant, l'un plafonne à 60 W, l'autre peut monter à 240 W."
+  },
+  {
+   "id": "s03",
+   "text": "Un câble USB-C normal supporte trois ampères sous vingt volts : soixante watts.",
+   "start": 6.876,
+   "end": 11.257,
+   "display": "Un câble USB-C normal supporte 3 A sous 20 V : 60 W."
+  },
+  {
+   "id": "s04",
+   "text": "Au-delà, il faut un câble cinq ampères : jusqu'à cent watts, et même deux cent quarante en quarante-huit volts.",
+   "start": 11.357,
+   "end": 16.693,
+   "display": "Au-delà, il faut un câble 5 A : jusqu'à 100 W, et même 240 W en 48 V."
+  },
+  {
+   "id": "s05",
+   "text": "Et pour les données, certains câbles restent en USB 2 : quatre cent quatre-vingts mégabits par seconde.",
+   "start": 16.873,
+   "end": 21.865,
+   "display": "Et pour les données, certains câbles restent en USB 2 : 480 Mbit/s."
+  },
+  {
+   "id": "s06",
+   "text": "Les plus rapides montent à quarante, voire quatre-vingts gigabits.",
+   "start": 21.965,
+   "end": 25.328,
+   "display": "Les plus rapides montent à 40, voire 80 Gbit/s."
+  },
+  {
+   "id": "s07",
+   "text": "Regarde l'emballage : les câbles certifiés affichent les watts et la vitesse.",
+   "start": 25.528,
+   "end": 29.657,
+   "display": "Regarde l'emballage : les câbles certifiés affichent les watts et la vitesse."
+  },
+  {
+   "id": "s08",
+   "text": "Garde ça pour le Black Friday.",
+   "start": 29.837,
+   "end": 31.593,
+   "display": "Garde ça pour le Black Friday."
+  },
+  {
+   "id": "s09",
+   "text": "Et abonne-toi : je mesure tout.",
+   "start": 31.693,
+   "end": 33.639,
+   "display": "Et abonne-toi : je mesure tout."
+  }
+ ]
+}
