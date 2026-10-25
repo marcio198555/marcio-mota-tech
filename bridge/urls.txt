@@ -1,0 +1,1 @@
+# nom_du_fichier URL  (une ligne par fichier a telecharger dans bridge/out/)

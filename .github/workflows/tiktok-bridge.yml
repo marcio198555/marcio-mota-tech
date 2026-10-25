@@ -1,0 +1,48 @@
+name: tiktok-bridge
+# Pont de production pour l'Autopilot TikTok de @marcio.mota8.
+# A chaque push sur la branche tiktok-autopilot : telecharge les URL listees dans bridge/urls.txt,
+# execute bridge/job.sh (voix off, etc.), puis committe les resultats.
+on:
+  push:
+    branches: [tiktok-autopilot]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: tiktok-bridge
+  cancel-in-progress: false
+jobs:
+  run:
+    if: "!contains(github.event.head_commit.message, '[skip-bridge]')"
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache Piper
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/piper
+          key: piper-2023.11.14-2-fr-v1
+      - name: Download listed URLs
+        run: |
+          mkdir -p bridge/out
+          if [ -f bridge/urls.txt ]; then
+            while read -r name url; do
+              [ -z "$name" ] && continue
+              case "$name" in \#*) continue;; esac
+              curl -fL --retry 3 -o "bridge/out/$name" "$url" && echo "OK $name" || echo "FAILED $name"
+            done < bridge/urls.txt
+          fi
+      - name: Run job
+        continue-on-error: true
+        run: |
+          if [ -f bridge/job.sh ]; then bash bridge/job.sh 2>&1 | tee bridge/out/job_${GITHUB_SHA::7}.log; fi
+      - name: Commit outputs
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -f bridge/out autopilot/tts/out || true
+          git commit -m "bridge output [skip-bridge]" || echo "nothing to commit"
+          git pull --rebase -X theirs origin tiktok-autopilot || true
+          git push origin HEAD:tiktok-autopilot
