@@ -1,0 +1,14 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s02",
+   "text": "Tu gaspilles beaucoup d'énergie."
+  },
+  {
+   "id": "s06",
+   "text": "Et quand il fait très froid, ou avec un courant d'air : au moins trois minutes."
+  }
+ ]
+}

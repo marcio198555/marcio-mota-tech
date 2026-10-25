@@ -1,0 +1,18 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton mot de passe de huit lettres minuscules ? Deux semaines pour le casser."
+  },
+  {
+   "id": "s02",
+   "text": "C'est le calcul de Hive Systems pour 2026, avec seize cartes graphiques haut de gamme."
+  },
+  {
+   "id": "s03",
+   "text": "Huit chiffres, comme un code PIN : une dizaine de minutes."
+  }
+ ]
+}
