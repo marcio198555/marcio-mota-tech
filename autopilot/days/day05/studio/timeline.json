@@ -1,74 +1,75 @@
 {
- "duration": 36.375,
+ "duration": 36.214,
  "segments": [
   {
    "id": "s01",
-   "text": "Ton mot de passe de huit lettres minuscules ? Trois semaines pour le casser.",
+   "text": "Ton mot de passe de huit lettres minuscules ? Deux semaines pour le casser.",
    "start": 0.12,
-   "end": 3.884,
-   "display": "Ton mot de passe de 8 lettres minuscules ? 3 semaines pour le casser."
+   "end": 3.809,
+   "display": "Ton mot de passe de 8 lettres minuscules ? | 2 semaines pour le casser."
   },
   {
    "id": "s02",
-   "text": "C'est le calcul de Hive Systems pour 2025, avec douze cartes graphiques haut de gamme.",
-   "start": 4.084,
-   "end": 8.786,
-   "display": "C'est le calcul de Hive Systems pour 2025, | avec 12 cartes graphiques | haut de gamme."
+   "text": "C'est le calcul de Hive Systems pour 2026, avec seize cartes graphiques haut de gamme.",
+   "start": 4.009,
+   "end": 8.5,
+   "display": "C'est le calcul de Hive Systems pour 2026, | avec 16 cartes graphiques | haut de gamme."
   },
   {
    "id": "s03",
-   "text": "Huit chiffres, comme un code PIN : un quart d'heure.",
-   "start": 8.966,
-   "end": 11.72,
-   "display": "8 chiffres, comme un code PIN : un quart d'heure."
+   "text": "Huit chiffres, comme un code PIN : une dizaine de minutes.",
+   "start": 8.68,
+   "end": 11.559,
+   "display": "8 chiffres, comme un code PIN : | une dizaine de minutes."
   },
   {
    "id": "s04",
    "text": "Et s'il a déjà fuité, c'est quasi instantané : les pirates testent d'abord les listes de fuites.",
-   "start": 11.82,
-   "end": 17.011,
-   "display": "Et s'il a déjà fuité, c'est quasi instantané : | les pirates testent d'abord | les listes de fuites."
+   "start": 11.659,
+   "end": 16.849,
+   "display": "Et s'il a déjà fuité, | c'est quasi instantané : | les pirates testent d'abord | les listes de fuites."
   },
   {
    "id": "s05",
    "text": "Ce qui change tout : la longueur.",
-   "start": 17.261,
-   "end": 19.254,
+   "start": 17.099,
+   "end": 19.093,
    "display": "Ce qui change tout : la longueur."
   },
   {
    "id": "s06",
    "text": "Chaque caractère en plus multiplie le temps de calcul.",
-   "start": 19.354,
-   "end": 22.332,
+   "start": 19.193,
+   "end": 22.17,
    "display": "Chaque caractère en plus | multiplie le temps de calcul."
   },
   {
    "id": "s07",
    "text": "Un mot de passe long et différent pour chaque site, rangé dans un gestionnaire.",
-   "start": 22.512,
-   "end": 26.582,
+   "start": 22.35,
+   "end": 26.42,
    "display": "Un mot de passe long et différent | pour chaque site, | rangé dans un gestionnaire."
   },
   {
    "id": "s08",
    "text": "Et active la double authentification.",
-   "start": 26.682,
-   "end": 28.643,
+   "start": 26.52,
+   "end": 28.482,
    "display": "Et active la double authentification."
   },
   {
    "id": "s09",
    "text": "Envoie ça à quelqu'un qui utilise encore son prénom comme mot de passe.",
-   "start": 28.843,
-   "end": 32.225,
+   "start": 28.682,
+   "end": 32.063,
    "display": "Envoie ça à quelqu'un qui utilise encore | son prénom comme mot de passe."
   },
   {
    "id": "s10",
    "text": "Et abonne-toi : demain, ce que te coûte l'eau en trop dans ta bouilloire.",
-   "start": 32.325,
-   "end": 36.075
+   "start": 32.163,
+   "end": 35.914,
+   "display": "Et abonne-toi : | demain, ce que te coûte | l'eau en trop dans ta bouilloire."
   }
  ]
 }
