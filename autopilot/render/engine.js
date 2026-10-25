@@ -111,18 +111,28 @@
     return toks.map(w => { const s = seg.start + d * acc / total; acc += w.length + 1; return [s, seg.start + d * acc / total, w]; });
   }
   function captions(ctx, t, o = {}) {
-    const seg = TL.segments.find(s => t >= s.start - 0.05 && t < s.end + (o.hold ?? 0.12));
+    const segs = TL.segments;
+    let seg = null;
+    for (let i = 0; i < segs.length; i++) {
+      const s = segs[i], next = segs[i + 1];
+      const until = next ? Math.min(next.start - 0.05, s.end + 0.45) : s.end + (o.hold ?? 0.3);
+      if (t >= s.start - 0.05 && t < Math.max(until, s.end)) { seg = s; break; }
+    }
     if (!seg) return;
     const words = wordsFor(seg);
     const size = o.size || 66, maxW = o.maxWidth || 820, cx = o.x || 510, cy = o.y || 1330;
     ctx.save();
     ctx.font = font(900, size, F.display); ctx.textBaseline = 'middle';
     const space = ctx.measureText(' ').width;
-    // découpe en lignes
+    const widths = words.map(wd => ctx.measureText(wd[2]).width);
+    const total = widths.reduce((a, b) => a + b, 0) + space * Math.max(0, words.length - 1);
+    const nLines = Math.max(1, Math.ceil(total / maxW));
+    const target = total / nLines;
+    // lignes équilibrées (pas de mot orphelin)
     const lines = [[]]; let lw = 0;
-    words.forEach(wd => {
-      const w = ctx.measureText(wd[2]).width;
-      if (lw + w > maxW && lines[lines.length - 1].length) { lines.push([]); lw = 0; }
+    words.forEach((wd, i) => {
+      const w = widths[i], cur = lines[lines.length - 1];
+      if (cur.length && (lw + w > maxW || (lw + w / 2 > target && lines.length < nLines))) { lines.push([]); lw = 0; }
       lines[lines.length - 1].push({ wd, w }); lw += w + space;
     });
     const k = ease.back(prog(t, seg.start - 0.05, 0.16));
@@ -130,12 +140,13 @@
     ctx.translate(cx, cy); ctx.scale(scale, scale);
     const lh = size * 1.18; const y0 = -(lines.length - 1) * lh / 2;
     lines.forEach((line, li) => {
-      const total = line.reduce((a, x) => a + x.w, 0) + space * (line.length - 1);
-      let x = -total / 2; const y = y0 + li * lh;
+      const tw = line.reduce((a, x) => a + x.w, 0) + space * (line.length - 1);
+      let x = -tw / 2; const y = y0 + li * lh;
       line.forEach(({ wd, w }) => {
         const active = t >= wd[0] - 0.02 && t < (wd[1] + 0.08);
         const said = t >= wd[0] - 0.02;
         ctx.lineJoin = 'round'; ctx.lineWidth = 14; ctx.strokeStyle = 'rgba(0,0,0,0.92)';
+        ctx.textAlign = 'left';
         ctx.strokeText(wd[2], x, y);
         ctx.fillStyle = active ? C.gold2 : (said ? C.white : 'rgba(255,255,255,0.78)');
         ctx.fillText(wd[2], x, y);
@@ -146,7 +157,7 @@
   }
 
   function brand(ctx, t, o = {}) {
-    chip(ctx, 'JE MESURE TOUT', 70, o.y || 262, { align: 'left', dot: C.red, size: 26, alpha: o.alpha ?? 0.95 });
+    chip(ctx, 'JE MESURE TOUT', 70, o.y || 262, { align: 'left', dot: C.red, size: 30, alpha: o.alpha ?? 0.95 });
   }
 
   // compteur numérique façon instrument
@@ -155,7 +166,7 @@
     ctx.save(); ctx.globalAlpha = o.alpha ?? 1;
     roundRect(ctx, x - w / 2, y - h / 2, w, h, 26); ctx.fillStyle = '#060b14'; ctx.fill();
     ctx.lineWidth = 3; ctx.strokeStyle = o.border || C.gold; ctx.stroke();
-    ctx.font = font(700, 26, F.mono); ctx.fillStyle = C.muted; ctx.textAlign = 'left'; ctx.textBaseline = 'top'; ctx.letterSpacing = '3px';
+    ctx.font = font(700, o.labelSize || 32, F.mono); ctx.fillStyle = C.muted; ctx.textAlign = 'left'; ctx.textBaseline = 'top'; ctx.letterSpacing = '3px';
     ctx.fillText(label, x - w / 2 + 28, y - h / 2 + 22);
     ctx.letterSpacing = '0px';
     ctx.font = font(700, o.size || 110, F.mono); ctx.fillStyle = o.color || C.gold2; ctx.textAlign = 'right'; ctx.textBaseline = 'alphabetic';
@@ -192,7 +203,7 @@
   // Fin : appel à s'abonner (identique sur toutes les vidéos).
   function followCTA(ctx, t, t0) {
     text(ctx, '@marcio.mota8', 520, 560, { size: 104, weight: 900, color: C.white, maxWidth: 880 });
-    chip(ctx, 'JE MESURE TOUT', 520, 690, { color: C.gold, dot: C.red, size: 32 });
+    chip(ctx, 'JE MESURE TOUT', 520, 690, { color: C.gold, dot: C.red, size: 42 });
     text(ctx, 'avant que tu achètes', 520, 810, { size: 62, weight: 800, color: C.gold2 });
     const p = 1 + 0.05 * Math.sin((t - t0) * 7);
     ctx.save(); ctx.translate(520, 960); ctx.scale(p, p);

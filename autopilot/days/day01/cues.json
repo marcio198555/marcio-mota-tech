@@ -6,7 +6,7 @@
  },
  {
   "file": "/home/claude/studio/sfx/impact.wav",
-  "t": 2.48,
+  "t": 2.478,
   "db": -10
  },
  {
@@ -21,72 +21,72 @@
  },
  {
   "file": "/home/claude/studio/sfx/impact.wav",
-  "t": 7.52,
+  "t": 7.766,
   "db": -11
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 9.45,
+  "t": 9.701,
   "db": -15
  },
  {
   "file": "/home/claude/studio/sfx/counter.wav",
-  "t": 13.92,
+  "t": 14.172,
   "db": -22
  },
  {
   "file": "/home/claude/studio/sfx/whoosh_up.wav",
-  "t": 16.45,
+  "t": 16.692,
   "db": -15
  },
  {
   "file": "/home/claude/studio/sfx/impact.wav",
-  "t": 19.25,
+  "t": 19.496,
   "db": -10
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 19.4,
+  "t": 19.646,
   "db": -17
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 21.27,
+  "t": 21.521,
   "db": -15
  },
  {
   "file": "/home/claude/studio/sfx/counter.wav",
-  "t": 21.93,
+  "t": 22.171,
   "db": -22
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 24.22,
+  "t": 24.466,
   "db": -15
  },
  {
   "file": "/home/claude/studio/sfx/ui_pop.wav",
-  "t": 25.27,
+  "t": 25.516,
   "db": -13
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 27.47,
+  "t": 27.723,
   "db": -15
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 31.1,
+  "t": 31.348,
   "db": -15
  },
  {
   "file": "/home/claude/studio/sfx/ui_pop.wav",
-  "t": 31.35,
+  "t": 31.598,
   "db": -13
  },
  {
   "file": "/home/claude/studio/sfx/success.wav",
-  "t": 33.95,
+  "t": 34.202,
   "db": -13
  }
 ]

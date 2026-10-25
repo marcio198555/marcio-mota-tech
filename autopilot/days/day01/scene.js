@@ -100,11 +100,12 @@
     duration: END,
     draw(ctx, t, frame) {
       background(ctx, t);
-      const A = { x: 150, y: 1130 }, L = 720;
+      const A = { x: 150, y: 1050 }, L = 720;
 
       // 1. ACCROCHE : 45 % ≠ 45°
       block(ctx, t, 0, S('s03'), (u) => {
-        chip(ctx, 'ROBOT TONDEUSE', 520, 400, { color: C.fg, size: 30, dot: C.gold });
+        const z = 1 + 0.06 * ease.inOut(prog(t, 0, 4.6)); ctx.translate(520, 800); ctx.scale(z, z); ctx.translate(-520, -800);
+        chip(ctx, 'ROBOT TONDEUSE', 520, 400, { color: C.fg, size: 40, dot: C.gold });
         const pulse = 1 + 0.035 * Math.sin(t * 9) * clamp(1 - prog(t, S('s02'), 0.2));
         ctx.save(); ctx.translate(520, 600); ctx.scale(pulse, pulse);
         text(ctx, '45 %', 0, 0, { size: 300, weight: 900, color: C.gold2, shadow: 'rgba(201,168,76,0.55)', shadowBlur: 50 });
@@ -126,7 +127,7 @@
         const x = 150, y = 470, w = 740, h = 560;
         roundRect(ctx, x, y, w, h, 34); ctx.fillStyle = 'rgba(11,18,32,0.94)'; ctx.fill(); ctx.lineWidth = 2; ctx.strokeStyle = C.line; ctx.stroke();
         text(ctx, 'FICHE TECHNIQUE', x + 44, y + 70, { size: 34, family: F.mono, weight: 700, color: C.muted, align: 'left', letter: 4 });
-        chip(ctx, 'EXEMPLE', x + w - 130, y + 70, { size: 22, color: C.muted });
+        chip(ctx, 'EXEMPLE', x + w - 165, y + 70, { size: 36, color: C.fg });
         // lignes floutées (squelette)
         ctx.save(); ctx.fillStyle = 'rgba(142,154,179,0.18)';
         [[150, 0.55], [250, 0.42], [430, 0.5]].forEach(([dy, f]) => { roundRect(ctx, x + 44, y + dy, (w - 88) * f, 26, 13); ctx.fill(); roundRect(ctx, x + w - 44 - 150, y + dy, 150, 26, 13); ctx.fill(); });
@@ -148,7 +149,7 @@
         const arcP = ease.inOut(prog(t, S('s06') + 0.1, 1.3));
         const sl = slope(ctx, A, L, 45, { riseP, baseP, arcP, ruler: true });
         if (riseP > 0.6) text(ctx, '45 cm', A.x + L - 26, A.y - sl.h / 2, { size: 58, weight: 900, color: C.gold2, align: 'right', alpha: clamp((riseP - 0.6) * 3), stroke: 'rgba(0,0,0,0.6)', strokeWidth: 8 });
-        if (baseP > 0.95) text(ctx, '100 cm', A.x + L / 2, A.y + 112, { size: 50, weight: 800, color: C.fg, alpha: clamp((baseP - 0.95) * 20) });
+        if (baseP > 0.95) text(ctx, '100 cm', A.x + L / 2, A.y + 108, { size: 50, weight: 800, color: C.fg, alpha: clamp((baseP - 0.95) * 20) });
         const mu = 0.42;
         ctx.save(); ctx.globalAlpha *= clamp((riseP - 0.45) * 3);
         mower(ctx, A.x + L * mu, A.y - L * 0.45 * mu, sl.th, 0.62);
@@ -156,8 +157,8 @@
         // lecture d'instrument
         const ang = 24.2277 * arcP;
         const showR = prog(t, S('s05') + 0.2, 0.3);
-        readout(ctx, 'INCLINAISON', fmt(ang) + '°', 390, 470, { w: 470, h: 190, size: 96, alpha: showR });
-        chip(ctx, 'PENTE 45 %', 390, 612, { color: C.fg, size: 30, alpha: showR });
+        readout(ctx, 'INCLINAISON', arcP > 0 ? fmt(ang) + '°' : '--,-°', 390, 470, { w: 470, h: 190, size: 96, alpha: showR });
+        chip(ctx, 'PENTE 45 %', 390, 615, { color: C.fg, size: 38, alpha: showR });
         if (arcP > 0.9) text(ctx, '24°', A.x + 250, A.y - 52, { size: 64, weight: 900, color: C.gold2, alpha: clamp((arcP - 0.9) * 10), stroke: 'rgba(0,0,0,0.6)', strokeWidth: 8 });
       });
 
@@ -168,13 +169,13 @@
         const sl = slope(ctx, A, L, pct, { arcP: 1, ruler: true });
         text(ctx, Math.round(pct) + ' cm', A.x + L - 26, A.y - sl.h / 2, { size: 58, weight: 900, color: C.gold2, align: 'right', stroke: 'rgba(0,0,0,0.6)', strokeWidth: 8 });
         readout(ctx, 'INCLINAISON', fmt(deg(sl.th)) + '°', 390, 470, { w: 470, h: 190, size: 96, border: mk > 0.98 ? C.red2 : C.gold, color: mk > 0.98 ? C.red2 : C.gold2 });
-        chip(ctx, 'PENTE ' + Math.round(pct) + ' %', 390, 612, { color: mk > 0.98 ? C.red2 : C.fg, size: 30 });
+        chip(ctx, 'PENTE ' + Math.round(pct) + ' %', 390, 615, { color: mk > 0.98 ? C.red2 : C.fg, size: 38 });
         const wallK = prog(t, S('s08'), 0.3);
         let mu = 0.42;
         if (wallK > 0) mu = lerp(0.42, 0.08, ease.in(prog(t, S('s08') + 0.15, 0.7)));
         mower(ctx, A.x + L * mu * Math.cos(sl.th) / Math.cos(sl.th), A.y - L * Math.tan(sl.th) * mu, sl.th, 0.62, { cross: wallK > 0.5 });
         if (wallK > 0) {
-          ctx.save(); ctx.translate(690, 1010); const s = lerp(1.5, 1, ease.back(wallK)); ctx.scale(s, s); ctx.globalAlpha *= clamp(wallK * 3);
+          ctx.save(); ctx.translate(690, 930); const s = lerp(1.5, 1, ease.back(wallK)); ctx.scale(s, s); ctx.globalAlpha *= clamp(wallK * 3);
           text(ctx, 'UN MUR', 0, 0, { size: 112, weight: 900, color: C.red2, stroke: 'rgba(0,0,0,0.85)', strokeWidth: 14 });
           ctx.restore();
         }
@@ -182,7 +183,7 @@
 
       // 5. Mesure avec une appli niveau
       block(ctx, t, S('s09'), S('s10'), (u) => {
-        chip(ctx, 'APPLI NIVEAU', 520, 390, { color: C.fg, dot: C.gold, size: 30 });
+        chip(ctx, 'APPLI NIVEAU', 520, 395, { color: C.fg, dot: C.gold, size: 38 });
         const tilt = 20 * ease.inOut(prog(t, S('s09') + 0.5, 1.2));
         const r = tilt * Math.PI / 180;
         // sol en pente sous le téléphone
@@ -234,7 +235,7 @@
         ctx.restore();
         const slip = 0.45 - 0.05 * Math.abs(Math.sin((t - S('s11')) * 3.2));
         mower(ctx, A.x + L * slip, A.y - L * Math.tan(sl.th) * slip, sl.th, 0.62);
-        chip(ctx, 'HERBE MOUILLÉE', 520, 400, { color: C.fg, dot: '#4f86b8', size: 30 });
+        chip(ctx, 'HERBE MOUILLÉE', 520, 400, { color: C.fg, dot: '#4f86b8', size: 38 });
         text(ctx, 'ÇA GLISSE', 520, 540, { size: 120, weight: 900, color: C.white, stroke: 'rgba(0,0,0,0.7)', strokeWidth: 12 });
         const mk = prog(t, S('s11') + 0.2, 0.3);
         text(ctx, '→ garde de la marge', 520, 670, { size: 56, weight: 800, color: C.gold2, alpha: mk });
@@ -245,7 +246,7 @@
         text(ctx, 'TON ANGLE ?', 520, 560, { size: 150, weight: 900, color: C.white, shadow: 'rgba(201,168,76,0.35)', shadowBlur: 40, maxWidth: 860 });
         const b = Math.abs(Math.sin((t - S('s12')) * 5)) * 26;
         text(ctx, '👇', 520, 780 + b, { size: 150, family: F.emoji, weight: 400 });
-        chip(ctx, 'ÉCRIS-LE EN COMMENTAIRE', 520, 990, { color: C.gold, size: 36 });
+        chip(ctx, 'ÉCRIS-LE EN COMMENTAIRE', 520, 990, { color: C.gold, size: 42 });
       });
       block(ctx, t, S('s13'), END + 1, (u) => {
         text(ctx, '@marcio.mota8', 520, 560, { size: 104, weight: 900, color: C.white, maxWidth: 880 });
