@@ -1,0 +1,17 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {"id": "s01", "text": "Ton iPhone cache trois instruments de mesure."},
+  {"id": "s02", "text": "Et tu ne les as sûrement jamais ouverts."},
+  {"id": "s03", "text": "Un : une règle."},
+  {"id": "s04", "text": "Ouvre l'app Mesures, vise un objet, et tire un trait d'un bord à l'autre."},
+  {"id": "s05", "text": "Deux : un niveau à bulle."},
+  {"id": "s06", "text": "Dans Mesures, touche Niveau, et pose ton iPhone sur l'étagère : il t'affiche l'écart en degrés."},
+  {"id": "s07", "text": "Trois : un altimètre."},
+  {"id": "s08", "text": "Ouvre la Boussole : ton altitude est écrite en bas de l'écran."},
+  {"id": "s09", "text": "Et sur les modèles compatibles, Mesures calcule même la taille d'une personne."},
+  {"id": "s10", "text": "Enregistre la vidéo pour ta prochaine étagère."},
+  {"id": "s11", "text": "Et abonne-toi : je mesure tout."}
+ ]
+}

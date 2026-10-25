@@ -1,0 +1,16 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {"id": "s01", "text": "Vingt mille milliampères-heure, divisé par quatre mille… cinq recharges ?"},
+  {"id": "s02", "text": "Non. Ta batterie externe n'en fera jamais cinq."},
+  {"id": "s03", "text": "Le chiffre sur la boîte est calculé à trois virgule sept volts."},
+  {"id": "s04", "text": "Le vrai chiffre, c'est l'énergie : soixante-quatorze wattheures."},
+  {"id": "s05", "text": "Un téléphone de quatre mille milliampères-heure, c'est environ quinze wattheures."},
+  {"id": "s06", "text": "Et en route, environ dix-huit pour cent se perdent en chaleur, d'après Anker."},
+  {"id": "s07", "text": "Résultat : trois à quatre recharges. Pas cinq."},
+  {"id": "s08", "text": "Avant d'acheter, regarde les wattheures, pas les milliampères-heure."},
+  {"id": "s09", "text": "Bonus : en avion, la limite, c'est cent wattheures."},
+  {"id": "s10", "text": "Garde ça pour le Black Friday, et abonne-toi : je mesure tout."}
+ ]
+}
