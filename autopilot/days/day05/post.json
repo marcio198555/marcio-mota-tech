@@ -1,0 +1,13 @@
+{
+ "day": 5,
+ "title": "Combien de temps pour casser ton mot de passe ?",
+ "caption": "8 lettres minuscules au hasard = environ 2 semaines pour casser ton mot de passe 🔐 D'après l'étude 2026 de Hive Systems (16 cartes graphiques RTX 5090). 8 chiffres : environ 10 minutes (26⁸ ÷ 10⁸, soit 2 088 fois moins de combinaisons). Et s'il a déjà fuité ou si c'est un mot courant, c'est quasi instantané. La parade : un mot de passe long et unique par site, un gestionnaire, et la double authentification.\n\nEnvoie ça à celui qui utilise son prénom 👀\n\nDemain : ce que te coûte l'eau en trop dans ta bouilloire 💧 Abonne-toi pour ne pas le rater.\n\n#motdepasse #cybersecurite #securite #astucetech #internet #tech #apprendresurtiktok #pourtoi #fyp",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1792919813/tiktok-autopilot/day05_mot-de-passe-temps.mp4",
+ "metricool_id": 405539467,
+ "metricool_uuid": "-8805813497392315840",
+ "programme_le": "2026-10-29T10:00:00+01:00",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1200,
+ "statut": "programmée"
+}
