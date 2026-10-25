@@ -164,5 +164,50 @@
     ctx.restore();
   }
 
-  window.ENG = { W, H, C, F, clamp, lerp, ease, prog, S, E, segById, background, grainPass, font, text, roundRect, chip, captions, brand, readout, TL };
+  // Bloc de scène : fondu + léger zoom en entrée/sortie (le bloc qui commence à 0 est complet dès l'image 0).
+  function block(ctx, t, start, end, fn) {
+    if (t < start - 0.001 || t >= end + 0.2) return;
+    const fin = start <= 0 ? 1 : ease.out(prog(t, start, 0.22));
+    const a = Math.min(fin, 1 - ease.in(prog(t, end - 0.02, 0.2)));
+    if (a <= 0) return;
+    const k = start <= 0 ? 1 : ease.out(prog(t, start, 0.35));
+    ctx.save(); ctx.globalAlpha = a;
+    ctx.translate(540, 900); ctx.scale(0.965 + 0.035 * k, 0.965 + 0.035 * k); ctx.translate(-540, -900 + (1 - k) * 26);
+    fn(t - start);
+    ctx.restore();
+  }
+
+  // Téléphone générique (sans marque). Retourne le rectangle de l'écran.
+  function phone(ctx, cx, cy, w, h, o = {}) {
+    ctx.save(); ctx.translate(cx, cy); if (o.rot) ctx.rotate(o.rot);
+    roundRect(ctx, -w / 2, -h / 2, w, h, w * 0.14); ctx.fillStyle = '#05080f'; ctx.fill();
+    ctx.lineWidth = 8; ctx.strokeStyle = o.border || '#2b3850'; ctx.stroke();
+    const m = w * 0.055;
+    roundRect(ctx, -w / 2 + m, -h / 2 + m, w - 2 * m, h - 2 * m, w * 0.1); ctx.fillStyle = o.screen || '#0b1220'; ctx.fill();
+    roundRect(ctx, -w * 0.13, -h / 2 + m + 14, w * 0.26, 26, 13); ctx.fillStyle = '#000'; ctx.fill();
+    if (o.draw) { ctx.save(); roundRect(ctx, -w / 2 + m, -h / 2 + m, w - 2 * m, h - 2 * m, w * 0.1); ctx.clip(); o.draw(-w / 2 + m, -h / 2 + m, w - 2 * m, h - 2 * m); ctx.restore(); }
+    ctx.restore();
+  }
+
+  // Fin : appel à s'abonner (identique sur toutes les vidéos).
+  function followCTA(ctx, t, t0) {
+    text(ctx, '@marcio.mota8', 520, 560, { size: 104, weight: 900, color: C.white, maxWidth: 880 });
+    chip(ctx, 'JE MESURE TOUT', 520, 690, { color: C.gold, dot: C.red, size: 32 });
+    text(ctx, 'avant que tu achètes', 520, 810, { size: 62, weight: 800, color: C.gold2 });
+    const p = 1 + 0.05 * Math.sin((t - t0) * 7);
+    ctx.save(); ctx.translate(520, 960); ctx.scale(p, p);
+    roundRect(ctx, -220, -58, 440, 116, 58); ctx.fillStyle = C.red; ctx.fill();
+    text(ctx, "S'ABONNER", 0, 2, { size: 54, weight: 900, color: C.white });
+    ctx.restore();
+  }
+
+  // Icône « enregistrer » (signet) pour l'appel à sauvegarder.
+  function bookmark(ctx, x, y, s, color) {
+    ctx.save(); ctx.translate(x, y); ctx.scale(s, s);
+    ctx.beginPath(); ctx.moveTo(-60, -80); ctx.lineTo(60, -80); ctx.lineTo(60, 90); ctx.lineTo(0, 45); ctx.lineTo(-60, 90); ctx.closePath();
+    ctx.fillStyle = color || C.gold2; ctx.fill();
+    ctx.restore();
+  }
+
+  window.ENG = { W, H, C, F, clamp, lerp, ease, prog, S, E, segById, background, grainPass, font, text, roundRect, chip, captions, brand, readout, block, phone, followCTA, bookmark, TL };
 })();
