@@ -114,7 +114,11 @@ production et programmation des 7 vidéos du vendredi au jeudi suivant. Jamais p
 4. `statut: "programmée"` dans plan.json ; `autopilot/days/dayNN/post.json` (id Metricool, url, heure) ;
    `captions.json` ; commit + push.
 5. Page « Autopilot TikTok Marcio » (https://claude.ai/artifact/CQgM5XPZHfUc79ymWhYdgB) : lire la page
-   (Artifact read), téléverser les vidéos comme assets, ajouter le bilan et les 7 cartes, republier.
+   (Artifact read), téléverser chaque vidéo comme asset (Artifact publish `asset: true` + `url`), noter les
+   `/_blob/<id>` dans `tools/assets.json` et les statuts/heures dans `tools/scheduled.json` (clé = numéro du jour),
+   adapter `tools/build_page.py` (titre de la semaine, plage de jours `range(...)`), lancer
+   `python3 autopilot/tools/build_page.py /home/claude/studio/autopilot.html`, vérifier la page à 390 px de large,
+   puis republier ce fichier avec `url` = l'adresse de la page.
 
 ## 9. Message à Marcio
 Court, en français : le chiffre clé de la semaine écoulée (vues, abonnés gagnés), ce qui a changé et pourquoi,
