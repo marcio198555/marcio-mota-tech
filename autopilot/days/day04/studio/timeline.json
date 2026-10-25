@@ -1,0 +1,75 @@
+{
+ "duration": 33.498,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta fenêtre en oscillo-battant tout l'hiver ? Mauvaise idée.",
+   "start": 0.12,
+   "end": 3.356,
+   "display": "Ta fenêtre en oscillo-battant | tout l'hiver ? | Mauvaise idée."
+  },
+  {
+   "id": "s02",
+   "text": "Tu chauffes surtout l'extérieur.",
+   "start": 3.506,
+   "end": 5.316,
+   "display": "Tu chauffes surtout l'extérieur."
+  },
+  {
+   "id": "s03",
+   "text": "L'Office fédéral de la santé publique conseille autre chose.",
+   "start": 5.596,
+   "end": 8.993,
+   "display": "L'Office fédéral de la santé publique conseille autre chose."
+  },
+  {
+   "id": "s04",
+   "text": "Aérer trois fois par jour : le matin, à midi, et avant d'aller te coucher.",
+   "start": 9.173,
+   "end": 13.162,
+   "display": "Aérer 3 fois par jour : le matin, à midi, et avant d'aller te coucher."
+  },
+  {
+   "id": "s05",
+   "text": "Fenêtres grandes ouvertes, au moins cinq minutes.",
+   "start": 13.262,
+   "end": 16.209,
+   "display": "Fenêtres grandes ouvertes, au moins 5 minutes."
+  },
+  {
+   "id": "s06",
+   "text": "Et quand il fait très froid, ou avec un courant d'air, trois minutes suffisent.",
+   "start": 16.309,
+   "end": 19.987,
+   "display": "Et quand il fait très froid, ou avec un courant d'air, 3 minutes suffisent."
+  },
+  {
+   "id": "s07",
+   "text": "Ensuite, tu refermes tout.",
+   "start": 20.187,
+   "end": 21.774,
+   "display": "Ensuite, tu refermes tout."
+  },
+  {
+   "id": "s08",
+   "text": "Bonus : ça limite l'humidité, et donc les moisissures.",
+   "start": 21.874,
+   "end": 25.332,
+   "display": "Bonus : ça limite l'humidité, et donc les moisissures."
+  },
+  {
+   "id": "s09",
+   "text": "Envoie ça à ton coloc qui laisse la fenêtre entrouverte.",
+   "start": 25.532,
+   "end": 28.886,
+   "display": "Envoie ça à ton coloc | qui laisse la fenêtre entrouverte."
+  },
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : demain, combien de temps il faut pour casser ton mot de passe.",
+   "start": 29.036,
+   "end": 33.198,
+   "display": "Et abonne-toi : demain, | combien de temps il faut | pour casser ton mot de passe."
+  }
+ ]
+}

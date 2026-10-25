@@ -1,0 +1,565 @@
+{
+ "duration": 39.826,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Vingt mille milliampères-heure, divisé par quatre mille… cinq recharges ?",
+   "start": 0.12,
+   "end": 3.558,
+   "display": "20 000 mAh ÷ 4 000… | 5 recharges ?",
+   "words": [
+    [
+     0.15,
+     1.502,
+     "20 000 mAh"
+    ],
+    [
+     1.502,
+     2.403,
+     "÷"
+    ],
+    [
+     2.403,
+     2.854,
+     "4 000…"
+    ],
+    [
+     2.854,
+     2.854,
+     "|"
+    ],
+    [
+     2.854,
+     3.079,
+     "5"
+    ],
+    [
+     3.079,
+     3.53,
+     "recharges ?"
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "Non. Ta batterie externe n'en fera jamais cinq.",
+   "start": 3.738,
+   "end": 6.862,
+   "display": "Non. Ta batterie externe n'en fera jamais 5.",
+   "words": [
+    [
+     3.76,
+     3.955,
+     "Non."
+    ],
+    [
+     3.955,
+     4.561,
+     "Ta"
+    ],
+    [
+     4.561,
+     4.952,
+     "batterie"
+    ],
+    [
+     4.952,
+     5.342,
+     "externe"
+    ],
+    [
+     5.342,
+     5.733,
+     "n'en"
+    ],
+    [
+     5.733,
+     6.124,
+     "fera"
+    ],
+    [
+     6.124,
+     6.515,
+     "jamais"
+    ],
+    [
+     6.515,
+     6.84,
+     "5."
+    ]
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "Le chiffre sur la boîte est calculé à trois virgule sept volts.",
+   "start": 7.162,
+   "end": 10.744,
+   "display": "Le chiffre sur la boîte est calculé à 3,7 V.",
+   "words": [
+    [
+     7.19,
+     7.408,
+     "Le"
+    ],
+    [
+     7.408,
+     7.626,
+     "chiffre"
+    ],
+    [
+     7.626,
+     7.844,
+     "sur"
+    ],
+    [
+     7.844,
+     8.062,
+     "la"
+    ],
+    [
+     8.062,
+     8.28,
+     "boîte"
+    ],
+    [
+     8.28,
+     8.598,
+     "est"
+    ],
+    [
+     8.598,
+     9.252,
+     "calculé"
+    ],
+    [
+     9.252,
+     9.47,
+     "à"
+    ],
+    [
+     9.47,
+     10.72,
+     "3,7 V."
+    ]
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "Le vrai chiffre, c'est l'énergie : soixante-quatorze wattheures.",
+   "start": 10.844,
+   "end": 14.114,
+   "display": "Le vrai chiffre, c'est l'énergie : 74 Wh.",
+   "words": [
+    [
+     10.87,
+     11.084,
+     "Le"
+    ],
+    [
+     11.084,
+     11.299,
+     "vrai"
+    ],
+    [
+     11.299,
+     11.513,
+     "chiffre,"
+    ],
+    [
+     11.513,
+     11.941,
+     "c'est"
+    ],
+    [
+     11.941,
+     12.814,
+     "l'énergie :"
+    ],
+    [
+     12.814,
+     14.1,
+     "74 Wh."
+    ]
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "Un téléphone de quatre mille milliampères-heure, c'est environ quinze wattheures.",
+   "start": 14.264,
+   "end": 18.108,
+   "display": "Un téléphone de 4 000 mAh, c'est environ 15 Wh.",
+   "words": [
+    [
+     14.27,
+     14.472,
+     "Un"
+    ],
+    [
+     14.472,
+     15.076,
+     "téléphone"
+    ],
+    [
+     15.076,
+     15.278,
+     "de"
+    ],
+    [
+     15.278,
+     16.487,
+     "4 000 mAh,"
+    ],
+    [
+     16.487,
+     16.487,
+     "|"
+    ],
+    [
+     16.487,
+     16.891,
+     "c'est"
+    ],
+    [
+     16.891,
+     17.495,
+     "environ"
+    ],
+    [
+     17.495,
+     18.1,
+     "15 Wh."
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "text": "Et en route, environ dix-huit pour cent se perdent en chaleur, d'après Anker.",
+   "start": 18.208,
+   "end": 22.308,
+   "display": "Et en route, environ 18 % se perdent en chaleur, d'après Anker.",
+   "words": [
+    [
+     18.23,
+     18.417,
+     "Et"
+    ],
+    [
+     18.417,
+     18.604,
+     "en"
+    ],
+    [
+     18.604,
+     19.111,
+     "route,"
+    ],
+    [
+     19.111,
+     19.672,
+     "environ"
+    ],
+    [
+     19.672,
+     20.42,
+     "18 %"
+    ],
+    [
+     20.42,
+     20.607,
+     "se"
+    ],
+    [
+     20.607,
+     20.794,
+     "perdent"
+    ],
+    [
+     20.794,
+     20.981,
+     "en"
+    ],
+    [
+     20.981,
+     21.355,
+     "chaleur,"
+    ],
+    [
+     21.355,
+     21.355,
+     "|"
+    ],
+    [
+     21.355,
+     21.916,
+     "d'après"
+    ],
+    [
+     21.916,
+     22.29,
+     "Anker."
+    ]
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "Résultat : trois à quatre recharges. Pas cinq.",
+   "start": 22.458,
+   "end": 25.95,
+   "display": "Résultat : 3 à 4 recharges. Pas 5.",
+   "words": [
+    [
+     22.46,
+     23.309,
+     "Résultat :"
+    ],
+    [
+     23.309,
+     23.942,
+     "3"
+    ],
+    [
+     23.942,
+     24.225,
+     "à"
+    ],
+    [
+     24.225,
+     24.508,
+     "4"
+    ],
+    [
+     24.508,
+     25.074,
+     "recharges."
+    ],
+    [
+     25.074,
+     25.657,
+     "Pas"
+    ],
+    [
+     25.657,
+     25.94,
+     "5."
+    ]
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "Avant d'acheter, regarde les wattheures, pas les milliampères-heure.",
+   "start": 26.2,
+   "end": 29.638,
+   "display": "Avant d'acheter, regarde les Wh, pas les mAh.",
+   "words": [
+    [
+     26.23,
+     26.599,
+     "Avant"
+    ],
+    [
+     26.599,
+     27.478,
+     "d'acheter,"
+    ],
+    [
+     27.478,
+     27.848,
+     "regarde"
+    ],
+    [
+     27.848,
+     28.032,
+     "les"
+    ],
+    [
+     28.032,
+     28.512,
+     "Wh,"
+    ],
+    [
+     28.512,
+     28.696,
+     "pas"
+    ],
+    [
+     28.696,
+     28.881,
+     "les"
+    ],
+    [
+     28.881,
+     29.62,
+     "mAh."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "text": "Bonus : en avion, la limite, c'est cent wattheures.",
+   "start": 29.738,
+   "end": 32.805,
+   "display": "Bonus : en avion, | la limite, c'est 100 Wh.",
+   "words": [
+    [
+     29.76,
+     30.186,
+     "Bonus :"
+    ],
+    [
+     30.186,
+     30.399,
+     "en"
+    ],
+    [
+     30.399,
+     30.825,
+     "avion,"
+    ],
+    [
+     30.825,
+     30.825,
+     "|"
+    ],
+    [
+     30.825,
+     31.038,
+     "la"
+    ],
+    [
+     31.038,
+     31.465,
+     "limite,"
+    ],
+    [
+     31.465,
+     32.161,
+     "c'est"
+    ],
+    [
+     32.161,
+     32.8,
+     "100 Wh."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "Garde ça pour le Black Friday. Et abonne-toi : demain, l'erreur que tout le monde fait avec sa fenêtre en hiver.",
+   "start": 33.005,
+   "end": 39.526,
+   "display": "Garde ça pour le Black Friday. | Et abonne-toi : demain, | l'erreur que tout le monde fait | avec sa fenêtre en hiver.",
+   "words": [
+    [
+     33.03,
+     33.269,
+     "Garde"
+    ],
+    [
+     33.269,
+     33.507,
+     "ça"
+    ],
+    [
+     33.507,
+     33.746,
+     "pour"
+    ],
+    [
+     33.746,
+     33.984,
+     "le"
+    ],
+    [
+     33.984,
+     34.7,
+     "Black Friday."
+    ],
+    [
+     35.07,
+     35.07,
+     "|"
+    ],
+    [
+     35.07,
+     35.192,
+     "Et"
+    ],
+    [
+     35.192,
+     35.557,
+     "abonne-toi :"
+    ],
+    [
+     35.557,
+     35.8,
+     "demain,"
+    ],
+    [
+     36.08,
+     36.08,
+     "|"
+    ],
+    [
+     36.08,
+     36.822,
+     "l'erreur"
+    ],
+    [
+     36.822,
+     37.03,
+     "que"
+    ],
+    [
+     37.03,
+     37.238,
+     "tout"
+    ],
+    [
+     37.238,
+     37.445,
+     "le"
+    ],
+    [
+     37.445,
+     37.652,
+     "monde"
+    ],
+    [
+     37.652,
+     37.86,
+     "fait"
+    ],
+    [
+     37.86,
+     37.86,
+     "|"
+    ],
+    [
+     37.86,
+     38.275,
+     "avec"
+    ],
+    [
+     38.275,
+     38.482,
+     "sa"
+    ],
+    [
+     38.482,
+     38.898,
+     "fenêtre"
+    ],
+    [
+     38.898,
+     39.105,
+     "en"
+    ],
+    [
+     39.105,
+     39.52,
+     "hiver."
+    ]
+   ]
+  }
+ ]
+}

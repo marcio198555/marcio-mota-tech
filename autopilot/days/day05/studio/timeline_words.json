@@ -1,0 +1,704 @@
+{
+ "duration": 36.375,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton mot de passe de huit lettres minuscules ? Trois semaines pour le casser.",
+   "start": 0.12,
+   "end": 3.884,
+   "display": "Ton mot de passe de 8 lettres minuscules ? 3 semaines pour le casser.",
+   "words": [
+    [
+     0.15,
+     0.34,
+     "Ton"
+    ],
+    [
+     0.34,
+     0.53,
+     "mot"
+    ],
+    [
+     0.53,
+     0.72,
+     "de"
+    ],
+    [
+     0.72,
+     0.91,
+     "passe"
+    ],
+    [
+     0.91,
+     1.1,
+     "de"
+    ],
+    [
+     1.1,
+     1.29,
+     "8"
+    ],
+    [
+     1.29,
+     1.48,
+     "lettres"
+    ],
+    [
+     1.48,
+     2.05,
+     "minuscules ?"
+    ],
+    [
+     2.3,
+     2.3,
+     "|"
+    ],
+    [
+     2.3,
+     2.523,
+     "3"
+    ],
+    [
+     2.523,
+     2.969,
+     "semaines"
+    ],
+    [
+     2.969,
+     3.191,
+     "pour"
+    ],
+    [
+     3.191,
+     3.414,
+     "le"
+    ],
+    [
+     3.414,
+     3.86,
+     "casser."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "C'est le calcul de Hive Systems pour 2025, avec douze cartes graphiques haut de gamme.",
+   "start": 4.084,
+   "end": 8.786,
+   "display": "C'est le calcul de Hive Systems pour 2025, | avec 12 cartes graphiques | haut de gamme.",
+   "words": [
+    [
+     4.11,
+     4.516,
+     "C'est"
+    ],
+    [
+     4.516,
+     4.719,
+     "le"
+    ],
+    [
+     4.719,
+     5.125,
+     "calcul"
+    ],
+    [
+     5.125,
+     5.328,
+     "de"
+    ],
+    [
+     5.328,
+     5.937,
+     "Hive Systems"
+    ],
+    [
+     5.937,
+     6.14,
+     "pour"
+    ],
+    [
+     6.14,
+     6.953,
+     "2025,"
+    ],
+    [
+     6.953,
+     6.953,
+     "|"
+    ],
+    [
+     6.953,
+     7.359,
+     "avec"
+    ],
+    [
+     7.359,
+     7.562,
+     "12"
+    ],
+    [
+     7.562,
+     7.765,
+     "cartes"
+    ],
+    [
+     7.765,
+     8.171,
+     "graphiques"
+    ],
+    [
+     8.171,
+     8.171,
+     "|"
+    ],
+    [
+     8.171,
+     8.374,
+     "haut"
+    ],
+    [
+     8.374,
+     8.577,
+     "de"
+    ],
+    [
+     8.577,
+     8.78,
+     "gamme."
+    ]
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "Huit chiffres, comme un code PIN : un quart d'heure.",
+   "start": 8.966,
+   "end": 11.72,
+   "display": "8 chiffres, comme un code PIN : un quart d'heure.",
+   "words": [
+    [
+     8.99,
+     9.273,
+     "8"
+    ],
+    [
+     9.273,
+     9.557,
+     "chiffres,"
+    ],
+    [
+     9.557,
+     9.84,
+     "comme"
+    ],
+    [
+     9.84,
+     10.123,
+     "un"
+    ],
+    [
+     10.123,
+     10.69,
+     "code PIN :"
+    ],
+    [
+     10.8,
+     10.8,
+     "|"
+    ],
+    [
+     10.8,
+     11.028,
+     "un"
+    ],
+    [
+     11.028,
+     11.255,
+     "quart"
+    ],
+    [
+     11.255,
+     11.71,
+     "d'heure."
+    ]
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "Et s'il a déjà fuité, c'est quasi instantané : les pirates testent d'abord les listes de fuites.",
+   "start": 11.82,
+   "end": 17.011,
+   "display": "Et s'il a déjà fuité, c'est quasi instantané : | les pirates testent d'abord | les listes de fuites.",
+   "words": [
+    [
+     11.85,
+     11.995,
+     "Et"
+    ],
+    [
+     11.995,
+     12.284,
+     "s'il"
+    ],
+    [
+     12.284,
+     12.574,
+     "a"
+    ],
+    [
+     12.574,
+     12.863,
+     "déjà"
+    ],
+    [
+     12.863,
+     13.292,
+     "fuité,"
+    ],
+    [
+     13.292,
+     13.582,
+     "c'est"
+    ],
+    [
+     13.582,
+     13.871,
+     "quasi"
+    ],
+    [
+     13.871,
+     14.45,
+     "instantané :"
+    ],
+    [
+     14.56,
+     14.56,
+     "|"
+    ],
+    [
+     14.56,
+     14.769,
+     "les"
+    ],
+    [
+     14.769,
+     15.187,
+     "pirates"
+    ],
+    [
+     15.187,
+     15.396,
+     "testent"
+    ],
+    [
+     15.396,
+     16.024,
+     "d'abord"
+    ],
+    [
+     16.024,
+     16.024,
+     "|"
+    ],
+    [
+     16.024,
+     16.233,
+     "les"
+    ],
+    [
+     16.233,
+     16.442,
+     "listes"
+    ],
+    [
+     16.442,
+     16.651,
+     "de"
+    ],
+    [
+     16.651,
+     16.98,
+     "fuites."
+    ]
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "Ce qui change tout : la longueur.",
+   "start": 17.261,
+   "end": 19.254,
+   "display": "Ce qui change tout : la longueur.",
+   "words": [
+    [
+     17.28,
+     17.537,
+     "Ce"
+    ],
+    [
+     17.537,
+     17.794,
+     "qui"
+    ],
+    [
+     17.794,
+     18.051,
+     "change"
+    ],
+    [
+     18.051,
+     18.469,
+     "tout :"
+    ],
+    [
+     18.469,
+     18.726,
+     "la"
+    ],
+    [
+     18.726,
+     19.24,
+     "longueur."
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "text": "Chaque caractère en plus multiplie le temps de calcul.",
+   "start": 19.354,
+   "end": 22.332,
+   "display": "Chaque caractère en plus | multiplie le temps de calcul.",
+   "words": [
+    [
+     19.38,
+     19.598,
+     "Chaque"
+    ],
+    [
+     19.598,
+     20.254,
+     "caractère"
+    ],
+    [
+     20.254,
+     20.472,
+     "en"
+    ],
+    [
+     20.472,
+     20.691,
+     "plus"
+    ],
+    [
+     20.691,
+     20.691,
+     "|"
+    ],
+    [
+     20.691,
+     21.128,
+     "multiplie"
+    ],
+    [
+     21.128,
+     21.346,
+     "le"
+    ],
+    [
+     21.346,
+     21.665,
+     "temps"
+    ],
+    [
+     21.665,
+     21.883,
+     "de"
+    ],
+    [
+     21.883,
+     22.32,
+     "calcul."
+    ]
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "Un mot de passe long et différent pour chaque site, rangé dans un gestionnaire.",
+   "start": 22.512,
+   "end": 26.582,
+   "display": "Un mot de passe long et différent | pour chaque site, | rangé dans un gestionnaire.",
+   "words": [
+    [
+     22.54,
+     22.762,
+     "Un"
+    ],
+    [
+     22.762,
+     22.984,
+     "mot"
+    ],
+    [
+     22.984,
+     23.205,
+     "de"
+    ],
+    [
+     23.205,
+     23.427,
+     "passe"
+    ],
+    [
+     23.427,
+     23.649,
+     "long"
+    ],
+    [
+     23.649,
+     23.871,
+     "et"
+    ],
+    [
+     23.871,
+     24.315,
+     "différent"
+    ],
+    [
+     24.315,
+     24.315,
+     "|"
+    ],
+    [
+     24.315,
+     24.536,
+     "pour"
+    ],
+    [
+     24.536,
+     24.758,
+     "chaque"
+    ],
+    [
+     24.758,
+     24.98,
+     "site,"
+    ],
+    [
+     25.13,
+     25.13,
+     "|"
+    ],
+    [
+     25.13,
+     25.544,
+     "rangé"
+    ],
+    [
+     25.544,
+     25.751,
+     "dans"
+    ],
+    [
+     25.751,
+     25.959,
+     "un"
+    ],
+    [
+     25.959,
+     26.58,
+     "gestionnaire."
+    ]
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "Et active la double authentification.",
+   "start": 26.682,
+   "end": 28.643,
+   "display": "Et active la double authentification.",
+   "words": [
+    [
+     26.71,
+     26.884,
+     "Et"
+    ],
+    [
+     26.884,
+     27.231,
+     "active"
+    ],
+    [
+     27.231,
+     27.405,
+     "la"
+    ],
+    [
+     27.405,
+     27.578,
+     "double"
+    ],
+    [
+     27.578,
+     28.62,
+     "authentification."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "text": "Envoie ça à quelqu'un qui utilise encore son prénom comme mot de passe.",
+   "start": 28.843,
+   "end": 32.225,
+   "display": "Envoie ça à quelqu'un qui utilise encore | son prénom comme mot de passe.",
+   "words": [
+    [
+     28.87,
+     29.045,
+     "Envoie"
+    ],
+    [
+     29.045,
+     29.221,
+     "ça"
+    ],
+    [
+     29.221,
+     29.396,
+     "à"
+    ],
+    [
+     29.396,
+     29.922,
+     "quelqu'un"
+    ],
+    [
+     29.922,
+     30.097,
+     "qui"
+    ],
+    [
+     30.097,
+     30.623,
+     "utilise"
+    ],
+    [
+     30.623,
+     30.973,
+     "encore"
+    ],
+    [
+     30.973,
+     30.973,
+     "|"
+    ],
+    [
+     30.973,
+     31.148,
+     "son"
+    ],
+    [
+     31.148,
+     31.499,
+     "prénom"
+    ],
+    [
+     31.499,
+     31.674,
+     "comme"
+    ],
+    [
+     31.674,
+     31.849,
+     "mot"
+    ],
+    [
+     31.849,
+     32.025,
+     "de"
+    ],
+    [
+     32.025,
+     32.2,
+     "passe."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : demain, ce que te coûte l'eau en trop dans ta bouilloire.",
+   "start": 32.325,
+   "end": 36.075,
+   "words": [
+    [
+     32.35,
+     32.542,
+     "Et"
+    ],
+    [
+     32.542,
+     33.117,
+     "abonne-toi :"
+    ],
+    [
+     33.117,
+     33.78,
+     "demain,"
+    ],
+    [
+     33.93,
+     33.93,
+     "|"
+    ],
+    [
+     33.93,
+     34.108,
+     "ce"
+    ],
+    [
+     34.108,
+     34.285,
+     "que"
+    ],
+    [
+     34.285,
+     34.462,
+     "te"
+    ],
+    [
+     34.462,
+     34.64,
+     "coûte"
+    ],
+    [
+     34.64,
+     34.995,
+     "l'eau"
+    ],
+    [
+     34.995,
+     35.172,
+     "en"
+    ],
+    [
+     35.172,
+     35.35,
+     "trop"
+    ],
+    [
+     35.35,
+     35.528,
+     "dans"
+    ],
+    [
+     35.528,
+     35.705,
+     "ta"
+    ],
+    [
+     35.705,
+     36.06,
+     "bouilloire."
+    ]
+   ]
+  }
+ ]
+}

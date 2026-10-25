@@ -9,19 +9,23 @@ SCHED = json.loads(pathlib.Path('/home/claude/studio/scheduled.json').read_text(
 plan = json.loads((REPO / 'plan.json').read_text())
 caps = json.loads((REPO / 'days/captions.json').read_text())
 week = []
-for d in range(1, 8):
+for d in range(1, 6):
     job = json.loads((REPO / f'tts/jobs/day{d:02d}.json').read_text())
     vo = [s['text'] for s in job['segments']]
     if d == 1:
         vo[2] = "Sur les fiches techniques, la pente est souvent en pour cent."
+    cta = REPO / f'tts/jobs/day{d:02d}cta.json'
+    if cta.exists():
+        vo[-1] = json.loads(cta.read_text())['segments'][0]['text']
     p = plan['jours'][d - 1]
     week.append({
         'day': d, 'date': p['date'], 'title': caps[str(d)]['title'], 'mechanic': p['mecanique'], 'refs': p['refs'],
         'hook': p['accroche'], 'money': p['argent'], 'vo': vo, 'caption': caps[str(d)]['text'], 'sources': caps[str(d)]['sources'],
         'video': ASSETS.get(str(d), ''), 'status': SCHED.get(str(d), {}).get('status', 'produite'),
-        'when': SCHED.get(str(d), {}).get('when', p['date'] + ' · 10:00'),
+        'when': SCHED.get(str(d), {}).get('when', p.get('heure', '10:00')),
     })
-data = {'refs': plan['references_virales'], 'days': plan['jours'], 'week': week}
+LEARN = (REPO / 'learnings.md').read_text()
+data = {'refs': plan['references_virales'], 'days': plan['jours'], 'week': week, 'learn': LEARN}
 
 html = r'''<title>Autopilot TikTok Marcio</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -100,18 +104,33 @@ tr.done td{background:rgba(63,180,122,0.05)}
 <div class="wrap">
   <header>
     <div class="eyebrow">TikTok · @marcio.mota8</div>
-    <h1>Autopilot <em>30 jours</em></h1>
-    <p class="lede">Une vidéo originale par jour, produite et programmée sur ton TikTok via Metricool. Chaque vidéo reprend la mécanique d'un format qui a fait des millions de vues, appliquée à un sujet neuf, avec des chiffres sourcés : ta méthode « je mesure tout ».</p>
+    <h1>Autopilot <em>TikTok</em></h1>
+    <p class="lede">Une vidéo originale par jour sur ton TikTok, programmée via Metricool. Chaque vendredi : bilan des chiffres de la semaine, puis les 7 vidéos suivantes, ajustées pour gagner plus d'abonnés et de vues. Chaque vidéo reprend la mécanique d'un format viral, appliquée à un sujet neuf, avec des chiffres sourcés : ta méthode « je mesure tout ».</p>
     <div class="chips" id="chips"></div>
   </header>
 
   <section aria-labelledby="h-week">
-    <div class="head"><h2 id="h-week">Semaine 1 : produite</h2><span class="count" id="week-count"></span></div>
+    <div class="head"><h2 id="h-week">Cette semaine : 25 au 29 octobre</h2><span class="count" id="week-count"></span></div>
     <div class="grid" id="week"></div>
   </section>
 
+  <section aria-labelledby="h-grow">
+    <div class="head"><h2 id="h-grow">Pour gagner des abonnés</h2><span class="count">appliqué dès le 26.10</span></div>
+    <div class="cols">
+      <div class="note"><h3>Une raison de s'abonner</h3><p>Chaque vidéo finit par l'annonce de celle du lendemain (« Abonne-toi : demain, le piège des batteries externes »), à la voix, à l'écran et dans la description.</p></div>
+      <div class="note"><h3>Rétention</h3><p>Chiffre choc dès la 1re seconde, sous-titres calés sur la voix, cartons de 2 lignes au maximum, vidéos de 31 à 40 s.</p></div>
+      <div class="note"><h3>Tests mesurés</h3><p>Mercredi 28.10 à 18 h au lieu de 10 h. Vendredi, on compare les vues, le temps regardé et les abonnés gagnés, puis on garde ce qui marche.</p></div>
+      <div class="note"><h3>Ta bio TikTok (à coller depuis ton téléphone)</h3><p class="mono" id="bio">Je mesure tout avant que tu achètes 📏 Tech &amp; maison, chiffres vérifiés 🇨🇭</p><p>Nom affiché conseillé : <span class="mono">Marcio · Je mesure tout</span></p><div id="bio-copy"></div></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-learn">
+    <div class="head"><h2 id="h-learn">Bilans et enseignements</h2><span class="count">mis à jour chaque vendredi</span></div>
+    <div class="note" style="margin-top:16px"><div class="caption" id="learn" style="margin-top:0"></div></div>
+  </section>
+
   <section aria-labelledby="h-cal">
-    <div class="head"><h2 id="h-cal">Calendrier des 30 jours</h2><span class="count">publication à 10:00, heure suisse</span></div>
+    <div class="head"><h2 id="h-cal">Plan et réserve d'idées</h2><span class="count">les idées sont revues chaque vendredi selon les chiffres</span></div>
     <div class="table-wrap"><table>
       <thead><tr><th>Jour</th><th>Date</th><th>Sujet (notre version)</th><th>Mécanique virale d'origine</th><th>Accroche 0–3 s</th><th>Objectif argent</th><th>Statut</th></tr></thead>
       <tbody id="cal"></tbody>
@@ -127,12 +146,12 @@ tr.done td{background:rgba(63,180,122,0.05)}
   <section aria-labelledby="h-flow">
     <div class="head"><h2 id="h-flow">Comment ça tourne tout seul</h2></div>
     <div class="flow">
-      <div class="step"><b>1 · Sujet et faits</b><span>Plan des 30 jours, faits vérifiés sur les sources officielles.</span></div>
+      <div class="step"><b>1 · Sujet et faits</b><span>Idées revues chaque semaine, faits vérifiés sur les sources officielles.</span></div>
       <div class="step"><b>2 · Voix off</b><span>Voix française Piper (libre et gratuite), générée sur GitHub Actions.</span></div>
       <div class="step"><b>3 · Montage</b><span>Motion design 1080×1920, sous-titres mot à mot, musique et bruitages maison.</span></div>
       <div class="step"><b>4 · Contrôle</b><span>Agent qualité indépendant : calculs, lisibilité, zones sûres TikTok, son.</span></div>
       <div class="step"><b>5 · Publication</b><span>Hébergement Cloudinary, programmation Metricool → TikTok, mention IA activée.</span></div>
-      <div class="step"><b>6 · Chaque matin</b><span>Une tâche programmée prépare la vidéo du lendemain ; le lundi, bilan des chiffres.</span></div>
+      <div class="step"><b>6 · Chaque vendredi</b><span>Bilan des chiffres, enseignements, puis production et programmation des 7 vidéos de la semaine.</span></div>
     </div>
     <div class="cols">
       <div class="note"><h3>Outils, tous gratuits</h3><ul>
@@ -141,7 +160,7 @@ tr.done td{background:rgba(63,180,122,0.05)}
         <li>Cloudinary (gratuit) : hébergement des vidéos</li>
         <li>Moteur de rendu maison (Chromium + ffmpeg)</li>
       </ul></div>
-      <div class="note"><h3>Le code</h3><p>Tout est dans ton dépôt GitHub, branche <span class="mono">tiktok-autopilot</span> : moteur de rendu, scènes, voix, mixage, procédure quotidienne (<span class="mono">RUNBOOK.md</span>).</p>
+      <div class="note"><h3>Le code</h3><p>Tout est dans ton dépôt GitHub, branche <span class="mono">tiktok-autopilot</span> : moteur de rendu, scènes, voix, mixage, procédure hebdomadaire (<span class="mono">RUNBOOK.md</span>).</p>
         <p><a href="https://github.com/marcio198555/marcio-mota-tech/tree/tiktok-autopilot/autopilot" rel="noopener">Ouvrir le dépôt</a></p></div>
     </div>
   </section>
@@ -155,14 +174,14 @@ tr.done td{background:rgba(63,180,122,0.05)}
         <li>L'affiliation : liens en bio vers les produits des vidéos (batteries, câbles, prises), à activer.</li>
         <li>Le Black Friday (27 novembre) : 6 vidéos du mois le préparent.</li>
       </ul></div>
-      <div class="note"><h3>Les objectifs du mois</h3><p><span class="big-num">30</span> vidéos publiées, une par jour.</p><p>Chaque lundi : vues, partages et enregistrements relevés, puis les sujets suivants ajustés.</p></div>
+      <div class="note"><h3>L'objectif</h3><p><span class="big-num">7</span> vidéos par semaine, une par jour.</p><p>Chaque vendredi : vues, temps regardé, partages et abonnés gagnés relevés, puis la semaine suivante ajustée.</p></div>
     </div>
   </section>
 </div>
 
 <script>
 const DATA = __DATA__;
-const STATUS = {"programmée":["sched","Programmée"],"produite":["prod","Produite"],"publiée":["pub","Publiée"],"à produire":["todo","À produire"]};
+const STATUS = {"programmée":["sched","Programmée"],"produite":["prod","Produite"],"publiée":["pub","Publiée"],"à produire":["todo","À produire"],"à programmer":["prod","À programmer"],"produite (fin à refaire)":["prod","Prête · vendredi"],"idée":["todo","Idée"]};
 function el(tag, cls, text){ const e=document.createElement(tag); if(cls) e.className=cls; if(text!==undefined) e.textContent=text; return e; }
 function fmtDate(iso){ const d=new Date(iso+'T12:00:00'); return d.toLocaleDateString('fr-CH',{weekday:'short',day:'2-digit',month:'2-digit'}); }
 function copyBtn(label, getText, target){
@@ -173,14 +192,14 @@ function copyBtn(label, getText, target){
 function render(){
   const chips=document.getElementById('chips');
   const sched=DATA.week.filter(w=>w.status==='programmée').length;
-  [['ok','TikTok connecté à Metricool'],['live',sched+' vidéo'+(sched>1?'s':'')+' programmée'+(sched>1?'s':'')],['gold','1 vidéo par jour à 10:00'],['info','Production automatique chaque matin']].forEach(([d,t])=>{ const s=el('span','chip'); s.append(el('span','dot '+d), el('span','',t)); chips.append(s); });
+  [['ok','TikTok connecté à Metricool'],['live',sched+' vidéo'+(sched>1?'s':'')+' programmée'+(sched>1?'s':'')],['gold','1 vidéo par jour'],['info','Prochain lot : vendredi 30.10']].forEach(([d,t])=>{ const s=el('span','chip'); s.append(el('span','dot '+d), el('span','',t)); chips.append(s); });
   const wk=document.getElementById('week'); document.getElementById('week-count').textContent=DATA.week.length+' vidéos';
   DATA.week.forEach(w=>{
     const card=el('article','card');
     if(w.video){ const v=document.createElement('video'); v.src=w.video; v.controls=true; v.playsInline=true; v.preload='metadata'; card.append(v); }
     else { const p=el('div','poster'); p.append(el('div','big','J'+w.day), el('div','','Vidéo en préparation')); card.append(p); }
     const b=el('div','body');
-    const m=el('div','meta'); m.append(el('span','', 'Jour '+w.day+' · '+fmtDate(w.date)+' · 10:00'));
+    const m=el('div','meta'); m.append(el('span','', 'Jour '+w.day+' · '+fmtDate(w.date)+' · '+w.when));
     const st=STATUS[w.status]||['todo',w.status]; m.append(el('span','status '+st[0], st[1])); b.append(m);
     b.append(el('h3','',w.title), el('div','hook','Accroche : '+w.hook), el('div','mech','Mécanique : '+w.mechanic+' · '+w.money));
     const d1=document.createElement('details'); d1.append(el('summary','','Voix off, mot pour mot')); const ol=el('ol','vo'); w.vo.forEach(l=>ol.append(el('li','',l))); d1.append(ol); b.append(d1);
@@ -189,6 +208,8 @@ function render(){
     w.sources.forEach(s=>{ const div=el('div','src'); if(s.startsWith('http')){ const a=el('a','',s); a.href=s; a.rel='noopener'; div.append(a);} else div.textContent=s; d3.append(div); }); b.append(d3);
     card.append(b); wk.append(card);
   });
+  document.getElementById('learn').textContent=DATA.learn.replace(/^# .*\n+/,'');
+  const bio=document.getElementById('bio'); document.getElementById('bio-copy').append(copyBtn('Copier la bio',()=>bio.textContent,bio));
   const cal=document.getElementById('cal');
   DATA.days.forEach(d=>{
     const tr=document.createElement('tr'); if(d.statut==='programmée'||d.statut==='publiée') tr.className='done';

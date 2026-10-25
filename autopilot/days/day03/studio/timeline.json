@@ -1,0 +1,75 @@
+{
+ "duration": 39.826,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Vingt mille milliampères-heure, divisé par quatre mille… cinq recharges ?",
+   "start": 0.12,
+   "end": 3.558,
+   "display": "20 000 mAh ÷ 4 000… | 5 recharges ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non. Ta batterie externe n'en fera jamais cinq.",
+   "start": 3.738,
+   "end": 6.862,
+   "display": "Non. Ta batterie externe n'en fera jamais 5."
+  },
+  {
+   "id": "s03",
+   "text": "Le chiffre sur la boîte est calculé à trois virgule sept volts.",
+   "start": 7.162,
+   "end": 10.744,
+   "display": "Le chiffre sur la boîte est calculé à 3,7 V."
+  },
+  {
+   "id": "s04",
+   "text": "Le vrai chiffre, c'est l'énergie : soixante-quatorze wattheures.",
+   "start": 10.844,
+   "end": 14.114,
+   "display": "Le vrai chiffre, c'est l'énergie : 74 Wh."
+  },
+  {
+   "id": "s05",
+   "text": "Un téléphone de quatre mille milliampères-heure, c'est environ quinze wattheures.",
+   "start": 14.264,
+   "end": 18.108,
+   "display": "Un téléphone de 4 000 mAh, c'est environ 15 Wh."
+  },
+  {
+   "id": "s06",
+   "text": "Et en route, environ dix-huit pour cent se perdent en chaleur, d'après Anker.",
+   "start": 18.208,
+   "end": 22.308,
+   "display": "Et en route, environ 18 % se perdent en chaleur, d'après Anker."
+  },
+  {
+   "id": "s07",
+   "text": "Résultat : trois à quatre recharges. Pas cinq.",
+   "start": 22.458,
+   "end": 25.95,
+   "display": "Résultat : 3 à 4 recharges. Pas 5."
+  },
+  {
+   "id": "s08",
+   "text": "Avant d'acheter, regarde les wattheures, pas les milliampères-heure.",
+   "start": 26.2,
+   "end": 29.638,
+   "display": "Avant d'acheter, regarde les Wh, pas les mAh."
+  },
+  {
+   "id": "s09",
+   "text": "Bonus : en avion, la limite, c'est cent wattheures.",
+   "start": 29.738,
+   "end": 32.805,
+   "display": "Bonus : en avion, | la limite, c'est 100 Wh."
+  },
+  {
+   "id": "s10",
+   "text": "Garde ça pour le Black Friday. Et abonne-toi : demain, l'erreur que tout le monde fait avec sa fenêtre en hiver.",
+   "start": 33.005,
+   "end": 39.526,
+   "display": "Garde ça pour le Black Friday. | Et abonne-toi : demain, | l'erreur que tout le monde fait | avec sa fenêtre en hiver."
+  }
+ ]
+}
