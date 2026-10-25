@@ -106,9 +106,17 @@
   function wordsFor(seg) {
     if (seg.words && seg.words.length) return seg.words;
     const toks = (seg.display || seg.text).split(/ +/).filter(Boolean);
-    const total = toks.reduce((a, w) => a + w.length + 1, 0);
+    const total = toks.filter(w => w !== '|').reduce((a, w) => a + w.length + 1, 0);
     let acc = 0; const d = seg.end - seg.start;
-    return toks.map(w => { const s = seg.start + d * acc / total; acc += w.length + 1; return [s, seg.start + d * acc / total, w]; });
+    return toks.map(w => { if (w === '|') { const s = seg.start + d * acc / total; return [s, s, '|']; } const s = seg.start + d * acc / total; acc += w.length + 1; return [s, seg.start + d * acc / total, w]; });
+  }
+  // découpe en cartons sur le jeton « | » ; renvoie le carton affiché à l'instant t
+  function pageAt(words, t) {
+    const pages = [[]];
+    words.forEach(w => { if (w[2] === '|') { if (pages[pages.length - 1].length) pages.push([]); } else pages[pages.length - 1].push(w); });
+    let cur = pages[0];
+    pages.forEach(p => { if (p.length && t >= p[0][0] - 0.05) cur = p; });
+    return cur;
   }
   function captions(ctx, t, o = {}) {
     const segs = TL.segments;
@@ -119,7 +127,7 @@
       if (t >= s.start - 0.05 && t < Math.max(until, s.end)) { seg = s; break; }
     }
     if (!seg) return;
-    const words = wordsFor(seg);
+    const words = pageAt(wordsFor(seg), t);
     const size = o.size || 66, maxW = o.maxWidth || 820, cx = o.x || 510, cy = o.y || 1330;
     ctx.save();
     ctx.font = font(900, size, F.display); ctx.textBaseline = 'middle';
@@ -142,7 +150,7 @@
     const lines = [];
     if (best[n][m] < INF) { let j = m; for (let q = n; q >= 1; q--) { const i = prev[q][j]; lines.unshift(words.slice(i, j).map((wd, r) => ({ wd, w: widths[i + r] }))); j = i; } }
     else { lines.push(words.map((wd, r) => ({ wd, w: widths[r] }))); }
-    const k = ease.back(prog(t, seg.start - 0.05, 0.16));
+    const k = ease.back(prog(t, (words.length ? words[0][0] : seg.start) - 0.05, 0.16));
     const scale = 0.86 + 0.14 * k;
     ctx.translate(cx, cy); ctx.scale(scale, scale);
     const lh = size * 1.18; const y0 = -(lines.length - 1) * lh / 2;

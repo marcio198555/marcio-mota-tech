@@ -70,8 +70,8 @@
             text(ctx, '42 cm', 0, 103, { size: 40, family: F.mono, weight: 700, color: '#05080f' });
           }
           text(ctx, 'MESURES', 0, y + 90, { size: 30, family: F.mono, weight: 700, color: C.muted, letter: 4 });
+          if (mk > 0.98) text(ctx, "valeur d'exemple", 0, 345, { size: 40, weight: 700, color: 'rgba(255,255,255,0.8)' });
         } });
-        text(ctx, 'exemple', 840, 1210, { size: 28, family: F.mono, weight: 400, color: C.muted });
       });
 
       // 2. NIVEAU À BULLE
@@ -90,6 +90,7 @@
           ctx.strokeStyle = C.white; ctx.lineWidth = 6;
           ctx.beginPath(); ctx.moveTo(-150, 0); ctx.lineTo(150, 0); ctx.stroke();
           text(ctx, Math.round(ang) + '°', 0, -110, { size: 120, family: F.mono, weight: 700, color: lv > 0.99 ? C.white : C.gold2 });
+          text(ctx, 'exemple', 0, 120, { size: 40, weight: 700, color: 'rgba(255,255,255,0.8)' });
           ctx.restore();
         } });
       });
@@ -107,19 +108,19 @@
           text(ctx, 'N', 0, -122, { size: 40, weight: 800, color: C.red2 });
           ctx.restore();
           const hk = ease.out(prog(t, S('s08') + 1.2, 0.4));
-          roundRect(ctx, -190, 200, 380, 150, 24); ctx.fillStyle = hk > 0 ? 'rgba(201,168,76,' + (0.25 * hk) + ')' : 'rgba(0,0,0,0)'; ctx.fill();
-          text(ctx, 'ALTITUDE', 0, 238, { size: 26, family: F.mono, weight: 700, color: C.muted, letter: 4 });
-          text(ctx, '1 250 m', 0, 300, { size: 70, family: F.mono, weight: 700, color: C.gold2 });
+          roundRect(ctx, -190, 180, 380, 150, 24); ctx.fillStyle = hk > 0 ? 'rgba(201,168,76,' + (0.25 * hk) + ')' : 'rgba(0,0,0,0)'; ctx.fill();
+          text(ctx, 'ALTITUDE', 0, 218, { size: 26, family: F.mono, weight: 700, color: C.muted, letter: 4 });
+          text(ctx, '1 250 m', 0, 280, { size: 70, family: F.mono, weight: 700, color: C.gold2 });
+          text(ctx, "valeur d'exemple", 0, 378, { size: 40, weight: 700, color: 'rgba(255,255,255,0.8)' });
           text(ctx, 'BOUSSOLE', 0, y + 90, { size: 30, family: F.mono, weight: 700, color: C.muted, letter: 4 });
         } });
-        text(ctx, 'exemple', 840, 1210, { size: 28, family: F.mono, weight: 400, color: C.muted });
       });
 
       // BONUS : taille d'une personne
       block(ctx, t, S('s09'), S('s10'), () => {
         chip(ctx, 'BONUS', 520, 305, { color: C.gold, size: 34, dot: C.gold });
         // silhouette
-        ctx.save(); ctx.translate(430, 0); ctx.fillStyle = '#2b3850';
+        ctx.save(); ctx.translate(330, 0); ctx.fillStyle = '#2b3850';
         ctx.beginPath(); ctx.arc(0, 520, 58, 0, Math.PI * 2); ctx.fill();
         roundRect(ctx, -90, 595, 180, 340, 66); ctx.fill();
         roundRect(ctx, -80, 900, 70, 250, 28); ctx.fill(); roundRect(ctx, 10, 900, 70, 250, 28); ctx.fill();
@@ -127,9 +128,9 @@
         const hk = ease.inOut(prog(t, S('s09') + 0.4, 1.2));
         ctx.save(); ctx.strokeStyle = C.gold2; ctx.lineWidth = 6; ctx.lineCap = 'round';
         const yb = 1150, yt = lerp(1150, 462, hk);
-        ctx.beginPath(); ctx.moveTo(640, yb); ctx.lineTo(640, yt); ctx.moveTo(610, yb); ctx.lineTo(670, yb); ctx.moveTo(610, yt); ctx.lineTo(670, yt); ctx.stroke(); ctx.restore();
-        if (hk > 0.98) text(ctx, '1,78 m', 760, 800, { size: 76, family: F.mono, weight: 700, color: C.gold2, align: 'left' });
-        chip(ctx, 'MODÈLES COMPATIBLES', 520, 378, { color: C.fg, size: 26 });
+        ctx.beginPath(); ctx.moveTo(540, yb); ctx.lineTo(540, yt); ctx.moveTo(510, yb); ctx.lineTo(570, yb); ctx.moveTo(510, yt); ctx.lineTo(570, yt); ctx.stroke(); ctx.restore();
+        if (hk > 0.98) { text(ctx, '1,78 m', 595, 790, { size: 72, family: F.mono, weight: 700, color: C.gold2, align: 'left' }); text(ctx, 'exemple', 597, 862, { size: 40, weight: 700, color: 'rgba(255,255,255,0.8)', align: 'left' }); }
+        chip(ctx, 'MODÈLES COMPATIBLES', 520, 380, { color: C.fg, size: 30 });
       });
 
       // ENREGISTRER

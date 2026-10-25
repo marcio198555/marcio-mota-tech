@@ -1,0 +1,10 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : demain, combien de temps il faut pour casser ton mot de passe."
+  }
+ ]
+}

@@ -29,13 +29,14 @@
       // ACCROCHE : 20 000 ÷ 4 000 = 5 ?
       block(ctx, t, 0, S('s03'), () => {
         powerbank(ctx, 520, 600, 0.95, '20 000');
-        text(ctx, '20 000 ÷ 4 000 = 5 ?', 520, 1010, { size: 78, family: F.mono, weight: 700, color: C.white, maxWidth: 900 });
+        text(ctx, '20 000 ÷ 4 000', 520, 955, { size: 78, family: F.mono, weight: 700, color: C.white });
+        text(ctx, '= 5 ?', 520, 1050, { size: 78, family: F.mono, weight: 700, color: C.white });
         const nk = prog(t, S('s02'), 0.3);
         if (nk > 0) {
           ctx.save(); ctx.globalAlpha *= clamp(nk * 3); ctx.strokeStyle = C.red2; ctx.lineWidth = 14; ctx.lineCap = 'round';
-          ctx.beginPath(); ctx.moveTo(735, 960); ctx.lineTo(lerp(735, 845, ease.out(nk)), lerp(960, 1060, ease.out(nk))); ctx.stroke(); ctx.restore();
+          ctx.beginPath(); ctx.moveTo(486, 1006); ctx.lineTo(lerp(486, 554, ease.out(nk)), lerp(1006, 1094, ease.out(nk))); ctx.stroke(); ctx.restore();
           const s = lerp(1.6, 1, ease.back(nk));
-          ctx.save(); ctx.translate(520, 1150); ctx.scale(s, s);
+          ctx.save(); ctx.translate(520, 1180); ctx.scale(s, s);
           text(ctx, 'NON.', 0, 0, { size: 120, weight: 900, color: C.red2, alpha: clamp(nk * 3) });
           ctx.restore();
         }
@@ -61,15 +62,15 @@
         ctx.save(); ctx.translate(520, 880); ctx.scale(Math.max(0.01, k), Math.max(0.01, k));
         text(ctx, '74 Wh', 0, 0, { size: 220, weight: 900, color: C.gold2, shadow: 'rgba(201,168,76,0.5)', shadowBlur: 50 });
         ctx.restore();
-        chip(ctx, "L'ÉNERGIE RÉELLE", 520, 1100, { color: C.gold, size: 32 });
+        chip(ctx, 'ÉNERGIE STOCKÉE', 520, 1100, { color: C.gold, size: 34 });
       });
 
       // Téléphone ≈ 15 Wh
       block(ctx, t, S('s05'), S('s06'), () => {
-        phone(ctx, 330, 760, 330, 640, { draw: () => { phoneBattery(ctx, 0, 30, 1.2, 1, C.green); } });
-        text(ctx, '4 000 mAh', 760, 640, { size: 64, family: F.mono, weight: 700, color: C.fg });
-        text(ctx, '≈ 15 Wh', 760, 780, { size: 110, weight: 900, color: C.gold2 });
-        text(ctx, '(à 3,85 V)', 760, 880, { size: 34, family: F.mono, weight: 400, color: C.muted });
+        phone(ctx, 295, 760, 330, 640, { draw: () => { phoneBattery(ctx, 0, 30, 1.2, 1, C.green); } });
+        text(ctx, '4 000 mAh', 700, 640, { size: 64, family: F.mono, weight: 700, color: C.fg });
+        text(ctx, '≈ 15 Wh', 700, 780, { size: 104, weight: 900, color: C.gold2 });
+        text(ctx, '(à 3,85 V)', 700, 880, { size: 38, family: F.mono, weight: 400, color: 'rgba(255,255,255,0.8)' });
       });
 
       // Pertes 18 %
@@ -84,7 +85,7 @@
         text(ctx, '− 18 %', x + w - 20, y - 50, { size: 56, weight: 900, color: C.red2, align: 'right', alpha: lk });
         text(ctx, '🔥', x + w - 70, y + h / 2, { size: 70, family: F.emoji, weight: 400, alpha: lk });
         text(ctx, '≈ 61 Wh utiles', 520, 960, { size: 86, weight: 900, color: C.gold2, alpha: lk });
-        text(ctx, 'source : Anker (rendement ~82 %)', 520, 1060, { size: 30, family: F.mono, weight: 400, color: C.muted, alpha: lk });
+        text(ctx, 'source : Anker (rendement ~82 %)', 520, 1060, { size: 38, family: F.mono, weight: 400, color: 'rgba(255,255,255,0.8)', alpha: lk });
       });
 
       // Résultat : 3 à 4 recharges
@@ -92,10 +93,13 @@
         const fills = [1, 1, 1, 0.75];
         fills.forEach((f, i) => {
           const k = ease.out(prog(t, S('s07') + 0.1 + i * 0.18, 0.35));
-          phoneBattery(ctx, 220 + i * 200, 620, 0.85, f * k, i === 3 ? C.gold : C.green);
+          phoneBattery(ctx, 220 + i * 200, 560, 0.85, f * k, i === 3 ? C.gold : C.green);
         });
-        text(ctx, '3 à 4', 520, 920, { size: 180, weight: 900, color: C.white });
-        text(ctx, 'PAS 5', 520, 1080, { size: 96, weight: 900, color: C.red2 });
+        text(ctx, '3 à 4', 520, 840, { size: 180, weight: 900, color: C.white });
+        text(ctx, 'PAS 5', 520, 990, { size: 96, weight: 900, color: C.red2 });
+        const ck = ease.out(prog(t, S('s07') + 1.2, 0.4));
+        text(ctx, '61 Wh ÷ 15,4 Wh ≈ 3,9', 520, 1095, { size: 40, family: F.mono, weight: 700, color: C.fg, alpha: ck });
+        text(ctx, 'moins les pertes de charge du téléphone', 520, 1152, { size: 36, weight: 700, color: 'rgba(255,255,255,0.8)', alpha: ck, maxWidth: 820 });
       });
 
       // Regarde les Wh
@@ -113,10 +117,11 @@
 
       // Avion : 100 Wh
       block(ctx, t, S('s09'), S('s10'), () => {
-        text(ctx, '✈️', 520, 560, { size: 200, family: F.emoji, weight: 400 });
-        text(ctx, '100 Wh', 520, 820, { size: 170, weight: 900, color: C.gold2 });
-        text(ctx, 'max. en cabine sans accord', 520, 950, { size: 46, weight: 800, color: C.fg });
-        text(ctx, '100–160 Wh : accord de la compagnie', 520, 1030, { size: 34, family: F.mono, weight: 400, color: C.muted, maxWidth: 860 });
+        text(ctx, '✈️', 520, 530, { size: 180, family: F.emoji, weight: 400 });
+        text(ctx, '100 Wh', 520, 770, { size: 170, weight: 900, color: C.gold2 });
+        text(ctx, 'max. par batterie externe', 520, 905, { size: 50, weight: 800, color: C.white });
+        text(ctx, 'en cabine · 2 max. par passager', 520, 978, { size: 42, weight: 700, color: 'rgba(255,255,255,0.8)', maxWidth: 820 });
+        text(ctx, 'pas de recharge à bord', 520, 1036, { size: 42, weight: 700, color: 'rgba(255,255,255,0.8)' });
       });
 
       // Black Friday puis abonnement

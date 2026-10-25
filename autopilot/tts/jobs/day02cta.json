@@ -1,0 +1,10 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s11",
+   "text": "Abonne-toi : demain, je te montre le piège des batteries externes."
+  }
+ ]
+}

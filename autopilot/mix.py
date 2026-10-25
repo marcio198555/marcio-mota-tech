@@ -101,6 +101,7 @@ with tempfile.TemporaryDirectory() as td:
     js = json.loads(meas[meas.rfind("{"): meas.rfind("}") + 1])
     flt = (f"loudnorm=I={a.lufs}:TP=-1.5:LRA=11:measured_I={js['input_i']}:measured_TP={js['input_tp']}:"
            f"measured_LRA={js['input_lra']}:measured_thresh={js['input_thresh']}:offset={js['target_offset']}:linear=true")
+    flt += ",alimiter=limit=0.80:attack=2:release=50:level=false"
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", a.video, "-i", str(raw), "-filter:a", flt, "-ar", str(SR),
                     "-map", "0:v:0", "-map", "1:a:0", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest",
                     "-movflags", "+faststart", a.out], check=True)
