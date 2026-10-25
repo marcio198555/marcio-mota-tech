@@ -1,5 +1,5 @@
 {
- "duration": 33.498,
+ "duration": 33.228,
  "segments": [
   {
    "id": "s01",
@@ -62,78 +62,78 @@
   },
   {
    "id": "s02",
-   "text": "Tu chauffes surtout l'extérieur.",
+   "text": "Tu gaspilles beaucoup d'énergie.",
    "start": 3.506,
-   "end": 5.316,
-   "display": "Tu chauffes surtout l'extérieur.",
+   "end": 5.053,
+   "display": "Tu gaspilles beaucoup d'énergie.",
    "words": [
     [
-     3.51,
-     3.839,
+     3.54,
+     3.728,
      "Tu"
     ],
     [
-     3.839,
-     4.048,
-     "chauffes"
+     3.728,
+     4.102,
+     "gaspilles"
     ],
     [
-     4.048,
-     4.465,
-     "surtout"
+     4.102,
+     4.478,
+     "beaucoup"
     ],
     [
-     4.465,
-     5.3,
-     "l'extérieur."
+     4.478,
+     5.04,
+     "d'énergie."
     ]
    ]
   },
   {
    "id": "s03",
    "text": "L'Office fédéral de la santé publique conseille autre chose.",
-   "start": 5.596,
-   "end": 8.993,
+   "start": 5.333,
+   "end": 8.73,
    "display": "L'Office fédéral de la santé publique conseille autre chose.",
    "words": [
     [
-     5.62,
-     6.876,
+     5.36,
+     6.616,
      "L'Office fédéral"
     ],
     [
-     6.876,
-     7.086,
+     6.616,
+     6.826,
      "de"
     ],
     [
-     7.086,
-     7.295,
+     6.826,
+     7.035,
      "la"
     ],
     [
-     7.295,
-     8.132,
+     7.035,
+     7.873,
      "santé publique"
     ],
     [
-     8.132,
-     8.132,
+     7.873,
+     7.873,
      "|"
     ],
     [
-     8.132,
-     8.551,
+     7.873,
+     8.291,
      "conseille"
     ],
     [
-     8.551,
-     8.761,
+     8.291,
+     8.501,
      "autre"
     ],
     [
-     8.761,
-     8.97,
+     8.501,
+     8.71,
      "chose."
     ]
    ]
@@ -141,83 +141,83 @@
   {
    "id": "s04",
    "text": "Aérer trois fois par jour : le matin, à midi, et avant d'aller te coucher.",
-   "start": 9.173,
-   "end": 13.162,
-   "display": "Aérer 3 fois par jour : le matin, à midi, et avant d'aller te coucher.",
+   "start": 8.91,
+   "end": 12.898,
+   "display": "Aérer 3 fois par jour : | le matin, à midi, | et avant d'aller te coucher.",
    "words": [
     [
-     9.2,
-     9.513,
+     8.94,
+     9.253,
      "Aérer"
     ],
     [
-     9.513,
-     9.67,
+     9.253,
+     9.41,
      "3"
     ],
     [
-     9.67,
-     9.827,
+     9.41,
+     9.567,
      "fois"
     ],
     [
-     9.827,
-     9.983,
-     "par"
+     9.567,
+     9.88,
+     "par jour :"
     ],
     [
-     9.983,
-     10.14,
-     "jour :"
-    ],
-    [
-     10.14,
-     10.297,
-     "le"
-    ],
-    [
-     10.297,
-     10.61,
-     "matin,"
-    ],
-    [
-     10.71,
-     10.71,
+     9.88,
+     9.88,
      "|"
     ],
     [
-     10.71,
-     10.877,
+     9.88,
+     10.037,
+     "le"
+    ],
+    [
+     10.037,
+     10.35,
+     "matin,"
+    ],
+    [
+     10.45,
+     10.607,
      "à"
     ],
     [
-     10.877,
-     11.43,
+     10.607,
+     10.92,
      "midi,"
     ],
     [
-     11.43,
-     11.597,
+     11.13,
+     11.13,
+     "|"
+    ],
+    [
+     11.13,
+     11.3,
      "et"
     ],
     [
-     11.597,
-     12.14,
+     11.3,
+     11.85,
      "avant"
     ],
     [
-     12.14,
-     12.64,
+     11.85,
+     12.36,
      "d'aller"
     ],
     [
-     12.64,
-     12.807,
+     12.36,
+     12.53,
      "te"
     ],
     [
-     12.807,
-     13.14,
+     12.53,
+     12.87,
      "coucher."
     ]
    ]
@@ -225,161 +225,166 @@
   {
    "id": "s05",
    "text": "Fenêtres grandes ouvertes, au moins cinq minutes.",
-   "start": 13.262,
-   "end": 16.209,
+   "start": 12.998,
+   "end": 15.946,
    "display": "Fenêtres grandes ouvertes, au moins 5 minutes.",
    "words": [
     [
-     13.27,
-     13.996,
+     13.0,
+     13.73,
      "Fenêtres"
     ],
     [
-     13.996,
-     14.304,
+     13.73,
+     14.04,
      "grandes"
     ],
     [
-     14.304,
-     14.92,
+     14.04,
+     14.66,
      "ouvertes,"
     ],
     [
-     15.1,
-     15.1,
+     14.83,
+     14.83,
      "|"
     ],
     [
-     15.1,
-     15.292,
+     14.83,
+     15.024,
      "au"
     ],
     [
-     15.292,
-     15.484,
+     15.024,
+     15.218,
      "moins"
     ],
     [
-     15.484,
-     15.676,
+     15.218,
+     15.412,
      "5"
     ],
     [
-     15.676,
-     16.18,
+     15.412,
+     15.92,
      "minutes."
     ]
    ]
   },
   {
    "id": "s06",
-   "text": "Et quand il fait très froid, ou avec un courant d'air, trois minutes suffisent.",
-   "start": 16.309,
-   "end": 19.987,
-   "display": "Et quand il fait très froid, ou avec un courant d'air, 3 minutes suffisent.",
+   "text": "Et quand il fait très froid, ou avec un courant d'air : au moins trois minutes.",
+   "start": 16.046,
+   "end": 19.717,
+   "display": "Et quand il fait très froid, ou avec un courant d'air : | au moins 3 minutes.",
    "words": [
     [
-     16.34,
-     16.545,
+     16.07,
+     16.27,
      "Et"
     ],
     [
-     16.545,
-     16.75,
+     16.27,
+     16.47,
      "quand"
     ],
     [
-     16.75,
-     16.955,
+     16.47,
+     16.67,
      "il"
     ],
     [
-     16.955,
-     17.16,
+     16.67,
+     16.87,
      "fait"
     ],
     [
-     17.16,
-     17.365,
+     16.87,
+     17.07,
      "très"
     ],
     [
-     17.365,
-     17.57,
+     17.07,
+     17.27,
      "froid,"
     ],
     [
-     17.75,
-     17.75,
-     "|"
-    ],
-    [
-     17.75,
-     17.921,
+     17.42,
+     17.587,
      "ou"
     ],
     [
+     17.587,
      17.921,
-     18.262,
      "avec"
     ],
     [
-     18.262,
-     18.433,
+     17.921,
+     18.088,
      "un"
     ],
     [
-     18.433,
-     18.775,
+     18.088,
+     18.422,
      "courant"
     ],
     [
-     18.775,
-     19.116,
-     "d'air,"
+     18.422,
+     18.755,
+     "d'air :"
     ],
     [
-     19.116,
-     19.287,
+     18.755,
+     18.755,
+     "|"
+    ],
+    [
+     18.755,
+     18.922,
+     "au"
+    ],
+    [
+     18.922,
+     19.089,
+     "moins"
+    ],
+    [
+     19.089,
+     19.256,
      "3"
     ],
     [
-     19.287,
-     19.628,
-     "minutes"
-    ],
-    [
-     19.628,
-     19.97,
-     "suffisent."
+     19.256,
+     19.7,
+     "minutes."
     ]
    ]
   },
   {
    "id": "s07",
    "text": "Ensuite, tu refermes tout.",
-   "start": 20.187,
-   "end": 21.774,
+   "start": 19.917,
+   "end": 21.504,
    "display": "Ensuite, tu refermes tout.",
    "words": [
     [
-     20.21,
-     20.67,
+     19.94,
+     20.51,
      "Ensuite,"
     ],
     [
      20.67,
-     21.06,
+     20.873,
      "tu"
     ],
     [
-     21.06,
-     21.52,
+     20.873,
+     21.278,
      "refermes"
     ],
     [
-     21.52,
-     21.75,
+     21.278,
+     21.48,
      "tout."
     ]
    ]
@@ -387,53 +392,53 @@
   {
    "id": "s08",
    "text": "Bonus : ça limite l'humidité, et donc les moisissures.",
-   "start": 21.874,
-   "end": 25.332,
+   "start": 21.604,
+   "end": 25.061,
    "display": "Bonus : ça limite l'humidité, et donc les moisissures.",
    "words": [
     [
-     21.9,
-     22.282,
+     21.63,
+     22.012,
      "Bonus :"
     ],
     [
-     22.282,
-     22.473,
+     22.012,
+     22.203,
      "ça"
     ],
     [
-     22.473,
-     22.855,
+     22.203,
+     22.585,
      "limite"
     ],
     [
-     22.855,
-     23.81,
+     22.585,
+     23.54,
      "l'humidité,"
     ],
     [
-     24.07,
-     24.07,
+     23.8,
+     23.8,
      "|"
     ],
     [
-     24.07,
-     24.277,
+     23.8,
+     24.007,
      "et"
     ],
     [
-     24.277,
-     24.483,
+     24.007,
+     24.213,
      "donc"
     ],
     [
-     24.483,
-     24.69,
+     24.213,
+     24.42,
      "les"
     ],
     [
-     24.69,
-     25.31,
+     24.42,
+     25.04,
      "moisissures."
     ]
    ]
@@ -441,63 +446,63 @@
   {
    "id": "s09",
    "text": "Envoie ça à ton coloc qui laisse la fenêtre entrouverte.",
-   "start": 25.532,
-   "end": 28.886,
+   "start": 25.261,
+   "end": 28.615,
    "display": "Envoie ça à ton coloc | qui laisse la fenêtre entrouverte.",
    "words": [
     [
-     25.54,
-     25.879,
+     25.48,
+     25.609,
      "Envoie"
     ],
     [
-     25.879,
-     26.109,
+     25.609,
+     25.839,
      "ça"
     ],
     [
-     26.109,
-     26.338,
+     25.839,
+     26.068,
      "à"
     ],
     [
-     26.338,
-     26.567,
+     26.068,
+     26.297,
      "ton"
     ],
     [
-     26.567,
-     27.026,
+     26.297,
+     26.756,
      "coloc"
     ],
     [
-     27.026,
-     27.026,
+     26.756,
+     26.756,
      "|"
     ],
     [
-     27.026,
-     27.255,
+     26.756,
+     26.985,
      "qui"
     ],
     [
-     27.255,
-     27.484,
+     26.985,
+     27.214,
      "laisse"
     ],
     [
-     27.484,
-     27.714,
+     27.214,
+     27.444,
      "la"
     ],
     [
-     27.714,
-     28.172,
+     27.444,
+     27.902,
      "fenêtre"
     ],
     [
-     28.172,
-     28.86,
+     27.902,
+     28.59,
      "entrouverte."
     ]
    ]
@@ -505,89 +510,79 @@
   {
    "id": "s10",
    "text": "Et abonne-toi : demain, combien de temps il faut pour casser ton mot de passe.",
-   "start": 29.036,
-   "end": 33.198,
-   "display": "Et abonne-toi : demain, | combien de temps il faut | pour casser ton mot de passe.",
+   "start": 28.765,
+   "end": 32.928,
+   "display": "Et abonne-toi : | demain, combien de temps il faut | pour casser ton mot de passe.",
    "words": [
     [
-     29.06,
-     29.258,
+     28.79,
+     28.985,
      "Et"
     ],
     [
-     29.258,
-     30.103,
+     28.985,
+     29.57,
      "abonne-toi :"
     ],
     [
-     30.103,
-     30.5,
+     29.82,
+     29.82,
+     "|"
+    ],
+    [
+     29.82,
+     30.23,
      "demain,"
     ],
     [
-     30.66,
-     30.66,
-     "|"
-    ],
-    [
-     30.66,
-     31.048,
+     30.39,
+     30.776,
      "combien"
     ],
     [
-     31.048,
-     31.242,
+     30.776,
+     30.969,
      "de"
     ],
     [
-     31.242,
-     31.435,
+     30.969,
+     31.162,
      "temps"
     ],
     [
-     31.435,
-     31.629,
+     31.162,
+     31.355,
      "il"
     ],
     [
-     31.629,
-     31.823,
+     31.355,
+     31.548,
      "faut"
     ],
     [
-     31.823,
-     31.823,
+     31.548,
+     31.548,
      "|"
     ],
     [
-     31.823,
-     32.017,
+     31.548,
+     31.742,
      "pour"
     ],
     [
-     32.017,
-     32.405,
+     31.742,
+     32.128,
      "casser"
     ],
     [
-     32.405,
-     32.598,
+     32.128,
+     32.321,
      "ton"
     ],
     [
-     32.598,
-     32.792,
-     "mot"
-    ],
-    [
-     32.792,
-     32.986,
-     "de"
-    ],
-    [
-     32.986,
-     33.18,
-     "passe."
+     32.321,
+     32.9,
+     "mot de passe."
     ]
    ]
   }
