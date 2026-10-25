@@ -1,0 +1,77 @@
+{
+ "job": "day05",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton mot de passe de huit lettres minuscules ? Trois semaines pour le casser.",
+   "file": "s01.wav",
+   "duration": 4.193,
+   "rate": 44100
+  },
+  {
+   "id": "s02",
+   "text": "C'est le calcul de Hive Systems pour 2025, avec douze cartes graphiques haut de gamme.",
+   "file": "s02.wav",
+   "duration": 5.211,
+   "rate": 44100
+  },
+  {
+   "id": "s03",
+   "text": "Huit chiffres, comme un code PIN : un quart d'heure.",
+   "file": "s03.wav",
+   "duration": 2.97,
+   "rate": 44100
+  },
+  {
+   "id": "s04",
+   "text": "Et s'il a déjà fuité, c'est quasi instantané : les pirates testent d'abord les listes de fuites.",
+   "file": "s04.wav",
+   "duration": 5.397,
+   "rate": 44100
+  },
+  {
+   "id": "s05",
+   "text": "Ce qui change tout : la longueur.",
+   "file": "s05.wav",
+   "duration": 2.129,
+   "rate": 44100
+  },
+  {
+   "id": "s06",
+   "text": "Chaque caractère en plus multiplie le temps de calcul.",
+   "file": "s06.wav",
+   "duration": 3.458,
+   "rate": 44100
+  },
+  {
+   "id": "s07",
+   "text": "Un mot de passe long et différent pour chaque site, rangé dans un gestionnaire.",
+   "file": "s07.wav",
+   "duration": 4.276,
+   "rate": 44100
+  },
+  {
+   "id": "s08",
+   "text": "Et active la double authentification.",
+   "file": "s08.wav",
+   "duration": 2.163,
+   "rate": 44100
+  },
+  {
+   "id": "s09",
+   "text": "Envoie ça à quelqu'un qui utilise encore son prénom comme mot de passe.",
+   "file": "s09.wav",
+   "duration": 3.597,
+   "rate": 44100
+  },
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : je mesure tout.",
+   "file": "s10.wav",
+   "duration": 2.25,
+   "rate": 44100
+  }
+ ],
+ "total": 35.644
+}

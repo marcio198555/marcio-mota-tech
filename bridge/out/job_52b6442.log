@@ -1,0 +1,284 @@
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+[2026-10-25 07:57:05.415] [piper] [info] Loaded voice in 0.406006122 second(s)
+[2026-10-25 07:57:05.416] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day04/s01.wav
+[2026-10-25 07:57:06.056] [piper] [info] Real-time factor: 0.1938761257339858 (infer=0.632502176 sec, audio=3.2624036281179136 sec)
+[2026-10-25 07:57:06.056] [piper] [info] Terminated piper
+[2026-10-25 07:57:06.484] [piper] [info] Loaded voice in 0.389760522 second(s)
+[2026-10-25 07:57:06.484] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day04/s02.wav
+[2026-10-25 07:57:06.726] [piper] [info] Real-time factor: 0.12474316271860665 (infer=0.236791375 sec, audio=1.8982312925170068 sec)
+[2026-10-25 07:57:06.726] [piper] [info] Terminated piper
+[2026-10-25 07:57:07.153] [piper] [info] Loaded voice in 0.388897399 second(s)
+[2026-10-25 07:57:07.154] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day04/s03.wav
+[2026-10-25 07:57:07.591] [piper] [info] Real-time factor: 0.12256130031520729 (infer=0.431148977 sec, audio=3.517823129251701 sec)
+[2026-10-25 07:57:07.591] [piper] [info] Terminated piper
+[2026-10-25 07:57:08.012] [piper] [info] Loaded voice in 0.38815586 second(s)
+[2026-10-25 07:57:08.012] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day04/s04.wav
+[2026-10-25 07:57:08.546] [piper] [info] Real-time factor: 0.12268257962459828 (infer=0.526294357 sec, audio=4.289886621315193 sec)
+[2026-10-25 07:57:08.546] [piper] [info] Terminated piper
+[2026-10-25 07:57:08.965] [piper] [info] Loaded voice in 0.385594037 second(s)
+[2026-10-25 07:57:08.966] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day04/s05.wav
+[2026-10-25 07:57:09.332] [piper] [info] Real-time factor: 0.12237990595395547 (infer=0.360890295 sec, audio=2.948934240362812 sec)
+[2026-10-25 07:57:09.332] [piper] [info] Terminated piper
+[2026-10-25 07:57:09.757] [piper] [info] Loaded voice in 0.390908935 second(s)
+[2026-10-25 07:57:09.758] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day04/s06.wav
+[2026-10-25 07:57:10.301] [piper] [info] Real-time factor: 0.1329448792176259 (infer=0.536361744 sec, audio=4.0344671201814055 sec)
+[2026-10-25 07:57:10.301] [piper] [info] Terminated piper
+[2026-10-25 07:57:10.728] [piper] [info] Loaded voice in 0.393065781 second(s)
+[2026-10-25 07:57:10.729] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day04/s07.wav
+[2026-10-25 07:57:10.952] [piper] [info] Real-time factor: 0.12491641409742342 (infer=0.218991787 sec, audio=1.7531065759637188 sec)
+[2026-10-25 07:57:10.952] [piper] [info] Terminated piper
+[2026-10-25 07:57:11.378] [piper] [info] Loaded voice in 0.392388519 second(s)
+[2026-10-25 07:57:11.379] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day04/s08.wav
+[2026-10-25 07:57:11.826] [piper] [info] Real-time factor: 0.12493697788985403 (infer=0.440956706 sec, audio=3.5294331065759637 sec)
+[2026-10-25 07:57:11.826] [piper] [info] Terminated piper
+[2026-10-25 07:57:12.259] [piper] [info] Loaded voice in 0.400168303 second(s)
+[2026-10-25 07:57:12.260] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day04/s09.wav
+[2026-10-25 07:57:12.725] [piper] [info] Real-time factor: 0.13297487418198528 (infer=0.459290994 sec, audio=3.453968253968254 sec)
+[2026-10-25 07:57:12.725] [piper] [info] Terminated piper
+[2026-10-25 07:57:13.150] [piper] [info] Loaded voice in 0.391114832 second(s)
+[2026-10-25 07:57:13.150] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day04/s10.wav
+[2026-10-25 07:57:13.447] [piper] [info] Real-time factor: 0.12395635103298609 (infer=0.291423911 sec, audio=2.3510204081632655 sec)
+[2026-10-25 07:57:13.447] [piper] [info] Terminated piper
+[2026-10-25 07:57:13.876] [piper] [info] Loaded voice in 0.392890544 second(s)
+[2026-10-25 07:57:13.877] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day05/s01.wav
+[2026-10-25 07:57:14.356] [piper] [info] Real-time factor: 0.11938787965824614 (infer=0.471963841 sec, audio=3.953197278911565 sec)
+[2026-10-25 07:57:14.356] [piper] [info] Terminated piper
+[2026-10-25 07:57:14.779] [piper] [info] Loaded voice in 0.387690551 second(s)
+[2026-10-25 07:57:14.779] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day05/s02.wav
+[2026-10-25 07:57:15.411] [piper] [info] Real-time factor: 0.12256203871597064 (infer=0.623960282 sec, audio=5.090975056689342 sec)
+[2026-10-25 07:57:15.411] [piper] [info] Terminated piper
+[2026-10-25 07:57:15.836] [piper] [info] Loaded voice in 0.390696001 second(s)
+[2026-10-25 07:57:15.836] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day05/s03.wav
+[2026-10-25 07:57:16.196] [piper] [info] Real-time factor: 0.12445898765195394 (infer=0.354739159 sec, audio=2.8502494331065757 sec)
+[2026-10-25 07:57:16.196] [piper] [info] Terminated piper
+[2026-10-25 07:57:16.625] [piper] [info] Loaded voice in 0.393623829 second(s)
+[2026-10-25 07:57:16.626] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day05/s04.wav
+[2026-10-25 07:57:17.284] [piper] [info] Real-time factor: 0.12331832179378094 (infer=0.650718067 sec, audio=5.276734693877551 sec)
+[2026-10-25 07:57:17.284] [piper] [info] Terminated piper
+[2026-10-25 07:57:17.703] [piper] [info] Loaded voice in 0.38466221 second(s)
+[2026-10-25 07:57:17.703] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day05/s05.wav
+[2026-10-25 07:57:17.959] [piper] [info] Real-time factor: 0.12503296465182442 (infer=0.25113197 sec, audio=2.0085260770975055 sec)
+[2026-10-25 07:57:17.959] [piper] [info] Terminated piper
+[2026-10-25 07:57:18.386] [piper] [info] Loaded voice in 0.393006286 second(s)
+[2026-10-25 07:57:18.387] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day05/s06.wav
+[2026-10-25 07:57:18.806] [piper] [info] Real-time factor: 0.12398249643138587 (infer=0.413837267 sec, audio=3.3378684807256236 sec)
+[2026-10-25 07:57:18.807] [piper] [info] Terminated piper
+[2026-10-25 07:57:19.230] [piper] [info] Loaded voice in 0.390050543 second(s)
+[2026-10-25 07:57:19.231] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day05/s07.wav
+[2026-10-25 07:57:19.757] [piper] [info] Real-time factor: 0.12499543658235858 (infer=0.519527518 sec, audio=4.156371882086168 sec)
+[2026-10-25 07:57:19.757] [piper] [info] Terminated piper
+[2026-10-25 07:57:20.182] [piper] [info] Loaded voice in 0.389451947 second(s)
+[2026-10-25 07:57:20.182] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day05/s08.wav
+[2026-10-25 07:57:20.452] [piper] [info] Real-time factor: 0.12964190568070844 (infer=0.264904567 sec, audio=2.043356009070295 sec)
+[2026-10-25 07:57:20.452] [piper] [info] Terminated piper
+[2026-10-25 07:57:20.877] [piper] [info] Loaded voice in 0.389916063 second(s)
+[2026-10-25 07:57:20.877] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day05/s09.wav
+[2026-10-25 07:57:21.325] [piper] [info] Real-time factor: 0.12701188417284012 (infer=0.441644226 sec, audio=3.4771882086167802 sec)
+[2026-10-25 07:57:21.325] [piper] [info] Terminated piper
+[2026-10-25 07:57:21.750] [piper] [info] Loaded voice in 0.389995251 second(s)
+[2026-10-25 07:57:21.750] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day05/s10.wav
+[2026-10-25 07:57:22.021] [piper] [info] Real-time factor: 0.12503652084042916 (infer=0.26638166 sec, audio=2.1304308390022677 sec)
+[2026-10-25 07:57:22.021] [piper] [info] Terminated piper
+[2026-10-25 07:57:22.452] [piper] [info] Loaded voice in 0.395147629 second(s)
+[2026-10-25 07:57:22.452] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day06/s01.wav
+[2026-10-25 07:57:22.861] [piper] [info] Real-time factor: 0.12428968616892952 (infer=0.401875622 sec, audio=3.2333786848072563 sec)
+[2026-10-25 07:57:22.861] [piper] [info] Terminated piper
+[2026-10-25 07:57:23.290] [piper] [info] Loaded voice in 0.393843645 second(s)
+[2026-10-25 07:57:23.290] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day06/s02.wav
+[2026-10-25 07:57:23.486] [piper] [info] Real-time factor: 0.12826475079644942 (infer=0.191355884 sec, audio=1.4918820861678004 sec)
+[2026-10-25 07:57:23.486] [piper] [info] Terminated piper
+[2026-10-25 07:57:23.909] [piper] [info] Loaded voice in 0.38795835 second(s)
+[2026-10-25 07:57:23.910] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day06/s03.wav
+[2026-10-25 07:57:24.450] [piper] [info] Real-time factor: 0.12406700592737854 (infer=0.533673804 sec, audio=4.3014965986394555 sec)
+[2026-10-25 07:57:24.450] [piper] [info] Terminated piper
+[2026-10-25 07:57:24.880] [piper] [info] Loaded voice in 0.394344209 second(s)
+[2026-10-25 07:57:24.880] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day06/s04.wav
+[2026-10-25 07:57:25.565] [piper] [info] Real-time factor: 0.12659877254482443 (infer=0.677581893 sec, audio=5.352199546485261 sec)
+[2026-10-25 07:57:25.565] [piper] [info] Terminated piper
+[2026-10-25 07:57:25.988] [piper] [info] Loaded voice in 0.387973405 second(s)
+[2026-10-25 07:57:25.989] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day06/s05.wav
+[2026-10-25 07:57:26.327] [piper] [info] Real-time factor: 0.12287554542901691 (infer=0.332393675 sec, audio=2.705124716553288 sec)
+[2026-10-25 07:57:26.327] [piper] [info] Terminated piper
+[2026-10-25 07:57:26.756] [piper] [info] Loaded voice in 0.392165236 second(s)
+[2026-10-25 07:57:26.757] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day06/s06.wav
+[2026-10-25 07:57:27.287] [piper] [info] Real-time factor: 0.12037701655592875 (infer=0.523391625 sec, audio=4.347936507936508 sec)
+[2026-10-25 07:57:27.287] [piper] [info] Terminated piper
+[2026-10-25 07:57:27.716] [piper] [info] Loaded voice in 0.393370052 second(s)
+[2026-10-25 07:57:27.716] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day06/s07.wav
+[2026-10-25 07:57:28.215] [piper] [info] Real-time factor: 0.1225889841847679 (infer=0.492446343 sec, audio=4.017052154195011 sec)
+[2026-10-25 07:57:28.215] [piper] [info] Terminated piper
+[2026-10-25 07:57:28.639] [piper] [info] Loaded voice in 0.389689638 second(s)
+[2026-10-25 07:57:28.639] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day06/s08.wav
+[2026-10-25 07:57:28.938] [piper] [info] Real-time factor: 0.125684929041951 (infer=0.294028634 sec, audio=2.3394104308390022 sec)
+[2026-10-25 07:57:28.938] [piper] [info] Terminated piper
+[2026-10-25 07:57:29.366] [piper] [info] Loaded voice in 0.393078956 second(s)
+[2026-10-25 07:57:29.367] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day06/s09.wav
+[2026-10-25 07:57:29.745] [piper] [info] Real-time factor: 0.12436545299100653 (infer=0.372521063 sec, audio=2.995374149659864 sec)
+[2026-10-25 07:57:29.745] [piper] [info] Terminated piper
+[2026-10-25 07:57:30.172] [piper] [info] Loaded voice in 0.393575308 second(s)
+[2026-10-25 07:57:30.172] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day06/s10.wav
+[2026-10-25 07:57:30.445] [piper] [info] Real-time factor: 0.12569855875979222 (infer=0.267792086 sec, audio=2.1304308390022677 sec)
+[2026-10-25 07:57:30.445] [piper] [info] Terminated piper
+[2026-10-25 07:57:30.867] [piper] [info] Loaded voice in 0.386844711 second(s)
+[2026-10-25 07:57:30.868] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day07/s01.wav
+[2026-10-25 07:57:31.177] [piper] [info] Real-time factor: 0.12564590270914325 (infer=0.304877931 sec, audio=2.426485260770975 sec)
+[2026-10-25 07:57:31.177] [piper] [info] Terminated piper
+[2026-10-25 07:57:31.605] [piper] [info] Loaded voice in 0.391818586 second(s)
+[2026-10-25 07:57:31.605] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day07/s02.wav
+[2026-10-25 07:57:32.110] [piper] [info] Real-time factor: 0.12318643070525466 (infer=0.498421796 sec, audio=4.046077097505669 sec)
+[2026-10-25 07:57:32.110] [piper] [info] Terminated piper
+[2026-10-25 07:57:32.539] [piper] [info] Loaded voice in 0.394677366 second(s)
+[2026-10-25 07:57:32.540] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day07/s03.wav
+[2026-10-25 07:57:33.114] [piper] [info] Real-time factor: 0.1230465423705132 (infer=0.567141324 sec, audio=4.609160997732427 sec)
+[2026-10-25 07:57:33.114] [piper] [info] Terminated piper
+[2026-10-25 07:57:33.535] [piper] [info] Loaded voice in 0.386218804 second(s)
+[2026-10-25 07:57:33.535] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day07/s04.wav
+[2026-10-25 07:57:34.207] [piper] [info] Real-time factor: 0.12222037994666467 (infer=0.664080693 sec, audio=5.433469387755102 sec)
+[2026-10-25 07:57:34.207] [piper] [info] Terminated piper
+[2026-10-25 07:57:34.631] [piper] [info] Loaded voice in 0.389605749 second(s)
+[2026-10-25 07:57:34.631] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day07/s05.wav
+[2026-10-25 07:57:35.266] [piper] [info] Real-time factor: 0.12325029017290835 (infer=0.627464153 sec, audio=5.090975056689342 sec)
+[2026-10-25 07:57:35.266] [piper] [info] Terminated piper
+[2026-10-25 07:57:35.689] [piper] [info] Loaded voice in 0.38817269 second(s)
+[2026-10-25 07:57:35.690] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day07/s06.wav
+[2026-10-25 07:57:36.127] [piper] [info] Real-time factor: 0.12404984318395242 (infer=0.431344652 sec, audio=3.4771882086167802 sec)
+[2026-10-25 07:57:36.127] [piper] [info] Terminated piper
+[2026-10-25 07:57:36.552] [piper] [info] Loaded voice in 0.390016048 second(s)
+[2026-10-25 07:57:36.552] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day07/s07.wav
+[2026-10-25 07:57:37.079] [piper] [info] Real-time factor: 0.12405459867284886 (infer=0.519937859 sec, audio=4.191201814058957 sec)
+[2026-10-25 07:57:37.079] [piper] [info] Terminated piper
+[2026-10-25 07:57:37.503] [piper] [info] Loaded voice in 0.388824745 second(s)
+[2026-10-25 07:57:37.503] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day07/s08.wav
+[2026-10-25 07:57:37.758] [piper] [info] Real-time factor: 0.12660985715418197 (infer=0.249889387 sec, audio=1.9736961451247166 sec)
+[2026-10-25 07:57:37.758] [piper] [info] Terminated piper
+[2026-10-25 07:57:38.182] [piper] [info] Loaded voice in 0.388622437 second(s)
+[2026-10-25 07:57:38.182] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day07/s09.wav
+[2026-10-25 07:57:38.474] [piper] [info] Real-time factor: 0.1227524228486474 (infer=0.286455722 sec, audio=2.3336054421768706 sec)
+[2026-10-25 07:57:38.474] [piper] [info] Terminated piper
+skip day01
+skip day02
+skip day03
+day04 s01 3.5 s
+day04 s02 2.02 s
+day04 s03 3.64 s
+day04 s04 4.41 s
+day04 s05 3.07 s
+day04 s06 4.15 s
+day04 s07 1.87 s
+day04 s08 3.65 s
+day04 s09 3.57 s
+day04 s10 2.47 s
+done day04 32.358 s
+day05 s01 4.19 s
+day05 s02 5.21 s
+day05 s03 2.97 s
+day05 s04 5.4 s
+day05 s05 2.13 s
+day05 s06 3.46 s
+day05 s07 4.28 s
+day05 s08 2.16 s
+day05 s09 3.6 s
+day05 s10 2.25 s
+done day05 35.644 s
+day06 s01 3.47 s
+day06 s02 1.61 s
+day06 s03 4.42 s
+day06 s04 5.47 s
+day06 s05 2.83 s
+day06 s06 4.59 s
+day06 s07 4.14 s
+day06 s08 2.46 s
+day06 s09 3.12 s
+day06 s10 2.25 s
+done day06 34.352 s
+day07 s01 2.55 s
+day07 s02 4.17 s
+day07 s03 4.73 s
+day07 s04 5.55 s
+day07 s05 5.21 s
+day07 s06 3.6 s
+day07 s07 4.31 s
+day07 s08 2.09 s
+day07 s09 2.45 s
+done day07 34.661 s
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+asr: rien à faire
++ ls -la autopilot/tts/out autopilot/asr/out
++ head -40
+autopilot/asr/out:
+total 12
+drwxr-xr-x 2 runner runner 4096 Oct 25 07:56 .
+drwxr-xr-x 3 runner runner 4096 Oct 25 07:56 ..
+-rw-r--r-- 1 runner runner 3580 Oct 25 07:56 day01_vo.json
+
+autopilot/tts/out:
+total 36
+drwxr-xr-x 9 runner runner 4096 Oct 25 07:57 .
+drwxr-xr-x 4 runner runner 4096 Oct 25 07:56 ..
+drwxr-xr-x 2 runner runner 4096 Oct 25 07:56 day01
+drwxr-xr-x 2 runner runner 4096 Oct 25 07:56 day02
+drwxr-xr-x 2 runner runner 4096 Oct 25 07:56 day03
+drwxr-xr-x 2 runner runner 4096 Oct 25 07:57 day04
+drwxr-xr-x 2 runner runner 4096 Oct 25 07:57 day05
+drwxr-xr-x 2 runner runner 4096 Oct 25 07:57 day06
+drwxr-xr-x 2 runner runner 4096 Oct 25 07:57 day07

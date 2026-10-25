@@ -1,0 +1,77 @@
+{
+ "job": "day04",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta fenêtre en oscillo-battant tout l'hiver ? Mauvaise idée.",
+   "file": "s01.wav",
+   "duration": 3.502,
+   "rate": 44100
+  },
+  {
+   "id": "s02",
+   "text": "Tu chauffes surtout l'extérieur.",
+   "file": "s02.wav",
+   "duration": 2.018,
+   "rate": 44100
+  },
+  {
+   "id": "s03",
+   "text": "L'Office fédéral de la santé publique conseille autre chose.",
+   "file": "s03.wav",
+   "duration": 3.638,
+   "rate": 44100
+  },
+  {
+   "id": "s04",
+   "text": "Aérer trois fois par jour : le matin, à midi, et avant d'aller te coucher.",
+   "file": "s04.wav",
+   "duration": 4.41,
+   "rate": 44100
+  },
+  {
+   "id": "s05",
+   "text": "Fenêtres grandes ouvertes, au moins cinq minutes.",
+   "file": "s05.wav",
+   "duration": 3.069,
+   "rate": 44100
+  },
+  {
+   "id": "s06",
+   "text": "Et quand il fait très froid, ou avec un courant d'air, trois minutes suffisent.",
+   "file": "s06.wav",
+   "duration": 4.154,
+   "rate": 44100
+  },
+  {
+   "id": "s07",
+   "text": "Ensuite, tu refermes tout.",
+   "file": "s07.wav",
+   "duration": 1.873,
+   "rate": 44100
+  },
+  {
+   "id": "s08",
+   "text": "Bonus : ça limite l'humidité, et donc les moisissures.",
+   "file": "s08.wav",
+   "duration": 3.649,
+   "rate": 44100
+  },
+  {
+   "id": "s09",
+   "text": "Envoie ça à ton coloc qui laisse la fenêtre entrouverte.",
+   "file": "s09.wav",
+   "duration": 3.574,
+   "rate": 44100
+  },
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : je mesure tout.",
+   "file": "s10.wav",
+   "duration": 2.471,
+   "rate": 44100
+  }
+ ],
+ "total": 32.358
+}

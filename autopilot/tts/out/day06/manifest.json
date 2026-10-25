@@ -1,0 +1,77 @@
+{
+ "job": "day06",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Tu fais bouillir trop d'eau ? Ça peut te coûter vingt francs par an.",
+   "file": "s01.wav",
+   "duration": 3.473,
+   "rate": 44100
+  },
+  {
+   "id": "s02",
+   "text": "Le calcul est simple.",
+   "file": "s02.wav",
+   "duration": 1.612,
+   "rate": 44100
+  },
+  {
+   "id": "s03",
+   "text": "Chauffer un litre d'eau de quinze à cent degrés, c'est environ cent wattheures.",
+   "file": "s03.wav",
+   "duration": 4.421,
+   "rate": 44100
+  },
+  {
+   "id": "s04",
+   "text": "Au tarif moyen suisse de 2026, vingt-sept virgule sept centimes le kilowattheure…",
+   "file": "s04.wav",
+   "duration": 5.472,
+   "rate": 44100
+  },
+  {
+   "id": "s05",
+   "text": "…un litre de trop, c'est près de trois centimes.",
+   "file": "s05.wav",
+   "duration": 2.825,
+   "rate": 44100
+  },
+  {
+   "id": "s06",
+   "text": "Deux fois par jour, toute l'année : vingt francs. Et c'est sans compter les pertes.",
+   "file": "s06.wav",
+   "duration": 4.588,
+   "rate": 44100
+  },
+  {
+   "id": "s07",
+   "text": "L'astuce : verse d'abord l'eau dans ta tasse, puis dans la bouilloire.",
+   "file": "s07.wav",
+   "duration": 4.137,
+   "rate": 44100
+  },
+  {
+   "id": "s08",
+   "text": "Tu chauffes exactement ce qu'il faut.",
+   "file": "s08.wav",
+   "duration": 2.459,
+   "rate": 44100
+  },
+  {
+   "id": "s09",
+   "text": "Dis-moi en commentaire combien de tasses tu bois par jour.",
+   "file": "s09.wav",
+   "duration": 3.115,
+   "rate": 44100
+  },
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : je mesure tout.",
+   "file": "s10.wav",
+   "duration": 2.25,
+   "rate": 44100
+  }
+ ],
+ "total": 34.352
+}

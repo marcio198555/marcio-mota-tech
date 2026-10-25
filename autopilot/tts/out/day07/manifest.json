@@ -1,0 +1,70 @@
+{
+ "job": "day07",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ces deux câbles USB-C ont l'air identiques.",
+   "file": "s01.wav",
+   "duration": 2.546,
+   "rate": 44100
+  },
+  {
+   "id": "s02",
+   "text": "Pourtant, l'un plafonne à soixante watts, l'autre peut monter à deux cent quarante.",
+   "file": "s02.wav",
+   "duration": 4.166,
+   "rate": 44100
+  },
+  {
+   "id": "s03",
+   "text": "Un câble USB-C normal supporte trois ampères sous vingt volts : soixante watts.",
+   "file": "s03.wav",
+   "duration": 4.729,
+   "rate": 44100
+  },
+  {
+   "id": "s04",
+   "text": "Au-delà, il faut un câble cinq ampères : jusqu'à cent watts, et même deux cent quarante en quarante-huit volts.",
+   "file": "s04.wav",
+   "duration": 5.553,
+   "rate": 44100
+  },
+  {
+   "id": "s05",
+   "text": "Et pour les données, certains câbles restent en USB 2 : quatre cent quatre-vingts mégabits par seconde.",
+   "file": "s05.wav",
+   "duration": 5.211,
+   "rate": 44100
+  },
+  {
+   "id": "s06",
+   "text": "Les plus rapides montent à quarante, voire quatre-vingts gigabits.",
+   "file": "s06.wav",
+   "duration": 3.597,
+   "rate": 44100
+  },
+  {
+   "id": "s07",
+   "text": "Regarde l'emballage : les câbles certifiés affichent les watts et la vitesse.",
+   "file": "s07.wav",
+   "duration": 4.311,
+   "rate": 44100
+  },
+  {
+   "id": "s08",
+   "text": "Garde ça pour le Black Friday.",
+   "file": "s08.wav",
+   "duration": 2.094,
+   "rate": 44100
+  },
+  {
+   "id": "s09",
+   "text": "Et abonne-toi : je mesure tout.",
+   "file": "s09.wav",
+   "duration": 2.454,
+   "rate": 44100
+  }
+ ],
+ "total": 34.661
+}
