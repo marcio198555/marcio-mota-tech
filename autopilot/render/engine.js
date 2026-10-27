@@ -230,7 +230,7 @@
       ctx.save(); ctx.globalAlpha *= clamp(k * 2); ctx.translate(520, 790); ctx.scale(0.9 + 0.1 * k, 0.9 + 0.1 * k);
       roundRect(ctx, -410, -105, 820, 92 + o.next.length * 66, 34); ctx.fillStyle = 'rgba(201,168,76,0.14)'; ctx.fill();
       ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(230,198,106,0.55)'; ctx.stroke();
-      text(ctx, 'DEMAIN', 0, -62, { size: 38, family: F.mono, weight: 700, color: C.gold2, letter: 6 });
+      text(ctx, o.when || 'DEMAIN', 0, -62, { size: 38, family: F.mono, weight: 700, color: C.gold2, letter: 6 });
       o.next.forEach((ln, i) => text(ctx, ln, 0, 4 + i * 66, { size: 54, weight: 900, color: C.white, maxWidth: 780 }));
       ctx.restore();
       by = 790 - 105 + 92 + o.next.length * 66 + 95;
