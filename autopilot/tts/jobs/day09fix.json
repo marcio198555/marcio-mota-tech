@@ -1,0 +1,14 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s04",
+   "text": "Mais pour l'usure de tes oreilles, c'est l'énergie qui compte : à chaque plus trois décibels, la durée d'écoute tolérée est divisée par deux."
+  },
+  {
+   "id": "s06",
+   "text": "Avec un casque, à quatre-vingt-quinze décibels, ton oreille tolère au maximum quatre heures de musique par semaine."
+  }
+ ]
+}

@@ -45,7 +45,7 @@
         const k = ease.back(prog(t, tNon + 0.5, 0.4));
         if (k > 0.001) {
           ctx.save(); ctx.translate(520, 900); ctx.scale(k, k);
-          text(ctx, '2× PLUS FORT', 0, 0, { size: 120, weight: 900, color: C.red2, shadow: 'rgba(255,59,78,0.45)', shadowBlur: 40, maxWidth: 820 });
+          text(ctx, '2× PLUS FORT', 0, 0, { size: 120, weight: 900, color: C.red2, shadow: 'rgba(255,59,78,0.45)', shadowBlur: 40, maxWidth: 740 });
           ctx.restore();
           text(ctx, 'pour ton oreille', 520, 1030, { size: 56, weight: 800, color: C.white, alpha: clamp(k) });
         }
@@ -71,7 +71,7 @@
 
       // +3 dB = durée ÷ 2
       block(ctx, t, S('s04'), S('s06'), () => {
-        text(ctx, 'DURÉE D\'ÉCOUTE', 520, 420, { size: 78, weight: 900, color: C.white, maxWidth: 820 });
+        text(ctx, 'DURÉE TOLÉRÉE', 520, 420, { size: 78, weight: 900, color: C.white, maxWidth: 820 });
         text(ctx, 'à chaque +3 dB : ÷ 2', 520, 510, { size: 56, weight: 900, color: C.gold2, maxWidth: 820 });
         [['niveau L', 1, C.green], ['L + 3 dB', 0.5, C.gold], ['L + 6 dB', 0.25, C.red2], ['L + 9 dB', 0.125, C.red2]].forEach(([lb, w, col], i) => {
           const k = ease.out(prog(t, S('s04') + 0.6 + i * 0.35, 0.5));
@@ -83,8 +83,8 @@
       // Casque : 95 dB ≈ 4 h / semaine
       block(ctx, t, S('s06'), S('s07'), () => {
         text(ctx, '🎧', 520, 520, { size: 200, family: F.emoji, weight: 400 });
-        text(ctx, '95 dB', 520, 770, { size: 170, weight: 900, color: C.red2 });
-        text(ctx, '≈ 4 h / SEMAINE', 520, 920, { size: 90, weight: 900, color: C.white, maxWidth: 820 });
+        text(ctx, '95 dB(A)', 520, 770, { size: 150, weight: 900, color: C.red2, maxWidth: 800 });
+        text(ctx, '4 h / SEMAINE MAX', 520, 920, { size: 86, weight: 900, color: C.white, maxWidth: 820 });
         chip(ctx, 'SOURCE : SUVA', 520, 1050, { color: C.fg, size: 36, dot: C.red });
       });
 
@@ -94,8 +94,8 @@
         text(ctx, '−3 dB', 520, 520, { size: 170, weight: 900, color: C.green });
         roundRect(ctx, 190, 700, 700, 50, 25); ctx.fillStyle = '#0b1220'; ctx.fill();
         roundRect(ctx, 190, 700, lerp(350, 700, k), 50, 25); ctx.fillStyle = C.green; ctx.fill();
-        text(ctx, lerp(4, 8, k) >= 7.99 ? '≈ 8 h / semaine' : '≈ 4 h / semaine', 520, 840, { size: 70, weight: 900, color: C.white });
-        text(ctx, 'à 92 dB · calcul : 4 h × 2', 520, 940, { size: 40, family: F.mono, weight: 700, color: W80 });
+        text(ctx, k >= 0.999 ? '8 h / semaine max' : '4 h / semaine max', 520, 840, { size: 70, weight: 900, color: C.white });
+        text(ctx, k >= 0.999 ? 'à 92 dB(A) · calcul : 4 h × 2' : 'à 95 dB(A)', 520, 940, { size: 40, family: F.mono, weight: 700, color: W80 });
       });
 
       // Partage
