@@ -1,0 +1,70 @@
+{
+ "job": "day08",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Tu fermes toutes tes applis pour économiser ta batterie ? Arrête.",
+   "file": "s01.wav",
+   "duration": 4.019,
+   "rate": 44100
+  },
+  {
+   "id": "s02",
+   "text": "Apple l'écrit noir sur blanc : ne ferme une app que si elle ne répond pas.",
+   "file": "s02.wav",
+   "duration": 4.067,
+   "rate": 44100
+  },
+  {
+   "id": "s03",
+   "text": "Et pour Android, Google précise que même sans fermer tes applis, tu ne manqueras ni de mémoire, ni de batterie.",
+   "file": "s03.wav",
+   "duration": 6.012,
+   "rate": 44100
+  },
+  {
+   "id": "s04",
+   "text": "Ton téléphone gère tout seul les applis en arrière-plan.",
+   "file": "s04.wav",
+   "duration": 3.005,
+   "rate": 44100
+  },
+  {
+   "id": "s05",
+   "text": "Et une appli fermée repart de zéro quand tu la rouvres : c'est plus lent.",
+   "file": "s05.wav",
+   "duration": 4.131,
+   "rate": 44100
+  },
+  {
+   "id": "s06",
+   "text": "Ce qui vide vraiment ta batterie, tu le vois dans Réglages, Batterie : les applis qui consomment le plus.",
+   "file": "s06.wav",
+   "duration": 5.437,
+   "rate": 44100
+  },
+  {
+   "id": "s07",
+   "text": "Et pour gagner de l'autonomie, Apple conseille plutôt d'activer la luminosité automatique.",
+   "file": "s07.wav",
+   "duration": 5.083,
+   "rate": 44100
+  },
+  {
+   "id": "s08",
+   "text": "Envoie ça à celui qui ferme ses applis toutes les cinq minutes.",
+   "file": "s08.wav",
+   "duration": 3.58,
+   "rate": 44100
+  },
+  {
+   "id": "s09",
+   "text": "Et abonne-toi : ce soir, l'erreur de fenêtre que tout le monde fait en hiver.",
+   "file": "s09.wav",
+   "duration": 4.613,
+   "rate": 44100
+  }
+ ],
+ "total": 39.947
+}
