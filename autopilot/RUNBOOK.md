@@ -1,11 +1,17 @@
 # Autopilot TikTok @marcio.mota8 — procédure hebdomadaire (chaque vendredi)
 
-Ce document est suivi par la tâche programmée « Autopilot TikTok : bilan + 7 vidéos de la semaine (vendredi) »
-(chaque vendredi à 5 h 37, heure de Zurich). Chaque exécution démarre dans une session neuve : tout ce qu'il
-faut savoir est ici, dans `ENGINE.md`, `plan.json` et `learnings.md`.
+Ce document est suivi par deux tâches programmées, chaque vendredi (heure de Zurich), qui démarrent chacune
+dans une session neuve : tout ce qu'il faut savoir est ici, dans `ENGINE.md`, `plan.json` et `learnings.md`.
+- **5 h 37 — « Autopilot TikTok : bilan + 7 vidéos du matin (vendredi) »** : bilan de la semaine (§ 2), plan des
+  14 créneaux de la semaine (§ 3), puis production et programmation des 7 vidéos de **10 h** (vendredi → jeudi).
+- **11 h 37 — « Autopilot TikTok : 7 vidéos du soir (vendredi) »** : lit le plan fixé à 5 h 37 et produit les
+  7 vidéos de **18 h** (vendredi → jeudi). Ne refait ni le bilan ni le plan, sauf si le plan du matin manque
+  (alors : le faire d'abord, en suivant § 3).
 
-**Rythme voulu par Marcio** : une vidéo par jour. Chaque vendredi : bilan de la semaine écoulée, puis
-production et programmation des 7 vidéos du vendredi au jeudi suivant. Jamais plus de 7 jours d'avance.
+**Rythme voulu par Marcio (27.10.2026)** : **2 vidéos par jour, à 10 h et 18 h**, soit 14 par semaine, toutes
+produites par l'autopilote (aucune autre source de vidéos TikTok). Jamais plus de 7 jours d'avance.
+Si Metricool contient des publications TikTok qui ne viennent pas de l'autopilote, ne pas y toucher et le
+signaler à Marcio dans le message final.
 **Objectif n° 1 : gagner des abonnés et des vues.** Chaque décision se juge à cette aune.
 
 ## 0. Règles non négociables
@@ -53,14 +59,17 @@ production et programmation des 7 vidéos du vendredi au jeudi suivant. Jamais p
    heure, hashtags, fin de vidéo). Garder un test A/B à la fois (ex. heure 10 h contre 18 h).
 4. Visites du profil élevées mais peu d'abonnés → proposer à Marcio une bio plus claire (il la colle lui-même).
 
-## 3. Choisir les 7 sujets
+## 3. Choisir les 14 sujets (tâche de 5 h 37)
 - Partir des entrées « idée » de `plan.json` et des enseignements ; remplacer celles qui ressemblent aux vidéos
   qui ont le moins marché. 2 ou 3 recherches web sur les formats TikTok tech / maison / gadgets qui marchent
   en ce moment (mécaniques : le calcul qui choque, la fonction cachée, le mythe démonté, le comparatif chiffré,
   « tu le fais mal depuis toujours »). Sujets utiles et vérifiables, ancrés Suisse quand c'est possible.
-- Le sujet du vendredi est déjà annoncé à la fin de la vidéo du jeudi : vérifier `plan.json` (`annoncee: true`)
-  et le garder.
-- Mettre à jour les 7 entrées de `plan.json` (date, sujet, mécanique, accroche, a_verifier, argent, statut « à produire »).
+- Le sujet du vendredi 10 h est déjà annoncé à la fin de la vidéo du jeudi 18 h : vérifier `plan.json`
+  (`annoncee: true`) et le garder.
+- Écrire les 14 entrées de `plan.json` (une par créneau : `jour` = numéro de vidéo, `date`, `heure` « 10:00 » ou
+  « 18:00 », sujet, mécanique, accroche, a_verifier, argent, `annonce` = sujet de la vidéo suivante, statut
+  « à produire »), commit + push AVANT de produire : la tâche de 11 h 37 en dépend.
+- Alterner les mécaniques dans la journée (ex. matin « mythe démonté », soir « calcul qui choque »).
 
 ## 4. Vérifier les faits
 - Chaque point de `a_verifier` : WebSearch puis WebFetch sur la page officielle.
@@ -70,9 +79,10 @@ production et programmation des 7 vidéos du vendredi au jeudi suivant. Jamais p
 ## 5. Écrire
 - Script : 9 à 11 segments, 85 à 105 mots, 30 à 38 s. Segment 1 = l'accroche (le chiffre ou le contre-pied),
   dite dès 0,12 s. Avant-dernier segment = appel à commenter, enregistrer ou partager.
-- **Dernier segment = annonce du lendemain** : « Et abonne-toi : demain, <sujet du lendemain formulé en
-  curiosité>. » (c'est la raison concrète de s'abonner). La vidéo du jeudi annonce celle du vendredi suivant :
-  marquer cette entrée `annoncee: true` dans `plan.json`.
+- **Dernier segment = annonce de la vidéo suivante** : vidéo de 10 h → « Et abonne-toi : ce soir, <sujet de
+  18 h en curiosité>. » ; vidéo de 18 h → « Et abonne-toi : demain, <sujet du lendemain 10 h>. » (c'est la raison
+  concrète de s'abonner). Carte de fin : `followCTA(..., { when: 'CE SOIR' ou 'DEMAIN', next: [ligne 1, ligne 2] })`.
+  La vidéo du jeudi 18 h annonce celle du vendredi 10 h : marquer cette entrée `annoncee: true`.
 - Nombres écrits en toutes lettres dans le texte dit (Piper les lit mieux).
 - Job voix : `autopilot/tts/jobs/dayNN.json` (voix `fr_FR-tom-medium`, `length_scale` 0.88).
   On peut mettre plusieurs jours dans un seul push. Commit sans `[skip-bridge]` + push : le pont GitHub Actions
@@ -107,7 +117,7 @@ production et programmation des 7 vidéos du vendredi au jeudi suivant. Jamais p
 2. Cloudinary `upload-asset` depuis `https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/<hash>/media/<fichier>`
    (public_id `tiktok-autopilot/dayNN_<slug>`).
 3. Metricool `createScheduledPost` : blogId 6563196, providers tiktok, date prévue à l'heure retenue
-   (10:00 par défaut, Europe/Zurich), `tiktokData` : `title` (obligatoire), `isAigc: true`,
+   (10:00 ou 18:00 selon le créneau, Europe/Zurich), `tiktokData` : `title` (obligatoire), `isAigc: true`,
    `privacyOption: PUBLIC_TO_EVERYONE` ; `videoCoverMilliseconds` sur l'image d'accroche (≈ 1200) ;
    texte = 2-3 phrases avec les mots que les gens tapent dans la recherche + question + 8 à 10 hashtags
    (niche + génériques, dont #apprendresurtiktok #pourtoi #fyp).
