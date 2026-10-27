@@ -2,6 +2,11 @@
 (function () {
   const { C, F, clamp, lerp, ease, prog, S, E, background, text, roundRect, chip, captions, brand, block, followCTA, bookmark } = ENG;
   const END = E('s09') + 0.55;
+  function wordAt(id, word, frac) {
+    const sg = ENG.segById(id) || {}; const w = (sg.words || []).find(x => x[2] && x[2].replace(/[.,!?\u202f\u00a0:]/g, '').toLowerCase().startsWith(word));
+    return w ? w[0] : S(id) + (E(id) - S(id)) * frac;
+  }
+  const t240 = wordAt('s04', '240', 0.4), tSeul = wordAt('s04', 'seulement', 0.65);
 
   function cable(ctx, x, y, len, rot, color) {
     ctx.save(); ctx.translate(x, y); ctx.rotate(rot);
@@ -49,11 +54,11 @@
       block(ctx, t, S('s04'), S('s05'), () => {
         chip(ctx, 'CÂBLE 5 A', 520, 420, { color: C.gold, size: 38, dot: C.gold });
         text(ctx, '5 A × 20 V = 100 W', 520, 620, { size: 76, family: F.mono, weight: 700, color: C.white, maxWidth: 900 });
-        const k = ease.back(prog(t, S('s04') + 1.6, 0.4));
+        const k = ease.back(prog(t, t240 - 0.1, 0.4)), ks = ease.out(prog(t, tSeul - 0.1, 0.3));
         if (k > 0.001) { ctx.save(); ctx.translate(520, 800); ctx.scale(k, k);
           text(ctx, '5 A × 48 V', 0, 0, { size: 76, family: F.mono, weight: 700, color: C.white }); ctx.restore();
           text(ctx, '= 240 W', 520, 950, { size: 150, weight: 900, color: C.gold2, alpha: clamp(k) });
-          chip(ctx, 'SEULEMENT CÂBLE CERTIFIÉ 240 W', 520, 1100, { color: C.red2, size: 38, dot: C.red, alpha: clamp(k) }); }
+          if (ks > 0.001) chip(ctx, 'SEULEMENT CÂBLE CERTIFIÉ 240 W', 520, 1100, { color: C.red2, size: 38, dot: C.red, alpha: clamp(ks) }); }
       });
 
       // Données : 480 Mbit/s vs 40/80 Gbit/s
