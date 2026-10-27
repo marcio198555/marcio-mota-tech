@@ -103,7 +103,7 @@
             const k = ease.out(prog(t, S('s06') + 0.4 + i * 0.25, 0.5));
             const ry = y + 190 + i * 120;
             ctx.fillStyle = `hsl(${[210, 330, 140, 40][i]},55%,50%)`; roundRect(ctx, x + 30, ry - 30, 60, 60, 16); ctx.fill();
-            text(ctx, lb, x + 110, ry - 12, { size: 34, weight: 700, color: C.fg, align: 'left' });
+            text(ctx, lb, x + 110, ry - 12, { size: 36, weight: 700, color: C.fg, align: 'left' });
             roundRect(ctx, x + 110, ry + 14, w - 150, 16, 8); ctx.fillStyle = '#1d2a44'; ctx.fill();
             roundRect(ctx, x + 110, ry + 14, Math.max(16, (w - 150) * v * k), 16, 8); ctx.fillStyle = i === 0 ? C.red2 : C.gold; ctx.fill();
           });

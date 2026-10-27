@@ -147,7 +147,7 @@
       if (best[q - 1][i] >= INF) continue;
       const w = lineW(i, j); if (w > maxW && j - i > 1) continue;
       // une ligne (sauf la dernière) ne finit jamais par un article, une préposition ou un possessif
-      const lastW = words[j - 1][2].toLowerCase().replace(/[\u00a0\u202f].*$/, '');
+      const parts = words[j - 1][2].split(/[\u00a0\u202f]/).filter(q => /[\p{L}\d]/u.test(q)); const lastW = (parts[parts.length - 1] || '').toLowerCase();
       const pen = (j < m && (SOFT.has(lastW) || /^[\d\s\u202f,]+$/.test(words[j - 1][2]))) ? maxW : 0;
       const v = Math.max(best[q - 1][i], w + pen); if (v < best[q][j]) { best[q][j] = v; prev[q][j] = i; }
     }
