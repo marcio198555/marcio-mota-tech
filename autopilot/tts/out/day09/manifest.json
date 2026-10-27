@@ -1,0 +1,70 @@
+{
+ "job": "day09",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "De soixante-dix à quatre-vingts décibels : quatorze pour cent de plus ? Non. Pour ton oreille, c'est deux fois plus fort.",
+   "file": "s01.wav",
+   "duration": 7.442,
+   "rate": 44100
+  },
+  {
+   "id": "s02",
+   "text": "Les décibels, c'est une échelle logarithmique : plus trois décibels, c'est déjà deux fois plus d'énergie sonore.",
+   "file": "s02.wav",
+   "duration": 6.0,
+   "rate": 44100
+  },
+  {
+   "id": "s03",
+   "text": "Et d'après la Suva, il faut plus dix décibels pour que le son paraisse deux fois plus fort.",
+   "file": "s03.wav",
+   "duration": 4.601,
+   "rate": 44100
+  },
+  {
+   "id": "s04",
+   "text": "Pour tes oreilles, c'est l'énergie qui compte : à chaque plus trois décibels, la durée d'écoute supportable est divisée par deux.",
+   "file": "s04.wav",
+   "duration": 6.25,
+   "rate": 44100
+  },
+  {
+   "id": "s05",
+   "text": "Au travail, la Suva rend les protections auditives obligatoires dès quatre-vingt-cinq décibels.",
+   "file": "s05.wav",
+   "duration": 5.321,
+   "rate": 44100
+  },
+  {
+   "id": "s06",
+   "text": "Avec un casque, ton oreille supporte de la musique à quatre-vingt-quinze décibels environ quatre heures par semaine.",
+   "file": "s06.wav",
+   "duration": 5.71,
+   "rate": 44100
+  },
+  {
+   "id": "s07",
+   "text": "Baisse de trois décibels, et tu doubles ce temps.",
+   "file": "s07.wav",
+   "duration": 2.877,
+   "rate": 44100
+  },
+  {
+   "id": "s08",
+   "text": "Envoie ça à celui qui met le son à fond dans le bus.",
+   "file": "s08.wav",
+   "duration": 2.912,
+   "rate": 44100
+  },
+  {
+   "id": "s09",
+   "text": "Et abonne-toi : ce soir, l'erreur de fenêtre que tout le monde fait en hiver.",
+   "file": "s09.wav",
+   "duration": 4.555,
+   "rate": 44100
+  }
+ ],
+ "total": 45.668
+}
