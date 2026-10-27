@@ -1,0 +1,42 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Tu fermes toutes tes applis pour économiser ta batterie ? Arrête."
+  },
+  {
+   "id": "s02",
+   "text": "Apple l'écrit noir sur blanc : ne ferme une app que si elle ne répond pas."
+  },
+  {
+   "id": "s03",
+   "text": "Et pour Android, Google précise que même sans fermer tes applis, tu ne manqueras ni de mémoire, ni de batterie."
+  },
+  {
+   "id": "s04",
+   "text": "Ton téléphone gère tout seul les applis en arrière-plan."
+  },
+  {
+   "id": "s05",
+   "text": "Et une appli fermée repart de zéro quand tu la rouvres : c'est plus lent."
+  },
+  {
+   "id": "s06",
+   "text": "Ce qui vide vraiment ta batterie, tu le vois dans Réglages, Batterie : les applis qui consomment le plus."
+  },
+  {
+   "id": "s07",
+   "text": "Et pour gagner de l'autonomie, Apple conseille plutôt d'activer la luminosité automatique."
+  },
+  {
+   "id": "s08",
+   "text": "Envoie ça à celui qui ferme ses applis toutes les cinq minutes."
+  },
+  {
+   "id": "s09",
+   "text": "Et abonne-toi : ce soir, l'erreur de fenêtre que tout le monde fait en hiver."
+  }
+ ]
+}
