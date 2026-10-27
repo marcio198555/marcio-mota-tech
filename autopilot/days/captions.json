@@ -50,9 +50,28 @@
  },
  "7": {
   "title": "Câbles USB-C : 60 W ou 240 W ?",
-  "text": "Deux câbles USB-C identiques… 60 W ou 240 W ⚡ Un câble USB-C normal : 3 A sous 20 V = 60 W. Un câble 5 A : jusqu'à 100 W, et 240 W en 48 V. Côté données, certains restent en USB 2 (480 Mbit/s), d'autres montent à 40 ou 80 Gbit/s. Regarde l'emballage : les câbles certifiés affichent les watts et la vitesse.\n\nGarde ça pour le Black Friday 🔖\n\n#usbc #cable #chargeur #blackfriday #astucetech #smartphone #tech #apprendresurtiktok #pourtoi #fyp",
+  "text": "Deux câbles USB-C identiques… 60 W ou 240 W ⚡ Un câble USB-C normal : 3 A sous 20 V = 60 W. Un câble 5 A : jusqu'à 100 W, et 240 W en 48 V. Côté données, certains restent en USB 2 (480 Mbit/s), d'autres montent à 40 ou 80 Gbit/s. Regarde l'emballage : les câbles certifiés affichent les watts et la vitesse.\n\nGarde ça pour le Black Friday 🔖\n\nDemain : ce que te coûte l'eau en trop dans ta bouilloire 💧 Abonne-toi pour ne pas le rater.\n\n#usbc #cable #chargeur #blackfriday #astucetech #smartphone #tech #apprendresurtiktok #pourtoi #fyp",
   "sources": [
    "https://learn.adafruit.com/understanding-usb-type-c-cable-types-pitfalls-and-more/usb-power-delivery-usb-pd"
+  ]
+ },
+ "8": {
+  "title": "Arrête de fermer tes applis : ça n'économise pas ta batterie",
+  "text": "Fermer tes applis pour économiser ta batterie ? Arrête 🔋 Apple l'écrit dans son assistance : « Ne fermez une app que si elle ne répond pas. » Google, pour Android : même sans fermer tes applis, tu ne manqueras ni de mémoire ni de batterie, le système gère tout seul. Et une appli fermée redémarre de zéro, c'est plus lent. Ce qui vide vraiment ta batterie se voit dans Réglages › Batterie. Le conseil d'Apple : active la luminosité automatique.\n\nEnvoie ça à celui qui ferme ses applis toutes les 5 minutes 😅\n\nDemain : pourquoi +10 dB paraît 2 fois plus fort 🔊 Abonne-toi pour ne pas le rater.\n\n#batterie #iphone #android #astucetech #smartphone #astuceiphone #tech #apprendresurtiktok #pourtoi #fyp",
+  "sources": [
+   "https://support.apple.com/fr-ch/HT201330",
+   "https://support.google.com/android/answer/9079646",
+   "https://developer.android.com/topic/performance/vitals/launch-time",
+   "https://www.apple.com/fr/batteries/maximizing-performance/"
+  ]
+ },
+ "9": {
+  "title": "+10 dB, ça paraît 2 fois plus fort",
+  "text": "De 70 à 80 dB, ce n'est pas +14 % : pour ton oreille, c'est 2 fois plus fort 🔊 D'après la Suva, +3 dB = 2 fois plus d'énergie sonore, il faut +10 dB pour doubler le volume perçu, et chaque +3 dB divise par 2 la durée d'écoute supportable. Au casque, 95 dB, c'est environ 4 heures par semaine ; baisse de 3 dB et tu doubles ce temps.\n\nEnvoie ça à celui qui met le son à fond dans le bus 🎧\n\nCe soir : l'erreur de fenêtre que tout le monde fait en hiver 🪟 Abonne-toi pour ne pas la rater.\n\n#decibel #audition #casque #musique #bruit #sante #suisse #apprendresurtiktok #pourtoi #fyp",
+  "sources": [
+   "Suva, « Musique et troubles de l'ouïe » (p. 4 et 11) : https://hem.hesge.ch/sites/hem/files/2024-01/SUVA,%20Musique%20et%20troubles%20de%20l'ou%C3%AFe.pdf",
+   "https://www.bruit.fr/images/stories/pdf/A1_decibel_bruit.pdf",
+   "Calcul : 80 ÷ 70 ≈ 1,14 (+14 % sur le chiffre affiché, pas sur le son perçu)"
   ]
  }
 }
