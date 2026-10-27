@@ -1,0 +1,21 @@
+{
+ "job": "day07fix",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s04",
+   "text": "Au-delà, il faut un câble cinq ampères : jusqu'à cent watts. Et deux cent quarante watts en quarante-huit volts, seulement avec un câble certifié deux cent quarante watts.",
+   "file": "s04.wav",
+   "duration": 8.762,
+   "rate": 44100
+  },
+  {
+   "id": "s07",
+   "text": "Regarde l'emballage : les câbles certifiés affichent les watts, et souvent la vitesse.",
+   "file": "s07.wav",
+   "duration": 4.985,
+   "rate": 44100
+  }
+ ],
+ "total": 13.747
+}
