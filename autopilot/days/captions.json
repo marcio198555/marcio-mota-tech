@@ -50,9 +50,10 @@
  },
  "7": {
   "title": "Câbles USB-C : 60 W ou 240 W ?",
-  "text": "Deux câbles USB-C identiques… 60 W ou 240 W ⚡ Un câble USB-C normal : 3 A sous 20 V = 60 W. Un câble 5 A : jusqu'à 100 W, et 240 W en 48 V. Côté données, certains restent en USB 2 (480 Mbit/s), d'autres montent à 40 ou 80 Gbit/s. Regarde l'emballage : les câbles certifiés affichent les watts et la vitesse.\n\nGarde ça pour le Black Friday 🔖\n\nDemain : ce que te coûte l'eau en trop dans ta bouilloire 💧 Abonne-toi pour ne pas le rater.\n\n#usbc #cable #chargeur #blackfriday #astucetech #smartphone #tech #apprendresurtiktok #pourtoi #fyp",
+  "text": "Deux câbles USB-C identiques… 60 W ou 240 W ⚡ Un câble USB-C normal : 3 A sous 20 V = 60 W. Un câble 5 A : jusqu'à 100 W. Et 240 W en 48 V, seulement avec un câble certifié 240 W. Côté données, certains restent en USB 2 (480 Mbit/s), d'autres montent à 40 ou 80 Gbit/s. Regarde l'emballage : les câbles certifiés affichent les watts, et souvent la vitesse.\n\nGarde ça pour le Black Friday 🔖\n\nDemain : ce que te coûte l'eau en trop dans ta bouilloire 💧 Abonne-toi pour ne pas le rater.\n\n#usbc #cable #chargeur #blackfriday #astucetech #smartphone #tech #apprendresurtiktok #pourtoi #fyp",
   "sources": [
-   "https://learn.adafruit.com/understanding-usb-type-c-cable-types-pitfalls-and-more/usb-power-delivery-usb-pd"
+   "https://learn.adafruit.com/understanding-usb-type-c-cable-types-pitfalls-and-more/usb-power-delivery-usb-pd",
+   "https://usb.org/sites/default/files/trademark_license_agreement_licensed_mark_requirements_jan26_final_1.pdf"
   ]
  },
  "8": {
