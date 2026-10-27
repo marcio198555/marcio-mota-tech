@@ -1,0 +1,61 @@
+{
+ "duration": 36.325,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Tu fermes toutes tes applis pour économiser ta batterie ? Arrête.",
+   "start": 0.12,
+   "end": 3.622,
+   "display": "Tu fermes toutes tes applis | pour économiser ta batterie ? | Arrête."
+  },
+  {
+   "id": "s02",
+   "text": "Apple l'écrit noir sur blanc : ne ferme une app que si elle ne répond pas.",
+   "start": 3.922,
+   "end": 7.752,
+   "display": "Apple l'écrit noir sur blanc : | ne ferme une app que si elle ne répond pas."
+  },
+  {
+   "id": "s03",
+   "text": "Et pour Android, Google précise que même sans fermer tes applis, tu ne manqueras ni de mémoire, ni de batterie.",
+   "start": 8.002,
+   "end": 13.65,
+   "display": "Et pour Android, Google précise | que même sans fermer tes applis, | tu ne manqueras | ni de mémoire, ni de batterie."
+  },
+  {
+   "id": "s05",
+   "text": "Et une appli fermée repart de zéro quand tu la rouvres : c'est plus lent.",
+   "start": 13.95,
+   "end": 17.338,
+   "display": "Et une appli fermée repart de zéro | quand tu la rouvres : c'est plus lent."
+  },
+  {
+   "id": "s06",
+   "text": "Ce qui vide vraiment ta batterie, tu le vois dans Réglages, Batterie : les applis qui consomment le plus.",
+   "start": 17.588,
+   "end": 22.731,
+   "display": "Ce qui vide vraiment ta batterie, | tu le vois dans | Réglages › Batterie : | les applis qui consomment le plus."
+  },
+  {
+   "id": "s07",
+   "text": "Et pour gagner de l'autonomie, Apple conseille plutôt d'activer la luminosité automatique.",
+   "start": 22.981,
+   "end": 27.846,
+   "display": "Et pour gagner de l'autonomie, | Apple conseille plutôt | d'activer la luminosité automatique."
+  },
+  {
+   "id": "s08",
+   "text": "Envoie ça à celui qui ferme ses applis toutes les cinq minutes.",
+   "start": 28.146,
+   "end": 31.319,
+   "display": "Envoie ça à celui qui ferme ses applis | toutes les 5 minutes."
+  },
+  {
+   "id": "s09",
+   "text": "Et abonne-toi : demain, pourquoi plus dix décibels, ça paraît deux fois plus fort.",
+   "start": 31.519,
+   "end": 36.005,
+   "display": "Et abonne-toi : | demain, pourquoi +10 dB | ça paraît 2 fois plus fort."
+  }
+ ]
+}

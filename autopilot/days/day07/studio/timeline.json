@@ -1,5 +1,5 @@
 {
- "duration": 33.939,
+ "duration": 39.415,
  "segments": [
   {
    "id": "s01",
@@ -24,45 +24,45 @@
   },
   {
    "id": "s04",
-   "text": "Au-delà, il faut un câble cinq ampères : jusqu'à cent watts, et même deux cent quarante en quarante-huit volts.",
+   "text": "Au-delà, il faut un câble cinq ampères : jusqu'à cent watts. Et deux cent quarante watts en quarante-huit volts, seulement avec un câble certifié deux cent quarante watts.",
    "start": 11.357,
-   "end": 16.693,
-   "display": "Au-delà, il faut un câble 5 A : jusqu'à 100 W, et même 240 W en 48 V."
+   "end": 19.748,
+   "display": "Au-delà, il faut un câble 5 A : jusqu'à 100 W. | Et 240 W en 48 V, | seulement avec un câble certifié 240 W."
   },
   {
    "id": "s05",
    "text": "Et pour les données, certains câbles restent en USB 2 : quatre cent quatre-vingts mégabits par seconde.",
-   "start": 16.873,
-   "end": 21.865,
+   "start": 19.928,
+   "end": 24.92,
    "display": "Et pour les données, certains câbles restent en USB 2 : 480 Mbit/s."
   },
   {
    "id": "s06",
    "text": "Les plus rapides montent à quarante, voire quatre-vingts gigabits.",
-   "start": 21.965,
-   "end": 25.328,
+   "start": 25.02,
+   "end": 28.383,
    "display": "Les plus rapides montent à 40, voire 80 Gbit/s."
   },
   {
    "id": "s07",
-   "text": "Regarde l'emballage : les câbles certifiés affichent les watts et la vitesse.",
-   "start": 25.528,
-   "end": 29.657,
-   "display": "Regarde l'emballage : les câbles certifiés affichent les watts et la vitesse."
+   "text": "Regarde l'emballage : les câbles certifiés affichent les watts, et souvent la vitesse.",
+   "start": 28.583,
+   "end": 33.353,
+   "display": "Regarde l'emballage : | les câbles certifiés affichent les watts, | et souvent la vitesse."
   },
   {
    "id": "s08",
    "text": "Garde ça pour le Black Friday.",
-   "start": 29.837,
-   "end": 31.593,
+   "start": 33.533,
+   "end": 35.29,
    "display": "Garde ça pour le Black Friday."
   },
   {
    "id": "s09",
-   "text": "Et abonne-toi : je mesure tout.",
-   "start": 31.693,
-   "end": 33.639,
-   "display": "Et abonne-toi : je mesure tout."
+   "text": "Et abonne-toi : demain, ce que te coûte l'eau en trop dans ta bouilloire.",
+   "start": 35.39,
+   "end": 39.115,
+   "display": "Et abonne-toi : | demain, ce que te coûte | l'eau en trop dans ta bouilloire."
   }
  ]
 }

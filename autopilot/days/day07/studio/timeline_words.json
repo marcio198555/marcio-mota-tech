@@ -1,0 +1,586 @@
+{
+ "duration": 39.415,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ces deux câbles USB-C ont l'air identiques.",
+   "start": 0.12,
+   "end": 2.493,
+   "display": "Ces deux câbles USB-C ont l'air identiques.",
+   "words": [
+    [
+     0.12,
+     0.325,
+     "Ces"
+    ],
+    [
+     0.325,
+     0.529,
+     "deux"
+    ],
+    [
+     0.529,
+     0.734,
+     "câbles"
+    ],
+    [
+     0.734,
+     1.143,
+     "USB-C"
+    ],
+    [
+     1.143,
+     1.347,
+     "ont"
+    ],
+    [
+     1.347,
+     1.756,
+     "l'air"
+    ],
+    [
+     1.756,
+     2.47,
+     "identiques."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "text": "Pourtant, l'un plafonne à soixante watts, l'autre peut monter à deux cent quarante.",
+   "start": 2.593,
+   "end": 6.596,
+   "display": "Pourtant, l'un plafonne à 60 W, l'autre peut monter à 240 W.",
+   "words": [
+    [
+     2.61,
+     3.04,
+     "Pourtant,"
+    ],
+    [
+     3.18,
+     3.523,
+     "l'un"
+    ],
+    [
+     3.523,
+     3.866,
+     "plafonne"
+    ],
+    [
+     3.866,
+     4.038,
+     "à"
+    ],
+    [
+     4.038,
+     4.553,
+     "60 W,"
+    ],
+    [
+     4.553,
+     4.553,
+     "|"
+    ],
+    [
+     4.553,
+     4.896,
+     "l'autre"
+    ],
+    [
+     4.896,
+     5.067,
+     "peut"
+    ],
+    [
+     5.067,
+     5.411,
+     "monter"
+    ],
+    [
+     5.411,
+     5.582,
+     "à"
+    ],
+    [
+     5.582,
+     6.57,
+     "240 W."
+    ]
+   ]
+  },
+  {
+   "id": "s03",
+   "text": "Un câble USB-C normal supporte trois ampères sous vingt volts : soixante watts.",
+   "start": 6.876,
+   "end": 11.257,
+   "display": "Un câble USB-C normal supporte 3 A sous 20 V : 60 W.",
+   "words": [
+    [
+     6.9,
+     7.128,
+     "Un"
+    ],
+    [
+     7.128,
+     7.356,
+     "câble"
+    ],
+    [
+     7.356,
+     7.811,
+     "USB-C"
+    ],
+    [
+     7.811,
+     8.267,
+     "normal"
+    ],
+    [
+     8.267,
+     8.723,
+     "supporte"
+    ],
+    [
+     8.723,
+     8.723,
+     "|"
+    ],
+    [
+     8.723,
+     9.406,
+     "3 A"
+    ],
+    [
+     9.406,
+     9.634,
+     "sous"
+    ],
+    [
+     9.634,
+     10.09,
+     "20 V :"
+    ],
+    [
+     10.21,
+     11.23,
+     "60 W."
+    ]
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "Au-delà, il faut un câble cinq ampères : jusqu'à cent watts. Et deux cent quarante watts en quarante-huit volts, seulement avec un câble certifié deux cent quarante watts.",
+   "start": 11.357,
+   "end": 19.748,
+   "display": "Au-delà, il faut un câble 5 A : jusqu'à 100 W. | Et 240 W en 48 V, | seulement avec un câble certifié 240 W.",
+   "words": [
+    [
+     11.39,
+     11.97,
+     "Au-delà,"
+    ],
+    [
+     11.97,
+     12.163,
+     "il"
+    ],
+    [
+     12.163,
+     12.357,
+     "faut"
+    ],
+    [
+     12.357,
+     12.55,
+     "un"
+    ],
+    [
+     12.55,
+     12.743,
+     "câble"
+    ],
+    [
+     12.743,
+     13.323,
+     "5 A :"
+    ],
+    [
+     13.323,
+     13.903,
+     "jusqu'à"
+    ],
+    [
+     13.903,
+     14.4,
+     "100 W."
+    ],
+    [
+     14.62,
+     14.62,
+     "|"
+    ],
+    [
+     14.62,
+     14.802,
+     "Et"
+    ],
+    [
+     14.802,
+     15.711,
+     "240 W"
+    ],
+    [
+     15.711,
+     15.893,
+     "en"
+    ],
+    [
+     15.893,
+     16.62,
+     "48 V,"
+    ],
+    [
+     16.74,
+     16.74,
+     "|"
+    ],
+    [
+     16.74,
+     17.149,
+     "seulement"
+    ],
+    [
+     17.149,
+     17.557,
+     "avec"
+    ],
+    [
+     17.557,
+     17.761,
+     "un"
+    ],
+    [
+     17.761,
+     17.966,
+     "câble"
+    ],
+    [
+     17.966,
+     18.579,
+     "certifié"
+    ],
+    [
+     18.579,
+     19.72,
+     "240 W."
+    ]
+   ]
+  },
+  {
+   "id": "s05",
+   "text": "Et pour les données, certains câbles restent en USB 2 : quatre cent quatre-vingts mégabits par seconde.",
+   "start": 19.928,
+   "end": 24.92,
+   "display": "Et pour les données, certains câbles restent en USB 2 : 480 Mbit/s.",
+   "words": [
+    [
+     19.96,
+     20.168,
+     "Et"
+    ],
+    [
+     20.168,
+     20.375,
+     "pour"
+    ],
+    [
+     20.375,
+     20.582,
+     "les"
+    ],
+    [
+     20.582,
+     20.998,
+     "données,"
+    ],
+    [
+     20.998,
+     20.998,
+     "|"
+    ],
+    [
+     20.998,
+     21.412,
+     "certains"
+    ],
+    [
+     21.412,
+     21.62,
+     "câbles"
+    ],
+    [
+     21.62,
+     21.828,
+     "restent"
+    ],
+    [
+     21.828,
+     22.035,
+     "en"
+    ],
+    [
+     22.035,
+     22.45,
+     "USB 2 :"
+    ],
+    [
+     22.83,
+     24.9,
+     "480 Mbit/s."
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "text": "Les plus rapides montent à quarante, voire quatre-vingts gigabits.",
+   "start": 25.02,
+   "end": 28.383,
+   "display": "Les plus rapides montent à 40, voire 80 Gbit/s.",
+   "words": [
+    [
+     25.03,
+     25.224,
+     "Les"
+    ],
+    [
+     25.224,
+     25.418,
+     "plus"
+    ],
+    [
+     25.418,
+     25.805,
+     "rapides"
+    ],
+    [
+     25.805,
+     25.999,
+     "montent"
+    ],
+    [
+     25.999,
+     26.193,
+     "à"
+    ],
+    [
+     26.193,
+     26.58,
+     "40,"
+    ],
+    [
+     26.97,
+     27.053,
+     "voire"
+    ],
+    [
+     27.053,
+     28.36,
+     "80 Gbit/s."
+    ]
+   ]
+  },
+  {
+   "id": "s07",
+   "text": "Regarde l'emballage : les câbles certifiés affichent les watts, et souvent la vitesse.",
+   "start": 28.583,
+   "end": 33.353,
+   "display": "Regarde l'emballage : | les câbles certifiés affichent les watts, | et souvent la vitesse.",
+   "words": [
+    [
+     28.61,
+     29.046,
+     "Regarde"
+    ],
+    [
+     29.046,
+     29.918,
+     "l'emballage :"
+    ],
+    [
+     29.918,
+     29.918,
+     "|"
+    ],
+    [
+     29.918,
+     30.136,
+     "les"
+    ],
+    [
+     30.136,
+     30.354,
+     "câbles"
+    ],
+    [
+     30.354,
+     31.008,
+     "certifiés"
+    ],
+    [
+     31.008,
+     31.444,
+     "affichent"
+    ],
+    [
+     31.444,
+     31.662,
+     "les"
+    ],
+    [
+     31.662,
+     32.0,
+     "watts,"
+    ],
+    [
+     32.22,
+     32.22,
+     "|"
+    ],
+    [
+     32.22,
+     32.442,
+     "et"
+    ],
+    [
+     32.442,
+     32.664,
+     "souvent"
+    ],
+    [
+     32.664,
+     32.886,
+     "la"
+    ],
+    [
+     32.886,
+     33.33,
+     "vitesse."
+    ]
+   ]
+  },
+  {
+   "id": "s08",
+   "text": "Garde ça pour le Black Friday.",
+   "start": 33.533,
+   "end": 35.29,
+   "display": "Garde ça pour le Black Friday.",
+   "words": [
+    [
+     33.56,
+     33.804,
+     "Garde"
+    ],
+    [
+     33.804,
+     34.049,
+     "ça"
+    ],
+    [
+     34.049,
+     34.293,
+     "pour"
+    ],
+    [
+     34.293,
+     34.537,
+     "le"
+    ],
+    [
+     34.537,
+     35.27,
+     "Black Friday."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "text": "Et abonne-toi : demain, ce que te coûte l'eau en trop dans ta bouilloire.",
+   "start": 35.39,
+   "end": 39.115,
+   "display": "Et abonne-toi : | demain, ce que te coûte | l'eau en trop dans ta bouilloire.",
+   "words": [
+    [
+     35.41,
+     35.61,
+     "Et"
+    ],
+    [
+     35.61,
+     36.21,
+     "abonne-toi :"
+    ],
+    [
+     36.44,
+     36.44,
+     "|"
+    ],
+    [
+     36.44,
+     36.84,
+     "demain,"
+    ],
+    [
+     36.97,
+     37.148,
+     "ce"
+    ],
+    [
+     37.148,
+     37.327,
+     "que"
+    ],
+    [
+     37.327,
+     37.505,
+     "te"
+    ],
+    [
+     37.505,
+     37.683,
+     "coûte"
+    ],
+    [
+     37.683,
+     37.683,
+     "|"
+    ],
+    [
+     37.683,
+     38.04,
+     "l'eau"
+    ],
+    [
+     38.04,
+     38.397,
+     "en trop"
+    ],
+    [
+     38.397,
+     38.575,
+     "dans"
+    ],
+    [
+     38.575,
+     38.753,
+     "ta"
+    ],
+    [
+     38.753,
+     39.11,
+     "bouilloire."
+    ]
+   ]
+  }
+ ]
+}

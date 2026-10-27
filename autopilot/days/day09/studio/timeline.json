@@ -1,0 +1,61 @@
+{
+ "duration": 41.717,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "De soixante-dix à quatre-vingts décibels : quatorze pour cent de plus ? Non. Pour ton oreille, c'est deux fois plus fort.",
+   "start": 0.12,
+   "end": 7.337,
+   "display": "De 70 à 80 dB : | +14 % ? | Non. Pour ton oreille, | c'est 2 fois plus fort."
+  },
+  {
+   "id": "s02",
+   "text": "Les décibels, c'est une échelle logarithmique : plus trois décibels, c'est déjà deux fois plus d'énergie sonore.",
+   "start": 7.637,
+   "end": 13.398,
+   "display": "Les décibels, c'est une échelle logarithmique : | +3 dB, c'est déjà 2 fois | plus d'énergie sonore."
+  },
+  {
+   "id": "s03",
+   "text": "Et d'après la Suva, il faut plus dix décibels pour que le son paraisse deux fois plus fort.",
+   "start": 13.648,
+   "end": 18.047,
+   "display": "Et d'après la Suva, il faut +10 dB | pour que le son paraisse 2 fois plus fort."
+  },
+  {
+   "id": "s04",
+   "text": "Mais pour l'usure de tes oreilles, c'est l'énergie qui compte : à chaque plus trois décibels, la durée d'écoute tolérée est divisée par deux.",
+   "start": 18.347,
+   "end": 25.11,
+   "display": "Mais pour l'usure de tes oreilles, c'est l'énergie qui compte : | à chaque +3 dB, | la durée d'écoute tolérée | est divisée par 2."
+  },
+  {
+   "id": "s06",
+   "text": "Avec un casque, à quatre-vingt-quinze décibels, ton oreille tolère au maximum quatre heures de musique par semaine.",
+   "start": 25.41,
+   "end": 31.052,
+   "display": "Avec un casque, à 95 dB, | ton oreille tolère au maximum | 4 heures de musique par semaine."
+  },
+  {
+   "id": "s07",
+   "text": "Baisse de trois décibels, et tu doubles ce temps.",
+   "start": 31.252,
+   "end": 33.815,
+   "display": "Baisse de 3 dB, | et tu doubles ce temps."
+  },
+  {
+   "id": "s08",
+   "text": "Envoie ça à celui qui met le son à fond dans le bus.",
+   "start": 34.065,
+   "end": 36.811,
+   "display": "Envoie ça à celui qui met le son à fond | dans le bus."
+  },
+  {
+   "id": "s09",
+   "text": "Et abonne-toi : ce soir, l'erreur de fenêtre que tout le monde fait en hiver.",
+   "start": 37.011,
+   "end": 41.417,
+   "display": "Et abonne-toi : | ce soir, l'erreur de fenêtre | que tout le monde fait en hiver."
+  }
+ ]
+}
