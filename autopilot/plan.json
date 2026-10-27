@@ -78,7 +78,7 @@
    ],
    "accroche": "3 instruments cachés dans ton iPhone",
    "argent": "Croissance (enregistrements, abonnés)",
-   "statut": "programmée"
+   "statut": "publiée"
   },
   {
    "jour": 3,
@@ -91,7 +91,7 @@
    ],
    "accroche": "20 000 ÷ 4 000 = 5 ? NON.",
    "argent": "Affiliation batteries externes (Black Friday)",
-   "statut": "programmée"
+   "statut": "publiée"
   },
   {
    "jour": 4,
@@ -145,9 +145,11 @@
    ],
    "accroche": "IDENTIQUES ? 60 W / 240 W",
    "argent": "Affiliation câbles certifiés (Black Friday)",
-   "statut": "à programmer",
+   "statut": "programmée",
    "note": "Fin remplacée par l'annonce de la bouilloire (vendredi 10 h).",
-   "heure": "18:00"
+   "heure": "18:00",
+   "metricool_id": 407867325,
+   "programme_le": "2026-10-29T18:00"
   },
   {
    "jour": 8,
@@ -166,8 +168,10 @@
     "Apple luminosité automatique"
    ],
    "argent": "Audience large (tous les smartphones)",
-   "statut": "à produire",
-   "annonce": "décibels (mer. 10 h)"
+   "statut": "programmée",
+   "annonce": "décibels (mer. 10 h)",
+   "metricool_id": 407867263,
+   "programme_le": "2026-10-27T18:00"
   },
   {
    "jour": 9,
@@ -183,8 +187,10 @@
     "Suva, Musique et troubles de l'ouïe (p. 4 et 11)"
    ],
    "argent": "Casques à réduction de bruit, bouchons d'oreille (affiliation possible)",
-   "statut": "à produire",
-   "annonce": "fenêtre oscillo-battant (mer. 18 h)"
+   "statut": "programmée",
+   "annonce": "fenêtre oscillo-battant (mer. 18 h)",
+   "metricool_id": 407867297,
+   "programme_le": "2026-10-28T10:00"
   },
   {
    "jour": 10,
