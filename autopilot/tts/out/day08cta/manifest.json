@@ -1,0 +1,14 @@
+{
+ "job": "day08cta",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s09",
+   "text": "Et abonne-toi : demain, pourquoi plus dix décibels, ça paraît deux fois plus fort.",
+   "file": "s09.wav",
+   "duration": 4.828,
+   "rate": 44100
+  }
+ ],
+ "total": 4.828
+}

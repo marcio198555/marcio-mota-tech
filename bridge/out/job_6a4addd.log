@@ -1,0 +1,76 @@
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+[2026-10-27 13:19:59.453] [piper] [info] Loaded voice in 0.303583622 second(s)
+[2026-10-27 13:19:59.453] [piper] [info] Initialized piper
+/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/out/day08cta/s09.wav
+[2026-10-27 13:19:59.997] [piper] [info] Real-time factor: 0.11368837599414304 (infer=0.535227344 sec, audio=4.707845804988662 sec)
+[2026-10-27 13:19:59.997] [piper] [info] Terminated piper
+skip day01
+skip day01fix
+skip day02
+skip day02cta
+skip day03
+skip day03cta
+skip day04
+skip day04cta
+skip day04fix
+skip day05
+skip day05cta
+skip day05fix
+skip day06
+skip day07
+skip day07cta
+skip day08
+day08cta s09 4.83 s
+done day08cta 4.828 s
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+asr: rien à faire
++ ls -la autopilot/tts/out autopilot/asr/out
++ head -40
+autopilot/asr/out:
+total 12
+drwxr-xr-x 2 runner runner 4096 Oct 27 13:19 .
+drwxr-xr-x 3 runner runner 4096 Oct 27 13:19 ..
+-rw-r--r-- 1 runner runner 3580 Oct 27 13:19 day01_vo.json
+
+autopilot/tts/out:
+total 76
+drwxr-xr-x 19 runner runner 4096 Oct 27 13:19 .
+drwxr-xr-x  4 runner runner 4096 Oct 27 13:19 ..
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day01
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day01fix
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day02
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day02cta
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day03
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day03cta
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day04
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day04cta
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day04fix
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day05
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day05cta
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day05fix
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day06
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day07
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day07cta
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:19 day08
+drwxr-xr-x  2 runner runner 4096 Oct 27 13:20 day08cta
