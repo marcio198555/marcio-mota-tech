@@ -21,3 +21,11 @@ Choix de départ (hypothèses, à confirmer ou corriger par les chiffres) :
 2. Abonnés gagnés et visites du profil : la vidéo du 25.10 (fin générique) contre celles du 26 au 29
    (fin « demain »).
 3. 18 h contre 10 h (une seule vidéo test : à confirmer la semaine suivante avant de conclure).
+
+## 2026-10-27 — Passage à 2 vidéos par jour (demande de Marcio)
+- Décision : 10 h et 18 h, 14 vidéos par semaine, toutes produites par l'autopilote. Les vidéos de 10 h annoncent
+  celle du soir (« ce soir… »), celles de 18 h celle du lendemain matin (« demain… »).
+- Des publications TikTok créées le 27.10 hors autopilote (17 h « mèche en coton », 19 h « joint de frigo », plus
+  des brouillons) ont été remises en brouillon à la demande de Marcio : elles ne venaient pas de lui.
+- À mesurer vendredi : 10 h contre 18 h (on a maintenant les deux créneaux chaque jour) et l'effet du doublement
+  du rythme sur les vues moyennes par vidéo (hypothèse : légère baisse par vidéo, hausse du total).
