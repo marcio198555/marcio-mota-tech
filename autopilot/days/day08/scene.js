@@ -31,7 +31,7 @@
 
       // ACCROCHE : on balaie les applis… et on se fait arrêter
       block(ctx, t, 0, S('s02'), () => {
-        phone(ctx, 520, 560, 360, 640, { draw: (x, y, w, h) => {
+        phone(ctx, 520, 610, 360, 620, { draw: (x, y, w, h) => {
           ctx.fillStyle = '#0d1422'; ctx.fillRect(x, y, w, h);
           const cyc = (t % 1.1) / 1.1;
           const swipe = t < tStop ? ease.in(clamp((cyc - 0.35) / 0.5)) : 0;
@@ -44,8 +44,8 @@
         text(ctx, 'TES APPLIS ?', 520, 1085, { size: 96, weight: 900, color: C.white, maxWidth: 820 });
         chip(ctx, 'POUR LA BATTERIE', 520, 1185, { color: C.gold, size: 36, dot: C.red });
         const k = ease.back(prog(t, tStop - 0.05, 0.3));
-        if (k > 0) {
-          ctx.save(); ctx.translate(520, 560); ctx.rotate(-0.12); ctx.scale(lerp(1.6, 1, k), lerp(1.6, 1, k)); ctx.globalAlpha *= clamp(k * 2);
+        if (k > 0.001) {
+          ctx.save(); ctx.translate(520, 600); ctx.rotate(-0.12); ctx.scale(lerp(1.6, 1, k), lerp(1.6, 1, k)); ctx.globalAlpha *= clamp(k * 2);
           roundRect(ctx, -280, -95, 560, 190, 26); ctx.fillStyle = 'rgba(200,32,48,0.92)'; ctx.fill();
           ctx.lineWidth = 8; ctx.strokeStyle = C.white; ctx.stroke();
           text(ctx, 'ARRÊTE', 0, 6, { size: 130, weight: 900, color: C.white });
@@ -69,7 +69,7 @@
         quote(ctx, ['« Même sans fermer', 'tes applis, tu ne', 'manqueras ni de mémoire,', 'ni de batterie. »'], 560, 70);
         text(ctx, 'support.google.com · traduit de l\'anglais', 520, 900, { size: 36, family: F.mono, weight: 400, color: W80, maxWidth: 820 });
         const k = ease.back(prog(t, S('s03') + 1.2, 0.35));
-        if (k > 0) {
+        if (k > 0.001) {
           ctx.save(); ctx.translate(520, 1060); ctx.scale(k, k);
           roundRect(ctx, -150, -55, 300, 110, 26); ctx.fillStyle = 'rgba(63,180,122,0.18)'; ctx.fill();
           ctx.lineWidth = 4; ctx.strokeStyle = C.green; ctx.stroke();
@@ -95,7 +95,7 @@
 
       // Réglages › Batterie
       block(ctx, t, S('s06'), S('s07'), () => {
-        phone(ctx, 520, 740, 470, 860, { draw: (x, y, w, h) => {
+        phone(ctx, 520, 700, 470, 800, { draw: (x, y, w, h) => {
           ctx.fillStyle = '#0d1422'; ctx.fillRect(x, y, w, h);
           text(ctx, 'Réglages › Batterie', x + 30, y + 90, { size: 36, weight: 800, color: C.white, align: 'left', maxWidth: w - 60 });
           const rows = [['Vidéo', 0.92], ['Réseau social', 0.64], ['GPS', 0.41], ['Messages', 0.18]];
@@ -109,7 +109,7 @@
           });
           text(ctx, 'valeurs d\'exemple', 0, y + h - 70, { size: 38, weight: 700, color: W80 });
         } });
-        chip(ctx, 'CE QUI VIDE VRAIMENT', 520, 1240, { color: C.gold, size: 36, dot: C.red });
+        chip(ctx, 'CE QUI VIDE VRAIMENT', 520, 1170, { color: C.gold, size: 36, dot: C.red });
       });
 
       // Luminosité automatique

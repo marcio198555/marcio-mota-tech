@@ -1,0 +1,42 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "De soixante-dix à quatre-vingts décibels : quatorze pour cent de plus ? Non. Pour ton oreille, c'est deux fois plus fort."
+  },
+  {
+   "id": "s02",
+   "text": "Les décibels, c'est une échelle logarithmique : plus trois décibels, c'est déjà deux fois plus d'énergie sonore."
+  },
+  {
+   "id": "s03",
+   "text": "Et d'après la Suva, il faut plus dix décibels pour que le son paraisse deux fois plus fort."
+  },
+  {
+   "id": "s04",
+   "text": "Pour tes oreilles, c'est l'énergie qui compte : à chaque plus trois décibels, la durée d'écoute supportable est divisée par deux."
+  },
+  {
+   "id": "s05",
+   "text": "Au travail, la Suva rend les protections auditives obligatoires dès quatre-vingt-cinq décibels."
+  },
+  {
+   "id": "s06",
+   "text": "Avec un casque, ton oreille supporte de la musique à quatre-vingt-quinze décibels environ quatre heures par semaine."
+  },
+  {
+   "id": "s07",
+   "text": "Baisse de trois décibels, et tu doubles ce temps."
+  },
+  {
+   "id": "s08",
+   "text": "Envoie ça à celui qui met le son à fond dans le bus."
+  },
+  {
+   "id": "s09",
+   "text": "Et abonne-toi : ce soir, l'erreur de fenêtre que tout le monde fait en hiver."
+  }
+ ]
+}

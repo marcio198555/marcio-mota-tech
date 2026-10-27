@@ -73,7 +73,7 @@
       const w = ctx.measureText(str).width;
       if (w > o.maxWidth) { const s = o.size * o.maxWidth / w; ctx.font = font(o.weight || 800, s, o.family || F.display); }
     }
-    ctx.globalAlpha = o.alpha ?? 1;
+    ctx.globalAlpha *= o.alpha ?? 1;
     if (o.shadow) { ctx.shadowColor = o.shadow; ctx.shadowBlur = o.shadowBlur ?? 30; }
     if (o.stroke) { ctx.lineJoin = 'round'; ctx.lineWidth = o.strokeWidth || 10; ctx.strokeStyle = o.stroke; ctx.strokeText(str, x, y); }
     ctx.fillStyle = o.color || C.fg; ctx.fillText(str, x, y);

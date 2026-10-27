@@ -86,7 +86,7 @@
         chip(ctx, 'POUR LE BLACK FRIDAY', 520, 990, { color: C.gold, size: 34, dot: C.red });
       });
 
-      block(ctx, t, S('s09'), END + 1, () => followCTA(ctx, t, S('s09')));
+      block(ctx, t, S('s09'), END + 1, () => followCTA(ctx, t, S('s09'), { next: ['l\'eau en trop dans', 'ta bouilloire : combien ?'] }));
 
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });
