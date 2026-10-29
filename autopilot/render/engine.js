@@ -176,7 +176,7 @@
   }
 
   function brand(ctx, t, o = {}) {
-    chip(ctx, 'JE MESURE TOUT', 70, o.y || 262, { align: 'left', dot: C.red, size: 30, alpha: o.alpha ?? 0.95 });
+    chip(ctx, 'JE MESURE TOUT', 70, o.y || 262, { align: 'left', dot: C.red, size: 36, alpha: o.alpha ?? 0.95 });
   }
 
   // compteur numérique façon instrument

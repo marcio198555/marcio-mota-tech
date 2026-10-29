@@ -22,7 +22,7 @@ end = round(cta + spec.get("hold", 3.0), 3)
     {"segments": [], "duration": end, "spec": spec, "times": {"rows": rows, "cta": cta, "end": end}},
     ensure_ascii=False, indent=1))
 sfx = "/home/claude/studio/sfx/"
-cues = [{"file": sfx + "impact.wav", "t": 0.02, "db": -14}]
+cues = [{"file": sfx + "impact.wav", "t": 0.02, "db": -21}]  # discret : il rejoue à chaque boucle
 for i, (te, tt) in enumerate(rows):
     if i:
         cues.append({"file": sfx + "whoosh.wav", "t": max(0, te - 0.12), "db": -19})

@@ -1,28 +1,28 @@
 {
  "chip": "SOURCE : APPLE.COM · IPHONE 17",
  "title": [
-  "CE QU'APPLE ÉCRIT",
+  "CE QU’APPLE ÉCRIT",
   "en petit"
  ],
  "rows": [
   {
    "gros": "256 Go",
-   "petit": "dont 12 à 24 Go environ | pris par la configuration"
+   "petit": "dont 12 à 24 Go environ | pour une configuration standard"
   },
   {
-   "gros": "IP68 · 6 m · 30 min",
+   "gros": "IP68 · 6 m · 30 min max",
    "petit": "dégâts causés par des liquides : | pas couverts par la garantie"
   },
   {
-   "gros": "50 % en 20 min",
-   "petit": "avec un adaptateur 40 W… | qui n'est pas dans la boîte"
+   "gros": "jusqu’à 50 % en 20 min",
+   "petit": "avec un adaptateur 40 W… | qui n’est pas dans la boîte"
   },
   {
-   "gros": "jusqu'à 30 h de vidéo",
+   "gros": "jusqu’à 30 h de vidéo",
    "petit": "« les résultats réels sont | susceptibles de varier »"
   }
  ],
- "cta": "🔖 Enregistre-la avant d'acheter",
+ "cta": "🔖 Enregistre-la avant d’acheter",
  "step": 2.4,
  "delay": 0.5,
  "cta_after": 0.9,

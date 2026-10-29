@@ -58,7 +58,7 @@
     draw(ctx, t) {
       background(ctx, t);
       brand(ctx, t);
-      chip(ctx, SP.chip, 540, 365, { color: C.gold, size: 34 });   // le bandeau porte la source (« SOURCE : … »)
+      chip(ctx, SP.chip, 540, 365, { color: C.gold, size: 38 });   // le bandeau porte la source (« SOURCE : … »)
       // accroche : complète dès l'image 0, léger zoom pendant 3 s
       const z = 1 + 0.035 * ease.inOut(prog(t, 0, 3));
       ctx.save(); ctx.translate(540, 470); ctx.scale(z, z);
