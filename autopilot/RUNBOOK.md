@@ -60,6 +60,9 @@ signaler à Marcio dans le message final.
 4. Visites du profil élevées mais peu d'abonnés → proposer à Marcio une bio plus claire (il la colle lui-même).
 
 ## 3. Choisir les 14 sujets (tâche de 5 h 37)
+- Priorité (bilan du 29.10) : les pièges des fiches techniques et des emballages de produits qu'on achète
+  (« le chiffre sur la boîte ment »), surtout avant le Black Friday. Les sujets abstraits ou de réglages ont fait
+  3 à 10 fois moins de vues.
 - Partir des entrées « idée » de `plan.json` et des enseignements ; remplacer celles qui ressemblent aux vidéos
   qui ont le moins marché. 2 ou 3 recherches web sur les formats TikTok tech / maison / gadgets qui marchent
   en ce moment (mécaniques : le calcul qui choque, la fonction cachée, le mythe démonté, le comparatif chiffré,
@@ -77,8 +80,10 @@ signaler à Marcio dans le message final.
   ou on change d'angle, on n'invente pas.
 
 ## 5. Écrire
-- Script : 9 à 11 segments, 85 à 105 mots, 30 à 38 s. Segment 1 = l'accroche (le chiffre ou le contre-pied),
-  dite dès 0,12 s. Avant-dernier segment = appel à commenter, enregistrer ou partager.
+- Script (décision du bilan du 29.10) : **6 à 7 segments, 50 à 65 mots, 18 à 25 s**. Segment 1 = la révélation
+  chiffrée (le chiffre choc ou le contre-pied), dite dès 0,12 s et lisible à l'image 0 avec le produit visible.
+  Puis 3 à 4 segments d'explication, une phrase par idée. Pas de segment « envoie ça à… » (l'appel au partage
+  va dans la description).
 - **Dernier segment = annonce de la vidéo suivante** : vidéo de 10 h → « Et abonne-toi : ce soir, <sujet de
   18 h en curiosité>. » ; vidéo de 18 h → « Et abonne-toi : demain, <sujet du lendemain 10 h>. » (c'est la raison
   concrète de s'abonner). Carte de fin : `followCTA(..., { when: 'CE SOIR' ou 'DEMAIN', next: [ligne 1, ligne 2] })`.

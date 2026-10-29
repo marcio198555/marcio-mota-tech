@@ -29,3 +29,27 @@ Choix de départ (hypothèses, à confirmer ou corriger par les chiffres) :
   des brouillons) ont été remises en brouillon à la demande de Marcio : elles ne venaient pas de lui.
 - À mesurer vendredi : 10 h contre 18 h (on a maintenant les deux créneaux chaque jour) et l'effet du doublement
   du rythme sur les vues moyennes par vidéo (hypothèse : légère baisse par vidéo, hausse du total).
+
+## 2026-10-29 — Premier bilan (données Metricool du 29.10 à midi, vidéos de 1 à 4 jours)
+| Vidéo | Heure | Durée | Vues | J'aime | Temps moyen regardé |
+|---|---|---|---|---|---|
+| Pente robot tondeuse | dim. 10 h | 37 s | 1 002 | 20 | 12 s |
+| Batterie externe 20 000 mAh | mar. 10 h | 40 s | 780 | 27 | 8 s |
+| Instruments cachés iPhone | lun. 10 h | 34 s | 269 | 4 | 6 s |
+| Fermer ses applis | mar. 18 h | 36 s | 244 | 6 | 8 s |
+| +10 dB | mer. 10 h | 42 s | 73 | 1 | 4 s |
+(+ « 45 % n'est pas 45° », 15 s, publiée le 27.10 à 9 h hors autopilote : 253 vues, 5 s.) Fenêtre (mer. 18 h) et
+mots de passe (jeu. 10 h) : pas encore de données. Abonnés : 63 → 71 en 4 jours. 95 à 100 % des vues viennent de « Pour toi ».
+
+Constaté :
+- La diffusion fonctionne (Pour toi), mais les gens partent vite : 4 à 12 s regardées sur 34 à 42 s, visionnage complet
+  quasi nul, 0 partage, 0 commentaire.
+- Les 2 meilleures vidéos sont « le piège du chiffre sur la fiche / la boîte » d'un produit qu'on achète
+  (robot tondeuse, batterie externe). Les sujets abstraits (décibels, réglages iPhone) font 3 à 10 fois moins.
+- Plus la vidéo est longue, plus elle a été quittée tôt (la plus longue, 42 s, a le pire temps moyen).
+Hypothèses à tester (semaine du 30.10) :
+- Vidéos de 18 à 25 s (6 à 7 segments, 50 à 65 mots), révélation chiffrée dans les 3 premières secondes.
+- Fin raccourcie : une seule phrase « Abonne-toi : ce soir / demain, … » (≤ 3 s) ; plus de segment « envoie ça à… »
+  (0 partage), l'appel au partage reste dans la description.
+- Sujets : priorité aux pièges des fiches techniques et emballages avant le Black Friday (produits qu'on achète).
+- 10 h contre 18 h : trop peu de données pour conclure, garder les deux créneaux.
