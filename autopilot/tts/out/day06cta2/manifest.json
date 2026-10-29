@@ -1,0 +1,14 @@
+{
+ "job": "day06cta2",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : ce soir, ce qu'Apple écrit en petit sur l'aïe-fone dix-sept.",
+   "file": "s10.wav",
+   "duration": 4.317,
+   "rate": 44100
+  }
+ ],
+ "total": 4.317
+}
