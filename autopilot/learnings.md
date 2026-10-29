@@ -73,3 +73,6 @@ Décisions :
 - Règles de décision (R1–R7), objectifs par semaine et échelle des plans (A pièges d'achat → B zéro voix → C Suisse
   pratique → D avec la voix de Marcio) : voir `strategy.json` et RUNBOOK § 10.
 - Vidéo 6 (bouilloire, ven. 10 h) : fin refaite (« ce soir… ») et vidéo 10 (pilote T, iPhone 17) produites le 29.10.
+- Contrôle qualité du 29.10 : la voix Piper tom lit « iPhone » « i-fone » → écrire « aïe-fone » dans le texte dit,
+  garder « iPhone » à l'écran (même chose pour tout nom de marque anglais). Une nouvelle prise de voix = un nouveau job
+  (le pont saute les jobs déjà synthétisés). Format T : recopier les mots exacts du fabricant (« jusqu'à », « max »).

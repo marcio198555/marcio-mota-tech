@@ -147,13 +147,15 @@
    ],
    "accroche": "20 CHF par an pour de l'eau en trop",
    "argent": "Affiliation bouilloires à température, prises connectées",
-   "statut": "produite",
+   "statut": "programmée",
    "annoncee": true,
    "note": "Fin remplacée le 29.10 : « Et abonne-toi : ce soir, ce que la fiche technique de l'iPhone 17 veut vraiment dire. »",
    "format": "V",
    "heure": "10:00",
    "semaine": "S1",
-   "annonce": "ce qu'Apple écrit en petit sur l'iPhone 17 (jour 10)"
+   "annonce": "ce qu'Apple écrit en petit sur l'iPhone 17 (jour 10)",
+   "metricool_id": 409984725,
+   "programme_le": "2026-10-30T10:00"
   },
   {
    "jour": 7,
