@@ -231,9 +231,11 @@
     "notes de la fiche technique officielle iPhone 17 (apple.com) : espace disponible, IP68 et garantie, charge rapide et adaptateur, autonomie"
    ],
    "argent": "Croissance (Black Friday)",
-   "statut": "produite",
+   "statut": "programmée",
    "note": "Vidéo pilote du format T, produite le 29.10. Source : https://www.apple.com/ci/iphone-17/specs/",
-   "semaine": "S1"
+   "semaine": "S1",
+   "metricool_id": 409980564,
+   "programme_le": "2026-10-30T18:00"
   },
   {
    "jour": 11,
