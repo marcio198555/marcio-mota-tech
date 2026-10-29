@@ -105,6 +105,10 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
   On peut mettre plusieurs jours dans un seul push. Commit sans `[skip-bridge]` + push : le pont GitHub Actions
   (`.github/workflows/tiktok-bridge.yml`) synthétise la voix et la committe dans `autopilot/tts/out/dayNN/`
   (1 à 3 min). Attendre avec une boucle `until` sur `git fetch` puis `git pull --rebase`.
+  Le pont saute un job déjà synthétisé (manifest présent) : pour refaire une prise, créer un **nouveau** job
+  (ex. `day06cta2.json`), ne pas modifier l'ancien.
+- Prononciation Piper (voix tom) : écrire « aïe-fone » pour iPhone dans le texte dit (sinon « i-fone »),
+  garder « iPhone » dans `display`. Même logique pour tout nom de marque anglais : l'écrire comme il se prononce.
 
 ## 6. Monter
 1. `python3 autopilot/assemble_vo.py autopilot/tts/out/dayNN <studio>/vo.wav <studio>/timeline.json --lead 0.12 --gap 0.1 [--gaps s02=0.3,…]`
