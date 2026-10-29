@@ -1,0 +1,14 @@
+{
+ "job": "day06cta",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s10",
+   "text": "Et abonne-toi : ce soir, ce que la fiche technique de l'iPhone dix-sept veut vraiment dire.",
+   "file": "s10.wav",
+   "duration": 5.077,
+   "rate": 44100
+  }
+ ],
+ "total": 5.077
+}
