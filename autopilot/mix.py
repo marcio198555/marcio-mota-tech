@@ -24,6 +24,7 @@ ap.add_argument("--music-db", type=float, default=-17.0)
 ap.add_argument("--duck-db", type=float, default=9.0)
 ap.add_argument("--sfx")
 ap.add_argument("--lufs", type=float, default=-14.0)
+ap.add_argument("--fade", type=float, default=1.2, help="fondu de la musique à la fin, en s (0,12 pour une boucle)")
 a = ap.parse_args()
 
 
@@ -71,8 +72,9 @@ if a.music:
         g[i:i + step] = state
     gain = 10 ** (-a.duck_db * g / 20)
     fade = np.ones(n, dtype=np.float32)
-    fl = int(1.2 * SR)
-    fade[-fl:] = np.linspace(1, 0, fl)
+    fl = int(a.fade * SR)
+    if fl > 0:
+        fade[-fl:] = np.linspace(1, 0, fl)
     mix += mu * (gain * fade)[:, None]
 
 if a.sfx:

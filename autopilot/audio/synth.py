@@ -69,7 +69,7 @@ def reverb_ir(seconds=1.2, seed=3):
     return ir / np.sqrt(np.sum(ir ** 2))
 
 
-def bed(duration, bpm=104, seed=1, style="pulse"):
+def bed(duration, bpm=104, seed=1, style="pulse", novoice=False, fade_out=1.5):
     rng = np.random.default_rng(seed)
     n = int(duration * SR)
     beat = 60.0 / bpm
@@ -171,13 +171,15 @@ def bed(duration, bpm=104, seed=1, style="pulse"):
     ir = reverb_ir()
     wet = np.stack([signal.fftconvolve(send[:, c], ir[:, c])[:n] for c in range(2)], axis=1)
     out = out * pump[:, None] + 0.9 * wet
-    # creux de présence pour laisser la place à la voix
-    out = signal.sosfilt(signal.butter(2, [1200, 3800], btype="bandstop", fs=SR, output="sos"), out, axis=0) * 0.35 + out * 0.65
+    # creux de présence pour laisser la place à la voix (inutile pour le format « texte seul »)
+    if not novoice:
+        out = signal.sosfilt(signal.butter(2, [1200, 3800], btype="bandstop", fs=SR, output="sos"), out, axis=0) * 0.35 + out * 0.65
     out = signal.sosfilt(sos("highpass", 30, 2), out, axis=0)
     # fondu d'entrée court et de sortie
-    fi, fo = int(0.02 * SR), int(1.5 * SR)
+    fi, fo = int(0.02 * SR), int(fade_out * SR)
     out[:fi] *= np.linspace(0, 1, fi)[:, None]
-    out[-fo:] *= np.linspace(1, 0, fo)[:, None]
+    if fo > 0:
+        out[-fo:] *= np.linspace(1, 0, fo)[:, None]
     return out
 
 
@@ -248,9 +250,11 @@ if __name__ == "__main__":
     ap.add_argument("--bpm", type=float, default=104)
     ap.add_argument("--seed", type=int, default=1)
     ap.add_argument("--style", default="pulse")
+    ap.add_argument("--novoice", action="store_true", help="musique seule (format texte) : pas de creux de présence")
+    ap.add_argument("--fade-out", type=float, default=1.5, help="fondu de sortie en s (0,15 pour une boucle)")
     a = ap.parse_args()
     if a.what == "bed":
-        write(a.out, bed(a.duration, a.bpm, a.seed, a.style))
+        write(a.out, bed(a.duration, a.bpm, a.seed, a.style, a.novoice, a.fade_out))
     else:
         d = pathlib.Path(a.out)
         d.mkdir(parents=True, exist_ok=True)
