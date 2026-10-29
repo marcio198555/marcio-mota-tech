@@ -205,3 +205,98 @@
 {"id": "RL29F-040", "brand": "Kerpix", "domain": "kerpix.fr", "to": "communication@kerpix.fr", "ts": "2026-10-29T12:19:03.490878"}
 {"id": "RL29F-041", "brand": "Geonatlife", "domain": "geonatlife.com", "to": "info@geonatlife.com", "ts": "2026-10-29T12:19:03.490883"}
 {"id": "RL29F-042", "brand": "Bicimax", "domain": "bicimax.com", "to": "info@bicimax.com", "ts": "2026-10-29T12:19:03.490888"}
+{"id": "RL29G-049", "brand": "avectec", "domain": "avectec.com", "to": "info@avectec.com", "ts": "2026-10-29T12:50:36.882098"}
+{"id": "RL29G-050", "brand": "CyTec Electronics", "domain": "cytec-gmbh.de", "to": "info@cytec-gmbh.de", "ts": "2026-10-29T12:50:36.882211"}
+{"id": "RL29G-051", "brand": "JC Distribuciones", "domain": "jcdistribuciones.com", "to": "info@jcdistribuciones.com", "ts": "2026-10-29T12:50:36.882226"}
+{"id": "RL29G-052", "brand": "Innelec", "domain": "innelec.com", "to": "contact@innelec.com", "ts": "2026-10-29T12:50:36.882234"}
+{"id": "RL29G-053", "brand": "SMARTAUDIO", "domain": "smartaudio.pt", "to": "geral@smartaudio.pt", "ts": "2026-10-29T12:50:36.882285"}
+{"id": "RL29G-054", "brand": "CD Media Portugal", "domain": "cdmediase.pt", "to": "info@cdmediase.pt", "ts": "2026-10-29T12:50:36.882294"}
+{"id": "RL29G-055", "brand": "BORN Nordic", "domain": "bornnordic.com", "to": "info@bornnordic.com", "ts": "2026-10-29T12:50:36.882300"}
+{"id": "RL29G-056", "brand": "DISKUS", "domain": "diskus.cz", "to": "info@diskus.cz", "ts": "2026-10-29T12:50:36.882305"}
+{"id": "RL29G-057", "brand": "Vandernet", "domain": "vandernet.com", "to": "vandernet@vandernet.com", "ts": "2026-10-29T12:50:36.882310"}
+{"id": "RL29G-058", "brand": "Kamper", "domain": "kamper.hr", "to": "info@kamper.hr", "ts": "2026-10-29T12:50:36.882315"}
+{"id": "RL29G-001", "brand": "Espresso Service West", "domain": "esw.nl", "to": "info@esw.nl", "ts": "2026-10-29T12:51:09.180692"}
+{"id": "RL29G-002", "brand": "Euroquick", "domain": "euroquick.nl", "to": "info@euroquick.nl", "ts": "2026-10-29T12:51:09.180771"}
+{"id": "RL29G-003", "brand": "Kaufgut", "domain": "kaufgut.it", "to": "info@kaufgut.it", "ts": "2026-10-29T12:51:09.180785"}
+{"id": "RL29G-004", "brand": "BESTbrew", "domain": "bestbrew.de", "to": "kontakt@bestbrew.de", "ts": "2026-10-29T12:51:09.180793"}
+{"id": "RL29G-005", "brand": "Kialoa", "domain": "kialoa.ch", "to": "info@kialoa.ch", "ts": "2026-10-29T12:51:09.180799"}
+{"id": "RL29G-006", "brand": "EspressoPool", "domain": "espressopool.de", "to": "info@espressopool.de", "ts": "2026-10-29T12:51:09.180805"}
+{"id": "RL29G-007", "brand": "Kantama", "domain": "kantamagroup.com", "to": "info@kantamagroup.com", "ts": "2026-10-29T12:51:09.180809"}
+{"id": "RL29G-008", "brand": "Mooring Coffee Co", "domain": "mooringcoffeeco.co.uk", "to": "sales@mooringcoffeeco.co.uk", "ts": "2026-10-29T12:51:09.180814"}
+{"id": "RL29G-009", "brand": "Forma House", "domain": "formahouse.co.uk", "to": "sales@formahouse.co.uk", "ts": "2026-10-29T12:51:09.180819"}
+{"id": "RL29G-010", "brand": "Coffee Masters", "domain": "coffeemasters.eu", "to": "info@coffeemasters.eu", "ts": "2026-10-29T12:51:09.180823"}
+{"id": "RL29G-011", "brand": "Espresso Professional", "domain": "espressoprofessional.cz", "to": "info@espressoprofessional.cz", "ts": "2026-10-29T12:51:55.347812"}
+{"id": "RL29G-012", "brand": "Dunlevy Distributors", "domain": "dunlevydist.com", "to": "sales@dunlevydist.com", "ts": "2026-10-29T12:51:55.347851"}
+{"id": "RL29G-013", "brand": "Potten & Pannen", "domain": "pottenpannen.sk", "to": "info@pottenpannen.sk", "ts": "2026-10-29T12:51:55.347864"}
+{"id": "RL29G-014", "brand": "Magnum Home", "domain": "magnumhome.cz", "to": "info@magnumhome.cz", "ts": "2026-10-29T12:51:55.347872"}
+{"id": "RL29G-015", "brand": "Van Well Billiet", "domain": "gerdvanwell.de", "to": "info@vanwellbilliet.de", "ts": "2026-10-29T12:51:55.347878"}
+{"id": "RL29G-016", "brand": "Kavos Draugas", "domain": "kavosdraugas.lt", "to": "labas@kavosdraugas.lt", "ts": "2026-10-29T12:51:55.347883"}
+{"id": "RL29G-017", "brand": "Coffee Annan", "domain": "coffeeannan.com", "to": "info@coffeeannan.com", "ts": "2026-10-29T12:51:55.347888"}
+{"id": "RL29G-018", "brand": "Exclusivas Irei", "domain": "irei.es", "to": "info@irei.es", "ts": "2026-10-29T12:51:55.347893"}
+{"id": "RL29G-019", "brand": "In&Out Cooking", "domain": "inoutcooking.com", "to": "info@inoutcooking.com", "ts": "2026-10-29T12:51:55.347897"}
+{"id": "RL29G-020", "brand": "Gowan Home", "domain": "gowanhome.ie", "to": "sales@gowanhome.ie", "ts": "2026-10-29T12:51:55.347902"}
+{"id": "RL29G-059", "brand": "Sportimi", "domain": "sportimi.pl", "to": "info@sportimi.pl", "ts": "2026-10-29T12:51:59.158653"}
+{"id": "RL29G-060", "brand": "EXPLR", "domain": "explr.se", "to": "info@explr.se", "ts": "2026-10-29T12:51:59.158704"}
+{"id": "RL29G-061", "brand": "Sprint", "domain": "sprint.cz", "to": "info@sprint.cz", "ts": "2026-10-29T12:51:59.158720"}
+{"id": "RL29G-062", "brand": "Knifestock", "domain": "knifestock.eu", "to": "info@knifestock.eu", "ts": "2026-10-29T12:51:59.158729"}
+{"id": "RL29G-063", "brand": "NRG Fitness", "domain": "nrgfitness.nl", "to": "info@nrgfitness.nl", "ts": "2026-10-29T12:51:59.158738"}
+{"id": "RL29G-064", "brand": "Crag Sport", "domain": "cragsport.pl", "to": "kinga@cragsport.pl", "ts": "2026-10-29T12:51:59.158745"}
+{"id": "RL29G-065", "brand": "Esportiva Aksa", "domain": "esportivaaksa.com", "to": "aksa@esportivaaksa.com", "ts": "2026-10-29T12:51:59.158753"}
+{"id": "RL29G-066", "brand": "Outback 97", "domain": "outback.it", "to": "info@outback.it", "ts": "2026-10-29T12:51:59.158760"}
+{"id": "RL29G-067", "brand": "Magenta Cat", "domain": "magentacat.eu", "to": "biuro@magentacat.eu", "ts": "2026-10-29T12:51:59.158768"}
+{"id": "RL29G-068", "brand": "Vertone", "domain": "vertone.cz", "to": "info@vertone.cz", "ts": "2026-10-29T12:51:59.158775"}
+{"id": "RL29G-021", "brand": "FLYELECTRONICS", "domain": "flyelectronics.pl", "to": "info@flyelectronics.pl", "ts": "2026-10-29T12:52:37.994285"}
+{"id": "RL29G-022", "brand": "Aldis Trade", "domain": "aldistrade.si", "to": "info@aldistrade.si", "ts": "2026-10-29T12:52:37.994326"}
+{"id": "RL29G-023", "brand": "BTM Brand Trading and Marketing", "domain": "btm-austria.com", "to": "contact@btm-austria.com", "ts": "2026-10-29T12:52:37.994339", "bounced": true}
+{"id": "RL29G-024", "brand": "KOFF", "domain": "koff.ro", "to": "sales@koff.ro", "ts": "2026-10-29T12:52:37.994347"}
+{"id": "RL29G-025", "brand": "Wolfsohn", "domain": "wolfsohn.de", "to": "info@wolfsohn.de", "ts": "2026-10-29T12:52:37.994353"}
+{"id": "RL29G-026", "brand": "Miwo", "domain": "miwo.it", "to": "info@miwo.it", "ts": "2026-10-29T12:52:37.994359"}
+{"id": "RL29G-027", "brand": "Zococity", "domain": "zococitysl.com", "to": "distribucion@zococity.com", "ts": "2026-10-29T12:52:37.994363"}
+{"id": "RL29G-028", "brand": "SG SpA", "domain": "sgspa.it", "to": "info@sgspa.it", "ts": "2026-10-29T12:52:37.994369"}
+{"id": "RL29G-029", "brand": "Dune Blue", "domain": "duneblue.com", "to": "info@duneblue.com", "ts": "2026-10-29T12:52:37.994375"}
+{"id": "RL29G-030", "brand": "3P", "domain": "3p.de", "to": "sales@3p.de", "ts": "2026-10-29T12:52:37.994382"}
+{"id": "RL29G-069", "brand": "New Element", "domain": "newelement.se", "to": "info@newelement.se", "ts": "2026-10-29T12:52:41.321603"}
+{"id": "RL29G-070", "brand": "Snow Factory", "domain": "snowfactory.es", "to": "info@snowfactory.es", "ts": "2026-10-29T12:52:41.321652"}
+{"id": "RL29G-071", "brand": "Tredon", "domain": "tredon.pl", "to": "kontakt@tredon.pl", "ts": "2026-10-29T12:52:41.321672"}
+{"id": "RL29G-072", "brand": "Second Chance Distribution", "domain": "scdistribution.eu", "to": "sales@secondchance.co.uk", "ts": "2026-10-29T12:52:41.321684"}
+{"id": "RL29G-073", "brand": "Hike-A-Way", "domain": "hikeaway.be", "to": "info@hikeaway.be", "ts": "2026-10-29T12:52:41.321694"}
+{"id": "RL29G-074", "brand": "H2O Sports Distribution", "domain": "shoph2o.ro", "to": "info@shoph2o.ro", "ts": "2026-10-29T12:52:41.321703"}
+{"id": "RL29G-075", "brand": "XCoSports", "domain": "xcosports.com", "to": "info@xcosports.com", "ts": "2026-10-29T12:52:41.321710"}
+{"id": "RL29G-076", "brand": "TKC Sales", "domain": "tkcsales.co.uk", "to": "sales@tkcsales.co.uk", "ts": "2026-10-29T12:52:41.321717"}
+{"id": "RL29G-077", "brand": "Amilco Benelux", "domain": "amilco.nl", "to": "contact@amilco.nl", "ts": "2026-10-29T12:52:41.321725"}
+{"id": "RL29G-078", "brand": "Fitagon", "domain": "fitagon.ch", "to": "info@fitagon.ch", "ts": "2026-10-29T12:52:41.321732"}
+{"id": "RL29G-079", "brand": "Wind & Snow", "domain": "windandsnow.ch", "to": "info@windandsnow.ch", "ts": "2026-10-29T12:52:41.353801"}
+{"id": "RL29G-031", "brand": "SEDM", "domain": "sedmd.de", "to": "hallo@sedmd.de", "ts": "2026-10-29T12:53:17.224143"}
+{"id": "RL29G-032", "brand": "CK Mediator", "domain": "ckmediator.pl", "to": "media@ckmediator.pl", "ts": "2026-10-29T12:53:17.224183"}
+{"id": "RL29G-033", "brand": "Forcetop", "domain": "forcetop.com", "to": "office@forcetop.com", "ts": "2026-10-29T12:53:17.224207"}
+{"id": "RL29G-034", "brand": "FEN", "domain": "fen.pl", "to": "sales@fen.pl", "ts": "2026-10-29T12:53:17.224215"}
+{"id": "RL29G-035", "brand": "D-R-O", "domain": "d-r-o.pl", "to": "d-r-o@d-r-o.pl", "ts": "2026-10-29T12:53:17.224221"}
+{"id": "RL29G-036", "brand": "Omegart", "domain": "omegart.ch", "to": "info@omegart.ch", "ts": "2026-10-29T12:53:17.224227"}
+{"id": "RL29G-037", "brand": "Ennius", "domain": "ennius.cz", "to": "info@ennius.cz", "ts": "2026-10-29T12:53:17.224231"}
+{"id": "RL29G-038", "brand": "GamerLab", "domain": "gamerlab.eu", "to": "sales@gamerlab.eu", "ts": "2026-10-29T12:53:17.224236"}
+{"id": "RL29G-039", "brand": "JCC Partner", "domain": "jccpartner.se", "to": "info@jccpartner.se", "ts": "2026-10-29T12:53:17.224240"}
+{"id": "RL29G-040", "brand": "Integra Systems", "domain": "integrasystems.it", "to": "info@integrasystems.it", "ts": "2026-10-29T12:53:17.224245"}
+{"id": "RL29G-080", "brand": "Scantrade Scandinavia", "domain": "scantrade.se", "to": "info@scantrade.se", "ts": "2026-10-29T12:53:18.468023"}
+{"id": "RL29G-081", "brand": "Nordic Outdoor", "domain": "nordicoutdoor.no", "to": "post@nordic-outdoor.no", "ts": "2026-10-29T12:53:18.468068"}
+{"id": "RL29G-082", "brand": "The Bonge Company", "domain": "thebongecompany.fi", "to": "info@bonge.fi", "ts": "2026-10-29T12:53:18.468086"}
+{"id": "RL29G-083", "brand": "ILICO Europe", "domain": "ilico.io", "to": "info@ilico.io", "ts": "2026-10-29T12:53:18.468097"}
+{"id": "RL29G-084", "brand": "New Rock Sport", "domain": "newrocksport.ch", "to": "info@newrocksport.ch", "ts": "2026-10-29T12:53:18.468106"}
+{"id": "RL29G-085", "brand": "BWH Fitness", "domain": "bwhfitness.pt", "to": "geral@bwh.pt", "ts": "2026-10-29T12:53:18.468114"}
+{"id": "RL29G-086", "brand": "Go 4", "domain": "go4.si", "to": "info@go4.si", "ts": "2026-10-29T12:53:18.468122"}
+{"id": "RL29G-087", "brand": "Vita Proshop", "domain": "vitaproshop.com", "to": "info@vitaproshop.com", "ts": "2026-10-29T12:53:18.468130"}
+{"id": "RL29G-088", "brand": "Raven Sport", "domain": "ravenco.eu", "to": "marketing@ravenco.eu", "ts": "2026-10-29T12:53:18.468137"}
+{"id": "RL29G-089", "brand": "Celtrade", "domain": "celtrade.com", "to": "sales@celtrade.com", "ts": "2026-10-29T12:53:18.468144"}
+{"id": "RL29G-090", "brand": "FreeBie", "domain": "freebie.it", "to": "info@freebie.it", "ts": "2026-10-29T12:53:26.491977"}
+{"id": "RL29G-091", "brand": "Elementum", "domain": "elementum.at", "to": "office@elementum.at", "ts": "2026-10-29T12:53:26.492014"}
+{"id": "RL29G-092", "brand": "Voyager Shop", "domain": "voyager-shop.eu", "to": "info@voyager-shop.gr", "ts": "2026-10-29T12:53:26.492026"}
+{"id": "RL29G-093", "brand": "Rösler Slovenija", "domain": "rosler.si", "to": "info@rosler.si", "ts": "2026-10-29T12:53:26.492034"}
+{"id": "RL29G-094", "brand": "Funsports", "domain": "funsports.gr", "to": "office@funsports.gr", "ts": "2026-10-29T12:53:26.492041"}
+{"id": "RL29G-095", "brand": "Hibiscus Sport", "domain": "hibiscussport.ro", "to": "contact@hibiscussport.ro", "ts": "2026-10-29T12:53:26.492046"}
+{"id": "RL29G-041", "brand": "Nexion Hellas", "domain": "nexion.gr", "to": "info@nexion.gr", "ts": "2026-10-29T12:53:32.071502"}
+{"id": "RL29G-042", "brand": "Colby", "domain": "colby.si", "to": "info@colby.si", "ts": "2026-10-29T12:53:32.071550"}
+{"id": "RL29G-043", "brand": "East Com", "domain": "eastcom.ro", "to": "contact@eastcom.ro", "ts": "2026-10-29T12:53:32.071601"}
+{"id": "RL29G-044", "brand": "NOMA", "domain": "nomatelecom.cz", "to": "info@nomatelecom.cz", "ts": "2026-10-29T12:53:32.071615"}
+{"id": "RL29G-045", "brand": "LED Sound", "domain": "ledsound.eu", "to": "info@ledsound.hu", "ts": "2026-10-29T12:53:32.071625"}
+{"id": "RL29G-046", "brand": "Troit", "domain": "troit.cz", "to": "info@troit.cz", "ts": "2026-10-29T12:53:32.071634"}
+{"id": "RL29G-047", "brand": "Teqphone", "domain": "teqphone.de", "to": "info@teqphone.de", "ts": "2026-10-29T12:53:32.071642"}
+{"id": "RL29G-048", "brand": "Nimans Home", "domain": "nimanshome.co.uk", "to": "hello@nimanshome.co.uk", "ts": "2026-10-29T12:53:32.071648"}
