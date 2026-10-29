@@ -53,3 +53,23 @@ Hypothèses à tester (semaine du 30.10) :
   (0 partage), l'appel au partage reste dans la description.
 - Sujets : priorité aux pièges des fiches techniques et emballages avant le Black Friday (produits qu'on achète).
 - 10 h contre 18 h : trop peu de données pour conclure, garder les deux créneaux.
+
+## 2026-10-29 (après-midi) — Stratégie du mois (demande de Marcio) : `strategy.json`
+Marcio : « trouve les solutions pour cartonner, fais ça pendant 1 mois, chaque semaine analyse les résultats et si
+ça ne marche pas change de stratégie ». Recherche faite le 29.10 :
+- Constaté ailleurs (sources) : TikTok donne plus de poids au fait de finir une vidéo et dit que le nombre d'abonnés
+  n'est pas un facteur direct (TikTok Newsroom). Dans un index de 2,4 M de TikToks populaires, les vidéos sans visage
+  et avec très peu de paroles ont les meilleures médianes de vues, et 16–30 s la meilleure médiane (Revid.ai, 2026 :
+  corrélations, pas des causes). En français, des formats « texte seul en boucle, musique seule » font plus d'un
+  million de vues sur de petits comptes (vidIQ, ex. « Traduction des annonces immobilières », 1,9 M vues).
+- Hypothèse principale à tester en S1 : notre problème est la rétention (4–12 s regardées) ; une vidéo courte à lire,
+  en boucle, sans voix de synthèse, peut retenir mieux.
+Décisions :
+- **S1 (30.10 → 5.11) = test A/B** : format V (voix, 18–25 s) contre format T (texte seul « écrit en gros → écrit en
+  petit », 10–13 s, en boucle), 7 créneaux chacun, alternés entre 10 h et 18 h. Tous les sujets restent dans la
+  famille gagnante « pièges des fiches techniques et des promos » avant le Black Friday.
+- Appliqué partout dès S1 : description en question (recherche TikTok), « Enregistre-la avant d'acheter », question
+  oui/non, 4 à 6 hashtags précis ; couverture lisible dans la grille.
+- Règles de décision (R1–R7), objectifs par semaine et échelle des plans (A pièges d'achat → B zéro voix → C Suisse
+  pratique → D avec la voix de Marcio) : voir `strategy.json` et RUNBOOK § 10.
+- Vidéo 6 (bouilloire, ven. 10 h) : fin refaite (« ce soir… ») et vidéo 10 (pilote T, iPhone 17) produites le 29.10.

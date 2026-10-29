@@ -1,5 +1,5 @@
 {
- "duration": 33.04,
+ "duration": 35.911,
  "segments": [
   {
    "id": "s01",
@@ -66,10 +66,10 @@
   },
   {
    "id": "s10",
-   "text": "Et abonne-toi : je mesure tout.",
+   "text": "Et abonne-toi : ce soir, ce que la fiche technique de l'iPhone dix-sept veut vraiment dire.",
    "start": 30.765,
-   "end": 32.74,
-   "display": "Et abonne-toi : je mesure tout."
+   "end": 35.611,
+   "display": "Et abonne-toi : ce soir, | ce que la fiche technique de l'iPhone 17 | veut vraiment dire."
   }
  ]
 }

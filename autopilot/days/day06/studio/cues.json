@@ -53,5 +53,10 @@
   "file": "/home/claude/studio/sfx/success.wav",
   "t": 30.845,
   "db": -13
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 31.05,
+  "db": -13
  }
 ]

@@ -1,7 +1,8 @@
 # Autopilot TikTok @marcio.mota8 — procédure hebdomadaire (chaque vendredi)
 
 Ce document est suivi par deux tâches programmées, chaque vendredi (heure de Zurich), qui démarrent chacune
-dans une session neuve : tout ce qu'il faut savoir est ici, dans `ENGINE.md`, `plan.json` et `learnings.md`.
+dans une session neuve : tout ce qu'il faut savoir est ici, dans `strategy.json` (stratégie du mois, § 10),
+`ENGINE.md`, `plan.json` et `learnings.md`.
 - **5 h 37 — « Autopilot TikTok : bilan + 7 vidéos du matin (vendredi) »** : bilan de la semaine (§ 2), plan des
   14 créneaux de la semaine (§ 3), puis production et programmation des 7 vidéos de **10 h** (vendredi → jeudi).
 - **11 h 37 — « Autopilot TikTok : 7 vidéos du soir (vendredi) »** : lit le plan fixé à 5 h 37 et produit les
@@ -13,6 +14,8 @@ produites par l'autopilote (aucune autre source de vidéos TikTok). Jamais plus 
 Si Metricool contient des publications TikTok qui ne viennent pas de l'autopilote, ne pas y toucher et le
 signaler à Marcio dans le message final.
 **Objectif n° 1 : gagner des abonnés et des vues.** Chaque décision se juge à cette aune.
+**Du 30.10 au 27.11.2026 : stratégie du mois (§ 10 et `strategy.json`)**, demandée par Marcio le 29.10 : chaque vendredi,
+on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles ; si ça ne marche pas, on change de stratégie.
 
 ## 0. Règles non négociables
 - **Honnêteté** : aucune mesure inventée. Un chiffre affiché ou dit vient d'une source officielle
@@ -27,8 +30,8 @@ signaler à Marcio dans le message final.
 - **Outils gratuits uniquement.** Pas d'ElevenLabs gratuit (licence non commerciale).
 - **Dépôt** : aucune commande destructive (pas de `rm -rf`, pas de réécriture d'historique, pas de force-push).
 - **Metricool** : ne jamais modifier ni supprimer les publications Instagram de Marcio.
-- **Format** : 1080×1920, 30 i/s, 30–40 s, accroche lisible dès l'image 0, sous-titres incrustés,
-  −14 LUFS, crête ≤ −1 dBTP. Zones sûres : rien d'important dans les 200 px du haut, les 380 px du bas,
+- **Format** : 1080×1920, 30 i/s, accroche lisible dès l'image 0, −14 LUFS, crête ≤ −1 dBTP.
+  Format V (voix) : 18–25 s, sous-titres incrustés. Format T (texte seul) : 10–13 s, en boucle, sans voix (§ 10.4). Zones sûres : rien d'important dans les 200 px du haut, les 380 px du bas,
   ni à droite de x = 940 entre y = 800 et 1600.
 
 ## 1. Préparer
@@ -45,7 +48,7 @@ signaler à Marcio dans le message final.
    écrire le job voix de la nouvelle fin (`tts/jobs/dayNNcta.json`, même id que le dernier segment), le synthétiser,
    puis `swap_end.py`, ajouter `{ next: [...] }` au `followCTA` de la scène, ajouter un repère `ui_pop` et `produce.sh NN`.
 
-## 2. Bilan hebdo (avant toute production)
+## 2. Bilan hebdo (avant toute production) — voir aussi § 10.2 (notes et règles de la stratégie du mois)
 1. Metricool `getAnalyticsDataByMetrics`, blogId 6563196, du vendredi précédent à hier (Europe/Zurich) :
    - par vidéo (connecteur posts) : TKPO02 date, TKPO05 description, TKPO06 durée, TKPO07 vues, TKPO08 j'aime,
      TKPO09 commentaires, TKPO10 partages, TKPO11 portée, TKPO13 visionnage complet, TKPO15 temps moyen regardé,
@@ -58,8 +61,16 @@ signaler à Marcio dans le message final.
    « constaté » et « hypothèse à tester »), et les décisions pour la semaine (sujets, accroches, durée,
    heure, hashtags, fin de vidéo). Garder un test A/B à la fois (ex. heure 10 h contre 18 h).
 4. Visites du profil élevées mais peu d'abonnés → proposer à Marcio une bio plus claire (il la colle lui-même).
+5. Stratégie du mois : calculer les 4 indicateurs de `strategy.json` (`kpi`) pour la semaine écoulée et pour chaque
+   format (V, T…), appliquer les règles R1 à R7, puis remplir dans `strategy.json` la semaine écoulée (`resultat`,
+   `verdict`, `decision`, `statut: "terminée"`), passer la suivante en `"en cours"` avec son `plan` et son `experience`,
+   et ajouter une ligne au `journal` (date, verdict, décision en une phrase).
 
 ## 3. Choisir les 14 sujets (tâche de 5 h 37)
+- Semaine S1 (30.10 → 5.11) : déjà planifiée le 29.10 dans `plan.json` (jours 10 à 22, champ `format`), à ne pas
+  refaire ; seulement remplacer un sujet dont les faits ne tiennent pas. Jours 6 et 10 déjà produits et programmés.
+- À partir de S2 : répartir les formats selon la règle R5 (gagnant 10 créneaux, perdant 4), en alternant les formats
+  entre 10 h et 18 h ; noter `format` et `semaine` dans chaque entrée.
 - Priorité (bilan du 29.10) : les pièges des fiches techniques et des emballages de produits qu'on achète
   (« le chiffre sur la boîte ment »), surtout avant le Black Friday. Les sujets abstraits ou de réglages ont fait
   3 à 10 fois moins de vues.
@@ -80,7 +91,8 @@ signaler à Marcio dans le message final.
   ou on change d'angle, on n'invente pas.
 
 ## 5. Écrire
-- Script (décision du bilan du 29.10) : **6 à 7 segments, 50 à 65 mots, 18 à 25 s**. Segment 1 = la révélation
+- Format T : voir § 10.4 (pas de voix, pas de script).
+- Script V (décision du bilan du 29.10) : **6 à 7 segments, 50 à 65 mots, 18 à 25 s**. Segment 1 = la révélation
   chiffrée (le chiffre choc ou le contre-pied), dite dès 0,12 s et lisible à l'image 0 avec le produit visible.
   Puis 3 à 4 segments d'explication, une phrase par idée. Pas de segment « envoie ça à… » (l'appel au partage
   va dans la description).
@@ -124,17 +136,69 @@ signaler à Marcio dans le message final.
 3. Metricool `createScheduledPost` : blogId 6563196, providers tiktok, date prévue à l'heure retenue
    (10:00 ou 18:00 selon le créneau, Europe/Zurich), `tiktokData` : `title` (obligatoire), `isAigc: true`,
    `privacyOption: PUBLIC_TO_EVERYONE` ; `videoCoverMilliseconds` sur l'image d'accroche (≈ 1200) ;
-   texte = 2-3 phrases avec les mots que les gens tapent dans la recherche + question + 8 à 10 hashtags
-   (niche + génériques, dont #apprendresurtiktok #pourtoi #fyp).
+   texte (depuis le 29.10) = la question que les gens tapent dans la recherche (« Pourquoi mon iPhone 256 Go n'a pas
+   256 Go de libre ? ») + 1 phrase avec les mots-clés + « Enregistre-la avant d'acheter » + une question oui/non pour
+   les commentaires + 4 à 6 hashtags précis, sans #fyp ni #pourtoi (un seul hashtag refusé fait disparaître toute
+   la description : rester sur des mots simples, sans accent). Format T : terminer par « Demain 10 h : … » ou
+   « Ce soir 18 h : … » (annonce de la vidéo suivante) et prendre la couverture sur l'image finale (toutes les lignes).
 4. `statut: "programmée"` dans plan.json ; `autopilot/days/dayNN/post.json` (id Metricool, url, heure) ;
    `captions.json` ; commit + push.
 5. Page « Autopilot TikTok Marcio » (https://claude.ai/artifact/CQgM5XPZHfUc79ymWhYdgB) : lire la page
    (Artifact read), téléverser chaque vidéo comme asset (Artifact publish `asset: true` + `url`), noter les
    `/_blob/<id>` dans `tools/assets.json` et les statuts/heures dans `tools/scheduled.json` (clé = numéro du jour),
-   adapter `tools/build_page.py` (titre de la semaine, plage de jours `range(...)`), lancer
+   (`tools/build_page.py` lit `strategy.json` : semaine en cours, vidéos de la semaine, notes et règles), lancer
    `python3 autopilot/tools/build_page.py /home/claude/studio/autopilot.html`, vérifier la page à 390 px de large,
    puis republier ce fichier avec `url` = l'adresse de la page.
 
 ## 9. Message à Marcio
 Court, en français : le chiffre clé de la semaine écoulée (vues, abonnés gagnés), ce qui a changé et pourquoi,
 les 7 vidéos programmées (jour, heure, titre). Pas de jargon technique.
+
+## 10. Stratégie du mois (30.10 → 27.11.2026) — `strategy.json`
+Demande de Marcio (29.10) : « trouve les solutions pour cartonner, fais ça pendant 1 mois, chaque semaine analyse
+les résultats et si ça ne marche pas change de stratégie ». `strategy.json` contient tout : point de départ, objectifs
+par semaine, indicateurs, formats, règles, échelle des plans, réserve d'expériences, actions possibles de Marcio.
+
+### 10.1 Semaines (production du vendredi au jeudi)
+| Semaine | Dates | Bilan | Objectifs (médiane vues · rétention · abonnés gagnés) |
+|---|---|---|---|
+| S1 | 30.10 → 5.11 | ven. 6.11 | 400 · 35 % · +30 |
+| S2 | 6.11 → 12.11 | ven. 13.11 | 600 · 40 % · +60 |
+| S3 | 13.11 → 19.11 | ven. 20.11 | 900 · 40 % · +100 |
+| S4 | 20.11 → 27.11 (Black Friday, 8 jours) | ven. 27.11 | 1 300 · 40 % · +150 |
+Les objectifs sont des cibles, pas des promesses : ne jamais les présenter comme des résultats.
+
+### 10.2 Chaque vendredi à 5 h 37 (après le bilan § 2)
+1. Note de la semaine (R1) : score = min(médiane des vues / objectif, abonnés gagnés / objectif) ;
+   VERT ≥ 1, ORANGE 0,5–1, ROUGE < 0,5.
+2. VERT (R2) : on garde ; « suite » des 2 meilleures vidéos. ORANGE (R3) : une seule chose change (prochaine
+   expérience de la réserve). ROUGE (R4) : plan suivant de l'échelle (A → B si rétention < 25 %, A → C si rétention
+   ≥ 35 %, puis D) et on l'explique à Marcio.
+3. Test de format (R5) : médiane ≥ 1,3 × l'autre sans rétention plus faible de plus de 10 points → 10 créneaux sur 14 ;
+   perdant 2 semaines de suite → abandonné. Pépite (R6) : ≥ 3 × la médiane → « Partie 2 » + proposer de l'épingler.
+4. Écrire la décision (learnings.md + `strategy.json`), puis planifier (§ 3) et produire.
+5. Message à Marcio : la note de la semaine (VERT/ORANGE/ROUGE), le chiffre clé contre l'objectif, ce qui change.
+
+### 10.3 Dates particulières
+- **Vendredi 20.11** : les deux tâches produisent **8 vidéos chacune** (jusqu'au vendredi 27.11, Black Friday, inclus).
+- **Vendredi 27.11 à 5 h 37 : bilan final du mois.** Pas de production. Bilan de S4 et du mois (départ → arrivée,
+  ce qui a marché, ce qui n'a pas marché, recommandations), page mise à jour, message à Marcio avec la question
+  « on continue ? ». Puis désactiver les deux tâches du vendredi (outil `update_trigger`, `enabled: false`) :
+  « Autopilot TikTok : bilan + 7 vidéos du matin (vendredi) » et « Autopilot TikTok : 7 vidéos du soir (vendredi) ».
+- **Vendredi 27.11 à 11 h 37** (si la tâche du soir tourne encore) : ne rien produire ; vérifier que le bilan final
+  existe, sinon le faire ; désactiver les deux tâches ; message d'une phrase.
+
+### 10.4 Produire une vidéo format T (texte seul, en boucle)
+1. Sujet « écrit en gros → écrit en petit » : une affirmation de la fiche, de la boîte ou de la promo, et ce que
+   disent les notes officielles du fabricant, la norme ou la loi. Chaque ligne « en petit » est une note réelle
+   (citée ou fidèlement résumée) ou un calcul exact ; jamais une moquerie ou une accusation.
+2. `autopilot/days/dayNN/texte.json` (modèle : `days/day10/texte.json`) : `chip` = « SOURCE : … » (la source est
+   visible), `title` = [accroche en 2 à 3 mots forts, « en petit »] ou une autre accroche courte, 4 lignes au plus
+   si un « en petit » fait 2 lignes (5 si toutes tiennent sur une ligne), `|` = retour à la ligne, ≤ 34 caractères
+   par ligne, `cta` « 🔖 Enregistre-la avant d'acheter ».
+3. `bash autopilot/tools/produce_texte.sh NN` → `/home/claude/studio/dayNN/dayNN_final.mp4` (rendu, bruitages,
+   musique sans creux, mixage −14 LUFS). Images de contrôle :
+   `node autopilot/render/render.js --scene scene_texte.js --timeline /home/claude/studio/dayNN/timeline.json --stills 0,1.2,5.8,9.4 --stillsDir …`
+   (depuis `autopilot/render`), planche avec zones interdites, regarder.
+4. Copier `timeline.json` et `cues.json` dans `autopilot/days/dayNN/studio/`. Publication comme § 8
+   (`isAigc: true` : le texte est écrit par une IA ; couverture ≈ dernière seconde).

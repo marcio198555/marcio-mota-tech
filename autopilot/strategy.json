@@ -1,0 +1,239 @@
+{
+ "titre": "Stratégie du mois — du 30.10 au 27.11.2026",
+ "demande": "29.10.2026, Marcio : « Trouve-moi les solutions pour cartonner. Fais ça pendant 1 mois : chaque semaine tu analyses les résultats et si ça ne marche pas, tu changes de stratégie. »",
+ "objectif": "Gagner des abonnés et des vues sur @marcio.mota8.",
+ "depart": {
+  "periode": "25 au 29.10 (5 vidéos mesurées le 29.10 à midi, âgées de 1 à 4 jours)",
+  "vues_mediane": 269,
+  "vues_moyenne": 474,
+  "retention_pct": 20,
+  "abonnes": 71,
+  "abonnes_gagnes": 8,
+  "partages": 0,
+  "commentaires": 0,
+  "constat": "La diffusion « Pour toi » marche (95 à 100 % des vues), mais les gens partent après 4 à 12 s sur 34 à 42 s. Les pièges de fiche technique (robot tondeuse, batterie externe) font 3 à 10 fois plus que les sujets abstraits."
+ },
+ "kpi": {
+  "vues_mediane": "Médiane des vues (TKPO07) des vidéos de la semaine publiées depuis au moins 18 h (la vidéo du jeudi 18 h compte dans le bilan suivant).",
+  "retention_pct": "Moyenne de (temps moyen regardé TKPO15 / durée TKPO06) × 100. Une vidéo en boucle peut dépasser 100 %.",
+  "abonnes_gagnes": "Abonnés (TKEV07) au bilan moins abonnés au bilan précédent (à défaut : somme de TKEV08).",
+  "engagement": "Partages + commentaires (TKPO10 + TKPO09) pour 1 000 vues."
+ },
+ "semaines": [
+  {
+   "id": "S1",
+   "du": "2026-10-30",
+   "au": "2026-11-05",
+   "bilan": "2026-11-06",
+   "plan": "A",
+   "objectifs": {
+    "vues_mediane": 400,
+    "retention_pct": 35,
+    "abonnes_gagnes": 30
+   },
+   "experience": "Format V (voix, 18–25 s) contre format T (texte seul en boucle, 10–13 s), 7 créneaux chacun, en alternance 10 h / 18 h pour neutraliser l'effet de l'heure.",
+   "statut": "en cours",
+   "resultat": null,
+   "verdict": null,
+   "decision": null
+  },
+  {
+   "id": "S2",
+   "du": "2026-11-06",
+   "au": "2026-11-12",
+   "bilan": "2026-11-13",
+   "plan": null,
+   "objectifs": {
+    "vues_mediane": 600,
+    "retention_pct": 40,
+    "abonnes_gagnes": 60
+   },
+   "experience": "Fixée le 6.11 par les règles : le format gagnant de S1 prend 10 créneaux sur 14, puis une expérience de la réserve.",
+   "statut": "à venir",
+   "resultat": null,
+   "verdict": null,
+   "decision": null
+  },
+  {
+   "id": "S3",
+   "du": "2026-11-13",
+   "au": "2026-11-19",
+   "bilan": "2026-11-20",
+   "plan": null,
+   "objectifs": {
+    "vues_mediane": 900,
+    "retention_pct": 40,
+    "abonnes_gagnes": 100
+   },
+   "experience": "Fixée le 13.11. Au moins 1 vidéo sur 3 liée aux achats de fin d'année.",
+   "statut": "à venir",
+   "resultat": null,
+   "verdict": null,
+   "decision": null
+  },
+  {
+   "id": "S4",
+   "du": "2026-11-20",
+   "au": "2026-11-27",
+   "bilan": "2026-11-27",
+   "plan": null,
+   "objectifs": {
+    "vues_mediane": 1300,
+    "retention_pct": 40,
+    "abonnes_gagnes": 150
+   },
+   "experience": "Semaine du Black Friday (vendredi 27.11) : 8 jours, 16 vidéos (les deux tâches du 20.11 produisent jusqu'au 27.11 inclus), toutes liées aux achats.",
+   "statut": "à venir",
+   "resultat": null,
+   "verdict": null,
+   "decision": null
+  }
+ ],
+ "bilan_final": {
+  "date": "2026-11-27",
+  "contenu": "Bilan du mois (départ → arrivée, ce qui a marché, ce qui n'a pas marché), page mise à jour, message à Marcio avec la question « on continue ? ». Pas de production. Puis désactivation des deux tâches du vendredi (update_trigger enabled=false) : elles ne reprennent que si Marcio le demande."
+ },
+ "formats": {
+  "V": {
+   "nom": "Voix",
+   "description": "Voix de synthèse, 18–25 s, 6–7 segments, révélation chiffrée dès 0,12 s avec le produit visible, sous-titres mot à mot, dernière phrase = annonce de la vidéo suivante (« ce soir… » / « demain… »).",
+   "outil": "tools/produce.sh NN (RUNBOOK § 5–6)"
+  },
+  "T": {
+   "nom": "Texte seul",
+   "description": "Sans voix, musique seule, 10–13 s, en boucle. Titre-accroche + 4 lignes « écrit en gros → écrit en petit » (notes officielles du fabricant, norme ou loi). Pensé pour être relu : la boucle fait monter le temps regardé. Pas de carte de fin ; l'annonce de la vidéo suivante est dans la description.",
+   "outil": "tools/produce_texte.sh NN avec days/dayNN/texte.json (RUNBOOK § 10.4)"
+  },
+  "Q": {
+   "nom": "Quiz (réserve)",
+   "description": "« Lequel consomme / coûte le plus ? » deux choix, réponse à 3–4 s, question en commentaire. À construire à partir de scene_texte.js si la réserve l'appelle."
+  }
+ },
+ "regles": [
+  {
+   "id": "R1",
+   "nom": "Note de la semaine",
+   "texte": "score = min(vues_mediane / objectif vues, abonnés gagnés / objectif abonnés). VERT si score ≥ 1 ; ORANGE si 0,5 ≤ score < 1 ; ROUGE si score < 0,5."
+  },
+  {
+   "id": "R2",
+   "nom": "VERT",
+   "texte": "On garde la stratégie. Les 2 meilleures vidéos ont une « suite » (même mécanique, autre produit) la semaine suivante."
+  },
+  {
+   "id": "R3",
+   "nom": "ORANGE",
+   "texte": "On garde le plan et on change UNE seule chose : le format perdant du test, l'accroche, ou la famille de sujets la plus faible (prochaine expérience de la réserve)."
+  },
+  {
+   "id": "R4",
+   "nom": "ROUGE",
+   "texte": "On change de stratégie : plan suivant de l'échelle (A → B ou C → D, voir « plans »), et on l'explique à Marcio dans le message."
+  },
+  {
+   "id": "R5",
+   "nom": "Test de format",
+   "texte": "Un format gagne si sa médiane de vues ≥ 1,3 × celle de l'autre sans rétention inférieure de plus de 10 points. Gagnant : 10 créneaux sur 14 la semaine suivante, perdant : 4. Perdant 2 semaines de suite : abandonné, remplacé par l'expérience suivante de la réserve. Égalité : 7/7 et on teste autre chose."
+  },
+  {
+   "id": "R6",
+   "nom": "Pépite",
+   "texte": "Une vidéo à ≥ 3 × la médiane de sa semaine : « Partie 2 » dans les 7 jours, et proposer à Marcio de l'épingler."
+  },
+  {
+   "id": "R7",
+   "nom": "Un changement à la fois",
+   "texte": "Jamais deux changements majeurs la même semaine, sauf en ROUGE. Chaque décision est écrite dans learnings.md et dans « decision » de la semaine (strategy.json)."
+  }
+ ],
+ "plans": [
+  {
+   "id": "A",
+   "nom": "Pièges d'achat",
+   "quand": "dès S1",
+   "texte": "Sujets « le chiffre sur la boîte » et achats du Black Friday ; test format V contre T."
+  },
+  {
+   "id": "B",
+   "nom": "Zéro voix",
+   "quand": "ROUGE avec rétention < 25 %, ou format V perdant 2 fois",
+   "texte": "100 % sans voix : T, Q et listes « 3 choses à vérifier avant d'acheter … » en boucles de 8–14 s."
+  },
+  {
+   "id": "C",
+   "nom": "Suisse pratique",
+   "quand": "ROUGE avec rétention ≥ 35 % (on regarde, mais peu de vues)",
+   "texte": "Angle local : droit suisse des achats, garanties, prix, énergie en CHF ; sources Confédération et FRC ; hashtags #suisse #romandie."
+  },
+  {
+   "id": "D",
+   "nom": "Avec Marcio",
+   "quand": "après 2 ROUGE, ou plan B/C sans effet",
+   "texte": "Demander à Marcio sa vraie voix (7 textes enregistrés au téléphone, 5 min par semaine) ou ses mains à l'image : le levier le plus fort, mais il dépend de lui."
+  }
+ ],
+ "reserve": [
+  "Accroche « N'achète pas X avant d'avoir vu ça » contre accroche « chiffre choc » (format V).",
+  "Voix siwis (féminine, licence CC BY 4.0, crédit « Voix : Piper / SIWIS (CC BY 4.0) » en fin de description) contre tom (format V).",
+  "Format Q (quiz « lequel ? », réponse à 3–4 s).",
+  "Série « Partie 1/2 » : la suite le lendemain à la même heure.",
+  "Format long 60–75 s « dossier » : seulement si la rétention V ≥ 45 % (le temps regardé total compte aussi).",
+  "Heures 12 h 30 / 20 h au lieu de 10 h / 18 h si Metricool « meilleur moment » le suggère."
+ ],
+ "partout_des_s1": [
+  "Description = la question que les gens tapent (« Pourquoi mon iPhone 256 Go n'a pas 256 Go de libre ? ») + 1 phrase avec les mots-clés + « Enregistre-la avant d'acheter » + une question oui/non pour les commentaires + 4 à 6 hashtags précis (plus de #fyp ni #pourtoi).",
+  "Le mot-clé principal est dit dans la 1re phrase (V) ou écrit dans le titre (T) : TikTok indexe ces vidéos pour sa recherche.",
+  "Couverture = l'image où l'accroche est entière et lisible dans la grille du profil.",
+  "Black Friday : dès S3, au moins 1 vidéo sur 3 sur les achats de fin d'année ; en S4, toutes."
+ ],
+ "marcio": [
+  {
+   "action": "Épingler les 3 meilleures vidéos sur ton profil",
+   "temps": "1 min",
+   "pourquoi": "Un visiteur du profil voit d'abord ce qui marche : plus de chances qu'il s'abonne."
+  },
+  {
+   "action": "Répondre aux commentaires (par une question)",
+   "temps": "2 min / jour",
+   "pourquoi": "Un compte qui répond donne envie de commenter ; les commentaires comptent dans la recommandation."
+  },
+  {
+   "action": "Une story Instagram « mon nouveau compte TikTok » avec le lien",
+   "temps": "2 min, une fois",
+   "pourquoi": "Tes 34 000 abonnés Instagram sont le démarrage le plus rapide possible. Je ne la publie pas sans ton accord."
+  },
+  {
+   "action": "Coller la bio TikTok proposée sur cette page",
+   "temps": "1 min",
+   "pourquoi": "Dit en une ligne pourquoi s'abonner."
+  },
+  {
+   "action": "Option plan D : enregistrer ta voix",
+   "temps": "5 min / semaine",
+   "pourquoi": "Une vraie voix retient mieux qu'une voix de synthèse ; seulement si les plans A à C ne suffisent pas."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "TikTok Newsroom — How TikTok recommends videos #ForYou",
+   "url": "https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you",
+   "apport": "Finir une vidéo est un signal fort ; le nombre d'abonnés n'est pas un facteur direct."
+  },
+  {
+   "titre": "TT Calculator — TikTok algorithm changes 2026 (estimations de créateurs, pas des données officielles)",
+   "url": "https://ttcalculator.net/blog/tiktok-algorithm-changes-2026-roundup/",
+   "apport": "Temps regardé absolu, recherche (descriptions en langage naturel, mots dits à voix haute), enregistrements."
+  },
+  {
+   "titre": "Revid.ai — The anatomy of a viral short (2026)",
+   "url": "https://www.revid.ai/blog/the-anatomy-of-a-viral-short-2026",
+   "apport": "Vidéos sans visage et avec peu de paroles en tête des médianes ; 16–30 s meilleure médiane de vues (corrélations, pas des causes)."
+  },
+  {
+   "titre": "vidIQ — recherche de vidéos virales FR (juillet–octobre 2026)",
+   "url": "https://www.instagram.com/reel/DcwcyLCMIWW",
+   "apport": "Ex. « Traduction des annonces immobilières » : texte seul en boucle, musique seule, 1,9 M vues pour un compte de 2 500 abonnés ; « N'achète jamais un chargeur avant d'avoir vu ça » : 1,6 M vues."
+  }
+ ],
+ "journal": []
+}
