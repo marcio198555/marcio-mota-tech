@@ -1,0 +1,49 @@
+{
+ "job": "day21",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Sur ce lave-vaisselle, le programme le plus long est celui qui consomme le moins.",
+   "file": "s01.wav",
+   "duration": 3.829,
+   "rate": 44100
+  },
+  {
+   "id": "s02",
+   "text": "Éco : quatre heures et demie, zéro virgule cinquante-quatre kilowattheure.",
+   "file": "s02.wav",
+   "duration": 4.816,
+   "rate": 44100
+  },
+  {
+   "id": "s03",
+   "text": "Intensif : deux heures et demie, plus d'un kilowattheure.",
+   "file": "s03.wav",
+   "duration": 3.528,
+   "rate": 44100
+  },
+  {
+   "id": "s04",
+   "text": "Plus de deux fois plus d'énergie.",
+   "file": "s04.wav",
+   "duration": 1.705,
+   "rate": 44100
+  },
+  {
+   "id": "s05",
+   "text": "Chauffer l'eau coûte cher : l'éco chauffe moins, et lave plus longtemps.",
+   "file": "s05.wav",
+   "duration": 3.371,
+   "rate": 44100
+  },
+  {
+   "id": "s06",
+   "text": "Et abonne-toi : ce soir, ce que la fiche d'un ordinateur portable écrit en petit.",
+   "file": "s06.wav",
+   "duration": 4.752,
+   "rate": 44100
+  }
+ ],
+ "total": 22.001
+}

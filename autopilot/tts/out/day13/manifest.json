@@ -1,0 +1,49 @@
+{
+ "job": "day13",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Moins cinquante pour cent ? D'accord, mais par rapport à quoi ?",
+   "file": "s01.wav",
+   "duration": 3.944,
+   "rate": 44100
+  },
+  {
+   "id": "s02",
+   "text": "En Suisse, c'est l'ordonnance sur l'indication des prix qui décide.",
+   "file": "s02.wav",
+   "duration": 3.853,
+   "rate": 44100
+  },
+  {
+   "id": "s03",
+   "text": "Prix pratiqué juste avant : affichable la moitié de cette durée, deux mois maximum.",
+   "file": "s03.wav",
+   "duration": 4.81,
+   "rate": 44100
+  },
+  {
+   "id": "s04",
+   "text": "Pratiqué trente jours de suite : affichable sans limite.",
+   "file": "s04.wav",
+   "duration": 3.022,
+   "rate": 44100
+  },
+  {
+   "id": "s05",
+   "text": "Un prix conseillé ne compte que si d'autres vendeurs le pratiquent vraiment.",
+   "file": "s05.wav",
+   "duration": 3.475,
+   "rate": 44100
+  },
+  {
+   "id": "s06",
+   "text": "Et abonne-toi : ce soir, ce que la boîte d'un routeur wifi écrit en petit.",
+   "file": "s06.wav",
+   "duration": 4.607,
+   "rate": 44100
+  }
+ ],
+ "total": 23.711
+}
