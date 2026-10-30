@@ -1,0 +1,56 @@
+{
+ "segments": [],
+ "duration": 11.8,
+ "spec": {
+  "chip": "SOURCE : TP-LINK.COM · ARCHER AX55",
+  "title": [
+   "AX3000 : CE QUI EST",
+   "écrit en petit"
+  ],
+  "rows": [
+   {
+    "gros": "AX3000",
+    "petit": "5 GHz : 2 402 + 2,4 GHz : 574 | = 2 976 Mbit/s additionnés"
+   },
+   {
+    "gros": "Débits Wi-Fi max.",
+    "petit": "« débits physiques » IEEE 802.11 | débit réel non garanti (note †)"
+   },
+   {
+    "gros": "160 MHz",
+    "petit": "« peut ne pas être disponible » | dans certains pays (note ‡)"
+   },
+   {
+    "gros": "4 ports Gigabit",
+    "petit": "Gigabit = 1 000 Mbit/s max. | par port"
+   }
+  ],
+  "cta": "🔖 Enregistre-la avant d’acheter",
+  "step": 2.4,
+  "delay": 0.5,
+  "cta_after": 0.9,
+  "hold": 3.2
+ },
+ "times": {
+  "rows": [
+   [
+    0.0,
+    0.5
+   ],
+   [
+    2.4,
+    2.9
+   ],
+   [
+    4.8,
+    5.3
+   ],
+   [
+    7.2,
+    7.7
+   ]
+  ],
+  "cta": 8.6,
+  "end": 11.8
+ }
+}

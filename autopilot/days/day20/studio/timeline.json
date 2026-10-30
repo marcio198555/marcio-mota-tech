@@ -1,0 +1,47 @@
+{
+ "duration": 21.519,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Quatorze jours pour renvoyer ton achat en ligne ? Pas en Suisse.",
+   "start": 0.12,
+   "end": 3.682,
+   "display": "14 jours pour renvoyer | ton achat en ligne ? | Pas en Suisse."
+  },
+  {
+   "id": "s02",
+   "text": "La loi suisse ne prévoit aucun droit de changer d'avis après un achat en ligne.",
+   "start": 3.782,
+   "end": 7.765,
+   "display": "La loi suisse ne prévoit aucun droit | de changer d'avis | après un achat en ligne."
+  },
+  {
+   "id": "s03",
+   "text": "Les quatorze jours, c'est pour le démarchage à domicile ou par téléphone.",
+   "start": 7.865,
+   "end": 11.813,
+   "display": "Les 14 jours, c'est pour | le démarchage à domicile | ou par téléphone."
+  },
+  {
+   "id": "s04",
+   "text": "En ligne, c'est le vendeur qui décide, dans ses conditions générales.",
+   "start": 11.913,
+   "end": 15.662,
+   "display": "En ligne, c'est le vendeur qui décide, | dans ses conditions générales."
+  },
+  {
+   "id": "s05",
+   "text": "Lis-les avant de payer.",
+   "start": 15.762,
+   "end": 17.028,
+   "display": "Lis-les avant de payer."
+  },
+  {
+   "id": "s06",
+   "text": "Et abonne-toi : demain, le programme du lave-vaisselle qui consomme deux fois moins.",
+   "start": 17.128,
+   "end": 21.219,
+   "display": "Et abonne-toi : demain, | le programme du lave-vaisselle | qui consomme 2 fois moins."
+  }
+ ]
+}

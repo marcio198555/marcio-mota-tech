@@ -1,0 +1,47 @@
+{
+ "duration": 21.451,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "En Suisse, ta garantie de deux ans peut être totalement exclue.",
+   "start": 0.12,
+   "end": 3.801,
+   "display": "En Suisse, ta garantie de 2 ans | peut être totalement exclue."
+  },
+  {
+   "id": "s02",
+   "text": "La loi prévoit deux ans pour les défauts.",
+   "start": 3.901,
+   "end": 5.943,
+   "display": "La loi prévoit 2 ans | pour les défauts."
+  },
+  {
+   "id": "s03",
+   "text": "Mais le vendeur peut l'exclure, si c'est écrit clairement dans le contrat.",
+   "start": 6.043,
+   "end": 9.427,
+   "display": "Mais le vendeur peut l'exclure, | si c'est écrit clairement dans le contrat."
+  },
+  {
+   "id": "s04",
+   "text": "Jamais s'il t'a caché le défaut exprès.",
+   "start": 9.527,
+   "end": 11.61,
+   "display": "Jamais s'il t'a caché | le défaut exprès."
+  },
+  {
+   "id": "s05",
+   "text": "Réparer au lieu de rembourser ? Seulement si le contrat ou les conditions le prévoient.",
+   "start": 11.71,
+   "end": 16.866,
+   "display": "Réparer au lieu de rembourser ? | Seulement si le contrat | ou les conditions le prévoient."
+  },
+  {
+   "id": "s06",
+   "text": "Et abonne-toi : demain, les ampoules : lis les lumens, pas les watts.",
+   "start": 16.966,
+   "end": 21.151,
+   "display": "Et abonne-toi : demain, | les ampoules : | lis les lumens, pas les watts."
+  }
+ ]
+}

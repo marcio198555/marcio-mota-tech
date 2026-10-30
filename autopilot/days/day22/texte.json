@@ -1,0 +1,30 @@
+{
+ "chip": "SOURCE : APPLE.COM · MACBOOK AIR M5",
+ "title": [
+  "MACBOOK « 18 h » :",
+  "écrit en petit"
+ ],
+ "rows": [
+  {
+   "gros": "Jusqu’à 18 heures",
+   "petit": "de streaming vidéo 1080p | dans Safari, en Wi-Fi (note 3)"
+  },
+  {
+   "gros": "Testé comment ?",
+   "petit": "écran à 8 clics du minimum | rétroéclairage clavier désactivé"
+  },
+  {
+   "gros": "Navigation web",
+   "petit": "« jusqu’à 15 heures » | soit 3 h de moins qu’en vidéo"
+  },
+  {
+   "gros": "SSD 512 Go",
+   "petit": "1 Go = 1 milliard d’octets | capacité formatée « moindre »"
+  }
+ ],
+ "cta": "🔖 Enregistre-la avant d’acheter",
+ "step": 2.4,
+ "delay": 0.5,
+ "cta_after": 0.9,
+ "hold": 3.2
+}

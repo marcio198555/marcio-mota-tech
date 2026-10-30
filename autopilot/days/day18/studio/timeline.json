@@ -1,0 +1,56 @@
+{
+ "segments": [],
+ "duration": 11.8,
+ "spec": {
+  "chip": "SOURCES : SAMSUNG · OFEN",
+  "title": [
+   "TV 4K : CE QUI EST",
+   "écrit en petit"
+  ],
+  "rows": [
+   {
+    "gros": "Motion Xcelerator",
+    "petit": "« Refresh Rate: 60Hz » | (fiche Samsung US, U8000F)"
+   },
+   {
+    "gros": "Plus fluide ?",
+    "petit": "vs TV Samsung sans cette fonction | PC gaming compatible requis"
+   },
+   {
+    "gros": "Consommation",
+    "petit": "l’étiquette UE donne 2 valeurs : | une en SDR, une en HDR"
+   },
+   {
+    "gros": "Mode HDR",
+    "petit": "en HDR, un appareil | « peut consommer le double »"
+   }
+  ],
+  "cta": "🔖 Enregistre-la avant d’acheter",
+  "step": 2.4,
+  "delay": 0.5,
+  "cta_after": 0.9,
+  "hold": 3.2
+ },
+ "times": {
+  "rows": [
+   [
+    0.0,
+    0.5
+   ],
+   [
+    2.4,
+    2.9
+   ],
+   [
+    4.8,
+    5.3
+   ],
+   [
+    7.2,
+    7.7
+   ]
+  ],
+  "cta": 8.6,
+  "end": 11.8
+ }
+}

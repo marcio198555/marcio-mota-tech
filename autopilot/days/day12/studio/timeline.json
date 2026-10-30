@@ -1,0 +1,47 @@
+{
+ "duration": 22.252,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton chargeur soixante-cinq watts ne charge pas forcément ton téléphone à soixante-cinq watts.",
+   "start": 0.12,
+   "end": 4.104,
+   "display": "Ton chargeur 65 W ne charge pas forcément | ton téléphone à 65 W."
+  },
+  {
+   "id": "s02",
+   "text": "C'est le téléphone qui demande, et il ne prend que ce qu'il lui faut.",
+   "start": 4.204,
+   "end": 7.25,
+   "display": "C'est le téléphone qui demande, | et il ne prend que ce qu'il lui faut."
+  },
+  {
+   "id": "s03",
+   "text": "Galaxie S vingt-cinq : vingt-cinq watts maximum.",
+   "start": 7.35,
+   "end": 10.457,
+   "display": "Galaxy S25 : | 25 W maximum."
+  },
+  {
+   "id": "s04",
+   "text": "S vingt-cinq Ultra : quarante-cinq watts, avec un câble cinq ampères.",
+   "start": 10.557,
+   "end": 14.533,
+   "display": "S25 Ultra : 45 W, | avec un câble 5 A."
+  },
+  {
+   "id": "s05",
+   "text": "Au-delà, payer plus de watts ne charge pas plus vite ce téléphone.",
+   "start": 14.633,
+   "end": 18.076,
+   "display": "Au-delà, payer plus de watts | ne charge pas plus vite ce téléphone."
+  },
+  {
+   "id": "s06",
+   "text": "Et abonne-toi : demain, le prix barré : ce que dit la loi suisse.",
+   "start": 18.176,
+   "end": 21.952,
+   "display": "Et abonne-toi : demain, | le prix barré : | ce que dit la loi suisse."
+  }
+ ]
+}
