@@ -274,7 +274,7 @@
     "R10",
     "R8"
    ],
-   "accroche": "65 W ? TON TÉLÉPHONE EN PREND BIEN MOINS",
+   "accroche": "CHARGEUR 65 W ? TON TÉLÉPHONE DÉCIDE CE QU'IL PREND",
    "a_verifier": [
     "puissance de charge maximale de téléphones courants (fiches officielles Apple / Samsung)",
     "USB Power Delivery : le téléphone demande, le chargeur fournit au plus ce qui est demandé (USB-IF)"
@@ -418,7 +418,7 @@
    "refs": [
     "R9"
    ],
-   "accroche": "« 120 Hz » ?",
+   "accroche": "TV 4K : CE QUI EST écrit en petit · « Refresh Rate 60Hz »",
    "a_verifier": [
     "« Motion Rate » / « TruMotion » ≠ fréquence native de la dalle (fabricant ou RTINGS)",
     "HDR : luminosité et conditions (fiche)",
@@ -515,7 +515,7 @@
    "refs": [
     "R9"
    ],
-   "accroche": "« 18 h D'AUTONOMIE » ?",
+   "accroche": "MACBOOK « 18 h » : écrit en petit",
    "a_verifier": [
     "conditions du test d'autonomie (note de la fiche officielle, ex. Apple ou Microsoft)",
     "espace disque disponible inférieur (note)",
