@@ -257,8 +257,11 @@
     "« jusqu'à X Mo/s » : conditions de test du fabricant (note)"
    ],
    "argent": "Croissance (Black Friday)",
-   "statut": "à produire",
-   "semaine": "S1"
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 410830177,
+   "programme_le": "2026-10-31T10:00",
+   "titre": "SSD 1 To : ce qui est écrit en petit"
   },
   {
    "jour": 12,
@@ -299,8 +302,12 @@
    ],
    "argent": "Croissance (Black Friday)",
    "annonce": "ce que la boîte d'un routeur Wi-Fi écrit en petit (jour 14)",
-   "statut": "à produire",
-   "semaine": "S1"
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 410830195,
+   "programme_le": "2026-11-01T10:00",
+   "titre": "Prix barré : ce que dit la loi suisse",
+   "note": "Faits revus le 30.10 : depuis le 1.1.2025, OIP art. 16 al. 3 = moitié de la durée (max. 2 mois) pour un prix pratiqué juste avant, sans limite pour un prix pratiqué ≥ 30 jours consécutifs."
   },
   {
    "jour": 14,
@@ -339,8 +346,12 @@
     "autonomie mesurée avec ou sans réduction de bruit (note)"
    ],
    "argent": "Affiliation écouteurs (Black Friday)",
-   "statut": "à produire",
-   "semaine": "S1"
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 410830215,
+   "programme_le": "2026-11-02T10:00",
+   "titre": "Écouteurs « 30 h » : ce qui est écrit en petit",
+   "note": "Produit nommé : AirPods 4 (le chiffre 30 h ne vaut pas pour les AirPods 5)."
   },
   {
    "jour": 16,
@@ -380,9 +391,12 @@
    ],
    "argent": "Croissance",
    "annonce": "ce que la fiche d'un téléviseur écrit en petit (jour 18)",
-   "statut": "à produire",
+   "statut": "programmée",
    "note": "Angle différent de la vidéo virale sur les ampoules (indice de rendu des couleurs) : on ne reprend pas son contenu.",
-   "semaine": "S1"
+   "semaine": "S1",
+   "metricool_id": 410830246,
+   "programme_le": "2026-11-03T10:00",
+   "titre": "Ampoules : lis les lumens, pas les watts"
   },
   {
    "jour": 18,
@@ -421,8 +435,12 @@
     "« dès 9.90 » = prix du modèle le moins cher"
    ],
    "argent": "Croissance (Black Friday)",
-   "statut": "à produire",
-   "semaine": "S1"
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 410830260,
+   "programme_le": "2026-11-04T10:00",
+   "titre": "Black Friday : la loi écrite en petit",
+   "note": "Valeurs remplacées par XX / X (aucun prix inventé) ; complément de la vidéo 13 (art. 17 et SECO), sans répéter la règle des 2 mois."
   },
   {
    "jour": 20,
@@ -462,8 +480,12 @@
    ],
    "argent": "Croissance",
    "annonce": "ce que la fiche d'un ordinateur portable écrit en petit (jour 22)",
-   "statut": "à produire",
-   "semaine": "S1"
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 410830279,
+   "programme_le": "2026-11-05T10:00",
+   "titre": "Lave-vaisselle : le plus long consomme 2 fois moins",
+   "note": "Exemple concret : Bosch SMS4ECI28E (éco 0,543 kWh / intensif 1,15–1,25 kWh). Le règlement UE ne fixe pas de durée maximale du programme éco."
   },
   {
    "jour": 22,
