@@ -103,3 +103,10 @@ Décisions (R7 : rien de nouveau en plus du test V/T déjà lancé) :
 - Proposer à Marcio d'épingler la tondeuse et la batterie externe. Une « Partie 2 » de la tondeuse (autre chiffre trompeur
   de robot tondeuse) est mise en réserve pour S2 si S1 confirme la famille « pièges d'achat ».
 - Hypothèse à vérifier le 6.11 : le format T (boucle, 10–13 s) dépasse 35 % de rétention.
+Production du 30.10 (vidéos de 10 h, jours 11 à 21) — enseignements du contrôle qualité :
+- OIP art. 16 a changé au 1.1.2025 : « moitié de la durée, 2 mois max. » seulement pour un prix pratiqué juste avant ;
+  un prix pratiqué ≥ 30 jours consécutifs peut être affiché sans limite. Ne jamais dire « 2 mois max. » seul.
+- Pas de durée maximale légale du programme éco des lave-vaisselle (règl. UE 2019/2022).
+- AirPods : « 30 h » ne vaut que pour les AirPods 4 (les AirPods 5 annoncent 22 h avec réduction de bruit) : nommer le modèle.
+- Éviter les généralisations (« le plus long consomme le moins ») : dire exactement ce que la source compare.
+- Format T avec prix d'illustration : écrire XX / X plutôt que des prix inventés.

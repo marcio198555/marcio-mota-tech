@@ -84,26 +84,52 @@
  },
  "11": {
   "title": "SSD 1 To : ce qui est écrit en petit",
-  "text": "(voir Metricool 410830177)"
+  "text": "Pourquoi un SSD de 1 To affiche 931 Go ? Disque dur, SSD externe : ce que Samsung écrit en petit sur le T7 (capacité, vitesse « jusqu'à », USB 3.2). Enregistre-la avant d'acheter 🔖 Tu le savais ? Oui ou non ? Ce soir 18 h : ton chargeur 65 W ne charge pas ton téléphone à 65 W. #ssd #disquedur #stockage #astucetech #blackfriday",
+  "sources": [
+   "https://www.samsung.com/fr/business/memory-storage/portable-ssd/portable-ssd-t7-mu-pc2t0t-ww/",
+   "https://www.usb.org/sites/default/files/usb_3_2_language_product_and_packaging_guidelines_final.pdf"
+  ]
  },
  "13": {
   "title": "Prix barré : ce que dit la loi suisse",
-  "text": "(voir Metricool 410830195)"
+  "text": "Prix barré au Black Friday : c'est légal en Suisse ? −50 % par rapport à quoi ? Ce que dit l'ordonnance sur l'indication des prix (OIP, art. 16) sur l'ancien prix et le prix conseillé. Enregistre-la avant d'acheter 🔖 Tu vérifies l'ancien prix avant d'acheter ? Oui ou non ? Ce soir 18 h : ce que la boîte d'un routeur Wi-Fi écrit en petit. #blackfriday #suisse #prix #consommation #bonplan",
+  "sources": [
+   "https://www.fedlex.admin.ch/eli/oc/2024/621/fr",
+   "https://www.fedlex.admin.ch/eli/cc/1978/2081_2081_2081/fr"
+  ]
  },
  "15": {
   "title": "Écouteurs « 30 h » : ce qui est écrit en petit",
-  "text": "(voir Metricool 410830215)"
+  "text": "AirPods 4 : 30 h d'autonomie, vraiment ? Écouteurs sans fil : ce qu'Apple écrit en petit (avec le boîtier, conditions du test, IP54). Enregistre-la avant d'acheter 🔖 Tu savais que c'était avec le boîtier ? Oui ou non ? Ce soir 18 h : en Suisse, la garantie de 2 ans peut être exclue. #airpods #ecouteurs #autonomie #astucetech #blackfriday",
+  "sources": [
+   "https://support.apple.com/fr-afri/121203"
+  ]
  },
  "17": {
   "title": "Ampoules : lis les lumens, pas les watts",
-  "text": "(voir Metricool 410830246)"
+  "text": "Comment choisir une ampoule LED ? Regarde les lumens, pas les watts : une ancienne 60 W ≈ 806 lumens, une LED les donne avec 7 à 8 W. Enregistre-la avant d'acheter 🔖 Tu regardais les watts ? Oui ou non ? Ce soir 18 h : ce que la fiche d'un téléviseur écrit en petit. #ampoule #led #lumens #economiedenergie #maison",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32009R0244",
+   "https://www.signify.com/api/assets/v1/file/Signify/content/929001243082_EU.en_BG.PROF.FP/7_W_(60_W)_E27_Warm_white_Non_dimmable_Bulb.pdf",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32019R2020",
+   "https://www.fedlex.admin.ch/eli/cc/2017/765/fr"
+  ]
  },
  "19": {
   "title": "Black Friday : la loi écrite en petit",
-  "text": "(voir Metricool 410830260)"
+  "text": "« Jusqu'à −70 % » au Black Friday : c'est permis en Suisse ? Ce que l'OIP et le SECO écrivent en petit sur les rabais, les prix conseillés et les « dès CHF … ». Enregistre-la avant d'acheter 🔖 Tu t'es déjà fait avoir par un « jusqu'à » ? Oui ou non ? Ce soir 18 h : achat en ligne en Suisse, pas de droit légal de retour de 14 jours. #blackfriday #suisse #promo #consommation #bonplan",
+  "sources": [
+   "https://www.seco.admin.ch/dam/fr/sd-web/37az5I4TCZV7/PBV-Brosch%C3%BCren-Wegleitung-SECO-2025-FR.pdf",
+   "https://www.fedlex.admin.ch/eli/cc/1978/2081_2081_2081/fr"
+  ]
  },
  "21": {
   "title": "Lave-vaisselle : le plus long consomme 2 fois moins",
-  "text": "(voir Metricool 410830279)"
+  "text": "Quel programme du lave-vaisselle consomme le moins ? Le plus long : sur ce Bosch, éco 0,54 kWh contre plus d'1 kWh en intensif (notice du fabricant). Enregistre-la 🔖 Tu utilises le programme éco ? Oui ou non ? Ce soir 18 h : ce que la fiche d'un ordinateur portable écrit en petit. #lavevaisselle #economiedenergie #electricite #maison #astucemaison",
+  "sources": [
+   "https://media3.bosch-home.com/Documents/9001955224_B.pdf",
+   "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32019R2022",
+   "https://www.energie-environnement.ch/electronique-electromenager/le-mode-eco-en-vaut-il-vraiment-la-peine"
+  ]
  }
 }
