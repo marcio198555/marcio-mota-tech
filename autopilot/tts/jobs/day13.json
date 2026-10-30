@@ -1,0 +1,30 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Moins cinquante pour cent ? D'accord, mais par rapport à quoi ?"
+  },
+  {
+   "id": "s02",
+   "text": "En Suisse, c'est l'ordonnance sur l'indication des prix qui décide."
+  },
+  {
+   "id": "s03",
+   "text": "Prix pratiqué juste avant : affichable la moitié de cette durée, deux mois maximum."
+  },
+  {
+   "id": "s04",
+   "text": "Pratiqué trente jours de suite : affichable sans limite."
+  },
+  {
+   "id": "s05",
+   "text": "Un prix conseillé ne compte que si d'autres vendeurs le pratiquent vraiment."
+  },
+  {
+   "id": "s06",
+   "text": "Et abonne-toi : ce soir, ce que la boîte d'un routeur wifi écrit en petit."
+  }
+ ]
+}

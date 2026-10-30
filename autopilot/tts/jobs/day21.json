@@ -1,0 +1,30 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Sur ce lave-vaisselle, le programme le plus long est celui qui consomme le moins."
+  },
+  {
+   "id": "s02",
+   "text": "Éco : quatre heures et demie, zéro virgule cinquante-quatre kilowattheure."
+  },
+  {
+   "id": "s03",
+   "text": "Intensif : deux heures et demie, plus d'un kilowattheure."
+  },
+  {
+   "id": "s04",
+   "text": "Plus de deux fois plus d'énergie."
+  },
+  {
+   "id": "s05",
+   "text": "Chauffer l'eau coûte cher : l'éco chauffe moins, et lave plus longtemps."
+  },
+  {
+   "id": "s06",
+   "text": "Et abonne-toi : ce soir, ce que la fiche d'un ordinateur portable écrit en petit."
+  }
+ ]
+}
