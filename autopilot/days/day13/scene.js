@@ -51,15 +51,15 @@
         text(ctx, 'pratiqué juste avant', 520, 500, { size: 50, weight: 800, color: C.white });
         const b = ease.inOut(prog(t, S('s03') + 1.2, 1.4));
         roundRect(ctx, 150, 560, 740, 50, 14); ctx.fillStyle = '#26324a'; ctx.fill();
-        roundRect(ctx, 150, 560, 740 * 0.5 * b + 1, 50, 14); ctx.fillStyle = C.gold; ctx.fill();
-        text(ctx, '½ de la durée · 2 mois max.', 520, 700, { size: 54, weight: 900, color: C.gold2 });
+        if (b > 0.06) { roundRect(ctx, 150, 560, 740 * 0.5 * b, 50, 14); ctx.fillStyle = C.gold; ctx.fill(); }
+        text(ctx, '½ de sa durée · 2 mois max.', 520, 700, { size: 54, weight: 900, color: C.gold2 });
         ctx.restore();
         // carte 2
         const k2 = ease.out(prog(t, S('s04'), 0.4));
         ctx.save(); ctx.globalAlpha = k2;
         roundRect(ctx, 90, 800, 860, 330, 28); ctx.fillStyle = 'rgba(14,22,38,0.9)'; ctx.fill(); ctx.lineWidth = 4; ctx.strokeStyle = C.green; ctx.stroke();
-        text(ctx, 'pratiqué 30 jours de suite', 520, 870, { size: 50, weight: 800, color: C.white });
-        text(ctx, '30 j', 520, 975, { size: 90, family: F.mono, weight: 700, color: C.white });
+        text(ctx, 'pratiqué au moins 30 jours', 520, 870, { size: 50, weight: 800, color: C.white });
+        text(ctx, '≥ 30 j', 520, 975, { size: 90, family: F.mono, weight: 700, color: C.white });
         text(ctx, 'sans limite de temps', 520, 1075, { size: 54, weight: 900, color: C.green });
         ctx.restore();
       });

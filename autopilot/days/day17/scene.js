@@ -49,7 +49,7 @@
         const k = ease.out(prog(t, S('s03') + 0.3, 1.2));
         readout(ctx, 'MÊME LUMIÈRE', '7–8 W', 700, 640, { w: 420, h: 190, size: 96 });
         text(ctx, 'au lieu de 60 W', 700, 830, { size: 48, weight: 800, color: C.white, alpha: k });
-        text(ctx, '÷ 8', 700, 960, { size: 110, family: F.mono, weight: 700, color: C.green, alpha: k });
+        text(ctx, '≈ ÷ 8', 700, 960, { size: 110, family: F.mono, weight: 700, color: C.green, alpha: k });
       });
 
       // L'emballage : lumens 2 × plus gros
@@ -57,7 +57,7 @@
         chip(ctx, 'RÈGL. (UE) 2019/2020 · OEEE (CH)', 520, 400, { color: C.gold, size: 34 });
         const k = ease.back(prog(t, S('s04') + 0.3, 0.5));
         roundRect(ctx, 230, 470, 580, 620, 30); ctx.fillStyle = '#e9edf5'; ctx.fill();
-        text(ctx, 'EMBALLAGE', 520, 540, { size: 34, family: F.mono, weight: 700, color: '#6b7488' });
+        text(ctx, 'EMBALLAGE (EX.)', 520, 540, { size: 38, family: F.mono, weight: 700, color: '#6b7488' });
         ctx.save(); ctx.translate(520, 720); ctx.scale(k, k);
         text(ctx, '806 lm', 0, 0, { size: 150, weight: 900, color: '#030408' }); ctx.restore();
         text(ctx, '7 W', 520, 880, { size: 72, weight: 800, color: '#3a4256', alpha: clamp(k) });

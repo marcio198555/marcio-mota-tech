@@ -26,7 +26,7 @@
       // ACCROCHE
       block(ctx, t, 0, S('s02'), () => {
         text(ctx, 'LE PLUS LONG', 520, 420, { size: 104, weight: 900, color: C.white });
-        text(ctx, '= LE MOINS CHER', 520, 530, { size: 92, weight: 900, color: C.gold2, shadow: 'rgba(201,168,76,0.5)', shadowBlur: 40 });
+        text(ctx, '= 2 × MOINS D’ÉNERGIE', 520, 530, { size: 80, weight: 900, color: C.gold2, shadow: 'rgba(201,168,76,0.5)', shadowBlur: 40 });
         bars(ctx, t, -1, 680);
         chip(ctx, 'BOSCH SMS4ECI28E · NOTICE', 520, 1130, { color: C.gold, size: 34 });
       });
@@ -36,7 +36,7 @@
         chip(ctx, 'PROGRAMME ÉCO 50°', 520, 400, { color: C.green, size: 36 });
         const k = ease.out(prog(t, S('s02') + 0.3, 1.5));
         readout(ctx, 'DURÉE', '4 h 30', 520, 590, { w: 600, h: 190, size: 110 });
-        readout(ctx, 'ÉNERGIE / CYCLE', (0.543 * k).toFixed(2).replace('.', ',') + ' kWh', 520, 850, { w: 600, h: 190, size: 96 });
+        readout(ctx, 'ÉNERGIE / CYCLE', '0,54 kWh', 520, 850, { w: 600, h: 190, size: 96 });
         text(ctx, 'mesuré selon EN 60436 (Bosch)', 520, 1030, { size: 36, family: F.mono, weight: 400, color: C.muted });
       });
 
@@ -68,7 +68,7 @@
         text(ctx, 'mais plus longtemps', 520, 1030, { size: 70, weight: 900, color: C.gold2 });
       });
 
-      block(ctx, t, S('s06'), END + 1, () => followCTA(ctx, t, S('s06'), { when: 'CE SOIR', next: ['ce que la fiche d\'un portable', 'écrit en petit'] }));
+      block(ctx, t, S('s06'), END + 1, () => followCTA(ctx, t, S('s06'), { when: 'CE SOIR', next: ['ce que la fiche d\'un ordinateur', 'portable écrit en petit'] }));
 
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });
