@@ -1,0 +1,49 @@
+{
+ "job": "day12",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton chargeur soixante-cinq watts ne charge pas ton téléphone à soixante-cinq watts.",
+   "file": "s01.wav",
+   "duration": 4.009,
+   "rate": 44100
+  },
+  {
+   "id": "s02",
+   "text": "C'est le téléphone qui demande, et il ne prend que ce qu'il lui faut.",
+   "file": "s02.wav",
+   "duration": 3.313,
+   "rate": 44100
+  },
+  {
+   "id": "s03",
+   "text": "Galaxie S vingt-cinq : vingt-cinq watts maximum.",
+   "file": "s03.wav",
+   "duration": 3.481,
+   "rate": 44100
+  },
+  {
+   "id": "s04",
+   "text": "S vingt-cinq Ultra : quarante-cinq watts, avec un câble cinq ampères.",
+   "file": "s04.wav",
+   "duration": 4.439,
+   "rate": 44100
+  },
+  {
+   "id": "s05",
+   "text": "Au-delà, payer plus de watts ne charge pas plus vite ce téléphone.",
+   "file": "s05.wav",
+   "duration": 3.818,
+   "rate": 44100
+  },
+  {
+   "id": "s06",
+   "text": "Et abonne-toi : demain, le prix barré : ce que dit la loi suisse.",
+   "file": "s06.wav",
+   "duration": 3.969,
+   "rate": 44100
+  }
+ ],
+ "total": 23.029
+}

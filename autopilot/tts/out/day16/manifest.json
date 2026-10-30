@@ -1,0 +1,49 @@
+{
+ "job": "day16",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "En Suisse, ta garantie de deux ans peut être totalement exclue.",
+   "file": "s01.wav",
+   "duration": 4.247,
+   "rate": 44100
+  },
+  {
+   "id": "s02",
+   "text": "La loi prévoit deux ans pour les défauts.",
+   "file": "s02.wav",
+   "duration": 2.338,
+   "rate": 44100
+  },
+  {
+   "id": "s03",
+   "text": "Mais le vendeur peut l'exclure, si c'est écrit clairement dans le contrat.",
+   "file": "s03.wav",
+   "duration": 3.858,
+   "rate": 44100
+  },
+  {
+   "id": "s04",
+   "text": "Jamais s'il t'a caché le défaut exprès.",
+   "file": "s04.wav",
+   "duration": 2.541,
+   "rate": 44100
+  },
+  {
+   "id": "s05",
+   "text": "Réparer au lieu de rembourser ? Seulement si le contrat ou les conditions le prévoient.",
+   "file": "s05.wav",
+   "duration": 5.395,
+   "rate": 44100
+  },
+  {
+   "id": "s06",
+   "text": "Et abonne-toi : demain, les ampoules : lis les lumens, pas les watts.",
+   "file": "s06.wav",
+   "duration": 4.526,
+   "rate": 44100
+  }
+ ],
+ "total": 22.905
+}
