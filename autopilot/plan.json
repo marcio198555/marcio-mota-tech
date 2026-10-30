@@ -281,8 +281,12 @@
    ],
    "argent": "Affiliation chargeurs (Black Friday)",
    "annonce": "le prix barré du Black Friday : ce que dit la loi suisse (jour 13)",
-   "statut": "à produire",
-   "semaine": "S1"
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 411087596,
+   "programme_le": "2026-10-31T18:00",
+   "titre": "Chargeur 65 W : ton téléphone décide",
+   "note": "Voix corrigée au contrôle qualité : « ne charge pas forcément » (USB-IF : l'appareil prend ce qu'il demande)."
   },
   {
    "jour": 13,
@@ -326,8 +330,11 @@
     "Wi-Fi 6 = 802.11ax (Wi-Fi Alliance)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
-   "semaine": "S1"
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 411087612,
+   "programme_le": "2026-11-01T18:00",
+   "titre": "Routeur AX3000 : ce qui est écrit en petit"
   },
   {
    "jour": 15,
@@ -371,8 +378,11 @@
    ],
    "argent": "Croissance (Black Friday)",
    "annonce": "les ampoules : lis les lumens, pas les watts (jour 17)",
-   "statut": "à produire",
-   "semaine": "S1"
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 411087639,
+   "programme_le": "2026-11-02T18:00",
+   "titre": "Garantie 2 ans : en Suisse, elle peut être exclue"
   },
   {
    "jour": 17,
@@ -415,8 +425,12 @@
     "consommation de l'étiquette mesurée en mode standard (étiquette énergie)"
    ],
    "argent": "Affiliation TV (Black Friday)",
-   "statut": "à produire",
-   "semaine": "S1"
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 411087673,
+   "programme_le": "2026-11-03T18:00",
+   "titre": "TV 4K : ce qui est écrit en petit",
+   "note": "Angle changé le 30.10 : aucune source officielle pour « 120 Hz » sur ce modèle ; fiche Samsung U8000F « Refresh Rate 60Hz » + note Motion Xcelerator + étiquette SDR/HDR (OFEN)."
   },
   {
    "jour": 19,
@@ -460,8 +474,12 @@
    ],
    "argent": "Croissance (Black Friday)",
    "annonce": "le lave-vaisselle : le programme le plus long consomme le moins (jour 21)",
-   "statut": "à produire",
-   "semaine": "S1"
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 411087688,
+   "programme_le": "2026-11-04T18:00",
+   "titre": "Achat en ligne : pas de retour légal de 14 jours en Suisse",
+   "note": "Annonce de la vidéo 21 : « le programme éco du lave-vaisselle, 2 fois moins que l'intensif »."
   },
   {
    "jour": 21,
@@ -504,8 +522,12 @@
     "« jusqu'à » sur les performances (note)"
    ],
    "argent": "Affiliation (Black Friday)",
-   "statut": "à produire",
-   "semaine": "S1"
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 411087710,
+   "programme_le": "2026-11-05T18:00",
+   "titre": "MacBook « 18 h » : ce qui est écrit en petit",
+   "note": "Modèle actuel : MacBook Air M5 (apple.com/chfr). Annonce dans la description : vendredi 6.11 à 10 h, robot aspirateur « 8 000 Pa » (jour 33)."
   },
   {
    "jour": 23,
@@ -676,7 +698,7 @@
   },
   {
    "jour": 33,
-   "date": null,
+   "date": "2026-11-06",
    "sujet": "Robot aspirateur « 8 000 Pa » : ça veut dire quoi",
    "mecanique": "Le chiffre qui impressionne",
    "refs": [
@@ -689,7 +711,9 @@
    ],
    "argent": "Affiliation robots aspirateurs (Black Friday)",
    "statut": "idée",
-   "heure": null
+   "heure": "10:00",
+   "annoncee": true,
+   "note": "Annoncée à la fin (description) de la vidéo 22 du jeudi 5.11 à 18 h : à garder pour le vendredi 6.11 à 10 h (format au choix du bilan S1)."
   },
   {
    "jour": 34,

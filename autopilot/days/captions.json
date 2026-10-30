@@ -131,5 +131,56 @@
    "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32019R2022",
    "https://www.energie-environnement.ch/electronique-electromenager/le-mode-eco-en-vaut-il-vraiment-la-peine"
   ]
+ },
+ "12": {
+  "title": "Chargeur 65 W : ton téléphone décide",
+  "text": "Pourquoi mon chargeur 65 W ne charge pas plus vite ? Charge rapide USB-C Power Delivery : c'est le téléphone qui décide (Galaxy S25 : 25 W max, S25 Ultra : 45 W avec chargeur 45 W et câble 5 A, selon Samsung). Enregistre-la avant d'acheter 🔖 Tu as déjà payé un chargeur trop puissant ? Oui ou non ? #chargeur #chargerapide #usbc #astucetech #blackfriday",
+  "sources": [
+   "https://www.apple.com/sg/iphone-17/specs",
+   "https://www.samsung.com/uk/support/mobile-devices/which-type-of-charger-does-my-galaxy-device-accept/",
+   "https://www.samsung.com/us/support/answer/ANS10004600/",
+   "https://www.usb.org/usb-charger-pd"
+  ]
+ },
+ "14": {
+  "title": "Routeur AX3000 : ce qui est écrit en petit",
+  "text": "AX3000, c'est 3 000 Mbit/s ? Routeur Wi-Fi 6 : ce que TP-Link écrit en petit sur l'Archer AX55 (débits par bande, débit réel, 160 MHz, ports Gigabit). Enregistre-la avant d'acheter 🔖 Tu connais ton vrai débit ? Oui ou non ? Demain 10 h : écouteurs « 30 h » d'autonomie, vraiment ? #wifi #routeur #wifi6 #astucetech #blackfriday",
+  "sources": [
+   "https://www.tp-link.com/fr/home-networking/wifi-router/archer-ax55/"
+  ]
+ },
+ "16": {
+  "title": "Garantie 2 ans : en Suisse, elle peut être exclue",
+  "text": "La garantie de 2 ans est-elle obligatoire en Suisse ? Pas toujours : le vendeur peut l'exclure si c'est clairement écrit dans le contrat, sauf s'il a caché le défaut exprès (CO art. 199 et 210, SECO, FRC). Enregistre-la avant d'acheter 🔖 Tu lis le contrat avant d'acheter ? Oui ou non ? #garantie #suisse #consommation #droitsuisse #blackfriday",
+  "sources": [
+   "https://www.bj.admin.ch/fr/responsabilite-pour-les-defauts-de-construction",
+   "https://www.frc.ch/dossiers/la-garantie-legale-pour-les-defauts",
+   "https://www.kmu.admin.ch/fr/nouveau-droit-de-la-garantie-112013"
+  ]
+ },
+ "18": {
+  "title": "TV 4K : ce qui est écrit en petit",
+  "text": "Comment savoir si une TV 4K est vraiment en 120 Hz ? Regarde « Refresh Rate » sur la fiche : ce que Samsung écrit en petit sur la U8000F (60Hz, Motion Xcelerator) et ce que dit l'OFEN sur la consommation en HDR. Enregistre-la avant d'acheter 🔖 Tu regardes les Hz avant d'acheter ? Oui ou non ? Demain 10 h : « jusqu'à −70 % », ce qui est écrit en petit. #television #tv4k #televiseur #astucetech #blackfriday",
+  "sources": [
+   "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019R2013",
+   "https://images.samsung.com/is/content/samsung/p6pim/us/un65u8000ffxza/specsheet/us-specsheet-un65u8000ffxza-555061804.pdf",
+   "https://pubdb.bfe.admin.ch/fr/publication/download/6306",
+   "https://www.samsung.com/au/tvs/uhd-4k-tv/u8000f-65-inch-crystal-uhd-4k-smart-tv-ua65u8000fwxxy/"
+  ]
+ },
+ "20": {
+  "title": "Achat en ligne : pas de retour légal de 14 jours en Suisse",
+  "text": "Peut-on renvoyer un achat en ligne en Suisse ? Pas de droit légal de retour de 14 jours : la loi le prévoit pour le démarchage à domicile ou par téléphone, pas pour l'achat en ligne (SECO, ch.ch). En ligne, ce sont les conditions du vendeur qui décident. Enregistre-la avant d'acheter 🔖 Tu pensais avoir 14 jours ? Oui ou non ? #achatenligne #suisse #consommation #droitsuisse #blackfriday",
+  "sources": [
+   "https://ch.ch/fr/securite-et-droit/retourner-ou-echanger-des-produits",
+   "https://www.kmu.admin.ch/fr/quest-ce-quun-droit-de-revocation"
+  ]
+ },
+ "22": {
+  "title": "MacBook « 18 h » : ce qui est écrit en petit",
+  "text": "MacBook Air : 18 h d'autonomie, vraiment ? Ordinateur portable : ce qu'Apple écrit en petit sur le MacBook Air M5 (conditions du test, navigation web, stockage). Enregistre-la avant d'acheter 🔖 Tu le savais ? Oui ou non ? Demain 10 h : robot aspirateur « 8 000 Pa », ça veut dire quoi ? #macbook #macbookair #autonomie #ordinateurportable #blackfriday",
+  "sources": [
+   "https://www.apple.com/chfr/macbook-air/specs/"
+  ]
  }
 }

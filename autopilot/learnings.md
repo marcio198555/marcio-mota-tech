@@ -110,3 +110,12 @@ Production du 30.10 (vidéos de 10 h, jours 11 à 21) — enseignements du contr
 - AirPods : « 30 h » ne vaut que pour les AirPods 4 (les AirPods 5 annoncent 22 h avec réduction de bruit) : nommer le modèle.
 - Éviter les généralisations (« le plus long consomme le moins ») : dire exactement ce que la source compare.
 - Format T avec prix d'illustration : écrire XX / X plutôt que des prix inventés.
+Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contrôle qualité :
+- Ne jamais dire « ton téléphone ne charge pas à 65 W » : certains téléphones acceptent 65 W ou plus. Dire « pas forcément » ;
+  la norme USB PD dit seulement que l'appareil prend ce qu'il demande. Apple ne publie pas de puissance max en watts pour l'iPhone 17.
+- Garantie (CO 199/210) : le SECO dit « exclusion clairement dans le contrat (hors CG) », la FRC cite aussi les CG → dire « écrit
+  clairement dans le contrat ». La révision du 1.1.2026 ne concerne que les défauts de construction.
+- Format T : citer toute la note du fabricant quand elle a une condition (Motion Xcelerator : « PC gaming compatible requis ») ;
+  préciser le pays de la fiche (fiche Samsung US) ; une note générale (OFEN) se dit « un appareil », pas « ce téléviseur ».
+- Accroche « 120 Hz » abandonnée faute de source officielle : changer d'angle plutôt que forcer le chiffre du plan.
+- Une annonce « 2 fois moins » doit dire par rapport à quoi (« que l'intensif »).
