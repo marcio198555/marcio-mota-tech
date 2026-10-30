@@ -35,7 +35,14 @@
    "statut": "en cours",
    "resultat": null,
    "verdict": null,
-   "decision": null
+   "decision": null,
+   "depart_mesure": {
+    "vues_mediane": 269,
+    "retention_pct": 21,
+    "abonnes_gagnes": 9,
+    "engagement_pour_mille": 0.3,
+    "note": "7 vidéos autopilote (format V) du 25 au 29.10, données Metricool du 30.10 matin"
+   }
   },
   {
    "id": "S2",
@@ -242,5 +249,11 @@
    "apport": "Ex. « Traduction des annonces immobilières » : texte seul en boucle, musique seule, 1,9 M vues pour un compte de 2 500 abonnés ; « N'achète jamais un chargeur avant d'avoir vu ça » : 1,6 M vues."
   }
  ],
- "journal": []
+ "journal": [
+  {
+   "date": "2026-10-30",
+   "verdict": "départ (pas de note)",
+   "decision": "Point de départ mesuré : médiane 269 vues, rétention 21 %, +9 abonnés (24→28.10), engagement 0,3 ‰. S1 lancé tel que prévu (test V contre T, pièges d'achat) ; aucune autre modification (R7)."
+  }
+ ]
 }

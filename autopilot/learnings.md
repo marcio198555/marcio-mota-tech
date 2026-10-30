@@ -76,3 +76,30 @@ Décisions :
 - Contrôle qualité du 29.10 : la voix Piper tom lit « iPhone » « i-fone » → écrire « aïe-fone » dans le texte dit,
   garder « iPhone » à l'écran (même chose pour tout nom de marque anglais). Une nouvelle prise de voix = un nouveau job
   (le pont saute les jobs déjà synthétisés). Format T : recopier les mots exacts du fabricant (« jusqu'à », « max »).
+
+## 2026-10-30 (5 h 40) — Bilan de départ de la stratégie du mois (Metricool, données au 30.10 tôt le matin)
+Pas encore de note VERT / ORANGE / ROUGE : S1 commence aujourd'hui, première note le vendredi 6.11.
+| Vidéo (autopilote, format V) | Heure | Durée | Vues | J'aime | Comm. | Temps moyen | Rétention |
+|---|---|---|---|---|---|---|---|
+| Pente robot tondeuse (25.10) | 10 h | 37 s | 1 002 | 20 | 0 | 12 s | 32 % |
+| Batterie externe (27.10) | 10 h | 40 s | 782 | 27 | 0 | 8 s | 20 % |
+| Fenêtre oscillo-battant (28.10) | 18 h | 33 s | 277 | 8 | 1 | 9 s | 27 % |
+| Instruments iPhone (26.10) | 10 h | 34 s | 269 | 4 | 0 | 6 s | 18 % |
+| +10 dB (28.10) | 10 h | 42 s | 254 | 5 | 0 | 5 s | 12 % |
+| Fermer ses applis (27.10) | 18 h | 36 s | 252 | 6 | 0 | 8 s | 22 % |
+| Mot de passe (29.10, < 24 h) | 10 h | 36 s | 159 | 4 | 0 | 6 s | 17 % |
+(« 45 % ≠ 45° » publiée hors autopilote le 27.10 : 253 vues, 5 s. USB-C du 29.10 18 h : pas encore dans les données.)
+- Indicateurs (7 vidéos autopilote) : **médiane 269 vues** (moyenne 428), **rétention moyenne 21 %**, 0 partage,
+  1 commentaire → **engagement 0,3 pour 1 000 vues**. Abonnés : 63 (24.10) → 72 (28.10), **+9**.
+- Par heure : 10 h médiane 269 (5 vidéos), 18 h médiane 265 (2 vidéos) → pas de différence mesurable.
+- Par format : tout est en V jusqu'ici ; le premier T (iPhone 17) sort ce soir à 18 h.
+- 90 à 98 % des vues viennent de « Pour toi », 0 % de la recherche (les descriptions-questions commencent aujourd'hui).
+Constaté :
+- Les deux vidéos au-dessus de 700 vues sont des pièges de chiffre sur une fiche/boîte (tondeuse, batterie). La tondeuse
+  fait 3,7 × la médiane (critère « pépite » R6 rempli, mais avant le début du test).
+- La meilleure rétention (32 %) va avec la meilleure vidéo ; les plus longues (40–42 s) retiennent le moins.
+Décisions (R7 : rien de nouveau en plus du test V/T déjà lancé) :
+- S1 reste tel que planifié le 29.10 (test V contre T, sujets « pièges d'achat »). Les 6 vidéos de 10 h sont produites ce matin.
+- Proposer à Marcio d'épingler la tondeuse et la batterie externe. Une « Partie 2 » de la tondeuse (autre chiffre trompeur
+  de robot tondeuse) est mise en réserve pour S2 si S1 confirme la famille « pièges d'achat ».
+- Hypothèse à vérifier le 6.11 : le format T (boucle, 10–13 s) dépasse 35 % de rétention.
