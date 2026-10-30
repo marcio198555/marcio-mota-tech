@@ -1,0 +1,10 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton chargeur soixante-cinq watts ne charge pas forcément ton téléphone à soixante-cinq watts."
+  }
+ ]
+}
