@@ -1,0 +1,14 @@
+{
+ "job": "day12fix",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton chargeur soixante-cinq watts ne charge pas forcément ton téléphone à soixante-cinq watts.",
+   "file": "s01.wav",
+   "duration": 4.195,
+   "rate": 44100
+  }
+ ],
+ "total": 4.195
+}
