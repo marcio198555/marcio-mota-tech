@@ -1,0 +1,21 @@
+{
+ "job": "day13fix",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s03",
+   "text": "Prix pratiqué juste avant : affichable la moitié du temps où il a été pratiqué, deux mois maximum.",
+   "file": "s03.wav",
+   "duration": 5.194,
+   "rate": 44100
+  },
+  {
+   "id": "s04",
+   "text": "Pratiqué au moins trente jours de suite : affichable sans limite.",
+   "file": "s04.wav",
+   "duration": 3.44,
+   "rate": 44100
+  }
+ ],
+ "total": 8.634
+}

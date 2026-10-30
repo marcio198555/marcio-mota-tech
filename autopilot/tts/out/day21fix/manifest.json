@@ -1,0 +1,21 @@
+{
+ "job": "day21fix",
+ "voice": "fr_FR-tom-medium",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Sur ce lave-vaisselle, le programme le plus long consomme deux fois moins que l'intensif.",
+   "file": "s01.wav",
+   "duration": 4.352,
+   "rate": 44100
+  },
+  {
+   "id": "s03",
+   "text": "Intensif : environ deux heures et demie, plus d'un kilowattheure.",
+   "file": "s03.wav",
+   "duration": 3.777,
+   "rate": 44100
+  }
+ ],
+ "total": 8.129
+}
