@@ -1,47 +1,47 @@
 {
- "duration": 21.445,
+ "duration": 22.322,
  "segments": [
   {
    "id": "s01",
-   "text": "Sur ce lave-vaisselle, le programme le plus long est celui qui consomme le moins.",
+   "text": "Sur ce lave-vaisselle, le programme le plus long consomme deux fois moins que l'intensif.",
    "start": 0.12,
-   "end": 3.741,
-   "display": "Sur ce lave-vaisselle, le programme le plus long | est celui qui consomme le moins."
+   "end": 4.309,
+   "display": "Sur ce lave-vaisselle, le programme le plus long | consomme 2 fois moins que l'intensif."
   },
   {
    "id": "s02",
    "text": "Éco : quatre heures et demie, zéro virgule cinquante-quatre kilowattheure.",
-   "start": 3.841,
-   "end": 8.412,
+   "start": 4.409,
+   "end": 8.98,
    "display": "Éco : 4 h 30, 0,54 kWh."
   },
   {
    "id": "s03",
-   "text": "Intensif : deux heures et demie, plus d'un kilowattheure.",
-   "start": 8.662,
-   "end": 11.761,
-   "display": "Intensif : 2 h 30, plus d'1 kWh."
+   "text": "Intensif : environ deux heures et demie, plus d'un kilowattheure.",
+   "start": 9.23,
+   "end": 12.788,
+   "display": "Intensif : environ 2 h 30, | plus d'un kWh."
   },
   {
    "id": "s04",
    "text": "Plus de deux fois plus d'énergie.",
-   "start": 11.861,
-   "end": 13.318,
+   "start": 12.888,
+   "end": 14.345,
    "display": "Plus de 2 fois plus d'énergie."
   },
   {
    "id": "s05",
    "text": "Chauffer l'eau coûte cher : l'éco chauffe moins, et lave plus longtemps.",
-   "start": 13.418,
-   "end": 16.488,
+   "start": 14.445,
+   "end": 17.516,
    "display": "Chauffer l'eau coûte cher : | l'éco chauffe moins, et lave plus longtemps."
   },
   {
    "id": "s06",
    "text": "Et abonne-toi : ce soir, ce que la fiche d'un ordinateur portable écrit en petit.",
-   "start": 16.588,
-   "end": 20.995,
-   "display": "Et abonne-toi : ce soir, | ce que la fiche | d'un ordinateur portable écrit en petit."
+   "start": 17.616,
+   "end": 22.022,
+   "display": "Et abonne-toi : ce soir, | ce que la fiche d'un ordinateur portable | écrit en petit."
   }
  ]
 }
