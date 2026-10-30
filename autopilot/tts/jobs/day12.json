@@ -1,0 +1,30 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton chargeur soixante-cinq watts ne charge pas ton téléphone à soixante-cinq watts."
+  },
+  {
+   "id": "s02",
+   "text": "C'est le téléphone qui demande, et il ne prend que ce qu'il lui faut."
+  },
+  {
+   "id": "s03",
+   "text": "Galaxie S vingt-cinq : vingt-cinq watts maximum."
+  },
+  {
+   "id": "s04",
+   "text": "S vingt-cinq Ultra : quarante-cinq watts, avec un câble cinq ampères."
+  },
+  {
+   "id": "s05",
+   "text": "Au-delà, payer plus de watts ne charge pas plus vite ce téléphone."
+  },
+  {
+   "id": "s06",
+   "text": "Et abonne-toi : demain, le prix barré : ce que dit la loi suisse."
+  }
+ ]
+}

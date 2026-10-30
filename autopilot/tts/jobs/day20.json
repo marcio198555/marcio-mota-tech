@@ -1,0 +1,30 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Quatorze jours pour renvoyer ton achat en ligne ? Pas en Suisse."
+  },
+  {
+   "id": "s02",
+   "text": "La loi suisse ne prévoit aucun droit de changer d'avis après un achat en ligne."
+  },
+  {
+   "id": "s03",
+   "text": "Les quatorze jours, c'est pour le démarchage à domicile ou par téléphone."
+  },
+  {
+   "id": "s04",
+   "text": "En ligne, c'est le vendeur qui décide, dans ses conditions générales."
+  },
+  {
+   "id": "s05",
+   "text": "Lis-les avant de payer."
+  },
+  {
+   "id": "s06",
+   "text": "Et abonne-toi : demain, le programme du lave-vaisselle qui consomme deux fois moins."
+  }
+ ]
+}
