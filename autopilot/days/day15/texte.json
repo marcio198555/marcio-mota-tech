@@ -1,0 +1,30 @@
+{
+ "chip": "SOURCE : APPLE.COM · AIRPODS 4",
+ "title": [
+  "« 30 h D’AUTONOMIE »",
+  "en petit"
+ ],
+ "rows": [
+  {
+   "gros": "jusqu’à 30 h",
+   "petit": "avec le boîtier ; écouteurs | seuls : jusqu’à 5 h"
+  },
+  {
+   "gros": "jusqu’à 5 h d’écoute",
+   "petit": "testé avec le volume à 50 %, | Audio spatial désactivé"
+  },
+  {
+   "gros": "IP54",
+   "petit": "résistance « pas permanente », | peut diminuer avec l’usure"
+  },
+  {
+   "gros": "autonomie",
+   "petit": "dépend des réglages, de | l’environnement et de l’usage"
+  }
+ ],
+ "cta": "🔖 Enregistre-la avant d’acheter",
+ "step": 2.4,
+ "delay": 0.5,
+ "cta_after": 0.9,
+ "hold": 3.2
+}

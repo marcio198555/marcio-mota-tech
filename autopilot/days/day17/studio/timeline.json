@@ -1,0 +1,40 @@
+{
+ "duration": 21.88,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Soixante watts ? Ça ne dit pas combien ton ampoule éclaire : regarde les lumens.",
+   "start": 0.12,
+   "end": 4.765,
+   "display": "60 W ? Ça ne dit pas | combien ton ampoule éclaire : | regarde les lumens."
+  },
+  {
+   "id": "s02",
+   "text": "Une ancienne ampoule de soixante watts, c'est environ huit cent six lumens.",
+   "start": 4.865,
+   "end": 8.706,
+   "display": "Une ancienne ampoule de 60 W, c'est environ 806 lumens."
+  },
+  {
+   "id": "s03",
+   "text": "Une ampoule à led en donne autant avec sept à huit watts.",
+   "start": 8.956,
+   "end": 12.067,
+   "display": "Une ampoule à LED en donne autant avec 7 à 8 W."
+  },
+  {
+   "id": "s04",
+   "text": "Et sur l'emballage, les lumens doivent être écrits au moins deux fois plus gros que les watts.",
+   "start": 12.167,
+   "end": 16.956,
+   "display": "Et sur l'emballage, | les lumens doivent être écrits | au moins 2 fois plus gros que les watts."
+  },
+  {
+   "id": "s05",
+   "text": "Et abonne-toi : ce soir, ce que la fiche d'un téléviseur écrit en petit.",
+   "start": 17.056,
+   "end": 21.43,
+   "display": "Et abonne-toi : ce soir, | ce que la fiche d'un téléviseur écrit en petit."
+  }
+ ]
+}

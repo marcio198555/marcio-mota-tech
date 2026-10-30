@@ -1,0 +1,14 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Sur ce lave-vaisselle, le programme le plus long consomme deux fois moins que l'intensif."
+  },
+  {
+   "id": "s03",
+   "text": "Intensif : environ deux heures et demie, plus d'un kilowattheure."
+  }
+ ]
+}

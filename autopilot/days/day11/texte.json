@@ -1,0 +1,30 @@
+{
+ "chip": "SOURCE : SAMSUNG.COM · SSD T7",
+ "title": [
+  "SSD 1 To : CE QUI EST",
+  "écrit en petit"
+ ],
+ "rows": [
+  {
+   "gros": "1 To",
+   "petit": "= 1 000 milliards d’octets ; | l’ordi peut afficher moins"
+  },
+  {
+   "gros": "931 Go affichés",
+   "petit": "« norme de mesure différente » | calcul : 10¹² ÷ 1 024³ = 931,3"
+  },
+  {
+   "gros": "jusqu’à 1 050 Mo/s",
+   "petit": "si l’ordi et le câble sont | en USB 3.2 Gen 2 (+ UASP)"
+  },
+  {
+   "gros": "USB 3.2",
+   "petit": "Gen 1 = 5 Gbit/s | Gen 2 = 10 Gbit/s (USB-IF)"
+  }
+ ],
+ "cta": "🔖 Enregistre-la avant d’acheter",
+ "step": 2.4,
+ "delay": 0.5,
+ "cta_after": 0.9,
+ "hold": 3.2
+}

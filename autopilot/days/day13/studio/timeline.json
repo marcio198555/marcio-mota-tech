@@ -1,0 +1,47 @@
+{
+ "duration": 23.003,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Moins cinquante pour cent ? D'accord, mais par rapport à quoi ?",
+   "start": 0.12,
+   "end": 3.666,
+   "display": "−50 % ? D'accord, mais par rapport à quoi ?"
+  },
+  {
+   "id": "s02",
+   "text": "En Suisse, c'est l'ordonnance sur l'indication des prix qui décide.",
+   "start": 3.766,
+   "end": 7.326,
+   "display": "En Suisse, c'est l'ordonnance sur l'indication des prix qui décide."
+  },
+  {
+   "id": "s03",
+   "text": "Prix pratiqué juste avant : affichable la moitié de cette durée, deux mois maximum.",
+   "start": 7.576,
+   "end": 12.077,
+   "display": "Prix pratiqué juste avant : affichable la moitié de cette durée, 2 mois maximum."
+  },
+  {
+   "id": "s04",
+   "text": "Pratiqué trente jours de suite : affichable sans limite.",
+   "start": 12.177,
+   "end": 15.034,
+   "display": "Pratiqué 30 jours de suite : affichable sans limite."
+  },
+  {
+   "id": "s05",
+   "text": "Un prix conseillé ne compte que si d'autres vendeurs le pratiquent vraiment.",
+   "start": 15.134,
+   "end": 18.347,
+   "display": "Un prix conseillé ne compte que si d'autres vendeurs le pratiquent vraiment."
+  },
+  {
+   "id": "s06",
+   "text": "Et abonne-toi : ce soir, ce que la boîte d'un routeur wifi écrit en petit.",
+   "start": 18.447,
+   "end": 22.553,
+   "display": "Et abonne-toi : ce soir, | ce que la boîte d'un routeur Wi-Fi | écrit en petit."
+  }
+ ]
+}

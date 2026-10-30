@@ -1,0 +1,14 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.88,
+ "segments": [
+  {
+   "id": "s03",
+   "text": "Prix pratiqué juste avant : affichable la moitié du temps où il a été pratiqué, deux mois maximum."
+  },
+  {
+   "id": "s04",
+   "text": "Pratiqué au moins trente jours de suite : affichable sans limite."
+  }
+ ]
+}

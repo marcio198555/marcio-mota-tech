@@ -1,0 +1,30 @@
+{
+ "chip": "SOURCE : OIP (RS 942.211) · SECO",
+ "title": [
+  "BLACK FRIDAY : LA LOI",
+  "écrite en petit"
+ ],
+ "rows": [
+  {
+   "gros": "jusqu’à −XX %",
+   "petit": "taux différents : le SECO exige | tous les prix et les articles"
+  },
+  {
+   "gros": "−XX % !",
+   "petit": "un rabais en % = un prix | de comparaison (art. 17 OIP)"
+  },
+  {
+   "gros": "prix conseillé CHF XX.–",
+   "petit": "seulement si d’autres vendeurs | le pratiquent vraiment (art. 16)"
+  },
+  {
+   "gros": "dès CHF X.–",
+   "petit": "l’offre visée doit être | décrite avec précision (SECO)"
+  }
+ ],
+ "cta": "🔖 Enregistre-la avant d’acheter",
+ "step": 2.4,
+ "delay": 0.5,
+ "cta_after": 0.9,
+ "hold": 3.2
+}
