@@ -1,0 +1,400 @@
+{"id": "D3-301", "brand": "xbrewlab", "domain": "xbrewlab.com", "to": "support@xbrewlab.com", "ts": "2026-10-26T12:49:44.322139"}
+{"id": "D3-302", "brand": "Bruvi", "domain": "bruvi.com", "to": "hello@bruvi.com", "ts": "2026-10-26T12:49:44.322205"}
+{"id": "D3-303", "brand": "Paudin", "domain": "paudinstore.com", "to": "service@paudinpro.com", "ts": "2026-10-26T12:49:44.322223"}
+{"id": "D3-304", "brand": "heatme", "domain": "heatme.com", "to": "mail@heatme.com", "ts": "2026-10-26T12:49:44.322234"}
+{"id": "D3-305", "brand": "WINBAG", "domain": "winbag.eu", "to": "info@winbag.dk", "ts": "2026-10-26T12:49:44.322244"}
+{"id": "D3-001", "brand": "Natur-Air", "domain": "natur-air.com", "to": "contact@natur-air.com", "ts": "2026-10-26T12:49:55.187956"}
+{"id": "D3-002", "brand": "Giraffe Tools", "domain": "giraffetools.com", "to": "marketing@giraffetools.com", "ts": "2026-10-26T12:49:55.188039"}
+{"id": "D3-003", "brand": "WeeKett", "domain": "weekett.com", "to": "info@weekett.com", "ts": "2026-10-26T12:49:55.188054"}
+{"id": "D3-004", "brand": "Nomi Brew", "domain": "nomibrew.com", "to": "hello@nomibrew.com", "ts": "2026-10-26T12:49:55.188064", "bounced": true}
+{"id": "D3-005", "brand": "Mozano", "domain": "mozano.pl", "to": "sklep@mozano.pl", "ts": "2026-10-26T12:49:55.188073"}
+{"id": "D3-201", "brand": "BETO", "domain": "beto.com.tw", "to": "info@beto.com.tw", "ts": "2026-10-26T12:50:01.101367"}
+{"id": "D3-202", "brand": "Roswheel", "domain": "roswheel.com", "to": "info@roswheel.com", "ts": "2026-10-26T12:50:01.101429"}
+{"id": "D3-203", "brand": "Dohse Aquaristik", "domain": "dohse-aquaristik.de", "to": "info@dohse-aquaristik.de", "ts": "2026-10-26T12:50:01.101445"}
+{"id": "D3-204", "brand": "Aironox", "domain": "aironox.com", "to": "help@aironox.com", "ts": "2026-10-26T12:50:01.101455"}
+{"id": "D3-205", "brand": "Tiniest Gear", "domain": "tiniestgear.com", "to": "team@tiniestgear.com", "ts": "2026-10-26T12:50:01.101463"}
+{"id": "D3-006", "brand": "Panergy", "domain": "panergy.com", "to": "services@panergy.com", "ts": "2026-10-26T12:50:19.914148"}
+{"id": "D3-007", "brand": "EZCuisine", "domain": "airgocooking.com", "to": "support@airgocooking.com", "ts": "2026-10-26T12:50:19.914194"}
+{"id": "D3-008", "brand": "Fitnexa", "domain": "fitnexa.com", "to": "partnerships@fitnexa.com", "ts": "2026-10-26T12:50:19.914208", "bounced": true}
+{"id": "D3-009", "brand": "CODE27", "domain": "code27.co", "to": "service@code27.co", "ts": "2026-10-26T12:50:19.914218"}
+{"id": "D3-010", "brand": "MYnextRING", "domain": "mynextring.com", "to": "support@mynextring.com", "ts": "2026-10-26T12:50:19.914226"}
+{"id": "D3-206", "brand": "BOOKOO", "domain": "bookoocoffee.com", "to": "support@bookoocoffee.com", "ts": "2026-10-26T12:50:27.955094"}
+{"id": "D3-207", "brand": "BARE Cookware", "domain": "barecookware.com", "to": "info@barecookware.com", "ts": "2026-10-26T12:50:27.955145"}
+{"id": "D3-208", "brand": "Securpost", "domain": "securpost.com", "to": "support@securpost.com", "ts": "2026-10-26T12:50:27.955157"}
+{"id": "D3-209", "brand": "Clear Drop", "domain": "onecleardrop.com", "to": "marketing@onecleardrop.com", "ts": "2026-10-26T12:50:27.955164"}
+{"id": "D3-210", "brand": "Keyport", "domain": "mykeyport.com", "to": "support@mykeyport.com", "ts": "2026-10-26T12:50:27.955170"}
+{"id": "D3-011", "brand": "Gabb", "domain": "gabb.com", "to": "influencers@gabb.com", "ts": "2026-10-26T12:50:45.869845"}
+{"id": "D3-012", "brand": "Sweekar", "domain": "sweekar.ai", "to": "support@sweekar.ai", "ts": "2026-10-26T12:50:45.869898"}
+{"id": "D3-013", "brand": "Iceplosion", "domain": "iceplosion.com", "to": "info@iceplosion.com", "ts": "2026-10-26T12:50:45.869916"}
+{"id": "D3-014", "brand": "Sparckel", "domain": "sparckel.com", "to": "info@sparckel.nl", "ts": "2026-10-26T12:50:45.869927"}
+{"id": "D3-015", "brand": "RGBer", "domain": "rgber.com", "to": "info@rgber.com", "ts": "2026-10-26T12:50:45.869936"}
+{"id": "D3-211", "brand": "NXT Carry", "domain": "nxtcarry.com", "to": "customerservice@nxtcarry.com", "ts": "2026-10-26T12:50:53.150465"}
+{"id": "D3-212", "brand": "Homycat", "domain": "homycat.com", "to": "contact@homycat.com", "ts": "2026-10-26T12:50:53.150520"}
+{"id": "D3-213", "brand": "Picogrill", "domain": "picogrill.ch", "to": "info@stc-shop.ch", "ts": "2026-10-26T12:50:53.150538"}
+{"id": "D3-214", "brand": "Vid'tout", "domain": "vidtout.com", "to": "infos@vidtout.com", "ts": "2026-10-26T12:50:53.150549"}
+{"id": "D3-215", "brand": "Rewindpix", "domain": "rewindpix.com", "to": "support@rewindpix.com", "ts": "2026-10-26T12:50:53.150559"}
+{"id": "D3-101", "brand": "Florina", "domain": "florina.pl", "to": "info@florina.pl", "ts": "2026-10-26T12:50:54.532068"}
+{"id": "D3-102", "brand": "Kamille", "domain": "kamille.pl", "to": "info@kamille.pl", "ts": "2026-10-26T12:50:54.532121"}
+{"id": "D3-103", "brand": "Dedra", "domain": "dedra.pl", "to": "info@dedra.pl", "ts": "2026-10-26T12:50:54.532137"}
+{"id": "D3-104", "brand": "Delta Optical", "domain": "deltaoptical.pl", "to": "info@deltaoptical.pl", "ts": "2026-10-26T12:50:54.532148"}
+{"id": "D3-105", "brand": "Wozinsky", "domain": "wozinsky.com", "to": "kontakt@wozinsky.com", "ts": "2026-10-26T12:50:54.532158"}
+{"id": "D3-106", "brand": "Skroller", "domain": "skroller-belt.com", "to": "info@skroller-belt.com", "ts": "2026-10-26T12:50:54.532167"}
+{"id": "D3-107", "brand": "Genietti", "domain": "genietti.it", "to": "info@ipacitaly.it", "ts": "2026-10-26T12:50:54.532176"}
+{"id": "D3-108", "brand": "Soe Valgus", "domain": "soevalgus.ee", "to": "info@soevalgus.ee", "ts": "2026-10-26T12:50:54.532184"}
+{"id": "D3-109", "brand": "Konus", "domain": "konus.com", "to": "italia@konus.com", "ts": "2026-10-26T12:50:54.532192"}
+{"id": "D3-110", "brand": "Gogen", "domain": "gogen.cz", "to": "info@gogen.cz", "ts": "2026-10-26T12:50:54.532200"}
+{"id": "D3-306", "brand": "Plejd", "domain": "plejd.com", "to": "info@plejd.com", "ts": "2026-10-26T12:50:56.591154"}
+{"id": "D3-307", "brand": "Rocky Talkie", "domain": "rockytalkie.com", "to": "support@rockytalkie.com", "ts": "2026-10-26T12:50:56.591192"}
+{"id": "D3-308", "brand": "Kuna", "domain": "getkuna.com", "to": "support@getkuna.com", "ts": "2026-10-26T12:50:56.591204"}
+{"id": "D3-309", "brand": "Risoli", "domain": "risoli.com", "to": "info@risoli.com", "ts": "2026-10-26T12:50:56.591211"}
+{"id": "D3-310", "brand": "Niuway", "domain": "niuway.ch", "to": "niu@niuway.ch", "ts": "2026-10-26T12:50:56.591217"}
+{"id": "D3-311", "brand": "Necoichi", "domain": "necoichi.com", "to": "support@necoichi.com", "ts": "2026-10-26T12:50:56.591222"}
+{"id": "D3-312", "brand": "Wolf Outdoors", "domain": "wolf-outdoors.com", "to": "sales@wolf-outdoors.com", "ts": "2026-10-26T12:50:56.591226"}
+{"id": "D3-313", "brand": "Hilka", "domain": "hilka.co.uk", "to": "sales@hilka.co.uk", "ts": "2026-10-26T12:50:56.591231"}
+{"id": "D3-314", "brand": "EdenPURE", "domain": "edenpure.com", "to": "custserv@edenpure.com", "ts": "2026-10-26T12:50:56.591267"}
+{"id": "D3-315", "brand": "SlimQ", "domain": "slimq.life", "to": "info@slimq.life", "ts": "2026-10-26T12:50:56.591278"}
+{"id": "D3-016", "brand": "Creatulize", "domain": "creatulize.com", "to": "support@creatulize.com", "ts": "2026-10-26T12:51:08.439631"}
+{"id": "D3-017", "brand": "AG", "domain": "agtronica.com", "to": "support@agtronica.com", "ts": "2026-10-26T12:51:08.439671"}
+{"id": "D3-018", "brand": "Aerflo", "domain": "aerflo.co", "to": "press@aerflo.co", "ts": "2026-10-26T12:51:08.439683"}
+{"id": "D3-019", "brand": "Loomee", "domain": "loomee.com", "to": "info@loomee.com", "ts": "2026-10-26T12:51:08.439690"}
+{"id": "D3-020", "brand": "Lafablight", "domain": "lafablight.com", "to": "contact@lafablight.com", "ts": "2026-10-26T12:51:08.439695"}
+{"id": "D3-216", "brand": "Mucky Nutz", "domain": "muckynutz.com", "to": "admin@muckynutz.com", "ts": "2026-10-26T12:51:13.565791"}
+{"id": "D3-217", "brand": "Hurkins", "domain": "hurkins.com", "to": "marketing@hurkins.com", "ts": "2026-10-26T12:51:13.565830"}
+{"id": "D3-218", "brand": "Guillouard", "domain": "guillouard.com", "to": "contact@nogent3etoiles.com", "ts": "2026-10-26T12:51:13.565842"}
+{"id": "D3-219", "brand": "Gaspajoe", "domain": "gaspajoe.fr", "to": "communication@gaspajoe.fr", "ts": "2026-10-26T12:51:13.565850"}
+{"id": "D3-220", "brand": "Kickback", "domain": "kickback.world", "to": "hello@kickback.world", "ts": "2026-10-26T12:51:13.565856"}
+{"id": "D3-316", "brand": "Terra Peak", "domain": "terrapeak.de", "to": "info@terrapeak.de", "ts": "2026-10-26T12:51:22.905273"}
+{"id": "D3-317", "brand": "Nyko", "domain": "nyko.com", "to": "website@nyko.com", "ts": "2026-10-26T12:51:22.905332"}
+{"id": "D3-318", "brand": "Bugatti Smartwatches", "domain": "bugatti-smartwatches.com", "to": "hello@bugatti-smartwatches.com", "ts": "2026-10-26T12:51:22.905349"}
+{"id": "D3-319", "brand": "Airzai", "domain": "airzai.com", "to": "info@airzai.com", "ts": "2026-10-26T12:51:22.905361"}
+{"id": "D3-320", "brand": "Lava Lite", "domain": "lava-lite.co.uk", "to": "info@lava-lite.co.uk", "ts": "2026-10-26T12:51:22.905372"}
+{"id": "D3-021", "brand": "EyeLights", "domain": "eye-lights.fr", "to": "customercare@eye-lights.fr", "ts": "2026-10-26T12:51:34.162145", "bounced": true}
+{"id": "D3-022", "brand": "Kensui", "domain": "kensuifitness.com", "to": "info@kensuifitness.com", "ts": "2026-10-26T12:51:34.162182"}
+{"id": "D3-023", "brand": "Freelux", "domain": "freelux.nl", "to": "info@freelux.nl", "ts": "2026-10-26T12:51:34.162193"}
+{"id": "D3-024", "brand": "Voice Caddie", "domain": "voicecaddie.com", "to": "support@voicecaddie.com", "ts": "2026-10-26T12:51:34.162201"}
+{"id": "D3-025", "brand": "Poolmaster", "domain": "poolmaster.com", "to": "info@poolmaster.com", "ts": "2026-10-26T12:51:34.162207"}
+{"id": "D3-111", "brand": "Nuwa Pen", "domain": "nuwapen.com", "to": "team@nuwapen.com", "ts": "2026-10-26T12:51:34.575859"}
+{"id": "D3-112", "brand": "Sollux", "domain": "sollux.pl", "to": "sklep@sollux.pl", "ts": "2026-10-26T12:51:34.575918"}
+{"id": "D3-113", "brand": "Activejet", "domain": "activejet.pl", "to": "info@activejet.pl", "ts": "2026-10-26T12:51:34.575934"}
+{"id": "D3-114", "brand": "Timeqube", "domain": "timeqube.com", "to": "hello@timeqube.com", "ts": "2026-10-26T12:51:34.575948"}
+{"id": "D3-115", "brand": "Welmax", "domain": "welmax.pl", "to": "welmax@welmax.pl", "ts": "2026-10-26T12:51:34.575960"}
+{"id": "D3-116", "brand": "Slamp", "domain": "slamp.it", "to": "info@slamp.it", "ts": "2026-10-26T12:51:34.575970"}
+{"id": "D3-117", "brand": "Spacetronik", "domain": "spacetronik.pl", "to": "spacetronik@spacetronik.pl", "ts": "2026-10-26T12:51:34.575978"}
+{"id": "D3-118", "brand": "Argon40", "domain": "argon40.com", "to": "cs@argon40.com", "ts": "2026-10-26T12:51:34.575988"}
+{"id": "D3-119", "brand": "Orzly", "domain": "orzly.com", "to": "support@orzly.com", "ts": "2026-10-26T12:51:34.575997", "bounced": true}
+{"id": "D3-221", "brand": "Brightz", "domain": "brightz.com", "to": "support@brightz.com", "ts": "2026-10-26T12:51:38.086256"}
+{"id": "D3-222", "brand": "Dexam", "domain": "dexam.co.uk", "to": "cs@dexam.co.uk", "ts": "2026-10-26T12:51:38.086300"}
+{"id": "D3-223", "brand": "Delta Cycle", "domain": "designbydelta.com", "to": "info@deltacycle.com", "ts": "2026-10-26T12:51:38.086313"}
+{"id": "D3-224", "brand": "Rain Design", "domain": "raindesigninc.com", "to": "custcare@raindesigninc.com", "ts": "2026-10-26T12:51:38.086322"}
+{"id": "D3-225", "brand": "Miweba", "domain": "miweba.de", "to": "kundendienst@miweba.de", "ts": "2026-10-26T12:51:38.086328"}
+{"id": "D3-321", "brand": "Carputech", "domain": "carputech.com", "to": "marketing@carputech.com", "ts": "2026-10-26T12:51:48.251367"}
+{"id": "D3-322", "brand": "Rocksolar", "domain": "rocksolar.io", "to": "support@rocksolar.io", "ts": "2026-10-26T12:51:48.251408"}
+{"id": "D3-323", "brand": "Miracase", "domain": "miracase.com", "to": "service@miracase.com", "ts": "2026-10-26T12:51:48.251420"}
+{"id": "D3-324", "brand": "Auxito", "domain": "auxito.com", "to": "support@auxito.com", "ts": "2026-10-26T12:51:48.251428"}
+{"id": "D3-325", "brand": "PurePresso", "domain": "purepresso.com", "to": "contact@purepresso.com", "ts": "2026-10-26T12:51:48.251433", "bounced": true}
+{"id": "D3-026", "brand": "Puttr", "domain": "puttr.co", "to": "info@puttr.co", "ts": "2026-10-26T12:51:58.591620"}
+{"id": "D3-027", "brand": "Apex Cool Labs", "domain": "apexcoollabs.com", "to": "hi@apexcoollabs.com", "ts": "2026-10-26T12:51:58.591662"}
+{"id": "D3-028", "brand": "Wildhorn Outfitters", "domain": "wildhornoutfitters.com", "to": "support@wildhornoutfitters.com", "ts": "2026-10-26T12:51:58.591674"}
+{"id": "D3-029", "brand": "Caddy Splash", "domain": "caddysplash.com", "to": "support@caddysplash.com", "ts": "2026-10-26T12:51:58.591683"}
+{"id": "D3-030", "brand": "Cnoc", "domain": "cnocoutdoors.com", "to": "contact@cnocoutdoors.com", "ts": "2026-10-26T12:51:58.591689"}
+{"id": "D3-226", "brand": "Security for Bikes", "domain": "securityforbikes.com", "to": "info@securityforbikes.com", "ts": "2026-10-26T12:52:03.527662"}
+{"id": "D3-227", "brand": "Nostalgia", "domain": "nostalgiaproducts.com", "to": "contact@nostalgiaproducts.com", "ts": "2026-10-26T12:52:03.527699"}
+{"id": "D3-228", "brand": "Great Jones", "domain": "greatjonesgoods.com", "to": "hi@greatjonesgoods.com", "ts": "2026-10-26T12:52:03.527711"}
+{"id": "D3-229", "brand": "Escali", "domain": "escali.com", "to": "media@kitchensupply.com", "ts": "2026-10-26T12:52:03.527717"}
+{"id": "D3-230", "brand": "Flexzilla", "domain": "flexzilla.com", "to": "marketing@legacymfg.com", "ts": "2026-10-26T12:52:03.527723"}
+{"id": "D3-120", "brand": "PuK Gaming", "domain": "pukgaming.com", "to": "support@pukgaming.com", "ts": "2026-10-26T12:52:14.481466"}
+{"id": "D3-121", "brand": "MeFOTO", "domain": "mefoto.com", "to": "contact@mefoto.com", "ts": "2026-10-26T12:52:14.481521"}
+{"id": "D3-122", "brand": "Mintion", "domain": "mintion.net", "to": "marketing@mintion.net", "ts": "2026-10-26T12:52:14.481536"}
+{"id": "D3-123", "brand": "Tactile Turn", "domain": "tactileturn.com", "to": "customerservice@tactileturn.com", "ts": "2026-10-26T12:52:14.481546"}
+{"id": "D3-124", "brand": "KOKONI", "domain": "kokoni3d.com", "to": "support@kokoni3d.com", "ts": "2026-10-26T12:52:14.481555"}
+{"id": "D3-125", "brand": "Compactor", "domain": "compactor.fr", "to": "serviceclients@compactorstore.com", "ts": "2026-10-26T12:52:14.481563"}
+{"id": "D3-126", "brand": "blomus", "domain": "blomus.com", "to": "kundenservice@blomus.com", "ts": "2026-10-26T12:52:14.481571"}
+{"id": "D3-127", "brand": "Zulay Kitchen", "domain": "zulaykitchen.com", "to": "support@zulay.net", "ts": "2026-10-26T12:52:14.481578"}
+{"id": "D3-128", "brand": "Dopper", "domain": "dopper.com", "to": "info@dopper.com", "ts": "2026-10-26T12:52:14.481586"}
+{"id": "D3-129", "brand": "WENKO", "domain": "wenko.de", "to": "kundenservice@wenko.de", "ts": "2026-10-26T12:52:14.481593"}
+{"id": "D3-031", "brand": "HotBars", "domain": "hotbars.com", "to": "contact@hotbars.com", "ts": "2026-10-26T12:52:23.414851"}
+{"id": "D3-032", "brand": "FAHRER", "domain": "fahrer-berlin.de", "to": "presse@fahrer-berlin.de", "ts": "2026-10-26T12:52:23.414909"}
+{"id": "D3-033", "brand": "Bilantan", "domain": "bilantan.com", "to": "support@bilantan.com", "ts": "2026-10-26T12:52:23.414926"}
+{"id": "D3-034", "brand": "Smart Cat Toys", "domain": "smartcattoys.com", "to": "info@smartcattoys.com", "ts": "2026-10-26T12:52:23.414936"}
+{"id": "D3-035", "brand": "Ultimate Kat Toy", "domain": "theultimatekattoy.com", "to": "support@theultimatekattoy.com", "ts": "2026-10-26T12:52:23.414944"}
+{"id": "D3-231", "brand": "Xpedo", "domain": "xpedo.com", "to": "info@xpedo.com", "ts": "2026-10-26T12:52:27.878736"}
+{"id": "D3-232", "brand": "Zone Denmark", "domain": "zone-denmark.com", "to": "info@zonedenmark.dk", "ts": "2026-10-26T12:52:27.878780"}
+{"id": "D3-233", "brand": "Sagaform", "domain": "sagaform.se", "to": "customerservice@sagaform.com", "ts": "2026-10-26T12:52:27.878792"}
+{"id": "D3-234", "brand": "Highwave", "domain": "highwave.com", "to": "office@highwave.com", "ts": "2026-10-26T12:52:27.878799"}
+{"id": "D3-235", "brand": "Krusell", "domain": "krusell.com", "to": "support@krusell.se", "ts": "2026-10-26T12:52:27.878805"}
+{"id": "D3-326", "brand": "KittySpout", "domain": "kittyspout.com", "to": "support@kittyspout.com", "ts": "2026-10-26T12:52:33.573120"}
+{"id": "D3-327", "brand": "YouCopia", "domain": "youcopia.com", "to": "support@youcopia.com", "ts": "2026-10-26T12:52:33.573168"}
+{"id": "D3-328", "brand": "Jelly Comb", "domain": "jellycomb.com", "to": "marketing@jellycomb.com", "ts": "2026-10-26T12:52:33.573180"}
+{"id": "D3-329", "brand": "Cafelffe", "domain": "cafelffe.com", "to": "coffee@cafelffe.com", "ts": "2026-10-26T12:52:33.573187"}
+{"id": "D3-330", "brand": "CarLEDLogo", "domain": "carledlogo.com", "to": "service@carledlogo.com", "ts": "2026-10-26T12:52:33.573192"}
+{"id": "D3-331", "brand": "GoTidy", "domain": "gotidyshop.com", "to": "support@gotidyshop.com", "ts": "2026-10-26T12:52:33.573197"}
+{"id": "D3-332", "brand": "DEKO Tools", "domain": "dekotools.com", "to": "mkt@dekotools.com", "ts": "2026-10-26T12:52:33.573202"}
+{"id": "D3-333", "brand": "Aoonu", "domain": "aoonuauto.com", "to": "customer@aoonuauto.com", "ts": "2026-10-26T12:52:33.573208"}
+{"id": "D3-334", "brand": "KTV Lights", "domain": "ktvlights.com", "to": "service@ktvlights.com", "ts": "2026-10-26T12:52:33.573215"}
+{"id": "D3-335", "brand": "NIMASO", "domain": "nimaso.com", "to": "support@nimaso.com", "ts": "2026-10-26T12:52:33.573222"}
+{"id": "D3-036", "brand": "Third Eye", "domain": "thirdeyeheadlamps.com", "to": "support@thirdeyeheadlamps.com", "ts": "2026-10-26T12:52:51.051405"}
+{"id": "D3-037", "brand": "Gardlume", "domain": "gardlume.com", "to": "service@gardlume.com", "ts": "2026-10-26T12:52:51.051445"}
+{"id": "D3-038", "brand": "Joltekon", "domain": "joltekon.com", "to": "support@joltekon.com", "ts": "2026-10-26T12:52:51.051458"}
+{"id": "D3-039", "brand": "JFEGWO", "domain": "jfegwo.com", "to": "info@jfegwo.com", "ts": "2026-10-26T12:52:51.051465"}
+{"id": "D3-040", "brand": "Lasfit", "domain": "lasfit.com", "to": "cs@lasfit.com", "ts": "2026-10-26T12:52:51.051472"}
+{"id": "D3-236", "brand": "Zyliss", "domain": "zyliss.ch", "to": "contact.ch@dkhouseholdbrands.com", "ts": "2026-10-26T12:52:53.463648"}
+{"id": "D3-237", "brand": "Petex", "domain": "petex.de", "to": "kontakt@petex.net", "ts": "2026-10-26T12:52:53.463706"}
+{"id": "D3-238", "brand": "deleyCON", "domain": "deleycon.com", "to": "info@memoryking.de", "ts": "2026-10-26T12:52:53.463723"}
+{"id": "D3-239", "brand": "Koncept", "domain": "koncept.com", "to": "support@koncept.com", "ts": "2026-10-26T12:52:53.463734"}
+{"id": "D3-240", "brand": "Tewke", "domain": "tewke.com", "to": "contact@tewke.com", "ts": "2026-10-26T12:52:53.463743"}
+{"id": "D3-130", "brand": "CNC Kitchen", "domain": "cnckitchen.com", "to": "contact@cnckitchen.com", "ts": "2026-10-26T12:52:56.405723"}
+{"id": "D3-131", "brand": "Swiss Diamond", "domain": "swissdiamond.com", "to": "customerservice@swissmadebrandsusa.com", "ts": "2026-10-26T12:52:56.405778"}
+{"id": "D3-132", "brand": "soulbottles", "domain": "soulbottles.com", "to": "pr@soulbottles.com", "ts": "2026-10-26T12:52:56.405795"}
+{"id": "D3-133", "brand": "Artisul", "domain": "artisul.com", "to": "service@artisul.com", "ts": "2026-10-26T12:52:56.405852"}
+{"id": "D3-134", "brand": "Adesso", "domain": "adesso.com", "to": "support@adesso.com", "ts": "2026-10-26T12:52:56.405863"}
+{"id": "D3-135", "brand": "Fizz Creations", "domain": "fizzcreations.com", "to": "usasupport@fizzcreations.com", "ts": "2026-10-26T12:52:56.405874"}
+{"id": "D3-136", "brand": "Kitchencook", "domain": "kitchencook.fr", "to": "contact@kitchencook.fr", "ts": "2026-10-26T12:52:56.405883"}
+{"id": "D3-137", "brand": "Mousetrapper", "domain": "mousetrapper.com", "to": "info@mousetrapper.com", "ts": "2026-10-26T12:52:56.405892"}
+{"id": "D3-138", "brand": "Raijintek", "domain": "raijintek.com", "to": "support@raijintek.com", "ts": "2026-10-26T12:52:56.405902"}
+{"id": "D3-336", "brand": "JAYO", "domain": "jayo3d.com", "to": "sales@jayo3d.com", "ts": "2026-10-26T12:53:03.692399"}
+{"id": "D3-337", "brand": "Dostmann", "domain": "dostmann-electronic.de", "to": "info@dostmann-electronic.de", "ts": "2026-10-26T12:53:03.692435"}
+{"id": "D3-338", "brand": "Almond Cow", "domain": "almondcow.co", "to": "admin@almondcow.co", "ts": "2026-10-26T12:53:03.692447"}
+{"id": "D3-339", "brand": "Air Oasis", "domain": "airoasis.com", "to": "feedback@airoasis.com", "ts": "2026-10-26T12:53:03.692454"}
+{"id": "D3-340", "brand": "Aera", "domain": "aeraforhome.com", "to": "support@aeraforhome.com", "ts": "2026-10-26T12:53:03.692459"}
+{"id": "D3-241", "brand": "PlusAcc", "domain": "plusacc.com", "to": "info@plusacc.com", "ts": "2026-10-26T12:53:04.629556"}
+{"id": "D3-242", "brand": "Geepas", "domain": "geepas.co.uk", "to": "support@geepas.co.uk", "ts": "2026-10-26T12:53:04.629610"}
+{"id": "D3-243", "brand": "Retlux", "domain": "retlux.cz", "to": "info@retlux.cz", "ts": "2026-10-26T12:53:04.629627"}
+{"id": "D3-244", "brand": "RIWUSI", "domain": "riwusi.com", "to": "support@riwusi.com", "ts": "2026-10-26T12:53:04.629639"}
+{"id": "D3-245", "brand": "Zewdov", "domain": "zewdov.com", "to": "support@zewdov.com", "ts": "2026-10-26T12:53:04.629648"}
+{"id": "D3-041", "brand": "Valtcan", "domain": "valtcan.com", "to": "contact@valtcan.com", "ts": "2026-10-26T12:53:15.184254"}
+{"id": "D3-042", "brand": "SilverAnt", "domain": "silverantoutdoors.com", "to": "info@silverantoutdoors.com", "ts": "2026-10-26T12:53:15.184298"}
+{"id": "D3-043", "brand": "Pot N Pet", "domain": "potnpet.com", "to": "info@potnpet.com", "ts": "2026-10-26T12:53:15.184310"}
+{"id": "D3-044", "brand": "Brightside", "domain": "brightside.bike", "to": "info@brightside.bike", "ts": "2026-10-26T12:53:15.184317"}
+{"id": "D3-045", "brand": "Velkyne", "domain": "velkyne.com", "to": "contact@velkyne.com", "ts": "2026-10-26T12:53:15.184324", "bounced": true}
+{"id": "D3-341", "brand": "Cookology", "domain": "cookology.com", "to": "help@cookology.com", "ts": "2026-10-26T12:53:25.817250"}
+{"id": "D3-342", "brand": "EyeVac", "domain": "eyevac.com", "to": "admin@eyevac.com", "ts": "2026-10-26T12:53:25.817300"}
+{"id": "D3-343", "brand": "Cusimax", "domain": "cusimax.com", "to": "sales@cusimax.com", "ts": "2026-10-26T12:53:25.817313"}
+{"id": "D3-344", "brand": "PantryChic", "domain": "pantrychic.com", "to": "customerservice@pantrychic.com", "ts": "2026-10-26T12:53:25.817321"}
+{"id": "D3-345", "brand": "Effect Audio", "domain": "effectaudio.com", "to": "marketing@effectaudio.com", "ts": "2026-10-26T12:53:25.817327"}
+{"id": "D3-046", "brand": "Widesea", "domain": "wscamp.com", "to": "ws@wscamp.com", "ts": "2026-10-26T12:53:37.957665"}
+{"id": "D3-047", "brand": "All For Paws", "domain": "allforpaws.net", "to": "support@allforpaws.net", "ts": "2026-10-26T12:53:37.957722"}
+{"id": "D3-048", "brand": "Camperig", "domain": "camperig.com", "to": "contact@camperig.com", "ts": "2026-10-26T12:53:37.957740"}
+{"id": "D3-049", "brand": "Lebenlang", "domain": "lebenlang.eu", "to": "support@lebenlang.eu", "ts": "2026-10-26T12:53:37.957751"}
+{"id": "D3-050", "brand": "Craftique", "domain": "craftiquekitchen.com", "to": "support@craftiquekitchen.com", "ts": "2026-10-26T12:53:37.957762"}
+{"id": "D3-139", "brand": "Ototo Design", "domain": "ototodesign.com", "to": "studio@ototodesign.com", "ts": "2026-10-26T12:53:40.727613"}
+{"id": "D3-140", "brand": "Catler", "domain": "catler.eu", "to": "info@catler.cz", "ts": "2026-10-26T12:53:40.727653"}
+{"id": "D3-141", "brand": "Enermax", "domain": "enermax.com", "to": "support-tw@enermax.com", "ts": "2026-10-26T12:53:40.727665"}
+{"id": "D3-142", "brand": "BikeYoke", "domain": "bikeyoke.com", "to": "service@bikeyoke.com", "ts": "2026-10-26T12:53:40.727673"}
+{"id": "D3-143", "brand": "OTTOLOCK", "domain": "ottolock.com", "to": "support@ottolock.com", "ts": "2026-10-26T12:53:40.727679"}
+{"id": "D3-144", "brand": "Bigben Connected", "domain": "bigben-connected.com", "to": "contact@bigben-connected.com", "ts": "2026-10-26T12:53:40.727684"}
+{"id": "D3-145", "brand": "Marcato", "domain": "marcato.it", "to": "info@marcato.it", "ts": "2026-10-26T12:53:40.727689"}
+{"id": "D3-146", "brand": "Monix", "domain": "monix.es", "to": "mkt@monix.es", "ts": "2026-10-26T12:53:40.727694"}
+{"id": "D3-147", "brand": "Kruger&Matz", "domain": "krugermatz.com", "to": "krugermatz@krugermatz.com", "ts": "2026-10-26T12:53:40.727699"}
+{"id": "D3-148", "brand": "Intenso", "domain": "intenso.de", "to": "office@intenso-international.de", "ts": "2026-10-26T12:53:40.727704"}
+{"id": "D3-246", "brand": "DigiDraw", "domain": "digidraw.com", "to": "marketing@digidraw.com", "ts": "2026-10-26T12:53:46.805411"}
+{"id": "D3-247", "brand": "CoatHook", "domain": "thecoathook.com", "to": "info@thecoathook.com", "ts": "2026-10-26T12:53:46.805460"}
+{"id": "D3-248", "brand": "Geotekk", "domain": "geotekk.com", "to": "info@geotekk.com", "ts": "2026-10-26T12:53:46.805472"}
+{"id": "D3-249", "brand": "AIVELA", "domain": "aivela.com", "to": "support@aivela.com", "ts": "2026-10-26T12:53:46.805480"}
+{"id": "D3-250", "brand": "NUUK", "domain": "nuuk.in", "to": "care@nuuk.in", "ts": "2026-10-26T12:53:46.805486"}
+{"id": "D3-346", "brand": "Swidget", "domain": "swidget.com", "to": "support@swidget.com", "ts": "2026-10-26T12:53:49.544483"}
+{"id": "D3-347", "brand": "FLATED", "domain": "flated.com", "to": "info@flated.com", "ts": "2026-10-26T12:53:49.544536"}
+{"id": "D3-348", "brand": "Kemimoto", "domain": "kemimoto.com", "to": "hello@kemimoto.com", "ts": "2026-10-26T12:53:49.544552"}
+{"id": "D3-349", "brand": "WindyNation", "domain": "windynation.com", "to": "support@windynation.com", "ts": "2026-10-26T12:53:49.544563"}
+{"id": "D3-350", "brand": "Daysaver", "domain": "daysaver.fun", "to": "neverstop@daysaver.fun", "ts": "2026-10-26T12:53:49.544572"}
+{"id": "D3-051", "brand": "Bestrix", "domain": "bestrix.com", "to": "support@bestrix.com", "ts": "2026-10-26T12:54:02.753116"}
+{"id": "D3-052", "brand": "TechnuPet", "domain": "technupet.com", "to": "contact@technupet.com", "ts": "2026-10-26T12:54:02.753178"}
+{"id": "D3-053", "brand": "Woowind", "domain": "woowind.store", "to": "support@woowind.store", "ts": "2026-10-26T12:54:02.753196"}
+{"id": "D3-054", "brand": "MatataXplore", "domain": "matataxplore.com", "to": "support@matataxplore.com", "ts": "2026-10-26T12:54:02.753207"}
+{"id": "D3-055", "brand": "ttec", "domain": "hellottec.com", "to": "contact@hellottec.com", "ts": "2026-10-26T12:54:02.753217"}
+{"id": "D3-251", "brand": "Mantis Mirror", "domain": "mantismirror.com", "to": "support@mantismirror.com", "ts": "2026-10-26T12:54:13.793844"}
+{"id": "D3-252", "brand": "Guidano", "domain": "guidano.de", "to": "contact@guidano.de", "ts": "2026-10-26T12:54:13.793943"}
+{"id": "D3-253", "brand": "OGERY", "domain": "ogery.com", "to": "support@ogery.com", "ts": "2026-10-26T12:54:13.793961"}
+{"id": "D3-351", "brand": "mokka to go", "domain": "mokkatogo.ch", "to": "hello@mokkatogo.ch", "ts": "2026-10-26T12:54:14.671070"}
+{"id": "D3-352", "brand": "Filament Factory", "domain": "filamentfactory.ch", "to": "info@filamentfactory.ch", "ts": "2026-10-26T12:54:14.671115"}
+{"id": "D3-353", "brand": "Zip Zap", "domain": "zipzapchargers.com", "to": "support@zipzapchargers.com", "ts": "2026-10-26T12:54:14.671127"}
+{"id": "D3-354", "brand": "The Desk Mat", "domain": "thedeskmat.com", "to": "info@thedeskmat.com", "ts": "2026-10-26T12:54:14.671134"}
+{"id": "D3-355", "brand": "Smart Hold", "domain": "smarthold.com.au", "to": "info@smarthold.com.au", "ts": "2026-10-26T12:54:14.671140"}
+{"id": "D3-149", "brand": "Lagrange", "domain": "lagrange.fr", "to": "contact@les-rp.com", "ts": "2026-10-26T12:54:23.186565"}
+{"id": "D3-150", "brand": "UCO Gear", "domain": "ucogear.com", "to": "info@ucogear.com", "ts": "2026-10-26T12:54:23.186607"}
+{"id": "D3-151", "brand": "Voxelab", "domain": "voxelab3dp.com", "to": "support@voxelab3dp.com", "ts": "2026-10-26T12:54:23.186623"}
+{"id": "D3-152", "brand": "Nexstand", "domain": "nexstand.com", "to": "hello@nexstand.io", "ts": "2026-10-26T12:54:23.186634"}
+{"id": "D3-153", "brand": "Donkey Products", "domain": "donkey-products.com", "to": "info@donkey-products.com", "ts": "2026-10-26T12:54:23.186644"}
+{"id": "D3-154", "brand": "Four Sevens", "domain": "darksucks.com", "to": "support@darksucks.com", "ts": "2026-10-26T12:54:23.186653"}
+{"id": "D3-155", "brand": "Serfas", "domain": "serfas.com", "to": "media@serfas.com", "ts": "2026-10-26T12:54:23.186661"}
+{"id": "D3-156", "brand": "ACT Connectivity", "domain": "act-connectivity.com", "to": "info@act-connectivity.com", "ts": "2026-10-26T12:54:23.186669"}
+{"id": "D3-157", "brand": "Kieslect", "domain": "kieslect.com", "to": "inquiry@kieslect.com", "ts": "2026-10-26T12:54:23.186677", "bounced": true}
+{"id": "D3-158", "brand": "Letsfit", "domain": "letsfit.life", "to": "support@letsfit.life", "ts": "2026-10-26T12:54:23.186823"}
+{"id": "D3-056", "brand": "Fantom", "domain": "fanset.com", "to": "info@fanset.com", "ts": "2026-10-26T12:54:27.269223"}
+{"id": "D3-057", "brand": "Stylies", "domain": "stylies.com", "to": "info@stylies.com", "ts": "2026-10-26T12:54:27.269283"}
+{"id": "D3-058", "brand": "Zunzunbee", "domain": "zunzunbee.com", "to": "contact@zunzunbee.com", "ts": "2026-10-26T12:54:27.269299"}
+{"id": "D3-059", "brand": "GHome Smart", "domain": "ghomesmart.com", "to": "service@ghomesmart.com", "ts": "2026-10-26T12:54:27.269310"}
+{"id": "D3-060", "brand": "Lightinginside", "domain": "lightinginside.com", "to": "info@lightinginside.com", "ts": "2026-10-26T12:54:27.269318"}
+{"id": "D3-254", "brand": "Nomious", "domain": "nomious.com", "to": "sales@nomious.com", "ts": "2026-10-26T12:54:40.706764"}
+{"id": "D3-255", "brand": "OUGIST", "domain": "ougist.com", "to": "support@ougist.com", "ts": "2026-10-26T12:54:40.706818"}
+{"id": "D3-256", "brand": "OOONO", "domain": "ooono.com", "to": "support@ooono.com", "ts": "2026-10-26T12:54:40.706833"}
+{"id": "D3-257", "brand": "Dishmatic", "domain": "dishmatic.com", "to": "customerservice@libmanuk.com", "ts": "2026-10-26T12:54:40.706844"}
+{"id": "D3-258", "brand": "Casabella", "domain": "casabella.com", "to": "info@casabella.com", "ts": "2026-10-26T12:54:40.706854"}
+{"id": "D3-356", "brand": "Simplecom", "domain": "simplecom.com.au", "to": "support@simplecom.com.au", "ts": "2026-10-26T12:54:41.058322"}
+{"id": "D3-357", "brand": "Gloworm", "domain": "glowormlights.com", "to": "support@glowormlites.co.nz", "ts": "2026-10-26T12:54:41.058367"}
+{"id": "D3-358", "brand": "mbeat", "domain": "mbeat.com.au", "to": "support@mbeat.com.au", "ts": "2026-10-26T12:54:41.058378"}
+{"id": "D3-359", "brand": "Grinista", "domain": "grinista.com", "to": "support@grinista.com", "ts": "2026-10-26T12:54:41.058385"}
+{"id": "D3-360", "brand": "Floating Grip", "domain": "floatinggrip.com", "to": "support@floatinggrip.com", "ts": "2026-10-26T12:54:41.058391"}
+{"id": "D3-061", "brand": "Pautix", "domain": "pautix.com", "to": "support@pautix.com", "ts": "2026-10-26T12:54:53.849957"}
+{"id": "D3-062", "brand": "Haozee", "domain": "haozee.com", "to": "info@haozee.com", "ts": "2026-10-26T12:54:53.850001"}
+{"id": "D3-063", "brand": "PIIFOX", "domain": "piifox.com", "to": "marketing@piifox.com", "ts": "2026-10-26T12:54:53.850013"}
+{"id": "D3-064", "brand": "Cool Gadget", "domain": "coolgadget.com", "to": "influencer@coolgadget.com", "ts": "2026-10-26T12:54:53.850021"}
+{"id": "D3-065", "brand": "Homture", "domain": "homture.com", "to": "support@homture.com", "ts": "2026-10-26T12:54:53.850027"}
+{"id": "D3-259", "brand": "E-Cloth", "domain": "e-cloth.com", "to": "partner@e-cloth.com", "ts": "2026-10-26T12:55:05.198784"}
+{"id": "D3-260", "brand": "Xanlite", "domain": "xanlite.com", "to": "contact@yantec.fr", "ts": "2026-10-26T12:55:05.198822"}
+{"id": "D3-261", "brand": "Back Bay", "domain": "backbaybrand.com", "to": "support@backbayaudio.com", "ts": "2026-10-26T12:55:05.198833", "bounced": true}
+{"id": "D3-262", "brand": "GGMM", "domain": "ggmm.com", "to": "service@ggmm.com", "ts": "2026-10-26T12:55:05.198841"}
+{"id": "D3-263", "brand": "Ausounds", "domain": "ausounds.com", "to": "support@ausounds.com", "ts": "2026-10-26T12:55:05.198847", "bounced": true}
+{"id": "D3-361", "brand": "CapyCool", "domain": "capycool.com.au", "to": "info@capycool.co", "ts": "2026-10-26T12:55:07.472407"}
+{"id": "D3-362", "brand": "ALF Tools", "domain": "alftools.com", "to": "sales@alftools.com", "ts": "2026-10-26T12:55:07.472459"}
+{"id": "D3-363", "brand": "Mayfield Lighting", "domain": "mayfieldlighting.com.au", "to": "sales@mayfieldlighting.com.au", "ts": "2026-10-26T12:55:07.472476"}
+{"id": "D3-364", "brand": "The Groomi", "domain": "thegroomi.com", "to": "hello@thegroomi.com", "ts": "2026-10-26T12:55:07.472489"}
+{"id": "D3-365", "brand": "Minimalist Gardener", "domain": "minimalistgardener.com.au", "to": "admin@minimalistgardener.com.au", "ts": "2026-10-26T12:55:07.472499"}
+{"id": "D3-159", "brand": "olloclip", "domain": "olloclip.com", "to": "support@olloclip.com", "ts": "2026-10-26T12:55:11.025610"}
+{"id": "D3-160", "brand": "Zomei", "domain": "zomei.com", "to": "zomei@zomei.com", "ts": "2026-10-26T12:55:11.025662"}
+{"id": "D3-161", "brand": "RhinoShield", "domain": "evolutivelabs.com", "to": "support@evolutivelabs.com", "ts": "2026-10-26T12:55:11.025673"}
+{"id": "D3-162", "brand": "Tikpaws", "domain": "tikpaws.com", "to": "info@tikpaws.com", "ts": "2026-10-26T12:55:11.025681"}
+{"id": "D3-163", "brand": "Aeocky", "domain": "aeocky.com", "to": "support@aeocky.com", "ts": "2026-10-26T12:55:11.025687"}
+{"id": "D3-164", "brand": "Pale Blue", "domain": "paleblueearth.com", "to": "support@paleblueearth.com", "ts": "2026-10-26T12:55:11.025692"}
+{"id": "D3-165", "brand": "iiwey", "domain": "iiwey.com", "to": "support@iiwey.com", "ts": "2026-10-26T12:55:11.025697"}
+{"id": "D3-166", "brand": "Pruveeo", "domain": "pruveeo.us", "to": "support@pruveeo.us", "ts": "2026-10-26T12:55:11.025702"}
+{"id": "D3-167", "brand": "ZeroKor", "domain": "zerokor.net", "to": "support@zerokor.net", "ts": "2026-10-26T12:55:11.025706"}
+{"id": "D3-168", "brand": "Kambukka", "domain": "kambukka.com", "to": "info@kambukka.com", "ts": "2026-10-26T12:55:11.025711"}
+{"id": "D3-066", "brand": "RayCue", "domain": "raycue.com", "to": "sales@raycue.com", "ts": "2026-10-26T12:55:21.647598"}
+{"id": "D3-067", "brand": "Flexsta", "domain": "flexsta.com", "to": "hello@flexsta.com", "ts": "2026-10-26T12:55:21.647657"}
+{"id": "D3-068", "brand": "HOTOR", "domain": "hotorauto.com", "to": "support@hotorauto.com", "ts": "2026-10-26T12:55:21.647671"}
+{"id": "D3-069", "brand": "Kitsville", "domain": "kitsville.com", "to": "support@kitsville.com", "ts": "2026-10-26T12:55:21.647679"}
+{"id": "D3-070", "brand": "Tymate", "domain": "tymatetpms.com", "to": "sales@tymatetpms.com", "ts": "2026-10-26T12:55:21.647685"}
+{"id": "D3-264", "brand": "Cybeart", "domain": "cybeart.com", "to": "cs@cybeart.com", "ts": "2026-10-26T12:55:31.739922"}
+{"id": "D3-265", "brand": "Claudia&Julia", "domain": "claudiaandjulia.com", "to": "tienda@claudiaandjulia.com", "ts": "2026-10-26T12:55:31.740011"}
+{"id": "D3-266", "brand": "FoxFury", "domain": "foxfury.com", "to": "onlineinquiries@foxfury.com", "ts": "2026-10-26T12:55:31.740025"}
+{"id": "D3-267", "brand": "Nightsearcher", "domain": "nightsearcher.co.uk", "to": "sales@nightsearcher.co.uk", "ts": "2026-10-26T12:55:31.740033"}
+{"id": "D3-268", "brand": "Mavigadget", "domain": "mavigadget.com", "to": "hello@mavigadget.com", "ts": "2026-10-26T12:55:31.740039"}
+{"id": "D3-366", "brand": "Rooboost", "domain": "rooboost.com.au", "to": "support@rooboost.com.au", "ts": "2026-10-26T12:55:33.955659"}
+{"id": "D3-367", "brand": "Elinz", "domain": "elinz.com.au", "to": "sales@elinz.com.au", "ts": "2026-10-26T12:55:33.955716"}
+{"id": "D3-368", "brand": "Mighty Mount", "domain": "themightymount.com", "to": "sales@themightymount.com", "ts": "2026-10-26T12:55:33.955734"}
+{"id": "D3-369", "brand": "Oddthing", "domain": "oddthing.co.nz", "to": "studio@oddthing.co.nz", "ts": "2026-10-26T12:55:33.955746"}
+{"id": "D3-370", "brand": "Sourdough Mate", "domain": "sourdoughmate.com.au", "to": "hello@sourdoughmate.com.au", "ts": "2026-10-26T12:55:33.955756"}
+{"id": "D3-071", "brand": "GearLight", "domain": "gearlight.com", "to": "support@gearlight.com", "ts": "2026-10-26T12:55:44.709958"}
+{"id": "D3-072", "brand": "HOKOLITE", "domain": "hokolite.com", "to": "support@hokolite.com", "ts": "2026-10-26T12:55:44.709999"}
+{"id": "D3-073", "brand": "Atlavox", "domain": "atlavox.com", "to": "support@atlavox.com", "ts": "2026-10-26T12:55:44.710011"}
+{"id": "D3-074", "brand": "Learn to Solder Kits", "domain": "learntosolderkits.com", "to": "hello@learntosolderkits.com", "ts": "2026-10-26T12:55:44.710018"}
+{"id": "D3-075", "brand": "Rohrer & Klingner", "domain": "rohrer-klingner.de", "to": "info@rohrer-klingner.de", "ts": "2026-10-26T12:55:44.710025"}
+{"id": "D3-169", "brand": "Casely", "domain": "getcasely.com", "to": "help@getcasely.com", "ts": "2026-10-26T12:55:52.725382"}
+{"id": "D3-170", "brand": "EJEAS", "domain": "ejeas.top", "to": "support@ejeas.top", "ts": "2026-10-26T12:55:52.725427"}
+{"id": "D3-171", "brand": "Unitek", "domain": "unitek-products.com", "to": "support@unitek-products.com", "ts": "2026-10-26T12:55:52.725440"}
+{"id": "D3-172", "brand": "Yootech", "domain": "yootech.net", "to": "amazon@yootech.net", "ts": "2026-10-26T12:55:52.725448"}
+{"id": "D3-173", "brand": "Veepeak", "domain": "veepeak.com", "to": "support@veepeak.com", "ts": "2026-10-26T12:55:52.725455"}
+{"id": "D3-174", "brand": "Knobwell", "domain": "knobwellstore.com", "to": "service@knobwellstore.com", "ts": "2026-10-26T12:55:52.725461"}
+{"id": "D3-175", "brand": "Barska", "domain": "barska.com", "to": "service@barska.com", "ts": "2026-10-26T12:55:52.725466"}
+{"id": "D3-176", "brand": "imarku", "domain": "imarku.net", "to": "partnership@imarku.net", "ts": "2026-10-26T12:55:52.725470"}
+{"id": "D3-177", "brand": "Totally Bamboo", "domain": "totallybamboo.com", "to": "contact@totallybamboo.com", "ts": "2026-10-26T12:55:52.725475"}
+{"id": "D3-178", "brand": "OTL", "domain": "otltechnologies.com", "to": "info@otltechnologies.com", "ts": "2026-10-26T12:55:52.725480"}
+{"id": "D3-269", "brand": "Bonelk", "domain": "bonelk.com", "to": "info@bonelk.com", "ts": "2026-10-26T12:55:58.624608"}
+{"id": "D3-270", "brand": "Monokei", "domain": "monokei.co", "to": "support@monokei.co", "ts": "2026-10-26T12:55:58.624680", "bounced": true}
+{"id": "D3-271", "brand": "Nextime", "domain": "nextime.eu", "to": "info@nextime.eu", "ts": "2026-10-26T12:55:58.624698"}
+{"id": "D3-272", "brand": "Caseway", "domain": "caseway.com.au", "to": "online@caseway.com.au", "ts": "2026-10-26T12:55:58.624706"}
+{"id": "D3-273", "brand": "Hardware Labs", "domain": "hardwarelabs.com", "to": "info@hardwarelabs.com", "ts": "2026-10-26T12:55:58.624712"}
+{"id": "D3-371", "brand": "Melux", "domain": "melux.au", "to": "sales@melux.au", "ts": "2026-10-26T12:56:06.399261"}
+{"id": "D3-372", "brand": "The Trade Shade", "domain": "thetradeshade.com.au", "to": "customersupport@thetradeshade.com.au", "ts": "2026-10-26T12:56:06.399301"}
+{"id": "D3-373", "brand": "Zoomlite", "domain": "zoomlite.com.au", "to": "help@zoomlite.com.au", "ts": "2026-10-26T12:56:06.399313"}
+{"id": "D3-374", "brand": "BlueAnt", "domain": "blueant.com.au", "to": "care@blueantwireless.com", "ts": "2026-10-26T12:56:06.399320"}
+{"id": "D3-375", "brand": "iPet", "domain": "ipet-au.com", "to": "info@ipet-au.com", "ts": "2026-10-26T12:56:06.399325"}
+{"id": "D3-076", "brand": "Spin-Clean", "domain": "spinclean.com", "to": "info@spinclean.com", "ts": "2026-10-26T12:56:10.750616"}
+{"id": "D3-077", "brand": "Lightdow", "domain": "lightdow.com", "to": "customerservice@lightdow.com", "ts": "2026-10-26T12:56:10.750673"}
+{"id": "D3-078", "brand": "Moonman", "domain": "moonmanpen.com", "to": "admin@moonmanpen.com", "ts": "2026-10-26T12:56:10.750746"}
+{"id": "D3-079", "brand": "Conklin", "domain": "conklinpens.com", "to": "info@conklinpens.com", "ts": "2026-10-26T12:56:10.750760", "bounced": true}
+{"id": "D3-080", "brand": "Ferris Wheel Press", "domain": "ferriswheelpress.com", "to": "info@ferriswheelpress.com", "ts": "2026-10-26T12:56:10.750769"}
+{"id": "D3-274", "brand": "Windmill", "domain": "windmillair.com", "to": "support@windmillair.com", "ts": "2026-10-26T12:56:22.020205"}
+{"id": "D3-275", "brand": "Rombica", "domain": "rombica.com", "to": "service@rombica.com", "ts": "2026-10-26T12:56:22.020259"}
+{"id": "D3-276", "brand": "Brentwood", "domain": "brentwoodus.com", "to": "support@brentwoodus.com", "ts": "2026-10-26T12:56:22.020277"}
+{"id": "D3-277", "brand": "Zeal PC", "domain": "zealpc.net", "to": "support@zealpc.net", "ts": "2026-10-26T12:56:22.020288"}
+{"id": "D3-278", "brand": "Krome Keycaps", "domain": "kromekeycaps.com", "to": "info@kromekeycaps.com", "ts": "2026-10-26T12:56:22.020297"}
+{"id": "D3-376", "brand": "Nova Lights", "domain": "novalights.com.au", "to": "info@novalights.com.au", "ts": "2026-10-26T12:56:32.556555"}
+{"id": "D3-377", "brand": "Anytongs", "domain": "anytongs.com", "to": "info@anytongs.com", "ts": "2026-10-26T12:56:32.556598"}
+{"id": "D3-378", "brand": "Boona", "domain": "boona.com", "to": "hello@boona.com", "ts": "2026-10-26T12:56:32.556610"}
+{"id": "D3-379", "brand": "Bye Bye Button", "domain": "byebyebutton.com", "to": "contact@byebyebutton.com", "ts": "2026-10-26T12:56:32.556618"}
+{"id": "D3-380", "brand": "Kezzel", "domain": "kezzel.de", "to": "presse@kezzel.de", "ts": "2026-10-26T12:56:32.556624"}
+{"id": "D3-081", "brand": "Diamine", "domain": "diamineinks.co.uk", "to": "enquiries@diamineinks.co.uk", "ts": "2026-10-26T12:56:37.020565"}
+{"id": "D3-082", "brand": "Okki Nokki", "domain": "okkinokki.com", "to": "info@okkinokki.com", "ts": "2026-10-26T12:56:37.020634"}
+{"id": "D3-083", "brand": "Gruv-Glide", "domain": "gruvglide.com", "to": "sales@gruvglide.com", "ts": "2026-10-26T12:56:37.020650"}
+{"id": "D3-084", "brand": "Birmingham Pen Company", "domain": "birminghampens.com", "to": "write@birminghampens.com", "ts": "2026-10-26T12:56:37.020658"}
+{"id": "D3-085", "brand": "Photographic Solutions", "domain": "photosol.com", "to": "support@photosol.com", "ts": "2026-10-26T12:56:37.020666"}
+{"id": "D3-179", "brand": "Magisso", "domain": "magisso.com", "to": "info@magisso.com", "ts": "2026-10-26T12:56:38.387672"}
+{"id": "D3-180", "brand": "Franzis", "domain": "franzis.de", "to": "presse@franzis.de", "ts": "2026-10-26T12:56:38.387712"}
+{"id": "D3-181", "brand": "IT'S MY BIKE", "domain": "itsmybike.com", "to": "info@iot-venture.com", "ts": "2026-10-26T12:56:38.387724"}
+{"id": "D3-182", "brand": "ODI", "domain": "odigrips.com", "to": "info@odigrips.com", "ts": "2026-10-26T12:56:38.387732"}
+{"id": "D3-183", "brand": "Nano Hone", "domain": "shapton.com", "to": "service@nanohone.com", "ts": "2026-10-26T12:56:38.387738"}
+{"id": "D3-184", "brand": "Supacaz", "domain": "supacaz.com", "to": "contact@supacaz.com", "ts": "2026-10-26T12:56:38.387744"}
+{"id": "D3-185", "brand": "Sunwayman", "domain": "sunwayman.com", "to": "service@sunwayman.com", "ts": "2026-10-26T12:56:38.387748"}
+{"id": "D3-186", "brand": "Camelion", "domain": "camelion.com", "to": "info@camelion.com", "ts": "2026-10-26T12:56:38.387753"}
+{"id": "D3-187", "brand": "Ownpets", "domain": "ownpets.com", "to": "cs@ownpets.com", "ts": "2026-10-26T12:56:38.387757"}
+{"id": "D3-188", "brand": "Brodit", "domain": "brodit.se", "to": "info@brodit.se", "ts": "2026-10-26T12:56:38.387761"}
+{"id": "D3-279", "brand": "Kaotica", "domain": "kaoticaeyeball.com", "to": "customer@kaoticalife.com", "ts": "2026-10-26T12:56:49.388914"}
+{"id": "D3-280", "brand": "Hanant", "domain": "hanant.nl", "to": "info@hanant.nl", "ts": "2026-10-26T12:56:49.388968"}
+{"id": "D3-281", "brand": "Jocel", "domain": "jocel.pt", "to": "marketing@jocel.pt", "ts": "2026-10-26T12:56:49.388985"}
+{"id": "D3-282", "brand": "FlasKap", "domain": "flaskap.com", "to": "hello@flaskap.com", "ts": "2026-10-26T12:56:49.388997"}
+{"id": "D3-283", "brand": "Kubu", "domain": "getkubu.com", "to": "support@getkubu.com", "ts": "2026-10-26T12:56:49.389048"}
+{"id": "D3-189", "brand": "Daffodil", "domain": "idaffodil.de", "to": "verkauf@digitaldaffodil.com", "ts": "2026-10-26T12:56:52.415444"}
+{"id": "D3-190", "brand": "Remac", "domain": "remacflow.ai", "to": "support@remacflow.ai", "ts": "2026-10-26T12:56:52.415503"}
+{"id": "D3-191", "brand": "Fix It Sticks", "domain": "fixitsticks.com", "to": "info@fixitsticks.com", "ts": "2026-10-26T12:56:52.415527"}
+{"id": "D3-192", "brand": "Lumintrail", "domain": "lumintrail.com", "to": "customerservice@lumintrail.com", "ts": "2026-10-26T12:56:52.415538"}
+{"id": "D3-193", "brand": "Teracube", "domain": "myteracube.com", "to": "support@myteracube.com", "ts": "2026-10-26T12:56:52.415547"}
+{"id": "D3-194", "brand": "ProfiCook", "domain": "proficook.de", "to": "info@proficook.de", "ts": "2026-10-26T12:56:52.415556"}
+{"id": "D3-195", "brand": "Roidmi", "domain": "roidmi.com", "to": "roidmi@roidmi.com", "ts": "2026-10-26T12:56:52.415564"}
+{"id": "D3-196", "brand": "Volumio", "domain": "volumio.com", "to": "info@volumio.org", "ts": "2026-10-26T12:56:52.415572"}
+{"id": "D3-197", "brand": "yoose", "domain": "yoose.de", "to": "service@yoose.de", "ts": "2026-10-26T12:56:52.415581"}
+{"id": "D3-198", "brand": "Hugeel", "domain": "hugeel.com", "to": "info@hugeel.com", "ts": "2026-10-26T12:56:52.415588"}
+{"id": "D3-199", "brand": "ilo home", "domain": "ilohome.com", "to": "info@ilohome.ca", "ts": "2026-10-26T12:56:52.415597", "bounced": true}
+{"id": "D3-200", "brand": "cheero", "domain": "cheero.net", "to": "love@cheero.jp", "ts": "2026-10-26T12:56:52.415604"}
+{"id": "D3-381", "brand": "Dekadome", "domain": "dekadome.de", "to": "kundenservice@dekadome.de", "ts": "2026-10-26T12:56:59.310169"}
+{"id": "D3-382", "brand": "IRISgo", "domain": "irisgo.com", "to": "info@irisgo.com", "ts": "2026-10-26T12:56:59.310227"}
+{"id": "D3-383", "brand": "Klemab", "domain": "klemab.de", "to": "info@klemab.de", "ts": "2026-10-26T12:56:59.310244"}
+{"id": "D3-384", "brand": "dripoff", "domain": "dripoff.de", "to": "service@dripoff.de", "ts": "2026-10-26T12:56:59.310255"}
+{"id": "D3-385", "brand": "Permaplug", "domain": "permaplug.com", "to": "support@permaplug.com", "ts": "2026-10-26T12:56:59.310265"}
+{"id": "D3-086", "brand": "Hudson Hi-Fi", "domain": "hudsonhifi.com", "to": "contact@hudsonhifi.com", "ts": "2026-10-26T12:57:00.767778"}
+{"id": "D3-087", "brand": "Digitnow", "domain": "digitnow.com", "to": "marketing@digitnow.com", "ts": "2026-10-26T12:57:00.767823"}
+{"id": "D3-088", "brand": "Monteverde", "domain": "monteverdepens.com", "to": "store@monteverdepens.com", "ts": "2026-10-26T12:57:00.767835", "bounced": true}
+{"id": "D3-089", "brand": "M5Shark", "domain": "m5shark.com", "to": "support@m5shark.com", "ts": "2026-10-26T12:57:00.768098"}
+{"id": "D3-090", "brand": "HATCHBOX", "domain": "hatchbox3d.com", "to": "support@hatchbox3d.com", "ts": "2026-10-26T12:57:00.768114"}
+{"id": "D3-284", "brand": "Boretti", "domain": "boretti.com", "to": "info@boretti.com", "ts": "2026-10-26T12:57:14.511010"}
+{"id": "D3-285", "brand": "Moderna", "domain": "modernaproducts.com", "to": "info.be@modernaproducts.com", "ts": "2026-10-26T12:57:14.511050"}
+{"id": "D3-286", "brand": "Gaabor", "domain": "gaabor-global.com", "to": "service@gaabor-global.com", "ts": "2026-10-26T12:57:14.511061", "bounced": true}
+{"id": "D3-287", "brand": "Electro-Smith", "domain": "electro-smith.com", "to": "hello@electro-smith.com", "ts": "2026-10-26T12:57:14.511068", "bounced": true}
+{"id": "D3-288", "brand": "Dozorme", "domain": "dozorme-claude.fr", "to": "info@dozorme-claude.fr", "ts": "2026-10-26T12:57:14.511074"}
+{"id": "D3-091", "brand": "GrooveWasher", "domain": "groovewasher.com", "to": "info@groovewasher.com", "ts": "2026-10-26T12:57:24.929868"}
+{"id": "D3-092", "brand": "OCCER", "domain": "occer.com", "to": "support@occer.com", "ts": "2026-10-26T12:57:24.929916"}
+{"id": "D3-093", "brand": "Legend Vinyl", "domain": "mylegendvinyl.co.uk", "to": "hello@mylegendvinyl.co.uk", "ts": "2026-10-26T12:57:24.929928"}
+{"id": "D3-094", "brand": "Reshoevn8r", "domain": "reshoevn8r.com", "to": "info@reshoevn8r.com", "ts": "2026-10-26T12:57:24.929937"}
+{"id": "D3-095", "brand": "Blackwing", "domain": "blackwing602.com", "to": "info@blackwing602.com", "ts": "2026-10-26T12:57:24.929943"}
+{"id": "D3-386", "brand": "BoxBlayde", "domain": "boxblayde.com", "to": "support@boxblayde.com", "ts": "2026-10-26T12:57:27.091870"}
+{"id": "D3-387", "brand": "Gilley", "domain": "gilley.uk", "to": "hello@gilley.uk", "ts": "2026-10-26T12:57:27.091910"}
+{"id": "D3-388", "brand": "VSEAT", "domain": "thevseat.com", "to": "atyourservice@thevseat.com", "ts": "2026-10-26T12:57:27.091922"}
+{"id": "D3-389", "brand": "HomeShadows", "domain": "homeshadows.com", "to": "office@gerotech-innovations.com", "ts": "2026-10-26T12:57:27.091929"}
+{"id": "D3-390", "brand": "Sanilu", "domain": "sanilu.ch", "to": "info@sanilu.ch", "ts": "2026-10-26T12:57:27.091935"}
+{"id": "D3-096", "brand": "Gruff Technology", "domain": "grufftechnology.eu", "to": "info@grufftechnology.eu", "ts": "2026-10-26T12:57:33.678861"}
+{"id": "D3-097", "brand": "Flasqua", "domain": "flasqua.com", "to": "info@flasqua.com", "ts": "2026-10-26T12:57:33.678930"}
+{"id": "D3-098", "brand": "Luxafor", "domain": "luxafor.com", "to": "support@luxafor.com", "ts": "2026-10-26T12:57:33.678948"}
+{"id": "D3-099", "brand": "Altifarm", "domain": "altifarm.com", "to": "hello@altifarm.com", "ts": "2026-10-26T12:57:33.678959"}
+{"id": "D3-100", "brand": "Nanocable", "domain": "nanocable.com", "to": "info@nanocable.com", "ts": "2026-10-26T12:57:33.678968"}
+{"id": "D3-289", "brand": "3Dconnexion", "domain": "3dconnexion.com", "to": "press@3dconnexion.com", "ts": "2026-10-26T12:57:34.743274"}
+{"id": "D3-290", "brand": "Typhoon", "domain": "typhoonhousewares.com", "to": "customercare@typhoonhomewares.com", "ts": "2026-10-26T12:57:34.743327"}
+{"id": "D3-291", "brand": "Sourdough Sidekick", "domain": "sourdoughsidekick.com", "to": "help@firstbuild.com", "ts": "2026-10-26T12:57:34.743343"}
+{"id": "D3-292", "brand": "Uncanny Brands", "domain": "uncannybrands.com", "to": "online@uncannybrands.com", "ts": "2026-10-26T12:57:34.743353"}
+{"id": "D3-293", "brand": "Masdio", "domain": "masdio.com", "to": "info@masdio.com", "ts": "2026-10-26T12:57:34.743362"}
+{"id": "D3-391", "brand": "Chuck-a-Rubba", "domain": "chuckarubba.com", "to": "info@chuckarubba.com", "ts": "2026-10-26T12:57:53.113217"}
+{"id": "D3-392", "brand": "FESCHD", "domain": "feschd.com", "to": "info@feschd.com", "ts": "2026-10-26T12:57:53.113313"}
+{"id": "D3-393", "brand": "Dübelix", "domain": "duebelix.com", "to": "presse@duebelix.de", "ts": "2026-10-26T12:57:53.113331"}
+{"id": "D3-394", "brand": "Frischluft Fensterbrett", "domain": "frischluft-fensterbrett.com", "to": "support@frischluft-fensterbrett.com", "ts": "2026-10-26T12:57:53.113342"}
+{"id": "D3-395", "brand": "Bellaria", "domain": "bellaria.tech", "to": "info@bellaria.tech", "ts": "2026-10-26T12:57:53.113351"}
+{"id": "D3-294", "brand": "thinksound", "domain": "thinksound.com", "to": "hello@thinksound.com", "ts": "2026-10-26T12:57:56.145822"}
+{"id": "D3-295", "brand": "myCharge", "domain": "mycharge.com", "to": "cservice@mycharge.com", "ts": "2026-10-26T12:57:56.145879"}
+{"id": "D3-296", "brand": "Flint & Flame", "domain": "flintandflameusa.com", "to": "info@flintandflame.com", "ts": "2026-10-26T12:57:56.145896"}
+{"id": "D3-396", "brand": "Loume", "domain": "getloume.com", "to": "support@getloume.com", "ts": "2026-10-26T12:57:59.251568"}
+{"id": "D3-397", "brand": "whiffy", "domain": "whiffy.com", "to": "mail@whiffy.com", "ts": "2026-10-26T12:57:59.251619"}
+{"id": "D3-398", "brand": "Piano LED", "domain": "pianoled.fr", "to": "support@pianoled.fr", "ts": "2026-10-26T12:57:59.251637"}
+{"id": "D3-399", "brand": "Virgo Move", "domain": "virgomove.com", "to": "contact@virgomove.com", "ts": "2026-10-26T12:57:59.251648"}
+{"id": "D3-400", "brand": "Flipstik", "domain": "getflipstik.com", "to": "help@getflipstik.com", "ts": "2026-10-26T12:57:59.251658"}
+{"id": "D3-297", "brand": "FJBottle", "domain": "fjbottle.com", "to": "contact@fjbottle.com", "ts": "2026-10-26T12:58:02.952765"}
+{"id": "D3-298", "brand": "Vcanenergy", "domain": "vcanenergy.com", "to": "info@vcanenergy.com", "ts": "2026-10-26T12:58:02.952803"}
+{"id": "D3-299", "brand": "LITTIL", "domain": "littil.com", "to": "support@littil.com", "ts": "2026-10-26T12:58:02.952815"}
+{"id": "D3-300", "brand": "Atonemo", "domain": "atonemo.com", "to": "info@atonemo.com", "ts": "2026-10-26T12:58:02.952822"}
