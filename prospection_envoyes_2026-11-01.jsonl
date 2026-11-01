@@ -115,3 +115,89 @@
 {"id": "RP31I-030", "brand": "Kitsolaire", "domain": "kitsolaire.fr", "to": "contact@kitsolaire.fr", "ts": "2026-11-01T06:54:59.613788"}
 {"id": "RP31I-031", "brand": "UrbanTriSports", "domain": "urbantrisports.be", "to": "info@urbantrisports.be", "ts": "2026-11-01T06:54:59.613820"}
 {"id": "RP31I-032", "brand": "Lecomte Alpinisme & Randonnée", "domain": "lecomte-alpirando.be", "to": "hello@lecomte-alpirando.be", "ts": "2026-11-01T06:54:59.613830"}
+{"id": "RP01A-001", "brand": "ElectroLed", "domain": "electroled.fr", "to": "contact@electroled.fr", "ts": "2026-11-01T10:58:50.315836"}
+{"id": "RP01A-002", "brand": "Microware", "domain": "microware.cz", "to": "obchod@microware.cz", "ts": "2026-11-01T10:58:50.316067"}
+{"id": "RP01A-003", "brand": "Hodcom", "domain": "hodcom.pl", "to": "sklep@hodcom.pl", "ts": "2026-11-01T10:58:50.316081"}
+{"id": "RP01A-004", "brand": "Inpraise", "domain": "inpraise.cz", "to": "info@inpraise.cz", "ts": "2026-11-01T10:58:50.316087"}
+{"id": "RP01A-005", "brand": "Melgo", "domain": "melgo.cz", "to": "podpora@melgo.cz", "ts": "2026-11-01T10:58:50.316092"}
+{"id": "RP01A-006", "brand": "Erikoistukku", "domain": "erikoistukku.fi", "to": "info@erikoistukku.fi", "ts": "2026-11-01T10:58:50.316096"}
+{"id": "RP01A-007", "brand": "Hubshop", "domain": "hubshop.dk", "to": "info@hubshop.dk", "ts": "2026-11-01T10:58:50.316100"}
+{"id": "RP01A-008", "brand": "Kaffelageret", "domain": "kaffelageret.no", "to": "post@kaffelageret.no", "ts": "2026-11-01T10:58:50.316104"}
+{"id": "RP01A-009", "brand": "Dronshop", "domain": "dronshop.ro", "to": "hello@dronshop.ro", "ts": "2026-11-01T10:58:50.316108"}
+{"id": "RP01A-010", "brand": "Doopshop", "domain": "doopshop.hu", "to": "hello@doopshop.hu", "ts": "2026-11-01T10:58:50.316112", "bounced": true}
+{"id": "RP01A-011", "brand": "Svitilny.eu", "domain": "svitilny.eu", "to": "eshop@svitilny.eu", "ts": "2026-11-01T11:00:03.694052"}
+{"id": "RP01A-012", "brand": "Eneshop", "domain": "eneshop.cz", "to": "info@eneshop.cz", "ts": "2026-11-01T11:00:03.694094"}
+{"id": "RP01A-013", "brand": "3Dkauppa", "domain": "3dkauppa.com", "to": "info@3dkauppa.com", "ts": "2026-11-01T11:00:03.694106"}
+{"id": "RP01A-014", "brand": "Outdoorweb", "domain": "outdoorweb.cz", "to": "jsme@outdoorweb.cz", "ts": "2026-11-01T11:00:03.694112"}
+{"id": "RP01A-015", "brand": "Centar Tehnike", "domain": "centartehnike.hr", "to": "webshop@centartehnike.hr", "ts": "2026-11-01T11:00:03.694118"}
+{"id": "RP01A-016", "brand": "Microteam", "domain": "microteam.hr", "to": "info@microteam.hr", "ts": "2026-11-01T11:00:03.694122"}
+{"id": "RP01A-017", "brand": "Nakupek", "domain": "nakupek.si", "to": "info@nakupek.si", "ts": "2026-11-01T11:00:03.694126"}
+{"id": "RP01A-018", "brand": "Bendr", "domain": "bendr.sk", "to": "info@bendr.sk", "ts": "2026-11-01T11:00:03.694130"}
+{"id": "RP01A-019", "brand": "Fotismos", "domain": "fotismos.gr", "to": "sales@fotismos.gr", "ts": "2026-11-01T11:00:03.694135"}
+{"id": "RP01A-020", "brand": "Oktostore", "domain": "oktostore.rs", "to": "office@oktostore.rs", "ts": "2026-11-01T11:00:03.694139"}
+{"id": "RP01A-021", "brand": "VideoSmart", "domain": "videosmart.eu", "to": "info@videosmart.eu", "ts": "2026-11-01T11:00:56.434814"}
+{"id": "RP01A-022", "brand": "Konesso", "domain": "konesso.pl", "to": "sklep@konesso.pl", "ts": "2026-11-01T11:00:56.434857"}
+{"id": "RP01A-023", "brand": "2Cafe", "domain": "2cafe.pl", "to": "sklep@2cafe.pl", "ts": "2026-11-01T11:00:56.434869"}
+{"id": "RP01A-024", "brand": "Pražírna Ignác", "domain": "prazirnaignac.cz", "to": "prazirna@ig.coffee", "ts": "2026-11-01T11:00:56.434875"}
+{"id": "RP01A-025", "brand": "4barista", "domain": "4barista.hu", "to": "info@4barista.hu", "ts": "2026-11-01T11:00:56.434881"}
+{"id": "RP01A-026", "brand": "na3D", "domain": "na3d.cz", "to": "info@na3d.cz", "ts": "2026-11-01T11:00:56.434885"}
+{"id": "RP01A-027", "brand": "3DPrintX", "domain": "3dprintx.bg", "to": "office@3dprintx.bg", "ts": "2026-11-01T11:00:56.434889"}
+{"id": "RP01A-028", "brand": "Xiaomi4you", "domain": "xiaomi4you.pl", "to": "sklep@xiaomi4you.pl", "ts": "2026-11-01T11:00:56.434893"}
+{"id": "RP01A-029", "brand": "XiaomiMarket", "domain": "xiaomimarket.cz", "to": "info@xiaomimarket.cz", "ts": "2026-11-01T11:00:56.434897"}
+{"id": "RP01A-030", "brand": "Haimoo Roastery", "domain": "haimooroastery.fi", "to": "hello@haimooroastery.fi", "ts": "2026-11-01T11:00:56.434902"}
+{"id": "RP01A-031", "brand": "Kahwe", "domain": "kahwe.fi", "to": "info@kahwe.fi", "ts": "2026-11-01T11:01:46.786820"}
+{"id": "RP01A-032", "brand": "Figro", "domain": "figro.dk", "to": "kontakt@figro.dk", "ts": "2026-11-01T11:01:46.786857"}
+{"id": "RP01A-033", "brand": "KDX24", "domain": "kdx24.pl", "to": "sklep@kdx24.pl", "ts": "2026-11-01T11:01:46.786868"}
+{"id": "RP01A-034", "brand": "Burzmart", "domain": "burzmart.lv", "to": "info@burzmart.lv", "ts": "2026-11-01T11:01:46.786874"}
+{"id": "RP01A-035", "brand": "Komte", "domain": "komte.lv", "to": "info@komte.lv", "ts": "2026-11-01T11:01:46.786879"}
+{"id": "RP01A-036", "brand": "Coffeein", "domain": "coffeein.sk", "to": "info@coffeein.sk", "ts": "2026-11-01T11:01:46.786883"}
+{"id": "RP01A-037", "brand": "Coffee Sheep", "domain": "coffeesheep.sk", "to": "info@coffeesheep.sk", "ts": "2026-11-01T11:01:46.786888"}
+{"id": "RP01A-038", "brand": "Coffegarden", "domain": "coffegarden.sk", "to": "info@coffegarden.sk", "ts": "2026-11-01T11:01:46.786892"}
+{"id": "RP01A-039", "brand": "Buna Café", "domain": "bunacafe.sk", "to": "obchod@bunacafe.sk", "ts": "2026-11-01T11:01:46.786896"}
+{"id": "RP01A-040", "brand": "Zaklampwinkel", "domain": "zaklampwinkel.nl", "to": "klantenservice@zaklampwinkel.nl", "ts": "2026-11-01T11:01:46.786905"}
+{"id": "RP01A-041", "brand": "Darkshop", "domain": "darkshop.nl", "to": "info@darkshop.nl", "ts": "2026-11-01T11:01:46.812061"}
+{"id": "RP01A-042", "brand": "Koffie Kenner", "domain": "koffiekenner.com", "to": "contact@koffiekenner.com", "ts": "2026-11-01T11:01:46.812112"}
+{"id": "RP01A-043", "brand": "De Koffiethuiswinkel", "domain": "dekoffiethuiswinkel.nl", "to": "info@dekoffiethuiswinkel.nl", "ts": "2026-11-01T11:01:46.812128"}
+{"id": "RP01B-001", "brand": "Garnelen Tom", "domain": "garnelen-tom.de", "to": "mail@garnelen-tom.de", "ts": "2026-11-01T11:07:03.021131"}
+{"id": "RP01B-002", "brand": "AUX Aquaristik", "domain": "aux-aquaristik.de", "to": "servus@aux-aquaristik.de", "ts": "2026-11-01T11:07:03.021171"}
+{"id": "RP01B-003", "brand": "Siebtr\u00e4ger Werkstatt", "domain": "siebtraeger-werkstatt.de", "to": "info@siebtraeger-werkstatt.de", "ts": "2026-11-01T11:07:03.021183"}
+{"id": "RP01B-004", "brand": "Die Edelhelfer", "domain": "die-edelhelfer.de", "to": "info@die-edelhelfer.de", "ts": "2026-11-01T11:07:03.021189"}
+{"id": "RP01B-005", "brand": "DieCrema", "domain": "diecrema.de", "to": "info@diecrema.de", "ts": "2026-11-01T11:07:03.021201"}
+{"id": "RP01B-006", "brand": "coffee24", "domain": "coffee24.de", "to": "info@coffee24.de", "ts": "2026-11-01T11:07:03.021209"}
+{"id": "RP01B-007", "brand": "Sportswearhouse", "domain": "sportswearhouse.nl", "to": "info@sportswearhouse.nl", "ts": "2026-11-01T11:07:03.021213"}
+{"id": "RP01B-008", "brand": "Espressorado", "domain": "espressorado.at", "to": "office@espressorado.at", "ts": "2026-11-01T11:07:03.021218"}
+{"id": "RP01B-009", "brand": "4barista.be", "domain": "4barista.be", "to": "info@4barista.be", "ts": "2026-11-01T11:07:03.021222"}
+{"id": "RP01B-010", "brand": "Foto Coudenys", "domain": "fotocoudenys.be", "to": "info@fotocoudenys.be", "ts": "2026-11-01T11:07:03.021226"}
+{"id": "RP01B-011", "brand": "Aromatico", "domain": "aromatico.de", "to": "service@aromatico.com", "ts": "2026-11-01T11:07:50.428833"}
+{"id": "RP01B-012", "brand": "3D PRINT-IT", "domain": "3dprint-it.eu", "to": "info@3dprint-it.be", "ts": "2026-11-01T11:07:50.428870"}
+{"id": "RP01B-013", "brand": "3D Supplies", "domain": "3dsupplies.be", "to": "info@3dsupplies.be", "ts": "2026-11-01T11:07:50.428882"}
+{"id": "RP01B-014", "brand": "Hifi Schluderbacher", "domain": "hifi-schluderbacher.de", "to": "info@hifi-schluderbacher.de", "ts": "2026-11-01T11:07:50.428889"}
+{"id": "RP01B-015", "brand": "HiFi Profis", "domain": "hifi-profis.de", "to": "shop@hifi-profis.de", "ts": "2026-11-01T11:07:50.428906"}
+{"id": "RP01B-016", "brand": "Rock Shop", "domain": "rockshop.de", "to": "rockshop@rockshop.de", "ts": "2026-11-01T11:07:50.428912"}
+{"id": "RP01B-017", "brand": "Audiofrenzy", "domain": "audiofrenzy.nl", "to": "info@audiofrenzy.nl", "ts": "2026-11-01T11:07:50.428916"}
+{"id": "RP01B-018", "brand": "K'OOK!", "domain": "k-ook.nl", "to": "info@k-ook.nl", "ts": "2026-11-01T11:07:50.428920"}
+{"id": "RP01B-019", "brand": "123zaklampen", "domain": "123zaklampen.nl", "to": "contact@123zaklampen.nl", "ts": "2026-11-01T11:07:50.428924"}
+{"id": "RP01B-020", "brand": "Let it Burn", "domain": "letitburn.at", "to": "info@letitburn.at", "ts": "2026-11-01T11:07:50.428928"}
+{"id": "RP01B-021", "brand": "DeDomoticaStore", "domain": "dedomoticastore.nl", "to": "klantenservice@dedomoticastore.nl", "ts": "2026-11-01T11:08:44.542078"}
+{"id": "RP01B-022", "brand": "fumi's Tierfachmarkt", "domain": "fumi.de", "to": "info@fumi.de", "ts": "2026-11-01T11:08:44.542121"}
+{"id": "RP01B-023", "brand": "Dashcamshop.nl", "domain": "dashcamshop.nl", "to": "info@dashcamshop.nl", "ts": "2026-11-01T11:08:44.542139"}
+{"id": "RP01B-024", "brand": "Foto-Weber", "domain": "weber-foto.de", "to": "info@weber-foto.de", "ts": "2026-11-01T11:08:44.542151"}
+{"id": "RP01B-025", "brand": "griller4you", "domain": "griller4you.at", "to": "office@griller4you.at", "ts": "2026-11-01T11:08:44.542158"}
+{"id": "RP01B-026", "brand": "Tieroase Lorsch", "domain": "tieroase-lorsch.de", "to": "info@tieroase-lorsch.de", "ts": "2026-11-01T11:08:44.542164"}
+{"id": "RP01B-027", "brand": "AquastoreXL", "domain": "aquastorexl.nl", "to": "service@aquastorexl.nl", "ts": "2026-11-01T11:08:44.542169"}
+{"id": "RP01B-028", "brand": "Navitronics", "domain": "navitronics.be", "to": "info@navitronics.be", "ts": "2026-11-01T11:08:44.542173"}
+{"id": "RP01B-029", "brand": "Technikhaus", "domain": "technikhaus.de", "to": "info@monitor-center.de", "ts": "2026-11-01T11:08:44.542179"}
+{"id": "RP01B-030", "brand": "Olibetta", "domain": "olibetta.de", "to": "office@olibetta.com", "ts": "2026-11-01T11:08:44.542185"}
+{"id": "RP01B-031", "brand": "Interaquaristik", "domain": "interaquaristik.de", "to": "service@interaquaristik.de", "ts": "2026-11-01T11:09:39.890463"}
+{"id": "RP01B-032", "brand": "Multi 3D Print", "domain": "multi-3dprint.nl", "to": "info@multi-3dprint.nl", "ts": "2026-11-01T11:09:39.890498"}
+{"id": "RP01B-033", "brand": "Foto Winder", "domain": "foto-winder.at", "to": "info@foto-winder.at", "ts": "2026-11-01T11:09:39.890508"}
+{"id": "RP01B-034", "brand": "Reporterstore", "domain": "reporterstore.com", "to": "service@reporterstore.com", "ts": "2026-11-01T11:09:39.890514"}
+{"id": "RP01B-035", "brand": "FREKKO", "domain": "frekko.nl", "to": "info@frekko.nl", "ts": "2026-11-01T11:09:39.890518"}
+{"id": "RP01B-036", "brand": "Koffiekompaan", "domain": "koffiekompaan.nl", "to": "info@koffiekompaan.nl", "ts": "2026-11-01T11:09:39.890522"}
+{"id": "RP01B-037", "brand": "Koffiestore", "domain": "koffiestore.nl", "to": "info@koffiestore.nl", "ts": "2026-11-01T11:09:39.890526"}
+{"id": "RP01B-038", "brand": "Waldis Pizza", "domain": "waldispizza.de", "to": "info@waldispizza.de", "ts": "2026-11-01T11:09:39.890530"}
+{"id": "RP01B-039", "brand": "Kaufen in Trier", "domain": "kaufen-in-trier.de", "to": "info@kaufen-in-trier.de", "ts": "2026-11-01T11:09:39.890533"}
+{"id": "RP01B-040", "brand": "FabLab Factory", "domain": "fablabfactory.com", "to": "info@fablabfactory.com", "ts": "2026-11-01T11:09:39.890537"}
+{"id": "RP01B-041", "brand": "Koffietje.nl", "domain": "koffietje.nl", "to": "info@koffietje.nl", "ts": "2026-11-01T11:10:03.053887"}
+{"id": "RP01B-042", "brand": "GearPoint", "domain": "gearpoint.nl", "to": "info@gearpoint.nl", "ts": "2026-11-01T11:10:03.053991"}
+{"id": "RP01B-043", "brand": "Fietsen Gaethofs", "domain": "gaethofs.be", "to": "info@gaethofs.be", "ts": "2026-11-01T11:10:03.054012"}
