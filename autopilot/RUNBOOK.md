@@ -29,7 +29,8 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
   produit offert ou une marque partenaire apparaît ; pas de lien affilié sans programme réellement actif.
 - **Outils gratuits uniquement.** Pas d'ElevenLabs gratuit (licence non commerciale).
 - **Dépôt** : aucune commande destructive (pas de `rm -rf`, pas de réécriture d'historique, pas de force-push).
-- **Metricool** : ne jamais modifier ni supprimer les publications Instagram de Marcio.
+- **Metricool** : ne jamais modifier ni supprimer les publications Instagram de Marcio. Seule exception, demandée par
+  Marcio le 01.11.2026 : on **ajoute** une Story Instagram pour chaque vidéo de l'autopilote (§ 8.6).
 - **Format** : 1080×1920, 30 i/s, accroche lisible dès l'image 0, −14 LUFS, crête ≤ −1 dBTP.
   Format V (voix) : 18–25 s, sous-titres incrustés. Format T (texte seul) : 10–13 s, en boucle, sans voix (§ 10.4). Zones sûres : rien d'important dans les 200 px du haut, les 380 px du bas,
   ni à droite de x = 940 entre y = 800 et 1600.
@@ -147,6 +148,14 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
    « Ce soir 18 h : … » (annonce de la vidéo suivante) et prendre la couverture sur l'image finale (toutes les lignes).
 4. `statut: "programmée"` dans plan.json ; `autopilot/days/dayNN/post.json` (id Metricool, url, heure) ;
    `captions.json` ; commit + push.
+6. **Story Instagram de chaque vidéo** (demande de Marcio, 01.11.2026 : « quand tu crées le contenu, mets-la en story
+   aussi ») : `bash autopilot/tools/story.sh NN` → `media/stories/dayNN_story.mp4` (même vidéo + bandeau « PLUS DE
+   VIDÉOS SUR TIKTOK · @marcio.mota8 » en bas). Commit + push, Cloudinary `upload-asset` depuis raw.githubusercontent
+   (public_id `tiktok-autopilot/stories/dayNN_story`), puis Metricool `createScheduledPost` : providers
+   [{network: instagram}], **5 minutes après la vidéo TikTok** (10:05 ou 18:05, Europe/Zurich), `text: ""` (une Story
+   n'a pas de légende), `instagramData: {type: "STORY", isAiGenerated: true}`, autoPublish true. Noter l'id dans
+   plan.json (`story_instagram`). Une Story par vidéo, jamais d'autre type de publication Instagram ici
+   (les Reels d'essai sont gérés par la tâche « Autopilot Instagram » du lundi).
 5. Page « Autopilot TikTok Marcio » (https://claude.ai/artifact/CQgM5XPZHfUc79ymWhYdgB) : lire la page
    (Artifact read), téléverser chaque vidéo comme asset (Artifact publish `asset: true` + `url`), noter les
    `/_blob/<id>` dans `tools/assets.json` et les statuts/heures dans `tools/scheduled.json` (clé = numéro du jour),

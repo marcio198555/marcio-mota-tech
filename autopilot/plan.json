@@ -311,7 +311,12 @@
    "metricool_id": 410830195,
    "programme_le": "2026-11-01T10:00",
    "titre": "Prix barré : ce que dit la loi suisse",
-   "note": "Faits revus le 30.10 : depuis le 1.1.2025, OIP art. 16 al. 3 = moitié de la durée (max. 2 mois) pour un prix pratiqué juste avant, sans limite pour un prix pratiqué ≥ 30 jours consécutifs."
+   "note": "Faits revus le 30.10 : depuis le 1.1.2025, OIP art. 16 al. 3 = moitié de la durée (max. 2 mois) pour un prix pratiqué juste avant, sans limite pour un prix pratiqué ≥ 30 jours consécutifs.",
+   "story_instagram": {
+    "metricool_id": 412716037,
+    "heure": "10:05",
+    "fichier": "media/stories/day13_story.mp4"
+   }
   },
   {
    "jour": 14,
@@ -334,7 +339,12 @@
    "semaine": "S1",
    "metricool_id": 411087612,
    "programme_le": "2026-11-01T18:00",
-   "titre": "Routeur AX3000 : ce qui est écrit en petit"
+   "titre": "Routeur AX3000 : ce qui est écrit en petit",
+   "story_instagram": {
+    "metricool_id": 412716126,
+    "heure": "18:05",
+    "fichier": "media/stories/day14_story.mp4"
+   }
   },
   {
    "jour": 15,
@@ -358,7 +368,12 @@
    "metricool_id": 410830215,
    "programme_le": "2026-11-02T10:00",
    "titre": "Écouteurs « 30 h » : ce qui est écrit en petit",
-   "note": "Produit nommé : AirPods 4 (le chiffre 30 h ne vaut pas pour les AirPods 5)."
+   "note": "Produit nommé : AirPods 4 (le chiffre 30 h ne vaut pas pour les AirPods 5).",
+   "story_instagram": {
+    "metricool_id": 412716133,
+    "heure": "10:05",
+    "fichier": "media/stories/day15_story.mp4"
+   }
   },
   {
    "jour": 16,
@@ -382,7 +397,12 @@
    "semaine": "S1",
    "metricool_id": 411087639,
    "programme_le": "2026-11-02T18:00",
-   "titre": "Garantie 2 ans : en Suisse, elle peut être exclue"
+   "titre": "Garantie 2 ans : en Suisse, elle peut être exclue",
+   "story_instagram": {
+    "metricool_id": 412716139,
+    "heure": "18:05",
+    "fichier": "media/stories/day16_story.mp4"
+   }
   },
   {
    "jour": 17,
@@ -406,7 +426,12 @@
    "semaine": "S1",
    "metricool_id": 410830246,
    "programme_le": "2026-11-03T10:00",
-   "titre": "Ampoules : lis les lumens, pas les watts"
+   "titre": "Ampoules : lis les lumens, pas les watts",
+   "story_instagram": {
+    "metricool_id": 412716143,
+    "heure": "10:05",
+    "fichier": "media/stories/day17_story.mp4"
+   }
   },
   {
    "jour": 18,
@@ -430,7 +455,12 @@
    "metricool_id": 411087673,
    "programme_le": "2026-11-03T18:00",
    "titre": "TV 4K : ce qui est écrit en petit",
-   "note": "Angle changé le 30.10 : aucune source officielle pour « 120 Hz » sur ce modèle ; fiche Samsung U8000F « Refresh Rate 60Hz » + note Motion Xcelerator + étiquette SDR/HDR (OFEN)."
+   "note": "Angle changé le 30.10 : aucune source officielle pour « 120 Hz » sur ce modèle ; fiche Samsung U8000F « Refresh Rate 60Hz » + note Motion Xcelerator + étiquette SDR/HDR (OFEN).",
+   "story_instagram": {
+    "metricool_id": 412716230,
+    "heure": "18:05",
+    "fichier": "media/stories/day18_story.mp4"
+   }
   },
   {
    "jour": 19,
@@ -454,7 +484,12 @@
    "metricool_id": 410830260,
    "programme_le": "2026-11-04T10:00",
    "titre": "Black Friday : la loi écrite en petit",
-   "note": "Valeurs remplacées par XX / X (aucun prix inventé) ; complément de la vidéo 13 (art. 17 et SECO), sans répéter la règle des 2 mois."
+   "note": "Valeurs remplacées par XX / X (aucun prix inventé) ; complément de la vidéo 13 (art. 17 et SECO), sans répéter la règle des 2 mois.",
+   "story_instagram": {
+    "metricool_id": 412716235,
+    "heure": "10:05",
+    "fichier": "media/stories/day19_story.mp4"
+   }
   },
   {
    "jour": 20,
@@ -479,7 +514,12 @@
    "metricool_id": 411087688,
    "programme_le": "2026-11-04T18:00",
    "titre": "Achat en ligne : pas de retour légal de 14 jours en Suisse",
-   "note": "Annonce de la vidéo 21 : « le programme éco du lave-vaisselle, 2 fois moins que l'intensif »."
+   "note": "Annonce de la vidéo 21 : « le programme éco du lave-vaisselle, 2 fois moins que l'intensif ».",
+   "story_instagram": {
+    "metricool_id": 412716244,
+    "heure": "18:05",
+    "fichier": "media/stories/day20_story.mp4"
+   }
   },
   {
    "jour": 21,
@@ -503,7 +543,12 @@
    "metricool_id": 410830279,
    "programme_le": "2026-11-05T10:00",
    "titre": "Lave-vaisselle : le plus long consomme 2 fois moins",
-   "note": "Exemple concret : Bosch SMS4ECI28E (éco 0,543 kWh / intensif 1,15–1,25 kWh). Le règlement UE ne fixe pas de durée maximale du programme éco."
+   "note": "Exemple concret : Bosch SMS4ECI28E (éco 0,543 kWh / intensif 1,15–1,25 kWh). Le règlement UE ne fixe pas de durée maximale du programme éco.",
+   "story_instagram": {
+    "metricool_id": 412716252,
+    "heure": "10:05",
+    "fichier": "media/stories/day21_story.mp4"
+   }
   },
   {
    "jour": 22,
@@ -527,7 +572,12 @@
    "metricool_id": 411087710,
    "programme_le": "2026-11-05T18:00",
    "titre": "MacBook « 18 h » : ce qui est écrit en petit",
-   "note": "Modèle actuel : MacBook Air M5 (apple.com/chfr). Annonce dans la description : vendredi 6.11 à 10 h, robot aspirateur « 8 000 Pa » (jour 33)."
+   "note": "Modèle actuel : MacBook Air M5 (apple.com/chfr). Annonce dans la description : vendredi 6.11 à 10 h, robot aspirateur « 8 000 Pa » (jour 33).",
+   "story_instagram": {
+    "metricool_id": 412716263,
+    "heure": "18:05",
+    "fichier": "media/stories/day22_story.mp4"
+   }
   },
   {
    "jour": 23,

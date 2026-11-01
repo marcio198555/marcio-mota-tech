@@ -198,7 +198,8 @@
   "Description = la question que les gens tapent (« Pourquoi mon iPhone 256 Go n'a pas 256 Go de libre ? ») + 1 phrase avec les mots-clés + « Enregistre-la avant d'acheter » + une question oui/non pour les commentaires + 4 à 6 hashtags précis (plus de #fyp ni #pourtoi).",
   "Le mot-clé principal est dit dans la 1re phrase (V) ou écrit dans le titre (T) : TikTok indexe ces vidéos pour sa recherche.",
   "Couverture = l'image où l'accroche est entière et lisible dans la grille du profil.",
-  "Black Friday : dès S3, au moins 1 vidéo sur 3 sur les achats de fin d'année ; en S4, toutes."
+  "Black Friday : dès S3, au moins 1 vidéo sur 3 sur les achats de fin d'année ; en S4, toutes.",
+  "Dès le 01.11 : chaque vidéo est aussi publiée en Story Instagram (RUNBOOK § 8.6) pour amener les abonnés Instagram de Marcio vers TikTok."
  ],
  "marcio": [
   {
@@ -254,6 +255,11 @@
    "date": "2026-10-30",
    "verdict": "départ (pas de note)",
    "decision": "Point de départ mesuré : médiane 269 vues, rétention 21 %, +9 abonnés (24→28.10), engagement 0,3 ‰. S1 lancé tel que prévu (test V contre T, pièges d'achat) ; aucune autre modification (R7)."
+  },
+  {
+   "date": "2026-11-01",
+   "verdict": "en cours",
+   "decision": "Demande de Marcio : chaque vidéo de l'autopilote part aussi en Story Instagram (bandeau « PLUS DE VIDÉOS SUR TIKTOK · @marcio.mota8 »), à partir du jour 13. À prendre en compte au bilan du 6.11 (abonnés venus d'Instagram)."
   }
  ]
 }

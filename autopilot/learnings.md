@@ -119,3 +119,11 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
   préciser le pays de la fiche (fiche Samsung US) ; une note générale (OFEN) se dit « un appareil », pas « ce téléviseur ».
 - Accroche « 120 Hz » abandonnée faute de source officielle : changer d'angle plutôt que forcer le chiffre du plan.
 - Une annonce « 2 fois moins » doit dire par rapport à quoi (« que l'intensif »).
+
+## 2026-11-01 — Stories Instagram (demande de Marcio)
+- Marcio : « quand tu crées le contenu, en même temps mets-la en story aussi ». Décision : chaque vidéo de l'autopilote
+  part aussi en Story Instagram sur @filipe_marcio1985, 5 min après la vidéo TikTok, avec un bandeau « PLUS DE VIDÉOS
+  SUR TIKTOK · @marcio.mota8 » (tools/story.sh). But : amener ses abonnés Instagram vers le compte TikTok.
+- Stories des jours 13 à 22 programmées le 01.11 (ids Metricool dans plan.json).
+- Pour le bilan du 6.11 : les abonnés TikTok gagnés à partir du 01.11 peuvent venir des Stories ; regarder les visites
+  du profil TikTok (TKEV09) avant et après le 01.11 et le noter comme hypothèse, pas comme résultat.
