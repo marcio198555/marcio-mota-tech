@@ -326,3 +326,46 @@
 {"id": "RP01E-041", "brand": "PEOPEO", "domain": "peopeo.io", "to": "contact@peopeo.io", "ts": "2026-11-01T12:40:45.534409"}
 {"id": "RP01E-042", "brand": "Alps Technologies", "domain": "alpstechnologies.fr", "to": "contact@alpstechnologies.fr", "ts": "2026-11-01T12:40:45.534413"}
 {"id": "RP01E-043", "brand": "Hector", "domain": "misterhector.com", "to": "contact@misterhector.com", "ts": "2026-11-01T12:40:45.562124"}
+{"id": "RP01F-001", "brand": "Baribal", "domain": "baribalpro.fr", "to": "contact@baribalpro.fr", "ts": "2026-11-01T13:06:35.208447"}
+{"id": "RP01F-002", "brand": "Clarté Nomade", "domain": "clarte-nomade.be", "to": "contact@clarte-nomade.be", "ts": "2026-11-01T13:06:35.208669"}
+{"id": "RP01F-003", "brand": "Kardone", "domain": "kardone.fr", "to": "contact@kardone.fr", "ts": "2026-11-01T13:06:35.208683"}
+{"id": "RP01F-004", "brand": "Robby", "domain": "robby.fr", "to": "contact@robby.fr", "ts": "2026-11-01T13:06:35.208690"}
+{"id": "RP01F-005", "brand": "MC Hobby", "domain": "mchobby.be", "to": "sav@mchobby.be", "ts": "2026-11-01T13:06:35.208695"}
+{"id": "RP01F-006", "brand": "Cafessio", "domain": "cafessio.com", "to": "hola@cafessio.com", "ts": "2026-11-01T13:07:10.056635", "bounced": true}
+{"id": "RP01F-007", "brand": "Terra Outdoor", "domain": "terraoutdoor.cl", "to": "info@terraoutdoor.cl", "ts": "2026-11-01T13:07:10.056695"}
+{"id": "RP01F-008", "brand": "209 Sports", "domain": "209sports.cl", "to": "info@sherpalife.cl", "ts": "2026-11-01T13:07:10.056711"}
+{"id": "RP01F-009", "brand": "Score Store", "domain": "scorestore.ae", "to": "info@scorestore.ae", "ts": "2026-11-01T13:07:10.056720"}
+{"id": "RP01F-010", "brand": "Everything Coffee", "domain": "everythingcoffee.ae", "to": "sales@everythingcoffee.ae", "ts": "2026-11-01T13:07:10.056727"}
+{"id": "RP01F-011", "brand": "Ferro Coffee", "domain": "ferrocoffee.ae", "to": "hello@ferrocoffee.ae", "ts": "2026-11-01T13:07:41.191697"}
+{"id": "RP01F-012", "brand": "The Era Store", "domain": "theera.ae", "to": "info@theera.ae", "ts": "2026-11-01T13:07:41.191748"}
+{"id": "RP01F-013", "brand": "3DxWorld", "domain": "3dxworld.com.sg", "to": "info@3dxworld.com", "ts": "2026-11-01T13:07:41.191762"}
+{"id": "RP01F-014", "brand": "Kingly", "domain": "kingly.sg", "to": "hello@kingly.sg", "ts": "2026-11-01T13:07:41.191769"}
+{"id": "RP01F-015", "brand": "Stars Picker", "domain": "starspickeraudio.net", "to": "info@starspickeraudio.com", "ts": "2026-11-01T13:07:41.191775"}
+{"id": "RP01F-016", "brand": "Style Laser Audio", "domain": "stylelaser.com.my", "to": "sales@stylelaser.com.my", "ts": "2026-11-01T13:08:10.748943"}
+{"id": "RP01F-017", "brand": "M3D Print", "domain": "m3d.com.br", "to": "atendimento@m3d.com.br", "ts": "2026-11-01T13:08:10.748995"}
+{"id": "RP01F-018", "brand": "3DBR", "domain": "3dbr.com.br", "to": "contato@3dbr.com.br", "ts": "2026-11-01T13:08:10.749013"}
+{"id": "RP01F-019", "brand": "NIC 3D", "domain": "nic3d.com.br", "to": "contato@nic3d.com.br", "ts": "2026-11-01T13:08:10.749022"}
+{"id": "RP01F-020", "brand": "Artbox3D", "domain": "artbox3d.com.br", "to": "contato@artbox3d.com.br", "ts": "2026-11-01T13:08:10.749030"}
+{"id": "RP01F-021", "brand": "Something's Brewing", "domain": "somethingsbrewing.in", "to": "hello@somethingsbrewing.in", "ts": "2026-11-01T13:08:41.169819"}
+{"id": "RP01F-022", "brand": "Ideal 3D", "domain": "ideal3d.in", "to": "info@ideal3d.in", "ts": "2026-11-01T13:08:41.169857"}
+{"id": "RP01F-023", "brand": "3idea Technology", "domain": "3idea.in", "to": "support@3idea.in", "ts": "2026-11-01T13:08:41.169873"}
+{"id": "RP01F-024", "brand": "3dörtgen", "domain": "3dortgen.com", "to": "bilgi@3dortgen.com", "ts": "2026-11-01T13:08:41.169878"}
+{"id": "RP01F-025", "brand": "Alfa Máquinas de Café", "domain": "alfamaquinasdecafe.com.br", "to": "contato@alfamaquinasdecafe.com.br", "ts": "2026-11-01T13:08:41.169883"}
+{"id": "RP01F-026", "brand": "Café Armazém", "domain": "cafearmazem.com.br", "to": "contato@cafearmazem.com.br", "ts": "2026-11-01T13:09:11.773177"}
+{"id": "RP01F-027", "brand": "Cafino", "domain": "cafino.com.br", "to": "contato@cafino.com.br", "ts": "2026-11-01T13:09:11.773292"}
+{"id": "RP01F-028", "brand": "Chicco di Caffè", "domain": "chiccodicaffe.co.il", "to": "info@chiccodicaffe.co.il", "ts": "2026-11-01T13:09:11.773313"}
+{"id": "RP01F-029", "brand": "Libira Coffee", "domain": "libira-coffee.co.il", "to": "info@libira.co.il", "ts": "2026-11-01T13:09:11.773329"}
+{"id": "RP01F-030", "brand": "Kahvebi", "domain": "kahvebi.com", "to": "satis@kahvebi.com", "ts": "2026-11-01T13:09:11.773343"}
+{"id": "RP01F-031", "brand": "The Roasting House", "domain": "roastinghouse.sa", "to": "info@roastinghouse.sa", "ts": "2026-11-01T13:09:40.672140"}
+{"id": "RP01F-032", "brand": "Cafestore", "domain": "cafestore.cl", "to": "hola@cafestore.cl", "ts": "2026-11-01T13:09:40.672180"}
+{"id": "RP01F-033", "brand": "El Palacio del Café", "domain": "elpalaciodelcafe.com.uy", "to": "hola@elpalaciodelcafe.com.uy", "ts": "2026-11-01T13:09:40.672192"}
+{"id": "RP01F-034", "brand": "Cafeteina", "domain": "cafeteina.pe", "to": "hola@cafeteina.pe", "ts": "2026-11-01T13:09:40.672199"}
+{"id": "RP01F-035", "brand": "The Audio Store", "domain": "theaudiostore.in", "to": "hello@theaudiostore.in", "ts": "2026-11-01T13:09:40.672204"}
+{"id": "RP01F-036", "brand": "WOL3D", "domain": "wol3d.com", "to": "customercare@wol3d.com", "ts": "2026-11-01T13:10:10.117625"}
+{"id": "RP01F-037", "brand": "Siamreprap", "domain": "siamreprap.com", "to": "info@siamreprap.com", "ts": "2026-11-01T13:10:10.117665"}
+{"id": "RP01F-038", "brand": "CRCibernetica", "domain": "crcibernetica.com", "to": "ventas@crcibernetica.com", "ts": "2026-11-01T13:10:10.117677"}
+{"id": "RP01F-039", "brand": "3D Market", "domain": "3dmarket.mx", "to": "ventas@3dmarket.mx", "ts": "2026-11-01T13:10:10.117684"}
+{"id": "RP01F-040", "brand": "Benki Brewing Tools", "domain": "benkibrewingtools.com", "to": "hello@benkibrewingtools.com", "ts": "2026-11-01T13:10:10.117689"}
+{"id": "RP01F-041", "brand": "Six Eleven", "domain": "sixeleven.xyz", "to": "hello@sixeleven.xyz", "ts": "2026-11-01T13:10:41.637186"}
+{"id": "RP01F-042", "brand": "3DPrintU", "domain": "3dprintu.ae", "to": "info@3dprintu.ae", "ts": "2026-11-01T13:10:41.637237"}
+{"id": "RP01F-043", "brand": "BajoHifi", "domain": "bajohifi.cl", "to": "ventas@bajohifi.cl", "ts": "2026-11-01T13:10:41.637251"}
