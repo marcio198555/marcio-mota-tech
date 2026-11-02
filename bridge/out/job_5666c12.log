@@ -1,0 +1,105 @@
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/siwis/medium/fr_FR-siwis-medium
++ n=fr_FR-siwis-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx.json
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+skip day01
+skip day01fix
+skip day02
+skip day02cta
+skip day03
+skip day03cta
+skip day04
+skip day04cta
+skip day04fix
+skip day05
+skip day05cta
+skip day05fix
+skip day06
+skip day06cta
+skip day06cta2
+skip day07
+skip day07cta
+skip day07fix
+skip day08
+skip day08cta
+skip day09
+skip day09fix
+skip day12
+skip day12fix
+skip day13
+skip day13fix
+skip day16
+skip day17
+skip day20
+skip day21
+skip day21fix
+skip day23
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+asr autopilot/vo/day23_vo_fx.wav -> Ils ont écrit 8000 pascals sur ma boîte, en énorme. Mais le pascal, c'est une pression. Ça ne dit pas si ton sol sera propre. Et ce chiffre, c'est mon mode maximum. Pas forcément celui que tu utilises tous les jours. Une testeuse de tech radar l'a vu. Les chiffres explosent, le nettoyage pas autant. Pour elle, 10 000 pascals, c'est déjà largement assez pour bien nettoyer. Regarde plutôt ma brosse 
++ ls -la autopilot/tts/out autopilot/asr/out
++ head -40
+autopilot/asr/out:
+total 16
+drwxr-xr-x 2 runner runner 4096 Nov  2 14:27 .
+drwxr-xr-x 3 runner runner 4096 Nov  2 14:27 ..
+-rw-r--r-- 1 runner runner 3580 Nov  2 14:27 day01_vo.json
+-rw-r--r-- 1 runner runner 3522 Nov  2 14:27 day23_vo_fx.json
+
+autopilot/tts/out:
+total 136
+drwxr-xr-x 34 runner runner 4096 Nov  2 14:27 .
+drwxr-xr-x  4 runner runner 4096 Nov  2 14:27 ..
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day01
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day01fix
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day02
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day02cta
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day03
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day03cta
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day04
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day04cta
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day04fix
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day05
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day05cta
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day05fix
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day06
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day06cta
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day06cta2
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day07
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day07cta
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day07fix
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day08
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day08cta
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day09
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day09fix
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day12
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day12fix
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day13
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day13fix
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day16
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day17
+drwxr-xr-x  2 runner runner 4096 Nov  2 14:27 day20
