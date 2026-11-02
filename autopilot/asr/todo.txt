@@ -1,2 +1,3 @@
 autopilot/vo/day01_vo.wav
 autopilot/vo/day23_vo_fx.wav
+autopilot/vo/day23b_vo_fx.wav

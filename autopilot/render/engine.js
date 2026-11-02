@@ -129,7 +129,8 @@
       if (t >= st && t < Math.max(until, s.end)) { seg = s; break; }
     }
     if (!seg) return;
-    const words = pageAt(wordsFor(seg), t);
+    // espace fine insécable (U+202F) -> espace insécable normale : avec le contour noir, l'espace fine disparaît (« 25000Pa »)
+    const words = pageAt(wordsFor(seg), t).map(wd => [wd[0], wd[1], wd[2].replace(/\u202f/g, '\u00a0')]);
     const size = o.size || 66, maxW = o.maxWidth || 820, cx = o.x || 510, cy = o.y || 1330;
     ctx.save();
     ctx.font = font(900, size, F.display); ctx.textBaseline = 'middle';
