@@ -1,0 +1,13 @@
+{
+ "voice": "fr_FR-tom-medium",
+ "length_scale": 0.9,
+ "segments": [
+  {"id": "s01", "text": "Ils ont écrit vingt-cinq mille pascals sur ma boîte. En énorme."},
+  {"id": "s02", "text": "Mais le pascal, ça mesure une pression. Ça ne suffit pas à dire si ton sol sera propre."},
+  {"id": "s03", "text": "Et ce chiffre, c'est mon mode maximum. Pas forcément celui que tu utilises tous les jours."},
+  {"id": "s04", "text": "Une testeuse de Tèk Radar l'a vu : les chiffres explosent, le nettoyage, pas autant."},
+  {"id": "s05", "text": "Pour elle, dix mille pascals, c'est déjà largement assez pour bien nettoyer."},
+  {"id": "s06", "text": "Regarde aussi ma brosse et ma navigation."},
+  {"id": "s07", "text": "Abonne-toi : d'autres objets vont tout balancer."}
+ ]
+}
