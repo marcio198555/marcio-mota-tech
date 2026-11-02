@@ -590,10 +590,10 @@
    "argent": "Affiliation (Black Friday)",
    "statut": "programmée",
    "semaine": "S1",
-   "metricool_id": 411087710,
+   "metricool_id": 414082597,
    "programme_le": "2026-11-05T18:00",
    "titre": "MacBook « 18 h » : ce qui est écrit en petit",
-   "note": "Modèle actuel : MacBook Air M5 (apple.com/chfr). Annonce dans la description : vendredi 6.11 à 10 h, robot aspirateur « 8 000 Pa » (jour 33).",
+   "note": "Modèle actuel : MacBook Air M5 (apple.com/chfr). Annonce dans la description : vendredi 6.11 à 10 h, robot aspirateur « 25 000 Pa » (jour 33). Description TikTok corrigée le 02.11 : annonce « 25 000 Pa » (nouvelle valeur de la vidéo 23 après contrôle qualité).",
    "story_instagram": {
     "metricool_id": 412716263,
     "heure": "18:05",
@@ -611,18 +611,31 @@
    "heure": "10:00",
    "semaine": "S2",
    "format": "A",
-   "sujet": "Robot aspirateur « 8 000 Pa » : ce que ça veut dire",
+   "sujet": "Robot aspirateur « 25 000 Pa » : ce que ça veut dire",
    "mecanique": "Objet qui parle : « Les objets balancent »",
    "refs": [
     "R11"
    ],
-   "accroche": "« Ils ont écrit 8 000 Pa sur ma boîte. En énorme. »",
+   "accroche": "« Ils ont écrit 25 000 Pa sur ma boîte. En énorme. »",
    "a_verifier": [
     "TechRadar 23.01.2026 (Ruth Hamilton) : chiffre = réglage le plus fort ; nettoyage pas au même rythme ; 10 000 Pa largement assez ; brosse et navigation"
    ],
    "argent": "Affiliation robots (Black Friday)",
-   "statut": "produite",
-   "note": "Prototype du format A produit le 02.11 (annoncé par la vidéo 22)."
+   "statut": "programmée",
+   "note": "Prototype du format A, produit le 02.11. Contrôle qualité : 8 000 Pa remplacé par 25 000 Pa (8 000 < 10 000 contredisait la conclusion), carte « d'après TechRadar » + « Illustration, pas des mesures », accroche lisible dès l'image 0, robot qui roule, formulations prudentes, fin sans promesse datée. Voix vérifiée par Whisper : transcription exacte.",
+   "metricool_id": 414082026,
+   "programme_le": "2026-11-06T10:00",
+   "titre": "Robot aspirateur « 25 000 Pa » : ça veut dire quoi ?",
+   "story_instagram": {
+    "metricool_id": 414082320,
+    "heure": "10:05",
+    "fichier": "media/stories/day23_story.mp4"
+   },
+   "reel_instagram": {
+    "metricool_id": 414082371,
+    "heure": "11:00",
+    "fichier": "media/reels/day23_reel.mp4"
+   }
   },
   {
    "jour": 24,

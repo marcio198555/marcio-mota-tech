@@ -127,3 +127,15 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
 - Stories des jours 13 à 22 programmées le 01.11 (ids Metricool dans plan.json).
 - Pour le bilan du 6.11 : les abonnés TikTok gagnés à partir du 01.11 peuvent venir des Stories ; regarder les visites
   du profil TikTok (TKEV09) avant et après le 01.11 et le noter comme hypothèse, pas comme résultat.
+
+## 02.11.2026 — Vidéo 23 (premier format A) : leçons du contrôle qualité
+- Le chiffre de la boîte doit être nettement plus grand que la valeur « suffisante » citée (8 000 Pa contre 10 000 Pa
+  inversait le message) : vérifier que l'histoire tient avec les vrais ordres de grandeur avant d'écrire la voix.
+- Une carte « TECHRADAR » au-dessus d'un graphique se lit comme un graphique publié : écrire « D'après … » et
+  « Illustration, pas des mesures » en 40 px, et masquer « JE MESURE TOUT » sur cette carte.
+- Accroche lisible dès l'image 0 : `captions(..., { fromZero: true })` et un personnage déjà méfiant à l'image 0.
+- Image trop immobile (effet diaporama) : le personnage bouge (il roule, tremble, sursaute), lente avancée de caméra.
+- Formulations prudentes (« ça ne suffit pas à dire », « regarde aussi ») : fidèles à la source, sans contestation possible.
+- Fin sans promesse datée (« d'autres objets vont tout balancer ») tant que la vidéo suivante n'est pas au plan.
+- Nouvelle prise de voix = nouveau job ET nouveau dossier studio ; voice_fx.py refuse maintenant de monter deux fois.
+- Annonces dans les descriptions déjà programmées : les corriger si la vidéo annoncée change (vidéo 22 corrigée).
