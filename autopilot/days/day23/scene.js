@@ -153,7 +153,7 @@
       // 6. brosse et navigation (les flèches suivent le robot)
       if (t >= S('s06') && t < S('s07')) {
         scanRays(ctx, t, RX + 120 * RS, RY - 36 * RS - 30, prog(t, tNav - 0.3, 0.4));
-        callout(ctx, 'BROSSE', 200, 1270, RX + SIDE_BRUSH[0] * RS, RY + SIDE_BRUSH[1] * RS, ease.out(prog(t, tBrosse - 0.25, 0.4)));
+        callout(ctx, 'BROSSE', 185, 1232, RX + SIDE_BRUSH[0] * RS, RY + SIDE_BRUSH[1] * RS, ease.out(prog(t, tBrosse - 0.25, 0.4)));
         callout(ctx, 'NAVIGATION', 760, 640, RX + 120 * RS, RY - 70 * RS, ease.out(prog(t, tNav - 0.35, 0.4)));
       }
 

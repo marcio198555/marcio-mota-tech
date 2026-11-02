@@ -192,6 +192,18 @@ par semaine, indicateurs, formats, règles, échelle des plans, réserve d'expé
 Les objectifs sont des cibles, pas des promesses : ne jamais les présenter comme des résultats.
 
 ### 10.2 Chaque vendredi à 5 h 37 (après le bilan § 2)
+Demande de Marcio (02.11.2026) : « après chaque semaine, tu fais une analyse du contenu, les statistiques, tout,
+regarde ce qui a marché, ce qui n'a pas marché, et comme ça tu peux changer les choses ».
+0. Analyse complète de la semaine, avant la note :
+   - **TikTok** (Metricool, connecteurs posts et evolution) : par vidéo, vues, temps moyen regardé, visionnage complet,
+     partages, enregistrements, commentaires ; abonnés gagnés sur la semaine.
+   - **Instagram** (Windsor.ai `get_data`, connector instagram, account 17841468820761900, `last_14dT`) : Reels d'essai
+     et Stories de la semaine (timestamp, media_permalink, media_product_type, media_reach, media_views, media_shares,
+     media_saved), follower_count par jour, followers_count. Retrouver chaque publication par sa date et son heure (UTC).
+   - **Contenu** : indicateurs de `strategy.json` globalement, par format (V / T / A), par heure, par type de sujet et
+     par réseau ; comparer les 3 meilleures et les 3 moins bonnes vidéos (accroche de l'image 0, sujet, durée, format,
+     rétention) ; écrire en clair « ce qui a marché » et « ce qui n'a pas marché », chiffres à l'appui (learnings.md).
+   - Données manquantes : le dire, ne rien estimer.
 1. Note de la semaine (R1) : score = min(médiane des vues / objectif, abonnés gagnés / objectif) ;
    VERT ≥ 1, ORANGE 0,5–1, ROUGE < 0,5.
 2. VERT (R2) : on garde ; « suite » des 2 meilleures vidéos. ORANGE (R3) : une seule chose change (prochaine
@@ -200,7 +212,8 @@ Les objectifs sont des cibles, pas des promesses : ne jamais les présenter comm
 3. Test de format (R5) : médiane ≥ 1,3 × l'autre sans rétention plus faible de plus de 10 points → 10 créneaux sur 14 ;
    perdant 2 semaines de suite → abandonné. Pépite (R6) : ≥ 3 × la médiane → « Partie 2 » + proposer de l'épingler.
 4. Écrire la décision (learnings.md + `strategy.json`), puis planifier (§ 3) et produire.
-5. Message à Marcio : la note de la semaine (VERT/ORANGE/ROUGE), le chiffre clé contre l'objectif, ce qui change.
+5. Message à Marcio : la note de la semaine (VERT/ORANGE/ROUGE), le chiffre clé contre l'objectif (TikTok et
+   Instagram), ce qui a marché, ce qui n'a pas marché, ce qui change et pourquoi.
 
 ### 10.3 Dates particulières
 - **Vendredi 20.11** : les deux tâches produisent **8 vidéos chacune** (jusqu'au vendredi 27.11, Black Friday, inclus).
