@@ -15,6 +15,7 @@ const fps = Number(opt('fps', 30));
 const stills = opt('stills') ? opt('stills').split(',').map(Number) : null;
 const stillsDir = path.resolve(opt('stillsDir', 'stills'));
 const engine = path.join(__dirname, 'engine.js');
+const chars = path.join(__dirname, 'characters.js');
 
 const IN = '/usr/share/fonts/opentype/inter/';
 const faces = [
@@ -34,9 +35,10 @@ html,body{margin:0;background:#000;overflow:hidden} canvas{display:block}</style
 <body><canvas id="c" width="1080" height="1920"></canvas>
 <script>window.TL = ${JSON.stringify(timeline)};</script>
 <script src="file://${engine}"></script>
+<script src="file://${chars}"></script>
 <script src="file://${scene}"></script>
 <script>
-window.__ready = (async () => { await Promise.all(${JSON.stringify(loads)}.map(f => document.fonts.load(f, 'AZaz09%°🌧👇'))); return true; })();
+window.__ready = (async () => { await Promise.all(${JSON.stringify(loads)}.map(f => document.fonts.load(f, 'AZaz09%°🌧👇'))); if (window.SCENE && SCENE.load) await SCENE.load(); return true; })();
 window.renderFrame = (t, frame) => {
   const ctx = document.getElementById('c').getContext('2d');
   ctx.setTransform(1,0,0,1,0,0); ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over'; ctx.shadowBlur = 0; ctx.filter = 'none';
