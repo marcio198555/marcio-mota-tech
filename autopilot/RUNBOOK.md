@@ -246,14 +246,16 @@ Tout est gratuit et libre : personnages dessinés dans le moteur (`render/charac
 personnes et de réactions (Fluent Emoji de Microsoft, licence MIT, `autopilot/assets/emoji3d/`, 84 images ; on peut en
 ajouter : dépôt github.com/microsoft/fluentui-emoji, dossier `assets/<Nom>/3D/`), voix Piper montée (voix de personnage).
 Ne jamais reprendre la vidéo, l'image, le texte ou la musique d'un autre créateur.
-1. **Script** : 6–7 segments, 55–75 mots, 18–27 s. Segment 1 = l'objet dit le chiffre de sa boîte (« Ils ont écrit huit
+1. **Script** : 6–7 segments, 55–75 mots, 18–27 s. Segment 1 = l'objet dit le chiffre de sa boîte (« Ils ont écrit vingt-cinq
    mille pascals sur ma boîte. En énorme. »). Ton : sarcastique, vexé, complice ; parler à « tu ». Chaque fait = une source
    (fabricant, test indépendant, loi), dite à voix haute si c'est un avis (« Une testeuse de TechRadar… »). Dernier
-   segment : « Abonne-toi : ce soir / demain, <l'objet suivant> balance sa boîte. » Prononciation : écrire les marques
+   segment : « Abonne-toi : ce soir / demain, <l'objet suivant> balance sa boîte. » seulement si cette vidéo est
+   au plan ; sinon « Abonne-toi : d'autres objets vont tout balancer. » Le chiffre de la boîte doit rester cohérent
+   avec la conclusion (vidéo 23 : 25 000 Pa sur la boîte, « 10 000 Pa suffisent » selon la source). Prononciation : écrire les marques
    comme elles se disent (« Tèk Radar », « aïe-fone »), nombres en lettres.
 2. **Voix** : job Piper comme § 5 (voix tom, length_scale 0.9), puis `assemble_vo.py … --lead 0.12 --gap 0.1`, puis
    `python3 autopilot/tools/voice_fx.py <studio>/vo.wav <studio>/timeline.json --factor 1.12` (voix de personnage, plus
-   aiguë et plus rapide ; une seule fois), puis les champs `display` (nombres avec espace fine U+202F : « 8 000 Pa »).
+   aiguë et plus rapide ; une seule fois), puis les champs `display` (nombres avec espace fine U+202F : « 25 000 Pa »).
 3. **Scène** `days/dayNN/scene.js` (modèle : `days/day23/scene.js`) : `CHR.room` (salon), `CHR.camera` (zooms sur les mots
    forts), le personnage (`CHR.robotVacuum` ou un nouvel objet dessiné : l'ajouter à `characters.js` pour les vidéos
    suivantes, avec `CHR.face(...)` pour les yeux et la bouche), `CHR.box` (la boîte avec le chiffre, visible dès
