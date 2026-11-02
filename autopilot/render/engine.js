@@ -125,14 +125,15 @@
     for (let i = 0; i < segs.length; i++) {
       const s = segs[i], next = segs[i + 1];
       const until = next ? Math.min(next.start - 0.05, s.end + 0.45) : s.end + (o.hold ?? 0.3);
-      if (t >= s.start - 0.05 && t < Math.max(until, s.end)) { seg = s; break; }
+      const st = (i === 0 && o.fromZero) ? -1 : s.start - 0.05;   // o.fromZero : la 1re phrase est lisible dès l'image 0
+      if (t >= st && t < Math.max(until, s.end)) { seg = s; break; }
     }
     if (!seg) return;
     const words = pageAt(wordsFor(seg), t);
     const size = o.size || 66, maxW = o.maxWidth || 820, cx = o.x || 510, cy = o.y || 1330;
     ctx.save();
     ctx.font = font(900, size, F.display); ctx.textBaseline = 'middle';
-    const space = ctx.measureText(' ').width;
+    const space = ctx.measureText(' ').width + (o.gap ?? Math.round(size * 0.2));   // le contour (14 px) mange l'espace : on en ajoute
     const widths = words.map(wd => ctx.measureText(wd[2]).width);
     const total = widths.reduce((a, b) => a + b, 0) + space * Math.max(0, words.length - 1);
     // découpe équilibrée : nombre minimal de lignes, puis largeur maximale la plus petite possible
@@ -154,7 +155,7 @@
     const lines = [];
     if (best[n][m] < INF) { let j = m; for (let q = n; q >= 1; q--) { const i = prev[q][j]; lines.unshift(words.slice(i, j).map((wd, r) => ({ wd, w: widths[i + r] }))); j = i; } }
     else { lines.push(words.map((wd, r) => ({ wd, w: widths[r] }))); }
-    const k = ease.back(prog(t, (words.length ? words[0][0] : seg.start) - 0.05, 0.16));
+    const k = (o.fromZero && seg === segs[0]) ? 1 : ease.back(prog(t, (words.length ? words[0][0] : seg.start) - 0.05, 0.16));
     const scale = 0.86 + 0.14 * k;
     ctx.translate(cx, cy); ctx.scale(scale, scale);
     const lh = size * 1.18; const y0 = -(lines.length - 1) * lh / 2;

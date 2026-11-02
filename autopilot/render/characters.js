@@ -158,16 +158,13 @@
 
   // ---------- objets dessinés ----------
   // Robot aspirateur vu de 3/4, brosse latérale qui tourne, lidar ; o.face = options du visage
+  const SIDE_BRUSH = [-150, 172];
   function robotVacuum(ctx, x, y, s, t, o = {}) {
     const rx = 270, ry = 100, h = 74;
     const sq = o.squash || 0;
     ctx.save(); ctx.translate(x, y); ctx.scale(s * (1 + sq), s * (1 - sq));
     // ombre
     ctx.save(); ctx.filter = 'blur(14px)'; ctx.fillStyle = 'rgba(40,20,10,0.45)'; ctx.beginPath(); ctx.ellipse(10, h + 26, rx * 1.02, ry * 0.75, 0, 0, Math.PI * 2); ctx.fill(); ctx.restore();
-    // brosse latérale (avant gauche)
-    ctx.save(); ctx.translate(-rx * 0.72, h + 8); ctx.scale(1, 0.38);
-    for (let i = 0; i < 3; i++) { const a = t * 11 + i * Math.PI * 2 / 3; ctx.strokeStyle = '#3a3f4b'; ctx.lineWidth = 9; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(Math.cos(a) * 95, Math.sin(a) * 95); ctx.stroke(); }
-    ctx.fillStyle = '#2a2f3a'; ctx.beginPath(); ctx.arc(0, 0, 18, 0, Math.PI * 2); ctx.fill(); ctx.restore();
     // flanc
     let gr = ctx.createLinearGradient(-rx, 0, rx, 0); gr.addColorStop(0, '#9aa3b2'); gr.addColorStop(0.45, '#e9edf3'); gr.addColorStop(1, '#8a93a3');
     ctx.fillStyle = gr; ctx.beginPath(); ctx.ellipse(0, 0, rx, ry, 0, 0, Math.PI); ctx.lineTo(-rx, h); ctx.ellipse(0, h, rx, ry, 0, Math.PI, 0, true); ctx.closePath(); ctx.fill();
@@ -189,6 +186,10 @@
     ctx.restore();
     // voyant
     ctx.fillStyle = '#3fd27a'; ctx.beginPath(); ctx.arc(-150, -30, 7, 0, Math.PI * 2); ctx.fill();
+    // brosse latérale (avant gauche), devant le pare-chocs pour qu'on la voie : CHR.SIDE_BRUSH = sa position (repère du robot)
+    ctx.save(); ctx.translate(SIDE_BRUSH[0], SIDE_BRUSH[1]); ctx.scale(1, 0.4);
+    for (let i = 0; i < 3; i++) { const a = t * 11 + i * Math.PI * 2 / 3; ctx.strokeStyle = '#3a3f4b'; ctx.lineWidth = 10; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(Math.cos(a) * 100, Math.sin(a) * 100); ctx.stroke(); }
+    ctx.fillStyle = '#2a2f3a'; ctx.beginPath(); ctx.arc(0, 0, 20, 0, Math.PI * 2); ctx.fill(); ctx.restore();
     ctx.restore();
     if (o.face !== false) face(ctx, x - 40 * s, y - 6 * s, 0.82 * s, t, { lid: '#dfe4ea', ...(o.face || {}) });
   }
@@ -203,7 +204,7 @@
     ctx.fillStyle = '#d29c5e'; ctx.fillRect(-w / 2, -h / 2, w, h);
     ctx.fillStyle = 'rgba(255,255,255,0.35)'; ctx.fillRect(-24, -h / 2, 48, h);
     ctx.fillStyle = '#ffffff'; roundRect(ctx, -w / 2 + 26, -70, w - 52, 200, 18); ctx.fill();
-    if (sub) text(ctx, sub, 0, -30, { size: 30, family: F.mono, weight: 700, color: '#5a6170', maxWidth: w - 80 });
+    if (sub) text(ctx, sub, 0, -30, { size: o.subSize || 30, family: F.mono, weight: 700, color: '#5a6170', maxWidth: w - 60 });
     text(ctx, label, 0, 55, { size: 92, weight: 900, color: '#c82030', maxWidth: w - 70 });
     ctx.restore();
   }
@@ -239,9 +240,9 @@
     const a = Math.PI * (0.75 + 1.5 * clamp(v));
     ctx.strokeStyle = '#c82030'; ctx.lineWidth = 10; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(Math.cos(a) * r * 0.72, Math.sin(a) * r * 0.72); ctx.stroke();
     ctx.fillStyle = '#2a2f3a'; ctx.beginPath(); ctx.arc(0, 0, r * 0.1, 0, Math.PI * 2); ctx.fill();
-    if (label) text(ctx, label, 0, r * 0.45, { size: r * 0.26, weight: 900, color: '#2a2f3a' });
+    if (label) text(ctx, label, 0, r * 0.47, { size: Math.max(40, r * 0.3), weight: 900, color: '#2a2f3a' });
     ctx.restore();
   }
 
-  window.CHR = { IMG, load, emo, mouthAt, face, room, camera, robotVacuum, box, bubble, seriesChip, gauge };
+  window.CHR = { IMG, load, emo, mouthAt, face, room, camera, robotVacuum, SIDE_BRUSH, box, bubble, seriesChip, gauge };
 })();
