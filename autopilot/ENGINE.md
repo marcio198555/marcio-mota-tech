@@ -37,3 +37,18 @@ sur un canvas 1080×1920 (30 i/s) avec Chromium (Playwright), et encode en H.264
 node autopilot/render/render.js --scene autopilot/days/dayNN/scene.js --timeline <timeline.json> --stills 0,2,5 --stillsDir <dossier>
 node autopilot/render/render.js --scene autopilot/days/dayNN/scene.js --timeline <timeline.json> --out silent.mp4
 ```
+
+## Format A « Les objets balancent » (`render/characters.js`, objet `CHR`)
+| Aide | Rôle |
+|---|---|
+| `CHR.load([noms])` | à mettre dans `SCENE.load` : charge les images 3D `assets/emoji3d/<nom>.png` |
+| `CHR.room(ctx, t, {dim})` | salon dessiné (fenêtre, canapé, plante, parquet, tapis), flou de profondeur, léger mouvement ; `dim` assombrit (fin) |
+| `CHR.camera(ctx, t, [[t, force]...], {cy})` | zooms « punch » + léger tremblé ; fermer avec `ctx.restore()` avant les sous-titres |
+| `CHR.robotVacuum(ctx, x, y, s, t, {squash, face})` | robot aspirateur personnage (brosse qui tourne, lidar) |
+| `CHR.face(ctx, x, y, s, t, {mood, look, talk, open})` | yeux, sourcils, bouche synchronisée sur la voix (`TL.mouth`, tools/mouth.py) |
+| `CHR.box(ctx, x, y, s, label, sous-titre, {rot})` | carton de produit avec l'étiquette du chiffre |
+| `CHR.emo(ctx, nom, x, y, taille, t, t0)` | image 3D qui apparaît avec rebond (taille ≤ 380 px) |
+| `CHR.bubble(ctx, x, y, [lignes], t, t0, {side})` | bulle de dialogue (x, y = pointe) |
+| `CHR.gauge(ctx, x, y, r, v, label)` | manomètre ; `CHR.seriesChip` : bandeau « LES OBJETS BALANCENT » |
+Personnage au centre (x 540, y ≈ 1000), sous-titres à y = 1385. Pour un nouvel objet : une fonction de dessin dans
+`characters.js` (formes simples, dégradés, ombre portée, une partie qui bouge), puis `face(...)` posé dessus.

@@ -55,7 +55,7 @@
     "retention_pct": 40,
     "abonnes_gagnes": 60
    },
-   "experience": "Fixée le 6.11 par les règles : le format gagnant de S1 prend 10 créneaux sur 14, puis une expérience de la réserve.",
+   "experience": "Demande de Marcio (02.11) : plus d'images, de personnages et d'animation. Format A « Les objets balancent » sur 10 créneaux sur 14 ; les 4 autres pour le gagnant du test V contre T de S1 (témoin). Le 6.11 à 10 h (jour 23, robot aspirateur) est déjà produit.",
    "statut": "à venir",
    "resultat": null,
    "verdict": null,
@@ -114,6 +114,11 @@
   "Q": {
    "nom": "Quiz (réserve)",
    "description": "« Lequel consomme / coûte le plus ? » deux choix, réponse à 3–4 s, question en commentaire. À construire à partir de scene_texte.js si la réserve l'appelle."
+  },
+  "A": {
+   "nom": "Animé « Les objets balancent »",
+   "description": "L'objet du sujet devient un personnage (yeux, bouche synchronisée, voix de personnage) qui balance ce qu'on écrit sur sa boîte, dans un salon dessiné, avec des personnes et réactions en images 3D libres (MIT). Format viral « objet qui parle » de 2026. 18–27 s.",
+   "outil": "tools/produce_anime.sh NN (RUNBOOK § 11)"
   }
  },
  "regles": [
@@ -199,7 +204,8 @@
   "Le mot-clé principal est dit dans la 1re phrase (V) ou écrit dans le titre (T) : TikTok indexe ces vidéos pour sa recherche.",
   "Couverture = l'image où l'accroche est entière et lisible dans la grille du profil.",
   "Black Friday : dès S3, au moins 1 vidéo sur 3 sur les achats de fin d'année ; en S4, toutes.",
-  "Dès le 01.11 : chaque vidéo est aussi publiée en Story Instagram (RUNBOOK § 8.5) pour amener les abonnés Instagram de Marcio vers TikTok."
+  "Dès le 01.11 : chaque vidéo est aussi publiée en Story Instagram (RUNBOOK § 8.5) pour amener les abonnés Instagram de Marcio vers TikTok.",
+  "Dès le 02.11 : chaque vidéo part aussi en Reel d'essai Instagram 1 h après TikTok (RUNBOOK § 8.5b)."
  ],
  "marcio": [
   {
@@ -260,6 +266,11 @@
    "date": "2026-11-01",
    "verdict": "en cours",
    "decision": "Demande de Marcio : chaque vidéo de l'autopilote part aussi en Story Instagram (bandeau « PLUS DE VIDÉOS SUR TIKTOK · @marcio.mota8 »), à partir du jour 13. À prendre en compte au bilan du 6.11 (abonnés venus d'Instagram)."
+  },
+  {
+   "date": "2026-11-02",
+   "verdict": "en cours",
+   "decision": "Demandes de Marcio : contenus plus visuels (images, personnages, animation) → format A « Les objets balancent » dès S2 ; au moins 2 contenus par jour aussi en Reels d'essai Instagram (1 h après TikTok) en plus des Stories. Reels d'essai des vidéos 16, 18, 20, 22 programmés à 19 h (2.11–5.11)."
   }
  ]
 }

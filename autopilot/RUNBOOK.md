@@ -156,6 +156,16 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
    n'a pas de légende), `instagramData: {type: "STORY", isAiGenerated: true}`, autoPublish true. Noter l'id dans
    plan.json (`story_instagram`). Une Story par vidéo, jamais d'autre type de publication Instagram ici
    (les Reels d'essai sont gérés par la tâche « Autopilot Instagram » du lundi).
+5b. **Reel d'essai Instagram de chaque vidéo** (demande de Marcio, 02.11.2026 : « au moins 2 contenus par jour sur TikTok
+   et en Reels Instagram », « Reel d'essai, pas Reel normal ») : `bash autopilot/tools/reel_cut.sh NN` →
+   `media/reels/dayNN_reel.mp4` (formats V et A : fin TikTok coupée ; regarder l'image de contrôle). Commit + push,
+   Cloudinary (public_id `tiktok-autopilot/reels/dayNN_reel`), Metricool : providers [{network: instagram}],
+   **1 h après la vidéo TikTok (11:00 ou 19:00)**, `instagramData: {type: "TRIAL_REEL", isAiGenerated: true}`,
+   `videoCoverMilliseconds` 1200 (format T : 11000). Légende Instagram (pas celle de TikTok) : ligne 1 < 125 caractères
+   avec le mot-clé dans les 55 premiers ; 1 à 2 paragraphes courts avec seulement les faits vérifiés et leurs sources ;
+   un seul appel à l'action (enregistrer ou envoyer à quelqu'un) ; exactement 5 hashtags : sujet, catégorie, audience,
+   #suisseromande, #jemesuretout. Jamais « Demain… », « Ce soir… », « abonne-toi », #fyp, #pourtoi. Noter l'id dans
+   plan.json (`reel_instagram`). Story TikTok : impossible à automatiser (Marcio la fait lui-même depuis l'app).
 6. Page « Autopilot TikTok Marcio » (https://claude.ai/artifact/CQgM5XPZHfUc79ymWhYdgB) : lire la page
    (Artifact read), téléverser chaque vidéo comme asset (Artifact publish `asset: true` + `url`), noter les
    `/_blob/<id>` dans `tools/assets.json` et les statuts/heures dans `tools/scheduled.json` (clé = numéro du jour),
@@ -215,3 +225,31 @@ Les objectifs sont des cibles, pas des promesses : ne jamais les présenter comm
    (depuis `autopilot/render`), planche avec zones interdites, regarder.
 4. Copier `timeline.json` et `cues.json` dans `autopilot/days/dayNN/studio/`. Publication comme § 8
    (`isAigc: true` : le texte est écrit par une IA ; couverture ≈ dernière seconde).
+
+## 11. Format A « Les objets balancent » (dès S2 — demande de Marcio du 02.11.2026 : plus d'images, de personnages, d'animation)
+Le format viral de 2026 « l'objet qui parle » (OpusClip, 2026 : objet avec visage, monologue sarcastique, 8–25 s),
+appliqué à nos sujets : l'objet du sujet devient un personnage qui **balance ce qu'on écrit sur sa boîte**.
+Tout est gratuit et libre : personnages dessinés dans le moteur (`render/characters.js`, objet `CHR`), images 3D de
+personnes et de réactions (Fluent Emoji de Microsoft, licence MIT, `autopilot/assets/emoji3d/`, 84 images ; on peut en
+ajouter : dépôt github.com/microsoft/fluentui-emoji, dossier `assets/<Nom>/3D/`), voix Piper montée (voix de personnage).
+Ne jamais reprendre la vidéo, l'image, le texte ou la musique d'un autre créateur.
+1. **Script** : 6–7 segments, 55–75 mots, 18–27 s. Segment 1 = l'objet dit le chiffre de sa boîte (« Ils ont écrit huit
+   mille pascals sur ma boîte. En énorme. »). Ton : sarcastique, vexé, complice ; parler à « tu ». Chaque fait = une source
+   (fabricant, test indépendant, loi), dite à voix haute si c'est un avis (« Une testeuse de TechRadar… »). Dernier
+   segment : « Abonne-toi : ce soir / demain, <l'objet suivant> balance sa boîte. » Prononciation : écrire les marques
+   comme elles se disent (« Tèk Radar », « aïe-fone »), nombres en lettres.
+2. **Voix** : job Piper comme § 5 (voix tom, length_scale 0.9), puis `assemble_vo.py … --lead 0.12 --gap 0.1`, puis
+   `python3 autopilot/tools/voice_fx.py <studio>/vo.wav <studio>/timeline.json --factor 1.12` (voix de personnage, plus
+   aiguë et plus rapide ; une seule fois), puis les champs `display` (nombres avec espace fine U+202F : « 8 000 Pa »).
+3. **Scène** `days/dayNN/scene.js` (modèle : `days/day23/scene.js`) : `CHR.room` (salon), `CHR.camera` (zooms sur les mots
+   forts), le personnage (`CHR.robotVacuum` ou un nouvel objet dessiné : l'ajouter à `characters.js` pour les vidéos
+   suivantes, avec `CHR.face(...)` pour les yeux et la bouche), `CHR.box` (la boîte avec le chiffre, visible dès
+   l'image 0), `CHR.emo` (personnes et réactions 3D), `CHR.bubble` (question d'un client), `CHR.gauge`, cartes et
+   schémas (toujours « schéma » si pas de mesure). Humeur du visage par moment : `mood` neutre / malin / surpris / fache
+   / content, regard `look` vers ce qui apparaît. Planche de contrôle comme § 6.5.
+4. **Rendu** : repères sonores dans `<studio>/cues.json` (pop à chaque apparition, impact sur le mot fort, whoosh entre
+   les plans), puis `bash autopilot/tools/produce_anime.sh NN` (sous-titres, bouche synchronisée, rendu, musique, mixage).
+5. **Contrôle** : agent neuf (faits, image 0, lisibilité, zones sûres, bouche qui bouge quand l'objet parle). Pour
+   vérifier la voix : copier `vo.wav` dans `autopilot/vo/dayNN_vo_fx.wav`, l'ajouter à `autopilot/asr/todo.txt`, push sans
+   `[skip-bridge]` : le pont écrit la transcription Whisper dans `autopilot/asr/out/` ; corriger tout mot mal compris.
+6. **Publication** : TikTok (§ 8), Story Instagram (§ 8.5), Reel d'essai Instagram (§ 8.5b).

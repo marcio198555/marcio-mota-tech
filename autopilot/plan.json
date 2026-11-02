@@ -62,6 +62,12 @@
    "createur": "@toukiwanti",
    "vues": "1,6 M vues",
    "source": "https://www.instagram.com/reel/DdeLLZPhunz"
+  },
+  "R11": {
+   "titre": "« AI talking objects » : objets qui parlent, monologue sarcastique (format viral 2026)",
+   "createur": "tendance (OpusClip, 2026)",
+   "vues": "plusieurs vidéos à plus de 10 M de vues selon OpusClip (non vérifié)",
+   "source": "https://www.opus.pro/blog/ai-talking-object-videos"
   }
  },
  "jours": [
@@ -402,6 +408,11 @@
     "metricool_id": 412716139,
     "heure": "18:05",
     "fichier": "media/stories/day16_story.mp4"
+   },
+   "reel_instagram": {
+    "metricool_id": 414047151,
+    "heure": "19:00",
+    "fichier": "media/reels/day16_reel.mp4"
    }
   },
   {
@@ -460,6 +471,11 @@
     "metricool_id": 412716230,
     "heure": "18:05",
     "fichier": "media/stories/day18_story.mp4"
+   },
+   "reel_instagram": {
+    "metricool_id": 414047188,
+    "heure": "19:00",
+    "fichier": "media/reels/day18_reel.mp4"
    }
   },
   {
@@ -519,6 +535,11 @@
     "metricool_id": 412716244,
     "heure": "18:05",
     "fichier": "media/stories/day20_story.mp4"
+   },
+   "reel_instagram": {
+    "metricool_id": 414047206,
+    "heure": "19:00",
+    "fichier": "media/reels/day20_reel.mp4"
    }
   },
   {
@@ -577,10 +598,34 @@
     "metricool_id": 412716263,
     "heure": "18:05",
     "fichier": "media/stories/day22_story.mp4"
+   },
+   "reel_instagram": {
+    "metricool_id": 414047234,
+    "heure": "19:00",
+    "fichier": "media/reels/day22_reel.mp4"
    }
   },
   {
    "jour": 23,
+   "date": "2026-11-06",
+   "heure": "10:00",
+   "semaine": "S2",
+   "format": "A",
+   "sujet": "Robot aspirateur « 8 000 Pa » : ce que ça veut dire",
+   "mecanique": "Objet qui parle : « Les objets balancent »",
+   "refs": [
+    "R11"
+   ],
+   "accroche": "« Ils ont écrit 8 000 Pa sur ma boîte. En énorme. »",
+   "a_verifier": [
+    "TechRadar 23.01.2026 (Ruth Hamilton) : chiffre = réglage le plus fort ; nettoyage pas au même rythme ; 10 000 Pa largement assez ; brosse et navigation"
+   ],
+   "argent": "Affiliation robots (Black Friday)",
+   "statut": "produite",
+   "note": "Prototype du format A produit le 02.11 (annoncé par la vidéo 22)."
+  },
+  {
+   "jour": 24,
    "date": null,
    "sujet": "Le mode sombre économise-t-il vraiment ta batterie ?",
    "mecanique": "Mythe ou réalité",
@@ -598,7 +643,7 @@
    "heure": null
   },
   {
-   "jour": 24,
+   "jour": 25,
    "date": null,
    "sujet": "Baisser le chauffage de 1 °C : combien tu économises vraiment",
    "mecanique": "Le vrai coût / le chiffre précis",
@@ -616,7 +661,7 @@
    "heure": null
   },
   {
-   "jour": 25,
+   "jour": 26,
    "date": null,
    "sujet": "La prise connectée qui te montre où part ton argent",
    "mecanique": "TikTok Made Me Buy It, version honnête",
@@ -634,7 +679,7 @@
    "heure": null
   },
   {
-   "jour": 26,
+   "jour": 27,
    "date": null,
    "sujet": "Ton frigo est-il réglé trop froid ?",
    "mecanique": "Tu le fais mal",
@@ -651,7 +696,7 @@
    "heure": null
   },
   {
-   "jour": 27,
+   "jour": 28,
    "date": null,
    "sujet": "Le couvercle sur la casserole : combien d'énergie en moins",
    "mecanique": "Le vrai coût",
@@ -667,7 +712,7 @@
    "heure": null
   },
   {
-   "jour": 28,
+   "jour": 29,
    "date": null,
    "sujet": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse les murs",
    "mecanique": "L'astuce que personne n'explique",
@@ -683,7 +728,7 @@
    "heure": null
   },
   {
-   "jour": 29,
+   "jour": 30,
    "date": null,
    "sujet": "Caméra de surveillance : ce que la loi suisse t'interdit de filmer",
    "mecanique": "Ce que personne ne te dit",
@@ -699,7 +744,7 @@
    "heure": null
   },
   {
-   "jour": 30,
+   "jour": 31,
    "date": null,
    "sujet": "Combien de lux pour bien travailler (500 lx)",
    "mecanique": "Je mesure tout",
@@ -715,7 +760,7 @@
    "heure": null
   },
   {
-   "jour": 31,
+   "jour": 32,
    "date": null,
    "sujet": "Lave-linge à 30 °C ou 60 °C : l'énergie en jeu",
    "mecanique": "Le vrai coût",
@@ -731,7 +776,7 @@
    "heure": null
   },
   {
-   "jour": 32,
+   "jour": 33,
    "date": null,
    "sujet": "Lampes torches : les lumens gonflés",
    "mecanique": "Le piège de l'étiquette",
@@ -745,25 +790,6 @@
    "argent": "Affiliation lampes certifiées FL1",
    "statut": "idée",
    "heure": null
-  },
-  {
-   "jour": 33,
-   "date": "2026-11-06",
-   "sujet": "Robot aspirateur « 8 000 Pa » : ça veut dire quoi",
-   "mecanique": "Le chiffre qui impressionne",
-   "refs": [
-    "R3",
-    "R8"
-   ],
-   "accroche": "8 000 Pa, c'est beaucoup ?",
-   "a_verifier": [
-    "définition Pa, conversion, ce que le chiffre ne dit pas (débit d'air)"
-   ],
-   "argent": "Affiliation robots aspirateurs (Black Friday)",
-   "statut": "idée",
-   "heure": "10:00",
-   "annoncee": true,
-   "note": "Annoncée à la fin (description) de la vidéo 22 du jeudi 5.11 à 18 h : à garder pour le vendredi 6.11 à 10 h (format au choix du bilan S1)."
   },
   {
    "jour": 34,
