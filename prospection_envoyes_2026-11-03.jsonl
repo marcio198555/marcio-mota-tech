@@ -81,3 +81,9 @@
 {"id": "RP03C-023", "brand": "ShowGame", "domain": "showgame.it", "to": "info@showgame.it", "ts": "2026-11-03T07:54:56.037335"}
 {"id": "RP03C-024", "brand": "Knivesandtools", "domain": "knivesandtools.nl", "to": "info@knivesandtools.nl", "ts": "2026-11-03T07:54:56.037343"}
 {"id": "RP03C-025", "brand": "ACR Reijnders", "domain": "acr-reijnders.nl", "to": "verkoop@acr-reijnders.nl", "ts": "2026-11-03T07:54:56.037349"}
+{"id": "RP03D-001", "brand": "The Keyboard Company", "domain": "keyboardco.com", "to": "sales@keyboardco.com", "ts": "2026-11-03T08:03:12.723271"}
+{"id": "RP03D-002", "brand": "GrünePerlen", "domain": "grueneperlen.com", "to": "info@grueneperlen.com", "ts": "2026-11-03T08:03:12.723328"}
+{"id": "RP03D-003", "brand": "MashCamp", "domain": "mashcamp.shop", "to": "welcome@mashcamp.shop", "ts": "2026-11-03T08:03:12.723340"}
+{"id": "RP03D-004", "brand": "Echolotzentrum", "domain": "echolotzentrum.de", "to": "info@echolotzentrum.de", "ts": "2026-11-03T08:03:12.723348"}
+{"id": "RP03D-005", "brand": "Naaimachinewebwinkel", "domain": "naaimachinewebwinkel.nl", "to": "info@naaimachinewebwinkel.nl", "ts": "2026-11-03T08:03:12.723354"}
+{"id": "RP03D-006", "brand": "Keukenmachine Shop", "domain": "keukenmachine-shop.nl", "to": "klantenservice@keukenmachine-shop.nl", "ts": "2026-11-03T08:03:12.723360", "bounced": true}
