@@ -161,3 +161,9 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
 - Voix : Marcio a écouté les 3 essais et choisi la 3 (Chatterbox avec le timbre de la voix Piper), 03.11.2026 à 21 h 40.
   Elle devient la voix par défaut (RUNBOOK § 11.7) ; la vidéo 23 est refaite avec cette voix avant sa publication du 6.11.
   Piège évité : Chatterbox écrivait des WAV flottants, illisibles pour assemble_vo.py → WAV 16 bits.
+- Vidéo 23 refaite avec la voix 3 (03.11 au soir) : même scène IA, mêmes faits ; 26 s → 32 s, car Chatterbox parle plus
+  posément que Piper (≈ +20 % de durée, à prévoir dans les scripts). Transcription : seuls écarts = chiffres écrits en
+  chiffres et « l'a vu » entendu « à la vue » (homophone) → contrôle réussi. Buffer TikTok et Story du 6.11 mis à jour.
+- Pour refaire une vidéo avec une nouvelle voix du même texte : `tools/retime_cues.py` recale les bruitages mot par mot ;
+  la scène suit déjà les mots (wordAt). Le pont pousse maintenant chaque voix, transcription et image dès qu'elle est
+  prête (« bridge output (voix) », « (transcription) », « (image …) ») : plus besoin d'attendre la fin du passage.
