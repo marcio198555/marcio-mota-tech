@@ -1,55 +1,54 @@
 {
- "duration": 25.724,
+ "duration": 31.653,
  "segments": [
   {
    "id": "s01",
    "text": "Ils ont écrit vingt-cinq mille pascals sur ma boîte. En énorme.",
-   "start": 0.107,
-   "end": 3.616,
+   "start": 0.12,
+   "end": 3.79,
    "display": "Ils ont écrit 25 000 Pa sur ma boîte. | En énorme."
   },
   {
    "id": "s02",
    "text": "Mais le pascal, ça mesure une pression. Ça ne suffit pas à dire si ton sol sera propre.",
-   "start": 3.705,
-   "end": 8.637,
+   "start": 3.89,
+   "end": 9.213,
    "display": "Mais le pascal, ça mesure une pression. | Ça ne suffit pas à dire si ton sol sera propre."
   },
   {
    "id": "s03",
    "text": "Et ce chiffre, c'est mon mode maximum. Pas forcément celui que tu utilises tous les jours.",
-   "start": 8.726,
-   "end": 13.271,
+   "start": 9.313,
+   "end": 15.423,
    "display": "Et ce chiffre, c'est mon mode maximum. | Pas forcément celui que tu utilises tous les jours."
   },
   {
    "id": "s04",
    "text": "Une testeuse de Tèk Radar l'a vu : les chiffres explosent, le nettoyage, pas autant.",
-   "start": 13.36,
-   "end": 17.584,
+   "start": 15.523,
+   "end": 21.26,
    "display": "Une testeuse de TechRadar l'a vu : | les chiffres explosent, | le nettoyage, pas autant."
   },
   {
    "id": "s05",
    "text": "Pour elle, dix mille pascals, c'est déjà largement assez pour bien nettoyer.",
-   "start": 17.673,
-   "end": 21.279,
+   "start": 21.36,
+   "end": 25.73,
    "display": "Pour elle, 10 000 Pa, | c'est déjà largement assez pour bien nettoyer."
   },
   {
    "id": "s06",
    "text": "Regarde aussi ma brosse et ma navigation.",
-   "start": 21.368,
-   "end": 23.285,
+   "start": 25.83,
+   "end": 28.105,
    "display": "Regarde aussi ma brosse et ma navigation."
   },
   {
    "id": "s07",
    "text": "Abonne-toi : d'autres objets vont tout balancer.",
-   "start": 23.374,
-   "end": 25.456,
+   "start": 28.205,
+   "end": 31.353,
    "display": "Abonne-toi : d'autres objets vont tout balancer."
   }
- ],
- "voice_fx": 1.12
+ ]
 }

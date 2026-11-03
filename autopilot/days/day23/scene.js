@@ -1,3 +1,4 @@
+// DÉMO images IA (03.11.2026) : même vidéo 23, décor Z-Image-Turbo et personnage GPT Image 2 animés par le moteur.
 // Vidéo 23 — format A « Les objets balancent » : le robot aspirateur balance ce qu'on écrit sur sa boîte (« 25 000 Pa »).
 // Robot et boîte fictifs (personnage) ; 25 000 Pa = ordre de grandeur des valeurs annoncées en 2026 (TechRadar : jusqu'à 35 000 Pa).
 // Sources : TechRadar, Ruth Hamilton, 23.01.2026, « The 3 biggest lies robot vacuum brands are telling us » :
@@ -85,6 +86,17 @@
 
   // le robot roule sur le tapis (va-et-vient lent), tremble en mode MAX, sursaute sur « explosent »
   const RS = 1.15;
+  // personnage IA (assets/ai/perso_robot.png, détouré) : hauteur affichée, base sous RY, repères en fraction de l'image
+  const ROB = { h: 420, base: 290, mouth: [0.454, 0.615, 0.12], eyes: [[0.336, 0.496, 0.066, 0.083], [0.607, 0.52, 0.067, 0.087]], brush: [0.13, 0.75], lidar: [0.526, 0.14], skin: '#f6f3f1', lid: '#eeeae8' };
+  function robotPt(x, y, s, f) {
+    const im = CHR.ART.perso_robot; if (!im) return [x, y];
+    const h = ROB.h * s, w = h * im.width / im.height;
+    return [x + (f[0] - 0.5) * w, y + ROB.base * s + (f[1] - 1) * h];
+  }
+  function robotArt(ctx, x, y, s, t, o = {}) {
+    CHR.art(ctx, 'perso_robot', x, y + ROB.base * s, ROB.h * s, t,
+      { mouth: ROB.mouth, eyes: ROB.eyes, skin: ROB.skin, lid: ROB.lid, squash: o.squash || 0, talk: o.talk });
+  }
   function robotAt(t) {
     let x = 540 + 55 * Math.sin(t * 0.85 - 0.4), y = 1000;
     const lean = 0.03 * Math.cos(t * 0.85 - 0.4);
@@ -95,11 +107,11 @@
 
   window.SCENE = {
     duration: END,
-    load: () => load(['person_raising_hand', 'red_question_mark', 'woman_technologist', 'check_mark_button', 'thumbs_up', 'exploding_head', 'megaphone']),
+    load: () => Promise.all([CHR.loadArt(['decor_salon', 'perso_robot']), load(['person_raising_hand', 'red_question_mark', 'woman_technologist', 'check_mark_button', 'thumbs_up', 'exploding_head', 'megaphone'])]),
     draw(ctx, t) {
       const inEnd = t >= S('s07') - 0.05;
       camera(ctx, t, PUNCH, { cy: 1000, base: 0.04 * clamp(t / S('s07')) });   // lente avancée + zooms sur les mots forts
-      room(ctx, t);
+      CHR.backdrop(ctx, t, 'decor_salon', { blur: 1.2, z0: 1.03, z1: 1.1, focus: [0.5, 0.72], dur: END });
       const [RX, RY, lean] = robotAt(t);
 
       // humeur et regard du robot selon le moment (méfiant dès l'image 0 : il regarde sa boîte de travers)
@@ -152,15 +164,16 @@
       }
       // 6. brosse et navigation (les flèches suivent le robot)
       if (t >= S('s06') && t < S('s07')) {
-        scanRays(ctx, t, RX + 120 * RS, RY - 36 * RS - 30, prog(t, tNav - 0.3, 0.4));
-        callout(ctx, 'BROSSE', 185, 1232, RX + SIDE_BRUSH[0] * RS, RY + SIDE_BRUSH[1] * RS, ease.out(prog(t, tBrosse - 0.25, 0.4)));
-        callout(ctx, 'NAVIGATION', 760, 640, RX + 120 * RS, RY - 70 * RS, ease.out(prog(t, tNav - 0.35, 0.4)));
+        const LID = robotPt(RX, RY, 1, ROB.lidar), BR = robotPt(RX, RY, 1, ROB.brush);
+        scanRays(ctx, t, LID[0], LID[1] - 20, prog(t, tNav - 0.3, 0.4));
+        callout(ctx, 'BROSSE', 185, 1232, BR[0], BR[1], ease.out(prog(t, tBrosse - 0.25, 0.4)));
+        callout(ctx, 'NAVIGATION', 760, 640, LID[0], LID[1] - 6, ease.out(prog(t, tNav - 0.35, 0.4)));
       }
 
       // le robot (personnage principal), penché dans le sens où il roule
       if (!inEnd) {
         ctx.save(); ctx.translate(RX, RY + 80); ctx.rotate(lean); ctx.translate(-RX, -RY - 80);
-        robotVacuum(ctx, RX, RY, RS, t, { squash: sq, face: { mood, look } });
+        robotArt(ctx, RX, RY, 1, t, { squash: sq });
         ctx.restore();
       }
       ctx.restore(); // caméra
@@ -168,7 +181,7 @@
       if (inEnd) {
         // voile plein écran (hors caméra : aucun liseré), puis carton de fin ; une seule étiquette de série
         ctx.fillStyle = `rgba(3,4,8,${Math.min(0.8, (t - S('s07') + 0.05) * 3)})`; ctx.fillRect(0, 0, 1080, 1920);
-        robotVacuum(ctx, 540, 1190, 0.62, t, { face: { mood, look: [0, -0.4] } });
+        robotArt(ctx, 540, 1150, 0.6, t, {});
         followCTA(ctx, t, S('s07'), { when: 'BIENTÔT', next: ["d'autres objets", 'vont tout balancer'] });
       } else {
         if (!(t >= S('s04') && t < S('s05'))) brand(ctx, t);   // pas de « JE MESURE TOUT » sur la carte TechRadar
