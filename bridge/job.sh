@@ -21,9 +21,12 @@ fi
 # 3) Voix Chatterbox multilingue (licence MIT) : autopilot/tts/cb_jobs/*.json sans manifest (20 min au plus)
 if ls autopilot/tts/cb_jobs/*.json >/dev/null 2>&1; then timeout 20m bash autopilot/tts/cb.sh || echo "chatterbox : arrêt ou échec"; fi
 
-# 4) Images open source Z-Image-Turbo (licence Apache 2.0) : autopilot/img/jobs/*.json sans image (30 min au plus)
-if ls autopilot/img/jobs/*.json >/dev/null 2>&1; then timeout 30m bash autopilot/img/gen.sh || echo "img : arrêt ou échec"; fi
+# 4) Images open source Z-Image-Turbo (licence Apache 2.0) : autopilot/img/jobs/*.json sans image (dans le temps qui reste, 52 min au total)
+# (budget : le job GitHub s'arrête à 60 min ; on garde 8 min pour la fin et le commit)
+left=$(( 52*60 - SECONDS ))
+if [ "$left" -gt 600 ] && ls autopilot/img/jobs/*.json >/dev/null 2>&1; then timeout "${left}s" bash autopilot/img/gen.sh || echo "img : arrêt ou échec"; fi
 # 5) Détourage : autopilot/img/cut_todo.txt
-timeout 10m bash autopilot/img/cut.sh || echo "cut : arrêt ou échec"
+left=$(( 55*60 - SECONDS ))
+[ "$left" -gt 120 ] && { timeout "${left}s" bash autopilot/img/cut.sh || echo "cut : arrêt ou échec"; }
 
 ls -la autopilot/tts/out autopilot/asr/out 2>/dev/null | head -40

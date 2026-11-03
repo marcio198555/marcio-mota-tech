@@ -319,27 +319,30 @@ Trois sources, toutes gratuites :
    public = minutes gratuites). Un fichier `autopilot/img/jobs/<nom>.json` par image :
    `{"prompt": "...", "w": 576, "h": 1024, "steps": 8, "seed": 11, "cut": false}` ; push sans `[skip-bridge]` ;
    résultat dans `bridge/out/img/<nom>.png` (et `<nom>_cut.png`, fond transparent, si `"cut": true`). Un nom déjà fait
-   n'est jamais refait (nouvelle version = nouveau nom). Le pont s'arrête après 30 min d'images : les images finies
+   n'est jamais refait (nouvelle version = nouveau nom). Le pont s'arrête après 45 min d'images : les images finies
    sont gardées, les autres partent au push suivant. Détourer une image existante : `autopilot/img/cut_todo.txt`
    (« chemin/entree.png nom_sortie »).
 2. **Meilleurs modèles du moment, quota limité** : Cloudinary `generate-image` (déjà connecté ; plan gratuit = 50 crédits
-   « Image Generation » par mois ; `gpt-image-2` = 3 crédits l'image, n° 1 des votes à l'aveugle au 03.11.2026 ;
+   « Image Generation » par mois ; `gpt-image-2` = 3 crédits en 9:16 « 1K » et 6 crédits en carré « 1K » (mesuré le
+   03.11.2026), n° 1 des votes à l'aveugle au 03.11.2026 ;
    aussi `nano-banana-2`, `seedream-5-pro`, `recraft-v4` pour l'illustration). Réservé aux personnages principaux
    (créés une fois, réutilisés) et aux couvertures. Toujours `target: {target_type: "temporary"}`, puis récupérer le
    fichier par le pont : ligne « nom.png URL » dans `bridge/urls.txt`, push sans `[skip-bridge]` → `bridge/out/nom.png`
    (le conteneur ne peut pas ouvrir les liens Cloudinary). Vérifier le solde avant (`get-usage-details`,
    `image_generation`) et garder 6 crédits de réserve.
-3. **Hugging Face Spaces** (`dynamic_space`, Z-Image-Turbo, FLUX.2 klein 4B pour modifier un personnage, détourage) :
-   seulement si Marcio a activé « Dynamic Spaces » sur huggingface.co/settings/mcp ; sinon l'appel répond
-   « invoke is disabled ».
+3. **Hugging Face Spaces** (`dynamic_space`) : indisponible par ce connecteur (03.11.2026 : « invoke is disabled because
+   gradio=none is set », même après le réglage de Marcio). Ne pas compter dessus ; le pont GitHub fait le même travail.
 Licences interdites (non commerciales ou « recherche ») : Qwen-Image 2.1, FLUX.2 [klein] 9B, FLUX.2 [dev],
 FLUX.1 [dev] et Krea. ElevenLabs gratuit : interdit (pas d'usage commercial).
 **Prompts** (en anglais) : même style pour toute la série : « stylized 3D animated film look, Pixar-like render, soft
 light » ; toujours « no text, no letters, no logo ». Décor 9:16 (576×1024) avec « empty floor space in the lower half ».
 Personnage : « full body, centered, isolated on a plain pure white background », 768×768, `"cut": true`, avec de grands
 yeux et une petite bouche fermée (le moteur dessine la bouche qui parle par-dessus).
-**Bibliothèque** : copier les images retenues dans `autopilot/assets/ai/<nom>.png` (noms courts et stables :
-`decor_salon`, `perso_robot`) et noter chaque image dans `autopilot/assets/ai/SOURCES.md` (modèle, licence, prompt,
+Temps mesuré (03.11.2026, pont GitHub, CPU) : environ 12 à 13 minutes par image Z-Image-Turbo (Q6_K, 8 étapes),
+donc 3 images par passage du pont : préparer les images tôt et réutiliser la bibliothèque.
+**Bibliothèque** : `python3 autopilot/tools/ai_asset.py <image> <nom>` range l'image dans `autopilot/assets/ai/<nom>.png`
+(un personnage détouré est recadré sur ses bords pour que sa base touche le sol) ; noms courts et stables :
+`decor_salon`, `perso_robot`) ; noter chaque image dans `autopilot/assets/ai/SOURCES.md` (modèle, licence, prompt,
 seed, date). Réutiliser un décor ou un personnage déjà fait avant d'en générer un nouveau.
 **Scène** : `SCENE.load = () => Promise.all([CHR.load([...]), CHR.loadArt(['decor_salon', 'perso_robot'])])`, puis
 `CHR.backdrop(ctx, t, 'decor_salon', {blur: 1.5, z0: 1.04, z1: 1.14, focus: [0.5, 0.65]})` et
