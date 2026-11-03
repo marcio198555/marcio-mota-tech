@@ -147,3 +147,52 @@ binaire : /tmp/sdbin/sd-cli
 [I] save result image 0 to 'bridge/out/img/decor_cuisine.png' (success) --- main.cpp:495
 [I] 1/1 images saved --- main.cpp:571
 img decor_cuisine : 1451 s
+envoi anticipé : image decor_cuisine
++ echo 'img : arrêt ou échec'
+img : arrêt ou échec
++ left=180
++ '[' 180 -gt 120 ']'
++ timeout 180s bash autopilot/img/cut.sh
+cut : rien à faire
++ ls -la autopilot/tts/out autopilot/asr/out
++ head -40
+autopilot/asr/out:
+total 32
+drwxr-xr-x 2 runner runner 4096 Nov  3 22:27 .
+drwxr-xr-x 3 runner runner 4096 Nov  3 22:26 ..
+-rw-r--r-- 1 runner runner 1738 Nov  3 22:26 cbtest_noref.json
+-rw-r--r-- 1 runner runner 1749 Nov  3 22:26 cbtest_tomref.json
+-rw-r--r-- 1 runner runner 3580 Nov  3 22:26 day01_vo.json
+-rw-r--r-- 1 runner runner 3522 Nov  3 22:26 day23_vo_fx.json
+-rw-r--r-- 1 runner runner 3402 Nov  3 22:26 day23b_vo_fx.json
+-rw-r--r-- 1 runner runner 3444 Nov  3 22:27 day23c_vo.json
+
+autopilot/tts/out:
+total 152
+drwxr-xr-x 38 runner runner 4096 Nov  3 22:26 .
+drwxr-xr-x  6 runner runner 4096 Nov  3 22:26 ..
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 cbtest_noref
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 cbtest_tomref
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day01
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day01fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day02
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day02cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day03
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day03cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day04
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day04cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day04fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day05
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day05cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day05fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day06
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day06cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day06cta2
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day07
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day07cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day07fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day08
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day08cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day09
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day09fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 22:26 day12
