@@ -1,4 +1,19 @@
 set -x
+# Envoi anticipé : pousse tout de suite ce qui est prêt (voix, transcriptions, images), sans attendre la fin du job.
+# Le commit final du workflow reste en place pour le reste.
+early_push() {
+  git config user.name "github-actions[bot]"
+  git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+  git add -f bridge/out autopilot/tts/out autopilot/asr/out 2>/dev/null || true
+  git diff --cached --quiet && return 0
+  git commit -q -m "bridge output ($1) [skip-bridge]" || return 0
+  for i in 1 2 3; do
+    git pull -q --rebase -X theirs origin tiktok-autopilot && git push -q origin HEAD:tiktok-autopilot && { echo "envoi anticipé : $1"; return 0; }
+    sleep 5
+  done
+  echo "envoi anticipé impossible ($1), le commit final s'en chargera"
+}
+export -f early_push
 # 1) Voix off : Piper (synthèse vocale libre, hors ligne) + voix françaises.
 P="$HOME/.cache/piper"
 mkdir -p "$P/voices"
@@ -17,9 +32,10 @@ python3 autopilot/tts/synth.py --piper "$P/piper/piper" --voices "$P/voices"
 if [ -f autopilot/asr/todo.txt ]; then
   python3 -m pip install -q faster-whisper 2>&1 | tail -1
   python3 autopilot/asr/asr.py
+  early_push transcription
 fi
 # 3) Voix Chatterbox multilingue (licence MIT) : autopilot/tts/cb_jobs/*.json sans manifest (40 min au plus)
-if ls autopilot/tts/cb_jobs/*.json >/dev/null 2>&1; then timeout 40m bash autopilot/tts/cb.sh || echo "chatterbox : arrêt ou échec"; fi
+if ls autopilot/tts/cb_jobs/*.json >/dev/null 2>&1; then timeout 40m bash autopilot/tts/cb.sh || echo "chatterbox : arrêt ou échec"; early_push voix; fi
 
 # 4) Images open source Z-Image-Turbo (licence Apache 2.0) : autopilot/img/jobs/*.json sans image (dans le temps qui reste, 52 min au total)
 # (budget : le job GitHub s'arrête à 60 min ; on garde 8 min pour la fin et le commit)

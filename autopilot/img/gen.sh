@@ -81,6 +81,8 @@ PY
     -p "$P" --cfg-scale 1.0 --steps "$ST" -W "$W" -H "$H" -s "$SEED" -t "$(nproc)" \
     -o "$OUT/$n.png" 2>&1 | grep -v -e '^\s*$' | tail -15
   echo "img $n : $(( $(date +%s) - t0 )) s"
+  # pousser l'image tout de suite (fonction fournie par bridge/job.sh)
+  [ -s "$OUT/$n.png" ] && type early_push >/dev/null 2>&1 && early_push "image $n"
   [ "$CUT" = 1 ] && [ -s "$OUT/$n.png" ] && need_cut=1
 done
 
