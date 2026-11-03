@@ -17,6 +17,24 @@ signaler à Marcio dans le message final.
 **Du 30.10 au 27.11.2026 : stratégie du mois (§ 10 et `strategy.json`)**, demandée par Marcio le 29.10 : chaque vendredi,
 on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles ; si ça ne marche pas, on change de stratégie.
 
+> **Changements du 03.11.2026 : ils priment sur le texte des tâches programmées** (« fais de ton mieux, avec les
+> meilleurs outils », Marcio, 03.11.2026). Si la consigne d'une tâche dit autre chose, c'est ce bloc qui compte :
+> 1. **Publication TikTok et Stories : Buffer**, plus Metricool (§ 8, partie Buffer), parce que Metricool gratuit
+>    est limité à 20 publications par mois et que la limite de novembre est atteinte. Les tâches du vendredi
+>    programment elles-mêmes dans Buffer tout ce qui tient (10 publications au plus par canal), dans l'ordre des
+>    dates, et remplissent `post.json` (statut « prête ») pour le reste.
+> 2. **Reels d'essai Instagram** : Buffer ne sait pas les faire et Metricool est à sa limite jusqu'au 1er décembre.
+>    Les produire quand même (`reel_cut.sh`, Cloudinary) et noter `reel_instagram: "en attente"` avec `reel_url`.
+>    Voie gratuite de remplacement : vidIQ (`vidiq_instagram_connected_accounts` doit lister filipe_marcio1985 avec
+>    publishingAvailable true ; sinon Marcio doit connecter Instagram sur app.vidiq.com) : `vidiq_video_upload` (url =
+>    lien Cloudinary du Reel, 0 crédit) puis `vidiq_instagram_publish_reel` avec `trialParams: {graduationStrategy:
+>    "SS_PERFORMANCE"}`, `isAiGenerated: true`, légende Instagram (§ 8.5b) — 0 crédit. Publication immédiate (pas
+>    de programmation) : au plus 2 Reels d'essai par jour, jamais deux fois le même. Ne jamais publier un Reel
+>    normal à la place.
+> 3. **Images : les meilleurs outils gratuits** pour le format A (§ 11.6) : décors et personnages générés par IA,
+>    animés par le moteur. Jamais de texte ni de chiffre dans une image IA : le moteur les écrit.
+> 4. **Voix** : voir § 11.7.
+
 ## 0. Règles non négociables
 - **Honnêteté** : aucune mesure inventée. Un chiffre affiché ou dit vient d'une source officielle
   (fabricant, Confédération, norme) ou d'un calcul exact montré à l'écran. Toute valeur d'illustration
@@ -289,3 +307,41 @@ Ne jamais reprendre la vidéo, l'image, le texte ou la musique d'un autre créat
    vérifier la voix : copier `vo.wav` dans `autopilot/vo/dayNN_vo_fx.wav`, l'ajouter à `autopilot/asr/todo.txt`, push sans
    `[skip-bridge]` : le pont écrit la transcription Whisper dans `autopilot/asr/out/` ; corriger tout mot mal compris.
 6. **Publication** : TikTok (§ 8), Story Instagram (§ 8.5), Reel d'essai Instagram (§ 8.5b).
+
+### 11.6 Images IA : décors et personnages (depuis le 03.11.2026)
+Demande de Marcio (03.11.2026) : « fais de ton mieux, avec les meilleurs outils », gratuits. Les images IA donnent le
+décor et le personnage ; le moteur garde l'animation (caméra, rebonds, bouche synchronisée, clignements), les textes et
+les chiffres. **Jamais de texte, de chiffre, de logo ni de marque réelle dans une image IA**, jamais le visage d'une
+personne réelle, jamais l'image d'un autre créateur. La vidéo reste marquée contenu IA (isAigc / isAiGenerated).
+Trois sources, toutes gratuites :
+1. **Open source, sans limite (par défaut)** : Z-Image-Turbo (Tongyi-MAI, Apache 2.0) dans le pont GitHub (CPU, dépôt
+   public = minutes gratuites). Un fichier `autopilot/img/jobs/<nom>.json` par image :
+   `{"prompt": "...", "w": 576, "h": 1024, "steps": 8, "seed": 11, "cut": false}` ; push sans `[skip-bridge]` ;
+   résultat dans `bridge/out/img/<nom>.png` (et `<nom>_cut.png`, fond transparent, si `"cut": true`). Un nom déjà fait
+   n'est jamais refait (nouvelle version = nouveau nom). Le pont s'arrête après 30 min d'images : les images finies
+   sont gardées, les autres partent au push suivant. Détourer une image existante : `autopilot/img/cut_todo.txt`
+   (« chemin/entree.png nom_sortie »).
+2. **Meilleurs modèles du moment, quota limité** : Cloudinary `generate-image` (déjà connecté ; plan gratuit = 50 crédits
+   « Image Generation » par mois ; `gpt-image-2` = 3 crédits l'image, n° 1 des votes à l'aveugle au 03.11.2026 ;
+   aussi `nano-banana-2`, `seedream-5-pro`, `recraft-v4` pour l'illustration). Réservé aux personnages principaux
+   (créés une fois, réutilisés) et aux couvertures. Toujours `target: {target_type: "temporary"}`, puis récupérer le
+   fichier par le pont : ligne « nom.png URL » dans `bridge/urls.txt`, push sans `[skip-bridge]` → `bridge/out/nom.png`
+   (le conteneur ne peut pas ouvrir les liens Cloudinary). Vérifier le solde avant (`get-usage-details`,
+   `image_generation`) et garder 6 crédits de réserve.
+3. **Hugging Face Spaces** (`dynamic_space`, Z-Image-Turbo, FLUX.2 klein 4B pour modifier un personnage, détourage) :
+   seulement si Marcio a activé « Dynamic Spaces » sur huggingface.co/settings/mcp ; sinon l'appel répond
+   « invoke is disabled ».
+Licences interdites (non commerciales ou « recherche ») : Qwen-Image 2.1, FLUX.2 [klein] 9B, FLUX.2 [dev],
+FLUX.1 [dev] et Krea. ElevenLabs gratuit : interdit (pas d'usage commercial).
+**Prompts** (en anglais) : même style pour toute la série : « stylized 3D animated film look, Pixar-like render, soft
+light » ; toujours « no text, no letters, no logo ». Décor 9:16 (576×1024) avec « empty floor space in the lower half ».
+Personnage : « full body, centered, isolated on a plain pure white background », 768×768, `"cut": true`, avec de grands
+yeux et une petite bouche fermée (le moteur dessine la bouche qui parle par-dessus).
+**Bibliothèque** : copier les images retenues dans `autopilot/assets/ai/<nom>.png` (noms courts et stables :
+`decor_salon`, `perso_robot`) et noter chaque image dans `autopilot/assets/ai/SOURCES.md` (modèle, licence, prompt,
+seed, date). Réutiliser un décor ou un personnage déjà fait avant d'en générer un nouveau.
+**Scène** : `SCENE.load = () => Promise.all([CHR.load([...]), CHR.loadArt(['decor_salon', 'perso_robot'])])`, puis
+`CHR.backdrop(ctx, t, 'decor_salon', {blur: 1.5, z0: 1.04, z1: 1.14, focus: [0.5, 0.65]})` et
+`CHR.art(ctx, 'perso_robot', 540, 1330, 560, t, {mouth: [mx, my, mw], eyes: [[ex, ey, rx, ry], …], skin, lid, t0})`
+(bouche et yeux en fraction de l'image : les mesurer sur l'image détourée et les noter dans SOURCES.md).
+Modèle de scène : `autopilot/days/_ai_demo/scene.js`.

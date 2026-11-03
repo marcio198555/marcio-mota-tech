@@ -244,5 +244,100 @@
     ctx.restore();
   }
 
-  window.CHR = { IMG, load, emo, mouthAt, face, room, camera, robotVacuum, SIDE_BRUSH, box, bubble, seriesChip, gauge };
+  // ---------- images générées par IA (format A, depuis le 03.11.2026) ----------
+  // Fichiers : autopilot/assets/ai/<nom>.png (décors 9:16 et personnages détourés, fond transparent).
+  // Voir RUNBOOK § 11.6 (outils, licences, crédits). Toute vidéo qui en contient reste marquée « contenu IA ».
+  const ART = {}, ARTBLUR = {};
+  function loadArt(names) {
+    return Promise.all(names.map(n => new Promise(res => {
+      const im = new Image();
+      im.onload = () => { ART[n] = im; res(); };
+      im.onerror = () => { console.error('image IA manquante : ' + n); res(); };
+      im.src = ASSET + 'ai/' + n + '.png';
+    })));
+  }
+  function blurred(name, px) {
+    const key = name + '|' + px;
+    if (!ARTBLUR[key]) {
+      const im = ART[name], cv = document.createElement('canvas');
+      cv.width = im.width; cv.height = im.height;
+      const g = cv.getContext('2d'); g.filter = `blur(${px}px)`; g.drawImage(im, 0, 0);
+      ARTBLUR[key] = cv;
+    }
+    return ARTBLUR[key];
+  }
+  // Décor plein écran (image 9:16), cadré « cover », zoom lent de z0 à z1 sur dur secondes vers focus [fx, fy] (0..1),
+  // légère dérive ; o.blur = flou de profondeur (px, en pixels de l'image source), o.dim = assombrir (0..1).
+  function backdrop(ctx, t, name, o = {}) {
+    const im = ART[name]; if (!im) return;
+    const src = o.blur ? blurred(name, o.blur) : im;
+    const k = clamp(t / (o.dur || 30));
+    const z = lerp(o.z0 ?? 1.04, o.z1 ?? 1.14, ease.inOut(k));
+    const sc = Math.max(W / im.width, H / im.height) * z;
+    const [fx, fy] = o.focus || [0.5, 0.62];
+    const w = im.width * sc, h = im.height * sc;
+    const x = W * fx - w * fx + Math.sin(t * 0.31) * 10 + (o.px || 0);
+    const y = H * fy - h * fy + Math.cos(t * 0.23) * 7 + (o.py || 0);
+    ctx.drawImage(src, x, y, w, h);
+    if (o.dim) { ctx.fillStyle = `rgba(3,4,8,${o.dim})`; ctx.fillRect(0, 0, W, H); }
+  }
+  // Bouche ouverte dessinée par-dessus une image (centre haut x, y ; largeur mw ; open 0..1).
+  // o.skin = couleur de la peau / coque pour masquer la bouche peinte ; o.lip = contour.
+  function mouthShape(ctx, x, y, mw, open, o = {}) {
+    const hw = mw / 2 * (0.78 + 0.22 * open), mh = mw * (0.1 + 0.42 * open);
+    if (o.skin) {
+      ctx.fillStyle = o.skin; ctx.beginPath();
+      ctx.ellipse(x, y + mh * 0.25, mw * 0.62, mw * 0.16 + mh * 0.4, 0, 0, Math.PI * 2); ctx.fill();
+    }
+    ctx.beginPath(); ctx.moveTo(x - hw, y);
+    ctx.quadraticCurveTo(x, y - mh * 0.16, x + hw, y);
+    ctx.quadraticCurveTo(x + hw * 0.9, y + mh, x, y + mh);
+    ctx.quadraticCurveTo(x - hw * 0.9, y + mh, x - hw, y);
+    ctx.closePath(); ctx.fillStyle = '#3a0d14'; ctx.fill();
+    ctx.save(); ctx.clip();
+    if (open > 0.3) { ctx.fillStyle = '#fff'; ctx.fillRect(x - hw, y - mh * 0.06, hw * 2, mh * 0.2); }
+    ctx.beginPath(); ctx.ellipse(x, y + mh * 0.95, hw * 0.55, mh * 0.42, 0, 0, Math.PI * 2); ctx.fillStyle = '#e8556a'; ctx.fill();
+    ctx.restore();
+    ctx.lineWidth = Math.max(2, mw * 0.045); ctx.strokeStyle = o.lip || '#2a2f3a'; ctx.stroke();
+  }
+  // Personnage ou objet détouré (PNG transparent) posé au sol : (x, y) = milieu de la base, h = hauteur affichée (px).
+  // Il vit tout seul : respiration, petit rebond quand la voix parle, ombre au sol.
+  // o.t0 = apparition avec rebond ; o.squash = écrasement ponctuel (-0.2..0.2) ; o.rot, o.flip, o.alpha, o.phase ;
+  // o.talk = false pour qu'il ne réagisse pas à la voix ;
+  // o.mouth = [mx, my, mw] en fraction de l'image (centre haut de la bouche, largeur) : bouche animée sur la voix ;
+  // o.eyes = [[ex, ey, rx, ry], …] en fraction de l'image : clignements (paupière couleur o.lid) ;
+  // o.skin / o.lip : couleurs pour la bouche (voir mouthShape).
+  function art(ctx, name, x, y, h, t, o = {}) {
+    const im = ART[name]; if (!im) return;
+    const k = o.t0 === undefined ? 1 : ease.back(prog(t, o.t0, 0.4));
+    if (k <= 0.001) return;
+    const w = h * im.width / im.height;
+    const talk = o.talk === false ? 0 : mouthAt(t);
+    const breathe = Math.sin(t * 2.4 + (o.phase || 0)) * 0.012;
+    const sq = (o.squash || 0) + talk * 0.03;
+    ctx.save(); ctx.globalAlpha *= clamp(k * 1.5) * (o.alpha ?? 1);
+    if (o.shadow !== false) {
+      ctx.save(); ctx.filter = 'blur(18px)'; ctx.fillStyle = 'rgba(30,18,8,0.45)';
+      ctx.beginPath(); ctx.ellipse(x, y - h * 0.01, w * 0.44 * k, h * 0.055 * k, 0, 0, Math.PI * 2); ctx.fill(); ctx.restore();
+    }
+    ctx.translate(x, y); ctx.rotate((o.rot || 0) + Math.sin(t * 1.6 + (o.phase || 0)) * 0.012);
+    ctx.scale((1 + sq + breathe) * k * (o.flip ? -1 : 1), (1 - sq - breathe * 0.6) * k);
+    ctx.drawImage(im, -w / 2, -h, w, h);
+    if (o.eyes) {
+      const b = blinkAt(t, o.seed || 2);
+      if (b > 0.01) o.eyes.forEach(([ex, ey, rx, ry]) => {
+        const cx = (ex - 0.5) * w, cy = (ey - 1) * h, a = rx * w, bb = ry * h;
+        ctx.save(); ctx.beginPath(); ctx.ellipse(cx, cy, a, bb, 0, 0, Math.PI * 2); ctx.clip();
+        ctx.fillStyle = o.lid || '#e9edf2'; ctx.fillRect(cx - a, cy - bb, a * 2, bb * 2 * b); ctx.restore();
+      });
+    }
+    if (o.mouth && talk > 0.06) {
+      const [mx, my, mw] = o.mouth;
+      mouthShape(ctx, (mx - 0.5) * w, (my - 1) * h, mw * w, talk, o);
+    }
+    ctx.restore();
+  }
+
+  window.CHR = { IMG, load, emo, mouthAt, face, room, camera, robotVacuum, SIDE_BRUSH, box, bubble, seriesChip, gauge,
+                 ART, loadArt, backdrop, art, mouthShape };
 })();

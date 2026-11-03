@@ -532,14 +532,17 @@
    "titre": "Achat en ligne : pas de retour légal de 14 jours en Suisse",
    "note": "Annonce de la vidéo 21 : « le programme éco du lave-vaisselle, 2 fois moins que l'intensif ».",
    "story_instagram": {
-    "metricool_id": 415001956,
+    "metricool_id": 415550586,
     "heure": "18:05",
-    "fichier": "media/stories/day20_story.mp4"
+    "fichier": "media/stories/day20_story.mp4",
+    "buffer_id": "6aea1e42f04b8d760d505f28",
+    "metricool_statut": "brouillon (Story publiée par Buffer)"
    },
    "reel_instagram": {
-    "metricool_id": 415001979,
+    "metricool_id": 415550595,
     "heure": "19:00",
-    "fichier": "media/reels/day20_reel.mp4"
+    "fichier": "media/reels/day20_reel.mp4",
+    "statut": "en attente (limite Metricool ; brouillon)"
    }
   },
   {
@@ -561,15 +564,20 @@
    "annonce": "ce que la fiche d'un ordinateur portable écrit en petit (jour 22)",
    "statut": "programmée",
    "semaine": "S1",
-   "metricool_id": 410830279,
+   "metricool_id": 415585756,
    "programme_le": "2026-11-05T10:00",
    "titre": "Lave-vaisselle : le plus long consomme 2 fois moins",
    "note": "Exemple concret : Bosch SMS4ECI28E (éco 0,543 kWh / intensif 1,15–1,25 kWh). Le règlement UE ne fixe pas de durée maximale du programme éco.",
    "story_instagram": {
-    "metricool_id": 415002388,
+    "metricool_id": 415589282,
     "heure": "10:05",
-    "fichier": "media/stories/day21_story.mp4"
-   }
+    "fichier": "media/stories/day21_story.mp4",
+    "buffer_id": "6aea1e43ba2b892db88b5d2d",
+    "metricool_statut": "brouillon (Story publiée par Buffer)"
+   },
+   "buffer_id": "6aea1e18544a6d4567cb7bd1",
+   "metricool_statut": "brouillon (TikTok publié par Buffer)",
+   "publie_par": "buffer"
   },
   {
    "jour": 22,
@@ -590,20 +598,26 @@
    "argent": "Affiliation (Black Friday)",
    "statut": "programmée",
    "semaine": "S1",
-   "metricool_id": 414082597,
+   "metricool_id": 415585772,
    "programme_le": "2026-11-05T18:00",
    "titre": "MacBook « 18 h » : ce qui est écrit en petit",
    "note": "Modèle actuel : MacBook Air M5 (apple.com/chfr). Annonce dans la description : vendredi 6.11 à 10 h, robot aspirateur « 25 000 Pa » (jour 33). Description TikTok corrigée le 02.11 : annonce « 25 000 Pa » (nouvelle valeur de la vidéo 23 après contrôle qualité).",
    "story_instagram": {
-    "metricool_id": 415002432,
+    "metricool_id": 415589302,
     "heure": "18:05",
-    "fichier": "media/stories/day22_story.mp4"
+    "fichier": "media/stories/day22_story.mp4",
+    "buffer_id": "6aea1e431f06859f7ba29140",
+    "metricool_statut": "brouillon (Story publiée par Buffer)"
    },
    "reel_instagram": {
     "metricool_id": 415002460,
     "heure": "19:00",
-    "fichier": "media/reels/day22_reel.mp4"
-   }
+    "fichier": "media/reels/day22_reel.mp4",
+    "statut": "programmé chez Metricool, échouera si la limite est atteinte"
+   },
+   "buffer_id": "6aea1e221f06859f7ba28ca5",
+   "metricool_statut": "brouillon (TikTok publié par Buffer)",
+   "publie_par": "buffer"
   },
   {
    "jour": 23,
@@ -623,19 +637,25 @@
    "argent": "Affiliation robots (Black Friday)",
    "statut": "programmée",
    "note": "Prototype du format A, produit le 02.11. Contrôle qualité : 8 000 Pa remplacé par 25 000 Pa (8 000 < 10 000 contredisait la conclusion), carte « d'après TechRadar » + « Illustration, pas des mesures », accroche lisible dès l'image 0, robot qui roule, formulations prudentes, fin sans promesse datée. Voix vérifiée par Whisper : transcription exacte.",
-   "metricool_id": 414082026,
+   "metricool_id": 415585785,
    "programme_le": "2026-11-06T10:00",
    "titre": "Robot aspirateur « 25 000 Pa » : ça veut dire quoi ?",
    "story_instagram": {
-    "metricool_id": 415002551,
+    "metricool_id": 415589323,
     "heure": "10:05",
-    "fichier": "media/stories/day23_story.mp4"
+    "fichier": "media/stories/day23_story.mp4",
+    "buffer_id": "6aea1e44544a6d4567cb840d",
+    "metricool_statut": "brouillon (Story publiée par Buffer)"
    },
    "reel_instagram": {
     "metricool_id": 415002585,
     "heure": "11:00",
-    "fichier": "media/reels/day23_reel.mp4"
-   }
+    "fichier": "media/reels/day23_reel.mp4",
+    "statut": "programmé chez Metricool, échouera si la limite est atteinte"
+   },
+   "buffer_id": "6aea1e23f04b8d760d505aed",
+   "metricool_statut": "brouillon (TikTok publié par Buffer)",
+   "publie_par": "buffer"
   },
   {
    "jour": 24,
