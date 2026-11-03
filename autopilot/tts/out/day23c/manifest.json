@@ -1,0 +1,57 @@
+{
+ "job": "day23c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ils ont écrit vingt-cinq mille pascals sur ma boîte. En énorme.",
+   "file": "s01.wav",
+   "duration": 4.32,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Mais le pascal, ça mesure une pression. Ça ne suffit pas à dire si ton sol sera propre.",
+   "file": "s02.wav",
+   "duration": 5.4,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Et ce chiffre, c'est mon mode maximum. Pas forcément celui que tu utilises tous les jours.",
+   "file": "s03.wav",
+   "duration": 6.32,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Une testeuse de Tèk Radar l'a vu : les chiffres explosent, le nettoyage, pas autant.",
+   "file": "s04.wav",
+   "duration": 6.24,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Pour elle, dix mille pascals, c'est déjà largement assez pour bien nettoyer.",
+   "file": "s05.wav",
+   "duration": 5.32,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Regarde aussi ma brosse et ma navigation.",
+   "file": "s06.wav",
+   "duration": 2.36,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Abonne-toi : d'autres objets vont tout balancer.",
+   "file": "s07.wav",
+   "duration": 3.16,
+   "rate": 24000
+  }
+ ],
+ "total": 33.12
+}
