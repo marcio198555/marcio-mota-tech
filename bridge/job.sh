@@ -8,7 +8,7 @@ early_push() {
   git diff --cached --quiet && return 0
   git commit -q -m "bridge output ($1) [skip-bridge]" || return 0
   for i in 1 2 3; do
-    git pull -q --rebase -X theirs origin tiktok-autopilot && git push -q origin HEAD:tiktok-autopilot && { echo "envoi anticipé : $1"; return 0; }
+    git pull -q --rebase --autostash -X theirs origin tiktok-autopilot && git push -q origin HEAD:tiktok-autopilot && { echo "envoi anticipé : $1"; return 0; }
     sleep 5
   done
   echo "envoi anticipé impossible ($1), le commit final s'en chargera"
