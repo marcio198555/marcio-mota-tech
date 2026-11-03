@@ -147,3 +147,14 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
   Remise en programmation une par une (updateScheduledPost, draft: false) ; les ids changent, l'uuid reste.
 - Contrôle à faire après toute reconnexion : getScheduledPosts sur 3 semaines, chercher draft: true et ERROR.
 - Windsor.ai (statistiques) n'a pas été touché.
+
+## 03.11.2026 (soir) — meilleurs outils gratuits (« sois 100 % autonome avec les meilleurs outils »)
+- Images : Z-Image-Turbo (Apache 2.0) tourne dans le pont GitHub sur CPU, environ 12 à 13 min par image ; décor très réussi
+  du premier coup, mais le personnage s'éloigne du sujet (un « bonhomme » assis sur un robot). GPT Image 2 (Cloudinary,
+  gratuit mais 50 crédits par mois ; 3 crédits en 9:16, 6 en carré) suit mieux la consigne : à réserver aux personnages
+  principaux, réutilisés ensuite. Détourage rembg BiRefNet : propre.
+- Le moteur anime une image IA (rebond, respiration, clignements, bouche dessinée par-dessus) : rendu nettement plus
+  « film d'animation » que les formes dessinées. Vidéo 23 refaite ainsi (mêmes faits, même voix) et remplacée dans Buffer.
+- Hugging Face Spaces : indisponible par ce connecteur (gradio=none), même après le réglage de Marcio.
+- Publication : Buffer pour TikTok et Stories (tâche quotidienne 7 h 13), Reels d'essai via vidIQ (file
+  `reels_queue.json`), Metricool en brouillon pour éviter les doublons.
