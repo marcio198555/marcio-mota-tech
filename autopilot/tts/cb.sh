@@ -11,6 +11,7 @@ python3 -m pip install -q uv 2>&1 | tail -1
 uv venv -q -p 3.11 /tmp/cbenv
 # torch CPU d'abord (évite les 3 Go de bibliothèques CUDA), puis Chatterbox.
 uv pip install -q -p /tmp/cbenv/bin/python --index-url https://download.pytorch.org/whl/cpu torch==2.6.0 torchaudio==2.6.0
-uv pip install -q -p /tmp/cbenv/bin/python chatterbox-tts 2>&1 | tail -3
-/tmp/cbenv/bin/python -c "import chatterbox, torch; print('chatterbox ok, torch', torch.__version__)"
+# setuptools < 81 : le filigrane Perth importe pkg_resources (absent des environnements uv)
+uv pip install -q -p /tmp/cbenv/bin/python chatterbox-tts "setuptools<81" 2>&1 | tail -3
+/tmp/cbenv/bin/python -c "import chatterbox, torch, perth; print('chatterbox ok, torch', torch.__version__, 'filigrane', perth.PerthImplicitWatermarker)"
 /tmp/cbenv/bin/python autopilot/tts/cb.py
