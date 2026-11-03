@@ -139,3 +139,11 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
 - Fin sans promesse datée (« d'autres objets vont tout balancer ») tant que la vidéo suivante n'est pas au plan.
 - Nouvelle prise de voix = nouveau job ET nouveau dossier studio ; voice_fx.py refuse maintenant de monter deux fois.
 - Annonces dans les descriptions déjà programmées : les corriger si la vidéo annoncée change (vidéo 22 corrigée).
+
+## 03.11.2026 — Changement de mot de passe Instagram : ce qui s'est passé
+- Après le changement de mot de passe (02.11 au soir), Metricool a perdu Instagram (« Instagram was disconnected ») ;
+  le 03.11, TikTok aussi (« Could not refresh TikTok Business accessToken ») : la vidéo TikTok de 10 h n'est pas partie.
+- À la reconnexion d'Instagram, Metricool a mis **toutes** les publications Instagram à venir en brouillon (draft: true).
+  Remise en programmation une par une (updateScheduledPost, draft: false) ; les ids changent, l'uuid reste.
+- Contrôle à faire après toute reconnexion : getScheduledPosts sur 3 semaines, chercher draft: true et ERROR.
+- Windsor.ai (statistiques) n'a pas été touché.

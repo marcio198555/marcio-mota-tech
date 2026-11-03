@@ -433,14 +433,14 @@
    "argent": "Croissance",
    "annonce": "ce que la fiche d'un téléviseur écrit en petit (jour 18)",
    "statut": "programmée",
-   "note": "Angle différent de la vidéo virale sur les ampoules (indice de rendu des couleurs) : on ne reprend pas son contenu.",
+   "note": "Angle différent de la vidéo virale sur les ampoules (indice de rendu des couleurs) : on ne reprend pas son contenu. TikTok publiée à 10 h 25 (10 h ratée : TikTok déconnecté), Story 10 h 30",
    "semaine": "S1",
-   "metricool_id": 410830246,
-   "programme_le": "2026-11-03T10:00",
+   "metricool_id": 415002992,
+   "programme_le": "2026-11-03T10:25",
    "titre": "Ampoules : lis les lumens, pas les watts",
    "story_instagram": {
-    "metricool_id": 412716143,
-    "heure": "10:05",
+    "metricool_id": 415003005,
+    "heure": "10:30",
     "fichier": "media/stories/day17_story.mp4"
    }
   },
@@ -468,12 +468,12 @@
    "titre": "TV 4K : ce qui est écrit en petit",
    "note": "Angle changé le 30.10 : aucune source officielle pour « 120 Hz » sur ce modèle ; fiche Samsung U8000F « Refresh Rate 60Hz » + note Motion Xcelerator + étiquette SDR/HDR (OFEN).",
    "story_instagram": {
-    "metricool_id": 412716230,
+    "metricool_id": 415001429,
     "heure": "18:05",
     "fichier": "media/stories/day18_story.mp4"
    },
    "reel_instagram": {
-    "metricool_id": 414047188,
+    "metricool_id": 415001448,
     "heure": "19:00",
     "fichier": "media/reels/day18_reel.mp4"
    }
@@ -502,7 +502,7 @@
    "titre": "Black Friday : la loi écrite en petit",
    "note": "Valeurs remplacées par XX / X (aucun prix inventé) ; complément de la vidéo 13 (art. 17 et SECO), sans répéter la règle des 2 mois.",
    "story_instagram": {
-    "metricool_id": 412716235,
+    "metricool_id": 415001933,
     "heure": "10:05",
     "fichier": "media/stories/day19_story.mp4"
    }
@@ -532,12 +532,12 @@
    "titre": "Achat en ligne : pas de retour légal de 14 jours en Suisse",
    "note": "Annonce de la vidéo 21 : « le programme éco du lave-vaisselle, 2 fois moins que l'intensif ».",
    "story_instagram": {
-    "metricool_id": 412716244,
+    "metricool_id": 415001956,
     "heure": "18:05",
     "fichier": "media/stories/day20_story.mp4"
    },
    "reel_instagram": {
-    "metricool_id": 414047206,
+    "metricool_id": 415001979,
     "heure": "19:00",
     "fichier": "media/reels/day20_reel.mp4"
    }
@@ -566,7 +566,7 @@
    "titre": "Lave-vaisselle : le plus long consomme 2 fois moins",
    "note": "Exemple concret : Bosch SMS4ECI28E (éco 0,543 kWh / intensif 1,15–1,25 kWh). Le règlement UE ne fixe pas de durée maximale du programme éco.",
    "story_instagram": {
-    "metricool_id": 412716252,
+    "metricool_id": 415002388,
     "heure": "10:05",
     "fichier": "media/stories/day21_story.mp4"
    }
@@ -595,12 +595,12 @@
    "titre": "MacBook « 18 h » : ce qui est écrit en petit",
    "note": "Modèle actuel : MacBook Air M5 (apple.com/chfr). Annonce dans la description : vendredi 6.11 à 10 h, robot aspirateur « 25 000 Pa » (jour 33). Description TikTok corrigée le 02.11 : annonce « 25 000 Pa » (nouvelle valeur de la vidéo 23 après contrôle qualité).",
    "story_instagram": {
-    "metricool_id": 412716263,
+    "metricool_id": 415002432,
     "heure": "18:05",
     "fichier": "media/stories/day22_story.mp4"
    },
    "reel_instagram": {
-    "metricool_id": 414047234,
+    "metricool_id": 415002460,
     "heure": "19:00",
     "fichier": "media/reels/day22_reel.mp4"
    }
@@ -627,12 +627,12 @@
    "programme_le": "2026-11-06T10:00",
    "titre": "Robot aspirateur « 25 000 Pa » : ça veut dire quoi ?",
    "story_instagram": {
-    "metricool_id": 414082320,
+    "metricool_id": 415002551,
     "heure": "10:05",
     "fichier": "media/stories/day23_story.mp4"
    },
    "reel_instagram": {
-    "metricool_id": 414082371,
+    "metricool_id": 415002585,
     "heure": "11:00",
     "fichier": "media/reels/day23_reel.mp4"
    }
