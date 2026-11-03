@@ -1,0 +1,29 @@
+{
+ "job": "cbtest_noref",
+ "engine": "chatterbox-multilingual",
+ "ref": null,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ils ont écrit vingt-cinq mille pascals sur ma boîte. En énorme.",
+   "file": "s01.wav",
+   "duration": 4.04,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Mais le pascal, ça mesure une pression. Ça ne suffit pas à dire si ton sol sera propre.",
+   "file": "s02.wav",
+   "duration": 4.72,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Et ce chiffre, c'est mon mode maximum. Pas forcément celui que tu utilises tous les jours.",
+   "file": "s03.wav",
+   "duration": 5.44,
+   "rate": 24000
+  }
+ ],
+ "total": 14.2
+}
