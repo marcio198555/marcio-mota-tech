@@ -1,0 +1,151 @@
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/siwis/medium/fr_FR-siwis-medium
++ n=fr_FR-siwis-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx.json
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+skip day01
+skip day01fix
+skip day02
+skip day02cta
+skip day03
+skip day03cta
+skip day04
+skip day04cta
+skip day04fix
+skip day05
+skip day05cta
+skip day05fix
+skip day06
+skip day06cta
+skip day06cta2
+skip day07
+skip day07cta
+skip day07fix
+skip day08
+skip day08cta
+skip day09
+skip day09fix
+skip day12
+skip day12fix
+skip day13
+skip day13fix
+skip day16
+skip day17
+skip day20
+skip day21
+skip day21fix
+skip day23
+skip day23b
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+asr autopilot/vo/cbtest_noref.wav -> ils ont écrit 25 000 pascals sur ma boîte en énorme. Mais le pascal, ça mesure une pression, ça ne suffit pas à dire si ton sol sera propre. Et ce chiffre, c'est mon mode maximum, pas forcément celui que tu utilises tous les jours.
+asr autopilot/vo/cbtest_tomref.wav -> Ils ont écrit 25 000 pascal sur ma boîte, en énorme, mais le pascal, ça mesure une pression, ça ne suffit pas à dire si ton sol sera propre, et ce chiffre, c'est mon mode maximum, pas forcément celui que tu utilises tous les jours.
++ ls autopilot/tts/cb_jobs/cbtest_noref.json autopilot/tts/cb_jobs/cbtest_tomref.json
++ timeout 20m bash autopilot/tts/cb.sh
+chatterbox : rien à faire
++ left=3081
++ '[' 3081 -gt 600 ']'
++ ls autopilot/img/jobs/decor_bureau.json autopilot/img/jobs/decor_chambre.json autopilot/img/jobs/decor_cuisine.json autopilot/img/jobs/decor_entree.json autopilot/img/jobs/decor_magasin.json autopilot/img/jobs/decor_salle_de_bain.json autopilot/img/jobs/zimg_test_robot_char.json autopilot/img/jobs/zimg_test_salon_bg.json
++ timeout 3081s bash autopilot/img/gen.sh
+img : 6 image(s) à faire
+TAG master-1047-984eb06
+cudart-sd-bin-win-cu12-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/cudart-sd-bin-win-cu12-x64.zip
+sd-master-984eb06-bin-Darwin-macOS-26.6.2-arm64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-Darwin-macOS-26.6.2-arm64.zip
+sd-master-984eb06-bin-Linux-Ubuntu-24.04-x86_64-rocm-10.1.0.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-Linux-Ubuntu-24.04-x86_64-rocm-10.1.0.zip
+sd-master-984eb06-bin-Linux-Ubuntu-26.04-x86_64-vulkan.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-Linux-Ubuntu-26.04-x86_64-vulkan.zip
+sd-master-984eb06-bin-Linux-Ubuntu-26.04-x86_64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-Linux-Ubuntu-26.04-x86_64.zip
+sd-master-984eb06-bin-win-cpu-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-win-cpu-x64.zip
+sd-master-984eb06-bin-win-cuda12-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-win-cuda12-x64.zip
+sd-master-984eb06-bin-win-rocm-10.1.0-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-win-rocm-10.1.0-x64.zip
+sd-master-984eb06-bin-win-vulkan-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-win-vulkan-x64.zip
+binaire : /tmp/sdbin/sd-cli
+-rw-r--r-- 1 runner runner 335304388 Nov  3 20:32 /home/runner/sdmodels/ae.safetensors
+-rw-r--r-- 1 runner runner 2497281120 Nov  3 20:33 /home/runner/sdmodels/qwen3-4b.gguf
+-rw-r--r-- 1 runner runner 5263239104 Nov  3 20:37 /home/runner/sdmodels/zimage.gguf
+[I] z_image build cached graph cut plan done (taking 2 ms) --- ggml_graph_cut.cpp:1032
+  |#                                                 |   4/451 -  14.65MB/s[K  |#########                                         |  77/451 -   3.75GB/s[K  |##################                                | 161/451 -   3.84GB/s[K  |##########################                        | 230/451 -   3.76GB/s[K  |##################################                | 306/451 -   3.85GB/s[K  |############################################      | 389/451 -   3.92GB/s[K  |##################################################| 451/451 -   3.95GB/s[K
+[I] loading tensors completed, taking 1.24s (read: 1.23s, memcpy: 0.00s, convert: 0.00s, copy_to_backend: 0.00s) --- model_loader.cpp:1426
+  |======>                                           | 1/8 - 172.05s/it - ETA 20:04[K  |============>                                     | 2/8 - 170.66s/it - ETA 17:08[K  |==================>                               | 3/8 - 171.27s/it - ETA 14:16[K  |=========================>                        | 4/8 - 170.83s/it - ETA 11:24[K  |===============================>                  | 5/8 - 170.64s/it - ETA 08:33[K  |=====================================>            | 6/8 - 170.63s/it - ETA 05:42[K  |===========================================>      | 7/8 - 170.64s/it - ETA 02:50[K  |==================================================| 8/8 - 170.65s/it[K
+[I] sampling completed, taking 1367.43s --- image.cpp:953
+[I] generating 1 latent images completed, taking 1367.43s --- image.cpp:965
+[I] decoding 1 latents --- image.cpp:605
+[I] vae build cached graph cut plan done (taking 0 ms) --- ggml_graph_cut.cpp:1032
+  |#                                                 |   2/138 -   0.00MB/s[K  |##################################################| 138/138 - 945.00MB/s[K
+[I] loading tensors completed, taking 0.20s (read: 0.12s, memcpy: 0.00s, convert: 0.06s, copy_to_backend: 0.00s) --- model_loader.cpp:1426
+[I] latent 1 decoded, taking 88.68s --- image.cpp:671
+[I] decode_first_stage completed, taking 88.68s --- image.cpp:675
+[I] generate_image completed in 1459.96s --- image.cpp:1140
+[I] save result image 0 to 'bridge/out/img/decor_bureau.png' (success) --- main.cpp:495
+[I] 1/1 images saved --- main.cpp:571
+img decor_bureau : 1461 s
++ echo 'img : arrêt ou échec'
+img : arrêt ou échec
++ left=180
++ '[' 180 -gt 120 ']'
++ timeout 180s bash autopilot/img/cut.sh
+cut : rien à faire
++ ls -la autopilot/tts/out autopilot/asr/out
++ head -40
+autopilot/asr/out:
+total 28
+drwxr-xr-x 2 runner runner 4096 Nov  3 20:32 .
+drwxr-xr-x 3 runner runner 4096 Nov  3 20:31 ..
+-rw-r--r-- 1 runner runner 1738 Nov  3 20:32 cbtest_noref.json
+-rw-r--r-- 1 runner runner 1749 Nov  3 20:32 cbtest_tomref.json
+-rw-r--r-- 1 runner runner 3580 Nov  3 20:31 day01_vo.json
+-rw-r--r-- 1 runner runner 3522 Nov  3 20:31 day23_vo_fx.json
+-rw-r--r-- 1 runner runner 3402 Nov  3 20:31 day23b_vo_fx.json
+
+autopilot/tts/out:
+total 148
+drwxr-xr-x 37 runner runner 4096 Nov  3 20:31 .
+drwxr-xr-x  6 runner runner 4096 Nov  3 20:31 ..
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 cbtest_noref
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 cbtest_tomref
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day01
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day01fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day02
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day02cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day03
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day03cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day04
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day04cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day04fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day05
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day05cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day05fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day06
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day06cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day06cta2
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day07
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day07cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day07fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day08
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day08cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day09
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day09fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day12
+drwxr-xr-x  2 runner runner 4096 Nov  3 20:31 day12fix
