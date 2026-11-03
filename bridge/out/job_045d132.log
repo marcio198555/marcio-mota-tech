@@ -1,0 +1,190 @@
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/siwis/medium/fr_FR-siwis-medium
++ n=fr_FR-siwis-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx.json
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+skip day01
+skip day01fix
+skip day02
+skip day02cta
+skip day03
+skip day03cta
+skip day04
+skip day04cta
+skip day04fix
+skip day05
+skip day05cta
+skip day05fix
+skip day06
+skip day06cta
+skip day06cta2
+skip day07
+skip day07cta
+skip day07fix
+skip day08
+skip day08cta
+skip day09
+skip day09fix
+skip day12
+skip day12fix
+skip day13
+skip day13fix
+skip day16
+skip day17
+skip day20
+skip day21
+skip day21fix
+skip day23
+skip day23b
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+asr: rien à faire
++ ls autopilot/tts/cb_jobs/cbtest_noref.json autopilot/tts/cb_jobs/cbtest_tomref.json
++ timeout 20m bash autopilot/tts/cb.sh
+chatterbox ok, torch 2.6.0+cpu
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 6 files:  33%|███▎      | 2/6 [00:00<00:00, 17.51it/s]Fetching 6 files:  67%|██████▋   | 4/6 [00:00<00:00,  3.74it/s]Fetching 6 files:  83%|████████▎ | 5/6 [00:14<00:04,  4.15s/it]Fetching 6 files: 100%|██████████| 6/6 [00:22<00:00,  5.20s/it]Fetching 6 files: 100%|██████████| 6/6 [00:22<00:00,  3.67s/it]
+/tmp/cbenv/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+Downloading: "https://github.com/explosion/spacy-pkuseg/releases/download/v0.0.26/spacy_ontonotes.zip" to /home/runner/.pkuseg/spacy_ontonotes.zip
+  0%|          | 0/34567143 [00:00<?, ?it/s] 50%|█████     | 17391616/34567143 [00:00<00:00, 173755176.77it/s]100%|██████████| 34567143/34567143 [00:00<00:00, 241461954.43it/s]
+Traceback (most recent call last):
+  File "/home/runner/work/marcio-mota-tech/marcio-mota-tech/autopilot/tts/cb.py", line 51, in <module>
+    model = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cbenv/lib/python3.11/site-packages/chatterbox/mtl_tts.py", line 220, in from_pretrained
+    return cls.from_local(ckpt_dir, device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cbenv/lib/python3.11/site-packages/chatterbox/mtl_tts.py", line 199, in from_local
+    return cls(t3, s3gen, ve, tokenizer, device, conds=conds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cbenv/lib/python3.11/site-packages/chatterbox/mtl_tts.py", line 155, in __init__
+    self.watermarker = perth.PerthImplicitWatermarker()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
++ echo 'chatterbox : arrêt ou échec'
+chatterbox : arrêt ou échec
++ ls autopilot/img/jobs/zimg_test_robot_char.json autopilot/img/jobs/zimg_test_salon_bg.json
++ timeout 30m bash autopilot/img/gen.sh
+img : 2 image(s) à faire
+TAG master-1047-984eb06
+cudart-sd-bin-win-cu12-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/cudart-sd-bin-win-cu12-x64.zip
+sd-master-984eb06-bin-Darwin-macOS-26.6.2-arm64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-Darwin-macOS-26.6.2-arm64.zip
+sd-master-984eb06-bin-Linux-Ubuntu-24.04-x86_64-rocm-10.1.0.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-Linux-Ubuntu-24.04-x86_64-rocm-10.1.0.zip
+sd-master-984eb06-bin-Linux-Ubuntu-26.04-x86_64-vulkan.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-Linux-Ubuntu-26.04-x86_64-vulkan.zip
+sd-master-984eb06-bin-Linux-Ubuntu-26.04-x86_64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-Linux-Ubuntu-26.04-x86_64.zip
+sd-master-984eb06-bin-win-cpu-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-win-cpu-x64.zip
+sd-master-984eb06-bin-win-cuda12-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-win-cuda12-x64.zip
+sd-master-984eb06-bin-win-rocm-10.1.0-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-win-rocm-10.1.0-x64.zip
+sd-master-984eb06-bin-win-vulkan-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-win-vulkan-x64.zip
+binaire : /tmp/sdbin/sd-cli
+-rw-r--r-- 1 runner runner 335304388 Nov  3 19:38 /home/runner/sdmodels/ae.safetensors
+-rw-r--r-- 1 runner runner 2497281120 Nov  3 19:38 /home/runner/sdmodels/qwen3-4b.gguf
+-rw-r--r-- 1 runner runner 5263239104 Nov  3 19:39 /home/runner/sdmodels/zimage.gguf
+[I] z_image build cached graph cut plan done (taking 2 ms) --- ggml_graph_cut.cpp:1032
+  |#                                                 |   4/452 -   0.00MB/s[K  |##############                                    | 118/452 -   5.88GB/s[K  |##########################                        | 235/452 -   6.04GB/s[K  |########################################          | 361/452 -   6.24GB/s[K  |################################################# | 442/452 -   5.77GB/s[K  |##################################################| 452/452 -   4.86GB/s[K
+[I] loading tensors completed, taking 1.01s (read: 0.83s, memcpy: 0.00s, convert: 0.00s, copy_to_backend: 0.00s) --- model_loader.cpp:1426
+  |======>                                           | 1/8 -  83.06s/it - ETA 09:41[K  |============>                                     | 2/8 -  81.81s/it - ETA 08:14[K  |==================>                               | 3/8 -  81.81s/it - ETA 06:51[K  |=========================>                        | 4/8 -  81.99s/it - ETA 05:28[K  |===============================>                  | 5/8 -  81.70s/it - ETA 04:06[K  |=====================================>            | 6/8 -  81.80s/it - ETA 02:44[K  |===========================================>      | 7/8 -  81.86s/it - ETA 01:22[K  |==================================================| 8/8 -  81.94s/it[K
+[I] sampling completed, taking 656.01s --- image.cpp:953
+[I] generating 1 latent images completed, taking 656.01s --- image.cpp:965
+[I] decoding 1 latents --- image.cpp:605
+[I] vae build cached graph cut plan done (taking 0 ms) --- ggml_graph_cut.cpp:1032
+  |##                                                |   3/138 -   0.00MB/s[K  |#########################################         | 112/138 - 449.82MB/s[K  |################################################  | 132/138 - 359.98MB/s[K  |##################################################| 138/138 - 314.48MB/s[K
+[I] loading tensors completed, taking 0.60s (read: 0.45s, memcpy: 0.00s, convert: 0.04s, copy_to_backend: 0.00s) --- model_loader.cpp:1426
+[I] latent 1 decoded, taking 97.51s --- image.cpp:671
+[I] decode_first_stage completed, taking 97.51s --- image.cpp:675
+[I] generate_image completed in 755.44s --- image.cpp:1140
+[I] save result image 0 to 'bridge/out/img/zimg_test_robot_char.png' (success) --- main.cpp:495
+[I] 1/1 images saved --- main.cpp:571
+img zimg_test_robot_char : 756 s
+[I] z_image build cached graph cut plan done (taking 3 ms) --- ggml_graph_cut.cpp:1032
+  |#                                                 |   3/452 -   0.00MB/s[K  |##                                                |  11/452 -  74.98MB/s[K  |##                                                |  17/452 - 230.96MB/s[K  |###                                               |  23/452 - 320.04MB/s[K  |####                                              |  28/452 - 345.92MB/s[K  |#####                                             |  40/452 - 375.81MB/s[K  |#####                                             |  41/452 - 346.09MB/s[K  |######                                            |  54/452 - 397.77MB/s[K  |########                                          |  65/452 - 410.12MB/s[K  |########                                          |  67/452 - 388.06MB/s[K  |#########                                         |  80/452 - 420.05MB/s[K  |##########                                        |  84/452 - 395.90MB/s[K  |###########                                       |  93/452 - 409.06MB/s[K  |############                                      | 104/452 - 415.79MB/s[K  |############                                      | 106/452 - 401.20MB/s[K  |##############                                    | 118/452 - 417.81MB/s[K  |##############                                    | 119/452 - 395.31MB/s[K  |###############                                   | 131/452 - 410.19MB/s[K  |###############                                   | 132/452 - 390.62MB/s[K  |#################                                 | 145/452 - 407.32MB/s[K  |#################                                 | 151/452 - 403.32MB/s[K  |##################                                | 158/452 - 402.25MB/s[K  |###################                               | 170/452 - 413.53MB/s[K  |###################                               | 171/452 - 398.06MB/s[K  |############################                      | 247/452 - 549.63MB/s[K  |############################                      | 253/452 - 542.27MB/s[K  |#############################                     | 262/452 - 542.72MB/s[K  |##############################                    | 266/452 - 528.95MB/s[K  |###############################                   | 275/452 - 529.15MB/s[K  |################################                  | 283/452 - 522.73MB/s[K  |################################                  | 288/452 - 517.49MB/s[K  |#################################                 | 294/452 - 511.35MB/s[K  |#########################################         | 364/452 - 607.66MB/s[K  |##################################################| 444/452 - 734.60MB/s[K  |##################################################| 452/452 - 737.60MB/s[K
+[I] loading tensors completed, taking 6.80s (read: 6.62s, memcpy: 0.00s, convert: 0.00s, copy_to_backend: 0.00s) --- model_loader.cpp:1426
+  |======>                                           | 1/8 -  88.62s/it - ETA 10:20[K  |============>                                     | 2/8 -  81.80s/it - ETA 08:31[K  |==================>                               | 3/8 -  81.90s/it - ETA 07:00[K  |=========================>                        | 4/8 -  81.73s/it - ETA 05:34[K  |===============================>                  | 5/8 -  81.97s/it - ETA 04:09[K  |=====================================>            | 6/8 -  81.86s/it - ETA 02:45[K  |===========================================>      | 7/8 -  81.92s/it - ETA 01:22[K  |==================================================| 8/8 -  81.96s/it[K
+[I] sampling completed, taking 661.81s --- image.cpp:953
+[I] generating 1 latent images completed, taking 661.81s --- image.cpp:965
+[I] decoding 1 latents --- image.cpp:605
+[I] vae build cached graph cut plan done (taking 0 ms) --- ggml_graph_cut.cpp:1032
+  |##                                                |   4/138 -   1.96MB/s[K  |##################################################| 138/138 - 940.30MB/s[K
+[I] loading tensors completed, taking 0.20s (read: 0.00s, memcpy: 0.00s, convert: 0.05s, copy_to_backend: 0.00s) --- model_loader.cpp:1426
+[I] latent 1 decoded, taking 97.11s --- image.cpp:671
+[I] decode_first_stage completed, taking 97.11s --- image.cpp:675
+[I] generate_image completed in 766.03s --- image.cpp:1140
+[I] save result image 0 to 'bridge/out/img/zimg_test_salon_bg.png' (success) --- main.cpp:495
+[I] 1/1 images saved --- main.cpp:571
+img zimg_test_salon_bg : 767 s
+Downloading data from 'https://github.com/danielgatis/rembg/releases/download/v0.0.0/BiRefNet-general-epoch_244.onnx' to file '/home/runner/.rembg/models/birefnet-general/birefnet-general.onnx'.
+  0%|                                               | 0.00/973M [00:00<?, ?B/s]  1%|▎                                     | 9.02M/973M [00:00<00:10, 90.2MB/s]  2%|▊                                      | 21.0M/973M [00:00<00:08, 106MB/s]  3%|█▎                                     | 33.7M/973M [00:00<00:08, 116MB/s]  5%|█▊                                     | 45.4M/973M [00:00<00:07, 116MB/s]  6%|██▎                                    | 58.4M/973M [00:00<00:07, 121MB/s]  7%|██▉                                    | 71.7M/973M [00:00<00:07, 125MB/s]  9%|███▍                                   | 84.9M/973M [00:00<00:06, 127MB/s] 10%|███▉                                   | 97.7M/973M [00:00<00:07, 121MB/s] 11%|████▌                                   | 110M/973M [00:00<00:07, 123MB/s] 13%|█████                                   | 123M/973M [00:01<00:06, 124MB/s] 14%|█████▌                                  | 137M/973M [00:01<00:06, 127MB/s] 15%|██████▏                                 | 149M/973M [00:01<00:06, 127MB/s] 17%|██████▋                                 | 162M/973M [00:01<00:06, 125MB/s] 18%|███████▏                                | 174M/973M [00:01<00:06, 124MB/s] 19%|███████▋                                | 188M/973M [00:01<00:06, 127MB/s] 21%|████████▎                               | 201M/973M [00:01<00:06, 128MB/s] 22%|████████▊                               | 214M/973M [00:01<00:05, 129MB/s] 23%|█████████▎                              | 227M/973M [00:01<00:05, 129MB/s] 25%|█████████▊                              | 240M/973M [00:01<00:05, 126MB/s] 26%|██████████▍                             | 252M/973M [00:02<00:06, 120MB/s] 27%|██████████▉                             | 265M/973M [00:02<00:05, 122MB/s] 29%|███████████▍                            | 279M/973M [00:02<00:05, 125MB/s] 30%|███████████▉                            | 291M/973M [00:02<00:05, 126MB/s] 31%|████████████▌                           | 304M/973M [00:02<00:05, 127MB/s] 33%|█████████████                           | 317M/973M [00:02<00:05, 127MB/s] 34%|█████████████▌                          | 329M/973M [00:02<00:05, 114MB/s] 35%|██████████████                          | 341M/973M [00:02<00:05, 112MB/s] 36%|██████████████▌                         | 354M/973M [00:02<00:05, 118MB/s] 38%|███████████████                         | 367M/973M [00:02<00:05, 119MB/s] 39%|███████████████▌                        | 379M/973M [00:03<00:05, 118MB/s] 40%|████████████████                        | 391M/973M [00:03<00:04, 120MB/s] 42%|████████████████▌                       | 404M/973M [00:03<00:04, 122MB/s] 43%|█████████████████                       | 416M/973M [00:03<00:04, 118MB/s] 44%|█████████████████▏                     | 428M/973M [00:03<00:05, 93.0MB/s] 45%|█████████████████▌                     | 439M/973M [00:03<00:05, 98.5MB/s] 46%|██████████████████▌                     | 452M/973M [00:03<00:04, 106MB/s] 48%|███████████████████▏                    | 466M/973M [00:03<00:04, 114MB/s] 49%|███████████████████▋                    | 479M/973M [00:04<00:04, 119MB/s] 51%|████████████████████▏                   | 492M/973M [00:04<00:03, 123MB/s] 52%|████████████████████▊                   | 505M/973M [00:04<00:03, 122MB/s] 53%|█████████████████████▎                  | 518M/973M [00:04<00:03, 126MB/s] 55%|█████████████████████▉                  | 532M/973M [00:04<00:03, 129MB/s] 56%|██████████████████████▍                 | 546M/973M [00:04<00:03, 131MB/s] 58%|███████████████████████                 | 559M/973M [00:04<00:03, 133MB/s] 59%|███████████████████████▌                | 573M/973M [00:04<00:02, 134MB/s] 60%|████████████████████████▏               | 587M/973M [00:04<00:02, 135MB/s] 62%|████████████████████████▋               | 600M/973M [00:04<00:02, 136MB/s] 63%|█████████████████████████▎              | 614M/973M [00:05<00:02, 135MB/s] 65%|█████████████████████████▊              | 628M/973M [00:05<00:02, 136MB/s] 66%|██████████████████████████▎             | 641M/973M [00:05<00:02, 136MB/s] 67%|██████████████████████████▉             | 655M/973M [00:05<00:02, 136MB/s] 69%|███████████████████████████▍            | 669M/973M [00:05<00:02, 136MB/s] 70%|████████████████████████████            | 682M/973M [00:05<00:02, 136MB/s] 72%|████████████████████████████▌           | 696M/973M [00:05<00:02, 136MB/s] 73%|█████████████████████████████▏          | 710M/973M [00:05<00:01, 137MB/s] 74%|█████████████████████████████▋          | 723M/973M [00:05<00:01, 136MB/s] 76%|██████████████████████████████▎         | 737M/973M [00:05<00:01, 136MB/s] 77%|██████████████████████████████▊         | 751M/973M [00:06<00:01, 136MB/s] 79%|███████████████████████████████▍        | 764M/973M [00:06<00:01, 137MB/s] 80%|███████████████████████████████▉        | 778M/973M [00:06<00:01, 136MB/s] 81%|████████████████████████████████▌       | 792M/973M [00:06<00:01, 136MB/s] 83%|█████████████████████████████████       | 805M/973M [00:06<00:01, 136MB/s] 84%|█████████████████████████████████▋      | 819M/973M [00:06<00:01, 132MB/s] 86%|██████████████████████████████████▏     | 832M/973M [00:06<00:01, 131MB/s] 87%|██████████████████████████████████▊     | 846M/973M [00:06<00:00, 132MB/s] 88%|███████████████████████████████████▎    | 859M/973M [00:06<00:00, 134MB/s] 90%|███████████████████████████████████▉    | 873M/973M [00:06<00:00, 134MB/s] 91%|████████████████████████████████████▍   | 886M/973M [00:07<00:00, 134MB/s] 93%|█████████████████████████████████████   | 900M/973M [00:07<00:00, 135MB/s] 94%|█████████████████████████████████████▌  | 913M/973M [00:07<00:00, 135MB/s] 95%|██████████████████████████████████████  | 927M/973M [00:07<00:00, 135MB/s] 97%|██████████████████████████████████████▋ | 940M/973M [00:07<00:00, 135MB/s] 98%|███████████████████████████████████████▏| 954M/973M [00:07<00:00, 136MB/s] 99%|███████████████████████████████████████▊| 968M/973M [00:07<00:00, 135MB/s]  0%|                                               | 0.00/973M [00:00<?, ?B/s]100%|███████████████████████████████████████| 973M/973M [00:00<00:00, 8.03TB/s]
+-rw-r--r-- 1 runner runner 289391 Nov  3 20:06 bridge/out/img/zimg_test_robot_char_cut.png
+total 1716
+drwxr-xr-x 2 runner runner   4096 Nov  3 20:05 .
+drwxr-xr-x 3 runner runner   4096 Nov  3 19:38 ..
+-rw-r--r-- 1 runner runner 522713 Nov  3 19:52 zimg_test_robot_char.png
+-rw-r--r-- 1 runner runner 289391 Nov  3 20:06 zimg_test_robot_char_cut.png
+-rw-r--r-- 1 runner runner 932710 Nov  3 20:04 zimg_test_salon_bg.png
++ timeout 10m bash autopilot/img/cut.sh
++ ls -la autopilot/tts/out autopilot/asr/out
++ head -40
+autopilot/asr/out:
+total 20
+drwxr-xr-x 2 runner runner 4096 Nov  3 19:37 .
+drwxr-xr-x 3 runner runner 4096 Nov  3 19:37 ..
+-rw-r--r-- 1 runner runner 3580 Nov  3 19:37 day01_vo.json
+-rw-r--r-- 1 runner runner 3522 Nov  3 19:37 day23_vo_fx.json
+-rw-r--r-- 1 runner runner 3402 Nov  3 19:37 day23b_vo_fx.json
+
+autopilot/tts/out:
+total 140
+drwxr-xr-x 35 runner runner 4096 Nov  3 19:37 .
+drwxr-xr-x  6 runner runner 4096 Nov  3 19:37 ..
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day01
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day01fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day02
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day02cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day03
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day03cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day04
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day04cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day04fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day05
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day05cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day05fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day06
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day06cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day06cta2
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day07
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day07cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day07fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day08
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day08cta
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day09
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day09fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day12
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day12fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day13
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day13fix
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day16
+drwxr-xr-x  2 runner runner 4096 Nov  3 19:37 day17
