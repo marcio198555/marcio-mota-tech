@@ -2,7 +2,7 @@
  "day": 23,
  "title": "Robot aspirateur « 25 000 Pa » : ça veut dire quoi ?",
  "format": "A",
- "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793631268/tiktok-autopilot/day23_robot-aspirateur-25000pa.mp4",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793737985/tiktok-autopilot/day23_robot-aspirateur-ia.mp4",
  "metricool_id": 414082026,
  "metricool_uuid": "-1993807433790044683",
  "programme_le": "2026-11-06T10:00:00+01:00",
@@ -14,16 +14,21 @@
  "story_instagram": {
   "metricool_id": 414082320,
   "programme_le": "2026-11-06T10:05:00+01:00",
-  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793631271/tiktok-autopilot/stories/day23_story.mp4"
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793737986/tiktok-autopilot/stories/day23_story_ia.mp4",
+  "buffer_id": "6aea1e44544a6d4567cb840d"
  },
  "reel_instagram": {
-  "metricool_id": 414082371,
+  "metricool_id": 415719656,
   "programme_le": "2026-11-06T11:00:00+01:00",
   "coupe_s": 23.34,
-  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793631274/tiktok-autopilot/reels/day23_reel.mp4",
-  "caption": "Robot aspirateur « 25 000 Pa » : ce que ce chiffre veut vraiment dire\n\nLe pascal (Pa) mesure une pression. La valeur écrite sur la boîte correspond au mode le plus fort, pas forcément celui qu'on utilise tous les jours. Une testeuse de TechRadar (article du 23.01.2026) estime que 10 000 Pa suffisent déjà pour bien nettoyer, et que la brosse et la navigation comptent aussi.\n\nRobot et boîte fictifs, voix de synthèse.\n\nEnvoie-la à quelqu'un qui compare les robots aspirateurs pour le Black Friday.\n\n#robotaspirateur #maison #achatmalin #suisseromande #jemesuretout"
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793737989/tiktok-autopilot/reels/day23_reel_ia.mp4",
+  "caption": "Robot aspirateur « 25 000 Pa » : ce que ce chiffre veut vraiment dire\n\nLe pascal (Pa) mesure une pression. La valeur écrite sur la boîte correspond au mode le plus fort, pas forcément celui qu'on utilise tous les jours. Une testeuse de TechRadar (article du 23.01.2026) estime que 10 000 Pa suffisent déjà pour bien nettoyer, et que la brosse et la navigation comptent aussi.\n\nRobot et boîte fictifs, voix de synthèse.\n\nEnvoie-la à quelqu'un qui compare les robots aspirateurs pour le Black Friday.\n\n#robotaspirateur #maison #achatmalin #suisseromande #jemesuretout",
+  "statut": "en attente (vidIQ, reels_queue.json)"
  },
  "sources": [
   "https://www.techradar.com/home/robot-vacuums/the-3-biggest-lies-robot-vacuum-brands-are-telling-us-by-a-professional-tester"
- ]
+ ],
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793737986/tiktok-autopilot/stories/day23_story_ia.mp4",
+ "version": "images IA (03.11.2026) : décor Z-Image-Turbo, robot GPT Image 2 ; mêmes voix, textes et faits",
+ "buffer_id": "6aea1e23f04b8d760d505aed"
 }
