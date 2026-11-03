@@ -40,8 +40,18 @@ from chatterbox.mtl_tts import ChatterboxMultilingualTTS  # noqa: E402
 
 root = pathlib.Path(__file__).resolve().parent
 repo = root.parent.parent
+import subprocess  # noqa: E402
+
+
+def done_remote(stem):
+    """Voix déjà poussée par un autre passage du pont ?"""
+    subprocess.run(["git", "fetch", "-q", "origin", "tiktok-autopilot"], cwd=repo, capture_output=True)
+    return subprocess.run(["git", "cat-file", "-e", f"origin/tiktok-autopilot:autopilot/tts/out/{stem}/manifest.json"],
+                          cwd=repo, capture_output=True).returncode == 0
+
+
 jobs = [j for j in sorted((root / "cb_jobs").glob("*.json"))
-        if not (root / "out" / j.stem / "manifest.json").exists()]
+        if not (root / "out" / j.stem / "manifest.json").exists() and not done_remote(j.stem)]
 if not jobs:
     print("chatterbox : rien à faire")
     sys.exit(0)
@@ -72,7 +82,8 @@ for job in jobs:
             kw["audio_prompt_path"] = ref
         wav = model.generate(text, **kw)
         f = out / f"{s['id']}.wav"
-        ta.save(str(f), wav, model.sr)
+        # WAV 16 bits (PCM) : assemble_vo.py et asr.py lisent avec le module wave, qui refuse le WAV flottant
+        ta.save(str(f), wav, model.sr, encoding="PCM_S", bits_per_sample=16)
         dur = wav.shape[-1] / model.sr
         segs.append({"id": s["id"], "text": text, "file": f.name, "duration": round(dur, 3), "rate": model.sr})
         print(job.stem, s["id"], round(dur, 2), "s audio en", round(time.time() - t1), "s")

@@ -11,10 +11,14 @@ set -u
 OUT=bridge/out/img
 mkdir -p "$OUT"
 pending=()
+# déjà fait ici, ou déjà poussé par un autre passage du pont (deux passages peuvent se suivre) ?
+done_remote() { git fetch -q origin tiktok-autopilot 2>/dev/null; git cat-file -e "origin/tiktok-autopilot:$OUT/$1.png" 2>/dev/null; }
 for j in autopilot/img/jobs/*.json; do
   [ -f "$j" ] || continue
   n=$(basename "$j" .json)
-  [ -s "$OUT/$n.png" ] || pending+=("$j")
+  [ -s "$OUT/$n.png" ] && continue
+  done_remote "$n" && { echo "img $n : déjà fait par un autre passage"; continue; }
+  pending+=("$j")
 done
 if [ ${#pending[@]} -eq 0 ]; then echo "img : rien à faire"; exit 0; fi
 echo "img : ${#pending[@]} image(s) à faire"
@@ -61,6 +65,7 @@ wait
 need_cut=0
 for j in "${pending[@]}"; do
   n=$(basename "$j" .json)
+  done_remote "$n" && { echo "img $n : déjà fait par un autre passage"; continue; }
   eval "$(python3 - "$j" <<'PY'
 import json, shlex, sys
 s = json.load(open(sys.argv[1], encoding="utf-8"))

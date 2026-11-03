@@ -18,8 +18,8 @@ if [ -f autopilot/asr/todo.txt ]; then
   python3 -m pip install -q faster-whisper 2>&1 | tail -1
   python3 autopilot/asr/asr.py
 fi
-# 3) Voix Chatterbox multilingue (licence MIT) : autopilot/tts/cb_jobs/*.json sans manifest (20 min au plus)
-if ls autopilot/tts/cb_jobs/*.json >/dev/null 2>&1; then timeout 20m bash autopilot/tts/cb.sh || echo "chatterbox : arrêt ou échec"; fi
+# 3) Voix Chatterbox multilingue (licence MIT) : autopilot/tts/cb_jobs/*.json sans manifest (40 min au plus)
+if ls autopilot/tts/cb_jobs/*.json >/dev/null 2>&1; then timeout 40m bash autopilot/tts/cb.sh || echo "chatterbox : arrêt ou échec"; fi
 
 # 4) Images open source Z-Image-Turbo (licence Apache 2.0) : autopilot/img/jobs/*.json sans image (dans le temps qui reste, 52 min au total)
 # (budget : le job GitHub s'arrête à 60 min ; on garde 8 min pour la fin et le commit)

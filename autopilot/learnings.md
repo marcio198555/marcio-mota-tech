@@ -158,3 +158,6 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
 - Hugging Face Spaces : indisponible par ce connecteur (gradio=none), même après le réglage de Marcio.
 - Publication : Buffer pour TikTok et Stories (tâche quotidienne 7 h 13), Reels d'essai via vidIQ (file
   `reels_queue.json`), Metricool en brouillon pour éviter les doublons.
+- Voix : Marcio a écouté les 3 essais et choisi la 3 (Chatterbox avec le timbre de la voix Piper), 03.11.2026 à 21 h 40.
+  Elle devient la voix par défaut (RUNBOOK § 11.7) ; la vidéo 23 est refaite avec cette voix avant sa publication du 6.11.
+  Piège évité : Chatterbox écrivait des WAV flottants, illisibles pour assemble_vo.py → WAV 16 bits.

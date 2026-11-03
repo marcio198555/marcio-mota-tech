@@ -293,7 +293,7 @@ Ne jamais reprendre la vidéo, l'image, le texte ou la musique d'un autre créat
    au plan ; sinon « Abonne-toi : d'autres objets vont tout balancer. » Le chiffre de la boîte doit rester cohérent
    avec la conclusion (vidéo 23 : 25 000 Pa sur la boîte, « 10 000 Pa suffisent » selon la source). Prononciation : écrire les marques
    comme elles se disent (« Tèk Radar », « aïe-fone »), nombres en lettres.
-2. **Voix** : job Piper comme § 5 (voix tom, length_scale 0.9), puis `assemble_vo.py … --lead 0.12 --gap 0.1`, puis
+2. **Voix** (depuis le 03.11.2026 : Chatterbox, § 11.7 ; secours : job Piper comme § 5, voix tom, length_scale 0.9), puis `assemble_vo.py … --lead 0.12 --gap 0.1`, puis (Piper seulement)
    `python3 autopilot/tools/voice_fx.py <studio>/vo.wav <studio>/timeline.json --factor 1.12` (voix de personnage, plus
    aiguë et plus rapide ; une seule fois), puis les champs `display` (nombres avec espace fine U+202F : « 25 000 Pa »).
 3. **Scène** `days/dayNN/scene.js` (modèle : `days/day23/scene.js`) : `CHR.room` (salon), `CHR.camera` (zooms sur les mots
@@ -350,14 +350,15 @@ seed, date). Réutiliser un décor ou un personnage déjà fait avant d'en gén�
 (bouche et yeux en fraction de l'image : les mesurer sur l'image détourée et les noter dans SOURCES.md).
 Modèle de scène : `autopilot/days/_ai_demo/scene.js`.
 
-### 11.7 Voix (03.11.2026)
-- **Par défaut : Piper** (voix tom, § 11.2 : `assemble_vo.py`, puis `voice_fx.py --factor 1.12`).
-- **Essai Chatterbox Multilingual** (Resemble AI, licence MIT, filigrane audio Perth inaudible qui signale une voix de
-  synthèse) dans le pont GitHub : un fichier `autopilot/tts/cb_jobs/<job>.json` (même liste de segments que Piper,
-  `"lang": "fr"`, `"ref"` optionnel = voix de référence d'environ 10 à 15 s, `"exaggeration"`, `"cfg"`, `"seed"`) ;
-  sortie `autopilot/tts/out/<job>/` au même format que Piper (manifest.json, un WAV par segment), donc
-  `assemble_vo.py` et la suite marchent sans changement. Compter environ 1 minute de calcul par phrase.
-  Essais du 03.11 : `cbtest_noref` (voix par défaut) et `cbtest_tomref` (référence `tts/refs/tom_ref.wav` = timbre
-  Piper), transcription Whisper dans `asr/out/cbtest_*.json`.
-- On passe à Chatterbox seulement quand Marcio a choisi une version après écoute (vidéo d'essai envoyée le 03.11) ;
-  noter son choix dans `learnings.md`. Toujours vérifier chaque voix par la transcription Whisper (§ 11.5).
+### 11.7 Voix (choix de Marcio le 03.11.2026 : version 3)
+- **Par défaut depuis le 03.11.2026 : Chatterbox Multilingual avec le timbre de la voix Piper** (Resemble AI, licence MIT ;
+  filigrane audio Perth inaudible qui signale une voix de synthèse). Marcio a écouté 3 versions et choisi la 3
+  (« 3 », 03.11.2026, 21 h 40). Job `autopilot/tts/cb_jobs/dayNN.json` : mêmes segments que Piper,
+  `{"engine": "chatterbox", "lang": "fr", "ref": "autopilot/tts/refs/tom_ref.wav", "exaggeration": 0.55, "cfg": 0.5,
+  "temperature": 0.8, "seed": 7, "segments": [...]}` ; push sans `[skip-bridge]` ; sortie `autopilot/tts/out/dayNN/`
+  au même format que Piper (manifest.json, un WAV 16 bits par segment). Compter environ 1 minute de calcul par phrase
+  (8 minutes pour une vidéo de 7 phrases) : envoyer les jobs de voix de plusieurs vidéos dans le même push.
+- Ensuite comme avant : `assemble_vo.py … --lead 0.12 --gap 0.1`, **sans `voice_fx.py`** (la version choisie par Marcio
+  n'a pas d'effet), champs `display`, transcription Whisper obligatoire (§ 11.5) : corriger tout mot mal dit
+  (réécrire la phrase ou changer `seed`, puis nouveau job sous un nouveau nom).
+- Piper reste la solution de secours si le pont échoue (voix tom, `voice_fx.py --factor 1.12`).
