@@ -1,0 +1,8 @@
+{
+ "prompt": "Cute 3D cartoon mascot character: a round white robot vacuum cleaner with big expressive glossy blue eyes on the front of its lid and a small friendly smile, two small black side brushes. Full body, centered, three-quarter front view, isolated on a plain pure white background, soft studio lighting, Pixar-like stylized 3D render, clean shapes. No text, no letters, no logo.",
+ "w": 768,
+ "h": 768,
+ "steps": 8,
+ "seed": 42,
+ "cut": true
+}

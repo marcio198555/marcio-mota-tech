@@ -18,4 +18,12 @@ if [ -f autopilot/asr/todo.txt ]; then
   python3 -m pip install -q faster-whisper 2>&1 | tail -1
   python3 autopilot/asr/asr.py
 fi
+# 3) Voix Chatterbox multilingue (licence MIT) : autopilot/tts/cb_jobs/*.json sans manifest (20 min au plus)
+if ls autopilot/tts/cb_jobs/*.json >/dev/null 2>&1; then timeout 20m bash autopilot/tts/cb.sh || echo "chatterbox : arrêt ou échec"; fi
+
+# 4) Images open source Z-Image-Turbo (licence Apache 2.0) : autopilot/img/jobs/*.json sans image (30 min au plus)
+if ls autopilot/img/jobs/*.json >/dev/null 2>&1; then timeout 30m bash autopilot/img/gen.sh || echo "img : arrêt ou échec"; fi
+# 5) Détourage : autopilot/img/cut_todo.txt
+timeout 10m bash autopilot/img/cut.sh || echo "cut : arrêt ou échec"
+
 ls -la autopilot/tts/out autopilot/asr/out 2>/dev/null | head -40

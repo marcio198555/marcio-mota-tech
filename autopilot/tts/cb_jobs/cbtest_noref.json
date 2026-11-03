@@ -1,0 +1,22 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ils ont écrit vingt-cinq mille pascals sur ma boîte. En énorme."
+  },
+  {
+   "id": "s02",
+   "text": "Mais le pascal, ça mesure une pression. Ça ne suffit pas à dire si ton sol sera propre."
+  },
+  {
+   "id": "s03",
+   "text": "Et ce chiffre, c'est mon mode maximum. Pas forcément celui que tu utilises tous les jours."
+  }
+ ]
+}
