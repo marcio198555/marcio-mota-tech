@@ -349,3 +349,15 @@ seed, date). Réutiliser un décor ou un personnage déjà fait avant d'en gén�
 `CHR.art(ctx, 'perso_robot', 540, 1330, 560, t, {mouth: [mx, my, mw], eyes: [[ex, ey, rx, ry], …], skin, lid, t0})`
 (bouche et yeux en fraction de l'image : les mesurer sur l'image détourée et les noter dans SOURCES.md).
 Modèle de scène : `autopilot/days/_ai_demo/scene.js`.
+
+### 11.7 Voix (03.11.2026)
+- **Par défaut : Piper** (voix tom, § 11.2 : `assemble_vo.py`, puis `voice_fx.py --factor 1.12`).
+- **Essai Chatterbox Multilingual** (Resemble AI, licence MIT, filigrane audio Perth inaudible qui signale une voix de
+  synthèse) dans le pont GitHub : un fichier `autopilot/tts/cb_jobs/<job>.json` (même liste de segments que Piper,
+  `"lang": "fr"`, `"ref"` optionnel = voix de référence d'environ 10 à 15 s, `"exaggeration"`, `"cfg"`, `"seed"`) ;
+  sortie `autopilot/tts/out/<job>/` au même format que Piper (manifest.json, un WAV par segment), donc
+  `assemble_vo.py` et la suite marchent sans changement. Compter environ 1 minute de calcul par phrase.
+  Essais du 03.11 : `cbtest_noref` (voix par défaut) et `cbtest_tomref` (référence `tts/refs/tom_ref.wav` = timbre
+  Piper), transcription Whisper dans `asr/out/cbtest_*.json`.
+- On passe à Chatterbox seulement quand Marcio a choisi une version après écoute (vidéo d'essai envoyée le 03.11) ;
+  noter son choix dans `learnings.md`. Toujours vérifier chaque voix par la transcription Whisper (§ 11.5).
