@@ -24,13 +24,14 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >    programment elles-mêmes dans Buffer tout ce qui tient (10 publications au plus par canal), dans l'ordre des
 >    dates, et remplissent `post.json` (statut « prête ») pour le reste.
 > 2. **Reels d'essai Instagram** : Buffer ne sait pas les faire et Metricool est à sa limite jusqu'au 1er décembre.
->    Les produire quand même (`reel_cut.sh`, Cloudinary) et noter `reel_instagram: "en attente"` avec `reel_url`.
->    Voie gratuite de remplacement : vidIQ (`vidiq_instagram_connected_accounts` doit lister filipe_marcio1985 avec
->    publishingAvailable true ; sinon Marcio doit connecter Instagram sur app.vidiq.com) : `vidiq_video_upload` (url =
->    lien Cloudinary du Reel, 0 crédit) puis `vidiq_instagram_publish_reel` avec `trialParams: {graduationStrategy:
->    "SS_PERFORMANCE"}`, `isAiGenerated: true`, légende Instagram (§ 8.5b) — 0 crédit. Publication immédiate (pas
->    de programmation) : au plus 2 Reels d'essai par jour, jamais deux fois le même. Ne jamais publier un Reel
->    normal à la place.
+>    **Ils passent par vidIQ** (gratuit, Instagram relié par Marcio le 03.11 : compte 28790973810544181,
+>    publishingAvailable true). Les tâches du vendredi produisent le Reel (`reel_cut.sh`, Cloudinary, légende
+>    Instagram § 8.5b) et l'ajoutent à **`autopilot/reels_queue.json`** (id, prevu, video_url, caption,
+>    isAiGenerated, statut « en attente »). La tâche de 7 h 13 publie chaque matin les entrées dues (aujourd'hui ou
+>    avant, 3 au plus) : `vidiq_video_upload` (url = video_url, 0 crédit) puis `vidiq_instagram_publish_reel`
+>    (platformAccountId 28790973810544181, `trialParams: {graduationStrategy: "SS_PERFORMANCE"}`, `isAiGenerated`
+>    de l'entrée, légende), appels de suite jusqu'à PUBLISHED ; puis statut « publié », date et lien. Jamais deux
+>    fois la même entrée, jamais un Reel normal.
 > 3. **Images : les meilleurs outils gratuits** pour le format A (§ 11.6) : décors et personnages générés par IA,
 >    animés par le moteur. Jamais de texte ni de chiffre dans une image IA : le moteur les écrit.
 > 4. **Voix** : voir § 11.7.

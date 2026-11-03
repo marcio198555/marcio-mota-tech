@@ -502,9 +502,11 @@
    "titre": "Black Friday : la loi écrite en petit",
    "note": "Valeurs remplacées par XX / X (aucun prix inventé) ; complément de la vidéo 13 (art. 17 et SECO), sans répéter la règle des 2 mois.",
    "story_instagram": {
-    "metricool_id": 415001933,
+    "metricool_id": 415719626,
     "heure": "10:05",
-    "fichier": "media/stories/day19_story.mp4"
+    "fichier": "media/stories/day19_story.mp4",
+    "buffer_id": "6aea3a7752391758e2e60c63",
+    "metricool_statut": "brouillon (Story publiée par Buffer)"
    }
   },
   {
@@ -527,7 +529,7 @@
    "annonce": "le lave-vaisselle : le programme le plus long consomme le moins (jour 21)",
    "statut": "programmée",
    "semaine": "S1",
-   "metricool_id": 411087688,
+   "metricool_id": 415719614,
    "programme_le": "2026-11-04T18:00",
    "titre": "Achat en ligne : pas de retour légal de 14 jours en Suisse",
    "note": "Annonce de la vidéo 21 : « le programme éco du lave-vaisselle, 2 fois moins que l'intensif ».",
@@ -542,8 +544,11 @@
     "metricool_id": 415550595,
     "heure": "19:00",
     "fichier": "media/reels/day20_reel.mp4",
-    "statut": "en attente (limite Metricool ; brouillon)"
-   }
+    "statut": "en attente (vidIQ, reels_queue.json)"
+   },
+   "buffer_id": "6aea3a7552391758e2e60c06",
+   "metricool_statut": "brouillon (TikTok publié par Buffer)",
+   "publie_par": "buffer"
   },
   {
    "jour": 21,
@@ -610,10 +615,10 @@
     "metricool_statut": "brouillon (Story publiée par Buffer)"
    },
    "reel_instagram": {
-    "metricool_id": 415002460,
+    "metricool_id": 415719641,
     "heure": "19:00",
     "fichier": "media/reels/day22_reel.mp4",
-    "statut": "programmé chez Metricool, échouera si la limite est atteinte"
+    "statut": "en attente (vidIQ, reels_queue.json)"
    },
    "buffer_id": "6aea1e221f06859f7ba28ca5",
    "metricool_statut": "brouillon (TikTok publié par Buffer)",
@@ -648,10 +653,10 @@
     "metricool_statut": "brouillon (Story publiée par Buffer)"
    },
    "reel_instagram": {
-    "metricool_id": 415002585,
+    "metricool_id": 415719656,
     "heure": "11:00",
     "fichier": "media/reels/day23_reel.mp4",
-    "statut": "programmé chez Metricool, échouera si la limite est atteinte"
+    "statut": "en attente (vidIQ, reels_queue.json)"
    },
    "buffer_id": "6aea1e23f04b8d760d505aed",
    "metricool_statut": "brouillon (TikTok publié par Buffer)",
