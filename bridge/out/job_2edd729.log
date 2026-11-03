@@ -93,3 +93,57 @@ chatterbox : rien à faire
 + git config user.name 'github-actions[bot]'
 + git config user.email '41898283+github-actions[bot]@users.noreply.github.com'
 + git add -f bridge/out autopilot/tts/out autopilot/asr/out
++ git diff --cached --quiet
++ git commit -q -m 'bridge output (voix) [skip-bridge]'
++ for i in 1 2 3
++ git pull -q --rebase -X theirs origin tiktok-autopilot
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
++ sleep 5
++ for i in 1 2 3
++ git pull -q --rebase -X theirs origin tiktok-autopilot
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
++ sleep 5
++ for i in 1 2 3
++ git pull -q --rebase -X theirs origin tiktok-autopilot
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
++ sleep 5
++ echo 'envoi anticipé impossible (voix), le commit final s'\''en chargera'
+envoi anticipé impossible (voix), le commit final s'en chargera
++ left=3037
++ '[' 3037 -gt 600 ']'
++ ls autopilot/img/jobs/decor_bureau.json autopilot/img/jobs/decor_chambre.json autopilot/img/jobs/decor_cuisine.json autopilot/img/jobs/decor_entree.json autopilot/img/jobs/decor_magasin.json autopilot/img/jobs/decor_salle_de_bain.json autopilot/img/jobs/zimg_test_robot_char.json autopilot/img/jobs/zimg_test_salon_bg.json
++ timeout 3037s bash autopilot/img/gen.sh
+img : 4 image(s) à faire
+TAG master-1047-984eb06
+cudart-sd-bin-win-cu12-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/cudart-sd-bin-win-cu12-x64.zip
+sd-master-984eb06-bin-Darwin-macOS-26.6.2-arm64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-Darwin-macOS-26.6.2-arm64.zip
+sd-master-984eb06-bin-Linux-Ubuntu-24.04-x86_64-rocm-10.1.0.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-Linux-Ubuntu-24.04-x86_64-rocm-10.1.0.zip
+sd-master-984eb06-bin-Linux-Ubuntu-26.04-x86_64-vulkan.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-Linux-Ubuntu-26.04-x86_64-vulkan.zip
+sd-master-984eb06-bin-Linux-Ubuntu-26.04-x86_64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-Linux-Ubuntu-26.04-x86_64.zip
+sd-master-984eb06-bin-win-cpu-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-win-cpu-x64.zip
+sd-master-984eb06-bin-win-cuda12-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-win-cuda12-x64.zip
+sd-master-984eb06-bin-win-rocm-10.1.0-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-win-rocm-10.1.0-x64.zip
+sd-master-984eb06-bin-win-vulkan-x64.zip https://github.com/leejet/stable-diffusion.cpp/releases/download/master-1047-984eb06/sd-master-984eb06-bin-win-vulkan-x64.zip
+binaire : /tmp/sdbin/sd-cli
+-rw-r--r-- 1 runner runner 335304388 Nov  3 22:27 /home/runner/sdmodels/ae.safetensors
+-rw-r--r-- 1 runner runner 2497281120 Nov  3 22:29 /home/runner/sdmodels/qwen3-4b.gguf
+-rw-r--r-- 1 runner runner 5263239104 Nov  3 22:30 /home/runner/sdmodels/zimage.gguf
+[I] z_image build cached graph cut plan done (taking 2 ms) --- ggml_graph_cut.cpp:1032
+  |#                                                 |   4/452 -   0.00MB/s[K  |#########                                         |  79/452 -   3.93GB/s[K  |##################                                | 157/452 -   4.02GB/s[K  |##########################                        | 227/452 -   3.93GB/s[K  |##################################                | 300/452 -   3.90GB/s[K  |##########################################        | 379/452 -   3.98GB/s[K  |##################################################| 452/452 -   4.00GB/s[K
+[I] loading tensors completed, taking 1.23s (read: 1.21s, memcpy: 0.00s, convert: 0.00s, copy_to_backend: 0.00s) --- model_loader.cpp:1426
+  |======>                                           | 1/8 - 171.13s/it - ETA 19:57[K  |============>                                     | 2/8 - 169.31s/it - ETA 17:01[K  |==================>                               | 3/8 - 169.90s/it - ETA 14:10[K  |=========================>                        | 4/8 - 170.10s/it - ETA 11:20[K  |===============================>                  | 5/8 - 170.73s/it - ETA 08:30[K  |=====================================>            | 6/8 - 170.73s/it - ETA 05:40[K  |===========================================>      | 7/8 - 170.39s/it - ETA 02:50[K  |==================================================| 8/8 - 169.39s/it[K
+[I] sampling completed, taking 1361.73s --- image.cpp:953
+[I] generating 1 latent images completed, taking 1361.73s --- image.cpp:965
+[I] decoding 1 latents --- image.cpp:605
+[I] vae build cached graph cut plan done (taking 0 ms) --- ggml_graph_cut.cpp:1032
+  |#                                                 |   2/138 -   0.00MB/s[K  |##################################################| 138/138 - 940.30MB/s[K
+[I] loading tensors completed, taking 0.20s (read: 0.11s, memcpy: 0.00s, convert: 0.06s, copy_to_backend: 0.00s) --- model_loader.cpp:1426
+[I] latent 1 decoded, taking 84.05s --- image.cpp:671
+[I] decode_first_stage completed, taking 84.05s --- image.cpp:675
+[I] generate_image completed in 1450.20s --- image.cpp:1140
+[I] save result image 0 to 'bridge/out/img/decor_cuisine.png' (success) --- main.cpp:495
+[I] 1/1 images saved --- main.cpp:571
+img decor_cuisine : 1451 s
