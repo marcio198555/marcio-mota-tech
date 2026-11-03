@@ -135,6 +135,27 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
   CRITIQUE ou MAJEUR, puis refaire le rendu.
 
 ## 8. Publier
+**Depuis le 03.11.2026 : Buffer (gratuit) publie TikTok et les Stories ; Metricool ne garde que les Reels d'essai.**
+Metricool gratuit = 20 publications par mois, tous réseaux confondus, compteur remis à zéro le 1er du mois ; limite
+atteinte le 04.11. Buffer gratuit (connecteur « BUFFER », organisation « My organization » 6aea1a8cfdbf7224ffc79066) :
+TikTok marcio.mota8 = canal 6aea1b96e29c69a1714dcae0, Instagram filipe_marcio1985 = canal 6aea1b6ce29c69a1714dc95c ;
+**10 publications programmées au maximum par canal à la fois** (une place se libère à chaque publication) ;
+Buffer ne fait PAS les Reels d'essai (types Instagram : post, story, reel).
+- **TikTok** : `create_post` channelId TikTok, schedulingType automatic, mode customScheduled, dueAt
+  « AAAA-MM-JJT10:00:00+01:00 », text = description (règles ci-dessous), assets [{video: {url: Cloudinary,
+  metadata: {thumbnailOffset: 1200 (format T : 11000)}}}], metadata {tiktok: {title, isAiGenerated: true}}.
+- **Story Instagram** : channelId Instagram, même chose avec assets [{video: {url: Story Cloudinary}}], pas de texte,
+  metadata {instagram: {type: "story", shouldShareToFeed: false, isAiGenerated: true}}, 5 min après la vidéo TikTok.
+- **Programmation au fil de l'eau** : la tâche quotidienne « Autopilot : programmation Buffer » programme chaque
+  matin tout ce qui tombe dans les 3 jours suivants (vidéos prêtes dans plan.json) sans dépasser 10 par canal.
+  Les tâches du vendredi produisent les vidéos, les mettent sur Cloudinary et remplissent `days/dayNN/post.json`
+  (video_url, story_url, title, caption, cover_ms, heure) avec `statut: "prête"` ; elles ne programment rien
+  chez Metricool pour TikTok ni pour les Stories.
+- **Reels d'essai** : Metricool seulement, dans la limite de 20 publications par mois (dès le 1er décembre ; en
+  novembre la limite est atteinte). Ne jamais publier un Reel normal à la place.
+- Noter les ids Buffer dans plan.json (`buffer_id`, `story_instagram.buffer_id`).
+
+Ancienne méthode (Metricool, jusqu'au 03.11) :
 1. Copier la vidéo dans `media/dayNN_<slug>.mp4`, commit `[skip-bridge]`, push ; noter le hash du commit.
 2. Cloudinary `upload-asset` depuis `https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/<hash>/media/<fichier>`
    (public_id `tiktok-autopilot/dayNN_<slug>`).
