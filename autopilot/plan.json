@@ -1,934 +1,934 @@
 {
-  "compte": "@marcio.mota8",
-  "fuseau": "Europe/Zurich",
-  "heure_par_defaut": "10:00",
-  "references_virales": {
-    "R1": {
-      "titre": "Fonction cachée d'un objet du quotidien (porte-essuie-tout)",
-      "createur": "@cippirippicippi",
-      "vues": "21,6 M vues, 1,1 M j'aime",
-      "source": "https://au.news.yahoo.com/paper-towel-holders-secret-storage-193541555.html"
-    },
-    "R2": {
-      "titre": "Fonction cachée de l'iPhone (déplacer plusieurs apps)",
-      "createur": "kevin_benjis (14 000 abonnés)",
-      "vues": "1,5 M vues",
-      "source": "https://tomsguide.com/news/this-hidden-iphone-feature-can-save-you-time-and-it-just-went-viral-on-tiktok"
-    },
-    "R3": {
-      "titre": "Astuce virale démontée par des experts (torchon sur le lave-vaisselle)",
-      "createur": "@laylaypearle",
-      "vues": "2,3 M vues",
-      "source": "https://www.idealhome.co.uk/house-manual/cleaning/dishwasher-tea-towel-tiktok-hack-debunked"
-    },
-    "R4": {
-      "titre": "Le vrai coût de chaque appareil, mesuré",
-      "createur": "@havinthecraic",
-      "vues": "plus de 200 000 vues",
-      "source": "https://www.kildarenow.com/news/irish-tiktoker-calculates-cost-of-everyday-household-electrical-items-with-surprising-results-7234872"
-    },
-    "R5": {
-      "titre": "Mythe de la charge du téléphone (batterie à 100 % après 2 ans)",
-      "createur": "@shoandtech",
-      "vues": "virale (chiffre non publié)",
-      "source": "https://bgr.com/tech/viral-tiktok-battery-health-100-percent-2-years/"
-    },
-    "R6": {
-      "titre": "Le gadget caché dans ton appareil (sonde du Ninja)",
-      "createur": "@bowesy5",
-      "vues": "virale (chiffre non publié)",
-      "source": "https://www.tomsguide.com/home/home-appliances/viral-tiktok-reveals-secret-gadget-built-into-ninja-air-fryer"
-    },
-    "R7": {
-      "titre": "#TikTokMadeMeBuyIt",
-      "createur": "hashtag",
-      "vues": "plus d'1 milliard de vues",
-      "source": "https://ppc.land/hashtag-tiktokmademebuyit-reaches-more-than-1-billion-views"
-    },
-    "R8": {
-      "titre": "Analyse de 13,5 M de clips (Opus Clip, 2026) : 30-45 s, résultat montré dans les 3 premières secondes, sous-titres incrustés, accroches « chiffre précis », « contre-pied », « ne l'achète pas avant… »",
-      "createur": "Opus Clip",
-      "vues": "étude",
-      "source": "https://www.opus.pro/blog/anatomy-of-a-viral-tiktok-2026"
-    },
-    "R9": {
-      "titre": "« Traduction officielle des annonces immobilières » : texte seul en boucle, musique seule",
-      "createur": "@immo.impact (2 500 abonnés)",
-      "vues": "1,9 M vues (24 × sa médiane)",
-      "source": "https://www.instagram.com/reel/DcwcyLCMIWW"
-    },
-    "R10": {
-      "titre": "« N'achète jamais un chargeur avant d'avoir vu ça » : le symbole caché sur l'objet",
-      "createur": "@toukiwanti",
-      "vues": "1,6 M vues",
-      "source": "https://www.instagram.com/reel/DdeLLZPhunz"
-    },
-    "R11": {
-      "titre": "« AI talking objects » : objets qui parlent, monologue sarcastique (format viral 2026)",
-      "createur": "tendance (OpusClip, 2026)",
-      "vues": "plusieurs vidéos à plus de 10 M de vues selon OpusClip (non vérifié)",
-      "source": "https://www.opus.pro/blog/ai-talking-object-videos"
-    }
+ "compte": "@marcio.mota8",
+ "fuseau": "Europe/Zurich",
+ "heure_par_defaut": "10:00",
+ "references_virales": {
+  "R1": {
+   "titre": "Fonction cachée d'un objet du quotidien (porte-essuie-tout)",
+   "createur": "@cippirippicippi",
+   "vues": "21,6 M vues, 1,1 M j'aime",
+   "source": "https://au.news.yahoo.com/paper-towel-holders-secret-storage-193541555.html"
   },
-  "jours": [
-    {
-      "jour": 1,
-      "date": "2026-10-25",
-      "sujet": "45 % de pente ≠ 45° : le piège des robots tondeuses",
-      "mecanique": "Contre-pied : le chiffre qui piège",
-      "refs": [
-        "R3",
-        "R8"
-      ],
-      "accroche": "45 % ≠ 45°",
-      "argent": "Croissance ; affiliation robots tondeuses (Black Friday)",
-      "statut": "publiée",
-      "url": "https://www.tiktok.com/@marcio.mota8/video/7700528800752225569",
-      "format": "V"
-    },
-    {
-      "jour": 2,
-      "date": "2026-10-26",
-      "sujet": "3 instruments de mesure cachés dans ton iPhone",
-      "mecanique": "La fonction cachée",
-      "refs": [
-        "R2",
-        "R1"
-      ],
-      "accroche": "3 instruments cachés dans ton iPhone",
-      "argent": "Croissance (enregistrements, abonnés)",
-      "statut": "publiée",
-      "format": "V"
-    },
-    {
-      "jour": 3,
-      "date": "2026-10-27",
-      "sujet": "20 000 mAh ≠ 5 recharges : le piège des batteries externes",
-      "mecanique": "Le calcul qui choque + ne l'achète pas avant",
-      "refs": [
-        "R8",
-        "R4"
-      ],
-      "accroche": "20 000 ÷ 4 000 = 5 ? NON.",
-      "argent": "Affiliation batteries externes (Black Friday)",
-      "statut": "publiée",
-      "format": "V"
-    },
-    {
-      "jour": 4,
-      "date": "2026-10-28",
-      "sujet": "Fenêtre en oscillo-battant en hiver : mauvaise idée (OFSP)",
-      "mecanique": "Tu le fais mal (contre-pied)",
-      "refs": [
-        "R3",
-        "R8"
-      ],
-      "accroche": "Oscillo-battant tout l'hiver ? ✕",
-      "argent": "Croissance (partages) ; marques capteurs d'air et de fenêtres",
-      "statut": "programmée",
-      "heure": "18:00",
-      "note": "Test d'heure : 18 h au lieu de 10 h (à comparer au bilan du vendredi)",
-      "format": "V"
-    },
-    {
-      "jour": 5,
-      "date": "2026-10-29",
-      "sujet": "8 lettres minuscules = 3 semaines pour casser ton mot de passe",
-      "mecanique": "Le chiffre précis qui fait peur",
-      "refs": [
-        "R8"
-      ],
-      "accroche": "8 minuscules → 2 SEMAINES",
-      "argent": "Affiliation gestionnaire de mots de passe",
-      "statut": "programmée",
-      "format": "V"
-    },
-    {
-      "jour": 6,
-      "date": "2026-10-30",
-      "sujet": "L'eau en trop dans ta bouilloire : environ 20 CHF par an",
-      "mecanique": "Le vrai coût de tes appareils",
-      "refs": [
-        "R4"
-      ],
-      "accroche": "20 CHF par an pour de l'eau en trop",
-      "argent": "Affiliation bouilloires à température, prises connectées",
-      "statut": "programmée",
-      "annoncee": true,
-      "note": "Fin remplacée le 29.10 : « Et abonne-toi : ce soir, ce que la fiche technique de l'iPhone 17 veut vraiment dire. »",
-      "format": "V",
-      "heure": "10:00",
-      "semaine": "S1",
-      "annonce": "ce qu'Apple écrit en petit sur l'iPhone 17 (jour 10)",
-      "metricool_id": 409984725,
-      "programme_le": "2026-10-30T10:00"
-    },
-    {
-      "jour": 7,
-      "date": "2026-10-29",
-      "sujet": "Deux câbles USB-C identiques : 60 W ou 240 W",
-      "mecanique": "Le piège invisible + Black Friday",
-      "refs": [
-        "R8",
-        "R3"
-      ],
-      "accroche": "IDENTIQUES ? 60 W / 240 W",
-      "argent": "Affiliation câbles certifiés (Black Friday)",
-      "statut": "programmée",
-      "note": "Fin remplacée par l'annonce de la bouilloire (vendredi 10 h).",
-      "heure": "18:00",
-      "metricool_id": 407867325,
-      "programme_le": "2026-10-29T18:00",
-      "format": "V"
-    },
-    {
-      "jour": 8,
-      "date": "2026-10-27",
-      "heure": "18:00",
-      "sujet": "Arrête de fermer tes applis : ça n'économise pas ta batterie",
-      "mecanique": "Le mythe démonté par la source officielle",
-      "refs": [
-        "R8"
-      ],
-      "accroche": "Tu fermes tes applis ? ARRÊTE.",
-      "a_verifier": [
-        "Apple HT201330",
-        "Google Android 9079646",
-        "Android démarrage à froid",
-        "Apple luminosité automatique"
-      ],
-      "argent": "Audience large (tous les smartphones)",
-      "statut": "programmée",
-      "annonce": "décibels (mer. 10 h)",
-      "metricool_id": 407867263,
-      "programme_le": "2026-10-27T18:00",
-      "format": "V"
-    },
-    {
-      "jour": 9,
-      "date": "2026-10-28",
-      "heure": "10:00",
-      "sujet": "+10 dB, ça paraît 2 fois plus fort",
-      "mecanique": "Le calcul qui choque",
-      "refs": [
-        "R8"
-      ],
-      "accroche": "70 → 80 dB : +14 % ? Non, 2 fois plus fort.",
-      "a_verifier": [
-        "Suva, Musique et troubles de l'ouïe (p. 4 et 11)"
-      ],
-      "argent": "Casques à réduction de bruit, bouchons d'oreille (affiliation possible)",
-      "statut": "programmée",
-      "annonce": "fenêtre oscillo-battant (mer. 18 h)",
-      "metricool_id": 407867297,
-      "programme_le": "2026-10-28T10:00",
-      "format": "V"
-    },
-    {
-      "jour": 10,
-      "date": "2026-10-30",
-      "heure": "18:00",
-      "format": "T",
-      "sujet": "iPhone 17 : ce qu'Apple écrit en petit",
-      "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
-      "refs": [
-        "R9"
-      ],
-      "accroche": "CE QU'APPLE ÉCRIT en petit · 256 Go*",
-      "a_verifier": [
-        "notes de la fiche technique officielle iPhone 17 (apple.com) : espace disponible, IP68 et garantie, charge rapide et adaptateur, autonomie"
-      ],
-      "argent": "Croissance (Black Friday)",
-      "statut": "programmée",
-      "note": "Vidéo pilote du format T, produite le 29.10. Source : https://www.apple.com/ci/iphone-17/specs/",
-      "semaine": "S1",
-      "metricool_id": 409980564,
-      "programme_le": "2026-10-30T18:00"
-    },
-    {
-      "jour": 11,
-      "date": "2026-10-31",
-      "heure": "10:00",
-      "format": "T",
-      "sujet": "Disque dur / SSD : ce que la boîte écrit en petit",
-      "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
-      "refs": [
-        "R9"
-      ],
-      "accroche": "1 To ACHETÉ · 931 Go AFFICHÉS",
-      "a_verifier": [
-        "1 To = 1 000 milliards d'octets (note de bas de page d'un fabricant : Seagate, WD ou Samsung)",
-        "Windows compte en base 1024 : 10^12 / 1024^3 = 931,3 Go (calcul montré)",
-        "USB 3.2 Gen 1 = 5 Gbit/s (USB-IF)",
-        "« jusqu'à X Mo/s » : conditions de test du fabricant (note)"
-      ],
-      "argent": "Croissance (Black Friday)",
-      "statut": "programmée",
-      "semaine": "S1",
-      "metricool_id": 410830177,
-      "programme_le": "2026-10-31T10:00",
-      "titre": "SSD 1 To : ce qui est écrit en petit"
-    },
-    {
-      "jour": 12,
-      "date": "2026-10-31",
-      "heure": "18:00",
-      "format": "V",
-      "sujet": "Ton chargeur 65 W ne charge pas ton téléphone à 65 W",
-      "mecanique": "Le chiffre sur la boîte + « n'achète pas avant de savoir ça »",
-      "refs": [
-        "R10",
-        "R8"
-      ],
-      "accroche": "CHARGEUR 65 W ? TON TÉLÉPHONE DÉCIDE CE QU'IL PREND",
-      "a_verifier": [
-        "puissance de charge maximale de téléphones courants (fiches officielles Apple / Samsung)",
-        "USB Power Delivery : le téléphone demande, le chargeur fournit au plus ce qui est demandé (USB-IF)"
-      ],
-      "argent": "Affiliation chargeurs (Black Friday)",
-      "annonce": "le prix barré du Black Friday : ce que dit la loi suisse (jour 13)",
-      "statut": "programmée",
-      "semaine": "S1",
-      "metricool_id": 411087596,
-      "programme_le": "2026-10-31T18:00",
-      "titre": "Chargeur 65 W : ton téléphone décide",
-      "note": "Voix corrigée au contrôle qualité : « ne charge pas forcément » (USB-IF : l'appareil prend ce qu'il demande)."
-    },
-    {
-      "jour": 13,
-      "date": "2026-11-01",
-      "heure": "10:00",
-      "format": "V",
-      "sujet": "Prix barré du Black Friday : ce que dit la loi suisse",
-      "mecanique": "Ce que personne ne te dit (la loi)",
-      "refs": [
-        "R8"
-      ],
-      "accroche": "−50 % ? PAR RAPPORT À QUOI ?",
-      "a_verifier": [
-        "Ordonnance sur l'indication des prix (OIP, RS 942.211), art. 16 : conditions d'un prix de comparaison",
-        "FAQ / guide du SECO sur l'indication des prix",
-        "durée pendant laquelle l'ancien prix doit avoir été pratiqué"
-      ],
-      "argent": "Croissance (Black Friday)",
-      "annonce": "ce que la boîte d'un routeur Wi-Fi écrit en petit (jour 14)",
-      "statut": "programmée",
-      "semaine": "S1",
-      "metricool_id": 410830195,
-      "programme_le": "2026-11-01T10:00",
-      "titre": "Prix barré : ce que dit la loi suisse",
-      "note": "Faits revus le 30.10 : depuis le 1.1.2025, OIP art. 16 al. 3 = moitié de la durée (max. 2 mois) pour un prix pratiqué juste avant, sans limite pour un prix pratiqué ≥ 30 jours consécutifs.",
-      "story_instagram": {
-        "metricool_id": 412716037,
-        "heure": "10:05",
-        "fichier": "media/stories/day13_story.mp4"
-      }
-    },
-    {
-      "jour": 14,
-      "date": "2026-11-01",
-      "heure": "18:00",
-      "format": "T",
-      "sujet": "Routeur Wi-Fi : ce que la boîte écrit en petit",
-      "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
-      "refs": [
-        "R9"
-      ],
-      "accroche": "AX3000 = 3 000 Mbit/s ?",
-      "a_verifier": [
-        "AX3000 = somme des débits théoriques maximaux des bandes (fiche fabricant, ex. 2402 + 574 Mbit/s)",
-        "débit réel limité par l'abonnement et l'appareil (note du fabricant)",
-        "Wi-Fi 6 = 802.11ax (Wi-Fi Alliance)"
-      ],
-      "argent": "Croissance",
-      "statut": "programmée",
-      "semaine": "S1",
-      "metricool_id": 411087612,
-      "programme_le": "2026-11-01T18:00",
-      "titre": "Routeur AX3000 : ce qui est écrit en petit",
-      "story_instagram": {
-        "metricool_id": 412716126,
-        "heure": "18:05",
-        "fichier": "media/stories/day14_story.mp4"
-      }
-    },
-    {
-      "jour": 15,
-      "date": "2026-11-02",
-      "heure": "10:00",
-      "format": "T",
-      "sujet": "Écouteurs sans fil : ce que la boîte écrit en petit",
-      "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
-      "refs": [
-        "R9"
-      ],
-      "accroche": "30 h D'AUTONOMIE ?",
-      "a_verifier": [
-        "autonomie des écouteurs seuls contre « avec le boîtier » (fiche officielle, ex. Apple AirPods ou Samsung Galaxy Buds)",
-        "indice IP54 / IPX4 : ce qu'il couvre (CEI 60529) et notes du fabricant",
-        "autonomie mesurée avec ou sans réduction de bruit (note)"
-      ],
-      "argent": "Affiliation écouteurs (Black Friday)",
-      "statut": "programmée",
-      "semaine": "S1",
-      "metricool_id": 410830215,
-      "programme_le": "2026-11-02T10:00",
-      "titre": "Écouteurs « 30 h » : ce qui est écrit en petit",
-      "note": "Produit nommé : AirPods 4 (le chiffre 30 h ne vaut pas pour les AirPods 5).",
-      "story_instagram": {
-        "metricool_id": 412716133,
-        "heure": "10:05",
-        "fichier": "media/stories/day15_story.mp4"
-      }
-    },
-    {
-      "jour": 16,
-      "date": "2026-11-02",
-      "heure": "18:00",
-      "format": "V",
-      "sujet": "En Suisse, la garantie de 2 ans peut être exclue",
-      "mecanique": "Contre-pied (la loi)",
-      "refs": [
-        "R8"
-      ],
-      "accroche": "2 ANS DE GARANTIE ? PAS FORCÉMENT",
-      "a_verifier": [
-        "CO art. 197 ss et 210 : délai de 2 ans pour les défauts",
-        "la garantie légale peut être limitée ou exclue par contrat, sauf dol (CO art. 199)",
-        "source officielle : ch.ch, SECO ou FRC"
-      ],
-      "argent": "Croissance (Black Friday)",
-      "annonce": "les ampoules : lis les lumens, pas les watts (jour 17)",
-      "statut": "programmée",
-      "semaine": "S1",
-      "metricool_id": 411087639,
-      "programme_le": "2026-11-02T18:00",
-      "titre": "Garantie 2 ans : en Suisse, elle peut être exclue",
-      "story_instagram": {
-        "metricool_id": 412716139,
-        "heure": "18:05",
-        "fichier": "media/stories/day16_story.mp4"
-      },
-      "reel_instagram": {
-        "metricool_id": 414047151,
-        "heure": "19:00",
-        "fichier": "media/reels/day16_reel.mp4"
-      }
-    },
-    {
-      "jour": 17,
-      "date": "2026-11-03",
-      "heure": "10:00",
-      "format": "V",
-      "sujet": "Ampoules : lis les lumens, pas les watts",
-      "mecanique": "Le piège de l'étiquette",
-      "refs": [
-        "R8"
-      ],
-      "accroche": "60 W ? ÇA NE DIT PAS LA LUMIÈRE",
-      "a_verifier": [
-        "étiquette énergie des lampes : flux lumineux en lumens (règlement UE 2019/2015, repris en Suisse)",
-        "équivalences lumens ↔ ancienne ampoule à incandescence (source officielle)"
-      ],
-      "argent": "Croissance",
-      "annonce": "ce que la fiche d'un téléviseur écrit en petit (jour 18)",
-      "statut": "programmée",
-      "note": "Angle différent de la vidéo virale sur les ampoules (indice de rendu des couleurs) : on ne reprend pas son contenu. TikTok publiée à 10 h 25 (10 h ratée : TikTok déconnecté), Story 10 h 30",
-      "semaine": "S1",
-      "metricool_id": 415002992,
-      "programme_le": "2026-11-03T10:25",
-      "titre": "Ampoules : lis les lumens, pas les watts",
-      "story_instagram": {
-        "metricool_id": 415003005,
-        "heure": "10:30",
-        "fichier": "media/stories/day17_story.mp4"
-      }
-    },
-    {
-      "jour": 18,
-      "date": "2026-11-03",
-      "heure": "18:00",
-      "format": "T",
-      "sujet": "Téléviseur : ce que la fiche écrit en petit",
-      "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
-      "refs": [
-        "R9"
-      ],
-      "accroche": "TV 4K : CE QUI EST écrit en petit · « Refresh Rate 60Hz »",
-      "a_verifier": [
-        "« Motion Rate » / « TruMotion » ≠ fréquence native de la dalle (fabricant ou RTINGS)",
-        "HDR : luminosité et conditions (fiche)",
-        "consommation de l'étiquette mesurée en mode standard (étiquette énergie)"
-      ],
-      "argent": "Affiliation TV (Black Friday)",
-      "statut": "programmée",
-      "semaine": "S1",
-      "metricool_id": 411087673,
-      "programme_le": "2026-11-03T18:00",
-      "titre": "TV 4K : ce qui est écrit en petit",
-      "note": "Angle changé le 30.10 : aucune source officielle pour « 120 Hz » sur ce modèle ; fiche Samsung U8000F « Refresh Rate 60Hz » + note Motion Xcelerator + étiquette SDR/HDR (OFEN).",
-      "story_instagram": {
-        "metricool_id": 415001429,
-        "heure": "18:05",
-        "fichier": "media/stories/day18_story.mp4"
-      },
-      "reel_instagram": {
-        "metricool_id": 415001448,
-        "heure": "19:00",
-        "fichier": "media/reels/day18_reel.mp4"
-      }
-    },
-    {
-      "jour": 19,
-      "date": "2026-11-04",
-      "heure": "10:00",
-      "format": "T",
-      "sujet": "Promos du Black Friday : ce qui est écrit en petit",
-      "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
-      "refs": [
-        "R9"
-      ],
-      "accroche": "« JUSQU'À −70 % »",
-      "a_verifier": [
-        "« jusqu'à » = une partie des articles seulement (OIP / SECO)",
-        "« prix conseillé » comme prix de comparaison : conditions (OIP art. 16)",
-        "« dès 9.90 » = prix du modèle le moins cher"
-      ],
-      "argent": "Croissance (Black Friday)",
-      "statut": "programmée",
-      "semaine": "S1",
-      "metricool_id": 410830260,
-      "programme_le": "2026-11-04T10:00",
-      "titre": "Black Friday : la loi écrite en petit",
-      "note": "Valeurs remplacées par XX / X (aucun prix inventé) ; complément de la vidéo 13 (art. 17 et SECO), sans répéter la règle des 2 mois.",
-      "story_instagram": {
-        "metricool_id": 415719626,
-        "heure": "10:05",
-        "fichier": "media/stories/day19_story.mp4",
-        "buffer_id": "6aea3a7752391758e2e60c63",
-        "metricool_statut": "brouillon (Story publiée par Buffer)"
-      }
-    },
-    {
-      "jour": 20,
-      "date": "2026-11-04",
-      "heure": "18:00",
-      "format": "V",
-      "sujet": "Achat en ligne en Suisse : pas de droit légal de retour de 14 jours",
-      "mecanique": "Contre-pied (la loi)",
-      "refs": [
-        "R8"
-      ],
-      "accroche": "14 JOURS POUR RENVOYER ? PAS EN SUISSE",
-      "a_verifier": [
-        "CO art. 40a ss : droit de révocation seulement pour le démarchage (porte-à-porte, téléphone), pas pour l'achat en ligne",
-        "source officielle : ch.ch, SECO ou FRC",
-        "le retour dépend alors des conditions du vendeur"
-      ],
-      "argent": "Croissance (Black Friday)",
-      "annonce": "le lave-vaisselle : le programme le plus long consomme le moins (jour 21)",
-      "statut": "programmée",
-      "semaine": "S1",
-      "metricool_id": 415719614,
-      "programme_le": "2026-11-04T18:00",
-      "titre": "Achat en ligne : pas de retour légal de 14 jours en Suisse",
-      "note": "Annonce de la vidéo 21 : « le programme éco du lave-vaisselle, 2 fois moins que l'intensif ».",
-      "story_instagram": {
-        "metricool_id": 415550586,
-        "heure": "18:05",
-        "fichier": "media/stories/day20_story.mp4",
-        "buffer_id": "6aea1e42f04b8d760d505f28",
-        "metricool_statut": "brouillon (Story publiée par Buffer)"
-      },
-      "reel_instagram": {
-        "metricool_id": 415550595,
-        "heure": "19:00",
-        "fichier": "media/reels/day20_reel.mp4",
-        "statut": "publié (vidIQ)",
-        "publie_le": "2026-11-04T07:15:45+01:00",
-        "lien": "https://www.instagram.com/reel/DfTyjkjiCpQ/"
-      },
-      "buffer_id": "6aea3a7552391758e2e60c06",
-      "metricool_statut": "brouillon (TikTok publié par Buffer)",
-      "publie_par": "buffer"
-    },
-    {
-      "jour": 21,
-      "date": "2026-11-05",
-      "heure": "10:00",
-      "format": "V",
-      "sujet": "Lave-vaisselle : le programme le plus long consomme le moins",
-      "mecanique": "Contre-pied",
-      "refs": [
-        "R3"
-      ],
-      "accroche": "LE PLUS LONG = LE MOINS CHER",
-      "a_verifier": [
-        "programme éco : plus long, moins d'énergie (règlement UE 2019/2022, programme de référence de l'étiquette)",
-        "chiffres d'un fabricant, de SuisseEnergie ou de Topten"
-      ],
-      "argent": "Croissance",
-      "annonce": "ce que la fiche d'un ordinateur portable écrit en petit (jour 22)",
-      "statut": "programmée",
-      "semaine": "S1",
-      "metricool_id": 415585756,
-      "programme_le": "2026-11-05T10:00",
-      "titre": "Lave-vaisselle : le plus long consomme 2 fois moins",
-      "note": "Exemple concret : Bosch SMS4ECI28E (éco 0,543 kWh / intensif 1,15–1,25 kWh). Le règlement UE ne fixe pas de durée maximale du programme éco.",
-      "story_instagram": {
-        "metricool_id": 415589282,
-        "heure": "10:05",
-        "fichier": "media/stories/day21_story.mp4",
-        "buffer_id": "6aea1e43ba2b892db88b5d2d",
-        "metricool_statut": "brouillon (Story publiée par Buffer)"
-      },
-      "buffer_id": "6aea1e18544a6d4567cb7bd1",
-      "metricool_statut": "brouillon (TikTok publié par Buffer)",
-      "publie_par": "buffer"
-    },
-    {
-      "jour": 22,
-      "date": "2026-11-05",
-      "heure": "18:00",
-      "format": "T",
-      "sujet": "Ordinateur portable : ce que la fiche écrit en petit",
-      "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
-      "refs": [
-        "R9"
-      ],
-      "accroche": "MACBOOK « 18 h » : écrit en petit",
-      "a_verifier": [
-        "conditions du test d'autonomie (note de la fiche officielle, ex. Apple ou Microsoft)",
-        "espace disque disponible inférieur (note)",
-        "« jusqu'à » sur les performances (note)"
-      ],
-      "argent": "Affiliation (Black Friday)",
-      "statut": "programmée",
-      "semaine": "S1",
-      "metricool_id": 415585772,
-      "programme_le": "2026-11-05T18:00",
-      "titre": "MacBook « 18 h » : ce qui est écrit en petit",
-      "note": "Modèle actuel : MacBook Air M5 (apple.com/chfr). Annonce dans la description : vendredi 6.11 à 10 h, robot aspirateur « 25 000 Pa » (jour 33). Description TikTok corrigée le 02.11 : annonce « 25 000 Pa » (nouvelle valeur de la vidéo 23 après contrôle qualité).",
-      "story_instagram": {
-        "metricool_id": 415589302,
-        "heure": "18:05",
-        "fichier": "media/stories/day22_story.mp4",
-        "buffer_id": "6aea1e431f06859f7ba29140",
-        "metricool_statut": "brouillon (Story publiée par Buffer)"
-      },
-      "reel_instagram": {
-        "metricool_id": 415719641,
-        "heure": "19:00",
-        "fichier": "media/reels/day22_reel.mp4",
-        "statut": "en attente (vidIQ, reels_queue.json)"
-      },
-      "buffer_id": "6aea1e221f06859f7ba28ca5",
-      "metricool_statut": "brouillon (TikTok publié par Buffer)",
-      "publie_par": "buffer"
-    },
-    {
-      "jour": 23,
-      "date": "2026-11-06",
-      "heure": "10:00",
-      "semaine": "S2",
-      "format": "A",
-      "sujet": "Robot aspirateur « 25 000 Pa » : ce que ça veut dire",
-      "mecanique": "Objet qui parle : « Les objets balancent »",
-      "refs": [
-        "R11"
-      ],
-      "accroche": "« Ils ont écrit 25 000 Pa sur ma boîte. En énorme. »",
-      "a_verifier": [
-        "TechRadar 23.01.2026 (Ruth Hamilton) : chiffre = réglage le plus fort ; nettoyage pas au même rythme ; 10 000 Pa largement assez ; brosse et navigation"
-      ],
-      "argent": "Affiliation robots (Black Friday)",
-      "statut": "programmée",
-      "note": "Prototype du format A, produit le 02.11. Contrôle qualité : 8 000 Pa remplacé par 25 000 Pa (8 000 < 10 000 contredisait la conclusion), carte « d'après TechRadar » + « Illustration, pas des mesures », accroche lisible dès l'image 0, robot qui roule, formulations prudentes, fin sans promesse datée. Voix vérifiée par Whisper : transcription exacte.",
-      "metricool_id": 415585785,
-      "programme_le": "2026-11-06T10:00",
-      "titre": "Robot aspirateur « 25 000 Pa » : ça veut dire quoi ?",
-      "story_instagram": {
-        "metricool_id": 415589323,
-        "heure": "10:05",
-        "fichier": "media/stories/day23_story.mp4",
-        "buffer_id": "6aea1e44544a6d4567cb840d",
-        "metricool_statut": "brouillon (Story publiée par Buffer)"
-      },
-      "reel_instagram": {
-        "metricool_id": 415719656,
-        "heure": "11:00",
-        "fichier": "media/reels/day23_reel.mp4",
-        "statut": "en attente (vidIQ, reels_queue.json)"
-      },
-      "buffer_id": "6aea1e23f04b8d760d505aed",
-      "metricool_statut": "brouillon (TikTok publié par Buffer)",
-      "publie_par": "buffer",
-      "version_ia": "03.11.2026 : vidéo refaite avec décor et personnage IA (days/_ai_demo/scene.js), mêmes faits ; 03.11.2026 au soir : voix 3 (Chatterbox, timbre Piper), 32 s, transcription contrôlée, Buffer TikTok et Story mis à jour"
-    },
-    {
-      "jour": 24,
-      "date": null,
-      "sujet": "Le mode sombre économise-t-il vraiment ta batterie ?",
-      "mecanique": "Mythe ou réalité",
-      "refs": [
-        "R5",
-        "R3"
-      ],
-      "accroche": "Mode sombre = plus de batterie ? Ça dépend de ton écran.",
-      "a_verifier": [
-        "OLED vs LCD : pixels noirs éteints",
-        "étude Purdue 2021 sur le mode sombre (gain selon la luminosité)"
-      ],
-      "argent": "Croissance",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 25,
-      "date": null,
-      "sujet": "Baisser le chauffage de 1 °C : combien tu économises vraiment",
-      "mecanique": "Le vrai coût / le chiffre précis",
-      "refs": [
-        "R4",
-        "R8"
-      ],
-      "accroche": "−1 °C = −?% sur ta facture",
-      "a_verifier": [
-        "chiffre officiel SuisseEnergie ou OFEN (économie par degré)",
-        "température recommandée par pièce"
-      ],
-      "argent": "Marques thermostats connectés",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 26,
-      "date": null,
-      "sujet": "La prise connectée qui te montre où part ton argent",
-      "mecanique": "TikTok Made Me Buy It, version honnête",
-      "refs": [
-        "R7",
-        "R4"
-      ],
-      "accroche": "Ce petit objet m'a montré ce qui coûte le plus chez moi",
-      "a_verifier": [
-        "prix et précision de prises avec mesure (fiches fabricant)",
-        "ne présenter aucune mesure non faite"
-      ],
-      "argent": "Affiliation prises connectées",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 27,
-      "date": null,
-      "sujet": "Ton frigo est-il réglé trop froid ?",
-      "mecanique": "Tu le fais mal",
-      "refs": [
-        "R3"
-      ],
-      "accroche": "Frigo à 2 °C ? Tu paies pour rien.",
-      "a_verifier": [
-        "température recommandée frigo et congélateur (OSAV, SuisseEnergie)",
-        "surconsommation par degré en moins"
-      ],
-      "argent": "Marques thermomètres connectés",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 28,
-      "date": null,
-      "sujet": "Le couvercle sur la casserole : combien d'énergie en moins",
-      "mecanique": "Le vrai coût",
-      "refs": [
-        "R4"
-      ],
-      "accroche": "Sans couvercle, tu chauffes la cuisine",
-      "a_verifier": [
-        "chiffre SuisseEnergie ou étude sur l'économie avec couvercle"
-      ],
-      "argent": "Croissance",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 29,
-      "date": null,
-      "sujet": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse les murs",
-      "mecanique": "L'astuce que personne n'explique",
-      "refs": [
-        "R2"
-      ],
-      "accroche": "Ton Wi-Fi rapide ne passe pas les murs",
-      "a_verifier": [
-        "portée et débit 2,4 vs 5 GHz (sources fabricants ou OFCOM)"
-      ],
-      "argent": "Marques Wi-Fi maillé",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 30,
-      "date": null,
-      "sujet": "Caméra de surveillance : ce que la loi suisse t'interdit de filmer",
-      "mecanique": "Ce que personne ne te dit",
-      "refs": [
-        "R8"
-      ],
-      "accroche": "Ta caméra filme le trottoir ? C'est interdit.",
-      "a_verifier": [
-        "guide du PFPDT sur la vidéosurveillance par des privés"
-      ],
-      "argent": "Marques caméras",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 31,
-      "date": null,
-      "sujet": "Combien de lux pour bien travailler (500 lx)",
-      "mecanique": "Je mesure tout",
-      "refs": [
-        "R8"
-      ],
-      "accroche": "Ton bureau est trop sombre (chiffres)",
-      "a_verifier": [
-        "norme EN 12464-1 citée par un organisme officiel (SUVA)"
-      ],
-      "argent": "Affiliation lampes de bureau",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 32,
-      "date": null,
-      "sujet": "Lave-linge à 30 °C ou 60 °C : l'énergie en jeu",
-      "mecanique": "Le vrai coût",
-      "refs": [
-        "R4"
-      ],
-      "accroche": "60 °C coûte jusqu'à X fois plus",
-      "a_verifier": [
-        "consommation selon la température (SuisseEnergie, étiquette UE)"
-      ],
-      "argent": "Croissance",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 33,
-      "date": null,
-      "sujet": "Lampes torches : les lumens gonflés",
-      "mecanique": "Le piège de l'étiquette",
-      "refs": [
-        "R3"
-      ],
-      "accroche": "10 000 lumens ? Sûrement pas.",
-      "a_verifier": [
-        "norme ANSI/PLATO FL1"
-      ],
-      "argent": "Affiliation lampes certifiées FL1",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 34,
-      "date": null,
-      "sujet": "Le mode avion fait-il charger plus vite ?",
-      "mecanique": "Mythe ou réalité",
-      "refs": [
-        "R5"
-      ],
-      "accroche": "Mode avion = charge express ?",
-      "a_verifier": [
-        "source technique sur la consommation radio pendant la charge"
-      ],
-      "argent": "Croissance",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 35,
-      "date": null,
-      "sujet": "L'humidité idéale chez toi en hiver",
-      "mecanique": "Je mesure tout",
-      "refs": [
-        "R8"
-      ],
-      "accroche": "Ton salon est un désert (ou une serre)",
-      "a_verifier": [
-        "taux d'humidité recommandé (OFSP ou source officielle)"
-      ],
-      "argent": "Affiliation hygromètres",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 36,
-      "date": null,
-      "sujet": "3 gadgets à moins de 20 CHF vraiment utiles en hiver",
-      "mecanique": "TikTok Made Me Buy It, version honnête",
-      "refs": [
-        "R7"
-      ],
-      "accroche": "3 objets à moins de 20 CHF qui servent vraiment",
-      "a_verifier": [
-        "prix et fonctions officiels ; aucune promesse non mesurée"
-      ],
-      "argent": "Affiliation (Black Friday)",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 37,
-      "date": null,
-      "sujet": "Sèche-linge ou étendoir : le coût réel en CHF",
-      "mecanique": "Le vrai coût",
-      "refs": [
-        "R4"
-      ],
-      "accroche": "Ton sèche-linge te coûte X CHF par lessive",
-      "a_verifier": [
-        "consommation type par cycle (étiquette UE), tarif ElCom 2026"
-      ],
-      "argent": "Croissance",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 38,
-      "date": null,
-      "sujet": "Black Friday tech : 5 erreurs à éviter",
-      "mecanique": "Ne l'achète pas avant de savoir ça",
-      "refs": [
-        "R8"
-      ],
-      "accroche": "5 erreurs qui coûtent cher vendredi",
-      "a_verifier": [
-        "reprendre uniquement des faits déjà vérifiés dans les vidéos du mois"
-      ],
-      "argent": "Affiliation (bons plans vérifiés)",
-      "statut": "idée",
-      "heure": null
-    },
-    {
-      "jour": 39,
-      "date": null,
-      "sujet": "30 jours de mesures : ce que j'ai appris",
-      "mecanique": "Récapitulatif + question à la communauté",
-      "refs": [
-        "R8"
-      ],
-      "accroche": "30 vidéos, 30 chiffres : le plus fou ?",
-      "a_verifier": [
-        "chiffres réels du compte (Metricool)"
-      ],
-      "argent": "Croissance ; preuve pour le media kit",
-      "statut": "idée",
-      "heure": null
-    }
-  ],
-  "rythme": "2 vidéos par jour (10 h et 18 h) depuis le 27.10.2026 ; chaque vendredi : bilan + plan des 14 créneaux + vidéos du matin (5 h 37), puis vidéos du soir (11 h 37). Stratégie du mois (30.10 → 27.11) : strategy.json.",
-  "objectif": "Gagner des abonnés et des vues"
+  "R2": {
+   "titre": "Fonction cachée de l'iPhone (déplacer plusieurs apps)",
+   "createur": "kevin_benjis (14 000 abonnés)",
+   "vues": "1,5 M vues",
+   "source": "https://tomsguide.com/news/this-hidden-iphone-feature-can-save-you-time-and-it-just-went-viral-on-tiktok"
+  },
+  "R3": {
+   "titre": "Astuce virale démontée par des experts (torchon sur le lave-vaisselle)",
+   "createur": "@laylaypearle",
+   "vues": "2,3 M vues",
+   "source": "https://www.idealhome.co.uk/house-manual/cleaning/dishwasher-tea-towel-tiktok-hack-debunked"
+  },
+  "R4": {
+   "titre": "Le vrai coût de chaque appareil, mesuré",
+   "createur": "@havinthecraic",
+   "vues": "plus de 200 000 vues",
+   "source": "https://www.kildarenow.com/news/irish-tiktoker-calculates-cost-of-everyday-household-electrical-items-with-surprising-results-7234872"
+  },
+  "R5": {
+   "titre": "Mythe de la charge du téléphone (batterie à 100 % après 2 ans)",
+   "createur": "@shoandtech",
+   "vues": "virale (chiffre non publié)",
+   "source": "https://bgr.com/tech/viral-tiktok-battery-health-100-percent-2-years/"
+  },
+  "R6": {
+   "titre": "Le gadget caché dans ton appareil (sonde du Ninja)",
+   "createur": "@bowesy5",
+   "vues": "virale (chiffre non publié)",
+   "source": "https://www.tomsguide.com/home/home-appliances/viral-tiktok-reveals-secret-gadget-built-into-ninja-air-fryer"
+  },
+  "R7": {
+   "titre": "#TikTokMadeMeBuyIt",
+   "createur": "hashtag",
+   "vues": "plus d'1 milliard de vues",
+   "source": "https://ppc.land/hashtag-tiktokmademebuyit-reaches-more-than-1-billion-views"
+  },
+  "R8": {
+   "titre": "Analyse de 13,5 M de clips (Opus Clip, 2026) : 30-45 s, résultat montré dans les 3 premières secondes, sous-titres incrustés, accroches « chiffre précis », « contre-pied », « ne l'achète pas avant… »",
+   "createur": "Opus Clip",
+   "vues": "étude",
+   "source": "https://www.opus.pro/blog/anatomy-of-a-viral-tiktok-2026"
+  },
+  "R9": {
+   "titre": "« Traduction officielle des annonces immobilières » : texte seul en boucle, musique seule",
+   "createur": "@immo.impact (2 500 abonnés)",
+   "vues": "1,9 M vues (24 × sa médiane)",
+   "source": "https://www.instagram.com/reel/DcwcyLCMIWW"
+  },
+  "R10": {
+   "titre": "« N'achète jamais un chargeur avant d'avoir vu ça » : le symbole caché sur l'objet",
+   "createur": "@toukiwanti",
+   "vues": "1,6 M vues",
+   "source": "https://www.instagram.com/reel/DdeLLZPhunz"
+  },
+  "R11": {
+   "titre": "« AI talking objects » : objets qui parlent, monologue sarcastique (format viral 2026)",
+   "createur": "tendance (OpusClip, 2026)",
+   "vues": "plusieurs vidéos à plus de 10 M de vues selon OpusClip (non vérifié)",
+   "source": "https://www.opus.pro/blog/ai-talking-object-videos"
+  }
+ },
+ "jours": [
+  {
+   "jour": 1,
+   "date": "2026-10-25",
+   "sujet": "45 % de pente ≠ 45° : le piège des robots tondeuses",
+   "mecanique": "Contre-pied : le chiffre qui piège",
+   "refs": [
+    "R3",
+    "R8"
+   ],
+   "accroche": "45 % ≠ 45°",
+   "argent": "Croissance ; affiliation robots tondeuses (Black Friday)",
+   "statut": "publiée",
+   "url": "https://www.tiktok.com/@marcio.mota8/video/7700528800752225569",
+   "format": "V"
+  },
+  {
+   "jour": 2,
+   "date": "2026-10-26",
+   "sujet": "3 instruments de mesure cachés dans ton iPhone",
+   "mecanique": "La fonction cachée",
+   "refs": [
+    "R2",
+    "R1"
+   ],
+   "accroche": "3 instruments cachés dans ton iPhone",
+   "argent": "Croissance (enregistrements, abonnés)",
+   "statut": "publiée",
+   "format": "V"
+  },
+  {
+   "jour": 3,
+   "date": "2026-10-27",
+   "sujet": "20 000 mAh ≠ 5 recharges : le piège des batteries externes",
+   "mecanique": "Le calcul qui choque + ne l'achète pas avant",
+   "refs": [
+    "R8",
+    "R4"
+   ],
+   "accroche": "20 000 ÷ 4 000 = 5 ? NON.",
+   "argent": "Affiliation batteries externes (Black Friday)",
+   "statut": "publiée",
+   "format": "V"
+  },
+  {
+   "jour": 4,
+   "date": "2026-10-28",
+   "sujet": "Fenêtre en oscillo-battant en hiver : mauvaise idée (OFSP)",
+   "mecanique": "Tu le fais mal (contre-pied)",
+   "refs": [
+    "R3",
+    "R8"
+   ],
+   "accroche": "Oscillo-battant tout l'hiver ? ✕",
+   "argent": "Croissance (partages) ; marques capteurs d'air et de fenêtres",
+   "statut": "programmée",
+   "heure": "18:00",
+   "note": "Test d'heure : 18 h au lieu de 10 h (à comparer au bilan du vendredi)",
+   "format": "V"
+  },
+  {
+   "jour": 5,
+   "date": "2026-10-29",
+   "sujet": "8 lettres minuscules = 3 semaines pour casser ton mot de passe",
+   "mecanique": "Le chiffre précis qui fait peur",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "8 minuscules → 2 SEMAINES",
+   "argent": "Affiliation gestionnaire de mots de passe",
+   "statut": "programmée",
+   "format": "V"
+  },
+  {
+   "jour": 6,
+   "date": "2026-10-30",
+   "sujet": "L'eau en trop dans ta bouilloire : environ 20 CHF par an",
+   "mecanique": "Le vrai coût de tes appareils",
+   "refs": [
+    "R4"
+   ],
+   "accroche": "20 CHF par an pour de l'eau en trop",
+   "argent": "Affiliation bouilloires à température, prises connectées",
+   "statut": "programmée",
+   "annoncee": true,
+   "note": "Fin remplacée le 29.10 : « Et abonne-toi : ce soir, ce que la fiche technique de l'iPhone 17 veut vraiment dire. »",
+   "format": "V",
+   "heure": "10:00",
+   "semaine": "S1",
+   "annonce": "ce qu'Apple écrit en petit sur l'iPhone 17 (jour 10)",
+   "metricool_id": 409984725,
+   "programme_le": "2026-10-30T10:00"
+  },
+  {
+   "jour": 7,
+   "date": "2026-10-29",
+   "sujet": "Deux câbles USB-C identiques : 60 W ou 240 W",
+   "mecanique": "Le piège invisible + Black Friday",
+   "refs": [
+    "R8",
+    "R3"
+   ],
+   "accroche": "IDENTIQUES ? 60 W / 240 W",
+   "argent": "Affiliation câbles certifiés (Black Friday)",
+   "statut": "programmée",
+   "note": "Fin remplacée par l'annonce de la bouilloire (vendredi 10 h).",
+   "heure": "18:00",
+   "metricool_id": 407867325,
+   "programme_le": "2026-10-29T18:00",
+   "format": "V"
+  },
+  {
+   "jour": 8,
+   "date": "2026-10-27",
+   "heure": "18:00",
+   "sujet": "Arrête de fermer tes applis : ça n'économise pas ta batterie",
+   "mecanique": "Le mythe démonté par la source officielle",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "Tu fermes tes applis ? ARRÊTE.",
+   "a_verifier": [
+    "Apple HT201330",
+    "Google Android 9079646",
+    "Android démarrage à froid",
+    "Apple luminosité automatique"
+   ],
+   "argent": "Audience large (tous les smartphones)",
+   "statut": "programmée",
+   "annonce": "décibels (mer. 10 h)",
+   "metricool_id": 407867263,
+   "programme_le": "2026-10-27T18:00",
+   "format": "V"
+  },
+  {
+   "jour": 9,
+   "date": "2026-10-28",
+   "heure": "10:00",
+   "sujet": "+10 dB, ça paraît 2 fois plus fort",
+   "mecanique": "Le calcul qui choque",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "70 → 80 dB : +14 % ? Non, 2 fois plus fort.",
+   "a_verifier": [
+    "Suva, Musique et troubles de l'ouïe (p. 4 et 11)"
+   ],
+   "argent": "Casques à réduction de bruit, bouchons d'oreille (affiliation possible)",
+   "statut": "programmée",
+   "annonce": "fenêtre oscillo-battant (mer. 18 h)",
+   "metricool_id": 407867297,
+   "programme_le": "2026-10-28T10:00",
+   "format": "V"
+  },
+  {
+   "jour": 10,
+   "date": "2026-10-30",
+   "heure": "18:00",
+   "format": "T",
+   "sujet": "iPhone 17 : ce qu'Apple écrit en petit",
+   "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
+   "refs": [
+    "R9"
+   ],
+   "accroche": "CE QU'APPLE ÉCRIT en petit · 256 Go*",
+   "a_verifier": [
+    "notes de la fiche technique officielle iPhone 17 (apple.com) : espace disponible, IP68 et garantie, charge rapide et adaptateur, autonomie"
+   ],
+   "argent": "Croissance (Black Friday)",
+   "statut": "programmée",
+   "note": "Vidéo pilote du format T, produite le 29.10. Source : https://www.apple.com/ci/iphone-17/specs/",
+   "semaine": "S1",
+   "metricool_id": 409980564,
+   "programme_le": "2026-10-30T18:00"
+  },
+  {
+   "jour": 11,
+   "date": "2026-10-31",
+   "heure": "10:00",
+   "format": "T",
+   "sujet": "Disque dur / SSD : ce que la boîte écrit en petit",
+   "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
+   "refs": [
+    "R9"
+   ],
+   "accroche": "1 To ACHETÉ · 931 Go AFFICHÉS",
+   "a_verifier": [
+    "1 To = 1 000 milliards d'octets (note de bas de page d'un fabricant : Seagate, WD ou Samsung)",
+    "Windows compte en base 1024 : 10^12 / 1024^3 = 931,3 Go (calcul montré)",
+    "USB 3.2 Gen 1 = 5 Gbit/s (USB-IF)",
+    "« jusqu'à X Mo/s » : conditions de test du fabricant (note)"
+   ],
+   "argent": "Croissance (Black Friday)",
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 410830177,
+   "programme_le": "2026-10-31T10:00",
+   "titre": "SSD 1 To : ce qui est écrit en petit"
+  },
+  {
+   "jour": 12,
+   "date": "2026-10-31",
+   "heure": "18:00",
+   "format": "V",
+   "sujet": "Ton chargeur 65 W ne charge pas ton téléphone à 65 W",
+   "mecanique": "Le chiffre sur la boîte + « n'achète pas avant de savoir ça »",
+   "refs": [
+    "R10",
+    "R8"
+   ],
+   "accroche": "CHARGEUR 65 W ? TON TÉLÉPHONE DÉCIDE CE QU'IL PREND",
+   "a_verifier": [
+    "puissance de charge maximale de téléphones courants (fiches officielles Apple / Samsung)",
+    "USB Power Delivery : le téléphone demande, le chargeur fournit au plus ce qui est demandé (USB-IF)"
+   ],
+   "argent": "Affiliation chargeurs (Black Friday)",
+   "annonce": "le prix barré du Black Friday : ce que dit la loi suisse (jour 13)",
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 411087596,
+   "programme_le": "2026-10-31T18:00",
+   "titre": "Chargeur 65 W : ton téléphone décide",
+   "note": "Voix corrigée au contrôle qualité : « ne charge pas forcément » (USB-IF : l'appareil prend ce qu'il demande)."
+  },
+  {
+   "jour": 13,
+   "date": "2026-11-01",
+   "heure": "10:00",
+   "format": "V",
+   "sujet": "Prix barré du Black Friday : ce que dit la loi suisse",
+   "mecanique": "Ce que personne ne te dit (la loi)",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "−50 % ? PAR RAPPORT À QUOI ?",
+   "a_verifier": [
+    "Ordonnance sur l'indication des prix (OIP, RS 942.211), art. 16 : conditions d'un prix de comparaison",
+    "FAQ / guide du SECO sur l'indication des prix",
+    "durée pendant laquelle l'ancien prix doit avoir été pratiqué"
+   ],
+   "argent": "Croissance (Black Friday)",
+   "annonce": "ce que la boîte d'un routeur Wi-Fi écrit en petit (jour 14)",
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 410830195,
+   "programme_le": "2026-11-01T10:00",
+   "titre": "Prix barré : ce que dit la loi suisse",
+   "note": "Faits revus le 30.10 : depuis le 1.1.2025, OIP art. 16 al. 3 = moitié de la durée (max. 2 mois) pour un prix pratiqué juste avant, sans limite pour un prix pratiqué ≥ 30 jours consécutifs.",
+   "story_instagram": {
+    "metricool_id": 412716037,
+    "heure": "10:05",
+    "fichier": "media/stories/day13_story.mp4"
+   }
+  },
+  {
+   "jour": 14,
+   "date": "2026-11-01",
+   "heure": "18:00",
+   "format": "T",
+   "sujet": "Routeur Wi-Fi : ce que la boîte écrit en petit",
+   "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
+   "refs": [
+    "R9"
+   ],
+   "accroche": "AX3000 = 3 000 Mbit/s ?",
+   "a_verifier": [
+    "AX3000 = somme des débits théoriques maximaux des bandes (fiche fabricant, ex. 2402 + 574 Mbit/s)",
+    "débit réel limité par l'abonnement et l'appareil (note du fabricant)",
+    "Wi-Fi 6 = 802.11ax (Wi-Fi Alliance)"
+   ],
+   "argent": "Croissance",
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 411087612,
+   "programme_le": "2026-11-01T18:00",
+   "titre": "Routeur AX3000 : ce qui est écrit en petit",
+   "story_instagram": {
+    "metricool_id": 412716126,
+    "heure": "18:05",
+    "fichier": "media/stories/day14_story.mp4"
+   }
+  },
+  {
+   "jour": 15,
+   "date": "2026-11-02",
+   "heure": "10:00",
+   "format": "T",
+   "sujet": "Écouteurs sans fil : ce que la boîte écrit en petit",
+   "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
+   "refs": [
+    "R9"
+   ],
+   "accroche": "30 h D'AUTONOMIE ?",
+   "a_verifier": [
+    "autonomie des écouteurs seuls contre « avec le boîtier » (fiche officielle, ex. Apple AirPods ou Samsung Galaxy Buds)",
+    "indice IP54 / IPX4 : ce qu'il couvre (CEI 60529) et notes du fabricant",
+    "autonomie mesurée avec ou sans réduction de bruit (note)"
+   ],
+   "argent": "Affiliation écouteurs (Black Friday)",
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 410830215,
+   "programme_le": "2026-11-02T10:00",
+   "titre": "Écouteurs « 30 h » : ce qui est écrit en petit",
+   "note": "Produit nommé : AirPods 4 (le chiffre 30 h ne vaut pas pour les AirPods 5).",
+   "story_instagram": {
+    "metricool_id": 412716133,
+    "heure": "10:05",
+    "fichier": "media/stories/day15_story.mp4"
+   }
+  },
+  {
+   "jour": 16,
+   "date": "2026-11-02",
+   "heure": "18:00",
+   "format": "V",
+   "sujet": "En Suisse, la garantie de 2 ans peut être exclue",
+   "mecanique": "Contre-pied (la loi)",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "2 ANS DE GARANTIE ? PAS FORCÉMENT",
+   "a_verifier": [
+    "CO art. 197 ss et 210 : délai de 2 ans pour les défauts",
+    "la garantie légale peut être limitée ou exclue par contrat, sauf dol (CO art. 199)",
+    "source officielle : ch.ch, SECO ou FRC"
+   ],
+   "argent": "Croissance (Black Friday)",
+   "annonce": "les ampoules : lis les lumens, pas les watts (jour 17)",
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 411087639,
+   "programme_le": "2026-11-02T18:00",
+   "titre": "Garantie 2 ans : en Suisse, elle peut être exclue",
+   "story_instagram": {
+    "metricool_id": 412716139,
+    "heure": "18:05",
+    "fichier": "media/stories/day16_story.mp4"
+   },
+   "reel_instagram": {
+    "metricool_id": 414047151,
+    "heure": "19:00",
+    "fichier": "media/reels/day16_reel.mp4"
+   }
+  },
+  {
+   "jour": 17,
+   "date": "2026-11-03",
+   "heure": "10:00",
+   "format": "V",
+   "sujet": "Ampoules : lis les lumens, pas les watts",
+   "mecanique": "Le piège de l'étiquette",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "60 W ? ÇA NE DIT PAS LA LUMIÈRE",
+   "a_verifier": [
+    "étiquette énergie des lampes : flux lumineux en lumens (règlement UE 2019/2015, repris en Suisse)",
+    "équivalences lumens ↔ ancienne ampoule à incandescence (source officielle)"
+   ],
+   "argent": "Croissance",
+   "annonce": "ce que la fiche d'un téléviseur écrit en petit (jour 18)",
+   "statut": "programmée",
+   "note": "Angle différent de la vidéo virale sur les ampoules (indice de rendu des couleurs) : on ne reprend pas son contenu. TikTok publiée à 10 h 25 (10 h ratée : TikTok déconnecté), Story 10 h 30",
+   "semaine": "S1",
+   "metricool_id": 415002992,
+   "programme_le": "2026-11-03T10:25",
+   "titre": "Ampoules : lis les lumens, pas les watts",
+   "story_instagram": {
+    "metricool_id": 415003005,
+    "heure": "10:30",
+    "fichier": "media/stories/day17_story.mp4"
+   }
+  },
+  {
+   "jour": 18,
+   "date": "2026-11-03",
+   "heure": "18:00",
+   "format": "T",
+   "sujet": "Téléviseur : ce que la fiche écrit en petit",
+   "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
+   "refs": [
+    "R9"
+   ],
+   "accroche": "TV 4K : CE QUI EST écrit en petit · « Refresh Rate 60Hz »",
+   "a_verifier": [
+    "« Motion Rate » / « TruMotion » ≠ fréquence native de la dalle (fabricant ou RTINGS)",
+    "HDR : luminosité et conditions (fiche)",
+    "consommation de l'étiquette mesurée en mode standard (étiquette énergie)"
+   ],
+   "argent": "Affiliation TV (Black Friday)",
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 411087673,
+   "programme_le": "2026-11-03T18:00",
+   "titre": "TV 4K : ce qui est écrit en petit",
+   "note": "Angle changé le 30.10 : aucune source officielle pour « 120 Hz » sur ce modèle ; fiche Samsung U8000F « Refresh Rate 60Hz » + note Motion Xcelerator + étiquette SDR/HDR (OFEN).",
+   "story_instagram": {
+    "metricool_id": 415001429,
+    "heure": "18:05",
+    "fichier": "media/stories/day18_story.mp4"
+   },
+   "reel_instagram": {
+    "metricool_id": 415001448,
+    "heure": "19:00",
+    "fichier": "media/reels/day18_reel.mp4"
+   }
+  },
+  {
+   "jour": 19,
+   "date": "2026-11-04",
+   "heure": "10:00",
+   "format": "T",
+   "sujet": "Promos du Black Friday : ce qui est écrit en petit",
+   "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
+   "refs": [
+    "R9"
+   ],
+   "accroche": "« JUSQU'À −70 % »",
+   "a_verifier": [
+    "« jusqu'à » = une partie des articles seulement (OIP / SECO)",
+    "« prix conseillé » comme prix de comparaison : conditions (OIP art. 16)",
+    "« dès 9.90 » = prix du modèle le moins cher"
+   ],
+   "argent": "Croissance (Black Friday)",
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 410830260,
+   "programme_le": "2026-11-04T10:00",
+   "titre": "Black Friday : la loi écrite en petit",
+   "note": "Valeurs remplacées par XX / X (aucun prix inventé) ; complément de la vidéo 13 (art. 17 et SECO), sans répéter la règle des 2 mois.",
+   "story_instagram": {
+    "metricool_id": 415719626,
+    "heure": "10:05",
+    "fichier": "media/stories/day19_story.mp4",
+    "buffer_id": "6aea3a7752391758e2e60c63",
+    "metricool_statut": "brouillon (Story publiée par Buffer)"
+   }
+  },
+  {
+   "jour": 20,
+   "date": "2026-11-04",
+   "heure": "18:00",
+   "format": "V",
+   "sujet": "Achat en ligne en Suisse : pas de droit légal de retour de 14 jours",
+   "mecanique": "Contre-pied (la loi)",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "14 JOURS POUR RENVOYER ? PAS EN SUISSE",
+   "a_verifier": [
+    "CO art. 40a ss : droit de révocation seulement pour le démarchage (porte-à-porte, téléphone), pas pour l'achat en ligne",
+    "source officielle : ch.ch, SECO ou FRC",
+    "le retour dépend alors des conditions du vendeur"
+   ],
+   "argent": "Croissance (Black Friday)",
+   "annonce": "le lave-vaisselle : le programme le plus long consomme le moins (jour 21)",
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 415719614,
+   "programme_le": "2026-11-04T18:00",
+   "titre": "Achat en ligne : pas de retour légal de 14 jours en Suisse",
+   "note": "Annonce de la vidéo 21 : « le programme éco du lave-vaisselle, 2 fois moins que l'intensif ».",
+   "story_instagram": {
+    "metricool_id": 415550586,
+    "heure": "18:05",
+    "fichier": "media/stories/day20_story.mp4",
+    "buffer_id": "6aea1e42f04b8d760d505f28",
+    "metricool_statut": "brouillon (Story publiée par Buffer)"
+   },
+   "reel_instagram": {
+    "metricool_id": 415550595,
+    "heure": "19:00",
+    "fichier": "media/reels/day20_reel.mp4",
+    "statut": "publié (vidIQ)",
+    "publie_le": "2026-11-04T07:15:45+01:00",
+    "lien": "https://www.instagram.com/reel/DfTyjkjiCpQ/"
+   },
+   "buffer_id": "6aea3a7552391758e2e60c06",
+   "metricool_statut": "brouillon (TikTok publié par Buffer)",
+   "publie_par": "buffer"
+  },
+  {
+   "jour": 21,
+   "date": "2026-11-05",
+   "heure": "10:00",
+   "format": "V",
+   "sujet": "Lave-vaisselle : le programme le plus long consomme le moins",
+   "mecanique": "Contre-pied",
+   "refs": [
+    "R3"
+   ],
+   "accroche": "LE PLUS LONG = LE MOINS CHER",
+   "a_verifier": [
+    "programme éco : plus long, moins d'énergie (règlement UE 2019/2022, programme de référence de l'étiquette)",
+    "chiffres d'un fabricant, de SuisseEnergie ou de Topten"
+   ],
+   "argent": "Croissance",
+   "annonce": "ce que la fiche d'un ordinateur portable écrit en petit (jour 22)",
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 415585756,
+   "programme_le": "2026-11-05T10:00",
+   "titre": "Lave-vaisselle : le plus long consomme 2 fois moins",
+   "note": "Exemple concret : Bosch SMS4ECI28E (éco 0,543 kWh / intensif 1,15–1,25 kWh). Le règlement UE ne fixe pas de durée maximale du programme éco.",
+   "story_instagram": {
+    "metricool_id": 415589282,
+    "heure": "10:05",
+    "fichier": "media/stories/day21_story.mp4",
+    "buffer_id": "6aea1e43ba2b892db88b5d2d",
+    "metricool_statut": "brouillon (Story publiée par Buffer)"
+   },
+   "buffer_id": "6aea1e18544a6d4567cb7bd1",
+   "metricool_statut": "brouillon (TikTok publié par Buffer)",
+   "publie_par": "buffer"
+  },
+  {
+   "jour": 22,
+   "date": "2026-11-05",
+   "heure": "18:00",
+   "format": "T",
+   "sujet": "Ordinateur portable : ce que la fiche écrit en petit",
+   "mecanique": "Texte seul en boucle « écrit en gros → écrit en petit »",
+   "refs": [
+    "R9"
+   ],
+   "accroche": "MACBOOK « 18 h » : écrit en petit",
+   "a_verifier": [
+    "conditions du test d'autonomie (note de la fiche officielle, ex. Apple ou Microsoft)",
+    "espace disque disponible inférieur (note)",
+    "« jusqu'à » sur les performances (note)"
+   ],
+   "argent": "Affiliation (Black Friday)",
+   "statut": "programmée",
+   "semaine": "S1",
+   "metricool_id": 415585772,
+   "programme_le": "2026-11-05T18:00",
+   "titre": "MacBook « 18 h » : ce qui est écrit en petit",
+   "note": "Modèle actuel : MacBook Air M5 (apple.com/chfr). Annonce dans la description : vendredi 6.11 à 10 h, robot aspirateur « 25 000 Pa » (jour 33). Description TikTok corrigée le 02.11 : annonce « 25 000 Pa » (nouvelle valeur de la vidéo 23 après contrôle qualité).",
+   "story_instagram": {
+    "metricool_id": 415589302,
+    "heure": "18:05",
+    "fichier": "media/stories/day22_story.mp4",
+    "buffer_id": "6aea1e431f06859f7ba29140",
+    "metricool_statut": "brouillon (Story publiée par Buffer)"
+   },
+   "reel_instagram": {
+    "metricool_id": 415719641,
+    "heure": "19:00",
+    "fichier": "media/reels/day22_reel.mp4",
+    "statut": "en attente (vidIQ, reels_queue.json)"
+   },
+   "buffer_id": "6aea1e221f06859f7ba28ca5",
+   "metricool_statut": "brouillon (TikTok publié par Buffer)",
+   "publie_par": "buffer"
+  },
+  {
+   "jour": 23,
+   "date": "2026-11-06",
+   "heure": "10:00",
+   "semaine": "S2",
+   "format": "A",
+   "sujet": "Robot aspirateur « 25 000 Pa » : ce que ça veut dire",
+   "mecanique": "Objet qui parle : « Les objets balancent »",
+   "refs": [
+    "R11"
+   ],
+   "accroche": "« Ils ont écrit 25 000 Pa sur ma boîte. En énorme. »",
+   "a_verifier": [
+    "TechRadar 23.01.2026 (Ruth Hamilton) : chiffre = réglage le plus fort ; nettoyage pas au même rythme ; 10 000 Pa largement assez ; brosse et navigation"
+   ],
+   "argent": "Affiliation robots (Black Friday)",
+   "statut": "programmée",
+   "note": "Prototype du format A, produit le 02.11. Contrôle qualité : 8 000 Pa remplacé par 25 000 Pa (8 000 < 10 000 contredisait la conclusion), carte « d'après TechRadar » + « Illustration, pas des mesures », accroche lisible dès l'image 0, robot qui roule, formulations prudentes, fin sans promesse datée. Voix vérifiée par Whisper : transcription exacte.",
+   "metricool_id": 415585785,
+   "programme_le": "2026-11-06T10:00",
+   "titre": "Robot aspirateur « 25 000 Pa » : ça veut dire quoi ?",
+   "story_instagram": {
+    "metricool_id": 415589323,
+    "heure": "10:05",
+    "fichier": "media/stories/day23_story.mp4",
+    "buffer_id": "6aea1e44544a6d4567cb840d",
+    "metricool_statut": "brouillon (Story publiée par Buffer)"
+   },
+   "reel_instagram": {
+    "metricool_id": 415719656,
+    "heure": "11:00",
+    "fichier": "media/reels/day23_reel.mp4",
+    "statut": "en attente (vidIQ, reels_queue.json)"
+   },
+   "buffer_id": "6aea1e23f04b8d760d505aed",
+   "metricool_statut": "brouillon (TikTok publié par Buffer)",
+   "publie_par": "buffer",
+   "version_ia": "03.11.2026 : vidéo refaite avec décor et personnage IA (days/_ai_demo/scene.js), mêmes faits ; 03.11.2026 au soir : voix 3 (Chatterbox, timbre Piper), 32 s, transcription contrôlée, Buffer TikTok et Story mis à jour"
+  },
+  {
+   "jour": 24,
+   "date": null,
+   "sujet": "Le mode sombre économise-t-il vraiment ta batterie ?",
+   "mecanique": "Mythe ou réalité",
+   "refs": [
+    "R5",
+    "R3"
+   ],
+   "accroche": "Mode sombre = plus de batterie ? Ça dépend de ton écran.",
+   "a_verifier": [
+    "OLED vs LCD : pixels noirs éteints",
+    "étude Purdue 2021 sur le mode sombre (gain selon la luminosité)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 25,
+   "date": null,
+   "sujet": "Baisser le chauffage de 1 °C : combien tu économises vraiment",
+   "mecanique": "Le vrai coût / le chiffre précis",
+   "refs": [
+    "R4",
+    "R8"
+   ],
+   "accroche": "−1 °C = −?% sur ta facture",
+   "a_verifier": [
+    "chiffre officiel SuisseEnergie ou OFEN (économie par degré)",
+    "température recommandée par pièce"
+   ],
+   "argent": "Marques thermostats connectés",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 26,
+   "date": null,
+   "sujet": "La prise connectée qui te montre où part ton argent",
+   "mecanique": "TikTok Made Me Buy It, version honnête",
+   "refs": [
+    "R7",
+    "R4"
+   ],
+   "accroche": "Ce petit objet m'a montré ce qui coûte le plus chez moi",
+   "a_verifier": [
+    "prix et précision de prises avec mesure (fiches fabricant)",
+    "ne présenter aucune mesure non faite"
+   ],
+   "argent": "Affiliation prises connectées",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 27,
+   "date": null,
+   "sujet": "Ton frigo est-il réglé trop froid ?",
+   "mecanique": "Tu le fais mal",
+   "refs": [
+    "R3"
+   ],
+   "accroche": "Frigo à 2 °C ? Tu paies pour rien.",
+   "a_verifier": [
+    "température recommandée frigo et congélateur (OSAV, SuisseEnergie)",
+    "surconsommation par degré en moins"
+   ],
+   "argent": "Marques thermomètres connectés",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 28,
+   "date": null,
+   "sujet": "Le couvercle sur la casserole : combien d'énergie en moins",
+   "mecanique": "Le vrai coût",
+   "refs": [
+    "R4"
+   ],
+   "accroche": "Sans couvercle, tu chauffes la cuisine",
+   "a_verifier": [
+    "chiffre SuisseEnergie ou étude sur l'économie avec couvercle"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 29,
+   "date": null,
+   "sujet": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse les murs",
+   "mecanique": "L'astuce que personne n'explique",
+   "refs": [
+    "R2"
+   ],
+   "accroche": "Ton Wi-Fi rapide ne passe pas les murs",
+   "a_verifier": [
+    "portée et débit 2,4 vs 5 GHz (sources fabricants ou OFCOM)"
+   ],
+   "argent": "Marques Wi-Fi maillé",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 30,
+   "date": null,
+   "sujet": "Caméra de surveillance : ce que la loi suisse t'interdit de filmer",
+   "mecanique": "Ce que personne ne te dit",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "Ta caméra filme le trottoir ? C'est interdit.",
+   "a_verifier": [
+    "guide du PFPDT sur la vidéosurveillance par des privés"
+   ],
+   "argent": "Marques caméras",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 31,
+   "date": null,
+   "sujet": "Combien de lux pour bien travailler (500 lx)",
+   "mecanique": "Je mesure tout",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "Ton bureau est trop sombre (chiffres)",
+   "a_verifier": [
+    "norme EN 12464-1 citée par un organisme officiel (SUVA)"
+   ],
+   "argent": "Affiliation lampes de bureau",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 32,
+   "date": null,
+   "sujet": "Lave-linge à 30 °C ou 60 °C : l'énergie en jeu",
+   "mecanique": "Le vrai coût",
+   "refs": [
+    "R4"
+   ],
+   "accroche": "60 °C coûte jusqu'à X fois plus",
+   "a_verifier": [
+    "consommation selon la température (SuisseEnergie, étiquette UE)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 33,
+   "date": null,
+   "sujet": "Lampes torches : les lumens gonflés",
+   "mecanique": "Le piège de l'étiquette",
+   "refs": [
+    "R3"
+   ],
+   "accroche": "10 000 lumens ? Sûrement pas.",
+   "a_verifier": [
+    "norme ANSI/PLATO FL1"
+   ],
+   "argent": "Affiliation lampes certifiées FL1",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 34,
+   "date": null,
+   "sujet": "Le mode avion fait-il charger plus vite ?",
+   "mecanique": "Mythe ou réalité",
+   "refs": [
+    "R5"
+   ],
+   "accroche": "Mode avion = charge express ?",
+   "a_verifier": [
+    "source technique sur la consommation radio pendant la charge"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 35,
+   "date": null,
+   "sujet": "L'humidité idéale chez toi en hiver",
+   "mecanique": "Je mesure tout",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "Ton salon est un désert (ou une serre)",
+   "a_verifier": [
+    "taux d'humidité recommandé (OFSP ou source officielle)"
+   ],
+   "argent": "Affiliation hygromètres",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 36,
+   "date": null,
+   "sujet": "3 gadgets à moins de 20 CHF vraiment utiles en hiver",
+   "mecanique": "TikTok Made Me Buy It, version honnête",
+   "refs": [
+    "R7"
+   ],
+   "accroche": "3 objets à moins de 20 CHF qui servent vraiment",
+   "a_verifier": [
+    "prix et fonctions officiels ; aucune promesse non mesurée"
+   ],
+   "argent": "Affiliation (Black Friday)",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 37,
+   "date": null,
+   "sujet": "Sèche-linge ou étendoir : le coût réel en CHF",
+   "mecanique": "Le vrai coût",
+   "refs": [
+    "R4"
+   ],
+   "accroche": "Ton sèche-linge te coûte X CHF par lessive",
+   "a_verifier": [
+    "consommation type par cycle (étiquette UE), tarif ElCom 2026"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 38,
+   "date": null,
+   "sujet": "Black Friday tech : 5 erreurs à éviter",
+   "mecanique": "Ne l'achète pas avant de savoir ça",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "5 erreurs qui coûtent cher vendredi",
+   "a_verifier": [
+    "reprendre uniquement des faits déjà vérifiés dans les vidéos du mois"
+   ],
+   "argent": "Affiliation (bons plans vérifiés)",
+   "statut": "idée",
+   "heure": null
+  },
+  {
+   "jour": 39,
+   "date": null,
+   "sujet": "30 jours de mesures : ce que j'ai appris",
+   "mecanique": "Récapitulatif + question à la communauté",
+   "refs": [
+    "R8"
+   ],
+   "accroche": "30 vidéos, 30 chiffres : le plus fou ?",
+   "a_verifier": [
+    "chiffres réels du compte (Metricool)"
+   ],
+   "argent": "Croissance ; preuve pour le media kit",
+   "statut": "idée",
+   "heure": null
+  }
+ ],
+ "rythme": "2 vidéos par jour (10 h et 18 h) depuis le 27.10.2026 ; chaque vendredi : bilan + plan des 14 créneaux + vidéos du matin (5 h 37), puis vidéos du soir (11 h 37). Stratégie du mois (30.10 → 27.11) : strategy.json.",
+ "objectif": "Gagner des abonnés et des vues"
 }

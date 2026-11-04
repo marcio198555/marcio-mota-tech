@@ -1,57 +1,57 @@
 {
-  "_lisez_moi": "File des Reels d'essai Instagram publiés par vidIQ (RUNBOOK, bloc du 03.11, point 2). La tâche « Autopilot : programmation Buffer » (7 h 13) publie chaque matin les entrées « en attente » dont la date est aujourd'hui ou avant, les plus anciennes d'abord, 3 au plus par jour, puis met statut « publié », la date et le lien. Les tâches du vendredi ajoutent une entrée par vidéo. Jamais un Reel normal, jamais deux fois la même entrée.",
-  "reels": [
-    {
-      "id": "day20",
-      "prevu": "2026-11-04T19:00",
-      "source": "autopilot jour 20",
-      "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793629679/tiktok-autopilot/reels/day20_reel.mp4",
-      "isAiGenerated": true,
-      "caption": "Achat en ligne en Suisse : pas de droit légal de retour de 14 jours\n\nLa loi le prévoit pour le démarchage à domicile ou par téléphone, pas pour l'achat en ligne (sources : SECO, ch.ch). En ligne, ce sont les conditions du vendeur qui décident.\n\nEnvoie-la à quelqu'un qui commande en ligne pour le Black Friday.\n\n#achatenligne #droitsuisse #blackfriday #suisseromande #jemesuretout",
-      "statut": "publié",
-      "metricool_brouillon": 415550595,
-      "publie_le": "2026-11-04T07:15:45+01:00",
-      "lien": "https://www.instagram.com/reel/DfTyjkjiCpQ/"
-    },
-    {
-      "id": "recycle_batterie",
-      "prevu": "2026-11-05T10:00",
-      "source": "vidéo autopilote recyclée (batterie externe)",
-      "video_url": "https://static.metricool.com/planner/202610/6563196-file-1852059084159145974.mp4",
-      "isAiGenerated": true,
-      "caption": "Batterie externe 20 000 mAh : pas 5 recharges, plutôt 3 à 4\n\nLe chiffre sur la boîte est calculé à 3,7 V : l'énergie réelle, c'est 74 Wh. Un téléphone de 4 000 mAh, c'est environ 15 Wh, et environ 18 % se perdent en chaleur (d'après Anker). Résultat : 3 à 4 recharges.\n\nAvant d'acheter, regarde les Wh, pas les mAh. En avion, la limite est de 100 Wh par batterie externe, en cabine.\n\nEnvoie-la à quelqu'un qui veut acheter une batterie externe au Black Friday.\n\n#batterieexterne #astucetech #blackfriday #suisseromande #jemesuretout",
-      "statut": "en attente",
-      "metricool_brouillon": 415720298
-    },
-    {
-      "id": "day22",
-      "prevu": "2026-11-05T19:00",
-      "source": "autopilot jour 22",
-      "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793629680/tiktok-autopilot/reels/day22_reel.mp4",
-      "isAiGenerated": true,
-      "caption": "MacBook Air : 18 h d'autonomie, vraiment ?\n\nCe qu'Apple écrit en petit sur le MacBook Air M5 : les conditions du test, la navigation web et le stockage.\n\nEnregistre-la avant d'acheter.\n\n#macbookair #astucetech #blackfriday #suisseromande #jemesuretout",
-      "statut": "en attente",
-      "metricool_brouillon": 415719641
-    },
-    {
-      "id": "recycle_watertogo",
-      "prevu": "2026-11-06T10:00",
-      "source": "vidéo de Marcio recyclée (Water-to-Go, produit reçu)",
-      "video_url": "https://static.metricool.com/planner/202610/6563196-file-17048354115033127682.mp4",
-      "isAiGenerated": false,
-      "caption": "Water-to-Go Active 100 : la gourde filtrante en action (produit reçu de @watertogo via @influenster)\n\nRemplir, refermer, boire. Filtration 3-en-1 pensée pour l'eau douce, jusqu'à 200 L par filtre, soit jusqu'à 400 bouteilles jetables remplacées selon la marque.\n\nEnvoie-la à ton ami qui part en rando avec un pack de bouteilles en plastique.\n\n#WaterToGo #GourdeFiltrante #Randonnee #suisseromande #jemesuretout",
-      "statut": "en attente",
-      "metricool_brouillon": 415720325
-    },
-    {
-      "id": "day23",
-      "prevu": "2026-11-06T11:00",
-      "source": "autopilot jour 23",
-      "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793744695/tiktok-autopilot/reels/day23_reel_voix3.mp4",
-      "isAiGenerated": true,
-      "caption": "Robot aspirateur « 25 000 Pa » : ce que ce chiffre veut vraiment dire\n\nLe pascal (Pa) mesure une pression. La valeur écrite sur la boîte correspond au mode le plus fort, pas forcément celui qu'on utilise tous les jours. Une testeuse de TechRadar (article du 23.01.2026) estime que 10 000 Pa suffisent déjà pour bien nettoyer, et que la brosse et la navigation comptent aussi.\n\nRobot et boîte fictifs, voix de synthèse.\n\nEnvoie-la à quelqu'un qui compare les robots aspirateurs pour le Black Friday.\n\n#robotaspirateur #maison #achatmalin #suisseromande #jemesuretout",
-      "statut": "en attente",
-      "metricool_brouillon": 415719656
-    }
-  ]
+ "_lisez_moi": "File des Reels d'essai Instagram publiés par vidIQ (RUNBOOK, bloc du 03.11, point 2). La tâche « Autopilot : programmation Buffer » (7 h 13) publie chaque matin les entrées « en attente » dont la date est aujourd'hui ou avant, les plus anciennes d'abord, 3 au plus par jour, puis met statut « publié », la date et le lien. Les tâches du vendredi ajoutent une entrée par vidéo. Jamais un Reel normal, jamais deux fois la même entrée.",
+ "reels": [
+  {
+   "id": "day20",
+   "prevu": "2026-11-04T19:00",
+   "source": "autopilot jour 20",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793629679/tiktok-autopilot/reels/day20_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Achat en ligne en Suisse : pas de droit légal de retour de 14 jours\n\nLa loi le prévoit pour le démarchage à domicile ou par téléphone, pas pour l'achat en ligne (sources : SECO, ch.ch). En ligne, ce sont les conditions du vendeur qui décident.\n\nEnvoie-la à quelqu'un qui commande en ligne pour le Black Friday.\n\n#achatenligne #droitsuisse #blackfriday #suisseromande #jemesuretout",
+   "statut": "publié",
+   "metricool_brouillon": 415550595,
+   "publie_le": "2026-11-04T07:15:45+01:00",
+   "lien": "https://www.instagram.com/reel/DfTyjkjiCpQ/"
+  },
+  {
+   "id": "recycle_batterie",
+   "prevu": "2026-11-05T10:00",
+   "source": "vidéo autopilote recyclée (batterie externe)",
+   "video_url": "https://static.metricool.com/planner/202610/6563196-file-1852059084159145974.mp4",
+   "isAiGenerated": true,
+   "caption": "Batterie externe 20 000 mAh : pas 5 recharges, plutôt 3 à 4\n\nLe chiffre sur la boîte est calculé à 3,7 V : l'énergie réelle, c'est 74 Wh. Un téléphone de 4 000 mAh, c'est environ 15 Wh, et environ 18 % se perdent en chaleur (d'après Anker). Résultat : 3 à 4 recharges.\n\nAvant d'acheter, regarde les Wh, pas les mAh. En avion, la limite est de 100 Wh par batterie externe, en cabine.\n\nEnvoie-la à quelqu'un qui veut acheter une batterie externe au Black Friday.\n\n#batterieexterne #astucetech #blackfriday #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "metricool_brouillon": 415720298
+  },
+  {
+   "id": "day22",
+   "prevu": "2026-11-05T19:00",
+   "source": "autopilot jour 22",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793629680/tiktok-autopilot/reels/day22_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "MacBook Air : 18 h d'autonomie, vraiment ?\n\nCe qu'Apple écrit en petit sur le MacBook Air M5 : les conditions du test, la navigation web et le stockage.\n\nEnregistre-la avant d'acheter.\n\n#macbookair #astucetech #blackfriday #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "metricool_brouillon": 415719641
+  },
+  {
+   "id": "recycle_watertogo",
+   "prevu": "2026-11-06T10:00",
+   "source": "vidéo de Marcio recyclée (Water-to-Go, produit reçu)",
+   "video_url": "https://static.metricool.com/planner/202610/6563196-file-17048354115033127682.mp4",
+   "isAiGenerated": false,
+   "caption": "Water-to-Go Active 100 : la gourde filtrante en action (produit reçu de @watertogo via @influenster)\n\nRemplir, refermer, boire. Filtration 3-en-1 pensée pour l'eau douce, jusqu'à 200 L par filtre, soit jusqu'à 400 bouteilles jetables remplacées selon la marque.\n\nEnvoie-la à ton ami qui part en rando avec un pack de bouteilles en plastique.\n\n#WaterToGo #GourdeFiltrante #Randonnee #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "metricool_brouillon": 415720325
+  },
+  {
+   "id": "day23",
+   "prevu": "2026-11-06T11:00",
+   "source": "autopilot jour 23",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793744695/tiktok-autopilot/reels/day23_reel_voix3.mp4",
+   "isAiGenerated": true,
+   "caption": "Robot aspirateur « 25 000 Pa » : ce que ce chiffre veut vraiment dire\n\nLe pascal (Pa) mesure une pression. La valeur écrite sur la boîte correspond au mode le plus fort, pas forcément celui qu'on utilise tous les jours. Une testeuse de TechRadar (article du 23.01.2026) estime que 10 000 Pa suffisent déjà pour bien nettoyer, et que la brosse et la navigation comptent aussi.\n\nRobot et boîte fictifs, voix de synthèse.\n\nEnvoie-la à quelqu'un qui compare les robots aspirateurs pour le Black Friday.\n\n#robotaspirateur #maison #achatmalin #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "metricool_brouillon": 415719656
+  }
+ ]
 }
