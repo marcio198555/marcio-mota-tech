@@ -156,7 +156,7 @@
 {"id": "RP04F-009", "brand": "UHREN-shop SCHWEIZ", "domain": "uhren-shop.ch", "to": "info@uhren-shop.ch", "ts": "2026-11-04T11:18:09.099905"}
 {"id": "RP04F-010", "brand": "uhrenband.ch", "domain": "uhrenband.ch", "to": "shop@uhrenband.ch", "ts": "2026-11-04T11:18:09.099909"}
 {"id": "RP04F-011", "brand": "Tauchsport Uster", "domain": "tauchsportuster.ch", "to": "info@tauchsportuster.ch", "ts": "2026-11-04T11:18:09.099914"}
-{"id": "RP04F-012", "brand": "Ascherl Bootszubeh\u00f6r", "domain": "ascherl.at", "to": "office@ascherl.at", "ts": "2026-11-04T11:18:09.194752"}
+{"id": "RP04F-012", "brand": "Ascherl Bootszubehör", "domain": "ascherl.at", "to": "office@ascherl.at", "ts": "2026-11-04T11:18:09.194752"}
 {"id": "RP04F-013", "brand": "Bootsshop.at", "domain": "bootsshop.at", "to": "office@bootsshop.at", "ts": "2026-11-04T11:19:31.747877"}
 {"id": "RP04F-014", "brand": "NauticStore24", "domain": "nauticstore24.at", "to": "shop@nauticstore24.at", "ts": "2026-11-04T11:19:31.747917"}
 {"id": "RP04F-015", "brand": "ForGolfer", "domain": "forgolfer.ch", "to": "info@forgolfer.ch", "ts": "2026-11-04T11:19:31.747931"}
@@ -169,7 +169,7 @@
 {"id": "RP04F-022", "brand": "Lampesenligne", "domain": "lampesenligne.fr", "to": "contact@lampesenligne.fr", "ts": "2026-11-04T11:20:20.174703"}
 {"id": "RP04F-023", "brand": "La Lumiere", "domain": "la-lumiere.shop", "to": "contact@la-lumiere.shop", "ts": "2026-11-04T11:20:20.174757"}
 {"id": "RP04F-024", "brand": "LCJ Capteurs", "domain": "lcjcapteurs.com", "to": "contacts@lcjcapteurs.com", "ts": "2026-11-04T11:20:20.174775"}
-{"id": "RP04F-025", "brand": "Moulin Caf\u00e9 Pro", "domain": "moulin-cafe-pro.fr", "to": "contact@moulin-cafe-pro.fr", "ts": "2026-11-04T11:20:20.174786"}
+{"id": "RP04F-025", "brand": "Moulin Café Pro", "domain": "moulin-cafe-pro.fr", "to": "contact@moulin-cafe-pro.fr", "ts": "2026-11-04T11:20:20.174786"}
 {"id": "RP04F-026", "brand": "3D&G", "domain": "3d-g.fr", "to": "contact@3d-g.fr", "ts": "2026-11-04T11:20:20.174796"}
 {"id": "RP04F-027", "brand": "Rainbow3D", "domain": "rainbow3d.fr", "to": "contact@rainbow3d.fr", "ts": "2026-11-04T11:20:20.174806"}
 {"id": "RP04F-028", "brand": "Azimut Nature", "domain": "azimut-nature.com", "to": "contact@azimut-nature.com", "ts": "2026-11-04T11:20:20.174814"}
@@ -182,7 +182,7 @@
 {"id": "RP04F-035", "brand": "Couteaux de Cuisine France", "domain": "couteaux-de-cuisine-france.fr", "to": "contact@couteaux-de-cuisine-france.fr", "ts": "2026-11-04T11:20:30.512069"}
 {"id": "RP04F-036", "brand": "Couteaux-Center", "domain": "couteaux-center.com", "to": "info@couteaux-center.com", "ts": "2026-11-04T11:20:30.512079"}
 {"id": "RP04F-037", "brand": "Germain Photo", "domain": "germainphoto.fr", "to": "contact@germainphoto.fr", "ts": "2026-11-04T11:20:30.512087"}
-{"id": "RP04F-038", "brand": "Audio Synth\u00e8se", "domain": "audio-synthese.fr", "to": "info@audio-synthese.fr", "ts": "2026-11-04T11:20:30.512094"}
+{"id": "RP04F-038", "brand": "Audio Synthèse", "domain": "audio-synthese.fr", "to": "info@audio-synthese.fr", "ts": "2026-11-04T11:20:30.512094"}
 {"id": "RP04F-039", "brand": "Gabson & Hifi", "domain": "gabsonhifi.fr", "to": "info@gabsonhifi.fr", "ts": "2026-11-04T11:20:30.512110"}
 {"id": "RP04F-040", "brand": "Le Son Parfait", "domain": "lesonparfait.com", "to": "info@lesonparfait.com", "ts": "2026-11-04T11:20:30.512117"}
 {"id": "RP04F-041", "brand": "Vinyle Audio", "domain": "vinyleaudio.com", "to": "contact@vinyleaudio.com", "ts": "2026-11-04T11:20:30.512123"}
@@ -204,17 +204,17 @@
 {"id": "RP04G-014", "brand": "Couturama", "domain": "couturama.fr", "to": "contact@couturama.fr", "ts": "2026-11-04T12:38:23.784526"}
 {"id": "RP04G-015", "brand": "RC Performance", "domain": "rc-performance.com", "to": "contact@rc-performance.com", "ts": "2026-11-04T12:38:23.784532"}
 {"id": "RP04G-016", "brand": "Fanatic RC", "domain": "fanatic-rc.com", "to": "contact@fanatic-rc.com", "ts": "2026-11-04T12:38:23.784538"}
-{"id": "RP04G-017", "brand": "Breizh Mod\u00e9lisme", "domain": "breizh-modelisme.com", "to": "serviceclient@breizh-modelisme.com", "ts": "2026-11-04T12:38:23.784543"}
+{"id": "RP04G-017", "brand": "Breizh Modélisme", "domain": "breizh-modelisme.com", "to": "serviceclient@breizh-modelisme.com", "ts": "2026-11-04T12:38:23.784543"}
 {"id": "RP04G-018", "brand": "DroneExpert", "domain": "drone-expert.io", "to": "contact@drone-expert.io", "ts": "2026-11-04T12:38:23.784548"}
 {"id": "RP04G-019", "brand": "Click'N'Wheel", "domain": "clicknwheel.com", "to": "contact@clicknwheel.com", "ts": "2026-11-04T12:38:23.784555"}
 {"id": "RP04G-020", "brand": "Coque-telephone", "domain": "coque-telephone.fr", "to": "service@coque-telephone.fr", "ts": "2026-11-04T12:38:23.784562"}
-{"id": "RP04G-021", "brand": "Cam\u00e9ra Surveillance Maison", "domain": "camera-surveillance-maison.fr", "to": "contact@camera-surveillance-maison.fr", "ts": "2026-11-04T12:39:09.497900"}
+{"id": "RP04G-021", "brand": "Caméra Surveillance Maison", "domain": "camera-surveillance-maison.fr", "to": "contact@camera-surveillance-maison.fr", "ts": "2026-11-04T12:39:09.497900"}
 {"id": "RP04G-022", "brand": "Camping-car-plus", "domain": "camping-car-plus.com", "to": "info@camping-car-plus.com", "ts": "2026-11-04T12:39:09.497967"}
 {"id": "RP04G-024", "brand": "1001 Montres", "domain": "1001-montres.fr", "to": "contact@1001-montres.fr", "ts": "2026-11-04T12:39:09.497981"}
 {"id": "RP04G-025", "brand": "Purificateur Maison", "domain": "purificateurmaison.fr", "to": "contact@purificateurmaison.fr", "ts": "2026-11-04T12:39:09.497989"}
 {"id": "RP04G-026", "brand": "Aqua-Techniques", "domain": "aqua-techniques.fr", "to": "contact@aqua-techniques.fr", "ts": "2026-11-04T12:39:09.497996"}
-{"id": "RP04G-027", "brand": "Th\u00e9i\u00e8re France", "domain": "theiere-france.com", "to": "contact@theiere-france.com", "ts": "2026-11-04T12:39:09.498001"}
-{"id": "RP04G-028", "brand": "Th\u00e9i\u00e8res du Monde", "domain": "theieres-du-monde.fr", "to": "contact@theieres-du-monde.fr", "ts": "2026-11-04T12:39:09.498006"}
+{"id": "RP04G-027", "brand": "Théière France", "domain": "theiere-france.com", "to": "contact@theiere-france.com", "ts": "2026-11-04T12:39:09.498001"}
+{"id": "RP04G-028", "brand": "Théières du Monde", "domain": "theieres-du-monde.fr", "to": "contact@theieres-du-monde.fr", "ts": "2026-11-04T12:39:09.498006"}
 {"id": "RP04G-029", "brand": "La Maison du Barman", "domain": "la-maison-du-barman.fr", "to": "info@la-maison-du-barman.fr", "ts": "2026-11-04T12:39:09.498013"}
 {"id": "RP04G-030", "brand": "Conservation Sous Vide", "domain": "conservationsousvide.fr", "to": "contact@conservationsousvide.fr", "ts": "2026-11-04T12:39:09.498020"}
 {"id": "RP04G-031", "brand": "Pink Noise", "domain": "pinknoise.be", "to": "info@pinknoise.be", "ts": "2026-11-04T12:39:34.138303"}
@@ -229,4 +229,132 @@
 {"id": "RP04G-040", "brand": "Maison Adam", "domain": "maisonadam.ca", "to": "info@maisonadam.ca", "ts": "2026-11-04T12:39:34.138393"}
 {"id": "RP04G-041", "brand": "Distribution Plein Air", "domain": "distributionpleinair.com", "to": "info@distributionpleinair.com", "ts": "2026-11-04T12:39:41.716623"}
 {"id": "RP04G-042", "brand": "La Coutellerie", "domain": "lacoutellerie.ca", "to": "info@lacoutellerie.ca", "ts": "2026-11-04T12:39:41.716680"}
-{"id": "RP04G-043", "brand": "DiscoPi\u00f9", "domain": "discopiu.com", "to": "info@discopiu.com", "ts": "2026-11-04T12:39:41.716699"}
+{"id": "RP04G-043", "brand": "DiscoPiù", "domain": "discopiu.com", "to": "info@discopiu.com", "ts": "2026-11-04T12:39:41.716699"}
+{"id": "RP04H-001", "brand": "The Gadget Store", "domain": "thegadgetstore.it", "to": "info@thegadgetstore.it", "ts": "2026-11-04T12:46:28.120414", "bounced": true}
+{"id": "RP04H-002", "brand": "Kaffeehaus Gräfe", "domain": "kaffeehausgraefe.de", "to": "info@kaffeehausgraefe.de", "ts": "2026-11-04T12:46:28.120467"}
+{"id": "RP04H-003", "brand": "CAFFÈ è VITA", "domain": "caffeevita.de", "to": "info@caffeevita.de", "ts": "2026-11-04T12:46:28.120481"}
+{"id": "RP04H-004", "brand": "3DDrucker Shop", "domain": "3ddrucker.de", "to": "info@3ddrucker.de", "ts": "2026-11-04T12:46:28.120489"}
+{"id": "RP04H-005", "brand": "3D-Drucker-Experte", "domain": "3d-drucker-experte.de", "to": "info@3d-drucker-experte.de", "ts": "2026-11-04T12:46:28.120495"}
+{"id": "RP04H-006", "brand": "Akku Power", "domain": "akku-power.com", "to": "info@akku-power.com", "ts": "2026-11-04T12:46:28.120500"}
+{"id": "RP04H-007", "brand": "Camping Wagner", "domain": "campingwagner.de", "to": "info@campingwagner.de", "ts": "2026-11-04T12:46:28.120506"}
+{"id": "RP04H-008", "brand": "Freistaat Camping", "domain": "derfreistaat.de", "to": "info@derfreistaat.de", "ts": "2026-11-04T12:46:28.120511"}
+{"id": "RP04H-009", "brand": "Campingshop Burkhardt", "domain": "campingshop-burkhardt.de", "to": "info@campingshop-burkhardt.de", "ts": "2026-11-04T12:46:28.120515", "bounced": true}
+{"id": "RP04H-010", "brand": "Camping eShop", "domain": "camping-eshop.de", "to": "info@camping-eshop.de", "ts": "2026-11-04T12:46:28.120520"}
+{"id": "RP04H-011", "brand": "MK Outdoor", "domain": "mkoutdoor.de", "to": "service@mkoutdoor.de", "ts": "2026-11-04T12:47:12.827730"}
+{"id": "RP04H-012", "brand": "EASY SmartHome", "domain": "easy-smarthome.de", "to": "kontakt@easy-smarthome.de", "ts": "2026-11-04T12:47:12.827774"}
+{"id": "RP04H-013", "brand": "Messerkontor", "domain": "messerkontor.de", "to": "info@messerkontor.de", "ts": "2026-11-04T12:47:12.827787"}
+{"id": "RP04H-014", "brand": "Schwarzwald-Messer", "domain": "schwarzwald-messer.de", "to": "info@schwarzwald-messer.de", "ts": "2026-11-04T12:47:12.827794"}
+{"id": "RP04H-015", "brand": "Küchenmesser.de", "domain": "kuechenmesser.de", "to": "shop@kuechenmesser.de", "ts": "2026-11-04T12:47:12.827800"}
+{"id": "RP04H-016", "brand": "eKnives", "domain": "eknives.de", "to": "info@eknives.de", "ts": "2026-11-04T12:47:12.827806"}
+{"id": "RP04H-017", "brand": "Solinger Messer", "domain": "solinger-messer.de", "to": "info@solinger-messer.de", "ts": "2026-11-04T12:47:12.827811"}
+{"id": "RP04H-018", "brand": "Klingenhaus", "domain": "klingenhaus.de", "to": "info@klingenhaus.de", "ts": "2026-11-04T12:47:12.827816"}
+{"id": "RP04H-019", "brand": "Black Chili Messer", "domain": "blackchilimesser.de", "to": "kontakt@blackchilimesser.de", "ts": "2026-11-04T12:47:12.827820"}
+{"id": "RP04H-020", "brand": "Fotokoch", "domain": "fotokoch.de", "to": "service@fotokoch.de", "ts": "2026-11-04T12:47:12.827825"}
+{"id": "RP04H-021", "brand": "MrStylus", "domain": "mrstylus.com", "to": "shop@mrstylus.com", "ts": "2026-11-04T12:48:10.012654"}
+{"id": "RP04H-022", "brand": "Compu Loft", "domain": "compuloft.de", "to": "info@compuloft.de", "ts": "2026-11-04T12:48:10.012709"}
+{"id": "RP04H-023", "brand": "E.W. Neu Werkzeug", "domain": "werkzeug-neu.de", "to": "info@werkzeug-neu.de", "ts": "2026-11-04T12:48:10.012722"}
+{"id": "RP04H-024", "brand": "Werkzeugmaster", "domain": "werkzeugmaster.de", "to": "info@werkzeugmaster.de", "ts": "2026-11-04T12:48:10.012731"}
+{"id": "RP04H-025", "brand": "mn rainman", "domain": "mnrainman.com", "to": "info@mnrainman.com", "ts": "2026-11-04T12:48:10.012738"}
+{"id": "RP04H-026", "brand": "AquaTeam-Shop", "domain": "aquateam-shop.de", "to": "info@aquateam-shop.de", "ts": "2026-11-04T12:48:10.012743"}
+{"id": "RP04H-027", "brand": "Sunseeker Mähroboter", "domain": "seeker-maehroboter.de", "to": "kontakt@seeker-maehroboter.de", "ts": "2026-11-04T12:48:10.012748"}
+{"id": "RP04H-028", "brand": "baby-direkt", "domain": "baby-direkt.de", "to": "info@baby-direkt.de", "ts": "2026-11-04T12:48:10.012753"}
+{"id": "RP04H-029", "brand": "Babyartikel", "domain": "babyartikel.de", "to": "info@babyartikel.de", "ts": "2026-11-04T12:48:10.012757"}
+{"id": "RP04H-030", "brand": "Babyonlineshop", "domain": "babyonlineshop.de", "to": "support@babyonlineshop.de", "ts": "2026-11-04T12:48:10.012762"}
+{"id": "RP04H-031", "brand": "A&M Angelsport", "domain": "am-angelsport.de", "to": "info@am-angelsport.de", "ts": "2026-11-04T12:48:21.693323"}
+{"id": "RP04H-032", "brand": "Angel-Domäne", "domain": "angel-domaene.de", "to": "info@angel-domaene.de", "ts": "2026-11-04T12:48:21.693374"}
+{"id": "RP04H-033", "brand": "Angelplatz", "domain": "angelplatz.de", "to": "info@angelplatz.de", "ts": "2026-11-04T12:48:21.693392"}
+{"id": "RP04H-034", "brand": "Fishing-King", "domain": "fishing-king.de", "to": "info@fishing-king.de", "ts": "2026-11-04T12:48:21.693403"}
+{"id": "RP04H-035", "brand": "Fisherman's Partner", "domain": "fishermans-partner.shop", "to": "service@fishermans-partner.shop", "ts": "2026-11-04T12:48:21.693412"}
+{"id": "RP04H-036", "brand": "Tauchshop Kwella", "domain": "tauchshop-kwella.de", "to": "info@tauchshop-kwella.de", "ts": "2026-11-04T12:48:21.693419"}
+{"id": "RP04H-037", "brand": "Tauchcenter Wuppertal", "domain": "tauchcenter-wuppertal.de", "to": "info@tauchcenter-wuppertal.de", "ts": "2026-11-04T12:48:21.693426"}
+{"id": "RP04H-038", "brand": "Marken-Golf", "domain": "marken-golf.de", "to": "info@marken-golf.de", "ts": "2026-11-04T12:48:21.693432"}
+{"id": "RP04H-039", "brand": "Golf24", "domain": "golf24.com", "to": "info@golf24.com", "ts": "2026-11-04T12:48:21.693438"}
+{"id": "RP04H-040", "brand": "GOLF absolute", "domain": "golf-absolute.de", "to": "shop@golf-absolute.de", "ts": "2026-11-04T12:48:21.693444"}
+{"id": "RP04H-041", "brand": "GOLFKIDSFUN", "domain": "golfkidsfun.com", "to": "shop@golfkidsfun.com", "ts": "2026-11-04T12:48:21.723794"}
+{"id": "RP04H-042", "brand": "BENY Sports", "domain": "benysports.de", "to": "info@benysports.de", "ts": "2026-11-04T12:48:21.723835"}
+{"id": "RP04H-043", "brand": "Fitness-Store24", "domain": "fitness-store24.de", "to": "kontakt@fitness-store24.de", "ts": "2026-11-04T12:48:21.723886"}
+{"id": "RP04I-001", "brand": "Drone-Zone", "domain": "drone-zone.de", "to": "info@drone-zone.de", "ts": "2026-11-04T13:14:30.399656"}
+{"id": "RP04I-002", "brand": "Drohnen-Shop", "domain": "drohnen-shop.de", "to": "info@drohnen-shop.de", "ts": "2026-11-04T13:14:30.399857"}
+{"id": "RP04I-003", "brand": "RCFOX", "domain": "rcfox.de", "to": "info@rcfox.de", "ts": "2026-11-04T13:14:30.399872"}
+{"id": "RP04I-004", "brand": "escooter.de", "domain": "escooter.de", "to": "info@escooter.de", "ts": "2026-11-04T13:14:30.399881"}
+{"id": "RP04I-005", "brand": "Your Scooter", "domain": "yourscooter.de", "to": "info@yourscooter.de", "ts": "2026-11-04T13:14:30.399888"}
+{"id": "RP04I-006", "brand": "3P Scooters", "domain": "3pscooters.de", "to": "kontakt@3pscooters.de", "ts": "2026-11-04T13:14:30.399894"}
+{"id": "RP04I-007", "brand": "SLIDEFOX", "domain": "slide-fox.de", "to": "info@slide-fox.de", "ts": "2026-11-04T13:14:30.399899"}
+{"id": "RP04I-008", "brand": "ZITOCASES", "domain": "zitocases.com", "to": "info@zitocases.com", "ts": "2026-11-04T13:14:30.399903"}
+{"id": "RP04I-009", "brand": "Handyhuellen.de", "domain": "handyhuellen.de", "to": "service@handyhuellen.de", "ts": "2026-11-04T13:14:30.399908"}
+{"id": "RP04I-010", "brand": "JOJO Wassersport", "domain": "jojo-wassersport.de", "to": "info@jojo-wassersport.de", "ts": "2026-11-04T13:14:30.399912"}
+{"id": "RP04I-011", "brand": "AquaEquip", "domain": "aquaequip.de", "to": "info@aquaequip.de", "ts": "2026-11-04T13:15:17.670702"}
+{"id": "RP04I-012", "brand": "World Nautic Center", "domain": "worldnauticcenter.de", "to": "info@worldnauticcenter.de", "ts": "2026-11-04T13:15:17.670765"}
+{"id": "RP04I-013", "brand": "Marina Wassersport", "domain": "marina-shop.de", "to": "info@marina-shop.de", "ts": "2026-11-04T13:15:17.670779"}
+{"id": "RP04I-014", "brand": "K\u00f6sling Marinesport", "domain": "koesling.de", "to": "info@koesling.de", "ts": "2026-11-04T13:15:17.670786"}
+{"id": "RP04I-015", "brand": "Caravan-Center", "domain": "caravan-center.de", "to": "info@caravan-center.de", "ts": "2026-11-04T13:15:17.670792"}
+{"id": "RP04I-016", "brand": "Albrecht Campingzubeh\u00f6r", "domain": "albrecht-campingzubehoer.de", "to": "info@albrecht-campingzubehoer.de", "ts": "2026-11-04T13:15:17.670797"}
+{"id": "RP04I-017", "brand": "Humitec", "domain": "humitec.shop", "to": "info@humitec.shop", "ts": "2026-11-04T13:15:17.670802"}
+{"id": "RP04I-018", "brand": "MWB Watches", "domain": "mwbwatches.de", "to": "info@mwbwatches.de", "ts": "2026-11-04T13:15:17.670807"}
+{"id": "RP04I-019", "brand": "M\u00f3ric Watches", "domain": "mwatches.de", "to": "info@mwatches.de", "ts": "2026-11-04T13:15:17.670812"}
+{"id": "RP04I-020", "brand": "Steinhart Watches", "domain": "steinhartwatches.de", "to": "info@steinhartwatches.de", "ts": "2026-11-04T13:15:17.670816"}
+{"id": "RP04I-021", "brand": "uhrcenter", "domain": "uhrcenter.de", "to": "info@uhrcenter.de", "ts": "2026-11-04T13:16:14.718166"}
+{"id": "RP04I-022", "brand": "kaminofen-store", "domain": "kaminofen-store.de", "to": "info@kaminofen-store.de", "ts": "2026-11-04T13:16:14.718215"}
+{"id": "RP04I-023", "brand": "Ofen.de", "domain": "ofen.de", "to": "info@ofen.de", "ts": "2026-11-04T13:16:14.718232"}
+{"id": "RP04I-024", "brand": "Ofenexperte", "domain": "ofenexperte.de", "to": "info@ofenexperte.de", "ts": "2026-11-04T13:16:14.718242"}
+{"id": "RP04I-025", "brand": "Kaminofen-Shop24h", "domain": "kaminofen-shop24h.de", "to": "info@kaminofen-shop24h.de", "ts": "2026-11-04T13:16:14.718251"}
+{"id": "RP04I-026", "brand": "Alb Filter", "domain": "alb-filter.com", "to": "info@alb-filter.com", "ts": "2026-11-04T13:16:14.718259"}
+{"id": "RP04I-027", "brand": "FriWaTec", "domain": "friwatec.com", "to": "info@friwatec.com", "ts": "2026-11-04T13:16:14.718267"}
+{"id": "RP04I-028", "brand": "Wasserfilter-Experten", "domain": "wasserfilter-experten.de", "to": "info@wasserfilter-experten.de", "ts": "2026-11-04T13:16:14.718275"}
+{"id": "RP04I-029", "brand": "Acala Wasserfilter", "domain": "acalawasserfilter.de", "to": "kundenservice@acalawasserfilter.de", "ts": "2026-11-04T13:16:14.718283"}
+{"id": "RP04I-030", "brand": "KC Onlineshop", "domain": "kc-onlineshop.de", "to": "info@kc-onlineshop.de", "ts": "2026-11-04T13:16:14.718291"}
+{"id": "RP04I-031", "brand": "Beleuchtung Direkt", "domain": "beleuchtungdirekt.de", "to": "info@beleuchtungdirekt.de", "ts": "2026-11-04T13:16:25.289007"}
+{"id": "RP04I-032", "brand": "Balkonkraftwerk.de", "domain": "balkonkraftwerk.de", "to": "service@balkonkraftwerk.de", "ts": "2026-11-04T13:16:25.289041"}
+{"id": "RP04I-033", "brand": "Apollo Solar Energy", "domain": "apollosolarenergy.de", "to": "info@apollosolarenergy.de", "ts": "2026-11-04T13:16:25.289053"}
+{"id": "RP04I-034", "brand": "MyVoltaics", "domain": "myvoltaics.de", "to": "info@myvoltaics.de", "ts": "2026-11-04T13:16:25.289060"}
+{"id": "RP04I-035", "brand": "Solarmodule Dortmund", "domain": "solarmodule-dortmund.de", "to": "info@solarmodule-dortmund.de", "ts": "2026-11-04T13:16:25.289068"}
+{"id": "RP04I-036", "brand": "WIRELOAD", "domain": "wireload.de", "to": "service@wireload.de", "ts": "2026-11-04T13:16:25.289074"}
+{"id": "RP04I-037", "brand": "e-mobileo", "domain": "e-mobileo.de", "to": "kontakt@e-mobileo.de", "ts": "2026-11-04T13:16:25.289079"}
+{"id": "RP04I-038", "brand": "Wallbox Discounter", "domain": "wallboxdiscounter.com", "to": "info@wallboxdiscounter.com", "ts": "2026-11-04T13:16:25.314078"}
+{"id": "RP04I-039", "brand": "Ledisons", "domain": "ledisons.de", "to": "info@ledisons.de", "ts": "2026-11-04T13:16:25.314121"}
+{"id": "RP04I-040", "brand": "led-konzept", "domain": "led-konzept.de", "to": "service@led-konzept.de", "ts": "2026-11-04T13:16:25.314145"}
+{"id": "RP04I-041", "brand": "avitec24", "domain": "avitec24.de", "to": "info@avitec24.de", "ts": "2026-11-04T13:16:25.314156"}
+{"id": "RP04I-042", "brand": "Fenstermaxx24", "domain": "fenstermaxx24.com", "to": "info@fenstermaxx24.com", "ts": "2026-11-04T13:16:25.314161"}
+{"id": "RP04I-043", "brand": "Poolroboter-Shop", "domain": "poolroboter-shop.de", "to": "info@poolroboter-shop.de", "ts": "2026-11-04T13:16:25.314169"}
+{"id": "RP04B-001", "brand": "Solarbag-Shop", "domain": "solarbag-shop.de", "to": "info@solarbag-shop.de", "ts": "2026-11-04T13:16:58.801011"}
+{"id": "RP04B-002", "brand": "Sport Hopfmann", "domain": "sport-hopfmann.de", "to": "online-shop@sport-hopfmann.de", "ts": "2026-11-04T13:16:58.801051"}
+{"id": "RP04B-004", "brand": "Castan Golf", "domain": "castangolf.de", "to": "shop@castangolf.de", "ts": "2026-11-04T13:16:58.801065"}
+{"id": "RP04B-005", "brand": "EBIKE-24", "domain": "ebike-24.com", "to": "service@ebike-24.com", "ts": "2026-11-04T13:16:58.801074"}
+{"id": "RP04B-006", "brand": "SwissWetter.shop", "domain": "swisswetter.shop", "to": "info@swisswetter.shop", "ts": "2026-11-04T13:16:58.801080"}
+{"id": "RP04B-007", "brand": "Novistore", "domain": "novistore.ch", "to": "info@novistore.ch", "ts": "2026-11-04T13:16:58.801086"}
+{"id": "RP04B-008", "brand": "M\u00e9t\u00e9o Shopping", "domain": "meteo-shopping.com", "to": "contact@meteo-shopping.com", "ts": "2026-11-04T13:16:58.801091"}
+{"id": "RP04B-009", "brand": "WeerstationKopen", "domain": "weerstationkopen.nl", "to": "info@weerstationkopen.nl", "ts": "2026-11-04T13:16:58.801096"}
+{"id": "RP04B-010", "brand": "Weather Spares", "domain": "weatherspares.co.uk", "to": "sales@weatherspares.co.uk", "ts": "2026-11-04T13:16:58.801101"}
+{"id": "RP04B-011", "brand": "HH Solutions", "domain": "hhsolutions.ie", "to": "info@hhsolutions.ie", "ts": "2026-11-04T13:17:38.178696"}
+{"id": "RP04B-012", "brand": "Teleskooppi.fi", "domain": "teleskooppi.fi", "to": "info@teleskooppi.fi", "ts": "2026-11-04T13:17:38.178765"}
+{"id": "RP04B-013", "brand": "Damborg", "domain": "damborg.dk", "to": "info@damborg.dk", "ts": "2026-11-04T13:17:38.178779"}
+{"id": "RP04B-014", "brand": "Alstrom Isenkram", "domain": "alstrom.dk", "to": "webshop@alstrom.dk", "ts": "2026-11-04T13:17:38.178787"}
+{"id": "RP04B-015", "brand": "Kikkert Shoppen", "domain": "kikkert-shoppen.dk", "to": "info@kikkert-shoppen.dk", "ts": "2026-11-04T13:17:38.178793"}
+{"id": "RP04B-016", "brand": "Hunters Point", "domain": "hunterspoint.dk", "to": "support@hunterspoint.dk", "ts": "2026-11-04T13:17:38.178797"}
+{"id": "RP04B-017", "brand": "Naturbutiken", "domain": "naturbutiken.se", "to": "info@naturbutiken.se", "ts": "2026-11-04T13:17:38.178802"}
+{"id": "RP04B-018", "brand": "Kikkertbutikken", "domain": "kikkertbutikken.no", "to": "kontakt@kikkertbutikken.no", "ts": "2026-11-04T13:17:38.178806"}
+{"id": "RP04B-019", "brand": "3D Print Aarhus", "domain": "3dprintaarhus.dk", "to": "salg@3dprintaarhus.dk", "ts": "2026-11-04T13:17:38.178810"}
+{"id": "RP04B-020", "brand": "PriGo", "domain": "prigo.dk", "to": "support@prigo.dk", "ts": "2026-11-04T13:17:38.178814"}
+{"id": "RP04B-021", "brand": "TM3D", "domain": "tm3dfilament.nl", "to": "info@tm3dfilament.com", "ts": "2026-11-04T13:18:15.840860"}
+{"id": "RP04B-022", "brand": "SailSupply", "domain": "sailsupply.nl", "to": "info@sailsupply.nl", "ts": "2026-11-04T13:18:15.840913"}
+{"id": "RP04B-023", "brand": "3Dpart Nordic", "domain": "3dpart.se", "to": "info@3dpart.se", "ts": "2026-11-04T13:18:15.840931"}
+{"id": "RP04B-024", "brand": "3DVerkstan", "domain": "3dverkstan.se", "to": "info@3dverkstan.se", "ts": "2026-11-04T13:18:15.840942"}
+{"id": "RP04B-025", "brand": "Protech Sverige", "domain": "protech.se", "to": "info@protech.se", "ts": "2026-11-04T13:18:15.841326"}
+{"id": "RP04B-026", "brand": "Materie X", "domain": "materiex.no", "to": "kontakt@materiex.no", "ts": "2026-11-04T13:18:15.841365"}
+{"id": "RP04B-027", "brand": "DDD Print", "domain": "dddprint.no", "to": "support@dddprint.no", "ts": "2026-11-04T13:18:15.841381"}
+{"id": "RP04B-028", "brand": "Stratum3D", "domain": "stratum3d.no", "to": "post@stratum3d.no", "ts": "2026-11-04T13:18:15.841387"}
+{"id": "RP04B-029", "brand": "3D Printeriet", "domain": "3dprinteriet.no", "to": "post@3dprinteriet.no", "ts": "2026-11-04T13:18:15.841393"}
+{"id": "RP04B-030", "brand": "Protech Norge", "domain": "protechnorge.no", "to": "info@protechnorge.no", "ts": "2026-11-04T13:18:15.841398"}
+{"id": "RP04B-031", "brand": "Suomen 3D-ratkaisut", "domain": "suomen3d.fi", "to": "info@suomen3d.fi", "ts": "2026-11-04T13:19:08.711591"}
+{"id": "RP04B-032", "brand": "Home Coffee Machines", "domain": "homecoffeemachines.ie", "to": "info@homecoffeemachines.ie", "ts": "2026-11-04T13:19:08.711626"}
+{"id": "RP04B-033", "brand": "Koffiewereld", "domain": "koffiewereld.nl", "to": "info@koffiewereld.nl", "ts": "2026-11-04T13:19:08.711638"}
+{"id": "RP04B-034", "brand": "Drone Safe Store", "domain": "dronesafestore.com", "to": "info@dronesafestore.com", "ts": "2026-11-04T13:19:08.711645"}
+{"id": "RP04B-035", "brand": "AeroFocus", "domain": "aerofocus.store", "to": "support@aerofocus.store", "ts": "2026-11-04T13:19:08.711651"}
+{"id": "RP04B-036", "brand": "Roboteksperten", "domain": "roboteksperten.dk", "to": "info@roboteksperten.dk", "ts": "2026-11-04T13:19:08.711656"}
+{"id": "RP04B-037", "brand": "Alt til robotten", "domain": "alttilrobotten.dk", "to": "info@alttilrobotten.dk", "ts": "2026-11-04T13:19:08.711661"}
+{"id": "RP04B-038", "brand": "Robotstovsugeren.dk", "domain": "robotstovsugeren.dk", "to": "info@robotstovsugeren.dk", "ts": "2026-11-04T13:19:08.711665"}
+{"id": "RP04B-039", "brand": "BuyaBattery", "domain": "buyabattery.co.uk", "to": "enquiries@buyabattery.co.uk", "ts": "2026-11-04T13:19:08.711669"}
+{"id": "RP04B-040", "brand": "Kahvikoneet.fi", "domain": "kahvikoneet.fi", "to": "kahvikoneet@kahvikoneet.fi", "ts": "2026-11-04T13:19:08.711674"}
+{"id": "RP04B-041", "brand": "AirPurifiers.ie", "domain": "airpurifiers.ie", "to": "support@airpurifiers.ie", "ts": "2026-11-04T13:19:08.739980"}
+{"id": "RP04B-042", "brand": "Audio Counsel", "domain": "audiocounsel.co.uk", "to": "info@audiocounsel.co.uk", "ts": "2026-11-04T13:19:08.740024"}
+{"id": "RP04B-043", "brand": "Doug Brady HiFi", "domain": "dougbradyhifi.com", "to": "sales@dougbradyhifi.com", "ts": "2026-11-04T13:19:08.740042"}
