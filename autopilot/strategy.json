@@ -55,7 +55,7 @@
     "retention_pct": 40,
     "abonnes_gagnes": 60
    },
-   "experience": "Demande de Marcio (02.11) : plus d'images, de personnages et d'animation. Format A « Les objets balancent » sur 10 créneaux sur 14 ; les 4 autres pour le gagnant du test V contre T de S1 (témoin). Le 6.11 à 10 h (jour 23, robot aspirateur) est déjà produit.",
+   "experience": "Changé le 04.11 (vues bloquées à 250–290) : 10 h = format A court (15 s max, produits seulement) ; 18 h = format R (vraies vidéos de Marcio). Bilan du 13.11 : R contre A, vues médianes et abonnés ; le gagnant prend plus de créneaux.",
    "statut": "à venir",
    "resultat": null,
    "verdict": null,
@@ -119,6 +119,11 @@
    "nom": "Animé « Les objets balancent »",
    "description": "L'objet du sujet devient un personnage (yeux, bouche synchronisée, voix de personnage) qui balance ce qu'on écrit sur sa boîte, dans un salon dessiné, avec des personnes et réactions en images 3D libres (MIT). Format viral « objet qui parle » de 2026. 18–27 s.",
    "outil": "tools/produce_anime.sh NN (RUNBOOK § 11)"
+  },
+  "R": {
+   "nom": "Réel (vraies vidéos de Marcio)",
+   "description": "Ses propres Reels Instagram (mains, produit réel), coupés à 12–20 s sur l'action la plus visuelle, accroche écrite les 2–3 premières secondes, sa voix off gardée ou musique libre. Créneau de 18 h depuis le 04.11.2026 (accord de Marcio).",
+   "outil": "tools/ig_cut.py (RUNBOOK § 12)"
   }
  },
  "regles": [
@@ -276,6 +281,11 @@
    "date": "2026-11-02",
    "verdict": "en cours",
    "decision": "Marcio : « fais comme tu penses » (part de vidéos animées). Décision : S2 garde 10 vidéos animées (format A) sur 14 et 4 au format gagnant de S1 pour comparer ; à partir de S3, la règle R5 répartit selon les chiffres (si le format A gagne nettement, il passe à 12 ou 14 sur 14). Analyse complète chaque vendredi (TikTok + Instagram, ce qui a marché / pas marché)."
+  },
+  {
+   "date": "2026-11-04",
+   "verdict": "ROUGE en cours de semaine (constat de Marcio, confirmé par les chiffres)",
+   "decision": "Metricool au 04.11 : 14 des 16 vidéos de l'autopilote (25.10–2.11) entre 246 et 293 vues, médiane 269,5 ; seules 2 sorties (robot tondeuse 1 010, batterie externe 785), aucune depuis le 28.10 ; 2 partages et 1 commentaire en tout ; abonnés 68 → 74. Voix (V) et texte seul (T) : même niveau. Vraies vidéos de Marcio sur TikTok (juin-juillet, 5–12 s) : 3 sur 8 au-dessus de 780 vues. Décision (accord de Marcio, « Oui, toutes ») : 18 h = format R (ses Reels Instagram raccourcis), 10 h = format A court (15 s max, produits seulement). Dès le 4.11 : Roomba (4.11), Sleepal (5.11), Aeotec (6.11) à 18 h ; les vidéos 20 et 22 retirées de TikTok (brouillons Buffer)."
   }
  ]
 }

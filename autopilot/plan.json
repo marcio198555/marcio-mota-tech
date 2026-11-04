@@ -527,7 +527,7 @@
    ],
    "argent": "Croissance (Black Friday)",
    "annonce": "le lave-vaisselle : le programme le plus long consomme le moins (jour 21)",
-   "statut": "programmée",
+   "statut": "retirée de TikTok (brouillon Buffer 6aea3a7552391758e2e60c06) ; Story et Reel d'essai gardés",
    "semaine": "S1",
    "metricool_id": 415719614,
    "programme_le": "2026-11-04T18:00",
@@ -550,7 +550,8 @@
    },
    "buffer_id": "6aea3a7552391758e2e60c06",
    "metricool_statut": "brouillon (TikTok publié par Buffer)",
-   "publie_par": "buffer"
+   "publie_par": "buffer",
+   "note_0411": "04.11.2026 : créneau TikTok de 18 h donné à une vraie vidéo de Marcio (format R, Roomba) après le constat des vues bloquées à 250–290."
   },
   {
    "jour": 21,
@@ -603,7 +604,7 @@
     "« jusqu'à » sur les performances (note)"
    ],
    "argent": "Affiliation (Black Friday)",
-   "statut": "programmée",
+   "statut": "retirée de TikTok (brouillon Buffer 6aea1e221f06859f7ba28ca5) ; Story et Reel d'essai gardés",
    "semaine": "S1",
    "metricool_id": 415585772,
    "programme_le": "2026-11-05T18:00",
@@ -624,7 +625,8 @@
    },
    "buffer_id": "6aea1e221f06859f7ba28ca5",
    "metricool_statut": "brouillon (TikTok publié par Buffer)",
-   "publie_par": "buffer"
+   "publie_par": "buffer",
+   "note_0411": "04.11.2026 : créneau TikTok de 18 h donné à une vraie vidéo de Marcio (format R, Sleepal)."
   },
   {
    "jour": 23,
@@ -929,6 +931,47 @@
    "heure": null
   }
  ],
- "rythme": "2 vidéos par jour (10 h et 18 h) depuis le 27.10.2026 ; chaque vendredi : bilan + plan des 14 créneaux + vidéos du matin (5 h 37), puis vidéos du soir (11 h 37). Stratégie du mois (30.10 → 27.11) : strategy.json.",
- "objectif": "Gagner des abonnés et des vues"
+ "rythme": "Depuis le 04.11.2026 : 2 vidéos par jour sur TikTok — 10 h = autopilote (format A court, 15 s max, produits seulement) ; 18 h = vraie vidéo de Marcio (format R, tirée de ses Reels Instagram, accord du 04.11). Chaque vendredi : bilan + plan (5 h 37), vidéos R de 18 h (11 h 37). Stratégie du mois : strategy.json.",
+ "objectif": "Gagner des abonnés et des vues",
+ "format_R": [
+  {
+   "id": "r01",
+   "date": "2026-11-04",
+   "heure": "18:00",
+   "source": "https://www.instagram.com/reel/DdbrHNOkRlP/",
+   "produit": "iRobot Roomba Combo 575 Plus",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793777984/tiktok-autopilot/r/r01_roomba.mp4",
+   "buffer_id": "6aeae1f1c63bd995bd198d6e",
+   "duree_s": 14.2,
+   "son": "musique libre (synth.py), son d'origine coupé",
+   "isAiGenerated": false,
+   "statut": "programmée"
+  },
+  {
+   "id": "r02",
+   "date": "2026-11-05",
+   "heure": "18:00",
+   "source": "https://www.instagram.com/reel/De1vYdrkocC/",
+   "produit": "Sleepal AI Lamp",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793778130/tiktok-autopilot/r/r02_sleepal.mp4",
+   "buffer_id": "6aeae1f5d59713e4342b4cdb",
+   "duree_s": 17.4,
+   "son": "son d'origine (voix off IA de Marcio)",
+   "isAiGenerated": true,
+   "statut": "programmée"
+  },
+  {
+   "id": "r03",
+   "date": "2026-11-06",
+   "heure": "18:00",
+   "source": "https://www.instagram.com/reel/De1r0MrCKBq/",
+   "produit": "Aeotec (Hub 2, Water Leak Sensor)",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793778131/tiktok-autopilot/r/r03_aeotec.mp4",
+   "buffer_id": "6aeae1f7dc38f4d7bad85466",
+   "duree_s": 19.7,
+   "son": "son d'origine (voix off IA de Marcio)",
+   "isAiGenerated": true,
+   "statut": "programmée"
+  }
+ ]
 }

@@ -17,6 +17,21 @@ signaler à Marcio dans le message final.
 **Du 30.10 au 27.11.2026 : stratégie du mois (§ 10 et `strategy.json`)**, demandée par Marcio le 29.10 : chaque vendredi,
 on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles ; si ça ne marche pas, on change de stratégie.
 
+> **Changements du 04.11.2026 : ils priment sur tout le reste, y compris le bloc du 03.11 et le texte des tâches.**
+> Marcio (04.11, 8 h 23) : « je n'ai pas de vues sur TikTok, ta méthode ne marche pas très bien ». Constat chiffré
+> (Metricool, 04.11) : 14 des 16 vidéos de l'autopilote publiées du 25.10 au 2.11 sont restées entre 246 et 293 vues ;
+> seules les 2 premières « pièges de fiche technique » sont sorties (1 010 et 785) ; 2 partages et 1 commentaire en tout ;
+> abonnés 68 → 74 ; voix contre texte seul : aucune différence. Les vraies vidéos de Marcio (juin-juillet, 5–12 s) :
+> 3 sur 8 au-dessus de 780 vues. Nouvelle règle, à partir du 4.11 :
+> 1. **10 h = autopilote, 1 vidéo par jour** : format A uniquement, **15 s au plus** (3 ou 4 phrases courtes), un
+>    chiffre ou un fait surprenant **dès la première seconde**, et **seulement des produits** qu'on achète (plus de lois,
+>    de prix barrés, de sujets abstraits). Story Instagram et Reel d'essai comme avant.
+> 2. **18 h = format R « Réel » : une vraie vidéo de Marcio** tirée de ses Reels Instagram (accord de Marcio le 04.11 :
+>    « Oui, toutes », y compris les produits reçus, avec la mention). Procédure § 12. Pas de Story ni de Reel d'essai
+>    pour le format R (c'est déjà son contenu Instagram).
+> 3. **Bilan du vendredi** : comparer R (18 h) et A (10 h) ; le format qui fait le plus de vues prend plus de créneaux.
+>    Si R l'emporte nettement, passer à R aux deux créneaux.
+
 > **Changements du 03.11.2026 : ils priment sur le texte des tâches programmées** (« fais de ton mieux, avec les
 > meilleurs outils », Marcio, 03.11.2026). Si la consigne d'une tâche dit autre chose, c'est ce bloc qui compte :
 > 1. **Publication TikTok et Stories : Buffer**, plus Metricool (§ 8, partie Buffer), parce que Metricool gratuit
@@ -361,8 +376,35 @@ Modèle de scène : `autopilot/days/_ai_demo/scene.js`.
   Le pont pousse chaque voix dès qu'elle est prête (commit « bridge output (voix dayNN) ») : monter la première vidéo
   sans attendre les autres. Au-delà de 40 minutes de voix, le passage s'arrête et les voix restantes passent au
   passage suivant : le relancer avec `gh workflow run tiktok-bridge.yml --ref tiktok-autopilot`. Une voix
-  Chatterbox est environ 20 % plus longue que Piper : viser 6 à 7 phrases courtes pour rester sous 30 s.
+  Chatterbox est environ 20 % plus longue que Piper : depuis le 04.11, 3 ou 4 phrases courtes, 15 s au plus (bloc du 04.11).
 - Ensuite comme avant : `assemble_vo.py … --lead 0.12 --gap 0.1`, **sans `voice_fx.py`** (la version choisie par Marcio
   n'a pas d'effet), champs `display`, transcription Whisper obligatoire (§ 11.5) : corriger tout mot mal dit
   (réécrire la phrase ou changer `seed`, puis nouveau job sous un nouveau nom).
 - Piper reste la solution de secours si le pont échoue (voix tom, `voice_fx.py --factor 1.12`).
+
+## 12. Format R « Réel » : les vraies vidéos de Marcio (depuis le 04.11.2026, créneau de 18 h)
+Accord de Marcio le 04.11.2026 : ses propres Reels Instagram (ses mains, ses produits) peuvent passer sur TikTok,
+raccourcis avec une accroche, y compris les produits reçus des marques (avec la mention). Rien n'est modifié sur Instagram.
+1. **Choisir** dans `autopilot/r_queue.json` la prochaine source « à faire » (vues Instagram décroissantes). Sauter
+   toute vidéo qui contient des images d'un autre créateur ou de la marque (légende : « images de », « footage »,
+   texte anglais de la marque ; regarder la planche) : **jamais republier la vidéo d'un autre**. Sauter celles déjà
+   publiées sur TikTok (juin-juillet) et celles en allemand ou en anglais.
+2. **Récupérer** : Windsor `get_data` (connector instagram, account 17841468820761900, champs media_shortcode,
+   media_url, filtre `["media_shortcode","in","[...]"]`) donne l'adresse du fichier (valable quelques jours) ;
+   l'ajouter à `bridge/urls.txt` (`ig_<shortcode>.mp4 <url>`), push sans `[skip-bridge]` ; le fichier arrive dans
+   `bridge/out/` ; retirer ensuite la ligne de `urls.txt`.
+3. **Choisir les passages** : `python3 autopilot/tools/ig_cut.py bridge/out/ig_X.mp4 --scan planche.jpg` (une image
+   par seconde), puis regarder la planche. Garder 12 à 20 s : l'action la plus visuelle (le produit qui marche, le
+   résultat), pas le déballage lent ; si la vidéo a une voix off, couper entre deux phrases (les sous-titres de
+   Marcio aident) ; sauter les plans d'ouverture et de fin (carte « lien en bio »).
+4. **Monter** : `ig_cut.py source sortie --seg a-b [--seg c-d] --hook "accroche" [--hook-y 860] [--speed 1.1]
+   [--mute --music bed.wav] --sheet planche.jpg`. Accroche : un fait tiré de la vidéo ou de la légende, jamais
+   inventé ; ne pas la poser sur un texte déjà écrit dans la vidéo (`--hook-y` pour la déplacer) ; pas d'accroche si
+   la vidéo commence déjà par un grand titre. Son : garder la voix off de Marcio ; sinon (musique seule, souvent une
+   musique de la bibliothèque Instagram) `--mute --music` avec `audio/synth.py bed`. Vérifier la planche.
+5. **Publier** : `media/r/rNN_<produit>.mp4`, commit, Cloudinary (`tiktok-autopilot/r/rNN_<produit>`), puis Buffer TikTok à
+   18 h : légende courte en français (question oui/non, « Produit reçu de … » ou « Produits offerts par … »,
+   « Voix off générée par IA » si c'est le cas, 5 hashtags), titre = l'accroche, `isAiGenerated` true si la vidéo
+   contient une voix ou des images générées par IA, sinon false. Noter dans `plan.json` (`format_R`) et passer la
+   source à « faite » dans `r_queue.json`.
+

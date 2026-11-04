@@ -167,3 +167,19 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
 - Pour refaire une vidéo avec une nouvelle voix du même texte : `tools/retime_cues.py` recale les bruitages mot par mot ;
   la scène suit déjà les mots (wordAt). Le pont pousse maintenant chaque voix, transcription et image dès qu'elle est
   prête (« bridge output (voix) », « (transcription) », « (image …) ») : plus besoin d'attendre la fin du passage.
+
+## 04.11.2026 — Marcio : « je n'ai pas de vues sur TikTok, ta méthode ne marche pas très bien »
+- Il a raison. Metricool (04.11, 8 h 30) : 14 des 16 vidéos de l'autopilote publiées du 25.10 au 2.11 sont restées
+  entre 246 et 293 vues (médiane 269,5) : c'est le premier groupe de test de TikTok, les gens passent et la vidéo
+  s'arrête là. Seules les 2 premières sont sorties (robot tondeuse 1 010, batterie externe 785) ; aucune depuis le
+  28.10. 2 partages, 1 commentaire en tout. Abonnés 68 → 74 en 9 jours.
+- Le test voix (V) contre texte seul (T) ne change rien : les deux restent vers 250–290 vues.
+- Les vraies vidéos de Marcio publiées sur TikTok en juin-juillet (produit réel, 5–12 s) : 3 sur 8 au-dessus de
+  780 vues (Dreame 922, Kärcher 803, barre de son 788). Petit échantillon, mais meilleur que l'autopilote (2 sur 16).
+- Les données de rétention de Metricool (temps moyen, visionnage complet) ne remontent plus depuis le 30.10 (null).
+- Décision (accord de Marcio : « Oui, toutes ») : 18 h = format R, ses vrais Reels Instagram raccourcis (RUNBOOK § 12) ;
+  10 h = format A court, 15 s max, produits seulement. Vidéos 20 et 22 retirées de TikTok (brouillons Buffer).
+- Pièges vus en préparant le format R : certains Reels de Marcio contiennent des images d'autres créateurs ou de la
+  marque (Retevis : images de TOM HF ; Klarus : entrepôt et texte anglais de la marque) → exclus, jamais sur TikTok.
+  Beaucoup ont une musique de fond continue (probablement de la bibliothèque Instagram) → couper le son et mettre
+  une musique libre, sauf s'il y a une voix off.
