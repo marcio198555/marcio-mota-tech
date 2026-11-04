@@ -183,3 +183,9 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
   marque (Retevis : images de TOM HF ; Klarus : entrepôt et texte anglais de la marque) → exclus, jamais sur TikTok.
   Beaucoup ont une musique de fond continue (probablement de la bibliothèque Instagram) → couper le son et mettre
   une musique libre, sauf s'il y a une voix off.
+- 04.11, recherche complète (rapport `autopilot/recherche/methode_tiktok_2026.md`, page https://claude.ai/artifact/UbK7UBJUjV1aiYBs9s927G) :
+  250–300 vues = norme d'un petit compte (médianes 317–327) ; pire durée 5–10 s → 20–40 s ; accroche chiffre/duel
+  dès l'image 1 ; légende « recherche » + question ; 3–5 hashtags précis ; produits reçus = « Publicité » + réglage
+  de divulgation TikTok (Buffer ne le transmet pas : Marcio l'active après publication) ; étiquette IA obligatoire.
+  Le rapport recommande de remplacer la vidéo créée de 10 h par une 2e vraie vidéo ; Marcio a choisi « 1 vraie +
+  1 créée » : on garde, et on lui propose le changement au bilan du 20.11 si le créneau créé fait moins bien.
