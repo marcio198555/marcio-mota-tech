@@ -20,7 +20,7 @@
 {"id": "RP04J-021", "brand": "upVolt", "domain": "upvolt.ch", "to": "info@upvolt.ch", "ts": "2026-11-04T07:53:04.350029"}
 {"id": "RP04J-022", "brand": "Fux Elektrowerkzeuge", "domain": "fuxtools.ch", "to": "info@fuxtools.ch", "ts": "2026-11-04T07:53:58.486993"}
 {"id": "RP04J-023", "brand": "Profiwerkzeug24", "domain": "profiwerkzeug24.ch", "to": "info@profiwerkzeug24.ch", "ts": "2026-11-04T07:53:58.487057"}
-{"id": "RP04J-024", "brand": "Simon Gartenger\u00e4te", "domain": "simon-ag.ch", "to": "info@simon-ag.ch", "ts": "2026-11-04T07:53:58.487081"}
+{"id": "RP04J-024", "brand": "Simon Gartengeräte", "domain": "simon-ag.ch", "to": "info@simon-ag.ch", "ts": "2026-11-04T07:53:58.487081"}
 {"id": "RP04J-025", "brand": "HiMoTech", "domain": "himotech.ch", "to": "info@himotech.ch", "ts": "2026-11-04T07:53:58.487093"}
 {"id": "RP04J-026", "brand": "Raintec", "domain": "raintec.ch", "to": "info@raintec.ch", "ts": "2026-11-04T07:53:58.487101"}
 {"id": "RP04J-027", "brand": "Premium-Grill", "domain": "premium-grill.ch", "to": "service@premium-grill.ch", "ts": "2026-11-04T07:53:58.487107"}
@@ -47,7 +47,7 @@
 {"id": "RP04A-005", "brand": "PK Elektronik", "domain": "pkelektronik.com", "to": "info@pkelektronik.com", "ts": "2026-11-04T07:56:54.710579"}
 {"id": "RP04A-006", "brand": "MeinLED", "domain": "meinled.de", "to": "info@meinled.de", "ts": "2026-11-04T07:56:54.710585"}
 {"id": "RP04A-007", "brand": "Fitstore24", "domain": "fitstore24.com", "to": "info@fitstore24.com", "ts": "2026-11-04T07:56:54.710589"}
-{"id": "RP04A-008", "brand": "B\u00fcchel", "domain": "buechel-online.com", "to": "info@buechel-online.com", "ts": "2026-11-04T07:56:54.710594"}
+{"id": "RP04A-008", "brand": "Büchel", "domain": "buechel-online.com", "to": "info@buechel-online.com", "ts": "2026-11-04T07:56:54.710594"}
 {"id": "RP04A-009", "brand": "Paul-Parts", "domain": "paul-parts.com", "to": "shop@paul-parts.com", "ts": "2026-11-04T07:56:54.710599"}
 {"id": "RP04A-010", "brand": "Sport-Tec", "domain": "sport-tec.de", "to": "info@sport-tec.de", "ts": "2026-11-04T07:56:54.710603"}
 {"id": "RP04A-011", "brand": "Gesundplus24", "domain": "gesundplus24.de", "to": "info@gesundplus24.de", "ts": "2026-11-04T07:56:54.710608"}
@@ -58,13 +58,13 @@
 {"id": "RP04A-016", "brand": "P+C Schwick", "domain": "schwick.de", "to": "info@schwick.de", "ts": "2026-11-04T07:58:17.104113"}
 {"id": "RP04A-017", "brand": "Espresso Society", "domain": "espresso-society.de", "to": "info@espresso-society.de", "ts": "2026-11-04T07:58:17.104118"}
 {"id": "RP04A-018", "brand": "STOLL Espresso", "domain": "stoll-espresso.de", "to": "info@stoll-espresso.de", "ts": "2026-11-04T07:58:17.104123"}
-{"id": "RP04A-019", "brand": "Caff\u00e8 Brunetti", "domain": "brunetticaffe.de", "to": "info@brunetticaffe.de", "ts": "2026-11-04T07:58:17.104127"}
+{"id": "RP04A-019", "brand": "Caffè Brunetti", "domain": "brunetticaffe.de", "to": "info@brunetticaffe.de", "ts": "2026-11-04T07:58:17.104127"}
 {"id": "RP04A-020", "brand": "HIFI.DE", "domain": "hifi.de", "to": "kontakt@hifi.de", "ts": "2026-11-04T07:58:17.104132"}
 {"id": "RP04A-021", "brand": "Ventilator-Profis", "domain": "ventilator-profis.de", "to": "info@ventilator-profis.de", "ts": "2026-11-04T07:58:17.104136"}
 {"id": "RP04A-022", "brand": "alarmanlage-experte", "domain": "alarmanlage-experte.de", "to": "info@alarmanlage-experte.de", "ts": "2026-11-04T07:59:16.779825"}
 {"id": "RP04A-023", "brand": "Heimkino-Klang", "domain": "heimkino-klang.de", "to": "info@heimkino-klang.de", "ts": "2026-11-04T07:59:16.779894"}
 {"id": "RP04A-024", "brand": "Sunnysoft", "domain": "sunnysoft.eu", "to": "info@sunnysoft.eu", "ts": "2026-11-04T07:59:16.779910"}
-{"id": "RP04A-025", "brand": "Modellbau H\u00e4rtle", "domain": "haertle.de", "to": "verkauf@haertle.de", "ts": "2026-11-04T07:59:16.779918"}
+{"id": "RP04A-025", "brand": "Modellbau Härtle", "domain": "haertle.de", "to": "verkauf@haertle.de", "ts": "2026-11-04T07:59:16.779918"}
 {"id": "RP04A-026", "brand": "D-Edition", "domain": "d-edition.de", "to": "info@d-edition.de", "ts": "2026-11-04T07:59:16.779924"}
 {"id": "RP04A-027", "brand": "MHM-Modellbau", "domain": "mhm-modellbau.de", "to": "info@mhm-modellbau.de", "ts": "2026-11-04T07:59:16.779929"}
 {"id": "RP04A-028", "brand": "3D Druck Shop Nord", "domain": "3ddruckshopnord.de", "to": "info@3ddruckshopnord.de", "ts": "2026-11-04T07:59:16.779934"}
@@ -72,8 +72,8 @@
 {"id": "RP04A-030", "brand": "Bullet-RC", "domain": "bullet-rc.de", "to": "info@bullet-rc.de", "ts": "2026-11-04T07:59:16.779943"}
 {"id": "RP04A-031", "brand": "Voltmaster", "domain": "voltmaster.de", "to": "info@voltmaster.de", "ts": "2026-11-04T07:59:16.779947"}
 {"id": "RP04A-032", "brand": "Naehplatz", "domain": "naehplatz.de", "to": "info@naehplatz.de", "ts": "2026-11-04T07:59:29.082850"}
-{"id": "RP04A-033", "brand": "Dittrich N\u00e4hmaschinen", "domain": "dittrich-naehmaschinen.de", "to": "support@dittrich-naehmaschinen.de", "ts": "2026-11-04T07:59:29.082915"}
-{"id": "RP04A-034", "brand": "N\u00e4hcenter", "domain": "naehcenter-shop.de", "to": "post@naehcenter-shop.de", "ts": "2026-11-04T07:59:29.082930"}
+{"id": "RP04A-033", "brand": "Dittrich Nähmaschinen", "domain": "dittrich-naehmaschinen.de", "to": "support@dittrich-naehmaschinen.de", "ts": "2026-11-04T07:59:29.082915"}
+{"id": "RP04A-034", "brand": "Nähcenter", "domain": "naehcenter-shop.de", "to": "post@naehcenter-shop.de", "ts": "2026-11-04T07:59:29.082930"}
 {"id": "RP04A-035", "brand": "Grill & Co.", "domain": "grill-und-co.de", "to": "store@grill-und-co.de", "ts": "2026-11-04T07:59:29.082938"}
 {"id": "RP04A-036", "brand": "Grill-Stefan", "domain": "grill-stefan.de", "to": "info@grill-stefan.de", "ts": "2026-11-04T07:59:29.082944"}
 {"id": "RP04A-037", "brand": "DF Druckluft-Fachhandel", "domain": "druckluft-fachhandel.de", "to": "info@druckluft-fachhandel.de", "ts": "2026-11-04T07:59:29.082949"}
@@ -83,3 +83,66 @@
 {"id": "RP04A-041", "brand": "Espresso Kultur", "domain": "espressokultur.at", "to": "office@espressokultur.at", "ts": "2026-11-04T07:59:29.082968"}
 {"id": "RP04A-042", "brand": "Service Corner", "domain": "servicecorner.at", "to": "office@servicecorner.at", "ts": "2026-11-04T07:59:29.118403"}
 {"id": "RP04A-043", "brand": "Kaffeestudio", "domain": "kaffeestudio.at", "to": "shop@kaffeestudio.at", "ts": "2026-11-04T07:59:29.118441"}
+{"id": "RP04E-001", "brand": "Lampen und Leuchten", "domain": "lampenundleuchten.ch", "to": "info@lampenundleuchten.ch", "ts": "2026-11-04T08:47:51.366142"}
+{"id": "RP04E-003", "brand": "spatalux", "domain": "spatalux.ch", "to": "info@spatalux.ch", "ts": "2026-11-04T08:47:51.366181"}
+{"id": "RP04E-004", "brand": "Innolight", "domain": "innolight.ch", "to": "info@innolight.ch", "ts": "2026-11-04T08:47:51.366194"}
+{"id": "RP04E-005", "brand": "Caffè Ferrari Mondial", "domain": "mondialprodukte.ch", "to": "info@mondialprodukte.ch", "ts": "2026-11-04T08:47:51.366202"}
+{"id": "RP04E-006", "brand": "Ginex Espressomaschinen", "domain": "ginex-espressomaschinen.de", "to": "info@ginex-espressomaschinen.de", "ts": "2026-11-04T08:47:51.366208"}
+{"id": "RP04E-007", "brand": "Käser Camping", "domain": "kaeser-camping.ch", "to": "info@kaeser-camping.ch", "ts": "2026-11-04T08:47:51.366213"}
+{"id": "RP04E-008", "brand": "campingshop.ch", "domain": "campingshop.ch", "to": "info@campingshop.ch", "ts": "2026-11-04T08:47:51.366218"}
+{"id": "RP04E-009", "brand": "Tüss Campingservice", "domain": "campingservice.ch", "to": "info@campingservice.ch", "ts": "2026-11-04T08:47:51.366222"}
+{"id": "RP04E-010", "brand": "Caravaning-Shop", "domain": "caravaning-shop.ch", "to": "info@caravaning-shop.ch", "ts": "2026-11-04T08:47:51.366227"}
+{"id": "RP04E-011", "brand": "mi-store.ch", "domain": "mi-store.ch", "to": "hello@mi-store.ch", "ts": "2026-11-04T08:47:51.366231"}
+{"id": "RP04E-012", "brand": "Mini Power", "domain": "miniminipower.com", "to": "info@miniminipower.com", "ts": "2026-11-04T08:48:39.575391"}
+{"id": "RP04E-013", "brand": "Japanische-Kochmesser.ch", "domain": "japanische-kochmesser.ch", "to": "info@japanische-kochmesser.ch", "ts": "2026-11-04T08:48:39.575440"}
+{"id": "RP04E-014", "brand": "azado", "domain": "azado.ch", "to": "info@azado.ch", "ts": "2026-11-04T08:48:39.575457"}
+{"id": "RP04E-015", "brand": "Laguiole-Messer.ch", "domain": "laguiole-messer.ch", "to": "info@laguiole-messer.ch", "ts": "2026-11-04T08:48:39.575468"}
+{"id": "RP04E-016", "brand": "Grilltrend", "domain": "grilltrend.ch", "to": "info@grilltrend.ch", "ts": "2026-11-04T08:48:39.575477"}
+{"id": "RP04E-017", "brand": "MaxGaming", "domain": "maxgaming.gg", "to": "info@maxgaming.gg", "ts": "2026-11-04T08:48:39.575484"}
+{"id": "RP04E-018", "brand": "Tier-Welt", "domain": "tier-welt.ch", "to": "info@tier-welt.ch", "ts": "2026-11-04T08:48:39.575492"}
+{"id": "RP04E-019", "brand": "Mikroskop Technik Diethelm", "domain": "mikroskoptechnik.ch", "to": "info@mikroskoptechnik.ch", "ts": "2026-11-04T08:48:39.575499"}
+{"id": "RP04E-020", "brand": "marowil", "domain": "marowil.ch", "to": "info@marowil.ch", "ts": "2026-11-04T08:48:39.575506"}
+{"id": "RP04E-021", "brand": "fischen.ch", "domain": "fischen.ch", "to": "info@fischen.ch", "ts": "2026-11-04T08:48:39.575555"}
+{"id": "RP04E-022", "brand": "HRH Fishing Hebeisen", "domain": "hebeisen.ch", "to": "info@hebeisen.ch", "ts": "2026-11-04T08:49:34.746743"}
+{"id": "RP04E-023", "brand": "Andy's Fischershop", "domain": "fischer-shop.ch", "to": "info@fischer-shop.ch", "ts": "2026-11-04T08:49:34.746786"}
+{"id": "RP04E-024", "brand": "Deinangelshop", "domain": "deinangelshop.ch", "to": "info@deinangelshop.ch", "ts": "2026-11-04T08:49:34.746800"}
+{"id": "RP04E-025", "brand": "GOFISHING", "domain": "gofishing.ch", "to": "info@gofishing.ch", "ts": "2026-11-04T08:49:34.746808"}
+{"id": "RP04E-026", "brand": "Traxxshop", "domain": "traxxshop.ch", "to": "info@traxxshop.ch", "ts": "2026-11-04T08:49:34.746814"}
+{"id": "RP04E-027", "brand": "Ninco Schweiz", "domain": "ninco-tm.ch", "to": "info@ninco-tm.ch", "ts": "2026-11-04T08:49:34.746820"}
+{"id": "RP04E-028", "brand": "Modellmarkt24", "domain": "modellmarkt24.ch", "to": "info@modellmarkt24.ch", "ts": "2026-11-04T08:49:34.746824"}
+{"id": "RP04E-029", "brand": "RC Modellbauprofi", "domain": "rcmodellbauprofi.ch", "to": "info@rcmodellbauprofi.ch", "ts": "2026-11-04T08:49:34.746829"}
+{"id": "RP04E-030", "brand": "RC Modellbau Funk", "domain": "rcfunk.ch", "to": "info@rcfunk.ch", "ts": "2026-11-04T08:49:34.746833"}
+{"id": "RP04E-031", "brand": "Wieser Modellbau", "domain": "wiesermodell.ch", "to": "info@wiesermodell.ch", "ts": "2026-11-04T08:49:34.746838"}
+{"id": "RP04E-033", "brand": "NORDRIDE", "domain": "nordride.ch", "to": "info@nordride.ch", "ts": "2026-11-04T08:50:21.897047"}
+{"id": "RP04E-034", "brand": "3DPrintNewTechno", "domain": "3dprintnewtechno.ch", "to": "info@3dprintnewtechno.ch", "ts": "2026-11-04T08:50:21.897085"}
+{"id": "RP04E-035", "brand": "Filimprimante3D", "domain": "filimprimante3d.fr", "to": "contact@filimprimante3d.fr", "ts": "2026-11-04T08:50:21.897099"}
+{"id": "RP04E-036", "brand": "KissMyWheels", "domain": "kissmywheels.ch", "to": "info@kissmywheels.ch", "ts": "2026-11-04T08:50:21.897107"}
+{"id": "RP04E-037", "brand": "Velomania", "domain": "velomania.ch", "to": "contact@velomania.ch", "ts": "2026-11-04T08:50:21.897113"}
+{"id": "RP04E-038", "brand": "Lagolight", "domain": "lagolight.com", "to": "info@lagolight.com", "ts": "2026-11-04T08:50:21.897119"}
+{"id": "RP04E-039", "brand": "Lambin", "domain": "lambin.fr", "to": "contact@lambin.fr", "ts": "2026-11-04T08:50:21.897124"}
+{"id": "RP04E-040", "brand": "Haute Fidélité", "domain": "hautefidelite-hifi.com", "to": "contact@hautefidelite-hifi.com", "ts": "2026-11-04T08:50:21.897129", "bounced": true}
+{"id": "RP04E-041", "brand": "Sonor Plus", "domain": "sonorplus.com", "to": "contact@sonorplus.com", "ts": "2026-11-04T08:50:21.897134"}
+{"id": "RP04E-042", "brand": "Gramshammer", "domain": "gramshammer.at", "to": "info@gramshammer.at", "ts": "2026-11-04T08:50:21.897139"}
+{"id": "RP04K-002", "brand": "Vakuumshop", "domain": "vakuumshop.ch", "to": "info@vakuumshop.ch", "ts": "2026-11-04T08:54:16.812810"}
+{"id": "RP04K-003", "brand": "Espressocafe.ch", "domain": "espressocafe.ch", "to": "ciao@espressocafe.ch", "ts": "2026-11-04T08:54:16.812922"}
+{"id": "RP04K-004", "brand": "Blasercafé", "domain": "blasercafe.ch", "to": "info@blasercafe.ch", "ts": "2026-11-04T08:54:16.812936"}
+{"id": "RP04K-006", "brand": "E-Rydez", "domain": "e-rydez.ch", "to": "info@e-rydez.ch", "ts": "2026-11-04T08:54:16.812944"}
+{"id": "RP04K-007", "brand": "Audiosphere", "domain": "audio-sphere.ch", "to": "info@audio-sphere.ch", "ts": "2026-11-04T08:54:16.812950"}
+{"id": "RP04K-008", "brand": "TB-Tools", "domain": "tb-tools.ch", "to": "service@tb-tools.ch", "ts": "2026-11-04T08:54:16.812955"}
+{"id": "RP04K-009", "brand": "Quincaillerie Perillat", "domain": "quincaillerie-perillat.ch", "to": "info@quincaillerie-perillat.ch", "ts": "2026-11-04T08:54:58.650728", "bounced": true}
+{"id": "RP04K-010", "brand": "Jardishop", "domain": "jardishop.ch", "to": "info@jardishop.ch", "ts": "2026-11-04T08:54:58.650774"}
+{"id": "RP04K-011", "brand": "Aleru", "domain": "aleru.ch", "to": "info@aleru.ch", "ts": "2026-11-04T08:54:58.650794"}
+{"id": "RP04K-012", "brand": "Bebe-Cadeau", "domain": "bebe-cadeau.ch", "to": "info@bebe-cadeau.ch", "ts": "2026-11-04T08:54:58.650804"}
+{"id": "RP04K-013", "brand": "BAMAG Babyartikel", "domain": "babybamag.ch", "to": "info@babybamag.ch", "ts": "2026-11-04T08:54:58.650809"}
+{"id": "RP04K-014", "brand": "Swiss Camera", "domain": "swisscamera.ch", "to": "contact@swisscamera.ch", "ts": "2026-11-04T08:54:58.650815"}
+{"id": "RP04K-015", "brand": "Microphoto", "domain": "microphoto.ch", "to": "info@microphoto.ch", "ts": "2026-11-04T08:54:58.650819"}
+{"id": "RP04K-016", "brand": "HouseTech", "domain": "housetech.ch", "to": "info@housetech.ch", "ts": "2026-11-04T08:55:10.508209"}
+{"id": "RP04K-017", "brand": "Ticino Music Shop", "domain": "ticinomusicshop.com", "to": "info@ticinomusicshop.com", "ts": "2026-11-04T08:55:10.508259"}
+{"id": "RP04K-018", "brand": "HD Zürisee", "domain": "hdzuerisee.ch", "to": "shop@hdzuerisee.ch", "ts": "2026-11-04T08:55:10.508277"}
+{"id": "RP04K-019", "brand": "Robot da Giardino", "domain": "robotdagiardino.ch", "to": "info@robotdagiardino.ch", "ts": "2026-11-04T08:55:10.508287"}
+{"id": "RP04K-020", "brand": "Haushaltgeräte Schwegler", "domain": "haushaltgeraete-schwegler.ch", "to": "info@haushaltgeraete-schwegler.ch", "ts": "2026-11-04T08:55:10.508295"}
+{"id": "RP04K-021", "brand": "Mobileparts", "domain": "mobileparts.ch", "to": "shop@mobileparts.ch", "ts": "2026-11-04T08:55:10.508304"}
+{"id": "RP04K-022", "brand": "Veloteile Schweiz", "domain": "veloteile-schweiz.ch", "to": "shop@veloteile-schweiz.ch", "ts": "2026-11-04T08:55:10.508312"}
+{"id": "RP04K-023", "brand": "Raptor3D", "domain": "raptor3d.ch", "to": "info@raptor3d.ch", "ts": "2026-11-04T08:55:10.508318"}
+{"id": "RP04K-024", "brand": "Arocom", "domain": "arocom.ch", "to": "info@arocom.ch", "ts": "2026-11-04T08:55:10.508324"}
+{"id": "RP04K-025", "brand": "Swissdesign Gupf", "domain": "swissdesigngupf.ch", "to": "info@swissdesigngupf.ch", "ts": "2026-11-04T08:55:10.508331"}
