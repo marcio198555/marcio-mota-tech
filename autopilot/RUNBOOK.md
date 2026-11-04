@@ -31,6 +31,32 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >    pour le format R (c'est déjà son contenu Instagram).
 > 3. **Bilan du vendredi** : comparer R (18 h) et A (10 h) ; le format qui fait le plus de vues prend plus de créneaux.
 >    Si R l'emporte nettement, passer à R aux deux créneaux.
+>
+> **Méthode de recherche du 04.11 (rapport complet : `autopilot/recherche/methode_tiktok_2026.md`, sources citées).**
+> Marcio a choisi « 1 vraie + 1 créée » par jour (04.11, 8 h 50) : on garde ce rythme. Règles qui remplacent les points 1–2 :
+> - **Durée** : jamais sous 15–20 s (les vidéos de 5–10 s ont la pire portée, Buffer 1,1 M de vidéos). Viser **20–40 s**
+>   pour un chiffre choc, **60–120 s** pour un test complet. Remplace le « 15 s au plus » du point 1.
+> - **Accroche** : le chiffre ou le duel visible **dès l'image 1**, 8 mots au plus à l'écran (« Annoncé : X. Mesuré : ? »,
+>   « A contre B : lequel tient le plus ? »). Les accroches « produit en action » et « duel » sont les mieux classées.
+> - **Légende** : 1re ligne = ce qu'on taperait dans la recherche TikTok, en français ; une question ouverte à la fin
+>   (+26 % de commentaires, Metricool) ; jamais « like si… » ; **3 à 5 hashtags précis** (1 produit, 1 catégorie,
+>   #testproduit pour R ou #apprendresurtiktok pour A, #blackfriday jusqu'au 27.11) ; jamais #fyp, #pourtoi, #viral.
+> - **Produits reçus (presque toutes les vidéos R)** : légende qui commence par « Publicité · produit reçu de … » (règle
+>   suisse et française) ET réglage TikTok « Divulgation du contenu commercial » (sinon TikTok peut retirer la vidéo du
+>   fil Pour toi). Buffer ne transmet pas ce réglage : **Marcio l'active lui-même après la publication** (profil → la
+>   vidéo → ⋯ → Paramètres publicitaires → Divulgation du contenu commercial → Contenu de marque → Enregistrer). Le
+>   rappeler à Marcio le jour de chaque vidéo R de produit reçu.
+> - **Vidéos créées (10 h)** : étiquette IA toujours (`isAiGenerated` true, impossible à ajouter après), thème « je mesure
+>   tout » (mythe ou réalité, duel chiffré, piège de fiche technique), faits sourcés. Au bilan du **20.11**, si le créneau
+>   créé a une médiane de vues ET une durée de visionnage plus basses que le créneau R, **proposer à Marcio** de passer à
+>   2 vraies vidéos par jour (le rapport le recommande ; c'est sa décision).
+> - **Reprise Instagram** : fichier d'origine sans logo ni bandes, musique Instagram coupée (Buffer la ferait couper),
+>   son réel ou voix gardés, accroche et légende refaites en français.
+> - **Ne pas** supprimer ni republier une vidéo qui plafonne (doublon) ; **ne pas** changer d'horaire chaque semaine.
+> - **Bilan du vendredi** : médiane des vues par créneau (vidéos de 7 à 14 jours), vidéos au-dessus de 1 000 vues (→ une
+>   « partie 2 » dans les 48 h), durée moyenne de visionnage, partages + enregistrements pour 1 000 vues, part du trafic
+>   recherche, abonnés gagnés, avis d'inéligibilité (TikTok Studio). Décisions : 13.11 première lecture, 20.11 comparaison
+>   A contre R, 27.11 bilan du mois.
 
 > **Changements du 03.11.2026 : ils priment sur le texte des tâches programmées** (« fais de ton mieux, avec les
 > meilleurs outils », Marcio, 03.11.2026). Si la consigne d'une tâche dit autre chose, c'est ce bloc qui compte :
