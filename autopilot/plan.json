@@ -495,7 +495,7 @@
     "« dès 9.90 » = prix du modèle le moins cher"
    ],
    "argent": "Croissance (Black Friday)",
-   "statut": "programmée",
+   "statut": "publiée",
    "semaine": "S1",
    "metricool_id": 410830260,
    "programme_le": "2026-11-04T10:00",
@@ -507,7 +507,9 @@
     "fichier": "media/stories/day19_story.mp4",
     "buffer_id": "6aea3a7752391758e2e60c63",
     "metricool_statut": "brouillon (Story publiée par Buffer)"
-   }
+   },
+   "tiktok_url": "https://www.tiktok.com/@marcio.mota8/video/7704239522875329814",
+   "note_0411": "Publiée par Metricool le 4.11 à 10 h ; Story Buffer publiée à 10 h 05 (contrôle de 10 h 09)."
   },
   {
    "jour": 20,
