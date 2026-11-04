@@ -410,7 +410,7 @@ Modèle de scène : `autopilot/days/_ai_demo/scene.js`.
 
 ## 12. Format R « Réel » : les vraies vidéos de Marcio (depuis le 04.11.2026, créneau de 18 h)
 Accord de Marcio le 04.11.2026 : ses propres Reels Instagram (ses mains, ses produits) peuvent passer sur TikTok,
-raccourcis avec une accroche, y compris les produits reçus des marques (avec la mention). Rien n'est modifié sur Instagram.
+repris avec une accroche, y compris les produits reçus des marques (avec la mention « Publicité » et la divulgation TikTok, bloc du 04.11). Rien n'est modifié sur Instagram.
 1. **Choisir** dans `autopilot/r_queue.json` la prochaine source « à faire » (vues Instagram décroissantes). Sauter
    toute vidéo qui contient des images d'un autre créateur ou de la marque (légende : « images de », « footage »,
    texte anglais de la marque ; regarder la planche) : **jamais republier la vidéo d'un autre**. Sauter celles déjà
@@ -420,7 +420,7 @@ raccourcis avec une accroche, y compris les produits reçus des marques (avec la
    l'ajouter à `bridge/urls.txt` (`ig_<shortcode>.mp4 <url>`), push sans `[skip-bridge]` ; le fichier arrive dans
    `bridge/out/` ; retirer ensuite la ligne de `urls.txt`.
 3. **Choisir les passages** : `python3 autopilot/tools/ig_cut.py bridge/out/ig_X.mp4 --scan planche.jpg` (une image
-   par seconde), puis regarder la planche. Garder 12 à 20 s : l'action la plus visuelle (le produit qui marche, le
+   par seconde), puis regarder la planche. Garder 20 à 40 s (jamais sous 15–20 s ; 60–120 s pour un test complet) : l'action la plus visuelle et la mesure ou le résultat (le produit qui marche, le
    résultat), pas le déballage lent ; si la vidéo a une voix off, couper entre deux phrases (les sous-titres de
    Marcio aident) ; sauter les plans d'ouverture et de fin (carte « lien en bio »).
 4. **Monter** : `ig_cut.py source sortie --seg a-b [--seg c-d] --hook "accroche" [--hook-y 860] [--speed 1.1]
