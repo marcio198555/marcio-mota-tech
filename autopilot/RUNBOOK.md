@@ -358,6 +358,10 @@ Modèle de scène : `autopilot/days/_ai_demo/scene.js`.
   "temperature": 0.8, "seed": 7, "segments": [...]}` ; push sans `[skip-bridge]` ; sortie `autopilot/tts/out/dayNN/`
   au même format que Piper (manifest.json, un WAV 16 bits par segment). Compter environ 1 minute de calcul par phrase
   (8 minutes pour une vidéo de 7 phrases) : envoyer les jobs de voix de plusieurs vidéos dans le même push.
+  Le pont pousse chaque voix dès qu'elle est prête (commit « bridge output (voix dayNN) ») : monter la première vidéo
+  sans attendre les autres. Au-delà de 40 minutes de voix, le passage s'arrête et les voix restantes passent au
+  passage suivant : le relancer avec `gh workflow run tiktok-bridge.yml --ref tiktok-autopilot`. Une voix
+  Chatterbox est environ 20 % plus longue que Piper : viser 6 à 7 phrases courtes pour rester sous 30 s.
 - Ensuite comme avant : `assemble_vo.py … --lead 0.12 --gap 0.1`, **sans `voice_fx.py`** (la version choisie par Marcio
   n'a pas d'effet), champs `display`, transcription Whisper obligatoire (§ 11.5) : corriger tout mot mal dit
   (réécrire la phrase ou changer `seed`, puis nouveau job sous un nouveau nom).

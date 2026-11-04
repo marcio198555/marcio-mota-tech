@@ -91,3 +91,5 @@ for job in jobs:
                 "segments": segs, "total": round(sum(x["duration"] for x in segs), 3)}
     (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
     print("done", job.stem, manifest["total"], "s")
+    # pousser cette voix tout de suite (fonction early_push fournie par bridge/job.sh), sans attendre les suivantes
+    subprocess.run(["bash", "-c", f"type early_push >/dev/null 2>&1 && early_push 'voix {job.stem}'"], cwd=repo)
