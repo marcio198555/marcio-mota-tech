@@ -75,7 +75,7 @@ for seg in man["segments"]:
     t += dur + extra.get(seg["id"], a.gap)
 
 total = t + 0.2
-buf = np.zeros(int(total * sr0) + sr0, dtype=np.float32)
+buf = np.zeros(int(total * sr0 * max(1.0, a.tempo)) + sr0, dtype=np.float32)  # avec --tempo > 1, la piste brute est plus longue
 for start, x in parts:
     i = int(round(start * sr0 * a.tempo))
     buf[i:i + len(x)] += x
