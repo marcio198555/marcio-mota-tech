@@ -11,7 +11,7 @@
  "cover_ms": 2400,
  "statut": "programmée",
  "tiktok_title": "Charger toute la nuit, ça abîme ?",
- "caption": "Charger son téléphone toute la nuit : ça abîme la batterie ? 🔋 Selon Apple, un iPhone 15 est conçu pour garder 80 % de sa capacité après 1 000 cycles complets (en conditions idéales), et la recharge optimisée peut attendre à 80 % la nuit avant de finir la charge au réveil (Samsung propose aussi une protection qui s'arrête à 80 %). Le vrai danger, c'est la chaleur : au-delà de 35 °C, la batterie peut perdre de la capacité pour de bon. Et toi, ton téléphone dort où ? 👇 #batterie #smartphone #iphone #samsung #astucetech",
+ "caption": "Charger son téléphone toute la nuit : ça abîme la batterie ? 🔋 Selon Apple, un iPhone 15 est conçu pour garder 80 % de sa capacité après 1 000 cycles complets (en conditions idéales). La recharge optimisée, activée d'office sur iPhone, peut faire une pause à 80 % la nuit et finir la charge avant ton réveil ; sur Samsung, il faut activer la protection de la batterie. Et Apple insiste surtout sur la chaleur : au-delà de 35 °C de température ambiante, la batterie peut perdre de la capacité pour de bon. Et toi, ton téléphone dort où ? 👇 #batterie #smartphone #iphone #samsung #astucetech",
  "story_instagram": {
   "programme_le": "2026-11-05T20:35:00+01:00",
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793874074/tiktok-autopilot/stories/day55_story_fin.mp4",
@@ -23,17 +23,19 @@
   "prevu": "2026-11-06T12:00",
   "coupe_s": 60.77,
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793874076/tiktok-autopilot/reels/day55_reel.mp4",
-  "caption": "Charger son téléphone toute la nuit : ça abîme vraiment la batterie ?\n\nD'après Apple, un iPhone 15 est conçu pour garder 80 % de sa capacité après 1 000 cycles complets (en conditions idéales), et la recharge optimisée peut attendre à 80 % la nuit avant de finir la charge au réveil. Samsung a aussi une protection qui limite la charge à 80 %.\n\nLe vrai ennemi, c'est la chaleur : Apple conseille d'éviter plus de 35 °C. Ne le charge pas sous l'oreiller ni dans une coque qui chauffe.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui débranche son téléphone à 80 % tous les soirs.\n\n#batterie #smartphone #astucetech #suisseromande #jemesuretout",
+  "caption": "Charger son téléphone toute la nuit : ça abîme vraiment la batterie ?\n\nD'après Apple, un iPhone 15 est conçu pour garder 80 % de sa capacité après 1 000 cycles complets (en conditions idéales). La recharge optimisée, activée d'office sur iPhone, peut faire une pause à 80 % la nuit avant de finir la charge ; sur Samsung, active la protection de la batterie (le mode Maximum s'arrête à 80 %).\n\nApple insiste surtout sur la chaleur : évite une température ambiante de plus de 35 °C. Ne le charge pas sous l'oreiller ni dans une coque qui chauffe.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui débranche son téléphone à 80 % tous les soirs.\n\n#batterie #smartphone #astucetech #suisseromande #jemesuretout",
   "statut": "en attente (vidIQ, reels_queue.json)"
  },
  "sources": [
   "https://support.apple.com/en-us/101575",
   "https://support.apple.com/en-us/108055",
   "https://www.samsung.com/au/support/mobile-devices/galaxy-battery-protection-feature-in-one-ui-6-1/",
-  "https://www.apple.com/batteries/maximizing-performance/"
+  "https://www.apple.com/batteries/maximizing-performance/",
+  "https://support.apple.com/guide/iphone/important-safety-information-iph301fc905/ios"
  ],
  "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793874074/tiktok-autopilot/stories/day55_story_fin.mp4",
  "heure": "20:30",
  "duree_s": 64.5,
- "voix": "Chatterbox (tom_ref, graine 7) ; phrase 2 reprise (job day55c, graine 23) après contrôle Whisper"
+ "voix": "Chatterbox (tom_ref, graine 7) ; phrase 2 reprise (job day55c, graine 23) après contrôle Whisper",
+ "controle_qualite": "Agent neuf, 05.11 11 h 30 : 4 formulations plus fortes que les sources corrigées (Samsung à activer, iPhone finit à 100 %, « conçu pour garder… en conditions idéales », température ambiante) + 10 défauts d'image ; voix des phrases 5, 9, 10, 11, 15 refaites, phrase 9 bis ajoutée, phrase 13 retirée"
 }

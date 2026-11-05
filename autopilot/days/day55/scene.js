@@ -31,16 +31,31 @@
     if (o.label !== false) text(ctx, o.label || `${Math.round(level * 100)} %`, 0, 4, { size: o.size || w * 0.24, family: F.mono, weight: 700, color: o.labelColor || C.white, stroke: 'rgba(0,0,0,0.6)' });
     ctx.restore();
   }
+  const moonCache = {};
   function moon(ctx, x, y, r, alpha = 1) {
-    ctx.save(); ctx.globalAlpha *= alpha; ctx.translate(x, y);
-    ctx.fillStyle = '#f2e6b8'; ctx.shadowColor = 'rgba(242,230,184,0.55)'; ctx.shadowBlur = 40;
-    ctx.beginPath(); ctx.arc(0, 0, r, 0, Math.PI * 2); ctx.fill();
-    ctx.shadowBlur = 0; ctx.globalCompositeOperation = 'destination-out';
-    ctx.beginPath(); ctx.arc(r * 0.45, -r * 0.25, r * 0.88, 0, Math.PI * 2); ctx.fill();
+    let c = moonCache[r];
+    if (!c) {
+      c = document.createElement('canvas'); c.width = c.height = Math.ceil(r * 2 + 4);
+      const g = c.getContext('2d'); g.translate(r + 2, r + 2);
+      g.fillStyle = '#f2e6b8'; g.beginPath(); g.arc(0, 0, r, 0, Math.PI * 2); g.fill();
+      g.globalCompositeOperation = 'destination-out';
+      g.beginPath(); g.arc(r * 0.45, -r * 0.25, r * 0.88, 0, Math.PI * 2); g.fill();
+      moonCache[r] = c;
+    }
+    ctx.save(); ctx.globalAlpha *= alpha; ctx.shadowColor = 'rgba(242,230,184,0.55)'; ctx.shadowBlur = 40;
+    ctx.drawImage(c, x - r - 2, y - r - 2); ctx.restore();
+  }
+  // interrupteur (on = 0..1)
+  function toggle(ctx, x, y, on, o = {}) {
+    const w = o.w || 170, h = w * 0.52;
+    ctx.save(); ctx.translate(x, y);
+    roundRect(ctx, -w / 2, -h / 2, w, h, h / 2); ctx.fillStyle = on > 0.5 ? GREEN : '#2b3850'; ctx.fill();
+    const kx = lerp(-w / 2 + h / 2, w / 2 - h / 2, ease.inOut(clamp(on)));
+    ctx.fillStyle = '#ffffff'; ctx.beginPath(); ctx.arc(kx, 0, h / 2 - 8, 0, Math.PI * 2); ctx.fill();
     ctx.restore();
   }
   function stars(ctx, t, alpha = 1) {
-    const pts = [[120, 360], [230, 300], [860, 330], [960, 420], [700, 280], [380, 390], [560, 340], [150, 520], [930, 560]];
+    const pts = [[120, 360], [860, 330], [960, 420], [700, 280], [380, 390], [560, 340], [150, 520], [930, 560]];
     pts.forEach(([x, y], i) => {
       const tw = 0.5 + 0.5 * Math.sin(t * 3 + i * 1.7);
       ctx.save(); ctx.globalAlpha *= alpha * (0.35 + 0.65 * tw); ctx.fillStyle = '#ffffff';
@@ -80,8 +95,8 @@
     ctx.beginPath(); ctx.moveTo(540, 420); ctx.lineTo(540, 1200); ctx.stroke(); ctx.restore();
     chip(ctx, 'TOI', 290, 470, { color: C.white, size: 38, border: GOLD });
     chip(ctx, 'TON COLLÈGUE', 790, 470, { color: C.white, size: 34, border: GOLD });
-    CHR.emo(ctx, 'man_technologist', 290, 625, 230, t, o.pop ? t0 : undefined, { phase: 0.3 });
-    CHR.emo(ctx, 'woman_technologist', 790, 625, 230, t, o.pop ? t0 + 0.12 : undefined, { phase: 1.4 });
+    CHR.emo(ctx, 'woman_technologist', 290, 625, 230, t, o.pop ? t0 : undefined, { phase: 0.3 });
+    CHR.emo(ctx, 'man_technologist', 790, 625, 230, t, o.pop ? t0 + 0.12 : undefined, { phase: 1.4 });
     // téléphones + prises
     phone(ctx, 290, 935, 186, 330, { draw: (x, y, w, h) => battery(ctx, x + w / 2, y + h / 2, w * 0.86, o.leftLevel ?? 1, { size: 40 }) });
     phone(ctx, 790, 935, 186, 330, { draw: (x, y, w, h) => battery(ctx, x + w / 2, y + h / 2, w * 0.86, o.rightLevel ?? 0.8, { size: 40, color: GOLD }) });
@@ -101,12 +116,12 @@
       block(ctx, t, 0, S('s03'), () => {
         const night = 1 - prog(t, S('s02'), 0.4) * 0.35;
         stars(ctx, t, night); moon(ctx, 975, 255, 34, night);
-        text(ctx, 'TOUTE LA NUIT', 470, 345, { size: 88, weight: 900, color: GOLD, shadow: 'rgba(201,168,76,0.45)', shadowBlur: 30 });
-        text(ctx, '?', 840, 342, { size: 104, weight: 900, color: RED });
+        text(ctx, 'TOUTE LA NUIT', 470, 378, { size: 88, weight: 900, color: GOLD, shadow: 'rgba(201,168,76,0.45)', shadowBlur: 30 });
+        text(ctx, '?', 840, 375, { size: 104, weight: 900, color: RED });
         const off = ease.inOut(prog(t, S('s02') + 0.35, 0.6));
         const rl = lerp(1, 0.8, off);
         duel(ctx, t, 0, { leftLevel: 1, rightLevel: 0.8, rightOff: off });
-        if (t >= S('s02') + 0.8) stamp(ctx, 'STOP À 80 %', 790, 1045, t, S('s02') + 0.8, { size: 46, color: GOLD, rot: 0.06 });
+        if (t >= S('s02') + 0.8) stamp(ctx, 'STOP À 80 %', 760, 1045, t, S('s02') + 0.8, { size: 46, color: GOLD, rot: 0.06 });
         void rl;
       });
 
@@ -115,6 +130,7 @@
         text(ctx, 'DANS 3 ANS', 520, 420, { size: 104, weight: 900, color: C.white });
         const yr = Math.round(lerp(2026, 2029, ease.inOut(prog(t, S('s03') + 0.2, 1.3))));
         readout(ctx, 'ANNÉE', String(yr), 520, 610, { w: 460, h: 190, size: 100 });
+        chip(ctx, 'CAPACITÉ DE LA BATTERIE', 520, 768, { color: C.muted, size: 28 });
         battery(ctx, 290, 900, 300, 0.62, { label: '? %', color: '#3a4660', size: 66 });
         battery(ctx, 760, 900, 300, 0.62, { label: '? %', color: '#3a4660', size: 66 });
         text(ctx, 'TOI', 290, 1040, { size: 42, weight: 800, color: C.muted });
@@ -148,11 +164,13 @@
         roundRect(ctx, x + 10, y + 10, (w - 20) * cap, h - 20, 20); ctx.fillStyle = GREEN; ctx.fill();
         if (k > 0.02) { roundRect(ctx, x + 10 + (w - 20) * cap, y + 10, (w - 20) * (1 - cap), h - 20, 20); ctx.fillStyle = 'rgba(224,65,79,0.35)'; ctx.fill(); }
         text(ctx, 'CAPACITÉ', x, y - 34, { size: 38, family: F.mono, weight: 700, color: C.muted, align: 'left' });
-        text(ctx, `${Math.round(cap * 100)} %`, x + w, y - 34, { size: 52, family: F.mono, weight: 700, color: GOLD, align: 'right' });
+        const pk = ease.back(prog(t, S('s05') + 5.2, 0.35));
+        text(ctx, `${Math.round(cap * 100)} %`, x + w, y - 34, { size: lerp(52, 66, pk), family: F.mono, weight: 700, color: GOLD, align: 'right' });
         const ck = ease.out(prog(t, S('s05') + 2.0, 0.4));
-        text(ctx, '80 % après 1 000 cycles', 520, 920, { size: 62, weight: 900, color: C.white, alpha: ck });
-        chip(ctx, 'SOURCE : APPLE · iPHONE 15', 520, 1030, { color: GOLD, size: 32, alpha: ck });
-        text(ctx, 'en conditions idéales', 520, 1115, { size: 38, weight: 700, color: 'rgba(255,255,255,0.8)', alpha: ck });
+        text(ctx, 'CONÇU POUR GARDER', 520, 880, { size: 40, weight: 800, color: C.muted, alpha: ck });
+        text(ctx, '80 % après 1 000 cycles', 520, 950, { size: 62, weight: 900, color: C.white, alpha: ck });
+        chip(ctx, 'SOURCE : APPLE · iPHONE 15', 520, 1040, { color: GOLD, size: 32, alpha: ck });
+        stamp(ctx, 'EN CONDITIONS IDÉALES', 520, 1150, t, S('s05') + 3.4, { size: 44, color: GOLD, rot: -0.04 });
       });
 
       // 5. Presque 3 ans
@@ -170,7 +188,7 @@
         });
         const fk = ease.out(prog(t, S('s06') + 1.6, 0.4));
         text(ctx, '1 000 ÷ 365 ≈ 2,7', 520, 800, { size: 70, family: F.mono, weight: 700, color: C.white, alpha: fk });
-        text(ctx, 'PRESQUE 3 ANS', 520, 960, { size: 110, weight: 900, color: GOLD, alpha: fk, shadow: 'rgba(201,168,76,0.4)', shadowBlur: 30 });
+        text(ctx, 'PRESQUE 3 ANS', 520, 960, { size: 100, weight: 900, color: GOLD, alpha: fk, shadow: 'rgba(201,168,76,0.4)', shadowBlur: 30 });
         text(ctx, 'à 1 cycle complet par jour', 520, 1070, { size: 42, weight: 700, color: 'rgba(255,255,255,0.85)', alpha: fk });
       });
 
@@ -211,33 +229,56 @@
         if (lt > 0.9) CHR.emo(ctx, 'stopwatch', x1 - 40, yt - 58, 110, t, S('s08') + 0.1 + 0.9 * Math.max(1.5, E('s08') - S('s08') - 0.5));
       });
 
-      // 8. Apple et Samsung le font déjà
-      block(ctx, t, S('s09'), S('s10'), () => {
-        const k1 = ease.back(prog(t, S('s09') + 0.1, 0.35)), k2 = ease.back(prog(t, S('s09') + 0.45, 0.35));
-        ctx.save(); ctx.globalAlpha *= clamp(k1 * 2);
-        chip(ctx, 'iPHONE : RECHARGE OPTIMISÉE', 520, 420, { color: C.white, size: 34, dot: GREEN, border: GOLD }); ctx.restore();
-        ctx.save(); ctx.globalAlpha *= clamp(k2 * 2);
-        chip(ctx, 'SAMSUNG : PROTECTION ADAPTATIVE', 520, 515, { color: C.white, size: 34, dot: GREEN, border: GOLD }); ctx.restore();
-        battery(ctx, 290, 760, 280, 0.8, { color: GOLD, size: 60 });
-        text(ctx, '=', 520, 770, { size: 120, weight: 900, color: C.white });
-        battery(ctx, 750, 760, 280, 0.8, { color: GOLD, size: 60 });
-        text(ctx, 'TON TÉLÉPHONE', 290, 900, { size: 38, weight: 800, color: C.muted });
-        text(ctx, 'TON COLLÈGUE', 750, 900, { size: 38, weight: 800, color: C.muted });
-        stamp(ctx, 'IL LE FAIT DÉJÀ TOUT SEUL', 520, 1080, t, S('s09') + 1.3, { size: 50, color: GREEN });
+      // 8. iPhone : activée d'office ; Samsung : à activer
+      block(ctx, t, S('s09'), S('s09b'), () => {
+        const cards = [[285, 'iPHONE', "ACTIVÉE D'OFFICE", 0.1], [735, 'SAMSUNG', 'À ACTIVER', 0.5 * (E('s09') - S('s09'))]];
+        cards.forEach(([x, name, state, d], i) => {
+          const k = ease.back(prog(t, S('s09') + d, 0.35));
+          if (k <= 0) return;
+          ctx.save(); ctx.translate(x, 760); ctx.scale(k, k);
+          roundRect(ctx, -195, -300, 390, 600, 34); ctx.fillStyle = '#0b1220'; ctx.fill(); ctx.lineWidth = 4; ctx.strokeStyle = i ? GOLD : GREEN; ctx.stroke();
+          text(ctx, name, 0, -225, { size: 52, weight: 900, color: C.white });
+          text(ctx, i ? 'PROTECTION DE' : 'RECHARGE', 0, -150, { size: 32, weight: 800, color: C.muted });
+          text(ctx, i ? 'LA BATTERIE' : 'OPTIMISÉE', 0, -108, { size: 32, weight: 800, color: C.muted });
+          const on = i ? prog(t, S('s09') + d + 1.0, 0.35) : 1;
+          toggle(ctx, 0, 20, on, { w: 190 });
+          text(ctx, state, 0, 150, { size: 38, weight: 900, color: i ? GOLD : GREEN, maxWidth: 360 });
+          ctx.restore();
+        });
+        CHR.emo(ctx, 'check_mark_button', 285, 1110, 90, t, S('s09') + 0.6);
+        CHR.emo(ctx, 'check_mark_button', 735, 1110, 90, t, S('s09') + 0.5 * (E('s09') - S('s09')) + 1.1);
+      });
+
+      // 8 bis. Modèles récents : la limite de charge à 80 %, comme le collègue
+      block(ctx, t, S('s09b'), S('s10'), () => {
+        const lt = t - S('s09b');
+        const lvl = Math.min(0.8, lerp(0.35, 0.8, ease.inOut(prog(t, S('s09b') + 0.2, 1.6))));
+        text(ctx, 'LIMITE DE CHARGE', 520, 430, { size: 78, weight: 900, color: C.white });
+        text(ctx, `${Math.round(lvl * 100)} %`, 470, 560, { size: 92, family: F.mono, weight: 700, color: GOLD });
+        battery(ctx, 470, 745, 520, lvl, { color: GOLD, label: false });
+        ctx.save(); ctx.setLineDash([14, 12]); ctx.strokeStyle = RED; ctx.lineWidth = 6;
+        const bx = 470 - 260 + 26 + (520 - 52) * 0.8;
+        ctx.beginPath(); ctx.moveTo(bx, 605); ctx.lineTo(bx, 885); ctx.stroke(); ctx.restore();
+        stamp(ctx, 'STOP À 80 %', 500, 965, t, S('s09b') + 1.8, { size: 54, color: GOLD, rot: 0.04 });
+        chip(ctx, 'iPHONE 15 ET + : LIMITE DE CHARGE', 520, 1070, { color: C.white, size: 28, dot: GREEN });
+        chip(ctx, 'SAMSUNG : MODE MAXIMUM', 520, 1140, { color: C.white, size: 28, dot: GREEN });
+        CHR.emo(ctx, 'man_technologist', 850, 960, 140, t, S('s09b') + 2.4, { phase: 0.8 });
+        void lt;
       });
 
       // 9. Le vrai ennemi : la chaleur
       block(ctx, t, S('s10'), S('s11'), () => {
         const k = ease.out(prog(t, S('s10') + 0.2, 0.4));
-        moon(ctx, 300, 560, 110, 1);
-        ctx.save(); ctx.strokeStyle = RED; ctx.lineWidth = 16; ctx.lineCap = 'round'; ctx.globalAlpha *= k;
-        ctx.beginPath(); ctx.moveTo(170, 430); ctx.lineTo(lerp(170, 430, k), lerp(430, 690, k)); ctx.stroke(); ctx.restore();
-        text(ctx, 'PAS LA NUIT', 300, 760, { size: 52, weight: 900, color: C.muted });
+        moon(ctx, 300, 540, 110, 1);
+        text(ctx, 'AVEC LE RÉGLAGE', 300, 740, { size: 44, weight: 900, color: C.white, alpha: k });
+        chip(ctx, "LA NUIT L'USE MOINS", 300, 815, { color: GREEN, size: 30, dot: GREEN, alpha: k });
         const lt = t - S('s10');
-        CHR.emo(ctx, 'fire', 760, 560, 260, t, S('s10') + 0.9, { phase: 0.4 });
-        const hk = ease.back(prog(t, S('s10') + 1.1, 0.4));
-        ctx.save(); ctx.translate(520, 960); ctx.scale(Math.max(0.01, hk), Math.max(0.01, hk));
-        text(ctx, 'LA CHALEUR', 0, 0, { size: 140, weight: 900, color: RED, shadow: 'rgba(224,65,79,0.55)', shadowBlur: 40 });
+        const tm = S('s10') + 0.55 * (E('s10') - S('s10'));
+        chip(ctx, 'MAIS APPLE INSISTE SURTOUT SUR…', 520, 420, { color: GOLD, size: 30, alpha: ease.out(prog(t, tm, 0.3)) });
+        CHR.emo(ctx, 'fire', 760, 560, 240, t, E('s10') - 1.3, { phase: 0.4 });
+        const hk = ease.back(prog(t, E('s10') - 1.0, 0.4));
+        ctx.save(); ctx.translate(520, 990); ctx.scale(Math.max(0.01, hk), Math.max(0.01, hk));
+        text(ctx, 'LA CHALEUR', 0, 0, { size: 124, weight: 900, color: RED, shadow: 'rgba(224,65,79,0.55)', shadowBlur: 40 });
         ctx.restore();
         void lt;
       });
@@ -248,16 +289,18 @@
         const temp = lerp(22, 35, k);
         const col = temp >= 35 ? RED : temp > 30 ? '#e8914a' : GOLD;
         thermometer(ctx, 220, 900, 420, (temp - 10) / 30, col);
-        readout(ctx, 'TEMPÉRATURE', k >= 1 ? '> 35 °C' : `${Math.round(temp)} °C`, 640, 520, { w: 470, h: 180, size: 92, color: col, border: col });
-        const cap = lerp(1, 0.86, ease.inOut(prog(t, S('s11') + 1.5, 1.0)));
-        battery(ctx, 640, 790, 340, cap, { label: 'CAPACITÉ', size: 46, color: temp >= 35 ? RED : GREEN });
-        stamp(ctx, 'POUR DE BON', 640, 990, t, S('s11') + 1.7, { size: 62 });
+        readout(ctx, 'TEMPÉRATURE AMBIANTE', k >= 1 ? '> 35 °C' : `${Math.round(temp)} °C`, 640, 520, { w: 470, h: 180, size: 92, color: col, border: col, labelSize: 24 });
+        chip(ctx, 'DANS LA PIÈCE', 640, 655, { color: C.white, size: 30, alpha: ease.out(prog(t, S('s11') + 1.6, 0.3)) });
+        CHR.emo(ctx, 'warning', 220, 395, 110, t, S('s11') + 2.6);
+        const cap = lerp(1, 0.86, ease.inOut(prog(t, E('s11') - 2.2, 1.0)));
+        battery(ctx, 640, 810, 340, cap, { label: 'CAPACITÉ', size: 46, color: temp >= 35 ? RED : GREEN });
+        stamp(ctx, 'POUR DE BON', 640, 1000, t, E('s11') - 1.0, { size: 62 });
         chip(ctx, 'SOURCE : APPLE', 640, 1130, { color: GOLD, size: 32 });
       });
 
       // 11. Pas sous l'oreiller, pas dans une coque qui chauffe
-      block(ctx, t, S('s12'), S('s13'), () => {
-        const cards = [[290, "SOUS L'OREILLER"], [750, 'COQUE QUI CHAUFFE']];
+      block(ctx, t, S('s12'), S('s14'), () => {
+        const cards = [[280, "SOUS L'OREILLER"], [730, 'COQUE QUI CHAUFFE']];
         cards.forEach(([x, lb], i) => {
           const k = ease.back(prog(t, S('s12') + 0.15 + i * 0.55, 0.35));
           if (k <= 0) return;
@@ -280,20 +323,6 @@
         });
       });
 
-      // 12. Zone idéale : 16 à 22 °C
-      block(ctx, t, S('s13'), S('s14'), () => {
-        const x0 = 120, x1 = 920, y = 760, tmin = 0, tmax = 40;
-        const X = v => lerp(x0, x1, (v - tmin) / (tmax - tmin));
-        roundRect(ctx, x0, y - 40, x1 - x0, 80, 40); ctx.fillStyle = '#0b1220'; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = C.line; ctx.stroke();
-        const k = ease.out(prog(t, S('s13') + 0.3, 0.6));
-        roundRect(ctx, X(16), y - 40, (X(22) - X(16)) * k, 80, 20); ctx.fillStyle = GREEN; ctx.fill();
-        roundRect(ctx, X(35), y - 40, x1 - X(35), 80, 40); ctx.fillStyle = 'rgba(224,65,79,0.55)'; ctx.fill();
-        [0, 16, 22, 35, 40].forEach(v => text(ctx, `${v}°`, X(v), y + 80, { size: 36, family: F.mono, weight: 700, color: v === 16 || v === 22 ? GREEN : v === 35 ? RED : C.muted }));
-        text(ctx, '16 – 22 °C', 520, 520, { size: 130, weight: 900, color: GREEN, shadow: 'rgba(63,191,127,0.45)', shadowBlur: 30 });
-        chip(ctx, 'ZONE IDÉALE (APPLE)', 520, 1010, { color: GREEN, size: 34 });
-        CHR.emo(ctx, 'check_mark_button', 520, 1140, 120, t, S('s13') + 0.8);
-      });
-
       // 13. Retour au duel + question
       block(ctx, t, S('s14'), S('s15'), () => {
         duel(ctx, t, S('s14'), { leftLevel: 0.8, rightLevel: 0.8, rightOff: 1 });
@@ -302,11 +331,11 @@
         roundRect(ctx, -395, -60, 790, 120, 40); ctx.fillStyle = 'rgba(201,168,76,0.16)'; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = GOLD; ctx.stroke();
         text(ctx, 'IL DORT OÙ, TON TÉLÉPHONE ?', 0, 4, { size: 47, weight: 900, color: C.white, maxWidth: 730 });
         ctx.restore();
-        text(ctx, '💬', 958, 360, { size: 64, family: F.emoji, weight: 400, alpha: clamp(k) });
+        text(ctx, '💬', 958, 360, { size: 64 * (1 + 0.08 * Math.sin((t - S('s14')) * 6)), family: F.emoji, weight: 400, alpha: clamp(k) });
       });
 
       // 14. Abonne-toi
-      block(ctx, t, S('s15'), END + 1, () => followCTA(ctx, t, S('s15'), { when: 'ABONNE-TOI', next: ['je mesure tout ce que', 'tu crois savoir'] }));
+      block(ctx, t, S('s15'), END + 1, () => followCTA(ctx, t, S('s15'), { when: 'ABONNE-TOI', next: ['je vérifie tout ce que', 'tu crois savoir'] }));
 
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });

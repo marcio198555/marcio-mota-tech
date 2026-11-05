@@ -89,6 +89,10 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >    - **Image** : un changement toutes les 2 s environ (compteurs qui défilent, étiquettes, tampons rouges, courbes,
 >      personnes 3D `man_technologist` et `woman_technologist`), même style sombre « JE MESURE TOUT ». Les briques de
 >      `days/day55/scene.js` (tampon, batterie, duel, thermomètre, compteur) se copient dans la scène suivante.
+>    - **Force des affirmations** (contrôle du jour 55) : chaque phrase dit exactement ce que dit la source, pas plus :
+>      « conçu pour garder … en conditions idéales », « peut », « à activer » (une fonction pas active par défaut),
+>      « température ambiante ». Jamais de classement (« le vrai ennemi, ce n'est pas X ») qu'aucune source ne fait.
+>      Relire le script phrase par phrase contre facts.md AVANT d'envoyer la voix au pont.
 >    - **Série « Suisse contre France »** : 2 créneaux sur 14 par semaine. Comparaison chiffrée avec les prix officiels
 >      des deux pays (site officiel en CHF et en EUR, date du relevé, taux de change du jour avec sa source, TVA 8,1 % et
 >      20 % si utile), écran partagé avec les deux drapeaux, même structure (question, promesse, réponse au milieu,

@@ -231,3 +231,12 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
   l'accroche. Correction : 3 nouvelles prises de la phrase 2 seulement (jobs day55b/c/d, même texte, graines 11, 23,
   42), transcrites à leur tour : les 3 donnent « débranche » (probabilité 1,0) ; prise c gardée (même durée que
   l'originale), voix remontée dans /home/claude/studio/day55/tts_final (64,2 s). Coût : 2 passages du pont, environ 12 min.
+- Contrôle qualité par un agent neuf (05.11, 11 h 30) : verdict « à corriger ». Quatre phrases allaient plus loin que
+  les sources : « Apple et Samsung le font déjà, tout seul » (la protection Samsung est à activer ; la recharge optimisée
+  de l'iPhone finit à 100 %) ; « garde 80 % » (Apple : « conçu pour garder … en conditions idéales ») ; « ce n'est pas
+  la nuit, c'est la chaleur » (aucune source ne classe les causes) ; « 35 °C » sans « ambiante ». Corrigé avant la
+  publication : phrases 5, 9, 10, 11 et 15 refaites, phrase 9 bis ajoutée (limite de charge à 80 % des modèles
+  récents), phrase 13 retirée pour rester sous 70 s ; image (cartes iPhone activée d'office / Samsung à activer,
+  interrupteur, limite de charge, « avec le réglage », « température ambiante », lune sans disque noir, collègue en
+  homme, rien au-delà de x = 940) ; légendes alignées. Règle : écrire chaque affirmation à la force exacte de la
+  source (« conçu pour », « peut », « à activer », « ambiante »), et le vérifier phrase par phrase avant la voix.
