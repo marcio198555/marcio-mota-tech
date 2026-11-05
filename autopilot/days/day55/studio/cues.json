@@ -6,132 +6,152 @@
  },
  {
   "file": "/home/claude/studio/sfx/ui_pop.wav",
-  "t": 3.718,
+  "t": 3.614,
   "db": -12
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 6.053,
+  "t": 5.83,
   "db": -17
  },
  {
   "file": "/home/claude/studio/sfx/tick.wav",
-  "t": 6.403,
+  "t": 6.18,
   "db": -16
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 10.166,
+  "t": 9.789,
   "db": -17
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 13.145,
+  "t": 12.658,
   "db": -17
  },
  {
   "file": "/home/claude/studio/sfx/counter.wav",
-  "t": 13.495,
+  "t": 13.008,
   "db": -16
  },
  {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 16.108,
+  "db": -14
+ },
+ {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 20.205,
+  "t": 20.492,
   "db": -17
  },
  {
   "file": "/home/claude/studio/sfx/ui_pop.wav",
-  "t": 20.505,
+  "t": 20.792,
   "db": -14
  },
  {
   "file": "/home/claude/studio/sfx/ui_pop.wav",
-  "t": 20.955,
+  "t": 21.242,
   "db": -14
  },
  {
   "file": "/home/claude/studio/sfx/ui_pop.wav",
-  "t": 21.405,
+  "t": 21.692,
   "db": -14
  },
  {
   "file": "/home/claude/studio/sfx/impact.wav",
-  "t": 21.855,
+  "t": 22.142,
   "db": -12
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 23.713,
+  "t": 23.869,
   "db": -17
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 26.479,
+  "t": 26.532,
   "db": -17
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 32.089,
+  "t": 31.93,
   "db": -17
  },
  {
-  "file": "/home/claude/studio/sfx/success.wav",
-  "t": 33.439,
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 32.08,
   "db": -14
  },
  {
-  "file": "/home/claude/studio/sfx/riser.wav",
-  "t": 37.534,
-  "db": -16
- },
- {
-  "file": "/home/claude/studio/sfx/impact.wav",
-  "t": 39.234,
-  "db": -10
- },
- {
-  "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 42.121,
-  "db": -17
- },
- {
-  "file": "/home/claude/studio/sfx/impact.wav",
-  "t": 43.871,
-  "db": -12
- },
- {
-  "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 47.817,
-  "db": -17
- },
- {
   "file": "/home/claude/studio/sfx/ui_pop.wav",
-  "t": 48.367,
-  "db": -13
- },
- {
-  "file": "/home/claude/studio/sfx/ui_pop.wav",
-  "t": 48.917,
-  "db": -13
- },
- {
-  "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 52.844,
-  "db": -17
+  "t": 34.844,
+  "db": -14
  },
  {
   "file": "/home/claude/studio/sfx/success.wav",
-  "t": 53.694,
+  "t": 35.844,
   "db": -15
  },
  {
   "file": "/home/claude/studio/sfx/whoosh.wav",
-  "t": 55.986,
+  "t": 37.758,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/impact.wav",
+  "t": 39.608,
+  "db": -13
+ },
+ {
+  "file": "/home/claude/studio/sfx/riser.wav",
+  "t": 46.667,
+  "db": -16
+ },
+ {
+  "file": "/home/claude/studio/sfx/impact.wav",
+  "t": 47.367,
+  "db": -10
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 48.417,
   "db": -17
  },
  {
   "file": "/home/claude/studio/sfx/ui_pop.wav",
-  "t": 61.065,
+  "t": 50.067,
+  "db": -14
+ },
+ {
+  "file": "/home/claude/studio/sfx/impact.wav",
+  "t": 53.285,
+  "db": -12
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 54.335,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 54.885,
+  "db": -13
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 55.435,
+  "db": -13
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 59.172,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 64.072,
   "db": -12
  }
 ]
