@@ -4,3 +4,4 @@ autopilot/vo/day23b_vo_fx.wav
 autopilot/vo/cbtest_noref.wav
 autopilot/vo/cbtest_tomref.wav
 autopilot/vo/day23c_vo.wav
+autopilot/vo/day55_vo.wav
