@@ -59,12 +59,16 @@
   },
   {
    "id": "day55",
-   "prevu": "2026-11-06T12:00",
+   "prevu": "2026-11-05T11:50",
    "source": "autopilot jour 55",
-   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793874076/tiktok-autopilot/reels/day55_reel.mp4",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793875584/tiktok-autopilot/reels/day55_reel.mp4",
    "isAiGenerated": true,
    "caption": "Charger son téléphone toute la nuit : ça abîme vraiment la batterie ?\n\nD'après Apple, un iPhone 15 est conçu pour garder 80 % de sa capacité après 1 000 cycles complets (en conditions idéales). La recharge optimisée, activée d'office sur iPhone, peut faire une pause à 80 % la nuit avant de finir la charge ; sur Samsung, active la protection de la batterie (le mode Maximum s'arrête à 80 %).\n\nApple insiste surtout sur la chaleur : évite une température ambiante de plus de 35 °C. Ne le charge pas sous l'oreiller ni dans une coque qui chauffe.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui débranche son téléphone à 80 % tous les soirs.\n\n#batterie #smartphone #astucetech #suisseromande #jemesuretout",
-   "statut": "en attente"
+   "statut": "publié",
+   "publie_le": "2026-11-05T11:50",
+   "lien": "https://www.instagram.com/reel/DfW2dtllVSe/",
+   "media_id": "18025518803719508",
+   "note": "publié directement avec vidIQ le 05.11 (pas par la tâche de 7 h 13), après le contrôle qualité"
   }
  ]
 }

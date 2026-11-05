@@ -1195,24 +1195,26 @@
    "statut": "programmée",
    "faits": "days/day55/facts.md",
    "ajoutee_le": "2026-11-05",
-   "duree_s": 64.5,
-   "note": "Premier essai de la recette « Vérité du quotidien » (point 2 bis). Publiée sans validation préalable (Marcio, 05.11, 10 h 47 : « je veux que tu sois 100 % autonome »). Story coupée à 58,1 s (limite de 60 s des Stories) ; Reel d'essai coupé à 60,8 s (avant « abonne-toi »).",
+   "duree_s": 68.1,
+   "note": "Premier essai de la recette « Vérité du quotidien » (point 2 bis). Publiée sans validation préalable (Marcio, 05.11, 10 h 47 : « je veux que tu sois 100 % autonome »). Contrôle qualité (agent neuf) : 4 formulations corrigées avant publication. Story coupée à 56,4 s (limite de 60 s des Stories) ; Reel d'essai coupé à 63,8 s (avant « abonne-toi »).",
    "titre": "Charger son téléphone toute la nuit : ça abîme la batterie ?",
    "programme_le": "2026-11-05T20:30",
    "buffer_id": "6aec58a96d2f01d30a23e9fa",
-   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793874073/tiktok-autopilot/day55_charge-nuit.mp4",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793875579/tiktok-autopilot/day55_charge-nuit.mp4",
    "story_instagram": {
     "heure": "20:35",
     "fichier": "media/stories/day55_story.mp4",
-    "url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793874074/tiktok-autopilot/stories/day55_story_fin.mp4",
+    "url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793875582/tiktok-autopilot/stories/day55_story_fin.mp4",
     "buffer_id": "6aec58aae6ba64b5a33deda8",
-    "fin_tiktok": "2 s de fin « Nouvelle vidéo sur TikTok » ; Story coupée à 58,1 s (limite de 60 s)"
+    "fin_tiktok": "2 s de fin « Nouvelle vidéo sur TikTok » ; Story coupée à 56,4 s (limite de 60 s)"
    },
    "reel_instagram": {
-    "prevu": "2026-11-06T12:00",
-    "coupe_s": 60.77,
-    "url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793874076/tiktok-autopilot/reels/day55_reel.mp4",
-    "statut": "en attente (vidIQ, reels_queue.json)"
+    "prevu": "2026-11-05T11:50",
+    "coupe_s": 63.77,
+    "url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793875584/tiktok-autopilot/reels/day55_reel.mp4",
+    "statut": "publié",
+    "publie_le": "2026-11-05T11:50",
+    "lien": "https://www.instagram.com/reel/DfW2dtllVSe/"
    }
   },
   {
