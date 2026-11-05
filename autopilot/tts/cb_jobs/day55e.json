@@ -1,0 +1,36 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "note": "reprises après le contrôle qualité du 05.11 (formulations alignées sur Apple et Samsung) ; s13 retirée",
+ "segments": [
+  {
+   "id": "s05",
+   "text": "Apple l'écrit : un aïe-fone-quinze est conçu pour garder quatre-vingts pour cent de sa capacité après mille cycles complets."
+  },
+  {
+   "id": "s09",
+   "text": "Sur aïe-fone, elle est activée d'office. Sur Samsung, active la protection de la batterie."
+  },
+  {
+   "id": "s09b",
+   "text": "Et les modèles récents peuvent même s'arrêter à quatre-vingts pour cent, comme ton collègue."
+  },
+  {
+   "id": "s10",
+   "text": "Avec ce réglage, la nuit l'use moins. Mais Apple insiste surtout sur un autre ennemi : la chaleur."
+  },
+  {
+   "id": "s11",
+   "text": "Au-delà de trente-cinq degrés dans la pièce, Apple prévient : elle peut perdre de la capacité pour de bon."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : je vérifie tout ce que tu crois savoir."
+  }
+ ]
+}
