@@ -65,6 +65,34 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >      commentaires ; 3 à 5 hashtags précis (produit, catégorie, #astucetech ou #astucemaison, #blackfriday jusqu'au
 >      27.11) ; jamais #fyp, #pourtoi, #viral, « like si ». Couverture (`thumbnailOffset`) sur l'image où le chiffre et
 >      « ≠ » sont lisibles. `isAiGenerated: true`.
+> 2 bis. **Mise à jour du 05.11 (10 h 40) : ce que les gens aiment vraiment (données vidIQ). Elle remplace dans le point 2
+>    le sujet, les phrases 1–2 et la longueur ; le reste du point 2 tient.** Marcio (10 h 20) : « regarde bien si c'est ça
+>    que les gens aiment… tu peux changer de sujet… je veux juste être connu sur Instagram et TikTok ». Vidéos en français
+>    publiées depuis le 1.10, 500 000 à 6 M de vues, souvent sur de petits comptes : (a) explications animées « ce que ton
+>    objet du quotidien te cache » : chargeur 1,3 M (@histoire.pixelise, 16 000 abonnés, 72 s), chargeur secteur 1,2 M
+>    (@5sigmascience), machine à laver 857 000 (@askleonm, 9 400 abonnés, 72 s) ; (b) démonstrations de nettoyage avec
+>    résultat visible (jusqu'à 3,1 M ; il faut filmer, donc pas pour l'instant) ; (c) « Suisse contre France » (environ 1 M
+>    pour de petits comptes romands) ; (d) feuilletons IA de fruits (1 à 1,7 M ; outils vidéo payants et sans lien avec
+>    Marcio : non). Chez Marcio, les 2 mêmes vidéos (robot tondeuse, batterie externe) gagnent aussi en Reels d'essai
+>    Instagram (1 182 et 518 vues contre environ 150). Page pour Marcio : https://claude.ai/artifact/8TanF5TUe8BKggdWRNFyra.
+>    - **Sujet** : un objet ou une habitude de tous les jours que tout le monde a (téléphone, chargeur, frigo, machine à
+>      laver, lave-vaisselle, box internet, télé, chauffage, micro-ondes, ampoule…) avec une vérité qui surprend, un mythe
+>      démonté ou un chiffre de la boîte qui trompe (les pistes du point 2 restent bonnes). Toujours traduire les chiffres
+>      en francs (tarif moyen ElCom de l'année) ou en objet concret (une douche, un café, une raclette).
+>    - **Structure** (2 vidéos virales analysées image par image ; modèle : `days/day55`) : 0–3 s, un duel « toi / ton
+>      collègue » (ou deux situations côte à côte) et une question ou une phrase qui contredit ce que tout le monde croit ;
+>      avant 10 s, une promesse (« dans trois ans, lequel… ? », « à la fin, tu sauras pourquoi… ») ; la réponse vers le
+>      milieu ; une 2e surprise ; 1 ou 2 conseils ; une question pour les commentaires ; retour à l'image du duel ;
+>      « abonne-toi ». Le « non » immédiat n'est plus obligatoire si la question ouvre une attente.
+>    - **Longueur : 50 à 70 s** (13 à 16 phrases, 130 à 160 mots ; Chatterbox parle environ 2,3 mots par seconde).
+>      Remplace les 35–40 s ci-dessus.
+>    - **Image** : un changement toutes les 2 s environ (compteurs qui défilent, étiquettes, tampons rouges, courbes,
+>      personnes 3D `man_technologist` et `woman_technologist`), même style sombre « JE MESURE TOUT ». Les briques de
+>      `days/day55/scene.js` (tampon, batterie, duel, thermomètre, compteur) se copient dans la scène suivante.
+>    - **Série « Suisse contre France »** : 2 créneaux sur 14 par semaine. Comparaison chiffrée avec les prix officiels
+>      des deux pays (site officiel en CHF et en EUR, date du relevé, taux de change du jour avec sa source, TVA 8,1 % et
+>      20 % si utile), écran partagé avec les deux drapeaux, même structure (question, promesse, réponse au milieu,
+>      surprise). Jamais un prix de mémoire. Pistes dans `plan.json` (idées 70 à 73).
 > 3. **Stories** : `story.sh` ajoute 2 s de fin « NOUVELLE VIDÉO SUR TIKTOK · @marcio.mota8 » (`tools/story_endcard.py`).
 > 4. **Suite** : une vidéo au-dessus de 600 vues → une « partie 2 » (même piège, autre produit ou autre chiffre) dans les
 >    48 h, à la place d'un sujet du plan.

@@ -699,7 +699,7 @@
    "jour": 25,
    "date": null,
    "sujet": "Baisser le chauffage de 1 °C : combien tu économises vraiment",
-   "mecanique": "Le vrai coût / le chiffre précis",
+   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
    "refs": [
     "R4",
     "R8"
@@ -710,7 +710,7 @@
     "température recommandée par pièce"
    ],
    "argent": "Marques thermostats connectés",
-   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
+   "statut": "idée",
    "heure": null
   },
   {
@@ -735,7 +735,7 @@
    "jour": 27,
    "date": null,
    "sujet": "Ton frigo est-il réglé trop froid ?",
-   "mecanique": "Tu le fais mal",
+   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
    "refs": [
     "R3"
    ],
@@ -745,14 +745,14 @@
     "surconsommation par degré en moins"
    ],
    "argent": "Marques thermomètres connectés",
-   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
+   "statut": "idée",
    "heure": null
   },
   {
    "jour": 28,
    "date": null,
    "sujet": "Le couvercle sur la casserole : combien d'énergie en moins",
-   "mecanique": "Le vrai coût",
+   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
    "refs": [
     "R4"
    ],
@@ -761,7 +761,7 @@
     "chiffre SuisseEnergie ou étude sur l'économie avec couvercle"
    ],
    "argent": "Croissance",
-   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
+   "statut": "idée",
    "heure": null
   },
   {
@@ -816,7 +816,7 @@
    "jour": 32,
    "date": null,
    "sujet": "Lave-linge à 30 °C ou 60 °C : l'énergie en jeu",
-   "mecanique": "Le vrai coût",
+   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
    "refs": [
     "R4"
    ],
@@ -825,7 +825,7 @@
     "consommation selon la température (SuisseEnergie, étiquette UE)"
    ],
    "argent": "Croissance",
-   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
+   "statut": "idée",
    "heure": null
   },
   {
@@ -898,7 +898,7 @@
    "jour": 37,
    "date": null,
    "sujet": "Sèche-linge ou étendoir : le coût réel en CHF",
-   "mecanique": "Le vrai coût",
+   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
    "refs": [
     "R4"
    ],
@@ -907,7 +907,7 @@
     "consommation type par cycle (étiquette UE), tarif ElCom 2026"
    ],
    "argent": "Croissance",
-   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
+   "statut": "idée",
    "heure": null
   },
   {
@@ -1183,9 +1183,198 @@
    "statut": "idée",
    "heure": null,
    "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 55,
+   "date": null,
+   "heure": null,
+   "format": "V",
+   "sujet": "Charger son téléphone toute la nuit : ça abîme la batterie ?",
+   "mecanique": "Duel toi / ton collègue + question ouverte, réponse au milieu, 2e surprise (la chaleur) — recette du 05.11 mise à jour (vidIQ)",
+   "accroche": "Tu charges ton téléphone toute la nuit ? Ton collègue, lui, le débranche à 80 %.",
+   "statut": "en production (05.11)",
+   "faits": "days/day55/facts.md",
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 56,
+   "date": null,
+   "heure": null,
+   "sujet": "Faut-il éteindre sa box internet la nuit ?",
+   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "accroche": "Ta box internet tourne toute la nuit ? Voilà ce qu'elle te coûte vraiment, en francs.",
+   "a_verifier": [
+    "consommation d'une box courante (fiche officielle Swisscom, Sunrise ou Salt)",
+    "tarif moyen de l'électricité en Suisse (ElCom, année en cours)",
+    "calcul en kWh et en CHF par an, montré à l'écran"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 57,
+   "date": null,
+   "heure": null,
+   "sujet": "Lave-vaisselle ou vaisselle à la main : qui gaspille le plus d'eau ?",
+   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "accroche": "Toi, tu fais la vaisselle à la main pour économiser ? Ton collègue lance le lave-vaisselle.",
+   "a_verifier": [
+    "litres d'eau par cycle d'un lave-vaisselle (étiquette énergie UE, fiche fabricant)",
+    "étude sur le lavage à la main (ex. Université de Bonn)",
+    "coût de l'eau chaude et de l'électricité en CHF"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 58,
+   "date": null,
+   "heure": null,
+   "sujet": "Pourquoi le centre de ton plat reste froid au micro-ondes ?",
+   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "accroche": "Ton plat est brûlant au bord et glacé au centre ? Ton micro-ondes n'y est pour rien… ou presque.",
+   "a_verifier": [
+    "fréquence 2,45 GHz et profondeur de pénétration (source universitaire ou fabricant)",
+    "ondes stationnaires et rôle du plateau tournant",
+    "conseil officiel (temps de repos, mélanger)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 59,
+   "date": null,
+   "heure": null,
+   "sujet": "La veille de ta télé coûte combien par an ?",
+   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "accroche": "Tu éteins ta télé avec la télécommande ? Elle ne dort pas vraiment.",
+   "a_verifier": [
+    "règlement européen d'écoconception (puissance en veille)",
+    "fiche d'une télé courante (veille en W)",
+    "tarif ElCom et calcul en CHF par an"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 60,
+   "date": null,
+   "heure": null,
+   "sujet": "Charge rapide : ça abîme la batterie ? (suite du jour 55)",
+   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "accroche": "Ton téléphone charge à 45 watts ? Ton collègue, lui, n'utilise que l'ancien chargeur.",
+   "a_verifier": [
+    "ce qu'Apple et Samsung écrivent sur la charge rapide et la batterie",
+    "température pendant la charge (sources du jour 55)",
+    "phase rapide jusqu'à 50–80 % puis ralentissement (fiche officielle)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "ajoutee_le": "2026-11-05",
+   "suite_de": 55
+  },
+  {
+   "jour": 61,
+   "date": null,
+   "heure": null,
+   "sujet": "Une ampoule LED allumée toute la nuit : combien ça coûte ?",
+   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "accroche": "Tu laisses une lumière allumée toute la nuit ? Calcul en francs.",
+   "a_verifier": [
+    "puissance d'une ampoule LED courante (ex. 806 lm ≈ 7–8 W, déjà sourcé au jour 17)",
+    "tarif ElCom",
+    "calcul en CHF par an, comparé à un objet concret"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 62,
+   "date": null,
+   "heure": null,
+   "sujet": "Douche ou bain : combien en francs ?",
+   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "accroche": "Toi, c'est douche. Ton collègue, c'est bain. Qui paie le plus à la fin de l'année ?",
+   "a_verifier": [
+    "litres d'eau d'une douche de 5 min et d'un bain (SuisseEnergie ou fournisseur d'eau)",
+    "énergie pour chauffer l'eau (calcul montré)",
+    "tarif ElCom et prix de l'eau d'une commune suisse (source officielle)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 70,
+   "date": null,
+   "heure": null,
+   "sujet": "Suisse contre France : l'iPhone 17, où est-il le moins cher ?",
+   "mecanique": "Suisse contre France",
+   "accroche": "Même iPhone. En Suisse et en France. Lequel coûte le moins cher, en vrai ?",
+   "a_verifier": [
+    "prix officiel apple.com/chfr et apple.com/fr (date du relevé)",
+    "taux de change du jour (BNS ou BCE)",
+    "TVA 8,1 % et 20 %, conditions de la détaxe pour un résident suisse (source officielle)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 71,
+   "date": null,
+   "heure": null,
+   "sujet": "Suisse contre France : 1 kWh d'électricité",
+   "mecanique": "Suisse contre France",
+   "accroche": "Même machine à laver, même lessive. En Suisse et en France : qui paie le plus ?",
+   "a_verifier": [
+    "tarif moyen ElCom (Suisse) de l'année",
+    "tarif réglementé de la CRE (France) de l'année",
+    "coût d'un même appareil sur une année, dans les deux pays"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 72,
+   "date": null,
+   "heure": null,
+   "sujet": "Suisse contre France : Netflix",
+   "mecanique": "Suisse contre France",
+   "accroche": "Même film, même abonnement. Pourquoi les Suisses paient plus ?",
+   "a_verifier": [
+    "prix officiels de Netflix en Suisse et en France (pages d'aide Netflix, date du relevé)",
+    "taux de change du jour",
+    "ce qui change d'un pays à l'autre (offres)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 73,
+   "date": null,
+   "heure": null,
+   "sujet": "Suisse contre France : console de jeux",
+   "mecanique": "Suisse contre France",
+   "accroche": "Même console. En Suisse et en France. Où l'acheter ?",
+   "a_verifier": [
+    "prix conseillé officiel (Nintendo ou Sony) dans les deux pays",
+    "taux de change du jour",
+    "garantie et retour dans chaque pays (sources officielles)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "ajoutee_le": "2026-11-05"
   }
  ],
- "rythme": "Depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour ») : dès le 7.11, 2 vidéos créées par jour sur TikTok, à 10 h et 18 h, toutes deux « chiffre-piège » (recette des jours 1 et 3 : 35–40 s, chiffre de la boîte en question dès 0,12 s, « non » avant 4 s ; RUNBOOK, bloc du 05.11), chacune avec sa Story (fin « Nouvelle vidéo sur TikTok ») et son Reel d'essai. Vendredi : bilan + plan + 7 vidéos de 10 h (5 h 37) ; 7 vidéos de 18 h (11 h 37). Format R en pause (derniers essais : Sleepal 5.11, Aeotec 6.11). Format T abandonné. Stratégie du mois : strategy.json.",
+ "rythme": "Depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour ») : dès le 7.11, 2 vidéos créées par jour sur TikTok, à 10 h et 18 h, toutes deux « chiffre-piège » (recette du 05.11 mise à jour à 10 h 40 avec les données vidIQ : objet ou habitude du quotidien, duel « toi / ton collègue », question ouverte, réponse au milieu, 50–70 s ; série « Suisse contre France » 2 fois par semaine ; RUNBOOK, bloc du 05.11, point 2 bis), chacune avec sa Story (fin « Nouvelle vidéo sur TikTok ») et son Reel d'essai. Vendredi : bilan + plan + 7 vidéos de 10 h (5 h 37) ; 7 vidéos de 18 h (11 h 37). Format R en pause (derniers essais : Sleepal 5.11, Aeotec 6.11). Format T abandonné. Stratégie du mois : strategy.json.",
  "objectif": "Gagner des abonnés et des vues",
  "format_R": [
   {
