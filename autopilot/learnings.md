@@ -240,3 +240,7 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
   interrupteur, limite de charge, « avec le réglage », « température ambiante », lune sans disque noir, collègue en
   homme, rien au-delà de x = 940) ; légendes alignées. Règle : écrire chaque affirmation à la force exacte de la
   source (« conçu pour », « peut », « à activer », « ambiante »), et le vérifier phrase par phrase avant la voix.
+- Version finale du jour 55 : 68,1 s (voix 67,7 s, `assemble_vo.py --tempo 1.04` pour rester sous 70 s ; l'outil plantait
+  avec un tempo > 1, tampon corrigé), Whisper conforme. Buffer mis à jour (TikTok 20 h 30, Story 56,4 s à 20 h 35) ;
+  Reel d'essai publié directement avec vidIQ à 11 h 50 (https://www.instagram.com/reel/DfW2dtllVSe/), noté dans le
+  journal Google Doc et dans reels_queue.json (statut « publié », la tâche de 7 h 13 ne le reprendra pas).
