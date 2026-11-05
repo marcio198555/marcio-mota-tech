@@ -213,3 +213,21 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
   plan.json (rythme, idées 40–54, anciennes idées sans produit écartées), strategy.json (formats, S2, journal),
   `tools/story_endcard.py` branché dans `story.sh` ; Stories du 5.11 (10 h 05, 18 h 05) et du 6.11 (10 h 05) refaites
   avec la fin et mises à jour dans Buffer ; consignes des tâches du vendredi réécrites.
+
+## 05.11.2026 (fin de matinée) — Vidéo 55, premier essai de la recette « Vérité du quotidien »
+- Marcio, 10 h 47 : « je veux que tu sois 100 % autonome » ; 10 h 48 : « et pendant un mois tu crées du contenu ».
+  Appliqué : plus de validation avant publication (RUNBOOK, bloc du 05.11, point 6) ; période prolongée jusqu'au 5.12
+  (S5 = 28.11 → 5.12, bilan final le 4.12) ; consignes des 3 tâches (vendredi 5 h 37 et 11 h 37, Buffer 7 h 13) réécrites.
+- Longueur réelle de la voix Chatterbox : 182 mots, 15 phrases = 64,5 s avec `--gap 0.1` (≈ 2,8 mots par seconde, et
+  non 2,3 comme estimé). Pour 50 à 70 s : 150 à 190 mots.
+- Story Instagram : l'API (Buffer) refuse plus de 60 s. `story.sh` coupe maintenant à la fin de la dernière phrase
+  finie avant 57,5 s quand la vidéo dépasse 58 s (vidéo 55 : 64,8 s → Story de 58,4 s).
+- Contrôle des images (planche toutes les 3–5 s) : la fiche d'un câble débranché pendait jusque sur les sous-titres
+  (hors du cadre des essais à blanc, qui n'avaient pas les vrais sous-titres) ; un libellé « 100 % » caché sous les
+  compteurs ; un « ? » de bulle qui chevauchait l'encadré. Une valeur d'illustration (36 °C) remplacée par « > 35 °C »,
+  et la courbe de la nuit marquée « schéma : exemple d'une nuit ». À refaire sur chaque vidéo : planche complète avec
+  les vrais sous-titres avant de publier.
+- Whisper (via le pont) : texte conforme, sauf « débanche » entendu au lieu de « débranche » (probabilité 0,9) dans
+  l'accroche. Correction : 3 nouvelles prises de la phrase 2 seulement (jobs day55b/c/d, même texte, graines 11, 23,
+  42), transcrites à leur tour : les 3 donnent « débranche » (probabilité 1,0) ; prise c gardée (même durée que
+  l'originale), voix remontée dans /home/claude/studio/day55/tts_final (64,2 s). Coût : 2 passages du pont, environ 12 min.

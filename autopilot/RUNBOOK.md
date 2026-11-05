@@ -503,11 +503,14 @@ Modèle de scène : `autopilot/days/_ai_demo/scene.js`.
   Le pont pousse chaque voix dès qu'elle est prête (commit « bridge output (voix dayNN) ») : monter la première vidéo
   sans attendre les autres. Au-delà de 40 minutes de voix, le passage s'arrête et les voix restantes passent au
   passage suivant : le relancer avec `gh workflow run tiktok-bridge.yml --ref tiktok-autopilot`. Une voix
-  Chatterbox est environ 20 % plus longue que Piper : depuis le 05.11, viser 35 à 40 s une fois montée, soit 10 à
-  13 phrases (bloc du 05.11) et 10 à 13 minutes de calcul par vidéo ; les « 15 s au plus » du 04.11 ne valent plus.
+  Chatterbox est environ 20 % plus longue que Piper. Recette du 05.11 (point 2 bis) : 50 à 70 s une fois montée, soit
+  13 à 16 phrases, 150 à 190 mots (jour 55 : 182 mots = 64,5 s) et 15 à 20 minutes de calcul par vidéo.
 - Ensuite comme avant : `assemble_vo.py … --lead 0.12 --gap 0.1`, **sans `voice_fx.py`** (la version choisie par Marcio
   n'a pas d'effet), champs `display`, transcription Whisper obligatoire (§ 11.5) : corriger tout mot mal dit
-  (réécrire la phrase ou changer `seed`, puis nouveau job sous un nouveau nom).
+  (réécrire la phrase ou changer `seed`, puis nouveau job sous un nouveau nom). Méthode du jour 55 (« débanche » entendu
+  au lieu de « débranche ») : 3 jobs `dayNNb`, `dayNNc`, `dayNNd` avec seulement la phrase fautive et 3 graines
+  (11, 23, 42), puis leurs WAV dans `autopilot/vo/` et `asr/todo.txt` pour Whisper ; garder une prise juste, la copier
+  avec les autres phrases dans un dossier de travail du studio et relancer `assemble_vo.py` sur ce dossier.
 - Piper reste la solution de secours si le pont échoue (voix tom, `voice_fx.py --factor 1.12`).
 
 ## 12. Format R « Réel » : les vraies vidéos de Marcio (04.11.2026 → 6.11.2026 ; EN PAUSE)
