@@ -1,0 +1,137 @@
+[
+ {
+  "file": "/home/claude/studio/sfx/impact.wav",
+  "t": 0.02,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 3.718,
+  "db": -12
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 6.053,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/tick.wav",
+  "t": 6.403,
+  "db": -16
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 10.166,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 13.145,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/counter.wav",
+  "t": 13.495,
+  "db": -16
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 20.205,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 20.505,
+  "db": -14
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 20.955,
+  "db": -14
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 21.405,
+  "db": -14
+ },
+ {
+  "file": "/home/claude/studio/sfx/impact.wav",
+  "t": 21.855,
+  "db": -12
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 23.713,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 26.479,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 32.089,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/success.wav",
+  "t": 33.439,
+  "db": -14
+ },
+ {
+  "file": "/home/claude/studio/sfx/riser.wav",
+  "t": 37.534,
+  "db": -16
+ },
+ {
+  "file": "/home/claude/studio/sfx/impact.wav",
+  "t": 39.234,
+  "db": -10
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 42.121,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/impact.wav",
+  "t": 43.871,
+  "db": -12
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 47.817,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 48.367,
+  "db": -13
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 48.917,
+  "db": -13
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 52.844,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/success.wav",
+  "t": 53.694,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 55.986,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 61.065,
+  "db": -12
+ }
+]

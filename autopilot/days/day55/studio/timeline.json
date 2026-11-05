@@ -1,0 +1,110 @@
+{
+ "duration": 64.198,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Tu charges ton téléphone toute la nuit ?",
+   "start": 0.12,
+   "end": 2.818,
+   "display": "Tu charges ton téléphone toute la nuit ?"
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, lui, le débranche à quatre-vingts pour cent.",
+   "start": 2.918,
+   "end": 6.003,
+   "display": "Ton collègue, lui, le débranche à 80 %."
+  },
+  {
+   "id": "s03",
+   "text": "Dans trois ans, lequel aura la meilleure batterie ?",
+   "start": 6.103,
+   "end": 10.116,
+   "display": "Dans 3 ans, lequel aura la meilleure batterie ?"
+  },
+  {
+   "id": "s04",
+   "text": "Une batterie s'use un peu à chaque cycle de charge.",
+   "start": 10.216,
+   "end": 13.095,
+   "display": "Une batterie s'use un peu à chaque cycle de charge."
+  },
+  {
+   "id": "s05",
+   "text": "Apple l'écrit : un aïe-fone quinze garde quatre-vingts pour cent de sa capacité après mille cycles.",
+   "start": 13.195,
+   "end": 20.155,
+   "display": "Apple l'écrit : un iPhone 15 garde 80 % de sa capacité | après 1 000 cycles."
+  },
+  {
+   "id": "s06",
+   "text": "À un cycle complet par jour, ça fait presque trois ans.",
+   "start": 20.255,
+   "end": 23.663,
+   "display": "À 1 cycle complet par jour, | ça fait presque 3 ans."
+  },
+  {
+   "id": "s07",
+   "text": "Et la nuit, ton téléphone a déjà sa parade.",
+   "start": 23.763,
+   "end": 26.429,
+   "display": "Et la nuit, ton téléphone a déjà sa parade."
+  },
+  {
+   "id": "s08",
+   "text": "Il apprend tes horaires, peut attendre à quatre-vingts pour cent, puis finit la charge avant ton réveil.",
+   "start": 26.529,
+   "end": 32.039,
+   "display": "Il apprend tes horaires, peut attendre à 80 %, | puis finit la charge avant ton réveil."
+  },
+  {
+   "id": "s09",
+   "text": "Apple et Samsung le font déjà : ton collègue fait à la main ce que ton téléphone fait tout seul.",
+   "start": 32.139,
+   "end": 38.034,
+   "display": "Apple et Samsung le font déjà : | ton collègue fait à la main ce que ton téléphone fait tout seul."
+  },
+  {
+   "id": "s10",
+   "text": "Le vrai ennemi de ta batterie, ce n'est pas la nuit. C'est la chaleur.",
+   "start": 38.134,
+   "end": 42.071,
+   "display": "Le vrai ennemi de ta batterie, ce n'est pas la nuit. | C'est la chaleur."
+  },
+  {
+   "id": "s11",
+   "text": "Au-delà de trente-cinq degrés, Apple prévient : elle peut perdre de la capacité pour de bon.",
+   "start": 42.171,
+   "end": 47.767,
+   "display": "Au-delà de 35 °C, Apple prévient : | elle peut perdre de la capacité pour de bon."
+  },
+  {
+   "id": "s12",
+   "text": "Alors ne le charge pas sous ton oreiller, ni dans une coque qui chauffe.",
+   "start": 47.867,
+   "end": 52.794,
+   "display": "Alors ne le charge pas sous ton oreiller, | ni dans une coque qui chauffe."
+  },
+  {
+   "id": "s13",
+   "text": "Sa zone idéale : entre seize et vingt-deux degrés.",
+   "start": 52.894,
+   "end": 55.936,
+   "display": "Sa zone idéale : entre 16 et 22 °C."
+  },
+  {
+   "id": "s14",
+   "text": "Et toi, ton téléphone dort où ? Dis-le en commentaire.",
+   "start": 56.036,
+   "end": 60.715,
+   "display": "Et toi, ton téléphone dort où ? | Dis-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : je mesure tout ce que tu crois savoir.",
+   "start": 60.815,
+   "end": 63.898,
+   "display": "Abonne-toi : je mesure tout ce que tu crois savoir."
+  }
+ ]
+}
