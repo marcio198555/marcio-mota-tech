@@ -1,0 +1,33 @@
+{
+ "day": 55,
+ "title": "Charger son téléphone toute la nuit : ça abîme la batterie ?",
+ "format": "V",
+ "recette": "Vérité du quotidien (05.11.2026, point 2 bis du RUNBOOK) : duel toi / ton collègue, promesse avant 10 s, réponse au milieu, 2e surprise (la chaleur), question en commentaire, abonne-toi",
+ "video_url": "",
+ "buffer_id": "",
+ "programme_le": "2026-11-05T20:30:00+01:00",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 0,
+ "statut": "en production",
+ "tiktok_title": "Charger toute la nuit, ça abîme ?",
+ "caption": "Charger son téléphone toute la nuit : ça abîme la batterie ? 🔋 Selon Apple, un iPhone 15 garde 80 % de sa capacité après 1 000 cycles complets, et la recharge optimisée peut attendre à 80 % la nuit avant de finir la charge au réveil (Samsung propose aussi une protection qui s'arrête à 80 %). Le vrai danger, c'est la chaleur : au-delà de 35 °C, la batterie peut perdre de la capacité pour de bon. Et toi, ton téléphone dort où ? 👇 #batterie #smartphone #iphone #samsung #astucetech",
+ "story_instagram": {
+  "programme_le": "2026-11-05T20:35:00+01:00",
+  "video_url": "",
+  "buffer_id": ""
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-06T12:00",
+  "coupe_s": 0,
+  "video_url": "",
+  "caption": "Charger son téléphone toute la nuit : ça abîme vraiment la batterie ?\n\nD'après Apple, un iPhone 15 garde 80 % de sa capacité après 1 000 cycles complets, et la recharge optimisée peut attendre à 80 % la nuit avant de finir la charge au réveil. Samsung a aussi une protection qui limite la charge à 80 %.\n\nLe vrai ennemi, c'est la chaleur : Apple conseille d'éviter plus de 35 °C. Ne le charge pas sous l'oreiller ni dans une coque qui chauffe.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui débranche son téléphone à 80 % tous les soirs.\n\n#batterie #smartphone #astucetech #suisseromande #jemesuretout",
+  "statut": "à faire"
+ },
+ "sources": [
+  "https://support.apple.com/en-us/101575",
+  "https://support.apple.com/en-us/108055",
+  "https://www.samsung.com/au/support/mobile-devices/galaxy-battery-protection-feature-in-one-ui-6-1/",
+  "https://www.apple.com/batteries/maximizing-performance/"
+ ]
+}

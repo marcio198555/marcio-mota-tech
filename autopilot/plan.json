@@ -1186,15 +1186,17 @@
   },
   {
    "jour": 55,
-   "date": null,
-   "heure": null,
+   "date": "2026-11-05",
+   "heure": "20:30",
    "format": "V",
    "sujet": "Charger son téléphone toute la nuit : ça abîme la batterie ?",
    "mecanique": "Duel toi / ton collègue + question ouverte, réponse au milieu, 2e surprise (la chaleur) — recette du 05.11 mise à jour (vidIQ)",
    "accroche": "Tu charges ton téléphone toute la nuit ? Ton collègue, lui, le débranche à 80 %.",
-   "statut": "en production (05.11)",
+   "statut": "en production (05.11) : vidéo rendue, contrôle qualité en cours",
    "faits": "days/day55/facts.md",
-   "ajoutee_le": "2026-11-05"
+   "ajoutee_le": "2026-11-05",
+   "duree_s": 64.8,
+   "note": "Premier essai de la recette « Vérité du quotidien » (point 2 bis). Publiée sans validation préalable (Marcio, 05.11, 10 h 47 : « je veux que tu sois 100 % autonome »). Story coupée à 58,4 s (limite de 60 s des Stories) ; Reel d'essai coupé à 61,1 s (avant « abonne-toi »)."
   },
   {
    "jour": 56,

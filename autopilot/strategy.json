@@ -1,5 +1,5 @@
 {
- "titre": "Stratégie du mois — du 30.10 au 27.11.2026",
+ "titre": "Stratégie du mois — du 30.10 au 5.12.2026 (prolongée le 05.11)",
  "demande": "29.10.2026, Marcio : « Trouve-moi les solutions pour cartonner. Fais ça pendant 1 mois : chaque semaine tu analyses les résultats et si ça ne marche pas, tu changes de stratégie. »",
  "objectif": "Gagner des abonnés et des vues sur @marcio.mota8.",
  "depart": {
@@ -94,11 +94,28 @@
    "resultat": null,
    "verdict": null,
    "decision": null
+  },
+  {
+   "id": "S5",
+   "du": "2026-11-28",
+   "au": "2026-12-05",
+   "bilan": "2026-12-04",
+   "plan": null,
+   "objectifs": {
+    "vues_mediane": 1300,
+    "retention_pct": 40,
+    "abonnes_gagnes": 150
+   },
+   "experience": "Prolongation demandée par Marcio le 05.11 (« pendant un mois tu crées du contenu ») : 8 jours, 16 vidéos (les deux tâches du 27.11 produisent du 28.11 au 5.12 inclus), recette en vigueur à ce moment-là.",
+   "statut": "à venir",
+   "resultat": null,
+   "verdict": null,
+   "decision": null
   }
  ],
  "bilan_final": {
-  "date": "2026-11-27",
-  "contenu": "Bilan du mois (départ → arrivée, ce qui a marché, ce qui n'a pas marché), page mise à jour, message à Marcio avec la question « on continue ? ». Pas de production. Puis désactivation des deux tâches du vendredi (update_trigger enabled=false) : elles ne reprennent que si Marcio le demande."
+  "date": "2026-12-04",
+  "contenu": "Bilan du mois (départ → arrivée, ce qui a marché, ce qui n'a pas marché), page mise à jour, message à Marcio avec la question « on continue ? ». Pas de production (le 5.12 est déjà prêt). Puis désactivation des deux tâches du vendredi (update_trigger enabled=false) ; la tâche quotidienne de programmation Buffer s'arrête le 6.12. Elles ne reprennent que si Marcio le demande."
  },
  "formats": {
   "V": {
@@ -291,6 +308,11 @@
    "date": "2026-11-05",
    "verdict": "ROUGE en cours de semaine (Marcio : « je n'ai pas de vues, tu ne peux pas revoir ta stratégie ? »)",
    "decision": "Buffer + Metricool au 05.11 (20 vidéos de l'autopilote, 25.10–4.11) : 16 entre 246 et 293 vues, temps moyen regardé 3 à 11 s. Les 2 seules sorties sont des V longs « chiffre-piège de fiche technique » (jour 1 : 37 s, 1 013 vues, 12 s regardées ; jour 3 : 40 s, 785 vues, 27 j'aime) : 2 sur 3 pour ce type. Jamais sortis : T 11 s (5 vidéos), V de 21–23 s, loi suisse, conseils sans produit. R : Roomba 79 vues après 16 h. Choix de Marcio (05.11, 9 h) : « 2 chiffres-pièges par jour » (100 % automatique), pas de tournage, image de fin TikTok dans les Stories. Décision : dès le 7.11, 10 h et 18 h = chiffres-pièges 35–40 s (V au moins 8 sur 14, A le reste), format T abandonné, format R en pause, Stories avec 2 s de fin « Nouvelle vidéo sur TikTok », 15 nouvelles idées dans plan.json (jours 40–54), suite dans les 48 h pour toute vidéo au-dessus de 600 vues."
+  },
+  {
+   "date": "2026-11-05",
+   "verdict": "en cours",
+   "decision": "Marcio, 10 h 47 : « je veux que tu sois 100 % autonome » ; 10 h 48 : « et pendant un mois tu crées du contenu ». Aucune validation à attendre ; l'autopilote change lui-même ce qui ne marche pas, chaque vendredi, et le dit ensuite. Période prolongée jusqu'au 5.12.2026 (S5 = 28.11 → 5.12, bilan final le vendredi 4.12). Vidéo 55 (modèle de la nouvelle recette) programmée sans validation préalable pour le 5.11 à 20 h 30."
   }
  ]
 }

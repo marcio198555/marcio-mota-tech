@@ -53,9 +53,9 @@
   }
   // câble entre la prise (px,py) et le téléphone (qx,qy) ; off = 0..1 (débranché)
   function cable(ctx, px, py, qx, qy, off, t) {
-    const ex = lerp(px, px + 70, off), ey = lerp(py, py + 120, off);
+    const ex = lerp(px, px + 95, off), ey = lerp(py, py + 30, off);
     ctx.save(); ctx.strokeStyle = '#cfd6e4'; ctx.lineWidth = 9; ctx.lineCap = 'round';
-    ctx.beginPath(); ctx.moveTo(qx, qy); ctx.bezierCurveTo(qx, qy + 110, ex, ey + 140, ex, ey); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(qx, qy); ctx.bezierCurveTo(qx, qy + 110, ex, ey + lerp(140, 50, off), ex, ey); ctx.stroke();
     roundRect(ctx, ex - 22, ey - 30, 44, 44, 10); ctx.fillStyle = '#cfd6e4'; ctx.fill();
     if (off < 0.05) { // courant qui circule
       const k = (t * 1.6) % 1;
@@ -105,8 +105,8 @@
         text(ctx, '?', 840, 342, { size: 104, weight: 900, color: RED });
         const off = ease.inOut(prog(t, S('s02') + 0.35, 0.6));
         const rl = lerp(1, 0.8, off);
-        duel(ctx, t, 0, { leftLevel: 1, rightLevel: off > 0 ? 0.8 : 1, rightOff: off });
-        if (t >= S('s02') + 0.8) stamp(ctx, 'STOP À 80 %', 790, 935, t, S('s02') + 0.8, { size: 46, color: GOLD, rot: 0.06 });
+        duel(ctx, t, 0, { leftLevel: 1, rightLevel: 0.8, rightOff: off });
+        if (t >= S('s02') + 0.8) stamp(ctx, 'STOP À 80 %', 790, 1045, t, S('s02') + 0.8, { size: 46, color: GOLD, rot: 0.06 });
         void rl;
       });
 
@@ -186,7 +186,7 @@
 
       // 7. Courbe de charge de la nuit : 80 %, pause, 100 % au réveil
       block(ctx, t, S('s08'), S('s09'), () => {
-        const x0 = 130, x1 = 910, yb = 1060, yt = 520;
+        const x0 = 130, x1 = 910, yb = 1095, yt = 600;
         const lt = prog(t, S('s08') + 0.1, Math.max(1.5, E('s08') - S('s08') - 0.5));
         ctx.save(); ctx.strokeStyle = C.line; ctx.lineWidth = 3;
         [0, 0.8, 1].forEach(v => { const y = lerp(yb, yt, v); ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(x1, y); ctx.stroke(); });
@@ -207,7 +207,8 @@
         readout(ctx, 'HEURE', `${String(hh % 24).padStart(2, '0')}:${String(mm).padStart(2, '0')}`, 300, 400, { w: 380, h: 150, size: 70, labelSize: 26 });
         readout(ctx, 'BATTERIE', `${Math.round(cur * 100)} %`, 740, 400, { w: 380, h: 150, size: 70, labelSize: 26, color: cur >= 0.99 ? GREEN : GOLD });
         if (lt > 0.25 && lt < 0.8) text(ctx, '⏸ ATTEND', lerp(x0, x1, 0.5), lerp(yb, yt, 0.8) + 70, { size: 46, weight: 900, color: GOLD });
-        if (lt > 0.9) CHR.emo(ctx, 'stopwatch', x1 - 40, yt - 70, 120, t, S('s08') + 0.1 + 0.9 * Math.max(1.5, E('s08') - S('s08') - 0.5));
+        chip(ctx, "SCHÉMA : EXEMPLE D'UNE NUIT", 520, 1218, { color: C.muted, size: 26 });
+        if (lt > 0.9) CHR.emo(ctx, 'stopwatch', x1 - 40, yt - 58, 110, t, S('s08') + 0.1 + 0.9 * Math.max(1.5, E('s08') - S('s08') - 0.5));
       });
 
       // 8. Apple et Samsung le font déjà
@@ -244,10 +245,10 @@
       // 10. Au-delà de 35 °C
       block(ctx, t, S('s11'), S('s12'), () => {
         const k = ease.inOut(prog(t, S('s11') + 0.2, 1.4));
-        const temp = lerp(22, 36, k);
+        const temp = lerp(22, 35, k);
         const col = temp >= 35 ? RED : temp > 30 ? '#e8914a' : GOLD;
         thermometer(ctx, 220, 900, 420, (temp - 10) / 30, col);
-        readout(ctx, 'TEMPÉRATURE', `${Math.round(temp)} °C`, 640, 520, { w: 470, h: 180, size: 92, color: col, border: col });
+        readout(ctx, 'TEMPÉRATURE', k >= 1 ? '> 35 °C' : `${Math.round(temp)} °C`, 640, 520, { w: 470, h: 180, size: 92, color: col, border: col });
         const cap = lerp(1, 0.86, ease.inOut(prog(t, S('s11') + 1.5, 1.0)));
         battery(ctx, 640, 790, 340, cap, { label: 'CAPACITÉ', size: 46, color: temp >= 35 ? RED : GREEN });
         stamp(ctx, 'POUR DE BON', 640, 990, t, S('s11') + 1.7, { size: 62 });
@@ -297,11 +298,11 @@
       block(ctx, t, S('s14'), S('s15'), () => {
         duel(ctx, t, S('s14'), { leftLevel: 0.8, rightLevel: 0.8, rightOff: 1 });
         const k = ease.back(prog(t, S('s14') + 0.2, 0.35));
-        ctx.save(); ctx.translate(520, 360); ctx.scale(Math.max(0.01, k), Math.max(0.01, k));
-        roundRect(ctx, -420, -62, 840, 124, 40); ctx.fillStyle = 'rgba(201,168,76,0.16)'; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = GOLD; ctx.stroke();
-        text(ctx, 'IL DORT OÙ, TON TÉLÉPHONE ?', 0, 4, { size: 50, weight: 900, color: C.white, maxWidth: 800 });
+        ctx.save(); ctx.translate(500, 360); ctx.scale(Math.max(0.01, k), Math.max(0.01, k));
+        roundRect(ctx, -395, -60, 790, 120, 40); ctx.fillStyle = 'rgba(201,168,76,0.16)'; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = GOLD; ctx.stroke();
+        text(ctx, 'IL DORT OÙ, TON TÉLÉPHONE ?', 0, 4, { size: 47, weight: 900, color: C.white, maxWidth: 730 });
         ctx.restore();
-        text(ctx, '💬', 920, 360, { size: 70, family: F.emoji, weight: 400, alpha: clamp(k) });
+        text(ctx, '💬', 958, 360, { size: 64, family: F.emoji, weight: 400, alpha: clamp(k) });
       });
 
       // 14. Abonne-toi

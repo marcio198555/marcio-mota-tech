@@ -14,7 +14,7 @@ produites par l'autopilote (aucune autre source de vidéos TikTok). Jamais plus 
 Si Metricool contient des publications TikTok qui ne viennent pas de l'autopilote, ne pas y toucher et le
 signaler à Marcio dans le message final.
 **Objectif n° 1 : gagner des abonnés et des vues.** Chaque décision se juge à cette aune.
-**Du 30.10 au 27.11.2026 : stratégie du mois (§ 10 et `strategy.json`)**, demandée par Marcio le 29.10 : chaque vendredi,
+**Du 30.10 au 5.12.2026 (prolongée le 05.11) : stratégie du mois (§ 10 et `strategy.json`)**, demandée par Marcio le 29.10 : chaque vendredi,
 on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles ; si ça ne marche pas, on change de stratégie.
 
 > **Changements du 05.11.2026 : ils priment sur tout le reste (blocs du 04.11 et du 03.11, sections plus bas, texte
@@ -84,8 +84,8 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >      avant 10 s, une promesse (« dans trois ans, lequel… ? », « à la fin, tu sauras pourquoi… ») ; la réponse vers le
 >      milieu ; une 2e surprise ; 1 ou 2 conseils ; une question pour les commentaires ; retour à l'image du duel ;
 >      « abonne-toi ». Le « non » immédiat n'est plus obligatoire si la question ouvre une attente.
->    - **Longueur : 50 à 70 s** (13 à 16 phrases, 130 à 160 mots ; Chatterbox parle environ 2,3 mots par seconde).
->      Remplace les 35–40 s ci-dessus.
+>    - **Longueur : 50 à 70 s** (13 à 16 phrases, **150 à 190 mots** : mesuré sur le jour 55, 182 mots = 64,5 s de voix
+>      Chatterbox avec `--gap 0.1`, soit environ 2,8 mots par seconde). Remplace les 35–40 s ci-dessus.
 >    - **Image** : un changement toutes les 2 s environ (compteurs qui défilent, étiquettes, tampons rouges, courbes,
 >      personnes 3D `man_technologist` et `woman_technologist`), même style sombre « JE MESURE TOUT ». Les briques de
 >      `days/day55/scene.js` (tampon, batterie, duel, thermomètre, compteur) se copient dans la scène suivante.
@@ -94,12 +94,20 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >      20 % si utile), écran partagé avec les deux drapeaux, même structure (question, promesse, réponse au milieu,
 >      surprise). Jamais un prix de mémoire. Pistes dans `plan.json` (idées 70 à 73).
 > 3. **Stories** : `story.sh` ajoute 2 s de fin « NOUVELLE VIDÉO SUR TIKTOK · @marcio.mota8 » (`tools/story_endcard.py`).
+>    Une Story publiée par l'API dure 60 s au plus : au-delà de 58 s de vidéo, `story.sh` coupe à la fin de la dernière
+>    phrase finie avant 57,5 s (fondu 0,3 s), puis ajoute la fin (jour 55 : 64,8 s → Story de 58,4 s).
 > 4. **Suite** : une vidéo au-dessus de 600 vues → une « partie 2 » (même piège, autre produit ou autre chiffre) dans les
 >    48 h, à la place d'un sujet du plan.
 > 5. **Bilan du 13.11** : médiane des vues des vidéos de la nouvelle recette contre celle des 20 vidéos d'avant (≈ 265),
 >    part des vidéos au-dessus de 400 vues, temps moyen regardé, abonnés gagnés ; V contre A ; Sleepal et Aeotec à
->    part. On garde ce qui dépasse 400 vues. Si la médiane reste sous 300, le dire honnêtement à Marcio et lui proposer
->    d'autres options, sans changer seul ce qu'il a choisi.
+>    part. On garde ce qui dépasse 400 vues. Si la médiane reste sous 300 : changer soi-même de recette d'après les
+>    données (autre type de sujet, autre format, autre durée) et le dire honnêtement à Marcio (point 6).
+> 6. **Autonomie et durée (Marcio, 05.11, 10 h 47 et 10 h 48)** : « je veux que tu sois 100 % autonome », puis « et
+>    pendant un mois tu crées du contenu ». Donc : aucune validation à attendre, aucune question, rien à lui montrer avant
+>    de publier ; chaque vendredi, l'autopilote change lui-même ce qui ne marche pas (sujets, formats, durée, heures,
+>    rythme) dans les règles du § 0 (il ne filme pas ; outils gratuits ; aucun chiffre inventé), puis le dit à Marcio.
+>    **La période est prolongée jusqu'au samedi 5.12.2026** : S5 = 28.11 → 5.12 ; le vendredi 27.11, les deux tâches
+>    produisent comme d'habitude, 8 vidéos chacune (28.11 → 5.12) ; **bilan final le vendredi 4.12.2026** (§ 10.3).
 
 > **Changements du 04.11.2026** (remplacés en partie par le bloc du 05.11 ci-dessus : rythme, durée, format R).
 > Marcio (04.11, 8 h 23) : « je n'ai pas de vues sur TikTok, ta méthode ne marche pas très bien ». Constat chiffré
@@ -140,7 +148,7 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 > - **Bilan du vendredi** : médiane des vues par créneau (vidéos de 7 à 14 jours), vidéos au-dessus de 1 000 vues (→ une
 >   « partie 2 » dans les 48 h), durée moyenne de visionnage, partages + enregistrements pour 1 000 vues, part du trafic
 >   recherche, abonnés gagnés, avis d'inéligibilité (TikTok Studio). Décisions : 13.11 première lecture, 20.11 comparaison
->   A contre R, 27.11 bilan du mois.
+>   A contre R, 27.11 bilan de S4, 4.12 bilan du mois (prolongation du 05.11).
 
 > **Changements du 03.11.2026 : ils priment sur le texte des tâches programmées** (« fais de ton mieux, avec les
 > meilleurs outils », Marcio, 03.11.2026). Si la consigne d'une tâche dit autre chose, c'est ce bloc qui compte :
@@ -346,7 +354,7 @@ Ancienne méthode (Metricool, jusqu'au 03.11) :
 Court, en français : le chiffre clé de la semaine écoulée (vues, abonnés gagnés), ce qui a changé et pourquoi,
 les 7 vidéos programmées (jour, heure, titre). Pas de jargon technique.
 
-## 10. Stratégie du mois (30.10 → 27.11.2026) — `strategy.json`
+## 10. Stratégie du mois (30.10 → 5.12.2026 ; prolongée le 05.11, voir le bloc du 05.11, point 6) — `strategy.json`
 Demande de Marcio (29.10) : « trouve les solutions pour cartonner, fais ça pendant 1 mois, chaque semaine analyse
 les résultats et si ça ne marche pas change de stratégie ». `strategy.json` contient tout : point de départ, objectifs
 par semaine, indicateurs, formats, règles, échelle des plans, réserve d'expériences, actions possibles de Marcio.
@@ -358,6 +366,7 @@ par semaine, indicateurs, formats, règles, échelle des plans, réserve d'expé
 | S2 | 6.11 → 12.11 | ven. 13.11 | 600 · 40 % · +60 |
 | S3 | 13.11 → 19.11 | ven. 20.11 | 900 · 40 % · +100 |
 | S4 | 20.11 → 27.11 (Black Friday, 8 jours) | ven. 27.11 | 1 300 · 40 % · +150 |
+| S5 | 28.11 → 5.12 (8 jours, prolongation du 05.11) | ven. 4.12 (bilan final) | 1 300 · 40 % · +150 |
 Les objectifs sont des cibles, pas des promesses : ne jamais les présenter comme des résultats.
 
 ### 10.2 Chaque vendredi à 5 h 37 (après le bilan § 2)
@@ -386,12 +395,15 @@ regarde ce qui a marché, ce qui n'a pas marché, et comme ça tu peux changer l
 
 ### 10.3 Dates particulières
 - **Vendredi 20.11** : les deux tâches produisent **8 vidéos chacune** (jusqu'au vendredi 27.11, Black Friday, inclus).
-- **Vendredi 27.11 à 5 h 37 : bilan final du mois.** Pas de production. Bilan de S4 et du mois (départ → arrivée,
-  ce qui a marché, ce qui n'a pas marché, recommandations), page mise à jour, message à Marcio avec la question
-  « on continue ? ». Puis désactiver les deux tâches du vendredi (outil `update_trigger`, `enabled: false`) :
+- **Vendredi 27.11** (prolongation du 05.11) : bilan de S4 comme un vendredi normal, puis les deux tâches produisent
+  **8 vidéos chacune** (du samedi 28.11 au samedi 5.12 inclus).
+- **Vendredi 4.12 à 5 h 37 : bilan final du mois.** Pas de production (le 5.12 est déjà prêt). Bilan de S5 et du mois
+  (départ → arrivée, ce qui a marché, ce qui n'a pas marché, recommandations), page mise à jour, message à Marcio avec
+  la question « on continue ? ». Puis désactiver les deux tâches du vendredi (outil `update_trigger`, `enabled: false`) :
   « Autopilot TikTok : bilan + 7 vidéos du matin (vendredi) » et « Autopilot TikTok : 7 vidéos du soir (vendredi) ».
-- **Vendredi 27.11 à 11 h 37** (si la tâche du soir tourne encore) : ne rien produire ; vérifier que le bilan final
+- **Vendredi 4.12 à 11 h 37** (si la tâche du soir tourne encore) : ne rien produire ; vérifier que le bilan final
   existe, sinon le faire ; désactiver les deux tâches ; message d'une phrase.
+- La tâche quotidienne « Autopilot : programmation Buffer » s'arrête le 6.12.
 
 ### 10.4 Produire une vidéo format T (texte seul, en boucle) — abandonné le 05.11.2026 (jamais au-dessus de 284 vues)
 1. Sujet « écrit en gros → écrit en petit » : une affirmation de la fiche, de la boîte ou de la promo, et ce que
