@@ -1,0 +1,15 @@
+{
+ "job": "day55d",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s02",
+   "text": "Ton collègue, lui, le débranche à quatre-vingts pour cent.",
+   "file": "s02.wav",
+   "duration": 3.64,
+   "rate": 24000
+  }
+ ],
+ "total": 3.64
+}
