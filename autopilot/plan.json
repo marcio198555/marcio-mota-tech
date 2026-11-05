@@ -623,7 +623,9 @@
     "metricool_id": 415719641,
     "heure": "19:00",
     "fichier": "media/reels/day22_reel.mp4",
-    "statut": "en attente (vidIQ, reels_queue.json)"
+    "statut": "publié (vidIQ)",
+    "publie_le": "2026-11-05T07:17:13+01:00",
+    "lien": "https://www.instagram.com/reel/DfWXhlwCu_o/"
    },
    "buffer_id": "6aea1e221f06859f7ba28ca5",
    "metricool_statut": "brouillon (TikTok publié par Buffer)",
@@ -947,7 +949,8 @@
    "duree_s": 17.8,
    "son": "musique libre (synth.py), son d'origine coupé",
    "isAiGenerated": false,
-   "statut": "programmée"
+   "statut": "publiée",
+   "publie_le": "2026-11-04T18:05:55+01:00"
   },
   {
    "id": "r02",
