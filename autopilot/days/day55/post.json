@@ -3,31 +3,37 @@
  "title": "Charger son téléphone toute la nuit : ça abîme la batterie ?",
  "format": "V",
  "recette": "Vérité du quotidien (05.11.2026, point 2 bis du RUNBOOK) : duel toi / ton collègue, promesse avant 10 s, réponse au milieu, 2e surprise (la chaleur), question en commentaire, abonne-toi",
- "video_url": "",
- "buffer_id": "",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793874073/tiktok-autopilot/day55_charge-nuit.mp4",
+ "buffer_id": "6aec58a96d2f01d30a23e9fa",
  "programme_le": "2026-11-05T20:30:00+01:00",
  "aigc": true,
  "branded": false,
- "cover_ms": 0,
- "statut": "en production",
+ "cover_ms": 2400,
+ "statut": "programmée",
  "tiktok_title": "Charger toute la nuit, ça abîme ?",
  "caption": "Charger son téléphone toute la nuit : ça abîme la batterie ? 🔋 Selon Apple, un iPhone 15 est conçu pour garder 80 % de sa capacité après 1 000 cycles complets (en conditions idéales), et la recharge optimisée peut attendre à 80 % la nuit avant de finir la charge au réveil (Samsung propose aussi une protection qui s'arrête à 80 %). Le vrai danger, c'est la chaleur : au-delà de 35 °C, la batterie peut perdre de la capacité pour de bon. Et toi, ton téléphone dort où ? 👇 #batterie #smartphone #iphone #samsung #astucetech",
  "story_instagram": {
   "programme_le": "2026-11-05T20:35:00+01:00",
-  "video_url": "",
-  "buffer_id": ""
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793874074/tiktok-autopilot/stories/day55_story_fin.mp4",
+  "buffer_id": "6aec58aae6ba64b5a33deda8",
+  "duree_s": 58.1,
+  "note": "coupée à la fin de la phrase 13 (limite de 60 s des Stories), puis 2 s de fin « Nouvelle vidéo sur TikTok »"
  },
  "reel_instagram": {
   "prevu": "2026-11-06T12:00",
-  "coupe_s": 0,
-  "video_url": "",
+  "coupe_s": 60.77,
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793874076/tiktok-autopilot/reels/day55_reel.mp4",
   "caption": "Charger son téléphone toute la nuit : ça abîme vraiment la batterie ?\n\nD'après Apple, un iPhone 15 est conçu pour garder 80 % de sa capacité après 1 000 cycles complets (en conditions idéales), et la recharge optimisée peut attendre à 80 % la nuit avant de finir la charge au réveil. Samsung a aussi une protection qui limite la charge à 80 %.\n\nLe vrai ennemi, c'est la chaleur : Apple conseille d'éviter plus de 35 °C. Ne le charge pas sous l'oreiller ni dans une coque qui chauffe.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui débranche son téléphone à 80 % tous les soirs.\n\n#batterie #smartphone #astucetech #suisseromande #jemesuretout",
-  "statut": "à faire"
+  "statut": "en attente (vidIQ, reels_queue.json)"
  },
  "sources": [
   "https://support.apple.com/en-us/101575",
   "https://support.apple.com/en-us/108055",
   "https://www.samsung.com/au/support/mobile-devices/galaxy-battery-protection-feature-in-one-ui-6-1/",
   "https://www.apple.com/batteries/maximizing-performance/"
- ]
+ ],
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793874074/tiktok-autopilot/stories/day55_story_fin.mp4",
+ "heure": "20:30",
+ "duree_s": 64.5,
+ "voix": "Chatterbox (tom_ref, graine 7) ; phrase 2 reprise (job day55c, graine 23) après contrôle Whisper"
 }
