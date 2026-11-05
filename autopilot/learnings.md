@@ -189,3 +189,27 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
   de divulgation TikTok (Buffer ne le transmet pas : Marcio l'active après publication) ; étiquette IA obligatoire.
   Le rapport recommande de remplacer la vidéo créée de 10 h par une 2e vraie vidéo ; Marcio a choisi « 1 vraie +
   1 créée » : on garde, et on lui propose le changement au bilan du 20.11 si le créneau créé fait moins bien.
+
+## 05.11.2026 — Marcio : « je n'ai pas de vues, tu ne peux pas revoir ta stratégie ? »
+- Données (Buffer, mises à jour le 04.11 à 17 h 37 ; Metricool au 05.11 à 8 h 50), 20 vidéos de l'autopilote du 25.10
+  au 4.11 : 16 entre 246 et 293 vues ; temps moyen regardé 3 à 11 s (vidéos T de 11 s : 3 à 5 s). Les champs Metricool
+  de rétention et de sources de trafic (TKPO13–21) reviennent vides ; Buffer donne le temps moyen regardé.
+- Constaté : les 2 seules vidéos sorties sont des **V longs « chiffre-piège de fiche technique »** : jour 1 « 45 % de
+  pente ≠ 45° » (37 s, 13 phrases, 115 mots, 18 repères sonores, 1 013 vues, 12 s regardées) et jour 3 « 20 000 mAh ≠
+  5 recharges » (40 s, 10 phrases, 107 mots, 21 repères, 785 vues, 27 j'aime). Même ouverture : le chiffre de la boîte en
+  question adressé à la personne (« Ton robot tondeuse grimpe 45 % ? »), puis « non » tout de suite. Sur 3 V de 35–40 s
+  de ce type, 2 sont sortis (le 3e : câbles USB-C, 293 vues mais 19 j'aime, le meilleur taux).
+- Constaté : jamais au-dessus de 293 vues : T « écrit en petit » (5 vidéos), V de 21–23 s (4), loi suisse, conseils sans
+  produit (aération, bouilloire, applis, décibels). Le passage aux vidéos courtes (décision du 29.10, 18–25 s ; puis
+  15 s le 04.11) n'a rien amélioré.
+- Format R : Roomba (produit reçu, présentation de marque) 79 vues après 16 h. Les Reels Instagram de Marcio sont surtout
+  des présentations de produits reçus (titres, plans produit, lettres noires : ex. Meross) : sur TikTok, ils ressemblent
+  à des pubs et demandent le réglage de divulgation que Buffer ne peut pas mettre.
+- Hypothèses (à vérifier au bilan, pas des résultats) : la recette des jours 1 et 3 (produit courant + chiffre de la boîte
+  + contre-pied immédiat + 35–40 s + image qui change toutes les 2 s) retient mieux ; les modèles presque identiques
+  (série T) sont pénalisés (l'aide Buffer le dit) ; un tirage reste aléatoire avec 250 personnes testées par vidéo.
+- Choix de Marcio (05.11, 9 h) : « 2 chiffres-pièges par jour » ; « Non, pas le temps » pour filmer des mesures ;
+  « Oui, ajoute-la » pour l'image de fin TikTok des Stories. Appliqué : bloc du 05.11 du RUNBOOK (prime sur tout),
+  plan.json (rythme, idées 40–54, anciennes idées sans produit écartées), strategy.json (formats, S2, journal),
+  `tools/story_endcard.py` branché dans `story.sh` ; Stories du 5.11 (10 h 05, 18 h 05) et du 6.11 (10 h 05) refaites
+  avec la fin et mises à jour dans Buffer ; consignes des tâches du vendredi réécrites.

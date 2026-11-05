@@ -17,7 +17,63 @@ signaler à Marcio dans le message final.
 **Du 30.10 au 27.11.2026 : stratégie du mois (§ 10 et `strategy.json`)**, demandée par Marcio le 29.10 : chaque vendredi,
 on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles ; si ça ne marche pas, on change de stratégie.
 
-> **Changements du 04.11.2026 : ils priment sur tout le reste, y compris le bloc du 03.11 et le texte des tâches.**
+> **Changements du 05.11.2026 : ils priment sur tout le reste (blocs du 04.11 et du 03.11, sections plus bas, texte
+> des tâches).** Marcio (05.11, 8 h 48) : « je n'ai pas de vues, je pense que ça ne marche pas, tu ne peux pas revoir ta
+> stratégie ? ». Constat chiffré (Buffer + Metricool, 05.11 ; 20 vidéos de l'autopilote du 25.10 au 4.11) :
+> - 16 sur 20 entre 246 et 293 vues (le premier groupe test de TikTok) ; temps moyen regardé : 3 à 11 s.
+> - Seules 2 vidéos sont sorties, toutes deux **format V long « chiffre-piège de fiche technique »** : jour 1
+>   « 45 % de pente ≠ 45° » (37 s, 1 013 vues, 12 s regardées en moyenne) et jour 3 « 20 000 mAh ≠ 5 recharges » (40 s,
+>   785 vues, 27 j'aime). Sur les 3 vidéos V de 35–40 s de ce type, 2 sont sorties ; aucune des 5 vidéos T (11 s) ni
+>   des vidéos V de 21–23 s.
+> - Jamais sortis : format T « ce que la marque écrit en petit » (246–284 vues, 3 à 5 s regardées), loi suisse, conseils
+>   sans produit (aération, bouilloire, applis). Format R (1er essai, Roomba, 4.11 à 18 h : produit reçu, présentation de
+>   marque) : 79 vues après 16 h. L'aide de Buffer déconseille les modèles presque identiques publiés en série.
+> **Choix de Marcio (05.11, 9 h)** : « 2 chiffres-pièges par jour » (100 % automatique, rien à déclarer) ; il ne filme
+> pas de mesures (« Non, pas le temps ») ; image de fin TikTok dans les Stories (« Oui, ajoute-la »).
+> 1. **Rythme dès le 7.11 : 2 vidéos créées par jour, à 10 h ET à 18 h, toutes les deux « chiffre-piège »** (plus de
+>    format R, § 12 en pause). 5 h 37 : bilan, plan des 14 créneaux, 7 vidéos de 10 h. 11 h 37 : les 7 vidéos de 18 h,
+>    avec la même recette. Sleepal (5.11, 18 h) et Aeotec (6.11, 18 h) sont les derniers essais R : les comparer au bilan.
+>    Chaque vidéo a de nouveau sa Story (5 min après) et son Reel d'essai (vidIQ), aux deux créneaux.
+> 2. **La recette** — copier la structure des jours 1 et 3 (`days/day01/timeline_words.json`,
+>    `days/day03/studio/timeline_words.json`) :
+>    - **Sujet** : un chiffre écrit sur la boîte, la fiche ou la pub d'un produit que beaucoup de gens ont, et qui trompe.
+>      Pistes : batterie externe (mAh), montre « étanche 50 m » (5 ATM), lampe torche (lumens), enceinte (W crête et
+>      W RMS), aspirateur robot (Pa), chargeur (W), appareil photo (Mpx), écran (ms, Hz), clé USB (« USB 3.2 »), robot
+>      tondeuse (m²), purificateur (m²), trottinette (km d'autonomie)… Toujours vérifier sur sources (§ 4).
+>    - **Jamais** : loi, prix barrés, garanties, conseil sans produit, format texte « écrit en petit », sujet déjà fait
+>      (`plan.json`), produit que Marcio a reçu d'une marque (il faudrait la divulgation TikTok).
+>    - **Phrase 1 (dite à 0,12 s, finie vers 2,5 s)** : le chiffre de la boîte, en question, adressé à la personne
+>      (« Ton robot tondeuse grimpe quarante-cinq pour cent ? », « Ta montre est étanche à cinquante mètres ? »).
+>      **Phrase 2 (avant 4 s)** : « Non. » + le contre-pied (« Tu ne peux pas plonger à cinquante mètres avec. »).
+>      À l'image 0 : le produit + le chiffre de la boîte en très gros (≥ 160 px) avec « ? » ou « ≠ ».
+>    - **Puis** : pourquoi le chiffre trompe (1 phrase) ; la vraie valeur ou le vrai calcul, avec la source (2–3 phrases,
+>      chiffres à l'écran) ; le verdict, court (« Pour un robot, c'est un mur. », « Résultat : trois à quatre recharges.
+>      Pas cinq. ») ; le conseil avant d'acheter (1 phrase) ; un bonus (1 phrase) ; la fin : une question pour les
+>      commentaires (« Écris l'angle de ton jardin en commentaire. ») et « abonne-toi » avec l'annonce (§ 5).
+>    - **Longueur : 10 à 13 phrases, 100 à 120 mots, 35 à 40 s.** Remplace les 18–25 s du § 5, les 18–27 s du § 11, les
+>      « 15 s au plus » et les « 20–40 s » du bloc du 04.11.
+>    - **Rythme d'image** : un changement à l'écran toutes les 2 s environ (au moins 16 : chiffre qui arrive, schéma,
+>      zoom, objet qui bouge), comme les jours 1 et 3 (18 et 21 repères sonores).
+>    - **Formats** : V (moteur et dessins, celui des 2 vidéos sorties) et A (personnage IA, § 11 ; la vidéo 23 du 6.11 est
+>      son premier essai sur TikTok). Au moins 8 V sur 14 tant que A n'a pas fait mieux au bilan. **Format T abandonné.**
+>      Chaque vidéo diffère des autres (produit, couleurs, schéma) : jamais de modèle presque identique.
+>    - **Voix** : version 3 (Chatterbox, § 11.7, choix de Marcio). Environ 1 min de calcul par phrase : lancer les voix de
+>      toutes les vidéos tôt et relancer le pont si besoin. Une voix pas prête à temps : Piper (§ 5, la voix des
+>      2 vidéos sorties) plutôt qu'un créneau vide.
+>    - **Légende** : 1re ligne = la phrase-choc avec le nom du produit (« 20 000 mAh ≠ 5 recharges : le piège des
+>      batteries externes ») ; 1 à 2 phrases avec la vraie valeur et la source ; une question précise pour les
+>      commentaires ; 3 à 5 hashtags précis (produit, catégorie, #astucetech ou #astucemaison, #blackfriday jusqu'au
+>      27.11) ; jamais #fyp, #pourtoi, #viral, « like si ». Couverture (`thumbnailOffset`) sur l'image où le chiffre et
+>      « ≠ » sont lisibles. `isAiGenerated: true`.
+> 3. **Stories** : `story.sh` ajoute 2 s de fin « NOUVELLE VIDÉO SUR TIKTOK · @marcio.mota8 » (`tools/story_endcard.py`).
+> 4. **Suite** : une vidéo au-dessus de 600 vues → une « partie 2 » (même piège, autre produit ou autre chiffre) dans les
+>    48 h, à la place d'un sujet du plan.
+> 5. **Bilan du 13.11** : médiane des vues des vidéos de la nouvelle recette contre celle des 20 vidéos d'avant (≈ 265),
+>    part des vidéos au-dessus de 400 vues, temps moyen regardé, abonnés gagnés ; V contre A ; Sleepal et Aeotec à
+>    part. On garde ce qui dépasse 400 vues. Si la médiane reste sous 300, le dire honnêtement à Marcio et lui proposer
+>    d'autres options, sans changer seul ce qu'il a choisi.
+
+> **Changements du 04.11.2026** (remplacés en partie par le bloc du 05.11 ci-dessus : rythme, durée, format R).
 > Marcio (04.11, 8 h 23) : « je n'ai pas de vues sur TikTok, ta méthode ne marche pas très bien ». Constat chiffré
 > (Metricool, 04.11) : 14 des 16 vidéos de l'autopilote publiées du 25.10 au 2.11 sont restées entre 246 et 293 vues ;
 > seules les 2 premières « pièges de fiche technique » sont sorties (1 010 et 785) ; 2 partages et 1 commentaire en tout ;
@@ -92,7 +148,7 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 - **Metricool** : ne jamais modifier ni supprimer les publications Instagram de Marcio. Seule exception, demandée par
   Marcio le 01.11.2026 : on **ajoute** une Story Instagram pour chaque vidéo de l'autopilote (§ 8.5).
 - **Format** : 1080×1920, 30 i/s, accroche lisible dès l'image 0, −14 LUFS, crête ≤ −1 dBTP.
-  Format V (voix) : 18–25 s, sous-titres incrustés. Format T (texte seul) : 10–13 s, en boucle, sans voix (§ 10.4). Zones sûres : rien d'important dans les 200 px du haut, les 380 px du bas,
+  Format V (voix) : 35–40 s depuis le 05.11 (bloc du 05.11), sous-titres incrustés. Format T : abandonné le 05.11. Zones sûres : rien d'important dans les 200 px du haut, les 380 px du bas,
   ni à droite de x = 940 entre y = 800 et 1600.
 
 ## 1. Préparer
@@ -132,6 +188,8 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
   refaire ; seulement remplacer un sujet dont les faits ne tiennent pas. Jours 6 et 10 déjà produits et programmés.
 - À partir de S2 : répartir les formats selon la règle R5 (gagnant 10 créneaux, perdant 4), en alternant les formats
   entre 10 h et 18 h ; noter `format` et `semaine` dans chaque entrée.
+- **Depuis le 05.11 : les 14 créneaux sont des « chiffres-pièges »** (bloc du 05.11 : sujet, recette, formats V et A,
+  au moins 8 V sur 14 tant que A n'a pas fait mieux). La règle R5 ci-dessus ne s'applique plus qu'entre V et A.
 - Priorité (bilan du 29.10) : les pièges des fiches techniques et des emballages de produits qu'on achète
   (« le chiffre sur la boîte ment »), surtout avant le Black Friday. Les sujets abstraits ou de réglages ont fait
   3 à 10 fois moins de vues.
@@ -153,10 +211,12 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 
 ## 5. Écrire
 - Format T : voir § 10.4 (pas de voix, pas de script).
-- Script V (décision du bilan du 29.10) : **6 à 7 segments, 50 à 65 mots, 18 à 25 s**. Segment 1 = la révélation
-  chiffrée (le chiffre choc ou le contre-pied), dite dès 0,12 s et lisible à l'image 0 avec le produit visible.
-  Puis 3 à 4 segments d'explication, une phrase par idée. Pas de segment « envoie ça à… » (l'appel au partage
-  va dans la description).
+- Script V (depuis le 05.11, structure des jours 1 et 3) : **10 à 13 segments, 100 à 120 mots, 35 à 40 s**.
+  Segment 1 = le chiffre de la boîte en question, adressé à la personne, dit dès 0,12 s et lisible à l'image 0 avec le
+  produit visible ; segment 2 = « Non. » + le contre-pied. Puis le détail du bloc du 05.11, une phrase par idée.
+  (Avant le 05.11 : 6 à 7 segments, 18 à 25 s ; ces vidéos plus courtes n'ont jamais dépassé 293 vues.)
+  Pas de segment « envoie ça à… » (l'appel au partage va dans la description) ; la question pour les commentaires
+  (« Écris … en commentaire ») reste dans la voix, comme aux jours 1 et 3.
 - **Dernier segment = annonce de la vidéo suivante** : vidéo de 10 h → « Et abonne-toi : ce soir, <sujet de
   18 h en curiosité>. » ; vidéo de 18 h → « Et abonne-toi : demain, <sujet du lendemain 10 h>. » (c'est la raison
   concrète de s'abonner). Carte de fin : `followCTA(..., { when: 'CE SOIR' ou 'DEMAIN', next: [ligne 1, ligne 2] })`.
@@ -231,7 +291,7 @@ Ancienne méthode (Metricool, jusqu'au 03.11) :
    `captions.json` ; commit + push.
 5. **Story Instagram de chaque vidéo** (demande de Marcio, 01.11.2026 : « quand tu crées le contenu, mets-la en story
    aussi ») : `bash autopilot/tools/story.sh NN` → `media/stories/dayNN_story.mp4` (même vidéo + bandeau « PLUS DE
-   VIDÉOS SUR TIKTOK · @marcio.mota8 » en bas). Commit + push, Cloudinary `upload-asset` depuis raw.githubusercontent
+   VIDÉOS SUR TIKTOK · @marcio.mota8 » en bas + 2 s de fin « NOUVELLE VIDÉO SUR TIKTOK », depuis le 05.11). Commit + push, Cloudinary `upload-asset` depuis raw.githubusercontent
    (public_id `tiktok-autopilot/stories/dayNN_story`), puis Metricool `createScheduledPost` : providers
    [{network: instagram}], **5 minutes après la vidéo TikTok** (10:05 ou 18:05, Europe/Zurich), `text: ""` (une Story
    n'a pas de légende), `instagramData: {type: "STORY", isAiGenerated: true}`, autoPublish true. Noter l'id dans
@@ -305,7 +365,7 @@ regarde ce qui a marché, ce qui n'a pas marché, et comme ça tu peux changer l
 - **Vendredi 27.11 à 11 h 37** (si la tâche du soir tourne encore) : ne rien produire ; vérifier que le bilan final
   existe, sinon le faire ; désactiver les deux tâches ; message d'une phrase.
 
-### 10.4 Produire une vidéo format T (texte seul, en boucle)
+### 10.4 Produire une vidéo format T (texte seul, en boucle) — abandonné le 05.11.2026 (jamais au-dessus de 284 vues)
 1. Sujet « écrit en gros → écrit en petit » : une affirmation de la fiche, de la boîte ou de la promo, et ce que
    disent les notes officielles du fabricant, la norme ou la loi. Chaque ligne « en petit » est une note réelle
    (citée ou fidèlement résumée) ou un calcul exact ; jamais une moquerie ou une accusation.
@@ -327,7 +387,8 @@ Tout est gratuit et libre : personnages dessinés dans le moteur (`render/charac
 personnes et de réactions (Fluent Emoji de Microsoft, licence MIT, `autopilot/assets/emoji3d/`, 84 images ; on peut en
 ajouter : dépôt github.com/microsoft/fluentui-emoji, dossier `assets/<Nom>/3D/`), voix Piper montée (voix de personnage).
 Ne jamais reprendre la vidéo, l'image, le texte ou la musique d'un autre créateur.
-1. **Script** : 6–7 segments, 55–75 mots, 18–27 s. Segment 1 = l'objet dit le chiffre de sa boîte (« Ils ont écrit vingt-cinq
+1. **Script** : depuis le 05.11, **10–13 segments, 100–120 mots, 35–40 s** (bloc du 05.11 ; avant : 6–7 segments,
+   18–27 s). Segment 1 = l'objet dit le chiffre de sa boîte (« Ils ont écrit vingt-cinq
    mille pascals sur ma boîte. En énorme. »). Ton : sarcastique, vexé, complice ; parler à « tu ». Chaque fait = une source
    (fabricant, test indépendant, loi), dite à voix haute si c'est un avis (« Une testeuse de TechRadar… »). Dernier
    segment : « Abonne-toi : ce soir / demain, <l'objet suivant> balance sa boîte. » seulement si cette vidéo est
@@ -402,13 +463,16 @@ Modèle de scène : `autopilot/days/_ai_demo/scene.js`.
   Le pont pousse chaque voix dès qu'elle est prête (commit « bridge output (voix dayNN) ») : monter la première vidéo
   sans attendre les autres. Au-delà de 40 minutes de voix, le passage s'arrête et les voix restantes passent au
   passage suivant : le relancer avec `gh workflow run tiktok-bridge.yml --ref tiktok-autopilot`. Une voix
-  Chatterbox est environ 20 % plus longue que Piper : depuis le 04.11, 3 ou 4 phrases courtes, 15 s au plus (bloc du 04.11).
+  Chatterbox est environ 20 % plus longue que Piper : depuis le 05.11, viser 35 à 40 s une fois montée, soit 10 à
+  13 phrases (bloc du 05.11) et 10 à 13 minutes de calcul par vidéo ; les « 15 s au plus » du 04.11 ne valent plus.
 - Ensuite comme avant : `assemble_vo.py … --lead 0.12 --gap 0.1`, **sans `voice_fx.py`** (la version choisie par Marcio
   n'a pas d'effet), champs `display`, transcription Whisper obligatoire (§ 11.5) : corriger tout mot mal dit
   (réécrire la phrase ou changer `seed`, puis nouveau job sous un nouveau nom).
 - Piper reste la solution de secours si le pont échoue (voix tom, `voice_fx.py --factor 1.12`).
 
-## 12. Format R « Réel » : les vraies vidéos de Marcio (depuis le 04.11.2026, créneau de 18 h)
+## 12. Format R « Réel » : les vraies vidéos de Marcio (04.11.2026 → 6.11.2026 ; EN PAUSE)
+**En pause depuis le 05.11.2026** (choix de Marcio : « 2 chiffres-pièges par jour ») : ne plus produire de vidéo R. Les
+derniers essais sont Sleepal (5.11) et Aeotec (6.11). Procédure gardée ci-dessous au cas où Marcio la redemande.
 Accord de Marcio le 04.11.2026 : ses propres Reels Instagram (ses mains, ses produits) peuvent passer sur TikTok,
 repris avec une accroche, y compris les produits reçus des marques (avec la mention « Publicité » et la divulgation TikTok, bloc du 04.11). Rien n'est modifié sur Instagram.
 1. **Choisir** dans `autopilot/r_queue.json` la prochaine source « à faire » (vues Instagram décroissantes). Sauter

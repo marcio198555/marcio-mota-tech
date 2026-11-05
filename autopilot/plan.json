@@ -583,7 +583,9 @@
     "heure": "10:05",
     "fichier": "media/stories/day21_story.mp4",
     "buffer_id": "6aea1e43ba2b892db88b5d2d",
-    "metricool_statut": "brouillon (Story publiée par Buffer)"
+    "metricool_statut": "brouillon (Story publiée par Buffer)",
+    "url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793866529/tiktok-autopilot/stories/day21_story_fin.mp4",
+    "fin_tiktok": "2 s de fin « Nouvelle vidéo sur TikTok » ajoutées le 05.11 (Buffer mis à jour)"
    },
    "buffer_id": "6aea1e18544a6d4567cb7bd1",
    "metricool_statut": "brouillon (TikTok publié par Buffer)",
@@ -617,7 +619,9 @@
     "heure": "18:05",
     "fichier": "media/stories/day22_story.mp4",
     "buffer_id": "6aea1e431f06859f7ba29140",
-    "metricool_statut": "brouillon (Story publiée par Buffer)"
+    "metricool_statut": "brouillon (Story publiée par Buffer)",
+    "url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793866530/tiktok-autopilot/stories/day22_story_fin.mp4",
+    "fin_tiktok": "2 s de fin « Nouvelle vidéo sur TikTok » ajoutées le 05.11 (Buffer mis à jour)"
    },
    "reel_instagram": {
     "metricool_id": 415719641,
@@ -658,7 +662,9 @@
     "heure": "10:05",
     "fichier": "media/stories/day23_story.mp4",
     "buffer_id": "6aea1e44544a6d4567cb840d",
-    "metricool_statut": "brouillon (Story publiée par Buffer)"
+    "metricool_statut": "brouillon (Story publiée par Buffer)",
+    "url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793866532/tiktok-autopilot/stories/day23_story_fin.mp4",
+    "fin_tiktok": "2 s de fin « Nouvelle vidéo sur TikTok » ajoutées le 05.11 (Buffer mis à jour)"
    },
    "reel_instagram": {
     "metricool_id": 415719656,
@@ -704,7 +710,7 @@
     "température recommandée par pièce"
    ],
    "argent": "Marques thermostats connectés",
-   "statut": "idée",
+   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
    "heure": null
   },
   {
@@ -722,7 +728,7 @@
     "ne présenter aucune mesure non faite"
    ],
    "argent": "Affiliation prises connectées",
-   "statut": "idée",
+   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
    "heure": null
   },
   {
@@ -739,7 +745,7 @@
     "surconsommation par degré en moins"
    ],
    "argent": "Marques thermomètres connectés",
-   "statut": "idée",
+   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
    "heure": null
   },
   {
@@ -755,7 +761,7 @@
     "chiffre SuisseEnergie ou étude sur l'économie avec couvercle"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
    "heure": null
   },
   {
@@ -787,7 +793,7 @@
     "guide du PFPDT sur la vidéosurveillance par des privés"
    ],
    "argent": "Marques caméras",
-   "statut": "idée",
+   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
    "heure": null
   },
   {
@@ -803,7 +809,7 @@
     "norme EN 12464-1 citée par un organisme officiel (SUVA)"
    ],
    "argent": "Affiliation lampes de bureau",
-   "statut": "idée",
+   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
    "heure": null
   },
   {
@@ -819,20 +825,22 @@
     "consommation selon la température (SuisseEnergie, étiquette UE)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
    "heure": null
   },
   {
    "jour": 33,
    "date": null,
    "sujet": "Lampes torches : les lumens gonflés",
-   "mecanique": "Le piège de l'étiquette",
+   "mecanique": "Chiffre-piège",
    "refs": [
     "R3"
    ],
-   "accroche": "10 000 lumens ? Sûrement pas.",
+   "accroche": "Ta lampe torche fait 10 000 lumens ? Mesurée selon la norme, rarement.",
    "a_verifier": [
-    "norme ANSI/PLATO FL1"
+    "norme ANSI/PLATO FL1 (mesure des lumens à 30 s)",
+    "baisse du mode turbo après quelques minutes (notice ou test indépendant)",
+    "fiche d'une lampe certifiée FL1 (jamais une marque que Marcio a reçue, ex. Klarus)"
    ],
    "argent": "Affiliation lampes certifiées FL1",
    "statut": "idée",
@@ -867,7 +875,7 @@
     "taux d'humidité recommandé (OFSP ou source officielle)"
    ],
    "argent": "Affiliation hygromètres",
-   "statut": "idée",
+   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
    "heure": null
   },
   {
@@ -883,7 +891,7 @@
     "prix et fonctions officiels ; aucune promesse non mesurée"
    ],
    "argent": "Affiliation (Black Friday)",
-   "statut": "idée",
+   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
    "heure": null
   },
   {
@@ -899,7 +907,7 @@
     "consommation type par cycle (étiquette UE), tarif ElCom 2026"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
    "heure": null
   },
   {
@@ -915,7 +923,7 @@
     "reprendre uniquement des faits déjà vérifiés dans les vidéos du mois"
    ],
    "argent": "Affiliation (bons plans vérifiés)",
-   "statut": "idée",
+   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
    "heure": null
   },
   {
@@ -931,11 +939,253 @@
     "chiffres réels du compte (Metricool)"
    ],
    "argent": "Croissance ; preuve pour le media kit",
-   "statut": "idée",
+   "statut": "écartée (05.11 : pas un chiffre écrit sur un produit)",
    "heure": null
+  },
+  {
+   "jour": 40,
+   "date": null,
+   "sujet": "Montre « étanche 50 m » : tu ne peux pas plonger à 50 m",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ta montre est étanche à cinquante mètres ? Non : tu ne peux pas plonger à cinquante mètres avec.",
+   "a_verifier": [
+    "norme ISO 22810:2010 : ce que veulent dire 5 ATM / 50 m",
+    "notice d'un fabricant (ex. Apple Watch, Garmin, Casio WR50) : douche et natation, pas de plongée",
+    "essai sous pression statique et mouvements dans l'eau"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 41,
+   "date": null,
+   "sujet": "Enceinte « 100 W » : watts crête ou watts RMS ?",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ton enceinte fait cent watts ? Regarde d'abord si ce sont des watts RMS.",
+   "a_verifier": [
+    "différence puissance crête (PMPO) et puissance RMS / continue",
+    "fiche d'un fabricant qui donne les deux valeurs",
+    "norme IEC 60268 (puissance assignée)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 42,
+   "date": null,
+   "sujet": "Téléphone « 200 Mpx » : par défaut, des photos de 12 Mpx",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ton téléphone fait des photos de deux cents mégapixels ? Non : par défaut, il en fait douze.",
+   "a_verifier": [
+    "fiche officielle d'un téléphone 200 MP (ex. Samsung Galaxy S25 Ultra)",
+    "taille des photos par défaut et mode 200 MP à activer",
+    "regroupement de pixels (pixel binning)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 43,
+   "date": null,
+   "sujet": "Clé « USB 3.2 » : peut-être 5 Gbit/s seulement",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ta clé USB 3.2 va à vingt gigabits ? Peut-être pas plus de cinq.",
+   "a_verifier": [
+    "USB-IF : USB 3.2 Gen 1 = 5 Gbit/s, Gen 2 = 10, Gen 2x2 = 20",
+    "nouveaux noms USB-IF (USB 5Gbps, 10Gbps, 20Gbps)",
+    "vitesse réelle d'une clé contre vitesse de l'interface"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 44,
+   "date": null,
+   "sujet": "Écran « 1 ms » : ce n'est pas le vrai temps de réponse",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ton écran répond en une milliseconde ? Pas vraiment.",
+   "a_verifier": [
+    "GtG et MPRT : définitions (fabricants, VESA)",
+    "mesures indépendantes du temps de réponse réel",
+    "réglage overdrive et traînées"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 45,
+   "date": null,
+   "sujet": "Chargeur sans fil « 15 W » : ton téléphone en prend peut-être moins",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ton chargeur sans fil charge à quinze watts ? Ton téléphone n'en prend peut-être pas autant.",
+   "a_verifier": [
+    "norme Qi / Qi2 (Wireless Power Consortium) : puissances",
+    "puissance sans fil acceptée par un iPhone et par un Samsung (fiches officielles)",
+    "rendement de la charge sans fil contre le câble"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 46,
+   "date": null,
+   "sujet": "SSD « jusqu'à 7 000 Mo/s » : seulement au début",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ton SSD copie à sept mille mégaoctets par seconde ? Seulement au début.",
+   "a_verifier": [
+    "fiche officielle d'un SSD NVMe (« jusqu'à », cache SLC)",
+    "test indépendant : vitesse après le remplissage du cache",
+    "lecture séquentielle contre fichiers réels"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 47,
+   "date": null,
+   "sujet": "Trottinette « 40 km d'autonomie » : dans les conditions du test",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ta trottinette fait quarante kilomètres ? Oui, dans les conditions du test.",
+   "a_verifier": [
+    "fiche Xiaomi ou Segway : poids, vitesse, température et terrain du test d'autonomie",
+    "effet du poids, de la vitesse, du froid et des côtes",
+    "règles suisses des trottinettes électriques si utile (OFROU)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 48,
+   "date": null,
+   "sujet": "Purificateur « jusqu'à 50 m² » : avec combien de renouvellements d'air ?",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ton purificateur d'air est fait pour cinquante mètres carrés ? Peut-être pour un seul renouvellement d'air par heure.",
+   "a_verifier": [
+    "CADR (m³/h) et calcul surface = CADR / (hauteur × renouvellements par heure)",
+    "nombre de renouvellements recommandé (ex. AHAM)",
+    "fiche d'un purificateur courant"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 49,
+   "date": null,
+   "sujet": "TV « 65 pouces » : 144 cm de large, pas 165",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ta télé de soixante-cinq pouces fait cent soixante-cinq centimètres de large ? Non : cent quarante-quatre.",
+   "a_verifier": [
+    "1 pouce = 2,54 cm (65 pouces = 165,1 cm de diagonale)",
+    "largeur 16:9 = diagonale × 16 / √337 ≈ 0,8716 (calcul exact à l'écran)",
+    "fiche d'une TV 65 pouces (dimensions sans pied)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 50,
+   "date": null,
+   "sujet": "Batterie externe 10 000 mAh : combien de recharges ? (partie 2 du jour 3)",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ta batterie de dix mille milliampères-heure, c'est deux recharges et demie ? Non : à peine deux.",
+   "a_verifier": [
+    "10 000 mAh × 3,7 V = 37 Wh",
+    "pertes de conversion (Anker, environ 18 %, déjà sourcé au jour 3)",
+    "capacité en Wh d'un téléphone courant (fiche fabricant)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05",
+   "suite_de": 3
+  },
+  {
+   "jour": 51,
+   "date": null,
+   "sujet": "Robot tondeuse « jusqu'à 1 000 m² » : sur quel terrain ? (partie 2 du jour 1)",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ton robot tondeuse fait mille mètres carrés ? Sur un terrain plat et sans obstacles.",
+   "a_verifier": [
+    "fiche d'un robot tondeuse (surface maximale et conditions) — jamais une marque que Marcio a reçue",
+    "effet de la pente, des obstacles et des passages étroits (notice)",
+    "temps de tonte annoncé par semaine"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05",
+   "suite_de": 1
+  },
+  {
+   "jour": 52,
+   "date": null,
+   "sujet": "Aspirateur sans fil « 60 min » : en mode éco seulement",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ton aspirateur sans fil tient soixante minutes ? En mode maximum, beaucoup moins.",
+   "a_verifier": [
+    "fiche officielle d'un aspirateur sans fil : autonomie par mode",
+    "conditions du test (mode éco, brosse non motorisée)",
+    "autonomie en mode boost"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 53,
+   "date": null,
+   "sujet": "Frigo « classe B » : la nouvelle étiquette énergie",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ton frigo est classé B ? Avant 2021, il aurait peut-être eu A+++.",
+   "a_verifier": [
+    "règlement UE 2019/2016 et nouvelle étiquette depuis mars 2021",
+    "correspondance entre l'ancienne et la nouvelle échelle (SuisseEnergie, energylabel)",
+    "étiquette énergie en Suisse (OEEE)"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
+  },
+  {
+   "jour": 54,
+   "date": null,
+   "sujet": "Montre connectée « 14 jours » : sans GPS ni écran toujours allumé",
+   "mecanique": "Chiffre-piège",
+   "accroche": "Ta montre connectée tient quatorze jours ? Pas avec le GPS.",
+   "a_verifier": [
+    "fiche officielle d'une montre connectée : conditions de l'autonomie annoncée",
+    "autonomie avec GPS et écran toujours allumé",
+    "usage typique décrit par le fabricant"
+   ],
+   "argent": "Croissance",
+   "statut": "idée",
+   "heure": null,
+   "ajoutee_le": "2026-11-05"
   }
  ],
- "rythme": "Depuis le 04.11.2026 : 2 vidéos par jour sur TikTok — 10 h = autopilote (format A court, 15 s max, produits seulement) ; 18 h = vraie vidéo de Marcio (format R, tirée de ses Reels Instagram, accord du 04.11). Chaque vendredi : bilan + plan (5 h 37), vidéos R de 18 h (11 h 37). Stratégie du mois : strategy.json.",
+ "rythme": "Depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour ») : dès le 7.11, 2 vidéos créées par jour sur TikTok, à 10 h et 18 h, toutes deux « chiffre-piège » (recette des jours 1 et 3 : 35–40 s, chiffre de la boîte en question dès 0,12 s, « non » avant 4 s ; RUNBOOK, bloc du 05.11), chacune avec sa Story (fin « Nouvelle vidéo sur TikTok ») et son Reel d'essai. Vendredi : bilan + plan + 7 vidéos de 10 h (5 h 37) ; 7 vidéos de 18 h (11 h 37). Format R en pause (derniers essais : Sleepal 5.11, Aeotec 6.11). Format T abandonné. Stratégie du mois : strategy.json.",
  "objectif": "Gagner des abonnés et des vues",
  "format_R": [
   {
@@ -978,5 +1228,6 @@
    "isAiGenerated": true,
    "statut": "programmée"
   }
- ]
+ ],
+ "format_R_note": "En pause depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour »). r01 Roomba : 79 vues après 16 h (05.11, 8 h 50). r02 et r03 = derniers essais."
 }

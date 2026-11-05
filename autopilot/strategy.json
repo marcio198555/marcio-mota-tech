@@ -55,7 +55,7 @@
     "retention_pct": 40,
     "abonnes_gagnes": 60
    },
-   "experience": "Changé le 04.11 (vues bloquées à 250–290) : 10 h = format A court (15 s max, produits seulement) ; 18 h = format R (vraies vidéos de Marcio). Bilan du 13.11 : R contre A, vues médianes et abonnés ; le gagnant prend plus de créneaux.",
+   "experience": "Changé le 05.11 (choix de Marcio : « 2 chiffres-pièges par jour ») : dès le 7.11, 10 h ET 18 h = vidéos créées « chiffre-piège » (recette des jours 1 et 3 : 35–40 s, chiffre de la boîte en question dès 0,12 s, « non » avant 4 s), formats V (au moins 8 sur 14) et A. Bilan du 13.11 : médiane des vues de la nouvelle recette contre ≈ 265 avant, part au-dessus de 400 vues, temps moyen regardé, abonnés ; V contre A ; Sleepal et Aeotec (derniers R) à part.",
    "statut": "à venir",
    "resultat": null,
    "verdict": null,
@@ -103,12 +103,12 @@
  "formats": {
   "V": {
    "nom": "Voix",
-   "description": "Voix de synthèse, 18–25 s, 6–7 segments, révélation chiffrée dès 0,12 s avec le produit visible, sous-titres mot à mot, dernière phrase = annonce de la vidéo suivante (« ce soir… » / « demain… »).",
+   "description": "Voix de synthèse, recette des jours 1 et 3 (les 2 seules vidéos sorties) depuis le 05.11 : 35–40 s, 10–13 phrases, phrase 1 = le chiffre de la boîte en question adressé à la personne (dès 0,12 s), phrase 2 = « Non. » + le contre-pied (avant 4 s), puis vraie valeur sourcée, verdict, conseil, bonus, question pour les commentaires et annonce de la vidéo suivante ; un changement à l'écran toutes les 2 s environ. (Avant le 05.11 : 18–25 s, jamais au-dessus de 293 vues.)",
    "outil": "tools/produce.sh NN (RUNBOOK § 5–6)"
   },
   "T": {
    "nom": "Texte seul",
-   "description": "Sans voix, musique seule, 10–13 s, en boucle. Titre-accroche + 4 lignes « écrit en gros → écrit en petit » (notes officielles du fabricant, norme ou loi). Pensé pour être relu : la boucle fait monter le temps regardé. Pas de carte de fin ; l'annonce de la vidéo suivante est dans la description.",
+   "description": "ABANDONNÉ le 05.11.2026 (5 vidéos, 246–284 vues, 3 à 5 s regardées). Sans voix, musique seule, 10–13 s, en boucle. Titre-accroche + 4 lignes « écrit en gros → écrit en petit » (notes officielles du fabricant, norme ou loi). Pensé pour être relu : la boucle fait monter le temps regardé. Pas de carte de fin ; l'annonce de la vidéo suivante est dans la description.",
    "outil": "tools/produce_texte.sh NN avec days/dayNN/texte.json (RUNBOOK § 10.4)"
   },
   "Q": {
@@ -117,12 +117,12 @@
   },
   "A": {
    "nom": "Animé « Les objets balancent »",
-   "description": "L'objet du sujet devient un personnage (yeux, bouche synchronisée, voix de personnage) qui balance ce qu'on écrit sur sa boîte, dans un salon dessiné, avec des personnes et réactions en images 3D libres (MIT). Format viral « objet qui parle » de 2026. 18–27 s.",
+   "description": "L'objet du sujet devient un personnage (yeux, bouche synchronisée, voix de personnage) qui balance ce qu'on écrit sur sa boîte, dans un salon dessiné, avec des personnes et réactions en images 3D libres (MIT). Format viral « objet qui parle » de 2026. 35–40 s depuis le 05.11 (même recette « chiffre-piège » que V ; avant : 18–27 s). Premier essai sur TikTok : vidéo 23 (6.11).",
    "outil": "tools/produce_anime.sh NN (RUNBOOK § 11)"
   },
   "R": {
    "nom": "Réel (vraies vidéos de Marcio)",
-   "description": "Ses propres Reels Instagram (mains, produit réel), coupés à 12–20 s sur l'action la plus visuelle, accroche écrite les 2–3 premières secondes, sa voix off gardée ou musique libre. Créneau de 18 h depuis le 04.11.2026 (accord de Marcio).",
+   "description": "EN PAUSE depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour »). Derniers essais : Roomba 4.11 (79 vues après 16 h), Sleepal 5.11, Aeotec 6.11. Ses propres Reels Instagram (mains, produit réel), coupés à 12–20 s sur l'action la plus visuelle, accroche écrite les 2–3 premières secondes, sa voix off gardée ou musique libre. Créneau de 18 h depuis le 04.11.2026 (accord de Marcio).",
    "outil": "tools/ig_cut.py (RUNBOOK § 12)"
   }
  },
@@ -286,6 +286,11 @@
    "date": "2026-11-04",
    "verdict": "ROUGE en cours de semaine (constat de Marcio, confirmé par les chiffres)",
    "decision": "Metricool au 04.11 : 14 des 16 vidéos de l'autopilote (25.10–2.11) entre 246 et 293 vues, médiane 269,5 ; seules 2 sorties (robot tondeuse 1 010, batterie externe 785), aucune depuis le 28.10 ; 2 partages et 1 commentaire en tout ; abonnés 68 → 74. Voix (V) et texte seul (T) : même niveau. Vraies vidéos de Marcio sur TikTok (juin-juillet, 5–12 s) : 3 sur 8 au-dessus de 780 vues. Décision (accord de Marcio, « Oui, toutes ») : 18 h = format R (ses Reels Instagram raccourcis), 10 h = format A court (15 s max, produits seulement). Dès le 4.11 : Roomba (4.11), Sleepal (5.11), Aeotec (6.11) à 18 h ; les vidéos 20 et 22 retirées de TikTok (brouillons Buffer)."
+  },
+  {
+   "date": "2026-11-05",
+   "verdict": "ROUGE en cours de semaine (Marcio : « je n'ai pas de vues, tu ne peux pas revoir ta stratégie ? »)",
+   "decision": "Buffer + Metricool au 05.11 (20 vidéos de l'autopilote, 25.10–4.11) : 16 entre 246 et 293 vues, temps moyen regardé 3 à 11 s. Les 2 seules sorties sont des V longs « chiffre-piège de fiche technique » (jour 1 : 37 s, 1 013 vues, 12 s regardées ; jour 3 : 40 s, 785 vues, 27 j'aime) : 2 sur 3 pour ce type. Jamais sortis : T 11 s (5 vidéos), V de 21–23 s, loi suisse, conseils sans produit. R : Roomba 79 vues après 16 h. Choix de Marcio (05.11, 9 h) : « 2 chiffres-pièges par jour » (100 % automatique), pas de tournage, image de fin TikTok dans les Stories. Décision : dès le 7.11, 10 h et 18 h = chiffres-pièges 35–40 s (V au moins 8 sur 14, A le reste), format T abandonné, format R en pause, Stories avec 2 s de fin « Nouvelle vidéo sur TikTok », 15 nouvelles idées dans plan.json (jours 40–54), suite dans les 48 h pour toute vidéo au-dessus de 600 vues."
   }
  ]
 }
