@@ -1,0 +1,16 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 23,
+ "segments": [
+  {
+   "id": "s02",
+   "text": "Ton collègue, lui, le débranche à quatre-vingts pour cent."
+  }
+ ],
+ "note": "reprise de s02 (Whisper entendait « débanche » au lieu de « débranche »), même texte, autre graine"
+}
