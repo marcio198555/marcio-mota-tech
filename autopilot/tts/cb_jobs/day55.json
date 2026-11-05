@@ -1,0 +1,71 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Tu charges ton téléphone toute la nuit ?"
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, lui, le débranche à quatre-vingts pour cent."
+  },
+  {
+   "id": "s03",
+   "text": "Dans trois ans, lequel aura la meilleure batterie ?"
+  },
+  {
+   "id": "s04",
+   "text": "Une batterie s'use un peu à chaque cycle de charge."
+  },
+  {
+   "id": "s05",
+   "text": "Apple l'écrit : un aïe-fone quinze garde quatre-vingts pour cent de sa capacité après mille cycles."
+  },
+  {
+   "id": "s06",
+   "text": "À un cycle complet par jour, ça fait presque trois ans."
+  },
+  {
+   "id": "s07",
+   "text": "Et la nuit, ton téléphone a déjà sa parade."
+  },
+  {
+   "id": "s08",
+   "text": "Il apprend tes horaires, peut attendre à quatre-vingts pour cent, puis finit la charge avant ton réveil."
+  },
+  {
+   "id": "s09",
+   "text": "Apple et Samsung le font déjà : ton collègue fait à la main ce que ton téléphone fait tout seul."
+  },
+  {
+   "id": "s10",
+   "text": "Le vrai ennemi de ta batterie, ce n'est pas la nuit. C'est la chaleur."
+  },
+  {
+   "id": "s11",
+   "text": "Au-delà de trente-cinq degrés, Apple prévient : elle peut perdre de la capacité pour de bon."
+  },
+  {
+   "id": "s12",
+   "text": "Alors ne le charge pas sous ton oreiller, ni dans une coque qui chauffe."
+  },
+  {
+   "id": "s13",
+   "text": "Sa zone idéale : entre seize et vingt-deux degrés."
+  },
+  {
+   "id": "s14",
+   "text": "Et toi, ton téléphone dort où ? Dis-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : je mesure tout ce que tu crois savoir."
+  }
+ ]
+}
