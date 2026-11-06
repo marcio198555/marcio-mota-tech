@@ -277,99 +277,65 @@
   ]
  },
  "27": {
-  "title": "Douche ou bain : combien en francs ?",
-  "text": "Un bain par jour ≈ 840 fr. par an, une douche ≈ 250 fr. (exemple) 🛁\nDouche de 5 min à 12 l/min (60 l), bain de 200 l. Chauffe-eau électrique supposé, 12 à 37 °C (SuisseEnergie), tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³ ; le coût dépend du mode de chauffage. À ce débit, en moins de 17 min, la douche rattrape le bain. Baignoire fictive, voix de synthèse. Ta douche dure combien de minutes, montre en main ? 👇 #douche #baignoire #factureeau #astucemaison #suisseromande",
+  "title": "Ton frigo est-il réglé trop froid ?",
+  "text": "Frigo à 2 °C ou à 5 °C : au plus environ 13 francs d'écart par an dans cet exemple 🧊 Que Choisir : 5 % d'énergie en plus par degré en moins. Exemple : combiné moyen de 315 kWh/an (Ademe, France), 15 % soit 47 kWh, tarif médian ElCom 2026 hors TVA, déduit (27,7 ct/kWh). Sur un frigo mécanique, le cran 3 n'est pas 3 °C. L'Anses vise 0 à 4 °C au point le plus froid. Frigo fictif, voix de synthèse. Ton verre d'eau affiche combien après une nuit ? 👇 #frigo #refrigerateur #electricite #astucemaison #suisseromande",
   "sources": [
-   "https://www.eau-de-fribourg.ch/eau-pour-demain/une-consommation-intelligente",
-   "https://www.energie-environnement.ch/air-eau-alimentation-sante/douche-et-bain",
-   "https://pubdb.bfe.admin.ch/fr/publication/download/8753.pdf",
+   "https://selectra.info/energie/actualites/marche/frigo-regle-trop-froid-4-degres-suffisent-thermometre",
    "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
-   "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
-   "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/proprietaires-et-professionnels/taxes-et-facturation.html",
-   "https://www.tcs.ch/fr/tests-conseils/tests/home/pommeaux-douche-economiques.php",
-   "https://www.save-water.ch/",
-   "https://www.voltaback.com/fr-ch/blog/prix-kwh-suisse-recharge"
-  ],
-  "caption": "Frigo à 2 °C ou à 5 °C : au plus environ 13 francs d'écart par an dans cet exemple 🧊 Que Choisir : 5 % d'énergie en plus par degré en moins. Exemple : combiné moyen de 315 kWh/an (Ademe, France), 15 % soit 47 kWh, tarif médian ElCom 2026 hors TVA, déduit (27,7 ct/kWh). Sur un frigo mécanique, le cran 3 n'est pas 3 °C. L'Anses vise 0 à 4 °C au point le plus froid. Frigo fictif, voix de synthèse. Ton verre d'eau affiche combien après une nuit ? 👇 #frigo #refrigerateur #electricite #astucemaison #suisseromande"
+   "https://www.quechoisir.org/conseils-refrigerateurs-et-congelateurs-7-solutions-pour-consommer-moins-d-electricite-n7199",
+   "https://www.sante.fr/node/1247471",
+   "https://www.test-achats.be/electromenager/refrigerateurs/conseils/reguler-temperature-frigo"
+  ]
  },
  "59": {
-  "title": "Douche ou bain : combien en francs ?",
-  "text": "Un bain par jour ≈ 840 fr. par an, une douche ≈ 250 fr. (exemple) 🛁\nDouche de 5 min à 12 l/min (60 l), bain de 200 l. Chauffe-eau électrique supposé, 12 à 37 °C (SuisseEnergie), tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³ ; le coût dépend du mode de chauffage. À ce débit, en moins de 17 min, la douche rattrape le bain. Baignoire fictive, voix de synthèse. Ta douche dure combien de minutes, montre en main ? 👇 #douche #baignoire #factureeau #astucemaison #suisseromande",
+  "title": "La veille de ta télé coûte combien par an ?",
+  "text": "Veille de ta télé : 1 fr. 20 par an en veille simple, 4 fr. 85 en veille connectée 📺 Fiche EPREL d'une Samsung QE55LS03HAU : 0,5 W et 2 W ; calcul sur 8 760 h au tarif médian ElCom 2026 hors TVA, déduit (27,7 ct/kWh), au maximum, si la télé n'est jamais allumée. LG et Sony indiquent que le démarrage rapide peut augmenter la consommation, et Sony que la veille réelle peut dépasser la fiche. Ton démarrage rapide est activé ou pas ? 👇 #television #veille #electricite #astucetech #suisseromande",
   "sources": [
-   "https://www.eau-de-fribourg.ch/eau-pour-demain/une-consommation-intelligente",
-   "https://www.energie-environnement.ch/air-eau-alimentation-sante/douche-et-bain",
-   "https://pubdb.bfe.admin.ch/fr/publication/download/8753.pdf",
+   "https://community.sony.dk/t5/how-tos-faqs-tvs-home-cinema/standby-power-consumption/ba-p/2231036",
+   "https://eprel.ec.europa.eu/fiches/electronicdisplays/Fiche_2571443_EN.pdf",
    "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
-   "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
-   "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/proprietaires-et-professionnels/taxes-et-facturation.html",
-   "https://www.tcs.ch/fr/tests-conseils/tests/home/pommeaux-douche-economiques.php",
-   "https://www.save-water.ch/",
-   "https://www.voltaback.com/fr-ch/blog/prix-kwh-suisse-recharge"
-  ],
-  "caption": "Veille de ta télé : 1 fr. 20 par an en veille simple, 4 fr. 85 en veille connectée 📺 Fiche EPREL d'une Samsung QE55LS03HAU : 0,5 W et 2 W ; calcul sur 8 760 h au tarif médian ElCom 2026 hors TVA, déduit (27,7 ct/kWh), au maximum, si la télé n'est jamais allumée. LG et Sony indiquent que le démarrage rapide peut augmenter la consommation, et Sony que la veille réelle peut dépasser la fiche. Ton démarrage rapide est activé ou pas ? 👇 #television #veille #electricite #astucetech #suisseromande"
+   "https://www.easylounge.com/cdn/shop/files/cf9168281ad262d6a106038158ce4fe90348ae7e_LGOLED55C6V_01_notice.pdf",
+   "https://www.lg.com/us/support/help-library/lg-oled-tv-settings-how-can-i-use-the-q-start-feature-CT10000018-20154713330894"
+  ]
  },
  "70": {
-  "title": "Douche ou bain : combien en francs ?",
-  "text": "Un bain par jour ≈ 840 fr. par an, une douche ≈ 250 fr. (exemple) 🛁\nDouche de 5 min à 12 l/min (60 l), bain de 200 l. Chauffe-eau électrique supposé, 12 à 37 °C (SuisseEnergie), tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³ ; le coût dépend du mode de chauffage. À ce débit, en moins de 17 min, la douche rattrape le bain. Baignoire fictive, voix de synthèse. Ta douche dure combien de minutes, montre en main ? 👇 #douche #baignoire #factureeau #astucemaison #suisseromande",
+  "title": "Suisse contre France : l'iPhone 17, où est-il le moins cher ?",
+  "text": "iPhone 17 256 Go : même avec la détaxe, 26 francs de plus en France 🇨🇭🇫🇷 Prix Apple relevés le 6.11.2026 : 899 francs en Suisse, 1 119 € en France, soit 1 027 francs (BNS du 5.11 : 1 € = 0,9180 CHF). Détaxe au mieux, si le vendeur l'accorde (TVA française de 20 % retirée) puis TVA suisse de 8,1 % : environ 925 francs, frais de détaxe non comptés. Hors TVA : 856 contre 832 francs. Exemple de calcul, pas un conseil fiscal. Tu achètes ton téléphone dans quel pays ? 👇 #iphone17 #suissecontrefrance #achatfrontiere #prixiphone #detaxe",
   "sources": [
-   "https://www.eau-de-fribourg.ch/eau-pour-demain/une-consommation-intelligente",
-   "https://www.energie-environnement.ch/air-eau-alimentation-sante/douche-et-bain",
-   "https://pubdb.bfe.admin.ch/fr/publication/download/8753.pdf",
-   "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
-   "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
-   "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/proprietaires-et-professionnels/taxes-et-facturation.html",
-   "https://www.tcs.ch/fr/tests-conseils/tests/home/pommeaux-douche-economiques.php",
-   "https://www.save-water.ch/",
-   "https://www.voltaback.com/fr-ch/blog/prix-kwh-suisse-recharge"
-  ],
-  "caption": "iPhone 17 256 Go : même avec la détaxe, 26 francs de plus en France 🇨🇭🇫🇷 Prix Apple relevés le 6.11.2026 : 899 francs en Suisse, 1 119 € en France, soit 1 027 francs (BNS du 5.11 : 1 € = 0,9180 CHF). Détaxe au mieux, si le vendeur l'accorde (TVA française de 20 % retirée) puis TVA suisse de 8,1 % : environ 925 francs, frais de détaxe non comptés. Hors TVA : 856 contre 832 francs. Exemple de calcul, pas un conseil fiscal. Tu achètes ton téléphone dans quel pays ? 👇 #iphone17 #suissecontrefrance #achatfrontiere #prixiphone #detaxe"
+   "https://www.apple.com/ch-fr/shop/buy-iphone/iphone-17",
+   "https://www.apple.com/fr/shop/buy-iphone/iphone-17",
+   "https://www.bazg.admin.ch/fr/taxe-sur-la-valeur-ajoutee-franchise-valeur-a-150-francs",
+   "https://www.douane.gouv.fr/index.php/fiche/la-detaxe-en-france-pour-les-touristes-pablo",
+   "https://www.snb.ch/public/rss/en/exchangeRates"
+  ]
  },
  "58": {
-  "title": "Douche ou bain : combien en francs ?",
-  "text": "Un bain par jour ≈ 840 fr. par an, une douche ≈ 250 fr. (exemple) 🛁\nDouche de 5 min à 12 l/min (60 l), bain de 200 l. Chauffe-eau électrique supposé, 12 à 37 °C (SuisseEnergie), tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³ ; le coût dépend du mode de chauffage. À ce débit, en moins de 17 min, la douche rattrape le bain. Baignoire fictive, voix de synthèse. Ta douche dure combien de minutes, montre en main ? 👇 #douche #baignoire #factureeau #astucemaison #suisseromande",
+  "title": "Pourquoi le centre de ton plat reste froid au micro-ondes ?",
+  "text": "Micro-ondes : non, il ne chauffe pas de l'intérieur 🍲 FDA : dans un plat épais, les couches extérieures sont cuites surtout par les ondes, l'intérieur par conduction. USDA : pénétration de 2,5 à 3,8 cm (1 à 1,5 pouce), étaler, couvrir, mélanger, temps de repos. Zones froides environ tous les 6 cm : la moitié de la longueur d'onde de 12 cm à 2,45 GHz. Micro-ondes fictif, voix de synthèse. Toi, tu mélanges ou tu rajoutes du temps ? 👇 #microondes #cuisine #astucemaison #rechauffer #suisseromande",
   "sources": [
-   "https://www.eau-de-fribourg.ch/eau-pour-demain/une-consommation-intelligente",
-   "https://www.energie-environnement.ch/air-eau-alimentation-sante/douche-et-bain",
-   "https://pubdb.bfe.admin.ch/fr/publication/download/8753.pdf",
+   "https://webarchive.library.unt.edu/web/20120915114427/http:/www.fsis.usda.gov/PDF/Microwave_Ovens_and_Food_Safety.pdf",
    "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
-   "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
-   "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/proprietaires-et-professionnels/taxes-et-facturation.html",
-   "https://www.tcs.ch/fr/tests-conseils/tests/home/pommeaux-douche-economiques.php",
-   "https://www.save-water.ch/",
-   "https://www.voltaback.com/fr-ch/blog/prix-kwh-suisse-recharge"
-  ],
-  "caption": "Micro-ondes : non, il ne chauffe pas de l'intérieur 🍲 FDA : dans un plat épais, les couches extérieures sont cuites surtout par les ondes, l'intérieur par conduction. USDA : pénétration de 2,5 à 3,8 cm (1 à 1,5 pouce), étaler, couvrir, mélanger, temps de repos. Zones froides environ tous les 6 cm : la moitié de la longueur d'onde de 12 cm à 2,45 GHz. Micro-ondes fictif, voix de synthèse. Toi, tu mélanges ou tu rajoutes du temps ? 👇 #microondes #cuisine #astucemaison #rechauffer #suisseromande"
+   "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens",
+   "https://www.scienceabc.com/innovation/why-do-we-need-a-turntable-in-microwaves.html"
+  ]
  },
  "57": {
-  "title": "Douche ou bain : combien en francs ?",
-  "text": "Un bain par jour ≈ 840 fr. par an, une douche ≈ 250 fr. (exemple) 🛁\nDouche de 5 min à 12 l/min (60 l), bain de 200 l. Chauffe-eau électrique supposé, 12 à 37 °C (SuisseEnergie), tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³ ; le coût dépend du mode de chauffage. À ce débit, en moins de 17 min, la douche rattrape le bain. Baignoire fictive, voix de synthèse. Ta douche dure combien de minutes, montre en main ? 👇 #douche #baignoire #factureeau #astucemaison #suisseromande",
+  "title": "Lave-vaisselle ou vaisselle à la main : qui gaspille le plus d'eau ?",
+  "text": "Vaisselle à la main : 103 litres en moyenne, lave-vaisselle : 15 litres pour 12 couverts 🍽️ Étude de l'Université de Bonn (Stamminger et al.), ancienne et financée par plusieurs fabricants : 46 l en Allemagne, 170 l en Espagne et au Portugal. Eau à Lausanne : 3,45 fr./m³, soit 30 ct d'écart par vaisselle et environ 110 francs par an à une vaisselle par jour (exemple, sans l'énergie). Tu rinces avant de charger ? 👇 #lavevaisselle #vaisselle #economiedeau #astucemaison #suisseromande",
   "sources": [
-   "https://www.eau-de-fribourg.ch/eau-pour-demain/une-consommation-intelligente",
-   "https://www.energie-environnement.ch/air-eau-alimentation-sante/douche-et-bain",
-   "https://pubdb.bfe.admin.ch/fr/publication/download/8753.pdf",
-   "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
-   "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
+   "https://silo.tips/download/a-european-comparison-of-cleaning-dishes-by-hand",
+   "https://www.degruyterbrill.com/document/doi/10.1515/tsd-2024-2634/html",
    "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/proprietaires-et-professionnels/taxes-et-facturation.html",
-   "https://www.tcs.ch/fr/tests-conseils/tests/home/pommeaux-douche-economiques.php",
-   "https://www.save-water.ch/",
-   "https://www.voltaback.com/fr-ch/blog/prix-kwh-suisse-recharge"
-  ],
-  "caption": "Vaisselle à la main : 103 litres en moyenne, lave-vaisselle : 15 litres pour 12 couverts 🍽️ Étude de l'Université de Bonn (Stamminger et al.), ancienne et financée par plusieurs fabricants : 46 l en Allemagne, 170 l en Espagne et au Portugal. Eau à Lausanne : 3,45 fr./m³, soit 30 ct d'écart par vaisselle et environ 110 francs par an à une vaisselle par jour (exemple, sans l'énergie). Tu rinces avant de charger ? 👇 #lavevaisselle #vaisselle #economiedeau #astucemaison #suisseromande"
+   "https://www.spokesman.com/stories/2009/dec/07/handwashing-your-dishes-better-new-study-says-no",
+   "https://zientzia.eus/artikuluak/platerak-garbitzean-ur-asko-xahutzen-dute-batzuek/en"
+  ]
  },
  "24": {
-  "title": "Douche ou bain : combien en francs ?",
-  "text": "Un bain par jour ≈ 840 fr. par an, une douche ≈ 250 fr. (exemple) 🛁\nDouche de 5 min à 12 l/min (60 l), bain de 200 l. Chauffe-eau électrique supposé, 12 à 37 °C (SuisseEnergie), tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³ ; le coût dépend du mode de chauffage. À ce débit, en moins de 17 min, la douche rattrape le bain. Baignoire fictive, voix de synthèse. Ta douche dure combien de minutes, montre en main ? 👇 #douche #baignoire #factureeau #astucemaison #suisseromande",
+  "title": "Le mode sombre économise-t-il vraiment ta batterie ?",
+  "text": "Mode sombre : 3 à 9 % d'énergie en moins entre 30 et 50 % de luminosité, 39 à 47 % à 100 % 🌙 Étude Purdue 2021 sur 4 téléphones OLED (Pixel 2, Moto Z3, Pixel 4, Pixel 5), 6 applis Google. Google Actualités sur Pixel 5 : 20 % en clair consomme autant que 50 % en sombre. Aucun chiffre pour les écrans LCD dans cette étude. Ta luminosité est à combien, là, maintenant ? 👇 #modesombre #batterie #smartphone #oled #astucetech",
   "sources": [
-   "https://www.eau-de-fribourg.ch/eau-pour-demain/une-consommation-intelligente",
-   "https://www.energie-environnement.ch/air-eau-alimentation-sante/douche-et-bain",
-   "https://pubdb.bfe.admin.ch/fr/publication/download/8753.pdf",
-   "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
-   "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
-   "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/proprietaires-et-professionnels/taxes-et-facturation.html",
-   "https://www.tcs.ch/fr/tests-conseils/tests/home/pommeaux-douche-economiques.php",
-   "https://www.save-water.ch/",
-   "https://www.voltaback.com/fr-ch/blog/prix-kwh-suisse-recharge"
-  ],
-  "caption": "Mode sombre : 3 à 9 % d'énergie en moins entre 30 et 50 % de luminosité, 39 à 47 % à 100 % 🌙 Étude Purdue 2021 sur 4 téléphones OLED (Pixel 2, Moto Z3, Pixel 4, Pixel 5), 6 applis Google. Google Actualités sur Pixel 5 : 20 % en clair consomme autant que 50 % en sombre. Aucun chiffre pour les écrans LCD dans cette étude. Ta luminosité est à combien, là, maintenant ? 👇 #modesombre #batterie #smartphone #oled #astucetech"
+   "https://engineering.purdue.edu/ECE/News/2021/dark-mode-may-not-save-your-phones-battery-life-as-much-as-you-think-but-there-are-a-few-silver-linings",
+   "https://www.lg.com/in/magazine/what-makes-lg-oled-different-from-led-tvs/"
+  ]
  }
 }
