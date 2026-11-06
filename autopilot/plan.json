@@ -679,21 +679,25 @@
   },
   {
    "jour": 24,
-   "date": null,
+   "date": "2026-11-12",
    "sujet": "Le mode sombre économise-t-il vraiment ta batterie ?",
-   "mecanique": "Mythe ou réalité",
+   "mecanique": "Mythe ou réalité (recette du 05.11)",
    "refs": [
     "R5",
     "R3"
    ],
-   "accroche": "Mode sombre = plus de batterie ? Ça dépend de ton écran.",
+   "accroche": "Toi, mode sombre. Ton collègue, mode clair. Qui a encore de la batterie le soir ? Ça dépend de ton écran.",
    "a_verifier": [
     "OLED vs LCD : pixels noirs éteints",
     "étude Purdue 2021 sur le mode sombre (gain selon la luminosité)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "heure": null
+   "statut": "à produire",
+   "heure": "18:00",
+   "format": "V",
+   "semaine": "S2",
+   "annonce": null,
+   "annonce_jour": null
   },
   {
    "jour": 25,
@@ -733,20 +737,24 @@
   },
   {
    "jour": 27,
-   "date": null,
+   "date": "2026-11-07",
    "sujet": "Ton frigo est-il réglé trop froid ?",
-   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "mecanique": "Vérité du quotidien (recette du 05.11, point 2 bis) : le frigo balance son réglage",
    "refs": [
     "R3"
    ],
-   "accroche": "Frigo à 2 °C ? Tu paies pour rien.",
+   "accroche": "Toi, ton frigo est à deux degrés. Ton collègue, à cinq. Qui paie pour rien ?",
    "a_verifier": [
     "température recommandée frigo et congélateur (OSAV, SuisseEnergie)",
     "surconsommation par degré en moins"
    ],
    "argent": "Marques thermomètres connectés",
-   "statut": "idée",
-   "heure": null
+   "statut": "à produire",
+   "heure": "18:00",
+   "format": "A",
+   "semaine": "S2",
+   "annonce": "Sèche-linge ou étendoir : le coût réel en CHF",
+   "annonce_jour": 37
   },
   {
    "jour": 28,
@@ -814,19 +822,24 @@
   },
   {
    "jour": 32,
-   "date": null,
+   "date": "2026-11-09",
    "sujet": "Lave-linge à 30 °C ou 60 °C : l'énergie en jeu",
-   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "mecanique": "Vérité du quotidien (recette du 05.11, point 2 bis) : la machine à laver balance ses chiffres",
    "refs": [
     "R4"
    ],
-   "accroche": "60 °C coûte jusqu'à X fois plus",
+   "accroche": "Toi, c'est soixante degrés. Ton collègue, c'est trente. Lequel a le linge le plus propre… et lequel paie le plus ?",
    "a_verifier": [
     "consommation selon la température (SuisseEnergie, étiquette UE)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "heure": null
+   "statut": "à produire",
+   "heure": "10:00",
+   "format": "A",
+   "semaine": "S2",
+   "annonce": "Suisse contre France : l'iPhone 17, où est-il le moins cher ?",
+   "annonce_jour": 70,
+   "annoncee": true
   },
   {
    "jour": 33,
@@ -896,19 +909,27 @@
   },
   {
    "jour": 37,
-   "date": null,
-   "sujet": "Sèche-linge ou étendoir : le coût réel en CHF",
-   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "date": "2026-11-08",
+   "sujet": "Linge au salon ou sèche-linge : qui paie vraiment ?",
+   "mecanique": "Vérité du quotidien (recette du 05.11, point 2 bis) : duel sur le linge, en francs ; mécanique des vidéos « linge au salon » (vidIQ), angle propre",
    "refs": [
     "R4"
    ],
-   "accroche": "Ton sèche-linge te coûte X CHF par lessive",
+   "accroche": "Toi, ton linge sèche au salon. Ton collègue lance le sèche-linge. Qui paie le plus ?",
    "a_verifier": [
-    "consommation type par cycle (étiquette UE), tarif ElCom 2026"
+    "consommation d'un sèche-linge par cycle (étiquette UE, fiche d'un modèle courant, ou SuisseEnergie)",
+    "tarif moyen ElCom de l'année",
+    "eau libérée par une lessive qui sèche à l'intérieur (source officielle ou fabricant)",
+    "conseil officiel sur l'humidité et l'aération (OFSP, 40–60 %)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "heure": null
+   "statut": "à produire",
+   "heure": "10:00",
+   "format": "V",
+   "semaine": "S2",
+   "annonce": "La veille de ta télé coûte combien par an ?",
+   "annonce_jour": 59,
+   "annoncee": true
   },
   {
    "jour": 38,
@@ -1219,42 +1240,51 @@
   },
   {
    "jour": 56,
-   "date": null,
-   "heure": null,
+   "date": "2026-11-10",
+   "heure": "10:00",
    "sujet": "Faut-il éteindre sa box internet la nuit ?",
-   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
-   "accroche": "Ta box internet tourne toute la nuit ? Voilà ce qu'elle te coûte vraiment, en francs.",
+   "mecanique": "Vérité du quotidien (recette du 05.11, point 2 bis) : duel en francs",
+   "accroche": "Toi, ta box reste allumée toute la nuit. Ton collègue la débranche. Combien il gagne, en vrai ?",
    "a_verifier": [
     "consommation d'une box courante (fiche officielle Swisscom, Sunrise ou Salt)",
     "tarif moyen de l'électricité en Suisse (ElCom, année en cours)",
     "calcul en kWh et en CHF par an, montré à l'écran"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "ajoutee_le": "2026-11-05",
+   "format": "V",
+   "semaine": "S2",
+   "annonce": "Pourquoi le centre de ton plat reste froid au micro-ondes ?",
+   "annonce_jour": 58,
+   "annoncee": true
   },
   {
    "jour": 57,
-   "date": null,
-   "heure": null,
+   "date": "2026-11-11",
+   "heure": "18:00",
    "sujet": "Lave-vaisselle ou vaisselle à la main : qui gaspille le plus d'eau ?",
-   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
-   "accroche": "Toi, tu fais la vaisselle à la main pour économiser ? Ton collègue lance le lave-vaisselle.",
+   "mecanique": "Vérité du quotidien (recette du 05.11, point 2 bis) : duel",
+   "accroche": "Toi, tu fais la vaisselle à la main pour économiser. Ton collègue lance le lave-vaisselle. Qui gaspille le plus d'eau ?",
    "a_verifier": [
     "litres d'eau par cycle d'un lave-vaisselle (étiquette énergie UE, fiche fabricant)",
     "étude sur le lavage à la main (ex. Université de Bonn)",
     "coût de l'eau chaude et de l'électricité en CHF"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "ajoutee_le": "2026-11-05",
+   "format": "V",
+   "semaine": "S2",
+   "annonce": "Douche ou bain : combien en francs ?",
+   "annonce_jour": 62
   },
   {
    "jour": 58,
-   "date": null,
-   "heure": null,
+   "date": "2026-11-10",
+   "heure": "18:00",
    "sujet": "Pourquoi le centre de ton plat reste froid au micro-ondes ?",
-   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "mecanique": "Vérité du quotidien (recette du 05.11, point 2 bis) : le micro-ondes balance",
    "accroche": "Ton plat est brûlant au bord et glacé au centre ? Ton micro-ondes n'y est pour rien… ou presque.",
    "a_verifier": [
     "fréquence 2,45 GHz et profondeur de pénétration (source universitaire ou fabricant)",
@@ -1262,15 +1292,19 @@
     "conseil officiel (temps de repos, mélanger)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "ajoutee_le": "2026-11-05",
+   "format": "A",
+   "semaine": "S2",
+   "annonce": "Suisse contre France : 1 kWh d'électricité",
+   "annonce_jour": 71
   },
   {
    "jour": 59,
-   "date": null,
-   "heure": null,
+   "date": "2026-11-08",
+   "heure": "18:00",
    "sujet": "La veille de ta télé coûte combien par an ?",
-   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "mecanique": "Vérité du quotidien (recette du 05.11, point 2 bis) : chiffre en francs",
    "accroche": "Tu éteins ta télé avec la télécommande ? Elle ne dort pas vraiment.",
    "a_verifier": [
     "règlement européen d'écoconception (puissance en veille)",
@@ -1278,25 +1312,33 @@
     "tarif ElCom et calcul en CHF par an"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "ajoutee_le": "2026-11-05",
+   "format": "V",
+   "semaine": "S2",
+   "annonce": "Lave-linge à 30 °C ou 60 °C : l'énergie en jeu",
+   "annonce_jour": 32
   },
   {
    "jour": 60,
-   "date": null,
-   "heure": null,
+   "date": "2026-11-07",
+   "heure": "10:00",
    "sujet": "Charge rapide : ça abîme la batterie ? (suite du jour 55)",
-   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
-   "accroche": "Ton téléphone charge à 45 watts ? Ton collègue, lui, n'utilise que l'ancien chargeur.",
+   "mecanique": "Vérité du quotidien (recette du 05.11, point 2 bis) : suite du jour 55 (Reel d'essai : 2 150 vues)",
+   "accroche": "Ton téléphone charge à quarante-cinq watts ? Ton collègue, lui, garde son vieux chargeur. Dans trois ans, lequel aura la meilleure batterie ?",
    "a_verifier": [
     "ce qu'Apple et Samsung écrivent sur la charge rapide et la batterie",
     "température pendant la charge (sources du jour 55)",
     "phase rapide jusqu'à 50–80 % puis ralentissement (fiche officielle)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "à produire",
    "ajoutee_le": "2026-11-05",
-   "suite_de": 55
+   "suite_de": 55,
+   "format": "V",
+   "semaine": "S2",
+   "annonce": "Ton frigo est-il réglé trop froid ?",
+   "annonce_jour": 27
   },
   {
    "jour": 61,
@@ -1316,10 +1358,10 @@
   },
   {
    "jour": 62,
-   "date": null,
-   "heure": null,
+   "date": "2026-11-12",
+   "heure": "10:00",
    "sujet": "Douche ou bain : combien en francs ?",
-   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "mecanique": "Vérité du quotidien (recette du 05.11, point 2 bis) : la baignoire balance",
    "accroche": "Toi, c'est douche. Ton collègue, c'est bain. Qui paie le plus à la fin de l'année ?",
    "a_verifier": [
     "litres d'eau d'une douche de 5 min et d'un bain (SuisseEnergie ou fournisseur d'eau)",
@@ -1327,13 +1369,18 @@
     "tarif ElCom et prix de l'eau d'une commune suisse (source officielle)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "ajoutee_le": "2026-11-05",
+   "format": "A",
+   "semaine": "S2",
+   "annonce": "Le mode sombre économise-t-il vraiment ta batterie ?",
+   "annonce_jour": 24,
+   "annoncee": true
   },
   {
    "jour": 70,
-   "date": null,
-   "heure": null,
+   "date": "2026-11-09",
+   "heure": "18:00",
    "sujet": "Suisse contre France : l'iPhone 17, où est-il le moins cher ?",
    "mecanique": "Suisse contre France",
    "accroche": "Même iPhone. En Suisse et en France. Lequel coûte le moins cher, en vrai ?",
@@ -1343,13 +1390,17 @@
     "TVA 8,1 % et 20 %, conditions de la détaxe pour un résident suisse (source officielle)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "ajoutee_le": "2026-11-05",
+   "format": "V",
+   "semaine": "S2",
+   "annonce": "Faut-il éteindre sa box internet la nuit ?",
+   "annonce_jour": 56
   },
   {
    "jour": 71,
-   "date": null,
-   "heure": null,
+   "date": "2026-11-11",
+   "heure": "10:00",
    "sujet": "Suisse contre France : 1 kWh d'électricité",
    "mecanique": "Suisse contre France",
    "accroche": "Même machine à laver, même lessive. En Suisse et en France : qui paie le plus ?",
@@ -1359,8 +1410,13 @@
     "coût d'un même appareil sur une année, dans les deux pays"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "ajoutee_le": "2026-11-05",
+   "format": "V",
+   "semaine": "S2",
+   "annonce": "Lave-vaisselle ou vaisselle à la main : qui gaspille le plus d'eau ?",
+   "annonce_jour": 57,
+   "annoncee": true
   },
   {
    "jour": 72,

@@ -244,3 +244,25 @@ Production du 30.10 (vidéos de 18 h, jours 12 à 22) — enseignements du contr
   avec un tempo > 1, tampon corrigé), Whisper conforme. Buffer mis à jour (TikTok 20 h 30, Story 56,4 s à 20 h 35) ;
   Reel d'essai publié directement avec vidIQ à 11 h 50 (https://www.instagram.com/reel/DfW2dtllVSe/), noté dans le
   journal Google Doc et dans reels_queue.json (statut « publié », la tâche de 7 h 13 ne le reprendra pas).
+
+## 06.11.2026 — Bilan de S1 (30.10 → 5.11) : ROUGE
+Sources : Metricool (vues, j'aime, abonnés, jusqu'au 4.11), Buffer (temps regardé, mis à jour le 5.11 à 15 h 38), Windsor (Instagram, 6.11).
+| Indicateur (13 vidéos d'au moins 18 h) | Résultat | Objectif |
+|---|---|---|
+| Médiane des vues | 263 (240 à 285) | 400 |
+| Rétention moyenne (12 vidéos) | 32 % ; 5,8 s regardées | 35 % |
+| Abonnés gagnés | 0 (75 le 29.10, 75 le 4.11, dernier chiffre connu) | +30 |
+| Partages + commentaires | 1 sur 3 401 vues (0,3 pour 1 000) | — |
+Note R1 : min(263/400 ; 0/30) = 0 → **ROUGE**.
+- Par format : V 263,5 vues (6 vidéos, 7,5 s regardées, 31 %) ; T 261 (6, 4,1 s, 35 % parce que la vidéo dure 12 s) ; R Roomba 240 (3,9 s). Pas de gagnant.
+- Par heure : 10 h médiane 256 (7) ; 18 h médiane 267 (6). Écart trop faible pour conclure.
+- Par sujet : aucun type de sujet ne sort ; ampoule, chargeur et lave-vaisselle ont 5 à 7 j'aime contre 1 à 3 pour la plupart des T et des sujets de loi.
+- 3 meilleures : chargeur 65 W (V, 22,5 s, 285 vues, 6,9 s), iPhone 17 (T, 11,8 s, 284, 5,3 s), SSD (T, 11,8 s, 275, 4,1 s). 3 moins bonnes : Roomba (R, 17,8 s, 240, 3,9 s), AirPods (T, 11,8 s, 246, 3,2 s), promos Black Friday (T, 11,8 s, 249). L'écart de 45 vues entre les extrêmes ne distingue rien : toutes s'arrêtent au premier groupe test.
+- Le temps regardé le plus long n'a pas donné plus de vues : garantie 11,2 s pour 263 vues.
+- Vidéo 55 (5.11, 20 h 30) : 4 vues dans Metricool à 5 h 40 (moins de 10 h, chiffre sans doute en retard, Buffer pas encore à jour) : **rien à conclure**. Sleepal (5.11, 18 h) : 79 vues après moins de 12 h. Toutes deux comptent au bilan du 13.11.
+- Instagram (Windsor, 15 Reels du 30.10 au 5.11, certains peuvent être des Reels de Marcio) : médiane 170 vues, portée médiane 145. **Reel d'essai de la vidéo 55 : 2 150 vues, portée 1 884, 5 enregistrements, 1 partage en moins de 24 h**, le meilleur des Reels d'essai ; devant le robot tondeuse (1 182, sa recette d'origine), la batterie recyclée (755) et la vidéo 22 (686). DfP8-gTAe2V affiche 11 523 vues pour 249 de portée : chiffre incohérent, écarté de la lecture. Stories : Windsor n'en a renvoyé aucune, **donnée manquante**. Abonnés Instagram : 34 573 ; 6 à 9 nouveaux par jour, stable sur 14 jours.
+Constaté : la vidéo 55 est la seule de la semaine à décoller, sur un seul réseau, une seule fois. Hypothèse à vérifier le 13.11 : la nouvelle recette fait mieux aussi sur TikTok.
+Décision : ROUGE = changer de stratégie (R4), ce qui a été fait le 05.11. Aucune décision sur la recette avant le 13.11 (une seule vidéo). Changements de plan seulement :
+1. Partie 2 de la vidéo 55 (charge rapide) le 7.11, à cause de ses 2 150 vues Instagram (règle des 600 vues).
+2. vidIQ (6.11) : « linge au salon » 2,2 M et 1,9 M (3D, conséquences invisibles, début novembre) ; duel en split « faut-il débrancher son chargeur » 1,3 M ; « Suisse vs France » salaire 968 000 ; achat ou location 1 M (compte de 3 900 abonnés). → Vidéo 37 repositionnée « linge au salon ou sèche-linge » avec notre angle en francs ; même mécanique, rien de copié.
+3. V et A répartis à égalité entre 10 h et 18 h (2 A à chaque heure) pour une comparaison propre le 13.11.

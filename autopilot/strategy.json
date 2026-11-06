@@ -32,10 +32,19 @@
     "abonnes_gagnes": 30
    },
    "experience": "Format V (voix, 18–25 s) contre format T (texte seul en boucle, 10–13 s), 7 créneaux chacun, en alternance 10 h / 18 h pour neutraliser l'effet de l'heure.",
-   "statut": "en cours",
-   "resultat": null,
-   "verdict": null,
-   "decision": null,
+   "statut": "terminée",
+   "resultat": {
+    "vues_mediane": 263,
+    "retention_pct": 32,
+    "abonnes_gagnes": 0,
+    "engagement_pour_mille": 0.3,
+    "videos": 13,
+    "note": "13 vidéos publiées du 30.10 au 5.11 à 10 h et âgées d'au moins 18 h. Rétention : 12 vidéos (Buffer, mise à jour du 5.11 ; vidéo du 4.11 à 10 h absente). Abonnés : 75 le 29.10, 75 le 4.11 (dernier chiffre Metricool).",
+    "ce_qui_a_marche": "Rien n'est sorti sur TikTok. Sur Instagram, le Reel d'essai de la vidéo 55 (nouvelle recette) : 2 150 vues et 5 enregistrements en moins de 24 h, le meilleur Reel d'essai.",
+    "ce_qui_na_pas_marche": "TikTok : 13 vidéos sur 13 entre 240 et 285 vues, 0 abonné gagné. Test V contre T : égalité (263,5 contre 261). R (Roomba) : 240 vues."
+   },
+   "verdict": "ROUGE",
+   "decision": "Score = min(263/400 ; 0/30) = 0 → ROUGE. La règle R4 (changer de stratégie) a déjà été appliquée le 05.11 : recette « vérité du quotidien », 50–70 s. Pas de nouveau changement de fond ; première décision sur la recette le 13.11. Format T abandonné, R en pause. Partie 2 de la vidéo 55 demain.",
    "depart_mesure": {
     "vues_mediane": 269,
     "retention_pct": 21,
@@ -49,14 +58,14 @@
    "du": "2026-11-06",
    "au": "2026-11-12",
    "bilan": "2026-11-13",
-   "plan": null,
+   "plan": "Recette du 05.11",
    "objectifs": {
     "vues_mediane": 600,
     "retention_pct": 40,
     "abonnes_gagnes": 60
    },
-   "experience": "Changé le 05.11 (choix de Marcio : « 2 chiffres-pièges par jour ») : dès le 7.11, 10 h ET 18 h = vidéos créées « chiffre-piège » (recette des jours 1 et 3 : 35–40 s, chiffre de la boîte en question dès 0,12 s, « non » avant 4 s), formats V (au moins 8 sur 14) et A. Bilan du 13.11 : médiane des vues de la nouvelle recette contre ≈ 265 avant, part au-dessus de 400 vues, temps moyen regardé, abonnés ; V contre A ; Sleepal et Aeotec (derniers R) à part.",
-   "statut": "à venir",
+   "experience": "Nouvelle recette (bloc du 05.11, point 2 bis) sur 12 créneaux du 7 au 12.11 : 8 V et 4 A, 2 A à 10 h et 2 A à 18 h pour neutraliser l'heure ; 2 « Suisse contre France ». Vidéo 23 (A) et Aeotec (dernier R) le 6.11. Bilan du 13.11 : médiane contre ≈ 265, part au-dessus de 400 vues, temps regardé, abonnés, V contre A.",
+   "statut": "en cours",
    "resultat": null,
    "verdict": null,
    "decision": null
@@ -313,6 +322,11 @@
    "date": "2026-11-05",
    "verdict": "en cours",
    "decision": "Marcio, 10 h 47 : « je veux que tu sois 100 % autonome » ; 10 h 48 : « et pendant un mois tu crées du contenu ». Aucune validation à attendre ; l'autopilote change lui-même ce qui ne marche pas, chaque vendredi, et le dit ensuite. Période prolongée jusqu'au 5.12.2026 (S5 = 28.11 → 5.12, bilan final le vendredi 4.12). Vidéo 55 (modèle de la nouvelle recette) programmée sans validation préalable pour le 5.11 à 20 h 30."
+  },
+  {
+   "date": "2026-11-06",
+   "verdict": "ROUGE (S1)",
+   "decision": "S1 : médiane 263 vues (objectif 400), rétention 32 % (objectif 35), 0 abonné gagné (objectif 30) ; 13 vidéos sur 13 entre 240 et 285 vues. V 263,5, T 261 : égalité. Reel d'essai de la vidéo 55 : 2 150 vues (médiane des Reels de S1 : 170). Stratégie déjà changée le 05.11 (R4) : pas de nouveau changement avant le bilan du 13.11. Suite de la vidéo 55 (charge rapide) le 7.11 ; sujet « linge au salon » ajouté d'après vidIQ (2,2 M et 1,9 M) avec notre propre angle en francs ; V et A répartis à égalité entre 10 h et 18 h."
   }
  ]
 }
