@@ -9,3 +9,6 @@ autopilot/vo/day55b_s02.wav
 autopilot/vo/day55c_s02.wav
 autopilot/vo/day55d_s02.wav
 autopilot/vo/day55_vo_final.wav
+autopilot/vo/day37_vo.wav
+autopilot/vo/day56_vo.wav
+autopilot/vo/day60_vo.wav

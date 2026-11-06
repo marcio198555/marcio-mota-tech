@@ -1,0 +1,117 @@
+{
+ "duration": 68.86,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ta box reste allumée toute la nuit.",
+   "start": 0.12,
+   "end": 2.381,
+   "display": "Toi, ta box reste allumée toute la nuit."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue la débranche avant de dormir.",
+   "start": 2.481,
+   "end": 4.606,
+   "display": "Ton collègue la débranche avant de dormir."
+  },
+  {
+   "id": "s03",
+   "text": "Combien il gagne, en vrai ?",
+   "start": 4.706,
+   "end": 7.092,
+   "display": "Combien il gagne, en vrai ?"
+  },
+  {
+   "id": "s04",
+   "text": "Reste : tu auras le chiffre, et ce qu'il coupe avec.",
+   "start": 7.192,
+   "end": 10.518,
+   "display": "Reste : tu auras le chiffre, et ce qu'il coupe avec."
+  },
+  {
+   "id": "s05",
+   "text": "Internet-Boxe cinq : onze virgule neuf watts, appareils connectés, sans transfert, selon Souisse-com.",
+   "start": 10.618,
+   "end": 15.864,
+   "display": "Internet-Box 5 : 11,9 W, | appareils connectés, sans transfert, selon Swisscom."
+  },
+  {
+   "id": "s06",
+   "text": "Débranchée huit heures par nuit : presque trente-cinq kilowattheures de moins par an.",
+   "start": 15.964,
+   "end": 20.788,
+   "display": "Débranchée 8 h par nuit : presque 35 kWh de moins par an."
+  },
+  {
+   "id": "s07",
+   "text": "Au tarif médian Èl-Kom, vingt-sept virgule sept centimes, ça donne neuf francs soixante-trois par an.",
+   "start": 20.888,
+   "end": 27.188,
+   "display": "Au tarif médian ElCom, 27,7 ct/kWh, ça donne 9,63 CHF par an."
+  },
+  {
+   "id": "s08",
+   "text": "Moins de trois centimes par nuit, environ deux cafés crème par an.",
+   "start": 27.288,
+   "end": 31.282,
+   "display": "Moins de 3 centimes par nuit, environ 2 cafés crème par an."
+  },
+  {
+   "id": "s09",
+   "text": "Mais Souisse-com l'écrit : téléphone fixe, alarmes et caméras fonctionnent uniquement si le routeur est allumé.",
+   "start": 31.382,
+   "end": 36.502,
+   "display": "Mais Swisscom l'écrit : téléphone fixe, | alarmes et caméras fonctionnent | uniquement si le routeur est allumé."
+  },
+  {
+   "id": "s10",
+   "text": "Et Souisse-com recommande de ne pas brancher le routeur sur une multiprise.",
+   "start": 36.602,
+   "end": 40.647,
+   "display": "Et Swisscom recommande de ne pas brancher le routeur sur une multiprise."
+  },
+  {
+   "id": "s11",
+   "text": "Autre option : dans Maï Souisse-com, programme une pause du ouifi, la nuit.",
+   "start": 40.747,
+   "end": 44.902,
+   "display": "Autre option : dans My Swisscom, programme une pause du Wi-Fi, la nuit."
+  },
+  {
+   "id": "s12",
+   "text": "L'Internet-Boxe cinq Pro a aussi un mode économie : zéro virgule trois watt, aux heures choisies.",
+   "start": 45.002,
+   "end": 51.028,
+   "display": "L'Internet-Box 5 Pro a aussi un mode économie : | 0,3 W, aux heures choisies."
+  },
+  {
+   "id": "s13",
+   "text": "Mais ni Internet ni les appels ne fonctionnent.",
+   "start": 51.128,
+   "end": 54.197,
+   "display": "Mais ni Internet ni les appels ne fonctionnent."
+  },
+  {
+   "id": "s14",
+   "text": "Écris en commentaire ce qui s'arrêterait chez toi si ta box dormait.",
+   "start": 54.297,
+   "end": 58.443,
+   "display": "Écris en commentaire ce qui s'arrêterait chez toi si ta box dormait."
+  },
+  {
+   "id": "s15",
+   "text": "Ton collègue gagne neuf francs soixante-trois par an. Mais plus de téléphone fixe la nuit.",
+   "start": 58.543,
+   "end": 63.865,
+   "display": "Ton collègue gagne 9,63 CHF par an. | Mais plus de téléphone fixe la nuit."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, ton micro-ondes balance pourquoi le centre reste froid.",
+   "start": 63.965,
+   "end": 68.56,
+   "display": "Abonne-toi : ce soir, ton micro-ondes balance pourquoi le centre reste froid."
+  }
+ ]
+}
