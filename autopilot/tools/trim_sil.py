@@ -10,7 +10,7 @@ for f in sorted(glob.glob(os.path.join(d, '*.wav'))):
     x = np.frombuffer(raw, dtype=np.int16).reshape(-1, ch)[:, 0].astype(np.float32)
     hop = int(sr * 0.02); n = len(x) // hop
     rms = np.array([np.sqrt(np.mean(x[i * hop:(i + 1) * hop] ** 2) + 1e-6) for i in range(n)])
-    th = max(np.percentile(rms, 95) * 0.07, 120)
+    th = max(np.percentile(rms, 95) * 0.05, 100)
     v = rms > th
     if not v.any(): print(f, 'silence ?'); continue
     a, b = np.argmax(v), n - np.argmax(v[::-1])
@@ -24,7 +24,7 @@ for f in sorted(glob.glob(os.path.join(d, '*.wav'))):
             keep.append((i, i + 8)); keep.append((j - 7, j))
         else: keep.append((i, j))
         i = j
-    out = [x[max(0, (a * hop) - int(sr * 0.03)):a * hop]]
+    out = [x[max(0, (a * hop) - int(sr * 0.08)):a * hop]]
     for s, e in keep: out.append(x[s * hop:e * hop])
     out.append(x[b * hop:min(len(x), b * hop + int(sr * 0.12))])
     y = np.concatenate(out).astype(np.int16)
