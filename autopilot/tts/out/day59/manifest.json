@@ -1,0 +1,113 @@
+{
+ "job": "day59",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu éteins ta télé à la télécommande. Ton collègue la débranche tous les soirs. Qui a raison ?",
+   "file": "s01.wav",
+   "duration": 6.36,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Reste : tout dépend d'un réglage caché dans ta télé.",
+   "file": "s02.wav",
+   "duration": 4.76,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la télécommande, elle ne s'éteint pas : elle passe en veille.",
+   "file": "s03.wav",
+   "duration": 4.36,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Fiche européenne d'une Samsung cinquante-cinq pouces : veille simple, zéro virgule cinq watt.",
+   "file": "s04.wav",
+   "duration": 6.44,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Toute l'année : quatre virgule quatre kilowattheures.",
+   "file": "s05.wav",
+   "duration": 3.84,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Au tarif médian suisse : un franc vingt par an.",
+   "file": "s06.wav",
+   "duration": 4.04,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Ton collègue se baisse trois cent soixante-cinq fois pour ça.",
+   "file": "s07.wav",
+   "duration": 3.36,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : même fiche, veille connectée, deux watts.",
+   "file": "s08.wav",
+   "duration": 4.28,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Quatre fois plus : quatre francs quatre-vingt-cinq par an.",
+   "file": "s09.wav",
+   "duration": 4.24,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "LG et Sony préviennent : le démarrage rapide peut augmenter la consommation.",
+   "file": "s10.wav",
+   "duration": 4.8,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Va voir dans tes réglages.",
+   "file": "s11.wav",
+   "duration": 2.64,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Repère : une année de veille simple, c'est cinquante-sept heures de cette télé allumée.",
+   "file": "s12.wav",
+   "duration": 5.84,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Démarrage rapide activé, chez toi ? Écris-le en commentaire.",
+   "file": "s13.wav",
+   "duration": 6.04,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Toi, un franc vingt. Ton collègue, zéro, et trois cent soixante-cinq trajets à la prise.",
+   "file": "s14.wav",
+   "duration": 5.88,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, lave-linge à trente ou soixante degrés, qui paie quoi ?",
+   "file": "s15.wav",
+   "duration": 5.2,
+   "rate": 24000
+  }
+ ],
+ "total": 72.08
+}
