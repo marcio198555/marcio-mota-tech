@@ -127,6 +127,60 @@
    "isAiGenerated": true,
    "caption": "Douche ou bain : qui paie le plus à la fin de l'année ?\n\nExemple, une fois par jour : une douche de 5 minutes à 12 l/min (60 litres, chiffre d'Eau de Fribourg) coûte environ 250 francs par an ; un bain de 200 litres (200 à 250 litres selon les services cantonaux de l'énergie) environ 840 francs. Calcul : 1,16 Wh par litre et par degré, de 12 à 37 °C (SuisseEnergie), chauffe-eau électrique supposé, tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³, sans taxes fixes ni pertes du chauffe-eau. Le coût dépend du mode de chauffage.\n\nÀ 12 l/min, la douche atteint 200 litres en moins de 17 minutes. Avec un pommeau ordinaire, 10 minutes peuvent consommer plus d'eau qu'un bain, selon les services cantonaux. Un pommeau de classe A limite le débit à 4-6 l/min (TCS) : à 6 l/min, environ 125 francs d'économie par an dans cet exemple.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à ton collègue qui prend un bain tous les soirs.\n\n#douche #bain #economiedenergie #suisseromande #jemesuretout",
    "statut": "en attente"
+  },
+  {
+   "id": "day27",
+   "prevu": "2026-11-07T19:00",
+   "source": "autopilot jour 27",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971823/tiktok-autopilot/reels/day27_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Frigo trop froid : au plus environ 13 francs de plus par an entre 5 °C et 2 °C (exemple)\n\nQue Choisir : chaque degré en moins demande 5 % d'énergie en plus. Exemple : un combiné moyen de 315 kWh par an (chiffre de l'Ademe, France), environ 15 % soit 47 kWh, au tarif médian ElCom 2026 hors TVA (déduit) de 27,7 ct/kWh ; 5 % par degré vaut pour un réfrigérateur, c'est donc un maximum pour un combiné.\n\nSur un frigo mécanique, les crans du bouton ne sont pas des degrés. L'Anses vise 0 à 4 °C au point le plus froid ; la porte et le bac à légumes sont les zones les moins froides. Le test : un verre d'eau sur la clayette du milieu, une nuit, puis un thermomètre.\n\nFrigo fictif, voix de synthèse.\n\nEnvoie-la à ton collègue qui règle son frigo au hasard.\n\n#frigo #electricite #astucemaison #suisseromande #jemesuretout",
+   "statut": "en attente"
+  },
+  {
+   "id": "day59",
+   "prevu": "2026-11-08T19:00",
+   "source": "autopilot jour 59",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971830/tiktok-autopilot/reels/day59_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Veille de ta télé : 1 fr. 20 par an, ou 4 fr. 85 en veille connectée\n\nFiche européenne EPREL d'une Samsung 55 pouces (QE55LS03HAU) : 0,5 W en veille, 2 W en veille connectée, 77 W allumée. Sur 8 760 heures au maximum, 4,38 kWh et 17,52 kWh, au tarif médian ElCom 2026 hors TVA (déduit) de 27,7 ct/kWh.\n\nLG écrit que son Q-Start+ peut augmenter la consommation ; Sony écrit que certains réglages, dont le démarrage rapide, peuvent l'augmenter en veille. Selon le modèle, les chiffres changent.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui débranche sa télé tous les soirs.\n\n#television #veille #electricite #suisseromande #jemesuretout",
+   "statut": "en attente"
+  },
+  {
+   "id": "day70",
+   "prevu": "2026-11-09T19:00",
+   "source": "autopilot jour 70",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971836/tiktok-autopilot/reels/day70_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "iPhone 17 en Suisse ou en France : même avec la détaxe, 26 francs de plus côté France\n\nPrix Apple relevés le 6.11.2026, 256 Go : 899 CHF en Suisse (TVA 8,1 % comprise), 1 119 € en France, soit 1 027,24 CHF (BNS, 5.11.2026 : 1 € = 0,9180 CHF).\n\nDétaxe au mieux, si le vendeur l'accorde, TVA française de 20 % retirée : 932,50 €, soit 856,04 CHF. Au-dessus de 150 francs de franchise, TVA suisse de 8,1 % (OFDF) : environ 925 CHF au cours BNS (l'OFDF applique son propre taux), frais de détaxe non comptés. Hors TVA, Suisse 831,64 CHF.\n\nExemple de calcul, pas un conseil fiscal. Les prix et le cours changent.\n\nEnvoie-la à ton collègue qui passe la frontière pour son téléphone.\n\n#iphone17 #prixiphone #detaxe #suisseromande #jemesuretout",
+   "statut": "en attente"
+  },
+  {
+   "id": "day58",
+   "prevu": "2026-11-10T19:00",
+   "source": "autopilot jour 58",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971844/tiktok-autopilot/reels/day58_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Micro-ondes : il ne chauffe pas de l'intérieur, et voilà pourquoi le centre reste froid\n\nFDA : dans un plat épais, les ondes cuisent surtout les couches extérieures, l'intérieur chauffe par conduction. USDA : elles pénètrent de 2,5 à 3,8 cm. Dans la cavité, les ondes se croisent et laissent des zones froides environ tous les 6 cm (demi-longueur d'onde à 2,45 GHz) ; c'est le rôle du plateau.\n\nLe conseil de l'USDA : étaler, couvrir, mélanger à mi-temps, laisser reposer au moins 3 minutes. Exemple : 1 000 W consommés pendant 4 minutes, 0,067 kWh, environ 2 ct au tarif médian ElCom 2026 (1,85 ct hors TVA, déduit).\n\nMicro-ondes fictif, voix de synthèse.\n\nEnvoie-la à ton collègue qui rallonge toujours le temps.\n\n#microondes #cuisine #astucemaison #suisseromande #jemesuretout",
+   "statut": "en attente"
+  },
+  {
+   "id": "day57",
+   "prevu": "2026-11-11T19:00",
+   "source": "autopilot jour 57",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971850/tiktok-autopilot/reels/day57_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Lave-vaisselle ou main : 15 litres contre 103 pour 12 couverts\n\nÉtude de l'Université de Bonn (Stamminger et al.), ancienne et financée par plusieurs fabricants : 103 litres à la main en moyenne, de 46 en Allemagne à 170 en Espagne et au Portugal ; 15 litres en machine.\n\nExemple à Lausanne (eau et épuration 3,45 fr./m³) : 30 ct d'écart par vaisselle, environ 110 francs par an à une vaisselle par jour, sans compter l'énergie. Selon une revue de 2024 (données Richter 2011), avec 4 % de gens qui rincent en Allemagne et 42 % en Italie, le rinçage ajoute en moyenne 2,8 et 19,7 litres par cycle.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui rince tout avant de charger.\n\n#lavevaisselle #economiedeau #astucemaison #suisseromande #jemesuretout",
+   "statut": "en attente"
+  },
+  {
+   "id": "day24",
+   "prevu": "2026-11-12T19:00",
+   "source": "autopilot jour 24",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793972495/tiktok-autopilot/reels/day24_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Mode sombre : seulement 3 à 9 % d'énergie en moins entre 30 et 50 % de luminosité\n\nÉtude de l'université Purdue (2021), 4 téléphones OLED et 6 applis : 3 à 9 % en moyenne entre 30 et 50 % de luminosité, 39 à 47 % à 100 %. Sur Google Actualités et un Pixel 5, 20 % en mode clair consomme autant que 50 % en mode sombre.\n\nSur un écran LCD, l'étude ne donne aucun chiffre. Purdue n'a pas mesuré l'effet sur les yeux.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui jure que le mode sombre sauve sa batterie.\n\n#modesombre #batterie #astucetech #suisseromande #jemesuretout",
+   "statut": "en attente"
   }
  ]
 }

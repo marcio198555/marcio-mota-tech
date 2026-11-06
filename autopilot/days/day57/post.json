@@ -1,0 +1,35 @@
+{
+ "day": 57,
+ "title": "Lave-vaisselle ou vaisselle à la main : qui gaspille le plus d'eau ?",
+ "format": "V",
+ "recette": "Vérité du quotidien (bloc du 05.11, point 2 bis)",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971846/tiktok-autopilot/day57_vaisselle-main-machine.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971848/tiktok-autopilot/stories/day57_story.mp4",
+ "heure": "18:00",
+ "date": "2026-11-11",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "prête",
+ "tiktok_title": "Lave-vaisselle ou vaisselle à la main : qui gaspille le plus d'eau ?",
+ "caption": "Vaisselle à la main : 103 litres en moyenne, lave-vaisselle : 15 litres pour 12 couverts 🍽️ Étude de l'Université de Bonn (Stamminger et al.), ancienne et financée par plusieurs fabricants : 46 l en Allemagne, 170 l en Espagne et au Portugal. Eau à Lausanne : 3,45 fr./m³, soit 30 ct d'écart par vaisselle et environ 110 francs par an à une vaisselle par jour (exemple, sans l'énergie). Tu rinces avant de charger ? 👇 #lavevaisselle #vaisselle #economiedeau #astucemaison #suisseromande",
+ "duree_s": 68.97,
+ "story_instagram": {
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971848/tiktok-autopilot/stories/day57_story.mp4",
+  "programme_le": "2026-11-11T18:05:00+01:00"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-11T19:00",
+  "coupe_s": 65.25,
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971850/tiktok-autopilot/reels/day57_reel.mp4",
+  "caption": "Lave-vaisselle ou main : 15 litres contre 103 pour 12 couverts\n\nÉtude de l'Université de Bonn (Stamminger et al.), ancienne et financée par plusieurs fabricants : 103 litres à la main en moyenne, de 46 en Allemagne à 170 en Espagne et au Portugal ; 15 litres en machine.\n\nExemple à Lausanne (eau et épuration 3,45 fr./m³) : 30 ct d'écart par vaisselle, environ 110 francs par an à une vaisselle par jour, sans compter l'énergie. Selon une revue de 2024 (données Richter 2011), avec 4 % de gens qui rincent en Allemagne et 42 % en Italie, le rinçage ajoute en moyenne 2,8 et 19,7 litres par cycle.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui rince tout avant de charger.\n\n#lavevaisselle #economiedeau #astucemaison #suisseromande #jemesuretout",
+  "statut": "en attente"
+ },
+ "sources": [
+  "https://silo.tips/download/a-european-comparison-of-cleaning-dishes-by-hand",
+  "https://www.degruyterbrill.com/document/doi/10.1515/tsd-2024-2634/html",
+  "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/proprietaires-et-professionnels/taxes-et-facturation.html",
+  "https://www.spokesman.com/stories/2009/dec/07/handwashing-your-dishes-better-new-study-says-no",
+  "https://zientzia.eus/artikuluak/platerak-garbitzean-ur-asko-xahutzen-dute-batzuek/en"
+ ]
+}

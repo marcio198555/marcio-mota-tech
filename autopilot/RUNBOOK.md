@@ -87,6 +87,7 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >    - **Longueur : 50 à 70 s** (13 à 16 phrases, **150 à 190 mots** : mesuré sur le jour 55, 182 mots = 64,5 s de voix
 >      Chatterbox avec `--gap 0.1`, soit environ 2,8 mots par seconde). Remplace les 35–40 s ci-dessus.
 >    - **Mesure du 06.11** : avec beaucoup de nombres, 180 mots font 72 à 82 s de voix : viser 150 à 165 mots pour une vidéo chiffrée. Ne jamais faire défiler un compteur sur des valeurs inventées.
+> - **Mesure du 06.11 (soir)** : `tools/trim_sil.py` sur les prises avant le montage (blancs de 6 s trouvés) ; briques communes dans `render/kit.js` (`KIT`), modèles `days/day59` (V) et `days/day27` (A) ; prononciations et leçons dans learnings.md du 06.11.
    - **Image** : un changement toutes les 2 s environ (compteurs qui défilent, étiquettes, tampons rouges, courbes,
 >      personnes 3D `man_technologist` et `woman_technologist`), même style sombre « JE MESURE TOUT ». Les briques de
 >      `days/day55/scene.js` (tampon, batterie, duel, thermomètre, compteur) se copient dans la scène suivante.

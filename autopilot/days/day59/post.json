@@ -1,0 +1,38 @@
+{
+ "day": 59,
+ "title": "La veille de ta télé coûte combien par an ?",
+ "format": "V",
+ "recette": "Vérité du quotidien (bloc du 05.11, point 2 bis)",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971825/tiktok-autopilot/day59_veille-tele.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971827/tiktok-autopilot/stories/day59_story.mp4",
+ "heure": "18:00",
+ "date": "2026-11-08",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "programmée",
+ "tiktok_title": "La veille de ta télé coûte combien par an ?",
+ "caption": "Veille de ta télé : 1 fr. 20 par an en veille simple, 4 fr. 85 en veille connectée 📺 Fiche EPREL d'une Samsung QE55LS03HAU : 0,5 W et 2 W ; calcul sur 8 760 h au tarif médian ElCom 2026 hors TVA, déduit (27,7 ct/kWh), au maximum, si la télé n'est jamais allumée. LG et Sony indiquent que le démarrage rapide peut augmenter la consommation, et Sony que la veille réelle peut dépasser la fiche. Ton démarrage rapide est activé ou pas ? 👇 #television #veille #electricite #astucetech #suisseromande",
+ "duree_s": 64.97,
+ "story_instagram": {
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971827/tiktok-autopilot/stories/day59_story.mp4",
+  "programme_le": "2026-11-08T18:05:00+01:00",
+  "buffer_id": "6aedd6b1b47fa26821074480"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-08T19:00",
+  "coupe_s": 59.61,
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971830/tiktok-autopilot/reels/day59_reel.mp4",
+  "caption": "Veille de ta télé : 1 fr. 20 par an, ou 4 fr. 85 en veille connectée\n\nFiche européenne EPREL d'une Samsung 55 pouces (QE55LS03HAU) : 0,5 W en veille, 2 W en veille connectée, 77 W allumée. Sur 8 760 heures au maximum, 4,38 kWh et 17,52 kWh, au tarif médian ElCom 2026 hors TVA (déduit) de 27,7 ct/kWh.\n\nLG écrit que son Q-Start+ peut augmenter la consommation ; Sony écrit que certains réglages, dont le démarrage rapide, peuvent l'augmenter en veille. Selon le modèle, les chiffres changent.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui débranche sa télé tous les soirs.\n\n#television #veille #electricite #suisseromande #jemesuretout",
+  "statut": "en attente"
+ },
+ "sources": [
+  "https://community.sony.dk/t5/how-tos-faqs-tvs-home-cinema/standby-power-consumption/ba-p/2231036",
+  "https://eprel.ec.europa.eu/fiches/electronicdisplays/Fiche_2571443_EN.pdf",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+  "https://www.easylounge.com/cdn/shop/files/cf9168281ad262d6a106038158ce4fe90348ae7e_LGOLED55C6V_01_notice.pdf",
+  "https://www.lg.com/us/support/help-library/lg-oled-tv-settings-how-can-i-use-the-q-start-feature-CT10000018-20154713330894"
+ ],
+ "buffer_id": "6aedd6b1b47fa2682107441d",
+ "programme_le": "2026-11-08T18:00:00+01:00"
+}

@@ -1,0 +1,34 @@
+{
+ "day": 58,
+ "title": "Pourquoi le centre de ton plat reste froid au micro-ondes ?",
+ "format": "A",
+ "recette": "Vérité du quotidien (bloc du 05.11, point 2 bis)",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971839/tiktok-autopilot/day58_micro-ondes-centre.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971842/tiktok-autopilot/stories/day58_story.mp4",
+ "heure": "18:00",
+ "date": "2026-11-10",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "prête",
+ "tiktok_title": "Pourquoi le centre de ton plat reste froid au micro-ondes ?",
+ "caption": "Micro-ondes : non, il ne chauffe pas de l'intérieur 🍲 FDA : dans un plat épais, les couches extérieures sont cuites surtout par les ondes, l'intérieur par conduction. USDA : pénétration de 2,5 à 3,8 cm (1 à 1,5 pouce), étaler, couvrir, mélanger, temps de repos. Zones froides environ tous les 6 cm : la moitié de la longueur d'onde de 12 cm à 2,45 GHz. Micro-ondes fictif, voix de synthèse. Toi, tu mélanges ou tu rajoutes du temps ? 👇 #microondes #cuisine #astucemaison #rechauffer #suisseromande",
+ "duree_s": 69.07,
+ "story_instagram": {
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971842/tiktok-autopilot/stories/day58_story.mp4",
+  "programme_le": "2026-11-10T18:05:00+01:00"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-10T19:00",
+  "coupe_s": 63.48,
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971844/tiktok-autopilot/reels/day58_reel.mp4",
+  "caption": "Micro-ondes : il ne chauffe pas de l'intérieur, et voilà pourquoi le centre reste froid\n\nFDA : dans un plat épais, les ondes cuisent surtout les couches extérieures, l'intérieur chauffe par conduction. USDA : elles pénètrent de 2,5 à 3,8 cm. Dans la cavité, les ondes se croisent et laissent des zones froides environ tous les 6 cm (demi-longueur d'onde à 2,45 GHz) ; c'est le rôle du plateau.\n\nLe conseil de l'USDA : étaler, couvrir, mélanger à mi-temps, laisser reposer au moins 3 minutes. Exemple : 1 000 W consommés pendant 4 minutes, 0,067 kWh, environ 2 ct au tarif médian ElCom 2026 (1,85 ct hors TVA, déduit).\n\nMicro-ondes fictif, voix de synthèse.\n\nEnvoie-la à ton collègue qui rallonge toujours le temps.\n\n#microondes #cuisine #astucemaison #suisseromande #jemesuretout",
+  "statut": "en attente"
+ },
+ "sources": [
+  "https://webarchive.library.unt.edu/web/20120915114427/http:/www.fsis.usda.gov/PDF/Microwave_Ovens_and_Food_Safety.pdf",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+  "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens",
+  "https://www.scienceabc.com/innovation/why-do-we-need-a-turntable-in-microwaves.html"
+ ]
+}

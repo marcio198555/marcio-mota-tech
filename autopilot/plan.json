@@ -694,30 +694,37 @@
     "étude Purdue 2021 sur le mode sombre (gain selon la luminosité)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "prête",
    "heure": "18:00",
    "format": "V",
    "semaine": "S2",
-   "annonce": null,
-   "annonce_jour": null
+   "annonce": "Baisser le chauffage d'un degré : combien tu gagnes vraiment ?",
+   "annonce_jour": 25,
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-12T19:00"
+   }
   },
   {
    "jour": 25,
-   "date": null,
+   "date": "2026-11-13",
    "sujet": "Baisser le chauffage de 1 °C : combien tu économises vraiment",
    "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
    "refs": [
     "R4",
     "R8"
    ],
-   "accroche": "−1 °C = −?% sur ta facture",
+   "accroche": "Toi, tu chauffes à vingt et un degrés. Ton collègue, à vingt. Combien il gagne, en vrai ?",
    "a_verifier": [
     "chiffre officiel SuisseEnergie ou OFEN (économie par degré)",
     "température recommandée par pièce"
    ],
    "argent": "Marques thermostats connectés",
-   "statut": "idée",
-   "heure": null
+   "statut": "à produire",
+   "heure": "10:00",
+   "annoncee": true,
+   "format": "V",
+   "semaine": "S3"
   },
   {
    "jour": 26,
@@ -751,12 +758,21 @@
     "surconsommation par degré en moins"
    ],
    "argent": "Marques thermomètres connectés",
-   "statut": "à produire",
+   "statut": "programmée",
    "heure": "18:00",
    "format": "A",
    "semaine": "S2",
    "annonce": "Sèche-linge ou étendoir : le coût réel en CHF",
-   "annonce_jour": 37
+   "annonce_jour": 37,
+   "buffer_id": "6aedd6afb47fa268210743ad",
+   "story_instagram": {
+    "buffer_id": "6aedd6b0fd32b2a5bf0f9a49",
+    "programme_le": "2026-11-07T18:05:00+01:00"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-07T19:00"
+   }
   },
   {
    "jour": 28,
@@ -1301,12 +1317,16 @@
     "coût de l'eau chaude et de l'électricité en CHF"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "prête",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "semaine": "S2",
    "annonce": "Douche ou bain : combien en francs ?",
-   "annonce_jour": 62
+   "annonce_jour": 62,
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-11T19:00"
+   }
   },
   {
    "jour": 58,
@@ -1321,12 +1341,16 @@
     "conseil officiel (temps de repos, mélanger)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "prête",
    "ajoutee_le": "2026-11-05",
    "format": "A",
    "semaine": "S2",
    "annonce": "Suisse contre France : 1 kWh d'électricité",
-   "annonce_jour": 71
+   "annonce_jour": 71,
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-10T19:00"
+   }
   },
   {
    "jour": 59,
@@ -1341,12 +1365,21 @@
     "tarif ElCom et calcul en CHF par an"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "programmée",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "semaine": "S2",
    "annonce": "Lave-linge à 30 °C ou 60 °C : l'énergie en jeu",
-   "annonce_jour": 32
+   "annonce_jour": 32,
+   "buffer_id": "6aedd6b1b47fa2682107441d",
+   "story_instagram": {
+    "buffer_id": "6aedd6b1b47fa26821074480",
+    "programme_le": "2026-11-08T18:05:00+01:00"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-08T19:00"
+   }
   },
   {
    "jour": 60,
@@ -1437,12 +1470,21 @@
     "TVA 8,1 % et 20 %, conditions de la détaxe pour un résident suisse (source officielle)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "programmée",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "semaine": "S2",
    "annonce": "Faut-il éteindre sa box internet la nuit ?",
-   "annonce_jour": 56
+   "annonce_jour": 56,
+   "buffer_id": "6aedd6b20b0f6e64a0c0cc63",
+   "story_instagram": {
+    "buffer_id": "6aedd6b3fd32b2a5bf0f9aef",
+    "programme_le": "2026-11-09T18:05:00+01:00"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-09T19:00"
+   }
   },
   {
    "jour": 71,
