@@ -1,0 +1,27 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 11,
+ "segments": [
+  {
+   "id": "s07",
+   "text": "Mais à cent pour cent, en plein soleil : trente-neuf à quarante-sept pour cent."
+  },
+  {
+   "id": "s09",
+   "text": "Sur un Pixel cinq, dans Google Actualités, vingt pour cent en clair consomme autant que cinquante pour cent en sombre."
+  },
+  {
+   "id": "s11",
+   "text": "Sur un écran èl-cé-dé, la lumière vient de derrière : l'étude ne donne aucun chiffre."
+  },
+  {
+   "id": "s12",
+   "text": "Et si le mode sombre repose tes yeux, tant mieux : Purdue ne l'a pas mesuré."
+  }
+ ]
+}

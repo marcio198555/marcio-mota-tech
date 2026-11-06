@@ -46,32 +46,32 @@
         line(ctx, 'LUMINOSITÉ 30 À 50 %', 500, 390, t, S('s04'), { size: 58, dx: 0 });
         slider(ctx, 200, 500, 680, 0.4, { a: 0.3, b: 0.5 });
         big(ctx, '3 à 9 %', 500, 720, t, f('s04', 0.55), { size: 190, color: NIGHT });
-        tag(ctx, "D'ÉNERGIE EN MOINS · EN MOYENNE", 500, 900, t, f('s04', 0.65), { size: 34 });
+        tag(ctx, "D'ÉNERGIE EN MOINS · EN MOYENNE", 500, 900, t, f('s04', 0.65), { size: 36 });
       });
       block(ctx, t, S('s05'), S('s06'), () => {
         pop(ctx, t, S('s05') + 0.05, 500, 590, () => { ctx.rotate(-0.04); roundRect(ctx, -340, -170, 680, 340, 22); ctx.fillStyle = '#3f8f67'; ctx.fill(); ctx.lineWidth = 8; ctx.strokeStyle = '#2a6a4a'; ctx.stroke(); text(ctx, '100', 0, 0, { size: 170, weight: 900, color: '#eafff2' }); text(ctx, 'FRANCS', 0, 110, { size: 44, weight: 800, color: '#eafff2' }); });
         coin(ctx, 370, 960, 90, '3'); coin(ctx, 630, 960, 90, '9'); text(ctx, 'à', 500, 960, { size: 56, weight: 900, color: WHITE, alpha: clamp((t - f('s05', 0.4)) * 4) });
-        tag(ctx, 'IMAGE, PAS UN COÛT', 500, 1110, t, f('s05', 0.5), { size: 34 });
+        tag(ctx, 'EXEMPLE, PAS UN COÛT', 500, 1110, t, f('s05', 0.5), { size: 36 });
       });
       block(ctx, t, S('s06'), S('s07'), () => {
         big(ctx, '3 à 9 %', 500, 560, t, undefined, { size: 150, color: NIGHT });
         CHR.emo(ctx, 'magnifying_glass_tilted_left', 720, 720, 280, t, S('s06') + 0.1);
         CHR.emo(ctx, 'person_shrugging', 290, 900, 300, t, f('s06', 0.3));
-        tag(ctx, 'DIFFICILE À REMARQUER, SELON PURDUE', 500, 1110, t, f('s06', 0.55), { size: 32 });
+        tag(ctx, 'DIFFICILE À REMARQUER, SELON PURDUE', 500, 1110, t, f('s06', 0.55), { size: 36 });
       });
       block(ctx, t, S('s07'), S('s08'), () => {
         const a = (t - S('s07')) * 0.8; ctx.save(); ctx.translate(780, 460); for (let i = 0; i < 12; i++) { ctx.rotate(Math.PI / 6); ctx.fillStyle = SUN; ctx.fillRect(-7, -120 + Math.sin(a * 5 + i) * 10, 14, 44); } ctx.beginPath(); ctx.arc(0, 0, 66, 0, 7); ctx.fill(); ctx.restore();
         line(ctx, 'À 100 %', 330, 440, t, S('s07') + 0.1, { size: 90, weight: 900, dx: 0 });
         slider(ctx, 200, 620, 680, ease.out(prog(t, S('s07') + 0.1, 0.5)), { color: SUN });
         big(ctx, '39 à 47 %', 500, 860, t, f('s07', 0.5), { size: 160, color: SUN });
-        tag(ctx, 'EN MOYENNE · EX. EN PLEIN SOLEIL', 500, 1040, t, f('s07', 0.6), { size: 32 });
+        tag(ctx, 'EN MOYENNE · EX. EN PLEIN SOLEIL', 500, 1040, t, f('s07', 0.6), { size: 36 });
       });
       block(ctx, t, S('s08'), S('s09'), () => {
         stamp(ctx, 'SURPRISE', 500, 420, t, S('s08'), { size: 80 });
         tel(ctx, 500, 840, 330, 620, false, { bright: 1 - 0.7 * ease.inOut(prog(t, f('s08', 0.3), 0.9)) });
       });
       block(ctx, t, S('s09'), S('s10'), () => {
-        tag(ctx, 'PIXEL 5 · GOOGLE ACTUALITÉS', 500, 380, t, S('s09'), { size: 34, color: GOLD });
+        tag(ctx, 'PIXEL 5 · GOOGLE ACTUALITÉS', 500, 380, t, S('s09'), { size: 36, color: GOLD });
         tel(ctx, 260, 720, 270, 500, false, { bright: 0.45 }); tel(ctx, 740, 720, 270, 500, true);
         big(ctx, '20 %', 260, 1060, t, f('s09', 0.2), { size: 110, color: WHITE }); big(ctx, '50 %', 740, 1060, t, f('s09', 0.55), { size: 110, color: NIGHT });
         stamp(ctx, '=', 500, 720, t, f('s09', 0.45), { size: 130, color: GOLD, rot: 0 });
@@ -93,8 +93,8 @@
       });
       block(ctx, t, S('s12'), S('s13'), () => {
         CHR.emo(ctx, 'eyes', 500, 620, 380, t, S('s12'));
-        line(ctx, 'MOINS DE FATIGUE', 500, 880, t, f('s12', 0.25), { size: 74, weight: 900, color: NIGHT, dx: 0 });
-        tag(ctx, 'À FORTE LUMINOSITÉ · SELON PURDUE', 500, 990, t, f('s12', 0.5), { size: 32 });
+        line(ctx, 'PLUS DOUX POUR TES YEUX ?', 500, 880, t, f('s12', 0.25), { size: 64, weight: 900, color: NIGHT, dx: 0 });
+        tag(ctx, 'PAS MESURÉ PAR PURDUE', 500, 990, t, f('s12', 0.5), { size: 36 });
       });
       block(ctx, t, S('s13'), S('s14'), () => { comment(ctx, t, S('s13'), ['Ta luminosité,', 'là, maintenant ?', '?? %'], { color: SUN }); });
       block(ctx, t, S('s14'), S('s15'), () => { head(ctx, "L'ÉCART PEUT ÊTRE MINUSCULE", 360, t, f('s14', 0.5), { size: 52, color: NIGHT }); duel(ctx, t, { rb: 1 - 0.6 * ease.inOut(prog(t, f('s14', 0.2), 0.8)) }); });

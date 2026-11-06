@@ -1,0 +1,27 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 11,
+ "segments": [
+  {
+   "id": "s06",
+   "text": "Au tarif médian suisse : jusqu'à environ treize francs de plus par an."
+  },
+  {
+   "id": "s07",
+   "text": "Soit à peu près un franc par mois."
+  },
+  {
+   "id": "s13",
+   "text": "Ton verre, il affiche combien ? Écris-le en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Toi, environ treize francs de plus, dans cet exemple. Ton collègue, peut-être trop chaud."
+  }
+ ]
+}

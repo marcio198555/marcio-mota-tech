@@ -23,7 +23,7 @@
     tv(ctx, 275, 720, 340, { on: 0, pulse: 2 + 2 * Math.sin(t * 5) });
     tv(ctx, 725, 720, 340, { on: 0, led: false });
     if (o.left) o.left(); else remote(ctx, 275, 1020, 0.85, t);
-    if (o.right) o.right(); else plug(ctx, 725, 985, clamp(0.5 + 0.5 * Math.sin(t * 2.2)), t);
+    if (o.right) o.right(); else plug(ctx, 725, 965, clamp(0.5 + 0.5 * Math.sin(t * 2.2)) * 0.6, t);
   }
   function fiche(ctx, t, t0, rows) {
     pop(ctx, t, t0, 500, 690, () => {
@@ -46,8 +46,8 @@
       block(ctx, t, 0, S('s03'), () => {
         big(ctx, '? CHF / AN', 500, 360, t, undefined, { size: 112, color: GOLD });
         duel(ctx, t);
-        head(ctx, t < S('s02') ? 'QUI A RAISON ?' : 'UN RÉGLAGE CACHÉ', 1200, t, t < S('s02') ? undefined : S('s02'), { size: 58 });
-        if (t >= S('s02')) CHR.emo(ctx, 'gear', 500, 700, 200, t, S('s02') + 0.1);
+        head(ctx, t < S('s02') ? 'QUI A RAISON ?' : 'UN RÉGLAGE PEUT TOUT CHANGER', 1225, t, t < S('s02') ? undefined : S('s02'), { size: t < S('s02') ? 58 : 46 });
+        if (t >= S('s02')) CHR.emo(ctx, 'gear', 500, 880, 170, t, S('s02') + 0.1);
       });
       // veille
       block(ctx, t, S('s03'), S('s04'), () => {
@@ -68,14 +68,14 @@
         line(ctx, '365 jours', 610, 590, t, S('s05') + 0.4, { size: 60 });
         line(ctx, '= 8 760 h', 610, 680, t, S('s05') + 0.7, { size: 60, color: GOLD });
         line(ctx, '0,5 W × 8 760 h', 500, 880, t, S('s05') + 1.0, { size: 62, family: F.mono, weight: 700 });
-        big(ctx, '4,38 kWh', 500, 1040, t, S('s05') + 1.4, { size: 124 });
+        big(ctx, '≤ 4,38 kWh', 500, 1040, t, S('s05') + 1.4, { size: 118 });
       });
       // 1 fr 20
       block(ctx, t, S('s06'), S('s07'), () => {
         calc(ctx, ['4,38 kWh × 27,7 ct', '1,21 CHF'], 500, 470, t, [S('s06'), f('s06', 0.45)], { gap: 130, lastSize: 170 });
-        tag(ctx, 'PAR AN · TARIF MÉDIAN ELCOM 2026, HORS TVA', 500, 800, t, f('s06', 0.55), { size: 28 });
+        tag(ctx, 'ELCOM 2026, HORS TVA · PAR AN', 500, 800, t, f('s06', 0.55), { size: 36 });
         KIT.coin(ctx, 310, 985, 92, '1'); KIT.coin(ctx, 500, 985, 62, '20');
-        tag(ctx, '1 fr. 20', 720, 985, t, f('s06', 0.7), { size: 50, color: GOLD });
+        tag(ctx, 'ENV. 1,30 AVEC TVA', 720, 985, t, f('s06', 0.7), { color: GOLD });
       });
       // 365 fois
       block(ctx, t, S('s07'), S('s08'), () => {
@@ -114,10 +114,10 @@
           text(ctx, 'RÉGLAGES', x + w / 2, y + 130, { size: 46, weight: 900, color: WHITE });
           ['Image', 'Son', 'Démarrage rapide', 'Général'].forEach((s, i) => { const yy = y + 240 + i * 120;
             if (i === 2) { roundRect(ctx, x + 14, yy - 50, w - 28, 100, 16); ctx.fillStyle = 'rgba(230,198,106,0.2)'; ctx.fill(); }
-            if (i === 2) { text(ctx, 'Démarrage', x + 34, yy - 18, { size: 30, weight: 800, color: GOLD, align: 'left' }); text(ctx, 'rapide', x + 34, yy + 20, { size: 30, weight: 800, color: GOLD, align: 'left' }); } else text(ctx, s, x + 34, yy, { size: 34, weight: 800, color: '#aeb8cc', align: 'left', maxWidth: 260 });
+            if (i === 2) { text(ctx, 'Démarrage', x + 34, yy - 20, { size: 36, weight: 800, color: GOLD, align: 'left' }); text(ctx, 'rapide', x + 34, yy + 22, { size: 36, weight: 800, color: GOLD, align: 'left' }); } else text(ctx, s, x + 34, yy, { size: 36, weight: 800, color: '#aeb8cc', align: 'left', maxWidth: 260 });
             if (i === 2) toggle(ctx, x + w - 90, yy, 1 - prog(t, f('s11', 0.5), 0.3), { w: 100 }); });
         } });
-        CHR.emo(ctx, 'magnifying_glass_tilted_left', 780, 660, 190, t, S('s11') + 0.1);
+        CHR.emo(ctx, 'magnifying_glass_tilted_left', 780, 660, 190, t, S('s11') + 0.1); tag(ctx, 'SCHÉMA', 170, 660, t, S('s11'), { size: 40 });
       });
       // 57 h
       block(ctx, t, S('s12'), S('s13'), () => {

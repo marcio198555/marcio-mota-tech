@@ -34,7 +34,7 @@ window.KIT = (function () {
   }
   function tag(ctx, str, x, y, t, t0, o = {}) {
     const a = t0 === undefined ? 1 : ease.out(prog(t, t0, 0.25)); if (a <= 0.001) return;
-    chip(ctx, str, x, y, { color: o.color || WHITE, size: o.size || 32, alpha: a, align: o.align, dot: o.dot });
+    chip(ctx, str, x, y, { color: o.color || WHITE, size: o.size || 36, alpha: a, align: o.align, dot: o.dot });
   }
   // calcul : lignes qui s'écrivent, la dernière en grand ; times[i] = début de la ligne i
   function calc(ctx, lines, x, y, t, times, o = {}) {
@@ -116,7 +116,7 @@ window.KIT = (function () {
     const y0 = o.y0 || 480, y1 = o.y1 || 1200;
     ctx.save(); ctx.setLineDash([16, 16]); ctx.strokeStyle = 'rgba(230,198,106,0.45)'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(500, y0); ctx.lineTo(500, y1); ctx.stroke(); ctx.restore();
     chip(ctx, o.left || 'TOI', 275, y0 + 10, { color: WHITE, size: 38 });
-    chip(ctx, o.right || 'TON COLLÈGUE', 725, y0 + 10, { color: WHITE, size: 34 });
+    chip(ctx, o.right || 'TON COLLÈGUE', 725, y0 + 10, { color: WHITE, size: 36 });
   }
   function head(ctx, str, y, t, t0, o = {}) {
     const k = t0 === undefined ? 1 : ease.back(prog(t, t0, 0.3)); if (k <= 0) return;

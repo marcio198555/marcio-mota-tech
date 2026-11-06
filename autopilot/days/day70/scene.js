@@ -8,7 +8,7 @@
     ctx.save(); ctx.globalAlpha *= 0.16; ctx.fillStyle = CH; ctx.fillRect(0, 440, 500, 800); ctx.fillStyle = FR; ctx.fillRect(500, 440, 580, 800); ctx.restore();
     ctx.save(); ctx.setLineDash([16, 16]); ctx.strokeStyle = 'rgba(230,198,106,0.6)'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(500, 450); ctx.lineTo(500, 1220); ctx.stroke(); ctx.restore();
     flagCH(ctx, 275, 520, 90); flagFR(ctx, 725, 520, 76);
-    chip(ctx, 'TOI', 275, 615, { color: WHITE, size: 38 }); chip(ctx, 'TON COLLÈGUE', 725, 615, { color: WHITE, size: 34 });
+    chip(ctx, 'TOI', 275, 615, { color: WHITE, size: 38 }); chip(ctx, 'TON COLLÈGUE', 725, 615, { color: WHITE, size: 36 });
   }
   function tel(ctx, x, y, s, color) {
     phone(ctx, x, y, 210 * s, 400 * s, { border: color || '#6b7a97', draw: (a, b, w, h) => { const g = ctx.createLinearGradient(0, b, 0, b + h); g.addColorStop(0, '#22345a'); g.addColorStop(1, '#0b1220'); ctx.fillStyle = g; ctx.fillRect(a, b, w, h); text(ctx, '256', a + w / 2, b + h * 0.46, { size: 60 * s, weight: 900, color: WHITE }); text(ctx, 'Go', a + w / 2, b + h * 0.62, { size: 36 * s, weight: 800, color: '#aeb8cc' }); } });
@@ -34,16 +34,16 @@
       block(ctx, t, S('s03'), S('s04'), () => {
         flagCH(ctx, 500, 430, 170); tel(ctx, 500, 780, 1.05);
         price(ctx, '899 CHF', 500, 1115, t, f('s03', 0.45), CH);
-        tag(ctx, 'APPLE SUISSE · 6.11.2026 · TVA 8,1 % COMPRISE', 500, 545, t, S('s03') + 0.1, { size: 28 });
+        tag(ctx, 'APPLE, 6.11.2026 · TVA COMPRISE', 500, 545, t, S('s03') + 0.1, { size: 36 });
       });
       block(ctx, t, S('s04'), S('s05'), () => {
         flagFR(ctx, 500, 430, 150); tel(ctx, 500, 780, 1.05);
         price(ctx, '1 119 €', 500, 1115, t, f('s04', 0.4), FR);
-        tag(ctx, 'APPLE FRANCE · 6.11.2026', 500, 545, t, S('s04') + 0.1, { size: 30 });
+        tag(ctx, 'APPLE FRANCE · 6.11.2026', 500, 545, t, S('s04') + 0.1, { size: 36 });
       });
       block(ctx, t, S('s05'), S('s06'), () => {
         line(ctx, '1 119 € × 0,9180', 500, 500, t, S('s05') + 0.1, { size: 72, family: F.mono, weight: 700, dx: 0 });
-        tag(ctx, 'BNS, 5.11.2026 : 1 € = 0,9180 CHF', 500, 610, t, f('s05', 0.3), { size: 32 });
+        tag(ctx, 'BNS, 5.11.2026 : 1 € = 0,9180 CHF', 500, 610, t, f('s05', 0.3), { size: 36 });
         big(ctx, '1 027 CHF', 500, 830, t, f('s05', 0.6), { size: 136, color: FR });
       });
       block(ctx, t, S('s06'), S('s07'), () => {
@@ -52,7 +52,7 @@
       });
       block(ctx, t, S('s07'), S('s08'), () => {
         pop(ctx, t, S('s07') + 0.1, 500, 640, () => { ctx.rotate(-0.08 + Math.sin(t * 3) * 0.02); roundRect(ctx, -300, -180, 600, 360, 34); const g = ctx.createLinearGradient(-300, -180, 300, 180); g.addColorStop(0, '#d6b65a'); g.addColorStop(1, '#7c6020'); ctx.fillStyle = g; ctx.fill(); text(ctx, 'DÉTAXE', 0, -40, { size: 96, weight: 900, color: '#201707' }); text(ctx, 'TVA remboursée', 0, 60, { size: 46, weight: 800, color: '#201707' }); });
-        tag(ctx, 'RÉSIDENT SUISSE · PLUS DE 100 € · DOUANE FRANÇAISE', 500, 900, t, f('s07', 0.5), { size: 26 });
+        tag(ctx, 'RÉSIDENT SUISSE · PLUS DE 100 €', 500, 900, t, f('s07', 0.5), { size: 36 });
         CHR.emo(ctx, 'man_technologist', 500, 1085, 210, t, f('s07', 0.3));
       });
       block(ctx, t, S('s08'), S('s09'), () => {
@@ -66,7 +66,7 @@
         roundRect(ctx, 380, 420, 240, 80, 14); ctx.fillStyle = '#d52b1e'; ctx.fill(); text(ctx, 'DOUANE', 500, 462, { size: 46, weight: 900, color: WHITE });
         big(ctx, '> 150 CHF', 500, 650, t, S('s09') + 0.2, { size: 104 });
         stamp(ctx, 'TVA SUISSE : 8,1 %', 500, 830, t, f('s09', 0.55), { size: 72 });
-        tag(ctx, 'OFDF · SUR TOUTE LA VALEUR · QUICKZOLL', 500, 985, t, f('s09', 0.7), { size: 28 });
+        tag(ctx, 'OFDF · SUR TOUTE LA VALEUR', 500, 985, t, f('s09', 0.7), { size: 36 });
       });
       block(ctx, t, S('s10'), S('s11'), () => {
         line(ctx, '856,04 × 1,081', 500, 450, t, S('s10'), { size: 66, family: F.mono, weight: 700, dx: 0 });

@@ -30,10 +30,10 @@
   function duelCard(ctx, t, o = {}) {
     card(ctx, 520);
     ctx.save(); ctx.setLineDash([14, 14]); ctx.strokeStyle = 'rgba(230,198,106,0.5)'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(500, 330); ctx.lineTo(500, 810); ctx.stroke(); ctx.restore();
-    chip(ctx, 'TOI', 285, 362, { color: WHITE, size: 36 }); chip(ctx, 'TON COLLÈGUE', 715, 362, { color: WHITE, size: 32 });
+    chip(ctx, 'TOI', 285, 362, { color: WHITE, size: 36 }); chip(ctx, 'TON COLLÈGUE', 715, 362, { color: WHITE, size: 36 });
     CHR.emo(ctx, 'woman_technologist', 285, 490, 170, t, undefined, { phase: 0.3 }); CHR.emo(ctx, 'man_technologist', 715, 490, 170, t, undefined, { phase: 1.4 });
-    text(ctx, 'IL CHAUFFE MAL', 285, 625, { size: 42, weight: 900, color: WHITE, maxWidth: 390 });
-    text(ctx, "DE L'INTÉRIEUR", 715, 625, { size: 42, weight: 900, color: WHITE, maxWidth: 390 });
+    text(ctx, 'IL CHAUFFE MAL', 285, 612, { size: 42, weight: 900, color: WHITE, maxWidth: 390 });
+    text(ctx, "DE L'INTÉRIEUR", 715, 612, { size: 42, weight: 900, color: WHITE, maxWidth: 390 });
   }
   window.SCENE = {
     duration: END,
@@ -48,7 +48,7 @@
       });
       block(ctx, t, S('s03'), S('s04'), () => { card(ctx, 520);
         plate(ctx, 500, 540, 165, prog(t, S('s03') + 0.3, 1.5));
-        line(ctx, 'NE PLUS MANGER FROID AU MILIEU', 500, 770, t, S('s03') + 0.2, { size: 40, color: GOLD, dx: 0 });
+        line(ctx, 'ÉVITER LE MILIEU FROID', 500, 770, t, S('s03') + 0.2, { size: 50, color: GOLD, dx: 0 });
       });
       block(ctx, t, S('s04'), S('s05'), () => { card(ctx, 520);
         text(ctx, '« JE CHAUFFE DE', 500, 430, { size: 62, weight: 900, color: WHITE });
@@ -56,13 +56,13 @@
         stamp(ctx, 'FAUX', 500, 660, t, f('s04', 0.5), { size: 130 });
       });
       block(ctx, t, S('s05'), S('s06'), () => { card(ctx, 520);
-        tag(ctx, 'SOURCE : FDA (AGENCE AMÉRICAINE)', 500, 370, t, S('s05'), { size: 30 });
+        tag(ctx, 'FDA · DANS UN PLAT ÉPAIS', 500, 370, t, S('s05'), { size: 36 });
         coupe(ctx, 170, 430, 660, 260, 0.26, t);
         line(ctx, 'FROID', 500, 560, t, f('s05', 0.3), { size: 56, color: '#07213a', dx: 0 });
         line(ctx, 'COUCHES EXTÉRIEURES', 500, 755, t, f('s05', 0.5), { size: 46, color: HOT, dx: 0 });
       });
       block(ctx, t, S('s06'), S('s07'), () => { card(ctx, 520);
-        tag(ctx, 'USDA : 1 À 1,5 POUCE', 500, 370, t, S('s06'), { size: 30 });
+        tag(ctx, 'USDA : 1 À 1,5 POUCE', 500, 370, t, S('s06'), { size: 36 });
         for (let i = 0; i <= 4; i++) { const x = 200 + i * 150; ctx.fillStyle = WHITE; ctx.fillRect(x - 3, 450, 6, i % 2 ? 26 : 44); text(ctx, String(i), x, 515, { size: 40, family: F.mono, weight: 700, color: WHITE }); }
         ctx.fillStyle = WHITE; ctx.fillRect(200, 450, 600, 6); text(ctx, 'cm', 860, 515, { size: 36, family: F.mono, weight: 700, color: '#aeb8cc' });
         const k = ease.out(prog(t, f('s06', 0.2), 0.6)); roundRect(ctx, 200, 560, 572 * k, 80, 14); ctx.fillStyle = HOT; ctx.fill();
@@ -79,13 +79,13 @@
         coupe(ctx, 330, 440, 340, 340, 0.47, t);
         line(ctx, '3,8', 240, 500, t, f('s08', 0.3), { size: 50, family: F.mono, weight: 700, color: HOT, dx: 0 }); line(ctx, '3,8', 240, 720, t, f('s08', 0.4), { size: 50, family: F.mono, weight: 700, color: HOT, dx: 0 });
         ctx.fillStyle = COLD; ctx.fillRect(330, 604, 340, 12);
-        stamp(ctx, 'HORS DE PORTÉE', 500, 610, t, f('s08', 0.6), { size: 44 });
+        stamp(ctx, 'HORS DE PORTÉE DIRECTE', 500, 610, t, f('s08', 0.6), { size: 44 });
       });
       block(ctx, t, S('s09'), S('s10'), () => { card(ctx, 520);
         stamp(ctx, 'SURPRISE', 500, 372, t, S('s09'), { size: 44 });
         for (let i = 0; i < 6; i++) for (let j = 0; j < 3; j++) { const px = 200 + i * 120, py = 470 + j * 110, hot = (i + j) % 2 === 0, a = clamp((t - f('s09', 0.2) - (i + j) * 0.05) * 4);
           ctx.save(); ctx.globalAlpha *= a * (0.65 + 0.35 * Math.sin(t * 5 + i)); ctx.fillStyle = hot ? HOT : COLD; ctx.beginPath(); ctx.arc(px, py, 44, 0, 7); ctx.fill(); ctx.restore(); }
-        tag(ctx, 'ZONES FROIDES ≈ TOUS LES 6 cm (SCHÉMA)', 500, 800, t, f('s09', 0.5), { size: 28, color: COLD });
+        tag(ctx, '≈ TOUS LES 6 cm (SCHÉMA)', 500, 800, t, f('s09', 0.5), { size: 36, color: COLD });
       });
       block(ctx, t, S('s10'), S('s11'), () => { card(ctx, 520);
         ctx.save(); ctx.translate(500, 560); ctx.rotate((t - S('s10')) * 2.2); plate(ctx, 0, 0, 150, 0.6);
@@ -98,19 +98,19 @@
       });
       block(ctx, t, S('s12'), S('s13'), () => { card(ctx, 520);
         CHR.emo(ctx, 'hourglass_done', 500, 500, 240, t, S('s12'));
-        big(ctx, 'REPOS', 500, 720, t, f('s12', 0.3), { size: 96, color: WHITE });
+        big(ctx, 'REPOS ≥ 3 min', 500, 720, t, f('s12', 0.3), { size: 96, color: WHITE });
         tag(ctx, 'LA CUISSON CONTINUE', 500, 800, t, f('s12', 0.5), { color: HOT });
       });
       block(ctx, t, S('s13'), S('s14'), () => { card(ctx, 520);
         stamp(ctx, 'EXEMPLE', 500, 385, t, S('s13'), { size: 44, color: WHITE });
-        line(ctx, '1 000 W × 4 min = 66,7 Wh', 500, 480, t, S('s13') + 0.15, { size: 44, family: F.mono, weight: 700, dx: 0 });
-        line(ctx, '× 27,7 ct / kWh', 500, 550, t, S('s13') + 0.4, { size: 44, family: F.mono, weight: 700, dx: 0 });
+        line(ctx, '1 000 W consommés × 4 min', 500, 480, t, S('s13') + 0.15, { size: 44, family: F.mono, weight: 700, dx: 0 });
+        line(ctx, '66,7 Wh × 27,7 ct / kWh', 500, 550, t, S('s13') + 0.4, { size: 44, family: F.mono, weight: 700, dx: 0 });
         big(ctx, '1,85 ct', 500, 670, t, f('s13', 0.6), { size: 120 });
-        tag(ctx, 'MÉDIANE ELCOM 2026, HORS TVA', 500, 790, t, f('s13', 0.7), { size: 28 });
+        tag(ctx, 'MÉDIANE ELCOM 2026, HORS TVA', 500, 790, t, f('s13', 0.7), { size: 36 });
       });
       block(ctx, t, S('s14'), S('s15'), () => comment(ctx, t, S('s14'), ['Tu mélanges', 'ou tu rajoutes', 'du temps ?'], { y: 560, color: HOT }));
       block(ctx, t, S('s15'), S('s16'), () => { duelCard(ctx, t);
-        CHR.emo(ctx, 'cross_mark', 285, 730, 150, t, S('s15') + 0.2); CHR.emo(ctx, 'cross_mark', 715, 730, 150, t, f('s15', 0.5));
+        stamp(ctx, 'À MOITIÉ', 285, 730, t, S('s15') + 0.2, { size: 60, color: GOLD }); CHR.emo(ctx, 'cross_mark', 715, 730, 150, t, f('s15', 0.5));
       });
       block(ctx, t, S('s16'), END + 1, () => followCTA(ctx, t, S('s16'), { when: 'DEMAIN', next: ['Suisse contre France :', 'même machine à laver'] }));
       ctx.restore();

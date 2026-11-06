@@ -17,12 +17,12 @@
   }
   function therm(ctx, x, label, frac, col, o = {}) {
     thermometer(ctx, x, 630, 190, frac, col);
-    big(ctx, label, x + (o.dx ?? 150), 560, 0, undefined, { size: 92, color: col });
+    big(ctx, label.replace(' ', '\u202f'), x + (o.dx ?? 170), 560, 0, undefined, { size: 92, color: col });
   }
   function duelCard(ctx, t) {
     card(ctx, 500);
     ctx.save(); ctx.setLineDash([14, 14]); ctx.strokeStyle = 'rgba(230,198,106,0.5)'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(500, 330); ctx.lineTo(500, 790); ctx.stroke(); ctx.restore();
-    chip(ctx, 'TOI', 285, 362, { color: WHITE, size: 36 }); chip(ctx, 'TON COLLÈGUE', 715, 362, { color: WHITE, size: 32 });
+    chip(ctx, 'TOI', 285, 362, { color: WHITE, size: 36 }); chip(ctx, 'TON COLLÈGUE', 715, 362, { color: WHITE, size: 36 });
     therm(ctx, 170, '2 °C', 0.25, ICE); therm(ctx, 600, '5 °C', 0.55, GOLD);
   }
   function fridgeAt(t) {
@@ -63,12 +63,12 @@
       block(ctx, t, S('s06'), S('s07'), () => { card(ctx, 500);
         line(ctx, '315 kWh × 15 % = 47 kWh', 500, 385, t, S('s06'), { size: 50, family: F.mono, weight: 700, dx: 0 });
         line(ctx, '47 kWh × 27,7 ct', 500, 460, t, S('s06') + 0.3, { size: 50, family: F.mono, weight: 700, dx: 0 });
-        big(ctx, '≈ 13 CHF', 500, 590, t, f('s06', 0.5), { size: 130 });
-        line(ctx, 'de plus par an', 500, 695, t, f('s06', 0.6), { size: 46 });
-        tag(ctx, 'MÉDIANE ELCOM 2026, HORS TVA', 500, 765, t, f('s06', 0.65), { size: 28 });
+        stamp(ctx, 'EXEMPLE', 800, 690, t, S('s06'), { size: 36, color: WHITE }); big(ctx, '≤ 13 CHF', 500, 590, t, f('s06', 0.5), { size: 130 });
+        line(ctx, 'de plus par an', 400, 695, t, f('s06', 0.6), { size: 46 });
+        tag(ctx, 'MÉDIANE ELCOM 2026, HORS TVA', 500, 765, t, f('s06', 0.65), { size: 36 });
       });
       block(ctx, t, S('s07'), S('s08'), () => { card(ctx, 500);
-        coin(ctx, 300, 560, 120, '1', {}); big(ctx, '1,09 CHF', 640, 520, t, S('s07') + 0.1, { size: 84 });
+        coin(ctx, 300, 560, 120, '1', {}); big(ctx, '≈ 1 CHF', 640, 520, t, S('s07') + 0.1, { size: 100 }); stamp(ctx, 'EXEMPLE', 640, 730, t, S('s07') + 0.2, { size: 44, color: WHITE });
         line(ctx, 'par mois', 640, 620, t, S('s07') + 0.3, { size: 54 });
       });
       block(ctx, t, S('s08'), S('s09'), () => { card(ctx, 500, { border: 'rgba(255,77,90,0.7)' });
@@ -108,12 +108,12 @@
         text(ctx, '🌙', 500, 530, { size: 120, family: F.emoji, weight: 400, alpha: clamp((t - f('s12', 0.4)) * 4) });
         line(ctx, 'UNE NUIT', 500, 650, t, f('s12', 0.4), { size: 40, dx: 0 });
         if (t > f('s12', 0.62)) thermometer(ctx, 735, 640, 220, 0.4, GOLD);
-        tag(ctx, '> 4 °C : UN CRAN DE PLUS', 500, 755, t, f('s12', 0.75), { size: 30 });
+        tag(ctx, '> 4 °C : UN CRAN DE PLUS', 500, 755, t, f('s12', 0.75), { size: 36 });
       });
       block(ctx, t, S('s13'), S('s14'), () => comment(ctx, t, S('s13'), ['Ton verre d\'eau', 'affiche combien ?', '?? °C'], { y: 540, color: ICE }));
       block(ctx, t, S('s14'), S('s15'), () => { duelCard(ctx, t);
-        stamp(ctx, '+ 13 CHF', 285, 765, t, S('s14') + 0.1, { size: 54 });
-        stamp(ctx, 'TROP CHAUD ?', 715, 765, t, f('s14', 0.5), { size: 44, color: GOLD });
+        stamp(ctx, '≤ + 13 CHF', 285, 775, t, S('s14') + 0.1, { size: 44 });
+        stamp(ctx, 'TROP CHAUD ?', 715, 775, t, f('s14', 0.5), { size: 40, color: GOLD });
       });
       block(ctx, t, S('s15'), END + 1, () => followCTA(ctx, t, S('s15'), { when: 'DEMAIN', next: ['linge au salon ou sèche-linge :', 'qui paie vraiment ?'] }));
       ctx.restore();

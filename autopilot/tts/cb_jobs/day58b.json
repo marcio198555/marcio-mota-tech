@@ -1,0 +1,39 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 11,
+ "segments": [
+  {
+   "id": "s03",
+   "text": "Reste : à la fin, tu sauras comment éviter le milieu froid."
+  },
+  {
+   "id": "s05",
+   "text": "L'agence américaine, la F D A, l'écrit : dans un plat épais, je chauffe surtout les couches extérieures."
+  },
+  {
+   "id": "s08",
+   "text": "Par exemple, une lasagne de huit centimètres : le milieu reste hors de portée directe."
+  },
+  {
+   "id": "s09",
+   "text": "Surprise : mes ondes se croisent et laissent des zones froides, environ tous les six centimètres."
+  },
+  {
+   "id": "s12",
+   "text": "Puis laisse reposer au moins trois minutes : la cuisson continue."
+  },
+  {
+   "id": "s13",
+   "text": "Exemple : mille watts consommés, quatre minutes : environ deux centimes."
+  },
+  {
+   "id": "s15",
+   "text": "Toi, à moitié raison : je chauffe inégalement. Ton collègue, faux : pas de l'intérieur."
+  }
+ ]
+}

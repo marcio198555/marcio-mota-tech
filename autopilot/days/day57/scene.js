@@ -39,7 +39,7 @@
     load: () => CHR.load(['sponge', 'droplet', 'magnifying_glass_tilted_left', 'money_bag', 'warning', 'receipt', 'thinking_face', 'woman_technologist', 'man_technologist', 'label']),
     draw(ctx, t) {
       background(ctx, t);
-      block(ctx, t, 0, S('s02'), () => { big(ctx, '? LITRES', 500, 350, t, undefined, { size: 120, color: AQUA }); duel(ctx, t); head(ctx, "QUI GASPILLE L'EAU ?", 1200, t, undefined, { size: 56, color: AQUA }); });
+      block(ctx, t, 0, S('s02'), () => { big(ctx, '? LITRES', 500, 375, t, undefined, { size: 120, color: AQUA }); duel(ctx, t); head(ctx, "QUI GASPILLE L'EAU ?", 1200, t, undefined, { size: 56, color: AQUA }); });
       block(ctx, t, S('s02'), S('s03'), () => {
         sink(ctx, 500, 800, 1.5, t); CHR.emo(ctx, 'magnifying_glass_tilted_left', 760, 590, 200, t, S('s02') + 0.1);
         stamp(ctx, 'LE GESTE QUI AJOUTE DES LITRES', 500, 370, t, S('s02') + 0.2, { size: 46, color: GOLD });
@@ -53,12 +53,12 @@
       });
       block(ctx, t, S('s04'), S('s05'), () => {
         tank(ctx, 500, 1100, 480, 620, ease.out(prog(t, S('s04') + 0.1, 1)), AQUA);
-        big(ctx, '103 l', 500, 800, t, f('s04', 0.4), { size: 170, color: WHITE });
+        big(ctx, '103 l', 500, 800, t, f('s04', 0.4), { size: 120, color: WHITE });
         tag(ctx, 'À LA MAIN · MOYENNE', 500, 400, t, S('s04'), { size: 38 });
       });
       block(ctx, t, S('s05'), S('s06'), () => {
         tank(ctx, 260, 1100, 280, 620, 1, AQUA, '103 l'); tank(ctx, 740, 1100, 280, 620, 15 / 103 * ease.out(prog(t, S('s05') + 0.1, 0.5)), GREEN, '15 l');
-        tag(ctx, 'EN MACHINE', 740, 400, t, S('s05'), { size: 38, color: GREEN }); tag(ctx, 'À LA MAIN', 260, 400, t, S('s05'), { size: 38 });
+        tag(ctx, 'MACHINE A/A/A', 740, 400, t, S('s05'), { size: 38, color: GREEN }); tag(ctx, 'À LA MAIN', 260, 400, t, S('s05'), { size: 38 });
       });
       block(ctx, t, S('s06'), S('s07'), () => {
         big(ctx, '≈ 7 ×', 500, 620, t, S('s06') + 0.05, { size: 260, color: GREEN });
@@ -79,7 +79,7 @@
         stamp(ctx, 'EXEMPLE', 500, 400, t, S('s09'), { size: 56, color: WHITE });
         line(ctx, '0,30 fr. × 365 jours', 500, 530, t, S('s09') + 0.2, { size: 66, family: F.mono, weight: 700, dx: 0 });
         coins(ctx, t, S('s09') + 0.3, 14, 180, 820, 1190, 'fr');
-        big(ctx, '110 CHF', 500, 700, t, f('s09', 0.5), { size: 170 }); line(ctx, 'par an, sans l\'énergie', 500, 840, t, f('s09', 0.6), { size: 52, dx: 0 });
+        big(ctx, '≈ 110 CHF', 500, 700, t, f('s09', 0.5), { size: 170 }); line(ctx, 'par an, sans l\'énergie', 500, 840, t, f('s09', 0.6), { size: 52, dx: 0 });
       });
       block(ctx, t, S('s10'), S('s11'), () => {
         stamp(ctx, 'SURPRISE', 500, 390, t, S('s10'), { size: 70 });
@@ -89,13 +89,13 @@
       block(ctx, t, S('s11'), S('s12'), () => {
         CHR.emo(ctx, 'warning', 500, 500, 240, t, S('s11'));
         line(ctx, 'ÉTUDE ANCIENNE', 500, 730, t, S('s11') + 0.2, { size: 72, weight: 900, dx: 0 });
-        line(ctx, 'EN PARTIE FINANCÉE', 500, 840, t, f('s11', 0.4), { size: 66, weight: 900, color: GOLD, dx: 0 });
-        line(ctx, 'PAR DES FABRICANTS', 500, 925, t, f('s11', 0.5), { size: 66, weight: 900, color: GOLD, dx: 0 });
+        line(ctx, 'FINANCÉE PAR', 500, 840, t, f('s11', 0.4), { size: 66, weight: 900, color: GOLD, dx: 0 });
+        line(ctx, 'PLUSIEURS FABRICANTS', 500, 925, t, f('s11', 0.5), { size: 66, weight: 900, color: GOLD, dx: 0 });
       });
       block(ctx, t, S('s12'), S('s13'), () => {
         sink(ctx, 500, 690, 0.95, t);
-        tag(ctx, 'RINCER AVANT DE CHARGER · MOYENNE PAR CYCLE', 500, 370, t, S('s12'), { size: 28, color: AQUA });
-        bars(ctx, [{ label: 'Allemagne', v: 2.8 / 19.7, value: '+ 2,8 l', color: GREEN, t0: f('s12', 0.45) }, { label: 'Italie', v: 1, value: '+ 19,7 l', color: RED, t0: f('s12', 0.75) }], 110, 870, 780, t, { rh: 150 });
+        tag(ctx, 'MOYENNE PAR CYCLE · DONNÉES 2011', 500, 370, t, S('s12'), { size: 36, color: AQUA });
+        bars(ctx, [{ label: 'Italie · 42 % rincent', v: 1, value: '+ 19,7 l', color: RED, t0: f('s12', 0.35) }, { label: 'Allemagne · 4 % rincent', v: 2.8 / 19.7, value: '+ 2,8 l', color: GREEN, t0: f('s12', 0.75) }], 110, 870, 780, t, { rh: 150 });
       });
       block(ctx, t, S('s13'), S('s14'), () => comment(ctx, t, S('s13'), ['Tu rinces', 'avant de charger ?', 'OUI ou NON'], { color: AQUA }));
       block(ctx, t, S('s14'), S('s15'), () => { head(ctx, 'MÊME À 46 l, IL RESTE DEVANT', 360, t, f('s14', 0.55), { size: 50, color: AQUA }); duel(ctx, t, { left: '103 l', right: '15 l', t0: S('s14') + 0.05 }); });

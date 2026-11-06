@@ -1,0 +1,23 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 11,
+ "segments": [
+  {
+   "id": "s09",
+   "text": "Une vaisselle par jour, exemple : environ cent dix francs par an."
+  },
+  {
+   "id": "s11",
+   "text": "Attention : étude ancienne, financée par plusieurs fabricants."
+  },
+  {
+   "id": "s12",
+   "text": "Et rincer ajoute de l'eau : en Italie, quarante-deux pour cent rinçaient, près de vingt litres de plus par cycle en moyenne. En Allemagne, quatre pour cent, près de trois."
+  }
+ ]
+}

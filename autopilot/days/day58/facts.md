@@ -8,22 +8,22 @@ Format A, 10.11.2026 à 18 h. Relevés du 06.11.2026.
 | Zones froides (« cold spots ») ; étaler dans un plat couvert ; retourner ou mélanger à mi-cuisson ; temps de repos : la cuisson continue | citations USDA | même PDF | vérifié |
 | Ondes qui se croisent, zones chaudes et froides « roughly every 6 cm », rôle du plateau | ScienceABC | https://www.scienceabc.com/innovation/why-do-we-need-a-turntable-in-microwaves.html | source secondaire + calcul : 3×10⁸ / 2,45×10⁹ = 12,2 cm ; / 2 = 6,1 cm |
 | Tarif médian H4 2026 : 27,7 ct/kWh, hors TVA (déduit) | ElCom | https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu | vérifié |
-| **Calculs** | lasagne 8 cm (exemple) : 2 × 3,81 = 7,62 cm < 8, le milieu hors de portée. 1 000 W × 4 min = 66,7 Wh ; × 27,7 ct/kWh = 1,85 ct. | | exacts, valeurs d'exemple |
+| **Calculs** | lasagne 8 cm (exemple) : 2 × 3,81 = 7,62 cm < 8, le milieu hors de portée. 1 000 W **consommés** (exemple) × 4 min = 66,7 Wh ; × 27,7 ct/kWh = 1,85 ct. | | exacts, valeurs d'exemple |
 
 ## Script
 s01 : Ton plat brûle au bord, et le centre reste froid ?
 s02 : Toi, tu dis que je chauffe mal. Ton collègue, que je chauffe de l'intérieur.
-s03 : Reste : à la fin, tu ne mangeras plus froid au milieu.
+s03 : Reste : à la fin, tu sauras comment éviter le milieu froid.
 s04 : Je suis ton micro-ondes : je ne chauffe pas de l'intérieur.
-s05 : L'agence américaine FDA l'écrit : je chauffe surtout les couches extérieures.
+s05 : L'agence américaine, la F D A, l'écrit : dans un plat épais, je chauffe surtout les couches extérieures.
 s06 : Mes ondes entrent de deux virgule cinq à moins de quatre centimètres, selon le ministère américain de l'Agriculture.
 s07 : Le centre attend que la chaleur arrive de proche en proche.
-s08 : Une lasagne de huit centimètres, par exemple : le milieu est hors de portée.
-s09 : Deuxième surprise : mes ondes se croisent et laissent des zones froides, environ tous les six centimètres.
+s08 : Par exemple, une lasagne de huit centimètres : le milieu reste hors de portée directe.
+s09 : Surprise : mes ondes se croisent et laissent des zones froides, environ tous les six centimètres.
 s10 : D'où mon plateau qui tourne.
 s11 : Alors : étale, couvre, et mélange à mi-temps.
-s12 : Puis laisse reposer : la cuisson continue.
-s13 : Quatre minutes à mille watts : moins de deux centimes.
+s12 : Puis laisse reposer au moins trois minutes : la cuisson continue.
+s13 : Exemple : mille watts consommés, quatre minutes : environ deux centimes.
 s14 : Tu mélanges, ou tu rajoutes du temps ? Écris-le en commentaire.
-s15 : Toi, tu m'accusais. Ton collègue croyait à l'intérieur. Perdu tous les deux.
+s15 : Toi, à moitié raison : je chauffe inégalement. Ton collègue, faux : pas de l'intérieur.
 s16 : Abonne-toi : demain, Suisse contre France, même machine à laver, qui paie le plus ?
