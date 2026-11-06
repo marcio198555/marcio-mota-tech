@@ -86,7 +86,8 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >      « abonne-toi ». Le « non » immédiat n'est plus obligatoire si la question ouvre une attente.
 >    - **Longueur : 50 à 70 s** (13 à 16 phrases, **150 à 190 mots** : mesuré sur le jour 55, 182 mots = 64,5 s de voix
 >      Chatterbox avec `--gap 0.1`, soit environ 2,8 mots par seconde). Remplace les 35–40 s ci-dessus.
->    - **Image** : un changement toutes les 2 s environ (compteurs qui défilent, étiquettes, tampons rouges, courbes,
+>    - **Mesure du 06.11** : avec beaucoup de nombres, 180 mots font 72 à 82 s de voix : viser 150 à 165 mots pour une vidéo chiffrée. Ne jamais faire défiler un compteur sur des valeurs inventées.
+   - **Image** : un changement toutes les 2 s environ (compteurs qui défilent, étiquettes, tampons rouges, courbes,
 >      personnes 3D `man_technologist` et `woman_technologist`), même style sombre « JE MESURE TOUT ». Les briques de
 >      `days/day55/scene.js` (tampon, batterie, duel, thermomètre, compteur) se copient dans la scène suivante.
 >    - **Force des affirmations** (contrôle du jour 55) : chaque phrase dit exactement ce que dit la source, pas plus :
