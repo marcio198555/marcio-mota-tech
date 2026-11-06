@@ -1,116 +1,116 @@
 {
- "duration": 68.68,
+ "duration": 68.644,
  "segments": [
   {
    "id": "s01",
    "text": "Ton téléphone charge à quarante-cinq watts ?",
    "start": 0.12,
-   "end": 3.08,
+   "end": 3.091,
    "display": "Ton téléphone charge à 45 W ?"
   },
   {
    "id": "s02",
    "text": "Ton collègue garde son vieux chargeur.",
-   "start": 3.18,
-   "end": 5.171,
+   "start": 3.191,
+   "end": 5.191,
    "display": "Ton collègue garde son vieux chargeur."
   },
   {
    "id": "s03",
    "text": "Lequel des deux abîme le plus sa batterie ?",
-   "start": 5.271,
-   "end": 8.579,
+   "start": 5.291,
+   "end": 8.611,
    "display": "Lequel des deux | abîme le plus sa batterie ?"
   },
   {
    "id": "s04",
    "text": "Réponse : ce qu'écrivent vraiment Apple et Samsung.",
-   "start": 8.679,
-   "end": 12.639,
+   "start": 8.711,
+   "end": 12.686,
    "display": "Réponse : ce qu'écrivent | vraiment Apple et Samsung."
   },
   {
    "id": "s05",
    "text": "Apple décrit deux temps : rapide jusqu'à quatre-vingts pour cent, puis plus lent.",
-   "start": 12.739,
-   "end": 18.094,
+   "start": 12.786,
+   "end": 18.163,
    "display": "Apple décrit deux temps : | rapide jusqu'à 80 %, puis plus lent."
   },
   {
    "id": "s06",
    "text": "Selon Apple, ce mélange prolonge la durée de vie, mais sans comparer à un vieux chargeur.",
-   "start": 18.194,
-   "end": 23.35,
+   "start": 18.263,
+   "end": 23.439,
    "display": "Selon Apple, ce mélange prolonge | la durée de vie, mais sans comparer | à un vieux chargeur."
   },
   {
    "id": "s07",
-   "text": "Apple ajoute : la charge chauffe la batterie, et ça peut réduire sa durée de vie.",
-   "start": 23.45,
-   "end": 28.434,
-   "display": "Apple ajoute : la charge chauffe la batterie, | et ça peut réduire sa durée de vie."
+   "text": "Et Apple ajoute : la charge chauffe la batterie, et ça peut réduire sa durée de vie.",
+   "start": 23.539,
+   "end": 28.246,
+   "display": "Et Apple ajoute : la charge chauffe la batterie, | et ça peut réduire sa durée de vie."
   },
   {
    "id": "s08",
    "text": "Alors l'aïe-fone baisse peu à peu le courant en fin de charge.",
-   "start": 28.534,
-   "end": 31.967,
+   "start": 28.346,
+   "end": 31.792,
    "display": "Alors l'iPhone baisse peu à peu | le courant en fin de charge."
   },
   {
    "id": "s09",
    "text": "Le gagnant ? Aucun chiffre d'Apple ni de Samsung sur les fiches lues.",
-   "start": 32.067,
-   "end": 35.919,
+   "start": 31.892,
+   "end": 35.758,
    "display": "Le gagnant ? Aucun chiffre | d'Apple ni de Samsung | sur les fiches lues."
   },
   {
    "id": "s10",
    "text": "Autre surprise, Samsung Suisse : évite surtout de jouer ou regarder des vidéos en chargeant.",
-   "start": 36.019,
-   "end": 41.934,
+   "start": 35.858,
+   "end": 41.796,
    "display": "Autre surprise, Samsung Suisse : | évite surtout de jouer | ou regarder des vidéos en chargeant."
   },
   {
    "id": "s11",
    "text": "Sinon, la batterie vieillit plus vite qu'on le voudrait.",
-   "start": 42.034,
-   "end": 44.981,
+   "start": 41.896,
+   "end": 44.856,
    "display": "Sinon, la batterie vieillit | plus vite qu'on le voudrait."
   },
   {
    "id": "s12",
    "text": "Côté facture, une heure pleine à quarante-cinq watts coûte moins de deux centimes.",
-   "start": 45.081,
-   "end": 49.799,
+   "start": 44.956,
+   "end": 49.692,
    "display": "Côté facture, une heure pleine | à 45 W coûte moins de 2 centimes."
   },
   {
    "id": "s13",
    "text": "Trop chaud, ton aïe-fone peut limiter la charge après quatre-vingts pour cent : garde-le au frais.",
-   "start": 49.899,
-   "end": 56.073,
+   "start": 49.792,
+   "end": 55.989,
    "display": "Trop chaud, ton iPhone peut limiter la charge | après 80 % : garde-le au frais."
   },
   {
    "id": "s14",
    "text": "Écris en commentaire combien de watts affiche ton chargeur.",
-   "start": 56.173,
-   "end": 59.312,
+   "start": 56.089,
+   "end": 59.241,
    "display": "Écris en commentaire combien | de watts affiche ton chargeur."
   },
   {
    "id": "s15",
    "text": "Celui qui laisse son téléphone tranquille en charge suit déjà Samsung.",
-   "start": 59.412,
-   "end": 63.449,
+   "start": 59.341,
+   "end": 63.394,
    "display": "Celui qui laisse son téléphone | tranquille en charge | suit déjà Samsung."
   },
   {
    "id": "s16",
    "text": "Abonne-toi : ce soir, ton frigo balance s'il est réglé trop froid.",
-   "start": 63.549,
-   "end": 68.38,
+   "start": 63.494,
+   "end": 68.344,
    "display": "Abonne-toi : ce soir, ton frigo | balance s'il est réglé trop froid."
   }
  ]

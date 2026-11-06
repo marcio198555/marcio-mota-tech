@@ -1,116 +1,116 @@
 {
- "duration": 68.818,
+ "duration": 68.797,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, tu me lances à soixante degrés.",
    "start": 0.12,
-   "end": 2.444,
+   "end": 2.503,
    "display": "Toi : 60 °C"
   },
   {
    "id": "s02",
    "text": "Ton collègue, à trente.",
-   "start": 2.544,
-   "end": 4.191,
+   "start": 2.603,
+   "end": 4.291,
    "display": "Ton collègue : 30 °C"
   },
   {
    "id": "s03",
    "text": "Lequel a le linge le plus propre, et lequel paie le plus ?",
-   "start": 4.291,
-   "end": 7.78,
+   "start": 4.391,
+   "end": 7.967,
    "display": "Le plus propre ? Qui paie le plus ?"
   },
   {
    "id": "s04",
-   "text": "Je te balance la réponse, en francs.",
-   "start": 7.88,
-   "end": 11.245,
-   "display": "La réponse, en francs"
+   "text": "Je te balance la réponse.",
+   "start": 8.067,
+   "end": 9.814,
+   "display": "Je te balance la réponse."
   },
   {
    "id": "s05",
    "text": "Même à soixante, on ne stérilise pas le linge, dit Karl Perron, de l'université de Genève.",
-   "start": 11.345,
-   "end": 16.726,
+   "start": 9.914,
+   "end": 15.431,
    "display": "Même à 60 °C : pas stérile. Karl Perron, UNIGE"
   },
   {
    "id": "s06",
    "text": "Pour la Èr Té Èss, soixante reste nécessaire après une maladie ou pour une immunité fragile.",
-   "start": 16.826,
-   "end": 22.076,
+   "start": 15.531,
+   "end": 20.912,
    "display": "60 °C nécessaire : maladie, immunité fragile (RTS)"
   },
   {
    "id": "s07",
    "text": "Sur les taches, Les Numériques a testé : soixante degrés gagne.",
-   "start": 22.176,
-   "end": 26.01,
+   "start": 21.012,
+   "end": 24.942,
    "display": "Taches : meilleurs résultats à 60 °C (Les Numériques)"
   },
   {
    "id": "s08",
    "text": "Bravo, mais dans ce test, tu consommes deux virgule sept fois plus qu'à trente.",
-   "start": 26.11,
-   "end": 30.737,
+   "start": 25.042,
+   "end": 29.786,
    "display": "60 °C = 2,7 × l'électricité de 30 °C"
   },
   {
    "id": "s09",
    "text": "Sur l'exemple d'un fournisseur de Vienne, au tarif médian suisse : vingt-deux centimes d'électricité la machine, contre sept.",
-   "start": 30.837,
-   "end": 37.445,
+   "start": 29.886,
+   "end": 36.66,
    "display": "60 °C : 22 ct la machine · 30 °C : 7 ct"
   },
   {
    "id": "s10",
    "text": "À trois machines par semaine : environ vingt-deux francs d'écart par an.",
-   "start": 37.545,
-   "end": 40.988,
+   "start": 36.76,
+   "end": 40.29,
    "display": "3 machines/semaine : environ 22 fr. d'écart par an"
   },
   {
    "id": "s11",
    "text": "Surprise : sur une notice Milé, le programme éco dure cinquante minutes de plus.",
-   "start": 41.088,
-   "end": 46.243,
+   "start": 40.39,
+   "end": 45.675,
    "display": "Miele : ECO 40-60 = + 50 min"
   },
   {
    "id": "s12",
    "text": "Et il consomme trente-huit pour cent de moins que coton soixante.",
-   "start": 46.343,
-   "end": 50.201,
+   "start": 45.775,
+   "end": 49.73,
    "display": "− 38 % par rapport à Coton 60 (0,90 et 1,45 kWh)"
   },
   {
    "id": "s13",
    "text": "Suisse Énergie conseille aussi ce programme, même s'il dure plus longtemps.",
-   "start": 50.301,
-   "end": 55.665,
+   "start": 49.83,
+   "end": 55.329,
    "display": "SuisseEnergie conseille aussi ce programme, | même s'il dure plus longtemps."
   },
   {
    "id": "s14",
    "text": "Écris en commentaire à combien de degrés tu laves tes draps.",
-   "start": 55.765,
-   "end": 58.814,
+   "start": 55.429,
+   "end": 58.554,
    "display": "Tes draps : à combien de degrés ?"
   },
   {
    "id": "s15",
    "text": "Toi à soixante, ton collègue à trente : ça dépend du linge.",
-   "start": 58.914,
-   "end": 62.629,
+   "start": 58.654,
+   "end": 62.463,
    "display": "60 °C ou 30 °C : ça dépend du linge"
   },
   {
    "id": "s16",
    "text": "Abonne-toi : ce soir, même aïe-fone, en Suisse et en France : où coûte-t-il le moins cher ?",
-   "start": 62.729,
-   "end": 68.518,
+   "start": 62.563,
+   "end": 68.497,
    "display": "Abonne-toi : ce soir, même iPhone, où coûte-t-il le moins cher ?"
   }
  ]
