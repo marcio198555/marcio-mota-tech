@@ -1,0 +1,75 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même iPhone dix-sept, deux cent cinquante-six gigas. Toi, tu l'achètes en Suisse. Ton collègue, en France. Qui paie le moins ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : même avec la détaxe, la réponse va te surprendre."
+  },
+  {
+   "id": "s03",
+   "text": "Apple Suisse affiche huit cent nonante-neuf francs."
+  },
+  {
+   "id": "s04",
+   "text": "Apple France : mille cent dix-neuf euros."
+  },
+  {
+   "id": "s05",
+   "text": "Au cours de la Banque nationale, ça fait mille vingt-sept francs."
+  },
+  {
+   "id": "s06",
+   "text": "Cent vingt-huit francs de plus qu'en Suisse."
+  },
+  {
+   "id": "s07",
+   "text": "Mais ton collègue sort sa carte : la détaxe."
+  },
+  {
+   "id": "s08",
+   "text": "La TVA française saute : il reste huit cent cinquante-six francs."
+  },
+  {
+   "id": "s09",
+   "text": "Sauf qu'à la frontière, au-dessus de cent cinquante francs, il doit la TVA suisse."
+  },
+  {
+   "id": "s10",
+   "text": "Résultat : neuf cent vingt-cinq francs, encore vingt-six de plus qu'en Suisse."
+  },
+  {
+   "id": "s11",
+   "text": "Surprise : même sans aucune taxe, la France reste plus chère."
+  },
+  {
+   "id": "s12",
+   "text": "Huit cent cinquante-six francs contre huit cent trente-deux."
+  },
+  {
+   "id": "s13",
+   "text": "Les prix et le cours bougent : refais le calcul avant de passer la frontière."
+  },
+  {
+   "id": "s14",
+   "text": "Et toi, ton téléphone, tu l'achètes dans quel pays ? Écris-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Toi, huit cent nonante-neuf. Ton collègue, neuf cent vingt-cinq, et un passage à la douane."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : demain, faut-il éteindre ta box internet la nuit ?"
+  }
+ ]
+}

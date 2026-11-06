@@ -1,0 +1,33 @@
+{
+ "display": {
+  "s01": "Même iPhone 17, 256 Go. | Toi, en Suisse. Ton collègue, en France. | Qui paie le moins ?",
+  "s02": "Reste : même avec la détaxe, | la réponse va te surprendre.",
+  "s03": "Apple Suisse affiche 899 francs.",
+  "s04": "Apple France : 1 119 euros.",
+  "s05": "Au cours de la Banque nationale, | ça fait 1 027 francs.",
+  "s06": "128 francs de plus qu'en Suisse.",
+  "s07": "Mais ton collègue sort sa carte : | la détaxe.",
+  "s08": "La TVA française saute : | il reste 856 francs.",
+  "s09": "Sauf qu'à la frontière, | au-dessus de 150 francs, | il doit la TVA suisse.",
+  "s10": "Résultat : 925 francs, | encore 26 de plus qu'en Suisse.",
+  "s11": "Surprise : même sans aucune taxe, | la France reste plus chère.",
+  "s12": "856 francs contre 832.",
+  "s13": "Les prix et le cours bougent : | refais le calcul avant de passer la frontière.",
+  "s14": "Et toi, ton téléphone, tu l'achètes | dans quel pays ? Écris-le en commentaire.",
+  "s15": "Toi, 899. Ton collègue, 925, | et un passage à la douane.",
+  "s16": "Abonne-toi : demain, faut-il éteindre | ta box internet la nuit ?"
+ },
+ "title": "Suisse contre France : l'iPhone 17, où est-il le moins cher ?",
+ "slug": "iphone-suisse-france",
+ "format": "V",
+ "caption": "iPhone 17 256 Go : 899 francs en Suisse, 1 119 € en France, soit 1 027 francs 🇨🇭🇫🇷 Prix Apple relevés le 6.11.2026, BNS du 5.11 : 1 € = 0,9180 CHF. Avec la détaxe (TVA française de 20 % retirée) puis la TVA suisse de 8,1 % : environ 925 francs, sans compter d'éventuels frais de détaxe. Hors taxes : 856 contre 832 francs. Exemple de calcul, pas un conseil fiscal. Tu achètes ton téléphone dans quel pays ? 👇 #iphone17 #suissecontrefrance #frontalier #prixiphone #detaxe",
+ "reel_caption": "iPhone 17 en Suisse ou en France : même avec la détaxe, 26 francs de plus côté France\n\nPrix Apple relevés le 6.11.2026, 256 Go : 899 CHF en Suisse (TVA 8,1 % comprise), 1 119 € en France, soit 1 027,24 CHF (BNS, 5.11.2026 : 1 € = 0,9180 CHF).\n\nDétaxe, TVA française de 20 % retirée : 932,50 €, soit 856,04 CHF. Au-dessus de 150 francs de franchise, TVA suisse de 8,1 % (OFDF) : 925,38 CHF, sans compter d'éventuels frais de l'opérateur de détaxe. Hors taxes, Suisse 831,64 CHF.\n\nExemple de calcul, pas un conseil fiscal. Les prix et le cours changent.\n\nEnvoie-la à ton collègue qui passe la frontière pour son téléphone.\n\n#iphone17 #prixiphone #detaxe #suisseromande #jemesuretout",
+ "sources": [
+  "https://www.apple.com/ch-fr/shop/buy-iphone/iphone-17",
+  "https://www.apple.com/fr/shop/buy-iphone/iphone-17",
+  "https://www.bazg.admin.ch/fr/taxe-sur-la-valeur-ajoutee-franchise-valeur-a-150-francs",
+  "https://www.douane.gouv.fr/index.php/fiche/la-detaxe-en-france-pour-les-touristes-pablo",
+  "https://www.snb.ch/public/rss/en/exchangeRates"
+ ],
+ "visuel": "s01 écran partagé drapeaux, téléphones ; s03 étiquette 899 ; s04 1 119 € ; s05 balance euro→franc, 1 027 ; s06 +128 ; s07 carte détaxe ; s08 −TVA 20 %, 856 ; s09 douane, 150 francs ; s10 +8,1 %, 925, +26 ; s11 HT tampon ; s12 barres 856/832 ; s13 cours qui bouge ; s14 bulle ; s15 retour duel ; s16 DEMAIN."
+}

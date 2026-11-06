@@ -1,0 +1,71 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu fais la vaisselle à la main pour économiser. Ton collègue lance son lave-vaisselle. Qui gaspille le plus d'eau ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : à la fin, je te montre le geste qui ajoute des litres."
+  },
+  {
+   "id": "s03",
+   "text": "L'Université de Bonn a fait laver douze couverts à des volontaires de plusieurs pays."
+  },
+  {
+   "id": "s04",
+   "text": "À la main : cent trois litres en moyenne."
+  },
+  {
+   "id": "s05",
+   "text": "En machine : quinze litres."
+  },
+  {
+   "id": "s06",
+   "text": "Presque sept fois moins."
+  },
+  {
+   "id": "s07",
+   "text": "À Lausanne, l'eau et l'épuration coûtent trois francs quarante-cinq le mètre cube."
+  },
+  {
+   "id": "s08",
+   "text": "Donc trente centimes d'écart, à chaque vaisselle."
+  },
+  {
+   "id": "s09",
+   "text": "Une vaisselle par jour, exemple : cent dix francs par an, rien que pour l'eau."
+  },
+  {
+   "id": "s10",
+   "text": "Surprise : les mains ne se valent pas. Quarante-six litres en Allemagne, cent septante en Espagne et au Portugal."
+  },
+  {
+   "id": "s11",
+   "text": "Attention : étude ancienne, et en partie financée par des fabricants."
+  },
+  {
+   "id": "s12",
+   "text": "Et rincer avant de charger ajoute de l'eau : près de trois litres par cycle en Allemagne, près de vingt en Italie."
+  },
+  {
+   "id": "s13",
+   "text": "Tu rinces avant de charger ? Écris oui ou non en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Toi, cent trois litres. Ton collègue, quinze. Même à quarante-six, il reste devant."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, douche ou bain, combien en francs ?"
+  }
+ ]
+}

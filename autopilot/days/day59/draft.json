@@ -1,0 +1,33 @@
+{
+ "display": {
+  "s01": "Toi, tu éteins à la télécommande. | Ton collègue débranche tous les soirs. | Qui a raison ?",
+  "s02": "Reste : tout dépend d'un réglage | caché dans ta télé.",
+  "s03": "À la télécommande, ta télé ne s'éteint pas : | elle passe en veille.",
+  "s04": "J'ai lu la fiche européenne | d'une Samsung 55 pouces.",
+  "s05": "Veille simple : 0,5 W.",
+  "s06": "Toute l'année, jour et nuit, | ça fait 4,4 kWh.",
+  "s07": "Au tarif médian suisse : | 1 fr. 20 par an.",
+  "s08": "Ton collègue se baisse 365 fois | pour 1 fr. 20.",
+  "s09": "Surprise : même fiche, | veille connectée, 2 W.",
+  "s10": "Quatre fois plus : | 4 fr. 85 par an.",
+  "s11": "LG et Sony préviennent : | le démarrage rapide peut | augmenter la consommation.",
+  "s12": "Va voir dans tes réglages, | et décide si ça vaut quelques francs.",
+  "s13": "Autre repère : une année de veille simple, | c'est 57 heures de cette télé allumée.",
+  "s14": "Démarrage rapide activé ou pas, chez toi ? | Écris-le en commentaire.",
+  "s15": "Toi, 1 fr. 20. Ton collègue, 0, | et 365 trajets jusqu'à la prise.",
+  "s16": "Abonne-toi : demain, lave-linge | à 30 ou 60 °C, qui paie quoi ?"
+ },
+ "title": "La veille de ta télé coûte combien par an ?",
+ "slug": "veille-tele",
+ "format": "V",
+ "caption": "Veille de ta télé : 1 fr. 20 par an en veille simple, 4 fr. 85 en veille connectée 📺 Fiche EPREL d'une Samsung QE55LS03HAU : 0,5 W et 2 W ; calcul sur 8 760 h au tarif médian ElCom 2026 hors TVA (27,7 ct/kWh). LG et Sony indiquent que le démarrage rapide peut augmenter la consommation, et Sony que la veille réelle peut dépasser la fiche. Ton démarrage rapide est activé ou pas ? 👇 #television #veille #electricite #astucetech #suisseromande",
+ "reel_caption": "Veille de ta télé : 1 fr. 20 par an, ou 4 fr. 85 en veille connectée\n\nFiche européenne EPREL d'une Samsung 55 pouces (QE55LS03HAU) : 0,5 W en veille, 2 W en veille connectée, 77 W allumée. Sur 8 760 heures, 4,38 kWh et 17,52 kWh, au tarif médian ElCom 2026 hors TVA de 27,7 ct/kWh.\n\nLG écrit que son Q-Start+ peut augmenter la consommation ; Sony écrit que certains réglages, dont le démarrage rapide, peuvent l'augmenter en veille. Selon le modèle, les chiffres changent.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui débranche sa télé tous les soirs.\n\n#television #veille #electricite #suisseromande #jemesuretout",
+ "sources": [
+  "https://community.sony.dk/t5/how-tos-faqs-tvs-home-cinema/standby-power-consumption/ba-p/2231036",
+  "https://eprel.ec.europa.eu/fiches/electronicdisplays/Fiche_2571443_EN.pdf",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+  "https://www.easylounge.com/cdn/shop/files/cf9168281ad262d6a106038158ce4fe90348ae7e_LGOLED55C6V_01_notice.pdf",
+  "https://www.lg.com/us/support/help-library/lg-oled-tv-settings-how-can-i-use-the-q-start-feature-CT10000018-20154713330894"
+ ],
+ "visuel": "s01 duel télécommande / prise ; s03 télé qui s'endort, voyant rouge ; s04 fiche ; s05 0,5 W très gros ; s06 horloge qui tourne, 8 760 h ; s07 calcul, 1,21 CHF ; s08 compteur 365 trajets ; s09 Wi-Fi, 2 W ; s10 barres ×4 ; s11 réglage démarrage rapide, citations LG, Sony ; s12 interrupteur ; s13 57 h de télé ; s14 bulle ; s15 retour duel ; s16 DEMAIN."
+}

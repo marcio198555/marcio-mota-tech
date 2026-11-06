@@ -1,0 +1,32 @@
+{
+ "display": {
+  "s01": "Toi, à la main pour économiser. | Ton collègue lance son lave-vaisselle. | Qui gaspille le plus d'eau ?",
+  "s02": "Reste : à la fin, je te montre | le geste qui ajoute des litres.",
+  "s03": "L'Université de Bonn a fait laver | 12 couverts à des volontaires | de plusieurs pays.",
+  "s04": "À la main : 103 litres en moyenne.",
+  "s05": "En machine : 15 litres.",
+  "s06": "Presque 7 fois moins.",
+  "s07": "À Lausanne, l'eau et l'épuration | coûtent 3 fr. 45 le m³.",
+  "s08": "Donc 30 centimes d'écart, | à chaque vaisselle.",
+  "s09": "Une vaisselle par jour, exemple : | 110 francs par an, rien que pour l'eau.",
+  "s10": "Surprise : les mains ne se valent pas. | 46 litres en Allemagne, | 170 en Espagne et au Portugal.",
+  "s11": "Attention : étude ancienne, et en partie | financée par des fabricants.",
+  "s12": "Et rincer avant de charger ajoute de l'eau : | près de 3 litres par cycle en Allemagne, | près de 20 en Italie.",
+  "s13": "Tu rinces avant de charger ? | Écris oui ou non en commentaire.",
+  "s14": "Toi, 103 litres. Ton collègue, 15. | Même à 46, il reste devant.",
+  "s15": "Abonne-toi : demain, douche ou bain, | combien en francs ?"
+ },
+ "title": "Lave-vaisselle ou vaisselle à la main : qui gaspille le plus d'eau ?",
+ "slug": "vaisselle-main-machine",
+ "format": "V",
+ "caption": "Vaisselle à la main : 103 litres en moyenne, lave-vaisselle : 15 litres pour 12 couverts 🍽️ Étude de l'Université de Bonn (Stamminger et al.), ancienne et en partie financée par des fabricants : 46 l en Allemagne, 170 l en Espagne et au Portugal. Eau à Lausanne : 3,45 fr./m³, soit 30 ct d'écart par vaisselle et environ 110 francs par an à une vaisselle par jour (exemple, sans l'énergie). Tu rinces avant de charger ? 👇 #lavevaisselle #vaisselle #economiedeau #astucemaison #suisseromande",
+ "reel_caption": "Lave-vaisselle ou main : 15 litres contre 103 pour 12 couverts\n\nÉtude de l'Université de Bonn (Stamminger et al.), ancienne et en partie financée par des fabricants : 103 litres à la main en moyenne, de 46 en Allemagne à 170 en Espagne et au Portugal ; 15 litres en machine.\n\nExemple à Lausanne (eau et épuration 3,45 fr./m³) : 30 ct d'écart par vaisselle, environ 110 francs par an à une vaisselle par jour, sans compter l'énergie. Selon une revue de 2024, rincer avant de charger ajoute en moyenne 2,8 litres par cycle en Allemagne et 19,7 en Italie (données Richter 2011).\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui rince tout avant de charger.\n\n#lavevaisselle #economiedeau #astucemaison #suisseromande #jemesuretout",
+ "sources": [
+  "https://silo.tips/download/a-european-comparison-of-cleaning-dishes-by-hand",
+  "https://www.degruyterbrill.com/document/doi/10.1515/tsd-2024-2634/html",
+  "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/proprietaires-et-professionnels/taxes-et-facturation.html",
+  "https://www.spokesman.com/stories/2009/dec/07/handwashing-your-dishes-better-new-study-says-no",
+  "https://zientzia.eus/artikuluak/platerak-garbitzean-ur-asko-xahutzen-dute-batzuek/en"
+ ],
+ "visuel": "s01 duel éponge / machine ; s03 12 couverts ; s04 bidons 103 l ; s05 15 l ; s06 ×7 ; s07 compteur 3,45/m³ ; s08 calcul 30 ct ; s09 pièces, 110 francs ; s10 carte Europe en barres 46/170 ; s11 chip étude ; s12 assiette sous robinet, litres ; s13 bulle ; s14 retour duel ; s15 DEMAIN."
+}

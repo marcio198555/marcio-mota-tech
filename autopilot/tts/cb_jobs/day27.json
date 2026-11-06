@@ -1,0 +1,75 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu me règles à deux degrés. Ton collègue, à cinq. Qui paie pour rien ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : à la fin, tu sauras si mon bouton te ment."
+  },
+  {
+   "id": "s03",
+   "text": "Je suis ton frigo, et j'ai les chiffres."
+  },
+  {
+   "id": "s04",
+   "text": "Que Choisir l'écrit : chaque degré en moins demande cinq pour cent d'énergie en plus."
+  },
+  {
+   "id": "s05",
+   "text": "De cinq à deux degrés, ça fait environ quinze pour cent."
+  },
+  {
+   "id": "s06",
+   "text": "Exemple : un combiné moyen, trois cent quinze kilowattheures par an, chiffre de l'Ademe en France."
+  },
+  {
+   "id": "s07",
+   "text": "Au tarif médian suisse, tu paies environ treize francs de plus par an."
+  },
+  {
+   "id": "s08",
+   "text": "Un peu plus d'un franc par mois."
+  },
+  {
+   "id": "s09",
+   "text": "Surprise : sur un frigo mécanique, le cran trois, ce n'est pas trois degrés."
+  },
+  {
+   "id": "s10",
+   "text": "C'est juste la force du froid."
+  },
+  {
+   "id": "s11",
+   "text": "Et ton collègue n'a pas forcément gagné : l'Anses vise zéro à quatre degrés au point le plus froid."
+  },
+  {
+   "id": "s12",
+   "text": "Chez moi, la porte et le bac à légumes sont les coins les moins froids."
+  },
+  {
+   "id": "s13",
+   "text": "Le test : un verre d'eau au milieu, une nuit, puis un thermomètre."
+  },
+  {
+   "id": "s14",
+   "text": "Il affiche combien, ton verre d'eau ? Écris-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Toi, treize francs de trop. Ton collègue, peut-être trop chaud. Vous devez vérifier tous les deux."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : demain, linge au salon ou sèche-linge, qui paie vraiment ?"
+  }
+ ]
+}

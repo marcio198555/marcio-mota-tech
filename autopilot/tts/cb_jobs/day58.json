@@ -1,0 +1,75 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton plat brûle au bord, et le centre reste froid ?"
+  },
+  {
+   "id": "s02",
+   "text": "Toi, tu dis que je chauffe mal. Ton collègue jure que je chauffe de l'intérieur. Qui a raison ?"
+  },
+  {
+   "id": "s03",
+   "text": "Reste : à la fin, tu sauras comment ne plus manger froid au milieu."
+  },
+  {
+   "id": "s04",
+   "text": "Je suis ton micro-ondes, et je balance : je ne chauffe pas de l'intérieur."
+  },
+  {
+   "id": "s05",
+   "text": "C'est écrit par l'agence américaine FDA : je chauffe surtout les couches extérieures."
+  },
+  {
+   "id": "s06",
+   "text": "Mes ondes entrent de deux virgule cinq à moins de quatre centimètres, selon le ministère américain de l'Agriculture."
+  },
+  {
+   "id": "s07",
+   "text": "Le centre, lui, attend que la chaleur arrive de proche en proche."
+  },
+  {
+   "id": "s08",
+   "text": "Une lasagne de huit centimètres, par exemple : le milieu est hors de ma portée."
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : dans ma boîte, mes ondes se croisent et laissent des zones froides, environ tous les six centimètres."
+  },
+  {
+   "id": "s10",
+   "text": "C'est pour ça que mon plateau tourne."
+  },
+  {
+   "id": "s11",
+   "text": "Alors : étale ton plat, couvre-le, et mélange à mi-temps."
+  },
+  {
+   "id": "s12",
+   "text": "Puis laisse-le reposer : la cuisson continue encore."
+  },
+  {
+   "id": "s13",
+   "text": "Et ça ne coûte presque rien : quatre minutes à mille watts, moins de deux centimes."
+  },
+  {
+   "id": "s14",
+   "text": "Toi, tu mélanges, ou tu rajoutes du temps ? Écris-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Toi, tu m'accusais. Ton collègue croyait à l'intérieur. Perdu tous les deux."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : demain, Suisse contre France, même machine à laver, qui paie le plus ?"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "display": {
+  "s01": "Toi, mode sombre. Ton collègue, mode clair. | Qui a encore de la batterie le soir ?",
+  "s02": "Reste : un autre réglage | peut tout changer.",
+  "s03": "L'université Purdue a mesuré | 4 téléphones OLED, sur 6 applis.",
+  "s04": "Avec une luminosité de 30 à 50 %, | le mode sombre économise | en moyenne 3 à 9 %.",
+  "s05": "Sur un billet de 100 francs, | ce serait 3 à 9 francs.",
+  "s06": "Si peu que la plupart des gens | ne le remarqueraient pas, dit l'étude.",
+  "s07": "Mais à 100 % de luminosité, | en plein soleil : 39 à 47 %.",
+  "s08": "Deuxième surprise : ton collègue peut | te rattraper sans toucher aux couleurs.",
+  "s09": "Google Actualités sur un Pixel 5 : | 20 % en mode clair consomme autant | que 50 % en mode sombre.",
+  "s10": "Donc baisser ton écran | peut valoir le mode sombre.",
+  "s11": "Et ton écran compte : | en OLED, un pixel noir s'éteint.",
+  "s12": "Sur un LCD, la lumière vient d'un rétroéclairage : | l'étude ne donne aucun chiffre pour lui.",
+  "s13": "Le mode sombre garde un atout, selon Purdue : | moins de fatigue pour les yeux | à forte luminosité.",
+  "s14": "Ta luminosité est à combien, là, maintenant ? | Écris-la en commentaire.",
+  "s15": "Toi, mode sombre. Ton collègue, écran baissé. | Le soir, l'écart peut être minuscule.",
+  "s16": "Abonne-toi : demain, baisser ton chauffage | d'un degré, combien tu gagnes vraiment ?"
+ },
+ "title": "Le mode sombre économise-t-il vraiment ta batterie ?",
+ "slug": "mode-sombre",
+ "format": "V",
+ "caption": "Mode sombre : 3 à 9 % d'énergie en moins à luminosité normale, 39 à 47 % à fond 🌙 Étude Purdue 2021 sur 4 téléphones OLED (Pixel 2, Moto Z3, Pixel 4, Pixel 5), 6 applis Google. Google Actualités sur Pixel 5 : 20 % en clair consomme autant que 50 % en sombre. Aucun chiffre pour les écrans LCD dans cette étude. Ta luminosité est à combien, là, maintenant ? 👇 #modesombre #batterie #smartphone #oled #astucetech",
+ "reel_caption": "Mode sombre : seulement 3 à 9 % d'énergie en moins à luminosité normale\n\nÉtude de l'université Purdue (2021), 4 téléphones OLED et 6 applis : 3 à 9 % en moyenne entre 30 et 50 % de luminosité, 39 à 47 % à 100 %. Sur Google Actualités et un Pixel 5, 20 % en mode clair consomme autant que 50 % en mode sombre.\n\nSur un écran LCD, l'étude ne donne aucun chiffre. Le mode sombre garde un atout selon Purdue : moins de fatigue pour les yeux à forte luminosité.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui jure que le mode sombre sauve sa batterie.\n\n#modesombre #batterie #astucetech #suisseromande #jemesuretout",
+ "sources": [
+  "https://engineering.purdue.edu/ECE/News/2021/dark-mode-may-not-save-your-phones-battery-life-as-much-as-you-think-but-there-are-a-few-silver-linings",
+  "https://www.lg.com/in/magazine/what-makes-lg-oled-different-from-led-tvs/"
+ ],
+ "visuel": "s01 duel écrans sombre / clair avec batteries, question ; s03 Purdue, 4 téléphones ; s04 curseur 30-50 %, 3-9 % ; s05 billet de 100 ; s06 loupe ; s07 soleil, 39-47 % ; s08 surprise ; s09 Pixel 5 : 20 % clair = 50 % sombre, balance ; s10 curseur qui baisse ; s11 pixels OLED éteints ; s12 LCD rétroéclairage, tampon AUCUN CHIFFRE ; s13 œil ; s14 bulle ; s15 retour duel ; s16 DEMAIN."
+}
