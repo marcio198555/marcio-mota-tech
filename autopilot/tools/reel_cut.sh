@@ -11,7 +11,7 @@ p = pathlib.Path(sys.argv[1])
 if not p.exists(): print(''); raise SystemExit
 segs = json.loads(p.read_text()).get('segments', [])
 for i, s in enumerate(segs):
-    if 'abonne' in (s.get('text', '') + s.get('display', '')).lower() and i > 0:
+    if 'abonne-toi' in (s.get('text', '') + s.get('display', '')).lower() and i > 0:
         print(round(segs[i - 1]['end'] + 0.05, 2)); break
 else: print('')
 PY

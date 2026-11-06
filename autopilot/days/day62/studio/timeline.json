@@ -1,116 +1,116 @@
 {
- "duration": 68.79,
+ "duration": 68.748,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, c'est douche, ton collègue, c'est bain : qui paie le plus à la fin de l'année ?",
    "start": 0.12,
-   "end": 4.401,
+   "end": 4.871,
    "display": "Toi : douche. Ton collègue : bain. Qui paie le plus à la fin de l'année ?"
   },
   {
    "id": "s02",
    "text": "Reste : tu vas savoir quand ta douche me rattrape.",
-   "start": 4.501,
-   "end": 7.333,
+   "start": 4.971,
+   "end": 7.78,
    "display": "Reste : après combien de minutes ta douche me rattrape ?"
   },
   {
    "id": "s03",
    "text": "Exemple : chauffe-eau électrique, tarif médian Èl-Kom, eau de Lausanne.",
-   "start": 7.433,
-   "end": 12.448,
+   "start": 7.88,
+   "end": 12.854,
    "display": "EXEMPLE : chauffe-eau électrique supposé, tarif médian ElCom 27,7 ct/kWh, eau de Lausanne 3,45 fr./m³"
   },
   {
    "id": "s04",
    "text": "Ta douche, cinq minutes à douze litres : soixante litres.",
-   "start": 12.548,
-   "end": 17.095,
+   "start": 12.954,
+   "end": 17.464,
    "display": "Douche 5 min × 12 l/min = 60 l"
   },
   {
    "id": "s05",
    "text": "Mon bain plein : au moins deux cents, selon les services cantonaux de l'énergie.",
-   "start": 17.195,
-   "end": 22.016,
-   "display": "Bain plein : 200 à 250 l (services cantonaux de l'énergie) · exemple : 200 l"
+   "start": 17.564,
+   "end": 22.345,
+   "display": "Bain plein : 200 à 250 l (services cantonaux de l'énergie), exemple : 200 l"
   },
   {
    "id": "s06",
    "text": "De douze à trente-sept degrés : vingt-neuf wattheures par litre.",
-   "start": 22.116,
-   "end": 25.632,
+   "start": 22.445,
+   "end": 25.932,
    "display": "1 l, de 12 à 37 °C : 1,16 × 25 = 29 Wh"
   },
   {
    "id": "s07",
    "text": "Eau comprise : soixante-neuf centimes pour toi, deux francs trente pour lui.",
-   "start": 25.732,
-   "end": 29.99,
-   "display": "Douche : 1 740 Wh + 60 l = 0,69 fr. · Bain : 5 800 Wh + 200 l = 2,30 fr."
+   "start": 26.032,
+   "end": 30.256,
+   "display": "Douche : 1 740 Wh + 60 l = 0,69 fr. Bain : 5 800 Wh + 200 l = 2,30 fr."
   },
   {
    "id": "s08",
    "text": "Chaque jour, sur un an : environ deux cent cinquante francs contre huit cent quarante.",
-   "start": 30.09,
-   "end": 34.55,
+   "start": 30.356,
+   "end": 34.779,
    "display": "1 par jour, 365 jours : ≈ 250 fr. contre ≈ 840 fr. (exemple)"
   },
   {
    "id": "s09",
    "text": "Presque six cents francs d'écart : oui, c'est moi, merci.",
-   "start": 34.65,
-   "end": 38.097,
+   "start": 34.879,
+   "end": 38.298,
    "display": "≈ 590 fr. d'écart par an (sans pertes du chauffe-eau ni taxes fixes)"
   },
   {
    "id": "s10",
    "text": "Mais à ce débit, en moins de dix-sept minutes, tu me rattrapes.",
-   "start": 38.197,
-   "end": 41.533,
+   "start": 38.398,
+   "end": 41.707,
    "display": "200 l ÷ 12 l/min = 16,7 min : moins de 17 min"
   },
   {
    "id": "s11",
    "text": "Et selon ces services, avec une pomme ordinaire, dix minutes peuvent dépasser un bain.",
-   "start": 41.633,
-   "end": 46.356,
+   "start": 41.807,
+   "end": 46.491,
    "display": "Pomme ordinaire : 10 min peuvent dépasser un bain (services cantonaux)"
   },
   {
    "id": "s12",
    "text": "Mesure ton débit : récipient gradué, chronomètre.",
-   "start": 46.456,
-   "end": 50.71,
+   "start": 46.591,
+   "end": 50.811,
    "display": "Mesure ton débit : récipient gradué + chronomètre"
   },
   {
    "id": "s13",
    "text": "Une pomme classe A, six litres maximum : environ cent vingt-cinq francs d'économie par an.",
-   "start": 50.81,
-   "end": 56.173,
+   "start": 50.911,
+   "end": 56.23,
    "display": "Classe A : 4 à 6 l/min → 30 l au lieu de 60 l, ≈ 125 fr. par an (exemple)"
   },
   {
    "id": "s14",
    "text": "Écris-moi : ta douche dure combien de minutes, montre en main ?",
-   "start": 56.273,
-   "end": 59.973,
+   "start": 56.33,
+   "end": 60.0,
    "display": "Ta douche dure combien de minutes ? Écris-le en commentaire"
   },
   {
    "id": "s15",
    "text": "Toi douche, lui bain : tu sais maintenant qui paie.",
-   "start": 60.073,
-   "end": 62.743,
-   "display": "Toi : ≈ 250 fr. · Lui : ≈ 840 fr. · Rattrapage : moins de 17 min à 12 l/min"
+   "start": 60.1,
+   "end": 62.748,
+   "display": "Toi ≈ 250 fr., lui ≈ 840 fr."
   },
   {
    "id": "s16",
    "text": "Abonne-toi : ce soir, mode sombre ou mode clair : qui a encore de la batterie le soir ?",
-   "start": 62.843,
-   "end": 68.49,
+   "start": 62.848,
+   "end": 68.448,
    "display": "Abonne-toi : ce soir, mode sombre ou mode clair : qui a encore de la batterie le soir ?"
   }
  ]

@@ -1,0 +1,15 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 42,
+ "segments": [
+  {
+   "id": "s07",
+   "text": "Et Apple ajoute : la charge chauffe la batterie, et ça peut réduire sa durée de vie."
+  }
+ ]
+}

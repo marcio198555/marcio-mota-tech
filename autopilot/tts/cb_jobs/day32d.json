@@ -1,0 +1,15 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 42,
+ "segments": [
+  {
+   "id": "s04",
+   "text": "Je te balance la réponse."
+  }
+ ]
+}

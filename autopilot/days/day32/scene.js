@@ -13,7 +13,7 @@
   const at = (id, f) => S(id) + (E(id) - S(id)) * f;
 
   // ---------- personnage : l'image reçoit tambour qui tourne, regard et sourcils, puis CHR.art l'anime ----------
-  const M = { mouth: [0.519, 0.205, 0.15], eyes: [[0.396, 0.163, 0.1, 0.053], [0.68, 0.161, 0.1, 0.054]], lid: '#e6e2df' };
+  const M = { mouth: [0.519, 0.205, 0.15] };
   const SEGS = ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09', 's10', 's11', 's12', 's13', 's14', 's15', 's16'];
   const MOOD = { s01: 'fache', s02: 'malin', s03: 'malin', s04: 'malin', s05: 'neutre', s06: 'neutre', s07: 'surpris', s08: 'fache', s09: 'neutre', s10: 'surpris', s11: 'surpris', s12: 'malin', s13: 'neutre', s14: 'malin', s15: 'neutre', s16: 'malin' };
   const LOOK = { s01: [-1, 0.2], s02: [1, 0.2], s03: [0, -1], s04: [0.2, -1], s05: [-1, -0.7], s06: [1, -0.8], s07: [0, -1], s08: [-1, -0.6], s09: [-0.4, -1], s10: [1, -0.6], s11: [-1, -0.6], s12: [0, -1], s13: [-0.6, -1], s14: [-1, -0.5], s15: [0, 0.2], s16: [0, -0.5] };
@@ -37,6 +37,27 @@
     g.strokeStyle = '#2d2724'; g.lineWidth = 6; g.lineCap = 'round';
     g.beginPath(); g.moveTo(cx - 45, cy - 14); g.quadraticCurveTo(cx, cy - 36, cx + 46, cy - 12); g.stroke();
   }
+  // clignement : paupière couleur de l'émail, bord fondu (masque flou), ligne des cils qui descend
+  function blinkAt(t) { const p = 3.84, ph = (t + 1.42) % p; return ph < 0.07 ? ph / 0.07 : ph < 0.15 ? 1 - (ph - 0.07) / 0.08 : 0; }
+  const LIDS = [{ c: [187, 136], en: ['#e2dddb', '#ece8e6'] }, { c: [321, 136], en: ['#ece8e6', '#e8e3e1'] }];
+  function eyelid(g, e, b) {
+    const SW = 140, SH = 110, ox = e.c[0] - SW / 2, oy = e.c[1] - SH / 2;
+    if (!e.mask) {
+      e.mask = document.createElement('canvas'); e.mask.width = SW; e.mask.height = SH;
+      const mg = e.mask.getContext('2d'); mg.filter = 'blur(6px)'; mg.fillStyle = '#000';
+      mg.beginPath(); mg.ellipse(SW / 2, SH / 2, 50, 36, 0, 0, Math.PI * 2); mg.fill();
+      e.cv = document.createElement('canvas'); e.cv.width = SW; e.cv.height = SH;
+    }
+    const c = e.cv.getContext('2d');
+    c.setTransform(1, 0, 0, 1, 0, 0); c.globalCompositeOperation = 'source-over'; c.clearRect(0, 0, SW, SH);
+    const cxl = SW / 2, ys = lerp(22, 62, b), yc = lerp(26, 106, b);
+    const gr = c.createLinearGradient(cxl - 50, 0, cxl + 50, 0); gr.addColorStop(0, e.en[0]); gr.addColorStop(1, e.en[1]);
+    c.fillStyle = gr; c.beginPath(); c.moveTo(0, 0); c.lineTo(SW, 0); c.lineTo(SW, ys); c.quadraticCurveTo(cxl, yc, 0, ys); c.closePath(); c.fill();
+    c.globalCompositeOperation = 'destination-in'; c.drawImage(e.mask, 0, 0);
+    c.globalCompositeOperation = 'source-over'; c.strokeStyle = '#2d2724'; c.lineWidth = 5; c.lineCap = 'round';
+    c.beginPath(); c.moveTo(cxl - 45, ys); c.quadraticCurveTo(cxl, yc, cxl + 45, ys); c.stroke();
+    g.drawImage(e.cv, ox, oy);
+  }
   function brow(g, x0, y0, xc, yc, x1, y1) {
     g.strokeStyle = '#4b433e'; g.lineWidth = 13; g.lineCap = 'round';
     g.beginPath(); g.moveTo(x0, y0); g.quadraticCurveTo(xc, yc, x1, y1); g.stroke();
@@ -52,6 +73,7 @@
     g.strokeStyle = '#7c6a60'; g.lineWidth = 3; g.lineCap = 'round'; g.beginPath(); g.moveTo(224, 161); g.quadraticCurveTo(245, 156, 266, 161); g.stroke();
     const [lx, ly] = lookAt(t);
     eye(g, 187, 140, lx, ly); eye(g, 321, 140, lx, ly);
+    const bl = blinkAt(t); if (bl > 0.01) LIDS.forEach(e => eyelid(g, e, bl));
     const mood = MOOD[segAt(t)];
     if (mood !== 'neutre') {
       g.save(); g.filter = 'blur(4px)'; g.fillStyle = '#e8e4e2';

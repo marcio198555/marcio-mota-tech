@@ -1,5 +1,5 @@
 {
- "duration": 68.756,
+ "duration": 68.79,
  "segments": [
   {
    "id": "s01",
@@ -66,44 +66,44 @@
   },
   {
    "id": "s10",
-   "text": "Trente et un francs en Suisse, dix-neuf en France : douze francs d'écart.",
+   "text": "Trente et un francs de courant en Suisse, dix-neuf en France : douze d'écart.",
    "start": 37.926,
-   "end": 42.636,
-   "display": "31 francs en Suisse, 19 en France : | 12 francs d'écart."
+   "end": 42.741,
+   "display": "31 francs de courant en Suisse, | 19 en France : 12 d'écart."
   },
   {
    "id": "s11",
    "text": "Attention : médiane suisse contre tarif réglementé, et l'abonnement français reste à part.",
-   "start": 42.736,
-   "end": 47.67,
+   "start": 42.841,
+   "end": 47.775,
    "display": "Attention : médiane suisse | contre tarif réglementé, | et l'abonnement français reste à part."
   },
   {
    "id": "s12",
    "text": "Avec cent quatre-vingt-dix euros d'abonnement, l'écart tombe de onze virgule six à sept virgule sept centimes.",
-   "start": 47.77,
-   "end": 53.867,
+   "start": 47.875,
+   "end": 53.972,
    "display": "Avec 190 euros d'abonnement, | l'écart tombe de 11,6 à 7,7 centimes."
   },
   {
    "id": "s14",
    "text": "Et toi, quel prix au kilowattheure sur ta facture ?",
-   "start": 53.967,
-   "end": 57.625,
+   "start": 54.072,
+   "end": 57.73,
    "display": "Et toi, quel prix au kWh sur ta facture ?"
   },
   {
    "id": "s15",
-   "text": "Même machine, même lessive : douze francs d'écart par an, huit en répartissant l'abonnement.",
-   "start": 57.725,
-   "end": 62.8,
-   "display": "Même machine, même lessive : | 12 francs d'écart par an, | 8 en répartissant l'abonnement."
+   "text": "Même machine : douze francs de courant d'écart par an, huit en répartissant l'abonnement.",
+   "start": 57.83,
+   "end": 62.834,
+   "display": "Même machine : | 12 francs de courant d'écart par an, | 8 en répartissant l'abonnement."
   },
   {
    "id": "s16",
    "text": "Abonne-toi : ce soir, vaisselle à la main ou lave-vaisselle : qui gaspille le plus d'eau ?",
-   "start": 62.9,
-   "end": 68.456,
+   "start": 62.934,
+   "end": 68.49,
    "display": "Abonne-toi : ce soir, | vaisselle à la main ou lave-vaisselle : | qui gaspille le plus d'eau ?"
   }
  ]
