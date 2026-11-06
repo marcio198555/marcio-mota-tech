@@ -1,0 +1,15 @@
+{
+ "job": "day56b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s15",
+   "text": "Avec cette box, il gagne neuf francs soixante-trois par an. Mais plus de téléphone fixe la nuit.",
+   "file": "s15.wav",
+   "duration": 6.56,
+   "rate": 24000
+  }
+ ],
+ "total": 6.56
+}
