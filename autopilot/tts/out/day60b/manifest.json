@@ -1,0 +1,57 @@
+{
+ "job": "day60b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s02",
+   "text": "Ton collègue garde son vieux chargeur.",
+   "file": "s02.wav",
+   "duration": 2.16,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Lequel des deux abîme le plus sa batterie ?",
+   "file": "s03.wav",
+   "duration": 4.28,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Réponse : ce qu'écrivent vraiment Apple et Samsung.",
+   "file": "s04.wav",
+   "duration": 4.12,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Selon Apple, ce mélange prolonge la durée de vie, mais sans comparer à un vieux chargeur.",
+   "file": "s06.wav",
+   "duration": 5.68,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Le gagnant ? Aucun chiffre d'Apple ni de Samsung sur les fiches lues.",
+   "file": "s09.wav",
+   "duration": 4.36,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Celui qui laisse son téléphone tranquille en charge suit déjà Samsung.",
+   "file": "s15.wav",
+   "duration": 4.8,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, ton frigo balance s'il est réglé trop froid.",
+   "file": "s16.wav",
+   "duration": 5.0,
+   "rate": 24000
+  }
+ ],
+ "total": 30.4
+}
