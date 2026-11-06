@@ -1,0 +1,15 @@
+{
+ "job": "day58c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s08",
+   "text": "Par exemple, une lasagne de huit centimètres : le milieu reste hors de portée directe.",
+   "file": "s08.wav",
+   "duration": 5.84,
+   "rate": 24000
+  }
+ ],
+ "total": 5.84
+}
