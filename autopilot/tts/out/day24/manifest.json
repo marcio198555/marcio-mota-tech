@@ -1,0 +1,113 @@
+{
+ "job": "day24",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, mode sombre. Ton collègue, mode clair. Qui a encore de la batterie le soir ?",
+   "file": "s01.wav",
+   "duration": 5.88,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Reste : un autre réglage peut tout changer.",
+   "file": "s02.wav",
+   "duration": 3.04,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "L'université Purdue a mesuré quatre téléphones OLED.",
+   "file": "s03.wav",
+   "duration": 3.88,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Entre trente et cinquante pour cent de luminosité, le mode sombre économise en moyenne trois à neuf pour cent.",
+   "file": "s04.wav",
+   "duration": 7.48,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Sur un billet de cent francs, ce serait trois à neuf francs.",
+   "file": "s05.wav",
+   "duration": 4.08,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Si peu que la plupart des gens ne le remarqueraient pas.",
+   "file": "s06.wav",
+   "duration": 3.64,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Mais à fond, en plein soleil : trente-neuf à quarante-sept pour cent.",
+   "file": "s07.wav",
+   "duration": 4.56,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : ton collègue peut te rattraper sans toucher aux couleurs.",
+   "file": "s08.wav",
+   "duration": 4.36,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Sur un Pixel cinq, vingt pour cent en clair consomme autant que cinquante pour cent en sombre.",
+   "file": "s09.wav",
+   "duration": 6.76,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Et ton écran compte : en OLED, un pixel noir s'éteint.",
+   "file": "s10.wav",
+   "duration": 5.12,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Sur un LCD, la lumière vient de derrière : l'étude ne donne aucun chiffre.",
+   "file": "s11.wav",
+   "duration": 5.68,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Et le mode sombre fatigue moins les yeux à forte luminosité, selon Purdue.",
+   "file": "s12.wav",
+   "duration": 5.88,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Ta luminosité est à combien, là ? Écris-la en commentaire.",
+   "file": "s13.wav",
+   "duration": 3.88,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Toi, mode sombre. Ton collègue, écran baissé. L'écart peut être minuscule.",
+   "file": "s14.wav",
+   "duration": 5.76,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, baisser ton chauffage d'un degré, combien tu gagnes ?",
+   "file": "s15.wav",
+   "duration": 5.24,
+   "rate": 24000
+  }
+ ],
+ "total": 75.24
+}
