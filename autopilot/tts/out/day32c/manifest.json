@@ -1,0 +1,22 @@
+{
+ "job": "day32c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s04",
+   "text": "Je te balance la réponse, en francs.",
+   "file": "s04.wav",
+   "duration": 3.84,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Suisse Énergie conseille aussi ce programme, même s'il dure plus longtemps.",
+   "file": "s13.wav",
+   "duration": 6.12,
+   "rate": 24000
+  }
+ ],
+ "total": 9.96
+}
