@@ -1,0 +1,22 @@
+{
+ "job": "day32b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s10",
+   "text": "À trois machines par semaine : environ vingt-deux francs d'écart par an.",
+   "file": "s10.wav",
+   "duration": 4.32,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, même aïe-fone, en Suisse et en France : où coûte-t-il le moins cher ?",
+   "file": "s16.wav",
+   "duration": 6.64,
+   "rate": 24000
+  }
+ ],
+ "total": 10.96
+}
