@@ -1,5 +1,5 @@
 {
- "duration": 68.376,
+ "duration": 68.69,
  "segments": [
   {
    "id": "s01",
@@ -40,70 +40,70 @@
    "id": "s06",
    "text": "Si peu que la plupart des gens ne le remarqueraient pas.",
    "start": 22.021,
-   "end": 24.648,
+   "end": 24.961,
    "display": "Si peu que la plupart des gens | ne le remarqueraient pas."
   },
   {
    "id": "s07",
    "text": "Mais à cent pour cent, en plein soleil : trente-neuf à quarante-sept pour cent.",
-   "start": 24.748,
-   "end": 28.867,
+   "start": 25.061,
+   "end": 29.18,
    "display": "Mais à 100 %, en plein soleil : | 39 à 47 %."
   },
   {
    "id": "s08",
    "text": "Surprise : ton collègue peut te rattraper sans toucher aux couleurs.",
-   "start": 28.967,
-   "end": 32.747,
+   "start": 29.28,
+   "end": 33.06,
    "display": "Surprise : ton collègue peut | te rattraper sans toucher aux couleurs."
   },
   {
    "id": "s09",
    "text": "Sur un Pixel cinq, dans Google Actualités, vingt pour cent en clair consomme autant que cinquante pour cent en sombre.",
-   "start": 32.847,
-   "end": 39.847,
+   "start": 33.16,
+   "end": 40.16,
    "display": "Sur un Pixel 5, dans Google Actualités, | 20 % en clair consomme autant | que 50 % en sombre."
   },
   {
    "id": "s10",
    "text": "Et ton écran compte : en OLED, un pixel noir s'éteint.",
-   "start": 39.947,
-   "end": 44.238,
+   "start": 40.26,
+   "end": 44.551,
    "display": "Et ton écran compte : | en OLED, un pixel noir s'éteint."
   },
   {
    "id": "s11",
    "text": "Sur un écran èl-cé-dé, la lumière vient de derrière : l'étude ne donne aucun chiffre.",
-   "start": 44.338,
-   "end": 49.629,
+   "start": 44.651,
+   "end": 49.943,
    "display": "Sur un écran LCD, la lumière vient de derrière : | l'étude ne donne aucun chiffre."
   },
   {
    "id": "s12",
    "text": "Et si le mode sombre repose tes yeux, tant mieux : Purdue ne l'a pas mesuré.",
-   "start": 49.729,
-   "end": 54.512,
+   "start": 50.043,
+   "end": 54.825,
    "display": "Et si le mode sombre repose tes yeux, tant mieux : | Purdue ne l'a pas mesuré."
   },
   {
    "id": "s13",
    "text": "Ta luminosité est à combien, là ? Écris-la en commentaire.",
-   "start": 54.612,
-   "end": 57.649,
+   "start": 54.925,
+   "end": 57.963,
    "display": "Ta luminosité est à combien, là ? | Écris-la en commentaire."
   },
   {
    "id": "s14",
    "text": "Toi, mode sombre. Ton collègue, écran baissé. L'écart peut être minuscule.",
-   "start": 57.749,
-   "end": 63.081,
+   "start": 58.063,
+   "end": 63.395,
    "display": "Toi, mode sombre. Ton collègue, écran baissé. | L'écart peut être minuscule."
   },
   {
    "id": "s15",
    "text": "Abonne-toi : demain, baisser ton chauffage d'un degré, combien tu gagnes ?",
-   "start": 63.181,
-   "end": 68.076,
+   "start": 63.495,
+   "end": 68.39,
    "display": "Abonne-toi : demain, baisser ton chauffage | d'un degré, combien tu gagnes ?"
   }
  ]
