@@ -1,0 +1,113 @@
+{
+ "job": "day27",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu me règles à deux degrés. Ton collègue, à cinq. Qui paie pour rien ?",
+   "file": "s01.wav",
+   "duration": 5.24,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Reste : à la fin, tu sauras si mon bouton te ment.",
+   "file": "s02.wav",
+   "duration": 4.44,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Je suis ton frigo : chaque degré en moins me demande cinq pour cent d'énergie en plus, écrit Que Choisir.",
+   "file": "s03.wav",
+   "duration": 7.56,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "De cinq à deux degrés : environ quinze pour cent.",
+   "file": "s04.wav",
+   "duration": 3.84,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Exemple : un combiné moyen, trois cent quinze kilowattheures par an, selon l'Ademe.",
+   "file": "s05.wav",
+   "duration": 5.8,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Au tarif médian suisse : environ treize francs de plus par an.",
+   "file": "s06.wav",
+   "duration": 4.28,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Un peu plus d'un franc par mois.",
+   "file": "s07.wav",
+   "duration": 2.92,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : sur un frigo mécanique, le cran trois, ce n'est pas trois degrés.",
+   "file": "s08.wav",
+   "duration": 5.6,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "C'est la force du froid.",
+   "file": "s09.wav",
+   "duration": 2.6,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Et ton collègue n'a pas forcément gagné : l'Anses vise zéro à quatre degrés au point le plus froid.",
+   "file": "s10.wav",
+   "duration": 6.76,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "La porte et le bac à légumes sont mes coins les moins froids.",
+   "file": "s11.wav",
+   "duration": 4.08,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Le test : un verre d'eau au milieu, une nuit, un thermomètre.",
+   "file": "s12.wav",
+   "duration": 4.32,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Il affiche combien ? Écris-le en commentaire.",
+   "file": "s13.wav",
+   "duration": 2.96,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Toi, treize francs de trop. Ton collègue, peut-être trop chaud.",
+   "file": "s14.wav",
+   "duration": 5.08,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, linge au salon ou sèche-linge, qui paie vraiment ?",
+   "file": "s15.wav",
+   "duration": 4.16,
+   "rate": 24000
+  }
+ ],
+ "total": 69.64
+}
