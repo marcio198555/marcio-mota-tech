@@ -1,0 +1,57 @@
+{
+ "job": "day58b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s03",
+   "text": "Reste : à la fin, tu sauras comment éviter le milieu froid.",
+   "file": "s03.wav",
+   "duration": 4.12,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "L'agence américaine, la F D A, l'écrit : dans un plat épais, je chauffe surtout les couches extérieures.",
+   "file": "s05.wav",
+   "duration": 7.4,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Par exemple, une lasagne de huit centimètres : le milieu reste hors de portée directe.",
+   "file": "s08.wav",
+   "duration": 5.4,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Surprise : mes ondes se croisent et laissent des zones froides, environ tous les six centimètres.",
+   "file": "s09.wav",
+   "duration": 6.64,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Puis laisse reposer au moins trois minutes : la cuisson continue.",
+   "file": "s12.wav",
+   "duration": 4.36,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Exemple : mille watts consommés, quatre minutes : environ deux centimes.",
+   "file": "s13.wav",
+   "duration": 5.36,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Toi, à moitié raison : je chauffe inégalement. Ton collègue, faux : pas de l'intérieur.",
+   "file": "s15.wav",
+   "duration": 6.56,
+   "rate": 24000
+  }
+ ],
+ "total": 39.84
+}
