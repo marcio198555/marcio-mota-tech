@@ -16,6 +16,7 @@ const stills = opt('stills') ? opt('stills').split(',').map(Number) : null;
 const stillsDir = path.resolve(opt('stillsDir', 'stills'));
 const engine = path.join(__dirname, 'engine.js');
 const chars = path.join(__dirname, 'characters.js');
+const kit = path.join(__dirname, 'kit.js');
 
 const IN = '/usr/share/fonts/opentype/inter/';
 const faces = [
@@ -36,6 +37,7 @@ html,body{margin:0;background:#000;overflow:hidden} canvas{display:block}</style
 <script>window.TL = ${JSON.stringify(timeline)};</script>
 <script src="file://${engine}"></script>
 <script src="file://${chars}"></script>
+<script src="file://${kit}"></script>
 <script src="file://${scene}"></script>
 <script>
 window.__ready = (async () => { await Promise.all(${JSON.stringify(loads)}.map(f => document.fonts.load(f, 'AZaz09%°🌧👇'))); if (window.SCENE && SCENE.load) await SCENE.load(); return true; })();
