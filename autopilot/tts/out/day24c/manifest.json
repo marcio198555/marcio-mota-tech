@@ -1,0 +1,15 @@
+{
+ "job": "day24c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s06",
+   "text": "Si peu que la plupart des gens ne le remarqueraient pas.",
+   "file": "s06.wav",
+   "duration": 3.68,
+   "rate": 24000
+  }
+ ],
+ "total": 3.68
+}
