@@ -1,0 +1,32 @@
+{
+ "display": {
+  "s01": "Toi, ta box reste allumée toute la nuit.",
+  "s02": "Ton collègue la débranche avant de dormir.",
+  "s03": "Combien il gagne, en vrai ?",
+  "s04": "Reste : tu auras le chiffre, et ce qu'il coupe avec.",
+  "s05": "Internet-Box 5 : 11,9 W, appareils connectés, sans transfert, selon Swisscom.",
+  "s06": "Débranchée 8 h par nuit : presque 35 kWh de moins par an.",
+  "s07": "Au tarif médian ElCom, 27,7 ct/kWh, ça donne 9,63 CHF par an.",
+  "s08": "Moins de 3 centimes par nuit, environ 2 cafés crème par an.",
+  "s09": "Mais Swisscom l'écrit : téléphone fixe, alarmes et caméras fonctionnent uniquement si le routeur est allumé.",
+  "s10": "Et Swisscom recommande de ne pas brancher le routeur sur une multiprise.",
+  "s11": "Autre option : dans My Swisscom, programme une pause du Wi-Fi, la nuit.",
+  "s12": "L'Internet-Box 5 Pro a aussi un mode économie : 0,3 W, aux heures choisies.",
+  "s13": "Mais ni Internet ni les appels ne fonctionnent.",
+  "s14": "Écris en commentaire ce qui s'arrêterait chez toi si ta box dormait.",
+  "s15": "Ton collègue gagne 9,63 CHF par an. Mais plus de téléphone fixe la nuit.",
+  "s16": "Abonne-toi : ce soir, ton micro-ondes balance pourquoi le centre reste froid."
+ },
+ "title": "Box débranchée la nuit : combien on gagne ?",
+ "caption": "Débrancher sa box internet la nuit rapporte environ 2 cafés crème par an ☕ Calcul : 11,9 W (Internet-Box 5, fiche Swisscom) × 8 h × 365 = 34,75 kWh, soit 9,63 CHF au tarif médian ElCom 2026 (27,7 ct/kWh). Mais selon Swisscom, téléphone fixe, systèmes d'alarme et caméras de surveillance fonctionnent uniquement si le routeur est allumé. Chez toi, qu'est-ce qui s'arrêterait si ta box dormait ? 👇 #boxinternet #swisscom #wifi #electricite #astucetech",
+ "reel_caption": "Éteindre sa box internet la nuit : environ 2 cafés crème gagnés par an, mais plus de téléphone fixe.\n\nSwisscom annonce 11,9 W pour l'Internet-Box 5 (appareils connectés, sans transfert de données). Débranchée 8 h par nuit : 34,75 kWh de moins par an, soit 9,63 CHF au tarif médian ElCom 2026 (27,7 ct/kWh), moins de 3 centimes par nuit. Un café crème coûte en moyenne 4,65 CHF (CafetierSuisse, 2025). Au tarif médian ElCom 2027 (26,5 ct/kWh), le gain tombe à 9,21 CHF.\n\nSwisscom précise que la téléphonie fixe, les systèmes d'alarme et les caméras de surveillance fonctionnent uniquement si le routeur est allumé, et recommande de ne pas le brancher sur une multiprise. Autres options : des horaires de pause du WLAN dans My Swisscom, ou le mode d'économie d'énergie de l'Internet-Box 5 Pro (0,3 W, mais ni Internet ni appels).\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui débranche sa box tous les soirs.\n\n#boxinternet #wifi #electricite #suisseromande #jemesuretout",
+ "sources": [
+  "https://www.swisscom.ch/fr/clients-prives/aide/applis-et-services/consommation-denergie.html",
+  "https://www.swisscom.ch/fr/clients-prives/aide/applis-et-services/conseils-economie-energie.html",
+  "https://www.swisscom.ch/fr/clients-prives/aide/internet/wlan-verwalten.html",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+  "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
+  "https://www.20min.ch/fr/story/suisse-le-prix-du-cafe-n-en-finit-plus-de-grimper-103456833"
+ ],
+ "visuel": "s01 : écran partagé, à gauche man_technologist et une box dont les voyants brillent, lune et étoiles qui montent ; étiquette TOI.\ns02 : à droite woman_technologist tire la prise, étincelle, la box s'éteint ; étiquette TON COLLÈGUE.\ns03 : les deux côtés reculent, un grand « ? CHF » tombe au centre et rebondit.\ns04 : le « ? » se coupe en deux, une moitié verte « LE CHIFFRE », une moitié rouge « CE QU'IL COUPE » ; une paire de ciseaux traverse l'écran.\ns05 : la box en gros plan, compteur de 0 à 11,9 W, puis étiquette « fiche Swisscom » et petits appareils connectés autour, sans flèches de données.\ns06 : horloge qui tourne 8 h, puis calcul qui s'écrit ligne à ligne : 11,9 W × 8 h × 365 = 34,75 kWh ; une barre d'énergie se remplit.\ns07 : 34,75 kWh × 27,7 ct = compteur qui défile jusqu'à 9,63 CHF ; tampon rouge « PAR AN » ; mention « médiane ElCom 2026 ».\ns08 : pièces de 1 ct qui tombent (2,64 ct par nuit), puis 2 tasses de café crème qui glissent sur la table à côté de 9,63 CHF.\ns09 : la prise débranchée ; trois icônes s'éteignent une à une avec un tampon rouge : téléphone fixe, alarme, caméra ; citation Swisscom en bas.\ns10 : une multiprise à interrupteur arrive vers la box, un panneau « Swisscom : à ne pas faire » la bloque.\ns11 : écran de téléphone stylisé (pas de vraie capture), réglage « Pause du Wi-Fi » qui bascule, les ondes Wi-Fi s'éteignent sur fond de nuit.\ns12 : l'Internet-Box 5 Pro avec voyant vert fixe, compteur qui descend de 15,6 à 0,3 W, curseur d'horaires qui se règle.\ns13 : tampon rouge sur deux icônes, globe Internet et combiné de téléphone.\ns14 : bulle de commentaire géante qui se remplit, liste animée « alarme ? téléphone ? caméra ? ».\ns15 : retour à l'écran partagé du début : à gauche box allumée, à droite 9,63 CHF qui s'ajoute et téléphone fixe barré sous la lune.\ns16 : la box s'efface, un micro-ondes arrive avec un plat au centre bleu froid ; bouton « Abonne-toi » et @marcio.mota8."
+}

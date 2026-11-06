@@ -1,0 +1,75 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ta box reste allumée toute la nuit."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue la débranche avant de dormir."
+  },
+  {
+   "id": "s03",
+   "text": "Combien il gagne, en vrai ?"
+  },
+  {
+   "id": "s04",
+   "text": "Reste : tu auras le chiffre, et ce qu'il coupe avec."
+  },
+  {
+   "id": "s05",
+   "text": "Internet-Boxe cinq : onze virgule neuf watts, appareils connectés, sans transfert, selon Souisse-com."
+  },
+  {
+   "id": "s06",
+   "text": "Débranchée huit heures par nuit : presque trente-cinq kilowattheures de moins par an."
+  },
+  {
+   "id": "s07",
+   "text": "Au tarif médian Èl-Kom, vingt-sept virgule sept centimes, ça donne neuf francs soixante-trois par an."
+  },
+  {
+   "id": "s08",
+   "text": "Moins de trois centimes par nuit, environ deux cafés crème par an."
+  },
+  {
+   "id": "s09",
+   "text": "Mais Souisse-com l'écrit : téléphone fixe, alarmes et caméras fonctionnent uniquement si le routeur est allumé."
+  },
+  {
+   "id": "s10",
+   "text": "Et Souisse-com recommande de ne pas brancher le routeur sur une multiprise."
+  },
+  {
+   "id": "s11",
+   "text": "Autre option : dans Maï Souisse-com, programme une pause du ouifi, la nuit."
+  },
+  {
+   "id": "s12",
+   "text": "L'Internet-Boxe cinq Pro a aussi un mode économie : zéro virgule trois watt, aux heures choisies."
+  },
+  {
+   "id": "s13",
+   "text": "Mais ni Internet ni les appels ne fonctionnent."
+  },
+  {
+   "id": "s14",
+   "text": "Écris en commentaire ce qui s'arrêterait chez toi si ta box dormait."
+  },
+  {
+   "id": "s15",
+   "text": "Ton collègue gagne neuf francs soixante-trois par an. Mais plus de téléphone fixe la nuit."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, ton micro-ondes balance pourquoi le centre reste froid."
+  }
+ ]
+}

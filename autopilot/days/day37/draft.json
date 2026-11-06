@@ -1,0 +1,34 @@
+{
+ "display": {
+  "s01": "Toi : linge au salon",
+  "s02": "Ton collègue : sèche-linge. Qui paie le plus ?",
+  "s03": "Réponse en francs + la surprise dans l'air",
+  "s04": "Bosch WTW87680CH, pompe à chaleur, 8 kg, classe C : 0,99 kWh par séchage",
+  "s05": "0,99 kWh × 27,7 ct (ElCom 2026) = 27 ct",
+  "s06": "Bosch WTN83203FG (Belgique), condensation, classe G : 3,08 kWh × 27,7 ct = 85 ct",
+  "s07": "Suisse, depuis le 1.7.2025 : classe C au minimum (≤ 4 kg/h, OFEN)",
+  "s08": "Étendoir : 0 kWh = 0 fr. d'électricité",
+  "s09": "Étude Q-Wash pour l'ADEME (France) : environ 2 kg d'eau par machine",
+  "s10": "× 4 : un bain ou une douche",
+  "s11": "Pièce : −1 à −2 °C pendant le séchage (Q-Wash)",
+  "s12": "OFSP : « Evitez de sécher le linge dans les pièces habitables »",
+  "s13": "Aère ≥ 5 min matin, midi, coucher · humidité 30 à 50 % (OFSP)",
+  "s14": "Ton étendoir : dans quelle pièce ?",
+  "s15": "Lui : des centimes. Toi : de l'eau dans l'air",
+  "s16": "Abonne-toi : ce soir, ce que ta télé fait quand tu crois l'avoir éteinte"
+ },
+ "title": "Linge au salon ou sèche-linge : qui paie ?",
+ "caption": "Linge au salon ou sèche-linge : 0 fr. d'électricité contre 27 ct par séchage (Bosch WTW87680CH, 0,99 kWh × 27,7 ct, ElCom 2026). Mais d'après une étude pour l'ADEME, environ 2 kg d'eau partent dans l'air intérieur à chaque machine, et l'OFSP conseille d'éviter de sécher le linge dans les pièces habitables. Le coût du chauffage n'est pas chiffré ici : il dépend de ton logement. Ton étendoir, il est dans quelle pièce ? #sechelinge #etendoir #humidite #electricite #suisseromande",
+ "reel_caption": "Linge au salon ou sèche-linge : le duel en francs, et ce que l'eau du linge fait à ton air.\n\nUn Bosch WTW87680CH (pompe à chaleur, 8 kg, classe C) indique 0,99 kWh par séchage : au tarif médian ElCom 2026 de 27,7 ct/kWh, cela fait 27 ct. Une fiche belge WTN83203FG (condensation, classe G) indique 3,08 kWh, soit 85 ct, mais en Suisse les modèles de ménage (≤ 4 kg/h) doivent désormais être au moins en classe C (OFEN). L'étendoir, lui, ne consomme pas d'électricité.\n\nSelon l'étude Q-Wash menée pour l'ADEME, environ 2 kg d'eau passent dans l'air intérieur par machine, le quadruple d'un bain ou d'une douche, et la pièce perd 1 à 2 °C pendant le séchage. L'OFSP conseille d'éviter de sécher le linge dans les pièces habitables, recommande 30 à 50 % d'humidité et une aération d'au moins 5 minutes le matin, à midi et au coucher en période de chauffage. Le coût du chauffage n'est pas chiffré : il dépend de ton logement.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui étend son linge au salon.\n\n#sechelinge #humidite #astucemaison #suisseromande #jemesuretout",
+ "sources": [
+  "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
+  "https://www.elcom.admin.ch/dam/fr/sd-web/znXqHISH0pFP/Newsletter_09-2025_FR.pdf",
+  "https://media3.bsh-group.com/Documents/eudatasheet/it-CH/WTW87680CH.pdf",
+  "https://media3.bsh-group.com/Documents/eudatasheet/fr-BE/WTN83203FG.pdf",
+  "https://pubdb.bfe.admin.ch/fr/publication/download/6307",
+  "https://hal.science/hal-05318299v1/file/%5BQ-Wash%5D%20Qualit%C3%A9%20de%20l%27air%20int%C3%A9rieur%20et%20s%C3%A9chage%20du%20linge.pdf",
+  "https://www.bag.admin.ch/dam/fr/sd-web/wBJWq1KVfpS-/vorsicht-schimmel.pdf",
+  "https://www.bag.admin.ch/fr/aeration-et-chauffage-appropries"
+ ],
+ "visuel": "s01: Écran partagé : étendoir dans un salon / sèche-linge ; personnes 3D man_technologist et woman_technologist ; « ? » géant\ns02: Le tambour se met à tourner ; compteur en francs qui démarre des deux côtés\ns03: Pièce de 1 franc qui tombe, puis nuage bleu qui monte de l'étendoir\ns04: Étiquette énergie classe C qui arrive ; 0,99 kWh en très gros ; petit pictogramme pompe à chaleur\ns05: Calcul qui s'écrit ligne par ligne : 0,99 × 27,7 = 27 ct ; tampon « ElCom 2026 »\ns06: Deuxième étiquette classe G, en rouge ; 3,08 kWh × 27,7 ct = 85 ct ; drapeau belge discret\ns07: Échelle A à G : tout ce qui est sous C se grise ; drapeau suisse et date 1.7.2025\ns08: Compteur de l'étendoir bloqué à 0,00 fr. ; tampon vert sur le côté collègue : « il paie »\ns09: Gouttes qui quittent le linge ; bouteille de 2 L qui se remplit dans l'air ; mention « étude pour l'ADEME »\ns10: Comparatif barres : baignoire / douche / linge, la barre du linge monte à ×4\ns11: Thermomètre qui descend de 1 à 2 °C ; nuage plus dense autour de l'étendoir\ns12: Citation OFSP en encadré ; barre rouge sur un salon, flèche vers une buanderie\ns13: Fenêtre grande ouverte avec chrono 5:00 ; 3 repères matin, midi, coucher ; jauge d'humidité 30–50 %\ns14: Plan d'appartement : pièces qui s'allument une à une ; bulle de commentaire\ns15: Retour à l'écran partagé du début : « centimes » à droite, « eau dans l'air » à gauche\ns16: Télé éteinte avec un petit voyant rouge qui s'allume ; logo JE MESURE TOUT ; @marcio.mota8"
+}

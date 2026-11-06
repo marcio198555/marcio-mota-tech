@@ -1,0 +1,35 @@
+{
+ "display": {
+  "s01": "Toi : 60 °C",
+  "s02": "Ton collègue : 30 °C",
+  "s03": "Le plus propre ? Qui paie le plus ?",
+  "s04": "La réponse, en francs",
+  "s05": "Même à 60 °C : pas stérile. Karl Perron, UNIGE",
+  "s06": "60 °C nécessaire : maladie, immunité fragile (RTS)",
+  "s07": "Taches : meilleurs résultats à 60 °C (Les Numériques)",
+  "s08": "60 °C = 2,7 × l'électricité de 30 °C",
+  "s09": "0,788 kWh = 22 ct · 0,265 kWh = 7 ct (27,7 ct/kWh)",
+  "s10": "3 machines/semaine : 22,60 fr. d'écart par an",
+  "s11": "Miele : ECO 40-60 = + 50 min",
+  "s12": "− 38 % par rapport à Coton 60 (0,90 et 1,45 kWh)",
+  "s13": "SuisseEnergie : le programme éco, même s'il dure plus longtemps",
+  "s14": "Tes draps : à combien de degrés ?",
+  "s15": "60 °C ou 30 °C : ça dépend du linge",
+  "s16": "Abonne-toi : ce soir, même iPhone, Suisse ou France ?"
+ },
+ "title": "Lave-linge à 30 ou 60 °C : qui paie ?",
+ "caption": "Lave-linge à 60 °C : 22 centimes d'électricité la machine, contre 7 à 30 °C 🧺 Calcul sur l'exemple de Wien Energie (0,788 et 0,265 kWh) au tarif médian ElCom 2026 (27,7 ct/kWh). L'ADEME annonce 2 fois moins d'énergie à 30 °C, le test de Les Numériques 2,7 fois, mais ses meilleurs résultats sur les taches sont à 60 °C. RTS : 60 °C reste nécessaire après une maladie ou pour une immunité fragile. Machine fictive, voix de synthèse. Et toi, tes draps, tu les laves à combien de degrés ? 👇 #lavelinge #machinealaver #electricite #astucemaison",
+ "reel_caption": "Lave-linge à 30 °C ou 60 °C : lequel lave le mieux, et lequel coûte le plus ?\n\nDans le test de Les Numériques, 60 °C donne les meilleurs résultats sur les taches, mais consomme 2,7 fois plus d'électricité que 30 °C ; l'ADEME annonce 2 fois moins d'énergie à 30 °C. Sur l'exemple de Wien Energie (0,788 et 0,265 kWh), au tarif médian ElCom 2026 de 27,7 ct/kWh, ça fait 22 centimes contre 7, soit 22,60 fr. d'écart par an à 3 machines par semaine.\n\nÀ la RTS, Karl Perron (Université de Genève) rappelle qu'on ne stérilise pas le linge à 60 °C ; ce lavage reste nécessaire après une maladie ou pour une immunité fragile, et l'OFSP le demande en cas de gale. Sur une notice Miele, le programme ECO 40-60 dure 50 minutes de plus que Coton 60 et consomme 38 % de moins ; SuisseEnergie le conseille même s'il dure plus longtemps.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui lance tout à 60 °C.\n\n#lavelinge #machinealaver #astucemaison #suisseromande #jemesuretout",
+ "sources": [
+  "https://www.rts.ch/info/societe/2025/article/laver-a-froid-economies-et-ecologie-sans-compromettre-l-hygiene-28984197.html",
+  "https://www.lesnumeriques.com/lave-linge/lave-linge-ces-programmes-qui-permettent-de-reduire-la-facture-tout-en-restant-efficaces-a207035.html",
+  "https://www.wienenergie.at/blog/wie-viel-watt-haben-meine-geraete-und-was-bedeutet-das",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+  "https://jeangrunder.ch/img/cms/fiche-miele/miele-WWG-300-60-notice.pdf",
+  "https://www.suisseenergie.ch/habiter/appareils-menagers/lave-linge",
+  "https://www.ecologie.gouv.fr/sites/default/files/documents/guide-pratique-reduire-facture-electricite-1.pdf",
+  "https://www.legislation.gov.uk/eur/2019/2023/annex/II",
+  "https://www.bag.admin.ch/dam/fr/sd-web/DZftp6s086hB/bag-bulletin-46-24-scabies.pdf"
+ ],
+ "visuel": "s01 : machine à laver avec visage, mine vexée ; à gauche, personne 3D man_technologist et thermomètre qui monte à 60 °C (≥ 160 px) dès l'image 0.\ns02 : à droite, woman_technologist et thermomètre à 30 °C ; écran coupé en deux, la machine regarde à droite.\ns03 : tambour qui tourne au centre ; « PROPRE ? » puis « QUI PAIE ? » arrivent avec un pop ; zoom sur la machine.\ns04 : mine maline ; un franc suisse tombe dans le hublot ; tampon « EN FRANCS ».\ns05 : gros plan sur un t-shirt ; points de germes qui restent à 60 °C ; tampon rouge « PAS STÉRILE » ; carte « Karl Perron, UNIGE ».\ns06 : carte RTS ; deux icônes arrivent l'une après l'autre : malade au lit, bouclier fissuré ; étiquette « 60 °C ».\ns07 : bande de taches (café, vin, ketchup) ; côté 60 °C, elles s'estompent ; médaille pour la personne de gauche ; carte Les Numériques.\ns08 : la machine applaudit, mine sarcastique ; compteur de 1 à 2,7 × ; barre 60 °C qui dépasse la barre 30 °C.\ns09 : compteur de kWh 0,788 puis 22 ct à gauche, 0,265 puis 7 ct à droite ; étiquette « 27,7 ct/kWh, ElCom 2026 » ; mention « exemple Wien Energie ».\ns10 : calendrier 3 machines × 52 semaines = 156 ; pièces qui s'empilent ; 22,60 fr. en très gros.\ns11 : chronomètre coton 60 2:29 qui file jusqu'à ECO 40-60 3:19 ; flèche « + 50 min » ; schéma de notice Miele ; mine surprise.\ns12 : deux barres 1,45 et 0,90 kWh ; la seconde descend ; tampon vert « − 38 % ».\ns13 : carte SuisseEnergie ; bouton de programme qui tourne jusqu'à ECO ; la machine fait un clin d'œil et s'installe, sablier à côté.\ns14 : drap qui tombe dans le tambour ; bulle de commentaire avec « ? °C » et thermomètre qui hésite.\ns15 : retour à l'image du duel : 60 °C à gauche, 30 °C à droite ; panier de linge sale d'un côté, linge léger de l'autre ; la machine hausse les épaules.\ns16 : la machine montre un téléphone ; écran coupé avec drapeaux suisse et français, un « ? » sur chaque prix ; mention de @marcio.mota8."
+}

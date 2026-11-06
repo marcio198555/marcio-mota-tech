@@ -1,3 +1,5 @@
 # nom_du_fichier URL  (une ligne par fichier a telecharger dans bridge/out/)
 img_test_robot_gpt-image-2.png https://upload-us-east-1.cloudinary.com/v2/qvn2mlgf/uploads/6557261a2884e3b5948f33b4dca85a34/stream
 gpt2_robot_char.png https://upload-us-east-1.cloudinary.com/v2/qvn2mlgf/uploads/13276f7e15fcda1c11cc19b88f34c2ab/stream
+perso_machine.png https://upload-us-east-1.cloudinary.com/v2/qvn2mlgf/uploads/6bbdda7c1b3321c3d003c1fc06e6d137/stream
+perso_baignoire.png https://upload-us-east-1.cloudinary.com/v2/qvn2mlgf/uploads/22c9f8bce30ec56b4e52a57a1ed4f484/stream

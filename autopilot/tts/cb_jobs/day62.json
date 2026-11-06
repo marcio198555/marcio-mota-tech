@@ -1,0 +1,75 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, c'est douche, ton collègue, c'est bain : qui paie le plus à la fin de l'année ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : tu vas savoir quand ta douche me rattrape."
+  },
+  {
+   "id": "s03",
+   "text": "Exemple : chauffe-eau électrique, tarif médian Èl-Kom, eau de Lausanne."
+  },
+  {
+   "id": "s04",
+   "text": "Ta douche, cinq minutes à douze litres : soixante litres."
+  },
+  {
+   "id": "s05",
+   "text": "Mon bain plein : au moins deux cents, selon les services cantonaux de l'énergie."
+  },
+  {
+   "id": "s06",
+   "text": "De douze à trente-sept degrés : vingt-neuf wattheures par litre."
+  },
+  {
+   "id": "s07",
+   "text": "Eau comprise : soixante-neuf centimes pour toi, deux francs trente pour lui."
+  },
+  {
+   "id": "s08",
+   "text": "Chaque jour, sur un an : environ deux cent cinquante francs contre huit cent quarante."
+  },
+  {
+   "id": "s09",
+   "text": "Presque six cents francs d'écart : oui, c'est moi, merci."
+  },
+  {
+   "id": "s10",
+   "text": "Mais à ce débit, en moins de dix-sept minutes, tu me rattrapes."
+  },
+  {
+   "id": "s11",
+   "text": "Et selon ces services, avec une pomme ordinaire, dix minutes peuvent dépasser un bain."
+  },
+  {
+   "id": "s12",
+   "text": "Mesure ton débit : récipient gradué, chronomètre."
+  },
+  {
+   "id": "s13",
+   "text": "Une pomme classe A, six litres maximum : environ cent vingt-cinq francs d'économie par an."
+  },
+  {
+   "id": "s14",
+   "text": "Écris-moi : ta douche dure combien de minutes, montre en main ?"
+  },
+  {
+   "id": "s15",
+   "text": "Toi douche, lui bain : tu sais maintenant qui paie."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, mode sombre ou mode clair : qui a encore de la batterie le soir ?"
+  }
+ ]
+}

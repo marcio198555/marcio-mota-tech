@@ -1,2 +1,5 @@
 # chemin/entree.png nom_sortie
 bridge/out/gpt2_robot_char.png gpt2_robot_char_cut
+
+bridge/out/perso_machine.png perso_machine_cut
+bridge/out/perso_baignoire.png perso_baignoire_cut

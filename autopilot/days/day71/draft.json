@@ -1,0 +1,35 @@
+{
+ "display": {
+  "s01": "Même machine, même lessive : Suisse ou France, qui paie le plus ?",
+  "s02": "À la fin : l'écart réel sur 1 an, en francs",
+  "s03": "Suisse 2026 : 27,7 ct/kWh (médiane ElCom, ménage H4)",
+  "s04": "Avec TVA 8,1 % : 29,9 ct",
+  "s05": "France : 20,01 c€/kWh TTC (tarif Bleu, option Base)",
+  "s06": "= 18,4 ct de franc (BNS 5.11 : 1 € = 0,9180 CHF)",
+  "s07": "Réponse : la Suisse paie plus cher le kWh",
+  "s08": "Classe A, 8 kg : 47 kWh pour 100 lavages (médiane EPREL)",
+  "s09": "220 lavages/an (ancienne étiquette) ≈ 103 kWh",
+  "s10": "31 CHF contre 19 CHF : 12 CHF d'écart par an",
+  "s11": "Pas comparable : médiane / tarif réglementé. Mesure incluse en Suisse, abonnement à part en France",
+  "s12": "Abonnement 190,32 €/an (6 kVA, 4 500 kWh) : écart de 11,6 à 7,7 ct",
+  "s13": "Conseil : remplis la machine (sans surcharger)",
+  "s14": "Et toi : combien de ct/kWh sur ta facture ?",
+  "s15": "Même machine : 12 CHF par an, 8 CHF abonnement réparti",
+  "s16": "Abonne-toi : ce soir, vaisselle à la main ou lave-vaisselle ?"
+ },
+ "title": "Machine à laver : Suisse ou France ?",
+ "caption": "Même machine à laver : 31 francs par an en Suisse, 19 en France. Médiane ElCom 2026 : 27,7 ct/kWh hors TVA, 29,9 ct avec 8,1 % ; tarif Bleu EDF Base au 1.8.2026 : 20,01 c€ TTC, soit 18,4 ct de franc (BNS, 5.11.2026 : 1 € = 0,9180 CHF). Avec l'abonnement français (190,32 €/an en 6 kVA, 4 500 kWh), l'écart du kWh passe de 11,6 à 7,7 ct. Médiane suisse contre tarif réglementé : pas tout à fait le même prix. Calcul : 47 kWh/100 lavages, 220 lavages par an. Relevés du 6.11.2026. Et toi, combien de centimes par kWh sur ta facture ? #machinealaver #prixelectricite #suissecontrefrance #factureelectricite",
+ "reel_caption": "Machine à laver : en Suisse ou en France, qui paie le plus le kWh ?\n\nLa médiane ElCom 2026 pour un ménage type (4 500 kWh/an) est de 27,7 ct/kWh hors TVA, soit 29,9 ct avec 8,1 %. Le tarif Bleu EDF option Base, en vigueur depuis le 1.8.2026, est de 20,01 c€ TTC, soit 18,4 ct de franc au cours BNS du 5.11.2026 (1 € = 0,9180 CHF). Pour une machine de classe A à 47 kWh/100 lavages (médiane EPREL relevée par JeChange) et 220 lavages par an (convention de l'ancienne étiquette) : 31 francs contre 19.\n\nLe prix suisse comprend le tarif de mesure ; le prix français laisse l'abonnement à part (190,32 €/an en 6 kVA). Une fois réparti sur 4 500 kWh, l'écart passe de 11,6 à 7,7 ct/kWh. C'est une médiane suisse comparée à un tarif réglementé : chaque facture diffère selon la commune.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui vit de l'autre côté de la frontière.\n\n#machinealaver #prixelectricite #suissecontrefrance #suisseromande #jemesuretout",
+ "sources": [
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+  "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
+  "https://particulier.edf.fr/fr/accueil/guide-energie/electricite/prix-kwh-electricite.html",
+  "https://www.cre.fr/actualites/toute-lactualite/la-cre-propose-une-evolution-du-niveau-moyen-des-tarifs-reglementes-de-vente-de-lelectricite-de-25-ttc-au-1er-aout-2026.html",
+  "https://www.snb.ch/public/rss/fr/exchangeRates",
+  "https://www.ekz.ch/de/angebote/strom/tarife/stromtarife-privatkunden.html",
+  "https://www.jechange.fr/energie/electricite/news/etiquette-energie-lave-linge-ne-sert-presque-plus-six-sur-dix-classe-a",
+  "https://www.energy-community.org/dam/jcr:01799469-647f-4085-8785-738ffc845c9a/Regulation_1061_2010_EE.pdf",
+  "https://www.topten.ch/fr/conseils/guides/guide-lave-linges"
+ ],
+ "visuel": "s01 : Écran partagé drapeaux Suisse / France, la même machine de chaque côté, « ? » géant dès 0,12 s ; à 2 s, compteurs de francs à zéro\ns02 : Compteur « ? CHF / an » qui défile entre les deux machines ; calendrier qui tourne\ns03 : Moitié Suisse s'allume, étiquette 27,7 ct qui tombe ; petit texte « ElCom, médiane, 4 500 kWh/an »\ns04 : Tampon « + TVA 8,1 % » sur l'étiquette, le chiffre monte de 27,7 à 29,9\ns05 : Moitié France s'allume, étiquette 20,01 c€ ; à 2 s, mention « tarif réglementé, Base, 1.8.2026 »\ns06 : Pièce d'euro qui se change en franc, 20,01 glisse vers 18,4 ; taux BNS et date en bas\ns07 : Tampon rouge « + CHER » côté Suisse, les deux étiquettes côte à côte 29,9 / 18,4, sans moquerie\ns08 : Étiquette énergie stylisée, flèche sur la lettre A, puis 47 kWh / 100 cycles en gros\ns09 : Tambour qui tourne, compteur 0 → 220 lavages, puis 103 kWh ; mention « convention de l'ancienne étiquette »\ns10 : Deux compteurs de francs qui montent à 31 et 19, puis barre d'écart 12 CHF en rouge\ns11 : Panneau « ATTENTION », deux étiquettes retournées : « mesure incluse » et « abonnement à part »\ns12 : Bloc 190 € qui s'ajoute côté France, 18,4 monte à 22,3 ct ; la barre d'écart rétrécit de 11,6 à 7,7\ns13 : Tambour à moitié vide puis plein, jauge d'énergie qui ne descend pas de moitié\ns14 : Facture qui se déplie, zone du prix entourée, bulle de commentaire qui clignote\ns15 : Retour à l'écran partagé de la phrase 1, avec 31 / 19 CHF et 12 → 8 CHF à la place du « ? »\ns16 : Duel éponge / lave-vaisselle, goutte d'eau et « 18 h », @marcio.mota8"
+}

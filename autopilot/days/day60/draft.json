@@ -1,0 +1,35 @@
+{
+ "display": {
+  "s01": "Ton téléphone charge à 45 W ?",
+  "s02": "Ton collègue garde son vieux chargeur.",
+  "s03": "Dans 3 ans, lequel aura la meilleure batterie ?",
+  "s04": "À la fin : ce qu'Apple et Samsung écrivent vraiment.",
+  "s05": "Apple : rapide jusqu'à 80 %, puis plus lent.",
+  "s06": "Apple : ce mélange prolonge la durée de vie.",
+  "s07": "Apple : une batterie chauffe en chargeant. Ça peut réduire sa durée de vie.",
+  "s08": "Près de la charge complète, l'iPhone baisse peu à peu le courant.",
+  "s09": "Le gagnant ? Aucun chiffre d'Apple ni de Samsung sur les fiches lues.",
+  "s10": "Samsung Suisse : évite surtout de jouer ou de regarder des vidéos en chargeant.",
+  "s11": "Sinon, la batterie vieillit plus vite qu'on le voudrait.",
+  "s12": "1 h à 45 W : moins de 2 centimes (tarif ElCom 2026 : 27,7 ct./kWh).",
+  "s13": "Trop chaud, l'iPhone peut limiter la charge après 80 % : mets-le au frais, avec son chargeur.",
+  "s14": "En commentaire : combien de watts affiche ton chargeur ?",
+  "s15": "Toi ou ton collègue : téléphone tranquille en charge = le conseil de Samsung.",
+  "s16": "Abonne-toi : ce soir, ton frigo balance ce qu'il te coûte."
+ },
+ "title": "Charge rapide : ça abîme la batterie ?",
+ "caption": "Charge rapide : ça abîme la batterie de ton téléphone ? 🔋 Apple écrit qu'une batterie charge vite jusqu'à 80 %, puis plus lentement, et que ce mélange prolonge sa durée de vie. Sur leurs fiches lues, ni Apple ni Samsung ne chiffrent la différence avec un vieux chargeur. Samsung Suisse conseille surtout d'éviter de jouer ou de regarder des vidéos pendant la recharge. Ton chargeur affiche combien de watts ? 👇 #chargerapide #batterie #iphone #samsung #astucetech",
+ "reel_caption": "Charge rapide : ça abîme vraiment la batterie de ton téléphone ?\n\nApple écrit que sa batterie charge vite jusqu'à 80 %, puis plus lentement, et que ce mélange prolonge sa durée de vie. Il écrit aussi qu'une batterie chauffe en chargeant, ce qui peut réduire sa durée de vie (support Apple). Sur les fiches lues, ni Apple ni Samsung ne chiffrent la différence entre charge rapide et charge lente.\n\nSamsung Suisse conseille surtout d'éviter de jouer ou de regarder des vidéos pendant la recharge. Samsung précise aussi que sur un chargeur plus puissant, le téléphone choisit la meilleure vitesse qu'il supporte. Une heure à 45 W coûte moins de 2 centimes (tarif ElCom 2026 : 27,7 ct./kWh).\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à ton collègue qui garde son vieux chargeur.\n\n#chargerapide #batterie #astucetech #suisseromande #jemesuretout",
+ "sources": [
+  "https://www.apple.com/batteries/why-lithium-ion/",
+  "https://support.apple.com/en-us/105105",
+  "https://support.apple.com/en-us/108805",
+  "https://support.apple.com/en-us/102574",
+  "https://www.samsung.com/ch_fr/explore/life-hacks/how-to-charge-new-smartphones-correctly",
+  "https://www.samsung.com/us/support/answer/ANS10002871",
+  "https://www.samsung.com/us/support/galaxy-battery/charging-tip",
+  "https://www.samsung.com/us/support/galaxy-battery/care-and-maintenance",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu"
+ ],
+ "visuel": "s01 : Téléphone branché, à gauche ; « 45 W » arrive en très gros (≥ 160 px) avec « ? »\ns02 : Écran partagé : man_technologist et woman_technologist ; un vieux chargeur tombe à droite\ns03 : Deux batteries côte à côte, compteur 2026 → 2029, grand « ? » entre les deux\ns04 : Deux fiches de papier glissent à l'écran, étiquettes « APPLE » et « SAMSUNG »\ns05 : Batterie qui se remplit vite jusqu'à 80 %, repère rouge, puis remplissage lent\ns06 : Citation « extends the lifespan » surlignée, tampon « SOURCE : APPLE »\ns07 : Thermomètre qui monte sur la batterie, ondes de chaleur, flèche de durée de vie qui baisse\ns08 : Courbe du courant qui descend ; le thermomètre se calme\ns09 : Retour au duel, compteur vide « ? % » sur chaque batterie, tampon rouge « AUCUN CHIFFRE »\ns10 : Drapeau suisse et page Samsung ; téléphone en charge avec manette et lecture vidéo barrées\ns11 : Batterie qui vieillit en accéléré, aiguille d'horloge qui tourne plus vite\ns12 : Compteur « 1 h · 45 W » puis pièces de monnaie : « < 2 ct. », petite ligne ElCom\ns13 : Batterie arrêtée à 80 %, thermomètre rouge, téléphone et chargeur glissent vers une zone bleue\ns14 : Gros plan sur l'étiquette d'un chargeur, « ?? W » qui clignote, bulle de commentaire\ns15 : Image du duel de la phrase 2 ; une coche apparaît sur le téléphone posé, sans manette\ns16 : Frigo qui s'ouvre, thermomètre et « CHF ? », logo JE MESURE TOUT et @marcio.mota8"
+}

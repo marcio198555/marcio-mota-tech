@@ -1,0 +1,75 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu me lances à soixante degrés."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, à trente."
+  },
+  {
+   "id": "s03",
+   "text": "Lequel a le linge le plus propre, et lequel paie le plus ?"
+  },
+  {
+   "id": "s04",
+   "text": "Je te balance la réponse, en francs."
+  },
+  {
+   "id": "s05",
+   "text": "Même à soixante, on ne stérilise pas le linge, dit Karl Perron, de l'université de Genève."
+  },
+  {
+   "id": "s06",
+   "text": "Pour la Èr Té Èss, soixante reste nécessaire après une maladie ou pour une immunité fragile."
+  },
+  {
+   "id": "s07",
+   "text": "Sur les taches, Les Numériques a testé : soixante degrés gagne."
+  },
+  {
+   "id": "s08",
+   "text": "Bravo, mais dans ce test, tu consommes deux virgule sept fois plus qu'à trente."
+  },
+  {
+   "id": "s09",
+   "text": "Sur l'exemple d'un fournisseur de Vienne, au tarif médian suisse : vingt-deux centimes d'électricité la machine, contre sept."
+  },
+  {
+   "id": "s10",
+   "text": "À trois machines par semaine : vingt-deux francs soixante d'écart par an."
+  },
+  {
+   "id": "s11",
+   "text": "Surprise : sur une notice Milé, le programme éco dure cinquante minutes de plus."
+  },
+  {
+   "id": "s12",
+   "text": "Et il consomme trente-huit pour cent de moins que coton soixante."
+  },
+  {
+   "id": "s13",
+   "text": "Suisse Énergie le conseille, même s'il dure plus longtemps."
+  },
+  {
+   "id": "s14",
+   "text": "Écris en commentaire à combien de degrés tu laves tes draps."
+  },
+  {
+   "id": "s15",
+   "text": "Toi à soixante, ton collègue à trente : ça dépend du linge."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, même aïe-fone, en Suisse et en France : lequel coûte le moins cher ?"
+  }
+ ]
+}
