@@ -1,0 +1,74 @@
++ export -f early_push
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/siwis/medium/fr_FR-siwis-medium
++ n=fr_FR-siwis-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx.json
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+skip day01
+skip day01fix
+skip day02
+skip day02cta
+skip day03
+skip day03cta
+skip day04
+skip day04cta
+skip day04fix
+skip day05
+skip day05cta
+skip day05fix
+skip day06
+skip day06cta
+skip day06cta2
+skip day07
+skip day07cta
+skip day07fix
+skip day08
+skip day08cta
+skip day09
+skip day09fix
+skip day12
+skip day12fix
+skip day13
+skip day13fix
+skip day16
+skip day17
+skip day20
+skip day21
+skip day21fix
+skip day23
+skip day23b
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+asr autopilot/vo/day37_vo2.wav -> Toi, ton linge sèche au salon, ton collègue lance le sèche-linge, qui paye le plus ? Réponds sans francs. Puis, la surprise dans l'air, un Bosch suisse à pompe à chaleur, 0,99 kWh par séchage. Au tarif médian, 27,7 centimes, ça fait 27 centimes. Un Bosch belge à condensation classée, 3,0, 8 kWh, soit 85 centimes. Mais en Suisse, un modèle de ménage neuf doit être au moins classé. Si toi, 0 kWh en 
+asr autopilot/vo/day56_vo2.wav -> Toi, ta box reste allumée toute la nuit. Ton collègue la débranche avant de dormir. Combien il gagne, en vrai ? En vrai, reste, tu auras le chiffre et ce qu'il coupe avec. Internet box 5, 11,9 watts, appareil connecté, sans transfert, selon Swisscom. Débranché 8 heures par nuit, presque 35 kWh de moins par an. Au tarif médian Elcom, 27,7 centimes, ça donne 9 francs 63 par an. Moins de 3 centimes p
+asr autopilot/vo/day60_vo2.wav -> Ton téléphone charge à 45 watts, ton collègue garde son vieux chargeur, lequel des deux abîme le plus sa batterie ? Réponse ce qu'écrit vraiment Apple et Samsung. Apple décrit deux temps, rapide jusqu'à 80% puis plus lent. Selon Apple, ce mélange prolonge la durée de vie, mais sans comparer à un vieux chargeur. Apple ajoute, charge et chauffe la batterie et ça peut réduire sa durée de vie. Alors, 
+asr autopilot/vo/day32_vo.wav -> Toi, tu me lances à 60°, ton collègue à 30°, lequel a le linge le plus propre et lequel paie le plus. Je te balance la réponse en franc. En franc. Même à 60°, on ne stérilise pas le linge, dit Karl Perron, de l'Université de Genève. Pour la RTS, 60° reste nécessaire après une maladie ou pour une immunité fragile. Sur les tâches, les numériques à tester, 60° gagnent. Bravo. Mais dans ce test, tu co
+asr autopilot/vo/day62_vo.wav -> Toi, c'est douche, ton collègue, c'est bas, qui paie le plus à la fin de l'année. Reste, tu vas savoir quand ta douche me rattrape. Exemple chauffe eau électrique, tarif médian Elcom, eau de Lausanne. Ta douche, 5 minutes à 12 litres, 60 litres. Soit mon bain plein, au moins 200 selon les services cantonaux de l'énergie. De 12 à 37 degrés, 29 watt-heures par litre. Au comprise, 69 centimes pour to
+asr autopilot/vo/day71_vo.wav -> Même machine à laver, même lessive en Suisse et en France, qui paie le plus ? A la fin, tu connaîtras l'écart en francs. En Suisse, médiane 2026, 27,7 centimes le kWh. Avec la TVA, 29,9 en France, tarif réglementé 20,01 centimes d'euros, taxe comprise. Converti, 18,4 centimes de francs. Réponse sur le kWh, c'est la Suisse qui paie le plus. Prends une machine classée à 47 kWh pour 100 lavages. À 22
++ early_push transcription
++ git config user.name 'github-actions[bot]'
++ git config user.email '41898283+github-actions[bot]@users.noreply.github.com'
++ git add -f bridge/out autopilot/tts/out autopilot/asr/out
