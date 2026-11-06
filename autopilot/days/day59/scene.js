@@ -44,9 +44,9 @@
       background(ctx, t);
       // accroche : duel + question, complet à l'image 0
       block(ctx, t, 0, S('s03'), () => {
-        big(ctx, '? CHF / AN', 500, 360, t, undefined, { size: 112, color: GOLD });
+        big(ctx, '? CHF / AN', 500, 335, t, undefined, { size: 92, color: GOLD });
         duel(ctx, t);
-        head(ctx, t < S('s02') ? 'QUI A RAISON ?' : 'UN RÉGLAGE PEUT TOUT CHANGER', 1225, t, t < S('s02') ? undefined : S('s02'), { size: t < S('s02') ? 58 : 46 });
+        head(ctx, t < S('s02') ? 'QUI A RAISON ?' : 'UN RÉGLAGE PEUT TOUT CHANGER', 432, t, t < S('s02') ? undefined : S('s02'), { size: t < S('s02') ? 58 : 46 });
         if (t >= S('s02')) CHR.emo(ctx, 'gear', 500, 880, 170, t, S('s02') + 0.1);
       });
       // veille
@@ -74,8 +74,8 @@
       block(ctx, t, S('s06'), S('s07'), () => {
         calc(ctx, ['4,38 kWh × 27,7 ct', '1,21 CHF'], 500, 470, t, [S('s06'), f('s06', 0.45)], { gap: 130, lastSize: 170 });
         tag(ctx, 'ELCOM 2026, HORS TVA · PAR AN', 500, 800, t, f('s06', 0.55), { size: 36 });
-        KIT.coin(ctx, 310, 985, 92, '1'); KIT.coin(ctx, 500, 985, 62, '20');
-        tag(ctx, 'ENV. 1,30 AVEC TVA', 720, 985, t, f('s06', 0.7), { color: GOLD });
+        KIT.coin(ctx, 170, 985, 80, '1'); KIT.coin(ctx, 320, 985, 58, '20');
+        tag(ctx, 'ENV. 1,30 AVEC TVA', 640, 985, t, f('s06', 0.7), { color: GOLD });
       });
       // 365 fois
       block(ctx, t, S('s07'), S('s08'), () => {

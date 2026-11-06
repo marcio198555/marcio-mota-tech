@@ -1,109 +1,109 @@
 {
- "duration": 66.256,
+ "duration": 63.424,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, tu me règles à deux degrés. Ton collègue, à cinq. Qui paie pour rien ?",
    "start": 0.12,
-   "end": 5.265,
+   "end": 4.422,
    "display": "Toi, à 2 °C. | Ton collègue, à 5 °C. | Qui paie pour rien ?"
   },
   {
    "id": "s02",
    "text": "Reste : à la fin, tu sauras si mon bouton te ment.",
-   "start": 5.365,
-   "end": 8.896,
+   "start": 4.522,
+   "end": 7.857,
    "display": "Reste : à la fin, tu sauras | si mon bouton te ment."
   },
   {
    "id": "s03",
    "text": "Je suis ton frigo : chaque degré en moins me demande cinq pour cent d'énergie en plus, écrit Que Choisir.",
-   "start": 8.996,
-   "end": 16.152,
+   "start": 7.957,
+   "end": 14.348,
    "display": "Je suis ton frigo : chaque degré en moins | me demande 5 % d'énergie en plus, | écrit Que Choisir."
   },
   {
    "id": "s04",
    "text": "De cinq à deux degrés : environ quinze pour cent.",
-   "start": 16.252,
-   "end": 19.799,
+   "start": 14.448,
+   "end": 17.679,
    "display": "De 5 à 2 °C : environ 15 %."
   },
   {
    "id": "s05",
    "text": "Exemple : un combiné moyen, trois cent quinze kilowattheures par an, selon l'Ademe.",
-   "start": 19.898,
-   "end": 25.593,
+   "start": 17.779,
+   "end": 22.727,
    "display": "Exemple : un combiné moyen, | 315 kWh par an, selon l'Ademe."
   },
   {
    "id": "s06",
-   "text": "Au tarif médian suisse : environ treize francs de plus par an.",
-   "start": 25.693,
-   "end": 29.569,
-   "display": "Au tarif médian suisse : | environ 13 francs de plus par an."
+   "text": "Au tarif médian suisse : jusqu'à environ treize francs de plus par an.",
+   "start": 22.827,
+   "end": 27.253,
+   "display": "Au tarif médian suisse : | jusqu'à environ 13 francs de plus par an."
   },
   {
    "id": "s07",
-   "text": "Un peu plus d'un franc par mois.",
-   "start": 29.669,
-   "end": 32.371,
-   "display": "Un peu plus d'un franc | par mois."
+   "text": "Soit à peu près un franc par mois.",
+   "start": 27.353,
+   "end": 30.313,
+   "display": "Soit à peu près un franc | par mois."
   },
   {
    "id": "s08",
    "text": "Surprise : sur un frigo mécanique, le cran trois, ce n'est pas trois degrés.",
-   "start": 32.471,
-   "end": 37.853,
+   "start": 30.413,
+   "end": 35.324,
    "display": "Surprise : sur un frigo mécanique, | le cran 3, ce n'est pas 3 °C."
   },
   {
    "id": "s09",
    "text": "C'est la force du froid.",
-   "start": 37.953,
-   "end": 40.134,
+   "start": 35.424,
+   "end": 37.184,
    "display": "C'est la force du froid."
   },
   {
    "id": "s10",
    "text": "Et ton collègue n'a pas forcément gagné : l'Anses vise zéro à quatre degrés au point le plus froid.",
-   "start": 40.234,
-   "end": 46.353,
+   "start": 37.284,
+   "end": 43.088,
    "display": "Et ton collègue n'a pas forcément gagné : | l'Anses vise 0 à 4 °C | au point le plus froid."
   },
   {
    "id": "s11",
    "text": "La porte et le bac à légumes sont mes coins les moins froids.",
-   "start": 46.453,
-   "end": 50.129,
+   "start": 43.188,
+   "end": 46.12,
    "display": "La porte et le bac à légumes | sont mes coins les moins froids."
   },
   {
    "id": "s12",
    "text": "Le test : un verre d'eau au milieu, une nuit, un thermomètre.",
-   "start": 50.229,
-   "end": 54.079,
+   "start": 46.22,
+   "end": 50.059,
    "display": "Le test : un verre d'eau au milieu, | une nuit, un thermomètre."
   },
   {
    "id": "s13",
-   "text": "Il affiche combien ? Écris-le en commentaire.",
-   "start": 54.179,
-   "end": 56.78,
-   "display": "Il affiche combien ? | Écris-le en commentaire."
+   "text": "Ton verre, il affiche combien ? Écris-le en commentaire.",
+   "start": 50.159,
+   "end": 53.94,
+   "display": "Ton verre, il affiche combien ? | Écris-le en commentaire."
   },
   {
    "id": "s14",
-   "text": "Toi, treize francs de trop. Ton collègue, peut-être trop chaud.",
-   "start": 56.88,
-   "end": 61.878,
-   "display": "Toi, 13 francs de trop. | Ton collègue, peut-être trop chaud."
+   "text": "Toi, environ treize francs de plus, dans cet exemple. Ton collègue, peut-être trop chaud.",
+   "start": 54.04,
+   "end": 59.046,
+   "display": "Toi, environ 13 francs de plus, dans cet exemple. | Ton collègue, peut-être trop chaud."
   },
   {
    "id": "s15",
    "text": "Abonne-toi : demain, linge au salon ou sèche-linge, qui paie vraiment ?",
-   "start": 61.978,
-   "end": 65.956,
+   "start": 59.146,
+   "end": 63.124,
    "display": "Abonne-toi : demain, linge au salon | ou sèche-linge, qui paie vraiment ?"
   }
  ]

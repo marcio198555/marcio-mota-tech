@@ -1,109 +1,109 @@
 {
- "duration": 68.646,
+ "duration": 64.644,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, tu éteins ta télé à la télécommande. Ton collègue la débranche tous les soirs. Qui a raison ?",
    "start": 0.12,
-   "end": 6.323,
+   "end": 5.858,
    "display": "Toi, tu éteins à la télécommande. | Ton collègue débranche tous les soirs. | Qui a raison ?"
   },
   {
    "id": "s02",
-   "text": "Reste : tout dépend d'un réglage caché dans ta télé.",
-   "start": 6.423,
-   "end": 10.409,
-   "display": "Reste : tout dépend d'un réglage | caché dans ta télé."
+   "text": "Reste : un réglage de ta télé peut changer la note.",
+   "start": 5.958,
+   "end": 9.388,
+   "display": "Reste : un réglage de ta télé | peut changer la note."
   },
   {
    "id": "s03",
    "text": "À la télécommande, elle ne s'éteint pas : elle passe en veille.",
-   "start": 10.509,
-   "end": 13.861,
+   "start": 9.488,
+   "end": 12.88,
    "display": "À la télécommande, elle ne s'éteint pas : | elle passe en veille."
   },
   {
    "id": "s04",
    "text": "Fiche européenne d'une Samsung cinquante-cinq pouces : veille simple, zéro virgule cinq watt.",
-   "start": 13.961,
-   "end": 20.015,
+   "start": 12.98,
+   "end": 19.064,
    "display": "Fiche européenne d'une Samsung 55 pouces : | veille simple, 0,5 W."
   },
   {
    "id": "s05",
-   "text": "Toute l'année : quatre virgule quatre kilowattheures.",
-   "start": 20.115,
-   "end": 23.909,
-   "display": "Toute l'année : 4,4 kWh."
+   "text": "Toute l'année, au maximum : quatre virgule quatre kilowattheures.",
+   "start": 19.164,
+   "end": 23.204,
+   "display": "Toute l'année, au maximum : 4,4 kWh."
   },
   {
    "id": "s06",
    "text": "Au tarif médian suisse : un franc vingt par an.",
-   "start": 24.009,
-   "end": 27.75,
+   "start": 23.304,
+   "end": 26.534,
    "display": "Au tarif médian suisse : | 1 fr. 20 par an."
   },
   {
    "id": "s07",
    "text": "Ton collègue se baisse trois cent soixante-cinq fois pour ça.",
-   "start": 27.85,
-   "end": 30.737,
+   "start": 26.634,
+   "end": 29.556,
    "display": "Ton collègue se baisse | 365 fois pour ça."
   },
   {
    "id": "s08",
    "text": "Surprise : même fiche, veille connectée, deux watts.",
-   "start": 30.837,
-   "end": 34.787,
+   "start": 29.656,
+   "end": 33.653,
    "display": "Surprise : même fiche, | veille connectée, 2 W."
   },
   {
    "id": "s09",
    "text": "Quatre fois plus : quatre francs quatre-vingt-cinq par an.",
-   "start": 34.887,
-   "end": 38.531,
+   "start": 33.753,
+   "end": 37.281,
    "display": "Quatre fois plus : | 4 fr. 85 par an."
   },
   {
    "id": "s10",
-   "text": "LG et Sony préviennent : le démarrage rapide peut augmenter la consommation.",
-   "start": 38.631,
-   "end": 43.288,
+   "text": "Èl-Gé et Sony préviennent : le démarrage rapide peut augmenter la consommation.",
+   "start": 37.381,
+   "end": 42.43,
    "display": "LG et Sony préviennent : | le démarrage rapide peut | augmenter la consommation."
   },
   {
    "id": "s11",
    "text": "Va voir dans tes réglages.",
-   "start": 43.388,
-   "end": 45.618,
+   "start": 42.53,
+   "end": 43.962,
    "display": "Va voir dans tes réglages."
   },
   {
    "id": "s12",
-   "text": "Repère : une année de veille simple, c'est cinquante-sept heures de cette télé allumée.",
-   "start": 45.718,
-   "end": 51.41,
+   "text": "Repère : une année de veille simple, c'est cinquante-sept heures de cette même télé allumée.",
+   "start": 44.062,
+   "end": 49.492,
    "display": "Repère : une année de veille simple, | c'est 57 heures de cette télé allumée."
   },
   {
    "id": "s13",
    "text": "Démarrage rapide activé, chez toi ? Écris-le en commentaire.",
-   "start": 51.51,
-   "end": 57.407,
+   "start": 49.592,
+   "end": 54.402,
    "display": "Démarrage rapide activé, chez toi ? | Écris-le en commentaire."
   },
   {
    "id": "s14",
    "text": "Toi, un franc vingt. Ton collègue, zéro, et trois cent soixante-cinq trajets à la prise.",
-   "start": 57.507,
-   "end": 63.107,
+   "start": 54.502,
+   "end": 59.564,
    "display": "Toi, 1 fr. 20. Ton collègue, 0, | et 365 trajets à la prise."
   },
   {
    "id": "s15",
    "text": "Abonne-toi : demain, lave-linge à trente ou soixante degrés, qui paie quoi ?",
-   "start": 63.207,
-   "end": 68.346,
+   "start": 59.664,
+   "end": 64.344,
    "display": "Abonne-toi : demain, lave-linge | à 30 ou 60 °C, qui paie quoi ?"
   }
  ]

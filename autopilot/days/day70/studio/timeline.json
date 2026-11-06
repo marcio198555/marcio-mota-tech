@@ -1,12 +1,12 @@
 {
- "duration": 64.237,
+ "duration": 62.806,
  "segments": [
   {
    "id": "s01",
    "text": "Même iPhone dix-sept. Toi, tu l'achètes en Suisse. Ton collègue, en France. Qui paie le moins ?",
    "start": 0.12,
    "end": 5.94,
-   "display": "Même iPhone 17, 256 Go. | Toi, en Suisse. Ton collègue, en France. | Qui paie le moins ?"
+   "display": "Même iPhone 17. | Toi, tu l'achètes en Suisse. Ton collègue, en France. | Qui paie le moins ?"
   },
   {
    "id": "s02",
@@ -45,72 +45,72 @@
   },
   {
    "id": "s07",
-   "text": "Mais ton collègue sort sa carte : la détaxe.",
+   "text": "Mais ton collègue sort son atout : la détaxe.",
    "start": 24.251,
-   "end": 27.11,
-   "display": "Mais ton collègue sort sa carte : | la détaxe."
+   "end": 27.103,
+   "display": "Mais ton collègue sort son atout : | la détaxe."
   },
   {
    "id": "s08",
-   "text": "La TVA française saute : il reste huit cent cinquante-six francs.",
-   "start": 27.21,
-   "end": 31.632,
-   "display": "La TVA française saute : | il reste 856 francs."
+   "text": "Sans la TVA française : au mieux, huit cent cinquante-six francs.",
+   "start": 27.203,
+   "end": 30.876,
+   "display": "Sans la TVA française : | au mieux, 856 francs."
   },
   {
    "id": "s09",
    "text": "Sauf qu'à la frontière, au-dessus de cent cinquante francs, il doit la TVA suisse.",
-   "start": 31.732,
-   "end": 36.469,
+   "start": 30.976,
+   "end": 35.714,
    "display": "Sauf qu'à la frontière, | au-dessus de 150 francs, | il doit la TVA suisse."
   },
   {
    "id": "s10",
-   "text": "Résultat : neuf cent vingt-cinq francs, encore vingt-six de plus qu'en Suisse.",
-   "start": 36.569,
-   "end": 41.098,
-   "display": "Résultat : 925 francs, | encore 26 de plus qu'en Suisse."
+   "text": "Résultat, au mieux : neuf cent vingt-cinq francs, encore vingt-six de plus qu'en Suisse.",
+   "start": 35.814,
+   "end": 40.684,
+   "display": "Résultat, au mieux : 925 francs, | encore 26 de plus qu'en Suisse."
   },
   {
    "id": "s11",
-   "text": "Surprise : même sans aucune taxe, la France reste plus chère.",
-   "start": 41.198,
-   "end": 45.441,
-   "display": "Surprise : même sans aucune taxe, | la France reste plus chère."
+   "text": "Surprise : même sans TVA, la France reste plus chère.",
+   "start": 40.784,
+   "end": 44.011,
+   "display": "Surprise : même sans TVA, | la France reste plus chère."
   },
   {
    "id": "s12",
    "text": "Huit cent cinquante-six francs contre huit cent trente-deux.",
-   "start": 45.541,
-   "end": 48.4,
+   "start": 44.111,
+   "end": 46.97,
    "display": "856 francs contre 832."
   },
   {
    "id": "s13",
    "text": "Les prix bougent : refais le calcul.",
-   "start": 48.5,
-   "end": 50.421,
+   "start": 47.07,
+   "end": 48.991,
    "display": "Les prix bougent : | refais le calcul."
   },
   {
    "id": "s14",
    "text": "Et toi, ton téléphone, tu l'achètes où ? Écris-le en commentaire.",
-   "start": 50.521,
-   "end": 54.805,
+   "start": 49.091,
+   "end": 53.375,
    "display": "Et toi, ton téléphone, tu l'achètes où ? | Écris-le en commentaire."
   },
   {
    "id": "s15",
    "text": "Toi, huit cent nonante-neuf. Ton collègue, neuf cent vingt-cinq, et un passage à la douane.",
-   "start": 54.905,
-   "end": 60.265,
+   "start": 53.475,
+   "end": 58.835,
    "display": "Toi, 899. Ton collègue, 925, | et un passage à la douane."
   },
   {
    "id": "s16",
    "text": "Abonne-toi : demain, faut-il éteindre ta box internet la nuit ?",
-   "start": 60.365,
-   "end": 63.937,
+   "start": 58.935,
+   "end": 62.506,
    "display": "Abonne-toi : demain, faut-il éteindre | ta box internet la nuit ?"
   }
  ]
