@@ -1,0 +1,110 @@
+{
+ "duration": 66.256,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu me règles à deux degrés. Ton collègue, à cinq. Qui paie pour rien ?",
+   "start": 0.12,
+   "end": 5.265,
+   "display": "Toi, à 2 °C. | Ton collègue, à 5 °C. | Qui paie pour rien ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : à la fin, tu sauras si mon bouton te ment.",
+   "start": 5.365,
+   "end": 8.896,
+   "display": "Reste : à la fin, tu sauras | si mon bouton te ment."
+  },
+  {
+   "id": "s03",
+   "text": "Je suis ton frigo : chaque degré en moins me demande cinq pour cent d'énergie en plus, écrit Que Choisir.",
+   "start": 8.996,
+   "end": 16.152,
+   "display": "Je suis ton frigo : chaque degré en moins | me demande 5 % d'énergie en plus, | écrit Que Choisir."
+  },
+  {
+   "id": "s04",
+   "text": "De cinq à deux degrés : environ quinze pour cent.",
+   "start": 16.252,
+   "end": 19.799,
+   "display": "De 5 à 2 °C : environ 15 %."
+  },
+  {
+   "id": "s05",
+   "text": "Exemple : un combiné moyen, trois cent quinze kilowattheures par an, selon l'Ademe.",
+   "start": 19.898,
+   "end": 25.593,
+   "display": "Exemple : un combiné moyen, | 315 kWh par an, selon l'Ademe."
+  },
+  {
+   "id": "s06",
+   "text": "Au tarif médian suisse : environ treize francs de plus par an.",
+   "start": 25.693,
+   "end": 29.569,
+   "display": "Au tarif médian suisse : | environ 13 francs de plus par an."
+  },
+  {
+   "id": "s07",
+   "text": "Un peu plus d'un franc par mois.",
+   "start": 29.669,
+   "end": 32.371,
+   "display": "Un peu plus d'un franc | par mois."
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : sur un frigo mécanique, le cran trois, ce n'est pas trois degrés.",
+   "start": 32.471,
+   "end": 37.853,
+   "display": "Surprise : sur un frigo mécanique, | le cran 3, ce n'est pas 3 °C."
+  },
+  {
+   "id": "s09",
+   "text": "C'est la force du froid.",
+   "start": 37.953,
+   "end": 40.134,
+   "display": "C'est la force du froid."
+  },
+  {
+   "id": "s10",
+   "text": "Et ton collègue n'a pas forcément gagné : l'Anses vise zéro à quatre degrés au point le plus froid.",
+   "start": 40.234,
+   "end": 46.353,
+   "display": "Et ton collègue n'a pas forcément gagné : | l'Anses vise 0 à 4 °C | au point le plus froid."
+  },
+  {
+   "id": "s11",
+   "text": "La porte et le bac à légumes sont mes coins les moins froids.",
+   "start": 46.453,
+   "end": 50.129,
+   "display": "La porte et le bac à légumes | sont mes coins les moins froids."
+  },
+  {
+   "id": "s12",
+   "text": "Le test : un verre d'eau au milieu, une nuit, un thermomètre.",
+   "start": 50.229,
+   "end": 54.079,
+   "display": "Le test : un verre d'eau au milieu, | une nuit, un thermomètre."
+  },
+  {
+   "id": "s13",
+   "text": "Il affiche combien ? Écris-le en commentaire.",
+   "start": 54.179,
+   "end": 56.78,
+   "display": "Il affiche combien ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Toi, treize francs de trop. Ton collègue, peut-être trop chaud.",
+   "start": 56.88,
+   "end": 61.878,
+   "display": "Toi, 13 francs de trop. | Ton collègue, peut-être trop chaud."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, linge au salon ou sèche-linge, qui paie vraiment ?",
+   "start": 61.978,
+   "end": 65.956,
+   "display": "Abonne-toi : demain, linge au salon | ou sèche-linge, qui paie vraiment ?"
+  }
+ ]
+}

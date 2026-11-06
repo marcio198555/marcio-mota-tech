@@ -1,0 +1,110 @@
+{
+ "duration": 68.629,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, mode sombre. Ton collègue, mode clair. Qui a encore de la batterie le soir ?",
+   "start": 0.12,
+   "end": 5.407,
+   "display": "Toi, mode sombre. Ton collègue, mode clair. | Qui a encore de la batterie le soir ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : un autre réglage peut tout changer.",
+   "start": 5.507,
+   "end": 8.092,
+   "display": "Reste : un autre réglage | peut tout changer."
+  },
+  {
+   "id": "s03",
+   "text": "L'université Purdue a mesuré quatre téléphones OLED.",
+   "start": 8.192,
+   "end": 11.87,
+   "display": "L'université Purdue a mesuré | 4 téléphones OLED."
+  },
+  {
+   "id": "s04",
+   "text": "Entre trente et cinquante pour cent de luminosité, le mode sombre économise en moyenne trois à neuf pour cent.",
+   "start": 11.97,
+   "end": 18.458,
+   "display": "Entre 30 et 50 % de luminosité, | le mode sombre économise | en moyenne 3 à 9 %."
+  },
+  {
+   "id": "s05",
+   "text": "Sur un billet de cent francs, ce serait trois à neuf francs.",
+   "start": 18.558,
+   "end": 22.417,
+   "display": "Sur un billet de 100 francs, | ce serait 3 à 9 francs."
+  },
+  {
+   "id": "s06",
+   "text": "Si peu que la plupart des gens ne le remarqueraient pas.",
+   "start": 22.517,
+   "end": 26.037,
+   "display": "Si peu que la plupart des gens | ne le remarqueraient pas."
+  },
+  {
+   "id": "s07",
+   "text": "Mais à fond, en plein soleil : trente-neuf à quarante-sept pour cent.",
+   "start": 26.137,
+   "end": 30.385,
+   "display": "Mais à 100 %, en plein soleil : | 39 à 47 %."
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : ton collègue peut te rattraper sans toucher aux couleurs.",
+   "start": 30.485,
+   "end": 34.353,
+   "display": "Surprise : ton collègue peut | te rattraper sans toucher aux couleurs."
+  },
+  {
+   "id": "s09",
+   "text": "Sur un Pixel cinq, vingt pour cent en clair consomme autant que cinquante pour cent en sombre.",
+   "start": 34.453,
+   "end": 40.443,
+   "display": "Sur un Pixel 5, 20 % en clair | consomme autant que 50 % en sombre."
+  },
+  {
+   "id": "s10",
+   "text": "Et ton écran compte : en OLED, un pixel noir s'éteint.",
+   "start": 40.543,
+   "end": 45.409,
+   "display": "Et ton écran compte : | en OLED, un pixel noir s'éteint."
+  },
+  {
+   "id": "s11",
+   "text": "Sur un LCD, la lumière vient de derrière : l'étude ne donne aucun chiffre.",
+   "start": 45.509,
+   "end": 50.08,
+   "display": "Sur un LCD, la lumière vient de derrière : | l'étude ne donne aucun chiffre."
+  },
+  {
+   "id": "s12",
+   "text": "Et le mode sombre fatigue moins les yeux à forte luminosité, selon Purdue.",
+   "start": 50.18,
+   "end": 55.201,
+   "display": "Et le mode sombre fatigue moins les yeux | à forte luminosité, selon Purdue."
+  },
+  {
+   "id": "s13",
+   "text": "Ta luminosité est à combien, là ? Écris-la en commentaire.",
+   "start": 55.301,
+   "end": 58.239,
+   "display": "Ta luminosité est à combien, là ? | Écris-la en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Toi, mode sombre. Ton collègue, écran baissé. L'écart peut être minuscule.",
+   "start": 58.339,
+   "end": 63.495,
+   "display": "Toi, mode sombre. Ton collègue, écran baissé. | L'écart peut être minuscule."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, baisser ton chauffage d'un degré, combien tu gagnes ?",
+   "start": 63.595,
+   "end": 68.329,
+   "display": "Abonne-toi : demain, baisser ton chauffage | d'un degré, combien tu gagnes ?"
+  }
+ ]
+}

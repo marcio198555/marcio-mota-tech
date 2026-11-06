@@ -1,0 +1,117 @@
+{
+ "duration": 68.673,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton plat brûle au bord, et le centre reste froid ?",
+   "start": 0.12,
+   "end": 2.961,
+   "display": "Ton plat brûle au bord, | et le centre reste froid ?"
+  },
+  {
+   "id": "s02",
+   "text": "Toi, tu dis que je chauffe mal. Ton collègue, que je chauffe de l'intérieur.",
+   "start": 3.061,
+   "end": 8.047,
+   "display": "Toi, tu dis que je chauffe mal. | Ton collègue, que je chauffe | de l'intérieur."
+  },
+  {
+   "id": "s03",
+   "text": "Reste : à la fin, tu ne mangeras plus froid au milieu.",
+   "start": 8.147,
+   "end": 11.489,
+   "display": "Reste : à la fin, tu ne mangeras | plus froid au milieu."
+  },
+  {
+   "id": "s04",
+   "text": "Je suis ton micro-ondes : je ne chauffe pas de l'intérieur.",
+   "start": 11.589,
+   "end": 14.844,
+   "display": "Je suis ton micro-ondes : | je ne chauffe pas de l'intérieur."
+  },
+  {
+   "id": "s05",
+   "text": "L'agence américaine FDA l'écrit : je chauffe surtout les couches extérieures.",
+   "start": 14.944,
+   "end": 19.149,
+   "display": "L'agence américaine FDA l'écrit : | je chauffe surtout les couches extérieures."
+  },
+  {
+   "id": "s06",
+   "text": "Mes ondes entrent de deux virgule cinq à moins de quatre centimètres, selon le ministère américain de l'Agriculture.",
+   "start": 19.249,
+   "end": 26.314,
+   "display": "Mes ondes entrent de 2,5 à moins de 4 cm, | selon le ministère américain | de l'Agriculture."
+  },
+  {
+   "id": "s07",
+   "text": "Le centre attend que la chaleur arrive de proche en proche.",
+   "start": 26.414,
+   "end": 30.59,
+   "display": "Le centre attend que la chaleur | arrive de proche en proche."
+  },
+  {
+   "id": "s08",
+   "text": "Une lasagne de huit centimètres, par exemple : le milieu est hors de portée.",
+   "start": 30.69,
+   "end": 35.396,
+   "display": "Une lasagne de 8 cm, par exemple : | le milieu est hors de portée."
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : mes ondes se croisent et laissent des zones froides, environ tous les six centimètres.",
+   "start": 35.496,
+   "end": 41.782,
+   "display": "Deuxième surprise : mes ondes se croisent | et laissent des zones froides, | environ tous les 6 cm."
+  },
+  {
+   "id": "s10",
+   "text": "D'où mon plateau qui tourne.",
+   "start": 41.882,
+   "end": 44.081,
+   "display": "D'où mon plateau qui tourne."
+  },
+  {
+   "id": "s11",
+   "text": "Alors : étale, couvre, et mélange à mi-temps.",
+   "start": 44.181,
+   "end": 47.338,
+   "display": "Alors : étale, couvre, | et mélange à mi-temps."
+  },
+  {
+   "id": "s12",
+   "text": "Puis laisse reposer : la cuisson continue.",
+   "start": 47.438,
+   "end": 51.423,
+   "display": "Puis laisse reposer : | la cuisson continue."
+  },
+  {
+   "id": "s13",
+   "text": "Quatre minutes à mille watts : moins de deux centimes.",
+   "start": 51.523,
+   "end": 54.473,
+   "display": "4 minutes à 1 000 W : | moins de 2 ct."
+  },
+  {
+   "id": "s14",
+   "text": "Tu mélanges, ou tu rajoutes du temps ? Écris-le en commentaire.",
+   "start": 54.573,
+   "end": 58.518,
+   "display": "Tu mélanges, ou tu rajoutes du temps ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Toi, tu m'accusais. Ton collègue croyait à l'intérieur. Perdu tous les deux.",
+   "start": 58.618,
+   "end": 63.093,
+   "display": "Toi, tu m'accusais. Ton collègue | croyait à l'intérieur. Perdu tous les deux."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : demain, Suisse contre France, même machine à laver, qui paie le plus ?",
+   "start": 63.193,
+   "end": 68.373,
+   "display": "Abonne-toi : demain, Suisse contre France, | même machine à laver, qui paie le plus ?"
+  }
+ ]
+}

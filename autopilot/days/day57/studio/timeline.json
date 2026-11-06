@@ -1,0 +1,110 @@
+{
+ "duration": 68.79,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, vaisselle à la main pour économiser. Ton collègue, lave-vaisselle. Qui gaspille le plus d'eau ?",
+   "start": 0.12,
+   "end": 6.321,
+   "display": "Toi, à la main pour économiser. | Ton collègue, lave-vaisselle. | Qui gaspille le plus d'eau ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : à la fin, je te montre le geste qui ajoute des litres.",
+   "start": 6.421,
+   "end": 10.238,
+   "display": "Reste : à la fin, je te montre | le geste qui ajoute des litres."
+  },
+  {
+   "id": "s03",
+   "text": "L'Université de Bonn a fait laver douze couverts à des volontaires de plusieurs pays.",
+   "start": 10.338,
+   "end": 15.284,
+   "display": "L'Université de Bonn a fait laver | 12 couverts à des volontaires | de plusieurs pays."
+  },
+  {
+   "id": "s04",
+   "text": "À la main : cent trois litres en moyenne.",
+   "start": 15.384,
+   "end": 18.235,
+   "display": "À la main : 103 litres en moyenne."
+  },
+  {
+   "id": "s05",
+   "text": "En machine : quinze litres.",
+   "start": 18.335,
+   "end": 20.318,
+   "display": "En machine : 15 litres."
+  },
+  {
+   "id": "s06",
+   "text": "Presque sept fois moins.",
+   "start": 20.418,
+   "end": 22.683,
+   "display": "Presque 7 fois moins."
+  },
+  {
+   "id": "s07",
+   "text": "À Lausanne, eau et épuration : trois francs quarante-cinq le mètre cube.",
+   "start": 22.783,
+   "end": 33.279,
+   "display": "À Lausanne, eau et épuration : | 3 fr. 45 le m³."
+  },
+  {
+   "id": "s08",
+   "text": "Donc trente centimes d'écart, à chaque vaisselle.",
+   "start": 33.379,
+   "end": 36.013,
+   "display": "Donc 30 centimes d'écart, | à chaque vaisselle."
+  },
+  {
+   "id": "s09",
+   "text": "Une vaisselle par jour, exemple : cent dix francs par an.",
+   "start": 36.113,
+   "end": 39.491,
+   "display": "Une vaisselle par jour, exemple : | 110 francs par an."
+  },
+  {
+   "id": "s10",
+   "text": "Surprise : quarante-six litres à la main en Allemagne, cent septante en Espagne et au Portugal.",
+   "start": 39.591,
+   "end": 45.265,
+   "display": "Surprise : 46 litres à la main en Allemagne, | 170 en Espagne et au Portugal."
+  },
+  {
+   "id": "s11",
+   "text": "Attention : étude ancienne, en partie financée par des fabricants.",
+   "start": 45.365,
+   "end": 49.405,
+   "display": "Attention : étude ancienne, en partie | financée par des fabricants."
+  },
+  {
+   "id": "s12",
+   "text": "Et rincer avant de charger ajoute près de trois litres par cycle en Allemagne, près de vingt en Italie.",
+   "start": 49.505,
+   "end": 55.502,
+   "display": "Et rincer avant de charger ajoute | près de 3 litres par cycle en Allemagne, | près de 20 en Italie."
+  },
+  {
+   "id": "s13",
+   "text": "Tu rinces avant de charger ? Écris oui ou non en commentaire.",
+   "start": 55.602,
+   "end": 59.535,
+   "display": "Tu rinces avant de charger ? | Écris oui ou non en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Toi, cent trois litres. Ton collègue, quinze. Même à quarante-six, il reste devant.",
+   "start": 59.635,
+   "end": 65.636,
+   "display": "Toi, 103 litres. Ton collègue, 15. | Même à 46, il reste devant."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, douche ou bain, combien en francs ?",
+   "start": 65.736,
+   "end": 68.49,
+   "display": "Abonne-toi : demain, douche ou bain, | combien en francs ?"
+  }
+ ]
+}
