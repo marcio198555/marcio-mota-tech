@@ -1,0 +1,22 @@
+{
+ "job": "day37c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s03",
+   "text": "La réponse en francs, puis la surprise dans l'air.",
+   "file": "s03.wav",
+   "duration": 3.48,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Un Bosh belge à condensation classé G : trois virgule zéro huit kilowattheures, soit quatre-vingt-cinq centimes.",
+   "file": "s06.wav",
+   "duration": 7.56,
+   "rate": 24000
+  }
+ ],
+ "total": 11.04
+}
