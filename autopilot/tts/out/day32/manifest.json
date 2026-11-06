@@ -1,0 +1,120 @@
+{
+ "job": "day32",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu me lances à soixante degrés.",
+   "file": "s01.wav",
+   "duration": 2.96,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, à trente.",
+   "file": "s02.wav",
+   "duration": 2.28,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Lequel a le linge le plus propre, et lequel paie le plus ?",
+   "file": "s03.wav",
+   "duration": 4.2,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Je te balance la réponse, en francs.",
+   "file": "s04.wav",
+   "duration": 3.52,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Même à soixante, on ne stérilise pas le linge, dit Karl Perron, de l'université de Genève.",
+   "file": "s05.wav",
+   "duration": 6.2,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Pour la Èr Té Èss, soixante reste nécessaire après une maladie ou pour une immunité fragile.",
+   "file": "s06.wav",
+   "duration": 6.72,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Sur les taches, Les Numériques a testé : soixante degrés gagne.",
+   "file": "s07.wav",
+   "duration": 5.36,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Bravo, mais dans ce test, tu consommes deux virgule sept fois plus qu'à trente.",
+   "file": "s08.wav",
+   "duration": 5.28,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Sur l'exemple d'un fournisseur de Vienne, au tarif médian suisse : vingt-deux centimes d'électricité la machine, contre sept.",
+   "file": "s09.wav",
+   "duration": 8.08,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "À trois machines par semaine : vingt-deux francs soixante d'écart par an.",
+   "file": "s10.wav",
+   "duration": 4.68,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Surprise : sur une notice Milé, le programme éco dure cinquante minutes de plus.",
+   "file": "s11.wav",
+   "duration": 6.08,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Et il consomme trente-huit pour cent de moins que coton soixante.",
+   "file": "s12.wav",
+   "duration": 4.48,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Suisse Énergie le conseille, même s'il dure plus longtemps.",
+   "file": "s13.wav",
+   "duration": 5.04,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Écris en commentaire à combien de degrés tu laves tes draps.",
+   "file": "s14.wav",
+   "duration": 4.28,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Toi à soixante, ton collègue à trente : ça dépend du linge.",
+   "file": "s15.wav",
+   "duration": 4.32,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, même aïe-fone, en Suisse et en France : lequel coûte le moins cher ?",
+   "file": "s16.wav",
+   "duration": 6.28,
+   "rate": 24000
+  }
+ ],
+ "total": 79.76
+}
