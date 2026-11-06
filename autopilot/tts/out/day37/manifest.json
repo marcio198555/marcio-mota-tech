@@ -1,0 +1,120 @@
+{
+ "job": "day37",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ton linge sèche au salon.",
+   "file": "s01.wav",
+   "duration": 2.24,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue lance le sèche-linge. Qui paie le plus ?",
+   "file": "s02.wav",
+   "duration": 3.96,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Réponse en francs, puis la surprise dans l'air.",
+   "file": "s03.wav",
+   "duration": 3.68,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Un Bosh suisse à pompe à chaleur : zéro virgule nonante-neuf kilowattheure par séchage.",
+   "file": "s04.wav",
+   "duration": 5.52,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Au tarif médian, vingt-sept virgule sept centimes, ça fait vingt-sept centimes.",
+   "file": "s05.wav",
+   "duration": 6.24,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Un Bosh belge à condensation classé G : trois virgule zéro huit kilowattheures, soit quatre-vingt-cinq centimes.",
+   "file": "s06.wav",
+   "duration": 8.2,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Mais en Suisse, un modèle de ménage doit être au moins classé C.",
+   "file": "s07.wav",
+   "duration": 4.12,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Toi, zéro kilowattheure : en électricité, c'est ton collègue qui paie.",
+   "file": "s08.wav",
+   "duration": 5.52,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Mais une étude pour l'Adème compte environ deux litres d'eau par machine dans l'air.",
+   "file": "s09.wav",
+   "duration": 5.2,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Le quadruple d'un bain ou d'une douche.",
+   "file": "s10.wav",
+   "duration": 2.36,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "La même étude mesure une pièce plus froide d'un à deux degrés.",
+   "file": "s11.wav",
+   "duration": 4.92,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "L'Office fédéral de la santé publique conseille d'éviter de sécher le linge dans les pièces habitables.",
+   "file": "s12.wav",
+   "duration": 6.4,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Sinon, aère au moins cinq minutes matin, midi et coucher ; vise trente à cinquante pour cent d'humidité.",
+   "file": "s13.wav",
+   "duration": 7.24,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Ton étendoir, il est dans quelle pièce ?",
+   "file": "s14.wav",
+   "duration": 3.28,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Lui paie en centimes. Toi, tu paies en eau dans l'air.",
+   "file": "s15.wav",
+   "duration": 4.24,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, ce que ta télé fait quand tu crois l'avoir éteinte.",
+   "file": "s16.wav",
+   "duration": 5.0,
+   "rate": 24000
+  }
+ ],
+ "total": 78.12
+}
