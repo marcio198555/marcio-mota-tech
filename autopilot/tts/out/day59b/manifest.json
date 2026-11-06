@@ -1,0 +1,36 @@
+{
+ "job": "day59b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s02",
+   "text": "Reste : un réglage de ta télé peut changer la note.",
+   "file": "s02.wav",
+   "duration": 4.24,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Toute l'année, au maximum : quatre virgule quatre kilowattheures.",
+   "file": "s05.wav",
+   "duration": 4.92,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Èl-Gé et Sony préviennent : le démarrage rapide peut augmenter la consommation.",
+   "file": "s10.wav",
+   "duration": 5.12,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Repère : une année de veille simple, c'est cinquante-sept heures de cette même télé allumée.",
+   "file": "s12.wav",
+   "duration": 6.76,
+   "rate": 24000
+  }
+ ],
+ "total": 21.04
+}
