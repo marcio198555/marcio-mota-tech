@@ -113,6 +113,25 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >    rythme) dans les règles du § 0 (il ne filme pas ; outils gratuits ; aucun chiffre inventé), puis le dit à Marcio.
 >    **La période est prolongée jusqu'au samedi 5.12.2026** : S5 = 28.11 → 5.12 ; le vendredi 27.11, les deux tâches
 >    produisent comme d'habitude, 8 vidéos chacune (28.11 → 5.12) ; **bilan final le vendredi 4.12.2026** (§ 10.3).
+> 7. **Analyse tous les 2 jours (Marcio, 06.11, 10 h 08)** : « chaque deux jours fais une analyse des contenus : si ça
+>    marche bien, on continue ; si ça ne marche pas, trouve une autre idée ou une autre stratégie, jusqu'au jour où mes
+>    vidéos marchent bien ». Prime sur la phrase « pas de nouveau changement avant le bilan du 13.11 » (journal du 06.11)
+>    et sur la règle R4 pour le rythme des changements. Tâche « Autopilot : analyse tous les 2 jours », jours impairs à
+>    13 h 17 (7, 9, 11, 15, 17, 19, 21, 23, 25, 29.11, 1, 3 et 5.12) ; les vendredis 13 et 27.11, c'est le bilan du
+>    vendredi qui fait cette analyse. Fenêtre : les vidéos de l'autopilote publiées depuis l'analyse précédente, jugées
+>    à 18 h d'âge au moins (les plus récentes comptent seulement comme premier signal). Verdict par réseau :
+>    - **ÇA MARCHE** : médiane TikTok ≥ 600 vues, ou une vidéo TikTok ≥ 1 000, ou médiane des Reels d'essai ≥ 1 000 vues.
+>      On garde ; chaque vidéo ≥ 600 vues TikTok ou ≥ 2 000 vues Instagram reçoit sa « partie 2 » dans les 48 h.
+>    - **PAS ENCORE** : médiane TikTok de 300 à 600, ou Reels d'essai de 300 à 1 000. On garde la recette et on change
+>      une seule chose sur les 2 jours suivants (image 0 et phrase 1, type de sujet, durée, heure, légende).
+>    - **ÇA NE MARCHE PAS** : médiane TikTok < 300 et aucun Reel d'essai ≥ 1 000. Nouvelle idée ou nouvelle stratégie,
+>      tirée des données (nos meilleures vidéos TikTok et Instagram, vidIQ en français sur 30 jours), testée sur les
+>      créneaux des 2 jours suivants, puis jugée à l'analyse suivante.
+>    Remplacer = produire les nouvelles vidéos (recette complète, contrôle par un agent neuf, Whisper), les mettre sur
+>    Cloudinary et modifier les publications Buffer déjà prévues au même créneau (edit_post) ; la vidéo remplacée reste
+>    dans plan.json avec le statut « remplacée ». Une seule nouvelle idée testée à la fois. Si TikTok ne marche pas mais
+>    Instagram oui (ou l'inverse), on garde ce qui marche sur le réseau qui répond et on ne change que les leviers de
+>    l'autre réseau. Toujours : learnings.md, strategy.json (journal), plan.json, puis 2 ou 3 phrases à Marcio.
 
 > **Changements du 04.11.2026** (remplacés en partie par le bloc du 05.11 ci-dessus : rythme, durée, format R).
 > Marcio (04.11, 8 h 23) : « je n'ai pas de vues sur TikTok, ta méthode ne marche pas très bien ». Constat chiffré
