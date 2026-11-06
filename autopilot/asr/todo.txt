@@ -32,3 +32,8 @@ autopilot/vo/day27_vo.wav
 autopilot/vo/day57_vo.wav
 autopilot/vo/day58_vo.wav
 autopilot/vo/day59_vo.wav
+autopilot/vo/day24_vo2.wav
+autopilot/vo/day27_vo2.wav
+autopilot/vo/day57_vo2.wav
+autopilot/vo/day58_vo2.wav
+autopilot/vo/day59_vo2.wav
