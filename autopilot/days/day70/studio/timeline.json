@@ -1,0 +1,117 @@
+{
+ "duration": 64.237,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même iPhone dix-sept. Toi, tu l'achètes en Suisse. Ton collègue, en France. Qui paie le moins ?",
+   "start": 0.12,
+   "end": 5.94,
+   "display": "Même iPhone 17, 256 Go. | Toi, en Suisse. Ton collègue, en France. | Qui paie le moins ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : même avec la détaxe, la réponse va te surprendre.",
+   "start": 6.04,
+   "end": 10.11,
+   "display": "Reste : même avec la détaxe, | la réponse va te surprendre."
+  },
+  {
+   "id": "s03",
+   "text": "Apple Suisse affiche huit cent nonante-neuf francs.",
+   "start": 10.21,
+   "end": 14.81,
+   "display": "Apple Suisse affiche 899 francs."
+  },
+  {
+   "id": "s04",
+   "text": "Apple France : mille cent dix-neuf euros.",
+   "start": 14.91,
+   "end": 17.416,
+   "display": "Apple France : 1 119 euros."
+  },
+  {
+   "id": "s05",
+   "text": "Au cours de la Banque nationale, ça fait mille vingt-sept francs.",
+   "start": 17.516,
+   "end": 21.343,
+   "display": "Au cours de la Banque nationale, | ça fait 1 027 francs."
+  },
+  {
+   "id": "s06",
+   "text": "Cent vingt-huit francs de plus qu'en Suisse.",
+   "start": 21.444,
+   "end": 24.151,
+   "display": "128 francs de plus qu'en Suisse."
+  },
+  {
+   "id": "s07",
+   "text": "Mais ton collègue sort sa carte : la détaxe.",
+   "start": 24.251,
+   "end": 27.11,
+   "display": "Mais ton collègue sort sa carte : | la détaxe."
+  },
+  {
+   "id": "s08",
+   "text": "La TVA française saute : il reste huit cent cinquante-six francs.",
+   "start": 27.21,
+   "end": 31.632,
+   "display": "La TVA française saute : | il reste 856 francs."
+  },
+  {
+   "id": "s09",
+   "text": "Sauf qu'à la frontière, au-dessus de cent cinquante francs, il doit la TVA suisse.",
+   "start": 31.732,
+   "end": 36.469,
+   "display": "Sauf qu'à la frontière, | au-dessus de 150 francs, | il doit la TVA suisse."
+  },
+  {
+   "id": "s10",
+   "text": "Résultat : neuf cent vingt-cinq francs, encore vingt-six de plus qu'en Suisse.",
+   "start": 36.569,
+   "end": 41.098,
+   "display": "Résultat : 925 francs, | encore 26 de plus qu'en Suisse."
+  },
+  {
+   "id": "s11",
+   "text": "Surprise : même sans aucune taxe, la France reste plus chère.",
+   "start": 41.198,
+   "end": 45.441,
+   "display": "Surprise : même sans aucune taxe, | la France reste plus chère."
+  },
+  {
+   "id": "s12",
+   "text": "Huit cent cinquante-six francs contre huit cent trente-deux.",
+   "start": 45.541,
+   "end": 48.4,
+   "display": "856 francs contre 832."
+  },
+  {
+   "id": "s13",
+   "text": "Les prix bougent : refais le calcul.",
+   "start": 48.5,
+   "end": 50.421,
+   "display": "Les prix bougent : | refais le calcul."
+  },
+  {
+   "id": "s14",
+   "text": "Et toi, ton téléphone, tu l'achètes où ? Écris-le en commentaire.",
+   "start": 50.521,
+   "end": 54.805,
+   "display": "Et toi, ton téléphone, tu l'achètes où ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Toi, huit cent nonante-neuf. Ton collègue, neuf cent vingt-cinq, et un passage à la douane.",
+   "start": 54.905,
+   "end": 60.265,
+   "display": "Toi, 899. Ton collègue, 925, | et un passage à la douane."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : demain, faut-il éteindre ta box internet la nuit ?",
+   "start": 60.365,
+   "end": 63.937,
+   "display": "Abonne-toi : demain, faut-il éteindre | ta box internet la nuit ?"
+  }
+ ]
+}

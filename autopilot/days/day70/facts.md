@@ -8,6 +8,8 @@ Format V, 9.11.2026 à 18 h. Relevés du 06.11.2026.
 | Taux BNS | 1 EUR = 0,9180 CHF, cours de 11 h | https://www.snb.ch/public/rss/en/exchangeRates | 05.11.2026, dernier cours lu, officiel |
 | Détaxe : résidence hors UE, plus de 100 € TTC le même jour, même magasin ; Suisse : pièce d'identité acceptée ; remboursement par le vendeur | citations | https://www.douane.gouv.fr/index.php/fiche/la-detaxe-en-france-pour-les-touristes-pablo | vérifié, officiel |
 | Franchise-valeur 150 francs par personne et par jour dès le 1.1.2025 ; TVA sur la valeur totale au-delà ; 8,1 % ; TVA étrangère déduite si elle figure sur la quittance ; QuickZoll | citations | https://www.bazg.admin.ch/fr/taxe-sur-la-valeur-ajoutee-franchise-valeur-a-150-francs | vérifié, officiel |
+| TVA française, taux normal 20 % ; la TVA n'est pas forcément remboursée en entier (montant du bordereau, frais) : 856 et 925 sont donc des minimums, dits « au mieux » | | voir service-public.fr / impots.gouv.fr ; douane.gouv.fr | vérifié |
+| Apple propose-t-il la détaxe ? non prouvé : dit « si le vendeur l'accorde » en légende | | | limite |
 | **Calculs** | 1 119 × 0,918 = 1 027,24 ; − 899 = 128,24. 1 119 / 1,2 = 932,50 € ; × 0,918 = 856,04. × 1,081 = 925,38 ; − 899 = 26,38. 899 / 1,081 = 831,64. | | exacts |
 | **Limites** : l'OFDF convertit à son propre taux publié ; frais de l'opérateur de détaxe non chiffrés et non comptés (ils ajouteraient au côté France) ; le prix français est le prix Apple, sans promotion. | | | dit à l'écran (« sans frais de détaxe ») et en légende |
 
@@ -18,11 +20,11 @@ s03 : Apple Suisse affiche huit cent nonante-neuf francs.
 s04 : Apple France : mille cent dix-neuf euros.
 s05 : Au cours de la Banque nationale, ça fait mille vingt-sept francs.
 s06 : Cent vingt-huit francs de plus qu'en Suisse.
-s07 : Mais ton collègue sort sa carte : la détaxe.
-s08 : La TVA française saute : il reste huit cent cinquante-six francs.
+s07 : Mais ton collègue sort son atout : la détaxe.
+s08 : Sans la TVA française : au mieux, huit cent cinquante-six francs.
 s09 : Sauf qu'à la frontière, au-dessus de cent cinquante francs, il doit la TVA suisse.
-s10 : Résultat : neuf cent vingt-cinq francs, encore vingt-six de plus qu'en Suisse.
-s11 : Surprise : même sans aucune taxe, la France reste plus chère.
+s10 : Résultat, au mieux : neuf cent vingt-cinq francs, encore vingt-six de plus qu'en Suisse.
+s11 : Surprise : même sans TVA, la France reste plus chère.
 s12 : Huit cent cinquante-six francs contre huit cent trente-deux.
 s13 : Les prix bougent : refais le calcul.
 s14 : Et toi, ton téléphone, tu l'achètes où ? Écris-le en commentaire.

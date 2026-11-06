@@ -1,0 +1,27 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 11,
+ "segments": [
+  {
+   "id": "s07",
+   "text": "Mais ton collègue sort son atout : la détaxe."
+  },
+  {
+   "id": "s08",
+   "text": "Sans la TVA française : au mieux, huit cent cinquante-six francs."
+  },
+  {
+   "id": "s10",
+   "text": "Résultat, au mieux : neuf cent vingt-cinq francs, encore vingt-six de plus qu'en Suisse."
+  },
+  {
+   "id": "s11",
+   "text": "Surprise : même sans TVA, la France reste plus chère."
+  }
+ ]
+}
