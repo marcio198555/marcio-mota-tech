@@ -1,0 +1,15 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 11,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, c'est douche, ton collègue, c'est bain : qui paie le plus à la fin de l'année ?"
+  }
+ ]
+}

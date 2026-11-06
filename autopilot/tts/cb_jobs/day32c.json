@@ -1,0 +1,19 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 11,
+ "segments": [
+  {
+   "id": "s04",
+   "text": "Je te balance la réponse, en francs."
+  },
+  {
+   "id": "s13",
+   "text": "Suisse Énergie conseille aussi ce programme, même s'il dure plus longtemps."
+  }
+ ]
+}
