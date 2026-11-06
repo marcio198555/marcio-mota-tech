@@ -1,0 +1,120 @@
+{
+ "job": "day60",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton téléphone charge à quarante-cinq watts ?",
+   "file": "s01.wav",
+   "duration": 3.28,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, lui, garde son vieux chargeur.",
+   "file": "s02.wav",
+   "duration": 3.16,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Dans trois ans, lequel aura la meilleure batterie ?",
+   "file": "s03.wav",
+   "duration": 4.2,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "À la fin, tu sauras ce qu'écrivent Apple et Samsung.",
+   "file": "s04.wav",
+   "duration": 4.24,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Apple décrit deux temps : rapide jusqu'à quatre-vingts pour cent, puis plus lent.",
+   "file": "s05.wav",
+   "duration": 5.56,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Et selon Apple, ce mélange prolonge la durée de vie.",
+   "file": "s06.wav",
+   "duration": 4.16,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Apple ajoute : charger chauffe la batterie, et ça peut réduire sa durée de vie.",
+   "file": "s07.wav",
+   "duration": 4.36,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Alors l'aïe-fone baisse peu à peu le courant en fin de charge.",
+   "file": "s08.wav",
+   "duration": 4.0,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Pour le gagnant, aucun chiffre d'Apple ni de Samsung sur les fiches que j'ai lues.",
+   "file": "s09.wav",
+   "duration": 5.24,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Autre surprise, Samsung Suisse : évite surtout de jouer ou regarder des vidéos en chargeant.",
+   "file": "s10.wav",
+   "duration": 6.52,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Sinon, la batterie vieillit plus vite qu'on le voudrait.",
+   "file": "s11.wav",
+   "duration": 3.36,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Côté facture, une heure pleine à quarante-cinq watts coûte moins de deux centimes.",
+   "file": "s12.wav",
+   "duration": 4.92,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Trop chaud, ton aïe-fone peut limiter la charge après quatre-vingts pour cent : mets-le au frais.",
+   "file": "s13.wav",
+   "duration": 5.24,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Écris en commentaire combien de watts affiche ton chargeur.",
+   "file": "s14.wav",
+   "duration": 4.04,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Toi ou ton collègue : celui qui laisse son téléphone tranquille en charge suit déjà Samsung.",
+   "file": "s15.wav",
+   "duration": 5.96,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, ton frigo balance ce qu'il te coûte.",
+   "file": "s16.wav",
+   "duration": 4.2,
+   "rate": 24000
+  }
+ ],
+ "total": 72.44
+}
