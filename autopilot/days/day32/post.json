@@ -1,0 +1,43 @@
+{
+ "day": 32,
+ "title": "Lave-linge à 30 °C ou 60 °C : l'énergie en jeu",
+ "format": "A",
+ "recette": "Vérité du quotidien (bloc du 05.11, point 2 bis)",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954290/tiktok-autopilot/day32_lavage-30-60.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954292/tiktok-autopilot/stories/day32_story.mp4",
+ "buffer_id": "6aed92407b7e47e8f41af25c",
+ "programme_le": "2026-11-09T10:00:00+01:00",
+ "heure": "10:00",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "programmée",
+ "tiktok_title": "Lave-linge à 30 ou 60 °C : qui paie ?",
+ "caption": "Lave-linge à 60 °C : 22 centimes d'électricité la machine, contre 7 à 30 °C 🧺 Calcul sur l'exemple de Wien Energie (0,788 et 0,265 kWh) au tarif médian ElCom 2026 hors TVA (27,7 ct/kWh). L'ADEME annonce 2 fois moins d'énergie à 30 °C, le test de Les Numériques 2,7 fois, mais ses meilleurs résultats sur les taches sont à 60 °C. RTS : 60 °C reste nécessaire après une maladie ou pour une immunité fragile. Machine fictive, voix de synthèse. Et toi, tes draps, tu les laves à combien de degrés ? 👇 #lavelinge #machinealaver #electricite #astucemaison",
+ "duree_s": 69.1,
+ "story_instagram": {
+  "programme_le": "2026-11-09T10:05:00+01:00",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954292/tiktok-autopilot/stories/day32_story.mp4",
+  "buffer_id": "6aed9240f3498efda77e9d2a"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-09T11:00",
+  "coupe_s": 62.53,
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954295/tiktok-autopilot/reels/day32_reel.mp4",
+  "caption": "Lave-linge à 30 °C ou 60 °C : lequel lave le mieux, et lequel coûte le plus ?\n\nDans le test de Les Numériques, 60 °C donne les meilleurs résultats sur les taches, mais consomme 2,7 fois plus d'électricité que 30 °C ; l'ADEME annonce 2 fois moins d'énergie à 30 °C. Sur l'exemple de Wien Energie (0,788 et 0,265 kWh), au tarif médian ElCom 2026 hors TVA de 27,7 ct/kWh, ça fait 22 centimes contre 7, soit environ 22 fr. d'écart par an à 3 machines par semaine.\n\nÀ la RTS, Karl Perron (Université de Genève) rappelle qu'on ne stérilise pas le linge à 60 °C ; ce lavage reste nécessaire après une maladie ou pour une immunité fragile, et l'OFSP le demande en cas de gale. Sur une notice Miele, le programme ECO 40-60 dure 50 minutes de plus que Coton 60 et consomme 38 % de moins ; SuisseEnergie le conseille même s'il dure plus longtemps.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui lance tout à 60 °C.\n\n#lavelinge #machinealaver #astucemaison #suisseromande #jemesuretout",
+  "statut": "en attente"
+ },
+ "sources": [
+  "https://www.rts.ch/info/societe/2025/article/laver-a-froid-economies-et-ecologie-sans-compromettre-l-hygiene-28984197.html",
+  "https://www.lesnumeriques.com/lave-linge/lave-linge-ces-programmes-qui-permettent-de-reduire-la-facture-tout-en-restant-efficaces-a207035.html",
+  "https://www.wienenergie.at/blog/wie-viel-watt-haben-meine-geraete-und-was-bedeutet-das",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+  "https://jeangrunder.ch/img/cms/fiche-miele/miele-WWG-300-60-notice.pdf",
+  "https://www.suisseenergie.ch/habiter/appareils-menagers/lave-linge",
+  "https://www.ecologie.gouv.fr/sites/default/files/documents/guide-pratique-reduire-facture-electricite-1.pdf",
+  "https://www.legislation.gov.uk/eur/2019/2023/annex/II",
+  "https://www.bag.admin.ch/dam/fr/sd-web/DZftp6s086hB/bag-bulletin-46-24-scabies.pdf"
+ ],
+ "voix": "Chatterbox (tom_ref), Whisper relu",
+ "controle_qualite": "Agent neuf + contre-visite, 06.11"
+}

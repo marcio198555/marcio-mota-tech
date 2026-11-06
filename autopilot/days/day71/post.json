@@ -1,0 +1,43 @@
+{
+ "day": 71,
+ "title": "Suisse contre France : 1 kWh d'électricité",
+ "format": "V",
+ "recette": "Vérité du quotidien (bloc du 05.11, point 2 bis)",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954305/tiktok-autopilot/day71_suisse-france-kwh.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954307/tiktok-autopilot/stories/day71_story.mp4",
+ "buffer_id": "6aed9243dbada656be03526e",
+ "programme_le": "2026-11-11T10:00:00+01:00",
+ "heure": "10:00",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "programmée",
+ "tiktok_title": "Machine à laver : Suisse ou France ?",
+ "caption": "Même machine à laver : 31 francs d'électricité par an en Suisse, 19 en France. Médiane ElCom 2026 : 27,7 ct/kWh (hors TVA d'après EKZ et calculsuisse.ch), 29,9 ct avec 8,1 % ; tarif Bleu EDF Base au 1.8.2026 : 20,01 c€ TTC, soit 18,4 ct de franc (BNS, 5.11.2026 : 1 € = 0,9180 CHF). Avec l'abonnement français (190,32 €/an en 6 kVA, 4 500 kWh), l'écart du kWh passe de 11,6 à 7,7 ct. Médiane suisse contre tarif réglementé : pas tout à fait le même prix. Calcul : 47 kWh/100 lavages, 220 lavages par an. Relevés du 6.11.2026. Voix de synthèse. Et toi, combien de centimes par kWh sur ta facture ? #machinealaver #prixelectricite #suissecontrefrance #factureelectricite",
+ "duree_s": 69.1,
+ "story_instagram": {
+  "programme_le": "2026-11-11T10:05:00+01:00",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954307/tiktok-autopilot/stories/day71_story.mp4",
+  "buffer_id": "6aed924407f945cca95039e2"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-11T11:00",
+  "coupe_s": 62.9,
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954310/tiktok-autopilot/reels/day71_reel.mp4",
+  "caption": "Machine à laver : en Suisse ou en France, qui paie le plus le kWh ?\n\nLa médiane ElCom 2026 pour un ménage type (4 500 kWh/an) est de 27,7 ct/kWh (hors TVA d'après EKZ et calculsuisse.ch), soit 29,9 ct avec 8,1 %. Le tarif Bleu EDF option Base, en vigueur depuis le 1.8.2026, est de 20,01 c€ TTC, soit 18,4 ct de franc au cours BNS du 5.11.2026 (1 € = 0,9180 CHF). Pour une machine de classe A à 47 kWh/100 lavages (médiane EPREL relevée par JeChange) et 220 lavages par an (convention de l'ancienne étiquette) : 31 francs d'électricité par an en Suisse, 19 en France.\n\nLe prix suisse comprend le tarif de mesure ; le prix français laisse l'abonnement à part (190,32 €/an en 6 kVA). Une fois réparti sur 4 500 kWh, l'écart passe de 11,6 à 7,7 ct/kWh. C'est une médiane suisse comparée à un tarif réglementé : chaque facture diffère selon la commune.\n\nAnimation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui vit de l'autre côté de la frontière.\n\n#machinealaver #prixelectricite #suissecontrefrance #suisseromande #jemesuretout",
+  "statut": "en attente"
+ },
+ "sources": [
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+  "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
+  "https://particulier.edf.fr/fr/accueil/guide-energie/electricite/prix-kwh-electricite.html",
+  "https://www.cre.fr/actualites/toute-lactualite/la-cre-propose-une-evolution-du-niveau-moyen-des-tarifs-reglementes-de-vente-de-lelectricite-de-25-ttc-au-1er-aout-2026.html",
+  "https://www.snb.ch/public/rss/fr/exchangeRates",
+  "https://www.ekz.ch/de/angebote/strom/tarife/stromtarife-privatkunden.html",
+  "https://www.jechange.fr/energie/electricite/news/etiquette-energie-lave-linge-ne-sert-presque-plus-six-sur-dix-classe-a",
+  "https://www.energy-community.org/dam/jcr:01799469-647f-4085-8785-738ffc845c9a/Regulation_1061_2010_EE.pdf",
+  "https://www.calculsuisse.ch/energie/prix-electricite"
+ ],
+ "voix": "Chatterbox (tom_ref), Whisper relu",
+ "controle_qualite": "Agent neuf + contre-visite, 06.11"
+}

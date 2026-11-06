@@ -189,5 +189,91 @@
   "sources": [
    "https://www.techradar.com/home/robot-vacuums/the-3-biggest-lies-robot-vacuum-brands-are-telling-us-by-a-professional-tester"
   ]
+ },
+ "60": {
+  "title": "Charge rapide : ça abîme la batterie ?",
+  "text": "Charge rapide 45 W : ni Apple ni Samsung ne chiffrent l'usure 🔋 Apple écrit que ses batteries chargent vite jusqu'à 80 %, puis plus lentement, et que ce mélange prolonge leur durée de vie, sans comparer à un vieux chargeur. Sur les fiches lues, aucun chiffre ne tranche. Samsung Suisse conseille surtout d'éviter de jouer ou de regarder des vidéos pendant la recharge. Ton chargeur affiche combien de watts ? 👇 #chargerapide #batterie #iphone #samsung #astucetech",
+  "sources": [
+   "https://www.apple.com/batteries/why-lithium-ion/",
+   "https://support.apple.com/en-us/105105",
+   "https://support.apple.com/en-us/108805",
+   "https://support.apple.com/en-us/102574",
+   "https://www.samsung.com/ch_fr/explore/life-hacks/how-to-charge-new-smartphones-correctly",
+   "https://www.samsung.com/us/support/answer/ANS10002871",
+   "https://www.samsung.com/us/support/galaxy-battery/charging-tip",
+   "https://www.samsung.com/us/support/galaxy-battery/care-and-maintenance",
+   "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu"
+  ]
+ },
+ "37": {
+  "title": "Linge au salon ou sèche-linge : qui paie ?",
+  "text": "Linge au salon ou sèche-linge : 0 fr. d'électricité contre 27 ct par séchage (Bosch WTW87680CH, 0,99 kWh × 27,7 ct, ElCom 2026, hors TVA). Mais d'après une étude pour l'ADEME, environ 2 kg d'eau partent dans l'air intérieur à chaque machine, et l'OFSP conseille d'éviter de sécher le linge dans les pièces habitables. Le coût du chauffage n'est pas chiffré ici : il dépend de ton logement. Ton étendoir, il est dans quelle pièce ? #sechelinge #etendoir #humidite #electricite #suisseromande",
+  "sources": [
+   "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
+   "https://www.elcom.admin.ch/dam/fr/sd-web/znXqHISH0pFP/Newsletter_09-2025_FR.pdf",
+   "https://media3.bsh-group.com/Documents/eudatasheet/it-CH/WTW87680CH.pdf",
+   "https://media3.bsh-group.com/Documents/eudatasheet/fr-BE/WTN83203FG.pdf",
+   "https://pubdb.bfe.admin.ch/fr/publication/download/6307",
+   "https://hal.science/hal-05318299v1/file/%5BQ-Wash%5D%20Qualit%C3%A9%20de%20l%27air%20int%C3%A9rieur%20et%20s%C3%A9chage%20du%20linge.pdf",
+   "https://www.bag.admin.ch/dam/fr/sd-web/wBJWq1KVfpS-/vorsicht-schimmel.pdf",
+   "https://www.bag.admin.ch/fr/aeration-et-chauffage-appropries"
+  ]
+ },
+ "32": {
+  "title": "Lave-linge à 30 ou 60 °C : qui paie ?",
+  "text": "Lave-linge à 60 °C : 22 centimes d'électricité la machine, contre 7 à 30 °C 🧺 Calcul sur l'exemple de Wien Energie (0,788 et 0,265 kWh) au tarif médian ElCom 2026 hors TVA (27,7 ct/kWh). L'ADEME annonce 2 fois moins d'énergie à 30 °C, le test de Les Numériques 2,7 fois, mais ses meilleurs résultats sur les taches sont à 60 °C. RTS : 60 °C reste nécessaire après une maladie ou pour une immunité fragile. Machine fictive, voix de synthèse. Et toi, tes draps, tu les laves à combien de degrés ? 👇 #lavelinge #machinealaver #electricite #astucemaison",
+  "sources": [
+   "https://www.rts.ch/info/societe/2025/article/laver-a-froid-economies-et-ecologie-sans-compromettre-l-hygiene-28984197.html",
+   "https://www.lesnumeriques.com/lave-linge/lave-linge-ces-programmes-qui-permettent-de-reduire-la-facture-tout-en-restant-efficaces-a207035.html",
+   "https://www.wienenergie.at/blog/wie-viel-watt-haben-meine-geraete-und-was-bedeutet-das",
+   "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+   "https://jeangrunder.ch/img/cms/fiche-miele/miele-WWG-300-60-notice.pdf",
+   "https://www.suisseenergie.ch/habiter/appareils-menagers/lave-linge",
+   "https://www.ecologie.gouv.fr/sites/default/files/documents/guide-pratique-reduire-facture-electricite-1.pdf",
+   "https://www.legislation.gov.uk/eur/2019/2023/annex/II",
+   "https://www.bag.admin.ch/dam/fr/sd-web/DZftp6s086hB/bag-bulletin-46-24-scabies.pdf"
+  ]
+ },
+ "56": {
+  "title": "Box débranchée la nuit : combien on gagne ?",
+  "text": "Débrancher une Internet-Box 5 la nuit : environ 2 cafés crème gagnés par an ☕ Calcul : 11,9 W (Internet-Box 5, fiche Swisscom) × 8 h × 365 = 34,75 kWh, soit 9,63 CHF au tarif médian ElCom 2026 (27,7 ct/kWh hors TVA). Mais selon Swisscom, téléphone fixe, systèmes d'alarme et caméras de surveillance fonctionnent uniquement si le routeur est allumé. Chez toi, qu'est-ce qui s'arrêterait si ta box dormait ? 👇 #boxinternet #swisscom #wifi #electricite #astucetech",
+  "sources": [
+   "https://www.swisscom.ch/fr/clients-prives/aide/applis-et-services/consommation-denergie.html",
+   "https://www.swisscom.ch/fr/clients-prives/aide/applis-et-services/conseils-economie-energie.html",
+   "https://www.swisscom.ch/fr/clients-prives/aide/internet/wlan-verwalten.html",
+   "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+   "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
+   "https://www.20min.ch/fr/story/suisse-le-prix-du-cafe-n-en-finit-plus-de-grimper-103456833"
+  ]
+ },
+ "71": {
+  "title": "Machine à laver : Suisse ou France ?",
+  "text": "Même machine à laver : 31 francs d'électricité par an en Suisse, 19 en France. Médiane ElCom 2026 : 27,7 ct/kWh (hors TVA d'après EKZ et calculsuisse.ch), 29,9 ct avec 8,1 % ; tarif Bleu EDF Base au 1.8.2026 : 20,01 c€ TTC, soit 18,4 ct de franc (BNS, 5.11.2026 : 1 € = 0,9180 CHF). Avec l'abonnement français (190,32 €/an en 6 kVA, 4 500 kWh), l'écart du kWh passe de 11,6 à 7,7 ct. Médiane suisse contre tarif réglementé : pas tout à fait le même prix. Calcul : 47 kWh/100 lavages, 220 lavages par an. Relevés du 6.11.2026. Voix de synthèse. Et toi, combien de centimes par kWh sur ta facture ? #machinealaver #prixelectricite #suissecontrefrance #factureelectricite",
+  "sources": [
+   "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+   "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
+   "https://particulier.edf.fr/fr/accueil/guide-energie/electricite/prix-kwh-electricite.html",
+   "https://www.cre.fr/actualites/toute-lactualite/la-cre-propose-une-evolution-du-niveau-moyen-des-tarifs-reglementes-de-vente-de-lelectricite-de-25-ttc-au-1er-aout-2026.html",
+   "https://www.snb.ch/public/rss/fr/exchangeRates",
+   "https://www.ekz.ch/de/angebote/strom/tarife/stromtarife-privatkunden.html",
+   "https://www.jechange.fr/energie/electricite/news/etiquette-energie-lave-linge-ne-sert-presque-plus-six-sur-dix-classe-a",
+   "https://www.energy-community.org/dam/jcr:01799469-647f-4085-8785-738ffc845c9a/Regulation_1061_2010_EE.pdf",
+   "https://www.calculsuisse.ch/energie/prix-electricite"
+  ]
+ },
+ "62": {
+  "title": "Douche ou bain : combien en francs ?",
+  "text": "Un bain par jour ≈ 840 fr. par an, une douche ≈ 250 fr. (exemple) 🛁\nDouche de 5 min à 12 l/min (60 l), bain de 200 l. Chauffe-eau électrique supposé, 12 à 37 °C (SuisseEnergie), tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³ ; le coût dépend du mode de chauffage. À ce débit, en moins de 17 min, la douche rattrape le bain. Baignoire fictive, voix de synthèse. Ta douche dure combien de minutes, montre en main ? 👇 #douche #baignoire #factureeau #astucemaison #suisseromande",
+  "sources": [
+   "https://www.eau-de-fribourg.ch/eau-pour-demain/une-consommation-intelligente",
+   "https://www.energie-environnement.ch/air-eau-alimentation-sante/douche-et-bain",
+   "https://pubdb.bfe.admin.ch/fr/publication/download/8753.pdf",
+   "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+   "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
+   "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/proprietaires-et-professionnels/taxes-et-facturation.html",
+   "https://www.tcs.ch/fr/tests-conseils/tests/home/pommeaux-douche-economiques.php",
+   "https://www.save-water.ch/",
+   "https://www.voltaback.com/fr-ch/blog/prix-kwh-suisse-recharge"
+  ]
  }
 }

@@ -1,0 +1,43 @@
+{
+ "day": 60,
+ "title": "Charge rapide : ça abîme la batterie ? (suite du jour 55)",
+ "format": "V",
+ "recette": "Vérité du quotidien (bloc du 05.11, point 2 bis)",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954278/tiktok-autopilot/day60_charge-rapide.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954280/tiktok-autopilot/stories/day60_story.mp4",
+ "buffer_id": "6aed923c7b7e47e8f41af18e",
+ "programme_le": "2026-11-07T10:00:00+01:00",
+ "heure": "10:00",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "programmée",
+ "tiktok_title": "Charge rapide : ça abîme la batterie ?",
+ "caption": "Charge rapide 45 W : ni Apple ni Samsung ne chiffrent l'usure 🔋 Apple écrit que ses batteries chargent vite jusqu'à 80 %, puis plus lentement, et que ce mélange prolonge leur durée de vie, sans comparer à un vieux chargeur. Sur les fiches lues, aucun chiffre ne tranche. Samsung Suisse conseille surtout d'éviter de jouer ou de regarder des vidéos pendant la recharge. Ton chargeur affiche combien de watts ? 👇 #chargerapide #batterie #iphone #samsung #astucetech",
+ "duree_s": 68.97,
+ "story_instagram": {
+  "programme_le": "2026-11-07T10:05:00+01:00",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954280/tiktok-autopilot/stories/day60_story.mp4",
+  "buffer_id": "6aed923dc1e74b84e5d96a81"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-07T11:00",
+  "coupe_s": 63.47,
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954281/tiktok-autopilot/reels/day60_reel.mp4",
+  "caption": "Charge rapide 45 W : ni Apple ni Samsung ne chiffrent l'usure\n\nApple écrit que ses batteries chargent vite jusqu'à 80 %, puis plus lentement, et que ce mélange prolonge leur durée de vie, sans comparer à un vieux chargeur. Apple écrit aussi qu'une batterie chauffe en chargeant, ce qui peut réduire sa durée de vie. Sur les fiches lues, aucun chiffre ne compare charge rapide et charge lente.\n\nSamsung Suisse conseille surtout d'éviter de jouer ou de regarder des vidéos pendant la recharge. Samsung précise aussi que sur un chargeur plus puissant, le téléphone choisit la meilleure vitesse qu'il supporte. Une heure à 45 W coûte moins de 2 centimes : c'est un plafond théorique, au tarif ElCom 2026 de 27,7 ct./kWh.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à ton collègue qui garde son vieux chargeur.\n\n#chargerapide #batterie #astucetech #suisseromande #jemesuretout",
+  "statut": "en attente"
+ },
+ "sources": [
+  "https://www.apple.com/batteries/why-lithium-ion/",
+  "https://support.apple.com/en-us/105105",
+  "https://support.apple.com/en-us/108805",
+  "https://support.apple.com/en-us/102574",
+  "https://www.samsung.com/ch_fr/explore/life-hacks/how-to-charge-new-smartphones-correctly",
+  "https://www.samsung.com/us/support/answer/ANS10002871",
+  "https://www.samsung.com/us/support/galaxy-battery/charging-tip",
+  "https://www.samsung.com/us/support/galaxy-battery/care-and-maintenance",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu"
+ ],
+ "voix": "Chatterbox (tom_ref), Whisper relu",
+ "controle_qualite": "Agent neuf + contre-visite, 06.11"
+}

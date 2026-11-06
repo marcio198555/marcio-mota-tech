@@ -73,6 +73,60 @@
    "lien": "https://www.instagram.com/reel/DfW2dtllVSe/",
    "media_id": "18025518803719508",
    "note": "publié directement avec vidIQ le 05.11 (pas par la tâche de 7 h 13), après le contrôle qualité"
+  },
+  {
+   "id": "day60",
+   "prevu": "2026-11-07T11:00",
+   "source": "autopilot jour 60",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954281/tiktok-autopilot/reels/day60_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Charge rapide 45 W : ni Apple ni Samsung ne chiffrent l'usure\n\nApple écrit que ses batteries chargent vite jusqu'à 80 %, puis plus lentement, et que ce mélange prolonge leur durée de vie, sans comparer à un vieux chargeur. Apple écrit aussi qu'une batterie chauffe en chargeant, ce qui peut réduire sa durée de vie. Sur les fiches lues, aucun chiffre ne compare charge rapide et charge lente.\n\nSamsung Suisse conseille surtout d'éviter de jouer ou de regarder des vidéos pendant la recharge. Samsung précise aussi que sur un chargeur plus puissant, le téléphone choisit la meilleure vitesse qu'il supporte. Une heure à 45 W coûte moins de 2 centimes : c'est un plafond théorique, au tarif ElCom 2026 de 27,7 ct./kWh.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à ton collègue qui garde son vieux chargeur.\n\n#chargerapide #batterie #astucetech #suisseromande #jemesuretout",
+   "statut": "en attente"
+  },
+  {
+   "id": "day37",
+   "prevu": "2026-11-08T11:00",
+   "source": "autopilot jour 37",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954288/tiktok-autopilot/reels/day37_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Linge au salon ou sèche-linge : le duel en francs, et ce que l'eau du linge fait à ton air.\n\nUn Bosch WTW87680CH (pompe à chaleur, 8 kg, classe C) indique 0,99 kWh par séchage : au tarif médian ElCom 2026 de 27,7 ct/kWh hors TVA, cela fait 27 ct. Une fiche belge WTN83203FG (condensation, classe G) indique 3,08 kWh, soit 85 ct, mais en Suisse les modèles neufs de ménage (≤ 4 kg/h) doivent désormais être au moins en classe C (OFEN). L'étendoir, lui, ne consomme pas d'électricité.\n\nSelon l'étude Q-Wash menée pour l'ADEME, environ 2 kg d'eau passent dans l'air intérieur par machine, le quadruple d'un bain ou d'une douche, et la pièce perd 1 à 2 °C pendant le séchage. L'OFSP conseille d'éviter de sécher le linge dans les pièces habitables, recommande 30 à 50 % d'humidité et une aération d'au moins 5 minutes le matin, à midi et au coucher en période de chauffage. Le coût du chauffage n'est pas chiffré : il dépend de ton logement.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui étend son linge au salon.\n\n#sechelinge #humidite #astucemaison #suisseromande #jemesuretout",
+   "statut": "en attente"
+  },
+  {
+   "id": "day32",
+   "prevu": "2026-11-09T11:00",
+   "source": "autopilot jour 32",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954295/tiktok-autopilot/reels/day32_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Lave-linge à 30 °C ou 60 °C : lequel lave le mieux, et lequel coûte le plus ?\n\nDans le test de Les Numériques, 60 °C donne les meilleurs résultats sur les taches, mais consomme 2,7 fois plus d'électricité que 30 °C ; l'ADEME annonce 2 fois moins d'énergie à 30 °C. Sur l'exemple de Wien Energie (0,788 et 0,265 kWh), au tarif médian ElCom 2026 hors TVA de 27,7 ct/kWh, ça fait 22 centimes contre 7, soit environ 22 fr. d'écart par an à 3 machines par semaine.\n\nÀ la RTS, Karl Perron (Université de Genève) rappelle qu'on ne stérilise pas le linge à 60 °C ; ce lavage reste nécessaire après une maladie ou pour une immunité fragile, et l'OFSP le demande en cas de gale. Sur une notice Miele, le programme ECO 40-60 dure 50 minutes de plus que Coton 60 et consomme 38 % de moins ; SuisseEnergie le conseille même s'il dure plus longtemps.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui lance tout à 60 °C.\n\n#lavelinge #machinealaver #astucemaison #suisseromande #jemesuretout",
+   "statut": "en attente"
+  },
+  {
+   "id": "day56",
+   "prevu": "2026-11-10T11:00",
+   "source": "autopilot jour 56",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954302/tiktok-autopilot/reels/day56_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Éteindre sa box internet la nuit : environ 2 cafés crème gagnés par an, mais plus de téléphone fixe.\n\nSwisscom annonce 11,9 W pour l'Internet-Box 5 (appareils connectés, sans transfert de données). Débranchée 8 h par nuit : 34,75 kWh de moins par an, soit 9,63 CHF au tarif médian ElCom 2026 (27,7 ct/kWh hors TVA), moins de 3 centimes par nuit. Un café crème coûte en moyenne 4,65 CHF (CafetierSuisse, 2025). Au tarif médian ElCom 2027 (26,5 ct/kWh), le gain tombe à 9,21 CHF.\n\nSwisscom précise que la téléphonie fixe, les systèmes d'alarme et les caméras de surveillance fonctionnent uniquement si le routeur est allumé, et recommande de ne pas le brancher sur une multiprise. Autres options : des horaires de pause du WLAN dans My Swisscom, ou le mode d'économie d'énergie de l'Internet-Box 5 Pro (0,3 W, mais ni Internet ni appels).\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui débranche sa box tous les soirs.\n\n#boxinternet #wifi #electricite #suisseromande #jemesuretout",
+   "statut": "en attente"
+  },
+  {
+   "id": "day71",
+   "prevu": "2026-11-11T11:00",
+   "source": "autopilot jour 71",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954310/tiktok-autopilot/reels/day71_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Machine à laver : en Suisse ou en France, qui paie le plus le kWh ?\n\nLa médiane ElCom 2026 pour un ménage type (4 500 kWh/an) est de 27,7 ct/kWh (hors TVA d'après EKZ et calculsuisse.ch), soit 29,9 ct avec 8,1 %. Le tarif Bleu EDF option Base, en vigueur depuis le 1.8.2026, est de 20,01 c€ TTC, soit 18,4 ct de franc au cours BNS du 5.11.2026 (1 € = 0,9180 CHF). Pour une machine de classe A à 47 kWh/100 lavages (médiane EPREL relevée par JeChange) et 220 lavages par an (convention de l'ancienne étiquette) : 31 francs d'électricité par an en Suisse, 19 en France.\n\nLe prix suisse comprend le tarif de mesure ; le prix français laisse l'abonnement à part (190,32 €/an en 6 kVA). Une fois réparti sur 4 500 kWh, l'écart passe de 11,6 à 7,7 ct/kWh. C'est une médiane suisse comparée à un tarif réglementé : chaque facture diffère selon la commune.\n\nAnimation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui vit de l'autre côté de la frontière.\n\n#machinealaver #prixelectricite #suissecontrefrance #suisseromande #jemesuretout",
+   "statut": "en attente"
+  },
+  {
+   "id": "day62",
+   "prevu": "2026-11-12T11:00",
+   "source": "autopilot jour 62",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954316/tiktok-autopilot/reels/day62_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Douche ou bain : qui paie le plus à la fin de l'année ?\n\nExemple, une fois par jour : une douche de 5 minutes à 12 l/min (60 litres, chiffre d'Eau de Fribourg) coûte environ 250 francs par an ; un bain de 200 litres (200 à 250 litres selon les services cantonaux de l'énergie) environ 840 francs. Calcul : 1,16 Wh par litre et par degré, de 12 à 37 °C (SuisseEnergie), chauffe-eau électrique supposé, tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³, sans taxes fixes ni pertes du chauffe-eau. Le coût dépend du mode de chauffage.\n\nÀ 12 l/min, la douche atteint 200 litres en moins de 17 minutes. Avec un pommeau ordinaire, 10 minutes peuvent consommer plus d'eau qu'un bain, selon les services cantonaux. Un pommeau de classe A limite le débit à 4-6 l/min (TCS) : à 6 l/min, environ 125 francs d'économie par an dans cet exemple.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à ton collègue qui prend un bain tous les soirs.\n\n#douche #bain #economiedenergie #suisseromande #jemesuretout",
+   "statut": "en attente"
   }
  ]
 }

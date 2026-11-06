@@ -835,13 +835,22 @@
     "consommation selon la température (SuisseEnergie, étiquette UE)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "programmée",
    "heure": "10:00",
    "format": "A",
    "semaine": "S2",
    "annonce": "Suisse contre France : l'iPhone 17, où est-il le moins cher ?",
    "annonce_jour": 70,
-   "annoncee": true
+   "annoncee": true,
+   "buffer_id": "6aed92407b7e47e8f41af25c",
+   "story_instagram": {
+    "buffer_id": "6aed9240f3498efda77e9d2a",
+    "programme_le": "2026-11-09T10:05:00+01:00"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-09T11:00"
+   }
   },
   {
    "jour": 33,
@@ -925,13 +934,22 @@
     "conseil officiel sur l'humidité et l'aération (OFSP, 40–60 %)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "programmée",
    "heure": "10:00",
    "format": "V",
    "semaine": "S2",
    "annonce": "La veille de ta télé coûte combien par an ?",
    "annonce_jour": 59,
-   "annoncee": true
+   "annoncee": true,
+   "buffer_id": "6aed923edbada656be034f31",
+   "story_instagram": {
+    "buffer_id": "6aed923fc1e74b84e5d96b0e",
+    "programme_le": "2026-11-08T10:05:00+01:00"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-08T11:00"
+   }
   },
   {
    "jour": 38,
@@ -1253,13 +1271,22 @@
     "calcul en kWh et en CHF par an, montré à l'écran"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "programmée",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "semaine": "S2",
    "annonce": "Pourquoi le centre de ton plat reste froid au micro-ondes ?",
    "annonce_jour": 58,
-   "annoncee": true
+   "annoncee": true,
+   "buffer_id": "6aed9241dbada656be0351de",
+   "story_instagram": {
+    "buffer_id": "6aed92427b7e47e8f41af327",
+    "programme_le": "2026-11-10T10:05:00+01:00"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-10T11:00"
+   }
   },
   {
    "jour": 57,
@@ -1334,13 +1361,22 @@
     "phase rapide jusqu'à 50–80 % puis ralentissement (fiche officielle)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "programmée",
    "ajoutee_le": "2026-11-05",
    "suite_de": 55,
    "format": "V",
    "semaine": "S2",
    "annonce": "Ton frigo est-il réglé trop froid ?",
-   "annonce_jour": 27
+   "annonce_jour": 27,
+   "buffer_id": "6aed923c7b7e47e8f41af18e",
+   "story_instagram": {
+    "buffer_id": "6aed923dc1e74b84e5d96a81",
+    "programme_le": "2026-11-07T10:05:00+01:00"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-07T11:00"
+   }
   },
   {
    "jour": 61,
@@ -1371,13 +1407,22 @@
     "tarif ElCom et prix de l'eau d'une commune suisse (source officielle)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "programmée",
    "ajoutee_le": "2026-11-05",
    "format": "A",
    "semaine": "S2",
    "annonce": "Le mode sombre économise-t-il vraiment ta batterie ?",
    "annonce_jour": 24,
-   "annoncee": true
+   "annoncee": true,
+   "buffer_id": "6aed9244f3498efda77e9dcd",
+   "story_instagram": {
+    "buffer_id": "6aed924507f945cca9503a2a",
+    "programme_le": "2026-11-12T10:05:00+01:00"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-12T11:00"
+   }
   },
   {
    "jour": 70,
@@ -1412,13 +1457,22 @@
     "coût d'un même appareil sur une année, dans les deux pays"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "programmée",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "semaine": "S2",
    "annonce": "Lave-vaisselle ou vaisselle à la main : qui gaspille le plus d'eau ?",
    "annonce_jour": 57,
-   "annoncee": true
+   "annoncee": true,
+   "buffer_id": "6aed9243dbada656be03526e",
+   "story_instagram": {
+    "buffer_id": "6aed924407f945cca95039e2",
+    "programme_le": "2026-11-11T10:05:00+01:00"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-11T11:00"
+   }
   },
   {
    "jour": 72,

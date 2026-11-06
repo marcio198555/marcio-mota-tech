@@ -266,3 +266,12 @@ Décision : ROUGE = changer de stratégie (R4), ce qui a été fait le 05.11. Au
 1. Partie 2 de la vidéo 55 (charge rapide) le 7.11, à cause de ses 2 150 vues Instagram (règle des 600 vues).
 2. vidIQ (6.11) : « linge au salon » 2,2 M et 1,9 M (3D, conséquences invisibles, début novembre) ; duel en split « faut-il débrancher son chargeur » 1,3 M ; « Suisse vs France » salaire 968 000 ; achat ou location 1 M (compte de 3 900 abonnés). → Vidéo 37 repositionnée « linge au salon ou sèche-linge » avec notre angle en francs ; même mécanique, rien de copié.
 3. V et A répartis à égalité entre 10 h et 18 h (2 A à chaque heure) pour une comparaison propre le 13.11.
+
+Production du 06.11 (vidéos de 10 h, 7 au 12.11 : jours 60, 37, 32, 56, 71, 62) — enseignements :
+- **Voix plus longue que prévu** : 180 mots avec beaucoup de nombres font 72 à 82 s (« virgule », « kilowattheures »), et non 65 s. Vidéo 71 : 183 mots = 82 s, une phrase retirée et tempo 1,11. Pour une vidéo chiffrée : 150 à 165 mots. `/home/claude/finish.sh` n'existe pas d'une session à l'autre : calculer tempo = durée / 68,6 si la voix dépasse 69 s.
+- Whisper trouve de vrais défauts : mot répété en fin de phrase par Chatterbox (« en vrai ? En vrai », « en francs. En francs »), « bain » entendu « bas », « Suisse Énergie » entendu « Suisse énervie ». Corrigé par des prises avec une autre graine ou une phrase réécrite.
+- `reel_cut.sh` coupait au mot « abonnement » (vidéo 71 coupée à 42,8 s) : il cherche maintenant « abonne-toi ». Regarder la longueur du Reel.
+- Vidéos A (décor IA en mouvement) : 137 à 156 Mo à la sortie, au-delà des 100 Mo de Cloudinary : réencoder avec crf 24 (16 à 17 Mo).
+- Contrôle qualité : ne jamais laisser défiler un compteur sur des valeurs inventées (22, 38, 39 CHF ; 9,4 W ; 0,61) : afficher « ?? » ou le passage direct. Une promesse (« dans trois ans, lequel… ? ») sans réponse dans les sources : changer la question.
+- Tarif ElCom 27,7 ct : médiane, **hors TVA** (déduit : le communiqué ne le dit pas ; EKZ et calculsuisse.ch vont dans ce sens) : l'écrire à l'écran et dans les légendes.
+- Images Cloudinary : 42 crédits utilisés sur 50 en novembre (GPT Image 2 en 9:16 : 3 crédits). Personnages frigo et micro-ondes faits avec Z-Image dans le pont.

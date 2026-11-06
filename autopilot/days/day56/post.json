@@ -1,0 +1,40 @@
+{
+ "day": 56,
+ "title": "Faut-il éteindre sa box internet la nuit ?",
+ "format": "V",
+ "recette": "Vérité du quotidien (bloc du 05.11, point 2 bis)",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954297/tiktok-autopilot/day56_box-nuit.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954299/tiktok-autopilot/stories/day56_story.mp4",
+ "buffer_id": "6aed9241dbada656be0351de",
+ "programme_le": "2026-11-10T10:00:00+01:00",
+ "heure": "10:00",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "programmée",
+ "tiktok_title": "Box débranchée la nuit : combien on gagne ?",
+ "caption": "Débrancher une Internet-Box 5 la nuit : environ 2 cafés crème gagnés par an ☕ Calcul : 11,9 W (Internet-Box 5, fiche Swisscom) × 8 h × 365 = 34,75 kWh, soit 9,63 CHF au tarif médian ElCom 2026 (27,7 ct/kWh hors TVA). Mais selon Swisscom, téléphone fixe, systèmes d'alarme et caméras de surveillance fonctionnent uniquement si le routeur est allumé. Chez toi, qu'est-ce qui s'arrêterait si ta box dormait ? 👇 #boxinternet #swisscom #wifi #electricite #astucetech",
+ "duree_s": 69.17,
+ "story_instagram": {
+  "programme_le": "2026-11-10T10:05:00+01:00",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954299/tiktok-autopilot/stories/day56_story.mp4",
+  "buffer_id": "6aed92427b7e47e8f41af327"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-10T11:00",
+  "coupe_s": 63.87,
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954302/tiktok-autopilot/reels/day56_reel.mp4",
+  "caption": "Éteindre sa box internet la nuit : environ 2 cafés crème gagnés par an, mais plus de téléphone fixe.\n\nSwisscom annonce 11,9 W pour l'Internet-Box 5 (appareils connectés, sans transfert de données). Débranchée 8 h par nuit : 34,75 kWh de moins par an, soit 9,63 CHF au tarif médian ElCom 2026 (27,7 ct/kWh hors TVA), moins de 3 centimes par nuit. Un café crème coûte en moyenne 4,65 CHF (CafetierSuisse, 2025). Au tarif médian ElCom 2027 (26,5 ct/kWh), le gain tombe à 9,21 CHF.\n\nSwisscom précise que la téléphonie fixe, les systèmes d'alarme et les caméras de surveillance fonctionnent uniquement si le routeur est allumé, et recommande de ne pas le brancher sur une multiprise. Autres options : des horaires de pause du WLAN dans My Swisscom, ou le mode d'économie d'énergie de l'Internet-Box 5 Pro (0,3 W, mais ni Internet ni appels).\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui débranche sa box tous les soirs.\n\n#boxinternet #wifi #electricite #suisseromande #jemesuretout",
+  "statut": "en attente"
+ },
+ "sources": [
+  "https://www.swisscom.ch/fr/clients-prives/aide/applis-et-services/consommation-denergie.html",
+  "https://www.swisscom.ch/fr/clients-prives/aide/applis-et-services/conseils-economie-energie.html",
+  "https://www.swisscom.ch/fr/clients-prives/aide/internet/wlan-verwalten.html",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+  "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
+  "https://www.20min.ch/fr/story/suisse-le-prix-du-cafe-n-en-finit-plus-de-grimper-103456833"
+ ],
+ "voix": "Chatterbox (tom_ref), Whisper relu",
+ "controle_qualite": "Agent neuf + contre-visite, 06.11"
+}

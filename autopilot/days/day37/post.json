@@ -1,0 +1,42 @@
+{
+ "day": 37,
+ "title": "Linge au salon ou sèche-linge : qui paie vraiment ?",
+ "format": "V",
+ "recette": "Vérité du quotidien (bloc du 05.11, point 2 bis)",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954284/tiktok-autopilot/day37_linge-seche-linge.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954286/tiktok-autopilot/stories/day37_story.mp4",
+ "buffer_id": "6aed923edbada656be034f31",
+ "programme_le": "2026-11-08T10:00:00+01:00",
+ "heure": "10:00",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "programmée",
+ "tiktok_title": "Linge au salon ou sèche-linge : qui paie ?",
+ "caption": "Linge au salon ou sèche-linge : 0 fr. d'électricité contre 27 ct par séchage (Bosch WTW87680CH, 0,99 kWh × 27,7 ct, ElCom 2026, hors TVA). Mais d'après une étude pour l'ADEME, environ 2 kg d'eau partent dans l'air intérieur à chaque machine, et l'OFSP conseille d'éviter de sécher le linge dans les pièces habitables. Le coût du chauffage n'est pas chiffré ici : il dépend de ton logement. Ton étendoir, il est dans quelle pièce ? #sechelinge #etendoir #humidite #electricite #suisseromande",
+ "duree_s": 69.0,
+ "story_instagram": {
+  "programme_le": "2026-11-08T10:05:00+01:00",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954286/tiktok-autopilot/stories/day37_story.mp4",
+  "buffer_id": "6aed923fc1e74b84e5d96b0e"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-08T11:00",
+  "coupe_s": 64.2,
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954288/tiktok-autopilot/reels/day37_reel.mp4",
+  "caption": "Linge au salon ou sèche-linge : le duel en francs, et ce que l'eau du linge fait à ton air.\n\nUn Bosch WTW87680CH (pompe à chaleur, 8 kg, classe C) indique 0,99 kWh par séchage : au tarif médian ElCom 2026 de 27,7 ct/kWh hors TVA, cela fait 27 ct. Une fiche belge WTN83203FG (condensation, classe G) indique 3,08 kWh, soit 85 ct, mais en Suisse les modèles neufs de ménage (≤ 4 kg/h) doivent désormais être au moins en classe C (OFEN). L'étendoir, lui, ne consomme pas d'électricité.\n\nSelon l'étude Q-Wash menée pour l'ADEME, environ 2 kg d'eau passent dans l'air intérieur par machine, le quadruple d'un bain ou d'une douche, et la pièce perd 1 à 2 °C pendant le séchage. L'OFSP conseille d'éviter de sécher le linge dans les pièces habitables, recommande 30 à 50 % d'humidité et une aération d'au moins 5 minutes le matin, à midi et au coucher en période de chauffage. Le coût du chauffage n'est pas chiffré : il dépend de ton logement.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui étend son linge au salon.\n\n#sechelinge #humidite #astucemaison #suisseromande #jemesuretout",
+  "statut": "en attente"
+ },
+ "sources": [
+  "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
+  "https://www.elcom.admin.ch/dam/fr/sd-web/znXqHISH0pFP/Newsletter_09-2025_FR.pdf",
+  "https://media3.bsh-group.com/Documents/eudatasheet/it-CH/WTW87680CH.pdf",
+  "https://media3.bsh-group.com/Documents/eudatasheet/fr-BE/WTN83203FG.pdf",
+  "https://pubdb.bfe.admin.ch/fr/publication/download/6307",
+  "https://hal.science/hal-05318299v1/file/%5BQ-Wash%5D%20Qualit%C3%A9%20de%20l%27air%20int%C3%A9rieur%20et%20s%C3%A9chage%20du%20linge.pdf",
+  "https://www.bag.admin.ch/dam/fr/sd-web/wBJWq1KVfpS-/vorsicht-schimmel.pdf",
+  "https://www.bag.admin.ch/fr/aeration-et-chauffage-appropries"
+ ],
+ "voix": "Chatterbox (tom_ref), Whisper relu",
+ "controle_qualite": "Agent neuf + contre-visite, 06.11"
+}

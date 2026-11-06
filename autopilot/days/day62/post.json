@@ -1,0 +1,43 @@
+{
+ "day": 62,
+ "title": "Douche ou bain : combien en francs ?",
+ "format": "A",
+ "recette": "Vérité du quotidien (bloc du 05.11, point 2 bis)",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954312/tiktok-autopilot/day62_douche-bain.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954313/tiktok-autopilot/stories/day62_story.mp4",
+ "buffer_id": "6aed9244f3498efda77e9dcd",
+ "programme_le": "2026-11-12T10:00:00+01:00",
+ "heure": "10:00",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "programmée",
+ "tiktok_title": "Douche ou bain : combien en francs ?",
+ "caption": "Un bain par jour ≈ 840 fr. par an, une douche ≈ 250 fr. (exemple) 🛁\nDouche de 5 min à 12 l/min (60 l), bain de 200 l. Chauffe-eau électrique supposé, 12 à 37 °C (SuisseEnergie), tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³ ; le coût dépend du mode de chauffage. À ce débit, en moins de 17 min, la douche rattrape le bain. Baignoire fictive, voix de synthèse. Ta douche dure combien de minutes, montre en main ? 👇 #douche #baignoire #factureeau #astucemaison #suisseromande",
+ "duree_s": 69.07,
+ "story_instagram": {
+  "programme_le": "2026-11-12T10:05:00+01:00",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954313/tiktok-autopilot/stories/day62_story.mp4",
+  "buffer_id": "6aed924507f945cca9503a2a"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-12T11:00",
+  "coupe_s": 62.8,
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954316/tiktok-autopilot/reels/day62_reel.mp4",
+  "caption": "Douche ou bain : qui paie le plus à la fin de l'année ?\n\nExemple, une fois par jour : une douche de 5 minutes à 12 l/min (60 litres, chiffre d'Eau de Fribourg) coûte environ 250 francs par an ; un bain de 200 litres (200 à 250 litres selon les services cantonaux de l'énergie) environ 840 francs. Calcul : 1,16 Wh par litre et par degré, de 12 à 37 °C (SuisseEnergie), chauffe-eau électrique supposé, tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³, sans taxes fixes ni pertes du chauffe-eau. Le coût dépend du mode de chauffage.\n\nÀ 12 l/min, la douche atteint 200 litres en moins de 17 minutes. Avec un pommeau ordinaire, 10 minutes peuvent consommer plus d'eau qu'un bain, selon les services cantonaux. Un pommeau de classe A limite le débit à 4-6 l/min (TCS) : à 6 l/min, environ 125 francs d'économie par an dans cet exemple.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à ton collègue qui prend un bain tous les soirs.\n\n#douche #bain #economiedenergie #suisseromande #jemesuretout",
+  "statut": "en attente"
+ },
+ "sources": [
+  "https://www.eau-de-fribourg.ch/eau-pour-demain/une-consommation-intelligente",
+  "https://www.energie-environnement.ch/air-eau-alimentation-sante/douche-et-bain",
+  "https://pubdb.bfe.admin.ch/fr/publication/download/8753.pdf",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
+  "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
+  "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/proprietaires-et-professionnels/taxes-et-facturation.html",
+  "https://www.tcs.ch/fr/tests-conseils/tests/home/pommeaux-douche-economiques.php",
+  "https://www.save-water.ch/",
+  "https://www.voltaback.com/fr-ch/blog/prix-kwh-suisse-recharge"
+ ],
+ "voix": "Chatterbox (tom_ref), Whisper relu",
+ "controle_qualite": "Agent neuf + contre-visite, 06.11"
+}
