@@ -1,0 +1,15 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s15",
+   "text": "Avec cette box, il gagne neuf francs soixante-trois par an. Mais plus de téléphone fixe la nuit."
+  }
+ ]
+}

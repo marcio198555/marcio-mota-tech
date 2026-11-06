@@ -38,7 +38,7 @@ Dimanche 8.11, 10 h, format V. Recette du point 2 bis (RUNBOOK). Faits vérifié
 | s04 « Un Bosh suisse à pompe à chaleur » | fiche it-CH, gaz R290 | fiche suisse (identifiant CH) ; 0,99 kWh pondéré, conditions eco |
 | s05 | ElCom | 27,423 → 27 ct |
 | s06 « Un Bosh belge à condensation classé G » | fiche fr-BE | 85,316 → 85 ct |
-| s07 « modèle de ménage… au moins classé C » | OFEN | ≤ 4 kg/h : précisé à l'écran |
+| s07 « modèle de ménage neuf… au moins classé C » | OFEN | ≤ 4 kg/h : précisé à l'écran |
 | s08 | calcul | électricité seulement, dit dans la phrase |
 | s09 « environ deux litres » | Q-Wash | 2 kg ≈ 2 L, « environ », « étude pour l'Adème » |
 | s10 « quadruple d'un bain ou d'une douche » | Q-Wash | formulation de l'étude |

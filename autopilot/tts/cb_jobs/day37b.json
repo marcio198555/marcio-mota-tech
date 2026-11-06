@@ -1,0 +1,19 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s07",
+   "text": "Mais en Suisse, un modèle de ménage neuf doit être au moins classé C."
+  },
+  {
+   "id": "s13",
+   "text": "Et aère au moins cinq minutes matin, midi et coucher ; vise trente à cinquante pour cent d'humidité."
+  }
+ ]
+}

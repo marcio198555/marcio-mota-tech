@@ -7,6 +7,9 @@
   const AQ = '#38c8ef', AQ2 = '#9be6fa', HOT = '#ff8a3d', RED = C.red2, GREEN = '#35c98a', GREY = '#3a4660';
   const FR = (id, f) => S(id) + f * (E(id) - S(id));
   const cts = v => v.toFixed(2).replace('.', ',');
+  // mention d'illustration et chip de source ou de condition (≥ 36 px, dans la zone sûre)
+  const schema = (ctx, x, y, label = 'SCHÉMA') => chip(ctx, label, x, y, { color: 'rgba(255,255,255,0.8)', size: 40 });
+  const src = (ctx, label, x, y, o = {}) => chip(ctx, label, x, y, { color: C.white, size: 36, letter: 0, padX: 20, ...o });
 
   // ---------- briques ----------
   function stamp(ctx, label, x, y, t, t0, o = {}) {
@@ -186,12 +189,10 @@
 
       // 2. Promesse : en francs, puis dans l'air
       block(ctx, t, S('s03'), S('s04'), () => {
-        const v = 1.23 * Math.abs(Math.sin((t - S('s03')) * 3.2));
         card(ctx, 500, 540, 760, 330, t, S('s03') + 0.02, { border: GREEN, draw: () => {
           text(ctx, 'EN FRANCS', 0, -100, { size: 64, weight: 900, color: GREEN });
-          text(ctx, cts(v) + ' ?', 0, 50, { size: 130, family: F.mono, weight: 700, color: C.white });
+          text(ctx, '?,?? CHF', 0, 50, { size: 120, family: F.mono, weight: 700, color: C.white });
         } });
-        chip(ctx, 'SCHÉMA : COMPTEUR', 500, 735, { color: C.muted, size: 26 });
         card(ctx, 500, 985, 760, 370, t, FR('s03', 0.48), { border: AQ, draw: () => {
           cloud(ctx, 0, -20, 92, 0.95);
           vapor(ctx, 0, 140, 420, 220, t, 10);
@@ -203,12 +204,14 @@
       // 3. Pompe à chaleur : 0,99 kWh
       block(ctx, t, S('s04'), S('s05'), () => {
         text(ctx, 'POMPE À CHALEUR', 500, 360, { size: 78, weight: 900, color: C.white, maxWidth: 840 });
-        scale(ctx, 80, 440, t, { t0: S('s04'), cur: 'C', rh: 58, w: 200 });
+        scale(ctx, 80, 430, t, { t0: S('s04'), cur: 'C', rh: 50, w: 200 });
         const on = clamp(prog(t, FR('s04', 0.15), 0.3));
-        dryer(ctx, 700, 610, 300, t, on);
+        dryer(ctx, 700, 610, 280, t, on);
         const k = ease.inOut(prog(t, FR('s04', 0.42), Math.max(0.8, 0.45 * (E('s04') - S('s04')))));
-        readout(ctx, 'KWH PAR SÉCHAGE', cts(0.99 * k), 500, 1012, { w: 820, h: 200, size: 112, color: AQ2, border: AQ, labelSize: 36 });
-        chip(ctx, 'BOSCH WTW87680CH · 8 KG · FICHE SUISSE', 500, 1160, { color: C.white, size: 28, letter: 1, alpha: ease.out(prog(t, FR('s04', 0.3), 0.3)) });
+        readout(ctx, 'KWH PAR SÉCHAGE', cts(0.99 * k), 500, 925, { w: 820, h: 170, size: 96, color: AQ2, border: AQ, labelSize: 36 });
+        const sa = ease.out(prog(t, FR('s04', 0.3), 0.3));
+        src(ctx, 'BOSCH WTW87680CH · 8 KG', 500, 1065, { alpha: sa });
+        src(ctx, 'PROGRAMME ECO · FICHE SUISSE', 500, 1140, { alpha: sa });
       });
 
       // 4. Le calcul : 27 ct
@@ -216,26 +219,28 @@
         const a = ease.out(prog(t, S('s05') + 0.05, 0.3)), b = ease.out(prog(t, FR('s05', 0.25), 0.3));
         text(ctx, '0,99 kWh', 500, 390, { size: 92, family: F.mono, weight: 700, color: AQ2, alpha: a });
         text(ctx, '× 27,7 ct/kWh', 500, 510, { size: 84, family: F.mono, weight: 700, color: C.white, alpha: b });
-        chip(ctx, 'TARIF MÉDIAN · ELCOM 2026', 500, 610, { color: C.gold2, size: 32, letter: 1, alpha: b });
+        src(ctx, 'TARIF MÉDIAN · ELCOM 2026', 500, 610, { color: C.gold2, alpha: b });
         ctx.save(); ctx.strokeStyle = 'rgba(255,255,255,0.6)'; ctx.lineWidth = 5; ctx.globalAlpha *= b; ctx.beginPath(); ctx.moveTo(150, 682); ctx.lineTo(850, 682); ctx.stroke(); ctx.restore();
         const k = ease.inOut(prog(t, FR('s05', 0.45), Math.max(0.7, 0.35 * (E('s05') - S('s05')))));
         text(ctx, `= ${(27.423 * k).toFixed(1).replace('.', ',')} ct`, 500, 800, { size: 112, family: F.mono, weight: 700, color: C.white });
-        stamp(ctx, '27 CT PAR SÉCHAGE', 500, 1010, t, FR('s05', 0.82), { size: 70, color: GREEN });
+        stamp(ctx, '27 CT PAR SÉCHAGE', 500, 1010, t, FR('s05', 0.82), { size: 60, color: GREEN });
         CHR.emo(ctx, 'high_voltage', 840, 390, 110, t, S('s05') + 0.1);
       });
 
       // 5. Classe G : 85 ct
       block(ctx, t, S('s06'), S('s07'), () => {
         text(ctx, 'À CONDENSATION', 500, 360, { size: 78, weight: 900, color: C.white, maxWidth: 840 });
-        scale(ctx, 80, 440, t, { t0: S('s06'), cur: 'G', rh: 58, w: 200 });
-        dryer(ctx, 710, 600, 280, t, 1);
+        scale(ctx, 80, 430, t, { t0: S('s06'), cur: 'G', rh: 50, w: 200 });
+        dryer(ctx, 710, 575, 250, t, 1);
         const k = ease.inOut(prog(t, FR('s06', 0.3), Math.max(0.7, 0.3 * (E('s06') - S('s06')))));
-        readout(ctx, 'KWH PAR SÉCHAGE', cts(3.08 * k), 300, 1010, { w: 460, h: 190, size: 92, color: '#ffb199', border: RED, labelSize: 36 });
+        readout(ctx, 'KWH PAR SÉCHAGE', cts(3.08 * k), 300, 925, { w: 460, h: 170, size: 84, color: '#ffb199', border: RED, labelSize: 36 });
         const c = ease.out(prog(t, FR('s06', 0.62), 0.25));
-        text(ctx, '× 27,7 ct', 745, 955, { size: 58, family: F.mono, weight: 700, color: C.white, alpha: c });
-        text(ctx, '= 85,3 ct', 745, 1045, { size: 58, family: F.mono, weight: 700, color: C.white, alpha: c });
-        stamp(ctx, '85 CT', 710, 830, t, FR('s06', 0.85), { size: 92 });
-        chip(ctx, 'BOSCH WTN83203FG · 8 KG · FICHE BELGE', 500, 1165, { color: C.white, size: 28, letter: 1, alpha: ease.out(prog(t, FR('s06', 0.12), 0.3)) });
+        text(ctx, '× 27,7 ct', 745, 910, { size: 58, family: F.mono, weight: 700, color: C.white, alpha: c });
+        text(ctx, '= 85,3 ct', 745, 985, { size: 58, family: F.mono, weight: 700, color: C.white, alpha: c });
+        stamp(ctx, '85 CT', 710, 790, t, FR('s06', 0.85), { size: 76 });
+        const sa = ease.out(prog(t, FR('s06', 0.12), 0.3));
+        src(ctx, 'BOSCH WTN83203FG · 8 KG', 500, 1065, { alpha: sa });
+        src(ctx, 'PROGRAMME ECO · FICHE BELGE', 500, 1140, { alpha: sa });
       });
 
       // 6. En Suisse : classe C au minimum
@@ -247,8 +252,8 @@
         stamp(ctx, 'CLASSE C', 700, 590, t, FR('s07', 0.62), { size: 66, color: GREEN, rot: -0.04 });
         text(ctx, 'AU MINIMUM', 700, 690, { size: 50, weight: 900, color: GREEN, alpha: ease.out(prog(t, FR('s07', 0.72), 0.25)) });
         CHR.emo(ctx, 'cross_mark', 680, 900, 130, t, FR('s07', 0.5));
-        chip(ctx, 'DEPUIS LE 1.7.2025 · ≤ 4 KG/H', 500, 1050, { color: C.white, size: 32, letter: 1, alpha: ease.out(prog(t, FR('s07', 0.15), 0.3)) });
-        chip(ctx, 'SOURCE : OFEN', 500, 1140, { color: C.gold2, size: 32, letter: 1 });
+        src(ctx, 'DEPUIS LE 1.7.2025 · ≤ 4 KG/H', 500, 1050, { alpha: ease.out(prog(t, FR('s07', 0.15), 0.3)) });
+        src(ctx, 'SOURCE : OFEN', 500, 1140, { color: C.gold2 });
       });
 
       // 7. RÉPONSE : tableau de score
@@ -266,8 +271,9 @@
           text(ctx, '0,99 kWh', 0, 110, { size: 56, family: F.mono, weight: 700, color: '#ffc299' });
           text(ctx, '27 ct', 0, 205, { size: 72, family: F.mono, weight: 700, color: C.white });
         } });
-        stamp(ctx, 'IL PAIE', 725, 1100, t, FR('s08', 0.75), { size: 64, color: HOT });
-        stamp(ctx, '0 FR.', 265, 1100, t, FR('s08', 0.18), { size: 64, color: GREEN, rot: 0.05 });
+        stamp(ctx, 'IL PAIE', 725, 1095, t, FR('s08', 0.75), { size: 60, color: HOT });
+        stamp(ctx, '0 FR.', 265, 1095, t, FR('s08', 0.18), { size: 60, color: GREEN, rot: 0.05 });
+        src(ctx, 'ÉTENDOIR · CHAUFFAGE NON COMPTÉ', 500, 1195, {});
       });
 
       // 8. 2e SURPRISE : l'eau part dans l'air
@@ -279,22 +285,26 @@
         vapor(ctx, 300, 730, 280, 260, t, 14, { r: 11 });
         bottle(ctx, 730, 700, 190, 400, k);
         text(ctx, k >= 1 ? '≈ 2 L' : `${(2 * k).toFixed(1).replace('.', ',')} L`, 730, 730, { size: 56, family: F.mono, weight: 700, color: '#fff', stroke: 'rgba(0,0,0,0.7)', strokeWidth: 10 });
-        stamp(ctx, "D'EAU PAR MACHINE", 500, 1070, t, FR('s09', 0.62), { size: 56, color: AQ, rot: -0.02 });
-        chip(ctx, "ÉTUDE Q-WASH POUR L'ADEME (FRANCE) · SCHÉMA", 500, 1170, { color: C.white, size: 26, letter: 0, alpha: ease.out(prog(t, FR('s09', 0.08), 0.3)) });
+        stamp(ctx, "D'EAU PAR MACHINE", 500, 985, t, FR('s09', 0.62), { size: 52, color: AQ, rot: -0.02 });
+        schema(ctx, 730, 445);
+        src(ctx, "ÉTUDE Q-WASH POUR L'ADEME (FRANCE)", 500, 1090, { alpha: ease.out(prog(t, FR('s09', 0.08), 0.3)) });
+        src(ctx, "HAUSSE D'HUMIDITÉ TEMPORAIRE · Q-WASH", 500, 1165, {});
       });
 
       // 9. × 4
       block(ctx, t, S('s10'), S('s11'), () => {
-        const yb = 1020, base = 110;
+        const yb = 930, base = 110;
         const a = ease.out(prog(t, S('s10') + 0.05, 0.45)), b = ease.out(prog(t, FR('s10', 0.35), 0.45));
         [[300, 4 * base * a, AQ, 'LINGE'], [700, base * b, '#7d8aa5', 'BAIN OU DOUCHE']].forEach(([x, h, c, lb]) => {
           roundRect(ctx, x - 110, yb - h, 220, Math.max(h, 1), 18); ctx.fillStyle = c; ctx.fill();
-          text(ctx, lb, x, yb + 50, { size: 44, weight: 900, color: C.white, maxWidth: 400 });
+          text(ctx, lb, x, yb + 45, { size: 44, weight: 900, color: C.white, maxWidth: 400 });
         });
         rack(ctx, 300, yb - 4 * base * a - 170, 150, t);
         CHR.emo(ctx, 'bathtub', 700, yb - base * b - 95, 170, t, FR('s10', 0.4));
-        stamp(ctx, '× 4', 650, 520, t, FR('s10', 0.65), { size: 120, color: AQ });
-        chip(ctx, 'VAPEUR ÉMISE · Q-WASH · SCHÉMA', 500, 1140, { color: C.white, size: 28, letter: 1 });
+        stamp(ctx, '×4', 300, yb - 220, t, FR('s10', 0.5), { size: 96, color: '#ffffff', rot: -0.04 });
+        schema(ctx, 700, 500);
+        src(ctx, 'VAPEUR ÉMISE · Q-WASH', 500, 1060, {});
+        src(ctx, "HAUSSE D'HUMIDITÉ TEMPORAIRE · Q-WASH", 500, 1135, {});
       });
 
       // 10. Pièce plus froide
@@ -307,14 +317,14 @@
         ctx.restore();
         text(ctx, 'DANS LA PIÈCE', 590, 640, { size: 62, weight: 900, color: C.white, alpha: ease.out(prog(t, FR('s11', 0.04), 0.25)) });
         stamp(ctx, 'PENDANT LE SÉCHAGE', 600, 790, t, FR('s11', 0.7), { size: 38, color: AQ, rot: 0.02 });
-        chip(ctx, 'SOURCE : Q-WASH · ADEME', 590, 930, { color: C.gold2, size: 28, letter: 1 });
-        chip(ctx, 'SCHÉMA', 590, 1020, { color: C.muted, size: 28 });
+        src(ctx, 'SOURCE : Q-WASH · ADEME', 590, 900, { color: C.gold2 });
+        schema(ctx, 590, 990);
         vapor(ctx, 590, 1180, 480, 120, t, 6, { alpha: 0.6 });
       });
 
       // 11. OFSP
       block(ctx, t, S('s12'), S('s13'), () => {
-        chip(ctx, 'OFFICE FÉDÉRAL DE LA SANTÉ PUBLIQUE', 500, 350, { color: C.gold2, size: 30, letter: 1 });
+        src(ctx, 'OFFICE FÉDÉRAL DE LA SANTÉ PUBLIQUE', 500, 350, { color: C.gold2 });
         CHR.emo(ctx, 'couch_and_lamp', 500, 540, 260, t, S('s12') + 0.1);
         CHR.emo(ctx, 'cross_mark', 650, 470, 120, t, FR('s12', 0.42));
         const lines = ['« Evitez de sécher', 'le linge dans les', 'pièces habitables. »'];
@@ -324,24 +334,25 @@
             text(ctx, l, 0, -92 + i * 92, { size: 72, weight: 900, color: lit ? C.white : 'rgba(255,255,255,0.45)', maxWidth: 770 });
           });
         } });
-        chip(ctx, 'OFSP · ATTENTION AUX MOISISSURES', 500, 1120, { color: C.white, size: 30, letter: 1, alpha: ease.out(prog(t, FR('s12', 0.5), 0.3)) });
+        src(ctx, 'OFSP · ATTENTION AUX MOISISSURES', 500, 1120, { alpha: ease.out(prog(t, FR('s12', 0.5), 0.3)) });
       });
 
       // 12. Aérer, viser 30–50 %
       block(ctx, t, S('s13'), S('s14'), () => {
         const mid = FR('s13', 0.56);
         CHR.emo(ctx, 'window', 180, 450, 200, t, S('s13') + 0.05);
-        const rem = Math.max(0, 300 * (1 - prog(t, S('s13') + 0.2, 3.2)));
+        const rem = 300 * ease.out(prog(t, S('s13') + 0.2, 3.2));  // compte jusqu'à 5:00, la valeur de l'OFSP
         readout(ctx, 'AU MOINS', `${Math.floor(rem / 60)}:${String(Math.floor(rem % 60)).padStart(2, '0')}`, 590, 450, { w: 560, h: 190, size: 92, color: AQ2, border: AQ, labelSize: 36 });
         ['MATIN', 'MIDI', 'COUCHER'].forEach((m, i) => {
           card(ctx, 195 + i * 305, 620, 280, 96, t, FR('s13', 0.18 + i * 0.1), { border: AQ, draw: () => text(ctx, m, 0, 2, { size: 44, weight: 900, color: C.white, maxWidth: 250 }) });
         });
         const zk = ease.out(prog(t, mid, 0.5));
         const v = lerp(78, 40, ease.inOut(prog(t, mid + 0.15, 1.2)));
-        hygro(ctx, 500, 1040, 210, v, zk);
+        hygro(ctx, 500, 1020, 190, v, zk);
         text(ctx, 'HUMIDITÉ ?', 500, 760, { size: 70, weight: 900, color: C.muted, alpha: 1 - zk });
         text(ctx, "30 à 50 % d'humidité", 500, 760, { size: 62, family: F.mono, weight: 700, color: GREEN, alpha: zk, maxWidth: 820 });
-        chip(ctx, 'OFSP · SCHÉMA', 500, 1130, { color: C.white, size: 28, letter: 1 });
+        src(ctx, 'OFSP · EN PÉRIODE DE CHAUFFAGE', 500, 1095, {});
+        schema(ctx, 500, 1178);
       });
 
       // 13. La question : plan d'appartement
@@ -359,7 +370,7 @@
         });
         const [rx, ry, rw] = rooms[n];
         rack(ctx, rx + rw / 2, ry + 120, 170, t);
-        chip(ctx, 'SCHÉMA', 500, 1185, { color: C.muted, size: 26 });
+        schema(ctx, 500, 1185);
       });
 
       // 14. Retour au duel

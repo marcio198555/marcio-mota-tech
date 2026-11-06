@@ -4,7 +4,7 @@
 (function () {
   const { C, F, clamp, lerp, ease, prog, S, E, background, text, roundRect, chip, captions, brand, block, phone, followCTA, readout } = ENG;
   const END = E('s16') + 0.6;
-  const VOLT = '#3fe0ff', HOT = '#ff7a3c', COOL = '#5aa9ff', RED = C.red2, GREEN = C.green, SOFT = 'rgba(255,255,255,0.86)';
+  const VOLT = '#3fe0ff', HOT = '#ff7a3c', COOL = '#5aa9ff', RED = C.red2, GREEN = C.green, SOFT = 'rgba(255,255,255,0.86)', GOLDISH = C.gold2;
   const f = (id, a) => S(id) + a * (E(id) - S(id));
 
   // ---------- briques (copiées et adaptées du jour 55) ----------
@@ -138,21 +138,24 @@
         const lift = ease.inOut(prog(t, f('s01', 0.3), 1.8));
         duel(ctx, t, { left: lerp(0.32, 0.8, lift), right: lerp(0.32, 0.5, lift) });
         bolt(ctx, 275 + 90, 800, 0.5 + 0.08 * Math.sin(t * 9), VOLT);
-        text(ctx, 'QUELLE BATTERIE DURERA ?', 520, 1188, { size: 50, weight: 900, color: C.white, maxWidth: 800 });
+        text(ctx, 'LEQUEL L\'ABÎME LE PLUS ?', 520, 1188, { size: 54, weight: 900, color: C.white, maxWidth: 820 });
         stamp(ctx, 'VIEUX CHARGEUR', 735, 1075, t, f('s02', 0.35), { size: 34, color: '#d7dde9', rot: 0.03 });
       });
 
-      // 2. Dans 3 ans : 2026 → 2029
+      // 2. Lequel des deux l'abîme le plus ?
       block(ctx, t, S('s03'), S('s04'), () => {
-        text(ctx, 'DANS 3 ANS', 520, 400, { size: 110, weight: 900, color: C.white });
-        const yr = Math.round(lerp(2026, 2029, ease.inOut(prog(t, f('s03', 0.1), 0.6 * (E('s03') - S('s03'))))));
-        readout(ctx, 'ANNÉE', String(yr), 520, 590, { w: 460, h: 180, size: 96, border: VOLT, color: VOLT });
-        const k = ease.back(prog(t, f('s03', 0.45), 0.35));
-        battery(ctx, 275, 860, 290, 0.5, { label: '? %', color: '#31405c', size: 66, alpha: k });
-        battery(ctx, 760, 860, 290, 0.5, { label: '? %', color: '#31405c', size: 66 });
-        text(ctx, 'TOI', 275, 1000, { size: 44, weight: 800, color: SOFT });
-        text(ctx, 'TON COLLÈGUE', 760, 1000, { size: 44, weight: 800, color: SOFT });
-        CHR.emo(ctx, 'thinking_face', 520, 1120, 150, t, f('s03', 0.35));
+        text(ctx, 'LEQUEL L\'ABÎME', 520, 390, { size: 96, weight: 900, color: C.white, maxWidth: 840 });
+        text(ctx, 'LE PLUS ?', 520, 495, { size: 96, weight: 900, color: RED });
+        charger(ctx, 275, 660, '45 W', { w: 230, h: 130, size: 70, color: VOLT });
+        charger(ctx, 760, 660, 'VIEUX', { w: 230, h: 130, size: 54, fill: '#8d94a3', color: '#59606e' });
+        wire(ctx, 275, 725, 275, 790, t * 1.8, VOLT);
+        wire(ctx, 760, 725, 760, 790, t * 0.45, '#9aa6bd');
+        const k = ease.out(prog(t, f('s03', 0.25), 0.3));
+        battery(ctx, 275, 870, 290, 0.5, { label: k > 0.5 ? '?' : false, color: '#31405c', size: 78 });
+        battery(ctx, 760, 870, 290, 0.5, { label: k > 0.5 ? '?' : false, color: '#31405c', size: 78 });
+        text(ctx, 'TOI', 275, 1010, { size: 44, weight: 800, color: SOFT });
+        text(ctx, 'TON COLLÈGUE', 760, 1010, { size: 44, weight: 800, color: SOFT });
+        CHR.emo(ctx, 'thinking_face', 520, 1125, 150, t, f('s03', 0.45));
       });
 
       // 3. Promesse : les deux fiches
@@ -166,7 +169,7 @@
 
       // 4. Deux temps : rapide jusqu'à 80 %, puis plus lent
       block(ctx, t, S('s05'), S('s06'), () => {
-        const x0 = 140, x1 = 880, yb = 1040, yt = 560;
+        const x0 = 140, x1 = 880, yb = 950, yt = 560;
         const lt = prog(t, f('s05', 0.05), 0.88 * (E('s05') - S('s05')));
         const fast = lt < 0.42;
         readout(ctx, 'BATTERIE', `${Math.round(chargeCurve(lt) * 100)} %`, 235, 395, { w: 350, h: 150, size: 72, labelSize: 30, border: VOLT, color: VOLT });
@@ -190,21 +193,19 @@
         const hx = lerp(x0, x1, lt), hy = lerp(yb, yt, chargeCurve(lt));
         bolt(ctx, hx, hy, 0.62, C.white);
         text(ctx, 'TEMPS DE CHARGE →', x1, yb + 44, { size: 36, family: F.mono, weight: 700, color: C.muted, align: 'right' });
-        chip(ctx, 'SCHÉMA · SOURCE : APPLE', 370, 1130, { color: C.white, size: 28, border: VOLT });
+        chip(ctx, 'SCHÉMA : COMPTEUR', 340, 1060, { color: 'rgba(255,255,255,0.8)', size: 40 });
+        chip(ctx, 'SOURCE : APPLE', 340, 1148, { color: C.white, size: 36, border: VOLT });
       });
 
       // 5. Selon Apple, ce mélange prolonge la durée de vie
       block(ctx, t, S('s06'), S('s07'), () => {
         chip(ctx, 'APPLE ÉCRIT', 520, 410, { color: VOLT, size: 38, border: VOLT });
-        const k = ease.out(prog(t, f('s06', 0.08), 0.35));
-        text(ctx, '« it also extends', 520, 540, { size: 74, weight: 800, color: C.white, alpha: k, maxWidth: 800 });
-        text(ctx, 'the lifespan »', 520, 630, { size: 74, weight: 800, color: VOLT, alpha: k, maxWidth: 800 });
-        const bw = 720 * ease.inOut(prog(t, f('s06', 0.3), 0.55 * (E('s06') - S('s06'))));
-        roundRect(ctx, 160, 770, 720, 62, 31); ctx.fillStyle = '#060b14'; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = C.line; ctx.stroke();
-        if (bw > 62) { roundRect(ctx, 160, 770, bw, 62, 31); ctx.fillStyle = VOLT; ctx.fill(); }
-        text(ctx, 'DURÉE DE VIE', 520, 880, { size: 42, family: F.mono, weight: 700, color: SOFT });
-        chip(ctx, 'SCHÉMA, SANS CHIFFRE', 520, 950, { color: C.muted, size: 26 });
-        stamp(ctx, 'PROLONGE, SELON APPLE', 520, 1090, t, f('s06', 0.65), { size: 54, color: VOLT });
+        const k = ease.out(prog(t, f('s06', 0.05), 0.3));
+        text(ctx, '« ça prolonge aussi', 500, 540, { size: 74, weight: 800, color: C.white, alpha: k, maxWidth: 800 });
+        text(ctx, 'la durée de vie »', 500, 630, { size: 74, weight: 800, color: VOLT, alpha: k, maxWidth: 800 });
+        text(ctx, 'traduit de l\'anglais', 500, 715, { size: 40, weight: 700, color: SOFT, alpha: k });
+        stamp(ctx, 'SELON APPLE', 500, 860, t, f('s06', 0.25), { size: 66, color: VOLT });
+        chip(ctx, 'SANS COMPARAISON AVEC UN AUTRE CHARGEUR', 495, 1030, { color: HOT, size: 36, letter: 0, padX: 20, border: HOT, alpha: ease.out(prog(t, f('s06', 0.55), 0.25)) });
       });
 
       // 6. Charger chauffe la batterie
@@ -217,7 +218,8 @@
         text(ctx, 'ÇA CHAUFFE EN CHARGEANT', 575, 740, { size: 50, weight: 900, color: C.white, maxWidth: 620, alpha: ease.out(prog(t, f('s07', 0.2), 0.3)) });
         stamp(ctx, 'PEUT RÉDUIRE', 580, 880, t, f('s07', 0.55), { size: 60, color: HOT });
         text(ctx, 'SA DURÉE DE VIE', 580, 985, { size: 56, weight: 900, color: HOT, alpha: ease.out(prog(t, f('s07', 0.65), 0.3)) });
-        chip(ctx, 'SCHÉMA · SOURCE : APPLE', 580, 1100, { color: C.white, size: 28, border: HOT });
+        chip(ctx, 'SCHÉMA', 200, 1140, { color: 'rgba(255,255,255,0.8)', size: 40 });
+        chip(ctx, 'SOURCE : APPLE', 580, 1140, { color: C.white, size: 36, border: HOT });
       });
 
       // 7. Le courant baisse en fin de charge
@@ -232,7 +234,8 @@
         }
         ctx.fillStyle = C.line; ctx.fillRect(130, yb + 8, 780, 5);
         text(ctx, 'EN FIN DE CHARGE →', 890, yb + 56, { size: 40, family: F.mono, weight: 700, color: SOFT, align: 'right' });
-        chip(ctx, 'SCHÉMA · iPHONE · SOURCE : APPLE', 520, 1110, { color: C.white, size: 26, border: COOL });
+        chip(ctx, 'SCHÉMA', 170, 1110, { color: 'rgba(255,255,255,0.8)', size: 40 });
+        chip(ctx, 'iPHONE · SOURCE : APPLE', 615, 1110, { color: C.white, size: 36, border: COOL });
         CHR.emo(ctx, 'thermometer', 800, 480, 120, t, f('s08', 0.6));
       });
 
@@ -285,15 +288,15 @@
         const lt = prog(t, S('s11'), E('s11') - S('s11'));
         clock(ctx, 240, 590, 165, -Math.PI / 2 + lt * lt * 26, HOT);
         battery(ctx, 660, 590, 370, lerp(0.95, 0.5, ease.inOut(lt)), { label: false, color: HOT });
-        chip(ctx, 'SCHÉMA', 660, 740, { color: C.muted, size: 28 });
+        chip(ctx, 'SCHÉMA', 660, 745, { color: 'rgba(255,255,255,0.8)', size: 40 });
         stamp(ctx, 'VIEILLIT PLUS VITE', 520, 890, t, f('s11', 0.3), { size: 74, color: HOT });
         text(ctx, '« qu\'on le voudrait »', 520, 1030, { size: 56, weight: 800, color: C.white, alpha: ease.out(prog(t, f('s11', 0.6), 0.25)) });
-        chip(ctx, 'SOURCE : SAMSUNG SUISSE', 520, 1130, { color: C.white, size: 30, border: HOT, alpha: ease.out(prog(t, f('s11', 0.7), 0.2)) });
+        chip(ctx, 'SOURCE : SAMSUNG SUISSE', 520, 1140, { color: C.white, size: 36, border: HOT, alpha: ease.out(prog(t, f('s11', 0.7), 0.2)) });
       });
 
       // 11. La facture : calcul exact (facts.md)
       block(ctx, t, S('s12'), S('s13'), () => {
-        text(ctx, 'CÔTÉ FACTURE', 500, 390, { size: 84, weight: 900, color: C.white });
+        text(ctx, 'CÔTÉ FACTURE', 455, 390, { size: 84, weight: 900, color: C.white });
         const rows = [['1 h × 45 W', '= 0,045 kWh', 0.03], ['× 27,7 ct./kWh', '= 1,25 ct.', 0.22]];
         rows.forEach(([a, b, d], i) => {
           const k = ease.back(prog(t, f('s12', d), 0.3)); if (k <= 0.001) return;
@@ -304,15 +307,15 @@
           ctx.restore();
         });
         stamp(ctx, 'MOINS DE 2 CENTIMES', 490, 870, t, f('s12', 0.45), { size: 70, color: VOLT });
-        CHR.emo(ctx, 'money_bag', 790, 1060, 160, t, f('s12', 0.6));
-        chip(ctx, 'TARIF ELCOM 2026', 340, 1020, { color: C.white, size: 30, alpha: ease.out(prog(t, f('s12', 0.62), 0.2)) });
-        chip(ctx, 'MÉNAGE TYPE', 340, 1105, { color: C.muted, size: 28, alpha: ease.out(prog(t, f('s12', 0.72), 0.2)) });
+        CHR.emo(ctx, 'money_bag', 860, 390, 110, t, f('s12', 0.6));
+        chip(ctx, 'EXEMPLE : PLAFOND THÉORIQUE', 490, 990, { color: GOLDISH, size: 40, border: GOLDISH, alpha: ease.out(prog(t, f('s12', 0.6), 0.2)) });
+        chip(ctx, 'TARIF ELCOM 2026 · MÉNAGE TYPE', 490, 1095, { color: C.white, size: 36, letter: 1, alpha: ease.out(prog(t, f('s12', 0.72), 0.2)) });
       });
 
       // 12. Trop chaud : limite après 80 %, mets-le au frais
       block(ctx, t, S('s13'), S('s14'), () => {
         const hot = 1 - ease.inOut(prog(t, f('s13', 0.62), 0.25 * (E('s13') - S('s13'))));
-        const lvl = Math.min(0.8, lerp(0.45, 0.8, ease.inOut(prog(t, f('s13', 0.05), 0.3 * (E('s13') - S('s13'))))));
+        const lvl = 0.8;
         text(ctx, hot > 0.5 ? 'TROP CHAUD' : 'AU FRAIS', 520, 395, { size: 104, weight: 900, color: hot > 0.5 ? HOT : COOL });
         // zone fraîche
         const zk = 1 - hot;
@@ -322,7 +325,7 @@
         if (hot > 0.3) heatWaves(ctx, px, 520, t, 3, 62);
         charger(ctx, px + 150 * (px < 500 ? 1 : -0.98), 880, '', { w: 90, h: 76, color: '#59606e' });
         stamp(ctx, 'LIMITE APRÈS 80 %', 500, 1040, t, f('s13', 0.3), { size: 56, color: HOT });
-        chip(ctx, 'iPHONE · SOURCE : APPLE', 500, 1150, { color: C.white, size: 28, border: HOT });
+        chip(ctx, 'iPHONE · SOURCE : APPLE', 500, 1150, { color: C.white, size: 36, border: HOT });
       });
 
       // 13. Question : combien de watts ?
@@ -352,7 +355,7 @@
       });
 
       // 15. Abonne-toi
-      block(ctx, t, S('s16'), END + 1, () => followCTA(ctx, t, S('s16'), { when: 'CE SOIR', next: ['ton frigo balance', "ce qu'il te coûte"] }));
+      block(ctx, t, S('s16'), END + 1, () => followCTA(ctx, t, S('s16'), { when: 'CE SOIR', next: ['ton frigo balance', 's\'il est réglé trop froid'] }));
 
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });

@@ -1,0 +1,39 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s02",
+   "text": "Ton collègue garde son vieux chargeur."
+  },
+  {
+   "id": "s03",
+   "text": "Lequel des deux abîme le plus sa batterie ?"
+  },
+  {
+   "id": "s04",
+   "text": "Réponse : ce qu'écrivent vraiment Apple et Samsung."
+  },
+  {
+   "id": "s06",
+   "text": "Selon Apple, ce mélange prolonge la durée de vie, mais sans comparer à un vieux chargeur."
+  },
+  {
+   "id": "s09",
+   "text": "Le gagnant ? Aucun chiffre d'Apple ni de Samsung sur les fiches lues."
+  },
+  {
+   "id": "s15",
+   "text": "Celui qui laisse son téléphone tranquille en charge suit déjà Samsung."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, ton frigo balance s'il est réglé trop froid."
+  }
+ ]
+}

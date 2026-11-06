@@ -237,9 +237,9 @@
 
       // 4. La fiche : 11,9 W
       block(ctx, t, S('s05'), S('s06'), () => {
-        chip(ctx, 'INTERNET-BOX 5 · FICHE SWISSCOM', 480, 345, { color: CY, size: 30, border: CY });
+        chip(ctx, 'INTERNET-BOX 5 · FICHE SWISSCOM', 480, 340, { color: CY, size: 36, border: CY });
         const k = ease.out(prog(t, S('s05') + 0.2, 1.1));
-        routerBox(ctx, 480, 590, 300, 1, t);
+        routerBox(ctx, 480, 605, 300, 1, t);
         readout(ctx, 'PUISSANCE', `${dec(lerp(0, 11.9, k), 1)} W`, 480, 860, { w: 560, h: 190, size: 104, color: CY, border: CY });
         const dev = [['mobile_phone', 170, 500], ['laptop', 790, 500], ['television', 170, 680]];
         dev.forEach(([n, x, y], i) => {
@@ -258,7 +258,7 @@
         text(ctx, `${Math.round(k * 8)} H`, 300, 440, { size: 62, family: F.mono, weight: 700, color: C.white, stroke: '#060b14' });
         moon(ctx, 860, 345, 40);
         text(ctx, 'PAR NUIT', 640, 420, { size: 62, weight: 900, color: C.white });
-        chip(ctx, 'EXEMPLE : 8 H', 640, 495, { color: AMB, size: 30, border: AMB });
+        chip(ctx, 'EXEMPLE : 8 H', 640, 500, { color: 'rgba(255,255,255,0.8)', size: 40, border: AMB });
         const toks = [['11,9 W', 190], ['× 8 h', 480], ['× 365', 770]];
         toks.forEach(([s, x], i) => pop(ctx, t, f('s06', 0.25 + i * 0.13), x, 690, () => {
           roundRect(ctx, -132, -62, 264, 124, 22); ctx.fillStyle = '#071a20'; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = CY; ctx.stroke();
@@ -272,7 +272,7 @@
       // 6. LA RÉPONSE : 9,63 CHF
       block(ctx, t, S('s07'), S('s08'), () => {
         pop(ctx, t, S('s07') + 0.05, 480, 365, () => text(ctx, '34,75 kWh × 27,7 ct', 0, 0, { size: 62, family: F.mono, weight: 700, color: C.white, maxWidth: 800 }));
-        chip(ctx, 'TARIF MÉDIAN ELCOM 2026', 480, 460, { color: CY, size: 30, border: CY, alpha: ease.out(prog(t, f('s07', 0.15), 0.3)) });
+        chip(ctx, 'TARIF MÉDIAN ELCOM 2026', 480, 460, { color: CY, size: 36, border: CY, alpha: ease.out(prog(t, f('s07', 0.15), 0.3)) });
         const k = ease.out(prog(t, f('s07', 0.5), 1.0));
         const done = k >= 1;
         const pk = done ? 1 + 0.07 * (1 - ease.out(prog(t, f('s07', 0.5) + 1.0, 0.4))) : 1;
@@ -304,7 +304,7 @@
           });
         }
         pop(ctx, t, f('s08', 0.72), 480, 1000, () => text(ctx, '9,63 ÷ 4,65 = 2,07', 0, 0, { size: 62, family: F.mono, weight: 700, color: C.white }));
-        chip(ctx, 'CAFÉ CRÈME 4,65 CHF · CAFETIERSUISSE 2025', 480, 1110, { color: C.muted, size: 26, padX: 20, letter: 1, alpha: ease.out(prog(t, f('s08', 0.72), 0.3)) });
+        chip(ctx, 'CAFÉ 4,65 CHF · CAFETIERSUISSE 2025', 480, 1110, { color: C.white, size: 36, padX: 20, letter: 1, alpha: ease.out(prog(t, f('s08', 0.5), 0.3)) });
       });
 
       // 8. 2e surprise : ce qui ne marche que routeur allumé
@@ -314,15 +314,15 @@
         rows.forEach(([lb, y, d], i) => {
           const t0 = f('s09', d);
           if (!card(ctx, 90, y - 78, 780, 156, 'rgba(255,255,255,0.22)', { t, t0 })) return;
-          pop(ctx, t, t0, 0, 0, () => {
-            if (i === 0) deskPhone(ctx, 185, y, 0.95);
-            else CHR.emo(ctx, i === 1 ? 'bell' : 'video_camera', 185, y, 112, t, undefined, { phase: i });
-            text(ctx, lb, 290, y, { size: 58, weight: 900, color: C.white, align: 'left', maxWidth: 385 });
-          });
+          ctx.save(); ctx.globalAlpha *= ease.out(prog(t, t0, 0.2));
+          if (i === 0) deskPhone(ctx, 185, y, 0.95);
+          else CHR.emo(ctx, i === 1 ? 'bell' : 'video_camera', 185, y, 112, t, undefined, { phase: i });
+          text(ctx, lb, 290, y, { size: 58, weight: 900, color: C.white, align: 'left', maxWidth: 385 });
+          ctx.restore();
           stamp(ctx, 'OFF', 790, y, t, f('s09', 0.62 + i * 0.1), { size: 54, rot: -0.1 });
         });
-        chip(ctx, 'UNIQUEMENT SI LE ROUTEUR EST ALLUMÉ', 480, 1025, { color: C.white, size: 28, padX: 20, letter: 1, border: RED, alpha: ease.out(prog(t, f('s09', 0.72), 0.25)) });
-        chip(ctx, 'SOURCE : SWISSCOM', 480, 1115, { color: CY, size: 30, border: CY, alpha: ease.out(prog(t, f('s09', 0.82), 0.25)) });
+        chip(ctx, 'UNIQUEMENT SI LE ROUTEUR EST ALLUMÉ', 480, 1025, { color: C.white, size: 36, padX: 20, letter: 1, border: RED, alpha: ease.out(prog(t, f('s09', 0.72), 0.25)) });
+        chip(ctx, 'SOURCE : SWISSCOM', 480, 1115, { color: CY, size: 36, border: CY, alpha: ease.out(prog(t, f('s09', 0.82), 0.25)) });
       });
 
       // 9. La multiprise
@@ -335,7 +335,7 @@
         ctx.beginPath(); ctx.moveTo(480, 645); ctx.lineTo(480, 730); ctx.stroke(); ctx.restore();
         CHR.emo(ctx, 'cross_mark', 480, 700, 190, t, f('s10', 0.42));
         stamp(ctx, 'PAS LE ROUTEUR', 480, 985, t, f('s10', 0.6), { size: 66 });
-        chip(ctx, 'SWISSCOM RECOMMANDE DE NE PAS LE BRANCHER', 480, 1115, { color: CY, size: 26, padX: 18, letter: 1, border: CY, alpha: ease.out(prog(t, f('s10', 0.3), 0.3)) });
+        chip(ctx, 'RECOMMANDATION DE SWISSCOM', 480, 1115, { color: CY, size: 36, padX: 18, letter: 1, border: CY, alpha: ease.out(prog(t, f('s10', 0.3), 0.3)) });
       });
 
       // 10. Pause du Wi-Fi
@@ -358,16 +358,16 @@
           text(ctx, 'WI-FI', 0, -30, { size: 66, weight: 900, color: CY });
           text(ctx, 'COUPÉ', 0, 36, { size: 66, weight: 900, color: C.white });
         });
-        chip(ctx, 'SCHÉMA · HEURES : EXEMPLE', 690, 940, { color: AMB, size: 26, padX: 16, letter: 1, border: AMB });
-        chip(ctx, 'SOURCE : SWISSCOM', 690, 1020, { color: CY, size: 26, padX: 16, letter: 1, border: CY });
+        chip(ctx, 'SCHÉMA · HEURES : EXEMPLE', 480, 1130, { color: 'rgba(255,255,255,0.8)', size: 40, padX: 16, letter: 1, border: AMB });
+        chip(ctx, 'SOURCE : SWISSCOM', 690, 965, { color: CY, size: 36, padX: 16, letter: 1, border: CY });
       });
 
       // 11. Internet-Box 5 Pro : mode économie
       block(ctx, t, S('s12'), S('s13'), () => {
         text(ctx, 'INTERNET-BOX 5 PRO', 480, 365, { size: 72, weight: 900, color: C.white, maxWidth: 820 });
         chip(ctx, 'MODE ÉCONOMIE', 480, 455, { color: GREEN, size: 32, dot: GREEN, border: GREEN, alpha: ease.out(prog(t, f('s12', 0.22), 0.25)) });
-        const k = ease.inOut(prog(t, f('s12', 0.42), 1.0));
-        const v = lerp(15.6, 0.3, k);
+        const k = t >= f('s12', 0.55) ? 1 : 0;   // 15,6 W puis 0,3 W, sans valeur intermédiaire (aucune source ne les donne)
+        const v = k ? 0.3 : 15.6;
         readout(ctx, k >= 1 ? 'MODE ÉCONOMIE' : 'STAND-BY', `${dec(v, 1)} W`, 480, 610, { w: 560, h: 190, size: 104, color: k >= 1 ? GREEN : C.white, border: k >= 1 ? GREEN : CY });
         // barre de puissance proportionnelle
         roundRect(ctx, 100, 730, 760, 60, 20); ctx.fillStyle = '#060b14'; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = C.line; ctx.stroke();
@@ -378,7 +378,7 @@
         const sk = ease.out(prog(t, f('s12', 0.72), 0.4));
         roundRect(ctx, 100, 1005, 760, 42, 21); ctx.fillStyle = '#1b2436'; ctx.fill();
         roundRect(ctx, 480 - 150 * sk, 1005, Math.max(1, 300 * sk), 42, 21); ctx.fillStyle = GREEN; ctx.fill();
-        chip(ctx, 'SCHÉMA : HEURES AU CHOIX', 480, 1115, { color: AMB, size: 28, padX: 18, border: AMB, alpha: sk });
+        chip(ctx, 'SCHÉMA : HEURES AU CHOIX', 480, 1115, { color: 'rgba(255,255,255,0.8)', size: 40, padX: 18, border: AMB, alpha: sk });
       });
 
       // 12. Le prix du mode économie
@@ -394,7 +394,7 @@
           });
           stamp(ctx, 'NI', x, 960, t, t0 + 0.25, { size: 64, rot: -0.08 });
         });
-        chip(ctx, 'SOURCE : SWISSCOM', 480, 1115, { color: CY, size: 30, border: CY });
+        chip(ctx, 'SOURCE : SWISSCOM', 480, 1115, { color: CY, size: 36, border: CY });
       });
 
       // 13. Question pour les commentaires
