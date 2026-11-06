@@ -1,0 +1,15 @@
+{
+ "job": "day57c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s11",
+   "text": "Attention : étude ancienne, financée par plusieurs fabricants.",
+   "file": "s11.wav",
+   "duration": 4.96,
+   "rate": 24000
+  }
+ ],
+ "total": 4.96
+}
