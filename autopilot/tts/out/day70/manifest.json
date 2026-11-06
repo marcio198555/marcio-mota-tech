@@ -1,0 +1,120 @@
+{
+ "job": "day70",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même iPhone dix-sept. Toi, tu l'achètes en Suisse. Ton collègue, en France. Qui paie le moins ?",
+   "file": "s01.wav",
+   "duration": 6.48,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Reste : même avec la détaxe, la réponse va te surprendre.",
+   "file": "s02.wav",
+   "duration": 4.84,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Apple Suisse affiche huit cent nonante-neuf francs.",
+   "file": "s03.wav",
+   "duration": 4.6,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Apple France : mille cent dix-neuf euros.",
+   "file": "s04.wav",
+   "duration": 2.92,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Au cours de la Banque nationale, ça fait mille vingt-sept francs.",
+   "file": "s05.wav",
+   "duration": 4.32,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Cent vingt-huit francs de plus qu'en Suisse.",
+   "file": "s06.wav",
+   "duration": 3.44,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Mais ton collègue sort sa carte : la détaxe.",
+   "file": "s07.wav",
+   "duration": 3.28,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "La TVA française saute : il reste huit cent cinquante-six francs.",
+   "file": "s08.wav",
+   "duration": 5.28,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Sauf qu'à la frontière, au-dessus de cent cinquante francs, il doit la TVA suisse.",
+   "file": "s09.wav",
+   "duration": 5.84,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Résultat : neuf cent vingt-cinq francs, encore vingt-six de plus qu'en Suisse.",
+   "file": "s10.wav",
+   "duration": 4.88,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Surprise : même sans aucune taxe, la France reste plus chère.",
+   "file": "s11.wav",
+   "duration": 5.36,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Huit cent cinquante-six francs contre huit cent trente-deux.",
+   "file": "s12.wav",
+   "duration": 3.8,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Les prix bougent : refais le calcul.",
+   "file": "s13.wav",
+   "duration": 2.6,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Et toi, ton téléphone, tu l'achètes où ? Écris-le en commentaire.",
+   "file": "s14.wav",
+   "duration": 5.0,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Toi, huit cent nonante-neuf. Ton collègue, neuf cent vingt-cinq, et un passage à la douane.",
+   "file": "s15.wav",
+   "duration": 6.12,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : demain, faut-il éteindre ta box internet la nuit ?",
+   "file": "s16.wav",
+   "duration": 3.88,
+   "rate": 24000
+  }
+ ],
+ "total": 72.64
+}
