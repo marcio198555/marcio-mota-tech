@@ -53,3 +53,9 @@ Point 2 bis du RUNBOOK. Baignoire fictive. Vérifié le 06.11.2026. Fait | valeu
 | Consommation « SVGW 36 l/jour bains et douches » | vérifié (https://www.svgw.ch/fr/eau/outils-de-communication/distribution-deau/utilisation) mais inutile au duel |
 | « Douche de 10 minutes = recharge du smartphone pendant 1 an » (SuisseEnergie) | vérifié, coupé pour la longueur |
 | Pertes de maintien du boiler, tarif de nuit | pas de chiffre officiel trouvé : exclus du calcul et signalés à l'écran (les pertes augmenteraient le coût, un bas tarif le baisserait) |
+
+## Contrôle qualité (06.11.2026)
+| Fait | Valeur | URL | Statut |
+|---|---|---|---|
+| 27,7 ct/kWh hors TVA | « Les prix publiés par l'ElCom sont hors TVA » ; TVA 8,1 % en plus | https://www.voltaback.com/fr-ch/blog/prix-kwh-suisse-recharge | source secondaire ; le communiqué ElCom lu ne le dit pas |
+| Écart du calcul | électricité hors TVA + eau TTC (1,72 + 1,73 fr./m³) : montants non recalculés, pas de nouvelle voix. Avec TVA (29,94 ct) : douche ≈ 266 fr./an, bain ≈ 886 fr./an | calcul | **doute à trancher** |

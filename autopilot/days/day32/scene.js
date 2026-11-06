@@ -1,6 +1,6 @@
 // Vidéo 32 — format A « Les objets balancent » : la machine à laver parle. Lave-linge à 30 °C ou 60 °C.
 // Tous les chiffres : days/day32/facts.md. 22 ct = 0,788 kWh × 27,7 ct (21,83) ; 7 ct = 0,265 kWh × 27,7 ct (7,34) ;
-// 22,60 fr. = 156 × 0,523 kWh × 0,277 fr. ; + 50 min = 3:19 − 2:29 ; − 38 % = (1,45 − 0,90) / 1,45.
+// environ 22 fr. (22,60) = 156 × 0,523 kWh × 0,277 fr. ; + 50 min = 3:19 − 2:29 ; − 38 % = (1,45 − 0,90) / 1,45.
 (function () {
   const { C, F, clamp, lerp, ease, prog, S, E, text, roundRect, chip, captions, brand, block, followCTA } = ENG;
   const { load, emo, camera, bubble } = CHR;
@@ -9,10 +9,11 @@
   const NOTE = 'rgba(255,255,255,0.8)';
   const INK = 'rgba(8,12,22,0.93)';
   const FS = ' ';
+  const TARIF = `27,7${FS}ct/kWh hors TVA · MÉDIANE ELCOM 2026`;
   const at = (id, f) => S(id) + (E(id) - S(id)) * f;
 
   // ---------- personnage : l'image reçoit tambour qui tourne, regard et sourcils, puis CHR.art l'anime ----------
-  const M = { mouth: [0.519, 0.224, 0.15], eyes: [[0.396, 0.163, 0.1, 0.053], [0.68, 0.161, 0.1, 0.054]], skin: '#ebe7e5', lid: '#e6e2df' };
+  const M = { mouth: [0.519, 0.205, 0.15], eyes: [[0.396, 0.163, 0.1, 0.053], [0.68, 0.161, 0.1, 0.054]], lid: '#e6e2df' };
   const SEGS = ['s01', 's02', 's03', 's04', 's05', 's06', 's07', 's08', 's09', 's10', 's11', 's12', 's13', 's14', 's15', 's16'];
   const MOOD = { s01: 'fache', s02: 'malin', s03: 'malin', s04: 'malin', s05: 'neutre', s06: 'neutre', s07: 'surpris', s08: 'fache', s09: 'neutre', s10: 'surpris', s11: 'surpris', s12: 'malin', s13: 'neutre', s14: 'malin', s15: 'neutre', s16: 'malin' };
   const LOOK = { s01: [-1, 0.2], s02: [1, 0.2], s03: [0, -1], s04: [0.2, -1], s05: [-1, -0.7], s06: [1, -0.8], s07: [0, -1], s08: [-1, -0.6], s09: [-0.4, -1], s10: [1, -0.6], s11: [-1, -0.6], s12: [0, -1], s13: [-0.6, -1], s14: [-1, -0.5], s15: [0, 0.2], s16: [0, -0.5] };
@@ -47,6 +48,8 @@
     // tambour : plus vite quand la machine consomme
     const spin = t * 1.1 + 2.2 * ease.inOut(prog(t, S('s08'), 3)) + 3 * ease.inOut(prog(t, S('s10'), 3));
     g.save(); g.beginPath(); g.arc(237, 415, 106, 0, Math.PI * 2); g.clip(); g.translate(237, 415); g.rotate(spin); g.drawImage(im, -237, -415); g.restore();
+    g.save(); g.filter = 'blur(3px)'; g.fillStyle = '#ebe7e5'; g.beginPath(); g.ellipse(245, 182, 42, 9, 0, 0, Math.PI * 2); g.fill(); g.restore();
+    g.strokeStyle = '#7c6a60'; g.lineWidth = 3; g.lineCap = 'round'; g.beginPath(); g.moveTo(224, 161); g.quadraticCurveTo(245, 156, 266, 161); g.stroke();
     const [lx, ly] = lookAt(t);
     eye(g, 187, 140, lx, ly); eye(g, 321, 140, lx, ly);
     const mood = MOOD[segAt(t)];
@@ -60,7 +63,7 @@
     return true;
   }
   // position : x, hauteur et base par phrase ; saut à chaque changement de place
-  const PLACE = { s01: [515, 560, 1275], s02: [515, 560, 1275], s03: [515, 560, 1275], s04: [515, 700, 1440], s05: [770, 480, 1275], s06: [250, 480, 1275], s07: [515, 380, 1275], s08: [770, 480, 1280], s09: [515, 385, 1280], s10: [250, 450, 1275], s11: [770, 480, 1275], s12: [515, 420, 1275], s13: [515, 720, 1460], s14: [770, 500, 1275], s15: [515, 560, 1275], s16: [515, 240, 1285] };
+  const PLACE = { s01: [515, 560, 1275], s02: [515, 560, 1275], s03: [515, 560, 1275], s04: [515, 560, 1278], s05: [770, 480, 1275], s06: [250, 480, 1275], s07: [515, 380, 1275], s08: [770, 480, 1280], s09: [515, 385, 1280], s10: [180, 450, 1275], s11: [770, 480, 1275], s12: [515, 420, 1275], s13: [515, 576, 1278], s14: [770, 500, 1275], s15: [515, 560, 1275], s16: [515, 240, 1285] };
   const SHAKES = [[at('s01', 0.35), 0.5, 7], [at('s08', 0.55), 1.1, 12], [at('s10', 0.45), 1.0, 12], [at('s12', 0.2), 0.5, 7]];
   function machineState(t) {
     const id = segAt(t), i = SEGS.indexOf(id), a = PLACE[SEGS[Math.max(0, i - 1)]], b = PLACE[id];
@@ -204,14 +207,14 @@
       // 4. RTS : quand 60 °C reste nécessaire
       block(ctx, t, S('s06'), S('s07'), () => {
         card(ctx, 515, 400, 930, 170, { border: HOT });
-        text(ctx, `60${FS}°C RESTE NÉCESSAIRE`, 515, 400, { size: 72, weight: 900, color: C.white, maxWidth: 880 });
-        pop(ctx, t, at('s06', 0.42), 690, 625, () => {
+        text(ctx, `60${FS}°C NÉCESSAIRE SI :`, 515, 400, { size: 72, weight: 900, color: C.white, maxWidth: 880 });
+        pop(ctx, t, at('s06', 0.464), 690, 625, () => {
           card(ctx, 0, 0, 480, 240, { border: HOT });
           emo(ctx, 'thermometer', -150, 0, 150, t);
           text(ctx, 'APRÈS UNE', 80, -36, { size: 44, weight: 900, color: C.white });
           text(ctx, 'MALADIE', 80, 26, { size: 56, weight: 900, color: HOT });
         });
-        pop(ctx, t, at('s06', 0.68), 690, 880, () => {
+        pop(ctx, t, at('s06', 0.78), 690, 880, () => {
           card(ctx, 0, 0, 480, 240, { border: COOL });
           shield(ctx, -150, 0, 1);
           text(ctx, 'IMMUNITÉ', 80, -36, { size: 56, weight: 900, color: COOL });
@@ -262,21 +265,23 @@
             if (kc > 0.001) { ctx.save(); ctx.translate(0, 55); ctx.scale(kc, kc); text(ctx, `${ct}${FS}ct`, 0, 0, { size: 150, weight: 900, color: GOLD }); ctx.restore(); text(ctx, "d'électricité", 0, 165, { size: 40, weight: 800, color: C.white, alpha: clamp(kc) }); }
           });
         });
-        pop(ctx, t, at('s09', 0.3), 515, 775, () => chip(ctx, `27,7${FS}ct/kWh · MÉDIANE ELCOM 2026`, 0, 0, { color: GOLD, size: 36, letter: 0 }));
+        pop(ctx, t, at('s09', 0.3), 515, 775, () => chip(ctx, TARIF, 0, 0, { color: GOLD, size: 36, letter: 0 }));
         pop(ctx, t, at('s09', 0.05), 515, 850, () => chip(ctx, 'exemple : Wien Energie', 0, 0, { size: 40, color: NOTE, letter: 1 }));
       });
 
-      // 8. Par an : 22,60 fr.
+      // 8. Par an : environ 22 fr.
       block(ctx, t, S('s10'), S('s11'), () => {
         const k = ease.inOut(prog(t, at('s10', 0.35), 1.1));
-        text(ctx, `3 × 52 = 156 machines`, 560, 365, { size: 68, weight: 900, color: C.white, stroke: 'rgba(8,12,22,0.95)', strokeWidth: 14, maxWidth: 860 });
-        pop(ctx, t, at('s10', 0.25), 560, 450, () => chip(ctx, `156 × 0,523${FS}kWh × 0,277${FS}fr.`, 0, 0, { color: C.white, size: 36, letter: 0 }));
-        card(ctx, 560, 615, 840, 240, { border: GOLD, lw: 6 });
-        text(ctx, `${dec(22.6 * k, 2)}${FS}fr.`, 560, 585, { size: 150, weight: 900, color: GOLD });
-        text(ctx, "d'écart par an", 560, 695, { size: 50, weight: 800, color: C.white, alpha: clamp(prog(t, at('s10', 0.72), 0.3)) });
-        chip(ctx, 'exemple : 3 par semaine', 665, 775, { size: 40, color: NOTE, letter: 1 });
-        for (let i = 0; i < 5; i++) { const kc = ease.out(prog(t, at('s10', 0.4) + i * 0.16, 0.25)); if (kc > 0) coin(ctx, 640 + (i % 2) * 8, lerp(830, 1230 - i * 34, kc), 62); }
-        emo(ctx, 'money_with_wings', 830, 980, 170, t, at('s10', 0.75));
+        text(ctx, `3 × 52 = 156 machines`, 540, 345, { size: 60, weight: 900, color: C.white, stroke: 'rgba(8,12,22,0.95)', strokeWidth: 14, maxWidth: 860 });
+        pop(ctx, t, at('s10', 0.25), 540, 420, () => chip(ctx, `156 × 0,523${FS}kWh × 0,277${FS}fr.`, 0, 0, { color: C.white, size: 36, letter: 0 }));
+        chip(ctx, TARIF, 515, 488, { color: GOLD, size: 36, letter: 0 });
+        card(ctx, 540, 640, 840, 230, { border: GOLD, lw: 6 });
+        text(ctx, `≈ ${Math.round(22 * k)}${FS}fr.`, 540, 610, { size: 150, weight: 900, color: GOLD });
+        text(ctx, "d'écart par an", 540, 715, { size: 50, weight: 800, color: C.white, alpha: clamp(prog(t, at('s10', 0.72), 0.3)) });
+        chip(ctx, 'exemple : 3 par semaine', 625, 795, { size: 40, color: NOTE, letter: 1 });
+        chip(ctx, 'varie selon la machine', 625, 870, { size: 40, color: NOTE, letter: 1 });
+        for (let i = 0; i < 5; i++) { const kc = ease.out(prog(t, at('s10', 0.4) + i * 0.16, 0.25)); if (kc > 0) coin(ctx, 640 + (i % 2) * 8, lerp(910, 1230 - i * 34, kc), 62); }
+        emo(ctx, 'money_with_wings', 830, 1020, 170, t, at('s10', 0.75));
       });
 
       // 9. Surprise : le programme éco dure 50 min de plus

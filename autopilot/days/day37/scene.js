@@ -219,7 +219,7 @@
         const a = ease.out(prog(t, S('s05') + 0.05, 0.3)), b = ease.out(prog(t, FR('s05', 0.25), 0.3));
         text(ctx, '0,99 kWh', 500, 390, { size: 92, family: F.mono, weight: 700, color: AQ2, alpha: a });
         text(ctx, '× 27,7 ct/kWh', 500, 510, { size: 84, family: F.mono, weight: 700, color: C.white, alpha: b });
-        src(ctx, 'TARIF MÉDIAN · ELCOM 2026', 500, 610, { color: C.gold2, alpha: b });
+        src(ctx, 'HORS TVA · MÉDIANE ELCOM 2026', 500, 610, { color: C.gold2, alpha: b });
         ctx.save(); ctx.strokeStyle = 'rgba(255,255,255,0.6)'; ctx.lineWidth = 5; ctx.globalAlpha *= b; ctx.beginPath(); ctx.moveTo(150, 682); ctx.lineTo(850, 682); ctx.stroke(); ctx.restore();
         const k = ease.inOut(prog(t, FR('s05', 0.45), Math.max(0.7, 0.35 * (E('s05') - S('s05')))));
         text(ctx, `= ${(27.423 * k).toFixed(1).replace('.', ',')} ct`, 500, 800, { size: 112, family: F.mono, weight: 700, color: C.white });

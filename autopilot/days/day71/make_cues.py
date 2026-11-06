@@ -36,7 +36,7 @@ cues = [
     (WHOOSH, at('s09')),
     (POP, at('s09', 0.65)),          # 103 kWh
     (WHOOSH, at('s10')),
-    (IMPACT, at('s10', 0.72)),       # 12 CHF
+    (IMPACT, at('s10', 0.8)),       # 12 CHF
     (WHOOSH, at('s11')),
     (IMPACT, at('s11', 0.02)),       # attention
     (POP, at('s11', 0.25)),
@@ -44,14 +44,11 @@ cues = [
     (WHOOSH, at('s12')),
     (POP, at('s12', 0.1)),           # abonnement
     (IMPACT, at('s12', 0.75)),       # 7,7
-    (WHOOSH, at('s13')),
-    (POP, at('s13', 0.1)),
-    (POP, at('s13', 0.55)),
     (WHOOSH, at('s14')),
     (POP, at('s14', 0.4)),
     (WHOOSH, at('s15')),
-    (IMPACT, at('s15', 0.45)),       # 12 CHF
-    (POP, at('s15', 0.72)),          # 8 CHF
+    (IMPACT, at('s15', 0.16)),       # 12 CHF
+    (POP, at('s15', 0.62)),          # 8 CHF
     (WHOOSH, at('s16')),
 ]
 cta = segs['s16']['start'] + 0.25    # la carte CE SOIR arrive 0,25 s après le début de la phrase

@@ -309,7 +309,7 @@
         stamp(ctx, 'MOINS DE 2 CENTIMES', 490, 870, t, f('s12', 0.45), { size: 70, color: VOLT });
         CHR.emo(ctx, 'money_bag', 860, 390, 110, t, f('s12', 0.6));
         chip(ctx, 'EXEMPLE : PLAFOND THÉORIQUE', 490, 990, { color: GOLDISH, size: 40, border: GOLDISH, alpha: ease.out(prog(t, f('s12', 0.6), 0.2)) });
-        chip(ctx, 'TARIF ELCOM 2026 · MÉNAGE TYPE', 490, 1095, { color: C.white, size: 36, letter: 1, alpha: ease.out(prog(t, f('s12', 0.72), 0.2)) });
+        chip(ctx, 'ELCOM 2026 · HORS TVA', 490, 1095, { color: C.white, size: 36, letter: 1, alpha: ease.out(prog(t, f('s12', 0.72), 0.2)) });
       });
 
       // 12. Trop chaud : limite après 80 %, mets-le au frais

@@ -8,18 +8,18 @@
   "s06": "60 °C nécessaire : maladie, immunité fragile (RTS)",
   "s07": "Taches : meilleurs résultats à 60 °C (Les Numériques)",
   "s08": "60 °C = 2,7 × l'électricité de 30 °C",
-  "s09": "0,788 kWh = 22 ct · 0,265 kWh = 7 ct (27,7 ct/kWh)",
-  "s10": "3 machines/semaine : 22,60 fr. d'écart par an",
+  "s09": "60 °C : 22 ct la machine · 30 °C : 7 ct",
+  "s10": "3 machines/semaine : environ 22 fr. d'écart par an",
   "s11": "Miele : ECO 40-60 = + 50 min",
   "s12": "− 38 % par rapport à Coton 60 (0,90 et 1,45 kWh)",
   "s13": "SuisseEnergie : le programme éco, même s'il dure plus longtemps",
   "s14": "Tes draps : à combien de degrés ?",
   "s15": "60 °C ou 30 °C : ça dépend du linge",
-  "s16": "Abonne-toi : ce soir, même iPhone, Suisse ou France ?"
+  "s16": "Abonne-toi : ce soir, même iPhone, où coûte-t-il le moins cher ?"
  },
  "title": "Lave-linge à 30 ou 60 °C : qui paie ?",
- "caption": "Lave-linge à 60 °C : 22 centimes d'électricité la machine, contre 7 à 30 °C 🧺 Calcul sur l'exemple de Wien Energie (0,788 et 0,265 kWh) au tarif médian ElCom 2026 (27,7 ct/kWh). L'ADEME annonce 2 fois moins d'énergie à 30 °C, le test de Les Numériques 2,7 fois, mais ses meilleurs résultats sur les taches sont à 60 °C. RTS : 60 °C reste nécessaire après une maladie ou pour une immunité fragile. Machine fictive, voix de synthèse. Et toi, tes draps, tu les laves à combien de degrés ? 👇 #lavelinge #machinealaver #electricite #astucemaison",
- "reel_caption": "Lave-linge à 30 °C ou 60 °C : lequel lave le mieux, et lequel coûte le plus ?\n\nDans le test de Les Numériques, 60 °C donne les meilleurs résultats sur les taches, mais consomme 2,7 fois plus d'électricité que 30 °C ; l'ADEME annonce 2 fois moins d'énergie à 30 °C. Sur l'exemple de Wien Energie (0,788 et 0,265 kWh), au tarif médian ElCom 2026 de 27,7 ct/kWh, ça fait 22 centimes contre 7, soit 22,60 fr. d'écart par an à 3 machines par semaine.\n\nÀ la RTS, Karl Perron (Université de Genève) rappelle qu'on ne stérilise pas le linge à 60 °C ; ce lavage reste nécessaire après une maladie ou pour une immunité fragile, et l'OFSP le demande en cas de gale. Sur une notice Miele, le programme ECO 40-60 dure 50 minutes de plus que Coton 60 et consomme 38 % de moins ; SuisseEnergie le conseille même s'il dure plus longtemps.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui lance tout à 60 °C.\n\n#lavelinge #machinealaver #astucemaison #suisseromande #jemesuretout",
+ "caption": "Lave-linge à 60 °C : 22 centimes d'électricité la machine, contre 7 à 30 °C 🧺 Calcul sur l'exemple de Wien Energie (0,788 et 0,265 kWh) au tarif médian ElCom 2026 hors TVA (27,7 ct/kWh). L'ADEME annonce 2 fois moins d'énergie à 30 °C, le test de Les Numériques 2,7 fois, mais ses meilleurs résultats sur les taches sont à 60 °C. RTS : 60 °C reste nécessaire après une maladie ou pour une immunité fragile. Machine fictive, voix de synthèse. Et toi, tes draps, tu les laves à combien de degrés ? 👇 #lavelinge #machinealaver #electricite #astucemaison",
+ "reel_caption": "Lave-linge à 30 °C ou 60 °C : lequel lave le mieux, et lequel coûte le plus ?\n\nDans le test de Les Numériques, 60 °C donne les meilleurs résultats sur les taches, mais consomme 2,7 fois plus d'électricité que 30 °C ; l'ADEME annonce 2 fois moins d'énergie à 30 °C. Sur l'exemple de Wien Energie (0,788 et 0,265 kWh), au tarif médian ElCom 2026 hors TVA de 27,7 ct/kWh, ça fait 22 centimes contre 7, soit environ 22 fr. d'écart par an à 3 machines par semaine.\n\nÀ la RTS, Karl Perron (Université de Genève) rappelle qu'on ne stérilise pas le linge à 60 °C ; ce lavage reste nécessaire après une maladie ou pour une immunité fragile, et l'OFSP le demande en cas de gale. Sur une notice Miele, le programme ECO 40-60 dure 50 minutes de plus que Coton 60 et consomme 38 % de moins ; SuisseEnergie le conseille même s'il dure plus longtemps.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui lance tout à 60 °C.\n\n#lavelinge #machinealaver #astucemaison #suisseromande #jemesuretout",
  "sources": [
   "https://www.rts.ch/info/societe/2025/article/laver-a-froid-economies-et-ecologie-sans-compromettre-l-hygiene-28984197.html",
   "https://www.lesnumeriques.com/lave-linge/lave-linge-ces-programmes-qui-permettent-de-reduire-la-facture-tout-en-restant-efficaces-a207035.html",

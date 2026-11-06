@@ -4,9 +4,9 @@
   "s02": "Reste : après combien de minutes ta douche me rattrape ?",
   "s03": "EXEMPLE : chauffe-eau électrique supposé, tarif médian ElCom 27,7 ct/kWh, eau de Lausanne 3,45 fr./m³",
   "s04": "Douche 5 min × 12 l/min = 60 l",
-  "s05": "Bain plein : 200 à 250 l (services cantonaux de l'énergie) · exemple : 200 l",
+  "s05": "Bain plein : 200 à 250 l (services cantonaux de l'énergie), exemple : 200 l",
   "s06": "1 l, de 12 à 37 °C : 1,16 × 25 = 29 Wh",
-  "s07": "Douche : 1 740 Wh + 60 l = 0,69 fr. · Bain : 5 800 Wh + 200 l = 2,30 fr.",
+  "s07": "Douche : 1 740 Wh + 60 l = 0,69 fr. Bain : 5 800 Wh + 200 l = 2,30 fr.",
   "s08": "1 par jour, 365 jours : ≈ 250 fr. contre ≈ 840 fr. (exemple)",
   "s09": "≈ 590 fr. d'écart par an (sans pertes du chauffe-eau ni taxes fixes)",
   "s10": "200 l ÷ 12 l/min = 16,7 min : moins de 17 min",
@@ -14,12 +14,12 @@
   "s12": "Mesure ton débit : récipient gradué + chronomètre",
   "s13": "Classe A : 4 à 6 l/min → 30 l au lieu de 60 l, ≈ 125 fr. par an (exemple)",
   "s14": "Ta douche dure combien de minutes ? Écris-le en commentaire",
-  "s15": "Toi : ≈ 250 fr. · Lui : ≈ 840 fr. · Rattrapage : moins de 17 min à 12 l/min",
+  "s15": "Toi ≈ 250 fr., lui ≈ 840 fr.",
   "s16": "Abonne-toi : ce soir, mode sombre ou mode clair : qui a encore de la batterie le soir ?"
  },
  "title": "Douche ou bain : combien en francs ?",
- "caption": "Douche ou bain : la baignoire balance combien ça coûte en francs. 🛁 Exemple, à raison d'une fois par jour : douche de 5 min à 12 l/min (60 l) ≈ 250 fr. par an, bain de 200 l ≈ 840 fr. Chauffe-eau électrique supposé, 12 à 37 °C (SuisseEnergie), tarif médian ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³ ; le coût dépend du mode de chauffage. À ce débit, en moins de 17 min, la douche rattrape le bain. Baignoire fictive, voix de synthèse. Ta douche dure combien de minutes, montre en main ? 👇 #douche #baignoire #factureeau #astucemaison #suisseromande",
- "reel_caption": "Douche ou bain : qui paie le plus à la fin de l'année ?\n\nExemple, une fois par jour : une douche de 5 minutes à 12 l/min (60 litres, chiffre d'Eau de Fribourg) coûte environ 250 francs par an ; un bain de 200 litres (200 à 250 litres selon les services cantonaux de l'énergie) environ 840 francs. Calcul : 1,16 Wh par litre et par degré, de 12 à 37 °C (SuisseEnergie), chauffe-eau électrique supposé, tarif médian ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³, sans taxes fixes ni pertes du chauffe-eau. Le coût dépend du mode de chauffage.\n\nÀ 12 l/min, la douche atteint 200 litres en moins de 17 minutes. Avec un pommeau ordinaire, 10 minutes peuvent consommer plus d'eau qu'un bain, selon les services cantonaux. Un pommeau de classe A limite le débit à 4-6 l/min (TCS) : à 6 l/min, environ 125 francs d'économie par an dans cet exemple.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à ton collègue qui prend un bain tous les soirs.\n\n#douche #bain #economiedenergie #suisseromande #jemesuretout",
+ "caption": "Un bain par jour ≈ 840 fr. par an, une douche ≈ 250 fr. (exemple) 🛁\nDouche de 5 min à 12 l/min (60 l), bain de 200 l. Chauffe-eau électrique supposé, 12 à 37 °C (SuisseEnergie), tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³ ; le coût dépend du mode de chauffage. À ce débit, en moins de 17 min, la douche rattrape le bain. Baignoire fictive, voix de synthèse. Ta douche dure combien de minutes, montre en main ? 👇 #douche #baignoire #factureeau #astucemaison #suisseromande",
+ "reel_caption": "Douche ou bain : qui paie le plus à la fin de l'année ?\n\nExemple, une fois par jour : une douche de 5 minutes à 12 l/min (60 litres, chiffre d'Eau de Fribourg) coûte environ 250 francs par an ; un bain de 200 litres (200 à 250 litres selon les services cantonaux de l'énergie) environ 840 francs. Calcul : 1,16 Wh par litre et par degré, de 12 à 37 °C (SuisseEnergie), chauffe-eau électrique supposé, tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³, sans taxes fixes ni pertes du chauffe-eau. Le coût dépend du mode de chauffage.\n\nÀ 12 l/min, la douche atteint 200 litres en moins de 17 minutes. Avec un pommeau ordinaire, 10 minutes peuvent consommer plus d'eau qu'un bain, selon les services cantonaux. Un pommeau de classe A limite le débit à 4-6 l/min (TCS) : à 6 l/min, environ 125 francs d'économie par an dans cet exemple.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à ton collègue qui prend un bain tous les soirs.\n\n#douche #bain #economiedenergie #suisseromande #jemesuretout",
  "sources": [
   "https://www.eau-de-fribourg.ch/eau-pour-demain/une-consommation-intelligente",
   "https://www.energie-environnement.ch/air-eau-alimentation-sante/douche-et-bain",
@@ -28,7 +28,8 @@
   "https://www.admin.ch/fr/newnsb/1miE201yRzoA",
   "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/proprietaires-et-professionnels/taxes-et-facturation.html",
   "https://www.tcs.ch/fr/tests-conseils/tests/home/pommeaux-douche-economiques.php",
-  "https://www.save-water.ch/"
+  "https://www.save-water.ch/",
+  "https://www.voltaback.com/fr-ch/blog/prix-kwh-suisse-recharge"
  ],
  "visuel": "s01 : Écran partagé : toi sous la douche à gauche, collègue dans le bain à droite (personnes 3D), baignoire à visage au centre, gros « ? » dès l'image 0.\ns02 : La baignoire cligne de l'œil, chronomètre qui entre à l'écran avec « ? min », puis zoom sur la baignoire.\ns03 : Baignoire vexée. Tampon rouge « EXEMPLE », puis bandeau fixe jusqu'à s09 : « chauffe-eau électrique supposé : le coût dépend du mode de chauffage ».\ns04 : Pomme de douche, compteur de litres qui défile de 0 à 60, étiquette « 5 min × 12 l/min ».\ns05 : La baignoire se remplit, compteur jusqu'à 200, étiquette source « services cantonaux », regard fier.\ns06 : Thermomètre qui monte de 12 à 37 °C, formule écrite « 1,16 Wh × 25 °C = 29 Wh » ligne par ligne.\ns07 : Deux cartes côte à côte ; chaque montant apparaît avec un pop : « 1,74 kWh × 27,7 ct + 60 l » et « 5,8 kWh × 27,7 ct + 200 l ».\ns08 : Calendrier qui défile, deux compteurs en francs qui montent : 250 et 840, impact sur « 840 ».\ns09 : Tampon rouge « 590 fr. » sur la baignoire, visage fâché, petite ligne « sans pertes du chauffe-eau ni taxes fixes ».\ns10 : Surprise : chronomètre qui file jusqu'à 16,7, jauge douche qui atteint la jauge bain, visage content.\ns11 : Pomme ordinaire qui crache fort, jauge qui dépasse le niveau du bain à 10 min, tampon « 10 min ».\ns12 : Récipient gradué sous la pomme, chrono qui tourne, formule « litres ÷ secondes × 60 ».\ns13 : Étiquette-énergie classe A verte, flèche de 60 à 30 litres, pièces qui tombent et compteur « ≈ 125 fr. ».\ns14 : Bulle de commentaire avec chrono, curseur qui écrit « ? min », baignoire qui se penche vers la caméra.\ns15 : Retour à l'image du duel de s01, avec 250 et 840 fr. au-dessus de chacun, la baignoire sourit.\ns16 : Fin : deux téléphones (sombre / clair) avec jauge batterie qui descend, gros « ? » et « @marcio.mota8 »."
 }

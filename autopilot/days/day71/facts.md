@@ -65,5 +65,9 @@ Sensibilité : si 27,7 ct. était déjà TTC, machine 28,64 CHF, écart 9,65 CHF
 - « Les Suisses paient 12 francs de plus » sans préciser « au prix affiché » → le retour au duel dit les deux chiffres.
 - « Le tarif français est moins cher parce que… » : aucune source relevée ne compare les causes entre les deux pays.
 
-## Contrôle du 06.11 : 27,7 ct. hors TVA
-Le communiqué ElCom donne les composantes : énergie 12,11 + réseau 10,75 + mesure 1,65 + supplément 2,3 + réserve 0,41 = 27,22 ct. ; les redevances (environ 0,5 ct.) font 27,7. Il n'y a pas de place pour environ 2,1 ct. de TVA : 27,7 est donc hors TVA. Deux sites tiers (upgrid.ch, swisslivingindex.ch) écrivent le contraire sans source.
+## Contrôle du 06.11 : 27,7 ct. hors TVA (note corrigée)
+Le communiqué ElCom ne dit pas si 27,7 ct. contient la TVA. Additionner ses composantes ne prouve rien : ce sont des médianes calculées séparément, non additives (12,11 + 10,75 + 1,65 + 2,3 + 0,41 + 0,05 + redevances environ 1 ct. = 28,27 ct., plus que 27,7).
+**Preuve retenue, EKZ** (https://www.ekz.ch/de/angebote/strom/tarife/stromtarife-privatkunden.html) : « 2,49 Rp./kWh mit MWST bzw. 2,30 Rp./kWh ohne MWST » pour le supplément, et 0,44 ct. TVA comprise pour la réserve. ElCom donne 2,3 et 0,41, soit les valeurs **hors TVA** (2,30 × 1,081 = 2,486 ; 0,41 × 1,081 = 0,443). Voltaback et calculsuisse.ch l'écrivent aussi ; swisslivingindex.ch écrit le contraire, sans preuve. Statut : déduit de sources concordantes, pas écrit par ElCom.
+
+## Phrase retirée le 06.11
+La voix durait 82 s : s13 (conseil « remplis-la », Topten) est retirée. Le fait Topten n'est plus utilisé dans la vidéo ni dans les sources de draft.json. Il n'y a donc plus de conseil dans le script. Les numéros de phrase ne changent pas (s12 puis s14).

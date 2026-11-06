@@ -168,21 +168,19 @@
 
       // 1. ACCROCHE : écran partagé complet dès l'image 0
       block(ctx, t, 0, S('s03'), () => {
-        const z = 1 + 0.012 * Math.min(t, 4);
+        const z = 1 + 0.0025 * Math.min(t, 4);
         ctx.save(); ctx.translate(CX, 800); ctx.scale(z, z); ctx.translate(-CX, -800);
         const inS2 = t >= S('s02');
         if (!inS2) {
           text(ctx, 'QUI PAIE', CX, 372, { size: 122, weight: 900, color: C.white });
           text(ctx, 'LE PLUS ?', CX, 490, { size: 122, weight: 900, color: AC, shadow: 'rgba(57,213,230,0.45)' });
           if (t < at('s01', 0.55)) text(ctx, 'MÊME MACHINE · MÊME LESSIVE', CX, 594, { size: 40, family: F.mono, weight: 700, color: C.white, maxWidth: 820 });
-          else pop(ctx, CX, 594, t, at('s01', 0.55), () => chip(ctx, 'LE PRIX DE 1 kWh', 0, 0, { color: '#04121a', bg: AC, border: AC, size: 34 }));
+          else pop(ctx, CX, 594, t, at('s01', 0.55), () => chip(ctx, 'LE PRIX DE 1 kWh', 0, 0, { color: '#04121a', bg: AC, border: AC, size: 36 }));
         } else {
           // compteur qui défile : la promesse
-          const k = prog(t, S('s02'), E('s02') - S('s02'));
-          const roll = Math.floor(t * 17) % 90 + 10;
           text(ctx, 'À LA FIN', CX, 345, { size: 60, weight: 900, color: C.white });
-          readout(ctx, 'ÉCART SUR 1 AN', `${k < 0.82 ? roll : '??'} CHF`, CX, 472, { w: 660, h: 170, size: 84, border: AC, color: AC2, labelSize: 36 });
-          chip(ctx, 'MÊME MACHINE · MÊME LESSIVE', CX, 600, { color: C.white, size: 28, border: AC, alpha: 1 });
+          readout(ctx, 'ÉCART SUR 1 AN', '?? CHF', CX, 472, { w: 660, h: 170, size: 84, border: AC, color: AC2, labelSize: 36 });
+          chip(ctx, 'MÊME MACHINE · MÊME LESSIVE', CX, 600, { color: C.white, size: 36, letter: 1, border: AC, alpha: 1 });
         }
         duel(ctx, t);
         ctx.restore();
@@ -196,13 +194,18 @@
           const k2 = ease.inOut(prog(t, at('s04', 0.25), (E('s04') - S('s04')) * 0.55));
           const v = k2 > 0 ? lerp(27.7, 29.9, k2) : lerp(0, 27.7, k);
           readout(ctx, 'CENTIMES PAR kWh', fmt(v), CX, 610, { w: 740, h: 270, size: 170, border: CH, color: C.white, labelSize: 36 });
-          chip(ctx, 'MÉDIANE 2026 · MÉNAGE TYPE H4', CX, 790, { color: C.white, size: 30, border: CH, alpha: ease.out(prog(t, at('s03', 0.08), 0.25)) });
-          chip(ctx, 'SOURCE : ELCOM, 9.09.2025', CX, 870, { color: AC2, size: 30, alpha: ease.out(prog(t, at('s03', 0.25), 0.25)) });
-          CHR.emo(ctx, 'high_voltage', 825, 1000, 130, t, at('s03', 0.45));
+          chip(ctx, 'MÉDIANE 2026 · MÉNAGE TYPE H4', CX, 790, { color: C.white, size: 36, letter: 1, border: CH, alpha: ease.out(prog(t, at('s03', 0.08), 0.25)) });
+          chip(ctx, 'SOURCE : ELCOM, 9.09.2025', CX, 870, { color: AC2, size: 36, alpha: ease.out(prog(t, at('s03', 0.25), 0.25)) });
+          CHR.emo(ctx, 'high_voltage', 840, 985, 120, t, at('s03', 0.45));
           if (t < S('s04')) text(ctx, '4 500 kWh par an', CX - 70, 1035, { size: 50, weight: 800, color: C.fg, alpha: ease.out(prog(t, at('s03', 0.35), 0.25)) });
-          stamp(ctx, '+ TVA 8,1 %', CX - 40, 985, t, S('s04'), { size: 74, color: WARN });
+          stamp(ctx, '+ TVA 8,1 %', CX - 40, 962, t, S('s04'), { size: 62, color: WARN });
           const ck = ease.out(prog(t, at('s04', 0.55), 0.25));
-          if (t >= S('s04')) text(ctx, '27,7 × 1,081 = 29,94', CX - 40, 1118, { size: 50, family: F.mono, weight: 700, color: C.white, alpha: ck });
+          if (t >= S('s04')) {
+            text(ctx, '27,7 × 1,081 = 29,94', CX - 40, 1052, { size: 48, family: F.mono, weight: 700, color: C.white, alpha: ck });
+            const nk = ease.out(prog(t, S('s04'), 0.25));
+            text(ctx, 'hors TVA : déduit,', CX, 1108, { size: 38, weight: 800, color: WARN, alpha: nk });
+            text(ctx, 'ElCom ne le précise pas', CX, 1154, { size: 38, weight: 800, color: WARN, alpha: nk });
+          }
         });
       });
 
@@ -212,10 +215,10 @@
           flagFR(ctx, 200, 400, 100); text(ctx, 'EN FRANCE', 580, 402, { size: 84, weight: 900, color: C.white });
           const k = ease.inOut(prog(t, at('s05', 0.3), (E('s05') - S('s05')) * 0.4));
           readout(ctx, "CENTIMES D'EURO PAR kWh", fmt(lerp(0, 20.01, k), 2), CX, 610, { w: 740, h: 270, size: 170, border: FR, color: C.white, labelSize: 34 });
-          chip(ctx, 'TARIF RÉGLEMENTÉ · OPTION BASE', CX, 790, { color: C.white, size: 30, border: FR, alpha: ease.out(prog(t, at('s05', 0.15), 0.25)) });
+          chip(ctx, 'TARIF RÉGLEMENTÉ · OPTION BASE', CX, 790, { color: C.white, size: 36, letter: 1, border: FR, alpha: ease.out(prog(t, at('s05', 0.15), 0.25)) });
           stamp(ctx, 'TAXES COMPRISES', CX, 910, t, at('s05', 0.72), { size: 62, color: OK, rot: 0.03 });
-          chip(ctx, 'SOURCE : EDF, BARÈME DU 1.08.2026', CX, 1040, { color: AC2, size: 28, alpha: ease.out(prog(t, at('s05', 0.25), 0.25)) });
-          chip(ctx, 'CRE : DÉLIBÉRATION DU 15.07.2026', CX, 1120, { color: C.muted, size: 28, alpha: ease.out(prog(t, at('s05', 0.35), 0.25)) });
+          chip(ctx, 'SOURCE : EDF, BARÈME DU 1.08.2026', CX, 1040, { color: AC2, size: 36, letter: 1, alpha: ease.out(prog(t, at('s05', 0.25), 0.25)) });
+          chip(ctx, 'CRE : DÉLIBÉRATION DU 15.07.2026', CX, 1120, { color: AC2, size: 36, letter: 1, alpha: ease.out(prog(t, at('s05', 0.35), 0.25)) });
         });
       });
 
@@ -228,8 +231,8 @@
         const k = ease.out(prog(t, at('s06', 0.5), 0.25));
         text(ctx, '20,01 × 0,9180 = 18,37', CX, 900, { size: 58, family: F.mono, weight: 700, color: C.white, alpha: k });
         text(ctx, 'centimes de franc', CX, 975, { size: 52, weight: 800, color: AC2, alpha: k });
-        chip(ctx, 'BNS, 5.11.2026 : 1 € = 0,9180 CHF', CX, 1080, { color: AC2, size: 30, alpha: ease.out(prog(t, at('s06', 0.15), 0.25)) });
-        chip(ctx, 'LE TAUX BOUGE CHAQUE JOUR', CX, 1160, { color: C.muted, size: 28, alpha: ease.out(prog(t, at('s06', 0.7), 0.25)) });
+        chip(ctx, 'BNS, 5.11.2026 : 1 € = 0,9180 CHF', CX, 1080, { color: AC2, size: 36, letter: 1, alpha: ease.out(prog(t, at('s06', 0.15), 0.25)) });
+        chip(ctx, 'LE TAUX BOUGE CHAQUE JOUR', CX, 1160, { color: C.fg, size: 36, letter: 1, alpha: ease.out(prog(t, at('s06', 0.7), 0.25)) });
       });
 
       // 5. Réponse : deux colonnes
@@ -244,7 +247,7 @@
           text(ctx, 'ct/kWh', x + 58, base + 64, { size: 40, family: F.mono, weight: 700, color: C.fg });
         });
         stamp(ctx, 'LA SUISSE PAIE PLUS', CX, 382, t, at('s07', 0.62), { size: 66, color: WARN, rot: -0.02 });
-        chip(ctx, 'AU PRIX AFFICHÉ', 720, 590, { color: C.white, size: 28, letter: 1, alpha: ease.out(prog(t, at('s07', 0.4), 0.25)) });
+        chip(ctx, 'AU PRIX AFFICHÉ', 720, 590, { color: C.white, size: 36, letter: 1, alpha: ease.out(prog(t, at('s07', 0.4), 0.25)) });
       });
 
       // 6. Une machine classée A : 47 kWh pour 100 lavages
@@ -252,9 +255,10 @@
         energyLabel(ctx, 110, 330, t, S('s08') + 0.05, at('s08', 0.3));
         washer(ctx, 770, 520, 240, t, { spin: 1.2 });
         const k = ease.inOut(prog(t, at('s08', 0.45), (E('s08') - S('s08')) * 0.35));
-        readout(ctx, 'kWh POUR 100 LAVAGES', String(Math.round(lerp(0, 47, k))), CX, 925, { w: 800, h: 230, size: 140, border: AC, color: AC2, labelSize: 36 });
-        chip(ctx, 'EXEMPLE · MÉDIANE 8 KG CLASSE A', CX, 1085, { color: C.white, size: 30, border: AC });
-        chip(ctx, 'BASE UE EPREL, RELEVÉE PAR JECHANGE', CX, 1165, { color: AC2, size: 27, alpha: ease.out(prog(t, at('s08', 0.65), 0.25)) });
+        readout(ctx, 'kWh POUR 100 LAVAGES', String(Math.round(lerp(0, 47, k))), CX, 900, { w: 800, h: 190, size: 112, border: AC, color: AC2, labelSize: 36 });
+        chip(ctx, 'EXEMPLE · PROGRAMME ÉCO', CX, 1036, { color: 'rgba(255,255,255,0.8)', size: 40, letter: 1, border: AC });
+        chip(ctx, 'MÉDIANE 8 KG CLASSE A', CX, 1112, { color: 'rgba(255,255,255,0.8)', size: 40, letter: 1, border: AC });
+        chip(ctx, 'SOURCE : EPREL, VIA JECHANGE', CX, 1188, { color: AC2, size: 36, letter: 1, alpha: ease.out(prog(t, at('s08', 0.65), 0.25)) });
       });
 
       // 7. 220 lavages → 103 kWh
@@ -262,18 +266,18 @@
         const k = ease.inOut(prog(t, S('s09') + 0.1, (E('s09') - S('s09')) * 0.5));
         washer(ctx, 260, 540, 330, t, { spin: 2 + 7 * k, fill: 0.7 });
         readout(ctx, 'LAVAGES / AN', String(Math.round(lerp(0, 220, k))), 695, 450, { w: 410, h: 210, size: 110, border: AC, color: AC2, labelSize: 36 });
-        chip(ctx, 'ANCIENNE ÉTIQUETTE UE', 695, 610, { color: C.white, size: 26, letter: 1 });
-        chip(ctx, 'CONVENTION', 695, 680, { color: WARN, size: 30, border: WARN });
+        chip(ctx, 'ANCIENNE ÉTIQUETTE', 690, 610, { color: AC2, size: 36, letter: 1 });
+        chip(ctx, 'CONVENTION', 690, 680, { color: WARN, size: 36, border: WARN });
         const a = ease.back(prog(t, at('s09', 0.62), 0.32));
         text(ctx, `≈${NB}${Math.round(220 * k * 0.47)} kWh`, CX, 880, { size: 118 + 18 * a, family: F.mono, weight: 700, color: a > 0 ? AC : C.white, shadow: 'rgba(57,213,230,0.5)' });
         text(ctx, '47 × 220 ÷ 100 = 103,4', CX, 1020, { size: 54, family: F.mono, weight: 700, color: C.white });
-        chip(ctx, 'EXEMPLE · PAR AN', CX, 1130, { color: C.white, size: 30 });
+        chip(ctx, 'EXEMPLE · PAR AN', CX, 1130, { color: 'rgba(255,255,255,0.8)', size: 40 });
       });
 
       // 8. 31 francs / 19 francs : les piles de pièces
       block(ctx, t, S('s10'), S('s11'), () => {
-        const k1 = ease.inOut(prog(t, S('s10') + 0.05, (E('s10') - S('s10')) * 0.35));
-        const k2 = ease.inOut(prog(t, at('s10', 0.35), (E('s10') - S('s10')) * 0.32));
+        const k1 = ease.inOut(prog(t, S('s10') + 0.05, (E('s10') - S('s10')) * 0.45));
+        const k2 = ease.inOut(prog(t, at('s10', 0.5), (E('s10') - S('s10')) * 0.28));
         const base = 1050, n1 = Math.round(31 * k1), n2 = Math.round(19 * k2);
         coinStack(ctx, 270, base, n1, CH, 120); coinStack(ctx, 660, base, n2, FR, 120);
         text(ctx, `${n1} CHF`, 270, base - n1 * 14 - 74, { size: 74, family: F.mono, weight: 700, color: C.white });
@@ -281,12 +285,12 @@
         flagCH(ctx, 130, base + 108, 64); text(ctx, 'SUISSE', 290, base + 110, { size: 50, weight: 900, color: C.white });
         flagFR(ctx, 540, base + 108, 58); text(ctx, 'FRANCE', 700, base + 110, { size: 50, weight: 900, color: C.white });
         const y1 = base - 31 * 14, y2 = base - 19 * 14;
-        if (t >= at('s10', 0.7)) {
+        if (t >= at('s10', 0.78)) {
           ctx.save(); ctx.strokeStyle = WARN; ctx.lineWidth = 7; ctx.setLineDash([12, 10]);
           ctx.beginPath(); ctx.moveTo(400, y1); ctx.lineTo(860, y1); ctx.moveTo(830, y1); ctx.lineTo(830, y2); ctx.stroke(); ctx.restore();
         }
-        stamp(ctx, "12 CHF D'ÉCART", CX, 370, t, at('s10', 0.72), { size: 76, color: WARN, rot: -0.02 });
-        chip(ctx, 'EXEMPLE · 103 kWh/AN', 720, 490, { color: C.white, size: 28, letter: 1 });
+        stamp(ctx, "12 CHF D'ÉCART", CX, 370, t, at('s10', 0.8), { size: 76, color: WARN, rot: -0.02 });
+        chip(ctx, 'EXEMPLE · 103 kWh/AN', 685, 540, { color: 'rgba(255,255,255,0.8)', size: 40, letter: 1 });
       });
 
       // 9. Attention : ce n'est pas le même prix
@@ -314,7 +318,7 @@
       });
 
       // 10. L'abonnement réduit l'écart
-      block(ctx, t, S('s12'), S('s13'), () => {
+      block(ctx, t, S('s12'), S('s14'), () => {
         const x0 = 110, sc = 25, h = 110;
         const k = ease.inOut(prog(t, at('s12', 0.3), (E('s12') - S('s12')) * 0.42));
         const gap = lerp(11.6, 7.7, k);
@@ -328,37 +332,12 @@
         // écart en pointillé
         ctx.save(); ctx.setLineDash([10, 10]); ctx.lineWidth = 5; ctx.strokeStyle = 'rgba(255,255,255,0.55)';
         ctx.strokeRect(x0 + lerp(18.4, 22.3, k) * sc + 5, 620, (29.9 - lerp(18.4, 22.3, k)) * sc - 10, h - 10); ctx.restore();
-        pop(ctx, CX, 800, t, at('s12', 0.1), () => chip(ctx, '+ 190,32 €/AN D\'ABONNEMENT', 0, 0, { color: WARN, size: 32, border: WARN, letter: 1 }));
-        readout(ctx, 'ÉCART, ct/kWh', fmt(gap), CX, 965, { w: 640, h: 220, size: 130, border: AC, color: k >= 1 ? AC : C.white, labelSize: 34 });
-        chip(ctx, '6 kVA · 4 500 kWh · RÉPARTI : 24,2 c€', CX, 1138, { color: C.white, size: 28, letter: 1 });
+        pop(ctx, CX, 800, t, at('s12', 0.1), () => chip(ctx, '+ 190,32 €/AN D\'ABONNEMENT', 0, 0, { color: WARN, size: 36, border: WARN, letter: 1 }));
+        readout(ctx, 'ÉCART, ct/kWh', fmt(gap), CX, 965, { w: 640, h: 220, size: 130, border: AC, color: k >= 1 ? AC : C.white, labelSize: 36 });
+        chip(ctx, 'EXEMPLE · 6 kVA · 4 500 kWh', CX, 1138, { color: 'rgba(255,255,255,0.8)', size: 40, letter: 1 });
       });
 
-      // 11. Conseil : machine pleine
-      block(ctx, t, S('s13'), S('s14'), () => {
-        text(ctx, 'REMPLIS-LA', CX, 372, { size: 104, weight: 900, color: AC, shadow: 'rgba(57,213,230,0.45)' });
-        const k = prog(t, at('s13', 0.1), 0.3);
-        const bar = (x, y, w, f, col) => {
-          roundRect(ctx, x, y, w, 56, 16); ctx.fillStyle = '#060b14'; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = C.line; ctx.stroke();
-          roundRect(ctx, x + 6, y + 6, Math.max((w - 12) * f, 2), 44, 12); ctx.fillStyle = col; ctx.fill();
-        };
-        washer(ctx, 280, 640, 300, t, { spin: 1.6, fill: 1 });
-        text(ctx, 'PLEINE', 280, 860, { size: 58, weight: 900, color: C.white });
-        const hk = t >= at('s13', 0.1);
-        washer(ctx, 730, 640, 300, t, { spin: 1.6, fill: 0.3 });
-        if (hk) text(ctx, 'À MOITIÉ', 730, 860, { size: 58, weight: 900, color: C.white, alpha: clamp(k * 2) });
-        const b = ease.out(prog(t, at('s13', 0.45), 0.5));
-        text(ctx, 'ÉNERGIE', 110, 945, { size: 38, family: F.mono, weight: 700, color: C.muted, align: 'left' });
-        text(ctx, 'ÉNERGIE', 580, 945, { size: 38, family: F.mono, weight: 700, color: C.muted, align: 'left' });
-        bar(110, 975, 340, b, OK); bar(580, 975, 340, 0.68 * b, WARN);
-        if (t >= at('s13', 0.7)) {
-          ctx.save(); ctx.strokeStyle = C.white; ctx.lineWidth = 5; ctx.setLineDash([8, 8]);
-          ctx.beginPath(); ctx.moveTo(750, 958); ctx.lineTo(750, 1048); ctx.stroke(); ctx.restore();
-        }
-        text(ctx, "+ de la moitié de l'énergie", 660, 1080, { size: 40, weight: 800, color: WARN, alpha: ease.out(prog(t, at('s13', 0.7), 0.25)) });
-        chip(ctx, 'SCHÉMA · SOURCE : TOPTEN.CH', CX, 1160, { color: C.white, size: 28 });
-      });
-
-      // 12. La question pour les commentaires
+      // 11. La question pour les commentaires
       block(ctx, t, S('s14'), S('s15'), () => {
         bill(ctx, CX, 720, 760, 620, t, at('s14', 0.4));
         const k = t >= at('s14', 0.5);
@@ -369,9 +348,9 @@
         });
       });
 
-      // 13. Retour au duel
+      // 12. Retour au duel
       block(ctx, t, S('s15'), S('s16'), () => {
-        const a = at('s15', 0.42), b = at('s15', 0.7);
+        const a = at('s15', 0.14), b = at('s15', 0.62);
         if (t < a) {
           text(ctx, 'MÊME MACHINE', CX, 372, { size: 96, weight: 900, color: C.white, maxWidth: 840 });
           text(ctx, 'MÊME LESSIVE', CX, 480, { size: 96, weight: 900, color: AC, maxWidth: 840 });
@@ -379,11 +358,11 @@
           pop(ctx, CX, 390, t, a, () => text(ctx, "12 CHF D'ÉCART", 0, 0, { size: 96, weight: 900, color: WARN, maxWidth: 860 }));
           pop(ctx, CX, 500, t, b, () => text(ctx, 'ou 8 CHF, abonnement réparti', 0, 0, { size: 54, weight: 900, color: AC2, maxWidth: 860 }));
         }
-        chip(ctx, 'PAR AN · EXEMPLE', CX, 590, { color: C.white, size: 30, border: AC });
+        chip(ctx, 'PAR AN · EXEMPLE', CX, 590, { color: 'rgba(255,255,255,0.8)', size: 40, border: AC });
         duel(ctx, t, { left: '31 CHF', right: '19 CHF' });
       });
 
-      // 14. Abonne-toi
+      // 13. Abonne-toi
       block(ctx, t, S('s16'), END + 1, () => followCTA(ctx, t, S('s16'), { when: 'CE SOIR', next: ['vaisselle à la main', 'ou lave-vaisselle ?'] }));
 
       brand(ctx, t);

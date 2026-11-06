@@ -52,7 +52,7 @@
     }
     if (o.label) text(ctx, o.label, x, yb + 34, { size: 38, weight: 800, color: C.white, stroke: 'rgba(6,12,20,0.95)', strokeWidth: 10 });
   }
-  function showerHead(ctx, x, y, s, t, flow) {
+  function showerHead(ctx, x, y, s, t, flow, o = {}) {
     ctx.save(); ctx.translate(x, y); ctx.scale(s, s);
     ctx.strokeStyle = '#cfd8e2'; ctx.lineWidth = 16; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(-90, -46); ctx.lineTo(0, -46); ctx.lineTo(0, -16); ctx.stroke();
     ctx.fillStyle = '#e8eef4'; ctx.beginPath(); ctx.moveTo(-56, 12); ctx.quadraticCurveTo(0, -36, 56, 12); ctx.closePath(); ctx.fill();
@@ -61,7 +61,8 @@
     const n = Math.round(flow);
     for (let i = 0; i < n; i++) {
       const col = i % 7, ph = (t * 1.9 + i * 0.37) % 1;
-      const dx = -46 + col * 15.3 + ph * (col - 3) * 7, dy = 30 + ph * 190;
+      const sd = i % 2 ? 1 : -1;
+      const dx = o.around ? sd * (72 + (i % 3) * 12 + ph * 12) : -46 + col * 15.3 + ph * (col - 3) * 7, dy = 30 + ph * (o.around ? 150 : 190);
       ctx.globalAlpha = 1 - ph * 0.5; ctx.beginPath(); ctx.ellipse(dx, dy, 4.5, 11, 0, 0, Math.PI * 2); ctx.fill();
     }
     ctx.restore();
@@ -80,7 +81,7 @@
     chip(ctx, 'TOI', 275, 560, { color: C.white, size: 40, letter: 1, border: AQUA });
     chip(ctx, 'TON COLLÈGUE', 725, 560, { color: C.white, size: 36, letter: 0, border: GOLD });
     emo(ctx, 'woman_technologist', 275, 705, 165, t, undefined, { phase: 0.3 });
-    showerHead(ctx, 290, 635, 0.72, t, 30);
+    showerHead(ctx, 275, 625, 0.72, t, 12, { around: true });
     emo(ctx, 'man_technologist', 725, 660, 130, t, undefined, { phase: 1.4 });
     emo(ctx, 'bathtub', 725, 720, 190, t, undefined, { phase: 0.9 });
     const st = { stroke: 'rgba(6,12,20,0.95)', strokeWidth: 10, weight: 900 };
@@ -96,8 +97,8 @@
   // ---------- la baignoire (repères en pixels de l'image 595×467) ----------
   const SKIN = '216,212,207', LID = '#e2ded8', SCL = '#ece9e2';
   const EYE = [
-    { c: [227, 224], rx: 44, ry: 43, iris: [224, 232], lash: [[172, 208], [205, 197], [240, 205], [268, 236], [275, 270], [165, 270]] },
-    { c: [386, 222], rx: 39, ry: 42, iris: [386, 232], lash: [[340, 236], [372, 206], [408, 196], [432, 204], [432, 270], [340, 270]] },
+    { c: [227, 224], rx: 49, ry: 47, iris: [224, 232], en: ['rgb(180,176,173)', 'rgb(204,200,195)'], sc: 'rgb(226,222,215)', lash: [[172, 208], [205, 197], [240, 205], [268, 236], [275, 270], [165, 270]] },
+    { c: [386, 222], rx: 43, ry: 45, iris: [386, 232], en: ['rgb(224,220,213)', 'rgb(232,227,221)'], sc: 'rgb(236,232,225)', lash: [[340, 236], [372, 206], [408, 196], [432, 204], [432, 270], [340, 270]] },
   ];
   const BROW = [
     { c: [222, 151], pts: [[-48, 10], [-22, -7], [12, -6], [43, 11]], in: 1 },
@@ -111,7 +112,7 @@
     surpris: { up: [16, 16], tilt: -0.08, lid: 0, smile: 0, big: 1.1 },
     content: { up: [7, 7], tilt: -0.05, lid: 0, smile: 1, big: 1.05 },
   };
-  function blinkAt(t) { const p = 3.4, ph = (t + 1.3) % p; return ph < 0.07 ? ph / 0.07 : ph < 0.15 ? 1 - (ph - 0.07) / 0.08 : 0; }
+  function blinkAt(t) { const p = 3.4, ph = (t + 1.3) % p; return ph < 0.04 ? ph / 0.04 : ph < 0.1 ? 1 - (ph - 0.04) / 0.06 : 0; }
   function softPatch(ctx, x, y, rx, ry) {
     ctx.save(); ctx.translate(x, y); ctx.scale(rx, ry);
     const g = ctx.createRadialGradient(0, 0, 0, 0, 0, 1);
@@ -142,25 +143,39 @@
     const look = o.look || [0, 0], b = blinkAt(t);
     // yeux : blanc, iris, lumière, sous la ligne des cils de l'image
     EYE.forEach((e) => {
-      ctx.save();
-      ctx.beginPath(); ctx.ellipse(e.c[0], e.c[1], e.rx * 0.985, e.ry * 0.95, 0, 0, Math.PI * 2); ctx.clip();
-      ctx.beginPath(); e.lash.forEach((p, i) => i ? ctx.lineTo(p[0], p[1]) : ctx.moveTo(p[0], p[1])); ctx.closePath(); ctx.clip();
-      ctx.fillStyle = SCL; ctx.fillRect(e.c[0] - 60, e.c[1] - 60, 120, 120);
+      const SZ = 190, ox = e.c[0] - SZ / 2, oy = e.c[1] - SZ / 2;
+      if (!e.mask) {
+        e.mask = document.createElement('canvas'); e.mask.width = e.mask.height = SZ;
+        const mg = e.mask.getContext('2d'); mg.filter = 'blur(8px)'; mg.fillStyle = '#000';
+        mg.beginPath(); mg.ellipse(SZ / 2, SZ / 2, e.rx, e.ry, 0, 0, Math.PI * 2); mg.fill();
+        e.cv = document.createElement('canvas'); e.cv.width = e.cv.height = SZ;
+      }
+      const g = e.cv.getContext('2d');
+      g.setTransform(1, 0, 0, 1, 0, 0); g.globalCompositeOperation = 'source-over'; g.clearRect(0, 0, SZ, SZ);
+      g.translate(-ox, -oy);
+      const lg = g.createLinearGradient(e.c[0] - e.rx, 0, e.c[0] + e.rx, 0); lg.addColorStop(0, e.en[0]); lg.addColorStop(1, e.en[1]);
+      g.save();
+      g.beginPath(); e.lash.forEach((p, i) => i ? g.lineTo(p[0], p[1]) : g.moveTo(p[0], p[1])); g.closePath(); g.clip();
+      g.fillStyle = lg; g.fillRect(ox, oy, SZ, SZ);
+      const rg = g.createRadialGradient(e.c[0], e.c[1] + 6, 8, e.c[0], e.c[1] + 6, e.rx * 0.82);
+      rg.addColorStop(0, e.sc); rg.addColorStop(0.72, e.sc); rg.addColorStop(1, e.sc.replace('rgb(', 'rgba(').replace(')', ',0)'));
+      g.fillStyle = rg; g.fillRect(ox, oy, SZ, SZ);
       const ix = e.iris[0] + look[0] * 15, iy = e.iris[1] + look[1] * 7;
-      ctx.beginPath(); ctx.ellipse(ix, iy, 21 * m.big, 26 * m.big, 0, 0, Math.PI * 2); ctx.fillStyle = '#1f6f7c'; ctx.fill();
-      ctx.lineWidth = 3; ctx.strokeStyle = '#123c46'; ctx.stroke();
-      ctx.beginPath(); ctx.ellipse(ix, iy + 6, 15 * m.big, 15 * m.big, 0, 0, Math.PI * 2); ctx.fillStyle = '#4fa9b4'; ctx.fill();
-      ctx.beginPath(); ctx.ellipse(ix, iy, 13 / m.big, 17 / m.big, 0, 0, Math.PI * 2); ctx.fillStyle = '#050505'; ctx.fill();
-      ctx.beginPath(); ctx.arc(ix - 5, iy - 12, 5, 0, Math.PI * 2); ctx.fillStyle = '#fff'; ctx.fill();
-      ctx.restore();
-      // paupière d'humeur et clignement
+      g.beginPath(); g.ellipse(ix, iy, 21 * m.big, 26 * m.big, 0, 0, Math.PI * 2); g.fillStyle = '#1f6f7c'; g.fill();
+      g.lineWidth = 3; g.strokeStyle = '#123c46'; g.stroke();
+      g.beginPath(); g.ellipse(ix, iy + 6, 15 * m.big, 15 * m.big, 0, 0, Math.PI * 2); g.fillStyle = '#4fa9b4'; g.fill();
+      g.beginPath(); g.ellipse(ix, iy, 13 / m.big, 17 / m.big, 0, 0, Math.PI * 2); g.fillStyle = '#050505'; g.fill();
+      g.beginPath(); g.arc(ix - 5, iy - 12, 5, 0, Math.PI * 2); g.fillStyle = '#fff'; g.fill();
+      g.restore();
+      // paupière d'humeur et clignement, couleur de l'émail
       const lidU = Math.max(m.lid, b);
       if (lidU > 0.01) {
-        ctx.save(); ctx.beginPath(); ctx.ellipse(e.c[0], e.c[1], e.rx * 0.97, e.ry * 0.97, 0, 0, Math.PI * 2); ctx.clip();
-        ctx.fillStyle = LID; ctx.fillRect(e.c[0] - 60, e.c[1] - e.ry, 120, e.ry * 2 * lidU);
-        ctx.strokeStyle = '#2b2622'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(e.c[0] - 60, e.c[1] - e.ry + e.ry * 2 * lidU); ctx.lineTo(e.c[0] + 60, e.c[1] - e.ry + e.ry * 2 * lidU); ctx.stroke();
-        ctx.restore();
+        const yl = e.c[1] - e.ry + e.ry * 2 * lidU;
+        g.fillStyle = lg; g.fillRect(ox, oy, SZ, yl - oy);
+        g.strokeStyle = '#2b2622'; g.lineWidth = 4; g.beginPath(); g.moveTo(e.c[0] - e.rx, yl); g.lineTo(e.c[0] + e.rx, yl); g.stroke();
       }
+      g.setTransform(1, 0, 0, 1, 0, 0); g.globalCompositeOperation = 'destination-in'; g.drawImage(e.mask, 0, 0);
+      ctx.drawImage(e.cv, ox, oy);
     });
     // sourcils redessinés selon l'humeur
     BROW.forEach((br, i) => {
@@ -250,15 +265,15 @@
 
       // 3. Hypothèses
       block(ctx, t, S('s03'), S('s04'), () => {
-        stamp(ctx, 'EXEMPLE', 520, 372, t, S('s03') + 0.05, { size: 72, color: GOLD });
-        [[0.18, 'CHAUFFE-EAU ÉLECTRIQUE SUPPOSÉ', '', C.white, 480], [0.42, '27,7 ct/kWh', 'tarif médian ElCom 2026', GOLD, 585], [0.68, '3,45 fr./m³', 'eau + traitement, Lausanne', AQUA2, 690]].forEach(([u, a, b, col, y]) => {
+        stamp(ctx, 'EXEMPLE', 520, 360, t, S('s03') + 0.05, { size: 72, color: GOLD });
+        [[0.18, 'CHAUFFE-EAU ÉLECTRIQUE SUPPOSÉ', '', C.white, 468], [0.42, '27,7 ct/kWh hors TVA', 'médian ElCom', GOLD, 568], [0.68, '3,45 fr./m³', 'eau + traitement, Lausanne', AQUA2, 668]].forEach(([u, a, b, col, y]) => {
           pop(ctx, t, f('s03', u), 520, y, () => {
             panel(ctx, -430, -49, 860, 98, { r: 24 });
-            if (b) { text(ctx, a, -405, 0, { size: 54, family: F.mono, weight: 700, color: col, align: 'left' }); text(ctx, b, 415, 0, { size: 40, weight: 800, color: C.white, align: 'right', maxWidth: 440 }); }
+            if (b) { text(ctx, a, -405, 0, { size: y === 568 ? 44 : 54, family: F.mono, weight: 700, color: col, align: 'left' }); text(ctx, b, 415, 0, { size: 40, weight: 800, color: C.white, align: 'right', maxWidth: 440 }); }
             else text(ctx, a, 0, 0, { size: 50, weight: 900, color: col, maxWidth: 810 });
           });
         });
-        pop(ctx, t, f('s03', 0.86), 520, 793, () => { panel(ctx, -430, -44, 860, 88, { r: 24, border: RED }); text(ctx, 'Le coût dépend du mode de chauffage', 0, 0, { size: 44, weight: 800, color: C.white, maxWidth: 820 }); });
+        pop(ctx, t, f('s03', 0.86), 520, 765, () => { panel(ctx, -430, -44, 860, 88, { r: 24, border: RED }); text(ctx, 'Le coût dépend du mode de chauffage', 0, 0, { size: 44, weight: 800, color: C.white, maxWidth: 820 }); });
       });
 
       // 4. Douche : 60 litres
@@ -276,9 +291,9 @@
       // 5. Bain : 200 litres
       block(ctx, t, S('s05'), S('s06'), () => {
         const L = 200 * ease.inOut(prog(t, f('s05', 0.08), (E('s05') - S('s05')) * 0.55));
-        tank(ctx, 145, 800, 130, 460, 60, 200, t, { color: AQUA, label: 'DOUCHE' });
-        tank(ctx, 315, 800, 130, 460, L, 200, t, { color: GOLD, label: 'BAIN' });
-        panel(ctx, 410, 310, 530, 500);
+        tank(ctx, 145, 770, 130, 430, 60, 200, t, { color: AQUA, label: 'DOUCHE' });
+        tank(ctx, 315, 770, 130, 430, L, 200, t, { color: GOLD, label: 'BAIN' });
+        panel(ctx, 410, 310, 530, 505);
         pop(ctx, t, f('s05', 0.15), 675, 410, () => text(ctx, `${Math.round(L)} L`, 0, 0, { size: 124, family: F.mono, weight: 700, color: GOLD }));
         pop(ctx, t, f('s05', 0.42), 675, 535, () => text(ctx, 'bain plein : 200 à 250 l', 0, 0, { size: 44, weight: 900, color: C.white, maxWidth: 490 }));
         pop(ctx, t, f('s05', 0.6), 675, 625, () => { chip(ctx, 'services cantonaux', 0, 0, { size: 36, color: GOLD, letter: 0, bg: 'rgba(6,20,32,0.92)' }); });
@@ -288,14 +303,14 @@
       // 6. Énergie par litre
       block(ctx, t, S('s06'), S('s07'), () => {
         const k = ease.inOut(prog(t, f('s06', 0.08), 1.5)), T = lerp(12, 37, k);
-        panel(ctx, 60, 310, 280, 520);
+        panel(ctx, 60, 310, 280, 505);
         thermometer(ctx, 200, 700, 330, (T - 5) / 40, k >= 1 ? RED : AQUA);
         text(ctx, `${Math.round(T)} °C`, 200, 362, { size: 58, family: F.mono, weight: 700, color: k >= 1 ? RED : C.white });
-        panel(ctx, 370, 310, 570, 520);
+        panel(ctx, 370, 310, 570, 505);
         pop(ctx, t, f('s06', 0.08), 655, 380, () => text(ctx, 'de 12 à 37 °C', 0, 0, { size: 58, weight: 900, color: C.white }));
         pop(ctx, t, f('s06', 0.38), 655, 470, () => text(ctx, '1,16 Wh × 25 °C', 0, 0, { size: 58, family: F.mono, weight: 700, color: AQUA2, maxWidth: 530 }));
-        pop(ctx, t, f('s06', 0.6), 655, 590, () => text(ctx, '= 29 Wh', 0, 0, { size: 118, family: F.mono, weight: 700, color: GOLD }));
-        pop(ctx, t, f('s06', 0.7), 655, 690, () => srcChip(ctx, 'par litre · SuisseEnergie', 0, 0));
+        pop(ctx, t, f('s06', 0.6), 655, 590, () => text(ctx, '= 29 Wh/l', 0, 0, { size: 92, family: F.mono, weight: 700, color: GOLD }));
+        pop(ctx, t, f('s06', 0.7), 655, 690, () => text(ctx, '12 et 37 °C : SuisseEnergie', 0, 0, { size: 38, weight: 800, color: GOLD, maxWidth: 530 }));
         pop(ctx, t, f('s06', 0.85), 655, 775, () => exChip(ctx, 'bain à 37 °C : exemple', 0, { x: 1 }));
       });
 
@@ -308,8 +323,9 @@
             text(ctx, l1, 0, -130, { size: 42, weight: 800, color: C.white, maxWidth: 390 });
             text(ctx, l2, 0, -65, { size: 42, weight: 800, color: C.white, maxWidth: 390 });
             text(ctx, l3, 0, 0, { size: 42, weight: 800, color: AQUA2, maxWidth: 390 });
+            text(ctx, '27,7 ct/kWh hors TVA', 0, 62, { size: 36, weight: 800, color: 'rgba(255,255,255,0.85)', maxWidth: 390 });
           });
-          pop(ctx, t, f('s07', u0 + 0.3), x, 725, () => text(ctx, tot, 0, 0, { size: 84, family: F.mono, weight: 700, color: col, maxWidth: 380 }));
+          pop(ctx, t, f('s07', u0 + 0.3), x, 750, () => text(ctx, tot, 0, 0, { size: 84, family: F.mono, weight: 700, color: col, maxWidth: 380 }));
         };
         card(278, 'DOUCHE · 60 L', '1,74 kWh × 27,7 ct', '= 0,48 fr.', 'eau : + 0,21 fr.', '0,69 fr.', AQUA2, 0.05);
         card(728, 'BAIN · 200 L', '5,80 kWh × 27,7 ct', '= 1,61 fr.', 'eau : + 0,69 fr.', '2,30 fr.', GOLD, 0.45);
@@ -357,7 +373,7 @@
         text(ctx, 'BAIN', 190, 535, { size: 42, weight: 900, color: C.white, stroke: 'rgba(6,12,20,0.95)', strokeWidth: 10 });
         panel(ctx, 340, 310, 600, 500, { border: RED });
         pop(ctx, t, f('s11', 0.05), 640, 378, () => text(ctx, 'POMME ORDINAIRE', 0, 0, { size: 56, weight: 900, color: C.white, maxWidth: 560 }));
-        pop(ctx, t, f('s11', 0.38), 640, 500, () => text(ctx, '10 MIN', 0, 0, { size: 132, family: F.mono, weight: 700, color: GOLD }));
+        pop(ctx, t, f('s11', 0.38) - 1.5, 640, 500, () => text(ctx, '10 MIN', 0, 0, { size: 132, family: F.mono, weight: 700, color: GOLD }));
         pop(ctx, t, f('s11', 0.62), 640, 620, () => text(ctx, 'peuvent dépasser un bain', 0, 0, { size: 46, weight: 900, color: '#ff9a9d', maxWidth: 560 }));
         pop(ctx, t, f('s11', 0.75), 640, 695, () => chip(ctx, 'services cantonaux', 0, 0, { size: 36, color: GOLD, letter: 0, bg: 'rgba(6,20,32,0.92)' }));
         pop(ctx, t, f('s11', 0.85), 640, 765, () => exChip(ctx, 'schéma', 0, { x: 1 }));
@@ -427,6 +443,13 @@
       // la baignoire : présente tout le temps
       if (!inEnd) {
         tub(ctx, TX, TY, 400, t, { mood, look, rot: TR, squash: TS });
+      }
+      if (t >= S('s03') && t < S('s10')) {
+        const ka = clamp((t - S('s03')) * 5) * clamp((S('s10') - t) * 5);
+        ctx.save(); ctx.globalAlpha *= ka;
+        roundRect(ctx, 66, 824, 868, 62, 31); ctx.fillStyle = 'rgba(6,20,32,0.94)'; ctx.fill();
+        text(ctx, 'EXEMPLE · chauffe-eau électrique supposé', 500, 856, { size: 40, weight: 800, color: 'rgba(255,255,255,0.8)', maxWidth: 830 });
+        ctx.restore();
       }
       ctx.restore(); // caméra
 

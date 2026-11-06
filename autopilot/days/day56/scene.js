@@ -272,7 +272,7 @@
       // 6. LA RÉPONSE : 9,63 CHF
       block(ctx, t, S('s07'), S('s08'), () => {
         pop(ctx, t, S('s07') + 0.05, 480, 365, () => text(ctx, '34,75 kWh × 27,7 ct', 0, 0, { size: 62, family: F.mono, weight: 700, color: C.white, maxWidth: 800 }));
-        chip(ctx, 'TARIF MÉDIAN ELCOM 2026', 480, 460, { color: CY, size: 36, border: CY, alpha: ease.out(prog(t, f('s07', 0.15), 0.3)) });
+        chip(ctx, 'MÉDIANE ELCOM 2026, HORS TVA', 480, 460, { color: CY, size: 36, border: CY, alpha: ease.out(prog(t, f('s07', 0.15), 0.3)) });
         const k = ease.out(prog(t, f('s07', 0.5), 1.0));
         const done = k >= 1;
         const pk = done ? 1 + 0.07 * (1 - ease.out(prog(t, f('s07', 0.5) + 1.0, 0.4))) : 1;

@@ -1,0 +1,20 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "note": "contrôle qualité : s10 et s15 reprises (francs de courant)",
+ "segments": [
+  {
+   "id": "s10",
+   "text": "Trente et un francs de courant en Suisse, dix-neuf en France : douze d'écart."
+  },
+  {
+   "id": "s15",
+   "text": "Même machine : douze francs de courant d'écart par an, huit en répartissant l'abonnement."
+  }
+ ]
+}

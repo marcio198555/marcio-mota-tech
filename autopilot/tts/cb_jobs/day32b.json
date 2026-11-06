@@ -1,0 +1,20 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "note": "reprises du contrôle qualité (s10, s16)",
+ "segments": [
+  {
+   "id": "s10",
+   "text": "À trois machines par semaine : environ vingt-deux francs d'écart par an."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, même aïe-fone, en Suisse et en France : où coûte-t-il le moins cher ?"
+  }
+ ]
+}

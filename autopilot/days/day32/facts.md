@@ -10,7 +10,7 @@ Format A « Les objets balancent » (machine à laver qui parle). Lundi 9.11.202
 | Taches | Les Numériques (labo, programme coton, 3 kg, une machine, lessive L'Arbre vert) : peu de différence entre 30 et 40 °C ; « c'est à 60 °C que la donne change et que l'on constate les meilleurs résultats » ; 40 °C = 32 % moins efficace que 60 °C | https://www.lesnumeriques.com/lave-linge/lave-linge-ces-programmes-qui-permettent-de-reduire-la-facture-tout-en-restant-efficaces-a207035.html | vérifié (page lue). Dit « dans ce test », pas en général |
 | Électricité, même test | « un programme à 60 °C consomme 2,7 fois plus d'électricité qu'un lavage à 30 °C » ; le 30 °C offre « le meilleur rendement » efficacité/énergie | même page Les Numériques | vérifié |
 | kWh par cycle, même machine | Exemple de Wien Energie (fournisseur d'électricité de Vienne) : 60 °C = 0,788 kWh (2:31) ; 30 °C = 0,265 kWh (2:22) ; 60 °C ECO = 0,402 kWh (3:10) | https://www.wienenergie.at/blog/wie-viel-watt-haben-meine-geraete-und-was-bedeutet-das | vérifié. « beispielhaft » : un exemple, modèle non nommé |
-| Tarif | Valeur médiane 2026, ménage type H4 (4 500 kWh/an) : 27,7 ct/kWh, facture 1 247 fr. | https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu | vérifié. C'est une médiane : dire « tarif médian », pas « moyen » |
+| Tarif | Valeur médiane 2026, ménage type H4 (4 500 kWh/an) : 27,7 ct/kWh, facture 1 247 fr. | https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu | vérifié. C'est une médiane : dire « tarif médian », pas « moyen ». Hors TVA : lu sur Voltaback (03.11.2026) et Celium, qui citent l'ElCom ; pas écrit dans le communiqué lu |
 | Programme éco : plus long, moins d'électricité | Notice Miele WWG 300-60, 9 kg : ECO 40-60 = 0,90 kWh, 3:19, 42 °C max. ; Coton 60 = 1,45 kWh, 2:29, 55 °C max. | https://jeangrunder.ch/img/cms/fiche-miele/miele-WWG-300-60-notice.pdf | vérifié (extrait de la notice ; modèle d'après le nom du fichier) |
 | Conseil officiel | SuisseEnergie : « Sélectionnez le programme économique, même s'il dure plus longtemps. » ; « Lavez si possible à basse température (20-30 °C) » | https://www.suisseenergie.ch/habiter/appareils-menagers/lave-linge | vérifié |
 
@@ -21,7 +21,7 @@ Format A « Les objets balancent » (machine à laver qui parle). Lundi 9.11.202
 | 30 °C, une machine | 0,265 kWh × 27,7 ct | 7,34 ct | « sept » |
 | Écart, une machine | 0,523 kWh × 27,7 ct | 14,49 ct | (pas dit) |
 | Machines par an | hypothèse dite à voix haute : 3 par semaine × 52 | 156 | « trois machines par semaine » |
-| Écart par an | 156 × 0,523 kWh × 0,277 fr. | 22,60 fr. | « vingt-deux francs soixante » |
+| Écart par an | 156 × 0,523 kWh × 0,277 fr. | 22,60 fr. | « environ vingt-deux francs » (varie selon la machine) |
 | Éco contre Coton 60 : durée | 3:19 − 2:29 | + 50 min | « cinquante minutes de plus » |
 | Éco contre Coton 60 : électricité | (1,45 − 0,90) / 1,45 | − 37,9 % | « trente-huit pour cent de moins » |
 
