@@ -1,0 +1,15 @@
+{
+ "job": "day56c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s03",
+   "text": "Combien il gagne, en vrai ?",
+   "file": "s03.wav",
+   "duration": 2.96,
+   "rate": 24000
+  }
+ ],
+ "total": 2.96
+}
