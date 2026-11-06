@@ -1,0 +1,36 @@
+{
+ "job": "day70b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s07",
+   "text": "Mais ton collègue sort son atout : la détaxe.",
+   "file": "s07.wav",
+   "duration": 3.8,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Sans la TVA française : au mieux, huit cent cinquante-six francs.",
+   "file": "s08.wav",
+   "duration": 4.8,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Résultat, au mieux : neuf cent vingt-cinq francs, encore vingt-six de plus qu'en Suisse.",
+   "file": "s10.wav",
+   "duration": 5.8,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Surprise : même sans TVA, la France reste plus chère.",
+   "file": "s11.wav",
+   "duration": 3.8,
+   "rate": 24000
+  }
+ ],
+ "total": 18.2
+}
