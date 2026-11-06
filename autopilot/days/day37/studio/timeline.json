@@ -1,116 +1,116 @@
 {
- "duration": 68.712,
+ "duration": 68.67,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, ton linge sèche au salon.",
    "start": 0.12,
-   "end": 1.865,
+   "end": 1.887,
    "display": "Toi, ton linge sèche au salon."
   },
   {
    "id": "s02",
    "text": "Ton collègue lance le sèche-linge. Qui paie le plus ?",
-   "start": 1.965,
-   "end": 5.104,
+   "start": 1.987,
+   "end": 5.164,
    "display": "Ton collègue lance le sèche-linge. | Qui paie le plus ?"
   },
   {
    "id": "s03",
-   "text": "Réponse en francs, puis la surprise dans l'air.",
-   "start": 5.204,
-   "end": 8.281,
-   "display": "Réponse en francs, | puis la surprise dans l'air."
+   "text": "La réponse en francs, puis la surprise dans l'air.",
+   "start": 5.264,
+   "end": 8.189,
+   "display": "La réponse en francs, | puis la surprise dans l'air."
   },
   {
    "id": "s04",
    "text": "Un Bosh suisse à pompe à chaleur : zéro virgule nonante-neuf kilowattheure par séchage.",
-   "start": 8.381,
-   "end": 13.472,
+   "start": 8.289,
+   "end": 13.443,
    "display": "Un Bosch suisse à pompe à chaleur : | 0,99 kWh par séchage."
   },
   {
    "id": "s05",
    "text": "Au tarif médian, vingt-sept virgule sept centimes, ça fait vingt-sept centimes.",
-   "start": 13.572,
-   "end": 19.026,
+   "start": 13.543,
+   "end": 19.064,
    "display": "Au tarif médian, 27,7 ct, | ça fait 27 ct."
   },
   {
    "id": "s06",
    "text": "Un Bosh belge à condensation classé G : trois virgule zéro huit kilowattheures, soit quatre-vingt-cinq centimes.",
-   "start": 19.126,
-   "end": 26.287,
+   "start": 19.164,
+   "end": 25.736,
    "display": "Un Bosch belge à condensation classé G : | 3,08 kWh, soit 85 ct."
   },
   {
    "id": "s07",
    "text": "Mais en Suisse, un modèle de ménage neuf doit être au moins classé C.",
-   "start": 26.387,
-   "end": 30.6,
+   "start": 25.836,
+   "end": 30.101,
    "display": "Mais en Suisse, un modèle de ménage neuf | doit être au moins classé C."
   },
   {
    "id": "s08",
    "text": "Toi, zéro kilowattheure : en électricité, c'est ton collègue qui paie.",
-   "start": 30.7,
-   "end": 35.222,
+   "start": 30.201,
+   "end": 34.779,
    "display": "Toi, 0 kWh : | en électricité, c'est ton collègue qui paie."
   },
   {
    "id": "s09",
    "text": "Mais une étude pour l'Adème compte environ deux litres d'eau par machine dans l'air.",
-   "start": 35.322,
-   "end": 39.595,
+   "start": 34.879,
+   "end": 39.205,
    "display": "Mais une étude pour l'ADEME compte | environ 2 litres d'eau | par machine dans l'air."
   },
   {
    "id": "s10",
    "text": "Le quadruple d'un bain ou d'une douche.",
-   "start": 39.695,
-   "end": 41.581,
+   "start": 39.305,
+   "end": 41.214,
    "display": "Le quadruple d'un bain ou d'une douche."
   },
   {
    "id": "s11",
    "text": "La même étude mesure une pièce plus froide d'un à deux degrés.",
-   "start": 41.681,
-   "end": 45.818,
+   "start": 41.314,
+   "end": 45.503,
    "display": "La même étude mesure une pièce | plus froide d'1 à 2 degrés."
   },
   {
    "id": "s12",
    "text": "L'Office fédéral de la santé publique conseille d'éviter de sécher le linge dans les pièces habitables.",
-   "start": 45.918,
-   "end": 51.866,
+   "start": 45.603,
+   "end": 51.624,
    "display": "L'Office fédéral de la santé publique conseille | d'éviter de sécher le linge | dans les pièces habitables."
   },
   {
    "id": "s13",
    "text": "Et aère au moins cinq minutes matin, midi et coucher ; vise trente à cinquante pour cent d'humidité.",
-   "start": 51.966,
-   "end": 57.433,
+   "start": 51.724,
+   "end": 57.259,
    "display": "Et aère au moins 5 minutes | matin, midi et coucher ; | vise 30 à 50 % d'humidité."
   },
   {
    "id": "s14",
    "text": "Ton étendoir, il est dans quelle pièce ?",
-   "start": 57.533,
-   "end": 60.214,
+   "start": 57.359,
+   "end": 60.073,
    "display": "Ton étendoir, il est dans quelle pièce ?"
   },
   {
    "id": "s15",
    "text": "Lui paie en centimes. Toi, tu paies en eau dans l'air.",
-   "start": 60.314,
-   "end": 64.235,
+   "start": 60.173,
+   "end": 64.142,
    "display": "Lui paie en centimes. | Toi, tu paies en eau dans l'air."
   },
   {
    "id": "s16",
    "text": "Abonne-toi : ce soir, ce que ta télé fait quand tu crois l'avoir éteinte.",
-   "start": 64.335,
-   "end": 68.412,
+   "start": 64.242,
+   "end": 68.37,
    "display": "Abonne-toi : ce soir, | ce que ta télé fait | quand tu crois l'avoir éteinte."
   }
  ]

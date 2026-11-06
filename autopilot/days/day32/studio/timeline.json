@@ -1,117 +1,117 @@
 {
- "duration": 68.795,
+ "duration": 68.818,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, tu me lances à soixante degrés.",
    "start": 0.12,
-   "end": 2.501,
+   "end": 2.444,
    "display": "Toi : 60 °C"
   },
   {
    "id": "s02",
    "text": "Ton collègue, à trente.",
-   "start": 2.601,
-   "end": 4.287,
+   "start": 2.544,
+   "end": 4.191,
    "display": "Ton collègue : 30 °C"
   },
   {
    "id": "s03",
    "text": "Lequel a le linge le plus propre, et lequel paie le plus ?",
-   "start": 4.387,
-   "end": 7.961,
+   "start": 4.291,
+   "end": 7.78,
    "display": "Le plus propre ? Qui paie le plus ?"
   },
   {
    "id": "s04",
    "text": "Je te balance la réponse, en francs.",
-   "start": 8.061,
-   "end": 11.142,
+   "start": 7.88,
+   "end": 11.245,
    "display": "La réponse, en francs"
   },
   {
    "id": "s05",
    "text": "Même à soixante, on ne stérilise pas le linge, dit Karl Perron, de l'université de Genève.",
-   "start": 11.242,
-   "end": 16.754,
+   "start": 11.345,
+   "end": 16.726,
    "display": "Même à 60 °C : pas stérile. Karl Perron, UNIGE"
   },
   {
    "id": "s06",
    "text": "Pour la Èr Té Èss, soixante reste nécessaire après une maladie ou pour une immunité fragile.",
-   "start": 16.854,
-   "end": 22.23,
+   "start": 16.826,
+   "end": 22.076,
    "display": "60 °C nécessaire : maladie, immunité fragile (RTS)"
   },
   {
    "id": "s07",
    "text": "Sur les taches, Les Numériques a testé : soixante degrés gagne.",
-   "start": 22.33,
-   "end": 26.257,
+   "start": 22.176,
+   "end": 26.01,
    "display": "Taches : meilleurs résultats à 60 °C (Les Numériques)"
   },
   {
    "id": "s08",
    "text": "Bravo, mais dans ce test, tu consommes deux virgule sept fois plus qu'à trente.",
-   "start": 26.357,
-   "end": 31.097,
+   "start": 26.11,
+   "end": 30.737,
    "display": "60 °C = 2,7 × l'électricité de 30 °C"
   },
   {
    "id": "s09",
    "text": "Sur l'exemple d'un fournisseur de Vienne, au tarif médian suisse : vingt-deux centimes d'électricité la machine, contre sept.",
-   "start": 31.197,
-   "end": 37.965,
-   "display": "0,788 kWh = 22 ct · 0,265 kWh = 7 ct (27,7 ct/kWh)"
+   "start": 30.837,
+   "end": 37.445,
+   "display": "60 °C : 22 ct la machine · 30 °C : 7 ct"
   },
   {
    "id": "s10",
-   "text": "À trois machines par semaine : vingt-deux francs soixante d'écart par an.",
-   "start": 38.065,
-   "end": 41.827,
-   "display": "3 machines/semaine : 22,60 fr. d'écart par an"
+   "text": "À trois machines par semaine : environ vingt-deux francs d'écart par an.",
+   "start": 37.545,
+   "end": 40.988,
+   "display": "3 machines/semaine : environ 22 fr. d'écart par an"
   },
   {
    "id": "s11",
    "text": "Surprise : sur une notice Milé, le programme éco dure cinquante minutes de plus.",
-   "start": 41.927,
-   "end": 47.207,
+   "start": 41.088,
+   "end": 46.243,
    "display": "Miele : ECO 40-60 = + 50 min"
   },
   {
    "id": "s12",
    "text": "Et il consomme trente-huit pour cent de moins que coton soixante.",
-   "start": 47.307,
-   "end": 51.259,
+   "start": 46.343,
+   "end": 50.201,
    "display": "− 38 % par rapport à Coton 60 (0,90 et 1,45 kWh)"
   },
   {
    "id": "s13",
-   "text": "Suisse Énergie le conseille, même s'il dure plus longtemps.",
-   "start": 51.359,
-   "end": 55.807,
-   "display": "SuisseEnergie : le programme éco, même s'il dure plus longtemps"
+   "text": "Suisse Énergie conseille aussi ce programme, même s'il dure plus longtemps.",
+   "start": 50.301,
+   "end": 55.665,
+   "display": "SuisseEnergie conseille aussi ce programme, | même s'il dure plus longtemps."
   },
   {
    "id": "s14",
    "text": "Écris en commentaire à combien de degrés tu laves tes draps.",
-   "start": 55.907,
-   "end": 59.029,
+   "start": 55.765,
+   "end": 58.814,
    "display": "Tes draps : à combien de degrés ?"
   },
   {
    "id": "s15",
    "text": "Toi à soixante, ton collègue à trente : ça dépend du linge.",
-   "start": 59.129,
-   "end": 62.935,
+   "start": 58.914,
+   "end": 62.629,
    "display": "60 °C ou 30 °C : ça dépend du linge"
   },
   {
    "id": "s16",
-   "text": "Abonne-toi : ce soir, même aïe-fone, en Suisse et en France : lequel coûte le moins cher ?",
-   "start": 63.035,
-   "end": 68.495,
-   "display": "Abonne-toi : ce soir, même iPhone, Suisse ou France ?"
+   "text": "Abonne-toi : ce soir, même aïe-fone, en Suisse et en France : où coûte-t-il le moins cher ?",
+   "start": 62.729,
+   "end": 68.518,
+   "display": "Abonne-toi : ce soir, même iPhone, où coûte-t-il le moins cher ?"
   }
  ]
 }
