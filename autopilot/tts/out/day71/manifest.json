@@ -1,0 +1,120 @@
+{
+ "job": "day71",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même machine à laver, même lessive : en Suisse et en France, qui paie le plus ?",
+   "file": "s01.wav",
+   "duration": 6.08,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "À la fin, tu connaîtras l'écart en francs.",
+   "file": "s02.wav",
+   "duration": 3.36,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "En Suisse, médiane deux mille vingt-six : vingt-sept virgule sept centimes le kilowattheure.",
+   "file": "s03.wav",
+   "duration": 7.12,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Avec la té-vé-a, vingt-neuf virgule neuf.",
+   "file": "s04.wav",
+   "duration": 3.76,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "En France, tarif réglementé : vingt virgule zéro un centimes d'euro, taxes comprises.",
+   "file": "s05.wav",
+   "duration": 5.92,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Converti : dix-huit virgule quatre centimes de franc.",
+   "file": "s06.wav",
+   "duration": 4.32,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Réponse : sur le kilowattheure, c'est la Suisse qui paie le plus.",
+   "file": "s07.wav",
+   "duration": 4.04,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Prends une machine classée A à quarante-sept kilowattheures pour cent lavages.",
+   "file": "s08.wav",
+   "duration": 4.8,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "À deux cent vingt lavages par an : environ cent trois kilowattheures.",
+   "file": "s09.wav",
+   "duration": 5.04,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Trente et un francs en Suisse, dix-neuf en France : douze francs d'écart.",
+   "file": "s10.wav",
+   "duration": 5.32,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Attention : médiane suisse contre tarif réglementé, et l'abonnement français reste à part.",
+   "file": "s11.wav",
+   "duration": 5.92,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Avec cent quatre-vingt-dix euros d'abonnement, l'écart tombe de onze virgule six à sept virgule sept centimes.",
+   "file": "s12.wav",
+   "duration": 7.4,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Conseil : remplis-la, car à moitié pleine, elle consomme plus de la moitié de l'énergie.",
+   "file": "s13.wav",
+   "duration": 5.56,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Et toi, quel prix au kilowattheure sur ta facture ?",
+   "file": "s14.wav",
+   "duration": 4.32,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Même machine, même lessive : douze francs d'écart par an, huit en répartissant l'abonnement.",
+   "file": "s15.wav",
+   "duration": 6.04,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, vaisselle à la main ou lave-vaisselle : qui gaspille le plus d'eau ?",
+   "file": "s16.wav",
+   "duration": 6.28,
+   "rate": 24000
+  }
+ ],
+ "total": 85.28
+}
