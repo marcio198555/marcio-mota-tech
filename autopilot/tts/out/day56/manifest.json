@@ -1,0 +1,120 @@
+{
+ "job": "day56",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ta box reste allumée toute la nuit.",
+   "file": "s01.wav",
+   "duration": 4.16,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue la débranche avant de dormir.",
+   "file": "s02.wav",
+   "duration": 2.8,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Combien il gagne, en vrai ?",
+   "file": "s03.wav",
+   "duration": 2.8,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Reste : tu auras le chiffre, et ce qu'il coupe avec.",
+   "file": "s04.wav",
+   "duration": 3.88,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Internet-Boxe cinq : onze virgule neuf watts, appareils connectés, sans transfert, selon Souisse-com.",
+   "file": "s05.wav",
+   "duration": 6.64,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Débranchée huit heures par nuit : presque trente-cinq kilowattheures de moins par an.",
+   "file": "s06.wav",
+   "duration": 5.64,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Au tarif médian Èl-Kom, vingt-sept virgule sept centimes, ça donne neuf francs soixante-trois par an.",
+   "file": "s07.wav",
+   "duration": 7.28,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Moins de trois centimes par nuit, environ deux cafés crème par an.",
+   "file": "s08.wav",
+   "duration": 4.64,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Mais Souisse-com l'écrit : téléphone fixe, alarmes et caméras fonctionnent uniquement si le routeur est allumé.",
+   "file": "s09.wav",
+   "duration": 6.52,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Et Souisse-com recommande de ne pas brancher le routeur sur une multiprise.",
+   "file": "s10.wav",
+   "duration": 4.88,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Autre option : dans Maï Souisse-com, programme une pause du ouifi, la nuit.",
+   "file": "s11.wav",
+   "duration": 5.84,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "L'Internet-Boxe cinq Pro a aussi un mode économie : zéro virgule trois watt, aux heures choisies.",
+   "file": "s12.wav",
+   "duration": 7.04,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Mais ni Internet ni les appels ne fonctionnent.",
+   "file": "s13.wav",
+   "duration": 4.28,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Écris en commentaire ce qui s'arrêterait chez toi si ta box dormait.",
+   "file": "s14.wav",
+   "duration": 5.72,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Ton collègue gagne neuf francs soixante-trois par an. Mais plus de téléphone fixe la nuit.",
+   "file": "s15.wav",
+   "duration": 6.2,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, ton micro-ondes balance pourquoi le centre reste froid.",
+   "file": "s16.wav",
+   "duration": 5.92,
+   "rate": 24000
+  }
+ ],
+ "total": 84.24
+}
