@@ -1,0 +1,15 @@
+{
+ "job": "day60d",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s07",
+   "text": "Et Apple ajoute : la charge chauffe la batterie, et ça peut réduire sa durée de vie.",
+   "file": "s07.wav",
+   "duration": 5.36,
+   "rate": 24000
+  }
+ ],
+ "total": 5.36
+}
