@@ -14,17 +14,16 @@ Format V, 8.11.2026 à 18 h. Relevés du 06.11.2026.
 ## Script
 s01 : Toi, tu éteins ta télé à la télécommande. Ton collègue la débranche tous les soirs. Qui a raison ?
 s02 : Reste : tout dépend d'un réglage caché dans ta télé.
-s03 : À la télécommande, ta télé ne s'éteint pas : elle passe en veille.
-s04 : J'ai lu la fiche européenne d'une Samsung cinquante-cinq pouces.
-s05 : Veille simple : zéro virgule cinq watt.
-s06 : Toute l'année, jour et nuit, ça fait quatre virgule quatre kilowattheures.
-s07 : Au tarif médian suisse : un franc vingt par an.
-s08 : Ton collègue se baisse trois cent soixante-cinq fois pour un franc vingt.
-s09 : Surprise : même fiche, veille connectée, deux watts.
-s10 : Quatre fois plus : quatre francs quatre-vingt-cinq par an.
-s11 : LG et Sony préviennent : le démarrage rapide peut augmenter la consommation.
-s12 : Va voir dans tes réglages, et décide si ça vaut quelques francs.
-s13 : Autre repère : une année de veille simple, c'est cinquante-sept heures de cette télé allumée.
-s14 : Démarrage rapide activé ou pas, chez toi ? Écris-le en commentaire.
-s15 : Toi, un franc vingt. Ton collègue, zéro, et trois cent soixante-cinq trajets jusqu'à la prise.
-s16 : Abonne-toi : demain, lave-linge à trente ou soixante degrés, qui paie quoi ?
+s03 : À la télécommande, elle ne s'éteint pas : elle passe en veille.
+s04 : Fiche européenne d'une Samsung cinquante-cinq pouces : veille simple, zéro virgule cinq watt.
+s05 : Toute l'année : quatre virgule quatre kilowattheures.
+s06 : Au tarif médian suisse : un franc vingt par an.
+s07 : Ton collègue se baisse trois cent soixante-cinq fois pour ça.
+s08 : Surprise : même fiche, veille connectée, deux watts.
+s09 : Quatre fois plus : quatre francs quatre-vingt-cinq par an.
+s10 : LG et Sony préviennent : le démarrage rapide peut augmenter la consommation.
+s11 : Va voir dans tes réglages.
+s12 : Repère : une année de veille simple, c'est cinquante-sept heures de cette télé allumée.
+s13 : Démarrage rapide activé, chez toi ? Écris-le en commentaire.
+s14 : Toi, un franc vingt. Ton collègue, zéro, et trois cent soixante-cinq trajets à la prise.
+s15 : Abonne-toi : demain, lave-linge à trente ou soixante degrés, qui paie quoi ?

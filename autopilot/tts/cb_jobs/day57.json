@@ -9,7 +9,7 @@
  "segments": [
   {
    "id": "s01",
-   "text": "Toi, tu fais la vaisselle à la main pour économiser. Ton collègue lance son lave-vaisselle. Qui gaspille le plus d'eau ?"
+   "text": "Toi, vaisselle à la main pour économiser. Ton collègue, lave-vaisselle. Qui gaspille le plus d'eau ?"
   },
   {
    "id": "s02",
@@ -33,7 +33,7 @@
   },
   {
    "id": "s07",
-   "text": "À Lausanne, l'eau et l'épuration coûtent trois francs quarante-cinq le mètre cube."
+   "text": "À Lausanne, eau et épuration : trois francs quarante-cinq le mètre cube."
   },
   {
    "id": "s08",
@@ -41,19 +41,19 @@
   },
   {
    "id": "s09",
-   "text": "Une vaisselle par jour, exemple : cent dix francs par an, rien que pour l'eau."
+   "text": "Une vaisselle par jour, exemple : cent dix francs par an."
   },
   {
    "id": "s10",
-   "text": "Surprise : les mains ne se valent pas. Quarante-six litres en Allemagne, cent septante en Espagne et au Portugal."
+   "text": "Surprise : quarante-six litres à la main en Allemagne, cent septante en Espagne et au Portugal."
   },
   {
    "id": "s11",
-   "text": "Attention : étude ancienne, et en partie financée par des fabricants."
+   "text": "Attention : étude ancienne, en partie financée par des fabricants."
   },
   {
    "id": "s12",
-   "text": "Et rincer avant de charger ajoute de l'eau : près de trois litres par cycle en Allemagne, près de vingt en Italie."
+   "text": "Et rincer avant de charger ajoute près de trois litres par cycle en Allemagne, près de vingt en Italie."
   },
   {
    "id": "s13",

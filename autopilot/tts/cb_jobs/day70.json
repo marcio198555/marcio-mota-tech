@@ -9,7 +9,7 @@
  "segments": [
   {
    "id": "s01",
-   "text": "Même iPhone dix-sept, deux cent cinquante-six gigas. Toi, tu l'achètes en Suisse. Ton collègue, en France. Qui paie le moins ?"
+   "text": "Même iPhone dix-sept. Toi, tu l'achètes en Suisse. Ton collègue, en France. Qui paie le moins ?"
   },
   {
    "id": "s02",
@@ -57,11 +57,11 @@
   },
   {
    "id": "s13",
-   "text": "Les prix et le cours bougent : refais le calcul avant de passer la frontière."
+   "text": "Les prix bougent : refais le calcul."
   },
   {
    "id": "s14",
-   "text": "Et toi, ton téléphone, tu l'achètes dans quel pays ? Écris-le en commentaire."
+   "text": "Et toi, ton téléphone, tu l'achètes où ? Écris-le en commentaire."
   },
   {
    "id": "s15",

@@ -18,17 +18,16 @@ Format A, 7.11.2026 à 18 h. Relevés du 06.11.2026.
 ## Script
 s01 : Toi, tu me règles à deux degrés. Ton collègue, à cinq. Qui paie pour rien ?
 s02 : Reste : à la fin, tu sauras si mon bouton te ment.
-s03 : Je suis ton frigo, et j'ai les chiffres.
-s04 : Que Choisir l'écrit : chaque degré en moins demande cinq pour cent d'énergie en plus.
-s05 : De cinq à deux degrés, ça fait environ quinze pour cent.
-s06 : Exemple : un combiné moyen, trois cent quinze kilowattheures par an, chiffre de l'Ademe en France.
-s07 : Au tarif médian suisse, tu paies environ treize francs de plus par an.
-s08 : Un peu plus d'un franc par mois.
-s09 : Surprise : sur un frigo mécanique, le cran trois, ce n'est pas trois degrés.
-s10 : C'est juste la force du froid.
-s11 : Et ton collègue n'a pas forcément gagné : l'Anses vise zéro à quatre degrés au point le plus froid.
-s12 : Chez moi, la porte et le bac à légumes sont les coins les moins froids.
-s13 : Le test : un verre d'eau au milieu, une nuit, puis un thermomètre.
-s14 : Il affiche combien, ton verre d'eau ? Écris-le en commentaire.
-s15 : Toi, treize francs de trop. Ton collègue, peut-être trop chaud. Vous devez vérifier tous les deux.
-s16 : Abonne-toi : demain, linge au salon ou sèche-linge, qui paie vraiment ?
+s03 : Je suis ton frigo : chaque degré en moins me demande cinq pour cent d'énergie en plus, écrit Que Choisir.
+s04 : De cinq à deux degrés : environ quinze pour cent.
+s05 : Exemple : un combiné moyen, trois cent quinze kilowattheures par an, selon l'Ademe.
+s06 : Au tarif médian suisse : environ treize francs de plus par an.
+s07 : Un peu plus d'un franc par mois.
+s08 : Surprise : sur un frigo mécanique, le cran trois, ce n'est pas trois degrés.
+s09 : C'est la force du froid.
+s10 : Et ton collègue n'a pas forcément gagné : l'Anses vise zéro à quatre degrés au point le plus froid.
+s11 : La porte et le bac à légumes sont mes coins les moins froids.
+s12 : Le test : un verre d'eau au milieu, une nuit, un thermomètre.
+s13 : Il affiche combien ? Écris-le en commentaire.
+s14 : Toi, treize francs de trop. Ton collègue, peut-être trop chaud.
+s15 : Abonne-toi : demain, linge au salon ou sèche-linge, qui paie vraiment ?

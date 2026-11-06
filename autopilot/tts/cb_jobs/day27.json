@@ -17,58 +17,54 @@
   },
   {
    "id": "s03",
-   "text": "Je suis ton frigo, et j'ai les chiffres."
+   "text": "Je suis ton frigo : chaque degré en moins me demande cinq pour cent d'énergie en plus, écrit Que Choisir."
   },
   {
    "id": "s04",
-   "text": "Que Choisir l'écrit : chaque degré en moins demande cinq pour cent d'énergie en plus."
+   "text": "De cinq à deux degrés : environ quinze pour cent."
   },
   {
    "id": "s05",
-   "text": "De cinq à deux degrés, ça fait environ quinze pour cent."
+   "text": "Exemple : un combiné moyen, trois cent quinze kilowattheures par an, selon l'Ademe."
   },
   {
    "id": "s06",
-   "text": "Exemple : un combiné moyen, trois cent quinze kilowattheures par an, chiffre de l'Ademe en France."
+   "text": "Au tarif médian suisse : environ treize francs de plus par an."
   },
   {
    "id": "s07",
-   "text": "Au tarif médian suisse, tu paies environ treize francs de plus par an."
-  },
-  {
-   "id": "s08",
    "text": "Un peu plus d'un franc par mois."
   },
   {
-   "id": "s09",
+   "id": "s08",
    "text": "Surprise : sur un frigo mécanique, le cran trois, ce n'est pas trois degrés."
   },
   {
-   "id": "s10",
-   "text": "C'est juste la force du froid."
+   "id": "s09",
+   "text": "C'est la force du froid."
   },
   {
-   "id": "s11",
+   "id": "s10",
    "text": "Et ton collègue n'a pas forcément gagné : l'Anses vise zéro à quatre degrés au point le plus froid."
   },
   {
+   "id": "s11",
+   "text": "La porte et le bac à légumes sont mes coins les moins froids."
+  },
+  {
    "id": "s12",
-   "text": "Chez moi, la porte et le bac à légumes sont les coins les moins froids."
+   "text": "Le test : un verre d'eau au milieu, une nuit, un thermomètre."
   },
   {
    "id": "s13",
-   "text": "Le test : un verre d'eau au milieu, une nuit, puis un thermomètre."
+   "text": "Il affiche combien ? Écris-le en commentaire."
   },
   {
    "id": "s14",
-   "text": "Il affiche combien, ton verre d'eau ? Écris-le en commentaire."
+   "text": "Toi, treize francs de trop. Ton collègue, peut-être trop chaud."
   },
   {
    "id": "s15",
-   "text": "Toi, treize francs de trop. Ton collègue, peut-être trop chaud. Vous devez vérifier tous les deux."
-  },
-  {
-   "id": "s16",
    "text": "Abonne-toi : demain, linge au salon ou sèche-linge, qui paie vraiment ?"
   }
  ]

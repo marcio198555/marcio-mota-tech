@@ -17,11 +17,11 @@
   },
   {
    "id": "s03",
-   "text": "L'université Purdue a mesuré quatre téléphones à écran OLED, sur six applis."
+   "text": "L'université Purdue a mesuré quatre téléphones OLED."
   },
   {
    "id": "s04",
-   "text": "Avec une luminosité de trente à cinquante pour cent, le mode sombre économise en moyenne trois à neuf pour cent."
+   "text": "Entre trente et cinquante pour cent de luminosité, le mode sombre économise en moyenne trois à neuf pour cent."
   },
   {
    "id": "s05",
@@ -29,47 +29,43 @@
   },
   {
    "id": "s06",
-   "text": "Si peu que la plupart des gens ne le remarqueraient pas, dit l'étude."
+   "text": "Si peu que la plupart des gens ne le remarqueraient pas."
   },
   {
    "id": "s07",
-   "text": "Mais à cent pour cent de luminosité, en plein soleil : trente-neuf à quarante-sept pour cent."
+   "text": "Mais à fond, en plein soleil : trente-neuf à quarante-sept pour cent."
   },
   {
    "id": "s08",
-   "text": "Deuxième surprise : ton collègue peut te rattraper sans toucher aux couleurs."
+   "text": "Surprise : ton collègue peut te rattraper sans toucher aux couleurs."
   },
   {
    "id": "s09",
-   "text": "Google Actualités sur un Pixel cinq : vingt pour cent en mode clair consomme autant que cinquante pour cent en mode sombre."
+   "text": "Sur un Pixel cinq, vingt pour cent en clair consomme autant que cinquante pour cent en sombre."
   },
   {
    "id": "s10",
-   "text": "Donc baisser ton écran peut valoir le mode sombre."
-  },
-  {
-   "id": "s11",
    "text": "Et ton écran compte : en OLED, un pixel noir s'éteint."
   },
   {
+   "id": "s11",
+   "text": "Sur un LCD, la lumière vient de derrière : l'étude ne donne aucun chiffre."
+  },
+  {
    "id": "s12",
-   "text": "Sur un LCD, la lumière vient d'un rétroéclairage : l'étude ne donne aucun chiffre pour lui."
+   "text": "Et le mode sombre fatigue moins les yeux à forte luminosité, selon Purdue."
   },
   {
    "id": "s13",
-   "text": "Le mode sombre garde un atout, selon Purdue : moins de fatigue pour les yeux à forte luminosité."
+   "text": "Ta luminosité est à combien, là ? Écris-la en commentaire."
   },
   {
    "id": "s14",
-   "text": "Ta luminosité est à combien, là, maintenant ? Écris-la en commentaire."
+   "text": "Toi, mode sombre. Ton collègue, écran baissé. L'écart peut être minuscule."
   },
   {
    "id": "s15",
-   "text": "Toi, mode sombre. Ton collègue, écran baissé. Le soir, l'écart peut être minuscule."
-  },
-  {
-   "id": "s16",
-   "text": "Abonne-toi : demain, baisser ton chauffage d'un degré, combien tu gagnes vraiment ?"
+   "text": "Abonne-toi : demain, baisser ton chauffage d'un degré, combien tu gagnes ?"
   }
  ]
 }

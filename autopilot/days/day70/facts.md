@@ -12,7 +12,7 @@ Format V, 9.11.2026 à 18 h. Relevés du 06.11.2026.
 | **Limites** : l'OFDF convertit à son propre taux publié ; frais de l'opérateur de détaxe non chiffrés et non comptés (ils ajouteraient au côté France) ; le prix français est le prix Apple, sans promotion. | | | dit à l'écran (« sans frais de détaxe ») et en légende |
 
 ## Script
-s01 : Même iPhone dix-sept, deux cent cinquante-six gigas. Toi, tu l'achètes en Suisse. Ton collègue, en France. Qui paie le moins ?
+s01 : Même iPhone dix-sept. Toi, tu l'achètes en Suisse. Ton collègue, en France. Qui paie le moins ?
 s02 : Reste : même avec la détaxe, la réponse va te surprendre.
 s03 : Apple Suisse affiche huit cent nonante-neuf francs.
 s04 : Apple France : mille cent dix-neuf euros.
@@ -24,7 +24,7 @@ s09 : Sauf qu'à la frontière, au-dessus de cent cinquante francs, il doit la T
 s10 : Résultat : neuf cent vingt-cinq francs, encore vingt-six de plus qu'en Suisse.
 s11 : Surprise : même sans aucune taxe, la France reste plus chère.
 s12 : Huit cent cinquante-six francs contre huit cent trente-deux.
-s13 : Les prix et le cours bougent : refais le calcul avant de passer la frontière.
-s14 : Et toi, ton téléphone, tu l'achètes dans quel pays ? Écris-le en commentaire.
+s13 : Les prix bougent : refais le calcul.
+s14 : Et toi, ton téléphone, tu l'achètes où ? Écris-le en commentaire.
 s15 : Toi, huit cent nonante-neuf. Ton collègue, neuf cent vingt-cinq, et un passage à la douane.
 s16 : Abonne-toi : demain, faut-il éteindre ta box internet la nuit ?

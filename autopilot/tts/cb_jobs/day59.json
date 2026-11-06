@@ -17,58 +17,54 @@
   },
   {
    "id": "s03",
-   "text": "À la télécommande, ta télé ne s'éteint pas : elle passe en veille."
+   "text": "À la télécommande, elle ne s'éteint pas : elle passe en veille."
   },
   {
    "id": "s04",
-   "text": "J'ai lu la fiche européenne d'une Samsung cinquante-cinq pouces."
+   "text": "Fiche européenne d'une Samsung cinquante-cinq pouces : veille simple, zéro virgule cinq watt."
   },
   {
    "id": "s05",
-   "text": "Veille simple : zéro virgule cinq watt."
+   "text": "Toute l'année : quatre virgule quatre kilowattheures."
   },
   {
    "id": "s06",
-   "text": "Toute l'année, jour et nuit, ça fait quatre virgule quatre kilowattheures."
-  },
-  {
-   "id": "s07",
    "text": "Au tarif médian suisse : un franc vingt par an."
   },
   {
-   "id": "s08",
-   "text": "Ton collègue se baisse trois cent soixante-cinq fois pour un franc vingt."
+   "id": "s07",
+   "text": "Ton collègue se baisse trois cent soixante-cinq fois pour ça."
   },
   {
-   "id": "s09",
+   "id": "s08",
    "text": "Surprise : même fiche, veille connectée, deux watts."
   },
   {
-   "id": "s10",
+   "id": "s09",
    "text": "Quatre fois plus : quatre francs quatre-vingt-cinq par an."
   },
   {
-   "id": "s11",
+   "id": "s10",
    "text": "LG et Sony préviennent : le démarrage rapide peut augmenter la consommation."
   },
   {
+   "id": "s11",
+   "text": "Va voir dans tes réglages."
+  },
+  {
    "id": "s12",
-   "text": "Va voir dans tes réglages, et décide si ça vaut quelques francs."
+   "text": "Repère : une année de veille simple, c'est cinquante-sept heures de cette télé allumée."
   },
   {
    "id": "s13",
-   "text": "Autre repère : une année de veille simple, c'est cinquante-sept heures de cette télé allumée."
+   "text": "Démarrage rapide activé, chez toi ? Écris-le en commentaire."
   },
   {
    "id": "s14",
-   "text": "Démarrage rapide activé ou pas, chez toi ? Écris-le en commentaire."
+   "text": "Toi, un franc vingt. Ton collègue, zéro, et trois cent soixante-cinq trajets à la prise."
   },
   {
    "id": "s15",
-   "text": "Toi, un franc vingt. Ton collègue, zéro, et trois cent soixante-cinq trajets jusqu'à la prise."
-  },
-  {
-   "id": "s16",
    "text": "Abonne-toi : demain, lave-linge à trente ou soixante degrés, qui paie quoi ?"
   }
  ]
