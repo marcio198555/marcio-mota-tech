@@ -1,0 +1,22 @@
+{
+ "job": "day60c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s07",
+   "text": "Apple ajoute : la charge chauffe la batterie, et ça peut réduire sa durée de vie.",
+   "file": "s07.wav",
+   "duration": 5.2,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Trop chaud, ton aïe-fone peut limiter la charge après quatre-vingts pour cent : garde-le au frais.",
+   "file": "s13.wav",
+   "duration": 6.52,
+   "rate": 24000
+  }
+ ],
+ "total": 11.72
+}
