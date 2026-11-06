@@ -1,0 +1,36 @@
+{
+ "job": "day27b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s06",
+   "text": "Au tarif médian suisse : jusqu'à environ treize francs de plus par an.",
+   "file": "s06.wav",
+   "duration": 5.28,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Soit à peu près un franc par mois.",
+   "file": "s07.wav",
+   "duration": 3.88,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Ton verre, il affiche combien ? Écris-le en commentaire.",
+   "file": "s13.wav",
+   "duration": 4.6,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Toi, environ treize francs de plus, dans cet exemple. Ton collègue, peut-être trop chaud.",
+   "file": "s14.wav",
+   "duration": 6.32,
+   "rate": 24000
+  }
+ ],
+ "total": 20.08
+}
