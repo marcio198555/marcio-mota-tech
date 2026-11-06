@@ -1,109 +1,109 @@
 {
- "duration": 66.793,
+ "duration": 68.635,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, vaisselle à la main pour économiser. Ton collègue, lave-vaisselle. Qui gaspille le plus d'eau ?",
    "start": 0.12,
-   "end": 6.347,
+   "end": 6.324,
    "display": "Toi, à la main pour économiser. | Ton collègue, lave-vaisselle. | Qui gaspille le plus d'eau ?"
   },
   {
    "id": "s02",
    "text": "Reste : à la fin, je te montre le geste qui ajoute des litres.",
-   "start": 6.447,
-   "end": 10.487,
+   "start": 6.424,
+   "end": 10.449,
    "display": "Reste : à la fin, je te montre | le geste qui ajoute des litres."
   },
   {
    "id": "s03",
    "text": "L'Université de Bonn a fait laver douze couverts à des volontaires de plusieurs pays.",
-   "start": 10.587,
-   "end": 15.254,
+   "start": 10.549,
+   "end": 15.19,
    "display": "L'Université de Bonn a fait laver | 12 couverts à des volontaires | de plusieurs pays."
   },
   {
    "id": "s04",
    "text": "À la main : cent trois litres en moyenne.",
-   "start": 15.354,
-   "end": 17.616,
+   "start": 15.29,
+   "end": 18.093,
    "display": "À la main : 103 litres en moyenne."
   },
   {
    "id": "s05",
    "text": "En machine : quinze litres.",
-   "start": 17.716,
-   "end": 19.433,
+   "start": 18.193,
+   "end": 19.91,
    "display": "En machine : 15 litres."
   },
   {
    "id": "s06",
    "text": "Presque sept fois moins.",
-   "start": 19.533,
-   "end": 21.564,
+   "start": 20.01,
+   "end": 22.048,
    "display": "Presque 7 fois moins."
   },
   {
    "id": "s07",
    "text": "À Lausanne, eau et épuration : trois francs quarante-cinq le mètre cube.",
-   "start": 21.664,
-   "end": 26.296,
+   "start": 22.148,
+   "end": 27.213,
    "display": "À Lausanne, eau et épuration : | 3 fr. 45 le m³."
   },
   {
    "id": "s08",
    "text": "Donc trente centimes d'écart, à chaque vaisselle.",
-   "start": 26.396,
-   "end": 29.266,
+   "start": 27.313,
+   "end": 30.213,
    "display": "Donc 30 centimes d'écart, | à chaque vaisselle."
   },
   {
    "id": "s09",
    "text": "Une vaisselle par jour, exemple : environ cent dix francs par an.",
-   "start": 29.366,
-   "end": 34.031,
+   "start": 30.313,
+   "end": 34.965,
    "display": "Une vaisselle par jour, exemple : | environ 110 francs par an."
   },
   {
    "id": "s10",
    "text": "Surprise : quarante-six litres à la main en Allemagne, cent septante en Espagne et au Portugal.",
-   "start": 34.131,
-   "end": 40.356,
+   "start": 35.065,
+   "end": 41.247,
    "display": "Surprise : 46 litres à la main en Allemagne, | 170 en Espagne et au Portugal."
   },
   {
    "id": "s11",
    "text": "Attention : étude ancienne, financée par plusieurs fabricants.",
-   "start": 40.456,
-   "end": 44.02,
+   "start": 41.347,
+   "end": 45.396,
    "display": "Attention : étude ancienne, financée | par plusieurs fabricants."
   },
   {
    "id": "s12",
    "text": "Et rincer ajoute de l'eau : en Italie, quarante-deux pour cent rinçaient, près de vingt litres de plus par cycle en moyenne. En Allemagne, quatre pour cent, près de trois.",
-   "start": 44.12,
-   "end": 53.931,
+   "start": 45.496,
+   "end": 55.457,
    "display": "Et rincer ajoute de l'eau : en Italie, 42 % rinçaient, | près de 20 litres de plus par cycle en moyenne. | En Allemagne, 4 %, près de 3."
   },
   {
    "id": "s13",
    "text": "Tu rinces avant de charger ? Écris oui ou non en commentaire.",
-   "start": 54.031,
-   "end": 57.422,
+   "start": 55.557,
+   "end": 59.307,
    "display": "Tu rinces avant de charger ? | Écris oui ou non en commentaire."
   },
   {
    "id": "s14",
    "text": "Toi, cent trois litres. Ton collègue, quinze. Même à quarante-six, il reste devant.",
-   "start": 57.522,
-   "end": 63.339,
+   "start": 59.407,
+   "end": 65.203,
    "display": "Toi, 103 litres. Ton collègue, 15. | Même à 46, il reste devant."
   },
   {
    "id": "s15",
    "text": "Abonne-toi : demain, douche ou bain, combien en francs ?",
-   "start": 63.439,
-   "end": 66.493,
+   "start": 65.303,
+   "end": 68.335,
    "display": "Abonne-toi : demain, douche ou bain, | combien en francs ?"
   }
  ]

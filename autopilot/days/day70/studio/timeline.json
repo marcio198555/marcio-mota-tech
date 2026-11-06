@@ -1,116 +1,116 @@
 {
- "duration": 62.806,
+ "duration": 65.696,
  "segments": [
   {
    "id": "s01",
-   "text": "Même iPhone dix-sept. Toi, tu l'achètes en Suisse. Ton collègue, en France. Qui paie le moins ?",
+   "text": "Même aïe-fone dix-sept. Toi, tu l'achètes en Suisse. Ton collègue, en France. Qui paie le moins ?",
    "start": 0.12,
-   "end": 5.94,
-   "display": "Même iPhone 17. | Toi, tu l'achètes en Suisse. Ton collègue, en France. | Qui paie le moins ?"
+   "end": 6.611,
+   "display": "Même iPhone 17. | Toi, tu l'achètes en Suisse. | Ton collègue, en France. | Qui paie le moins ?"
   },
   {
    "id": "s02",
    "text": "Reste : même avec la détaxe, la réponse va te surprendre.",
-   "start": 6.04,
-   "end": 10.11,
+   "start": 6.711,
+   "end": 10.882,
    "display": "Reste : même avec la détaxe, | la réponse va te surprendre."
   },
   {
    "id": "s03",
    "text": "Apple Suisse affiche huit cent nonante-neuf francs.",
-   "start": 10.21,
-   "end": 14.81,
+   "start": 10.982,
+   "end": 15.582,
    "display": "Apple Suisse affiche 899 francs."
   },
   {
    "id": "s04",
    "text": "Apple France : mille cent dix-neuf euros.",
-   "start": 14.91,
-   "end": 17.416,
+   "start": 15.682,
+   "end": 18.188,
    "display": "Apple France : 1 119 euros."
   },
   {
    "id": "s05",
    "text": "Au cours de la Banque nationale, ça fait mille vingt-sept francs.",
-   "start": 17.516,
-   "end": 21.343,
+   "start": 18.288,
+   "end": 22.115,
    "display": "Au cours de la Banque nationale, | ça fait 1 027 francs."
   },
   {
    "id": "s06",
    "text": "Cent vingt-huit francs de plus qu'en Suisse.",
-   "start": 21.444,
-   "end": 24.151,
+   "start": 22.215,
+   "end": 24.495,
    "display": "128 francs de plus qu'en Suisse."
   },
   {
    "id": "s07",
    "text": "Mais ton collègue sort son atout : la détaxe.",
-   "start": 24.251,
-   "end": 27.103,
+   "start": 24.595,
+   "end": 27.447,
    "display": "Mais ton collègue sort son atout : | la détaxe."
   },
   {
    "id": "s08",
-   "text": "Sans la TVA française : au mieux, huit cent cinquante-six francs.",
-   "start": 27.203,
-   "end": 30.876,
+   "text": "Sans la té-vé-a française : au mieux, huit cent cinquante-six francs.",
+   "start": 27.547,
+   "end": 32.209,
    "display": "Sans la TVA française : | au mieux, 856 francs."
   },
   {
    "id": "s09",
-   "text": "Sauf qu'à la frontière, au-dessus de cent cinquante francs, il doit la TVA suisse.",
-   "start": 30.976,
-   "end": 35.714,
+   "text": "Sauf qu'à la frontière, au-dessus de cent cinquante francs, il doit la té-vé-a suisse.",
+   "start": 32.309,
+   "end": 37.569,
    "display": "Sauf qu'à la frontière, | au-dessus de 150 francs, | il doit la TVA suisse."
   },
   {
    "id": "s10",
    "text": "Résultat, au mieux : neuf cent vingt-cinq francs, encore vingt-six de plus qu'en Suisse.",
-   "start": 35.814,
-   "end": 40.684,
+   "start": 37.669,
+   "end": 42.712,
    "display": "Résultat, au mieux : 925 francs, | encore 26 de plus qu'en Suisse."
   },
   {
    "id": "s11",
-   "text": "Surprise : même sans TVA, la France reste plus chère.",
-   "start": 40.784,
-   "end": 44.011,
+   "text": "Surprise : même sans té-vé-a, la France reste plus chère.",
+   "start": 42.812,
+   "end": 46.782,
    "display": "Surprise : même sans TVA, | la France reste plus chère."
   },
   {
    "id": "s12",
    "text": "Huit cent cinquante-six francs contre huit cent trente-deux.",
-   "start": 44.111,
-   "end": 46.97,
+   "start": 46.882,
+   "end": 49.743,
    "display": "856 francs contre 832."
   },
   {
    "id": "s13",
    "text": "Les prix bougent : refais le calcul.",
-   "start": 47.07,
-   "end": 48.991,
+   "start": 49.843,
+   "end": 51.764,
    "display": "Les prix bougent : | refais le calcul."
   },
   {
    "id": "s14",
    "text": "Et toi, ton téléphone, tu l'achètes où ? Écris-le en commentaire.",
-   "start": 49.091,
-   "end": 53.375,
+   "start": 51.864,
+   "end": 56.168,
    "display": "Et toi, ton téléphone, tu l'achètes où ? | Écris-le en commentaire."
   },
   {
    "id": "s15",
    "text": "Toi, huit cent nonante-neuf. Ton collègue, neuf cent vingt-cinq, et un passage à la douane.",
-   "start": 53.475,
-   "end": 58.835,
+   "start": 56.268,
+   "end": 61.724,
    "display": "Toi, 899. Ton collègue, 925, | et un passage à la douane."
   },
   {
    "id": "s16",
    "text": "Abonne-toi : demain, faut-il éteindre ta box internet la nuit ?",
-   "start": 58.935,
-   "end": 62.506,
+   "start": 61.824,
+   "end": 65.396,
    "display": "Abonne-toi : demain, faut-il éteindre | ta box internet la nuit ?"
   }
  ]

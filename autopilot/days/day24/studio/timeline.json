@@ -1,109 +1,109 @@
 {
- "duration": 67.551,
+ "duration": 68.376,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, mode sombre. Ton collègue, mode clair. Qui a encore de la batterie le soir ?",
    "start": 0.12,
-   "end": 4.92,
+   "end": 5.026,
    "display": "Toi, mode sombre. Ton collègue, mode clair. | Qui a encore de la batterie le soir ?"
   },
   {
    "id": "s02",
    "text": "Reste : un autre réglage peut tout changer.",
-   "start": 5.02,
-   "end": 7.65,
+   "start": 5.126,
+   "end": 7.8,
    "display": "Reste : un autre réglage | peut tout changer."
   },
   {
    "id": "s03",
    "text": "L'université Purdue a mesuré quatre téléphones OLED.",
-   "start": 7.75,
-   "end": 11.544,
+   "start": 7.9,
+   "end": 11.703,
    "display": "L'université Purdue a mesuré | 4 téléphones OLED."
   },
   {
    "id": "s04",
    "text": "Entre trente et cinquante pour cent de luminosité, le mode sombre économise en moyenne trois à neuf pour cent.",
-   "start": 11.644,
-   "end": 18.348,
+   "start": 11.803,
+   "end": 18.511,
    "display": "Entre 30 et 50 % de luminosité, | le mode sombre économise | en moyenne 3 à 9 %."
   },
   {
    "id": "s05",
    "text": "Sur un billet de cent francs, ce serait trois à neuf francs.",
-   "start": 18.448,
-   "end": 21.356,
+   "start": 18.611,
+   "end": 21.921,
    "display": "Sur un billet de 100 francs, | ce serait 3 à 9 francs."
   },
   {
    "id": "s06",
    "text": "Si peu que la plupart des gens ne le remarqueraient pas.",
-   "start": 21.456,
-   "end": 24.317,
+   "start": 22.021,
+   "end": 24.648,
    "display": "Si peu que la plupart des gens | ne le remarqueraient pas."
   },
   {
    "id": "s07",
    "text": "Mais à cent pour cent, en plein soleil : trente-neuf à quarante-sept pour cent.",
-   "start": 24.417,
-   "end": 28.516,
+   "start": 24.748,
+   "end": 28.867,
    "display": "Mais à 100 %, en plein soleil : | 39 à 47 %."
   },
   {
    "id": "s08",
    "text": "Surprise : ton collègue peut te rattraper sans toucher aux couleurs.",
-   "start": 28.616,
-   "end": 32.396,
+   "start": 28.967,
+   "end": 32.747,
    "display": "Surprise : ton collègue peut | te rattraper sans toucher aux couleurs."
   },
   {
    "id": "s09",
    "text": "Sur un Pixel cinq, dans Google Actualités, vingt pour cent en clair consomme autant que cinquante pour cent en sombre.",
-   "start": 32.496,
-   "end": 39.496,
+   "start": 32.847,
+   "end": 39.847,
    "display": "Sur un Pixel 5, dans Google Actualités, | 20 % en clair consomme autant | que 50 % en sombre."
   },
   {
    "id": "s10",
    "text": "Et ton écran compte : en OLED, un pixel noir s'éteint.",
-   "start": 39.596,
-   "end": 43.766,
+   "start": 39.947,
+   "end": 44.238,
    "display": "Et ton écran compte : | en OLED, un pixel noir s'éteint."
   },
   {
    "id": "s11",
    "text": "Sur un écran èl-cé-dé, la lumière vient de derrière : l'étude ne donne aucun chiffre.",
-   "start": 43.866,
-   "end": 49.157,
+   "start": 44.338,
+   "end": 49.629,
    "display": "Sur un écran LCD, la lumière vient de derrière : | l'étude ne donne aucun chiffre."
   },
   {
    "id": "s12",
    "text": "Et si le mode sombre repose tes yeux, tant mieux : Purdue ne l'a pas mesuré.",
-   "start": 49.257,
-   "end": 54.007,
+   "start": 49.729,
+   "end": 54.512,
    "display": "Et si le mode sombre repose tes yeux, tant mieux : | Purdue ne l'a pas mesuré."
   },
   {
    "id": "s13",
    "text": "Ta luminosité est à combien, là ? Écris-la en commentaire.",
-   "start": 54.107,
-   "end": 57.145,
+   "start": 54.612,
+   "end": 57.649,
    "display": "Ta luminosité est à combien, là ? | Écris-la en commentaire."
   },
   {
    "id": "s14",
    "text": "Toi, mode sombre. Ton collègue, écran baissé. L'écart peut être minuscule.",
-   "start": 57.245,
-   "end": 62.257,
+   "start": 57.749,
+   "end": 63.081,
    "display": "Toi, mode sombre. Ton collègue, écran baissé. | L'écart peut être minuscule."
   },
   {
    "id": "s15",
    "text": "Abonne-toi : demain, baisser ton chauffage d'un degré, combien tu gagnes ?",
-   "start": 62.357,
-   "end": 67.251,
+   "start": 63.181,
+   "end": 68.076,
    "display": "Abonne-toi : demain, baisser ton chauffage | d'un degré, combien tu gagnes ?"
   }
  ]
