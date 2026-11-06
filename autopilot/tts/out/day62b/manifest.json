@@ -1,0 +1,15 @@
+{
+ "job": "day62b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, c'est douche, ton collègue, c'est bain : qui paie le plus à la fin de l'année ?",
+   "file": "s01.wav",
+   "duration": 5.4,
+   "rate": 24000
+  }
+ ],
+ "total": 5.4
+}
