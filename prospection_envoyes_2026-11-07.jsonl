@@ -248,3 +248,121 @@
 {"id": "RL07A-054", "brand": "Edone", "domain": "edone.paris", "to": "pro@edone.paris", "ts": "2026-11-07T13:01:00.761482"}
 {"id": "RL07A-055", "brand": "FILOALFA", "domain": "filoalfa3d.com", "to": "info@filoalfa3d.com", "ts": "2026-11-07T13:01:00.761492"}
 {"id": "RL07A-056", "brand": "Weldtite", "domain": "weldtite.co.uk", "to": "marketing@weldtite.co.uk", "ts": "2026-11-07T13:01:00.761500"}
+{"id": "RL07B-001", "brand": "smol", "domain": "smolproducts.com", "to": "press@smolproducts.com", "ts": "2026-11-07T13:30:52.183251"}
+{"id": "RL07B-002", "brand": "Alpin Loacker", "domain": "alpinloacker.com", "to": "support@alpinloacker.com", "ts": "2026-11-07T13:30:52.183282"}
+{"id": "RL07B-003", "brand": "Minky", "domain": "minky.co.uk", "to": "mediaenquiries@minky.co.uk", "ts": "2026-11-07T13:30:52.183295"}
+{"id": "RL07B-004", "brand": "Roberts Radio", "domain": "robertsradio.com", "to": "hello@robertsradio.com", "ts": "2026-11-07T13:30:52.183302"}
+{"id": "RL07B-005", "brand": "Pullup & Dip", "domain": "pullup-dip.com", "to": "service@pullup-dip.com", "ts": "2026-11-07T13:30:52.183307"}
+{"id": "RL07B-006", "brand": "Fackelmann", "domain": "fackelmann.de", "to": "service@fackelmann.de", "ts": "2026-11-07T13:30:52.183312"}
+{"id": "RL07B-007", "brand": "KELOMAT", "domain": "kelomat.at", "to": "office@kelomat.at", "ts": "2026-11-07T13:30:52.183317"}
+{"id": "RL07B-008", "brand": "Berlinger Haus", "domain": "berlingerhaus.com", "to": "info@berlingerhaus.com", "ts": "2026-11-07T13:30:52.183321"}
+{"id": "RL07B-009", "brand": "Nomess", "domain": "nomess.dk", "to": "info@nomess.dk", "ts": "2026-11-07T13:30:52.183326"}
+{"id": "RL07B-010", "brand": "eitech", "domain": "eitech.de", "to": "kundenservice@eitech.de", "ts": "2026-11-07T13:30:52.183330"}
+{"id": "RL07B-061", "brand": "Anglepoise", "domain": "anglepoise.com", "to": "hello@anglepoise.com", "ts": "2026-11-07T13:30:55.855661"}
+{"id": "RL07B-062", "brand": "FluidStance", "domain": "fluidstance.com", "to": "flow@fluidstance.com", "ts": "2026-11-07T13:30:55.855693"}
+{"id": "RL07B-063", "brand": "TooQ", "domain": "tooq.com", "to": "info@tooq.com", "ts": "2026-11-07T13:30:55.855705"}
+{"id": "RL07B-064", "brand": "NGS", "domain": "ngs.eu", "to": "support@ngs.eu", "ts": "2026-11-07T13:30:55.855713"}
+{"id": "RL07B-065", "brand": "X-Bows", "domain": "x-bows.com", "to": "support@x-bows.com", "ts": "2026-11-07T13:30:55.855719"}
+{"id": "RL07B-066", "brand": "dbramante1928", "domain": "dbramante1928.com", "to": "webshop@dbramante1928.com", "ts": "2026-11-07T13:30:55.855724"}
+{"id": "RL07B-067", "brand": "Luckies of London", "domain": "luckies.co.uk", "to": "shop@luckies.co.uk", "ts": "2026-11-07T13:30:55.855728"}
+{"id": "RL07B-068", "brand": "Karas Kustoms", "domain": "karaskustoms.com", "to": "info@karaskustoms.com", "ts": "2026-11-07T13:30:55.855733"}
+{"id": "RL07B-069", "brand": "Verilux", "domain": "verilux.com", "to": "hello@verilux.com", "ts": "2026-11-07T13:30:55.855737"}
+{"id": "RL07B-070", "brand": "DesignNest", "domain": "designnest.eu", "to": "webshop@designnest.eu", "ts": "2026-11-07T13:30:55.855741"}
+{"id": "RL07B-011", "brand": "Stratic", "domain": "stratic.de", "to": "info@stratic.de", "ts": "2026-11-07T13:31:28.108692"}
+{"id": "RL07B-012", "brand": "Astonish", "domain": "astonish.co.uk", "to": "info@astonish.co.uk", "ts": "2026-11-07T13:31:28.108736"}
+{"id": "RL07B-013", "brand": "Kochblume", "domain": "kochblume.de", "to": "service@kochblume.de", "ts": "2026-11-07T13:31:28.108753"}
+{"id": "RL07B-014", "brand": "DAGOMA", "domain": "dagoma3d.com", "to": "hello@dagoma3d.com", "ts": "2026-11-07T13:31:28.108763"}
+{"id": "RL07B-015", "brand": "Cumulus", "domain": "cumulus.pl", "to": "info@cumulus.pl", "ts": "2026-11-07T13:31:28.108771"}
+{"id": "RL07B-016", "brand": "Cycloc", "domain": "cycloc.com", "to": "marketing@cycloc.com", "ts": "2026-11-07T13:31:28.108779"}
+{"id": "RL07B-017", "brand": "Bodylastics", "domain": "bodylastics.com", "to": "help@bodylastics.com", "ts": "2026-11-07T13:31:28.108786"}
+{"id": "RL07B-018", "brand": "Basil", "domain": "basil.nl", "to": "marketing@basil.nl", "ts": "2026-11-07T13:31:28.108793"}
+{"id": "RL07B-019", "brand": "Tacray", "domain": "tacray.com", "to": "service@tacray.com", "ts": "2026-11-07T13:31:28.108800"}
+{"id": "RL07B-020", "brand": "Mepal", "domain": "mepal.com", "to": "info@mepal.com", "ts": "2026-11-07T13:31:28.108807"}
+{"id": "RL07B-071", "brand": "Cleo Skribent", "domain": "cleo-skribent.de", "to": "info@cleo-skribent.de", "ts": "2026-11-07T13:31:29.740678"}
+{"id": "RL07B-072", "brand": "VonHaus", "domain": "vonhaus.com", "to": "press@vonhaus.com", "ts": "2026-11-07T13:31:29.740715"}
+{"id": "RL07B-073", "brand": "Antsy Labs", "domain": "antsylabs.com", "to": "hello@antsylabs.com", "ts": "2026-11-07T13:31:29.740759"}
+{"id": "RL07B-074", "brand": "Intension Design", "domain": "intension-design.com", "to": "info@intension-design.com", "ts": "2026-11-07T13:31:29.740769"}
+{"id": "RL07B-075", "brand": "PORT Designs", "domain": "portdesigns.com", "to": "contact@portdesigns.com", "ts": "2026-11-07T13:31:29.740775"}
+{"id": "RL07B-076", "brand": "Standivarius", "domain": "standivarius.com", "to": "office@standivarius.com", "ts": "2026-11-07T13:31:29.740780"}
+{"id": "RL07B-077", "brand": "Grifiti", "domain": "grifiti.com", "to": "sales@grifiti.com", "ts": "2026-11-07T13:31:29.740784"}
+{"id": "RL07B-078", "brand": "Schon DSGN", "domain": "schondsgn.com", "to": "staff@schondsgn.com", "ts": "2026-11-07T13:31:29.740789"}
+{"id": "RL07B-079", "brand": "ICY BOX", "domain": "raidsonic.de", "to": "support@raidsonic.de", "ts": "2026-11-07T13:31:29.740794"}
+{"id": "RL07B-080", "brand": "Artwizz", "domain": "artwizzstore.com", "to": "info@artwizzstore.com", "ts": "2026-11-07T13:31:29.740798"}
+{"id": "RL07B-081", "brand": "Syncwire", "domain": "syncwire.com", "to": "support@syncwire.com", "ts": "2026-11-07T13:32:04.138678"}
+{"id": "RL07B-082", "brand": "NIXUS Sports", "domain": "nixussports.com", "to": "team@nixussports.com", "ts": "2026-11-07T13:32:04.138723"}
+{"id": "RL07B-083", "brand": "Mobisun", "domain": "mobisun.com", "to": "info@mobisun.com", "ts": "2026-11-07T13:32:04.138739"}
+{"id": "RL07B-084", "brand": "Icon LifeSaver", "domain": "iconlifesaver.com", "to": "info@iconlifesaver.com", "ts": "2026-11-07T13:32:04.138749"}
+{"id": "RL07B-085", "brand": "Movespeed", "domain": "movespeed.com", "to": "support@movespeed.com", "ts": "2026-11-07T13:32:04.138757"}
+{"id": "RL07B-086", "brand": "Hansshow", "domain": "hansshow.com", "to": "inquiry@hansshow.com", "ts": "2026-11-07T13:32:04.138765"}
+{"id": "RL07B-087", "brand": "Konstsmide", "domain": "konstsmide.co.uk", "to": "info@konstsmide.co.uk", "ts": "2026-11-07T13:32:04.138772"}
+{"id": "RL07B-088", "brand": "Green Stove", "domain": "green-stove.com", "to": "official@green-stove.com", "ts": "2026-11-07T13:32:04.138779"}
+{"id": "RL07B-089", "brand": "Blynt", "domain": "blynt.co.uk", "to": "contact@blynt.co.uk", "ts": "2026-11-07T13:32:04.138786"}
+{"id": "RL07B-090", "brand": "Reedog", "domain": "reedog.eu", "to": "info@reedog.eu", "ts": "2026-11-07T13:32:04.138793"}
+{"id": "RL07B-021", "brand": "Smart Materials 3D", "domain": "smartmaterials3d.com", "to": "info@smartmaterials3d.com", "ts": "2026-11-07T13:32:05.397016"}
+{"id": "RL07B-022", "brand": "Boundary Supply", "domain": "boundarysupply.com", "to": "press@boundarysupply.com", "ts": "2026-11-07T13:32:05.397051"}
+{"id": "RL07B-023", "brand": "Nanovia", "domain": "nanovia.tech", "to": "contact@nanovia.tech", "ts": "2026-11-07T13:32:05.397064"}
+{"id": "RL07B-024", "brand": "Le Parfait", "domain": "leparfait.com", "to": "contact@leparfait.com", "ts": "2026-11-07T13:32:05.397071"}
+{"id": "RL07B-025", "brand": "Iron Flask", "domain": "ironflask.com", "to": "support@ironflask.com", "ts": "2026-11-07T13:32:05.397077"}
+{"id": "RL07B-026", "brand": "SNAPTAIN", "domain": "snaptain.com", "to": "marketing@snaptain.com", "ts": "2026-11-07T13:32:05.397081"}
+{"id": "RL07B-027", "brand": "Kaffeeform", "domain": "kaffeeform.com", "to": "service@kaffeeform.com", "ts": "2026-11-07T13:32:05.397086"}
+{"id": "RL07B-028", "brand": "Hyperwear", "domain": "hyperwear.com", "to": "customerservice@hyperwear.com", "ts": "2026-11-07T13:32:05.397090"}
+{"id": "RL07B-029", "brand": "Fit Simplify", "domain": "fitsimplify.com", "to": "info@fitsimplify.com", "ts": "2026-11-07T13:32:05.397095"}
+{"id": "RL07B-030", "brand": "PNW Components", "domain": "pnwcomponents.com", "to": "info@pnwcomponents.com", "ts": "2026-11-07T13:32:05.397099"}
+{"id": "RL07B-091", "brand": "Venty", "domain": "ventyfan.com", "to": "support@ventyfan.com", "ts": "2026-11-07T13:32:37.199204"}
+{"id": "RL07B-092", "brand": "ibiyaya", "domain": "ibiyaya-usa.com", "to": "pet@ibiyaya-usa.com", "ts": "2026-11-07T13:32:37.199241"}
+{"id": "RL07B-093", "brand": "Silvergear", "domain": "silvergear.eu", "to": "customerservice@silvergear.eu", "ts": "2026-11-07T13:32:37.199254"}
+{"id": "RL07B-094", "brand": "Brightech", "domain": "brightech.com", "to": "partnerships@brightech.com", "ts": "2026-11-07T13:32:37.199262"}
+{"id": "RL07B-095", "brand": "Maxcio", "domain": "maxcio.com", "to": "support@maxcio.com", "ts": "2026-11-07T13:32:37.199267"}
+{"id": "RL07B-096", "brand": "Jansite", "domain": "jansite.com", "to": "support@jansite.com", "ts": "2026-11-07T13:32:37.199272"}
+{"id": "RL07B-097", "brand": "Flame Boss", "domain": "flameboss.com", "to": "support@flameboss.com", "ts": "2026-11-07T13:32:37.199277"}
+{"id": "RL07B-098", "brand": "DayBetter", "domain": "daybetter.com", "to": "service@daybetter.com", "ts": "2026-11-07T13:32:37.199281"}
+{"id": "RL07B-099", "brand": "Avatar Controls", "domain": "avatarcontrols.com", "to": "service@avatarcontrols.com", "ts": "2026-11-07T13:32:37.199286"}
+{"id": "RL07B-100", "brand": "Sphinx", "domain": "sphinx.pet", "to": "meow@sphinx.pet", "ts": "2026-11-07T13:32:37.199290"}
+{"id": "RL07B-031", "brand": "Ultimate Sandbag Training", "domain": "ultimatesandbagtraining.com", "to": "info@ultimatesandbagtraining.com", "ts": "2026-11-07T13:32:45.688612"}
+{"id": "RL07B-032", "brand": "SmartGames", "domain": "smart.be", "to": "deutschland@smart.be", "ts": "2026-11-07T13:32:45.688645"}
+{"id": "RL07B-033", "brand": "Fugentorpedo", "domain": "fugentorpedo.de", "to": "info@fugentorpedo.de", "ts": "2026-11-07T13:32:45.688658"}
+{"id": "RL07B-034", "brand": "Terra Nova", "domain": "terra-nova.co.uk", "to": "marketing@terra-nova.co.uk", "ts": "2026-11-07T13:32:45.688666"}
+{"id": "RL07B-036", "brand": "Ergon", "domain": "rtisports.de", "to": "service@rtisports.de", "ts": "2026-11-07T13:32:45.688671"}
+{"id": "RL07B-037", "brand": "Contixo", "domain": "contixo.com", "to": "support@contixo.com", "ts": "2026-11-07T13:32:45.688676"}
+{"id": "RL07B-038", "brand": "Redecker", "domain": "redecker.de", "to": "kontakt@redecker.de", "ts": "2026-11-07T13:32:45.688683"}
+{"id": "RL07B-039", "brand": "GoFit", "domain": "gofit.net", "to": "marketing@gofit.net", "ts": "2026-11-07T13:32:45.688691"}
+{"id": "RL07B-040", "brand": "MEL Science", "domain": "melscience.com", "to": "marketing@melscience.com", "ts": "2026-11-07T13:32:45.688698"}
+{"id": "RL07B-041", "brand": "WESCO", "domain": "wesco.de", "to": "hello@wesco.de", "ts": "2026-11-07T13:32:45.688705"}
+{"id": "RL07B-101", "brand": "OMOTON", "domain": "omoton.com", "to": "service@omoton.com", "ts": "2026-11-07T13:33:11.821453"}
+{"id": "RL07B-102", "brand": "Orbiloc", "domain": "orbiloc.com", "to": "info@orbiloc.com", "ts": "2026-11-07T13:33:11.821497"}
+{"id": "RL07B-103", "brand": "Petface", "domain": "leisuregrow.com", "to": "consumer@leisuregrow.com", "ts": "2026-11-07T13:33:11.821515"}
+{"id": "RL07B-105", "brand": "Outward Hound", "domain": "outwardhound.com", "to": "support@outwardhound.com", "ts": "2026-11-07T13:33:11.821527"}
+{"id": "RL07B-106", "brand": "ChillBeam", "domain": "chillbeam.com", "to": "hello@chillbeam.com", "ts": "2026-11-07T13:33:11.821536"}
+{"id": "RL07B-107", "brand": "Krafted", "domain": "kraftedtech.com", "to": "hello@kraftedtech.com", "ts": "2026-11-07T13:33:11.821545"}
+{"id": "RL07B-108", "brand": "Snoppa", "domain": "snoppa.com", "to": "marketing@snoppa.com", "ts": "2026-11-07T13:33:11.821552"}
+{"id": "RL07B-109", "brand": "Boum", "domain": "boum.garden", "to": "hello@boum.garden", "ts": "2026-11-07T13:33:11.821560"}
+{"id": "RL07B-110", "brand": "Cosyspeed", "domain": "cosyspeed.com", "to": "hello@cosyspeed.com", "ts": "2026-11-07T13:33:11.821568"}
+{"id": "RL07B-111", "brand": "Neoline", "domain": "neoline.com", "to": "support@neoline.com", "ts": "2026-11-07T13:33:11.821576"}
+{"id": "RL07B-042", "brand": "GIVI Bike", "domain": "givi-bike.com", "to": "shop@givi-bike.com", "ts": "2026-11-07T13:33:19.579161"}
+{"id": "RL07B-043", "brand": "Retekess", "domain": "retekess.com", "to": "support@retekess.com", "ts": "2026-11-07T13:33:19.579193"}
+{"id": "RL07B-044", "brand": "Chrambl", "domain": "chrambl.com", "to": "office@chrambl.com", "ts": "2026-11-07T13:33:19.579206"}
+{"id": "RL07B-045", "brand": "Birkmann", "domain": "birkmann.de", "to": "kundenservice@birkmann.de", "ts": "2026-11-07T13:33:19.579213"}
+{"id": "RL07B-046", "brand": "LiteAF", "domain": "liteaf.com", "to": "info@liteaf.com", "ts": "2026-11-07T13:33:19.579219"}
+{"id": "RL07B-047", "brand": "4URPC", "domain": "4urpc.com", "to": "support@4urpc.com", "ts": "2026-11-07T13:33:19.579224"}
+{"id": "RL07B-048", "brand": "Brandani", "domain": "brandani.it", "to": "brandani@brandani.it", "ts": "2026-11-07T13:33:19.579228"}
+{"id": "RL07B-049", "brand": "Haberland", "domain": "haberland.de", "to": "info@haberland.de", "ts": "2026-11-07T13:33:19.579232"}
+{"id": "RL07B-050", "brand": "MangDang", "domain": "mangdang.net", "to": "sales@mangdang.net", "ts": "2026-11-07T13:33:19.579236"}
+{"id": "RL07B-051", "brand": "Alpina", "domain": "alpina-sports.de", "to": "info@alpina-sports.de", "ts": "2026-11-07T13:33:19.579240"}
+{"id": "RL07B-112", "brand": "Novostella", "domain": "novostella.net", "to": "shop@novostella.net", "ts": "2026-11-07T13:33:21.274891"}
+{"id": "RL07B-113", "brand": "CozyPhones", "domain": "cozyphones.com", "to": "support@cozyphones.com", "ts": "2026-11-07T13:33:21.274924"}
+{"id": "RL07B-114", "brand": "BlackRapid", "domain": "blackrapid.com", "to": "hello@blackrapid.com", "ts": "2026-11-07T13:33:21.274964"}
+{"id": "RL07B-115", "brand": "Fodsports", "domain": "fodsports.com", "to": "wecare@fodsports.com", "ts": "2026-11-07T13:33:21.274973"}
+{"id": "RL07B-116", "brand": "Spider Holster", "domain": "spiderholster.com", "to": "hello@spiderholster.com", "ts": "2026-11-07T13:33:21.274979"}
+{"id": "RL07B-117", "brand": "AquaSonic", "domain": "aquasonic.com", "to": "support@aquasonic.com", "ts": "2026-11-07T13:33:21.274985"}
+{"id": "RL07B-118", "brand": "PAWAii", "domain": "pawaii.com", "to": "support@pawaii.com", "ts": "2026-11-07T13:33:21.274990"}
+{"id": "RL07B-119", "brand": "ToolkitRC", "domain": "toolkitrc.com", "to": "sales@toolkitrc.com", "ts": "2026-11-07T13:33:21.274995"}
+{"id": "RL07B-120", "brand": "Bitvae", "domain": "bitvae.com", "to": "support@bitvae.com", "ts": "2026-11-07T13:33:21.275000"}
+{"id": "RL07B-052", "brand": "WOLL", "domain": "woll.de", "to": "info@woll.de", "ts": "2026-11-07T13:33:28.755221"}
+{"id": "RL07B-053", "brand": "TreeD Filaments", "domain": "treedfilaments.com", "to": "team@treedfilaments.com", "ts": "2026-11-07T13:33:28.755264"}
+{"id": "RL07B-054", "brand": "Tarptent", "domain": "tarptent.com", "to": "info@tarptent.com", "ts": "2026-11-07T13:33:28.755282"}
+{"id": "RL07B-055", "brand": "LEFF amsterdam", "domain": "leffamsterdam.com", "to": "info@leffamsterdam.com", "ts": "2026-11-07T13:33:28.755292"}
+{"id": "RL07B-056", "brand": "DODOcase", "domain": "dodocase.com", "to": "press@dodocase.com", "ts": "2026-11-07T13:33:28.755301"}
+{"id": "RL07B-057", "brand": "Neomounts", "domain": "neomounts.com", "to": "info@neomounts.com", "ts": "2026-11-07T13:33:28.755309"}
+{"id": "RL07B-058", "brand": "LOCHBY", "domain": "lochby.com", "to": "hello@lochby.com", "ts": "2026-11-07T13:33:28.755316"}
+{"id": "RL07B-059", "brand": "Harber London", "domain": "harberlondon.com", "to": "support@harberlondon.com", "ts": "2026-11-07T13:33:28.755324"}
+{"id": "RL07B-060", "brand": "Forming Function", "domain": "formingfunction.se", "to": "info@formingfunction.se", "ts": "2026-11-07T13:33:28.755331"}
