@@ -870,6 +870,19 @@
    "reel_instagram": {
     "statut": "en attente",
     "prevu": "2026-11-09T11:00"
+   },
+   "tiktok_version_courte": {
+    "date": "2026-11-07",
+    "raison": "analyse du 7.11 : test de durée sur TikTok (PAS ENCORE)",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794055606/tiktok-autopilot/day32_lavage-30-60_tk.mp4",
+    "duree_s": 52.21,
+    "phrases_retirees": [
+     3,
+     10,
+     11,
+     12
+    ],
+    "instagram": "Story et Reel d'essai inchangés (version longue)"
    }
   },
   {
@@ -969,6 +982,19 @@
    "reel_instagram": {
     "statut": "en attente",
     "prevu": "2026-11-08T11:00"
+   },
+   "tiktok_version_courte": {
+    "date": "2026-11-07",
+    "raison": "analyse du 7.11 : test de durée sur TikTok (PAS ENCORE)",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794055602/tiktok-autopilot/day37_linge-seche-linge_tk.mp4",
+    "duree_s": 53.0,
+    "phrases_retirees": [
+     9,
+     10,
+     12,
+     14
+    ],
+    "instagram": "Story et Reel d'essai inchangés (version longue)"
    }
   },
   {
@@ -1383,6 +1409,19 @@
    "reel_instagram": {
     "statut": "en attente",
     "prevu": "2026-11-08T19:00"
+   },
+   "tiktok_version_courte": {
+    "date": "2026-11-07",
+    "raison": "analyse du 7.11 : test de durée sur TikTok (PAS ENCORE)",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794055605/tiktok-autopilot/day59_veille-tele_tk.mp4",
+    "duree_s": 49.72,
+    "phrases_retirees": [
+     6,
+     10,
+     11,
+     13
+    ],
+    "instagram": "Story et Reel d'essai inchangés (version longue)"
    }
   },
   {
@@ -1490,6 +1529,19 @@
    "reel_instagram": {
     "statut": "en attente",
     "prevu": "2026-11-09T19:00"
+   },
+   "tiktok_version_courte": {
+    "date": "2026-11-07",
+    "raison": "analyse du 7.11 : test de durée sur TikTok (PAS ENCORE)",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794055608/tiktok-autopilot/day70_iphone-suisse-france_tk.mp4",
+    "duree_s": 50.46,
+    "phrases_retirees": [
+     6,
+     10,
+     11,
+     14
+    ],
+    "instagram": "Story et Reel d'essai inchangés (version longue)"
    }
   },
   {

@@ -38,5 +38,18 @@
   "https://www.bag.admin.ch/fr/aeration-et-chauffage-appropries"
  ],
  "voix": "Chatterbox (tom_ref), Whisper relu",
- "controle_qualite": "Agent neuf + contre-visite, 06.11"
+ "controle_qualite": "Agent neuf + contre-visite, 06.11",
+ "tiktok_version_courte": {
+  "date": "2026-11-07",
+  "raison": "analyse du 7.11 : test de durée sur TikTok (PAS ENCORE)",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794055602/tiktok-autopilot/day37_linge-seche-linge_tk.mp4",
+  "duree_s": 53.0,
+  "phrases_retirees": [
+   9,
+   10,
+   12,
+   14
+  ],
+  "instagram": "Story et Reel d'essai inchangés (version longue)"
+ }
 }

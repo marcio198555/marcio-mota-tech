@@ -34,5 +34,18 @@
   "https://www.snb.ch/public/rss/en/exchangeRates"
  ],
  "buffer_id": "6aedd6b20b0f6e64a0c0cc63",
- "programme_le": "2026-11-09T18:00:00+01:00"
+ "programme_le": "2026-11-09T18:00:00+01:00",
+ "tiktok_version_courte": {
+  "date": "2026-11-07",
+  "raison": "analyse du 7.11 : test de durée sur TikTok (PAS ENCORE)",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794055608/tiktok-autopilot/day70_iphone-suisse-france_tk.mp4",
+  "duree_s": 50.46,
+  "phrases_retirees": [
+   6,
+   10,
+   11,
+   14
+  ],
+  "instagram": "Story et Reel d'essai inchangés (version longue)"
+ }
 }

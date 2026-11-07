@@ -282,3 +282,32 @@ Production du 06.11 (vidéos de 18 h, 7 au 12.11 : jours 27, 59, 70, 58, 57, 24)
 - **Force des affirmations** (contrôle) : FDA = « dans un plat épais » ; 5 % par degré de Que Choisir = réfrigérateur seulement, sur un combiné c'est un maximum (dit « jusqu'à ») ; Purdue ne mesure pas les yeux ; une revue qui lie litres et taux de gens qui rincent : dire les deux chiffres ; « sans taxe » faux si le prix contient autre chose (timbre, recyclage) : « sans TVA » ; un calcul de détaxe n'est qu'un minimum (« au mieux »).
 - `render/kit.js` (objet KIT, chargé par render.js) : tampon, cartes, calcul, barres, thermomètre, pièces, horloge, drapeaux, duel, commentaire, personnages frigo et micro-ondes. Une scène fait 110 à 140 lignes. `tools/fake_tl.py NN sortie.json` : timeline d'essai pour regarder la scène avant la voix. `tools/make_cues_auto.py` : repères sonores. Rendu V : 5 min ; A : 7 min.
 - Tailles : `tag` et `chip` jamais sous 36 px, c'est le défaut de KIT depuis ce jour.
+
+## 07.11.2026 — Analyse tous les 2 jours n° 1 (13 h 17) : TikTok PAS ENCORE, Instagram PAS ENCORE (nouvelle recette au-dessus de 1 000)
+Sources : Buffer `list_posts` avec chiffres (mis à jour le 7.11 à 4 h 40), Metricool (abonnés TikTok), Windsor (Instagram, 7.11). Fenêtre : vidéos de l'autopilote publiées du 5.11 au 7.11, jugées à 18 h d'âge au moins (avant le 6.11 à 19 h 20).
+| TikTok (≥ 18 h) | Recette | Durée | Vues | Temps moyen regardé | J'aime | Partages | Comm. |
+|---|---|---|---|---|---|---|---|
+| 55 charge la nuit (5.11, 20 h 30) | nouvelle (V) | 68 s | **328** | **18,0 s** | 20 | 2 | 1 |
+| 21 lave-vaisselle (5.11, 10 h) | ancienne (V) | 23 s | 268 | 6,7 s | 7 | 0 | 0 |
+| Aeotec (6.11, 18 h, R) | réel | 20 s | 269 | 6,6 s | 1 | 0 | 0 |
+| 23 robot aspirateur (6.11, 10 h) | ancienne (A) | 32 s | 259 | 8,9 s | 2 | 0 | 0 |
+| Sleepal (5.11, 18 h, R) | réel | 17 s | 247 | 4,4 s | 3 | 0 | 0 |
+Médiane de la fenêtre : 268 vues ; nouvelle recette seule : 328 (une seule vidéo jugée). 60 charge rapide (7.11, 10 h) : chiffres Buffer pas encore à jour (0), rien à conclure. Abonnés TikTok : 76 (6.11), +1 sur la semaine. Une publication « #milestone » du 6.11 à 21 h 58 (47 s, 7 vues) n'est pas de l'autopilote : pas touchée.
+| Reels d'essai Instagram | Recette | Vues | Portée | Enreg. |
+|---|---|---|---|---|
+| 55 charge la nuit (DfW2dtllVSe) | nouvelle | **2 412** | 2 105 | 6 |
+| 23 robot aspirateur (DfY8Tvekzit) | ancienne | 1 307 | 1 062 | 1 |
+| batterie externe recyclée (DfWXdmnlQq1) | jour 3 | 765 | 617 | 3 |
+| 22 (DfWXhlwCu_o) | ancienne | 710 | 571 | 0 |
+| gourde recyclée (DfY8T38E_QA) | ancienne | 91 | 80 | 0 |
+| premier signal (6 h) : 60 charge rapide (DfbhHVekbbz) | nouvelle | 1 387 | 1 275 | 1 |
+| premier signal (6 h) : 27 frigo (DfbhGhajQ6I) | nouvelle | 1 175 | 1 039 | 0 |
+Médiane des Reels jugés : 765 → PAS ENCORE. Mais les 3 Reels de la nouvelle recette sont tous au-dessus de 1 000 (2 412 jugé ; 1 387 et 1 175 en 6 h). Stories : Windsor n'en renvoie aucune, **donnée manquante**. Abonnés Instagram : 34 576 (34 573 le 6.11).
+Verdict : **TikTok PAS ENCORE** (la nouvelle recette fait 328, dans la bande 300–600 ; la médiane de la fenêtre, 268, vient des anciennes vidéos et des R, déjà abandonnés ; le verdict « ne marche pas » demande aussi « aucun Reel ≥ 1 000 », ce qui n'est pas le cas). **Instagram PAS ENCORE, en nette hausse** : on ne change rien sur Instagram.
+Pourquoi : la meilleure vidéo des deux réseaux est la même (55). Sur TikTok, les gens regardent 18 s sur 68 (26 %) ; les 2 seules vidéos TikTok sorties au-dessus de 600 (jours 1 et 3) duraient 37 et 40 s. Metricool (meilleures heures, 8–9.11) met déjà 10 h et 18 h en tête : l'heure n'est pas le levier.
+Décision (une seule chose changée, TikTok seulement) : **durée**. Les 4 vidéos TikTok des 8 et 9.11 passent en version courte de 50 à 53 s (37 : 53,0 s ; 59 : 49,7 ; 32 : 52,2 ; 70 : 50,5), en retirant des phrases entières (bonus, 2e chiffre, retour au duel), sans changer ni l'accroche, ni la légende, ni l'heure. Instagram (Stories et Reels d'essai) garde les versions longues. À juger à l'analyse du 9.11 (37 et 32) et du 11.11 (59 et 70) : temps moyen regardé et vues contre la vidéo 55 (328 vues, 18 s) et 60.
+Production :
+- `tools/tk_short.py NN i,j,k` : retire des phrases (indices de `studio/timeline.json`), coupe au milieu des blancs, fondu son 40 ms ; `days/dayNN/tk_cuts.json` garde la liste. Contrôle par un agent neuf : faits et son OK, mais 1 à 3 images de la phrase retirée (fondu de sortie, sous-titre suivant) apparaissaient après chaque raccord. Correction : l'image s'arrête à la fin de la voix et reste figée jusqu'au raccord + 0,15 s (le son ne change pas). Planche revérifiée : plus aucune image ni sous-titre de phrase retirée.
+- Whisper (pont) : textes conformes, aucun mot incertain ; il n'entend pas les lettres seules « G » et « C » (classes énergie) ni « Èl-Gé », déjà le cas dans les versions longues contrôlées le 06.11 (affichées à l'écran).
+- Cloudinary : envoi direct refusé par le proxy (api.cloudinary.com) ; `upload-asset` depuis raw.githubusercontent (commit be41ca9) marche. Buffer : `edit_post` (vidéo seule, légende, titre et isAiGenerated gardés).
+- Dans ffmpeg, plusieurs `trim` sur la même entrée tuent le processus (mémoire) : une entrée `-ss/-to` par passage.
