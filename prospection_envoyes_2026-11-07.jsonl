@@ -156,3 +156,39 @@
 {"id": "PD07G-003", "brand": "Beysis", "domain": "beysis.com", "to": "hello@beysis.com", "ts": "2026-11-07T12:23:54.078338"}
 {"id": "PD07G-004", "brand": "Zorali", "domain": "zorali.com", "to": "hello@zorali.com", "ts": "2026-11-07T12:23:54.078348"}
 {"id": "PD07G-005", "brand": "5ithz", "domain": "5ithz.com", "to": "contact@5ithz.com", "ts": "2026-11-07T12:23:54.078355"}
+{"id": "PD07H-001", "brand": "LAMU", "domain": "lamuhome.com", "to": "info@lamuhome.com", "ts": "2026-11-07T12:49:07.638594"}
+{"id": "PD07H-002", "brand": "Crandall Fitness", "domain": "crandallfitness.com", "to": "sales@crandallfitness.com", "ts": "2026-11-07T12:49:07.638637"}
+{"id": "PD07H-003", "brand": "Halfday", "domain": "halfdaytravel.com", "to": "help@halfdaytravel.com", "ts": "2026-11-07T12:49:07.638651"}
+{"id": "PD07H-004", "brand": "PowerPlay", "domain": "powerplay.us", "to": "info@powerplay.us", "ts": "2026-11-07T12:49:07.638659"}
+{"id": "PD07H-005", "brand": "NOXNOX", "domain": "noxnox.eu", "to": "info@noxnox.eu", "ts": "2026-11-07T12:49:07.638665"}
+{"id": "PD07H-006", "brand": "Cozy Heaven", "domain": "cozy-heaven.com", "to": "yourfriends@cozy-heaven.com", "ts": "2026-11-07T12:49:07.638670", "bounced": true}
+{"id": "PD07H-007", "brand": "BrainGain", "domain": "braingain.fit", "to": "support@braingain.fit", "ts": "2026-11-07T12:49:07.638674"}
+{"id": "PD07H-008", "brand": "Poppin", "domain": "poppin.com", "to": "affiliate@poppin.com", "ts": "2026-11-07T12:49:07.638679"}
+{"id": "PD07H-009", "brand": "Tiger Tail USA", "domain": "tigertailusa.com", "to": "sales@tigertailusa.com", "ts": "2026-11-07T12:49:07.638683"}
+{"id": "PD07H-010", "brand": "PTP", "domain": "ptpfit.com", "to": "info@ptpfit.com", "ts": "2026-11-07T12:49:07.638688"}
+{"id": "PD07H-011", "brand": "ENZE Home", "domain": "enzehome.com", "to": "support@enzehome.com", "ts": "2026-11-07T12:49:52.425036"}
+{"id": "PD07H-012", "brand": "One Affirmation", "domain": "oneaffirmation.com", "to": "hello@oneaffirmation.com", "ts": "2026-11-07T12:49:52.425120"}
+{"id": "PD07H-013", "brand": "MELALIGHT", "domain": "melalight.com", "to": "affiliates@melalight.com", "ts": "2026-11-07T12:49:52.425138"}
+{"id": "PD07H-014", "brand": "GamerTech", "domain": "gamertech.ca", "to": "info@gamertech.ca", "ts": "2026-11-07T12:49:52.425147"}
+{"id": "PD07H-015", "brand": "Duck Barn Interiors", "domain": "duckbarn.co.uk", "to": "info@duckbarn.co.uk", "ts": "2026-11-07T12:49:52.425152"}
+{"id": "PD07H-016", "brand": "Home and Kraft", "domain": "homeandkraft.com", "to": "hello@homeandkraft.com", "ts": "2026-11-07T12:49:52.425158"}
+{"id": "PD07H-017", "brand": "Aussie Fitness Pros", "domain": "aussiefitnesspros.com", "to": "sales@aussiefitnesspros.com", "ts": "2026-11-07T12:49:52.425162"}
+{"id": "PD07H-018", "brand": "Snode Sport", "domain": "snodesport.com", "to": "info@snodesport.com", "ts": "2026-11-07T12:49:52.425167"}
+{"id": "PD07H-019", "brand": "Athletico", "domain": "athleticogear.com", "to": "info@athleticogear.com", "ts": "2026-11-07T12:49:52.425172"}
+{"id": "PD07H-020", "brand": "Ruksak", "domain": "ruksak.com", "to": "team@ruksak.com", "ts": "2026-11-07T12:49:52.425176"}
+{"id": "PD07H-021", "brand": "Solara '94", "domain": "solara94.com", "to": "hello@solara94.com", "ts": "2026-11-07T12:50:23.579917"}
+{"id": "PD07H-022", "brand": "DreamTraveller", "domain": "dreamtraveller.com", "to": "affiliate@dreamtraveller.com", "ts": "2026-11-07T12:50:23.579961"}
+{"id": "PD07H-023", "brand": "iFLY Luggage", "domain": "iflyluggage.com", "to": "customercare@iflyluggage.com", "ts": "2026-11-07T12:50:23.579979"}
+{"id": "PD07H-024", "brand": "Shardor", "domain": "shardorlife.com", "to": "support@shardor1.com", "ts": "2026-11-07T12:50:23.579990"}
+{"id": "PD07H-025", "brand": "Bulldog Gear", "domain": "bulldoggear.com", "to": "marketing@bulldoggear.com", "ts": "2026-11-07T12:50:23.579999"}
+{"id": "PD07H-026", "brand": "Yogom", "domain": "yogom.fr", "to": "contact@yogom.fr", "ts": "2026-11-07T12:50:23.580007"}
+{"id": "PD07H-027", "brand": "Viva Essence Pet", "domain": "vivaessencepet.com", "to": "info@vivaessencepet.com", "ts": "2026-11-07T12:50:23.580014"}
+{"id": "PD07H-028", "brand": "UpDown Desk", "domain": "updowndesk.com.au", "to": "contact@updowndesk.com.au", "ts": "2026-11-07T12:50:23.580022"}
+{"id": "PD07H-029", "brand": "Fringe Sport", "domain": "fringesport.com", "to": "team@fringesport.com", "ts": "2026-11-07T12:50:23.580031"}
+{"id": "PD07H-030", "brand": "Asivana Yoga", "domain": "asivanayoga.com", "to": "support@asivana.com", "ts": "2026-11-07T12:50:23.580039"}
+{"id": "PD07H-031", "brand": "Elevate Rope", "domain": "elevaterope.com", "to": "support@elevaterope.com", "ts": "2026-11-07T12:50:31.017774"}
+{"id": "PD07H-032", "brand": "Elite Jumps", "domain": "elitejumps.co", "to": "contact@elitejumps.co", "ts": "2026-11-07T12:50:31.017815"}
+{"id": "PD07H-033", "brand": "Ativafit", "domain": "ativafit.com", "to": "services@ativafit.com", "ts": "2026-11-07T12:50:31.017832"}
+{"id": "PD07H-034", "brand": "TuffWraps", "domain": "tuffwraps.com", "to": "ambassador@tuffwraps.com", "ts": "2026-11-07T12:50:31.017843"}
+{"id": "PD07H-035", "brand": "PersonalHour", "domain": "personalhour.com", "to": "app@personalhour.com", "ts": "2026-11-07T12:50:31.017854"}
+{"id": "PD07H-037", "brand": "woom", "domain": "woom.com", "to": "influencer@woom.com", "ts": "2026-11-07T12:50:31.017862"}
