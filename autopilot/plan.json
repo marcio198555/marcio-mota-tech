@@ -770,8 +770,12 @@
     "programme_le": "2026-11-07T18:05:00+01:00"
    },
    "reel_instagram": {
-    "statut": "en attente",
-    "prevu": "2026-11-07T19:00"
+    "statut": "publié (vidIQ)",
+    "prevu": "2026-11-07T19:00",
+    "publie_le": "2026-11-07T07:20+01:00",
+    "lien": "https://www.instagram.com/reel/DfbhGhajQ6I/",
+    "media_id": "18148708519589032",
+    "container_id": "17956298367294026"
    }
   },
   {
@@ -1407,8 +1411,10 @@
     "programme_le": "2026-11-07T10:05:00+01:00"
    },
    "reel_instagram": {
-    "statut": "en attente",
-    "prevu": "2026-11-07T11:00"
+    "statut": "publié (vidIQ)",
+    "prevu": "2026-11-07T11:00",
+    "publie_le": "2026-11-07T07:20+01:00",
+    "container_id": "17956298364294026"
    }
   },
   {
