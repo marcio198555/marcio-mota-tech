@@ -1,0 +1,26 @@
+{
+ "source": "day32_lavage-30-60.mp4",
+ "sortie": "day32_lavage-30-60_tk.mp4",
+ "retires": [
+  3,
+  10,
+  11,
+  12
+ ],
+ "gardes": [
+  [
+   0.0,
+   8.017
+  ],
+  [
+   9.864,
+   40.34
+  ],
+  [
+   55.379,
+   69.1
+  ]
+ ],
+ "duree_s": 52.21,
+ "texte": "Toi, tu me lances à soixante degrés. Ton collègue, à trente. Lequel a le linge le plus propre, et lequel paie le plus ? Même à soixante, on ne stérilise pas le linge, dit Karl Perron, de l'université de Genève. Pour la Èr Té Èss, soixante reste nécessaire après une maladie ou pour une immunité fragile. Sur les taches, Les Numériques a testé : soixante degrés gagne. Bravo, mais dans ce test, tu consommes deux virgule sept fois plus qu'à trente. Sur l'exemple d'un fournisseur de Vienne, au tarif médian suisse : vingt-deux centimes d'électricité la machine, contre sept. À trois machines par semaine : environ vingt-deux francs d'écart par an. Écris en commentaire à combien de degrés tu laves tes draps. Toi à soixante, ton collègue à trente : ça dépend du linge. Abonne-toi : ce soir, même aïe-fone, en Suisse et en France : où coûte-t-il le moins cher ?"
+}

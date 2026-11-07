@@ -1,0 +1,30 @@
+{
+ "source": "day70_iphone-suisse-france.mp4",
+ "sortie": "day70_iphone-suisse-france_tk.mp4",
+ "retires": [
+  6,
+  10,
+  11,
+  14
+ ],
+ "gardes": [
+  [
+   0.0,
+   24.545
+  ],
+  [
+   27.497,
+   42.762
+  ],
+  [
+   49.793,
+   56.218
+  ],
+  [
+   61.774,
+   66.0
+  ]
+ ],
+ "duree_s": 50.46,
+ "texte": "Même aïe-fone dix-sept. Toi, tu l'achètes en Suisse. Ton collègue, en France. Qui paie le moins ? Reste : même avec la détaxe, la réponse va te surprendre. Apple Suisse affiche huit cent nonante-neuf francs. Apple France : mille cent dix-neuf euros. Au cours de la Banque nationale, ça fait mille vingt-sept francs. Cent vingt-huit francs de plus qu'en Suisse. Sans la té-vé-a française : au mieux, huit cent cinquante-six francs. Sauf qu'à la frontière, au-dessus de cent cinquante francs, il doit la té-vé-a suisse. Résultat, au mieux : neuf cent vingt-cinq francs, encore vingt-six de plus qu'en Suisse. Les prix bougent : refais le calcul. Et toi, ton téléphone, tu l'achètes où ? Écris-le en commentaire. Abonne-toi : demain, faut-il éteindre ta box internet la nuit ?"
+}

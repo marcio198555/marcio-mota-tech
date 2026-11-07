@@ -1,0 +1,30 @@
+{
+ "source": "day59_veille-tele.mp4",
+ "sortie": "day59_veille-tele_tk.mp4",
+ "retires": [
+  6,
+  10,
+  11,
+  13
+ ],
+ "gardes": [
+  [
+   0.0,
+   26.584
+  ],
+  [
+   29.606,
+   42.48
+  ],
+  [
+   49.542,
+   54.452
+  ],
+  [
+   59.614,
+   64.967
+  ]
+ ],
+ "duree_s": 49.72,
+ "texte": "Toi, tu éteins ta télé à la télécommande. Ton collègue la débranche tous les soirs. Qui a raison ? Reste : un réglage de ta télé peut changer la note. À la télécommande, elle ne s'éteint pas : elle passe en veille. Fiche européenne d'une Samsung cinquante-cinq pouces : veille simple, zéro virgule cinq watt. Toute l'année, au maximum : quatre virgule quatre kilowattheures. Au tarif médian suisse : un franc vingt par an. Surprise : même fiche, veille connectée, deux watts. Quatre fois plus : quatre francs quatre-vingt-cinq par an. Èl-Gé et Sony préviennent : le démarrage rapide peut augmenter la consommation. Démarrage rapide activé, chez toi ? Écris-le en commentaire. Abonne-toi : demain, lave-linge à trente ou soixante degrés, qui paie quoi ?"
+}

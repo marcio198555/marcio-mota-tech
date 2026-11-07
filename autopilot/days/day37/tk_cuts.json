@@ -1,0 +1,30 @@
+{
+ "source": "day37_linge-seche-linge.mp4",
+ "sortie": "day37_linge-seche-linge_tk.mp4",
+ "retires": [
+  9,
+  10,
+  12,
+  14
+ ],
+ "gardes": [
+  [
+   0.0,
+   39.255
+  ],
+  [
+   45.553,
+   51.674
+  ],
+  [
+   57.309,
+   60.123
+  ],
+  [
+   64.192,
+   69.0
+  ]
+ ],
+ "duree_s": 53.0,
+ "texte": "Toi, ton linge sèche au salon. Ton collègue lance le sèche-linge. Qui paie le plus ? La réponse en francs, puis la surprise dans l'air. Un Bosh suisse à pompe à chaleur : zéro virgule nonante-neuf kilowattheure par séchage. Au tarif médian, vingt-sept virgule sept centimes, ça fait vingt-sept centimes. Un Bosh belge à condensation classé G : trois virgule zéro huit kilowattheures, soit quatre-vingt-cinq centimes. Mais en Suisse, un modèle de ménage neuf doit être au moins classé C. Toi, zéro kilowattheure : en électricité, c'est ton collègue qui paie. Mais une étude pour l'Adème compte environ deux litres d'eau par machine dans l'air. L'Office fédéral de la santé publique conseille d'éviter de sécher le linge dans les pièces habitables. Ton étendoir, il est dans quelle pièce ? Abonne-toi : ce soir, ce que ta télé fait quand tu crois l'avoir éteinte."
+}
