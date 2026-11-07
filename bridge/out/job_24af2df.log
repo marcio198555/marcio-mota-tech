@@ -70,3 +70,7 @@ asr autopilot/vo/day70_tk.wav -> Même iPhone 17, toi, tu l'achètes en Suisse, 
 + git config user.name 'github-actions[bot]'
 + git config user.email '41898283+github-actions[bot]@users.noreply.github.com'
 + git add -f bridge/out autopilot/tts/out autopilot/asr/out
++ git diff --cached --quiet
++ git commit -q -m 'bridge output (transcription) [skip-bridge]'
++ for i in 1 2 3
++ git pull -q --rebase --autostash -X theirs origin tiktok-autopilot
