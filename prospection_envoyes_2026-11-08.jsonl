@@ -60,3 +60,58 @@
 {"id": "RL08A-040", "brand": "Haxnicks", "domain": "haxnicks.co.uk", "to": "info@haxnicks.co.uk", "ts": "2026-11-08T08:25:26.615857"}
 {"id": "RL08A-041", "brand": "Knirps", "domain": "knirps.com", "to": "shop@knirps.com", "ts": "2026-11-08T08:25:26.637840"}
 {"id": "RL08A-042", "brand": "Berry&Bird", "domain": "berryandbird.com", "to": "info@berryandbird.com", "ts": "2026-11-08T08:25:26.637873"}
+{"id": "RL08B-001", "brand": "Tickless", "domain": "tickless.com", "to": "info@tickless.com", "ts": "2026-11-08T11:45:05.013782"}
+{"id": "RL08B-002", "brand": "Tre Ponti", "domain": "treponti.com", "to": "shop@treponti.com", "ts": "2026-11-08T11:45:05.013817"}
+{"id": "RL08B-003", "brand": "PAIKKA", "domain": "paikka.pet", "to": "customerservice@paikka.pet", "ts": "2026-11-08T11:45:05.013827"}
+{"id": "RL08B-004", "brand": "Roverlund", "domain": "roverlund.com", "to": "woof@roverlund.com", "ts": "2026-11-08T11:45:05.013833"}
+{"id": "RL08B-005", "brand": "Gooby", "domain": "goobypet.com", "to": "hello@goobypet.com", "ts": "2026-11-08T11:45:05.013837"}
+{"id": "RL08B-006", "brand": "Doggies Design", "domain": "doggiesdesign.com", "to": "woof@doggiesdesign.com", "ts": "2026-11-08T11:45:05.013841"}
+{"id": "RL08B-007", "brand": "Fluff & Tuff", "domain": "fluffandtuff.com", "to": "info@fluffandtuff.com", "ts": "2026-11-08T11:45:05.013845"}
+{"id": "RL08B-008", "brand": "DogSpace", "domain": "dogspace.dk", "to": "sayhey@dogspace.dk", "ts": "2026-11-08T11:45:05.013848"}
+{"id": "RL08B-009", "brand": "Z Grills", "domain": "zgrills.com", "to": "support@zgrills.com", "ts": "2026-11-08T11:45:05.013851"}
+{"id": "RL08B-010", "brand": "Big Horn Outdoors", "domain": "bighornoutdoor.com", "to": "aftersales@bighornoutdoor.com", "ts": "2026-11-08T11:45:05.013854"}
+{"id": "RL08B-011", "brand": "Designed by Lotte", "domain": "designedbylotte.nl", "to": "info@designedbylotte.nl", "ts": "2026-11-08T11:45:38.855443"}
+{"id": "RL08B-012", "brand": "Dogrobes", "domain": "dogrobes.co.uk", "to": "info@dogrobes.co.uk", "ts": "2026-11-08T11:45:38.855475"}
+{"id": "RL08B-013", "brand": "Woolly Wolf", "domain": "woollywolf.co", "to": "hello@woollywolf.co", "ts": "2026-11-08T11:45:38.855485"}
+{"id": "RL08B-014", "brand": "Tuggo", "domain": "tuggodogtoy.com", "to": "press@tuggodogtoy.com", "ts": "2026-11-08T11:45:38.855491"}
+{"id": "RL08B-015", "brand": "GARDIGO", "domain": "tevigo.de", "to": "service@tevigo.de", "ts": "2026-11-08T11:45:38.855495"}
+{"id": "RL08B-016", "brand": "Mousebouncer", "domain": "mousebouncer.com", "to": "info@mousebouncer.com", "ts": "2026-11-08T11:45:38.855499"}
+{"id": "RL08B-017", "brand": "Klyqa", "domain": "klyqa.de", "to": "info@klyqa.de", "ts": "2026-11-08T11:45:38.855503"}
+{"id": "RL08B-018", "brand": "Pet Rebellion", "domain": "petrebellion.co.uk", "to": "info@petrebellion.co.uk", "ts": "2026-11-08T11:45:38.855506"}
+{"id": "RL08B-019", "brand": "Neater Pets", "domain": "neaterpets.com", "to": "customerservice@neaterpets.com", "ts": "2026-11-08T11:45:38.855510"}
+{"id": "RL08B-020", "brand": "Willi Wiggle", "domain": "williwiggle.com", "to": "info@williwiggle.com", "ts": "2026-11-08T11:45:38.855514"}
+{"id": "RL08B-021", "brand": "PIUPET", "domain": "piupet.de", "to": "hello@piupet.de", "ts": "2026-11-08T11:46:14.371322"}
+{"id": "RL08B-022", "brand": "Pogo Dog", "domain": "pogo.dog", "to": "info@pogo.dog", "ts": "2026-11-08T11:46:14.371352"}
+{"id": "RL08B-023", "brand": "Tailpetz", "domain": "tailpetz.com", "to": "info@tailpetz.com", "ts": "2026-11-08T11:46:14.371361"}
+{"id": "RL08B-024", "brand": "PawZ", "domain": "pawzdogboots.com", "to": "support@pawzdogboots.com", "ts": "2026-11-08T11:46:14.371367"}
+{"id": "RL08B-025", "brand": "ALECOO", "domain": "alecoo.de", "to": "info@alecoo.de", "ts": "2026-11-08T11:46:14.371371"}
+{"id": "RL08B-026", "brand": "annyx", "domain": "annyx.de", "to": "info@annyx.de", "ts": "2026-11-08T11:46:14.371375"}
+{"id": "RL08B-027", "brand": "LENNIE", "domain": "lennie-equipment.de", "to": "info@lennie-equipment.de", "ts": "2026-11-08T11:46:14.371378"}
+{"id": "RL08B-028", "brand": "Hem & Boo", "domain": "hemandboo.co.uk", "to": "admin@hemandboo.co.uk", "ts": "2026-11-08T11:46:14.371382"}
+{"id": "RL08B-029", "brand": "Carradice", "domain": "carradice.co.uk", "to": "info@carradice.co.uk", "ts": "2026-11-08T11:46:14.371385"}
+{"id": "RL08B-030", "brand": "Joe's No-Flats", "domain": "adhestick.com", "to": "joe@adhestick.com", "ts": "2026-11-08T11:46:14.371389"}
+{"id": "RL08B-031", "brand": "YAKKAY", "domain": "yakkay.com", "to": "info@yakkay.com", "ts": "2026-11-08T11:46:47.862971"}
+{"id": "RL08B-032", "brand": "Viwares", "domain": "viwares.de", "to": "kooperation@viwares.de", "ts": "2026-11-08T11:46:47.862998"}
+{"id": "RL08B-033", "brand": "MiVelo", "domain": "mivelo.de", "to": "support@mivelo.de", "ts": "2026-11-08T11:46:47.863007"}
+{"id": "RL08B-034", "brand": "Bentgo", "domain": "bentgo.com", "to": "support@bentgo.com", "ts": "2026-11-08T11:46:47.863012"}
+{"id": "RL08B-035", "brand": "Pebbly", "domain": "pebbly.com", "to": "livepebbly@pebbly.com", "ts": "2026-11-08T11:46:47.863017"}
+{"id": "RL08B-036", "brand": "tubus", "domain": "hebie-group.com", "to": "contact@hebie-group.com", "ts": "2026-11-08T11:46:47.863020"}
+{"id": "RL08B-037", "brand": "Vibrelli", "domain": "vibrelli.com", "to": "support@vibrelli.com", "ts": "2026-11-08T11:46:47.863024"}
+{"id": "RL08B-038", "brand": "magped", "domain": "magped.com", "to": "welcome@magped.com", "ts": "2026-11-08T11:46:47.863027"}
+{"id": "RL08B-039", "brand": "Mirrycle", "domain": "wheelsmfg.com", "to": "info@wheelsmfg.com", "ts": "2026-11-08T11:46:47.863031"}
+{"id": "RL08B-040", "brand": "Rig-Tig", "domain": "rig-tig.com", "to": "hello@rig-tig.com", "ts": "2026-11-08T11:46:47.863034"}
+{"id": "RL08B-041", "brand": "Effetto Mariposa", "domain": "effettomariposa.com", "to": "info@effettomariposa.com", "ts": "2026-11-08T11:47:13.051421"}
+{"id": "RL08B-042", "brand": "Rock N Roll", "domain": "rocklube.com", "to": "contact@rocklube.com", "ts": "2026-11-08T11:47:13.051460"}
+{"id": "RL08B-043", "brand": "K\u00fcchenkompane", "domain": "kuechenkompane.de", "to": "info@kuechenkompane.de", "ts": "2026-11-08T11:47:13.051472"}
+{"id": "RL08B-044", "brand": "Mudhugger", "domain": "themudhugger.co.uk", "to": "sales@themudhugger.co.uk", "ts": "2026-11-08T11:47:13.051479"}
+{"id": "RL08B-045", "brand": "Granite Gear", "domain": "granitegear.com", "to": "info@granitegear.com", "ts": "2026-11-08T11:47:13.051484"}
+{"id": "RL08B-046", "brand": "G\u00fcde", "domain": "guede-solingen.de", "to": "info@guede-solingen.de", "ts": "2026-11-08T11:47:13.051490"}
+{"id": "RL08B-047", "brand": "Ritzenhoff", "domain": "ritzenhoff.de", "to": "brian.raile@ritzenhoff.de", "ts": "2026-11-08T11:47:13.051495"}
+{"id": "RL08B-048", "brand": "LEONARDO", "domain": "leonardo.de", "to": "service@leonardo.de", "ts": "2026-11-08T11:47:13.051500"}
+{"id": "RL08B-049", "brand": "Sana Products", "domain": "sanaproducts.com", "to": "info@sanaproducts.com", "ts": "2026-11-08T11:47:13.051505"}
+{"id": "RL08B-050", "brand": "Acepac", "domain": "acepac.bike", "to": "shop@acepac.bike", "ts": "2026-11-08T11:47:13.051510"}
+{"id": "RL08B-051", "brand": "Cratoni", "domain": "cratoni.com", "to": "info@cratoni.com", "ts": "2026-11-08T11:47:19.332049"}
+{"id": "RL08B-052", "brand": "Sunware", "domain": "sunware.nl", "to": "klantenservice@sunware.nl", "ts": "2026-11-08T11:47:19.332095"}
+{"id": "RL08B-053", "brand": "Hey Lana", "domain": "heylana.de", "to": "hey@heylana.de", "ts": "2026-11-08T11:47:19.332108"}
+{"id": "RL08B-054", "brand": "Manufactum", "domain": "manufactum.de", "to": "presse@manufactum.de", "ts": "2026-11-08T11:47:19.332115"}
+{"id": "RL08B-055", "brand": "Hiroia", "domain": "hiroia.com", "to": "support@hiroia.com", "ts": "2026-11-08T11:47:19.332120"}
