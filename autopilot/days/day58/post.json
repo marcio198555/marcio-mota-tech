@@ -10,13 +10,14 @@
  "aigc": true,
  "branded": false,
  "cover_ms": 1500,
- "statut": "prête",
+ "statut": "programmée",
  "tiktok_title": "Pourquoi le centre de ton plat reste froid au micro-ondes ?",
  "caption": "Micro-ondes : non, il ne chauffe pas de l'intérieur 🍲 FDA : dans un plat épais, les couches extérieures sont cuites surtout par les ondes, l'intérieur par conduction. USDA : pénétration de 2,5 à 3,8 cm (1 à 1,5 pouce), étaler, couvrir, mélanger, temps de repos. Zones froides environ tous les 6 cm : la moitié de la longueur d'onde de 12 cm à 2,45 GHz. Micro-ondes fictif, voix de synthèse. Toi, tu mélanges ou tu rajoutes du temps ? 👇 #microondes #cuisine #astucemaison #rechauffer #suisseromande",
  "duree_s": 69.07,
  "story_instagram": {
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971842/tiktok-autopilot/stories/day58_story.mp4",
-  "programme_le": "2026-11-10T18:05:00+01:00"
+  "programme_le": "2026-11-10T18:05:00+01:00",
+  "buffer_id": "6af013cf562f2e6de99f12be"
  },
  "reel_instagram": {
   "prevu": "2026-11-10T19:00",
@@ -30,5 +31,7 @@
   "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
   "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens",
   "https://www.scienceabc.com/innovation/why-do-we-need-a-turntable-in-microwaves.html"
- ]
+ ],
+ "buffer_id": "6af013c4229bf05daf93ee4a",
+ "programme_le": "2026-11-10T18:00:00+01:00"
 }

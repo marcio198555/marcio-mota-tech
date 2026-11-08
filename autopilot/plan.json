@@ -980,8 +980,12 @@
     "programme_le": "2026-11-08T10:05:00+01:00"
    },
    "reel_instagram": {
-    "statut": "en attente",
-    "prevu": "2026-11-08T11:00"
+    "statut": "publié",
+    "prevu": "2026-11-08T11:00",
+    "publie_le": "2026-11-08T07:19+01:00",
+    "lien": "https://www.instagram.com/reel/DfeGAs4Fm8R/",
+    "media_id": "18135425320737223",
+    "via": "vidIQ"
    },
    "tiktok_version_courte": {
     "date": "2026-11-07",
@@ -1371,7 +1375,7 @@
     "conseil officiel (temps de repos, mélanger)"
    ],
    "argent": "Croissance",
-   "statut": "prête",
+   "statut": "programmée",
    "ajoutee_le": "2026-11-05",
    "format": "A",
    "semaine": "S2",
@@ -1380,6 +1384,11 @@
    "reel_instagram": {
     "statut": "en attente",
     "prevu": "2026-11-10T19:00"
+   },
+   "buffer_id": "6af013c4229bf05daf93ee4a",
+   "story_instagram": {
+    "buffer_id": "6af013cf562f2e6de99f12be",
+    "programme_le": "2026-11-10T18:05:00+01:00"
    }
   },
   {
@@ -1407,8 +1416,12 @@
     "programme_le": "2026-11-08T18:05:00+01:00"
    },
    "reel_instagram": {
-    "statut": "en attente",
-    "prevu": "2026-11-08T19:00"
+    "statut": "publié",
+    "prevu": "2026-11-08T19:00",
+    "publie_le": "2026-11-08T07:19+01:00",
+    "lien": "https://www.instagram.com/reel/DfeGBBFCGBN/",
+    "media_id": "18032816573914687",
+    "via": "vidIQ"
    },
    "tiktok_version_courte": {
     "date": "2026-11-07",
