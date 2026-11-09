@@ -1,0 +1,95 @@
+{
+ "source": "day74_linge-deshumidificateur.mp4",
+ "sortie": "day74_linge-deshumidificateur_tk.mp4",
+ "methode": "réponse d'abord (analyse du 09.11)",
+ "ordre": [
+  0,
+  1,
+  14,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  13,
+  15
+ ],
+ "clips": [
+  [
+   0.0,
+   2.028,
+   1.978,
+   0
+  ],
+  [
+   2.028,
+   5.331,
+   5.281,
+   1
+  ],
+  [
+   57.078,
+   61.319,
+   61.269,
+   14
+  ],
+  [
+   11.218,
+   16.591,
+   16.541,
+   4
+  ],
+  [
+   16.591,
+   21.605,
+   21.555,
+   5
+  ],
+  [
+   21.605,
+   24.67,
+   24.62,
+   6
+  ],
+  [
+   24.67,
+   27.723,
+   27.673,
+   7
+  ],
+  [
+   27.723,
+   31.823,
+   31.773,
+   8
+  ],
+  [
+   31.823,
+   38.453,
+   38.403,
+   9
+  ],
+  [
+   38.453,
+   42.267,
+   42.217,
+   10
+  ],
+  [
+   52.64,
+   57.078,
+   57.028,
+   13
+  ],
+  [
+   61.319,
+   66.633,
+   66.011,
+   15
+  ]
+ ],
+ "duree_s": 50.37,
+ "texte": "Toi, ton linge sèche au salon. Ton collègue branche un déshumidificateur à côté. Lui paie environ dix-huit centimes. Toi, tu paies en eau dans l'air. Une étude pour l'Adème compte environ deux litres d'eau par machine dans l'air. Un Albert de Stad-leur Forme, marque suisse : deux cent septante watts. Sur la fiche : vingt litres en vingt-quatre heures. Pour deux litres, au mieux : deux heures vingt-quatre. Au tarif médian Èl-Kom : environ dix-huit centimes par machine. Surprise : ces vingt litres, le fabricant les annonce dès vingt-deux degrés et soixante-dix pour cent d'humidité. Plus frais, il retire moins vite : compte plus longtemps. Toi, tu l'aurais branché ? Écris oui ou non en commentaire. Abonne-toi : demain, Suisse contre France : le kilowattheure, qui paie le plus ?"
+}

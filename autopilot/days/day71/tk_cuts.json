@@ -13,6 +13,7 @@
   8,
   9,
   10,
+  11,
   14
  ],
  "clips": [
@@ -77,12 +78,18 @@
    10
   ],
   [
+   47.825,
+   54.022,
+   53.972,
+   11
+  ],
+  [
    62.884,
    69.1,
    68.49,
    14
   ]
  ],
- "duree_s": 52.82,
- "texte": "Même machine à laver, même lessive : en Suisse et en France, qui paie le plus ? Même machine : douze francs de courant d'écart par an, huit en répartissant l'abonnement. En Suisse, médiane deux mille vingt-six : vingt-sept virgule sept centimes le kilowattheure. Avec la té-vé-a, vingt-neuf virgule neuf. En France, tarif réglementé : vingt virgule zéro un centimes d'euro, taxes comprises. Converti : dix-huit virgule quatre centimes de franc. Prends une machine classée A à quarante-sept kilowattheures pour cent lavages. À deux cent vingt lavages par an : environ cent trois kilowattheures. Trente et un francs de courant en Suisse, dix-neuf en France : douze d'écart. Attention : médiane suisse contre tarif réglementé, et l'abonnement français reste à part. Abonne-toi : ce soir, vaisselle à la main ou lave-vaisselle : qui gaspille le plus d'eau ?"
+ "duree_s": 59.02,
+ "texte": "Même machine à laver, même lessive : en Suisse et en France, qui paie le plus ? Même machine : douze francs de courant d'écart par an, huit en répartissant l'abonnement. En Suisse, médiane deux mille vingt-six : vingt-sept virgule sept centimes le kilowattheure. Avec la té-vé-a, vingt-neuf virgule neuf. En France, tarif réglementé : vingt virgule zéro un centimes d'euro, taxes comprises. Converti : dix-huit virgule quatre centimes de franc. Prends une machine classée A à quarante-sept kilowattheures pour cent lavages. À deux cent vingt lavages par an : environ cent trois kilowattheures. Trente et un francs de courant en Suisse, dix-neuf en France : douze d'écart. Attention : médiane suisse contre tarif réglementé, et l'abonnement français reste à part. Avec cent quatre-vingt-dix euros d'abonnement, l'écart tombe de onze virgule six à sept virgule sept centimes. Abonne-toi : ce soir, vaisselle à la main ou lave-vaisselle : qui gaspille le plus d'eau ?"
 }

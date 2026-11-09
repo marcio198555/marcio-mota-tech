@@ -200,14 +200,14 @@
     ctx.save(); ctx.setLineDash([16, 16]); ctx.strokeStyle = 'rgba(56,200,239,0.45)'; ctx.lineWidth = 4;
     ctx.beginPath(); ctx.moveTo(505, 480); ctx.lineTo(505, 1215); ctx.stroke(); ctx.restore();
     chip(ctx, 'TOI', 265, 500, { color: C.white, size: 38, border: AQ });
-    chip(ctx, 'TON COLLÈGUE', 730, 500, { color: C.white, size: 34, border: HOT });
+    chip(ctx, 'TON COLLÈGUE', 730, 500, { color: C.white, size: 36, border: HOT });
     CHR.emo(ctx, 'woman_technologist', 265, 625, 190, t, undefined, { phase: 0.3 });
     CHR.emo(ctx, 'man_technologist', 730, 625, 190, t, undefined, { phase: 1.4 });
     rack(ctx, 265, 770, 300, t);
     rack(ctx, 680, 770, 220, t);
     dehum(ctx, 860, 1000, 120, t, o.on ?? 1);
     if (o.vapor) vapor(ctx, 265, 800, 260, 200, t, o.vapor);
-    text(ctx, o.left || 'AU SALON', 265, 1172, { size: o.ls || 48, weight: 900, color: AQ2, maxWidth: 440 });
+    text(ctx, o.left || 'AU SALON', 265, 1172, { size: o.ls || 48, weight: 900, color: AQ2, maxWidth: 400 });
     text(ctx, o.right || '+ DÉSHUMIDIFICATEUR', 730, 1172, { size: o.rs || 40, weight: 900, color: HOT, maxWidth: 440 });
   }
 
@@ -224,7 +224,7 @@
         text(ctx, 'COMBIEN ?', 0, 0, { size: 140, weight: 900, color: C.white, shadow: 'rgba(56,200,239,0.55)', shadowBlur: 34 });
         ctx.restore();
         duel(ctx, t, { on: prog(t, S('s02'), 0.35), vapor: 6 });
-        stamp(ctx, 'EN MARCHE', 730, 1098, t, FR('s02', 0.3), { size: 34, color: HOT, rot: 0.03 });
+        stamp(ctx, 'EN MARCHE', 730, 1098, t, FR('s02', 0.3), { size: 38, color: HOT, rot: 0.03 });
         stamp(ctx, '?,?? CT', 730, 880, t, FR('s03', 0.35), { size: 50, color: C.white, rot: -0.04 });
       });
 
@@ -247,7 +247,7 @@
         rack(ctx, 300, 690, 320, t);
         vapor(ctx, 300, 730, 280, 260, t, 14, { r: 11 });
         bottle(ctx, 730, 700, 190, 400, k);
-        text(ctx, k >= 1 ? '≈ 2 L' : `${(2 * k).toFixed(1).replace('.', ',')} L`, 730, 730, { size: 56, family: F.mono, weight: 700, color: '#fff', stroke: 'rgba(0,0,0,0.7)', strokeWidth: 10 });
+        text(ctx, '≈ 2 L', 730, 730, { size: 56, family: F.mono, weight: 700, color: '#fff', stroke: 'rgba(0,0,0,0.7)', strokeWidth: 10 });
         stamp(ctx, "D'EAU PAR MACHINE", 500, 985, t, FR('s05', 0.62), { size: 52, color: AQ, rot: -0.02 });
         schema(ctx, 730, 445);
         src(ctx, "ÉTUDE Q-WASH POUR L'ADEME (FRANCE)", 500, 1100, { alpha: ease.out(prog(t, FR('s05', 0.08), 0.3)) });
@@ -366,8 +366,8 @@
         text(ctx, 'COMBIEN ?', 500, 385, { size: 120, weight: 900, color: C.white, shadow: 'rgba(56,200,239,0.55)', shadowBlur: 34 });
         const l = t >= FR('s15', 0.42);
         duel(ctx, t, { on: 1, vapor: l ? 12 : 5, left: l ? "DE L'EAU DANS L'AIR" : 'AU SALON', right: 'DES CENTIMES', ls: 42, rs: 42 });
-        stamp(ctx, '≈ 18 CT', 730, 880, t, FR('s15', 0.12), { size: 50, color: HOT, rot: 0.03 });
-        stamp(ctx, 'AU MIEUX', 730, 1090, t, FR('s15', 0.2), { size: 34, color: C.gold2, rot: -0.02 });
+        stamp(ctx, '≈ 18 CT', 730, 860, t, S('s15') + 0.05, { size: 50, color: HOT, rot: 0.03 });
+        stamp(ctx, 'AU MIEUX · HORS TVA', 730, 1000, t, S('s15') + 0.1, { size: 40, color: C.gold2, rot: -0.02 });
         stamp(ctx, '≈ 2 L', 265, 1090, t, FR('s15', 0.55), { size: 50, color: AQ, rot: -0.03 });
       });
 

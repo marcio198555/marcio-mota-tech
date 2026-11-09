@@ -34,7 +34,7 @@ for k, (a, b, e, i) in enumerate(clips):
         fb = '/usr/share/fonts/opentype/inter/InterDisplay-Black.otf'
         f.append(f"[{k}:v]trim=start=0.15:end=0.22,setpts=PTS-STARTPTS,tpad=stop_mode=clone:stop_duration={d:.3f},trim=end={d:.3f},split[e{k}][p{k}]")
         f.append(f"[p{k}]crop=1080:260:0:1560[q{k}]")
-        f.append(f"[e{k}][q{k}]overlay=0:1220,drawtext=fontfile={fb}:text='Abonne-toi !':fontcolor=0xc9a84c:fontsize=84:x=(w-text_w)/2:y=1290,fade=t=out:st={d - 0.15 - 0.3:.3f}:d=0.3[v{k}]")
+        f.append(f"[e{k}][q{k}]overlay=0:1220,drawtext=fontfile={fb}:text='Abonne-toi !':fontcolor=0xc9a84c:fontsize=84:x=(w-text_w)/2:y=1290[v{k}]")
     else:
         f.append(f"[{k}:v]{','.join(parts)}[v{k}]")
     af = f"asetpts=PTS-STARTPTS,afade=t=in:d=0.04,afade=t=out:st={d-0.04:.3f}:d=0.04"
