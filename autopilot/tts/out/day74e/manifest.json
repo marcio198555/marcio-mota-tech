@@ -1,0 +1,15 @@
+{
+ "job": "day74e",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s15",
+   "text": "Lui paie au mieux dix-huit centimes, hors té-vé-a. Toi, tu paies en eau dans l'air.",
+   "file": "s15.wav",
+   "duration": 5.56,
+   "rate": 24000
+  }
+ ],
+ "total": 5.56
+}
