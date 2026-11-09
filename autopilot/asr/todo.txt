@@ -47,3 +47,4 @@ autopilot/vo/day37_tk.wav
 autopilot/vo/day59_tk.wav
 autopilot/vo/day32_tk.wav
 autopilot/vo/day70_tk.wav
+autopilot/vo/day74_vo.wav

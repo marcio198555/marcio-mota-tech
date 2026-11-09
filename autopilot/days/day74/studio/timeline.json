@@ -1,0 +1,117 @@
+{
+ "duration": 66.311,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ton linge sèche au salon.",
+   "start": 0.12,
+   "end": 1.978,
+   "display": "Toi, ton linge sèche au salon."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue branche un déshumidificateur à côté.",
+   "start": 2.078,
+   "end": 5.281,
+   "display": "Ton collègue branche | un déshumidificateur à côté."
+  },
+  {
+   "id": "s03",
+   "text": "Combien il paie pour sécher l'air ?",
+   "start": 5.381,
+   "end": 7.925,
+   "display": "Combien il paie | pour sécher l'air ?"
+  },
+  {
+   "id": "s04",
+   "text": "Reste : la réponse, puis le piège de la fiche.",
+   "start": 8.025,
+   "end": 11.168,
+   "display": "Reste : la réponse, | puis le piège de la fiche."
+  },
+  {
+   "id": "s05",
+   "text": "Une étude pour l'Adème compte environ deux litres d'eau par machine dans l'air.",
+   "start": 11.268,
+   "end": 16.541,
+   "display": "Une étude pour l'ADEME compte | environ 2 litres d'eau | par machine dans l'air."
+  },
+  {
+   "id": "s06",
+   "text": "Un Albert de Stad-leur Forme, marque suisse : deux cent septante watts.",
+   "start": 16.641,
+   "end": 21.555,
+   "display": "Un Albert de Stadler Form, | marque suisse : 270 W."
+  },
+  {
+   "id": "s07",
+   "text": "Sur la fiche : vingt litres en vingt-quatre heures.",
+   "start": 21.655,
+   "end": 24.62,
+   "display": "Sur la fiche : | 20 litres en 24 heures."
+  },
+  {
+   "id": "s08",
+   "text": "Pour deux litres, au mieux : deux heures vingt-quatre.",
+   "start": 24.72,
+   "end": 27.673,
+   "display": "Pour 2 litres, au mieux : | 2 h 24."
+  },
+  {
+   "id": "s09",
+   "text": "Au tarif médian Èl-Kom : environ dix-huit centimes par machine.",
+   "start": 27.773,
+   "end": 31.773,
+   "display": "Au tarif médian ElCom (27,7 ct) : | environ 18 ct par machine."
+  },
+  {
+   "id": "s10",
+   "text": "Surprise : ces vingt litres, le fabricant les annonce dès vingt-deux degrés et soixante-dix pour cent d'humidité.",
+   "start": 31.873,
+   "end": 38.403,
+   "display": "Surprise : ces 20 litres, | le fabricant les annonce | dès 22 °C et 70 % d'humidité."
+  },
+  {
+   "id": "s11",
+   "text": "Plus frais, il retire moins vite : compte plus longtemps.",
+   "start": 38.503,
+   "end": 42.217,
+   "display": "Plus frais, il retire moins vite : | compte plus longtemps."
+  },
+  {
+   "id": "s12",
+   "text": "Règle l'hygrostat vers cinquante pour cent : l'Office fédéral de la santé publique vise trente à cinquante.",
+   "start": 42.317,
+   "end": 48.058,
+   "display": "Règle l'hygrostat vers 50 % : | l'OFSP vise 30 à 50 %."
+  },
+  {
+   "id": "s13",
+   "text": "Le Touring Club le rappelle : chauffer plus ne règle pas l'humidité.",
+   "start": 48.158,
+   "end": 52.59,
+   "display": "Le TCS le rappelle : | chauffer plus | ne règle pas l'humidité."
+  },
+  {
+   "id": "s14",
+   "text": "Toi, tu l'aurais branché ? Écris oui ou non en commentaire.",
+   "start": 52.69,
+   "end": 57.028,
+   "display": "Toi, tu l'aurais branché ? | Écris oui ou non en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Lui paie environ dix-huit centimes. Toi, tu paies en eau dans l'air.",
+   "start": 57.128,
+   "end": 61.269,
+   "display": "Lui paie environ 18 ct. | Toi, tu paies en eau dans l'air."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : demain, Suisse contre France : le kilowattheure, qui paie le plus ?",
+   "start": 61.369,
+   "end": 66.011,
+   "display": "Abonne-toi : demain, | Suisse contre France : | le kWh, qui paie le plus ?"
+  }
+ ]
+}
