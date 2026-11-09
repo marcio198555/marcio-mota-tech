@@ -1,0 +1,75 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ton linge sèche au salon."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue branche un déshumidificateur à côté."
+  },
+  {
+   "id": "s03",
+   "text": "Combien il paie pour sécher l'air ?"
+  },
+  {
+   "id": "s04",
+   "text": "Reste : la réponse, puis le piège de la fiche."
+  },
+  {
+   "id": "s05",
+   "text": "Une étude pour l'Adème compte environ deux litres d'eau par machine dans l'air."
+  },
+  {
+   "id": "s06",
+   "text": "Un Albert de Stad-leur Forme, marque suisse : deux cent septante watts."
+  },
+  {
+   "id": "s07",
+   "text": "Sur la fiche : vingt litres en vingt-quatre heures."
+  },
+  {
+   "id": "s08",
+   "text": "Pour deux litres, au mieux : deux heures vingt-quatre."
+  },
+  {
+   "id": "s09",
+   "text": "Au tarif médian Èl-Kom : environ dix-huit centimes par machine."
+  },
+  {
+   "id": "s10",
+   "text": "Surprise : ces vingt litres, le fabricant les annonce dès vingt-deux degrés et soixante-dix pour cent d'humidité."
+  },
+  {
+   "id": "s11",
+   "text": "Plus frais, il retire moins vite : compte plus longtemps."
+  },
+  {
+   "id": "s12",
+   "text": "Règle l'hygrostat vers cinquante pour cent : l'Office fédéral de la santé publique vise trente à cinquante."
+  },
+  {
+   "id": "s13",
+   "text": "Le Touring Club le rappelle : chauffer plus ne règle pas l'humidité."
+  },
+  {
+   "id": "s14",
+   "text": "Toi, tu l'aurais branché ? Écris oui ou non en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Lui paie environ dix-huit centimes. Toi, tu paies en eau dans l'air."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : demain, Suisse contre France : le kilowattheure, qui paie le plus ?"
+  }
+ ]
+}
