@@ -1338,7 +1338,8 @@
    "reel_instagram": {
     "statut": "en attente",
     "prevu": "2026-11-10T11:00"
-   }
+   },
+   "tiktok_version": "réponse d'abord (analyse du 9.11) : media/day56_*_tk.mp4, tk_cuts.json ; Story et Reel inchangés (version longue)"
   },
   {
    "jour": 57,
@@ -1367,7 +1368,8 @@
    "story_instagram": {
     "buffer_id": "6af166a92f1ff83d451cc61c",
     "programme_le": "2026-11-11T18:05:00+01:00"
-   }
+   },
+   "tiktok_version": "réponse d'abord (analyse du 9.11) : media/day57_*_tk.mp4, tk_cuts.json ; Story et Reel inchangés (version longue)"
   },
   {
    "jour": 58,
@@ -1382,7 +1384,7 @@
     "conseil officiel (temps de repos, mélanger)"
    ],
    "argent": "Croissance",
-   "statut": "programmée",
+   "statut": "remplacée",
    "ajoutee_le": "2026-11-05",
    "format": "A",
    "semaine": "S2",
@@ -1396,7 +1398,33 @@
    "story_instagram": {
     "buffer_id": "6af013cf562f2e6de99f12be",
     "programme_le": "2026-11-10T18:05:00+01:00"
-   }
+   },
+   "remplacee_le": "2026-11-09",
+   "remplacee_par": 74,
+   "note_remplacement": "Analyse du 9.11 : créneau du 10.11 18 h donné à la partie 2 du jour 37 (Reel d'essai 2 492 vues). Vidéo prête, réutilisable plus tard (même Buffer id réutilisé par 74)."
+  },
+  {
+   "jour": 74,
+   "date": "2026-11-10",
+   "heure": "18:00",
+   "sujet": "Linge au salon + déshumidificateur : combien ça coûte ?",
+   "mecanique": "Partie 2 du jour 37 (règle des 2 000 vues Instagram) ; recette du 05.11 point 2 bis ; TikTok en version « réponse d'abord » (analyse du 9.11)",
+   "statut": "programmée",
+   "format": "V",
+   "ajoutee_le": "2026-11-09",
+   "semaine": "S2",
+   "annonce": "Suisse contre France : 1 kWh d'électricité",
+   "annonce_jour": 71,
+   "buffer_id": "6af013c4229bf05daf93ee4a",
+   "story_instagram": {
+    "buffer_id": "6af013cf562f2e6de99f12be",
+    "programme_le": "2026-11-10T18:05:00+01:00"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-10T19:00"
+   },
+   "tiktok_version": "réponse d'abord, 51,6 s (tk_cuts.json)"
   },
   {
    "jour": 59,
@@ -1594,7 +1622,8 @@
    "reel_instagram": {
     "statut": "en attente",
     "prevu": "2026-11-11T11:00"
-   }
+   },
+   "tiktok_version": "réponse d'abord (analyse du 9.11) : media/day71_*_tk.mp4, tk_cuts.json ; Story et Reel inchangés (version longue)"
   },
   {
    "jour": 72,

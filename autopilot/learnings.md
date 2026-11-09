@@ -311,3 +311,33 @@ Production :
 - Whisper (pont) : textes conformes, aucun mot incertain ; il n'entend pas les lettres seules « G » et « C » (classes énergie) ni « Èl-Gé », déjà le cas dans les versions longues contrôlées le 06.11 (affichées à l'écran).
 - Cloudinary : envoi direct refusé par le proxy (api.cloudinary.com) ; `upload-asset` depuis raw.githubusercontent (commit be41ca9) marche. Buffer : `edit_post` (vidéo seule, légende, titre et isAiGenerated gardés).
 - Dans ffmpeg, plusieurs `trim` sur la même entrée tuent le processus (mémoire) : une entrée `-ss/-to` par passage.
+
+## 09.11.2026 — Analyse tous les 2 jours n° 2 (13 h 17) : TikTok NE MARCHE PAS (275), Instagram ÇA MARCHE (1 514)
+Sources : Buffer `list_posts` avec chiffres (mis à jour le 9.11 à 12 h 42), Metricool (abonnés TikTok), Windsor (Instagram, 9.11). Fenêtre : vidéos publiées depuis l'analyse du 7.11 (7.11 → 9.11), jugées à 18 h d'âge au moins.
+| TikTok (≥ 18 h) | Version | Durée | Vues | Temps moyen regardé | J'aime | Partages | Comm. |
+|---|---|---|---|---|---|---|---|
+| 37 linge au salon (8.11, 10 h) | courte | 53 s | **323** | 16,7 s | 13 | 0 | 1 |
+| 60 charge rapide (7.11, 10 h) | longue | 69 s | 275 | 16,2 s | 21 | 0 | 0 |
+| 59 veille télé (8.11, 18 h) | courte | 50 s | 275 | 16,1 s | 10 | 0 | 0 |
+| 27 frigo, A (7.11, 18 h) | longue | 64 s | 251 | 14,1 s | 10 | 0 | 0 |
+Médiane : **275** (< 300). Premier signal : 32 lave-linge (9.11, 10 h, 3 h 40) : 84 vues, 13,2 s. Pour rappel, 55 : 345 vues, 17,4 s (mis à jour). Abonnés TikTok : 76 (dernier chiffre Metricool, 7.11 ; rien pour le 8 et le 9 : **donnée manquante**). La publication « #milestone » (6.11, 86 vues) n'est pas de l'autopilote : pas touchée.
+| Reels d'essai (≥ 18 h) | Vues | Portée | Partages | Enreg. |
+|---|---|---|---|---|
+| 37 linge au salon (DfeGAs4Fm8R) | **2 492** | 2 105 | 9 | 4 |
+| 60 charge rapide (DfbhHVekbbz) | 1 558 | 1 437 | 0 | 2 |
+| 59 veille télé (DfeGBBFCGBN) | 1 470 | 1 262 | 5 | 5 |
+| 27 frigo (DfbhGhajQ6I) | 1 294 | 1 147 | 0 | 0 |
+| premier signal (6 h) : 70 Suisse/France iPhone (Dfgrd0DFMso) | 1 598 | 1 455 | 2 | 3 |
+| premier signal (6 h) : 32 lave-linge, A (Dfgrf9KFHur) | 410 | 363 | 1 | 0 |
+Médiane des Reels jugés : **1 514** (≥ 1 000). Les 4 Reels jugés passent tous 1 000. Stories : Windsor n'en renvoie aucune, **donnée manquante**. Abonnés Instagram : 34 560 (34 576 le 7.11, −16).
+Verdict : **Instagram ÇA MARCHE** (médiane 1 514). **TikTok, pris seul, NE MARCHE PAS** (275 < 300 ; la clause « aucun Reel ≥ 1 000 » n'est pas remplie, mais c'est Instagram qui répond, pas TikTok : on applique « garder ce qui marche sur le réseau qui répond, changer les leviers de l'autre »).
+Pourquoi : la même vidéo fait 1 300 à 2 500 vues en Reel d'essai et 250 à 345 sur TikTok. Sur TikTok, toutes les vidéos s'arrêtent au premier groupe test (≈ 250–345), quelle que soit la durée : le test du 7.11 (50–53 s au lieu de 64–69 s) n'a rien changé aux vues (323 et 275 contre 345 et 275) ni au temps regardé (16,7 et 16,1 s contre 17,4 et 16,2 s), seulement la part regardée (31 % contre 25 %). La nouvelle recette a triplé le temps regardé (6–9 s → 14–17 s) et les j'aime (1–7 → 10–21), sans débloquer la 2e vague. Seules vidéos TikTok jamais passées au-dessus de 600 : jours 1 et 3 (1 013 et 785 vues), 37–40 s, le chiffre et la réponse dès les 4 premières secondes (« Non. » + contre-pied). La recette actuelle garde la réponse pour le milieu (suspense), ce qui marche sur Instagram mais pas sur TikTok. Format A plus faible sur les deux réseaux (frigo 251 et 1 294 ; lave-linge 410 en 6 h contre 1 598 pour une V à la même heure).
+vidIQ : recherche d'outliers impossible (plus de crédits gratuits) ; décision tirée de nos propres chiffres.
+Décision :
+1. **Instagram : on garde tout** (recette, versions longues, Stories, Reels d'essai).
+2. **Partie 2 du jour 37** (2 492 vues en Reel) : **jour 74 « linge au salon + déshumidificateur »**, mardi 10.11 à 18 h, à la place du jour 58 (micro-ondes, format A, statut « remplacée », vidéo gardée pour plus tard). Faits : fiche Stadler Form Albert (270 W, 20 L/24 h dès 22 °C et 70 %), Q-Wash/ADEME (2 L), ElCom (27,7 ct hors TVA), OFSP (30–50 %), TCS ; calcul « au mieux » 2 h 24 → 0,648 kWh → ≈ 18 ct. TikTok + Story (Buffer, mêmes publications modifiées) et Reel d'essai (reels_queue.json, 10.11 19 h).
+3. **TikTok : nouvelle idée testée sur les 4 créneaux des 10 et 11.11 : « réponse d'abord »**. Même vidéo qu'Instagram, phrases réordonnées : le duel (1–2 phrases), puis tout de suite la phrase-réponse chiffrée (avant 8 s), puis l'explication, la surprise, la question, « abonne-toi » ; 42 à 59 s. 56 box (10.11, 10 h) 42,1 s ; 74 (10.11, 18 h) 51,6 s ; 71 Suisse/France kWh (11.11, 10 h) 59,2 s ; 57 vaisselle (11.11, 18 h) 44,3 s. Légendes, titres, heures et couvertures inchangés (une seule chose change). À juger le 11.11 (56 et 74, premier signal) et le 13.11 (les 4) contre la médiane 275 et le temps regardé 16 s.
+Production :
+- `tools/tk_reorder.py NN i,j,k[,n@fin]` : réordonne des phrases entières ; `n@65.1` coupe la dernière phrase (garder « Abonne-toi » seul) et fige l'écran de fin sans la carte d'annonce, sous-titre masqué, « Abonne-toi ! » écrit (vidéo 56 : son micro-ondes n'est plus au plan).
+- **Défaut trouvé par le contrôle : 0,15 s de silence au 1er raccord et tout le son décalé de 0,15 s après** (le morceau d'image 0 durait 0,15 s de plus que son son ; concat ajoute un blanc au son). Corrigé dans tk_reorder.py (chaque morceau d'image dure exactement comme son son ; image figée 0,15 s au début du morceau). **`tk_short.py` a le même défaut : les versions courtes 37 et 59 (déjà publiées) et 32 et 70 (9.11) en souffrent** ; ne plus utiliser tk_short.py sans le corriger.
+- Contrôle (2 agents neufs) : 71 réordonnée avait perdu la TVA (27,7 ct affichés, 31 CHF calculés avec 29,9 ct) et l'explication de « 8 CHF abonnement réparti » : segments 3, 8 et 11 remis. 74 : « tarif médium » entendu par Whisper → nouvelle prise s09 (graine 11) ; fin « Lui paie au mieux dix-huit centimes, hors TVA » (prise s15 nouvelle) ; tampon « AU MIEUX · HORS TVA » ; plus de compteur 0,0 → 2 L. Petits trous de son de 5 à 30 ms aux raccords (mineur) : à lisser avec un fondu croisé la prochaine fois.

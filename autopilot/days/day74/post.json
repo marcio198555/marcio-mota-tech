@@ -1,0 +1,35 @@
+{
+ "day": 74,
+ "title": "Linge au salon + déshumidificateur : combien ?",
+ "format": "V",
+ "recette": "Partie 2 du jour 37 (point 2 bis) ; TikTok « réponse d'abord »",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794230969/tiktok-autopilot/day74_linge-deshumidificateur.mp4",
+ "video_url_tiktok": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794230963/tiktok-autopilot/day74_linge-deshumidificateur_tk.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794230966/tiktok-autopilot/stories/day74_story.mp4",
+ "buffer_id": "6af013c4229bf05daf93ee4a",
+ "programme_le": "2026-11-10T18:00:00+01:00",
+ "heure": "18:00",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "programmée",
+ "story_instagram": {
+  "programme_le": "2026-11-10T18:05:00+01:00",
+  "buffer_id": "6af013cf562f2e6de99f12be"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-10T19:00",
+  "coupe_s": 62.41,
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794230968/tiktok-autopilot/reels/day74_reel.mp4",
+  "statut": "en attente"
+ },
+ "duree_s": 67.7,
+ "duree_tiktok_s": 51.6,
+ "sources": [
+  "https://www.stadlerform.com/en/dehumidifier/albert-white-a-041",
+  "https://hal.science/hal-05318299v1/file/%5BQ-Wash%5D%20Qualit%C3%A9%20de%20l%27air%20int%C3%A9rieur%20et%20s%C3%A9chage%20du%20linge.pdf",
+  "https://www.elcom.admin.ch/dam/fr/sd-web/znXqHISH0pFP/Newsletter_09-2025_FR.pdf",
+  "https://www.bag.admin.ch/dam/fr/sd-web/wBJWq1KVfpS-/vorsicht-schimmel.pdf",
+  "https://www.tcs.ch/fr/tests-conseils/tests/home/deshumidificateurs.php"
+ ]
+}
