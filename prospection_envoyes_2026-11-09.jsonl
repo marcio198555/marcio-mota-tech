@@ -2,7 +2,7 @@
 {"id": "RL09A-002", "brand": "Le Pratiq'Brosse", "domain": "lepratiqbrosse.com", "to": "info@lepratiqbrosse.com", "ts": "2026-11-09T08:27:18.653625"}
 {"id": "RL09A-003", "brand": "PAP'S", "domain": "pap-s.shop", "to": "contact@pap-s.shop", "ts": "2026-11-09T08:27:18.653641"}
 {"id": "RL09A-004", "brand": "PhytoHarmonia", "domain": "phytoharmonia.com", "to": "contact@phytoharmonia.com", "ts": "2026-11-09T08:27:18.653651"}
-{"id": "RL09A-005", "brand": "klode\u00b0", "domain": "klode.co", "to": "info@klode.co", "ts": "2026-11-09T08:27:18.653659"}
+{"id": "RL09A-005", "brand": "klode°", "domain": "klode.co", "to": "info@klode.co", "ts": "2026-11-09T08:27:18.653659"}
 {"id": "RL09A-006", "brand": "Alkem Gear", "domain": "alkemgear.com", "to": "cs@alkemgear.com", "ts": "2026-11-09T08:27:18.653667"}
 {"id": "RL09A-007", "brand": "Dynamic Bike Care", "domain": "dynamicbikecare.com", "to": "marketing@dynamicbikecare.com", "ts": "2026-11-09T08:27:18.653674"}
 {"id": "RL09A-008", "brand": "MagFast", "domain": "magfast.com", "to": "press@magfast.com", "ts": "2026-11-09T08:27:18.653681"}
@@ -60,3 +60,58 @@
 {"id": "RL09A-060", "brand": "Mia Tui", "domain": "miatui.com", "to": "hello@miatui.com", "ts": "2026-11-09T08:30:25.011683"}
 {"id": "RL09A-061", "brand": "Bowls and Dishes", "domain": "bowls-dishes.com", "to": "support@bowls-dishes.com", "ts": "2026-11-09T08:30:25.043479"}
 {"id": "RL09A-062", "brand": "Swims", "domain": "swims.com", "to": "contactus@swims.com", "ts": "2026-11-09T08:30:25.043519"}
+{"id": "PD09A-001", "brand": "Arden Cove", "domain": "ardencove.com", "to": "info@ardencove.com", "ts": "2026-11-09T11:48:45.626176"}
+{"id": "PD09A-002", "brand": "Vissles", "domain": "vissles.com", "to": "hi@vissles.com", "ts": "2026-11-09T11:48:45.626215"}
+{"id": "PD09A-003", "brand": "VacLife", "domain": "vaclife.com", "to": "collab@vaclife.com", "ts": "2026-11-09T11:48:45.626228", "bounced": true}
+{"id": "RL09B-001", "brand": "Bricknic", "domain": "bricknic.org", "to": "info@bricknic.org", "ts": "2026-11-09T11:49:40.912980"}
+{"id": "RL09B-002", "brand": "Pastael", "domain": "pastael.co.uk", "to": "hello@pastael.co.uk", "ts": "2026-11-09T11:49:40.913014"}
+{"id": "RL09B-003", "brand": "NoNormal", "domain": "nonormal.com", "to": "info@nonormal.com", "ts": "2026-11-09T11:49:40.913028"}
+{"id": "RL09B-004", "brand": "Croci", "domain": "croci.net", "to": "info@croci.net", "ts": "2026-11-09T11:49:40.913035"}
+{"id": "RL09B-005", "brand": "Sarah Raven", "domain": "sarahraven.com", "to": "press@sarahraven.com", "ts": "2026-11-09T11:49:40.913041"}
+{"id": "RL09B-006", "brand": "Guy Degrenne", "domain": "degrenne.fr", "to": "sav@degrenne.fr", "ts": "2026-11-09T11:49:40.913046"}
+{"id": "RL09B-007", "brand": "Le Lapin", "domain": "lelapin.eu", "to": "info@lelapin.eu", "ts": "2026-11-09T11:49:40.913051"}
+{"id": "RL09B-008", "brand": "Underwater Audio", "domain": "underwateraudio.com", "to": "help@underwateraudio.com", "ts": "2026-11-09T11:49:40.913055"}
+{"id": "RL09B-009", "brand": "Xtrema", "domain": "xtrema.com", "to": "support@xtrema.com", "ts": "2026-11-09T11:49:40.913060"}
+{"id": "RL09B-010", "brand": "K Liners", "domain": "thekliners.kitchen", "to": "info@thekliners.kitchen", "ts": "2026-11-09T11:49:40.913064"}
+{"id": "RL09B-011", "brand": "Heritage Steel", "domain": "heritagesteel.us", "to": "info@heritagesteel.us", "ts": "2026-11-09T11:50:14.999781"}
+{"id": "RL09B-012", "brand": "Neoflam", "domain": "neoflam.us", "to": "support@neoflam.us", "ts": "2026-11-09T11:50:14.999811"}
+{"id": "RL09B-013", "brand": "Alva", "domain": "alvacookware.com", "to": "care@alvacookware.com", "ts": "2026-11-09T11:50:14.999823"}
+{"id": "RL09B-014", "brand": "Kuma Outdoor Gear", "domain": "kumaoutdoorgear.com", "to": "csusa@kumaoutdoorgear.com", "ts": "2026-11-09T11:50:14.999830"}
+{"id": "RL09B-015", "brand": "Katto", "domain": "katto.shop", "to": "hello@katto.shop", "ts": "2026-11-09T11:50:14.999836"}
+{"id": "RL09B-016", "brand": "ECOXGEAR", "domain": "ecoxgear.com", "to": "support@ecoxgear.com", "ts": "2026-11-09T11:50:14.999841"}
+{"id": "RL09B-017", "brand": "Max & Molly", "domain": "max-molly.com", "to": "contact@max-molly.com", "ts": "2026-11-09T11:50:14.999845"}
+{"id": "RL09B-018", "brand": "Promixx", "domain": "promixx.com", "to": "info@promixx.com", "ts": "2026-11-09T11:50:14.999850"}
+{"id": "RL09B-019", "brand": "BuddyPhones", "domain": "onanoff.com", "to": "info@onanoff.com", "ts": "2026-11-09T11:50:14.999854"}
+{"id": "RL09B-020", "brand": "Igenix", "domain": "igenix.co.uk", "to": "info@igenix.co.uk", "ts": "2026-11-09T11:50:14.999858"}
+{"id": "RL09B-021", "brand": "Hardanger Bestikk", "domain": "hardangerbestikk.no", "to": "support@hardangerbestikk.no", "ts": "2026-11-09T11:50:43.942364"}
+{"id": "RL09B-022", "brand": "Lumisky", "domain": "lumisky.com", "to": "contact@lumisky.com", "ts": "2026-11-09T11:50:43.942395"}
+{"id": "RL09B-023", "brand": "Tatay", "domain": "tatay.es", "to": "tatay@tatay.es", "ts": "2026-11-09T11:50:43.942407"}
+{"id": "RL09B-024", "brand": "3sixT", "domain": "3sixtgear.com", "to": "support@3sixtgear.com", "ts": "2026-11-09T11:50:43.942414"}
+{"id": "RL09B-025", "brand": "Spacetalk", "domain": "spacetalk.co", "to": "support@spacetalk.co", "ts": "2026-11-09T11:50:43.942419"}
+{"id": "RL09B-026", "brand": "Caribee", "domain": "caribee.com", "to": "shop@caribee.com", "ts": "2026-11-09T11:50:43.942424"}
+{"id": "RL09B-027", "brand": "RPM Training", "domain": "rpmtraining.com", "to": "support@rpmtraining.com", "ts": "2026-11-09T11:50:43.942429", "bounced": true}
+{"id": "RL09B-028", "brand": "Prolink", "domain": "prolink2u.com", "to": "support@prolink2u.com", "ts": "2026-11-09T11:50:43.942433"}
+{"id": "RL09B-029", "brand": "Arshia", "domain": "arshia.de", "to": "distribution@arshia.de", "ts": "2026-11-09T11:50:43.942438"}
+{"id": "RL09B-030", "brand": "William Optics", "domain": "williamoptics.com", "to": "wo@williamoptics.com", "ts": "2026-11-09T11:50:43.942442"}
+{"id": "RL09B-031", "brand": "bookhoover", "domain": "bookhoover.com", "to": "contact@bookhoover.com", "ts": "2026-11-09T11:51:18.177947"}
+{"id": "RL09B-032", "brand": "Plux", "domain": "less-n-more.com", "to": "info@less-n-more.com", "ts": "2026-11-09T11:51:18.177981"}
+{"id": "RL09B-033", "brand": "Sauberkugel", "domain": "sauberkugel.com", "to": "team@sauberkugel.com", "ts": "2026-11-09T11:51:18.177993"}
+{"id": "RL09B-034", "brand": "POCA audio", "domain": "pocaaudio.com", "to": "media@pocaaudio.com", "ts": "2026-11-09T11:51:18.178001"}
+{"id": "RL09B-035", "brand": "Mathmos", "domain": "mathmos.com", "to": "press@mathmos.com", "ts": "2026-11-09T11:51:18.178006"}
+{"id": "RL09B-036", "brand": "Qwickhose", "domain": "qwickhose.co.uk", "to": "press@qwickhose.co.uk", "ts": "2026-11-09T11:51:18.178011"}
+{"id": "RL09B-037", "brand": "Rehook", "domain": "rehook.bike", "to": "hello@rehook.bike", "ts": "2026-11-09T11:51:18.178016"}
+{"id": "RL09B-038", "brand": "Bootclaw", "domain": "bootclaw.com", "to": "hello@bootclaw.com", "ts": "2026-11-09T11:51:18.178020"}
+{"id": "RL09B-039", "brand": "Eldom", "domain": "eldom.eu", "to": "eldom@eldom.eu", "ts": "2026-11-09T11:51:18.178024"}
+{"id": "RL09B-040", "brand": "Xoopar", "domain": "xoopar.com", "to": "info@xoopar.com", "ts": "2026-11-09T11:51:18.178029"}
+{"id": "RL09B-041", "brand": "Tadar", "domain": "tadar.pl", "to": "kontakt@tadar.pl", "ts": "2026-11-09T11:51:28.084491"}
+{"id": "RL09B-042", "brand": "Jocca", "domain": "jocca.es", "to": "atconline@jocca.es", "ts": "2026-11-09T11:51:28.084535"}
+{"id": "RL09B-043", "brand": "Lords & Labradors", "domain": "lordsandlabradors.co.uk", "to": "sales@lordsandlabradors.co.uk", "ts": "2026-11-09T11:51:28.084552"}
+{"id": "RL09B-044", "brand": "Pyle", "domain": "pyleusa.com", "to": "support@pyleusa.com", "ts": "2026-11-09T11:51:28.084562"}
+{"id": "RL09B-045", "brand": "Upper Echelon", "domain": "upperechelonproducts.com", "to": "support@upperechelonproducts.com", "ts": "2026-11-09T11:51:28.084569"}
+{"id": "RL09B-046", "brand": "Mikkoa", "domain": "mikkoa.com", "to": "hello@mikkoa.com", "ts": "2026-11-09T11:51:28.084577"}
+{"id": "RL09B-047", "brand": "AeroCool", "domain": "aerocool.com.tw", "to": "info@aerocool.com.tw", "ts": "2026-11-09T11:51:28.084584"}
+{"id": "RL09B-048", "brand": "Dellonda", "domain": "dellonda.co.uk", "to": "support@dellonda.co.uk", "ts": "2026-11-09T11:51:28.084591"}
+{"id": "RL09B-049", "brand": "Oypla", "domain": "oypla.com", "to": "cservice@oypla.com", "ts": "2026-11-09T11:51:28.084596"}
+{"id": "RL09B-050", "brand": "Intempo", "domain": "intempo.co.uk", "to": "customerservices@intempo.co.uk", "ts": "2026-11-09T11:51:28.084600"}
+{"id": "RL09B-051", "brand": "Ribimex", "domain": "ribimex.it", "to": "info@ribimex.it", "ts": "2026-11-09T11:51:28.115915"}
+{"id": "RL09B-052", "brand": "Henry Wag", "domain": "henrywag.com", "to": "enquiries@henrywag.com", "ts": "2026-11-09T11:51:28.115963"}
