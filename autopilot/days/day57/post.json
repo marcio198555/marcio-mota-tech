@@ -10,13 +10,14 @@
  "aigc": true,
  "branded": false,
  "cover_ms": 1500,
- "statut": "prête",
+ "statut": "programmée",
  "tiktok_title": "Lave-vaisselle ou vaisselle à la main : qui gaspille le plus d'eau ?",
  "caption": "Vaisselle à la main : 103 litres en moyenne, lave-vaisselle : 15 litres pour 12 couverts 🍽️ Étude de l'Université de Bonn (Stamminger et al.), ancienne et financée par plusieurs fabricants : 46 l en Allemagne, 170 l en Espagne et au Portugal. Eau à Lausanne : 3,45 fr./m³, soit 30 ct d'écart par vaisselle et environ 110 francs par an à une vaisselle par jour (exemple, sans l'énergie). Tu rinces avant de charger ? 👇 #lavevaisselle #vaisselle #economiedeau #astucemaison #suisseromande",
  "duree_s": 68.97,
  "story_instagram": {
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971848/tiktok-autopilot/stories/day57_story.mp4",
-  "programme_le": "2026-11-11T18:05:00+01:00"
+  "programme_le": "2026-11-11T18:05:00+01:00",
+  "buffer_id": "6af166a92f1ff83d451cc61c"
  },
  "reel_instagram": {
   "prevu": "2026-11-11T19:00",
@@ -31,5 +32,7 @@
   "https://www.lausanne.ch/vie-pratique/energies-et-eau/eau/proprietaires-et-professionnels/taxes-et-facturation.html",
   "https://www.spokesman.com/stories/2009/dec/07/handwashing-your-dishes-better-new-study-says-no",
   "https://zientzia.eus/artikuluak/platerak-garbitzean-ur-asko-xahutzen-dute-batzuek/en"
- ]
+ ],
+ "buffer_id": "6af166a8cac9d7525f716cd2",
+ "programme_le": "2026-11-11T18:00:00+01:00"
 }

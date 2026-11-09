@@ -868,8 +868,10 @@
     "programme_le": "2026-11-09T10:05:00+01:00"
    },
    "reel_instagram": {
-    "statut": "en attente",
-    "prevu": "2026-11-09T11:00"
+    "statut": "publié (vidIQ)",
+    "prevu": "2026-11-09T11:00",
+    "publie_le": "2026-11-09T07:25",
+    "permalink": "https://www.instagram.com/reel/Dfgrf9KFHur/"
    },
    "tiktok_version_courte": {
     "date": "2026-11-07",
@@ -1351,7 +1353,7 @@
     "coût de l'eau chaude et de l'électricité en CHF"
    ],
    "argent": "Croissance",
-   "statut": "prête",
+   "statut": "programmée",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "semaine": "S2",
@@ -1360,6 +1362,11 @@
    "reel_instagram": {
     "statut": "en attente",
     "prevu": "2026-11-11T19:00"
+   },
+   "buffer_id": "6af166a8cac9d7525f716cd2",
+   "story_instagram": {
+    "buffer_id": "6af166a92f1ff83d451cc61c",
+    "programme_le": "2026-11-11T18:05:00+01:00"
    }
   },
   {
@@ -1540,8 +1547,10 @@
     "programme_le": "2026-11-09T18:05:00+01:00"
    },
    "reel_instagram": {
-    "statut": "en attente",
-    "prevu": "2026-11-09T19:00"
+    "statut": "publié (vidIQ)",
+    "prevu": "2026-11-09T19:00",
+    "publie_le": "2026-11-09T07:25",
+    "permalink": "https://www.instagram.com/reel/Dfgrd0DFMso/"
    },
    "tiktok_version_courte": {
     "date": "2026-11-07",
