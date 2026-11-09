@@ -1,5 +1,5 @@
 {
- "duration": 66.311,
+ "duration": 67.401,
  "segments": [
   {
    "id": "s01",
@@ -61,56 +61,56 @@
    "id": "s09",
    "text": "Au tarif médian Èl-Kom : environ dix-huit centimes par machine.",
    "start": 27.773,
-   "end": 31.773,
-   "display": "Au tarif médian ElCom (27,7 ct) : | environ 18 ct par machine."
+   "end": 31.768,
+   "display": "Au tarif médian ElCom : | environ 18 ct par machine."
   },
   {
    "id": "s10",
    "text": "Surprise : ces vingt litres, le fabricant les annonce dès vingt-deux degrés et soixante-dix pour cent d'humidité.",
-   "start": 31.873,
-   "end": 38.403,
+   "start": 31.868,
+   "end": 38.398,
    "display": "Surprise : ces 20 litres, | le fabricant les annonce | dès 22 °C et 70 % d'humidité."
   },
   {
    "id": "s11",
    "text": "Plus frais, il retire moins vite : compte plus longtemps.",
-   "start": 38.503,
-   "end": 42.217,
+   "start": 38.498,
+   "end": 42.213,
    "display": "Plus frais, il retire moins vite : | compte plus longtemps."
   },
   {
    "id": "s12",
    "text": "Règle l'hygrostat vers cinquante pour cent : l'Office fédéral de la santé publique vise trente à cinquante.",
-   "start": 42.317,
-   "end": 48.058,
+   "start": 42.313,
+   "end": 48.053,
    "display": "Règle l'hygrostat vers 50 % : | l'OFSP vise 30 à 50 %."
   },
   {
    "id": "s13",
    "text": "Le Touring Club le rappelle : chauffer plus ne règle pas l'humidité.",
-   "start": 48.158,
-   "end": 52.59,
+   "start": 48.153,
+   "end": 52.585,
    "display": "Le TCS le rappelle : | chauffer plus | ne règle pas l'humidité."
   },
   {
    "id": "s14",
    "text": "Toi, tu l'aurais branché ? Écris oui ou non en commentaire.",
-   "start": 52.69,
-   "end": 57.028,
+   "start": 52.685,
+   "end": 57.023,
    "display": "Toi, tu l'aurais branché ? | Écris oui ou non en commentaire."
   },
   {
    "id": "s15",
    "text": "Lui paie environ dix-huit centimes. Toi, tu paies en eau dans l'air.",
-   "start": 57.128,
-   "end": 61.269,
-   "display": "Lui paie environ 18 ct. | Toi, tu paies en eau dans l'air."
+   "start": 57.123,
+   "end": 62.359,
+   "display": "Lui paie au mieux 18 ct, hors TVA. | Toi, tu paies en eau dans l'air."
   },
   {
    "id": "s16",
    "text": "Abonne-toi : demain, Suisse contre France : le kilowattheure, qui paie le plus ?",
-   "start": 61.369,
-   "end": 66.011,
+   "start": 62.459,
+   "end": 67.101,
    "display": "Abonne-toi : demain, | Suisse contre France : | le kWh, qui paie le plus ?"
   }
  ]
