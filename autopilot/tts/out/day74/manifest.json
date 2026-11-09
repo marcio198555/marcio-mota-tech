@@ -1,0 +1,120 @@
+{
+ "job": "day74",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ton linge sèche au salon.",
+   "file": "s01.wav",
+   "duration": 2.24,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue branche un déshumidificateur à côté.",
+   "file": "s02.wav",
+   "duration": 4.16,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Combien il paie pour sécher l'air ?",
+   "file": "s03.wav",
+   "duration": 3.16,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Reste : la réponse, puis le piège de la fiche.",
+   "file": "s04.wav",
+   "duration": 3.32,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Une étude pour l'Adème compte environ deux litres d'eau par machine dans l'air.",
+   "file": "s05.wav",
+   "duration": 5.64,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Un Albert de Stad-leur Forme, marque suisse : deux cent septante watts.",
+   "file": "s06.wav",
+   "duration": 5.12,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Sur la fiche : vingt litres en vingt-quatre heures.",
+   "file": "s07.wav",
+   "duration": 4.12,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Pour deux litres, au mieux : deux heures vingt-quatre.",
+   "file": "s08.wav",
+   "duration": 4.08,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Au tarif médian Èl-Kom : environ dix-huit centimes par machine.",
+   "file": "s09.wav",
+   "duration": 4.68,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Surprise : ces vingt litres, le fabricant les annonce dès vingt-deux degrés et soixante-dix pour cent d'humidité.",
+   "file": "s10.wav",
+   "duration": 7.44,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Plus frais, il retire moins vite : compte plus longtemps.",
+   "file": "s11.wav",
+   "duration": 4.28,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Règle l'hygrostat vers cinquante pour cent : l'Office fédéral de la santé publique vise trente à cinquante.",
+   "file": "s12.wav",
+   "duration": 6.64,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Le Touring Club le rappelle : chauffer plus ne règle pas l'humidité.",
+   "file": "s13.wav",
+   "duration": 5.52,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Toi, tu l'aurais branché ? Écris oui ou non en commentaire.",
+   "file": "s14.wav",
+   "duration": 5.08,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Lui paie environ dix-huit centimes. Toi, tu paies en eau dans l'air.",
+   "file": "s15.wav",
+   "duration": 4.88,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : demain, Suisse contre France : le kilowattheure, qui paie le plus ?",
+   "file": "s16.wav",
+   "duration": 5.48,
+   "rate": 24000
+  }
+ ],
+ "total": 75.84
+}
