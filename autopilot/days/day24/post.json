@@ -10,13 +10,14 @@
  "aigc": true,
  "branded": false,
  "cover_ms": 1500,
- "statut": "prête",
+ "statut": "programmée",
  "tiktok_title": "Le mode sombre économise-t-il vraiment ta batterie ?",
  "caption": "Mode sombre : 3 à 9 % d'énergie en moins entre 30 et 50 % de luminosité, 39 à 47 % à 100 % 🌙 Étude Purdue 2021 sur 4 téléphones OLED (Pixel 2, Moto Z3, Pixel 4, Pixel 5), 6 applis Google. Google Actualités sur Pixel 5 : 20 % en clair consomme autant que 50 % en sombre. Aucun chiffre pour les écrans LCD dans cette étude. Ta luminosité est à combien, là, maintenant ? 👇 #modesombre #batterie #smartphone #oled #astucetech",
  "duree_s": 69.0,
  "story_instagram": {
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793972494/tiktok-autopilot/stories/day24_story.mp4",
-  "programme_le": "2026-11-12T18:05:00+01:00"
+  "programme_le": "2026-11-12T18:05:00+01:00",
+  "buffer_id": "6af2b8bcd35dff5701e2c897"
  },
  "reel_instagram": {
   "prevu": "2026-11-12T19:00",
@@ -28,5 +29,7 @@
  "sources": [
   "https://engineering.purdue.edu/ECE/News/2021/dark-mode-may-not-save-your-phones-battery-life-as-much-as-you-think-but-there-are-a-few-silver-linings",
   "https://www.lg.com/in/magazine/what-makes-lg-oled-different-from-led-tvs/"
- ]
+ ],
+ "buffer_id": "6af2b8bbe261c09acca44e93",
+ "programme_le": "2026-11-12T18:00:00+01:00"
 }

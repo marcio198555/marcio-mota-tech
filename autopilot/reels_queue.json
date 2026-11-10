@@ -120,7 +120,12 @@
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954302/tiktok-autopilot/reels/day56_reel.mp4",
    "isAiGenerated": true,
    "caption": "Éteindre sa box internet la nuit : environ 2 cafés crème gagnés par an, mais plus de téléphone fixe.\n\nSwisscom annonce 11,9 W pour l'Internet-Box 5 (appareils connectés, sans transfert de données). Débranchée 8 h par nuit : 34,75 kWh de moins par an, soit 9,63 CHF au tarif médian ElCom 2026 (27,7 ct/kWh hors TVA), moins de 3 centimes par nuit. Un café crème coûte en moyenne 4,65 CHF (CafetierSuisse, 2025). Au tarif médian ElCom 2027 (26,5 ct/kWh), le gain tombe à 9,21 CHF.\n\nSwisscom précise que la téléphonie fixe, les systèmes d'alarme et les caméras de surveillance fonctionnent uniquement si le routeur est allumé, et recommande de ne pas le brancher sur une multiprise. Autres options : des horaires de pause du WLAN dans My Swisscom, ou le mode d'économie d'énergie de l'Internet-Box 5 Pro (0,3 W, mais ni Internet ni appels).\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui débranche sa box tous les soirs.\n\n#boxinternet #wifi #electricite #suisseromande #jemesuretout",
-   "statut": "en attente"
+   "statut": "publié",
+   "publie_le": "2026-11-10T07:30+01:00",
+   "lien": "https://www.instagram.com/reel/DfjQhO7jaYR/",
+   "media_id": "18118042133036366",
+   "container_id": "17956766148294026",
+   "via": "vidIQ"
   },
   {
    "id": "day71",
@@ -196,7 +201,11 @@
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794230968/tiktok-autopilot/reels/day74_reel.mp4",
    "isAiGenerated": true,
    "caption": "Linge au salon + déshumidificateur : combien ça coûte pour sécher l'air ?\n\nExemple avec un Stadler Form Albert, marque suisse : 270 W (fiche du fabricant, mesurés à 26,7 °C et 60 % d'humidité) et 20 litres en 24 heures. Pour les 2 litres d'eau qu'une machine laisse dans l'air (étude Q-Wash pour l'ADEME), il faut au mieux 2 h 24 : 0,648 kWh, soit environ 18 ct au tarif médian ElCom 2026 de 27,7 ct/kWh hors TVA.\n\nLe piège : le fabricant n'annonce ces 20 litres qu'à partir de 22 °C et 70 % d'humidité. Dans une pièce plus fraîche, il retire moins vite. L'OFSP vise 30 à 50 % d'humidité, et le TCS rappelle que chauffer plus ne règle pas l'humidité.\n\nAnimation et voix de synthèse.\n\nEnvoie-la à quelqu'un qui étend son linge au salon.\n\n#deshumidificateur #humidite #astucemaison #suisseromande #jemesuretout",
-   "statut": "en attente"
+   "statut": "publié",
+   "publie_le": "2026-11-10T07:30+01:00",
+   "container_id": "17956766151294026",
+   "via": "vidIQ",
+   "note": "PUBLISHED confirmé par vidIQ, lien non renvoyé"
   },
   {
    "id": "day57",

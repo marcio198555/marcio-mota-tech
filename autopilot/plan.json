@@ -694,7 +694,7 @@
     "étude Purdue 2021 sur le mode sombre (gain selon la luminosité)"
    ],
    "argent": "Croissance",
-   "statut": "prête",
+   "statut": "programmée",
    "heure": "18:00",
    "format": "V",
    "semaine": "S2",
@@ -703,6 +703,11 @@
    "reel_instagram": {
     "statut": "en attente",
     "prevu": "2026-11-12T19:00"
+   },
+   "buffer_id": "6af2b8bbe261c09acca44e93",
+   "story_instagram": {
+    "buffer_id": "6af2b8bcd35dff5701e2c897",
+    "programme_le": "2026-11-12T18:05:00+01:00"
    }
   },
   {
@@ -1336,8 +1341,12 @@
     "programme_le": "2026-11-10T10:05:00+01:00"
    },
    "reel_instagram": {
-    "statut": "en attente",
-    "prevu": "2026-11-10T11:00"
+    "statut": "publié",
+    "prevu": "2026-11-10T11:00",
+    "publie_le": "2026-11-10T07:30+01:00",
+    "lien": "https://www.instagram.com/reel/DfjQhO7jaYR/",
+    "media_id": "18118042133036366",
+    "via": "vidIQ"
    },
    "tiktok_version": "réponse d'abord (analyse du 9.11) : media/day56_*_tk.mp4, tk_cuts.json ; Story et Reel inchangés (version longue)"
   },
@@ -1421,8 +1430,11 @@
     "programme_le": "2026-11-10T18:05:00+01:00"
    },
    "reel_instagram": {
-    "statut": "en attente",
-    "prevu": "2026-11-10T19:00"
+    "statut": "publié",
+    "prevu": "2026-11-10T19:00",
+    "publie_le": "2026-11-10T07:30+01:00",
+    "container_id": "17956766151294026",
+    "via": "vidIQ"
    },
    "tiktok_version": "réponse d'abord, 51,6 s (tk_cuts.json)"
   },
