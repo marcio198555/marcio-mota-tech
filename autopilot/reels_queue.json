@@ -133,8 +133,14 @@
    "source": "autopilot jour 71",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954310/tiktok-autopilot/reels/day71_reel.mp4",
    "isAiGenerated": true,
-   "caption": "Machine à laver : en Suisse ou en France, qui paie le plus le kWh ?\n\nLa médiane ElCom 2026 pour un ménage type (4 500 kWh/an) est de 27,7 ct/kWh (hors TVA d'après EKZ et calculsuisse.ch), soit 29,9 ct avec 8,1 %. Le tarif Bleu EDF option Base, en vigueur depuis le 1.8.2026, est de 20,01 c€ TTC, soit 18,4 ct de franc au cours BNS du 5.11.2026 (1 € = 0,9180 CHF). Pour une machine de classe A à 47 kWh/100 lavages (médiane EPREL relevée par JeChange) et 220 lavages par an (convention de l'ancienne étiquette) : 31 francs d'électricité par an en Suisse, 19 en France.\n\nLe prix suisse comprend le tarif de mesure ; le prix français laisse l'abonnement à part (190,32 €/an en 6 kVA). Une fois réparti sur 4 500 kWh, l'écart passe de 11,6 à 7,7 ct/kWh. C'est une médiane suisse comparée à un tarif réglementé : chaque facture diffère selon la commune.\n\nAnimation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui vit de l'autre côté de la frontière.\n\n#machinealaver #prixelectricite #suissecontrefrance #suisseromande #jemesuretout",
-   "statut": "en attente"
+   "caption": "Machine à laver : en Suisse ou en France, qui paie le plus le kWh ?\n\nLa médiane ElCom 2026 pour un ménage type (4 500 kWh/an) est de 27,7 ct/kWh (hors TVA d'après EKZ et calculsuisse.ch), soit 29,9 ct avec 8,1 %. Le tarif Bleu EDF option Base, en vigueur depuis le 1.8.2026, est de 20,01 c€ TTC, soit 18,4 ct de franc au cours BNS du 5.11.2026 (1 € = 0,9180 CHF). Pour une machine de classe A à 47 kWh/100 lavages (médiane EPREL relevée par JeChange) et 220 lavages par an (convention de l'ancienne étiquette) : 31 francs d'électricité par an en Suisse, 19 en France.\n\nLe prix suisse comprend le tarif de mesure ; le prix français laisse l'abonnement à part (190,32 €/an en 6 kVA). Une fois réparti sur 4 500 kWh, l'écart passe de 11,6 à 7,7 ct/kWh. C'est une médiane suisse comparée à un tarif réglementé : chaque facture diffère selon la commune.\n\nAnimation, voix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#machinealaver #prixelectricite #suissecontrefrance #suisseromande #jemesuretout",
+   "statut": "publié",
+   "publie_le": "2026-11-11T16:22+01:00",
+   "container_id": "17957012067294026",
+   "via": "vidIQ",
+   "lien": "https://www.instagram.com/reel/Dfmyk5_iP4L/",
+   "cta": "abonnement",
+   "note": "PUBLISHED confirmé par vidIQ ; publié à la main le 11.11 après l'échec de la tâche de 7 h 13 (quota) ; légende « abonnement » (jour impair, bloc du 11.11)"
   },
   {
    "id": "day62",
@@ -143,7 +149,8 @@
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793954316/tiktok-autopilot/reels/day62_reel.mp4",
    "isAiGenerated": true,
    "caption": "Douche ou bain : qui paie le plus à la fin de l'année ?\n\nExemple, une fois par jour : une douche de 5 minutes à 12 l/min (60 litres, chiffre d'Eau de Fribourg) coûte environ 250 francs par an ; un bain de 200 litres (200 à 250 litres selon les services cantonaux de l'énergie) environ 840 francs. Calcul : 1,16 Wh par litre et par degré, de 12 à 37 °C (SuisseEnergie), chauffe-eau électrique supposé, tarif médian hors TVA ElCom 2026 de 27,7 ct/kWh, eau et traitement à Lausanne 3,45 fr./m³, sans taxes fixes ni pertes du chauffe-eau. Le coût dépend du mode de chauffage.\n\nÀ 12 l/min, la douche atteint 200 litres en moins de 17 minutes. Avec un pommeau ordinaire, 10 minutes peuvent consommer plus d'eau qu'un bain, selon les services cantonaux. Un pommeau de classe A limite le débit à 4-6 l/min (TCS) : à 6 l/min, environ 125 francs d'économie par an dans cet exemple.\n\nPersonnages et animation, voix de synthèse.\n\nEnvoie-la à ton collègue qui prend un bain tous les soirs.\n\n#douche #bain #economiedenergie #suisseromande #jemesuretout",
-   "statut": "en attente"
+   "statut": "en attente",
+   "cta": "envoi"
   },
   {
    "id": "day27",
@@ -213,8 +220,14 @@
    "source": "autopilot jour 57",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793971850/tiktok-autopilot/reels/day57_reel.mp4",
    "isAiGenerated": true,
-   "caption": "Lave-vaisselle ou main : 15 litres contre 103 pour 12 couverts\n\nÉtude de l'Université de Bonn (Stamminger et al.), ancienne et financée par plusieurs fabricants : 103 litres à la main en moyenne, de 46 en Allemagne à 170 en Espagne et au Portugal ; 15 litres en machine.\n\nExemple à Lausanne (eau et épuration 3,45 fr./m³) : 30 ct d'écart par vaisselle, environ 110 francs par an à une vaisselle par jour, sans compter l'énergie. Selon une revue de 2024 (données Richter 2011), avec 4 % de gens qui rincent en Allemagne et 42 % en Italie, le rinçage ajoute en moyenne 2,8 et 19,7 litres par cycle.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui rince tout avant de charger.\n\n#lavevaisselle #economiedeau #astucemaison #suisseromande #jemesuretout",
-   "statut": "en attente"
+   "caption": "Lave-vaisselle ou main : 15 litres contre 103 pour 12 couverts\n\nÉtude de l'Université de Bonn (Stamminger et al.), ancienne et financée par plusieurs fabricants : 103 litres à la main en moyenne, de 46 en Allemagne à 170 en Espagne et au Portugal ; 15 litres en machine.\n\nExemple à Lausanne (eau et épuration 3,45 fr./m³) : 30 ct d'écart par vaisselle, environ 110 francs par an à une vaisselle par jour, sans compter l'énergie. Selon une revue de 2024 (données Richter 2011), avec 4 % de gens qui rincent en Allemagne et 42 % en Italie, le rinçage ajoute en moyenne 2,8 et 19,7 litres par cycle.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#lavevaisselle #economiedeau #astucemaison #suisseromande #jemesuretout",
+   "statut": "publié",
+   "publie_le": "2026-11-11T16:22+01:00",
+   "container_id": "17957012070294026",
+   "via": "vidIQ",
+   "lien": "https://www.instagram.com/reel/DfmyiPjCkTL/",
+   "cta": "abonnement",
+   "note": "PUBLISHED confirmé par vidIQ ; publié à la main le 11.11 après l'échec de la tâche de 7 h 13 (quota) ; légende « abonnement » (jour impair, bloc du 11.11)"
   },
   {
    "id": "day24",
@@ -223,7 +236,8 @@
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1793972495/tiktok-autopilot/reels/day24_reel.mp4",
    "isAiGenerated": true,
    "caption": "Mode sombre : seulement 3 à 9 % d'énergie en moins entre 30 et 50 % de luminosité\n\nÉtude de l'université Purdue (2021), 4 téléphones OLED et 6 applis : 3 à 9 % en moyenne entre 30 et 50 % de luminosité, 39 à 47 % à 100 %. Sur Google Actualités et un Pixel 5, 20 % en mode clair consomme autant que 50 % en mode sombre.\n\nSur un écran LCD, l'étude ne donne aucun chiffre. Purdue n'a pas mesuré l'effet sur les yeux.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui jure que le mode sombre sauve sa batterie.\n\n#modesombre #batterie #astucetech #suisseromande #jemesuretout",
-   "statut": "en attente"
+   "statut": "en attente",
+   "cta": "envoi"
   }
  ]
 }

@@ -17,7 +17,37 @@ signaler à Marcio dans le message final.
 **Du 30.10 au 5.12.2026 (prolongée le 05.11) : stratégie du mois (§ 10 et `strategy.json`)**, demandée par Marcio le 29.10 : chaque vendredi,
 on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles ; si ça ne marche pas, on change de stratégie.
 
-> **Changements du 05.11.2026 : ils priment sur tout le reste (blocs du 04.11 et du 03.11, sections plus bas, texte
+> **Changements du 11.11.2026 (Instagram seulement) : à appliquer en plus du bloc du 05.11.** Décidés après un audit du
+> compte Instagram et le feu vert de Marcio du 11.11 (« fais comme tu veux, je te donne le feu vert pour tout », « il ne
+> faut pas me demander des choses »). Le détail de l'audit est privé et n'est pas recopié ici.
+> 1. **Test « abonne-toi » dans la légende des Reels d'essai, du 11.11 au 25.11.** Entrées prévues un jour **impair** du
+>    mois : la phrase « Envoie-la à… » est remplacée par « Abonne-toi : chaque jour, un chiffre vérifié sur les objets de
+>    ta maison. » Entrées prévues un jour **pair** : légende habituelle (envoi). Toujours un seul appel à l'action et
+>    5 hashtags. Pour les jours impairs seulement, cela remplace la règle du § 8.5b « jamais abonne-toi ». Chaque entrée
+>    de `reels_queue.json` porte `"cta": "abonnement"` ou `"cta": "envoi"`. La tâche de midi (point 4) remet les légendes
+>    des entrées « en attente » en accord avec cette règle. Jugement le 26.11 par la tâche de midi, repris au bilan du
+>    vendredi 27.11 : abonnés gagnés par jour (vidIQ `follower_count` en `time_series`, ou Windsor), jours impairs contre
+>    jours pairs, rapportés aux vues des Reels d'essai du jour ; on garde l'appel qui rapporte le plus d'abonnés si la
+>    médiane de vues ne baisse pas de plus de 20 %.
+> 2. **Fin de vidéo Instagram.** `reel_cut.sh` coupe avant « abonne-toi » (fin propre à TikTok). À partir de la production
+>    du vendredi 13.11, pour les Reels prévus un jour impair, garder une fin de 2 s propre à Instagram : carte
+>    « ABONNE-TOI · un chiffre vérifié chaque jour », sans @ TikTok, sans « CE SOIR » ni « DEMAIN », avec la voix
+>    « Abonne-toi : un chiffre vérifié chaque jour. ». Si ce n'est pas faisable proprement dans le temps de la tâche,
+>    garder la coupe actuelle et le noter dans `learnings.md`.
+> 3. **Ne plus reprendre en Reel d'essai une vidéo déjà publiée sur Instagram** (présentations de produit) : le Centre
+>    d'aide d'Instagram prévient que la portée d'un Reel d'essai est limitée quand le contenu a déjà été partagé, et
+>    ces reprises ont fait 92 vues de médiane.
+> 4. **Rattrapage de midi.** La tâche « Autopilot : rattrapage Reels d'essai (midi) » (12 h 23) publie les entrées dues
+>    restées « en attente » quand la tâche de 7 h 13 a échoué. Même procédure que le point 2 du bloc du 03.11. Toujours
+>    relire `reels_queue.json` après `git pull` juste avant de publier : jamais deux fois la même entrée.
+> 5. **Rien sur la grille pour l'instant** : ne pas republier un Reel d'essai en Reel normal, ne pas publier de
+>    carrousel ni de post, tant que Marcio n'a pas répondu au point T1 de l'audit. Les Reels d'essai qui dépassent
+>    1 500 comptes touchés sont signalés à Marcio avec leur lien : lui seul peut les partager (« Afficher les insights
+>    d'essai », puis « Partager avec tout le monde »).
+> 6. **11.11** : la tâche de 7 h 13 a échoué (quota d'utilisation). Les jours 71 et 57 ont été publiés à la main vers
+>    16 h 30, légende « abonnement » (jour impair).
+
+> **Changements du 05.11.2026 (complétés par le bloc du 11.11.2026 ci-dessus, pour Instagram) : ils priment sur tout le reste (blocs du 04.11 et du 03.11, sections plus bas, texte
 > des tâches).** Marcio (05.11, 8 h 48) : « je n'ai pas de vues, je pense que ça ne marche pas, tu ne peux pas revoir ta
 > stratégie ? ». Constat chiffré (Buffer + Metricool, 05.11 ; 20 vidéos de l'autopilote du 25.10 au 4.11) :
 > - 16 sur 20 entre 246 et 293 vues (le premier groupe test de TikTok) ; temps moyen regardé : 3 à 11 s.
