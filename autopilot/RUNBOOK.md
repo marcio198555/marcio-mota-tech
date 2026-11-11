@@ -25,7 +25,8 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >    ta maison. » Entrées prévues un jour **pair** : légende habituelle (envoi). Toujours un seul appel à l'action et
 >    5 hashtags. Pour les jours impairs seulement, cela remplace la règle du § 8.5b « jamais abonne-toi ». Chaque entrée
 >    de `reels_queue.json` porte `"cta": "abonnement"` ou `"cta": "envoi"`. Les tâches du vendredi écrivent la légende de
->    chaque entrée selon le jour de son champ « prevu ». Jugement au bilan du vendredi 27.11 : abonnés gagnés par jour (vidIQ `follower_count` en `time_series`, ou Windsor), jours impairs contre
+>    chaque entrée selon le jour de son champ « prevu » ; la tâche de midi (point 4) corrige au besoin les entrées
+>    « en attente » et rend un premier verdict le 26.11. Jugement au bilan du vendredi 27.11 : abonnés gagnés par jour (vidIQ `follower_count` en `time_series`, ou Windsor), jours impairs contre
 >    jours pairs, rapportés aux vues des Reels d'essai du jour ; on garde l'appel qui rapporte le plus d'abonnés si la
 >    médiane de vues ne baisse pas de plus de 20 %.
 > 2. **Fin de vidéo Instagram.** `reel_cut.sh` coupe avant « abonne-toi » (fin propre à TikTok). À partir de la production
@@ -36,10 +37,10 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 > 3. **Ne plus reprendre en Reel d'essai une vidéo déjà publiée sur Instagram** (présentations de produit) : le Centre
 >    d'aide d'Instagram prévient que la portée d'un Reel d'essai est limitée quand le contenu a déjà été partagé, et
 >    ces reprises ont fait 92 vues de médiane.
-> 4. **Rattrapage.** Quand la tâche de 7 h 13 échoue (quota), les entrées dues restent « en attente » et partent le
->    lendemain matin (3 au plus par jour). Une tâche de rattrapage à midi était prévue le 11.11 : sa création a été
->    refusée par le système d'autorisations et attend l'accord de Marcio. Toujours relire `reels_queue.json` après
->    `git pull` juste avant de publier : jamais deux fois la même entrée.
+> 4. **Rattrapage de midi.** La tâche « Autopilot : rattrapage Reels d'essai (midi) » (chaque jour à 12 h 23, créée le
+>    11.11, jusqu'au 5.12) publie les entrées dues restées « en attente » quand la tâche de 7 h 13 a échoué (quota).
+>    Même procédure que le point 2 du bloc du 03.11. Toujours relire `reels_queue.json` après `git pull` juste avant
+>    de publier : jamais deux fois la même entrée.
 > 5. **Rien sur la grille pour l'instant** : ne pas republier un Reel d'essai en Reel normal, ne pas publier de
 >    carrousel ni de post, tant que Marcio n'a pas répondu au point T1 de l'audit. Les Reels d'essai qui dépassent
 >    1 500 comptes touchés sont signalés à Marcio avec leur lien : lui seul peut les partager (« Afficher les insights
