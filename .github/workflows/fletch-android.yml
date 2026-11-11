@@ -1,0 +1,97 @@
+name: fletch-android
+# Builds the Fletch Android app each time the "fletch" branch changes.
+# The results (test app, release files to sign, logs, emulator screenshots)
+# are pushed as one single commit to the "fletch-builds" branch.
+# The signing key is never used here: release files leave this workflow unsigned.
+on:
+  push:
+    branches: [fletch]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: fletch-android
+  cancel-in-progress: true
+env:
+  OUT: ${{ github.workspace }}/out
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: 17
+          cache: gradle
+
+      - name: Start the report
+        run: |
+          mkdir -p "$OUT"
+          {
+            echo "sha=$GITHUB_SHA"
+            echo "run=$GITHUB_RUN_ID"
+            echo "started=$(date -u +%FT%TZ)"
+          } > "$OUT/STATUS.txt"
+
+      - name: Game - check, test and build
+        run: |
+          set -o pipefail
+          cd game
+          npm ci --no-audit --no-fund 2>&1 | tail -3
+          npm test 2>&1 | tee "$OUT/game-test.log" | tail -8
+          PRIVACY_URL="$(grep -E '^privacyUrl=' ../android/app.properties | cut -d= -f2- | tr -d '[:space:]')"
+          export PRIVACY_URL
+          npm run build
+          mkdir -p ../android/app/src/main/assets
+          cp dist/index.html ../android/app/src/main/assets/index.html
+          echo "game=ok" >> "$OUT/STATUS.txt"
+
+      - name: Newest library versions (information only)
+        continue-on-error: true
+        run: bash ci/versions.sh > "$OUT/versions.txt" 2>&1
+
+      - name: Android - build
+        run: |
+          set -o pipefail
+          cd android
+          chmod +x gradlew
+          ./gradlew --no-daemon --stacktrace lintDebug assembleDebug assembleRelease bundleRelease 2>&1 \
+            | tee "$OUT/build-full.log" | tail -40
+
+      - name: Collect the outputs
+        if: always()
+        run: bash ci/collect.sh
+
+      - name: Publish the outputs
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash ci/publish.sh "$OUT" "build ${GITHUB_SHA::7}"
+
+      - name: Enable KVM for the emulator
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Emulator - the game plays itself, ads are shown
+        continue-on-error: true
+        timeout-minutes: 25
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          profile: pixel_7
+          script: bash ci/emulator-test.sh "$OUT" android/app/build/outputs/apk/debug/app-debug.apk
+
+      - name: Publish the outputs with the emulator results
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash ci/publish.sh "$OUT" "build ${GITHUB_SHA::7} + emulator"

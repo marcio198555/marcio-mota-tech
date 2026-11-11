@@ -1,0 +1,109 @@
+plugins {
+    id 'com.android.application'
+}
+
+// Public settings (AdMob identifiers, ad rating) live in android/app.properties.
+def appProps = new Properties()
+def appPropsFile = rootProject.file('app.properties')
+if (appPropsFile.exists()) {
+    appPropsFile.withInputStream { appProps.load(it) }
+}
+def admobAppId = appProps.getProperty('admobAppId', 'ca-app-pub-3940256099942544~3347511713').trim()
+def interstitialId = appProps.getProperty('interstitialId', 'ca-app-pub-3940256099942544/1033173712').trim()
+def rewardedId = appProps.getProperty('rewardedId', 'ca-app-pub-3940256099942544/5224354917').trim()
+def maxAdRating = appProps.getProperty('maxAdRating', 'PG').trim().toUpperCase()
+if (!(maxAdRating in ['G', 'PG', 'T', 'MA'])) {
+    throw new GradleException("app.properties: maxAdRating must be G, PG, T or MA (found '${maxAdRating}')")
+}
+
+android {
+    namespace 'com.motagames.arrows'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.motagames.arrows'
+        minSdk 24
+        targetSdk 36
+        versionCode 1
+        versionName '1.0.0'
+        manifestPlaceholders = [admobAppId: admobAppId]
+        buildConfigField 'String', 'INTERSTITIAL_ID', "\"${interstitialId}\""
+        buildConfigField 'String', 'REWARDED_ID', "\"${rewardedId}\""
+        buildConfigField 'String', 'AD_RATING', "\"${maxAdRating}\""
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    signingConfigs {
+        release {
+            // The upload key never lives in this repository. When these variables
+            // are absent, the release files are produced unsigned and signed elsewhere.
+            if (System.getenv('FLETCH_KEYSTORE')) {
+                storeFile file(System.getenv('FLETCH_KEYSTORE'))
+                storePassword System.getenv('FLETCH_KEYSTORE_PASSWORD')
+                keyAlias System.getenv('FLETCH_KEY_ALIAS')
+                keyPassword System.getenv('FLETCH_KEY_PASSWORD')
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix '.dev'
+            versionNameSuffix '-dev'
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            if (System.getenv('FLETCH_KEYSTORE')) {
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+        textReport true
+        textOutput file("$buildDir/reports/lint.txt")
+    }
+
+    bundle {
+        language {
+            // The game carries its own translations: keep every language in every install.
+            enableSplit = false
+        }
+    }
+}
+
+// The game itself is one web page built from ../game (see game/build.sh).
+// Stop with a clear message when it has not been built yet.
+def gamePage = file('src/main/assets/index.html')
+tasks.register('checkGamePage') {
+    doLast {
+        if (!gamePage.exists() || gamePage.length() < 20000) {
+            throw new GradleException(
+                    "The game page is missing. Build it first:\n" +
+                    "  cd game && npm ci && npm run build\n" +
+                    "  cp game/dist/index.html android/app/src/main/assets/index.html")
+        }
+    }
+}
+tasks.named('preBuild') { dependsOn 'checkGamePage' }
+
+dependencies {
+    implementation 'androidx.activity:activity:1.10.1'
+    implementation 'androidx.core:core:1.16.0'
+    implementation 'androidx.webkit:webkit:1.14.0'
+    implementation 'com.google.android.gms:play-services-ads:24.4.0'
+    implementation 'com.google.android.ump:user-messaging-platform:3.2.0'
+    implementation 'com.google.android.play:review:2.0.2'
+}

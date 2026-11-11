@@ -1,0 +1,22 @@
+# tools and build results
+node_modules/
+game/dist/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/app/src/main/assets/index.html
+__pycache__/
+*.pyc
+shots/
+out/
+
+# signing keys never go into the repository
+*.jks
+*.keystore
+*.p12
+*.pem
+keystore.properties
+
+# private research notes
+replica/

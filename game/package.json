@@ -1,0 +1,17 @@
+{
+  "name": "fletch-game",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Fletch - arrow escape puzzle (the game page shipped inside the Android app)",
+  "scripts": {
+    "typecheck": "tsc -p .",
+    "test": "tsx test/levels.test.ts",
+    "build": "bash build.sh"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "tsx": "4.23.12",
+    "typescript": "6.0.3"
+  }
+}

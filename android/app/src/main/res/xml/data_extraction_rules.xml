@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Only the saved game is kept in the phone backup or moved to a new phone. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="fletch.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="fletch.xml" />
+    </device-transfer>
+</data-extraction-rules>
