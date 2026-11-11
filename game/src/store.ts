@@ -27,7 +27,7 @@ export interface Save {
     best: number;
     last: number;
   };
-  seen: { blocked: boolean; zoom: boolean; review: number };
+  seen: { blocked: boolean; zoom: boolean; review: number; peek: boolean };
   ads: { lastAt: number; since: number };
 }
 
@@ -42,7 +42,7 @@ function defaults(): Save {
     wins: 0,
     settings: { sound: true, haptics: true, theme: 'dark', colors: 'dir', lang: 'auto' },
     daily: { done: {}, streak: 0, best: 0, last: -1 },
-    seen: { blocked: false, zoom: false, review: 0 },
+    seen: { blocked: false, zoom: false, review: 0, peek: false },
     ads: { lastAt: 0, since: 0 },
   };
 }

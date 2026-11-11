@@ -82,6 +82,14 @@ class Game {
     });
     this.view = new BoardView(this.ui.canvas);
     this.view.onTap = (id) => this.tap(id);
+    this.view.onPeek = () => {
+      this.native.haptic('tap');
+      const seen = this.store.data.seen;
+      if (!seen.peek) {
+        seen.peek = true;
+        this.store.save();
+      }
+    };
     this.view.onZoomChange = (z) => this.ui.setFit(z);
     this.view.onSettled = () => this.settled();
 
@@ -266,7 +274,7 @@ class Game {
   private howTo(): void {
     this.ui.modal({
       title: t('howto.title'),
-      lines: [t('howto.1'), t('howto.2'), t('howto.3'), t('howto.4'), t('howto.5')],
+      lines: [t('howto.1'), t('howto.2'), t('howto.3'), t('howto.peek'), t('howto.4'), t('howto.5')],
       actions: [{ label: t('common.ok'), kind: 'primary', run: () => {} }],
       onDismiss: () => {},
     });
@@ -346,6 +354,9 @@ class Game {
       tip = t('tut.3');
       seen.zoom = true;
       this.store.save();
+    } else if (kind === 'level' && !seen.peek && (n === 3 || (n > 3 && n % 4 === 0))) {
+      // Shown now and then until the player has tried it once.
+      tip = t('tut.4');
     }
     this.ui.banner(tip);
     this.layout();

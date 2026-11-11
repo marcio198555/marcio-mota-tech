@@ -88,6 +88,44 @@ def main():
         check(ev("__g.store.data.seen.blocked"), 'the blocked tip is shown once')
         page.wait_for_timeout(600)
 
+        print('path preview (press and hold)')
+        cdp = ctx.new_cdp_session(page)
+
+        def touch(kind, pts):
+            cdp.send('Input.dispatchTouchEvent', {'type': kind, 'touchPoints': [{'x': x, 'y': y} for x, y in pts]})
+
+        FREE = "(() => { const p = __g.play; for (const a of p.board.arrows) if (a && p.board.isFree(a.id)) return a.id; return -1; })()"
+        hearts = ev("__g.play.hearts")
+        left = ev("__g.play.board.remaining")
+        bx, by = ev(HEAD_XY, blocked)
+        touch('touchStart', [(bx, by)])
+        page.wait_for_timeout(150)
+        check(ev("__g.view.peek") == -1, 'a short press shows no path yet')
+        page.wait_for_timeout(330)
+        check(ev("__g.view.peek") == blocked, 'holding a blocked arrow shows its path')
+        check(ev("__g.store.data.seen.peek"), 'the game remembers the player knows the hold gesture')
+        os.makedirs(os.path.join(ROOT, 'shots'), exist_ok=True)
+        page.screenshot(path=os.path.join(ROOT, 'shots', 'peek-blocked.png'))
+        free = ev(FREE)
+        fx, fy = ev(HEAD_XY, free)
+        touch('touchMove', [(fx, fy)])
+        page.wait_for_timeout(120)
+        check(ev("__g.view.peek") == free, 'sliding the held finger moves the preview to another arrow')
+        page.screenshot(path=os.path.join(ROOT, 'shots', 'peek-free.png'))
+        touch('touchEnd', [])
+        page.wait_for_timeout(200)
+        check(ev("__g.view.peek") == -1, 'lifting the finger hides the path')
+        check(ev("__g.play.hearts") == hearts and ev("__g.play.board.remaining") == left,
+              'looking never fires an arrow and never costs a heart')
+        touch('touchStart', [(bx, by)])
+        page.wait_for_timeout(60)
+        touch('touchMove', [(bx + 40, by + 30)])
+        page.wait_for_timeout(450)
+        check(ev("__g.view.peek") == -1, 'a finger that moves right away is not a hold')
+        touch('touchEnd', [])
+        page.wait_for_timeout(100)
+        check(ev("__g.play.hearts") == hearts and ev("__g.play.board.remaining") == left, 'a moving finger fires nothing')
+
         print('forgiving touch')
         res = ev("""(() => { const p = __g.play; const w = p.level.w; const v = __g.view; const r = document.getElementById('board').getBoundingClientRect();
           // find a free arrow cell next to a blocked arrow cell, then touch the border between them
@@ -205,7 +243,7 @@ def main():
         check(ev("document.documentElement.dataset.theme") == 'light', 'theme switches to day')
         page.tap('#s-howto')
         page.wait_for_timeout(200)
-        check(page.is_visible('#modal') and len(page.query_selector_all('#sheet .lines li')) == 5, 'how to play lists five rules')
+        check(page.is_visible('#modal') and len(page.query_selector_all('#sheet .lines li')) == 6, 'how to play lists six rules')
         page.keyboard.press('Escape')
         page.wait_for_timeout(150)
         check(not page.is_visible('#modal'), 'back closes a dialog')

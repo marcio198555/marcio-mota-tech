@@ -74,9 +74,13 @@ interface Spark {
 const PAD = 14;
 const MAX_CELL = 58;
 const MAX_ZOOM = 3.5;
+/** A finger held this long on an arrow shows its path instead of firing it. */
+const PEEK_MS = 320;
 
 export class BoardView {
   onTap: (id: number) => void = () => {};
+  /** Called when a held finger starts showing the path of an arrow. */
+  onPeek: (id: number) => void = () => {};
   onZoomChange: (zoomed: boolean) => void = () => {};
   /** Called when the last flying arrow has left the screen. */
   onSettled: () => void = () => {};
@@ -112,6 +116,9 @@ export class BoardView {
   private tapStart: { x: number; y: number; t: number; id: number } | null = null;
   private moved = false;
   private pinch: { dist: number; zoom: number } | null = null;
+  private peekTimer = 0;
+  private peeking = false;
+  private peekId = -1;
 
   constructor(canvas: HTMLCanvasElement) {
     this.canvas = canvas;
@@ -144,6 +151,7 @@ export class BoardView {
 
   setInteractive(on: boolean): void {
     this.interactive = on;
+    if (!on) this.endPeek();
   }
 
   load(level: Level, board: Board): void {
@@ -154,6 +162,7 @@ export class BoardView {
     this.ripples = [];
     this.sparks = [];
     this.hintId = -1;
+    this.endPeek();
     this.zoom = 1;
     this.panX = 0;
     this.panY = 0;
@@ -278,7 +287,10 @@ export class BoardView {
       this.tapStart = { x: p.x, y: p.y, t: performance.now(), id: e.pointerId };
       this.moved = false;
       this.pinch = null;
+      this.endPeek();
+      this.peekTimer = window.setTimeout(() => this.startPeek(), PEEK_MS);
     } else if (this.pointers.size === 2) {
+      this.endPeek();
       this.tapStart = null;
       const [a, b] = Array.from(this.pointers.values());
       this.pinch = { dist: Math.max(1, Math.hypot(a.x - b.x, a.y - b.y)), zoom: this.zoom };
@@ -291,7 +303,15 @@ export class BoardView {
     const p = this.pos(e);
     this.pointers.set(e.pointerId, p);
     if (this.pointers.size === 1) {
-      if (this.tapStart && Math.hypot(p.x - this.tapStart.x, p.y - this.tapStart.y) > 10) this.moved = true;
+      if (this.peeking) {
+        // Looking mode: the finger slides from arrow to arrow, nothing fires.
+        this.setPeek(this.pick(p.x, p.y));
+        return;
+      }
+      if (this.tapStart && Math.hypot(p.x - this.tapStart.x, p.y - this.tapStart.y) > 10) {
+        this.moved = true;
+        window.clearTimeout(this.peekTimer);
+      }
       if (this.moved && this.zoomed) {
         this.panX += p.x - prev.x;
         this.panY += p.y - prev.y;
@@ -310,7 +330,16 @@ export class BoardView {
     this.pointers.delete(e.pointerId);
     if (!had || !this.level) return;
     const ts = this.tapStart;
-    if (ts && ts.id === e.pointerId && !this.moved && this.pointers.size === 0 && performance.now() - ts.t < 700) {
+    const looked = this.peeking;
+    this.endPeek();
+    if (
+      ts &&
+      ts.id === e.pointerId &&
+      !looked &&
+      !this.moved &&
+      this.pointers.size === 0 &&
+      performance.now() - ts.t < 700
+    ) {
       const p = this.pos(e);
       const id = this.pick(p.x, p.y);
       if (id >= 0) this.onTap(id);
@@ -323,6 +352,38 @@ export class BoardView {
     this.pointers.delete(e.pointerId);
     this.pinch = null;
     this.tapStart = null;
+    this.endPeek();
+  }
+
+  /** The finger has stayed still on the board: show the path instead of firing. */
+  private startPeek(): void {
+    const ts = this.tapStart;
+    if (!ts || this.moved || this.pointers.size !== 1 || !this.interactive) return;
+    const p = this.pointers.get(ts.id);
+    if (!p) return;
+    this.peeking = true;
+    this.setPeek(this.pick(p.x, p.y));
+  }
+
+  private setPeek(id: number): void {
+    if (id === this.peekId) return;
+    this.peekId = id;
+    if (id >= 0) this.onPeek(id);
+    this.invalidate();
+  }
+
+  private endPeek(): void {
+    window.clearTimeout(this.peekTimer);
+    this.peeking = false;
+    if (this.peekId >= 0) {
+      this.peekId = -1;
+      this.invalidate();
+    }
+  }
+
+  /** The arrow whose path is being shown, or -1. */
+  get peek(): number {
+    return this.peekId;
   }
 
   private wheel(e: WheelEvent): void {
@@ -489,7 +550,7 @@ export class BoardView {
   // ---- drawing ------------------------------------------------------------
 
   /** Draws one arrow whose tail has travelled `offset` cells along its track. */
-  private snake(a: Arrow, offset: number, color: string, alpha: number, glow: number): void {
+  private snake(a: Arrow, offset: number, color: string, alpha: number, glow: number, glowColor?: string): void {
     const ctx = this.ctx;
     const w = (this.level as Level).w;
     const n = a.cells.length;
@@ -538,8 +599,8 @@ export class BoardView {
 
     if (glow > 0) {
       ctx.globalAlpha = alpha * (0.28 + 0.3 * glow);
-      ctx.strokeStyle = this.theme.hint;
-      ctx.fillStyle = this.theme.hint;
+      ctx.strokeStyle = glowColor ?? this.theme.hint;
+      ctx.fillStyle = glowColor ?? this.theme.hint;
       ctx.lineWidth = lw + cs * (0.2 + 0.16 * glow);
       trace();
       ctx.stroke();
@@ -596,12 +657,27 @@ export class BoardView {
       struck.add(b.blocker);
     }
 
+    // Path preview: the arrow under a held finger, and what stands in its way.
+    let looked: Arrow | null = this.peekId >= 0 ? (board.get(this.peekId) ?? null) : null;
+    if (looked && bumping.has(looked.id)) looked = null;
+    const probe = looked ? board.probe(looked.id) : null;
+    if (probe && !probe.free) struck.add(probe.blocker);
+
     const pulse = this.hintId >= 0 ? 0.5 + 0.5 * Math.sin(now / 190) : 0;
     for (const a of board.arrows) {
       if (!a || bumping.has(a.id)) continue;
       const color = struck.has(a.id) ? this.theme.danger : this.colorOf(a);
-      this.snake(a, 0, color, 1, a.id === this.hintId ? 0.4 + 0.6 * pulse : 0);
+      let glow = a.id === this.hintId ? 0.4 + 0.6 * pulse : 0;
+      let glowColor: string | undefined;
+      if (looked && a.id === looked.id) glow = Math.max(glow, 0.75);
+      if (probe && !probe.free && a.id === probe.blocker) {
+        // What stands in the way glows red.
+        glow = 0.55 + 0.35 * Math.sin(now / 170);
+        glowColor = this.theme.danger;
+      }
+      this.snake(a, 0, color, 1, glow, glowColor);
     }
+    if (looked && probe) this.path(looked, probe.free, probe.steps, now);
 
     for (const b of this.bumps) {
       const u = (now - b.t0) / b.dur;
@@ -677,7 +753,62 @@ export class BoardView {
       this.bumps.length > 0 ||
       this.ripples.length > 0 ||
       this.sparks.length > 0 ||
-      this.hintId >= 0
+      this.hintId >= 0 ||
+      this.peekId >= 0
     );
+  }
+
+  /** Dashes running from the head of an arrow to the edge, or to what blocks it. */
+  private path(a: Arrow, free: boolean, steps: number, now: number): void {
+    const ctx = this.ctx;
+    const w = (this.level as Level).w;
+    const cs = this.cell * this.zoom;
+    const n = a.cells.length;
+    const hx = (a.cells[n - 1] % w) + 0.5;
+    const hy = Math.floor(a.cells[n - 1] / w) + 0.5;
+    const dx = DX[a.dir];
+    const dy = DY[a.dir];
+    const from = 0.66;
+    // Free: the dashes run past the edge of the board. Blocked: they stop at the obstacle.
+    const to = free ? steps + 1.15 : steps + 0.5;
+    const color = free ? this.theme.hint : this.theme.danger;
+    const dash = Math.max(3, cs * 0.17);
+    ctx.save();
+    ctx.strokeStyle = color;
+    ctx.fillStyle = color;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    ctx.lineWidth = Math.max(2, cs * 0.085);
+    if (to > from + 0.05) {
+      ctx.globalAlpha = 0.9;
+      ctx.setLineDash([dash, dash * 1.25]);
+      ctx.lineDashOffset = -((now / 26) % (dash * 2.25));
+      ctx.beginPath();
+      ctx.moveTo(this.sx(hx + dx * from), this.sy(hy + dy * from));
+      ctx.lineTo(this.sx(hx + dx * to), this.sy(hy + dy * to));
+      ctx.stroke();
+      ctx.setLineDash([]);
+    }
+    ctx.globalAlpha = 1;
+    const ex = this.sx(hx + dx * to);
+    const ey = this.sy(hy + dy * to);
+    if (free) {
+      // A small open chevron: the way out.
+      const k = cs * 0.2;
+      ctx.beginPath();
+      ctx.moveTo(ex - dx * k + dy * k, ey - dy * k + dx * k);
+      ctx.lineTo(ex + dx * k * 0.35, ey + dy * k * 0.35);
+      ctx.lineTo(ex - dx * k - dy * k, ey - dy * k - dx * k);
+      ctx.stroke();
+    } else {
+      // A bar across the way: the obstacle.
+      const k = cs * 0.3;
+      ctx.lineWidth = Math.max(2.5, cs * 0.12);
+      ctx.beginPath();
+      ctx.moveTo(ex + dy * k, ey + dx * k);
+      ctx.lineTo(ex - dy * k, ey - dx * k);
+      ctx.stroke();
+    }
+    ctx.restore();
   }
 }
