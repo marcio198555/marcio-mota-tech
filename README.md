@@ -6,7 +6,8 @@ défi du jour, thème clair ou sombre, 6 langues.
 
 Revenus : publicités Google AdMob (une pause pub entre deux niveaux, au plus
 un niveau sur deux, et des vidéos que le joueur choisit de regarder pour
-obtenir des indices ou recharger ses cœurs).
+obtenir des indices ou recharger ses cœurs). L'appli utilise le SDK
+« Google Mobile Ads Next-Gen », celui que Google recommande depuis juillet 2026.
 
 Tous droits réservés — © Marcio Mota.
 
@@ -18,7 +19,8 @@ Tous droits réservés — © Marcio Mota.
 | `android/` | L'application Android : une coquille Java qui affiche cette page en plein écran et lui apporte les publicités, les vibrations, la touche Retour et la sauvegarde. |
 | `ci/` + `.github/workflows/fletch-android.yml` | La fabrication automatique de l'application à chaque modification. |
 | `tools/` | Tests de bout en bout (un navigateur joue au jeu), captures d'écran, génération de l'icône. |
-| `store/` | Icône et éléments de la fiche Google Play. |
+| `store/` | Fiche Google Play : textes en 6 langues (`listing.json`), icône, bannière, captures d'écran (`python3 tools/store.py`). |
+| `docs/` | Politique de confidentialité (français et anglais). |
 
 ## Fabriquer l'application
 
@@ -62,6 +64,8 @@ Numéro de version : `versionCode` et `versionName` dans `android/app/build.grad
 
 - Toucher une flèche : elle part si toutes les cases devant sa pointe sont libres jusqu'au bord.
 - Flèche bloquée : un cœur en moins (3 par niveau). Étoiles : 3 moins le nombre d'erreurs, 1 au minimum.
+- Garder le doigt sur une flèche montre son chemin et ce qui la bloque, sans rien perdre.
+- Plus de cœurs : une vidéo les recharge tous, ou le niveau recommence tout de suite.
 - Un indice gratuit par niveau, plus une réserve ; une vidéo en donne 2.
 - Pause pub : jamais avant 3 niveaux gagnés, jamais pendant un niveau, au plus tous les 2 niveaux et à 70 secondes d'écart.
 
@@ -69,5 +73,5 @@ Numéro de version : `versionCode` et `versionName` dans `android/app/build.grad
 
 ```bash
 cd game && npm test            # générateur de niveaux
-python3 tools/e2e.py           # 52 contrôles : un navigateur joue avec de vrais touchers
+python3 tools/e2e.py           # 60 contrôles : un navigateur joue avec de vrais touchers
 ```

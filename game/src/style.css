@@ -145,6 +145,22 @@ svg {
   font-weight: 800;
   letter-spacing: -0.01em;
 }
+#h-name {
+  white-space: nowrap;
+}
+/* Narrow phones: the difficulty label goes under the level name instead of beside it. */
+@media (max-width: 389px) {
+  .hud-title {
+    flex-direction: column;
+    gap: 2px;
+    font-size: 17px;
+    line-height: 1.1;
+  }
+  .hud-title .tag {
+    font-size: 9px;
+    padding: 2px 8px;
+  }
+}
 .tag {
   font-size: 11px;
   font-weight: 800;
