@@ -341,3 +341,25 @@ Production :
 - `tools/tk_reorder.py NN i,j,k[,n@fin]` : réordonne des phrases entières ; `n@65.1` coupe la dernière phrase (garder « Abonne-toi » seul) et fige l'écran de fin sans la carte d'annonce, sous-titre masqué, « Abonne-toi ! » écrit (vidéo 56 : son micro-ondes n'est plus au plan).
 - **Défaut trouvé par le contrôle : 0,15 s de silence au 1er raccord et tout le son décalé de 0,15 s après** (le morceau d'image 0 durait 0,15 s de plus que son son ; concat ajoute un blanc au son). Corrigé dans tk_reorder.py (chaque morceau d'image dure exactement comme son son ; image figée 0,15 s au début du morceau). **`tk_short.py` a le même défaut : les versions courtes 37 et 59 (déjà publiées) et 32 et 70 (9.11) en souffrent** ; ne plus utiliser tk_short.py sans le corriger.
 - Contrôle (2 agents neufs) : 71 réordonnée avait perdu la TVA (27,7 ct affichés, 31 CHF calculés avec 29,9 ct) et l'explication de « 8 CHF abonnement réparti » : segments 3, 8 et 11 remis. 74 : « tarif médium » entendu par Whisper → nouvelle prise s09 (graine 11) ; fin « Lui paie au mieux dix-huit centimes, hors TVA » (prise s15 nouvelle) ; tampon « AU MIEUX · HORS TVA » ; plus de compteur 0,0 → 2 L. Petits trous de son de 5 à 30 ms aux raccords (mineur) : à lisser avec un fondu croisé la prochaine fois.
+
+
+## 12.11.2026 — Reels d'essai à 24 h : le sujet compte plus que la longueur de l'accroche
+Source : vidIQ `vidiq_instagram_owner_insights` (mode reels), relevé le 12.11 à 17 h. Chiffres à vie au moment du relevé.
+| Reel d'essai | Publié | Vues | J'aime | Envois | Enreg. | Passages | Regardé |
+|---|---|---|---|---|---|---|---|
+| 24 mode sombre (DfoZQIBDky-) | 12.11, 7 h 19 | **1 179** | 31 | 3 | 1 | 36,9 % | 27,6 % |
+| 62 douche ou bain (DfoZO-miGBX) | 12.11, 7 h 19 | 192 | 0 | 0 | 0 | 44,5 % | 14,4 % |
+| 71 machine à laver CH/FR (Dfmyk5_iP4L) | 11.11, 16 h 22 | **1 224** | 10 | 0 | 1 | 45,2 % | 28,5 % |
+| 57 lave-vaisselle (DfmyiPjCkTL) | 11.11, 16 h 22 | 228 | 2 | 0 | 0 | 53,5 % | 11,2 % |
+Abonnés Instagram : 34 548 (34 562 le 11.11, −14). Aucune donnée d'abonnés par Reel.
+
+Constats :
+1. **Deux paires publiées à la même minute, même format « duel », et dans les deux le sujet d'eau perd par 5 à 6** :
+   douche 192 contre mode sombre 1 179 ; lave-vaisselle 228 contre machine à laver 1 224. Seulement 2 paires : hypothèse, pas règle.
+2. **La part de passages départage les Reels** (15 Reels « chiffres en francs ») : les 6 à 37 % ou moins ont tous dépassé
+   1 100 vues ; sur les 6 à 44 % ou plus, 5 sont restés à 750 vues ou moins (exception : 71, 1 224 vues à 45,2 %).
+3. **La longueur de la première phrase n'explique rien** : 60 charge rapide, 6 mots dits en 2,7 s → 30,5 % ;
+   59 veille télé, 15 mots en 4,6 s → 30,0 % ; 56 box, 8 mots en 2,4 s → 46,6 % ; 57 lave-vaisselle, 15 mots en 6,2 s → 53,5 %.
+   (Mots de la phrase s01 de `draft.json`, minutage `asr/out`.)
+4. Seul 24 a des envois (3) : légende « Envoie-la à ton collègue qui jure que le mode sombre sauve sa batterie », sur un mythe connu.
+Décision : test « sujets d'eau », point 7 du bloc du 11.11 dans RUNBOOK.md. Rien d'autre ne change.

@@ -47,6 +47,11 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >    d'essai », puis « Partager avec tout le monde »).
 > 6. **11.11** : la tâche de 7 h 13 a échoué (quota d'utilisation). Les jours 71 et 57 ont été publiés à la main vers
 >    16 h 30, légende « abonnement » (jour impair).
+> 7. **Test « sujets d'eau » (ajouté le 12.11, voir `learnings.md` à cette date)** : dans le plan du vendredi 13.11,
+>    au plus **un** sujet sur l'eau (douche, bain, vaisselle, eau du robinet) parmi les Reels d'essai de la semaine,
+>    publié **à la même minute** qu'un sujet appareil ou électricité, comme les 11 et 12.11. S'il fait moins d'un
+>    tiers des vues de sa paire à 24 h, plus aucun sujet d'eau en Reel d'essai jusqu'au 5.12 (TikTok non concerné).
+>    Ne pas raccourcir les accroches : leur longueur n'explique pas la part de passages (même entrée).
 
 > **Changements du 05.11.2026 (complétés par le bloc du 11.11.2026 ci-dessus, pour Instagram) : ils priment sur tout le reste (blocs du 04.11 et du 03.11, sections plus bas, texte
 > des tâches).** Marcio (05.11, 8 h 48) : « je n'ai pas de vues, je pense que ça ne marche pas, tu ne peux pas revoir ta
