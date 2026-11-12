@@ -24,16 +24,18 @@ top() { adb shell dumpsys activity activities 2>/dev/null | tr -d '\r' | grep -m
 on_ad() { top | grep -q 'AdActivity'; }
 alive() { [ -n "$(adb shell pidof "$PKG" 2>/dev/null | tr -d '\r')" ]; }
 close_ad() {
-  # The close cross sits in the top right corner (about 24 dp from each edge).
+  # The close cross sits in the top right corner. Its height depends on the
+  # ad layout, so two spots are tried, then the back button.
   local size w k
   size="$(adb shell wm size | tr -d '\r' | grep -oE '[0-9]+x[0-9]+' | tail -1)"
   w="${size%x*}"
   k=$((w * 58 / 1000))
-  for attempt in 1 2 3 4 5 6; do
-    adb shell input tap $((w - k)) "$k"
+  for attempt in 1 2 3 4 5; do
+    adb shell am broadcast -a android.intent.action.CLOSE_SYSTEM_DIALOGS >/dev/null 2>&1
+    adb shell input tap $((w - k)) $((w * 190 / 1000))
     sleep 2
     on_ad || return 0
-    adb shell input tap $((w - k)) $((k + 90))
+    adb shell input tap $((w - k)) "$k"
     sleep 2
     on_ad || return 0
     adb shell input keyevent 4
@@ -54,6 +56,9 @@ adb shell input keyevent 82 >/dev/null 2>&1
 # A brand new device explains full-screen mode with a panel that would cover
 # the first ad; real phones have dismissed it long ago.
 adb shell settings put secure immersive_mode_confirmations confirmed >/dev/null 2>&1
+# Emulators on build machines are slow: keep "app isn't responding" panels
+# of other apps (the launcher, mostly) from covering the game.
+adb shell settings put global hide_error_dialogs 1 >/dev/null 2>&1
 log "android $(adb shell getprop ro.build.version.release | tr -d '\r') (api $(adb shell getprop ro.build.version.sdk | tr -d '\r'))"
 log "webview $(adb shell dumpsys package com.google.android.webview 2>/dev/null | tr -d '\r' | grep -m1 versionName | xargs)"
 log "screen $(adb shell wm size | tr -d '\r' | xargs) $(adb shell wm density | tr -d '\r' | xargs)"
