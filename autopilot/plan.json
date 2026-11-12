@@ -701,8 +701,12 @@
    "annonce": "Baisser le chauffage d'un degré : combien tu gagnes vraiment ?",
    "annonce_jour": 25,
    "reel_instagram": {
-    "statut": "en attente",
-    "prevu": "2026-11-12T19:00"
+    "statut": "publié",
+    "prevu": "2026-11-12T19:00",
+    "publie_le": "2026-11-12T07:19+01:00",
+    "lien": "https://www.instagram.com/reel/DfoZQIBDky-/",
+    "media_id": "18117101591139215",
+    "via": "vidIQ"
    },
    "buffer_id": "6af2b8bbe261c09acca44e93",
    "story_instagram": {
@@ -1558,8 +1562,12 @@
     "programme_le": "2026-11-12T10:05:00+01:00"
    },
    "reel_instagram": {
-    "statut": "en attente",
-    "prevu": "2026-11-12T11:00"
+    "statut": "publié",
+    "prevu": "2026-11-12T11:00",
+    "publie_le": "2026-11-12T07:19+01:00",
+    "lien": "https://www.instagram.com/reel/DfoZO-miGBX/",
+    "media_id": "18136500700778586",
+    "via": "vidIQ"
    }
   },
   {
