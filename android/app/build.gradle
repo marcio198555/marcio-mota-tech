@@ -30,6 +30,7 @@ android {
         buildConfigField 'String', 'INTERSTITIAL_ID', "\"${interstitialId}\""
         buildConfigField 'String', 'REWARDED_ID', "\"${rewardedId}\""
         buildConfigField 'String', 'AD_RATING', "\"${maxAdRating}\""
+        buildConfigField 'String', 'ADMOB_APP_ID', "\"${admobAppId}\""
     }
 
     buildFeatures {
@@ -103,31 +104,17 @@ tasks.register('checkGamePage') {
 tasks.named('preBuild') { dependsOn 'checkGamePage' }
 
 dependencies {
-    implementation 'androidx.activity:activity:1.10.1'
+    implementation 'androidx.activity:activity:1.13.0'
     implementation 'androidx.core:core:1.16.0'
-    implementation 'androidx.webkit:webkit:1.14.0'
-    implementation 'com.google.android.gms:play-services-ads:24.4.0'
-    implementation 'com.google.android.ump:user-messaging-platform:3.2.0'
+    implementation 'androidx.webkit:webkit:1.18.0'
+    // Google Mobile Ads "Next-Gen" SDK (the one Google recommends since July 2026).
+    implementation 'com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:1.6.0'
+    implementation 'com.google.android.ump:user-messaging-platform:4.0.0'
     implementation 'com.google.android.play:review:2.0.2'
 }
 
-// Temporary: fetches newer library versions so that the build machine can print their API.
-configurations {
-    probe {
-        canBeConsumed = false
-        transitive = false
-    }
-}
-dependencies {
-    probe 'com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:1.6.0@aar'
-    probe 'com.google.android.ump:user-messaging-platform:4.0.0@aar'
-    probe 'com.android.billingclient:billing:9.1.0@aar'
-    probe 'androidx.activity:activity:1.13.0@aar'
-    probe 'androidx.core:core:1.19.1@aar'
-    probe 'androidx.webkit:webkit:1.18.0@aar'
-}
-tasks.register('probeLibraries') {
-    doLast {
-        configurations.probe.files.each { println "PROBE ${it}" }
-    }
+// The older ads SDK must never come in next to the Next-Gen one.
+configurations.configureEach {
+    exclude group: 'com.google.android.gms', module: 'play-services-ads'
+    exclude group: 'com.google.android.gms', module: 'play-services-ads-lite'
 }

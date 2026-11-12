@@ -24,25 +24,21 @@ top() { adb shell dumpsys activity activities 2>/dev/null | tr -d '\r' | grep -m
 on_ad() { top | grep -q 'AdActivity'; }
 alive() { [ -n "$(adb shell pidof "$PKG" 2>/dev/null | tr -d '\r')" ]; }
 close_ad() {
-  # Test ads close with the back button; otherwise tap the usual close corners.
-  adb shell input keyevent 4
-  sleep 2
-  if on_ad; then
-    local size w h
-    size="$(adb shell wm size | tr -d '\r' | grep -oE '[0-9]+x[0-9]+' | tail -1)"
-    w="${size%x*}"
-    h="${size#*x}"
-    adb shell input tap $((w - 70)) 160
+  # The close cross sits in the top right corner (about 24 dp from each edge).
+  local size w k
+  size="$(adb shell wm size | tr -d '\r' | grep -oE '[0-9]+x[0-9]+' | tail -1)"
+  w="${size%x*}"
+  k=$((w * 58 / 1000))
+  for attempt in 1 2 3 4 5 6; do
+    adb shell input tap $((w - k)) "$k"
     sleep 2
-    if on_ad; then
-      adb shell input tap 70 160
-      sleep 2
-    fi
-    if on_ad; then
-      adb shell input keyevent 4
-      sleep 2
-    fi
-  fi
+    on_ad || return 0
+    adb shell input keyevent 4
+    sleep 2
+    on_ad || return 0
+    sleep 2
+  done
+  return 1
 }
 
 verdict=ok
@@ -78,8 +74,7 @@ for i in $(seq 1 30); do
     log "ad break on screen (#$breaks)"
     sleep 2
     shot "ad-break-$breaks"
-    close_ad
-    on_ad && fail "the ad break could not be closed"
+    close_ad || fail "the ad break could not be closed"
   else
     shot "$(printf 'play-%02d' "$i")"
   fi
@@ -111,9 +106,8 @@ if [ "$video" = yes ]; then
   shot video-2-middle
   sleep 20
   shot video-3-end
-  close_ad
+  close_ad || fail "the rewarded video could not be closed"
   sleep 3
-  on_ad && fail "the rewarded video could not be closed"
   shot video-4-back-in-game
 else
   log "no rewarded video appeared"

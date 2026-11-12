@@ -93,7 +93,7 @@ public final class MainActivity extends ComponentActivity implements Ads.Listene
         });
 
         setUpWeb();
-        ads = new Ads(this, this);
+        ads = new Ads(this, this, main);
 
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
@@ -344,10 +344,5 @@ public final class MainActivity extends ComponentActivity implements Ads.Listene
         public void setSound(boolean on) {
             main.post(() -> ads.setMuted(!on));
         }
-    }
-
-    @NonNull
-    Handler mainHandler() {
-        return main;
     }
 }

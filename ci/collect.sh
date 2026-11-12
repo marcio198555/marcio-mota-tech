@@ -15,12 +15,19 @@ SDK="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
 BT="$(ls -d "$SDK"/build-tools/* 2>/dev/null | sort -V | tail -1)"
 [ -n "$BT" ] && cp "$BT/lib/apksigner.jar" "$OUT/apksigner.jar" 2>/dev/null
 
-# A copy of the release build signed with this machine's throw-away test key,
-# only to try it on the emulator. It is not published.
-if [ -f "$OUT/fletch-release-unsigned.apk" ] && [ -f "$HOME/.android/debug.keystore" ] && [ -n "$BT" ]; then
-  java -jar "$BT/lib/apksigner.jar" sign --ks "$HOME/.android/debug.keystore" --ks-pass pass:android \
-    --ks-key-alias androiddebugkey --out "$RUNNER_TEMP/fletch-release-ci.apk" "$OUT/fletch-release-unsigned.apk" \
-    && echo "release build signed for the emulator"
+# A copy of the release build signed with a throw-away key made on the spot,
+# only to try it on the emulator. Neither the key nor the copy is published.
+if [ -f "$OUT/fletch-release-unsigned.apk" ] && [ -n "$BT" ]; then
+  K="$RUNNER_TEMP/throwaway.jks"
+  rm -f "$K"
+  keytool -genkeypair -keystore "$K" -storetype PKCS12 -storepass android -keypass android -alias ci \
+    -keyalg RSA -keysize 2048 -validity 30 -dname "CN=Emulator test only" >/dev/null 2>&1
+  if java -jar "$BT/lib/apksigner.jar" sign --ks "$K" --ks-pass pass:android --ks-key-alias ci \
+    --out "$RUNNER_TEMP/fletch-release-ci.apk" "$OUT/fletch-release-unsigned.apk"; then
+    echo "release build signed for the emulator"
+  else
+    echo "release build could NOT be signed for the emulator"
+  fi
 fi
 
 if [ -f "$OUT/build-full.log" ]; then
