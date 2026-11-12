@@ -71,7 +71,7 @@ adb shell "am start -W -n $PKG/$ACT --es q 'debug&autoplay=12'" 2>&1 | tr -d '\r
 sleep 7
 shot 01-home
 breaks=0
-for i in $(seq 1 22); do
+for i in $(seq 1 30); do
   sleep 5
   if on_ad; then
     breaks=$((breaks + 1))
@@ -132,6 +132,34 @@ adb shell input keyevent 4
 sleep 3
 shot resume-2-after-back
 
+# ---- 4. the release build starts and opens a level ---------------------------
+REL="${3:-}"
+release=skipped
+if [ -n "$REL" ] && [ -f "$REL" ]; then
+  log "release build: install and start"
+  if adb install -r "$REL" 2>&1 | grep -q Success; then
+    adb shell "am start -W -n com.motagames.arrows/$ACT" >/dev/null 2>&1
+    sleep 9
+    shot release-1-home
+    size="$(adb shell wm size | tr -d '\r' | grep -oE '[0-9]+x[0-9]+' | tail -1)"
+    w="${size%x*}"
+    h="${size#*x}"
+    # The Play button sits at about three quarters of the screen height.
+    adb shell input tap $((w / 2)) $((h * 738 / 1000))
+    sleep 5
+    shot release-2-level
+    if [ -n "$(adb shell pidof com.motagames.arrows 2>/dev/null | tr -d '\r')" ]; then
+      release=ok
+    else
+      release=failed
+      fail "the release build stopped"
+    fi
+  else
+    release=failed
+    fail "the release build could not be installed"
+  fi
+fi
+
 # ---- device log and verdict -------------------------------------------------
 adb logcat -d -v threadtime > "$OUT/logcat-full.txt" 2>/dev/null
 grep -E " [VDIWE] Fletch *:| [IWE] Ads *:|AndroidRuntime|FATAL EXCEPTION|UserMessagingPlatform|chromium.*Uncaught" \
@@ -150,5 +178,6 @@ log "levels finished: $wins, ad breaks shown: $breaks, rewarded video shown: $vi
   echo "emulator_levels=$wins"
   echo "emulator_ad_breaks=$breaks"
   echo "emulator_video=$video"
+  echo "emulator_release_build=$release"
 } >> "$OUT_ROOT/STATUS.txt"
 exit 0

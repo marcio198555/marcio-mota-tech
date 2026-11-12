@@ -50,6 +50,8 @@ final class Ads {
     private boolean stopped;
     private boolean ready;
     private boolean muted;
+    private boolean consentBusy;
+    private int consentFailures;
 
     Ads(ComponentActivity activity, Listener listener) {
         this.activity = activity;
@@ -58,18 +60,43 @@ final class Ads {
 
     void start() {
         consent = UserMessagingPlatform.getConsentInformation(activity);
-        ConsentRequestParameters params = new ConsentRequestParameters.Builder().build();
-        consent.requestConsentInfoUpdate(activity, params,
-                () -> UserMessagingPlatform.loadAndShowConsentFormIfRequired(activity, formError -> {
-                    if (formError != null) Log.w(MainActivity.TAG, "consent form: " + formError.getMessage());
-                    initIfAllowed();
-                }),
-                requestError -> {
-                    Log.w(MainActivity.TAG, "consent request: " + requestError.getMessage());
-                    initIfAllowed();
-                });
+        requestConsent();
         // Consent given in an earlier session is still valid: start right away.
         initIfAllowed();
+    }
+
+    /** Called each time the game comes back to the front. */
+    void resume() {
+        if (consent != null && !started.get() && !stopped) {
+            consentFailures = 0;
+            requestConsent();
+        }
+    }
+
+    private void requestConsent() {
+        if (stopped || consentBusy) return;
+        consentBusy = true;
+        ConsentRequestParameters params = new ConsentRequestParameters.Builder().build();
+        consent.requestConsentInfoUpdate(activity, params,
+                () -> {
+                    consentBusy = false;
+                    consentFailures = 0;
+                    UserMessagingPlatform.loadAndShowConsentFormIfRequired(activity, formError -> {
+                        if (formError != null) Log.w(MainActivity.TAG, "consent form: " + formError.getMessage());
+                        initIfAllowed();
+                    });
+                },
+                requestError -> {
+                    initIfAllowed();
+                    if (!consentBusy) return; // the same failure can be reported twice
+                    consentBusy = false;
+                    Log.w(MainActivity.TAG, "consent request: " + requestError.getMessage());
+                    // Usually a slow network at launch: ask again a little later.
+                    if (!started.get() && ++consentFailures <= 6) {
+                        long delay = 4000L << Math.min(consentFailures - 1, 5);
+                        ((MainActivity) activity).mainHandler().postDelayed(this::requestConsent, delay);
+                    }
+                });
     }
 
     void stop() {

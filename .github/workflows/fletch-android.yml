@@ -67,6 +67,11 @@ jobs:
         if: always()
         run: bash ci/collect.sh
 
+      - name: Library API (information only)
+        if: always()
+        continue-on-error: true
+        run: bash ci/api-dump.sh
+
       - name: Publish the outputs
         if: always()
         env:
@@ -88,7 +93,7 @@ jobs:
           target: google_apis
           arch: x86_64
           profile: pixel_7
-          script: bash ci/emulator-test.sh "$OUT" android/app/build/outputs/apk/debug/app-debug.apk
+          script: bash ci/emulator-test.sh "$OUT" android/app/build/outputs/apk/debug/app-debug.apk "$RUNNER_TEMP/fletch-release-ci.apk"
 
       - name: Publish the outputs with the emulator results
         if: always()

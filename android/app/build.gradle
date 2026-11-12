@@ -53,6 +53,9 @@ android {
         debug {
             applicationIdSuffix '.dev'
             versionNameSuffix '-dev'
+            // Shrunk like the release build, so that tests run the same code.
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         release {
             minifyEnabled true
@@ -106,4 +109,25 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads:24.4.0'
     implementation 'com.google.android.ump:user-messaging-platform:3.2.0'
     implementation 'com.google.android.play:review:2.0.2'
+}
+
+// Temporary: fetches newer library versions so that the build machine can print their API.
+configurations {
+    probe {
+        canBeConsumed = false
+        transitive = false
+    }
+}
+dependencies {
+    probe 'com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:1.6.0@aar'
+    probe 'com.google.android.ump:user-messaging-platform:4.0.0@aar'
+    probe 'com.android.billingclient:billing:9.1.0@aar'
+    probe 'androidx.activity:activity:1.13.0@aar'
+    probe 'androidx.core:core:1.19.1@aar'
+    probe 'androidx.webkit:webkit:1.18.0@aar'
+}
+tasks.register('probeLibraries') {
+    doLast {
+        configurations.probe.files.each { println "PROBE ${it}" }
+    }
 }

@@ -20,3 +20,6 @@ keystore.properties
 
 # private research notes
 replica/
+
+# local signing material (never committed)
+signing/

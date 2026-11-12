@@ -7,7 +7,6 @@ cp "$B/outputs/apk/debug/app-debug.apk" "$OUT/fletch-test.apk" 2>/dev/null
 cp "$B/outputs/apk/release/app-release-unsigned.apk" "$OUT/fletch-release-unsigned.apk" 2>/dev/null
 cp "$B/outputs/apk/release/app-release.apk" "$OUT/fletch-release-signed-by-ci.apk" 2>/dev/null
 cp "$B/outputs/bundle/release/app-release.aab" "$OUT/fletch-release-unsigned.aab" 2>/dev/null
-cp "$B/outputs/mapping/release/mapping.txt" "$OUT/mapping.txt" 2>/dev/null
 cp "$B/reports/lint.txt" "$OUT/lint.txt" 2>/dev/null
 find "$B/reports" -maxdepth 1 -name 'lint-results*.txt' -exec cp {} "$OUT/" \; 2>/dev/null
 
@@ -15,6 +14,14 @@ find "$B/reports" -maxdepth 1 -name 'lint-results*.txt' -exec cp {} "$OUT/" \; 2
 SDK="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
 BT="$(ls -d "$SDK"/build-tools/* 2>/dev/null | sort -V | tail -1)"
 [ -n "$BT" ] && cp "$BT/lib/apksigner.jar" "$OUT/apksigner.jar" 2>/dev/null
+
+# A copy of the release build signed with this machine's throw-away test key,
+# only to try it on the emulator. It is not published.
+if [ -f "$OUT/fletch-release-unsigned.apk" ] && [ -f "$HOME/.android/debug.keystore" ] && [ -n "$BT" ]; then
+  java -jar "$BT/lib/apksigner.jar" sign --ks "$HOME/.android/debug.keystore" --ks-pass pass:android \
+    --ks-key-alias androiddebugkey --out "$RUNNER_TEMP/fletch-release-ci.apk" "$OUT/fletch-release-unsigned.apk" \
+    && echo "release build signed for the emulator"
+fi
 
 if [ -f "$OUT/build-full.log" ]; then
   grep -nE "error:|warning:|FAILED|What went wrong|Could not|Unresolved|cannot find symbol|Execution failed|BUILD " \

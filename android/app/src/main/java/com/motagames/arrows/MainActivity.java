@@ -260,6 +260,7 @@ public final class MainActivity extends ComponentActivity implements Ads.Listene
     protected void onResume() {
         super.onResume();
         web.onResume();
+        if (ads != null) ads.resume();
         if (pageReady) js("window.__fletch&&window.__fletch.resume()");
     }
 
