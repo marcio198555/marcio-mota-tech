@@ -33,10 +33,12 @@ close_ad() {
     adb shell input tap $((w - k)) "$k"
     sleep 2
     on_ad || return 0
+    adb shell input tap $((w - k)) $((k + 90))
+    sleep 2
+    on_ad || return 0
     adb shell input keyevent 4
     sleep 2
     on_ad || return 0
-    sleep 2
   done
   return 1
 }
@@ -49,6 +51,9 @@ fail() {
 
 adb wait-for-device
 adb shell input keyevent 82 >/dev/null 2>&1
+# A brand new device explains full-screen mode with a panel that would cover
+# the first ad; real phones have dismissed it long ago.
+adb shell settings put secure immersive_mode_confirmations confirmed >/dev/null 2>&1
 log "android $(adb shell getprop ro.build.version.release | tr -d '\r') (api $(adb shell getprop ro.build.version.sdk | tr -d '\r'))"
 log "webview $(adb shell dumpsys package com.google.android.webview 2>/dev/null | tr -d '\r' | grep -m1 versionName | xargs)"
 log "screen $(adb shell wm size | tr -d '\r' | xargs) $(adb shell wm density | tr -d '\r' | xargs)"

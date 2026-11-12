@@ -252,6 +252,7 @@ public final class MainActivity extends ComponentActivity implements Ads.Listene
     @Override
     protected void onPause() {
         if (pageReady) js("window.__fletch&&window.__fletch.pause()");
+        if (ads != null) ads.pause();
         web.onPause();
         super.onPause();
     }

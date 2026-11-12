@@ -102,8 +102,8 @@ export class Native {
       } catch {
         finish();
       }
-      // Never leave the player stuck if the shell does not answer.
-      window.setTimeout(finish, 120000);
+      // Last resort if the shell never answers (it has its own, much faster, safety nets).
+      window.setTimeout(finish, 300000);
     });
   }
 
@@ -135,7 +135,7 @@ export class Native {
       } catch {
         finish(false);
       }
-      window.setTimeout(() => finish(false), 180000);
+      window.setTimeout(() => finish(false), 300000);
     });
   }
 

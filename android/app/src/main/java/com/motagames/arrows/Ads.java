@@ -60,6 +60,8 @@ final class Ads {
     private int consentFailures;
     /** Ends the ad on screen, whichever way it ends. Null when no ad is showing. */
     private Runnable closeShowing;
+    /** True once the ad asked for has really taken the screen. */
+    private boolean covered;
 
     Ads(ComponentActivity activity, Listener listener, Handler main) {
         this.activity = activity;
@@ -78,6 +80,26 @@ final class Ads {
         requestConsent();
         // Consent given in an earlier session is still valid: start right away.
         initIfAllowed();
+    }
+
+    /** Called when something else takes the screen: an ad, or another app. */
+    void pause() {
+        if (closeShowing != null) covered = true;
+    }
+
+    /**
+     * An ad was asked to show. If nothing has taken the screen a few seconds
+     * later, it never will: give the game its answer instead of leaving the
+     * player waiting.
+     */
+    private void expectCover(Runnable close) {
+        covered = false;
+        main.postDelayed(() -> {
+            if (closeShowing == close && !covered) {
+                Log.w(MainActivity.TAG, "ads: nothing appeared, moving on");
+                close.run();
+            }
+        }, 8000);
     }
 
     /** Called each time the game comes back to the front. */
@@ -247,6 +269,7 @@ final class Ads {
             @Override
             public void onAdShowedFullScreenContent() {
                 Log.i(MainActivity.TAG, "ads: break ad on screen");
+                ui(() -> covered = true);
             }
 
             @Override
@@ -260,6 +283,7 @@ final class Ads {
                 ui(close);
             }
         });
+        expectCover(close);
         ad.show(activity);
     }
 
@@ -322,6 +346,7 @@ final class Ads {
             @Override
             public void onAdShowedFullScreenContent() {
                 Log.i(MainActivity.TAG, "ads: video on screen");
+                ui(() -> covered = true);
             }
 
             @Override
@@ -335,6 +360,7 @@ final class Ads {
                 ui(close);
             }
         });
+        expectCover(close);
         ad.show(activity, reward -> earned.set(true));
     }
 }
