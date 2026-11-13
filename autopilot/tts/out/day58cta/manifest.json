@@ -1,0 +1,15 @@
+{
+ "job": "day58cta",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s16",
+   "text": "Abonne-toi : demain, la même console en Suisse et en France.",
+   "file": "s16.wav",
+   "duration": 4.16,
+   "rate": 24000
+  }
+ ],
+ "total": 4.16
+}
