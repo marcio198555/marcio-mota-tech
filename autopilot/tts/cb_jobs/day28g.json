@@ -1,0 +1,1 @@
+{"engine": "chatterbox", "lang": "fr", "ref": "autopilot/tts/refs/tom_ref.wav", "exaggeration": 0.55, "cfg": 0.5, "temperature": 0.8, "seed": 42, "segments": [{"id": "s06", "text": "Quand ça bout, l'écart grandit : sans couvercle, la plaque tire ici sept cent cinquante watts pour garder un litre et demi en ébullition."}]}
