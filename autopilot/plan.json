@@ -729,7 +729,7 @@
     "température recommandée par pièce"
    ],
    "argent": "Marques thermostats connectés",
-   "statut": "à produire",
+   "statut": "montée (contrôle en cours)",
    "heure": "10:00",
    "annoncee": true,
    "format": "V",
@@ -1071,7 +1071,7 @@
     "essai sous pression statique et mouvements dans l'eau"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "montée (contrôle en cours)",
    "heure": "10:00",
    "ajoutee_le": "2026-11-05",
    "format": "V",
@@ -1107,7 +1107,7 @@
     "regroupement de pixels (pixel binning)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "montée (contrôle en cours)",
    "heure": "10:00",
    "ajoutee_le": "2026-11-05",
    "format": "V",
