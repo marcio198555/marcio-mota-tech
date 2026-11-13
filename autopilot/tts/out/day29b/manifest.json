@@ -1,0 +1,22 @@
+{
+ "job": "day29b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s07",
+   "text": "Surprise : en Suisse, l'Ofcom permet jusqu'à un watt sur une partie du cinq, contre cent milliwatts en deux virgule quatre.",
+   "file": "s07.wav",
+   "duration": 8.84,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Dix fois plus de puissance permise. Mais à puissance égale, il porte moins loin, selon Asus.",
+   "file": "s08.wav",
+   "duration": 5.88,
+   "rate": 24000
+  }
+ ],
+ "total": 14.72
+}
