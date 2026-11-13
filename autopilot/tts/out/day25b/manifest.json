@@ -1,0 +1,15 @@
+{
+ "job": "day25b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s03",
+   "text": "Suisse Énergie, le programme de la Confédération, donne la règle.",
+   "file": "s03.wav",
+   "duration": 5.76,
+   "rate": 24000
+  }
+ ],
+ "total": 5.76
+}
