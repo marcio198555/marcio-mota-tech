@@ -416,3 +416,13 @@ Production du 13.11 (vidéos de 10 h, 13 au 19.11 : jours 25, 73, 49, 42, 52, 40
 - Marques dont Marcio a reçu des produits (r_queue.json) : Apple, Samsung, Dyson, iRobot, Dreame, Philips, Kärcher… Les exemples de produits ont été pris chez LG, Xiaomi, Honor, Bosch, Garmin, Casio, Anker, Google, Nintendo.
 - Les contrôleurs relèvent souvent : tag de moins de 36 px trop large (> 900 px), « exemple » oublié sur un écran qui reprend un chiffre d'exemple, légende qui généralise un fait sourcé sur un seul modèle, #blackfriday hors sujet.
 - Point 2 du bloc du 11.11 (fin Instagram de 2 s « ABONNE-TOI » les jours impairs) : pas fait, faute de temps ; légende « abonnement » les jours impairs seulement.
+
+Production du 13.11 (après-midi, vidéos de 18 h, 13 au 19.11 : jours 58, 34, 61, 72, 28, 29, 75) — enseignements :
+- Jour 58 (fait le 6.11, jamais publié) : seule la fin changée (prise day58cta), voix refaite avec `merge_voice.py 58 b c cta` puis `SRC=… finish.sh 58 A` ; vidéos A de 69 s = 164 Mo à la sortie : toujours réencoder en crf 24 avant `git push` (GitHub refuse > 100 Mo).
+- Faits, scripts et scènes préparés par 3 agents en parallèle (2 vidéos chacun, 20 min) pendant que le pont faisait les voix ; 3 agents de contrôle neufs (2 vidéos chacun).
+- Le contrôle a trouvé : une conclusion non sourcée (Wi-Fi « 10 fois plus de puissance permise et il traverse quand même moins bien » : la source compare à puissance égale) ; un verdict sur un effet du mode avion qu'aucune source ne chiffre ; un règlement abrogé (244/2009) présenté comme actuel ; des valeurs dérivées d'un exemple (8 h par nuit) sans « exemple » ; « au moins 7 fr. 50 » sans la condition (batterie vidée chaque jour). Corrigés avant publication.
+- Whisper : une prise Chatterbox de 23 s pour une phrase de 13 mots (fin hallucinée qui répète la phrase) : contrôler la durée de chaque prise (secondes par mot > 0,75 = suspect) avant de monter. Mal dits : « Xiaomi » (entendu « Kaomiss » ; phrase réécrite sans la marque), « Asus » (« l'assu » ; remplacé par « un fabricant »), « elle-eu-dé » (« LUD » ; « èl-eu-dé » donne « LED »), « éteins-moi » (« étais-moi »).
+- Pont : la tâche de midi a poussé des commits `[skip-bridge]` pendant qu'un passage attendait : passage annulé (vu avec `actions_list`), relancé par un commit vide sans `[skip-bridge]`.
+- Cloudinary et Buffer (connecteurs) en panne vers 14 h 30 (« Service Unavailable ») : voir la suite ci-dessous.
+- Point 2 du bloc du 11.11 (fin Instagram « ABONNE-TOI » de 2 s) : pas fait, faute de temps ; légende « abonnement » les jours impairs.
+- Jour 29 : la réponse (2,4 GHz) tombe à 11 s au lieu du milieu (relevé par le contrôle) ; laissé tel quel faute de temps : à comparer au bilan.

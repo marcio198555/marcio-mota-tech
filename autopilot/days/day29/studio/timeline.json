@@ -1,109 +1,109 @@
 {
- "duration": 68.842,
+ "duration": 68.855,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, ouaï-faï cinq giga-hertz. Ton collègue, deux virgule quatre. Lequel passe le mieux les murs ?",
    "start": 0.12,
-   "end": 6.495,
+   "end": 6.434,
    "display": "Toi, Wi-Fi 5 GHz. Ton collègue, 2,4 GHz. | Lequel passe le mieux les murs ?"
   },
   {
    "id": "s02",
    "text": "Reste : tu sauras lequel choisir dans chaque pièce.",
-   "start": 6.595,
-   "end": 10.254,
+   "start": 6.534,
+   "end": 10.158,
    "display": "Reste : tu sauras lequel choisir | dans chaque pièce."
   },
   {
    "id": "s03",
    "text": "Réponse : le deux virgule quatre.",
-   "start": 10.354,
-   "end": 12.455,
+   "start": 10.258,
+   "end": 12.339,
    "display": "Réponse : le 2,4 GHz."
   },
   {
    "id": "s04",
    "text": "Plus la fréquence est haute, moins le signal passe les murs, écrivent les fabricants.",
-   "start": 12.555,
-   "end": 17.542,
+   "start": 12.439,
+   "end": 17.378,
    "display": "Plus la fréquence est haute, | moins le signal passe les murs, | écrivent les fabricants."
   },
   {
    "id": "s05",
    "text": "Un fabricant donne : environ vingt mètres en deux virgule quatre, quinze en cinq.",
-   "start": 17.642,
-   "end": 22.43,
+   "start": 17.478,
+   "end": 22.221,
    "display": "Un fabricant donne : | environ 20 m en 2,4 GHz, | 15 m en 5 GHz."
   },
   {
    "id": "s06",
    "text": "Mais le cinq est en général plus rapide.",
-   "start": 22.53,
-   "end": 24.447,
+   "start": 22.321,
+   "end": 24.22,
    "display": "Mais le 5 GHz est en général plus rapide."
   },
   {
    "id": "s07",
    "text": "Surprise : en Suisse, l'Ofcom permet jusqu'à un watt sur une partie du cinq, contre cent milliwatts en deux virgule quatre.",
-   "start": 24.547,
-   "end": 32.218,
+   "start": 24.32,
+   "end": 31.917,
    "display": "Surprise : en Suisse, l'OFCOM permet | jusqu'à 1 W sur une partie du 5 GHz, | contre 100 mW en 2,4 GHz."
   },
   {
    "id": "s08",
-   "text": "Dix fois plus de puissance permise. Mais à puissance égale, il porte moins loin, selon Asus.",
-   "start": 32.318,
-   "end": 37.418,
-   "display": "10 fois plus de puissance permise. | Mais à puissance égale, | il porte moins loin, selon Asus."
+   "text": "Dix fois plus de puissance permise. Mais à puissance égale, il porte moins loin, selon un fabricant.",
+   "start": 32.017,
+   "end": 37.722,
+   "display": "10 fois plus de puissance permise. | Mais à puissance égale, | il porte moins loin, selon un fabricant."
   },
   {
    "id": "s09",
    "text": "Autre piège : ton micro-ondes peut brouiller le deux virgule quatre.",
-   "start": 37.518,
-   "end": 41.87,
+   "start": 37.822,
+   "end": 42.133,
    "display": "Autre piège : ton micro-ondes | peut brouiller le 2,4 GHz."
   },
   {
    "id": "s10",
    "text": "Pour la quatre-ka, Nètflix recommande au moins quinze mégabits par seconde.",
-   "start": 41.97,
-   "end": 46.494,
+   "start": 42.233,
+   "end": 46.713,
    "display": "Pour la 4K, Netflix recommande | au moins 15 Mbit/s."
   },
   {
    "id": "s11",
    "text": "Donc : près du routeur, le cinq ; au fond, le deux virgule quatre.",
-   "start": 46.594,
-   "end": 51.365,
+   "start": 46.813,
+   "end": 51.539,
    "display": "Donc : | près du routeur, le 5 GHz ; | au fond, le 2,4 GHz."
   },
   {
    "id": "s12",
    "text": "Et pose ton routeur haut, au centre, loin du métal.",
-   "start": 51.465,
-   "end": 54.462,
+   "start": 51.639,
+   "end": 54.607,
    "display": "Et pose ton routeur haut, | au centre, loin du métal."
   },
   {
    "id": "s13",
    "text": "Ta pièce la plus mal couverte ? Écris-la en commentaire.",
-   "start": 54.562,
-   "end": 58.298,
+   "start": 54.707,
+   "end": 58.407,
    "display": "Ta pièce | la plus mal couverte ? | Écris-la en commentaire."
   },
   {
    "id": "s14",
    "text": "Toi, la vitesse. Ton collègue, la portée. Un point chacun.",
-   "start": 58.398,
-   "end": 62.301,
+   "start": 58.507,
+   "end": 62.373,
    "display": "Toi, la vitesse. Ton collègue, la portée. | Un point chacun."
   },
   {
    "id": "s15",
    "text": "Abonne-toi : demain, ta batterie externe de dix mille milliampères-heure : combien de recharges, vraiment ?",
-   "start": 62.401,
-   "end": 68.542,
+   "start": 62.473,
+   "end": 68.555,
    "display": "Abonne-toi : demain, ta batterie externe | de 10 000 mAh : | combien de recharges, vraiment ?"
   }
  ]
