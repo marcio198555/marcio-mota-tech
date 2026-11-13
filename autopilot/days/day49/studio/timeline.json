@@ -1,0 +1,96 @@
+{
+ "duration": 57.715,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta télé de soixante-cinq pouces fait cent soixante-cinq centimètres de large ?",
+   "start": 0.12,
+   "end": 4.696,
+   "display": "Ta télé de 65 pouces | fait 165 cm de large ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non. Cent soixante-cinq, c'est la diagonale.",
+   "start": 4.796,
+   "end": 7.621,
+   "display": "Non. | 165 cm, c'est la diagonale."
+  },
+  {
+   "id": "s03",
+   "text": "Elle se mesure d'un coin à l'autre.",
+   "start": 7.721,
+   "end": 10.264,
+   "display": "Elle se mesure | d'un coin à l'autre."
+  },
+  {
+   "id": "s04",
+   "text": "Un pouce : deux virgule cinquante-quatre centimètres. Donc cent soixante-cinq virgule un.",
+   "start": 10.364,
+   "end": 16.355,
+   "display": "1 pouce = 2,54 cm | 65 pouces = 165,1 cm"
+  },
+  {
+   "id": "s05",
+   "text": "En seize neuvièmes : diagonale fois seize, divisé par racine de trois cent trente-sept.",
+   "start": 16.455,
+   "end": 21.616,
+   "display": "En 16:9 : | largeur = diagonale × 16 / √337"
+  },
+  {
+   "id": "s06",
+   "text": "Résultat : cent quarante-trois virgule neuf de large.",
+   "start": 21.716,
+   "end": 25.513,
+   "display": "Résultat : 143,9 cm de large"
+  },
+  {
+   "id": "s07",
+   "text": "Fiche officielle d'une Èl-Gé soixante-cinq pouces : cent quarante-quatre virgule un, sans pied.",
+   "start": 25.613,
+   "end": 31.321,
+   "display": "Fiche officielle LG 65 pouces : | 144,1 cm sans pied"
+  },
+  {
+   "id": "s08",
+   "text": "Deux millimètres de plus que le calcul.",
+   "start": 31.421,
+   "end": 33.656,
+   "display": "2 mm de plus que le calcul."
+  },
+  {
+   "id": "s09",
+   "text": "Verdict : environ cent quarante-quatre centimètres de large, pas cent soixante-cinq.",
+   "start": 33.756,
+   "end": 39.678,
+   "display": "Verdict : environ 144 cm de large, | pas 165."
+  },
+  {
+   "id": "s10",
+   "text": "Avant d'acheter, mesure ton meuble et lis la largeur sans pied.",
+   "start": 39.778,
+   "end": 43.236,
+   "display": "Avant d'acheter : mesure ton meuble | et lis la largeur sans pied."
+  },
+  {
+   "id": "s11",
+   "text": "Bonus : une cinquante-cinq pouces, c'est cent vingt et un virgule huit de large.",
+   "start": 43.336,
+   "end": 48.676,
+   "display": "Bonus : 55 pouces | = 121,8 cm de large"
+  },
+  {
+   "id": "s12",
+   "text": "Et ton meuble, il fait combien de large ? Écris-le en commentaire.",
+   "start": 48.776,
+   "end": 52.409,
+   "display": "Ton meuble fait combien de large ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Et abonne-toi : ce soir, une ampoule allumée toute la nuit, combien en francs ?",
+   "start": 52.509,
+   "end": 57.415,
+   "display": "Abonne-toi : ce soir, une ampoule | allumée toute la nuit, combien en francs ?"
+  }
+ ]
+}
