@@ -91,3 +91,5 @@ autopilot/vo/day61_vo3.wav
 autopilot/vo/day28_vo3.wav
 autopilot/vo/day29_vo3.wav
 autopilot/vo/day75_vo3.wav
+autopilot/vo/day28f_s06.wav
+autopilot/vo/day28g_s06.wav
