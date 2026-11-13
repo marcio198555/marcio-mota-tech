@@ -80,3 +80,4 @@ autopilot/vo/day29_vo.wav
 autopilot/vo/day34_vo.wav
 autopilot/vo/day61_vo.wav
 autopilot/vo/day72_vo.wav
+autopilot/vo/day75_vo.wav

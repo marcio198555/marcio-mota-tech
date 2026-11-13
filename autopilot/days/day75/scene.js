@@ -74,14 +74,13 @@
         tag(ctx, '74,88 Wh', 680, 720, t, f('s05', 0.6), { size: 38 });
       });
       block(ctx, t, S('s06'), S('s07'), () => { card(ctx, 520);
-        tag(ctx, 'SCHÉMA · BATTERIE VIDÉE', 500, 370, t, S('s06'), { size: 38 });
+        tag(ctx, 'SCHÉMA · BATTERIE VIDÉE', 500, 370, t, S('s06'), { size: 46 });
         line(ctx, '0,0749 kWh × 27,7 ct', 500, 470, t, S('s06') + 0.15, { size: 56, family: F.mono, weight: 700, dx: 0 });
         big(ctx, '≥ 2,07 ct', 500, 610, t, f('s06', 0.45), { size: 130 });
         tag(ctx, 'SANS LES PERTES DE CHARGE', 500, 760, t, f('s06', 0.6), { size: 38, color: GOLD });
       });
       block(ctx, t, S('s07'), S('s08'), () => { card(ctx, 520);
-        const n = Math.round(lerp(1, 365, ease.inOut(prog(t, S('s07') + 0.1, 1.2))));
-        line(ctx, n + ' JOURS', 500, 400, t, S('s07'), { size: 64, family: F.mono, weight: 700, dx: 0 });
+        tag(ctx, 'SCHÉMA · VIDÉE CHAQUE JOUR', 500, 400, t, S('s07'), { size: 46 });
         line(ctx, '27,33 kWh × 27,7 ct', 500, 490, t, f('s07', 0.2), { size: 54, family: F.mono, weight: 700, dx: 0 });
         big(ctx, '≥ 7,57 CHF', 500, 630, t, f('s07', 0.4), { size: 120 });
         tag(ctx, 'PAR AN · ELCOM 2026, HORS TVA', 500, 770, t, f('s07', 0.65), { size: 36 });
@@ -105,7 +104,7 @@
         canister(ctx, 230, 640, 0.8); CHR.emo(ctx, 'thinking_face', 200, 430, 120, t, S('s11') + 0.1);
         big(ctx, '35 kWh', 690, 520, t, f('s11', 0.35), { size: 90 });
         line(ctx, 'PAR AN', 690, 610, t, f('s11', 0.5), { size: 48, dx: 0 });
-        tag(ctx, 'ESTIMATION UE · MOYENNE 2020', 500, 760, t, f('s11', 0.6), { size: 36 });
+        tag(ctx, 'ESTIMATION UE · USAGE TYPE 50 H/AN', 500, 760, t, f('s11', 0.6), { size: 40 });
       });
       block(ctx, t, S('s12'), S('s13'), () => { card(ctx, 520, { border: 'rgba(230,198,106,0.6)' });
         line(ctx, '35 kWh × 27,7 ct', 500, 420, t, S('s12'), { size: 60, family: F.mono, weight: 700, dx: 0 });

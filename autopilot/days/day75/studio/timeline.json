@@ -1,0 +1,117 @@
+{
+ "duration": 68.679,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu passes l'aspirateur à la main. Ton collègue me fait tourner chaque jour. Qui paie le plus d'électricité ?",
+   "start": 0.12,
+   "end": 5.334,
+   "display": "Toi, tu passes l'aspirateur à la main. | Ton collègue me fait tourner chaque jour. | Qui paie le plus d'électricité ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : tu vas connaître le prix d'un de mes passages.",
+   "start": 5.434,
+   "end": 9.124,
+   "display": "Reste : tu vas connaître | le prix d'un de mes passages."
+  },
+  {
+   "id": "s03",
+   "text": "Je suis un robot fictif, mais mes chiffres viennent de vrais modèles.",
+   "start": 9.224,
+   "end": 12.977,
+   "display": "Je suis un robot fictif, | mais mes chiffres viennent | de vrais modèles."
+  },
+  {
+   "id": "s04",
+   "text": "Ma batterie, comme sur un Chaomi S quarante : quatorze virgule quatre volts, cinq mille deux cents milliampères-heure.",
+   "start": 13.077,
+   "end": 20.388,
+   "display": "Ma batterie, comme sur un Xiaomi S40 : | 14,4 V, 5 200 mAh."
+  },
+  {
+   "id": "s05",
+   "text": "Pleine, environ soixante-quinze wattheures.",
+   "start": 20.488,
+   "end": 23.589,
+   "display": "Pleine, environ 75 Wh."
+  },
+  {
+   "id": "s06",
+   "text": "Un passage qui la vide : au moins deux centimes.",
+   "start": 23.689,
+   "end": 27.227,
+   "display": "Un passage qui la vide : | au moins 2 centimes."
+  },
+  {
+   "id": "s07",
+   "text": "Chaque jour, toute l'année : au moins sept francs cinquante.",
+   "start": 27.327,
+   "end": 31.861,
+   "display": "Chaque jour, toute l'année : | au moins 7 fr. 50."
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : sur ma station, je consomme même sans rien faire.",
+   "start": 31.961,
+   "end": 36.972,
+   "display": "Surprise : sur ma station, | je consomme même sans rien faire."
+  },
+  {
+   "id": "s09",
+   "text": "Une notice d'Écovacs annonce moins de deux watts en veille connectée.",
+   "start": 37.072,
+   "end": 41.667,
+   "display": "Une notice d'Ecovacs annonce | moins de 2 W en veille connectée."
+  },
+  {
+   "id": "s10",
+   "text": "Sur un an : jusqu'à quatre francs quatre-vingt-cinq.",
+   "start": 41.767,
+   "end": 44.737,
+   "display": "Sur un an : jusqu'à 4 fr. 85."
+  },
+  {
+   "id": "s11",
+   "text": "Et ton aspirateur traîneau ? L'Union européenne estime sa moyenne à trente-cinq kilowattheures par an.",
+   "start": 44.837,
+   "end": 50.232,
+   "display": "Et ton aspirateur traîneau ? | L'Union européenne estime sa moyenne | à 35 kWh par an."
+  },
+  {
+   "id": "s12",
+   "text": "Environ neuf francs soixante-dix.",
+   "start": 50.332,
+   "end": 52.639,
+   "display": "Environ 9 fr. 70."
+  },
+  {
+   "id": "s13",
+   "text": "Conseil : programme-moi les jours utiles, et éteins-moi pendant tes vacances.",
+   "start": 52.739,
+   "end": 56.772,
+   "display": "Conseil : programme-moi les jours utiles, | et éteins-moi pendant tes vacances."
+  },
+  {
+   "id": "s14",
+   "text": "Ton robot passe tous les jours ? Écris-le en commentaire.",
+   "start": 56.872,
+   "end": 60.612,
+   "display": "Ton robot passe tous les jours ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Toi et ton collègue : en ordre de grandeur, une dizaine de francs par an chacun.",
+   "start": 60.712,
+   "end": 65.301,
+   "display": "Toi et ton collègue : en ordre de grandeur, | une dizaine de francs par an chacun."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : d'autres objets vont tout balancer.",
+   "start": 65.401,
+   "end": 68.379,
+   "display": "Abonne-toi : | d'autres objets vont tout balancer."
+  }
+ ]
+}
