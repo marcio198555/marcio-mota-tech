@@ -1,0 +1,67 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu chauffes à vingt et un degrés. Ton collègue, à vingt. Combien il gagne, en vrai ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : à la fin, tu sauras sur quel chiffre mettre ta vanne."
+  },
+  {
+   "id": "s03",
+   "text": "SuisseEnergie, le programme de la Confédération, donne la règle."
+  },
+  {
+   "id": "s04",
+   "text": "Chaque degré en moins, c'est six pour cent de frais de chauffage en moins."
+  },
+  {
+   "id": "s05",
+   "text": "Exemple : si ton chauffage te coûte mille francs par an, ton collègue garde soixante francs."
+  },
+  {
+   "id": "s06",
+   "text": "Soixante francs, pour un seul degré, sans rien acheter."
+  },
+  {
+   "id": "s07",
+   "text": "Et dans l'autre sens, chaque degré en plus te coûte six pour cent de plus."
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : dans la chambre, SuisseEnergie conseille dix-sept degrés, pas vingt."
+  },
+  {
+   "id": "s09",
+   "text": "Vingt degrés, c'est pour le séjour : la position trois de la vanne thermostatique."
+  },
+  {
+   "id": "s10",
+   "text": "Dix-sept, c'est la position deux. Et la salle de bain, vingt-trois degrés : la position quatre."
+  },
+  {
+   "id": "s11",
+   "text": "Et sur le chauffage central, la règle générale : baisser la courbe de trois degrés baisse la pièce d'un degré."
+  },
+  {
+   "id": "s12",
+   "text": "Ta vanne, là, elle est sur quel chiffre ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Toi à vingt et un, ton collègue à vingt : soixante francs d'écart, dans cet exemple."
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : ce soir, pourquoi le centre de ton plat reste froid au micro-ondes."
+  }
+ ]
+}
