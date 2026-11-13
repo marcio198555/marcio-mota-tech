@@ -1,0 +1,19 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 11,
+ "segments": [
+  {
+   "id": "s06",
+   "text": "Puis la conversion fait des pertes : rendement typique, quatre-vingt-deux pour cent."
+  },
+  {
+   "id": "s08",
+   "text": "Chez Google, le Pixel neuf A : cinq mille cent milliampères-heure."
+  }
+ ]
+}
