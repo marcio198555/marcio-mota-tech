@@ -1,0 +1,120 @@
+{
+ "job": "day73",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même console. Toi, tu l'achètes en Suisse. Ton collègue, en France. Qui paie le moins ?",
+   "file": "s01.wav",
+   "duration": 6.24,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Reste : cette fois, la réponse s'inverse.",
+   "file": "s02.wav",
+   "duration": 3.28,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Nintendo Switch deux, boutique Nintendo suisse : quatre cent nonante-neuf francs nonante.",
+   "file": "s03.wav",
+   "duration": 7.36,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Boutique Nintendo France : quatre cent nonante-neuf euros nonante-neuf.",
+   "file": "s04.wav",
+   "duration": 5.24,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Au cours de la Banque nationale : quatre cent soixante et un francs.",
+   "file": "s05.wav",
+   "duration": 5.0,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Trente-huit francs de moins qu'en Suisse.",
+   "file": "s06.wav",
+   "duration": 2.12,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Mais à la frontière, au-dessus de cent cinquante francs, il doit la TVA suisse.",
+   "file": "s07.wav",
+   "duration": 5.32,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Trente et un francs : environ quatre cent nonante-trois au total.",
+   "file": "s08.wav",
+   "duration": 4.4,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Encore sept francs de moins que toi.",
+   "file": "s09.wav",
+   "duration": 2.92,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Deuxième surprise : avec la détaxe, si un vendeur l'accorde, au mieux quatre cent seize.",
+   "file": "s10.wav",
+   "duration": 6.6,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Quatre-vingt-quatre francs de moins que toi.",
+   "file": "s11.wav",
+   "duration": 3.16,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Conseil : garde la quittance avec la TVA française, et déclare ton achat.",
+   "file": "s12.wav",
+   "duration": 6.32,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Les prix bougent : refais le calcul.",
+   "file": "s13.wav",
+   "duration": 2.6,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Et toi, ta console, tu l'as achetée où ? Écris-le en commentaire.",
+   "file": "s14.wav",
+   "duration": 4.64,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Toi, quatre cent nonante-neuf nonante. Ton collègue, environ quatre cent nonante-trois, TVA suisse comprise.",
+   "file": "s15.wav",
+   "duration": 7.8,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Et abonne-toi : ce soir, le mode avion fait-il vraiment charger plus vite ?",
+   "file": "s16.wav",
+   "duration": 5.4,
+   "rate": 24000
+  }
+ ],
+ "total": 78.4
+}
