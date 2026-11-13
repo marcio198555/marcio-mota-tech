@@ -1076,13 +1076,19 @@
     "essai sous pression statique et mouvements dans l'eau"
    ],
    "argent": "Croissance",
-   "statut": "montée (contrôle en cours)",
+   "statut": "programmée",
    "heure": "10:00",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "type_sujet": "chiffre de la boîte",
    "annonce": "Wi-Fi 2,4 ou 5 GHz : lequel traverse les murs",
-   "semaine": "S3"
+   "semaine": "S3",
+   "buffer_id": "6af6b071c1a0010a5b03056a",
+   "story_instagram": {
+    "buffer_id": "6af6b0725ec1c9d5be64f93d"
+   },
+   "reel_instagram": "reels_queue.json day40 (2026-11-18T11:00)",
+   "duree_s": 55.9
   },
   {
    "jour": 41,
