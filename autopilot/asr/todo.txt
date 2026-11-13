@@ -56,3 +56,4 @@ autopilot/vo/day25_vo.wav
 autopilot/vo/day40_vo.wav
 autopilot/vo/day42_vo.wav
 autopilot/vo/day49_vo.wav
+autopilot/vo/day50_vo.wav
