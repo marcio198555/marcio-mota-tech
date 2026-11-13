@@ -248,6 +248,16 @@
    "media_id": "18117101591139215",
    "container_id": "17957112837294026",
    "via": "vidIQ"
+  },
+  {
+   "id": "day25",
+   "prevu": "2026-11-13T11:00",
+   "source": "autopilot jour 25",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794551840/tiktok-autopilot/reels/day25_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Chauffage : un degré de moins, 6 % de frais de chauffage en moins (SuisseEnergie)\n\nSuisseEnergie (Confédération) : « Chaque degré de température en moins dans les locaux représente une économie de 6 % des frais de chauffage. » Exemple : 1 000 francs de chauffage par an → environ 60 francs.\n\nTempératures conseillées : séjour 20 °C (position 3 de la vanne), chambre 17 °C (position 2), salle de bain 23 °C (position 4).\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#chauffage #economiedenergie #astucemaison #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "cta": "abonnement"
   }
  ]
 }

@@ -729,13 +729,18 @@
     "température recommandée par pièce"
    ],
    "argent": "Marques thermostats connectés",
-   "statut": "montée (contrôle en cours)",
+   "statut": "programmée",
    "heure": "10:00",
    "annoncee": true,
    "format": "V",
    "semaine": "S3",
    "type_sujet": "vérité francs",
-   "annonce": "Micro-ondes : pourquoi le centre reste froid"
+   "annonce": "Micro-ondes : pourquoi le centre reste froid",
+   "buffer_id": "6af6b02eda25c4db3e9d4492",
+   "story_instagram": {
+    "buffer_id": "6af6b02fba218f3263828f64"
+   },
+   "reel_instagram": "reels_queue.json day25 (13.11 11:00)"
   },
   {
    "jour": 26,
