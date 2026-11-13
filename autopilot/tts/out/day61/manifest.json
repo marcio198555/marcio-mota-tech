@@ -1,0 +1,113 @@
+{
+ "job": "day61",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu laisses une lumière allumée toute la nuit. Ton collègue éteint tout.",
+   "file": "s01.wav",
+   "duration": 5.52,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Combien ça te coûte, vraiment ?",
+   "file": "s02.wav",
+   "duration": 3.04,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Reste : à la fin, tu sauras quelle ampoule coûte douze fois plus.",
+   "file": "s03.wav",
+   "duration": 4.76,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Je suis une ampoule elle-eu-dé du commerce : huit cent six lumens, cinq watts sur ma fiche.",
+   "file": "s04.wav",
+   "duration": 6.16,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Une nuit d'exemple, huit heures : quarante wattheures.",
+   "file": "s05.wav",
+   "duration": 3.72,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Au tarif médian suisse : un peu plus d'un centime.",
+   "file": "s06.wav",
+   "duration": 4.72,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Chaque nuit, toute l'année : environ quatre francs.",
+   "file": "s07.wav",
+   "duration": 4.96,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Ton collègue se cogne dans le noir pour quatre francs par an.",
+   "file": "s08.wav",
+   "duration": 3.6,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Surprise : ma fiche annonce vingt-cinq mille heures. À ce rythme, plus de huit ans de nuits.",
+   "file": "s09.wav",
+   "duration": 7.44,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Mais une vieille ampoule de soixante watts donne la même lumière, selon le règlement européen.",
+   "file": "s10.wav",
+   "duration": 6.28,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Douze fois plus : environ quarante-huit francs par an.",
+   "file": "s11.wav",
+   "duration": 3.92,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Alors, à l'achat : regarde les lumens sur la boîte, pas les watts.",
+   "file": "s12.wav",
+   "duration": 4.92,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Tu laisses une lumière allumée la nuit, toi ? Écris-le en commentaire.",
+   "file": "s13.wav",
+   "duration": 4.68,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Toi : quatre francs par an avec moi. Ton collègue : zéro franc, et des bleus.",
+   "file": "s14.wav",
+   "duration": 6.04,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, ton téléphone deux cents mégapixels qui fait des photos de douze.",
+   "file": "s15.wav",
+   "duration": 6.44,
+   "rate": 24000
+  }
+ ],
+ "total": 76.2
+}
