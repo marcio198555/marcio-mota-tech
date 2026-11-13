@@ -1,109 +1,109 @@
 {
- "duration": 68.714,
+ "duration": 68.757,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, tu charges en mode avion. Ton collègue continue de scroller.",
    "start": 0.12,
-   "end": 3.61,
+   "end": 3.6,
    "display": "Toi, tu charges en mode avion. | Ton collègue continue de scroller."
   },
   {
    "id": "s02",
    "text": "Lequel charge le plus vite ?",
-   "start": 3.71,
-   "end": 5.307,
+   "start": 3.7,
+   "end": 5.293,
    "display": "Lequel charge le plus vite ?"
   },
   {
    "id": "s03",
    "text": "Reste : à la fin, tu sauras ce qui ralentit ta charge.",
-   "start": 5.407,
-   "end": 8.929,
+   "start": 5.393,
+   "end": 8.905,
    "display": "Reste : à la fin, tu sauras | ce qui ralentit ta charge."
   },
   {
    "id": "s04",
-   "text": "Le mode avion coupe le réseau mobile. Google le conseille quand tu n'en as pas besoin.",
-   "start": 9.029,
-   "end": 13.621,
-   "display": "Le mode avion coupe le réseau mobile. | Google le conseille | quand tu n'en as pas besoin."
+   "text": "Le mode avion coupe le réseau mobile. Pour l'autonomie, Google le conseille quand tu n'en as pas besoin.",
+   "start": 9.005,
+   "end": 13.952,
+   "display": "Le mode avion coupe le réseau mobile. | Pour l'autonomie, Google le conseille | quand tu n'en as pas besoin."
   },
   {
    "id": "s05",
    "text": "Selon l'Office fédéral de la santé publique, ton téléphone émet surtout pendant un appel ou un transfert de données.",
-   "start": 13.721,
-   "end": 20.36,
-   "display": "Selon l'Office fédéral de la santé publique, | ton téléphone émet surtout pendant un appel | ou un transfert de données."
+   "start": 14.052,
+   "end": 20.672,
+   "display": "Selon l'Office fédéral de la santé publique, | ton téléphone émet surtout | pendant un appel | ou un transfert de données."
   },
   {
    "id": "s06",
-   "text": "Au repos, juste un signal toutes les quelques minutes : le mode avion a alors peu à couper.",
-   "start": 20.46,
-   "end": 25.218,
-   "display": "Au repos, juste un signal | toutes les quelques minutes : | le mode avion a alors peu à couper."
+   "text": "Au repos, juste un signal toutes les quelques minutes.",
+   "start": 20.772,
+   "end": 23.764,
+   "display": "Au repos, juste un signal | toutes les quelques minutes."
   },
   {
    "id": "s07",
    "text": "Ton collègue, écran allumé ? Selon Xiaomi, la charge est plus lente.",
-   "start": 25.318,
-   "end": 30.013,
+   "start": 23.864,
+   "end": 28.545,
    "display": "Ton collègue, écran allumé ? | Selon Xiaomi, la charge est plus lente."
   },
   {
    "id": "s08",
    "text": "Honor conseille de ne pas l'utiliser en charge, surtout pour un gros jeu.",
-   "start": 30.113,
-   "end": 35.197,
-   "display": "Honor conseille de ne pas l'utiliser en charge, | surtout pour un gros jeu."
+   "start": 28.645,
+   "end": 33.716,
+   "display": "Honor conseille | de ne pas l'utiliser en charge, | surtout pour un gros jeu."
   },
   {
    "id": "s09",
    "text": "Deuxième surprise : trop chaud, il peut mettre la charge en pause, selon Google.",
-   "start": 35.297,
-   "end": 39.871,
+   "start": 33.816,
+   "end": 38.377,
    "display": "Deuxième surprise : trop chaud, | il peut mettre la charge en pause, | selon Google."
   },
   {
    "id": "s10",
    "text": "En francs ? Batterie d'exemple de dix-neuf wattheures : environ un demi-centime la charge.",
-   "start": 39.971,
-   "end": 45.305,
+   "start": 38.477,
+   "end": 43.795,
    "display": "En francs ? Batterie d'exemple de 19 Wh : | environ un demi-centime la charge."
   },
   {
    "id": "s11",
    "text": "Une charge par jour, toute l'année : environ deux francs.",
-   "start": 45.405,
-   "end": 49.705,
+   "start": 43.895,
+   "end": 48.183,
    "display": "Une charge par jour, toute l'année : | environ 2 francs."
   },
   {
    "id": "s12",
    "text": "Alors : écran éteint, pas de jeu, pas au soleil.",
-   "start": 49.805,
-   "end": 52.814,
+   "start": 48.283,
+   "end": 51.284,
    "display": "Alors : écran éteint, | pas de jeu, pas au soleil."
   },
   {
    "id": "s13",
    "text": "Tu charges en mode avion ? Écris-le en commentaire.",
-   "start": 52.914,
-   "end": 56.718,
+   "start": 51.384,
+   "end": 55.178,
    "display": "Tu charges en mode avion ? | Écris-le en commentaire."
   },
   {
    "id": "s14",
-   "text": "Toi : un petit plus, peut-être. Ton collègue : écran allumé, charge plus lente.",
-   "start": 56.818,
-   "end": 62.519,
-   "display": "Toi : un petit plus, peut-être. | Ton collègue : écran allumé, | charge plus lente."
+   "text": "Toi : écran éteint, ça aide, selon Xiaomi. Le mode avion ? Aucun chiffre officiel. Ton collègue : charge plus lente.",
+   "start": 55.278,
+   "end": 62.536,
+   "display": "Toi : écran éteint, ça aide, selon Xiaomi. | Le mode avion ? Aucun chiffre officiel. | Ton collègue : charge plus lente."
   },
   {
    "id": "s15",
    "text": "Abonne-toi : demain, ta télé soixante-cinq pouces : cent soixante-cinq centimètres de large ?",
-   "start": 62.619,
-   "end": 68.414,
+   "start": 62.636,
+   "end": 68.457,
    "display": "Abonne-toi : demain, ta télé 65 pouces : | 165 cm de large ?"
   }
  ]
