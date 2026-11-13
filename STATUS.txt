@@ -1,0 +1,12 @@
+sha=1d35fae3982fc6e878aea1ab3c041e3bfb929411
+run=43394563679
+started=2026-11-13T08:36:52Z
+game=ok
+android=ok
+published=2026-11-13T08:40:53Z
+emulator=ok
+emulator_levels=23
+emulator_ad_breaks=2
+emulator_video=yes
+emulator_release_build=ok
+published=2026-11-13T08:47:55Z

@@ -1,0 +1,22 @@
+== com/android/tools/build/gradle
+9.3.2 9.3.3 9.4.0 9.4.1 9.5.0 9.5.1 
+== androidx/activity/activity
+1.12.0 1.12.1 1.12.2 1.12.3 1.12.4 1.13.0 
+== androidx/core/core
+1.15.0 1.16.0 1.17.0 1.18.0 1.19.0 1.19.1 
+== androidx/webkit/webkit
+1.14.0 1.15.0 1.16.0 1.17.0 1.17.1 1.18.0 
+== com/google/android/gms/play-services-ads
+25.0.0 25.1.0 25.2.0 25.3.0 25.4.0 25.5.0 
+== com/google/android/ump/user-messaging-platform
+2.1.0 2.2.0 3.0.0 3.1.0 3.2.0 4.0.0 
+== com/google/android/play/review
+2.0.0 2.0.1 2.0.2 
+== com/android/billingclient/billing
+8.1.0 8.2.0 8.2.1 8.3.0 9.0.0 9.1.0 
+== gradle
+{  "version" : "9.9.1",  "buildTime" : "20261110162215+0000",  "commitId" : "47a96e4ed1822d6aa7fa32bed4461208e69077a6",  "current" : true,  "snapshot" : false,  "nightly" : false,  "releaseNightly" : false,  "activeRc" : false,  "rcFor" : "",  "milestoneFor" : "",  "broken" : false,  "downloadUrl" :
+== installed sdk platforms
+android-34 android-34-ext10 android-34-ext11 android-34-ext12 android-34-ext8 android-35 android-35-ext14 android-35-ext15 android-36 android-36-ext18 android-36-ext19 android-36.1 android-37.0 android-37.1 android-37.2 android-37.2-beta1 android-37.2-beta2 android-37.2-beta3 
+== installed build-tools
+34.0.0 35.0.0 35.0.1 36.0.0 36.1.0 37.0.0 

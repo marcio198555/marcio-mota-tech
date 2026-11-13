@@ -1,0 +1,21 @@
+[08:42:26] android 15 (api 35)
+[08:42:26] webview versionName=124.0.6367.219
+[08:42:27] screen Physical size: 1080x2400 Physical density: 420
+Performing Streamed Install
+Success
+[08:42:30] start: the game plays by itself
+Starting: Intent { cmp=com.motagames.arrows.dev/com.motagames.arrows.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.motagames.arrows.dev/com.motagames.arrows.MainActivity
+TotalTime: 3696
+WaitTime: 3707
+Complete
+[08:44:43] ad break on screen (#1)
+[08:45:29] ad break on screen (#2)
+[08:46:10] ad breaks seen: 2
+[08:46:10] restart: ask for a rewarded video
+[08:46:29] rewarded video on screen
+[08:47:20] leave the app and come back
+[08:47:33] release build: install and start
+[08:47:53] levels finished: 23, ad breaks shown: 2, rewarded video shown: yes

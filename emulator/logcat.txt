@@ -1,0 +1,288 @@
+11-13 08:42:32.594  1883  2091 I UserMessagingPlatform: Use new ConsentDebugSettings.Builder().addTestDeviceHashedId("B3EEABB8EE11C2BE770B684D95219ECB") to set this as a debug device.
+11-13 08:42:32.596  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:42:32.596  1883  2091 D UserMessagingPlatform: Stored info not exists: IABGPP_HDR_GppString
+11-13 08:42:32.596  1883  2091 D UserMessagingPlatform: Stored info not exists: IABGPP_GppSID
+11-13 08:42:32.596  1883  2091 D UserMessagingPlatform: Stored info not exists: IABUSPrivacy_String
+11-13 08:42:32.639  1883  2091 W UserMessagingPlatform: Metrics reporting URL is not set yet.
+11-13 08:42:33.230  1883  2091 I UserMessagingPlatform: Use new ConsentDebugSettings.Builder().addTestDeviceHashedId("B3EEABB8EE11C2BE770B684D95219ECB") to set this as a debug device.
+11-13 08:42:33.239  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:42:33.242  1883  2091 D UserMessagingPlatform: Stored info not exists: IABGPP_HDR_GppString
+11-13 08:42:33.242  1883  2091 D UserMessagingPlatform: Stored info not exists: IABGPP_GppSID
+11-13 08:42:33.242  1883  2091 D UserMessagingPlatform: Stored info not exists: IABUSPrivacy_String
+11-13 08:42:33.250  1883  1883 W UserMessagingPlatform: Error making request.
+11-13 08:42:33.264  1883  2091 W UserMessagingPlatform: Metrics reporting URL is not set yet.
+11-13 08:42:33.385  1883  1883 W Fletch  : consent request: Error making request.
+11-13 08:42:33.404  1883  1883 W UserMessagingPlatform: Error making request.
+11-13 08:42:33.412  1883  1883 W Fletch  : consent request: Error making request.
+11-13 08:42:42.515  1883  2091 I UserMessagingPlatform: Use new ConsentDebugSettings.Builder().addTestDeviceHashedId("B3EEABB8EE11C2BE770B684D95219ECB") to set this as a debug device.
+11-13 08:42:42.515  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:42:42.517  1883  2091 D UserMessagingPlatform: Stored info not exists: IABGPP_HDR_GppString
+11-13 08:42:42.517  1883  2091 D UserMessagingPlatform: Stored info not exists: IABGPP_GppSID
+11-13 08:42:42.517  1883  2091 D UserMessagingPlatform: Stored info not exists: IABUSPrivacy_String
+11-13 08:42:42.567  1883  2091 W UserMessagingPlatform: Metrics reporting URL is not set yet.
+11-13 08:42:42.813  1883  1883 W UserMessagingPlatform: Error making request.
+11-13 08:42:43.040  1883  1883 W Fletch  : consent request: Error making request.
+11-13 08:42:44.301  1652  2324 I Ads     : Parental control value is stale. Refreshing.
+11-13 08:42:44.302  1652  2324 W Ads     : Play store is not installed or the service for parental controls is not available.
+11-13 08:42:44.302  1652  2324 I Ads     : Initialized AdMob in container 24.23.35 (190800-646585959)
+11-13 08:42:46.028  1883  1883 D Fletch  : page: [fletch] autoplay: start at level 1
+11-13 08:42:46.112  1883  1883 D Fletch  : page: [fletch] begin level 1: 4x4, 5 arrows
+11-13 08:42:48.623  1883  1883 D Fletch  : page: [fletch] won level 1 stars=3
+11-13 08:42:49.541  1883  1883 D Fletch  : page: [fletch] begin level 2: 4x4, 4 arrows
+11-13 08:42:51.246  1883  2091 I UserMessagingPlatform: Use new ConsentDebugSettings.Builder().addTestDeviceHashedId("B3EEABB8EE11C2BE770B684D95219ECB") to set this as a debug device.
+11-13 08:42:51.297  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:42:51.297  1883  2091 D UserMessagingPlatform: Stored info not exists: IABGPP_HDR_GppString
+11-13 08:42:51.310  1883  2091 D UserMessagingPlatform: Stored info not exists: IABGPP_GppSID
+11-13 08:42:51.366  1883  2091 D UserMessagingPlatform: Stored info not exists: IABUSPrivacy_String
+11-13 08:42:51.596  1883  1883 D Fletch  : page: [fletch] won level 2 stars=3
+11-13 08:42:52.482  1883  1883 D Fletch  : page: [fletch] begin level 3: 5x7, 8 arrows
+11-13 08:42:53.563  1883  2091 D UserMessagingPlatform: Action[clear]: {"keys":["UMP_eids"]}
+11-13 08:42:53.566  1883  2091 D UserMessagingPlatform: Action[write]: {"UMP_consentModeValues":"4444","IABTCF_CmpSdkID":300,"IABTCF_gdprApplies":0}
+11-13 08:42:53.566  1883  2091 D UserMessagingPlatform: Writing to storage: [UMP_consentModeValues] 4444
+11-13 08:42:53.566  1883  2091 D UserMessagingPlatform: Writing to storage: [IABTCF_CmpSdkID] 300
+11-13 08:42:53.566  1883  2091 D UserMessagingPlatform: Writing to storage: [IABTCF_gdprApplies] 0
+11-13 08:42:53.854  1883  2091 D UserMessagingPlatform: Action[write]: {"IABGPP_GppSID":"7"}
+11-13 08:42:53.854  1883  2091 D UserMessagingPlatform: Writing to storage: [IABGPP_GppSID] 7
+11-13 08:42:53.968  1883  2091 D UserMessagingPlatform: Action[write]: {"IABGPP_HDR_GppString":"DBABL~BAAAAAAAAg","GppMetadata":"[[[7,[1794559373,549075000]]]]"}
+11-13 08:42:53.968  1883  2091 D UserMessagingPlatform: Writing to storage: [IABGPP_HDR_GppString] DBABL~BAAAAAAAAg
+11-13 08:42:53.969  1883  2091 D UserMessagingPlatform: Writing to storage: [GppMetadata] [[[7,[1794559373,549075000]]]]
+11-13 08:42:54.162  1883  2091 D UserMessagingPlatform: Action[write]: {"UMP_cdd":"ChQtNjkxMTcwMzQ2NzgzNDkxNjMyNBIMCI2b29cGELjw6IUC"}
+11-13 08:42:54.162  1883  2091 D UserMessagingPlatform: Writing to storage: [UMP_cdd] ChQtNjkxMTcwMzQ2NzgzNDkxNjMyNBIMCI2b29cGELjw6IUC
+11-13 08:42:56.562  1883  1883 D Fletch  : page: [fletch] won level 3 stars=3
+11-13 08:42:57.491  1883  1883 D Fletch  : page: [fletch] ad break: start
+11-13 08:42:57.716  1883  1883 D Fletch  : page: [fletch] ad break: done
+11-13 08:42:57.716  1883  1883 D Fletch  : page: [fletch] begin level 4: 5x7, 9 arrows
+11-13 08:42:58.754  1883  1883 D UserMessagingPlatform: Receive consent action: consent://consent/?action=configure_app_assets
+11-13 08:42:58.795  1883  2091 D UserMessagingPlatform: Action[configure_app_assets]: {}
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:42:58.937  1883  2091 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:42:58.976  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:42:58.976  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:42:58.976  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:42:58.976  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:42:58.976  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:42:58.976  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:42:58.976  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:42:58.977  1883  2091 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:42:59.063  1883  1883 D UserMessagingPlatform: Wall html loaded.
+11-13 08:42:59.205  1883  1883 D UserMessagingPlatform: Receive consent action: consent://consent/?action=load_complete&args=%7B%22status%22%3A%22ok%22%7D
+11-13 08:42:59.227  1883  2091 D UserMessagingPlatform: Action[load_complete]: {"status":"ok"}
+11-13 08:43:01.803  1883  1883 D Fletch  : page: [fletch] won level 4 stars=3
+11-13 08:43:02.529  1883  1883 D Fletch  : page: [fletch] begin level 5: 5x7, 7 arrows
+11-13 08:43:03.537  1883  1883 I Fletch  : ads: ready
+11-13 08:43:05.891  1883  1883 D Fletch  : page: [fletch] won level 5 stars=3
+11-13 08:43:06.779  1883  1883 D Fletch  : page: [fletch] begin level 6: 6x9, 8 arrows
+11-13 08:43:10.913  1883  1883 D Fletch  : page: [fletch] won level 6 stars=3
+11-13 08:43:11.796  1883  1883 D Fletch  : page: [fletch] begin level 7: 6x8, 11 arrows
+11-13 08:43:17.127  1883  1883 D Fletch  : page: [fletch] won level 7 stars=3
+11-13 08:43:18.157  1883  1883 D Fletch  : page: [fletch] begin level 8: 6x8, 10 arrows
+11-13 08:43:23.508  1883  1883 I Fletch  : ads: break ad loaded
+11-13 08:43:23.850  1883  1883 D Fletch  : page: [fletch] won level 8 stars=3
+11-13 08:43:24.885  1883  1883 D Fletch  : page: [fletch] begin level 9: 6x8, 11 arrows
+11-13 08:43:28.479  1883  1883 I Fletch  : ads: video loaded
+11-13 08:43:29.749  1883  1883 D Fletch  : page: [fletch] won level 9 stars=3
+11-13 08:43:30.752  1883  1883 D Fletch  : page: [fletch] begin level 10: 9x13, 24 arrows
+11-13 08:43:41.234  1883  1883 D Fletch  : page: [fletch] won level 10 stars=3
+11-13 08:43:42.074  1883  1883 D Fletch  : page: [fletch] begin level 11: 7x9, 13 arrows
+11-13 08:43:43.649  1652  2947 I Ads     : Initialized AdMob in container 24.23.35 (190800-646585959)
+11-13 08:43:48.002  1883  1883 D Fletch  : page: [fletch] won level 11 stars=3
+11-13 08:43:49.158  1883  1883 D Fletch  : page: [fletch] begin level 12: 7x9, 16 arrows
+11-13 08:43:56.564  1883  1883 D Fletch  : page: [fletch] won level 12 stars=3
+11-13 08:43:57.575  1883  1883 D Fletch  : page: [fletch] begin level 13: 7x10, 18 arrows
+11-13 08:44:05.608  1883  1883 D Fletch  : page: [fletch] won level 13 stars=3
+11-13 08:44:06.376  1883  1883 D Fletch  : page: [fletch] begin level 14: 7x10, 17 arrows
+11-13 08:44:14.059  1883  1883 D Fletch  : page: [fletch] won level 14 stars=3
+11-13 08:44:15.334  1883  1883 D Fletch  : page: [fletch] ad break: start
+11-13 08:44:16.173  1883  3041 I Fletch  : ads: break ad on screen
+11-13 08:44:45.409  1883  1883 D Fletch  : page: [fletch] ad break: done
+11-13 08:44:45.682  1883  1883 D Fletch  : page: [fletch] begin level 15: 8x11, 20 arrows
+11-13 08:44:48.333  1883  1883 I Fletch  : ads: break ad loaded
+11-13 08:44:54.301  1883  1883 D Fletch  : page: [fletch] won level 15 stars=3
+11-13 08:44:55.143  1883  1883 D Fletch  : page: [fletch] begin level 16: 8x11, 18 arrows
+11-13 08:45:03.121  1883  1883 D Fletch  : page: [fletch] won level 16 stars=3
+11-13 08:45:03.866  1883  1883 D Fletch  : page: [fletch] begin level 17: 8x11, 17 arrows
+11-13 08:45:11.527  1883  1883 D Fletch  : page: [fletch] won level 17 stars=3
+11-13 08:45:12.262  1883  1883 D Fletch  : page: [fletch] begin level 18: 8x12, 14 arrows
+11-13 08:45:18.654  1883  1883 D Fletch  : page: [fletch] won level 18 stars=3
+11-13 08:45:19.874  1883  1883 D Fletch  : page: [fletch] begin level 19: 8x10, 14 arrows
+11-13 08:45:26.166  1883  1883 D Fletch  : page: [fletch] won level 19 stars=3
+11-13 08:45:26.956  1883  1883 D Fletch  : page: [fletch] ad break: start
+11-13 08:45:27.180  1883  3044 I Fletch  : ads: break ad on screen
+11-13 08:45:37.479  1883  1883 D Fletch  : page: [fletch] ad break: done
+11-13 08:45:37.479  1883  1883 D Fletch  : page: [fletch] begin level 20: 10x14, 19 arrows
+11-13 08:45:39.885  1883  1883 I Fletch  : ads: break ad loaded
+11-13 08:45:45.444  1883  1883 D Fletch  : page: [fletch] won level 20 stars=3
+11-13 08:45:46.356  1883  1883 D Fletch  : page: [fletch] begin level 21: 8x11, 15 arrows
+11-13 08:45:53.094  1883  1883 D Fletch  : page: [fletch] won level 21 stars=3
+11-13 08:45:53.845  1883  1883 D Fletch  : page: [fletch] begin level 22: 8x11, 11 arrows
+11-13 08:45:59.005  1883  1883 D Fletch  : page: [fletch] won level 22 stars=3
+11-13 08:45:59.795  1883  1883 D Fletch  : page: [fletch] begin level 23: 8x11, 20 arrows
+11-13 08:46:08.668  1883  1883 D Fletch  : page: [fletch] won level 23 stars=3
+11-13 08:46:09.387  1883  1883 D Fletch  : page: [fletch] begin level 24: 8x10, 20 arrows
+11-13 08:46:09.431  2036  2036 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+11-13 08:46:12.471  5118  5184 I UserMessagingPlatform: Use new ConsentDebugSettings.Builder().addTestDeviceHashedId("B3EEABB8EE11C2BE770B684D95219ECB") to set this as a debug device.
+11-13 08:46:12.499  5118  5184 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:46:12.499  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:46:12.499  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:46:12.499  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:46:12.500  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:46:12.500  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:46:12.501  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:46:12.501  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:46:13.823  5118  5184 D UserMessagingPlatform: Action[clear]: {"keys":["UMP_eids"]}
+11-13 08:46:13.825  5118  5184 D UserMessagingPlatform: Action[write]: {"UMP_consentModeValues":"4444","IABTCF_CmpSdkID":300,"IABTCF_gdprApplies":0}
+11-13 08:46:13.872  5118  5184 D UserMessagingPlatform: Writing to storage: [UMP_consentModeValues] 4444
+11-13 08:46:13.872  5118  5184 D UserMessagingPlatform: Writing to storage: [IABTCF_CmpSdkID] 300
+11-13 08:46:13.872  5118  5184 D UserMessagingPlatform: Writing to storage: [IABTCF_gdprApplies] 0
+11-13 08:46:13.872  5118  5184 D UserMessagingPlatform: Action[write]: {"IABGPP_GppSID":"7"}
+11-13 08:46:13.872  5118  5184 D UserMessagingPlatform: Writing to storage: [IABGPP_GppSID] 7
+11-13 08:46:18.762  5118  5118 D Fletch  : page: [fletch] test video: ready=false try=1
+11-13 08:46:18.999  5118  5118 I Fletch  : ads: ready
+11-13 08:46:19.573  5118  5118 D UserMessagingPlatform: Receive consent action: consent://consent/?action=configure_app_assets
+11-13 08:46:19.645  5118  5184 D UserMessagingPlatform: Action[configure_app_assets]: {}
+11-13 08:46:19.734  5118  5184 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:46:19.735  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:46:19.736  5118  5184 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:46:19.827  5118  5118 D UserMessagingPlatform: Wall html loaded.
+11-13 08:46:19.919  5118  5118 D UserMessagingPlatform: Receive consent action: consent://consent/?action=load_complete&args=%7B%22status%22%3A%22ok%22%7D
+11-13 08:46:19.920  5118  5184 D UserMessagingPlatform: Action[load_complete]: {"status":"ok"}
+11-13 08:46:21.883  5118  5118 D Fletch  : page: [fletch] test video: ready=false try=2
+11-13 08:46:24.999  5118  5118 D Fletch  : page: [fletch] test video: ready=false try=3
+11-13 08:46:26.524  5118  5118 I Fletch  : ads: break ad loaded
+11-13 08:46:27.773  5118  5118 I Fletch  : ads: video loaded
+11-13 08:46:27.873  5118  5118 D Fletch  : page: [fletch] test video: ready=true try=4
+11-13 08:46:28.152  5118  5246 I Fletch  : ads: video on screen
+11-13 08:47:14.136  5118  5118 D Fletch  : page: [fletch] test video: earned
+11-13 08:47:19.330  5118  5118 I Fletch  : ads: video loaded
+11-13 08:47:34.699  5529  5622 I UserMessagingPlatform: Use new ConsentDebugSettings.Builder().addTestDeviceHashedId("B3EEABB8EE11C2BE770B684D95219ECB") to set this as a debug device.
+11-13 08:47:34.700  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:47:34.700  5529  5622 D UserMessagingPlatform: Stored info not exists: IABGPP_HDR_GppString
+11-13 08:47:34.700  5529  5622 D UserMessagingPlatform: Stored info not exists: IABGPP_GppSID
+11-13 08:47:34.700  5529  5622 D UserMessagingPlatform: Stored info not exists: IABUSPrivacy_String
+11-13 08:47:34.966  5529  5622 D UserMessagingPlatform: Action[clear]: {"keys":["UMP_eids"]}
+11-13 08:47:34.975  5529  5622 D UserMessagingPlatform: Action[write]: {"UMP_consentModeValues":"4444","IABTCF_CmpSdkID":300,"IABTCF_gdprApplies":0}
+11-13 08:47:34.975  5529  5622 D UserMessagingPlatform: Writing to storage: [UMP_consentModeValues] 4444
+11-13 08:47:34.975  5529  5622 D UserMessagingPlatform: Writing to storage: [IABTCF_CmpSdkID] 300
+11-13 08:47:34.975  5529  5622 D UserMessagingPlatform: Writing to storage: [IABTCF_gdprApplies] 0
+11-13 08:47:34.983  5529  5622 D UserMessagingPlatform: Action[write]: {"IABGPP_GppSID":"7"}
+11-13 08:47:34.983  5529  5622 D UserMessagingPlatform: Writing to storage: [IABGPP_GppSID] 7
+11-13 08:47:34.990  5529  5622 D UserMessagingPlatform: Action[write]: {"IABGPP_HDR_GppString":"DBABL~BAAAAAAAAg","GppMetadata":"[[[7,[1794559655,756505000]]]]"}
+11-13 08:47:34.990  5529  5622 D UserMessagingPlatform: Writing to storage: [IABGPP_HDR_GppString] DBABL~BAAAAAAAAg
+11-13 08:47:34.990  5529  5622 D UserMessagingPlatform: Writing to storage: [GppMetadata] [[[7,[1794559655,756505000]]]]
+11-13 08:47:34.995  5529  5622 D UserMessagingPlatform: Action[write]: {"UMP_cdd":"ChQtNDMyNjE3OTI3ODcwNDkxNzQ0MxIMCKed29cGEKiz3egC"}
+11-13 08:47:34.995  5529  5622 D UserMessagingPlatform: Writing to storage: [UMP_cdd] ChQtNDMyNjE3OTI3ODcwNDkxNzQ0MxIMCKed29cGEKiz3egC
+11-13 08:47:40.956  5529  5529 D UserMessagingPlatform: Receive consent action: consent://consent/?action=configure_app_assets
+11-13 08:47:41.009  5529  5622 D UserMessagingPlatform: Action[configure_app_assets]: {}
+11-13 08:47:41.010  5529  5529 I Fletch  : ads: ready
+11-13 08:47:41.162  5529  5622 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:47:41.162  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:47:41.162  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:47:41.163  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:47:41.163  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:47:41.163  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:47:41.163  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:47:41.165  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:47:41.165  5529  5622 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IDFA_freqCapNumViews
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdStoragePurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAnalyticsStoragePurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdPersonalizationPurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: UMP_CoMoAdUserDataPurposeConsentStatus
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_AddtlConsent
+11-13 08:47:41.166  5529  5622 D UserMessagingPlatform: Stored info not exists: IABTCF_idfaFlowControl
+11-13 08:47:41.460  5529  5529 D UserMessagingPlatform: Receive consent action: consent://consent/?action=load_complete&args=%7B%22status%22%3A%22ok%22%7D
+11-13 08:47:41.480  5529  5622 D UserMessagingPlatform: Action[load_complete]: {"status":"ok"}
+11-13 08:47:41.799  5529  5529 D UserMessagingPlatform: Wall html loaded.
+11-13 08:47:46.475  5529  5529 I Fletch  : ads: break ad loaded
+11-13 08:47:47.893  5529  5529 I Fletch  : ads: video loaded
