@@ -1,0 +1,22 @@
+{
+ "job": "day50b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Dix mille milliampères-heure : trois recharges de téléphone ?",
+   "file": "s01.wav",
+   "duration": 3.88,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Dix mille, c'est dans les cellules, à environ trois virgule sept volts. Pas à la sortie, en cinq volts.",
+   "file": "s03.wav",
+   "duration": 7.12,
+   "rate": 24000
+  }
+ ],
+ "total": 11.0
+}
