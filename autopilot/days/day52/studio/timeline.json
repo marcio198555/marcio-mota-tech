@@ -1,0 +1,96 @@
+{
+ "duration": 54.268,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton aspirateur sans fil tient soixante minutes ?",
+   "start": 0.12,
+   "end": 3.222,
+   "display": "Ton aspirateur sans fil | tient 60 minutes ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non. Seulement en mode éco.",
+   "start": 3.322,
+   "end": 4.817,
+   "display": "Non. | Seulement en mode éco."
+  },
+  {
+   "id": "s03",
+   "text": "Le gros chiffre, c'est le réglage le plus faible, avec l'accessoire le plus simple.",
+   "start": 4.917,
+   "end": 9.939,
+   "display": "Le gros chiffre = | le réglage le plus faible, | l'accessoire le plus simple."
+  },
+  {
+   "id": "s04",
+   "text": "Exemple : le Bosch Unlimited dix. Sa fiche annonce jusqu'à quatre-vingts minutes.",
+   "start": 10.039,
+   "end": 15.446,
+   "display": "Bosch Unlimited 10 : | jusqu'à 80 min | selon la fiche."
+  },
+  {
+   "id": "s05",
+   "text": "Mais en mode éco, avec un accessoire non électrique.",
+   "start": 15.546,
+   "end": 19.151,
+   "display": "… en mode Eco, | avec un accessoire | non électrique."
+  },
+  {
+   "id": "s06",
+   "text": "Avec la brosse motorisée, toujours en éco : jusqu'à soixante-cinq.",
+   "start": 19.252,
+   "end": 23.442,
+   "display": "Brosse motorisée, mode Eco : | jusqu'à 65 min."
+  },
+  {
+   "id": "s07",
+   "text": "En mode auto : jusqu'à vingt-cinq minutes.",
+   "start": 23.542,
+   "end": 26.071,
+   "display": "Mode Auto : | jusqu'à 25 min."
+  },
+  {
+   "id": "s08",
+   "text": "En turbo : jusqu'à onze. Plus de sept fois moins.",
+   "start": 26.171,
+   "end": 29.401,
+   "display": "Mode Turbo : jusqu'à 11 min. | Plus de 7 fois moins."
+  },
+  {
+   "id": "s09",
+   "text": "Verdict : soixante minutes, oui. Mais en éco seulement.",
+   "start": 29.501,
+   "end": 33.288,
+   "display": "Verdict : 60 min, oui. | En éco seulement."
+  },
+  {
+   "id": "s10",
+   "text": "Avant d'acheter, cherche l'autonomie en mode turbo sur la fiche technique, pas sur la boîte.",
+   "start": 33.388,
+   "end": 39.194,
+   "display": "Avant d'acheter : | l'autonomie en mode Turbo, | sur la fiche technique."
+  },
+  {
+   "id": "s11",
+   "text": "Bonus : sa batterie est interchangeable. Avec une deuxième, tu continues sans attendre la charge.",
+   "start": 39.294,
+   "end": 45.364,
+   "display": "Bonus : batterie interchangeable. | Une 2e = tu continues | sans attendre."
+  },
+  {
+   "id": "s12",
+   "text": "Et toi, tu aspires en quel mode ? Écris-le en commentaire.",
+   "start": 45.464,
+   "end": 49.583,
+   "display": "Tu aspires en quel mode ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Et abonne-toi : ce soir, le couvercle sur la casserole, combien ça change ?",
+   "start": 49.683,
+   "end": 53.968,
+   "display": "Abonne-toi : ce soir, | le couvercle sur la casserole, | combien ça change ?"
+  }
+ ]
+}
