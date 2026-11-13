@@ -1,0 +1,15 @@
+{
+ "job": "day34c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, ta télé soixante-cinq pouces : cent soixante-cinq centimètres de large ?",
+   "file": "s15.wav",
+   "duration": 6.52,
+   "rate": 24000
+  }
+ ],
+ "total": 6.52
+}
