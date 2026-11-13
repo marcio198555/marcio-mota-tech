@@ -17,8 +17,8 @@
     const c = size / n;
     for (let i = 0; i < n; i++) for (let j = 0; j < n; j++) {
       const gi = Math.floor(i / 4), gj = Math.floor(j / 4), hue = (gi * 2 + gj) % 4;
-      const col = ['#e04848', '#48c048', '#4878e0', '#48c048'][(i + j) % 2 ? 1 : (i % 2 ? 2 : 0)];
-      const gcol = ['#d8a040', '#58b0d0', '#9070d8', '#60c080'][hue];
+      const col = n === 4 ? '#48c048' : ['#e04848', '#48c048', '#4878e0', '#48c048'][(i + j) % 2 ? 1 : (i % 2 ? 2 : 0)];
+      const gcol = n === 4 ? '#48c048' : ['#d8a040', '#58b0d0', '#9070d8', '#60c080'][hue];
       const gap = lerp(3, 0, k);
       ctx.fillStyle = k > 0.5 ? gcol : col; ctx.globalAlpha = 1;
       ctx.fillRect(x + i * c + gap, y + j * c + gap, c - 2 * gap, c - 2 * gap);
@@ -45,9 +45,9 @@
       });
       block(ctx, t, S('s02'), S('s03'), () => {
         stamp(ctx, 'NON', 500, 400, t, S('s02'), { size: 110 });
-        tag(ctx, 'XIAOMI · REDMI NOTE 12 PRO+ · PAR DÉFAUT', 500, 560, t, f('s02', 0.2), { size: 34, color: GOLD });
-        big(ctx, '12,5 Mpx', 500, 780, t, f('s02', 0.45), { size: 160, color: GREEN });
-        big(ctx, '≠ 200', 500, 990, t, f('s02', 0.6), { size: 110, color: RED });
+        tag(ctx, 'REDMI NOTE 12 PRO+ · PAR DÉFAUT', 500, 560, t, f('s02', 0.2), { size: 38, color: GOLD });
+        big(ctx, '12,5 Mpx', 500, 780, t, f('s02', 0.12), { size: 160, color: GREEN });
+        big(ctx, '≠ 200', 500, 990, t, f('s02', 0.3), { size: 110, color: RED });
       });
       block(ctx, t, S('s03'), S('s04'), () => {
         phone(ctx, 500, 760, 380, 700, { draw: (x, y, w, h) => settings(ctx, x, y, w, h, prog(t, f('s03', 0.5), 0.01) > 0 ? 1 : 0) });
@@ -87,7 +87,7 @@
       });
       block(ctx, t, S('s10'), S('s11'), () => {
         tag(ctx, 'BONUS · HONOR 400', 500, 360, t, S('s10'), { size: 44, color: CYAN });
-        big(ctx, '200 Mpx', 500, 600, t, f('s10', 0.2), { size: 140, color: GOLD });
+        big(ctx, '200 Mpx', 500, 600, t, f('s10', 0.05), { size: 140, color: GOLD });
         stamp(ctx, 'MODE HIGH-RES', 500, 840, t, f('s10', 0.5), { size: 70, color: CYAN });
         tag(ctx, 'À ACTIVER', 500, 990, t, f('s10', 0.6), { size: 40 });
       });
@@ -98,7 +98,7 @@
         tag(ctx, 'SELON HONOR', 500, 1030, t, f('s11', 0.5), { size: 38 });
       });
       block(ctx, t, S('s12'), S('s13'), () => { comment(ctx, t, S('s12'), ['Ton téléphone,', 'réglé sur combien ?', '?? Mpx'], { color: GOLD }); });
-      block(ctx, t, S('s13'), END + 1, () => followCTA(ctx, t, S('s13'), { when: 'CE SOIR', next: ['Netflix : en Suisse ou en', 'France, qui paie le plus ?'] }));
+      block(ctx, t, S('s13'), END + 1, () => followCTA(ctx, t, S('s13'), { when: 'CE SOIR', next: ['Netflix : Suisse ou France,', 'qui paie le plus ?'] }));
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });
     }

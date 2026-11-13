@@ -1,0 +1,19 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 11,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta télé soixante-cinq pouces : cent soixante-cinq centimètres de large ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non : cent soixante-cinq, c'est la diagonale."
+  }
+ ]
+}

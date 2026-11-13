@@ -30,7 +30,7 @@
         screen(ctx, t);
         stamp(ctx, 'NON', 500, 400, t, S('s02'), { size: 110 });
         const k = ease.out(prog(t, f('s02', 0.4), 0.6));
-        dim(ctx, TX - TW / 2 + 20, TY + TH / 2 - 20, TX + TW / 2 - 20, TY - TH / 2 + 20, '165 cm', GOLD, k, { dy: -10, size: 80 });
+        dim(ctx, TX - TW / 2 + 20, TY + TH / 2 - 20, TX + TW / 2 - 20, TY - TH / 2 + 20, '165 cm', GOLD, k, { dx: -110, dy: -110, size: 80 });
         tag(ctx, 'LA DIAGONALE', 500, 1110, t, f('s02', 0.6), { size: 52, color: GOLD });
       });
       block(ctx, t, S('s03'), S('s04'), () => {
@@ -87,7 +87,7 @@
         dim(ctx, 150, 920, 850, 920, '121,8 cm', CYAN, ease.out(prog(t, f('s11', 0.4), 0.5)), { dy: 80, size: 80 });
       });
       block(ctx, t, S('s12'), S('s13'), () => { comment(ctx, t, S('s12'), ['Ton meuble TV,', 'combien de large ?', '??? cm'], { color: GOLD }); });
-      block(ctx, t, S('s13'), END + 1, () => followCTA(ctx, t, S('s13'), { when: 'CE SOIR', next: ['une ampoule allumée toute', 'la nuit : combien en francs ?'] }));
+      block(ctx, t, S('s13'), END + 1, () => followCTA(ctx, t, S('s13'), { when: 'CE SOIR', next: ['ampoule allumée toute la nuit :', 'combien en francs ?'] }));
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });
     }

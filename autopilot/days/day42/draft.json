@@ -1,7 +1,7 @@
 {
  "display": {
   "s01": "Ton téléphone fait des photos | de 200 mégapixels ?",
-  "s02": "Non. Xiaomi, Redmi Note 12 Pro+ : | par défaut, 12,5 mégapixels.",
+  "s02": "Non. Par défaut : 12,5 mégapixels. | Xiaomi, Redmi Note 12 Pro+",
   "s03": "Les 200 s'activent à part, | dans le menu Ultra HD.",
   "s04": "Pourquoi ? | Le capteur regroupe ses pixels.",
   "s05": "Redmi Note 15 Pro : | 16 pixels en 1.",
@@ -9,7 +9,7 @@
   "s07": "Chaque pixel regroupé : | 0,56 → 2,24 micromètres (× 4)",
   "s08": "Verdict : 200 Mpx, c'est le capteur, | pas chaque photo.",
   "s09": "Conseil : vérifie la résolution | dans les réglages photo.",
-  "s10": "Bonus : Honor 400 : | 200 Mpx = mode HIGH-RES à activer.",
+  "s10": "Bonus : Honor 400 : | mode HIGH-RES à activer pour 200 Mpx.",
   "s11": "Honor : les pixels réels | varient selon le mode.",
   "s12": "Le tien est réglé sur combien ? | Écris-le en commentaire.",
   "s13": "Abonne-toi : ce soir, Netflix | en Suisse ou en France, qui paie le plus ?"
@@ -17,6 +17,6 @@
  "title": "Téléphone 200 Mpx : par défaut, des photos de 12,5 Mpx",
  "slug": "200-mpx",
  "format": "V",
- "caption": "Ton téléphone 200 mégapixels ne fait pas des photos de 200 mégapixels par défaut 📸\nXiaomi l'écrit pour le Redmi Note 12 Pro+ : par défaut, 12,5 Mpx, et le mode 200 Mpx s'active dans Ultra HD. Le Redmi Note 15 Pro regroupe 16 pixels en 1 : 200 ÷ 16 = 12,5. Chez Honor (Honor 400), 200 Mpx demande le mode HIGH-RES.\nLe tien, il est réglé sur quelle résolution, là ? 👇\n#200mp #megapixels #photosmartphone #blackfriday #astucetech\nVoix de synthèse.",
+ "caption": "Ce téléphone 200 mégapixels photographie par défaut en 12,5 Mpx, selon Xiaomi 📸\nXiaomi l'écrit pour le Redmi Note 12 Pro+ : par défaut, 12,5 Mpx, et le mode 200 Mpx s'active dans Ultra HD. Le Redmi Note 15 Pro regroupe 16 pixels en 1 : 200 ÷ 16 = 12,5. Chez Honor (Honor 400), 200 Mpx demande le mode HIGH-RES.\nLe tien, il est réglé sur quelle résolution, là ? 👇\n#200mp #megapixels #photosmartphone #xiaomi #astucetech\nVoix de synthèse.",
  "reel_caption": "200 mégapixels : par défaut, ce Redmi photographie en 12,5 Mpx, selon Xiaomi\n\nXiaomi, FAQ du Redmi Note 12 Pro+ 5G : « par défaut », 12,5 Mpx ; le mode 200 Mpx s'active dans Ultra HD. Le Redmi Note 15 Pro 5G regroupe 16 pixels en 1 (0,56 → 2,24 µm) : 200 ÷ 16 = 12,5 Mpx.\n\nHonor 400 : 200 Mpx demande le mode HIGH-RES ; les pixels réels varient selon le mode.\n\nVoix de synthèse.\n\nEnvoie-la à ton ami qui ne jure que par ses 200 mégapixels.\n\n#200mp #megapixels #photosmartphone #suisseromande #jemesuretout"
 }
