@@ -1755,13 +1755,19 @@
     "garantie et retour dans chaque pays (sources officielles)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "programmée",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "type_sujet": "Suisse contre France (partie 2 du jour 70 : 2 174 vues en Reel d'essai)",
    "suite_de": 70,
    "annonce": "Le mode avion fait-il charger plus vite ?",
-   "semaine": "S3"
+   "semaine": "S3",
+   "buffer_id": "6af6b6bdda25c4db3e9f01fd",
+   "story_instagram": {
+    "buffer_id": "6af6b6beda25c4db3e9f024a"
+   },
+   "reel_instagram": "reels_queue.json day73 (2026-11-14T11:00)",
+   "duree_s": 69.3
   },
   {
    "jour": 75,
