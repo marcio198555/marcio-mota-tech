@@ -1,0 +1,15 @@
+{
+ "job": "day29d",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s08",
+   "text": "Dix fois plus de puissance permise. Mais à puissance égale, il porte moins loin, selon un fabricant.",
+   "file": "s08.wav",
+   "duration": 6.64,
+   "rate": 24000
+  }
+ ],
+ "total": 6.64
+}
