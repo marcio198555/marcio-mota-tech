@@ -128,7 +128,7 @@
   "when": "18:00"
  },
  "58": {
-  "status": "prête",
+  "status": "programmée",
   "when": "18:00"
  },
  "57": {
@@ -166,5 +166,29 @@
  "50": {
   "status": "programmée",
   "when": "10:00"
+ },
+ "34": {
+  "status": "prête",
+  "when": "18:00"
+ },
+ "61": {
+  "status": "prête",
+  "when": "18:00"
+ },
+ "72": {
+  "status": "prête",
+  "when": "18:00"
+ },
+ "28": {
+  "status": "prête",
+  "when": "18:00"
+ },
+ "29": {
+  "status": "prête",
+  "when": "18:00"
+ },
+ "75": {
+  "status": "prête",
+  "when": "18:00"
  }
 }
