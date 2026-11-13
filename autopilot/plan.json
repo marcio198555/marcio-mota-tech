@@ -953,7 +953,7 @@
     "source technique sur la consommation radio pendant la charge"
    ],
    "argent": "Croissance",
-   "statut": "prête",
+   "statut": "programmée",
    "heure": "18:00",
    "format": "V",
    "type_sujet": "vérité francs",
@@ -963,6 +963,11 @@
     "statut": "en attente",
     "prevu": "2026-11-14T19:00",
     "cta": "envoi"
+   },
+   "buffer_id": "6af73062f21c13fd2fdb53b6",
+   "story_instagram": {
+    "buffer_id": "6af7306323eb7042c7b7d030",
+    "programme_le": "2026-11-14T18:05:00+01:00"
    }
   },
   {
@@ -1620,7 +1625,7 @@
     "calcul en CHF par an, comparé à un objet concret"
    ],
    "argent": "Croissance",
-   "statut": "prête",
+   "statut": "programmée",
    "ajoutee_le": "2026-11-05",
    "format": "A",
    "type_sujet": "vérité francs",
@@ -1631,6 +1636,11 @@
     "statut": "en attente",
     "prevu": "2026-11-15T19:00",
     "cta": "abonnement"
+   },
+   "buffer_id": "6af7306423eb7042c7b7d0ef",
+   "story_instagram": {
+    "buffer_id": "6af73065928a8954cf433e86",
+    "programme_le": "2026-11-15T18:05:00+01:00"
    }
   },
   {
@@ -1755,7 +1765,7 @@
     "ce qui change d'un pays à l'autre (offres)"
    ],
    "argent": "Croissance",
-   "statut": "prête",
+   "statut": "programmée",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "type_sujet": "Suisse contre France",
@@ -1765,6 +1775,11 @@
     "statut": "en attente",
     "prevu": "2026-11-16T19:00",
     "cta": "envoi"
+   },
+   "buffer_id": "6af73065138c2b83b23475eb",
+   "story_instagram": {
+    "buffer_id": "6af73066928a8954cf433ee3",
+    "programme_le": "2026-11-16T18:05:00+01:00"
    }
   },
   {

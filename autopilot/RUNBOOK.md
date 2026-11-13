@@ -33,7 +33,7 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 > 5. **Jugement** aux analyses du 15.11 et du 17.11, puis au bilan du 20.11 : médiane TikTok et Instagram de chaque type,
 >    temps regardé, abonnés. Le type qui gagne sur TikTok (≥ 1,3 × l'autre) prend les 10 h et les 18 h dès le 20.11, sauf
 >    s'il fait baisser la médiane Instagram de plus de 20 %.
-> 6. **Production du soir du 13.11 : Cloudinary et Buffer en panne** (connecteurs, erreurs 502/503 de 14 h 30 à au moins 16 h). Les jours 34, 61, 72, 28, 29 et 75 sont prêts mais leurs `post.json` et leurs entrées de `reels_queue.json` portent des URLs GitHub raw provisoires et `"cloudinary_a_faire": true`. Toute tâche qui les trouve (programmation Buffer 7 h 13, rattrapage de midi) : d'abord Cloudinary `upload-asset` depuis ces URLs (public_id `tiktok-autopilot/dayNN_<slug>`, `stories/dayNN_story`, `reels/dayNN_reel`), remplacer les URLs, retirer le drapeau, puis Buffer (TikTok 18 h, Story 18 h 05) ou vidIQ comme d'habitude.
+> 6. **13.11** : Cloudinary et Buffer en panne de 14 h 30 à 16 h 40 ; tout rattrapé le soir même (jours 34, 61, 72 dans Buffer ; 28, 29, 75 sur Cloudinary, `post.json` « prête », pour la tâche de 7 h 13).
 
 > **Changements du 11.11.2026 (Instagram seulement) : à appliquer en plus du bloc du 05.11.** Décidés après un audit du
 > compte Instagram et le feu vert de Marcio du 11.11 (« fais comme tu veux, je te donne le feu vert pour tout », « il ne

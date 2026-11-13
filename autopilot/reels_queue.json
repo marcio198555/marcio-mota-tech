@@ -338,67 +338,61 @@
    "id": "day34",
    "prevu": "2026-11-14T19:00",
    "source": "autopilot jour 34",
-   "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/a7c99af1be1d0e6ca856b4215161a2c96366e2d3/media/reels/day34_reel.mp4",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794584595/tiktok-autopilot/reels/day34_reel.mp4",
    "isAiGenerated": true,
    "caption": "Mode avion pendant la charge : ton téléphone charge-t-il plus vite ?\n\nAucune source ne chiffre l'effet du mode avion sur la vitesse de charge.\n\nSelon l'OFSP, un téléphone émet surtout pendant un appel ou un transfert de données ; au repos, il envoie seulement un signal toutes les quelques minutes. Google conseille le mode avion pour la batterie quand on n'a pas besoin du réseau.\n\nXiaomi : la charge est plus lente écran allumé. Honor : évite d'utiliser le téléphone en charge, surtout pour un gros jeu. Google : trop chaud, il peut mettre la charge en pause ; pas en plein soleil.\n\nEn francs : une batterie d'exemple de 19 Wh, environ 0,5 ct la charge, environ 1,92 CHF par an à une charge par jour (tarif médian ElCom 2026 hors TVA, sans les pertes du chargeur).\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui scrolle pendant que son téléphone charge.\n\n#modeavion #smartphone #astucetech #suisseromande #jemesuretout",
    "statut": "en attente",
-   "cta": "envoi",
-   "cloudinary_a_faire": true
+   "cta": "envoi"
   },
   {
    "id": "day61",
    "prevu": "2026-11-15T19:00",
    "source": "autopilot jour 61",
-   "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/00fe8b438c836620ec42659cfbd28ce48b55deba/media/reels/day61_reel.mp4",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794584600/tiktok-autopilot/reels/day61_reel.mp4",
    "isAiGenerated": true,
    "caption": "Ampoule LED allumée toute la nuit : combien ça coûte vraiment en francs ?\n\nExemple : une LED de 806 lumens à 5 W (fiche du fabricant), allumée 8 heures par nuit. 40 Wh par nuit, un peu plus d'un centime ; 14,6 kWh et environ 4 CHF par an, au tarif médian ElCom 2026 hors TVA (27,7 ct/kWh). Sa fiche annonce 25 000 heures : plus de 8 ans à ce rythme.\n\nUne vieille ampoule de 60 W donne la même lumière selon l'ancien règlement européen 244/2009 : 12 fois plus, environ 48,50 CHF par an. À l'achat, regarde les lumens, pas les watts.\n\nAmpoule dessinée fictive, voix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#ampouleled #electricite #economiedenergie #suisseromande #jemesuretout",
    "statut": "en attente",
-   "cta": "abonnement",
-   "cloudinary_a_faire": true
+   "cta": "abonnement"
   },
   {
    "id": "day72",
    "prevu": "2026-11-16T19:00",
    "source": "autopilot jour 72",
-   "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/e1045ab59ca0e4b1ccc688cca6c70fd69130b8ae/media/reels/day72_reel.mp4",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794584606/tiktok-autopilot/reels/day72_reel.mp4",
    "isAiGenerated": true,
    "caption": "Netflix en Suisse ou en France : même offre Standard, combien d'écart ?\n\nPages d'aide Netflix relevées le 13.11.2026 : Standard à 22,90 CHF par mois en Suisse, 14,99 € en France, soit 13,83 CHF au cours BNS du 12.11.2026 (1 € = 0,9228 CHF). Environ 66 % de plus en Suisse : 274,80 CHF par an contre 166, près de 109 francs d'écart.\n\nLa page suisse ne liste aucune offre avec pub : la moins chère est l'Essentiel à 14,90 CHF. En France, « Standard avec pub » coûte 7,99 €, et l'Essentiel n'est plus proposé. Netflix indique que la TVA est comprise ; en retirant les taux normaux (8,1 % et 20 %, notre calcul), l'écart passe à environ 84 %. La 4K n'existe qu'en Premium (29,90 CHF).\n\nAnimation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui vit de l'autre côté de la frontière.\n\n#netflix #suissecontrefrance #streaming #suisseromande #jemesuretout",
    "statut": "en attente",
-   "cta": "envoi",
-   "cloudinary_a_faire": true
+   "cta": "envoi"
   },
   {
    "id": "day29",
    "prevu": "2026-11-18T19:00",
    "source": "autopilot jour 29",
-   "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/88ef7c76c31413222b61149d08fbf29658d7b7c7/media/reels/day29_reel.mp4",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794584627/tiktok-autopilot/reels/day29_reel.mp4",
    "isAiGenerated": true,
    "caption": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse vraiment les murs de ton appartement ?\n\nLes fabricants de routeurs (Netgear, TP-Link, Asus) l'écrivent : plus la fréquence est haute, moins le signal passe les murs. Le 2,4 GHz porte plus loin, le 5 GHz est en général plus rapide. Repère de TP-Link : environ 20 m en 2,4 GHz, 15 m en 5 GHz.\n\nEn Suisse, l'OFCOM autorise jusqu'à 1 W sur une partie de la bande 5 GHz (avec contrôle de puissance), contre 100 mW en 2,4 GHz. Et un micro-ondes peut brouiller le 2,4 GHz, selon Asus et Netgear.\n\nPour de la 4K, Netflix recommande au moins 15 Mbit/s. Près du routeur, prends le 5 GHz ; dans la pièce du fond, essaie le 2,4 GHz. Routeur en hauteur, au centre, loin du métal.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui se plaint du Wi-Fi dans sa chambre.\n\n#wifi #routeur #astucetech #suisseromande #jemesuretout",
    "statut": "en attente",
-   "cta": "envoi",
-   "cloudinary_a_faire": true
+   "cta": "envoi"
   },
   {
    "id": "day28",
    "prevu": "2026-11-17T19:00",
    "source": "autopilot jour 28",
-   "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/e25b2422bb60bb1f543a2aad5b2f0c1f82ba234c/media/reels/day28_reel.mp4",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794584634/tiktok-autopilot/reels/day28_reel.mp4",
    "isAiGenerated": true,
    "caption": "Couvercle sur la casserole : combien d'énergie en moins, en vrai ?\n\nSuisseEnergie et l'OFEN l'écrivent dans leur brochure « Économiser l'énergie au quotidien » : avec le couvercle sur la casserole, on économise 30 % d'énergie.\n\nExemple des services cantonaux de l'énergie, pour garder 1,5 l en ébullition : 750 W sans couvercle, moins de 200 W avec, presque 4 fois moins. Exemple : 20 minutes d'ébullition, environ 7 centimes sans couvercle, moins de 2 avec, au tarif médian ElCom 2026 (27,7 ct/kWh hors TVA). Chaque jour, cela fait plus de 18 francs par an.\n\nDeux conseils des cantons : sur une plaque classique (pas à induction), couper quelques minutes avant la fin ; utiliser une casserole au fond bien plat.\n\nCasserole fictive, voix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#couvercle #cuisine #economiedenergie #suisseromande #jemesuretout",
    "statut": "en attente",
-   "cta": "abonnement",
-   "cloudinary_a_faire": true
+   "cta": "abonnement"
   },
   {
    "id": "day75",
    "prevu": "2026-11-19T19:00",
    "source": "autopilot jour 75",
-   "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/e25b2422bb60bb1f543a2aad5b2f0c1f82ba234c/media/reels/day75_reel.mp4",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794584640/tiktok-autopilot/reels/day75_reel.mp4",
    "isAiGenerated": true,
    "caption": "Robot aspirateur : un passage par jour, combien en francs par an ?\n\nBatterie de 14,4 V et 5 200 mAh (fiche du Xiaomi S40) : environ 75 Wh. Un passage qui la vide coûte au moins 2 centimes ; si elle est vidée chaque jour pendant un an, au moins 7 fr. 50 (tarif médian ElCom 2026 hors TVA, 27,7 ct/kWh ; pertes de charge non comptées).\n\nSur sa station, il consomme aussi sans rien faire : une notice Ecovacs annonce moins de 2 W en veille en réseau, soit jusqu'à 4 fr. 85 par an.\n\nUn aspirateur traîneau : 35 kWh par an en moyenne selon l'estimation de la Commission européenne (usage normalisé), environ 9 fr. 70. En ordre de grandeur, une dizaine de francs chacun. Stations avec vidage ou lavage automatique non comptées.\n\nRobot fictif, voix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#robotaspirateur #electricite #astucemaison #suisseromande #jemesuretout",
    "statut": "en attente",
-   "cta": "abonnement",
-   "cloudinary_a_faire": true
+   "cta": "abonnement"
   }
  ]
 }
