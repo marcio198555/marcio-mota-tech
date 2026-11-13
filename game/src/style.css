@@ -318,6 +318,12 @@ svg {
   font-size: 17px;
   color: var(--muted);
 }
+/* keep the title readable when the demo board behind it reaches up (short screens) */
+.brand h1,
+.brand p {
+  position: relative;
+  text-shadow: 0 0 6px var(--bg0), 0 0 14px var(--bg0), 0 0 28px var(--bg0);
+}
 .home-actions {
   display: grid;
   gap: 12px;

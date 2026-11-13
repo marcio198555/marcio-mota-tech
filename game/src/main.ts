@@ -9,11 +9,17 @@ import type { Settings } from './store';
 import { Sfx } from './audio';
 import { Native } from './native';
 import { UI } from './ui';
+import { ICON } from './icons';
 import { detectLanguage, language, setLanguage, t } from './i18n';
 import './locales';
 import type { Level } from './types';
 
 declare const __PRIVACY_URL__: string;
+
+/** Google Play page of the game (shared with friends, used by "Rate Fletch"). */
+const STORE_URL = 'https://play.google.com/store/apps/details?id=com.motagames.arrows';
+/** Where "Send feedback" writes to (the developer's public contact address). */
+const FEEDBACK_EMAIL = 'marcio.m1985@gmail.com';
 
 const HEARTS = 3;
 const HINTS_PER_VIDEO = 2;
@@ -79,6 +85,8 @@ class Game {
       },
       reset: () => this.askReset(),
       adChoices: () => this.native.showAdChoices(),
+      feedback: () => this.feedback(),
+      rate: () => this.native.openUrl(STORE_URL),
     });
     this.view = new BoardView(this.ui.canvas);
     this.view.onTap = (id) => this.tap(id);
@@ -269,6 +277,13 @@ class Game {
     this.sfx.unlock();
     this.sfx.click();
     this.ui.renderSettings(this.store.data.settings, this.native.version, __PRIVACY_URL__, this.native.adChoicesRequired());
+  }
+
+  /** Opens the e-mail app so that a player (or a tester) can send a remark or a bug. */
+  private feedback(): void {
+    const d = this.store.data;
+    const info = `Fletch ${this.native.version} · ${t('feedback.level', { n: d.level })} · ${navigator.language || ''}`;
+    this.native.mail(FEEDBACK_EMAIL, t('feedback.subject'), `${t('feedback.body')}\n\n\n---\n${info}`);
   }
 
   private howTo(): void {
@@ -480,6 +495,12 @@ class Game {
           lines,
           actions: [
             { label: t('win.next'), kind: 'primary', run: () => void this.next(p.n + 1) },
+            {
+              label: t('win.share'),
+              icon: ICON.share,
+              keepOpen: true,
+              run: () => this.native.share(t('share.level', { n: p.n, t: `${mm}:${ss}`, s: stars, url: STORE_URL })),
+            },
             { label: t('win.home'), run: () => this.showHome() },
           ],
           onDismiss: () => this.showHome(),
@@ -491,6 +512,12 @@ class Game {
           lines,
           actions: [
             { label: t('win.home'), kind: 'primary', run: () => this.showHome() },
+            {
+              label: t('win.share'),
+              icon: ICON.share,
+              keepOpen: true,
+              run: () => this.native.share(t('share.daily', { t: `${mm}:${ss}`, s: stars, url: STORE_URL })),
+            },
             { label: t('win.replay'), run: () => this.restart() },
           ],
           onDismiss: () => this.showHome(),

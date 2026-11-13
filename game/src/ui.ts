@@ -11,6 +11,8 @@ export interface ModalAction {
   label: string;
   kind?: 'primary' | 'ghost' | 'danger';
   icon?: string;
+  /** Leaves the dialog open (e.g. sharing from the win screen). */
+  keepOpen?: boolean;
   run: () => void;
 }
 
@@ -40,6 +42,8 @@ export interface Handlers {
   privacy(e: Event): void;
   reset(): void;
   adChoices(): void;
+  feedback(): void;
+  rate(): void;
 }
 
 const $ = <T extends HTMLElement>(root: ParentNode, sel: string): T => root.querySelector(sel) as T;
@@ -254,6 +258,10 @@ export class UI {
       .join('')}</select></label>
   </div>
   <div class="group">
+    <button class="rowi link" id="s-feedback"><span>${esc(t('settings.feedback'))}</span></button>
+    <button class="rowi link" id="s-rate"><span>${esc(t('settings.rate'))}</span></button>
+  </div>
+  <div class="group">
     <button class="rowi link" id="s-howto"><span>${esc(t('settings.howto'))}</span></button>
     ${privacyUrl ? `<a class="rowi link" id="s-privacy" href="${esc(privacyUrl)}" target="_blank" rel="noopener"><span>${esc(t('settings.privacy'))}</span></a>` : ''}
     ${adChoices ? `<button class="rowi link" id="s-adchoices"><span>${esc(t('settings.adchoices'))}</span></button>` : ''}
@@ -279,6 +287,8 @@ export class UI {
       this.h.change({ lang: (e.target as HTMLSelectElement).value }),
     );
     $(el, '#s-howto').addEventListener('click', () => this.h.howTo());
+    $(el, '#s-feedback').addEventListener('click', () => this.h.feedback());
+    $(el, '#s-rate').addEventListener('click', () => this.h.rate());
     const pr = el.querySelector('#s-privacy');
     if (pr) pr.addEventListener('click', (e) => this.h.privacy(e));
     const ac = el.querySelector('#s-adchoices');
@@ -360,7 +370,7 @@ export class UI {
     sheet.querySelectorAll('[data-i]').forEach((b) =>
       b.addEventListener('click', () => {
         const a = o.actions[Number((b as HTMLElement).dataset.i)];
-        this.closeModal(false);
+        if (!a.keepOpen) this.closeModal(false);
         a.run();
       }),
     );

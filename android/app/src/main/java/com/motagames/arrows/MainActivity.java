@@ -222,6 +222,33 @@ public final class MainActivity extends ComponentActivity implements Ads.Listene
         c.setAppearanceLightNavigationBars(!dark);
     }
 
+    /** System share sheet with a short text (the "Challenge a friend" button). */
+    private void doShare(String text) {
+        if (text == null || text.isEmpty() || text.length() > 1000) return;
+        Intent send = new Intent(Intent.ACTION_SEND);
+        send.setType("text/plain");
+        send.putExtra(Intent.EXTRA_TEXT, text);
+        try {
+            startActivity(Intent.createChooser(send, null));
+        } catch (ActivityNotFoundException ignored) {
+            // Nothing can share text on this device.
+        }
+    }
+
+    /** E-mail app with a message ready to write (the "Send feedback" button). */
+    private void doMail(String to, String subject, String body) {
+        if (to == null || !to.matches("[A-Za-z0-9._%+-]{1,64}@[A-Za-z0-9.-]{1,190}")) return;
+        Intent mail = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:"));
+        mail.putExtra(Intent.EXTRA_EMAIL, new String[] {to});
+        mail.putExtra(Intent.EXTRA_SUBJECT, subject == null ? "" : subject);
+        mail.putExtra(Intent.EXTRA_TEXT, body == null ? "" : body);
+        try {
+            startActivity(mail);
+        } catch (ActivityNotFoundException ignored) {
+            // No e-mail app on this device.
+        }
+    }
+
     private void askReview() {
         try {
             ReviewManager manager = ReviewManagerFactory.create(this);
@@ -324,6 +351,16 @@ public final class MainActivity extends ComponentActivity implements Ads.Listene
         @JavascriptInterface
         public void review() {
             main.post(MainActivity.this::askReview);
+        }
+
+        @JavascriptInterface
+        public void share(String text) {
+            main.post(() -> doShare(text));
+        }
+
+        @JavascriptInterface
+        public void mail(String to, String subject, String body) {
+            main.post(() -> doMail(to, subject, body));
         }
 
         @JavascriptInterface

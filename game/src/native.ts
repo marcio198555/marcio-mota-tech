@@ -21,6 +21,10 @@ interface AndroidBridge {
   setTheme(dark: boolean): void;
   /** Game sound on or off, so that ads start muted when the game is muted. */
   setSound(on: boolean): void;
+  /** Android share sheet (added in 1.1.0; older shells do not have it). */
+  share?(text: string): void;
+  /** E-mail app with a message ready to write (added in 1.1.0). */
+  mail?(to: string, subject: string, body: string): void;
 }
 
 interface FletchCallbacks {
@@ -222,6 +226,39 @@ export class Native {
       this.bridge?.setSound(on);
     } catch {
       /* ignore */
+    }
+  }
+
+  /** Opens the share sheet with a ready-made message. */
+  share(text: string): void {
+    try {
+      if (this.bridge && typeof this.bridge.share === 'function') {
+        this.bridge.share(text);
+        return;
+      }
+      const nav = navigator as Navigator & { share?: (d: { text: string }) => Promise<void> };
+      if (nav.share) {
+        nav.share({ text }).catch(() => undefined);
+        return;
+      }
+      navigator.clipboard?.writeText(text).catch(() => undefined);
+    } catch {
+      /* nothing to share with: fine */
+    }
+  }
+
+  /** Opens the e-mail app with the address and subject filled in. */
+  mail(to: string, subject: string, body: string): void {
+    try {
+      if (this.bridge && typeof this.bridge.mail === 'function') {
+        this.bridge.mail(to, subject, body);
+        return;
+      }
+      if (!this.bridge) {
+        location.href = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      }
+    } catch {
+      /* no e-mail app: fine */
     }
   }
 }

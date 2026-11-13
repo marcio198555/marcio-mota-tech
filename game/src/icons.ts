@@ -17,6 +17,7 @@ export const ICON = {
   play: svg('<path d="M8 5.2v13.6a1 1 0 0 0 1.5.9l11-6.8a1 1 0 0 0 0-1.8l-11-6.8A1 1 0 0 0 8 5.2Z"/>', true),
   check: svg('<path d="m5 12.5 4.5 4.5L19 7.5"/>'),
   video: svg('<rect x="3" y="6" width="13" height="12" rx="3"/><path d="m16 10.5 5-3v9l-5-3"/>'),
+  share: svg('<circle cx="18" cy="5.5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="18.5" r="2.5"/><path d="m8.2 10.8 7.6-4.1M8.2 13.2l7.6 4.1"/>'),
   close: svg('<path d="M6 6l12 12M18 6 6 18"/>'),
 };
 
