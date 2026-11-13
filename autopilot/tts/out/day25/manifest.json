@@ -1,0 +1,106 @@
+{
+ "job": "day25",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu chauffes à vingt et un degrés. Ton collègue, à vingt. Combien il gagne, en vrai ?",
+   "file": "s01.wav",
+   "duration": 6.56,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Reste : à la fin, tu sauras sur quel chiffre mettre ta vanne.",
+   "file": "s02.wav",
+   "duration": 4.52,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "SuisseEnergie, le programme de la Confédération, donne la règle.",
+   "file": "s03.wav",
+   "duration": 4.68,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Chaque degré en moins, c'est six pour cent de frais de chauffage en moins.",
+   "file": "s04.wav",
+   "duration": 4.8,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Exemple : si ton chauffage te coûte mille francs par an, ton collègue garde soixante francs.",
+   "file": "s05.wav",
+   "duration": 6.32,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Soixante francs, pour un seul degré, sans rien acheter.",
+   "file": "s06.wav",
+   "duration": 3.92,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Et dans l'autre sens, chaque degré en plus te coûte six pour cent de plus.",
+   "file": "s07.wav",
+   "duration": 5.2,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : dans la chambre, SuisseEnergie conseille dix-sept degrés, pas vingt.",
+   "file": "s08.wav",
+   "duration": 7.36,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Vingt degrés, c'est pour le séjour : la position trois de la vanne thermostatique.",
+   "file": "s09.wav",
+   "duration": 5.84,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Dix-sept, c'est la position deux. Et la salle de bain, vingt-trois degrés : la position quatre.",
+   "file": "s10.wav",
+   "duration": 6.44,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Et sur le chauffage central, la règle générale : baisser la courbe de trois degrés baisse la pièce d'un degré.",
+   "file": "s11.wav",
+   "duration": 7.64,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Ta vanne, là, elle est sur quel chiffre ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 4.76,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Toi à vingt et un, ton collègue à vingt : soixante francs d'écart, dans cet exemple.",
+   "file": "s13.wav",
+   "duration": 6.56,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : ce soir, pourquoi le centre de ton plat reste froid au micro-ondes.",
+   "file": "s14.wav",
+   "duration": 5.24,
+   "rate": 24000
+  }
+ ],
+ "total": 79.84
+}
