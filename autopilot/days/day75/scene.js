@@ -104,7 +104,7 @@
         canister(ctx, 230, 640, 0.8); CHR.emo(ctx, 'thinking_face', 200, 430, 120, t, S('s11') + 0.1);
         big(ctx, '35 kWh', 690, 520, t, f('s11', 0.35), { size: 90 });
         line(ctx, 'PAR AN', 690, 610, t, f('s11', 0.5), { size: 48, dx: 0 });
-        tag(ctx, 'ESTIMATION UE · USAGE TYPE 50 H/AN', 500, 760, t, f('s11', 0.6), { size: 40 });
+        tag(ctx, 'UE · USAGE TYPE 50 H/AN', 500, 760, t, f('s11', 0.6), { size: 40 });
       });
       block(ctx, t, S('s12'), S('s13'), () => { card(ctx, 520, { border: 'rgba(230,198,106,0.6)' });
         line(ctx, '35 kWh × 27,7 ct', 500, 420, t, S('s12'), { size: 60, family: F.mono, weight: 700, dx: 0 });
