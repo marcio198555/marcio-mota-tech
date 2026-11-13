@@ -1467,7 +1467,7 @@
     "conseil officiel (temps de repos, mélanger)"
    ],
    "argent": "Croissance",
-   "statut": "à reprendre",
+   "statut": "programmée",
    "ajoutee_le": "2026-11-05",
    "format": "A",
    "semaine": "S3",
@@ -1475,14 +1475,14 @@
    "annonce_jour": 71,
    "reel_instagram": {
     "statut": "en attente",
-    "prevu": "2026-11-10T19:00"
+    "prevu": "2026-11-13T19:00",
+    "cta": "abonnement"
    },
-   "buffer_id": "6af013c4229bf05daf93ee4a",
+   "buffer_id": "6af6f36bbd1182b0d3ec9034",
    "story_instagram": {
-    "buffer_id": "6af013cf562f2e6de99f12be",
-    "programme_le": "2026-11-10T18:05:00+01:00"
+    "buffer_id": "6af6f36c9a21933ffacf2060",
+    "programme_le": "2026-11-13T18:05:00+01:00"
    },
-   "remplacee_le": "2026-11-09",
    "remplacee_par": 74,
    "note_remplacement": "Analyse du 9.11 : créneau du 10.11 18 h donné à la partie 2 du jour 37 (Reel d'essai 2 492 vues). Vidéo prête, réutilisable plus tard (même Buffer id réutilisé par 74).",
    "type_sujet": "vérité francs",
