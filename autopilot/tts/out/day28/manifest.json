@@ -1,0 +1,106 @@
+{
+ "job": "day28",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, sans couvercle. Ton collègue, avec. Qui paie le moins de courant ?",
+   "file": "s01.wav",
+   "duration": 5.8,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Je suis ta casserole : à la fin, tu sauras combien ça vaut en francs.",
+   "file": "s02.wav",
+   "duration": 4.4,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Sans couvercle, une grande partie de l'énergie s'évapore avec ma vapeur.",
+   "file": "s03.wav",
+   "duration": 5.12,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Selon Suisse Énergie, le couvercle fait économiser trente pour cent d'énergie.",
+   "file": "s04.wav",
+   "duration": 6.08,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Réponse : ton collègue paie moins.",
+   "file": "s05.wav",
+   "duration": 3.68,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Quand ça bout, l'écart grandit : sans couvercle, la plaque tire sept cent cinquante watts pour garder un litre et demi en ébullition.",
+   "file": "s06.wav",
+   "duration": 8.88,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Avec : moins de deux cents. Presque quatre fois moins, selon les services cantonaux de l'énergie.",
+   "file": "s07.wav",
+   "duration": 6.16,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Exemple : vingt minutes d'ébullition. Environ sept centimes sans couvercle, moins de deux avec.",
+   "file": "s08.wav",
+   "duration": 7.76,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Tous les jours, ça fait plus de dix-huit francs par an.",
+   "file": "s09.wav",
+   "duration": 2.76,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Conseil : sur une plaque classique, coupe-la quelques minutes avant la fin.",
+   "file": "s10.wav",
+   "duration": 4.84,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Et mon fond doit être bien plat, sinon la chaleur se perd.",
+   "file": "s11.wav",
+   "duration": 4.2,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Et toi, couvercle ou pas ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 4.56,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Toi, ton énergie part en vapeur. Ton collègue, lui, économise trente pour cent.",
+   "file": "s13.wav",
+   "duration": 6.12,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Abonne-toi : demain, la montre « étanche cinquante mètres »… avec laquelle tu ne peux pas plonger à cinquante mètres.",
+   "file": "s14.wav",
+   "duration": 7.52,
+   "rate": 24000
+  }
+ ],
+ "total": 77.88
+}
