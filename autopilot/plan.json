@@ -1118,13 +1118,19 @@
     "regroupement de pixels (pixel binning)"
    ],
    "argent": "Croissance",
-   "statut": "montée (contrôle en cours)",
+   "statut": "programmée",
    "heure": "10:00",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "type_sujet": "chiffre de la boîte",
    "annonce": "Suisse contre France : Netflix",
-   "semaine": "S3"
+   "semaine": "S3",
+   "buffer_id": "6af6b345da25c4db3e9de208",
+   "story_instagram": {
+    "buffer_id": "6af6b346c1a0010a5b039a68"
+   },
+   "reel_instagram": "reels_queue.json day42 (2026-11-16T11:00)",
+   "duree_s": 55.9
   },
   {
    "jour": 43,
@@ -1234,13 +1240,19 @@
     "fiche d'une TV 65 pouces (dimensions sans pied)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "programmée",
    "heure": "10:00",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "type_sujet": "chiffre de la boîte",
    "annonce": "Une ampoule LED allumée toute la nuit",
-   "semaine": "S3"
+   "semaine": "S3",
+   "buffer_id": "6af6b343ba218f326383460c",
+   "story_instagram": {
+    "buffer_id": "6af6b344fb90ccefdd23fe71"
+   },
+   "reel_instagram": "reels_queue.json day49 (2026-11-15T11:00)",
+   "duree_s": 57.7
   },
   {
    "jour": 50,

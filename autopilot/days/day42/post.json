@@ -1,0 +1,33 @@
+{
+ "day": 42,
+ "title": "Téléphone 200 Mpx : par défaut, des photos de 12,5 Mpx",
+ "format": "V",
+ "recette": "S3 : chiffre de la boîte",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794552610/tiktok-autopilot/day42_200-mpx.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794552612/tiktok-autopilot/stories/day42_story.mp4",
+ "heure": "10:00",
+ "date": "2026-11-16",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "programmée",
+ "tiktok_title": "Téléphone 200 Mpx : par défaut, des photos de 12,5 Mpx",
+ "caption": "Ce téléphone 200 mégapixels photographie par défaut en 12,5 Mpx, selon Xiaomi 📸\nXiaomi l'écrit pour le Redmi Note 12 Pro+ : par défaut, 12,5 Mpx, et le mode 200 Mpx s'active dans Ultra HD. Le Redmi Note 15 Pro regroupe 16 pixels en 1 : 200 ÷ 16 = 12,5. Chez Honor (Honor 400), 200 Mpx demande le mode HIGH-RES.\nLe tien, il est réglé sur quelle résolution, là ? 👇\n#200mp #megapixels #photosmartphone #xiaomi #astucetech\nVoix de synthèse.",
+ "duree_s": 55.9,
+ "story_instagram": {
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794552612/tiktok-autopilot/stories/day42_story.mp4",
+  "buffer_id": "6af6b346c1a0010a5b039a68",
+  "programme_le": "2026-11-16T10:05:00+01:00"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-16T11:00",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794552613/tiktok-autopilot/reels/day42_reel.mp4",
+  "caption": "200 mégapixels : par défaut, ce Redmi photographie en 12,5 Mpx, selon Xiaomi\n\nXiaomi, FAQ du Redmi Note 12 Pro+ 5G : « par défaut », 12,5 Mpx ; le mode 200 Mpx s'active dans Ultra HD. Le Redmi Note 15 Pro 5G regroupe 16 pixels en 1 (0,56 → 2,24 µm) : 200 ÷ 16 = 12,5 Mpx.\n\nHonor 400 : 200 Mpx demande le mode HIGH-RES ; les pixels réels varient selon le mode.\n\nVoix de synthèse.\n\nEnvoie-la à ton ami qui ne jure que par ses 200 mégapixels.\n\n#200mp #megapixels #photosmartphone #suisseromande #jemesuretout",
+  "statut": "en attente",
+  "cta": "envoi",
+  "coupe_s": 50.01
+ },
+ "sources": [],
+ "buffer_id": "6af6b345da25c4db3e9de208",
+ "programme_le": "2026-11-16T10:00:00+01:00"
+}
