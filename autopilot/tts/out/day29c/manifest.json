@@ -1,0 +1,15 @@
+{
+ "job": "day29c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s13",
+   "text": "Ta pièce la plus mal couverte ? Écris-la en commentaire.",
+   "file": "s13.wav",
+   "duration": 4.44,
+   "rate": 24000
+  }
+ ],
+ "total": 4.44
+}
