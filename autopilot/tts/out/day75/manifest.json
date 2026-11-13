@@ -1,0 +1,120 @@
+{
+ "job": "day75",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu passes l'aspirateur à la main. Ton collègue me fait tourner chaque jour. Qui paie le plus d'électricité ?",
+   "file": "s01.wav",
+   "duration": 6.44,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Reste : tu vas connaître le prix d'un de mes passages.",
+   "file": "s02.wav",
+   "duration": 4.36,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Je suis un robot fictif, mais mes chiffres viennent de vrais modèles.",
+   "file": "s03.wav",
+   "duration": 4.88,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Ma batterie, comme sur un Chaomi S quarante : quatorze virgule quatre volts, cinq mille deux cents milliampères-heure.",
+   "file": "s04.wav",
+   "duration": 7.8,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Pleine, environ soixante-quinze wattheures.",
+   "file": "s05.wav",
+   "duration": 3.36,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Un passage qui la vide : au moins deux centimes.",
+   "file": "s06.wav",
+   "duration": 4.04,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Chaque jour, toute l'année : au moins sept francs cinquante.",
+   "file": "s07.wav",
+   "duration": 4.88,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : sur ma station, je consomme même sans rien faire.",
+   "file": "s08.wav",
+   "duration": 5.4,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Une notice d'Écovacs annonce moins de deux watts en veille connectée.",
+   "file": "s09.wav",
+   "duration": 5.24,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Sur un an : jusqu'à quatre francs quatre-vingt-cinq.",
+   "file": "s10.wav",
+   "duration": 4.0,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Et ton aspirateur traîneau ? L'Union européenne estime sa moyenne à trente-cinq kilowattheures par an.",
+   "file": "s11.wav",
+   "duration": 6.32,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Environ neuf francs soixante-dix.",
+   "file": "s12.wav",
+   "duration": 2.52,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Conseil : programme-moi les jours utiles, et éteins-moi pendant tes vacances.",
+   "file": "s13.wav",
+   "duration": 4.72,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Ton robot passe tous les jours ? Écris-le en commentaire.",
+   "file": "s14.wav",
+   "duration": 4.12,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Toi et ton collègue : en ordre de grandeur, une dizaine de francs par an chacun.",
+   "file": "s15.wav",
+   "duration": 5.72,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : d'autres objets vont tout balancer.",
+   "file": "s16.wav",
+   "duration": 3.16,
+   "rate": 24000
+  }
+ ],
+ "total": 76.96
+}
