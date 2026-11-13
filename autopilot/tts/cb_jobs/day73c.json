@@ -1,0 +1,23 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 23,
+ "segments": [
+  {
+   "id": "s07",
+   "text": "Mais à la frontière, au-dessus de cent cinquante francs, il doit la té-vé-a suisse."
+  },
+  {
+   "id": "s15",
+   "text": "Toi, quatre cent nonante-neuf nonante. Ton collègue, environ quatre cent nonante-trois, té-vé-a suisse comprise."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, le mode avion, fait-il vraiment charger plus vite ?"
+  }
+ ]
+}
