@@ -1,0 +1,1 @@
+{"engine": "chatterbox", "lang": "fr", "ref": "autopilot/tts/refs/tom_ref.wav", "exaggeration": 0.55, "cfg": 0.5, "temperature": 0.8, "seed": 7, "segments": [{"id": "s16", "text": "Abonne-toi : demain, la même console en Suisse et en France."}]}
