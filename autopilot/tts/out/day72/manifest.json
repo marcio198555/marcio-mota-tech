@@ -1,0 +1,113 @@
+{
+ "job": "day72",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même offre Netflix, en Suisse et en France : qui paie le plus, et combien ?",
+   "file": "s01.wav",
+   "duration": 5.64,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "À la fin : l'écart sur un an.",
+   "file": "s02.wav",
+   "duration": 2.96,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "En Suisse, l'offre Standard : vingt-deux francs nonante par mois, selon Netflix.",
+   "file": "s03.wav",
+   "duration": 5.88,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "En France : quatorze euros nonante-neuf.",
+   "file": "s04.wav",
+   "duration": 3.36,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Au cours de la Banque nationale, le douze novembre : moins de quatorze francs.",
+   "file": "s05.wav",
+   "duration": 5.44,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Réponse : la Suisse paie environ soixante-six pour cent de plus.",
+   "file": "s06.wav",
+   "duration": 5.24,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Neuf francs d'écart, chaque mois.",
+   "file": "s07.wav",
+   "duration": 2.12,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Sur un an : près de cent neuf francs.",
+   "file": "s08.wav",
+   "duration": 4.2,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : en Suisse, Netflix ne liste aucune offre avec pub.",
+   "file": "s09.wav",
+   "duration": 5.28,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "En France, elle coûte sept euros nonante-neuf. Ici, la moins chère : quatorze francs nonante.",
+   "file": "s10.wav",
+   "duration": 6.68,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Et ce n'est pas la té-vé-a : sans elle, l'écart grandit encore.",
+   "file": "s11.wav",
+   "duration": 4.52,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Conseil : la quatre K, c'est seulement en Premium, sept francs de plus par mois.",
+   "file": "s12.wav",
+   "duration": 5.68,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Et toi, quelle offre tu paies ? Écris-la en commentaire.",
+   "file": "s13.wav",
+   "duration": 4.28,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Même offre Standard : deux cent septante-cinq francs par an en Suisse, cent soixante-six en France.",
+   "file": "s14.wav",
+   "duration": 6.8,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, l'aspirateur sans fil « soixante minutes »… qui ne tient soixante minutes qu'en mode éco.",
+   "file": "s15.wav",
+   "duration": 7.68,
+   "rate": 24000
+  }
+ ],
+ "total": 75.76
+}
