@@ -1,0 +1,36 @@
+{
+ "job": "day40b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta montre est étanche à cinquante mètres ?",
+   "file": "s01.wav",
+   "duration": 3.72,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Garmine l'écrit : cinq a-té-èm, c'est une pression équivalente à cinquante mètres.",
+   "file": "s04.wav",
+   "duration": 5.68,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Chez Chaomi, cinq a-té-èm : piscine ou plage, oui. Plongée, douche ou sauna, non.",
+   "file": "s07.wav",
+   "duration": 5.84,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Et abonne-toi : ce soir, ouaï-faï deux virgule quatre ou cinq gigahertz, lequel traverse les murs ?",
+   "file": "s13.wav",
+   "duration": 6.72,
+   "rate": 24000
+  }
+ ],
+ "total": 21.96
+}
