@@ -1,0 +1,99 @@
+{
+ "job": "day50",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta batterie de dix mille milliampères-heure, c'est trois recharges de téléphone ?",
+   "file": "s01.wav",
+   "duration": 5.32,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Non. Plutôt une seule, et un petit bout.",
+   "file": "s02.wav",
+   "duration": 3.04,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Dix mille, c'est dans les cellules, à trois virgule sept volts. Pas à la sortie, en cinq volts.",
+   "file": "s03.wav",
+   "duration": 6.48,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Ankeur fait le calcul : ça fait trente-sept wattheures.",
+   "file": "s04.wav",
+   "duration": 4.52,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "À cinq volts : sept mille quatre cents milliampères-heure.",
+   "file": "s05.wav",
+   "duration": 4.52,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Puis la conversion en perd : rendement typique, quatre-vingt-deux pour cent.",
+   "file": "s06.wav",
+   "duration": 5.08,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Reste environ six mille milliampères-heure.",
+   "file": "s07.wav",
+   "duration": 3.36,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Un Pixel neuf A de Google : cinq mille cent milliampères-heure.",
+   "file": "s08.wav",
+   "duration": 4.6,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Verdict : une recharge complète, pas deux. Ankeur le dit lui-même.",
+   "file": "s09.wav",
+   "duration": 5.36,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Avant d'acheter, cherche la capacité nominale sur la fiche, pas le gros chiffre.",
+   "file": "s10.wav",
+   "duration": 5.2,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Bonus : selon Ankeur, une dix mille remplit presque tout téléphone actuel au moins une fois.",
+   "file": "s11.wav",
+   "duration": 6.8,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Combien de recharges tu obtiens vraiment ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 4.64,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Et abonne-toi : ce soir, un robot aspirateur qui tourne chaque jour, combien en francs ?",
+   "file": "s13.wav",
+   "duration": 6.88,
+   "rate": 24000
+  }
+ ],
+ "total": 65.8
+}
