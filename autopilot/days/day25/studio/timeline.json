@@ -1,0 +1,103 @@
+{
+ "duration": 68.659,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu chauffes à vingt et un degrés. Ton collègue, à vingt. Combien il gagne, en vrai ?",
+   "start": 0.12,
+   "end": 5.67,
+   "display": "Toi, à 21 °C. Ton collègue, à 20 °C. | Combien il gagne, en vrai ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : à la fin, tu sauras sur quel chiffre mettre ta vanne.",
+   "start": 5.77,
+   "end": 9.78,
+   "display": "Reste : à la fin, tu sauras | sur quel chiffre mettre ta vanne."
+  },
+  {
+   "id": "s03",
+   "text": "SuisseEnergie, le programme de la Confédération, donne la règle.",
+   "start": 9.88,
+   "end": 13.653,
+   "display": "SuisseEnergie, le programme | de la Confédération, donne la règle."
+  },
+  {
+   "id": "s04",
+   "text": "Chaque degré en moins, c'est six pour cent de frais de chauffage en moins.",
+   "start": 13.753,
+   "end": 17.681,
+   "display": "Chaque degré en moins : | 6 % de frais de chauffage en moins."
+  },
+  {
+   "id": "s05",
+   "text": "Exemple : si ton chauffage te coûte mille francs par an, ton collègue garde soixante francs.",
+   "start": 17.781,
+   "end": 22.687,
+   "display": "Exemple : chauffage à 1 000 francs par an : | ton collègue garde 60 francs."
+  },
+  {
+   "id": "s06",
+   "text": "Soixante francs, pour un seul degré, sans rien acheter.",
+   "start": 22.787,
+   "end": 26.084,
+   "display": "60 francs, pour un seul degré, | sans rien acheter."
+  },
+  {
+   "id": "s07",
+   "text": "Et dans l'autre sens, chaque degré en plus te coûte six pour cent de plus.",
+   "start": 26.184,
+   "end": 30.847,
+   "display": "Dans l'autre sens : | chaque degré en plus, 6 % de plus."
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : dans la chambre, SuisseEnergie conseille dix-sept degrés, pas vingt.",
+   "start": 30.947,
+   "end": 36.789,
+   "display": "Surprise : dans la chambre, | SuisseEnergie conseille 17 °C, pas 20."
+  },
+  {
+   "id": "s09",
+   "text": "Vingt degrés, c'est pour le séjour : la position trois de la vanne thermostatique.",
+   "start": 36.889,
+   "end": 41.929,
+   "display": "20 °C, c'est pour le séjour : | position 3 de la vanne thermostatique."
+  },
+  {
+   "id": "s10",
+   "text": "Dix-sept, c'est la position deux. Et la salle de bain, vingt-trois degrés : la position quatre.",
+   "start": 42.029,
+   "end": 47.446,
+   "display": "17 °C : position 2. | Salle de bain, 23 °C : position 4."
+  },
+  {
+   "id": "s11",
+   "text": "Et sur le chauffage central, la règle générale : baisser la courbe de trois degrés baisse la pièce d'un degré.",
+   "start": 47.546,
+   "end": 54.267,
+   "display": "Chauffage central, règle générale : | courbe −3 °C = pièce −1 °C."
+  },
+  {
+   "id": "s12",
+   "text": "Ta vanne, là, elle est sur quel chiffre ? Écris-le en commentaire.",
+   "start": 54.367,
+   "end": 57.968,
+   "display": "Ta vanne est sur quel chiffre ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Toi à vingt et un, ton collègue à vingt : soixante francs d'écart, dans cet exemple.",
+   "start": 58.068,
+   "end": 63.662,
+   "display": "Toi à 21, ton collègue à 20 : | 60 francs d'écart, dans cet exemple."
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : ce soir, pourquoi le centre de ton plat reste froid au micro-ondes.",
+   "start": 63.762,
+   "end": 68.359,
+   "display": "Abonne-toi : ce soir, pourquoi le centre | de ton plat reste froid au micro-ondes."
+  }
+ ]
+}
