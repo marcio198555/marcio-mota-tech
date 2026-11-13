@@ -1,116 +1,116 @@
 {
- "duration": 68.72,
+ "duration": 68.649,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, tu passes l'aspirateur à la main. Ton collègue me fait tourner chaque jour. Qui paie le plus d'électricité ?",
    "start": 0.12,
-   "end": 5.309,
+   "end": 5.399,
    "display": "Toi, tu passes l'aspirateur à la main. | Ton collègue me fait tourner chaque jour. | Qui paie le plus d'électricité ?"
   },
   {
    "id": "s02",
    "text": "Reste : tu vas connaître le prix d'un de mes passages.",
-   "start": 5.409,
-   "end": 9.082,
+   "start": 5.499,
+   "end": 9.235,
    "display": "Reste : tu vas connaître | le prix d'un de mes passages."
   },
   {
    "id": "s03",
    "text": "Je suis un robot fictif, mais mes chiffres viennent de vrais modèles.",
-   "start": 9.182,
-   "end": 12.918,
+   "start": 9.335,
+   "end": 13.135,
    "display": "Je suis un robot fictif, | mais mes chiffres viennent | de vrais modèles."
   },
   {
    "id": "s04",
    "text": "Ma batterie, comme sur un vrai modèle du commerce : quatorze virgule quatre volts, cinq mille deux cents milliampères-heure.",
-   "start": 13.018,
-   "end": 19.66,
+   "start": 13.235,
+   "end": 19.992,
    "display": "Ma batterie, comme sur un vrai modèle : | 14,4 V, 5 200 mAh."
   },
   {
    "id": "s05",
    "text": "Pleine, environ soixante-quinze wattheures.",
-   "start": 19.76,
-   "end": 22.847,
+   "start": 20.092,
+   "end": 23.232,
    "display": "Pleine, environ 75 Wh."
   },
   {
    "id": "s06",
    "text": "Un passage qui la vide : au moins deux centimes.",
-   "start": 22.947,
-   "end": 26.468,
+   "start": 23.332,
+   "end": 26.914,
    "display": "Un passage qui la vide : | au moins 2 centimes."
   },
   {
    "id": "s07",
    "text": "Vidée chaque jour, un an : au moins sept francs cinquante.",
-   "start": 26.568,
-   "end": 30.468,
+   "start": 27.014,
+   "end": 30.98,
    "display": "Vidée chaque jour, un an : | au moins 7 fr. 50."
   },
   {
    "id": "s08",
    "text": "Surprise : sur ma station, je consomme même sans rien faire.",
-   "start": 30.568,
-   "end": 35.555,
+   "start": 31.08,
+   "end": 36.154,
    "display": "Surprise : sur ma station, | je consomme même sans rien faire."
   },
   {
    "id": "s09",
    "text": "Une notice d'Écovacs annonce moins de deux watts en veille connectée.",
-   "start": 35.655,
-   "end": 40.229,
+   "start": 36.254,
+   "end": 40.025,
    "display": "Une notice d'Ecovacs annonce | moins de 2 W en veille connectée."
   },
   {
    "id": "s10",
-   "text": "Sur un an : jusqu'à quatre francs quatre-vingt-cinq.",
-   "start": 40.329,
-   "end": 43.387,
-   "display": "Sur un an : jusqu'à 4 fr. 85."
+   "text": "Sur un an : jusqu'à presque cinq francs.",
+   "start": 40.125,
+   "end": 42.895,
+   "display": "Sur un an : jusqu'à presque 5 francs."
   },
   {
    "id": "s11",
    "text": "Et ton aspirateur traîneau ? En usage type, l'Union européenne estime trente-cinq kilowattheures par an.",
-   "start": 43.487,
-   "end": 50.076,
+   "start": 42.995,
+   "end": 49.697,
    "display": "Et ton aspirateur traîneau ? | En usage type, l'Union européenne estime | 35 kWh par an."
   },
   {
    "id": "s12",
    "text": "Environ neuf francs soixante-dix.",
-   "start": 50.176,
-   "end": 52.472,
+   "start": 49.797,
+   "end": 52.133,
    "display": "Environ 9 fr. 70."
   },
   {
    "id": "s13",
    "text": "Conseil : programme-moi les jours utiles, et éteins-moi pendant tes vacances.",
-   "start": 52.572,
-   "end": 56.867,
+   "start": 52.233,
+   "end": 56.602,
    "display": "Conseil : programme-moi les jours utiles, | et éteins-moi pendant tes vacances."
   },
   {
    "id": "s14",
    "text": "Ton robot passe tous les jours ? Écris-le en commentaire.",
-   "start": 56.967,
-   "end": 60.69,
+   "start": 56.702,
+   "end": 60.489,
    "display": "Ton robot passe tous les jours ? | Écris-le en commentaire."
   },
   {
    "id": "s15",
    "text": "Toi et ton collègue : en ordre de grandeur, une dizaine de francs par an chacun.",
-   "start": 60.79,
-   "end": 65.357,
+   "start": 60.589,
+   "end": 65.234,
    "display": "Toi et ton collègue : en ordre de grandeur, | une dizaine de francs par an chacun."
   },
   {
    "id": "s16",
    "text": "Abonne-toi : d'autres objets vont tout balancer.",
-   "start": 65.457,
-   "end": 68.42,
+   "start": 65.334,
+   "end": 68.349,
    "display": "Abonne-toi : | d'autres objets vont tout balancer."
   }
  ]

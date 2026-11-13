@@ -1,102 +1,102 @@
 {
- "duration": 68.712,
+ "duration": 68.689,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, sans couvercle. Ton collègue, avec. Qui paie le moins de courant ?",
    "start": 0.12,
-   "end": 4.894,
+   "end": 4.954,
    "display": "Toi, sans couvercle. Ton collègue, avec. | Qui paie le moins de courant ?"
   },
   {
    "id": "s02",
    "text": "Je suis ta casserole : à la fin, tu sauras combien ça vaut en francs.",
-   "start": 4.994,
-   "end": 9.003,
+   "start": 5.054,
+   "end": 9.112,
    "display": "Je suis ta casserole : à la fin, | tu sauras combien ça vaut en francs."
   },
   {
    "id": "s03",
    "text": "Sans couvercle, une grande partie de l'énergie s'évapore avec ma vapeur.",
-   "start": 9.103,
-   "end": 13.359,
+   "start": 9.212,
+   "end": 13.521,
    "display": "Sans couvercle, | une grande partie de l'énergie | s'évapore avec ma vapeur."
   },
   {
    "id": "s04",
    "text": "Selon le programme Suisse Énergie, le couvercle fait économiser trente pour cent d'énergie.",
-   "start": 13.459,
-   "end": 18.167,
+   "start": 13.621,
+   "end": 18.389,
    "display": "Selon le programme SuisseEnergie, | le couvercle fait économiser | 30 % d'énergie."
   },
   {
    "id": "s05",
    "text": "Réponse : ton collègue paie moins.",
-   "start": 18.267,
-   "end": 21.222,
+   "start": 18.489,
+   "end": 21.481,
    "display": "Réponse : ton collègue paie moins."
   },
   {
    "id": "s06",
    "text": "Quand ça bout, l'écart grandit : sans couvercle, la plaque tire ici sept cent cinquante watts pour garder un litre et demi en ébullition.",
-   "start": 21.322,
-   "end": 29.612,
+   "start": 21.581,
+   "end": 29.113,
    "display": "Quand ça bout, l'écart grandit : | sans couvercle, la plaque tire ici 750 W | pour garder 1,5 l en ébullition."
   },
   {
    "id": "s07",
    "text": "Avec : moins de deux cents. Presque quatre fois moins, selon les services cantonaux de l'énergie.",
-   "start": 29.712,
-   "end": 35.388,
+   "start": 29.213,
+   "end": 34.96,
    "display": "Avec : moins de 200. | Presque 4 fois moins, | selon les services cantonaux | de l'énergie."
   },
   {
    "id": "s08",
    "text": "Exemple : vingt minutes d'ébullition. Environ sept centimes sans couvercle, moins de deux avec.",
-   "start": 35.488,
-   "end": 42.763,
+   "start": 35.06,
+   "end": 42.427,
    "display": "Exemple : 20 minutes d'ébullition. | Environ 7 centimes sans couvercle, | moins de 2 avec."
   },
   {
    "id": "s09",
    "text": "Tous les jours, ça fait plus de dix-huit francs par an.",
-   "start": 42.863,
-   "end": 45.076,
+   "start": 42.527,
+   "end": 44.767,
    "display": "Tous les jours, ça fait | plus de 18 francs par an."
   },
   {
    "id": "s10",
    "text": "Conseil : sur une plaque classique, coupe-la quelques minutes avant la fin.",
-   "start": 45.176,
-   "end": 49.398,
+   "start": 44.867,
+   "end": 49.142,
    "display": "Conseil : | sur une plaque classique, | coupe-la | quelques minutes avant la fin."
   },
   {
    "id": "s11",
    "text": "Et mon fond doit être bien plat, sinon la chaleur se perd.",
-   "start": 49.498,
-   "end": 52.855,
+   "start": 49.242,
+   "end": 52.641,
    "display": "Et mon fond doit être bien plat, | sinon la chaleur se perd."
   },
   {
    "id": "s12",
    "text": "Et toi, couvercle ou pas ? Écris-le en commentaire.",
-   "start": 52.955,
-   "end": 56.975,
+   "start": 52.741,
+   "end": 56.811,
    "display": "Et toi, couvercle ou pas ? | Écris-le en commentaire."
   },
   {
    "id": "s13",
    "text": "Toi, une grande partie part en vapeur. Ton collègue, lui, économise trente pour cent.",
-   "start": 57.075,
-   "end": 62.454,
+   "start": 56.911,
+   "end": 62.358,
    "display": "Toi, une grande partie part en vapeur. | Ton collègue, lui, économise 30 %."
   },
   {
    "id": "s14",
    "text": "Abonne-toi : demain, la montre « étanche cinquante mètres » : tu peux vraiment plonger avec ?",
-   "start": 62.554,
-   "end": 68.412,
+   "start": 62.458,
+   "end": 68.389,
    "display": "Abonne-toi : demain, | la montre « étanche 50 mètres » : | tu peux vraiment plonger avec ?"
   }
  ]
