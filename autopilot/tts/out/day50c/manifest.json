@@ -1,0 +1,22 @@
+{
+ "job": "day50c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s06",
+   "text": "Puis la conversion fait des pertes : rendement typique, quatre-vingt-deux pour cent.",
+   "file": "s06.wav",
+   "duration": 5.04,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Chez Google, le Pixel neuf A : cinq mille cent milliampères-heure.",
+   "file": "s08.wav",
+   "duration": 5.0,
+   "rate": 24000
+  }
+ ],
+ "total": 10.04
+}
