@@ -1,0 +1,110 @@
+{
+ "duration": 68.716,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ouaï-faï cinq giga-hertz. Ton collègue, deux virgule quatre. Lequel passe le mieux les murs ?",
+   "start": 0.12,
+   "end": 6.887,
+   "display": "Toi, Wi-Fi 5 GHz. Ton collègue, 2,4 GHz. | Lequel passe le mieux les murs ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : tu sauras lequel choisir dans chaque pièce.",
+   "start": 6.987,
+   "end": 10.87,
+   "display": "Reste : tu sauras lequel choisir | dans chaque pièce."
+  },
+  {
+   "id": "s03",
+   "text": "Réponse : le deux virgule quatre.",
+   "start": 10.97,
+   "end": 13.2,
+   "display": "Réponse : le 2,4 GHz."
+  },
+  {
+   "id": "s04",
+   "text": "Plus la fréquence est haute, moins le signal passe les murs, écrivent les fabricants.",
+   "start": 13.3,
+   "end": 18.594,
+   "display": "Plus la fréquence est haute, | moins le signal passe les murs, | écrivent les fabricants."
+  },
+  {
+   "id": "s05",
+   "text": "Un fabricant donne : environ vingt mètres en deux virgule quatre, quinze en cinq.",
+   "start": 18.694,
+   "end": 23.777,
+   "display": "Un fabricant donne : | environ 20 m en 2,4 GHz, | 15 m en 5 GHz."
+  },
+  {
+   "id": "s06",
+   "text": "Mais le cinq est en général plus rapide.",
+   "start": 23.877,
+   "end": 25.912,
+   "display": "Mais le 5 GHz est en général plus rapide."
+  },
+  {
+   "id": "s07",
+   "text": "Surprise : en Suisse, l'Ofcom permet jusqu'à un watt en cinq, contre cent milliwatts en deux virgule quatre.",
+   "start": 26.012,
+   "end": 32.216,
+   "display": "Surprise : en Suisse, l'OFCOM permet | jusqu'à 1 W en 5 GHz, | contre 100 mW en 2,4 GHz."
+  },
+  {
+   "id": "s08",
+   "text": "Dix fois plus de puissance permise, et il traverse quand même moins bien.",
+   "start": 32.316,
+   "end": 36.363,
+   "display": "10 fois plus de puissance permise, | et il traverse quand même moins bien."
+  },
+  {
+   "id": "s09",
+   "text": "Autre piège : ton micro-ondes peut brouiller le deux virgule quatre.",
+   "start": 36.463,
+   "end": 41.083,
+   "display": "Autre piège : ton micro-ondes | peut brouiller le 2,4 GHz."
+  },
+  {
+   "id": "s10",
+   "text": "Pour la quatre-ka, Nètflix recommande au moins quinze mégabits par seconde.",
+   "start": 41.183,
+   "end": 45.985,
+   "display": "Pour la 4K, Netflix recommande | au moins 15 Mbit/s."
+  },
+  {
+   "id": "s11",
+   "text": "Donc : près du routeur, le cinq ; au fond, le deux virgule quatre.",
+   "start": 46.085,
+   "end": 51.15,
+   "display": "Donc : près du routeur, le 5 GHz ; | au fond, le 2,4 GHz."
+  },
+  {
+   "id": "s12",
+   "text": "Et pose ton routeur haut, au centre, loin du métal.",
+   "start": 51.25,
+   "end": 54.43,
+   "display": "Et pose ton routeur haut, | au centre, loin du métal."
+  },
+  {
+   "id": "s13",
+   "text": "Ta pièce la plus mal couverte ? Écris-la en commentaire.",
+   "start": 54.53,
+   "end": 57.555,
+   "display": "Ta pièce la plus mal couverte ? | Écris-la en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Toi, la vitesse. Ton collègue, la portée. Un point chacun.",
+   "start": 57.655,
+   "end": 61.799,
+   "display": "Toi, la vitesse. Ton collègue, la portée. | Un point chacun."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, ta batterie externe de dix mille milliampères-heure : combien de recharges, vraiment ?",
+   "start": 61.899,
+   "end": 68.416,
+   "display": "Abonne-toi : demain, ta batterie externe | de 10 000 mAh : | combien de recharges, vraiment ?"
+  }
+ ]
+}
