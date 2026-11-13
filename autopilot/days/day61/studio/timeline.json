@@ -1,0 +1,110 @@
+{
+ "duration": 68.646,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu laisses une lumière allumée toute la nuit. Ton collègue éteint tout.",
+   "start": 0.12,
+   "end": 4.664,
+   "display": "Toi, tu laisses une lumière allumée | toute la nuit. Ton collègue éteint tout."
+  },
+  {
+   "id": "s02",
+   "text": "Combien ça te coûte, vraiment ?",
+   "start": 4.764,
+   "end": 6.963,
+   "display": "Combien ça te coûte, vraiment ?"
+  },
+  {
+   "id": "s03",
+   "text": "Reste : à la fin, tu sauras quelle ampoule coûte douze fois plus.",
+   "start": 7.063,
+   "end": 11.578,
+   "display": "Reste : à la fin, tu sauras quelle ampoule | coûte 12 fois plus."
+  },
+  {
+   "id": "s04",
+   "text": "Je suis une ampoule elle-eu-dé du commerce : huit cent six lumens, cinq watts sur ma fiche.",
+   "start": 11.678,
+   "end": 17.608,
+   "display": "Je suis une ampoule LED du commerce : | 806 lumens, 5 W sur ma fiche."
+  },
+  {
+   "id": "s05",
+   "text": "Une nuit d'exemple, huit heures : quarante wattheures.",
+   "start": 17.708,
+   "end": 20.699,
+   "display": "Une nuit d'exemple, 8 heures : | 40 Wh."
+  },
+  {
+   "id": "s06",
+   "text": "Au tarif médian suisse : un peu plus d'un centime.",
+   "start": 20.799,
+   "end": 24.343,
+   "display": "Au tarif médian suisse : | un peu plus d'un centime."
+  },
+  {
+   "id": "s07",
+   "text": "Chaque nuit, toute l'année : environ quatre francs.",
+   "start": 24.443,
+   "end": 27.307,
+   "display": "Chaque nuit, toute l'année : | environ 4 francs."
+  },
+  {
+   "id": "s08",
+   "text": "Ton collègue se cogne dans le noir pour quatre francs par an.",
+   "start": 27.407,
+   "end": 30.852,
+   "display": "Ton collègue se cogne dans le noir | pour 4 francs par an."
+  },
+  {
+   "id": "s09",
+   "text": "Surprise : ma fiche annonce vingt-cinq mille heures. À ce rythme, plus de huit ans de nuits.",
+   "start": 30.952,
+   "end": 38.096,
+   "display": "Surprise : ma fiche annonce 25 000 heures. | À ce rythme, plus de 8 ans de nuits."
+  },
+  {
+   "id": "s10",
+   "text": "Mais une vieille ampoule de soixante watts donne la même lumière, selon le règlement européen.",
+   "start": 38.196,
+   "end": 44.237,
+   "display": "Mais une vieille ampoule de 60 W | donne la même lumière, | selon le règlement européen."
+  },
+  {
+   "id": "s11",
+   "text": "Douze fois plus : environ quarante-huit francs par an.",
+   "start": 44.337,
+   "end": 47.329,
+   "display": "12 fois plus : | environ 48 francs par an."
+  },
+  {
+   "id": "s12",
+   "text": "Alors, à l'achat : regarde les lumens sur la boîte, pas les watts.",
+   "start": 47.429,
+   "end": 52.037,
+   "display": "Alors, à l'achat : regarde les lumens | sur la boîte, pas les watts."
+  },
+  {
+   "id": "s13",
+   "text": "Tu laisses une lumière allumée la nuit, toi ? Écris-le en commentaire.",
+   "start": 52.137,
+   "end": 56.104,
+   "display": "Tu laisses une lumière allumée la nuit, toi ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Toi : quatre francs par an avec moi. Ton collègue : zéro franc, et des bleus.",
+   "start": 56.204,
+   "end": 62.003,
+   "display": "Toi : 4 francs par an avec moi. | Ton collègue : 0 franc, et des bleus."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, ton téléphone deux cents mégapixels qui fait des photos de douze.",
+   "start": 62.103,
+   "end": 68.346,
+   "display": "Abonne-toi : demain, ton téléphone 200 Mpx | qui fait des photos de 12."
+  }
+ ]
+}
