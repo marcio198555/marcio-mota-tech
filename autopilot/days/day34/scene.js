@@ -70,6 +70,22 @@
     });
   }
 
+  // mention de source : pastille mono (1 ou plusieurs lignes), police réduite seulement si elle dépasse maxW
+  function src(ctx, lines, x, y, t, t0, o = {}) {
+    const a = t0 === undefined ? 1 : ease.out(prog(t, t0, 0.25)); if (a <= 0.001) return;
+    lines = [].concat(lines); let size = o.size || 44; const maxW = o.maxW || 860, pad = o.pad || 24;
+    const fnt = sz => `700 ${sz}px "${F.mono}", "${F.emoji}", sans-serif`;
+    ctx.save(); ctx.font = fnt(size); ctx.letterSpacing = '0px';
+    let w = Math.max(...lines.map(l => ctx.measureText(l).width));
+    if (w + 2 * pad > maxW) { size *= (maxW - 2 * pad) / w; ctx.font = fnt(size); w = maxW - 2 * pad; }
+    const lh = size * 1.22, h = lines.length * lh + 26, W = w + 2 * pad;
+    ctx.globalAlpha *= a; roundRect(ctx, x - W / 2, y - h / 2, W, h, Math.min(h / 2, 36));
+    ctx.fillStyle = 'rgba(11,18,32,0.88)'; ctx.fill(); ctx.lineWidth = 2; ctx.strokeStyle = C.line; ctx.stroke();
+    ctx.fillStyle = o.color || WHITE; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    lines.forEach((l, i) => ctx.fillText(l, x, y - (lines.length - 1) * lh / 2 + i * lh + 1));
+    ctx.restore();
+  }
+
   window.SCENE = {
     duration: END,
     load: () => CHR.load(['magnifying_glass_tilted_left', 'satellite_antenna', 'mobile_phone', 'thermometer', 'fire', 'sparkles', 'high_voltage', 'man_technologist', 'woman_technologist', 'clipboard']),
@@ -98,11 +114,11 @@
         CHR.emo(ctx, 'satellite_antenna', 500, 690, 230, t, S('s04') + 0.1);
         cross(ctx, 500, 690, 95, clamp((t - f('s04', 0.3)) * 4));
         line(ctx, 'RÉSEAU MOBILE COUPÉ', 500, 860, t, f('s04', 0.3), { size: 52, color: WHITE, dx: 0 });
-        tag(ctx, 'GOOGLE : SI TU N\'EN AS PAS BESOIN', 500, 980, t, f('s04', 0.55), { size: 36, color: GOLD });
+        src(ctx, 'GOOGLE : POUR L\'AUTONOMIE', 500, 980, t, f('s04', 0.55), { color: GOLD });
       });
       // s05 : OFSP
       block(ctx, t, S('s05'), S('s06'), () => {
-        tag(ctx, 'OFSP · FICHE TÉLÉPHONES MOBILES', 500, 360, t, S('s05'), { size: 36, color: GOLD });
+        src(ctx, 'OFSP · FICHE TÉLÉPHONES MOBILES', 495, 360, t, S('s05'), { color: GOLD, pad: 20 });
         line(ctx, 'IL ÉMET SURTOUT PENDANT…', 500, 460, t, S('s05') + 0.1, { size: 54, dx: 0 });
         pop(ctx, t, f('s05', 0.45), 290, 720, () => { panel(ctx, -190, -180, 380, 360, { border: CYAN });
           text(ctx, '📞', 0, -60, { size: 120, family: F.emoji, weight: 400 }); text(ctx, 'UN APPEL', 0, 100, { size: 48, weight: 900, color: WHITE }); });
@@ -114,13 +130,12 @@
       // s06 : au repos, un signal toutes les quelques minutes (schéma)
       block(ctx, t, S('s06'), S('s07'), () => {
         line(ctx, 'AU REPOS', 500, 370, t, S('s06'), { size: 70, color: WHITE, dx: 0 });
-        tag(ctx, 'SCHÉMA', 820, 370, t, S('s06'), { size: 36 });
         const x0 = 110, x1 = 890, yy = 620, u = prog(t, S('s06') + 0.1, Math.max(1, (E('s06') - S('s06')) * 0.7));
         ctx.save(); ctx.strokeStyle = 'rgba(255,255,255,0.35)'; ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(x0, yy); ctx.lineTo(lerp(x0, x1, u), yy); ctx.stroke(); ctx.restore();
         [0.12, 0.5, 0.88].forEach((p, i) => { if (u > p) { const xx = lerp(x0, x1, p); ctx.save(); ctx.strokeStyle = CYAN; ctx.lineWidth = 8; ctx.beginPath(); ctx.moveTo(xx, yy); ctx.lineTo(xx, yy - 130); ctx.stroke(); ctx.restore(); text(ctx, '·))', xx + 40, yy - 120, { size: 40, weight: 900, color: CYAN }); } });
-        line(ctx, '1 SIGNAL TOUTES LES QUELQUES MINUTES', 500, 720, t, f('s06', 0.25), { size: 40, color: CYAN, dx: 0 });
-        clock(ctx, 230, 930, 110, (t - S('s06')) * 6);
-        stamp(ctx, 'PEU À COUPER', 600, 930, t, f('s06', 0.62), { size: 66, color: GOLD });
+        src(ctx, ['1 SIGNAL TOUTES', 'LES QUELQUES MINUTES'], 500, 740, t, f('s06', 0.25), { color: CYAN });
+        clock(ctx, 210, 960, 100, (t - S('s06')) * 6);
+        stamp(ctx, 'SCHÉMA · OFSP', 620, 960, t, f('s06', 0.5), { size: 54, color: GOLD });
       });
       // s07 : écran allumé = charge plus lente (Xiaomi)
       block(ctx, t, S('s07'), S('s08'), () => {
@@ -141,38 +156,44 @@
         const hot = ease.inOut(prog(t, S('s09') + 0.2, 1.2));
         thermometer(ctx, 250, 800, 330, lerp(0.3, 0.95, hot), hot > 0.6 ? RED : GOLD);
         phoneC(ctx, 640, 700, 250, 450, t, t > f('s09', 0.55) ? 'pause' : 'hot', 0.6, { border: hot > 0.6 ? RED : undefined, cableLen: 60 });
-        tag(ctx, 'GOOGLE : PAUSE POSSIBLE', 500, 1080, t, f('s09', 0.6), { size: 36, color: GOLD });
+        src(ctx, 'GOOGLE : PAUSE POSSIBLE', 500, 1080, t, f('s09', 0.6), { color: GOLD });
       });
       // s10 : calcul d'une charge (exemple)
       block(ctx, t, S('s10'), S('s11'), () => {
         stamp(ctx, 'EXEMPLE', 500, 370, t, S('s10'), { size: 48, color: WHITE });
         KIT.battery(ctx, 500, 540, 300, 1, { label: '19 Wh', size: 58 });
         calc(ctx, ['0,019 kWh × 27,7 ct', '≈ 0,53 ct'], 500, 730, t, [f('s10', 0.3), f('s10', 0.55)], { gap: 120, lastSize: 140 });
-        tag(ctx, 'MÉDIANE ELCOM 2026, HORS TVA', 500, 1080, t, f('s10', 0.6), { size: 36 });
+        src(ctx, 'MÉDIANE ELCOM 2026, HORS TVA', 500, 1080, t, f('s10', 0.6));
       });
       // s11 : un an
       block(ctx, t, S('s11'), S('s12'), () => {
         big(ctx, '365', 500, 430, t, S('s11'), { size: 170 });
         line(ctx, 'CHARGES PAR AN', 500, 560, t, S('s11') + 0.1, { size: 54, dx: 0 });
-        big(ctx, '≈ 1,92 CHF', 500, 720, t, f('s11', 0.55), { size: 130 });
         coins(ctx, t, f('s11', 0.6), 6, 200, 800, 1000, '');
-        tag(ctx, 'EXEMPLE · SANS LES PERTES', 500, 1100, t, f('s11', 0.6), { size: 36 });
+        big(ctx, '≈ 1,92 CHF', 500, 720, t, f('s11', 0.55), { size: 130 });
+        stamp(ctx, 'EXEMPLE', 270, 1100, t, f('s11', 0.6), { size: 48, color: WHITE });
+        src(ctx, 'SANS LES PERTES', 665, 1100, t, f('s11', 0.65));
       });
       // s12 : conseils
       block(ctx, t, S('s12'), S('s13'), () => {
         [['ÉCRAN ÉTEINT', '📱', 0.02], ['PAS DE JEU', '🎮', 0.3], ['PAS AU SOLEIL', '☀️', 0.55]].forEach(([s, e, u], i) => {
           pop(ctx, t, f('s12', u), 500, 440 + i * 200, () => { panel(ctx, -400, -78, 800, 156, { border: GREEN });
-            text(ctx, e, -300, 4, { size: 86, family: F.emoji, weight: 400 }); text(ctx, s, 60, 2, { size: 62, weight: 900, color: WHITE, maxWidth: 560 }); }); });
+            text(ctx, e, -300, 4, { size: 86, family: F.emoji, weight: 400 }); text(ctx, s, 60, 2, { size: 56, weight: 900, color: WHITE }); }); });
       });
       // s13 : commentaire
       block(ctx, t, S('s13'), S('s14'), () => comment(ctx, t, S('s13'), ['Tu charges', 'en mode avion ?'], { y: 650 }));
       // s14 : retour au duel, verdict
       block(ctx, t, S('s14'), S('s15'), () => {
         head(ctx, 'VERDICT', 420, t, undefined, { size: 56 });
-        duel(ctx, t, { noLabels: true, cableLen: 30 });
-        line(ctx, 'UN PETIT PLUS,', 275, 1095, t, S('s14') + 0.1, { size: 44, color: GOLD, dx: 0 });
-        line(ctx, 'PEUT-ÊTRE', 275, 1150, t, S('s14') + 0.2, { size: 44, color: GOLD, dx: 0 });
-        stamp(ctx, 'PLUS LENTE', 725, 1100, t, f('s14', 0.55), { size: 52 });
+        duelFrame(ctx, { y0: 520, y1: 1200 });
+        const lv = 0.35 + 0.1 * Math.sin(t * 0.6);
+        phoneC(ctx, 275, 760, 190, 350, t, 'off', lv, { cableLen: 24 });
+        phoneC(ctx, 725, 760, 190, 350, t, 'feed', lv, { cableLen: 24 });
+        line(ctx, 'ÉCRAN ÉTEINT', 275, 1010, t, S('s14') + 0.1, { size: 44, color: GOLD, dx: 0, maxWidth: 420 });
+        line(ctx, 'MODE AVION :', 275, 1080, t, f('s14', 0.3), { size: 40, color: WHITE, dx: 0, maxWidth: 420 });
+        line(ctx, 'NON CHIFFRÉ', 275, 1135, t, f('s14', 0.3), { size: 40, color: WHITE, dx: 0, maxWidth: 420 });
+        stamp(ctx, 'PLUS LENTE', 725, 1030, t, f('s14', 0.72), { size: 50 });
+        line(ctx, '(XIAOMI)', 725, 1120, t, f('s14', 0.76), { size: 40, color: WHITE, dx: 0 });
       });
       block(ctx, t, S('s15'), END + 1, () => followCTA(ctx, t, S('s15'), { when: 'DEMAIN', next: ['Télé 65 pouces :', '165 cm de large ?'] }));
       brand(ctx, t);

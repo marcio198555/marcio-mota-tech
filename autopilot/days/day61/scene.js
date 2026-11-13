@@ -2,7 +2,7 @@
 // Décor IA existant (decor_chambre), ampoule dessinée dans la scène (formes simples) + CHR.face (yeux, bouche synchronisée).
 (function () {
   const { C, F, clamp, lerp, ease, prog, S, E, text, chip, captions, brand, block, followCTA, roundRect } = ENG;
-  const { RED, GOLD, GREEN, BLUE, WHITE, f, pop, stamp, panel, big, line, tag, calc, bars, clock, coins, comment } = KIT;
+  const { RED, GOLD, GREEN, BLUE, WHITE, f, pop, stamp, panel, big, line, tag, calc, bars, clock, coin, coins, comment } = KIT;
   const WARM = '#ffd27a';
   const END = E('s15') + 0.6;
   const IDS = ['s01','s02','s03','s04','s05','s06','s07','s08','s09','s10','s11','s12','s13','s14'];
@@ -10,6 +10,29 @@
   const MOOD = { s01: 'malin', s02: 'malin', s03: 'malin', s04: 'content', s05: 'neutre', s06: 'neutre', s07: 'content', s08: 'malin',
                  s09: 'surpris', s10: 'fache', s11: 'fache', s12: 'neutre', s13: 'content', s14: 'malin' };
   function segAt(t) { let id = 's01'; IDS.forEach(s => { if (t >= S(s)) id = s; }); return id; }
+  // mention de source : pastille mono (1 ou plusieurs lignes), police réduite seulement si elle dépasse maxW
+  function src(ctx, lines, x, y, t, t0, o = {}) {
+    const a = t0 === undefined ? 1 : ease.out(prog(t, t0, 0.25)); if (a <= 0.001) return;
+    lines = [].concat(lines); let size = o.size || 44; const maxW = o.maxW || 800, pad = o.pad || 24;
+    const fnt = sz => `700 ${sz}px "${F.mono}", "${F.emoji}", sans-serif`;
+    ctx.save(); ctx.font = fnt(size); ctx.letterSpacing = '0px';
+    let w = Math.max(...lines.map(l => ctx.measureText(l).width));
+    if (w + 2 * pad > maxW) { size *= (maxW - 2 * pad) / w; ctx.font = fnt(size); w = maxW - 2 * pad; }
+    const lh = size * 1.22, h = lines.length * lh + 26, W = w + 2 * pad;
+    ctx.globalAlpha *= a; roundRect(ctx, x - W / 2, y - h / 2, W, h, Math.min(h / 2, 36));
+    ctx.fillStyle = 'rgba(11,18,32,0.88)'; ctx.fill(); ctx.lineWidth = 2; ctx.strokeStyle = C.line; ctx.stroke();
+    ctx.fillStyle = o.color || WHITE; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    lines.forEach((l, i) => ctx.fillText(l, x, y - (lines.length - 1) * lh / 2 + i * lh + 1));
+    ctx.restore();
+  }
+  // badge « valeur d'exemple » (≥ 40 px)
+  const ex8 = (ctx, x, y, t, t0) => stamp(ctx, 'EXEMPLE · 8 H PAR NUIT', x, y, t, t0, { size: 42, color: WHITE, rot: -0.03 });
+  // pièces qui tombent sous les montants (bande y0 → y1), dessinées avant le texte
+  function coinsLow(ctx, t, t0, n, x0, x1, y0, y1) {
+    for (let i = 0; i < n; i++) { const d = t - t0 - i * 0.09; if (d < 0) continue;
+      const x = lerp(x0, x1, ((i * 37) % 11) / 10), k = ease.out(clamp(d / 0.45));
+      coin(ctx, x, lerp(y0, y1 - ((i * 13) % 5) * 10, k), 36, ''); }
+  }
   function card(ctx, h = 520, o = {}) { panel(ctx, 70, 310, 860, h, { bg: 'rgba(10,12,22,0.9)', border: o.border || 'rgba(255,210,122,0.6)' }); }
 
   // ampoule LED personnage ; (x, y) = bas du culot ; s = échelle ; glow 0..1
@@ -100,30 +123,33 @@
         big(ctx, '40 Wh', 660, 690, t, f('s05', 0.55), { size: 120 });
       });
       // s06 : en francs
-      block(ctx, t, S('s06'), S('s07'), () => { card(ctx, 520);
+      block(ctx, t, S('s06'), S('s07'), () => { card(ctx, 560);
         calc(ctx, ['0,04 kWh × 27,7 ct', '≈ 1,1 ct'], 500, 420, t, [S('s06'), f('s06', 0.5)], { gap: 140, lastSize: 160 });
-        tag(ctx, 'PAR NUIT · ELCOM 2026, HORS TVA', 500, 770, t, f('s06', 0.6), { size: 36 });
+        src(ctx, ['PAR NUIT', 'ELCOM 2026, HORS TVA'], 500, 780, t, f('s06', 0.6));
       });
       // s07 : un an
-      block(ctx, t, S('s07'), S('s08'), () => { card(ctx, 520);
+      block(ctx, t, S('s07'), S('s08'), () => { card(ctx, 560);
+        ex8(ctx, 500, 372, t, S('s07'));
         const n = Math.round(lerp(1, 365, ease.inOut(prog(t, S('s07') + 0.05, Math.max(0.6, (E('s07') - S('s07')) * 0.55)))));
-        big(ctx, String(n), 230, 470, t, undefined, { size: 110, color: WHITE }); line(ctx, 'NUITS', 230, 570, t, S('s07'), { size: 50, dx: 0 });
-        big(ctx, '≈ 4,04 CHF', 640, 480, t, f('s07', 0.55), { size: 72 }); line(ctx, 'PAR AN', 640, 570, t, f('s07', 0.6), { size: 46, dx: 0 });
-        coins(ctx, t, f('s07', 0.6), 5, 220, 780, 780, '');
+        coinsLow(ctx, t, f('s07', 0.6), 5, 200, 800, 650, 800);
+        big(ctx, String(n), 230, 500, t, undefined, { size: 110, color: WHITE }); line(ctx, 'NUITS', 230, 600, t, S('s07'), { size: 50, dx: 0 });
+        big(ctx, '≈ 4,04 CHF', 640, 510, t, f('s07', 0.55), { size: 72 }); line(ctx, 'PAR AN', 640, 600, t, f('s07', 0.6), { size: 46, dx: 0 });
       });
       // s08 : le collègue se cogne
-      block(ctx, t, S('s08'), S('s09'), () => { card(ctx, 520);
-        CHR.emo(ctx, 'person_facepalming', 330, 560, 280, t, S('s08'));
-        CHR.emo(ctx, 'collision', 470, 450, 170, t, f('s08', 0.35));
-        big(ctx, '4 CHF', 720, 520, t, f('s08', 0.5), { size: 100 }); line(ctx, 'PAR AN', 720, 620, t, f('s08', 0.55), { size: 46, dx: 0 });
-        tag(ctx, 'ÉCONOMISÉS DANS LE NOIR', 500, 770, t, f('s08', 0.6), { size: 36 });
+      block(ctx, t, S('s08'), S('s09'), () => { card(ctx, 560);
+        ex8(ctx, 500, 372, t, S('s08'));
+        CHR.emo(ctx, 'person_facepalming', 320, 600, 260, t, S('s08'));
+        CHR.emo(ctx, 'collision', 460, 510, 150, t, f('s08', 0.35));
+        big(ctx, '4 CHF', 720, 560, t, f('s08', 0.5), { size: 100 }); line(ctx, 'PAR AN', 720, 660, t, f('s08', 0.55), { size: 46, dx: 0 });
+        tag(ctx, 'ÉCONOMISÉS DANS LE NOIR', 500, 805, t, f('s08', 0.6), { size: 36 });
       });
       // s09 : surprise, durée de vie annoncée
-      block(ctx, t, S('s09'), S('s10'), () => { card(ctx, 520);
-        stamp(ctx, 'SURPRISE', 500, 380, t, S('s09'), { size: 48 });
-        big(ctx, '25 000 h', 500, 520, t, f('s09', 0.15), { size: 120, color: WARM });
-        line(ctx, '÷ (8 h × 365)', 500, 640, t, f('s09', 0.45), { size: 54, family: F.mono, weight: 700, dx: 0 });
-        big(ctx, '≈ 8,5 ANS', 500, 750, t, f('s09', 0.65), { size: 96 });
+      block(ctx, t, S('s09'), S('s10'), () => { card(ctx, 560);
+        stamp(ctx, 'SURPRISE', 500, 375, t, S('s09'), { size: 48 });
+        big(ctx, '25 000 h', 500, 490, t, f('s09', 0.15), { size: 110, color: WARM });
+        line(ctx, '÷ (8 h × 365)', 500, 590, t, f('s09', 0.45), { size: 52, family: F.mono, weight: 700, dx: 0 });
+        big(ctx, '> 8 ANS', 500, 690, t, f('s09', 0.65), { size: 96 });
+        ex8(ctx, 500, 800, t, f('s09', 0.45));
       });
       // s10 : l'ancêtre 60 W
       block(ctx, t, S('s10'), S('s11'), () => { card(ctx, 520);
@@ -131,12 +157,13 @@
         big(ctx, '60 W', 280, 375, t, S('s10') + 0.15, { size: 90, color: RED });
         line(ctx, 'MÊME LUMIÈRE', 670, 470, t, f('s10', 0.3), { size: 54, dx: 0 });
         big(ctx, '806 lm', 670, 570, t, f('s10', 0.4), { size: 90, color: WARM });
-        tag(ctx, 'RÈGL. (CE) 244/2009', 670, 700, t, f('s10', 0.6), { size: 36 });
+        src(ctx, ['ANCIEN RÈGL.', '(CE) 244/2009'], 670, 720, t, f('s10', 0.6), { size: 40 });
       });
       // s11 : × 12
-      block(ctx, t, S('s11'), S('s12'), () => { card(ctx, 520);
-        bars(ctx, [{ label: 'LED 5 W · 14,6 kWh', v: 4.04 / 48.53, value: '4,04 CHF', color: GOLD, t0: S('s11') }, { label: 'Ancienne 60 W · 175,2 kWh', v: 1, value: '48,53 CHF', color: RED, t0: S('s11') + 0.35 }], 120, 370, 760, t, { rh: 180 });
-        stamp(ctx, '× 12', 500, 755, t, f('s11', 0.45), { size: 90, color: RED });
+      block(ctx, t, S('s11'), S('s12'), () => { card(ctx, 560);
+        ex8(ctx, 500, 372, t, S('s11'));
+        bars(ctx, [{ label: 'LED 5 W · 14,6 kWh', v: 4.04 / 48.53, value: '4,04 CHF', color: GOLD, t0: S('s11') }, { label: 'Ancienne 60 W · 175,2 kWh', v: 1, value: '48,53 CHF', color: RED, t0: S('s11') + 0.35 }], 120, 450, 760, t, { rh: 165 });
+        stamp(ctx, '× 12', 500, 800, t, f('s11', 0.45), { size: 76, color: RED });
       });
       // s12 : conseil, lumens sur la boîte
       block(ctx, t, S('s12'), S('s13'), () => { card(ctx, 520);
