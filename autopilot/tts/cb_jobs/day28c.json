@@ -1,0 +1,1 @@
+{"engine": "chatterbox", "lang": "fr", "ref": "autopilot/tts/refs/tom_ref.wav", "exaggeration": 0.55, "cfg": 0.5, "temperature": 0.8, "seed": 11, "segments": [{"id": "s03", "text": "Sans couvercle, une grande partie de l'énergie s'évapore avec ma vapeur."}, {"id": "s04", "text": "Selon le programme Suisse Énergie, le couvercle fait économiser trente pour cent d'énergie."}]}
