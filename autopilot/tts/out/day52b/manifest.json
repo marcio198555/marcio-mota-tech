@@ -1,0 +1,29 @@
+{
+ "job": "day52b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s03",
+   "text": "Souvent, le gros chiffre, c'est le réglage le plus faible, avec l'accessoire le plus simple.",
+   "file": "s03.wav",
+   "duration": 6.76,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "En turbo : jusqu'à onze. Plus de sept fois moins que les quatre-vingts minutes de la fiche.",
+   "file": "s08.wav",
+   "duration": 5.8,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Avant d'acheter, cherche l'autonomie en mode turbo sur la fiche technique, pas le gros chiffre.",
+   "file": "s10.wav",
+   "duration": 6.24,
+   "rate": 24000
+  }
+ ],
+ "total": 18.8
+}
