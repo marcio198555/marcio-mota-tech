@@ -1,0 +1,113 @@
+{
+ "job": "day34",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu charges en mode avion. Ton collègue continue de scroller.",
+   "file": "s01.wav",
+   "duration": 4.68,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Lequel charge le plus vite ?",
+   "file": "s02.wav",
+   "duration": 2.72,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Reste : à la fin, tu sauras ce qui ralentit ta charge.",
+   "file": "s03.wav",
+   "duration": 4.2,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Le mode avion coupe le réseau mobile. Google le conseille quand tu n'en as pas besoin.",
+   "file": "s04.wav",
+   "duration": 5.32,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Selon l'Office fédéral de la santé publique, ton téléphone émet surtout pendant un appel ou un transfert de données.",
+   "file": "s05.wav",
+   "duration": 7.32,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Au repos, juste un signal toutes les quelques minutes : le mode avion a alors peu à couper.",
+   "file": "s06.wav",
+   "duration": 5.88,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Ton collègue, écran allumé ? Selon Xiaomi, la charge est plus lente.",
+   "file": "s07.wav",
+   "duration": 5.12,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Honor conseille de ne pas l'utiliser en charge, surtout pour un gros jeu.",
+   "file": "s08.wav",
+   "duration": 5.6,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : trop chaud, il peut mettre la charge en pause, selon Google.",
+   "file": "s09.wav",
+   "duration": 5.64,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "En francs ? Batterie d'exemple de dix-neuf wattheures : environ un demi-centime la charge.",
+   "file": "s10.wav",
+   "duration": 6.2,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Une charge par jour, toute l'année : environ deux francs.",
+   "file": "s11.wav",
+   "duration": 4.88,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Alors : écran éteint, pas de jeu, pas au soleil.",
+   "file": "s12.wav",
+   "duration": 4.16,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Tu charges en mode avion ? Écris-le en commentaire.",
+   "file": "s13.wav",
+   "duration": 4.16,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Toi : un petit plus, peut-être. Ton collègue : écran allumé, charge plus lente.",
+   "file": "s14.wav",
+   "duration": 6.2,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, ta télé soixante-cinq pouces : cent soixante-cinq centimètres de large ?",
+   "file": "s15.wav",
+   "duration": 6.24,
+   "rate": 24000
+  }
+ ],
+ "total": 78.32
+}
