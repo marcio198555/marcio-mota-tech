@@ -94,7 +94,7 @@
         sine(930, 150, G24, 55, 0.6, f('s04', 0.3));
         line(ctx, '5 GHz', 110, 500, t, S('s04') + 0.1, { size: 54, color: G5, align: 'left', family: F.mono, weight: 700 });
         line(ctx, '2,4 GHz', 110, 830, t, f('s04', 0.3), { size: 54, color: G24, align: 'left', family: F.mono, weight: 700 });
-        tag(ctx, 'SCHÉMA', 840, 1150, t, f('s04', 0.5), { size: 38 });
+        tag(ctx, 'SCHÉMA', 840, 1150, t, S('s04'), { size: 38 });
       });
       // 20 m / 15 m
       block(ctx, t, S('s05'), S('s06'), () => {
@@ -126,7 +126,7 @@
         stamp(ctx, '× 10', 500, 560, t, f('s08', 0.15), { size: 130, color: G5 });
         router(ctx, 230, 860, 0.8, t); wall(ctx, 560, 690, 1040, 60);
         waves(ctx, 230, 850, 600, G5, t, { wx: 560, loss: 0.85, gap: 38, lw: 10, spread: 0.5 });
-        stamp(ctx, 'QUAND MÊME MOINS BIEN', 500, 1130, t, f('s08', 0.55), { size: 46 });
+        stamp(ctx, 'À PUISSANCE ÉGALE : MOINS LOIN', 500, 1130, t, f('s08', 0.55), { size: 40 });
       });
       // micro-ondes
       block(ctx, t, S('s09'), S('s10'), () => {

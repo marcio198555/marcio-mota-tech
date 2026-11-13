@@ -152,7 +152,7 @@
           const ph = ((t - S('s03')) * 0.8 + i / 3) % 1, x = 300 + i * 200, y = lerp(740, 480, ph);
           ctx.save(); ctx.globalAlpha *= Math.sin(ph * Math.PI); text(ctx, '⚡', x, y, { size: 70, family: F.emoji, weight: 400 }); ctx.restore();
         }
-        tag(ctx, 'L\'ÉNERGIE PART AVEC LA VAPEUR', 500, 790, t, f('s03', 0.4), { color: HOT });
+        tag(ctx, 'UNE GRANDE PARTIE PART EN VAPEUR', 500, 790, t, f('s03', 0.4), { color: HOT });
       });
       block(ctx, t, S('s04'), S('s05'), () => { card(ctx, 520);
         tag(ctx, 'SUISSEENERGIE · OFEN', 500, 370, t, S('s04'), { color: GOLD });
