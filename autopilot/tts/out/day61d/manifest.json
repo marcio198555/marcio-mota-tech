@@ -1,0 +1,15 @@
+{
+ "job": "day61d",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s04",
+   "text": "Je suis une ampoule èl-eu-dé du commerce : huit cent six lumens, cinq watts sur ma fiche.",
+   "file": "s04.wav",
+   "duration": 5.68,
+   "rate": 24000
+  }
+ ],
+ "total": 5.68
+}
