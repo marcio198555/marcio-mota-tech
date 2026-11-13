@@ -1,0 +1,29 @@
+{
+ "job": "day75c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s04",
+   "text": "Ma batterie, comme sur un vrai modèle du commerce : quatorze virgule quatre volts, cinq mille deux cents milliampères-heure.",
+   "file": "s04.wav",
+   "duration": 7.48,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Sur un an : jusqu'à quatre francs quatre-vingt-cinq.",
+   "file": "s10.wav",
+   "duration": 3.68,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Conseil : programme-moi les jours utiles, et éteins-moi pendant tes vacances.",
+   "file": "s13.wav",
+   "duration": 4.92,
+   "rate": 24000
+  }
+ ],
+ "total": 16.08
+}
