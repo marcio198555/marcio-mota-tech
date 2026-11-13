@@ -4,7 +4,7 @@ Format V, 13.11.2026 à 10 h (annoncée par la vidéo 24). Sources lues le 13.11
 | Fait | Valeur | URL | Statut |
 |---|---|---|---|
 | Économie par degré | « Chaque degré de température en moins dans les locaux représente une économie de 6% des frais de chauffage. » | https://pubdb.bfe.admin.ch/fr/publication/download/7190 (SuisseEnergie/OFEN, « Economiser l'énergie au quotidien », 06.2021) | officiel |
-| Degré en plus | « une augmentation d'un degré de la température ambiante correspond à une augmentation de 6% des frais de chauffage » | https://localenergy2.mironet.ch/fr/dam/jcr:e5254bc7-267b-4e55-b2cd-e823097148dd/heizen_mit_kopfchen_fr_web_1.pdf (SuisseEnergie, « Chauffez futé », 02.2011) | officiel |
+| Degré en plus | « une augmentation d'un degré de la température ambiante correspond à une augmentation de 6% des frais de chauffage » | SuisseEnergie, « Chauffez futé », 02.2011 (lien d'origine mort au contrôle) ; « chaque degré supplémentaire augmente les coûts de chauffage de 6–10% » : https://pubdb.bfe.admin.ch/fr/publication/download/11329 ; 23 °C salle de bain : https://www.suisseenergie.ch/stories/chauffer-fute/ | officiel |
 | Températures | séjour 20 °C (position 3), chambres 17 °C (position 2), salle de bain 23 °C (position 4) | mêmes documents (7190 et « Chauffez futé ») | officiel, valeurs indicatives |
 | Courbe de chauffe | « Règle générale: abaisser la courbe de 3 °C fait baisser la température ambiante de 1 °C. » | https://pubdb.bfe.admin.ch/fr/publication/download/11329 (SuisseEnergie, optimisation de l'exploitation du chauffage, 07.2022) | officiel |
 

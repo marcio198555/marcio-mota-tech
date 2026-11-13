@@ -31,15 +31,15 @@
     draw(ctx, t) {
       background(ctx, t);
       block(ctx, t, 0, S('s02'), () => {
-        depth(ctx, 760, 520, 1180, 1, t);
-        watch(ctx, 330, 800, 1.25 + 0.02 * Math.sin(t * 2), t);
+        depth(ctx, 650, 520, 1180, 1, t);
+        watch(ctx, 290, 800, 1.25 + 0.02 * Math.sin(t * 2), t);
         head(ctx, 'ÉTANCHE 50 m ?', 380, t, undefined, { size: 64, color: CYAN });
-        big(ctx, '?', 760, 1080, t, undefined, { size: 150, color: RED });
+        big(ctx, '?', 650, 1080, t, undefined, { size: 150, color: RED });
       });
       block(ctx, t, S('s02'), S('s03'), () => {
         stamp(ctx, 'NON', 500, 400, t, S('s02'), { size: 110 });
-        depth(ctx, 500, 540, 1150, 1, t);
-        stamp(ctx, 'PLONGÉE À 50 m ✗', 500, 1000, t, f('s02', 0.4), { size: 64 });
+        depth(ctx, 470, 540, 1000, 1, t);
+        stamp(ctx, 'PLONGÉE À 50 m ✗', 500, 1130, t, f('s02', 0.4), { size: 64 });
       });
       block(ctx, t, S('s03'), S('s04'), () => {
         line(ctx, '50 m =', 500, 420, t, S('s03'), { size: 90, weight: 900, color: GOLD, dx: 0 });
@@ -61,7 +61,8 @@
         tag(ctx, 'EN MOUVEMENT · SELON CASIO', 500, 360, t, S('s06'), { size: 40, color: GOLD });
         const k = ease.out(prog(t, f('s06', 0.2), 0.8));
         roundRect(ctx, 200, 820, 180, 120, 14); ctx.fillStyle = CYAN; ctx.fill(); text(ctx, 'TEST', 290, 1000, { size: 44, weight: 800, color: WHITE });
-        const h = lerp(120, 460, k); roundRect(ctx, 620, 940 - h, 180, h, 14); ctx.fillStyle = RED; ctx.fill(); text(ctx, 'EN MOUVEMENT', 710, 1000, { size: 44, weight: 800, color: WHITE });
+        const h = lerp(120, 460, k); roundRect(ctx, 620, 940 - h, 180, h, 14); ctx.fillStyle = RED; ctx.fill(); tag(ctx, 'SCHÉMA', 500, 760, t, S('s06'), { size: 36 });
+        text(ctx, 'EN MOUVEMENT', 710, 1000, { size: 44, weight: 800, color: WHITE });
         line(ctx, 'PLUSIEURS FOIS PLUS', 500, 1110, t, f('s06', 0.6), { size: 56, weight: 900, color: RED, dx: 0 });
       });
       block(ctx, t, S('s07'), S('s08'), () => {
@@ -95,7 +96,7 @@
         line(ctx, "LES JOINTS S'USENT", 500, 950, t, f('s11', 0.4), { size: 66, weight: 900, color: GOLD, dx: 0 });
       });
       block(ctx, t, S('s12'), S('s13'), () => { comment(ctx, t, S('s12'), ['Ta montre,', 'elle affiche combien ?', 'WR · ATM · bar ?'], { color: CYAN }); });
-      block(ctx, t, S('s13'), END + 1, () => followCTA(ctx, t, S('s13'), { when: 'CE SOIR', next: ['Wi-Fi 2,4 ou 5 GHz : lequel', 'traverse les murs ?'] }));
+      block(ctx, t, S('s13'), END + 1, () => followCTA(ctx, t, S('s13'), { when: 'CE SOIR', next: ['Wi-Fi 2,4 ou 5 GHz :', 'lequel traverse les murs ?'] }));
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });
     }

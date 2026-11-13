@@ -1,0 +1,96 @@
+{
+ "duration": 55.362,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton téléphone fait des photos de deux cents mégapixels ?",
+   "start": 0.12,
+   "end": 2.998,
+   "display": "Ton téléphone fait des photos | de 200 mégapixels ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non. Pour son Redmi Note douze Pro plus, Chaomi l'écrit : par défaut, douze virgule cinq.",
+   "start": 3.098,
+   "end": 9.55,
+   "display": "Non. Xiaomi, Redmi Note 12 Pro+ : | par défaut, 12,5 mégapixels."
+  },
+  {
+   "id": "s03",
+   "text": "Les deux cents s'activent à part, dans le menu ultra ache-dé.",
+   "start": 9.65,
+   "end": 13.237,
+   "display": "Les 200 s'activent à part, | dans le menu Ultra HD."
+  },
+  {
+   "id": "s04",
+   "text": "Pourquoi ? Le capteur regroupe ses pixels.",
+   "start": 13.337,
+   "end": 15.856,
+   "display": "Pourquoi ? | Le capteur regroupe ses pixels."
+  },
+  {
+   "id": "s05",
+   "text": "Sur le Redmi Note quinze Pro, Chaomi annonce seize pixels en un.",
+   "start": 15.956,
+   "end": 20.455,
+   "display": "Redmi Note 15 Pro : | 16 pixels en 1."
+  },
+  {
+   "id": "s06",
+   "text": "Deux cents divisé par seize : douze virgule cinq.",
+   "start": 20.555,
+   "end": 24.816,
+   "display": "200 ÷ 16 = 12,5"
+  },
+  {
+   "id": "s07",
+   "text": "Chaque pixel regroupé est quatre fois plus large.",
+   "start": 24.916,
+   "end": 27.972,
+   "display": "Chaque pixel regroupé : | 0,56 → 2,24 micromètres (× 4)"
+  },
+  {
+   "id": "s08",
+   "text": "Verdict : deux cents mégapixels, c'est le capteur, pas chaque photo.",
+   "start": 28.072,
+   "end": 32.716,
+   "display": "Verdict : 200 Mpx, c'est le capteur, | pas chaque photo."
+  },
+  {
+   "id": "s09",
+   "text": "Conseil : vérifie la résolution dans les réglages photo.",
+   "start": 32.816,
+   "end": 36.462,
+   "display": "Conseil : vérifie la résolution | dans les réglages photo."
+  },
+  {
+   "id": "s10",
+   "text": "Bonus : sur le Onor quatre cents, il faut aussi un mode haute résolution.",
+   "start": 36.562,
+   "end": 41.318,
+   "display": "Bonus : Honor 400 : | 200 Mpx = mode HIGH-RES à activer."
+  },
+  {
+   "id": "s11",
+   "text": "Et Onor précise : les pixels réels varient selon le mode.",
+   "start": 41.418,
+   "end": 45.455,
+   "display": "Honor : les pixels réels | varient selon le mode."
+  },
+  {
+   "id": "s12",
+   "text": "Le tien, il est réglé sur combien ? Écris-le en commentaire.",
+   "start": 45.555,
+   "end": 49.978,
+   "display": "Le tien est réglé sur combien ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Et abonne-toi : ce soir, Netflix en Suisse ou en France, qui paie le plus ?",
+   "start": 50.078,
+   "end": 55.062,
+   "display": "Abonne-toi : ce soir, Netflix | en Suisse ou en France, qui paie le plus ?"
+  }
+ ]
+}

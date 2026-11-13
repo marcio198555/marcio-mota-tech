@@ -12,13 +12,17 @@
   "s10": "17 °C : position 2. | Salle de bain, 23 °C : position 4.",
   "s11": "Chauffage central, règle générale : | courbe −3 °C = pièce −1 °C.",
   "s12": "Ta vanne est sur quel chiffre ? | Écris-le en commentaire.",
-  "s13": "Toi à 21, ton collègue à 20 : | 60 francs d'écart, dans cet exemple.",
-  "s14": "Abonne-toi : ce soir, pourquoi le centre | de ton plat reste froid au micro-ondes."
+  "s13": "Toi à 21, | ton collègue à 20 : | 60 francs d'écart, dans cet exemple.",
+  "s14": "Abonne-toi : ce soir, | pourquoi le centre de ton plat | reste froid au micro-ondes."
  },
  "title": "Baisser le chauffage d'un degré : combien tu économises vraiment ?",
  "slug": "chauffage-1-degre",
  "format": "V",
  "caption": "Un degré de moins au chauffage = 6 % de frais de chauffage en moins, selon SuisseEnergie 🌡️ Exemple : avec 1 000 francs de chauffage par an, environ 60 francs gardés. SuisseEnergie conseille 20 °C au séjour (position 3 de la vanne), 17 °C dans la chambre (position 2) et 23 °C à la salle de bain (position 4) ; règle générale : baisser la courbe de chauffe de 3 °C baisse la pièce de 1 °C. Voix de synthèse. Ta vanne thermostatique est sur quel chiffre, là ? 👇 #chauffage #economiedenergie #vannethermostatique #suisseromande #astucemaison",
  "reel_caption": "Chauffage : un degré de moins, 6 % de frais de chauffage en moins (SuisseEnergie)\n\nSuisseEnergie (Confédération) : « Chaque degré de température en moins dans les locaux représente une économie de 6 % des frais de chauffage. » Exemple : 1 000 francs de chauffage par an → environ 60 francs.\n\nTempératures conseillées : séjour 20 °C (position 3 de la vanne), chambre 17 °C (position 2), salle de bain 23 °C (position 4).\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#chauffage #economiedenergie #astucemaison #suisseromande #jemesuretout",
- "sources": ["https://pubdb.bfe.admin.ch/fr/publication/download/7190","https://localenergy2.mironet.ch/fr/dam/jcr:e5254bc7-267b-4e55-b2cd-e823097148dd/heizen_mit_kopfchen_fr_web_1.pdf","https://pubdb.bfe.admin.ch/fr/publication/download/11329"]
+ "sources": [
+  "https://pubdb.bfe.admin.ch/fr/publication/download/7190",
+  "https://www.suisseenergie.ch/stories/chauffer-fute/",
+  "https://pubdb.bfe.admin.ch/fr/publication/download/11329"
+ ]
 }

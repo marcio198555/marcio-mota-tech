@@ -22,7 +22,7 @@
     ctx.restore();
   }
   function room(ctx, cx, temp, col, t, o = {}) {
-    big(ctx, temp + ' °C', cx, 590, t, o.t0, { size: 96, color: col });
+    big(ctx, temp + ' °C', cx, 590, t, o.t0, { size: 96, color: col });
     thermometer(ctx, cx, 950, 270, (temp - 14) / 10, col);
   }
   window.SCENE = {
@@ -34,7 +34,7 @@
         head(ctx, 'COMBIEN IL GAGNE ?', 360, t, undefined, { size: 58, color: HOT });
         duelFrame(ctx, { y0: 470 });
         room(ctx, 275, 21, HOT, t); room(ctx, 725, 20, COOL, t);
-        radiator(ctx, 275, 1040 + 6 * Math.sin(t * 2), 300, 0.9); radiator(ctx, 725, 1040, 300, 0.6);
+        radiator(ctx, 275, 1075 + 6 * Math.sin(t * 2), 300, 0.9); radiator(ctx, 725, 1075, 300, 0.6);
         text(ctx, '?', 500, 820, { size: 120, weight: 900, color: GOLD, alpha: 0.6 + 0.4 * Math.sin(t * 5) });
       });
       block(ctx, t, S('s02'), S('s03'), () => {
@@ -47,34 +47,36 @@
       });
       block(ctx, t, S('s04'), S('s05'), () => {
         line(ctx, '1 °C EN MOINS', 500, 420, t, S('s04'), { size: 76, weight: 900, color: COOL, dx: 0 });
-        big(ctx, '−6 %', 500, 680, t, f('s04', 0.4), { size: 240, color: GREEN });
+        big(ctx, '−6 %', 500, 680, t, f('s04', 0.4), { size: 240, color: GREEN });
         tag(ctx, 'DE FRAIS DE CHAUFFAGE', 500, 900, t, f('s04', 0.55), { size: 42 });
         tag(ctx, 'SUISSEENERGIE, 2021', 500, 1000, t, f('s04', 0.7), { size: 36, color: GOLD });
       });
       block(ctx, t, S('s05'), S('s06'), () => {
         stamp(ctx, 'EXEMPLE', 500, 380, t, S('s05'), { size: 56, color: GOLD, rot: -0.04 });
         calc(ctx, ['1 000 CHF / an', '× 6 %', '= 60 CHF'], 500, 530, t, [f('s05', 0.15), f('s05', 0.4), f('s05', 0.65)], { lastSize: 150 });
-        coins(ctx, t, f('s05', 0.72), 6, 250, 750, 1180, 'CHF');
+        coins(ctx, t, f('s05', 0.72), 4, 250, 750, 1180, 'CHF');
       });
       block(ctx, t, S('s06'), S('s07'), () => {
-        big(ctx, '60 CHF', 500, 560, t, undefined, { size: 170, color: GREEN });
+        stamp(ctx, 'EXEMPLE', 500, 380, t, S('s06'), { size: 56, color: GOLD, rot: -0.04 });
+        big(ctx, '60 CHF', 500, 560, t, undefined, { size: 170, color: GREEN });
         line(ctx, 'POUR 1 SEUL DEGRÉ', 500, 760, t, S('s06') + 0.1, { size: 64, weight: 900, dx: 0 });
         stamp(ctx, 'RIEN À ACHETER', 500, 960, t, f('s06', 0.5), { size: 60, color: GREEN });
       });
       block(ctx, t, S('s07'), S('s08'), () => {
         line(ctx, '1 °C EN PLUS', 500, 420, t, S('s07'), { size: 76, weight: 900, color: HOT, dx: 0 });
-        big(ctx, '+6 %', 500, 680, t, f('s07', 0.4), { size: 240, color: RED });
+        big(ctx, '+6 %', 500, 680, t, f('s07', 0.4), { size: 240, color: RED });
         thermometer(ctx, 860, 860, 300, 0.5 + 0.4 * ease.out(prog(t, f('s07', 0.3), 0.8)), HOT);
+        tag(ctx, 'SUISSEENERGIE : 6 À 10 % PAR DEGRÉ EN PLUS', 470, 1080, t, f('s07', 0.6), { size: 36, color: GOLD });
       });
       block(ctx, t, S('s08'), S('s09'), () => {
         stamp(ctx, 'SURPRISE', 500, 380, t, S('s08'), { size: 76 });
         CHR.emo(ctx, 'bed', 500, 650, 300, t, f('s08', 0.2));
-        big(ctx, '17 °C', 380, 1000, t, f('s08', 0.5), { size: 130, color: COOL });
+        big(ctx, '17 °C', 380, 1000, t, f('s08', 0.5), { size: 130, color: COOL });
         line(ctx, 'pas 20', 740, 1000, t, f('s08', 0.65), { size: 70, weight: 900, color: RED, dx: 0 });
       });
       block(ctx, t, S('s09'), S('s10'), () => {
         CHR.emo(ctx, 'couch_and_lamp', 270, 640, 260, t, S('s09'));
-        big(ctx, '20 °C', 270, 900, t, f('s09', 0.2), { size: 110, color: GOLD });
+        big(ctx, '20 °C', 270, 900, t, f('s09', 0.2), { size: 110, color: GOLD });
         valve(ctx, 700, 700, 190, 3, { color: GOLD });
         tag(ctx, 'POSITION 3', 700, 1000, t, f('s09', 0.5), { size: 44, color: GOLD });
       });
@@ -89,7 +91,7 @@
         // courbe de chauffe qui descend
         const k = ease.inOut(prog(t, f('s11', 0.3), 0.7));
         ctx.save(); ctx.strokeStyle = 'rgba(255,255,255,0.3)'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(150, 480); ctx.lineTo(150, 840); ctx.lineTo(860, 840); ctx.stroke();
-        ctx.lineWidth = 12; ctx.lineCap = 'round'; ctx.strokeStyle = HOT; ctx.beginPath(); ctx.moveTo(170, 520 + 60 * k); ctx.lineTo(840, 780 + 40 * k); ctx.stroke(); ctx.restore();
+        ctx.lineWidth = 12; ctx.lineCap = 'round'; ctx.strokeStyle = HOT; ctx.beginPath(); ctx.moveTo(170, 520 + 120 * k); ctx.lineTo(840, 760 + 60 * k); ctx.stroke(); ctx.restore();
         big(ctx, 'COURBE −3 °C', 500, 960, t, f('s11', 0.35), { size: 86, color: HOT, family: F.display });
         big(ctx, 'PIÈCE −1 °C', 500, 1090, t, f('s11', 0.65), { size: 86, color: COOL, family: F.display });
       });
@@ -98,7 +100,7 @@
         head(ctx, '60 CHF D\'ÉCART · EXEMPLE', 360, t, f('s13', 0.4), { size: 52, color: GREEN });
         duelFrame(ctx, { y0: 470 });
         room(ctx, 275, 21, HOT, t); room(ctx, 725, 20, COOL, t);
-        radiator(ctx, 275, 1040, 300, 0.9); radiator(ctx, 725, 1040, 300, 0.6);
+        radiator(ctx, 275, 1075, 300, 0.9); radiator(ctx, 725, 1075, 300, 0.6);
       });
       block(ctx, t, S('s14'), END + 1, () => followCTA(ctx, t, S('s14'), { when: 'CE SOIR', next: ['micro-ondes : pourquoi le centre', 'de ton plat reste froid ?'] }));
       brand(ctx, t);
