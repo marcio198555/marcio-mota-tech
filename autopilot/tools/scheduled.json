@@ -138,5 +138,33 @@
  "24": {
   "status": "prête",
   "when": "18:00"
+ },
+ "25": {
+  "status": "programmée",
+  "when": "10:00"
+ },
+ "73": {
+  "status": "prête",
+  "when": "10:00"
+ },
+ "49": {
+  "status": "programmée",
+  "when": "10:00"
+ },
+ "42": {
+  "status": "programmée",
+  "when": "10:00"
+ },
+ "52": {
+  "status": "programmée",
+  "when": "10:00"
+ },
+ "40": {
+  "status": "programmée",
+  "when": "10:00"
+ },
+ "50": {
+  "status": "programmée",
+  "when": "10:00"
  }
 }
