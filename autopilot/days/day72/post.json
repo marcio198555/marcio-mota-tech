@@ -1,0 +1,40 @@
+{
+ "day": 72,
+ "title": "Netflix : combien plus cher en Suisse qu'en France ?",
+ "format": "V",
+ "recette": "Vérité du quotidien en francs (bloc du 05.11, point 2 bis ; bloc du 13.11)",
+ "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/e1045ab59ca0e4b1ccc688cca6c70fd69130b8ae/media/day72_netflix-suisse-france.mp4",
+ "story_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/e1045ab59ca0e4b1ccc688cca6c70fd69130b8ae/media/stories/day72_story.mp4",
+ "heure": "18:00",
+ "date": "2026-11-16",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "prête",
+ "tiktok_title": "Netflix : combien plus cher en Suisse qu'en France ?",
+ "caption": "Netflix Standard : 22,90 CHF par mois en Suisse, 14,99 € en France 📺 Soit 13,83 CHF au cours BNS du 12.11.2026 (1 € = 0,9228 CHF) : environ 66 % de plus en Suisse, près de 109 francs par an. La page suisse ne liste aucune offre avec pub (la moins chère : Essentiel, 14,90 CHF), la France a « Standard avec pub » à 7,99 €. Hors TVA (8,1 % et 20 %, calcul), l'écart grandit. Prix des pages d'aide Netflix relevés le 13.11.2026. Voix de synthèse. Et toi, tu paies quelle offre, et dans quel pays ? #netflix #suissecontrefrance #abonnementstreaming #netflixsuisse #suisseromande",
+ "duree_s": 69.0,
+ "story_instagram": {
+  "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/e1045ab59ca0e4b1ccc688cca6c70fd69130b8ae/media/stories/day72_story.mp4",
+  "programme_le": "2026-11-16T18:05:00+01:00",
+  "buffer_id": null
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-16T19:00",
+  "coupe_s": 61.167,
+  "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/e1045ab59ca0e4b1ccc688cca6c70fd69130b8ae/media/reels/day72_reel.mp4",
+  "caption": "Netflix en Suisse ou en France : même offre Standard, combien d'écart ?\n\nPages d'aide Netflix relevées le 13.11.2026 : Standard à 22,90 CHF par mois en Suisse, 14,99 € en France, soit 13,83 CHF au cours BNS du 12.11.2026 (1 € = 0,9228 CHF). Environ 66 % de plus en Suisse : 274,80 CHF par an contre 166, près de 109 francs d'écart.\n\nLa page suisse ne liste aucune offre avec pub : la moins chère est l'Essentiel à 14,90 CHF. En France, « Standard avec pub » coûte 7,99 €, et l'Essentiel n'est plus proposé. Netflix indique que la TVA est comprise ; en retirant les taux normaux (8,1 % et 20 %, notre calcul), l'écart passe à environ 84 %. La 4K n'existe qu'en Premium (29,90 CHF).\n\nAnimation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui vit de l'autre côté de la frontière.\n\n#netflix #suissecontrefrance #streaming #suisseromande #jemesuretout",
+  "statut": "en attente",
+  "cta": "envoi"
+ },
+ "sources": [
+  "https://help.netflix.com/fr-ch/node/24926",
+  "https://help.netflix.com/fr-fr/node/24926",
+  "https://help.netflix.com/fr/node/50068",
+  "https://www.snb.ch/public/rss/fr/exchangeRates",
+  "https://www.estv.admin.ch/fr/taux-de-la-tva-suisse",
+  "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mes-autres-impots-et-taxes/tva-quels-sont-les-taux-de-votre-quotidien"
+ ],
+ "cloudinary_a_faire": true,
+ "note": "13.11 : Cloudinary et Buffer en panne (connecteurs, 502/503) pendant la production : URLs GitHub raw provisoires. Téléverser d'abord sur Cloudinary (upload-asset depuis video_url, story_url et reel_instagram.video_url, public_id tiktok-autopilot/dayNN_slug, stories/dayNN_story, reels/dayNN_reel), remplacer les URLs, puis Buffer."
+}

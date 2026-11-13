@@ -1,0 +1,38 @@
+{
+ "day": 61,
+ "title": "Une ampoule LED allumée toute la nuit, ça coûte combien ?",
+ "format": "A",
+ "recette": "Vérité du quotidien en francs (bloc du 05.11, point 2 bis ; bloc du 13.11)",
+ "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/00fe8b438c836620ec42659cfbd28ce48b55deba/media/day61_ampoule-led-nuit.mp4",
+ "story_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/00fe8b438c836620ec42659cfbd28ce48b55deba/media/stories/day61_story.mp4",
+ "heure": "18:00",
+ "date": "2026-11-15",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "prête",
+ "tiktok_title": "Une ampoule LED allumée toute la nuit, ça coûte combien ?",
+ "caption": "Ampoule LED allumée toute la nuit : environ 4 francs par an 💡 Exemple d'une LED 806 lm de 5 W (fiche fabricant), 8 h par nuit : 40 Wh, 1,1 ct la nuit, 14,6 kWh et 4,04 CHF par an au tarif médian ElCom 2026 hors TVA. Une vieille ampoule de 60 W, même lumière selon l'ancien règlement européen 244/2009 : 12 fois plus, environ 48,50 CHF par an. Ampoule dessinée fictive, voix de synthèse. Tu laisses quelle lumière allumée la nuit ? 👇 #ampouleled #electricite #economiedenergie #astucemaison #suisseromande",
+ "duree_s": 68.97,
+ "story_instagram": {
+  "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/00fe8b438c836620ec42659cfbd28ce48b55deba/media/stories/day61_story.mp4",
+  "programme_le": "2026-11-15T18:05:00+01:00",
+  "buffer_id": null
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-15T19:00",
+  "coupe_s": 61.997,
+  "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/00fe8b438c836620ec42659cfbd28ce48b55deba/media/reels/day61_reel.mp4",
+  "caption": "Ampoule LED allumée toute la nuit : combien ça coûte vraiment en francs ?\n\nExemple : une LED de 806 lumens à 5 W (fiche du fabricant), allumée 8 heures par nuit. 40 Wh par nuit, un peu plus d'un centime ; 14,6 kWh et environ 4 CHF par an, au tarif médian ElCom 2026 hors TVA (27,7 ct/kWh). Sa fiche annonce 25 000 heures : plus de 8 ans à ce rythme.\n\nUne vieille ampoule de 60 W donne la même lumière selon l'ancien règlement européen 244/2009 : 12 fois plus, environ 48,50 CHF par an. À l'achat, regarde les lumens, pas les watts.\n\nAmpoule dessinée fictive, voix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#ampouleled #electricite #economiedenergie #suisseromande #jemesuretout",
+  "statut": "en attente",
+  "cta": "abonnement"
+ },
+ "sources": [
+  "https://www.ikea.com/ch/en/p/solhetta-led-bulb-e27-806-lumen-globe-opal-white-10591511/",
+  "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32009R0244",
+  "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32019R2020",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu"
+ ],
+ "cloudinary_a_faire": true,
+ "note": "13.11 : Cloudinary et Buffer en panne (connecteurs, 502/503) pendant la production : URLs GitHub raw provisoires. Téléverser d'abord sur Cloudinary (upload-asset depuis video_url, story_url et reel_instagram.video_url, public_id tiktok-autopilot/dayNN_slug, stories/dayNN_story, reels/dayNN_reel), remplacer les URLs, puis Buffer."
+}

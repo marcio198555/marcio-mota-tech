@@ -1,0 +1,40 @@
+{
+ "day": 34,
+ "title": "Le mode avion fait-il charger plus vite ton téléphone ?",
+ "format": "V",
+ "recette": "Vérité du quotidien en francs (bloc du 05.11, point 2 bis ; bloc du 13.11)",
+ "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/a7c99af1be1d0e6ca856b4215161a2c96366e2d3/media/day34_mode-avion-charge.mp4",
+ "story_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/a7c99af1be1d0e6ca856b4215161a2c96366e2d3/media/stories/day34_story.mp4",
+ "heure": "18:00",
+ "date": "2026-11-14",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "prête",
+ "tiktok_title": "Le mode avion fait-il charger plus vite ton téléphone ?",
+ "caption": "Mode avion pour charger plus vite ? Pas si simple ✈️🔋 Selon l'OFSP, un téléphone émet surtout pendant un appel ou un transfert de données, et au repos seulement un signal toutes les quelques minutes. Xiaomi écrit que la charge est plus lente écran allumé, Honor conseille de ne pas utiliser le téléphone en charge, Google qu'il peut mettre la charge en pause s'il chauffe trop. Une charge d'une batterie d'exemple de 19 Wh : environ 0,5 ct au tarif médian ElCom 2026 hors TVA. Voix de synthèse. Toi, tu charges en mode avion ou tu continues de scroller ? 👇 Aucune source ne chiffre l'effet du mode avion sur la vitesse de charge. #modeavion #batterie #smartphone #astucetech #suisseromande",
+ "duree_s": 69.07,
+ "story_instagram": {
+  "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/a7c99af1be1d0e6ca856b4215161a2c96366e2d3/media/stories/day34_story.mp4",
+  "programme_le": "2026-11-14T18:05:00+01:00",
+  "buffer_id": null
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-14T19:00",
+  "coupe_s": 62.536,
+  "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/a7c99af1be1d0e6ca856b4215161a2c96366e2d3/media/reels/day34_reel.mp4",
+  "caption": "Mode avion pendant la charge : ton téléphone charge-t-il plus vite ?\n\nAucune source ne chiffre l'effet du mode avion sur la vitesse de charge.\n\nSelon l'OFSP, un téléphone émet surtout pendant un appel ou un transfert de données ; au repos, il envoie seulement un signal toutes les quelques minutes. Google conseille le mode avion pour la batterie quand on n'a pas besoin du réseau.\n\nXiaomi : la charge est plus lente écran allumé. Honor : évite d'utiliser le téléphone en charge, surtout pour un gros jeu. Google : trop chaud, il peut mettre la charge en pause ; pas en plein soleil.\n\nEn francs : une batterie d'exemple de 19 Wh, environ 0,5 ct la charge, environ 1,92 CHF par an à une charge par jour (tarif médian ElCom 2026 hors TVA, sans les pertes du chargeur).\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui scrolle pendant que son téléphone charge.\n\n#modeavion #smartphone #astucetech #suisseromande #jemesuretout",
+  "statut": "en attente",
+  "cta": "envoi"
+ },
+ "sources": [
+  "https://www.bag.admin.ch/dam/bag/fr/dokumente/str/nis/faktenblaetter-emf/faktenblatt-smartphone.pdf.download.pdf/faktenblatt",
+  "https://support.google.com/android/answer/7664692",
+  "https://support.google.com/pixelphone/answer/7106961?hl=en",
+  "https://www.mi.com/global/support/faq/details/KA-492700/",
+  "https://iknow-dl.service.hihonor.com/ctkbfm/applet/simulator/en-gb15837215/index.html",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu"
+ ],
+ "cloudinary_a_faire": true,
+ "note": "13.11 : Cloudinary et Buffer en panne (connecteurs, 502/503) pendant la production : URLs GitHub raw provisoires. Téléverser d'abord sur Cloudinary (upload-asset depuis video_url, story_url et reel_instagram.video_url, public_id tiktok-autopilot/dayNN_slug, stories/dayNN_story, reels/dayNN_reel), remplacer les URLs, puis Buffer."
+}

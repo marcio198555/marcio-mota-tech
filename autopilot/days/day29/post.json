@@ -1,0 +1,41 @@
+{
+ "day": 29,
+ "title": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse les murs ?",
+ "format": "V",
+ "recette": "Vérité du quotidien en francs (bloc du 05.11, point 2 bis ; bloc du 13.11)",
+ "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/88ef7c76c31413222b61149d08fbf29658d7b7c7/media/day29_wifi-24-5-ghz-murs.mp4",
+ "story_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/88ef7c76c31413222b61149d08fbf29658d7b7c7/media/stories/day29_story.mp4",
+ "heure": "18:00",
+ "date": "2026-11-18",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "prête",
+ "tiktok_title": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse les murs ?",
+ "caption": "Wi-Fi 5 GHz ou 2,4 GHz : le plus rapide n'est pas celui qui passe les murs 📶 Netgear, TP-Link et Asus l'écrivent : le 2,4 GHz couvre plus loin, le 5 GHz est en général plus rapide (repère TP-Link : environ 20 m contre 15 m). En Suisse, l'OFCOM autorise jusqu'à 1 W sur une partie du 5 GHz, contre 100 mW en 2,4 GHz. Voix de synthèse. Dans quelle pièce ton Wi-Fi décroche ? 👇 #wifi #routeur #internet #astucetech #suisseromande",
+ "duree_s": 69.17,
+ "story_instagram": {
+  "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/88ef7c76c31413222b61149d08fbf29658d7b7c7/media/stories/day29_story.mp4",
+  "programme_le": "2026-11-18T18:05:00+01:00",
+  "buffer_id": null
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-18T19:00",
+  "coupe_s": 62.373,
+  "video_url": "https://raw.githubusercontent.com/marcio198555/marcio-mota-tech/88ef7c76c31413222b61149d08fbf29658d7b7c7/media/reels/day29_reel.mp4",
+  "caption": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse vraiment les murs de ton appartement ?\n\nLes fabricants de routeurs (Netgear, TP-Link, Asus) l'écrivent : plus la fréquence est haute, moins le signal passe les murs. Le 2,4 GHz porte plus loin, le 5 GHz est en général plus rapide. Repère de TP-Link : environ 20 m en 2,4 GHz, 15 m en 5 GHz.\n\nEn Suisse, l'OFCOM autorise jusqu'à 1 W sur une partie de la bande 5 GHz (avec contrôle de puissance), contre 100 mW en 2,4 GHz. Et un micro-ondes peut brouiller le 2,4 GHz, selon Asus et Netgear.\n\nPour de la 4K, Netflix recommande au moins 15 Mbit/s. Près du routeur, prends le 5 GHz ; dans la pièce du fond, essaie le 2,4 GHz. Routeur en hauteur, au centre, loin du métal.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui se plaint du Wi-Fi dans sa chambre.\n\n#wifi #routeur #astucetech #suisseromande #jemesuretout",
+  "statut": "en attente",
+  "cta": "envoi"
+ },
+ "sources": [
+  "https://www.tp-link.com/us/support/faq/2291/",
+  "https://www.tp-link.com/en/support/faq/427",
+  "https://www.tp-link.com/us/support/faq/468/?app=deco",
+  "https://kb.netgear.com/29396/What-is-the-difference-between-2-4-GHz-and-5-GHz-wireless-frequencies",
+  "https://www.asus.com/de/support/FAQ/1044838/",
+  "https://www.bakom.admin.ch/en/wlan-rlan-4",
+  "https://help.netflix.com/fr/node/306"
+ ],
+ "cloudinary_a_faire": true,
+ "note": "13.11 : Cloudinary et Buffer en panne (connecteurs, 502/503) pendant la production : URLs GitHub raw provisoires. Téléverser d'abord sur Cloudinary (upload-asset depuis video_url, story_url et reel_instagram.video_url, public_id tiktok-autopilot/dayNN_slug, stories/dayNN_story, reels/dayNN_reel), remplacer les URLs, puis Buffer."
+}

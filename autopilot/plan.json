@@ -807,13 +807,18 @@
     "chiffre SuisseEnergie ou étude sur l'économie avec couvercle"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "prête",
    "heure": "18:00",
    "format": "A",
    "type_sujet": "vérité francs",
    "note_13_11": "A : décor cuisine (bibliothèque) ; personnage casserole à générer (Z-Image) ou micro-ondes en voisin.",
    "annonce": "Montre étanche 50 m",
-   "semaine": "S3"
+   "semaine": "S3",
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-17T19:00",
+    "cta": "abonnement"
+   }
   },
   {
    "jour": 29,
@@ -828,12 +833,17 @@
     "portée et débit 2,4 vs 5 GHz (sources fabricants ou OFCOM)"
    ],
    "argent": "Marques Wi-Fi maillé",
-   "statut": "à produire",
+   "statut": "prête",
    "heure": "18:00",
    "format": "V",
    "type_sujet": "vérité francs",
    "annonce": "Batterie externe 10 000 mAh : combien de recharges",
-   "semaine": "S3"
+   "semaine": "S3",
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-18T19:00",
+    "cta": "envoi"
+   }
   },
   {
    "jour": 30,
@@ -943,12 +953,17 @@
     "source technique sur la consommation radio pendant la charge"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "prête",
    "heure": "18:00",
    "format": "V",
    "type_sujet": "vérité francs",
    "annonce": "TV 65 pouces : 144 cm de large",
-   "semaine": "S3"
+   "semaine": "S3",
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-14T19:00",
+    "cta": "envoi"
+   }
   },
   {
    "jour": 35,
@@ -1605,13 +1620,18 @@
     "calcul en CHF par an, comparé à un objet concret"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "prête",
    "ajoutee_le": "2026-11-05",
    "format": "A",
    "type_sujet": "vérité francs",
    "note_13_11": "A : nouveau personnage ampoule (Z-Image, § 11.6) ou décor chambre + emoji 3D si l'image n'est pas prête.",
    "annonce": "Téléphone 200 Mpx : par défaut 12 Mpx",
-   "semaine": "S3"
+   "semaine": "S3",
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-15T19:00",
+    "cta": "abonnement"
+   }
   },
   {
    "jour": 62,
@@ -1735,12 +1755,17 @@
     "ce qui change d'un pays à l'autre (offres)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "prête",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "type_sujet": "Suisse contre France",
    "annonce": "Aspirateur sans fil 60 min : en mode éco seulement",
-   "semaine": "S3"
+   "semaine": "S3",
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-16T19:00",
+    "cta": "envoi"
+   }
   },
   {
    "jour": 73,
@@ -1786,8 +1811,13 @@
    "argent": "Croissance",
    "note_13_11": "A : perso_robot (bibliothèque). Dernière vidéo de S3 : fin « Abonne-toi : d'autres objets vont tout balancer. » (pas d'annonce datée).",
    "annonce": null,
-   "statut": "à produire",
-   "semaine": "S3"
+   "statut": "prête",
+   "semaine": "S3",
+   "reel_instagram": {
+    "statut": "en attente",
+    "prevu": "2026-11-19T19:00",
+    "cta": "abonnement"
+   }
   }
  ],
  "rythme": "Depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour ») : dès le 7.11, 2 vidéos créées par jour sur TikTok, à 10 h et 18 h, toutes deux « chiffre-piège » (recette du 05.11 mise à jour à 10 h 40 avec les données vidIQ : objet ou habitude du quotidien, duel « toi / ton collègue », question ouverte, réponse au milieu, 50–70 s ; série « Suisse contre France » 2 fois par semaine ; RUNBOOK, bloc du 05.11, point 2 bis), chacune avec sa Story (fin « Nouvelle vidéo sur TikTok ») et son Reel d'essai. Vendredi : bilan + plan + 7 vidéos de 10 h (5 h 37) ; 7 vidéos de 18 h (11 h 37). Format R en pause (derniers essais : Sleepal 5.11, Aeotec 6.11). Format T abandonné. Stratégie du mois : strategy.json.",
