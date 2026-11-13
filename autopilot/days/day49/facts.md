@@ -38,7 +38,7 @@ s03 : Elle se mesure d'un coin à l'autre.
 s04 : Un pouce : deux virgule cinquante-quatre centimètres. Donc cent soixante-cinq virgule un.
 s05 : En seize neuvièmes : diagonale fois seize, divisé par racine de trois cent trente-sept.
 s06 : Résultat : cent quarante-trois virgule neuf de large.
-s07 : Fiche officielle d'une elle-gé soixante-cinq pouces : cent quarante-quatre virgule un, sans pied.
+s07 : Fiche officielle d'une Èl-Gé soixante-cinq pouces : cent quarante-quatre virgule un, sans pied.
 s08 : Deux millimètres de plus que le calcul.
 s09 : Verdict : environ cent quarante-quatre centimètres de large, pas cent soixante-cinq.
 s10 : Avant d'acheter, mesure ton meuble et lis la largeur sans pied.

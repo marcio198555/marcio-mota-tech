@@ -1,0 +1,63 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta batterie de dix mille milliampères-heure, c'est trois recharges de téléphone ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non. Plutôt une seule, et un petit bout."
+  },
+  {
+   "id": "s03",
+   "text": "Dix mille, c'est dans les cellules, à trois virgule sept volts. Pas à la sortie, en cinq volts."
+  },
+  {
+   "id": "s04",
+   "text": "Ankeur fait le calcul : ça fait trente-sept wattheures."
+  },
+  {
+   "id": "s05",
+   "text": "À cinq volts : sept mille quatre cents milliampères-heure."
+  },
+  {
+   "id": "s06",
+   "text": "Puis la conversion en perd : rendement typique, quatre-vingt-deux pour cent."
+  },
+  {
+   "id": "s07",
+   "text": "Reste environ six mille milliampères-heure."
+  },
+  {
+   "id": "s08",
+   "text": "Un Pixel neuf A de Google : cinq mille cent milliampères-heure."
+  },
+  {
+   "id": "s09",
+   "text": "Verdict : une recharge complète, pas deux. Ankeur le dit lui-même."
+  },
+  {
+   "id": "s10",
+   "text": "Avant d'acheter, cherche la capacité nominale sur la fiche, pas le gros chiffre."
+  },
+  {
+   "id": "s11",
+   "text": "Bonus : selon Ankeur, une dix mille remplit presque tout téléphone actuel au moins une fois."
+  },
+  {
+   "id": "s12",
+   "text": "Combien de recharges tu obtiens vraiment ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Et abonne-toi : ce soir, un robot aspirateur qui tourne chaque jour, combien en francs ?"
+  }
+ ]
+}

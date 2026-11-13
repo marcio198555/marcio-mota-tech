@@ -43,11 +43,11 @@ s07 : Mais à la frontière, au-dessus de cent cinquante francs, il doit la TVA 
 s08 : Trente et un francs : environ quatre cent nonante-trois au total.
 s09 : Encore sept francs de moins que toi.
 s10 : Deuxième surprise : avec la détaxe, si un vendeur l'accorde, au mieux quatre cent seize.
-s11 : Huitante-quatre francs de moins que toi.
+s11 : Quatre-vingt-quatre francs de moins que toi.
 s12 : Conseil : garde la quittance avec la TVA française, et déclare ton achat.
 s13 : Les prix bougent : refais le calcul.
 s14 : Et toi, ta console, tu l'as achetée où ? Écris-le en commentaire.
-s15 : Toi, quatre cent nonante-neuf nonante. Ton collègue, quatre cent nonante-trois, plus la douane.
+s15 : Toi, quatre cent nonante-neuf nonante. Ton collègue, environ quatre cent nonante-trois, TVA suisse comprise.
 s16 : Et abonne-toi : ce soir, le mode avion fait-il vraiment charger plus vite ?
 
 ## Display
@@ -65,7 +65,7 @@ s11 : 84 francs de moins que toi.
 s12 : Conseil : garde la quittance | avec la TVA française, | et déclare ton achat.
 s13 : Les prix bougent : | refais le calcul.
 s14 : Et toi, ta console, tu l'as achetée où ? | Écris-le en commentaire.
-s15 : Toi, 499.90. | Ton collègue, 493, plus la douane.
+s15 : Toi, 499.90. | Ton collègue, environ 493, | TVA suisse comprise.
 s16 : Abonne-toi : ce soir, le mode avion | fait-il vraiment charger plus vite ?
 
 ## Légende TikTok

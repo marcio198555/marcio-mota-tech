@@ -1,0 +1,63 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta télé de soixante-cinq pouces fait cent soixante-cinq centimètres de large ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non. Cent soixante-cinq, c'est la diagonale."
+  },
+  {
+   "id": "s03",
+   "text": "Elle se mesure d'un coin à l'autre."
+  },
+  {
+   "id": "s04",
+   "text": "Un pouce : deux virgule cinquante-quatre centimètres. Donc cent soixante-cinq virgule un."
+  },
+  {
+   "id": "s05",
+   "text": "En seize neuvièmes : diagonale fois seize, divisé par racine de trois cent trente-sept."
+  },
+  {
+   "id": "s06",
+   "text": "Résultat : cent quarante-trois virgule neuf de large."
+  },
+  {
+   "id": "s07",
+   "text": "Fiche officielle d'une Èl-Gé soixante-cinq pouces : cent quarante-quatre virgule un, sans pied."
+  },
+  {
+   "id": "s08",
+   "text": "Deux millimètres de plus que le calcul."
+  },
+  {
+   "id": "s09",
+   "text": "Verdict : environ cent quarante-quatre centimètres de large, pas cent soixante-cinq."
+  },
+  {
+   "id": "s10",
+   "text": "Avant d'acheter, mesure ton meuble et lis la largeur sans pied."
+  },
+  {
+   "id": "s11",
+   "text": "Bonus : une cinquante-cinq pouces, c'est cent vingt et un virgule huit de large."
+  },
+  {
+   "id": "s12",
+   "text": "Et ton meuble, il fait combien de large ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Et abonne-toi : ce soir, une ampoule allumée toute la nuit, combien en francs ?"
+  }
+ ]
+}

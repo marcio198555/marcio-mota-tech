@@ -31,7 +31,7 @@ s05 : Mais Casio précise : on ne peut pas l'utiliser à cette profondeur.
 s06 : En mouvement, la pression peut dépasser plusieurs fois celle du test.
 s07 : Chez Chaomi, cinq ATM : piscine ou plage, oui. Plongée, douche ou sauna, non.
 s08 : Chez Casio, une montre à cinq bars, c'est douche oui, natation non.
-s09 : Verdict : le chiffre de la boîte n'est pas une profondeur.
+s09 : Verdict : le chiffre de la boîte n'est pas une profondeur, et chaque marque a ses règles.
 s10 : Avant d'acheter, lis la liste d'activités de la marque.
 s11 : Bonus : selon Casio, les joints s'usent avec le temps.
 s12 : Ta montre affiche combien ? Écris-le en commentaire.
@@ -46,7 +46,7 @@ s05 : Casio : pas utilisable | à cette profondeur.
 s06 : En mouvement, la pression | peut dépasser plusieurs fois | celle du test.
 s07 : Xiaomi, 5 ATM : | piscine, plage : oui. | Plongée, douche, sauna : non.
 s08 : Casio, 5 bar : | douche : oui. | Natation : non.
-s09 : Verdict : | le chiffre de la boîte | n'est pas une profondeur.
+s09 : Verdict : pas une profondeur. | Et chaque marque a ses règles.
 s10 : Avant d'acheter : | la liste des activités | de la marque.
 s11 : Bonus : les joints | s'usent avec le temps | (Casio).
 s12 : Ta montre affiche combien ? | Écris-le en commentaire.

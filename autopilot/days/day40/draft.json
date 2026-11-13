@@ -1,0 +1,22 @@
+{
+ "display": {
+  "s01": "Ta montre est étanche | à 50 mètres ?",
+  "s02": "Non. | Tu ne peux pas plonger | à 50 m avec.",
+  "s03": "50 m = une pression de test, | pas une profondeur.",
+  "s04": "Garmin, 5 ATM : | pression équivalente | à 50 m de profondeur.",
+  "s05": "Casio : pas utilisable | à cette profondeur.",
+  "s06": "En mouvement, la pression | peut dépasser plusieurs fois | celle du test.",
+  "s07": "Xiaomi, 5 ATM : | piscine, plage : oui. | Plongée, douche, sauna : non.",
+  "s08": "Casio, 5 bar : | douche : oui. | Natation : non.",
+  "s09": "Verdict : pas une profondeur. | Et chaque marque a ses règles.",
+  "s10": "Avant d'acheter : | la liste des activités | de la marque.",
+  "s11": "Bonus : les joints | s'usent avec le temps | (Casio).",
+  "s12": "Ta montre affiche combien ? | Écris-le en commentaire.",
+  "s13": "Abonne-toi : ce soir, | Wi-Fi 2,4 ou 5 GHz, | lequel traverse les murs ?"
+ },
+ "title": "Montre « étanche 50 m » : tu ne peux pas plonger à 50 m",
+ "slug": "montre-50-m",
+ "format": "V",
+ "caption": "Ta montre « étanche 50 m » ne descend pas à 50 m.\nGarmin : 5 ATM = la montre résiste à une pression équivalente à 50 m. Casio : les mètres ne sont qu'une représentation de la pression de test ; à 5 bar, douche oui, natation non. Xiaomi : 5ATM = piscine ou plage, pas plongée, douche ni sauna.\nTa montre affiche quel chiffre au dos : 3, 5, 10 ou 20 bar ?\n#montreconnectee #etancheite #5atm #blackfriday\nVoix de synthèse.",
+ "reel_caption": "Montre étanche à 50 m : tu ne peux pas plonger à 50 m avec\n\nGarmin définit 5 ATM comme une pression équivalente à 50 m de profondeur. Casio (normes DIN 8310 / ISO 22810) précise que les mètres ne sont qu'une représentation de la pression de test, pas une profondeur utilisable.\n\nChaque marque a sa liste : Casio 5 bar, douche oui, natation non. Xiaomi 5ATM, piscine ou plage oui, plongée, douche et sauna non.\n\nVoix de synthèse.\n\nEnvoie-la à ton ami qui veut aller en plongée avec sa montre de sport.\n\n#montreconnectee #etancheite #montre #suisseromande #jemesuretout"
+}

@@ -1,0 +1,63 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton téléphone fait des photos de deux cents mégapixels ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non. Pour son Redmi Note douze Pro plus, Chaomi l'écrit : par défaut, douze virgule cinq."
+  },
+  {
+   "id": "s03",
+   "text": "Les deux cents s'activent à part, dans le menu ultra ache-dé."
+  },
+  {
+   "id": "s04",
+   "text": "Pourquoi ? Le capteur regroupe ses pixels."
+  },
+  {
+   "id": "s05",
+   "text": "Sur le Redmi Note quinze Pro, Chaomi annonce seize pixels en un."
+  },
+  {
+   "id": "s06",
+   "text": "Deux cents divisé par seize : douze virgule cinq."
+  },
+  {
+   "id": "s07",
+   "text": "Chaque pixel regroupé est quatre fois plus large."
+  },
+  {
+   "id": "s08",
+   "text": "Verdict : deux cents mégapixels, c'est le capteur, pas chaque photo."
+  },
+  {
+   "id": "s09",
+   "text": "Conseil : vérifie la résolution dans les réglages photo."
+  },
+  {
+   "id": "s10",
+   "text": "Bonus : sur le Onor quatre cents, il faut aussi un mode haute résolution."
+  },
+  {
+   "id": "s11",
+   "text": "Et Onor précise : les pixels réels varient selon le mode."
+  },
+  {
+   "id": "s12",
+   "text": "Le tien, il est réglé sur combien ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Et abonne-toi : ce soir, Netflix en Suisse ou en France, qui paie le plus ?"
+  }
+ ]
+}

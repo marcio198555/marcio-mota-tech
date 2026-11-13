@@ -1,0 +1,63 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta montre est étanche à cinquante mètres ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non. Tu ne peux pas plonger à cinquante mètres avec."
+  },
+  {
+   "id": "s03",
+   "text": "Ces cinquante mètres, c'est une pression de test, pas une profondeur."
+  },
+  {
+   "id": "s04",
+   "text": "Garmine l'écrit : cinq ATM, c'est une pression équivalente à cinquante mètres."
+  },
+  {
+   "id": "s05",
+   "text": "Mais Casio précise : on ne peut pas l'utiliser à cette profondeur."
+  },
+  {
+   "id": "s06",
+   "text": "En mouvement, la pression peut dépasser plusieurs fois celle du test."
+  },
+  {
+   "id": "s07",
+   "text": "Chez Chaomi, cinq ATM : piscine ou plage, oui. Plongée, douche ou sauna, non."
+  },
+  {
+   "id": "s08",
+   "text": "Chez Casio, une montre à cinq bars, c'est douche oui, natation non."
+  },
+  {
+   "id": "s09",
+   "text": "Verdict : le chiffre de la boîte n'est pas une profondeur, et chaque marque a ses règles."
+  },
+  {
+   "id": "s10",
+   "text": "Avant d'acheter, lis la liste d'activités de la marque."
+  },
+  {
+   "id": "s11",
+   "text": "Bonus : selon Casio, les joints s'usent avec le temps."
+  },
+  {
+   "id": "s12",
+   "text": "Ta montre affiche combien ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Et abonne-toi : ce soir, Wi-Fi deux virgule quatre ou cinq gigahertz, lequel traverse les murs ?"
+  }
+ ]
+}
