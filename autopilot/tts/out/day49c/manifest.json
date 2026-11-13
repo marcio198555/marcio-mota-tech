@@ -1,0 +1,15 @@
+{
+ "job": "day49c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s03",
+   "text": "Elle se mesure d'un coin à l'autre.",
+   "file": "s03.wav",
+   "duration": 3.2,
+   "rate": 24000
+  }
+ ],
+ "total": 3.2
+}
