@@ -1,0 +1,29 @@
+{
+ "job": "day73c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s07",
+   "text": "Mais à la frontière, au-dessus de cent cinquante francs, il doit la té-vé-a suisse.",
+   "file": "s07.wav",
+   "duration": 6.2,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Toi, quatre cent nonante-neuf nonante. Ton collègue, environ quatre cent nonante-trois, té-vé-a suisse comprise.",
+   "file": "s15.wav",
+   "duration": 9.76,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : ce soir, le mode avion, fait-il vraiment charger plus vite ?",
+   "file": "s16.wav",
+   "duration": 5.4,
+   "rate": 24000
+  }
+ ],
+ "total": 21.36
+}
