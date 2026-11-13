@@ -77,3 +77,4 @@ autopilot/vo/day52_vo2.wav
 autopilot/vo/day58cta_s16.wav
 autopilot/vo/day28_vo.wav
 autopilot/vo/day29_vo.wav
+autopilot/vo/day34_vo.wav

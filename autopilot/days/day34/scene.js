@@ -152,8 +152,7 @@
       });
       // s11 : un an
       block(ctx, t, S('s11'), S('s12'), () => {
-        const n = Math.round(lerp(1, 365, ease.inOut(prog(t, S('s11') + 0.1, Math.max(0.6, (E('s11') - S('s11')) * 0.55)))));
-        big(ctx, String(n), 500, 430, t, undefined, { size: 170 });
+        big(ctx, '365', 500, 430, t, S('s11'), { size: 170 });
         line(ctx, 'CHARGES PAR AN', 500, 560, t, S('s11') + 0.1, { size: 54, dx: 0 });
         big(ctx, '≈ 1,92 CHF', 500, 720, t, f('s11', 0.55), { size: 130 });
         coins(ctx, t, f('s11', 0.6), 6, 200, 800, 1000, '');
