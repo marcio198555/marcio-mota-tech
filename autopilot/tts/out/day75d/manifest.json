@@ -1,0 +1,22 @@
+{
+ "job": "day75d",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s09",
+   "text": "Une notice d'Écovacs annonce moins de deux watts en veille connectée.",
+   "file": "s09.wav",
+   "duration": 4.64,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Sur un an : jusqu'à presque cinq francs.",
+   "file": "s10.wav",
+   "duration": 3.04,
+   "rate": 24000
+  }
+ ],
+ "total": 7.68
+}
