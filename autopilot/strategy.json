@@ -65,24 +65,33 @@
     "abonnes_gagnes": 60
    },
    "experience": "Nouvelle recette (bloc du 05.11, point 2 bis) sur 12 créneaux du 7 au 12.11 : 8 V et 4 A, 2 A à 10 h et 2 A à 18 h pour neutraliser l'heure ; 2 « Suisse contre France ». Vidéo 23 (A) et Aeotec (dernier R) le 6.11. Bilan du 13.11 : médiane contre ≈ 265, part au-dessus de 400 vues, temps regardé, abonnés, V contre A.",
-   "statut": "en cours",
-   "resultat": null,
-   "verdict": null,
-   "decision": null
+   "statut": "terminée",
+   "resultat": {
+    "vues_mediane": 267.5,
+    "retention_pct": 24.6,
+    "abonnes_gagnes": 4,
+    "engagement_pour_mille": 0.6,
+    "videos": 12,
+    "note": "12 vidéos TikTok publiées du 6.11 au 11.11 avec chiffres (Buffer, mis à jour le 12.11 à 9 h 45 ; Metricool). Les 2 vidéos du 12.11 n'ont pas encore de chiffres : bilan suivant. Abonnés TikTok : 75 (5.11) → 79 (10.11), +4 ; 11 et 12.11 : donnée manquante. Instagram (Windsor, 13.11) : 13 Reels d'essai de la semaine, médiane 1 295 vues (recette seule : 1 262), 10 sur 13 au-dessus de 1 000 ; abonnés 34 573 (6.11) → 34 550 (13.11). Stories : donnée manquante (Windsor n'en renvoie aucune).",
+    "ce_qui_a_marche": "Instagram : la recette « vérité du quotidien en francs » fait 1 150 à 2 540 vues en Reel d'essai (linge au salon 2 537, iPhone Suisse/France 2 174, déshumidificateur 1 742). TikTok : le temps regardé a doublé (6–9 s → 14–17 s) et les j'aime ont triplé.",
+    "ce_qui_na_pas_marche": "TikTok : 11 vidéos de la nouvelle recette entre 240 et 356 vues (médiane 268), aucune au-dessus de 400 ; version courte (7.11) et « réponse d'abord » (10–11.11 : 260–269 vues, 6,6–10,4 s regardées) sans effet. Sujets d'eau en Reel d'essai : 228 et 206 vues contre 1 227 et 1 229 pour la vidéo publiée à la même minute. Format A plus faible sur les deux réseaux (TikTok 246 contre 269 ; Instagram 1 152–1 295)."
+   },
+   "verdict": "ROUGE",
+   "decision": "Score = min(267,5/600 ; 4/60) = 0,07 → ROUGE. Bilan de la recette (point 5) : médiane TikTok 268 < 300 → l'autopilote change la recette TikTok lui-même. Instagram répond (médiane 1 262) : on y garde la recette. Nouvelle idée testée en S3 : les créneaux de 10 h passent au « chiffre de la boîte » (ADN des jours 1 et 3, les 2 seules vidéos TikTok au-dessus de 600 : produit qu'on achète, chiffre de la fiche qui trompe, « Non. » avant 4 s, 40–50 s), ceux de 18 h gardent la « vérité du quotidien en francs ». Les Reels étant publiés par paires à la même minute, on compare les deux types sur les deux réseaux. Plus aucun sujet d'eau. 10 V et 4 A (A à 18 h). Partie 2 du jour 70 (console, Suisse contre France) le 14.11."
   },
   {
    "id": "S3",
    "du": "2026-11-13",
    "au": "2026-11-19",
    "bilan": "2026-11-20",
-   "plan": null,
+   "plan": "Test « chiffre de la boîte » (10 h) contre « vérité du quotidien en francs » (18 h)",
    "objectifs": {
     "vues_mediane": 900,
     "retention_pct": 40,
     "abonnes_gagnes": 100
    },
-   "experience": "Fixée le 13.11. Au moins 1 vidéo sur 3 liée aux achats de fin d'année.",
-   "statut": "à venir",
+   "experience": "10 h (7 vidéos, toutes V) : chiffre de la boîte d'un produit qu'on achète avant le Black Friday (TV 65 pouces, 200 Mpx, aspirateur 60 min, montre 50 m, batterie 10 000 mAh) + chauffage (annoncé) et console Suisse/France ; 40–50 s ; image 0 = produit + chiffre de la boîte avec « ≠ » ou « ? », phrase 1 = le chiffre en question, phrase 2 = « Non. » + le contre-pied. 18 h (7 vidéos, 4 A et 3 V) : vérité du quotidien en francs, 50–65 s, jamais d'eau. Jugement le 15.11, le 17.11 (analyses tous les 2 jours) et le 20.11 : médianes TikTok et Instagram par type, temps regardé, abonnés.",
+   "statut": "en cours",
    "resultat": null,
    "verdict": null,
    "decision": null
@@ -347,6 +356,11 @@
    "date": "2026-11-09",
    "verdict": "analyse 2 jours : TikTok NE MARCHE PAS (275), Instagram ÇA MARCHE (1 514)",
    "decision": "TikTok (7–8.11, 4 vidéos ≥ 18 h) : médiane 275 vues, 14–17 s regardées ; la version courte 50–53 s n'a rien changé aux vues (323 et 275). Instagram : médiane des Reels d'essai 1 514, les 4 au-dessus de 1 000 ; 37 linge au salon 2 492. Instagram inchangé. Partie 2 du jour 37 (jour 74, linge + déshumidificateur) le 10.11 à 18 h à la place du jour 58 (remplacée). TikTok : nouvelle idée testée sur les 4 créneaux des 10–11.11, « réponse d'abord » (la réponse chiffrée avant 8 s, comme les jours 1 et 3, seules vidéos TikTok au-dessus de 600), 42–59 s, légendes et heures inchangées. vidIQ sans crédits. À juger le 11.11 (premier signal) et le 13.11."
+  },
+  {
+   "date": "2026-11-13",
+   "verdict": "ROUGE (S2) ; bilan de la recette : TikTok NE MARCHE PAS (268), Instagram ÇA MARCHE (1 262)",
+   "decision": "TikTok : 11 vidéos de la recette du 05.11 entre 240 et 356 vues (médiane 268, aucune ≥ 400) malgré 14–17 s regardées ; « réponse d'abord » sans effet (260–269). Instagram : médiane des Reels d'essai 1 262, 10 sur 13 ≥ 1 000. Abonnés TikTok +4 (75 → 79), Instagram 34 573 → 34 550. Décision : Instagram inchangé ; S3 = test par type de sujet : 10 h « chiffre de la boîte » (ADN des jours 1 et 3, Black Friday), 18 h « vérité du quotidien en francs » ; plus de sujet d'eau ; 10 V / 4 A ; partie 2 du jour 70 (console) le 14.11 ; jour 58 (déjà produit) repris le 13.11 à 18 h. vidIQ sans crédits : décision tirée de nos chiffres."
   }
  ]
 }

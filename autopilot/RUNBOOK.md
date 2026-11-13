@@ -17,6 +17,23 @@ signaler à Marcio dans le message final.
 **Du 30.10 au 5.12.2026 (prolongée le 05.11) : stratégie du mois (§ 10 et `strategy.json`)**, demandée par Marcio le 29.10 : chaque vendredi,
 on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles ; si ça ne marche pas, on change de stratégie.
 
+> **Changements du 13.11.2026 (bilan de S2 et de la recette ; priment sur le bloc du 05.11 pour le choix des sujets).**
+> Constat (learnings.md, 13.11) : TikTok, 11 vidéos de la recette du 05.11 entre 240 et 356 vues (médiane 268, aucune
+> au-dessus de 400) ; Instagram, Reels d'essai à 1 262 de médiane (10 sur 13 au-dessus de 1 000) ; sujets d'eau à 206 et 228.
+> 1. **Instagram : rien ne change** (recette, Stories, Reels d'essai, test « abonne-toi » des jours impairs).
+> 2. **S3 (13 → 19.11) = test par type de sujet.** 10 h : « **chiffre de la boîte** » (ADN des jours 1 et 3 : produit qu'on
+>    achète, chiffre de la fiche ou de la boîte qui trompe ; image 0 = produit + chiffre en très gros avec « ≠ » ou « ? » ;
+>    phrase 1 = le chiffre en question adressé à « tu » ; phrase 2 = « Non. » + le contre-pied ; puis pourquoi, la vraie
+>    valeur avec la source, le verdict, le conseil avant d'acheter, une question pour les commentaires, « abonne-toi » ;
+>    **40 à 50 s, 110 à 140 mots**). 18 h : « vérité du quotidien en francs » (point 2 bis du bloc du 05.11), 50–65 s.
+>    Exceptions : 13.11 10 h (chauffage, déjà annoncé) et 14.11 10 h (console Suisse/France, partie 2 du jour 70).
+> 3. **Plus aucun sujet d'eau** (douche, bain, vaisselle, robinet) jusqu'au 5.12, sur les deux réseaux.
+> 4. **Formats : 10 V et 4 A** (A à 18 h les 13, 15, 17 et 19.11, avec les personnages de la bibliothèque si possible).
+>    « Réponse d'abord » et versions courtes TikTok abandonnées : TikTok et Instagram reçoivent la même vidéo.
+> 5. **Jugement** aux analyses du 15.11 et du 17.11, puis au bilan du 20.11 : médiane TikTok et Instagram de chaque type,
+>    temps regardé, abonnés. Le type qui gagne sur TikTok (≥ 1,3 × l'autre) prend les 10 h et les 18 h dès le 20.11, sauf
+>    s'il fait baisser la médiane Instagram de plus de 20 %.
+
 > **Changements du 11.11.2026 (Instagram seulement) : à appliquer en plus du bloc du 05.11.** Décidés après un audit du
 > compte Instagram et le feu vert de Marcio du 11.11 (« fais comme tu veux, je te donne le feu vert pour tout », « il ne
 > faut pas me demander des choses »). Le détail de l'audit est privé et n'est pas recopié ici.

@@ -363,3 +363,49 @@ Constats :
    (Mots de la phrase s01 de `draft.json`, minutage `asr/out`.)
 4. Seul 24 a des envois (3) : légende « Envoie-la à ton collègue qui jure que le mode sombre sauve sa batterie », sur un mythe connu.
 Décision : test « sujets d'eau », point 7 du bloc du 11.11 dans RUNBOOK.md. Rien d'autre ne change.
+
+## 13.11.2026 — Bilan de S2 (6.11 → 12.11) et bilan de la recette du 05.11 : ROUGE ; TikTok change de type de sujet
+Sources : Buffer `list_posts` avec chiffres (mis à jour le 12.11 à 9 h 45), Metricool (vues, durées, abonnés TikTok jusqu'au 10.11), Windsor (Instagram, 13.11). vidIQ : plus de crédits (recherche de tendances impossible, **donnée manquante**).
+| TikTok, nouvelle recette (≥ 18 h) | Version | Durée | Vues | Regardé | J'aime | Comm. |
+|---|---|---|---|---|---|---|
+| 55 charge la nuit (5.11) | longue | 68 s | **356** | 17,5 s | 20 | 1 (2 partages) |
+| 37 linge au salon (8.11) | courte | 53 s | 326 | 16,6 s | 13 | 2 |
+| 59 veille télé (8.11) | courte | 49 s | 298 | 15,8 s | 11 | 0 |
+| 60 charge rapide (7.11) | longue | 68 s | 275 | 16,2 s | 21 | 0 |
+| 56 box (10.11) | réponse d'abord | 42 s | 269 | 9,8 s | 6 | 0 |
+| 74 déshumidificateur (10.11) | réponse d'abord | 51 s | 268 | 9,2 s | 7 | 0 |
+| 71 kWh CH/FR (11.11) | réponse d'abord | 59 s | 267 | 10,4 s | 9 | 0 |
+| 57 vaisselle (11.11) | réponse d'abord | 44 s | 260 | 6,6 s | 5 | 0 |
+| 70 iPhone CH/FR (9.11) | courte | 50 s | 259 | 15,1 s | 11 | 0 |
+| 27 frigo, A (7.11) | longue | 63 s | 252 | 14,1 s | 10 | 0 |
+| 32 lave-linge, A (9.11) | courte | 52 s | 240 | 14,3 s | 6 | 0 |
+Médiane de la recette : **268** (avant : ≈ 265) ; 0 sur 11 au-dessus de 400 ; rétention 24 % ; temps regardé moyen 13,2 s (avant : 3–11 s).
+Semaine S2 (12 vidéos du 6.11 au 11.11, avec 23 et Aeotec) : médiane 267,5 ; abonnés 75 → 79 (+4, jusqu'au 10.11) ; 2 commentaires, 0 partage. Note R1 : min(267,5/600 ; 4/60) = 0,07 → **ROUGE**. 12.11 (62 et 24) : pas encore de chiffres.
+- Par format : V 269 (9), A 246 (2). Instagram : A 1 152 et 1 295 contre V 1 487 de médiane. A plus faible sur les deux réseaux, 2e semaine de suite.
+- Par heure : 10 h et 18 h au même niveau (rien à conclure).
+- « Réponse d'abord » (10–11.11) : même vues (260–269) et temps regardé plus court (9 s contre 15,6 s) : **échec**, abandonné.
+- 3 meilleures TikTok : 55 (question « ça abîme la batterie ? », mythe sur le téléphone, 68 s), 37 (duel linge, 53 s), 59 (veille télé, 49 s). 3 moins bonnes : 32 (A, lave-linge), 27 (A, frigo), 70 (Suisse/France). Écart de 116 vues : toutes s'arrêtent au premier groupe test.
+- Publications qui ne viennent pas de l'autopilote : « #milestone » (6.11, 86 vues) et « J'ai créé mon premier jeu… Fletch » (12.11, 18 h 30) : pas touchées.
+| Reels d'essai de S2 | Vues | Portée | Partages | Enreg. |
+|---|---|---|---|---|
+| 37 linge au salon | **2 537** | 2 145 | 9 | 4 |
+| 70 iPhone CH/FR | **2 174** | 1 995 | 2 | 4 |
+| 74 déshumidificateur | 1 742 | 1 541 | 1 | 3 |
+| 60 charge rapide | 1 559 | 1 438 | 0 | 2 |
+| 59 veille télé | 1 487 | 1 278 | 5 | 5 |
+| 23 robot aspirateur (ancienne) | 1 310 | 1 065 | 0 | 1 |
+| 27 frigo (A) | 1 295 | 1 148 | 0 | 0 |
+| 24 mode sombre | 1 229 | 1 061 | 3 | 1 |
+| 71 kWh CH/FR | 1 227 | 1 073 | 0 | 1 |
+| 32 lave-linge (A) | 1 152 | 1 054 | 1 | 1 |
+| 56 box | 352 | 321 | 0 | 1 |
+| 57 lave-vaisselle (eau) | 228 | 201 | 0 | 0 |
+| 62 douche/bain (eau) | 206 | 196 | 0 | 0 |
+Médiane : 1 295 (recette seule 1 262), 10 sur 13 ≥ 1 000. Abonnés Instagram : 34 573 (6.11) → 34 550 (13.11) ; 4 à 9 nouveaux par jour, pas de hausse visible. Stories : **donnée manquante**.
+
+Constaté :
+1. La recette a doublé le temps regardé sur TikTok, sans jamais débloquer la 2e vague : sur TikTok, 22 vidéos de l'autopilote d'affilée sont restées entre 240 et 356 vues, quels que soient la durée (42–69 s), l'ordre (suspense ou réponse d'abord), l'heure et le format.
+2. Les 2 seules vidéos TikTok jamais passées au-dessus de 600 (jours 1 et 3) sont les seules « chiffre de la boîte » d'un produit qu'on achète (robot tondeuse 45 %, batterie 20 000 mAh). Depuis le 05.11, aucun créneau n'a refait ce type de sujet : tous étaient des habitudes en francs.
+3. Instagram répond à la recette (≈ 1 300 vues) mais pas aux sujets d'eau (2 sur 2 sous un tiers de leur paire) : plus aucun sujet d'eau.
+Hypothèse à tester (S3) : sur TikTok, le type de sujet « chiffre de la boîte d'un produit qu'on achète » (recherche, intention d'achat avant le Black Friday) passe mieux que les habitudes en francs.
+Décision (autonomie, point 5 du bloc du 05.11) : Instagram inchangé ; TikTok : 10 h = « chiffre de la boîte » 40–50 s (image 0 : produit + chiffre de la boîte + « ≠ » ou « ? » ; phrase 1 : le chiffre en question ; phrase 2 : « Non. » + contre-pied), 18 h = vérité du quotidien en francs. Paires de Reels à la même minute : comparaison propre sur Instagram aussi. Jugement les 15, 17 et 20.11. Point 2 du bloc du 11.11 (fin Instagram « ABONNE-TOI » de 2 s pour les jours impairs) : pas fait ce matin faute de temps ; on garde la coupe actuelle et la légende « abonnement » les jours impairs.

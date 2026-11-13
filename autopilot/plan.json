@@ -733,7 +733,9 @@
    "heure": "10:00",
    "annoncee": true,
    "format": "V",
-   "semaine": "S3"
+   "semaine": "S3",
+   "type_sujet": "vérité francs",
+   "annonce": "Micro-ondes : pourquoi le centre reste froid"
   },
   {
    "jour": 26,
@@ -789,9 +791,9 @@
   },
   {
    "jour": 28,
-   "date": null,
+   "date": "2026-11-17",
    "sujet": "Le couvercle sur la casserole : combien d'énergie en moins",
-   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "mecanique": "Vérité du quotidien en francs (recette du 05.11, celle qui marche sur Instagram)",
    "refs": [
     "R4"
    ],
@@ -800,14 +802,19 @@
     "chiffre SuisseEnergie ou étude sur l'économie avec couvercle"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "heure": null
+   "statut": "à produire",
+   "heure": "18:00",
+   "format": "A",
+   "type_sujet": "vérité francs",
+   "note_13_11": "A : décor cuisine (bibliothèque) ; personnage casserole à générer (Z-Image) ou micro-ondes en voisin.",
+   "annonce": "Montre étanche 50 m",
+   "semaine": "S3"
   },
   {
    "jour": 29,
-   "date": null,
+   "date": "2026-11-18",
    "sujet": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse les murs",
-   "mecanique": "L'astuce que personne n'explique",
+   "mecanique": "Vérité du quotidien en francs (recette du 05.11, celle qui marche sur Instagram)",
    "refs": [
     "R2"
    ],
@@ -816,8 +823,12 @@
     "portée et débit 2,4 vs 5 GHz (sources fabricants ou OFCOM)"
    ],
    "argent": "Marques Wi-Fi maillé",
-   "statut": "idée",
-   "heure": null
+   "statut": "à produire",
+   "heure": "18:00",
+   "format": "V",
+   "type_sujet": "vérité francs",
+   "annonce": "Batterie externe 10 000 mAh : combien de recharges",
+   "semaine": "S3"
   },
   {
    "jour": 30,
@@ -916,9 +927,9 @@
   },
   {
    "jour": 34,
-   "date": null,
+   "date": "2026-11-14",
    "sujet": "Le mode avion fait-il charger plus vite ?",
-   "mecanique": "Mythe ou réalité",
+   "mecanique": "Vérité du quotidien en francs (recette du 05.11, celle qui marche sur Instagram)",
    "refs": [
     "R5"
    ],
@@ -927,8 +938,12 @@
     "source technique sur la consommation radio pendant la charge"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "heure": null
+   "statut": "à produire",
+   "heure": "18:00",
+   "format": "V",
+   "type_sujet": "vérité francs",
+   "annonce": "TV 65 pouces : 144 cm de large",
+   "semaine": "S3"
   },
   {
    "jour": 35,
@@ -1046,9 +1061,9 @@
   },
   {
    "jour": 40,
-   "date": null,
+   "date": "2026-11-18",
    "sujet": "Montre « étanche 50 m » : tu ne peux pas plonger à 50 m",
-   "mecanique": "Chiffre-piège",
+   "mecanique": "Chiffre de la boîte (retour à l'ADN des jours 1 et 3, test TikTok du 13.11)",
    "accroche": "Ta montre est étanche à cinquante mètres ? Non : tu ne peux pas plonger à cinquante mètres avec.",
    "a_verifier": [
     "norme ISO 22810:2010 : ce que veulent dire 5 ATM / 50 m",
@@ -1056,9 +1071,13 @@
     "essai sous pression statique et mouvements dans l'eau"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "heure": null,
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "heure": "10:00",
+   "ajoutee_le": "2026-11-05",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "annonce": "Wi-Fi 2,4 ou 5 GHz : lequel traverse les murs",
+   "semaine": "S3"
   },
   {
    "jour": 41,
@@ -1078,9 +1097,9 @@
   },
   {
    "jour": 42,
-   "date": null,
+   "date": "2026-11-16",
    "sujet": "Téléphone « 200 Mpx » : par défaut, des photos de 12 Mpx",
-   "mecanique": "Chiffre-piège",
+   "mecanique": "Chiffre de la boîte (retour à l'ADN des jours 1 et 3, test TikTok du 13.11)",
    "accroche": "Ton téléphone fait des photos de deux cents mégapixels ? Non : par défaut, il en fait douze.",
    "a_verifier": [
     "fiche officielle d'un téléphone 200 MP (ex. Samsung Galaxy S25 Ultra)",
@@ -1088,9 +1107,13 @@
     "regroupement de pixels (pixel binning)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "heure": null,
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "heure": "10:00",
+   "ajoutee_le": "2026-11-05",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "annonce": "Suisse contre France : Netflix",
+   "semaine": "S3"
   },
   {
    "jour": 43,
@@ -1190,9 +1213,9 @@
   },
   {
    "jour": 49,
-   "date": null,
+   "date": "2026-11-15",
    "sujet": "TV « 65 pouces » : 144 cm de large, pas 165",
-   "mecanique": "Chiffre-piège",
+   "mecanique": "Chiffre de la boîte (retour à l'ADN des jours 1 et 3, test TikTok du 13.11)",
    "accroche": "Ta télé de soixante-cinq pouces fait cent soixante-cinq centimètres de large ? Non : cent quarante-quatre.",
    "a_verifier": [
     "1 pouce = 2,54 cm (65 pouces = 165,1 cm de diagonale)",
@@ -1200,15 +1223,19 @@
     "fiche d'une TV 65 pouces (dimensions sans pied)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "heure": null,
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "heure": "10:00",
+   "ajoutee_le": "2026-11-05",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "annonce": "Une ampoule LED allumée toute la nuit",
+   "semaine": "S3"
   },
   {
    "jour": 50,
-   "date": null,
+   "date": "2026-11-19",
    "sujet": "Batterie externe 10 000 mAh : combien de recharges ? (partie 2 du jour 3)",
-   "mecanique": "Chiffre-piège",
+   "mecanique": "Chiffre de la boîte (retour à l'ADN des jours 1 et 3, test TikTok du 13.11)",
    "accroche": "Ta batterie de dix mille milliampères-heure, c'est deux recharges et demie ? Non : à peine deux.",
    "a_verifier": [
     "10 000 mAh × 3,7 V = 37 Wh",
@@ -1216,10 +1243,14 @@
     "capacité en Wh d'un téléphone courant (fiche fabricant)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "heure": null,
+   "statut": "à produire",
+   "heure": "10:00",
    "ajoutee_le": "2026-11-05",
-   "suite_de": 3
+   "suite_de": 3,
+   "format": "V",
+   "type_sujet": "chiffre de la boîte (partie 2 du jour 3)",
+   "annonce": "Robot aspirateur : combien en francs par an",
+   "semaine": "S3"
   },
   {
    "jour": 51,
@@ -1240,9 +1271,9 @@
   },
   {
    "jour": 52,
-   "date": null,
+   "date": "2026-11-17",
    "sujet": "Aspirateur sans fil « 60 min » : en mode éco seulement",
-   "mecanique": "Chiffre-piège",
+   "mecanique": "Chiffre de la boîte (retour à l'ADN des jours 1 et 3, test TikTok du 13.11)",
    "accroche": "Ton aspirateur sans fil tient soixante minutes ? En mode maximum, beaucoup moins.",
    "a_verifier": [
     "fiche officielle d'un aspirateur sans fil : autonomie par mode",
@@ -1250,9 +1281,13 @@
     "autonomie en mode boost"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "heure": null,
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "heure": "10:00",
+   "ajoutee_le": "2026-11-05",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "annonce": "Le couvercle sur la casserole",
+   "semaine": "S3"
   },
   {
    "jour": 53,
@@ -1386,7 +1421,7 @@
   },
   {
    "jour": 58,
-   "date": "2026-11-10",
+   "date": "2026-11-13",
    "heure": "18:00",
    "sujet": "Pourquoi le centre de ton plat reste froid au micro-ondes ?",
    "mecanique": "Vérité du quotidien (recette du 05.11, point 2 bis) : le micro-ondes balance",
@@ -1397,11 +1432,11 @@
     "conseil officiel (temps de repos, mélanger)"
    ],
    "argent": "Croissance",
-   "statut": "remplacée",
+   "statut": "à reprendre",
    "ajoutee_le": "2026-11-05",
    "format": "A",
-   "semaine": "S2",
-   "annonce": "Suisse contre France : 1 kWh d'électricité",
+   "semaine": "S3",
+   "annonce": "Suisse contre France : la console de jeux",
    "annonce_jour": 71,
    "reel_instagram": {
     "statut": "en attente",
@@ -1414,7 +1449,9 @@
    },
    "remplacee_le": "2026-11-09",
    "remplacee_par": 74,
-   "note_remplacement": "Analyse du 9.11 : créneau du 10.11 18 h donné à la partie 2 du jour 37 (Reel d'essai 2 492 vues). Vidéo prête, réutilisable plus tard (même Buffer id réutilisé par 74)."
+   "note_remplacement": "Analyse du 9.11 : créneau du 10.11 18 h donné à la partie 2 du jour 37 (Reel d'essai 2 492 vues). Vidéo prête, réutilisable plus tard (même Buffer id réutilisé par 74).",
+   "type_sujet": "vérité francs",
+   "note_13_11": "Vidéo déjà produite le 6.11 (remplacée le 9.11 par 74, jamais publiée). La tâche de 11 h 37 remplace seulement la fin (swap_end.py, RUNBOOK § 1.4) : « Abonne-toi : demain, la même console en Suisse et en France. », carte DEMAIN, puis Story, Reel d'essai (nouvelle entrée de reels_queue.json, prevu 13.11 19:00, cta abonnement) et Buffer."
   },
   {
    "jour": 74,
@@ -1522,10 +1559,10 @@
   },
   {
    "jour": 61,
-   "date": null,
-   "heure": null,
+   "date": "2026-11-15",
+   "heure": "18:00",
    "sujet": "Une ampoule LED allumée toute la nuit : combien ça coûte ?",
-   "mecanique": "Vérité du quotidien (recette du 05.11, mise à jour 10 h 40)",
+   "mecanique": "Vérité du quotidien en francs (recette du 05.11, celle qui marche sur Instagram)",
    "accroche": "Tu laisses une lumière allumée toute la nuit ? Calcul en francs.",
    "a_verifier": [
     "puissance d'une ampoule LED courante (ex. 806 lm ≈ 7–8 W, déjà sourcé au jour 17)",
@@ -1533,8 +1570,13 @@
     "calcul en CHF par an, comparé à un objet concret"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "ajoutee_le": "2026-11-05",
+   "format": "A",
+   "type_sujet": "vérité francs",
+   "note_13_11": "A : nouveau personnage ampoule (Z-Image, § 11.6) ou décor chambre + emoji 3D si l'image n'est pas prête.",
+   "annonce": "Téléphone 200 Mpx : par défaut 12 Mpx",
+   "semaine": "S3"
   },
   {
    "jour": 62,
@@ -1647,8 +1689,8 @@
   },
   {
    "jour": 72,
-   "date": null,
-   "heure": null,
+   "date": "2026-11-16",
+   "heure": "18:00",
    "sujet": "Suisse contre France : Netflix",
    "mecanique": "Suisse contre France",
    "accroche": "Même film, même abonnement. Pourquoi les Suisses paient plus ?",
@@ -1658,13 +1700,17 @@
     "ce qui change d'un pays à l'autre (offres)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "ajoutee_le": "2026-11-05",
+   "format": "V",
+   "type_sujet": "Suisse contre France",
+   "annonce": "Aspirateur sans fil 60 min : en mode éco seulement",
+   "semaine": "S3"
   },
   {
    "jour": 73,
-   "date": null,
-   "heure": null,
+   "date": "2026-11-14",
+   "heure": "10:00",
    "sujet": "Suisse contre France : console de jeux",
    "mecanique": "Suisse contre France",
    "accroche": "Même console. En Suisse et en France. Où l'acheter ?",
@@ -1674,8 +1720,33 @@
     "garantie et retour dans chaque pays (sources officielles)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
-   "ajoutee_le": "2026-11-05"
+   "statut": "à produire",
+   "ajoutee_le": "2026-11-05",
+   "format": "V",
+   "type_sujet": "Suisse contre France (partie 2 du jour 70 : 2 174 vues en Reel d'essai)",
+   "suite_de": 70,
+   "annonce": "Le mode avion fait-il charger plus vite ?",
+   "semaine": "S3"
+  },
+  {
+   "jour": 75,
+   "date": "2026-11-19",
+   "heure": "18:00",
+   "format": "A",
+   "type_sujet": "vérité francs",
+   "mecanique": "Vérité du quotidien en francs (recette du 05.11, celle qui marche sur Instagram)",
+   "sujet": "Robot aspirateur : un passage par jour, combien en francs par an ?",
+   "accroche": "Toi, tu passes l'aspirateur à la main. Ton collègue laisse son robot tourner chaque jour. Qui paie le plus d'électricité ?",
+   "a_verifier": [
+    "puissance en charge et en veille de la station (fiche EPREL ou fabricant) ; robot FICTIF, jamais iRobot/Roomba (produit reçu par Marcio)",
+    "durée de charge et capacité de batterie (fiche fabricant)",
+    "tarif ElCom 2026 hors TVA"
+   ],
+   "argent": "Croissance",
+   "note_13_11": "A : perso_robot (bibliothèque). Dernière vidéo de S3 : fin « Abonne-toi : d'autres objets vont tout balancer. » (pas d'annonce datée).",
+   "annonce": null,
+   "statut": "à produire",
+   "semaine": "S3"
   }
  ],
  "rythme": "Depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour ») : dès le 7.11, 2 vidéos créées par jour sur TikTok, à 10 h et 18 h, toutes deux « chiffre-piège » (recette du 05.11 mise à jour à 10 h 40 avec les données vidIQ : objet ou habitude du quotidien, duel « toi / ton collègue », question ouverte, réponse au milieu, 50–70 s ; série « Suisse contre France » 2 fois par semaine ; RUNBOOK, bloc du 05.11, point 2 bis), chacune avec sa Story (fin « Nouvelle vidéo sur TikTok ») et son Reel d'essai. Vendredi : bilan + plan + 7 vidéos de 10 h (5 h 37) ; 7 vidéos de 18 h (11 h 37). Format R en pause (derniers essais : Sleepal 5.11, Aeotec 6.11). Format T abandonné. Stratégie du mois : strategy.json.",
