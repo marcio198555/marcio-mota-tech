@@ -32,6 +32,7 @@
         big(ctx, 'Nintendo Switch 2', 500, 345, t, undefined, { size: 74, family: F.display, color: WHITE });
         split(ctx, t); console2(ctx, 275, 870, 1.0 + 0.02 * Math.sin(t * 2), t); console2(ctx, 725, 870, 1.0, t);
         head(ctx, 'QUI PAIE LE MOINS ?', 1190, t, undefined, { size: 60 });
+        ['?? CHF', '?? €'].forEach((p, i) => price(ctx, p, i ? 725 : 275, 1060, t, 2.2 + i * 0.3, i ? FR : CH, { w: 150, size: 60 }));
       });
       block(ctx, t, S('s02'), S('s03'), () => {
         big(ctx, 'CETTE FOIS', 500, 500, t, S('s02'), { size: 120, family: F.display, color: GOLD });
@@ -41,12 +42,12 @@
       block(ctx, t, S('s03'), S('s04'), () => {
         flagCH(ctx, 500, 405, 130); console2(ctx, 500, 790, 1.2, t);
         price(ctx, '499.90 CHF', 500, 1100, t, f('s03', 0.5), CH, { w: 250 });
-        tag(ctx, 'BOUTIQUE NINTENDO · 13.11.2026', 500, 530, t, S('s03') + 0.1, { size: 36 });
+        tag(ctx, 'NINTENDO SUISSE · 13.11.2026 · TVA INCL.', 500, 530, t, S('s03') + 0.1, { size: 36 });
       });
       block(ctx, t, S('s04'), S('s05'), () => {
         flagFR(ctx, 500, 405, 110); console2(ctx, 500, 790, 1.2, t);
         price(ctx, '499,99 €', 500, 1100, t, f('s04', 0.4), FR, { w: 230 });
-        tag(ctx, 'BOUTIQUE NINTENDO FRANCE · TVA COMPRISE', 500, 530, t, S('s04') + 0.1, { size: 34 });
+        tag(ctx, 'NINTENDO FRANCE · 13.11.2026 · TVA INCL.', 500, 530, t, S('s04') + 0.1, { size: 36 });
       });
       block(ctx, t, S('s05'), S('s06'), () => {
         tag(ctx, 'BNS · 12.11.2026 · 1 € = 0,9228 CHF', 500, 380, t, S('s05'), { size: 38, color: GOLD });
@@ -71,6 +72,7 @@
         split(ctx, t);
         price(ctx, '499.90', 275, 860, t, S('s09') - 1, CH, { w: 200 }); price(ctx, '≈ 493', 725, 860, t, S('s09'), FR, { w: 200 });
         stamp(ctx, '− 7 CHF', 725, 1060, t, f('s09', 0.3), { size: 76, color: GREEN });
+        tag(ctx, 'HORS FRAIS DE LIVRAISON', 500, 1180, t, f('s09', 0.5), { size: 36 });
       });
       block(ctx, t, S('s10'), S('s11'), () => {
         stamp(ctx, '2e SURPRISE', 500, 380, t, S('s10'), { size: 66, color: GOLD });
@@ -80,7 +82,8 @@
       });
       block(ctx, t, S('s11'), S('s12'), () => {
         big(ctx, '− 84 CHF', 500, 620, t, S('s11') + 0.05, { size: 170, color: GREEN });
-        tag(ctx, 'FRAIS DE DÉTAXE ET LIVRAISON NON COMPTÉS', 500, 840, t, f('s11', 0.4), { size: 34 });
+        tag(ctx, 'HORS FRAIS DE DÉTAXE', 500, 820, t, f('s11', 0.4), { size: 38 });
+        tag(ctx, 'ET DE LIVRAISON', 500, 900, t, f('s11', 0.45), { size: 38 });
       });
       block(ctx, t, S('s12'), S('s13'), () => {
         tag(ctx, 'CONSEIL', 500, 380, t, S('s12'), { size: 46, color: GREEN });

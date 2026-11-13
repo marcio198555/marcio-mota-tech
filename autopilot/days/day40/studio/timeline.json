@@ -1,95 +1,95 @@
 {
- "duration": 56.587,
+ "duration": 55.317,
  "segments": [
   {
    "id": "s01",
    "text": "Ta montre est étanche à cinquante mètres ?",
    "start": 0.12,
-   "end": 2.999,
+   "end": 2.448,
    "display": "Ta montre est étanche | à 50 mètres ?"
   },
   {
    "id": "s02",
    "text": "Non. Tu ne peux pas plonger à cinquante mètres avec.",
-   "start": 3.099,
-   "end": 5.798,
+   "start": 2.548,
+   "end": 5.247,
    "display": "Non. | Tu ne peux pas plonger | à 50 m avec."
   },
   {
    "id": "s03",
    "text": "Ces cinquante mètres, c'est une pression de test, pas une profondeur.",
-   "start": 5.898,
-   "end": 10.259,
+   "start": 5.347,
+   "end": 9.708,
    "display": "50 m = une pression de test, | pas une profondeur."
   },
   {
    "id": "s04",
-   "text": "Garmine l'écrit : cinq ATM, c'est une pression équivalente à cinquante mètres.",
-   "start": 10.359,
-   "end": 15.443,
+   "text": "Garmine l'écrit : cinq a-té-èm, c'est une pression équivalente à cinquante mètres.",
+   "start": 9.808,
+   "end": 14.677,
    "display": "Garmin, 5 ATM : | pression équivalente | à 50 m de profondeur."
   },
   {
    "id": "s05",
    "text": "Mais Casio précise : on ne peut pas l'utiliser à cette profondeur.",
-   "start": 15.543,
-   "end": 19.268,
+   "start": 14.777,
+   "end": 18.502,
    "display": "Casio : pas utilisable | à cette profondeur."
   },
   {
    "id": "s06",
    "text": "En mouvement, la pression peut dépasser plusieurs fois celle du test.",
-   "start": 19.368,
-   "end": 23.06,
+   "start": 18.602,
+   "end": 22.294,
    "display": "En mouvement, la pression | peut dépasser plusieurs fois | celle du test."
   },
   {
    "id": "s07",
-   "text": "Chez Chaomi, cinq ATM : piscine ou plage, oui. Plongée, douche ou sauna, non.",
-   "start": 23.16,
-   "end": 28.953,
+   "text": "Chez Chaomi, cinq a-té-èm : piscine ou plage, oui. Plongée, douche ou sauna, non.",
+   "start": 22.394,
+   "end": 28.234,
    "display": "Xiaomi, 5 ATM : | piscine, plage : oui. | Plongée, douche, sauna : non."
   },
   {
    "id": "s08",
    "text": "Chez Casio, une montre à cinq bars, c'est douche oui, natation non.",
-   "start": 29.053,
-   "end": 33.551,
+   "start": 28.334,
+   "end": 32.832,
    "display": "Casio, 5 bar : | douche : oui. | Natation : non."
   },
   {
    "id": "s09",
    "text": "Verdict : le chiffre de la boîte n'est pas une profondeur, et chaque marque a ses règles.",
-   "start": 33.651,
-   "end": 38.785,
+   "start": 32.932,
+   "end": 38.066,
    "display": "Verdict : | pas une profondeur. | Et chaque marque a ses règles."
   },
   {
    "id": "s10",
    "text": "Avant d'acheter, lis la liste d'activités de la marque.",
-   "start": 38.885,
-   "end": 42.411,
+   "start": 38.166,
+   "end": 41.692,
    "display": "Avant d'acheter : | la liste des activités | de la marque."
   },
   {
    "id": "s11",
    "text": "Bonus : selon Casio, les joints s'usent avec le temps.",
-   "start": 42.511,
-   "end": 46.404,
+   "start": 41.792,
+   "end": 45.685,
    "display": "Bonus : les joints | s'usent avec le temps | (Casio)."
   },
   {
    "id": "s12",
    "text": "Ta montre affiche combien ? Écris-le en commentaire.",
-   "start": 46.504,
-   "end": 49.719,
+   "start": 45.785,
+   "end": 49.001,
    "display": "Ta montre affiche combien ? | Écris-le en commentaire."
   },
   {
    "id": "s13",
-   "text": "Et abonne-toi : ce soir, Wi-Fi deux virgule quatre ou cinq gigahertz, lequel traverse les murs ?",
-   "start": 49.819,
-   "end": 56.287,
+   "text": "Et abonne-toi : ce soir, ouaï-faï deux virgule quatre ou cinq gigahertz, lequel traverse les murs ?",
+   "start": 49.101,
+   "end": 55.017,
    "display": "Abonne-toi : ce soir, | Wi-Fi 2,4 ou 5 GHz, | lequel traverse les murs ?"
   }
  ]
