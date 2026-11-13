@@ -35,7 +35,7 @@
       });
       block(ctx, t, S('s03'), S('s04'), () => {
         bank(ctx, 280, 760, 0.9, '10 000');
-        line(ctx, 'DANS LES CELLULES', 700, 600, t, S('s03'), { size: 50, weight: 900, color: GOLD, dx: 0 });
+        line(ctx, 'CELLULES · ENVIRON', 700, 600, t, S('s03'), { size: 50, weight: 900, color: GOLD, dx: 0 });
         big(ctx, '3,7 V', 700, 720, t, S('s03') + 0.15, { size: 110, color: GOLD });
         line(ctx, 'SORTIE USB', 700, 880, t, f('s03', 0.5), { size: 50, weight: 900, color: CYAN, dx: 0 });
         big(ctx, '5 V', 700, 1000, t, f('s03', 0.6), { size: 110, color: CYAN });
@@ -82,7 +82,7 @@
         line(ctx, 'AU MOINS 1 FOIS', 500, 960, t, f('s11', 0.45), { size: 66, weight: 900, color: GREEN, dx: 0 });
       });
       block(ctx, t, S('s12'), S('s13'), () => { comment(ctx, t, S('s12'), ['Ta batterie,', 'combien de recharges', 'en vrai ?'], { color: GOLD }); });
-      block(ctx, t, S('s13'), END + 1, () => followCTA(ctx, t, S('s13'), { when: 'CE SOIR', next: ['un robot aspirateur chaque', 'jour : combien en francs ?'] }));
+      block(ctx, t, S('s13'), END + 1, () => followCTA(ctx, t, S('s13'), { when: 'CE SOIR', next: ['un robot aspirateur tous', 'les jours : combien en francs ?'] }));
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });
     }

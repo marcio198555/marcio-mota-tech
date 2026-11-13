@@ -26,7 +26,7 @@
         stick(ctx, 280, 760, 1.15, t);
         pop(ctx, t, -1, 700, 700, () => { panel(ctx, -200, -230, 400, 460, { border: GOLD }); text(ctx, '60', 0, -40, { size: 200, weight: 900, family: F.mono, color: GOLD }); text(ctx, 'MIN', 0, 110, { size: 80, weight: 900, color: WHITE }); });
         big(ctx, '?', 700, 1060, t, undefined, { size: 170, color: RED });
-        head(ctx, "D'AUTONOMIE ?", 380, t, undefined, { size: 60, color: GOLD });
+        head(ctx, 'TON ASPIRATEUR SANS FIL', 380, t, undefined, { size: 60, color: GOLD });
       });
       block(ctx, t, S('s02'), S('s03'), () => {
         stamp(ctx, 'NON', 500, 400, t, S('s02'), { size: 110 });
@@ -34,13 +34,13 @@
         tag(ctx, 'SEULEMENT', 500, 860, t, f('s02', 0.5), { size: 50 });
       });
       block(ctx, t, S('s03'), S('s04'), () => {
-        line(ctx, 'LE GROS CHIFFRE =', 500, 400, t, S('s03'), { size: 66, weight: 900, color: GOLD, dx: 0 });
+        line(ctx, 'SOUVENT, LE GROS CHIFFRE =', 500, 400, t, S('s03'), { size: 66, weight: 900, color: GOLD, dx: 0 });
         line(ctx, 'le réglage le plus faible', 500, 560, t, f('s03', 0.3), { size: 58, dx: 0 });
         line(ctx, "+ l'accessoire le plus simple", 500, 660, t, f('s03', 0.55), { size: 58, dx: 0 });
         CHR.emo(ctx, 'magnifying_glass_tilted_left', 500, 900, 240, t, f('s03', 0.4));
       });
       block(ctx, t, S('s04'), S('s05'), () => {
-        tag(ctx, 'FICHE BOSCH UNLIMITED 10 · BSS1041GHF', 500, 360, t, S('s04'), { size: 34, color: GOLD });
+        tag(ctx, 'FICHE OFFICIELLE · BSS1041GHF', 500, 360, t, S('s04'), { size: 38, color: GOLD });
         stick(ctx, 250, 760, 0.9, t);
         big(ctx, "JUSQU'À", 680, 620, t, f('s04', 0.3), { size: 66, color: WHITE, family: F.display });
         big(ctx, '80 min', 680, 760, t, f('s04', 0.45), { size: 130, color: GOLD });
@@ -65,7 +65,7 @@
         modeRow(ctx, 500, 'Éco, brosse motorisée', 65, 80, GREEN, t, -5);
         modeRow(ctx, 670, 'Auto', 25, 80, GOLD, t, -5);
         modeRow(ctx, 840, 'Turbo', 11, 80, RED, t, S('s08') + 0.1);
-        stamp(ctx, '7 × MOINS', 500, 1110, t, f('s08', 0.55), { size: 76 });
+        stamp(ctx, '80 ÷ 11 ≈ 7', 500, 1110, t, f('s08', 0.55), { size: 76 });
       });
       block(ctx, t, S('s09'), S('s10'), () => {
         stamp(ctx, 'VERDICT', 500, 380, t, S('s09'), { size: 70, color: GOLD });
@@ -76,11 +76,11 @@
       block(ctx, t, S('s10'), S('s11'), () => {
         tag(ctx, "AVANT D'ACHETER", 500, 360, t, S('s10'), { size: 44, color: GREEN });
         pop(ctx, t, S('s10') + 0.15, 500, 700, () => { panel(ctx, -360, -230, 720, 460); text(ctx, 'FICHE TECHNIQUE', 0, -150, { size: 44, weight: 800, color: C.muted });
-          text(ctx, 'Turbo : ?? min', 0, -20, { size: 76, family: F.mono, weight: 700, color: RED }); text(ctx, 'pas la boîte', 0, 120, { size: 52, weight: 800, color: WHITE }); });
+          text(ctx, 'Turbo : ?? min', 0, -20, { size: 76, family: F.mono, weight: 700, color: RED }); text(ctx, 'pas le gros chiffre', 0, 120, { size: 52, weight: 800, color: WHITE }); });
       });
       block(ctx, t, S('s11'), S('s12'), () => {
         tag(ctx, 'BONUS · BATTERIE INTERCHANGEABLE', 500, 360, t, S('s11'), { size: 38, color: CYAN });
-        battery(ctx, 330, 700, 260, 0.15, { color: RED }); battery(ctx, 680, 700, 260, ease.out(prog(t, f('s11', 0.3), 0.6)), { color: GREEN });
+        battery(ctx, 290, 700, 260, 0.15, { color: RED }); battery(ctx, 720, 700, 260, ease.out(prog(t, f('s11', 0.3), 0.6)), { color: GREEN });
         text(ctx, '⇄', 505, 700, { size: 110, weight: 900, color: CYAN });
         tag(ctx, '2e BATTERIE = TU CONTINUES', 500, 940, t, f('s11', 0.5), { size: 40 });
       });

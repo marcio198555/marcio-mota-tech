@@ -1,12 +1,12 @@
 {
  "display": {
-  "s01": "10 000 mAh = | 3 recharges de téléphone ?",
+  "s01": "10 000 mAh : | 3 recharges de téléphone ?",
   "s02": "Non. | Plutôt 1, et un petit bout.",
-  "s03": "10 000 mAh = dans les cellules, à 3,7 V. | Pas à la sortie, en 5 V.",
+  "s03": "10 000 mAh = dans les cellules, à environ 3,7 V. | Pas à la sortie, en 5 V.",
   "s04": "Anker : | 10 000 mAh × 3,7 V = 37 Wh",
   "s05": "37 Wh ÷ 5 V = | 7 400 mAh",
   "s06": "Pertes de conversion : | rendement typique 82 %",
-  "s07": "7 400 × 0,82 = 6 068 | Reste environ 6 000 mAh.",
+  "s07": "7 400 × 0,82 ≈ 6 068 | Reste environ 6 000 mAh.",
   "s08": "Google Pixel 9a : | 5 100 mAh",
   "s09": "Verdict : | 1 recharge complète, pas 2. | (Anker le dit aussi)",
   "s10": "Avant d'acheter : | la capacité nominale, | pas le gros chiffre.",
