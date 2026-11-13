@@ -1,0 +1,29 @@
+{
+ "job": "day34b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s04",
+   "text": "Le mode avion coupe le réseau mobile. Pour l'autonomie, Google le conseille quand tu n'en as pas besoin.",
+   "file": "s04.wav",
+   "duration": 6.12,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Au repos, juste un signal toutes les quelques minutes.",
+   "file": "s06.wav",
+   "duration": 4.12,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Toi : écran éteint, ça aide, selon Xiaomi. Le mode avion ? Aucun chiffre officiel. Ton collègue : charge plus lente.",
+   "file": "s14.wav",
+   "duration": 7.92,
+   "rate": 24000
+  }
+ ],
+ "total": 18.16
+}
