@@ -1,0 +1,33 @@
+{
+ "day": 50,
+ "title": "Batterie externe 10 000 mAh : combien de recharges ?",
+ "format": "V",
+ "recette": "S3 : chiffre de la boîte",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794553051/tiktok-autopilot/day50_batterie-10000.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794553053/tiktok-autopilot/stories/day50_story.mp4",
+ "heure": "10:00",
+ "date": "2026-11-19",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1500,
+ "statut": "programmée",
+ "tiktok_title": "Batterie externe 10 000 mAh : combien de recharges ?",
+ "caption": "Ta batterie externe de 10 000 mAh ne fait pas 3 recharges.\nCalcul d'Anker : 10 000 mAh × 3,7 V = 37 Wh, soit 7 400 mAh à 5 V, puis 82 % de rendement typique : environ 6 068 mAh. Un Pixel 9a a 5 100 mAh selon Google : une recharge complète, pas deux.\nTa batterie externe affiche quelle capacité nominale au dos ?\n#batterieexterne #powerbank #mah #blackfriday\nVoix de synthèse.",
+ "duree_s": 58.1,
+ "story_instagram": {
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794553053/tiktok-autopilot/stories/day50_story.mp4",
+  "buffer_id": "6af6b4feba218f32638395ae",
+  "programme_le": "2026-11-19T10:05:00+01:00"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-19T11:00",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794553055/tiktok-autopilot/reels/day50_reel.mp4",
+  "caption": "Batterie externe 10 000 mAh : une recharge complète de téléphone, pas trois\n\nCalcul publié par Anker : 10 000 mAh × 3,7 V = 37 Wh. À 5 V, cela fait 7 400 mAh ; avec un rendement typique de 82 %, il reste environ 6 068 mAh.\n\nLe Google Pixel 9a a une batterie de 5 100 mAh (typique) selon Google. Anker l'écrit lui-même : avec un téléphone de 5 000 mAh, pas assez pour une deuxième recharge.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#batterieexterne #powerbank #blackfriday #suisseromande #jemesuretout",
+  "statut": "en attente",
+  "cta": "abonnement",
+  "coupe_s": 51.59
+ },
+ "sources": [],
+ "buffer_id": "6af6b4fd5ec1c9d5be65e1db",
+ "programme_le": "2026-11-19T10:00:00+01:00"
+}

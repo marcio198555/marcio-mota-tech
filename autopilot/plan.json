@@ -1266,14 +1266,20 @@
     "capacité en Wh d'un téléphone courant (fiche fabricant)"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "programmée",
    "heure": "10:00",
    "ajoutee_le": "2026-11-05",
    "suite_de": 3,
    "format": "V",
    "type_sujet": "chiffre de la boîte (partie 2 du jour 3)",
    "annonce": "Robot aspirateur : combien en francs par an",
-   "semaine": "S3"
+   "semaine": "S3",
+   "buffer_id": "6af6b4fd5ec1c9d5be65e1db",
+   "story_instagram": {
+    "buffer_id": "6af6b4feba218f32638395ae"
+   },
+   "reel_instagram": "reels_queue.json day50 (2026-11-19T11:00)",
+   "duree_s": 58.1
   },
   {
    "jour": 51,
@@ -1304,13 +1310,19 @@
     "autonomie en mode boost"
    ],
    "argent": "Croissance",
-   "statut": "à produire",
+   "statut": "programmée",
    "heure": "10:00",
    "ajoutee_le": "2026-11-05",
    "format": "V",
    "type_sujet": "chiffre de la boîte",
    "annonce": "Le couvercle sur la casserole",
-   "semaine": "S3"
+   "semaine": "S3",
+   "buffer_id": "6af6b4fcba218f3263839549",
+   "story_instagram": {
+    "buffer_id": "6af6b4fce1d8eff610a76d03"
+   },
+   "reel_instagram": "reels_queue.json day52 (2026-11-17T11:00)",
+   "duree_s": 57.7
   },
   {
    "jour": 53,
