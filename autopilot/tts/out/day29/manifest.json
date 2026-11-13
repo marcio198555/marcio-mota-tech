@@ -1,0 +1,113 @@
+{
+ "job": "day29",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ouaï-faï cinq giga-hertz. Ton collègue, deux virgule quatre. Lequel passe le mieux les murs ?",
+   "file": "s01.wav",
+   "duration": 7.36,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Reste : tu sauras lequel choisir dans chaque pièce.",
+   "file": "s02.wav",
+   "duration": 4.28,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Réponse : le deux virgule quatre.",
+   "file": "s03.wav",
+   "duration": 3.0,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Plus la fréquence est haute, moins le signal passe les murs, écrivent les fabricants.",
+   "file": "s04.wav",
+   "duration": 5.76,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Un fabricant donne : environ vingt mètres en deux virgule quatre, quinze en cinq.",
+   "file": "s05.wav",
+   "duration": 5.6,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Mais le cinq est en général plus rapide.",
+   "file": "s06.wav",
+   "duration": 2.28,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Surprise : en Suisse, l'Ofcom permet jusqu'à un watt en cinq, contre cent milliwatts en deux virgule quatre.",
+   "file": "s07.wav",
+   "duration": 7.16,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Dix fois plus de puissance permise, et il traverse quand même moins bien.",
+   "file": "s08.wav",
+   "duration": 5.04,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Autre piège : ton micro-ondes peut brouiller le deux virgule quatre.",
+   "file": "s09.wav",
+   "duration": 5.08,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Pour la quatre-ka, Nètflix recommande au moins quinze mégabits par seconde.",
+   "file": "s10.wav",
+   "duration": 5.36,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Donc : près du routeur, le cinq ; au fond, le deux virgule quatre.",
+   "file": "s11.wav",
+   "duration": 5.64,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Et pose ton routeur haut, au centre, loin du métal.",
+   "file": "s12.wav",
+   "duration": 3.68,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Ta pièce la plus mal couverte ? Écris-la en commentaire.",
+   "file": "s13.wav",
+   "duration": 3.72,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Toi, la vitesse. Ton collègue, la portée. Un point chacun.",
+   "file": "s14.wav",
+   "duration": 5.48,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, ta batterie externe de dix mille milliampères-heure : combien de recharges, vraiment ?",
+   "file": "s15.wav",
+   "duration": 7.0,
+   "rate": 24000
+  }
+ ],
+ "total": 76.44
+}
