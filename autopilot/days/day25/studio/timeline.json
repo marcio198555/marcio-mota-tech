@@ -90,14 +90,14 @@
    "text": "Toi à vingt et un, ton collègue à vingt : soixante francs d'écart, dans cet exemple.",
    "start": 58.068,
    "end": 63.662,
-   "display": "Toi à 21, ton collègue à 20 : | 60 francs d'écart, dans cet exemple."
+   "display": "Toi à 21, | ton collègue à 20 : | 60 francs d'écart, dans cet exemple."
   },
   {
    "id": "s14",
    "text": "Et abonne-toi : ce soir, pourquoi le centre de ton plat reste froid au micro-ondes.",
    "start": 63.762,
    "end": 68.359,
-   "display": "Abonne-toi : ce soir, pourquoi le centre | de ton plat reste froid au micro-ondes."
+   "display": "Abonne-toi : ce soir, | pourquoi le centre de ton plat | reste froid au micro-ondes."
   }
  ]
 }
