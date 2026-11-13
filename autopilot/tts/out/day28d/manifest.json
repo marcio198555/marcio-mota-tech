@@ -1,0 +1,22 @@
+{
+ "job": "day28d",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s04",
+   "text": "Selon le programme Suisse Énergie, le couvercle fait économiser trente pour cent d'énergie.",
+   "file": "s04.wav",
+   "duration": 6.08,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Réponse : ton collègue paie moins.",
+   "file": "s05.wav",
+   "duration": 3.76,
+   "rate": 24000
+  }
+ ],
+ "total": 9.84
+}
