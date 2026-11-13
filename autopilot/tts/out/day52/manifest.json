@@ -1,0 +1,99 @@
+{
+ "job": "day52",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton aspirateur sans fil tient soixante minutes ?",
+   "file": "s01.wav",
+   "duration": 3.92,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Non. Seulement en mode éco.",
+   "file": "s02.wav",
+   "duration": 2.64,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Le gros chiffre, c'est le réglage le plus faible, avec l'accessoire le plus simple.",
+   "file": "s03.wav",
+   "duration": 5.36,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Exemple : le Bosch Unlimited dix. Sa fiche annonce jusqu'à quatre-vingts minutes.",
+   "file": "s04.wav",
+   "duration": 6.28,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Mais en mode éco, avec un accessoire non électrique.",
+   "file": "s05.wav",
+   "duration": 4.12,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Avec la brosse motorisée, toujours en éco : jusqu'à soixante-cinq.",
+   "file": "s06.wav",
+   "duration": 4.84,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "En mode auto : jusqu'à vingt-cinq minutes.",
+   "file": "s07.wav",
+   "duration": 3.36,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "En turbo : jusqu'à onze. Plus de sept fois moins.",
+   "file": "s08.wav",
+   "duration": 3.68,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Verdict : soixante minutes, oui. Mais en éco seulement.",
+   "file": "s09.wav",
+   "duration": 5.24,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Avant d'acheter, cherche l'autonomie en mode turbo sur la fiche technique, pas sur la boîte.",
+   "file": "s10.wav",
+   "duration": 6.12,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Bonus : sa batterie est interchangeable. Avec une deuxième, tu continues sans attendre la charge.",
+   "file": "s11.wav",
+   "duration": 6.44,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Et toi, tu aspires en quel mode ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 5.2,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Et abonne-toi : ce soir, le couvercle sur la casserole, combien ça change ?",
+   "file": "s13.wav",
+   "duration": 5.32,
+   "rate": 24000
+  }
+ ],
+ "total": 62.52
+}
