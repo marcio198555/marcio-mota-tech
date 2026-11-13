@@ -1,0 +1,29 @@
+{
+ "job": "day28b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s06",
+   "text": "Quand ça bout, l'écart grandit : sans couvercle, la plaque tire ici sept cent cinquante watts pour garder un litre et demi en ébullition.",
+   "file": "s06.wav",
+   "duration": 8.8,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Toi, une grande partie part en vapeur. Ton collègue, lui, économise trente pour cent.",
+   "file": "s13.wav",
+   "duration": 6.08,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Abonne-toi : demain, la montre « étanche cinquante mètres » : tu peux vraiment plonger avec ?",
+   "file": "s14.wav",
+   "duration": 6.28,
+   "rate": 24000
+  }
+ ],
+ "total": 21.16
+}
