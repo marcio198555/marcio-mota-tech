@@ -1,0 +1,22 @@
+{
+ "job": "day28c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s03",
+   "text": "Sans couvercle, une grande partie de l'énergie s'évapore avec ma vapeur.",
+   "file": "s03.wav",
+   "duration": 4.56,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Selon le programme Suisse Énergie, le couvercle fait économiser trente pour cent d'énergie.",
+   "file": "s04.wav",
+   "duration": 23.24,
+   "rate": 24000
+  }
+ ],
+ "total": 27.8
+}
