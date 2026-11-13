@@ -1,0 +1,22 @@
+{
+ "job": "day49b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta télé soixante-cinq pouces : cent soixante-cinq centimètres de large ?",
+   "file": "s01.wav",
+   "duration": 5.48,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Non : cent soixante-cinq, c'est la diagonale.",
+   "file": "s02.wav",
+   "duration": 3.8,
+   "rate": 24000
+  }
+ ],
+ "total": 9.28
+}
