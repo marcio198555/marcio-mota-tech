@@ -1,0 +1,67 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, sans couvercle. Ton collègue, avec. Qui paie le moins de courant ?"
+  },
+  {
+   "id": "s02",
+   "text": "Je suis ta casserole : à la fin, tu sauras combien ça vaut en francs."
+  },
+  {
+   "id": "s03",
+   "text": "Sans couvercle, une grande partie de l'énergie s'évapore avec ma vapeur."
+  },
+  {
+   "id": "s04",
+   "text": "Selon Suisse Énergie, le couvercle fait économiser trente pour cent d'énergie."
+  },
+  {
+   "id": "s05",
+   "text": "Réponse : ton collègue paie moins."
+  },
+  {
+   "id": "s06",
+   "text": "Quand ça bout, l'écart grandit : sans couvercle, la plaque tire sept cent cinquante watts pour garder un litre et demi en ébullition."
+  },
+  {
+   "id": "s07",
+   "text": "Avec : moins de deux cents. Presque quatre fois moins, selon les services cantonaux de l'énergie."
+  },
+  {
+   "id": "s08",
+   "text": "Exemple : vingt minutes d'ébullition. Environ sept centimes sans couvercle, moins de deux avec."
+  },
+  {
+   "id": "s09",
+   "text": "Tous les jours, ça fait plus de dix-huit francs par an."
+  },
+  {
+   "id": "s10",
+   "text": "Conseil : sur une plaque classique, coupe-la quelques minutes avant la fin."
+  },
+  {
+   "id": "s11",
+   "text": "Et mon fond doit être bien plat, sinon la chaleur se perd."
+  },
+  {
+   "id": "s12",
+   "text": "Et toi, couvercle ou pas ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Toi, ton énergie part en vapeur. Ton collègue, lui, économise trente pour cent."
+  },
+  {
+   "id": "s14",
+   "text": "Abonne-toi : demain, la montre « étanche cinquante mètres »… avec laquelle tu ne peux pas plonger à cinquante mètres."
+  }
+ ]
+}

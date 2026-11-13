@@ -1,0 +1,34 @@
+{
+ "display": {
+  "s01": "Toi, Wi-Fi 5 GHz. Ton collègue, 2,4 GHz. | Lequel passe le mieux les murs ?",
+  "s02": "Reste : tu sauras lequel choisir | dans chaque pièce.",
+  "s03": "Réponse : le 2,4 GHz.",
+  "s04": "Plus la fréquence est haute, | moins le signal passe les murs, | écrivent les fabricants.",
+  "s05": "Un fabricant donne : | environ 20 m en 2,4 GHz, | 15 m en 5 GHz.",
+  "s06": "Mais le 5 GHz est en général plus rapide.",
+  "s07": "Surprise : en Suisse, l'OFCOM permet | jusqu'à 1 W en 5 GHz, | contre 100 mW en 2,4 GHz.",
+  "s08": "10 fois plus de puissance permise, | et il traverse quand même moins bien.",
+  "s09": "Autre piège : ton micro-ondes | peut brouiller le 2,4 GHz.",
+  "s10": "Pour la 4K, Netflix recommande | au moins 15 Mbit/s.",
+  "s11": "Donc : près du routeur, le 5 GHz ; | au fond, le 2,4 GHz.",
+  "s12": "Et pose ton routeur haut, | au centre, loin du métal.",
+  "s13": "Ta pièce la plus mal couverte ? | Écris-la en commentaire.",
+  "s14": "Toi, la vitesse. Ton collègue, la portée. | Un point chacun.",
+  "s15": "Abonne-toi : demain, ta batterie externe | de 10 000 mAh : | combien de recharges, vraiment ?"
+ },
+ "title": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse les murs ?",
+ "slug": "wifi-24-5-ghz-murs",
+ "format": "V",
+ "caption": "Wi-Fi 5 GHz ou 2,4 GHz : le plus rapide n'est pas celui qui passe les murs 📶 Netgear, TP-Link et Asus l'écrivent : le 2,4 GHz couvre plus loin, le 5 GHz est en général plus rapide (repère TP-Link : environ 20 m contre 15 m). En Suisse, l'OFCOM autorise jusqu'à 1 W sur une partie du 5 GHz, contre 100 mW en 2,4 GHz. Voix de synthèse. Dans quelle pièce ton Wi-Fi décroche ? 👇 #wifi #routeur #internet #astucetech #suisseromande",
+ "reel_caption": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse vraiment les murs de ton appartement ?\n\nLes fabricants de routeurs (Netgear, TP-Link, Asus) l'écrivent : plus la fréquence est haute, moins le signal passe les murs. Le 2,4 GHz porte plus loin, le 5 GHz est en général plus rapide. Repère de TP-Link : environ 20 m en 2,4 GHz, 15 m en 5 GHz.\n\nEn Suisse, l'OFCOM autorise jusqu'à 1 W sur une partie de la bande 5 GHz (avec contrôle de puissance), contre 100 mW en 2,4 GHz. Et un micro-ondes peut brouiller le 2,4 GHz, selon Asus et Netgear.\n\nPour de la 4K, Netflix recommande au moins 15 Mbit/s. Près du routeur, prends le 5 GHz ; dans la pièce du fond, essaie le 2,4 GHz. Routeur en hauteur, au centre, loin du métal.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui se plaint du Wi-Fi dans sa chambre.\n\n#wifi #routeur #astucetech #suisseromande #jemesuretout",
+ "sources": [
+  "https://www.tp-link.com/us/support/faq/2291/",
+  "https://www.tp-link.com/en/support/faq/427",
+  "https://www.tp-link.com/us/support/faq/468/?app=deco",
+  "https://kb.netgear.com/29396/What-is-the-difference-between-2-4-GHz-and-5-GHz-wireless-frequencies",
+  "https://www.asus.com/de/support/FAQ/1044838/",
+  "https://www.bakom.admin.ch/en/wlan-rlan-4",
+  "https://help.netflix.com/fr/node/306"
+ ],
+ "visuel": "s01 duel : routeur, mur, ondes bleues 5 GHz / dorées 2,4 GHz, « ? » ; s02 plan d'appartement, 3 pièces ; s03 tampon 2,4 GHz ; s04 ondes courtes et longues qui frappent un mur ; s05 règle 20 m / 15 m (repère fabricant) ; s06 barre de vitesse ; s07 drapeau suisse, 1 W / 100 mW ; s08 × 10, tampon QUAND MÊME ; s09 micro-ondes, éclairs ; s10 télé 4K, 15 Mbit/s ; s11 plan : 5 près, 2,4 au fond ; s12 routeur en hauteur, croix sur placard métal ; s13 bulle commentaire ; s14 retour duel, verdict ; s15 DEMAIN."
+}

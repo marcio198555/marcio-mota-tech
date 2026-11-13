@@ -1,0 +1,31 @@
+{
+ "display": {
+  "s01": "Toi, sans couvercle. Ton collègue, avec. | Qui paie le moins de courant ?",
+  "s02": "Je suis ta casserole : à la fin, | tu sauras combien ça vaut en francs.",
+  "s03": "Sans couvercle, une grande partie de l'énergie | s'évapore avec ma vapeur.",
+  "s04": "Selon SuisseEnergie, le couvercle | fait économiser 30 % d'énergie.",
+  "s05": "Réponse : ton collègue paie moins.",
+  "s06": "Quand ça bout, l'écart grandit : | sans couvercle, la plaque tire 750 W | pour garder 1,5 l en ébullition.",
+  "s07": "Avec : moins de 200. | Presque 4 fois moins, | selon les services cantonaux de l'énergie.",
+  "s08": "Exemple : 20 minutes d'ébullition. | Environ 7 centimes sans couvercle, | moins de 2 avec.",
+  "s09": "Tous les jours, ça fait | plus de 18 francs par an.",
+  "s10": "Conseil : sur une plaque classique, | coupe-la quelques minutes avant la fin.",
+  "s11": "Et mon fond doit être bien plat, | sinon la chaleur se perd.",
+  "s12": "Et toi, couvercle ou pas ? | Écris-le en commentaire.",
+  "s13": "Toi, ton énergie part en vapeur. | Ton collègue, lui, économise 30 %.",
+  "s14": "Abonne-toi : demain, la montre « étanche 50 mètres »… | avec laquelle tu ne peux pas plonger à 50 mètres."
+ },
+ "title": "Couvercle sur la casserole : combien d'énergie en moins ?",
+ "slug": "couvercle-casserole",
+ "format": "A",
+ "caption": "Le couvercle sur la casserole : 30 % d'énergie en moins, selon SuisseEnergie 🍲 Pour garder 1,5 l en ébullition, une plaque tire 750 W sans couvercle et moins de 200 W avec, presque 4 fois moins (services cantonaux de l'énergie). Exemple : 20 min d'ébullition chaque jour, plus de 18 francs par an au tarif médian ElCom 2026 (27,7 ct/kWh hors TVA). Sources relevées le 13.11.2026. Casserole fictive, voix de synthèse. Et toi, tu mets le couvercle pour les pâtes ou jamais ? #couvercle #cuisine #economiedenergie #astucemaison #suisseromande",
+ "reel_caption": "Couvercle sur la casserole : combien d'énergie en moins, en vrai ?\n\nSuisseEnergie et l'OFEN l'écrivent dans leur brochure « Économiser l'énergie au quotidien » : avec le couvercle sur la casserole, on économise 30 % d'énergie.\n\nLes services cantonaux de l'énergie ont mesuré la puissance pour garder 1,5 l en ébullition : 750 W sans couvercle, moins de 200 W avec, presque 4 fois moins. Exemple : 20 minutes d'ébullition, environ 7 centimes sans couvercle, moins de 2 avec, au tarif médian ElCom 2026 (27,7 ct/kWh hors TVA). Chaque jour, cela fait plus de 18 francs par an.\n\nDeux conseils des cantons : sur une plaque classique (pas à induction), couper quelques minutes avant la fin ; utiliser une casserole au fond bien plat.\n\nCasserole fictive, voix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#couvercle #cuisine #economiedenergie #suisseromande #jemesuretout",
+ "sources": [
+  "https://pubdb.bfe.admin.ch/fr/publication/download/7190",
+  "https://www.energie-environnement.ch/maison/cuisine/cuisson-et-casseroles",
+  "https://www.energie-environnement.ch/maison/armoire-a-menage/l-electricite-du-menage",
+  "https://www.collombey-muraz.ch/data/documents/Prospectus_A5_Menage_Web1.pdf",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu"
+ ],
+ "visuel": "s01 : décor cuisine flou, carte duel TOI (casserole sans couvercle, vapeur) / TON COLLÈGUE (casserole couverte), « QUI PAIE MOINS ? » dès l'image 0 ; la casserole personnage au premier plan sur une plaque rouge\ns02 : la casserole cligne, parle ; pièce « CHF ? » qui tourne\ns03 : la vapeur monte en volutes, flèches « énergie » qui s'échappent\ns04 : couvercle qui tombe sur la casserole, jauge 100 → 70 %, tampon − 30 %, chip SUISSEENERGIE · OFEN\ns05 : retour duel, tampon « MOINS » côté collègue\ns06 : wattmètre 750 W sur la plaque, 1,5 l\ns07 : le wattmètre tombe à < 200 W, « ≈ 4 × MOINS », chip services cantonaux\ns08 : chip EXEMPLE, chronomètre 20 min, calcul 0,25 kWh × 27,7 ct = 6,9 ct / < 1,9 ct\ns09 : calendrier 365 jours, > 18 CHF par an, EXEMPLE\ns10 : interrupteur de plaque coupé, chaleur résiduelle rouge qui pâlit, « PAS À INDUCTION »\ns11 : coupe d'un fond bombé (vide sous la casserole) contre un fond plat\ns12 : bulle commentaire « Couvercle ou pas ? »\ns13 : retour au duel, − 30 % côté collègue\ns14 : carte DEMAIN, montre « 50 m ? »"
+}

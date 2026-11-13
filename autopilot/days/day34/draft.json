@@ -1,0 +1,33 @@
+{
+ "display": {
+  "s01": "Toi, tu charges en mode avion. | Ton collègue continue de scroller.",
+  "s02": "Lequel charge le plus vite ?",
+  "s03": "Reste : à la fin, tu sauras | ce qui ralentit ta charge.",
+  "s04": "Le mode avion coupe le réseau mobile. | Google le conseille | quand tu n'en as pas besoin.",
+  "s05": "Selon l'Office fédéral de la santé publique, | ton téléphone émet surtout pendant un appel | ou un transfert de données.",
+  "s06": "Au repos, juste un signal | toutes les quelques minutes : | le mode avion a alors peu à couper.",
+  "s07": "Ton collègue, écran allumé ? | Selon Xiaomi, la charge est plus lente.",
+  "s08": "Honor conseille de ne pas l'utiliser en charge, | surtout pour un gros jeu.",
+  "s09": "Deuxième surprise : trop chaud, | il peut mettre la charge en pause, | selon Google.",
+  "s10": "En francs ? Batterie d'exemple de 19 Wh : | environ un demi-centime la charge.",
+  "s11": "Une charge par jour, toute l'année : | environ 2 francs.",
+  "s12": "Alors : écran éteint, | pas de jeu, pas au soleil.",
+  "s13": "Tu charges en mode avion ? | Écris-le en commentaire.",
+  "s14": "Toi : un petit plus, peut-être. | Ton collègue : écran allumé, | charge plus lente.",
+  "s15": "Abonne-toi : demain, ta télé 65 pouces : | 165 cm de large ?"
+ },
+ "title": "Le mode avion fait-il charger plus vite ton téléphone ?",
+ "slug": "mode-avion-charge",
+ "format": "V",
+ "caption": "Mode avion pour charger plus vite ? Pas si simple ✈️🔋 Selon l'OFSP, un téléphone émet surtout pendant un appel ou un transfert de données, et au repos seulement un signal toutes les quelques minutes. Xiaomi écrit que la charge est plus lente écran allumé, Honor conseille de ne pas utiliser le téléphone en charge, Google qu'il peut mettre la charge en pause s'il chauffe trop. Une charge d'une batterie d'exemple de 19 Wh : environ 0,5 ct au tarif médian ElCom 2026 hors TVA. Voix de synthèse. Toi, tu charges en mode avion ou tu continues de scroller ? 👇 #modeavion #batterie #smartphone #astucetech #suisseromande",
+ "reel_caption": "Mode avion pendant la charge : ton téléphone charge-t-il plus vite ?\n\nSelon l'OFSP, un téléphone émet surtout pendant un appel ou un transfert de données ; au repos, il envoie seulement un signal toutes les quelques minutes. Google conseille le mode avion pour la batterie quand on n'a pas besoin du réseau.\n\nXiaomi : la charge est plus lente écran allumé. Honor : évite d'utiliser le téléphone en charge, surtout pour un gros jeu. Google : trop chaud, il peut mettre la charge en pause ; pas en plein soleil.\n\nEn francs : une batterie d'exemple de 19 Wh, environ 0,5 ct la charge, environ 1,92 CHF par an à une charge par jour (tarif médian ElCom 2026 hors TVA, sans les pertes du chargeur).\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui scrolle pendant que son téléphone charge.\n\n#modeavion #smartphone #astucetech #suisseromande #jemesuretout",
+ "sources": [
+  "https://www.bag.admin.ch/dam/bag/fr/dokumente/str/nis/faktenblaetter-emf/faktenblatt-smartphone.pdf.download.pdf/faktenblatt",
+  "https://support.google.com/android/answer/7664692",
+  "https://support.google.com/pixelphone/answer/7106961?hl=en",
+  "https://www.mi.com/global/support/faq/details/KA-492700/",
+  "https://iknow-dl.service.hihonor.com/ctkbfm/applet/simulator/en-gb15837215/index.html",
+  "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu"
+ ],
+ "visuel": "s01 duel : téléphone en charge + avion (toi) / téléphone écran allumé qui défile (collègue), ? CHARGE ; s02 QUI A RAISON ? ; s03 jauge de charge qui monte, loupe ; s04 interrupteur mode avion, antenne barrée, carte Google ; s05 carte OFSP, ondes pendant appel/données ; s06 ondes rares + horloge (quelques minutes), PEU À COUPER ; s07 écran allumé, flèche lente, carte Xiaomi ; s08 manette barrée, carte Honor ; s09 SURPRISE thermomètre, pause ⏸ ; s10 calcul EXEMPLE 19 Wh × 27,7 ct = 0,53 ct ; s11 365 charges, 1,92 CHF + pièces ; s12 3 conseils ; s13 bulle commentaire ; s14 retour duel verdict ; s15 DEMAIN télé 65 pouces."
+}

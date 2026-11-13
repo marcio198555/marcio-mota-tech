@@ -1,0 +1,75 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu passes l'aspirateur à la main. Ton collègue me fait tourner chaque jour. Qui paie le plus d'électricité ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : tu vas connaître le prix d'un de mes passages."
+  },
+  {
+   "id": "s03",
+   "text": "Je suis un robot fictif, mais mes chiffres viennent de vrais modèles."
+  },
+  {
+   "id": "s04",
+   "text": "Ma batterie, comme sur un Chaomi S quarante : quatorze virgule quatre volts, cinq mille deux cents milliampères-heure."
+  },
+  {
+   "id": "s05",
+   "text": "Pleine, environ soixante-quinze wattheures."
+  },
+  {
+   "id": "s06",
+   "text": "Un passage qui la vide : au moins deux centimes."
+  },
+  {
+   "id": "s07",
+   "text": "Chaque jour, toute l'année : au moins sept francs cinquante."
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : sur ma station, je consomme même sans rien faire."
+  },
+  {
+   "id": "s09",
+   "text": "Une notice d'Écovacs annonce moins de deux watts en veille connectée."
+  },
+  {
+   "id": "s10",
+   "text": "Sur un an : jusqu'à quatre francs quatre-vingt-cinq."
+  },
+  {
+   "id": "s11",
+   "text": "Et ton aspirateur traîneau ? L'Union européenne estime sa moyenne à trente-cinq kilowattheures par an."
+  },
+  {
+   "id": "s12",
+   "text": "Environ neuf francs soixante-dix."
+  },
+  {
+   "id": "s13",
+   "text": "Conseil : programme-moi les jours utiles, et éteins-moi pendant tes vacances."
+  },
+  {
+   "id": "s14",
+   "text": "Ton robot passe tous les jours ? Écris-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Toi et ton collègue : en ordre de grandeur, une dizaine de francs par an chacun."
+  },
+  {
+   "id": "s16",
+   "text": "Abonne-toi : d'autres objets vont tout balancer."
+  }
+ ]
+}

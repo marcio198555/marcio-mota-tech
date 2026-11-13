@@ -1,0 +1,71 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ouaï-faï cinq giga-hertz. Ton collègue, deux virgule quatre. Lequel passe le mieux les murs ?"
+  },
+  {
+   "id": "s02",
+   "text": "Reste : tu sauras lequel choisir dans chaque pièce."
+  },
+  {
+   "id": "s03",
+   "text": "Réponse : le deux virgule quatre."
+  },
+  {
+   "id": "s04",
+   "text": "Plus la fréquence est haute, moins le signal passe les murs, écrivent les fabricants."
+  },
+  {
+   "id": "s05",
+   "text": "Un fabricant donne : environ vingt mètres en deux virgule quatre, quinze en cinq."
+  },
+  {
+   "id": "s06",
+   "text": "Mais le cinq est en général plus rapide."
+  },
+  {
+   "id": "s07",
+   "text": "Surprise : en Suisse, l'Ofcom permet jusqu'à un watt en cinq, contre cent milliwatts en deux virgule quatre."
+  },
+  {
+   "id": "s08",
+   "text": "Dix fois plus de puissance permise, et il traverse quand même moins bien."
+  },
+  {
+   "id": "s09",
+   "text": "Autre piège : ton micro-ondes peut brouiller le deux virgule quatre."
+  },
+  {
+   "id": "s10",
+   "text": "Pour la quatre-ka, Nètflix recommande au moins quinze mégabits par seconde."
+  },
+  {
+   "id": "s11",
+   "text": "Donc : près du routeur, le cinq ; au fond, le deux virgule quatre."
+  },
+  {
+   "id": "s12",
+   "text": "Et pose ton routeur haut, au centre, loin du métal."
+  },
+  {
+   "id": "s13",
+   "text": "Ta pièce la plus mal couverte ? Écris-la en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Toi, la vitesse. Ton collègue, la portée. Un point chacun."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, ta batterie externe de dix mille milliampères-heure : combien de recharges, vraiment ?"
+  }
+ ]
+}

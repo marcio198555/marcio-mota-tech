@@ -1,0 +1,33 @@
+{
+ "display": {
+  "s01": "Même offre Netflix, en Suisse et en France : | qui paie le plus, et combien ?",
+  "s02": "À la fin : l'écart sur un an.",
+  "s03": "En Suisse, l'offre Standard : | 22,90 CHF par mois, selon Netflix.",
+  "s04": "En France : 14,99 €.",
+  "s05": "Au cours de la Banque nationale, le 12 novembre : | moins de 14 francs.",
+  "s06": "Réponse : la Suisse paie | environ 66 % de plus.",
+  "s07": "9 francs d'écart, chaque mois.",
+  "s08": "Sur un an : près de 109 francs.",
+  "s09": "Deuxième surprise : en Suisse, | Netflix ne liste aucune offre avec pub.",
+  "s10": "En France, elle coûte 7,99 €. | Ici, la moins chère : 14,90 francs.",
+  "s11": "Et ce n'est pas la TVA : | sans elle, l'écart grandit encore.",
+  "s12": "Conseil : la 4K, c'est seulement en Premium, | 7 francs de plus par mois.",
+  "s13": "Et toi, quelle offre tu paies ? | Écris-la en commentaire.",
+  "s14": "Même offre Standard : 275 francs par an en Suisse, | 166 en France.",
+  "s15": "Abonne-toi : demain, l'aspirateur sans fil « 60 minutes »… | qui ne tient 60 minutes qu'en mode éco."
+ },
+ "title": "Netflix : combien plus cher en Suisse qu'en France ?",
+ "slug": "netflix-suisse-france",
+ "format": "V",
+ "caption": "Netflix Standard : 22,90 CHF par mois en Suisse, 14,99 € en France 📺 Soit 13,83 CHF au cours BNS du 12.11.2026 (1 € = 0,9228 CHF) : environ 66 % de plus en Suisse, près de 109 francs par an. La page suisse ne liste aucune offre avec pub (la moins chère : Essentiel, 14,90 CHF), la France a « Standard avec pub » à 7,99 €. Hors TVA (8,1 % et 20 %, calcul), l'écart grandit. Prix des pages d'aide Netflix relevés le 13.11.2026. Voix de synthèse. Et toi, tu paies quelle offre, et dans quel pays ? #netflix #suissecontrefrance #abonnementstreaming #prix #suisseromande",
+ "reel_caption": "Netflix en Suisse ou en France : même offre Standard, combien d'écart ?\n\nPages d'aide Netflix relevées le 13.11.2026 : Standard à 22,90 CHF par mois en Suisse, 14,99 € en France, soit 13,83 CHF au cours BNS du 12.11.2026 (1 € = 0,9228 CHF). Environ 66 % de plus en Suisse : 274,80 CHF par an contre 166, près de 109 francs d'écart.\n\nLa page suisse ne liste aucune offre avec pub : la moins chère est l'Essentiel à 14,90 CHF. En France, « Standard avec pub » coûte 7,99 €, et l'Essentiel n'est plus proposé. Netflix indique que la TVA est comprise ; en retirant les taux normaux (8,1 % et 20 %, notre calcul), l'écart passe à environ 84 %. La 4K n'existe qu'en Premium (29,90 CHF).\n\nAnimation, voix de synthèse.\n\nEnvoie-la à quelqu'un qui vit de l'autre côté de la frontière.\n\n#netflix #suissecontrefrance #streaming #suisseromande #jemesuretout",
+ "sources": [
+  "https://help.netflix.com/fr-ch/node/24926",
+  "https://help.netflix.com/fr-fr/node/24926",
+  "https://help.netflix.com/fr/node/50068",
+  "https://www.snb.ch/public/rss/fr/exchangeRates",
+  "https://www.estv.admin.ch/fr/taux-de-la-tva-suisse",
+  "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mes-autres-impots-et-taxes/tva-quels-sont-les-taux-de-votre-quotidien"
+ ],
+ "visuel": "s01 : écran partagé drapeaux Suisse / France dessinés, un téléviseur générique de chaque côté (écran rouge sans logo), « ? CHF » sous chacun, titre QUI PAIE LE PLUS ? dès l'image 0\ns02 : compteur « ÉCART SUR 1 AN : ??? CHF » au-dessus du duel ; calendrier 12 cases qui s'allument\ns03 : carte Suisse, compteur qui monte à 22,90 CHF, chip STANDARD · 2 ÉCRANS · HD, source Netflix 13.11.2026\ns04 : carte France, compteur à 14,99 €, mêmes caractéristiques (chips identiques cochées)\ns05 : pièce qui se retourne 14,99 € → 13,83 CHF, calcul 14,99 × 0,9228, chip BNS 12.11.2026\ns06 : deux colonnes 22,90 / 13,83, tampon + 66 %\ns07 : écart en pointillé entre les colonnes, 9,07 CHF qui pulse, mini-calendrier « chaque mois »\ns08 : 12 pièces tombent (une par mois), compteur 0 → 108,81 CHF\ns09 : tampon SURPRISE, page suisse : 3 cartes d'offres (Essentiel, Standard, Premium), carte « AVEC PUB » barrée côté Suisse\ns10 : deux étiquettes : France 7,99 € (avec pub) / Suisse 14,90 CHF (Essentiel), « × 2 » en francs\ns11 : jauges TVA 20 % / 8,1 %, puis les prix hors TVA 11,53 / 21,18, chip CALCUL · TAUX NORMAL, + 84 %\ns12 : téléviseur avec badge 4K, flèche Premium 29,90 vs Standard 22,90 : + 7 CHF\ns13 : grande bulle commentaire « Quelle offre tu paies ? »\ns14 : retour au duel avec 275 CHF / 166 CHF par an sous les téléviseurs, écart 109 CHF\ns15 : carte DEMAIN, aspirateur sans fil générique, « 60 min ? »"
+}

@@ -1,0 +1,71 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même offre Netflix, en Suisse et en France : qui paie le plus, et combien ?"
+  },
+  {
+   "id": "s02",
+   "text": "À la fin : l'écart sur un an."
+  },
+  {
+   "id": "s03",
+   "text": "En Suisse, l'offre Standard : vingt-deux francs nonante par mois, selon Netflix."
+  },
+  {
+   "id": "s04",
+   "text": "En France : quatorze euros nonante-neuf."
+  },
+  {
+   "id": "s05",
+   "text": "Au cours de la Banque nationale, le douze novembre : moins de quatorze francs."
+  },
+  {
+   "id": "s06",
+   "text": "Réponse : la Suisse paie environ soixante-six pour cent de plus."
+  },
+  {
+   "id": "s07",
+   "text": "Neuf francs d'écart, chaque mois."
+  },
+  {
+   "id": "s08",
+   "text": "Sur un an : près de cent neuf francs."
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : en Suisse, Netflix ne liste aucune offre avec pub."
+  },
+  {
+   "id": "s10",
+   "text": "En France, elle coûte sept euros nonante-neuf. Ici, la moins chère : quatorze francs nonante."
+  },
+  {
+   "id": "s11",
+   "text": "Et ce n'est pas la té-vé-a : sans elle, l'écart grandit encore."
+  },
+  {
+   "id": "s12",
+   "text": "Conseil : la quatre K, c'est seulement en Premium, sept francs de plus par mois."
+  },
+  {
+   "id": "s13",
+   "text": "Et toi, quelle offre tu paies ? Écris-la en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Même offre Standard : deux cent septante-cinq francs par an en Suisse, cent soixante-six en France."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : demain, l'aspirateur sans fil « soixante minutes »… qui ne tient soixante minutes qu'en mode éco."
+  }
+ ]
+}
