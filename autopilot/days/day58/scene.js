@@ -112,7 +112,7 @@
       block(ctx, t, S('s15'), S('s16'), () => { duelCard(ctx, t);
         stamp(ctx, 'À MOITIÉ', 285, 730, t, S('s15') + 0.2, { size: 60, color: GOLD }); CHR.emo(ctx, 'cross_mark', 715, 730, 150, t, f('s15', 0.5));
       });
-      block(ctx, t, S('s16'), END + 1, () => followCTA(ctx, t, S('s16'), { when: 'DEMAIN', next: ['Suisse contre France :', 'même machine à laver'] }));
+      block(ctx, t, S('s16'), END + 1, () => followCTA(ctx, t, S('s16'), { when: 'DEMAIN', next: ['Suisse contre France :', 'la même console'] }));
       ctx.restore();
       brand(ctx, t);
       captions(ctx, t, { y: 1385, size: 64, maxWidth: 800, x: 515, fromZero: true });

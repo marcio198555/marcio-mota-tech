@@ -1,117 +1,117 @@
 {
- "duration": 68.765,
+ "duration": 68.791,
  "segments": [
   {
    "id": "s01",
    "text": "Ton plat brûle au bord, et le centre reste froid ?",
    "start": 0.12,
-   "end": 2.828,
+   "end": 2.806,
    "display": "Ton plat brûle au bord, | et le centre reste froid ?"
   },
   {
    "id": "s02",
    "text": "Toi, tu dis que je chauffe mal. Ton collègue, que je chauffe de l'intérieur.",
-   "start": 2.928,
-   "end": 7.498,
+   "start": 2.906,
+   "end": 7.619,
    "display": "Toi, tu dis que je chauffe mal. | Ton collègue, que je chauffe | de l'intérieur."
   },
   {
    "id": "s03",
    "text": "Reste : à la fin, tu sauras comment éviter le milieu froid.",
-   "start": 7.598,
-   "end": 11.002,
+   "start": 7.719,
+   "end": 11.293,
    "display": "Reste : à la fin, tu sauras | comment éviter le milieu froid."
   },
   {
    "id": "s04",
    "text": "Je suis ton micro-ondes : je ne chauffe pas de l'intérieur.",
-   "start": 11.102,
-   "end": 14.204,
+   "start": 11.393,
+   "end": 14.469,
    "display": "Je suis ton micro-ondes : | je ne chauffe pas de l'intérieur."
   },
   {
    "id": "s05",
    "text": "L'agence américaine, la F D A, l'écrit : dans un plat épais, je chauffe surtout les couches extérieures.",
-   "start": 14.304,
-   "end": 20.272,
+   "start": 14.569,
+   "end": 20.83,
    "display": "L'agence américaine FDA l'écrit : dans un plat épais, | je chauffe surtout les couches extérieures."
   },
   {
    "id": "s06",
    "text": "Mes ondes entrent de deux virgule cinq à moins de quatre centimètres, selon le ministère américain de l'Agriculture.",
-   "start": 20.372,
-   "end": 27.105,
+   "start": 20.93,
+   "end": 27.609,
    "display": "Mes ondes entrent de 2,5 à moins de 4 cm, | selon le ministère américain | de l'Agriculture."
   },
   {
    "id": "s07",
    "text": "Le centre attend que la chaleur arrive de proche en proche.",
-   "start": 27.205,
-   "end": 30.949,
+   "start": 27.709,
+   "end": 31.656,
    "display": "Le centre attend que la chaleur | arrive de proche en proche."
   },
   {
    "id": "s08",
    "text": "Par exemple, une lasagne de huit centimètres : le milieu reste hors de portée directe.",
-   "start": 31.049,
-   "end": 35.532,
+   "start": 31.756,
+   "end": 36.525,
    "display": "Par exemple, une lasagne de 8 cm : | le milieu reste hors de portée directe."
   },
   {
    "id": "s09",
    "text": "Surprise : mes ondes se croisent et laissent des zones froides, environ tous les six centimètres.",
-   "start": 35.632,
-   "end": 41.489,
+   "start": 36.625,
+   "end": 42.435,
    "display": "Surprise : mes ondes se croisent | et laissent des zones froides, | environ tous les 6 cm."
   },
   {
    "id": "s10",
    "text": "D'où mon plateau qui tourne.",
-   "start": 41.589,
-   "end": 43.215,
+   "start": 42.535,
+   "end": 44.614,
    "display": "D'où mon plateau qui tourne."
   },
   {
    "id": "s11",
    "text": "Alors : étale, couvre, et mélange à mi-temps.",
-   "start": 43.315,
-   "end": 46.324,
+   "start": 44.714,
+   "end": 47.699,
    "display": "Alors : étale, couvre, | et mélange à mi-temps."
   },
   {
    "id": "s12",
    "text": "Puis laisse reposer au moins trois minutes : la cuisson continue.",
-   "start": 46.424,
-   "end": 49.456,
+   "start": 47.799,
+   "end": 50.807,
    "display": "Puis laisse reposer au moins 3 minutes : | la cuisson continue."
   },
   {
    "id": "s13",
    "text": "Exemple : mille watts consommés, quatre minutes : environ deux centimes.",
-   "start": 49.556,
-   "end": 54.153,
+   "start": 50.907,
+   "end": 55.64,
    "display": "Exemple : 1 000 W consommés, | 4 minutes : environ 2 centimes."
   },
   {
    "id": "s14",
    "text": "Tu mélanges, ou tu rajoutes du temps ? Écris-le en commentaire.",
-   "start": 54.253,
-   "end": 58.013,
+   "start": 55.74,
+   "end": 59.47,
    "display": "Tu mélanges, ou tu rajoutes du temps ? | Écris-le en commentaire."
   },
   {
    "id": "s15",
    "text": "Toi, à moitié raison : je chauffe inégalement. Ton collègue, faux : pas de l'intérieur.",
-   "start": 58.113,
-   "end": 63.429,
+   "start": 59.57,
+   "end": 64.842,
    "display": "Toi, à moitié raison : je chauffe inégalement. | Ton collègue, faux : pas de l'intérieur."
   },
   {
    "id": "s16",
-   "text": "Abonne-toi : demain, Suisse contre France, même machine à laver, qui paie le plus ?",
-   "start": 63.529,
-   "end": 68.465,
-   "display": "Abonne-toi : demain, Suisse contre France, | même machine à laver, qui paie le plus ?"
+   "text": "Abonne-toi : demain, la même console en Suisse et en France.",
+   "start": 64.942,
+   "end": 68.491,
+   "display": "Abonne-toi : demain, | la même console en Suisse et en France."
   }
  ]
 }
