@@ -960,9 +960,14 @@
    "annonce": "TV 65 pouces : 144 cm de large",
    "semaine": "S3",
    "reel_instagram": {
-    "statut": "en attente",
+    "statut": "publié",
     "prevu": "2026-11-14T19:00",
-    "cta": "envoi"
+    "cta": "envoi",
+    "date": "2026-11-14T07:20+01:00",
+    "lien": "https://www.instagram.com/reel/DftjaVpiMUJ/",
+    "media_id": "18074119412769015",
+    "via": "vidIQ",
+    "type": "essai"
    },
    "buffer_id": "6af73062f21c13fd2fdb53b6",
    "story_instagram": {
@@ -1494,9 +1499,14 @@
    "annonce": "Suisse contre France : la console de jeux",
    "annonce_jour": 71,
    "reel_instagram": {
-    "statut": "en attente",
+    "statut": "publié",
     "prevu": "2026-11-13T19:00",
-    "cta": "abonnement"
+    "cta": "abonnement",
+    "date": "2026-11-14T07:20+01:00",
+    "lien": "https://www.instagram.com/reel/DftjXSniRy1/",
+    "media_id": "17967749577236485",
+    "via": "vidIQ",
+    "type": "essai"
    },
    "buffer_id": "6af6f36bbd1182b0d3ec9034",
    "story_instagram": {
@@ -1806,7 +1816,14 @@
    "story_instagram": {
     "buffer_id": "6af6b6beda25c4db3e9f024a"
    },
-   "reel_instagram": "reels_queue.json day73 (2026-11-14T11:00)",
+   "reel_instagram": {
+    "statut": "publié",
+    "date": "2026-11-14T07:20+01:00",
+    "lien": "https://www.instagram.com/reel/Dftjat6kqlM/",
+    "media_id": "17960507277017720",
+    "via": "vidIQ",
+    "type": "essai"
+   },
    "duree_s": 69.3
   },
   {
