@@ -426,3 +426,28 @@ Production du 13.11 (après-midi, vidéos de 18 h, 13 au 19.11 : jours 58, 34, 6
 - Cloudinary, Buffer et Google Docs (connecteurs) en panne de 14 h 30 à 16 h 40 (502/503) : URLs GitHub raw provisoires et drapeau `cloudinary_a_faire`, reprise programmée 40 min plus tard (send_later), tout rattrapé ensuite. Buffer plein (10 par canal) après le jour 72 : 28, 29, 75 « prêts » pour la tâche de 7 h 13.
 - Point 2 du bloc du 11.11 (fin Instagram « ABONNE-TOI » de 2 s) : pas fait, faute de temps ; légende « abonnement » les jours impairs.
 - Jour 29 : la réponse (2,4 GHz) tombe à 11 s au lieu du milieu (relevé par le contrôle) ; laissé tel quel faute de temps : à comparer au bilan.
+
+## 15.11.2026 — Analyse tous les 2 jours n° 3 (13 h 17) : TikTok NE MARCHE PAS (247,5), Instagram ÇA MARCHE (1 327)
+Sources : Buffer `list_posts` avec chiffres (mis à jour le 15.11 à 5 h 48 UTC), Metricool (vues TikTok du 15.11, abonnés jusqu'au 14.11), Windsor (Instagram, 15.11 vers 13 h). Fenêtre : vidéos de l'autopilote publiées depuis le bilan du 13.11 (5 h 37).
+| TikTok (≥ 18 h) | Type | Durée | Vues | Regardé | J'aime | Comm. | Partages |
+|---|---|---|---|---|---|---|---|
+| 25 chauffage −1 °C (13.11, 10 h) | quotidien en francs (exception) | 69 s | 257 | 12,1 s | 4 | 0 | 0 |
+| 73 Switch 2 CH/FR (14.11, 10 h) | Suisse/France (exception, partie 2 du 70) | 69 s | 252 | 16,5 s | 15 | 1 | 0 |
+| 34 mode avion (14.11, 18 h) | quotidien en francs | 69 s | 242–243 | 10,6 s | 9 | 2 | 0 |
+| 58 micro-ondes, A (13.11, 18 h) | quotidien en francs | 69 s | **1** | 6 s | 1 | 0 | 1 |
+Médiane : **247,5** (252 sans le jour 58). Premier signal : 49 TV 65 pouces (15.11, 10 h, 1er vrai « chiffre de la boîte » de S3, 57 s) : 205 vues après 4 h (Metricool), temps regardé pas encore disponible.
+- **Jour 58 : 1 vue en 44 h** (Buffer et Metricool d'accord). Jamais vu jusqu'ici (plancher habituel ≈ 240) : la vidéo n'a pas été montrée, même au premier groupe test. Cause inconnue (**donnée manquante** : TikTok Studio inaccessible d'ici). Format A, personnages IA, `isAiGenerated` true comme les autres A (27 et 32 : ≈ 250). À surveiller sur le jour 28 (A, 17.11, 18 h).
+- Abonnés TikTok : 79 (12.11) → 80 (13.11) → 80 (14.11).
+| Reels d'essai (≥ 18 h) | Vues | Portée | Partages | Enreg. | Appel |
+|---|---|---|---|---|---|
+| 73 Switch 2 CH/FR | **1 451** | 1 324 | 0 | 1 | envoi |
+| 34 mode avion | 1 352 | 1 191 | 0 | 1 | envoi |
+| 25 chauffage | 1 302 | 1 174 | 2 | 1 | abonnement |
+| 58 micro-ondes (A) | 779 | 703 | 0 | 0 | abonnement |
+Médiane : **1 327** ; 3 sur 4 ≥ 1 000 ; aucun ≥ 2 000 (pas de partie 2). Premier signal (7 h, publiés à la même minute) : 49 TV 65 pouces 1 257, 61 LED (A) 310. Abonnés Instagram : 34 550 (13.11) → 34 505 (15.11). Stories : **donnée manquante**.
+- Publication de Marcio (pas de l'autopilote, pas touchée) : Reel PURE Evoke One (15.11) à 12 821 vues en 4 h, avec une portée de 152 ; sa version courte : 147 vues.
+
+Constaté :
+1. TikTok : 26 vidéos de l'autopilote d'affilée entre 240 et 356 vues (hors jour 58). Le test S3 décidé le 13.11 (10 h « chiffre de la boîte », 18 h « quotidien en francs ») n'a encore qu'un seul vrai « chiffre de la boîte » publié (49, 4 h), les 13 et 14.11 à 10 h étant des exceptions annoncées.
+2. Instagram : le format A est encore le plus faible (58 : 779 ; 61 : 310 en premier signal, contre 1 257 pour la vidéo V publiée à la même minute). 3e semaine de suite.
+Décision (point 7 du bloc du 05.11, « une seule nouvelle idée testée à la fois ») : TikTok ne marche pas, mais la nouvelle idée est déjà en test depuis le 13.11 et ses vidéos tombent justement sur les 2 jours suivants (42 Mpx le 16.11 et 52 aspirateur le 17.11 à 10 h, contre 72 Netflix et 28 couvercle à 18 h). En lancer une autre maintenant mélangerait deux tests : **on ne remplace rien**, jugement du type de sujet à l'analyse du 17.11 (premier signal) et au bilan du 20.11. Instagram inchangé. Aucune partie 2 (aucune vidéo ≥ 600 TikTok ou ≥ 2 000 Instagram). À noter pour le bilan du 20.11 : le format A (4 créneaux de 18 h en S3) fait moins bien sur Instagram, et le jour 58 n'a pas été diffusé sur TikTok.
