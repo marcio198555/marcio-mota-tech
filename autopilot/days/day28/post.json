@@ -10,14 +10,14 @@
  "aigc": true,
  "branded": false,
  "cover_ms": 1500,
- "statut": "prête",
+ "statut": "programmée",
  "tiktok_title": "Couvercle sur la casserole : combien d'énergie en moins ?",
  "caption": "Le couvercle sur la casserole : 30 % d'énergie en moins, selon SuisseEnergie 🍲 Pour garder 1,5 l en ébullition, une plaque tire 750 W sans couvercle et moins de 200 W avec, presque 4 fois moins (services cantonaux de l'énergie). Exemple : 20 min d'ébullition chaque jour, plus de 18 francs par an au tarif médian ElCom 2026 (27,7 ct/kWh hors TVA). Sources relevées le 13.11.2026. Casserole fictive, voix de synthèse. Et toi, tu mets le couvercle pour les pâtes ou jamais ? #couvercle #cuisine #economiedenergie #astucemaison #suisseromande",
  "duree_s": 69.0,
  "story_instagram": {
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794584631/tiktok-autopilot/stories/day28_story.mp4",
   "programme_le": "2026-11-17T18:05:00+01:00",
-  "buffer_id": null
+  "buffer_id": "6af94df2c5b364e0623a048b"
  },
  "reel_instagram": {
   "prevu": "2026-11-17T19:00",
@@ -33,5 +33,6 @@
   "https://www.energie-environnement.ch/maison/armoire-a-menage/l-electricite-du-menage",
   "https://www.collombey-muraz.ch/data/documents/Prospectus_A5_Menage_Web1.pdf",
   "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu"
- ]
+ ],
+ "buffer_id": "6af94df2c5b364e0623a0425"
 }

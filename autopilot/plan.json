@@ -807,7 +807,7 @@
     "chiffre SuisseEnergie ou étude sur l'économie avec couvercle"
    ],
    "argent": "Croissance",
-   "statut": "prête",
+   "statut": "programmée",
    "heure": "18:00",
    "format": "A",
    "type_sujet": "vérité francs",
@@ -818,6 +818,11 @@
     "statut": "en attente",
     "prevu": "2026-11-17T19:00",
     "cta": "abonnement"
+   },
+   "buffer_id": "6af94df2c5b364e0623a0425",
+   "story_instagram": {
+    "buffer_id": "6af94df2c5b364e0623a048b",
+    "programme_le": "2026-11-17T18:05:00+01:00"
    }
   },
   {
@@ -1276,7 +1281,15 @@
    "story_instagram": {
     "buffer_id": "6af6b344fb90ccefdd23fe71"
    },
-   "reel_instagram": "reels_queue.json day49 (2026-11-15T11:00)",
+   "reel_instagram": {
+    "ref": "reels_queue.json day49 (2026-11-15T11:00)",
+    "statut": "publié",
+    "date": "2026-11-15T07:17+01:00",
+    "lien": "https://www.instagram.com/reel/DfwHX0JDFON/",
+    "media_id": "17987800992066780",
+    "via": "vidIQ",
+    "type": "essai"
+   },
    "duree_s": 57.7
   },
   {
@@ -1643,9 +1656,14 @@
    "annonce": "Téléphone 200 Mpx : par défaut 12 Mpx",
    "semaine": "S3",
    "reel_instagram": {
-    "statut": "en attente",
+    "statut": "publié",
     "prevu": "2026-11-15T19:00",
-    "cta": "abonnement"
+    "cta": "abonnement",
+    "date": "2026-11-15T07:17+01:00",
+    "lien": "https://www.instagram.com/reel/DfwHX49HOQ4/",
+    "media_id": "17942719512389636",
+    "via": "vidIQ",
+    "type": "essai"
    },
    "buffer_id": "6af7306423eb7042c7b7d0ef",
    "story_instagram": {
