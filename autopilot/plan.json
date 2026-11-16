@@ -838,7 +838,7 @@
     "portée et débit 2,4 vs 5 GHz (sources fabricants ou OFCOM)"
    ],
    "argent": "Marques Wi-Fi maillé",
-   "statut": "prête",
+   "statut": "programmée",
    "heure": "18:00",
    "format": "V",
    "type_sujet": "vérité francs",
@@ -848,6 +848,12 @@
     "statut": "en attente",
     "prevu": "2026-11-18T19:00",
     "cta": "envoi"
+   },
+   "buffer_id": "6afa9f97a869c35e5bc0b2b0",
+   "story_instagram": {
+    "buffer_id": "6afa9f9c60a910801c722661",
+    "programme_le": "2026-11-18T18:05:00+01:00",
+    "via": "Buffer"
    }
   },
   {
@@ -1159,8 +1165,16 @@
    "story_instagram": {
     "buffer_id": "6af6b346c1a0010a5b039a68"
    },
-   "reel_instagram": "reels_queue.json day42 (2026-11-16T11:00)",
-   "duree_s": 55.9
+   "reel_instagram": {
+    "statut": "publié",
+    "date": "2026-11-16T07:18+01:00",
+    "lien": "https://www.instagram.com/reel/DfysPwADMkg/",
+    "media_id": "18096753479690380",
+    "via": "vidIQ",
+    "type": "essai"
+   },
+   "duree_s": 55.9,
+   "reel_instagram_note": "reels_queue.json day42 (2026-11-16T11:00)"
   },
   {
    "jour": 43,
@@ -1801,9 +1815,14 @@
    "annonce": "Aspirateur sans fil 60 min : en mode éco seulement",
    "semaine": "S3",
    "reel_instagram": {
-    "statut": "en attente",
+    "statut": "publié",
     "prevu": "2026-11-16T19:00",
-    "cta": "envoi"
+    "cta": "envoi",
+    "date": "2026-11-16T07:20+01:00",
+    "lien": "https://www.instagram.com/reel/DfysXnIjLOD/",
+    "media_id": "18110702213214950",
+    "via": "vidIQ",
+    "type": "essai"
    },
    "buffer_id": "6af73065138c2b83b23475eb",
    "story_instagram": {

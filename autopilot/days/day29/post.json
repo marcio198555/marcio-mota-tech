@@ -10,14 +10,14 @@
  "aigc": true,
  "branded": false,
  "cover_ms": 1500,
- "statut": "prête",
+ "statut": "programmée",
  "tiktok_title": "Wi-Fi 2,4 GHz ou 5 GHz : lequel traverse les murs ?",
  "caption": "Wi-Fi 5 GHz ou 2,4 GHz : le plus rapide n'est pas celui qui passe les murs 📶 Netgear, TP-Link et Asus l'écrivent : le 2,4 GHz couvre plus loin, le 5 GHz est en général plus rapide (repère TP-Link : environ 20 m contre 15 m). En Suisse, l'OFCOM autorise jusqu'à 1 W sur une partie du 5 GHz, contre 100 mW en 2,4 GHz. Voix de synthèse. Dans quelle pièce ton Wi-Fi décroche ? 👇 #wifi #routeur #internet #astucetech #suisseromande",
  "duree_s": 69.17,
  "story_instagram": {
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794584625/tiktok-autopilot/stories/day29_story.mp4",
   "programme_le": "2026-11-18T18:05:00+01:00",
-  "buffer_id": null
+  "buffer_id": "6afa9f9c60a910801c722661"
  },
  "reel_instagram": {
   "prevu": "2026-11-18T19:00",
@@ -35,5 +35,7 @@
   "https://www.asus.com/de/support/FAQ/1044838/",
   "https://www.bakom.admin.ch/en/wlan-rlan-4",
   "https://help.netflix.com/fr/node/306"
- ]
+ ],
+ "buffer_id": "6afa9f97a869c35e5bc0b2b0",
+ "programme_le": "2026-11-16T07:15+01:00"
 }
