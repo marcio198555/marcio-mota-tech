@@ -71,11 +71,12 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >    tiers des vues de sa paire à 24 h, plus aucun sujet d'eau en Reel d'essai jusqu'au 5.12 (TikTok non concerné).
 >    Ne pas raccourcir les accroches : leur longueur n'explique pas la part de passages (même entrée).
 >8. **Reprises demandées par Marcio (16.11, jusqu'au 16.12)** : une tâche à part, « Reels d'essai repris : 5 par jour
->    jusqu'au 16.12 » (9 h 41, 12 h 41, 14 h 41, 19 h 41, 21 h 41), republie en Reels d'essai ses 6 derniers Reels de la
->    grille (échiquier, Dual CS 429, PURE Evoke One, Kisag, AlpWalk S1, Sleepal), à tour de rôle. C'est sa décision,
+>    en boucle jusqu'au 16.12 » (9 h 41, 12 h 41, 14 h 41, 19 h 41, 21 h 41), republie en Reels d'essai ses 10 derniers
+>    Reels de la grille (échiquier, Dual CS 429, PURE Evoke One, Kisag, AlpWalk S1, Sleepal, Aeotec, Kaiweets, Retevis,
+>    Temtop W100), à tour de rôle ; première reprise (Sleepal) le 16.11 à 22 h 35. C'est sa décision,
 >    prise après avoir été prévenu des faibles vues des reprises ; le point 3 reste valable pour l'autopilote. Les tâches
 >    de l'autopilote ne touchent pas à ces reprises, et les analyses les **excluent des médianes** (on les reconnaît à
->    leur légende : ce sont celles de ces 6 Reels), en les comptant à part.
+>    leur légende : ce sont celles de ces 10 Reels), en les comptant à part.
 
 > **Changements du 05.11.2026 (complétés par le bloc du 11.11.2026 ci-dessus, pour Instagram) : ils priment sur tout le reste (blocs du 04.11 et du 03.11, sections plus bas, texte
 > des tâches).** Marcio (05.11, 8 h 48) : « je n'ai pas de vues, je pense que ça ne marche pas, tu ne peux pas revoir ta
