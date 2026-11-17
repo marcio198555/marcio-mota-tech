@@ -859,6 +859,19 @@
     "buffer_id": "6afa9f9c60a910801c722661",
     "programme_le": "2026-11-18T18:05:00+01:00",
     "via": "Buffer"
+   },
+   "tiktok_court_17_11": {
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794919004/tiktok-autopilot/day29_wifi-24-5-ghz-murs_tk.mp4",
+    "duree_s": 39.0,
+    "phrases_retirees": [
+     1,
+     6,
+     7,
+     8,
+     9,
+     13
+    ],
+    "raison": "analyse du 17.11 : TikTok NE MARCHE PAS (255,5) ; test de la longueur des 2 seules vidéos sorties (jours 1 et 3, 37–40 s). Buffer edit_post fait le 17.11 ; Story et Reel d'essai gardent la version longue."
    }
   },
   {
@@ -1129,7 +1142,18 @@
     "buffer_id": "6af6b0725ec1c9d5be64f93d"
    },
    "reel_instagram": "reels_queue.json day40 (2026-11-18T11:00)",
-   "duree_s": 55.9
+   "duree_s": 55.9,
+   "tiktok_court_17_11": {
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794919003/tiktok-autopilot/day40_montre-50-m_tk.mp4",
+    "duree_s": 39.4,
+    "phrases_retirees": [
+     4,
+     5,
+     7,
+     10
+    ],
+    "raison": "analyse du 17.11 : TikTok NE MARCHE PAS (255,5) ; test de la longueur des 2 seules vidéos sorties (jours 1 et 3, 37–40 s). Buffer edit_post fait le 17.11 ; Story et Reel d'essai gardent la version longue."
+   }
   },
   {
    "jour": 41,
@@ -1336,7 +1360,16 @@
     "buffer_id": "6af6b4feba218f32638395ae"
    },
    "reel_instagram": "reels_queue.json day50 (2026-11-19T11:00)",
-   "duree_s": 58.1
+   "duree_s": 58.1,
+   "tiktok_court_17_11": {
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794919006/tiktok-autopilot/day50_batterie-10000_tk.mp4",
+    "duree_s": 47.1,
+    "phrases_retirees": [
+     9,
+     10
+    ],
+    "raison": "analyse du 17.11 : TikTok NE MARCHE PAS (255,5) ; test de la longueur des 2 seules vidéos sorties (jours 1 et 3, 37–40 s). Buffer edit_post fait le 17.11 ; Story et Reel d'essai gardent la version longue."
+   }
   },
   {
    "jour": 51,
@@ -1905,7 +1938,8 @@
    "story_instagram": {
     "buffer_id": "6afbf11f85dca6b14a26e510",
     "programme_le": "2026-11-19T18:05:00+01:00"
-   }
+   },
+   "note_17_11": "Gardée longue (68 s) : la raccourcir retirait la veille de la station et faussait la comparaison robot/traîneau. Témoin du test."
   }
  ],
  "rythme": "Depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour ») : dès le 7.11, 2 vidéos créées par jour sur TikTok, à 10 h et 18 h, toutes deux « chiffre-piège » (recette du 05.11 mise à jour à 10 h 40 avec les données vidIQ : objet ou habitude du quotidien, duel « toi / ton collègue », question ouverte, réponse au milieu, 50–70 s ; série « Suisse contre France » 2 fois par semaine ; RUNBOOK, bloc du 05.11, point 2 bis), chacune avec sa Story (fin « Nouvelle vidéo sur TikTok ») et son Reel d'essai. Vendredi : bilan + plan + 7 vidéos de 10 h (5 h 37) ; 7 vidéos de 18 h (11 h 37). Format R en pause (derniers essais : Sleepal 5.11, Aeotec 6.11). Format T abandonné. Stratégie du mois : strategy.json.",

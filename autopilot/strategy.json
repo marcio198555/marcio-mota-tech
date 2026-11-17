@@ -366,6 +366,11 @@
    "date": "2026-11-15",
    "verdict": "analyse 2 jours : TikTok NE MARCHE PAS (247,5), Instagram ÇA MARCHE (1 327)",
    "decision": "TikTok (13–14.11, 4 vidéos ≥ 18 h) : 257, 252, 243 et 1 vue (jour 58, A, non diffusé, cause inconnue) ; médiane 247,5 ; abonnés 80. Premier signal : 49 TV 65 pouces (1er vrai « chiffre de la boîte ») 205 vues en 4 h. Instagram : Reels d'essai 1 451, 1 352, 1 302, 779 (A) ; médiane 1 327 ; aucun ≥ 2 000. Décision : rien remplacé, car la nouvelle idée (test S3 par type de sujet, décidé le 13.11) occupe déjà les créneaux des 16 et 17.11 (42 et 52 « chiffre de la boîte » à 10 h, 72 et 28 « quotidien » à 18 h) ; une seule idée à la fois. Jugement le 17.11 et le 20.11. Instagram inchangé. À surveiller : format A plus faible sur Instagram, jour 28 (A) sur TikTok."
+  },
+  {
+   "date": "2026-11-17",
+   "verdict": "analyse 2 jours : TikTok NE MARCHE PAS (255,5), Instagram en chute (226 ; un seul Reel ≥ 1 000)",
+   "decision": "TikTok (15–16.11, 4 vidéos ≥ 18 h) : 49 TV 253 (12,1 s), 61 LED A 271 (9,7 s), 42 200 Mpx 247 (8,3 s), 72 Netflix 258 (6,0 s) ; médiane 255,5 ; premier signal 52 aspirateur 77 en 4 h ; abonnés 80. Test S3 par type de sujet sans effet : « chiffre de la boîte » 250 contre « quotidien » 264,5. Instagram (Reels d'essai ≥ 18 h) : 49 TV 1 319, 61 LED (A) 333, 42 200 Mpx 119, 72 Netflix 1 (non diffusé) ; médiane 226 ; premier signal 52 : 119 et 28 (A) : 149 en 6 h ; abonnés 34 540. Chute brutale depuis le 16.11 sur tous les sujets, en même temps que le compte publie bien plus de Reels par jour (Reels de Marcio, ses reprises 5 par jour depuis le 16.11, Fletch) : lien possible, pas prouvé. Décision TikTok (nouvelle idée) : longueur des 2 seules vidéos TikTok sorties (jours 1 et 3, 37–40 s) ; versions courtes 39,4 s (40), 39,0 s (29), 47,1 s (50) par tk_short.py, contrôlées par un agent neuf et Whisper, mises dans Buffer (edit_post) ; 75 reste longue (témoin). Instagram : rien changé dans le contenu (la recette faisait 1 327 de médiane jusqu'au 15.11 ; la chute touche tous les sujets d'un coup) ; jugement le 19.11. vidIQ sans crédits."
   }
  ]
 }

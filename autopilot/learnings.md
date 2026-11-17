@@ -451,3 +451,33 @@ Constaté :
 1. TikTok : 26 vidéos de l'autopilote d'affilée entre 240 et 356 vues (hors jour 58). Le test S3 décidé le 13.11 (10 h « chiffre de la boîte », 18 h « quotidien en francs ») n'a encore qu'un seul vrai « chiffre de la boîte » publié (49, 4 h), les 13 et 14.11 à 10 h étant des exceptions annoncées.
 2. Instagram : le format A est encore le plus faible (58 : 779 ; 61 : 310 en premier signal, contre 1 257 pour la vidéo V publiée à la même minute). 3e semaine de suite.
 Décision (point 7 du bloc du 05.11, « une seule nouvelle idée testée à la fois ») : TikTok ne marche pas, mais la nouvelle idée est déjà en test depuis le 13.11 et ses vidéos tombent justement sur les 2 jours suivants (42 Mpx le 16.11 et 52 aspirateur le 17.11 à 10 h, contre 72 Netflix et 28 couvercle à 18 h). En lancer une autre maintenant mélangerait deux tests : **on ne remplace rien**, jugement du type de sujet à l'analyse du 17.11 (premier signal) et au bilan du 20.11. Instagram inchangé. Aucune partie 2 (aucune vidéo ≥ 600 TikTok ou ≥ 2 000 Instagram). À noter pour le bilan du 20.11 : le format A (4 créneaux de 18 h en S3) fait moins bien sur Instagram, et le jour 58 n'a pas été diffusé sur TikTok.
+
+## 17.11.2026 — Analyse tous les 2 jours n° 4 (13 h 17) : TikTok NE MARCHE PAS (255,5), Instagram en chute (226)
+Sources : Buffer `list_posts` avec chiffres (mis à jour le 17.11 à 10 h 06 UTC), Metricool (abonnés TikTok), Windsor (Instagram, 17.11 vers 13 h 20). Fenêtre : vidéos publiées depuis l'analyse du 15.11 (13 h 17), plus le jour 49 (premier signal du 15.11).
+| TikTok (≥ 18 h) | Type | Durée | Vues | Regardé | J'aime | Comm. | Partages |
+|---|---|---|---|---|---|---|---|
+| 49 TV 65 pouces (15.11, 10 h) | chiffre de la boîte | 57 s | 253 | 12,1 s | 16 | 2 | 0 |
+| 61 LED la nuit, A (15.11, 18 h) | quotidien en francs | 69 s | 271 | 9,7 s | 5 | 0 | 0 |
+| 42 200 Mpx (16.11, 10 h) | chiffre de la boîte | 56 s | 247 | 8,3 s | 2 | 0 | 0 |
+| 72 Netflix CH/FR (16.11, 18 h) | Suisse/France | 69 s | 258 | 6,0 s | 6 | 0 | 0 |
+Médiane : **255,5**. Premier signal : 52 aspirateur (17.11, 10 h) 77 vues en 4 h. Abonnés TikTok : 80 (16.11), inchangé.
+- Test S3 par type de sujet : « chiffre de la boîte » 253 et 247 (médiane 250) contre « quotidien / Suisse-France » 271 et 258 (264,5). **Aucune différence** : 30 vidéos d'affilée entre 240 et 356 vues, quel que soit le sujet.
+| Reels d'essai (≥ 18 h) | Vues | Portée | Partages | Enreg. |
+|---|---|---|---|---|
+| 49 TV 65 pouces | **1 319** | 1 205 | 0 | 1 |
+| 61 LED (A) | 333 | 315 | 1 | 0 |
+| 42 200 Mpx | 119 | 109 | 0 | 0 |
+| 72 Netflix | **1** | 1 | 0 | 0 |
+Médiane : **226** (1 327 au 15.11). Premier signal (6 h) : 52 aspirateur 119, 28 couvercle (A) 149. Abonnés Instagram : 34 505 (15.11) → 34 540. Stories : **donnée manquante**.
+- **Chute brutale depuis le 16.11** : les 4 Reels d'essai publiés les 16 et 17.11 font 1, 119, 119 et 149, tous sujets confondus, alors que la même recette faisait 1 000 à 1 450 jusqu'au 15.11. Le jour 72 (Netflix) n'a pas été diffusé (1 vue), comme le jour 58 sur TikTok. Au même moment, le compte publie beaucoup plus de Reels par jour : Reels de Marcio (PURE, échiquier, Dual : 9 800 à 13 500 vues pour une portée de 150 à 310), ses reprises en Reels d'essai (5 par jour depuis le 16.11, 20 à 122 vues) et 2 Reels « Fletch » le 17.11. Lien possible, **pas prouvé** (aucune donnée Instagram sur la cause).
+- Publications qui ne viennent pas de l'autopilote, pas touchées : TikTok « Fletch » programmé dans Buffer le 18.11 à 19 h 45 ; Reels de Marcio ci-dessus.
+
+Verdict : **TikTok NE MARCHE PAS** (255,5). **Instagram en chute** : médiane 226 (sous 300), mais un Reel ≥ 1 000 (49), donc le cas « ne marche pas » des règles n'est pas rempli.
+Décision :
+1. **TikTok, nouvelle idée : la longueur des 2 seules vidéos sorties.** Les jours 1 et 3 (1 013 et 785 vues) duraient 37 et 40 s ; depuis, toutes les vidéos font 50 à 69 s (la coupe à 50–53 s du 7.11 n'avait rien changé). Les 3 vidéos V des 18 et 19.11 passent en version courte par `tools/tk_short.py` (phrases entières retirées, accroche, chiffre, verdict, question et « abonne-toi » gardés) : **40 montre 39,4 s** (retirées 4, 5, 7, 10), **29 Wi-Fi 39,0 s** (1, 6, 7, 8, 9, 13), **50 batterie 47,1 s** (9, 10 ; la chaîne de calcul exige le reste). **75 robot (A) reste longue** : sans la veille de la station, la comparaison robot/traîneau devenait trompeuse ; elle sert de témoin. Légendes, titres, heures, couverture et `isAiGenerated` inchangés ; Stories et Reels d'essai gardent la version longue.
+2. **Instagram : rien changé dans le contenu.** La chute touche tous les sujets d'un coup, le même jour, avec une recette qui marchait depuis 3 semaines : changer la recette maintenant mélangerait les causes. Jugement le 19.11 (Reels 40, 29, 50, 75).
+3. Aucune partie 2 (aucune vidéo ≥ 600 TikTok ni ≥ 2 000 Instagram). vidIQ sans crédits : décision tirée de nos chiffres.
+Production :
+- Contrôle par un agent neuf (planches autour de chaque raccord, image 0, logique du texte) : 3 × OK ; « 2,4 GHz » de l'image 0 du jour 29 frôle la zone droite de quelques pixels (déjà ainsi dans la version longue).
+- Whisper (pont, commit 5116187) : textes conformes ; mêmes approximations que les versions longues (« Kaomi », « Perdict », « J'ai Google »), affichées juste à l'écran.
+- Cloudinary `upload-asset` depuis raw.githubusercontent (curl vers res.cloudinary.com refusé par le proxy, 403) ; Buffer `edit_post` sur 6af6b071… (40), 6afa9f97… (29), 6af6b4fd… (50).
