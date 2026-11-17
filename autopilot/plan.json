@@ -815,9 +815,14 @@
    "annonce": "Montre étanche 50 m",
    "semaine": "S3",
    "reel_instagram": {
-    "statut": "en attente",
+    "statut": "publié",
     "prevu": "2026-11-17T19:00",
-    "cta": "abonnement"
+    "cta": "abonnement",
+    "date": "2026-11-17T07:21+01:00",
+    "lien": "https://www.instagram.com/reel/Df1RNokjy9Y/",
+    "media_id": "18257815519378150",
+    "via": "vidIQ",
+    "type": "essai"
    },
    "buffer_id": "6af94df2c5b364e0623a0425",
    "story_instagram": {
@@ -1373,7 +1378,15 @@
    "story_instagram": {
     "buffer_id": "6af6b4fce1d8eff610a76d03"
    },
-   "reel_instagram": "reels_queue.json day52 (2026-11-17T11:00)",
+   "reel_instagram": {
+    "prevu": "2026-11-17T11:00",
+    "statut": "publié",
+    "date": "2026-11-17T07:20+01:00",
+    "lien": "https://www.instagram.com/reel/Df1RGJLjwql/",
+    "media_id": "18456364000123954",
+    "via": "vidIQ",
+    "type": "essai"
+   },
    "duree_s": 57.7
   },
   {
