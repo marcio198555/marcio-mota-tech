@@ -10,14 +10,14 @@
  "aigc": true,
  "branded": false,
  "cover_ms": 1500,
- "statut": "prête",
+ "statut": "programmée",
  "tiktok_title": "Robot aspirateur : un passage par jour, combien en francs par an ?",
  "caption": "Robot aspirateur qui vide sa batterie chaque jour : au moins 7 fr. 50 par an de recharge, plus jusqu'à 4 fr. 85 de veille 🤖 Batterie de 14,4 V et 5 200 mAh (fiche du Xiaomi S40) = 75 Wh ; veille en réseau de moins de 2 W (notice Ecovacs OZMO T8) ; tarif médian ElCom 2026 hors TVA (27,7 ct/kWh), station de charge simple, pertes non comptées. Traîneau : 35 kWh/an en moyenne selon l'estimation de l'UE (usage normalisé de 50 h/an). Robot fictif, voix de synthèse. Ton robot passe tous les jours, ou seulement certains jours ? 👇 #robotaspirateur #electricite #menage #astucemaison #suisseromande",
  "duree_s": 68.97,
  "story_instagram": {
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794584638/tiktok-autopilot/stories/day75_story.mp4",
   "programme_le": "2026-11-19T18:05:00+01:00",
-  "buffer_id": null
+  "buffer_id": "6afbf11f85dca6b14a26e510"
  },
  "reel_instagram": {
   "prevu": "2026-11-19T19:00",
@@ -33,5 +33,7 @@
   "https://energy-efficient-products.ec.europa.eu/product-list/vacuum-cleaners_en",
   "https://www.admin.ch/fr/newnsb/8nuE_fvwnfqCu8OHNOwKu",
   "https://www.mi.com/za/product/xiaomi-robot-vacuum-5/specs/"
- ]
+ ],
+ "buffer_id": "6afbf11ef83aaca8f3b39132",
+ "programme_le": "2026-11-17T07:16:00+01:00"
 }

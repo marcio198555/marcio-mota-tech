@@ -1881,12 +1881,17 @@
    "argent": "Croissance",
    "note_13_11": "A : perso_robot (bibliothèque). Dernière vidéo de S3 : fin « Abonne-toi : d'autres objets vont tout balancer. » (pas d'annonce datée).",
    "annonce": null,
-   "statut": "prête",
+   "statut": "programmée",
    "semaine": "S3",
    "reel_instagram": {
     "statut": "en attente",
     "prevu": "2026-11-19T19:00",
     "cta": "abonnement"
+   },
+   "buffer_id": "6afbf11ef83aaca8f3b39132",
+   "story_instagram": {
+    "buffer_id": "6afbf11f85dca6b14a26e510",
+    "programme_le": "2026-11-19T18:05:00+01:00"
    }
   }
  ],
