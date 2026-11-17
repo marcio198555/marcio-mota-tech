@@ -1,0 +1,34 @@
+{
+ "source": "day40_montre-50-m.mp4",
+ "sortie": "day40_montre-50-m_tk.mp4",
+ "retires": [
+  4,
+  5,
+  7,
+  10
+ ],
+ "gardes": [
+  [
+   0.0,
+   14.727,
+   14.677
+  ],
+  [
+   22.344,
+   28.284,
+   28.234
+  ],
+  [
+   32.882,
+   41.742,
+   41.692
+  ],
+  [
+   45.735,
+   55.633,
+   55.017
+  ]
+ ],
+ "duree_s": 39.42,
+ "texte": "Ta montre est étanche à cinquante mètres ? Non. Tu ne peux pas plonger à cinquante mètres avec. Ces cinquante mètres, c'est une pression de test, pas une profondeur. Garmine l'écrit : cinq a-té-èm, c'est une pression équivalente à cinquante mètres. Chez Chaomi, cinq a-té-èm : piscine ou plage, oui. Plongée, douche ou sauna, non. Verdict : le chiffre de la boîte n'est pas une profondeur, et chaque marque a ses règles. Avant d'acheter, lis la liste d'activités de la marque. Ta montre affiche combien ? Écris-le en commentaire. Et abonne-toi : ce soir, ouaï-faï deux virgule quatre ou cinq gigahertz, lequel traverse les murs ?"
+}

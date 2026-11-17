@@ -1,0 +1,36 @@
+{
+ "source": "day29_wifi-24-5-ghz-murs.mp4",
+ "sortie": "day29_wifi-24-5-ghz-murs_tk.mp4",
+ "retires": [
+  1,
+  6,
+  7,
+  8,
+  9,
+  13
+ ],
+ "gardes": [
+  [
+   0.0,
+   6.484,
+   6.434
+  ],
+  [
+   10.208,
+   24.27,
+   24.22
+  ],
+  [
+   46.763,
+   58.457,
+   58.407
+  ],
+  [
+   62.423,
+   69.167,
+   68.555
+  ]
+ ],
+ "duree_s": 38.98,
+ "texte": "Toi, ouaï-faï cinq giga-hertz. Ton collègue, deux virgule quatre. Lequel passe le mieux les murs ? Réponse : le deux virgule quatre. Plus la fréquence est haute, moins le signal passe les murs, écrivent les fabricants. Un fabricant donne : environ vingt mètres en deux virgule quatre, quinze en cinq. Mais le cinq est en général plus rapide. Donc : près du routeur, le cinq ; au fond, le deux virgule quatre. Et pose ton routeur haut, au centre, loin du métal. Ta pièce la plus mal couverte ? Écris-la en commentaire. Abonne-toi : demain, ta batterie externe de dix mille milliampères-heure : combien de recharges, vraiment ?"
+}

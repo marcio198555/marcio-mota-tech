@@ -1,0 +1,22 @@
+{
+ "source": "day50_batterie-10000.mp4",
+ "sortie": "day50_batterie-10000_tk.mp4",
+ "retires": [
+  9,
+  10
+ ],
+ "gardes": [
+  [
+   0.0,
+   37.265,
+   37.215
+  ],
+  [
+   47.957,
+   57.767,
+   57.152
+  ]
+ ],
+ "duree_s": 47.08,
+ "texte": "Dix mille milliampères-heure : trois recharges de téléphone ? Non. Plutôt une seule, et un petit bout. Dix mille, c'est dans les cellules, à environ trois virgule sept volts. Pas à la sortie, en cinq volts. Ankeur fait le calcul : ça fait trente-sept wattheures. À cinq volts : sept mille quatre cents milliampères-heure. Puis la conversion fait des pertes : rendement typique, quatre-vingt-deux pour cent. Reste environ six mille milliampères-heure. Chez Google, le Pixel neuf A : cinq mille cent milliampères-heure. Verdict : une recharge complète, pas deux. Ankeur le dit lui-même. Combien de recharges tu obtiens vraiment ? Écris-le en commentaire. Et abonne-toi : ce soir, un robot aspirateur qui tourne chaque jour, combien en francs ?"
+}
