@@ -116,7 +116,8 @@ details p{padding:0 0 15px;color:#c6cff5}
     document.documentElement.lang = code;
   }
   buttons.forEach(function (b) { b.addEventListener('click', function () { show(b.getAttribute('data-set')); }); });
-  var first = (navigator.language || 'fr').slice(0, 2).toLowerCase();
+  var forced = (location.search.match(/[?&]lang=(fr|en|pt)/) || [])[1];
+  var first = forced || (navigator.language || 'fr').slice(0, 2).toLowerCase();
   show(first === 'en' || first === 'pt' ? first : 'fr');
 })();
 </script>
