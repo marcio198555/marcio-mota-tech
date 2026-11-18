@@ -1,0 +1,56 @@
+{
+ "segments": [],
+ "duration": 11.8,
+ "spec": {
+  "chip": "SOURCES : ROCKSTAR · TAKE-TWO",
+  "title": [
+   "GTA 6 EST SORTI",
+   "en chiffres"
+  ],
+  "rows": [
+   {
+    "gros": "13 ans d’attente",
+    "petit": "GTA V est sorti | en septembre 2013"
+   },
+   {
+    "gros": "2 reports",
+    "petit": "prévu en 2025, puis le 26 mai, | puis le 19 novembre 2026"
+   },
+   {
+    "gros": "8 milliards $",
+    "petit": "de réservations nettes prévues | sur l’exercice par Take-Two"
+   },
+   {
+    "gros": "24 h de direct",
+    "petit": "sur YouTube, avec plus de | 30 créateurs du monde entier"
+   }
+  ],
+  "cta": "👇 Tu y joues cette nuit ?",
+  "step": 2.4,
+  "delay": 0.5,
+  "cta_after": 0.9,
+  "hold": 3.2
+ },
+ "times": {
+  "rows": [
+   [
+    0.0,
+    0.5
+   ],
+   [
+    2.4,
+    2.9
+   ],
+   [
+    4.8,
+    5.3
+   ],
+   [
+    7.2,
+    7.7
+   ]
+  ],
+  "cta": 8.6,
+  "end": 11.8
+ }
+}
