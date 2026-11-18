@@ -850,9 +850,12 @@
    "annonce": "Batterie externe 10 000 mAh : combien de recharges",
    "semaine": "S3",
    "reel_instagram": {
-    "statut": "en attente",
+    "statut": "publié",
     "prevu": "2026-11-18T19:00",
-    "cta": "envoi"
+    "cta": "envoi",
+    "publie_le": "2026-11-18T07:28+01:00",
+    "lien": "https://www.instagram.com/reel/Df329pJgWww/",
+    "media_id": "18156711640556073"
    },
    "buffer_id": "6afa9f97a869c35e5bc0b2b0",
    "story_instagram": {
@@ -1141,7 +1144,13 @@
    "story_instagram": {
     "buffer_id": "6af6b0725ec1c9d5be64f93d"
    },
-   "reel_instagram": "reels_queue.json day40 (2026-11-18T11:00)",
+   "reel_instagram": {
+    "file": "reels_queue.json day40 (2026-11-18T11:00)",
+    "statut": "publié",
+    "publie_le": "2026-11-18T07:26+01:00",
+    "lien": "https://www.instagram.com/reel/Df322LkisGA/",
+    "media_id": "18049090043827355"
+   },
    "duree_s": 55.9,
    "tiktok_court_17_11": {
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1794919003/tiktok-autopilot/day40_montre-50-m_tk.mp4",
