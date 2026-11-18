@@ -1,0 +1,30 @@
+{
+ "chip": "SOURCES : ROCKSTAR · TOM’S GUIDE",
+ "title": [
+  "GTA 6 SORT À MINUIT",
+  "en petit"
+ ],
+ "rows": [
+  {
+   "gros": "19 novembre · 0 h",
+   "petit": "mais déjà jouable depuis midi | en Nouvelle-Zélande"
+  },
+  {
+   "gros": "79,99 €",
+   "petit": "édition Ultime : 99,99 € | (prix annoncés en France)"
+  },
+  {
+   "gros": "212 Go",
+   "petit": "à télécharger avant de jouer : | la boîte contient un code"
+  },
+  {
+   "gros": "PS5 · Xbox Series",
+   "petit": "pas de PS4, pas de Xbox One, | pas de PC au lancement"
+  }
+ ],
+ "cta": "🔖 Enregistre-la avant minuit",
+ "step": 2.4,
+ "delay": 0.5,
+ "cta_after": 0.9,
+ "hold": 3.2
+}
