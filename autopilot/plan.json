@@ -1958,7 +1958,24 @@
     "buffer_id": "6afbf11f85dca6b14a26e510",
     "programme_le": "2026-11-19T18:05:00+01:00"
    },
-   "note_17_11": "Gardée longue (68 s) : la raccourcir retirait la veille de la station et faussait la comparaison robot/traîneau. Témoin du test."
+   "note_17_11": "Gardée longue (68 s) : la raccourcir retirait la veille de la station et faussait la comparaison robot/traîneau. Témoin du test.",
+   "tiktok_version": {
+    "statut": "remplacée (TikTok seulement)",
+    "par": "carrousel photo de 8 images (test du 19.11)",
+    "images": [
+     "https://res.cloudinary.com/qvn2mlgf/image/upload/v1795091064/tiktok-autopilot/carrousels/day75_slide1.jpg",
+     "https://res.cloudinary.com/qvn2mlgf/image/upload/v1795091065/tiktok-autopilot/carrousels/day75_slide2.jpg",
+     "https://res.cloudinary.com/qvn2mlgf/image/upload/v1795091066/tiktok-autopilot/carrousels/day75_slide3.jpg",
+     "https://res.cloudinary.com/qvn2mlgf/image/upload/v1795091067/tiktok-autopilot/carrousels/day75_slide4.jpg",
+     "https://res.cloudinary.com/qvn2mlgf/image/upload/v1795091068/tiktok-autopilot/carrousels/day75_slide5.jpg",
+     "https://res.cloudinary.com/qvn2mlgf/image/upload/v1795091069/tiktok-autopilot/carrousels/day75_slide6.jpg",
+     "https://res.cloudinary.com/qvn2mlgf/image/upload/v1795091070/tiktok-autopilot/carrousels/day75_slide7.jpg",
+     "https://res.cloudinary.com/qvn2mlgf/image/upload/v1795091070/tiktok-autopilot/carrousels/day75_slide8.jpg"
+    ],
+    "script": "tools/carousel75.py",
+    "controle": "agent neuf : OK (faits, image 1, zones sûres)"
+   },
+   "note_19_11": "Analyse du 19.11 : la vidéo TikTok de 18 h est remplacée par un carrousel photo (mêmes faits, même créneau, même publication Buffer). Story et Reel d'essai restent la vidéo."
   }
  ],
  "rythme": "Depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour ») : dès le 7.11, 2 vidéos créées par jour sur TikTok, à 10 h et 18 h, toutes deux « chiffre-piège » (recette du 05.11 mise à jour à 10 h 40 avec les données vidIQ : objet ou habitude du quotidien, duel « toi / ton collègue », question ouverte, réponse au milieu, 50–70 s ; série « Suisse contre France » 2 fois par semaine ; RUNBOOK, bloc du 05.11, point 2 bis), chacune avec sa Story (fin « Nouvelle vidéo sur TikTok ») et son Reel d'essai. Vendredi : bilan + plan + 7 vidéos de 10 h (5 h 37) ; 7 vidéos de 18 h (11 h 37). Format R en pause (derniers essais : Sleepal 5.11, Aeotec 6.11). Format T abandonné. Stratégie du mois : strategy.json.",

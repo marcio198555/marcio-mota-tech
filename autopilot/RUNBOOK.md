@@ -17,6 +17,26 @@ signaler à Marcio dans le message final.
 **Du 30.10 au 5.12.2026 (prolongée le 05.11) : stratégie du mois (§ 10 et `strategy.json`)**, demandée par Marcio le 29.10 : chaque vendredi,
 on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles ; si ça ne marche pas, on change de stratégie.
 
+> **Changements du 19.11.2026 (analyse tous les 2 jours ; TikTok seulement ; priment sur le bloc du 13.11 pour le format
+> TikTok des 20 et 21.11).** Constat (learnings.md, 19.11) : 34 vidéos TikTok de l'autopilote d'affilée entre 237 et
+> 356 vues, quels que soient le sujet, la durée (39–69 s), l'ordre, l'heure ou le format V/A ; même les publications
+> hors autopilote (GTA 6, clips, Fletch) restent à 215–247. Seul levier jamais testé : **le carrousel photo TikTok**
+> (autre format de diffusion, aucune voix).
+> 1. **Test carrousel** : 1er essai le 19.11 à 18 h (jour 75, publication Buffer 6afbf11e… modifiée : 8 images, script
+>    `tools/carousel75.py`). Puis **les 4 créneaux TikTok des 20 et 21.11** : même sujet et mêmes faits que la vidéo
+>    prévue, mais TikTok reçoit un **carrousel de 6 à 8 images 1080 × 1920** (image 1 = l'objet + la question en très
+>    gros ; une image par chiffre, chiffre ≥ 140 px avec sa source en petit ; image du verdict ; image de la question
+>    pour les commentaires et « abonne-toi »). Modèle : `tools/carousel75.py` (copier et changer les textes). Texte et
+>    chiffres écrits par le script, jamais dans une image IA ; zones sûres : rien en dessous de y = 1500 ni au-dessus
+>    de y = 230. Légende : 1re ligne = la question + « Glisse jusqu'au verdict », puis les sources, « image générée par
+>    IA » si une image IA est utilisée, question, 3 à 5 hashtags. Buffer : `assets` = liste d'images (Cloudinary,
+>    dossier `tiktok-autopilot/carrousels`), `metadata.tiktok.title`. Contrôle par un agent neuf (faits, image 1, zones).
+> 2. **Instagram : rien ne change** (Stories et Reels d'essai = la vidéo, produite comme d'habitude). La vidéo reste
+>    donc à produire pour Instagram ; seule la publication TikTok devient un carrousel.
+> 3. **Jugement** à l'analyse du 21.11 (premier signal : jour 75) puis du 23.11 : si un carrousel dépasse 400 vues ou
+>    que la médiane des carrousels dépasse 1,3 × celle des 4 dernières vidéos (247), on garde le carrousel sur TikTok ;
+>    sinon on revient à la vidéo.
+
 > **Changements du 13.11.2026 (bilan de S2 et de la recette ; priment sur le bloc du 05.11 pour le choix des sujets).**
 > Constat (learnings.md, 13.11) : TikTok, 11 vidéos de la recette du 05.11 entre 240 et 356 vues (médiane 268, aucune
 > au-dessus de 400) ; Instagram, Reels d'essai à 1 262 de médiane (10 sur 13 au-dessus de 1 000) ; sujets d'eau à 206 et 228.

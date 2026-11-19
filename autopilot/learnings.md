@@ -481,3 +481,30 @@ Production :
 - Contrôle par un agent neuf (planches autour de chaque raccord, image 0, logique du texte) : 3 × OK ; « 2,4 GHz » de l'image 0 du jour 29 frôle la zone droite de quelques pixels (déjà ainsi dans la version longue).
 - Whisper (pont, commit 5116187) : textes conformes ; mêmes approximations que les versions longues (« Kaomi », « Perdict », « J'ai Google »), affichées juste à l'écran.
 - Cloudinary `upload-asset` depuis raw.githubusercontent (curl vers res.cloudinary.com refusé par le proxy, 403) ; Buffer `edit_post` sur 6af6b071… (40), 6afa9f97… (29), 6af6b4fd… (50).
+
+## 19.11.2026 — Analyse tous les 2 jours n° 5 (13 h 17) : TikTok NE MARCHE PAS (247), Instagram NE MARCHE PAS (213)
+Sources : Buffer `list_posts` avec chiffres (mis à jour le 19.11 à 1 h 52 UTC), Metricool (en retard : abonnés jusqu'au 16.11 seulement, vues du 17.11 seulement), Windsor (Instagram, 19.11 vers 13 h 30). vidIQ : plus de crédits (**donnée manquante** pour les tendances). Fenêtre : vidéos publiées depuis l'analyse du 17.11, plus le jour 52 (premier signal du 17.11).
+| TikTok (≥ 18 h) | Type | Durée | Vues | Regardé | J'aime | Comm. | Partages |
+|---|---|---|---|---|---|---|---|
+| 52 aspirateur 60 min (17.11, 10 h) | chiffre de la boîte | 57 s | 237 | 10,5 s | 9 | 0 | 0 |
+| 28 couvercle, A (17.11, 18 h) | quotidien en francs | 69 s | 254 | 5,9 s | 8 | 0 | 0 |
+| 40 montre 50 m (18.11, 10 h) | chiffre de la boîte, **courte** | 39,6 s | 253 | 10,7 s | 6 | 0 | 0 |
+| 29 Wi-Fi (18.11, 18 h) | quotidien, **courte** | 39,1 s | 241 | 10,3 s | 7 | 0 | 0 |
+Médiane : **247**. Versions courtes (253 et 241) : aucun effet. 50 batterie courte (19.11, 10 h) : pas encore de chiffres. Abonnés : 80 (dernier relevé, 16.11).
+- Hors autopilote (pas touchées) : GTA 6 jour 90 (texte, 12 s) 234 vues, 4,3 s ; GTA 6 jour 91 (minuit) 1 vue au relevé de 1 h 52 ; clips « Tomo » (vidéo d'un autre créateur, campagne payée) 215 et 247 ; Fletch 238. **Tout le compte plafonne au même palier**, même avec le sujet le plus recherché du jour (GTA 6).
+| Reels d'essai (≥ 18 h) | Vues | Portée | Partages | Enreg. |
+|---|---|---|---|---|
+| 29 Wi-Fi | **631** | 577 | 0 | 1 |
+| 40 montre | 265 | 241 | 0 | 1 |
+| 28 couvercle (A) | 161 | 144 | 0 | 0 |
+| 52 aspirateur | 126 | 119 | 0 | 0 |
+Médiane : **213** ; aucun ≥ 1 000. Premier signal (6 h) : 50 batterie 136, 75 robot 134. Stories : **donnée manquante**.
+- Depuis le 16.11, **tous** les nouveaux Reels du compte ont une portée de 43 à 363 : reprises de Marcio en Reels d'essai (102–123), Fletch (104–119), clips Tomo republiés aussi sur Instagram (43 et 113), Reels de Marcio (99–363 de portée). La baisse est au niveau du compte, pas du contenu de l'autopilote. Hypothèse (**pas prouvée**) : le compte publie depuis le 16.11 beaucoup de Reels par jour, dont des contenus déjà publiés (reprises) et la vidéo d'un autre créateur (Tomo) ; le Centre d'aide d'Instagram dit que les contenus non originaux et déjà partagés sont moins recommandés.
+
+Verdict : **TikTok ÇA NE MARCHE PAS** (247), **Instagram ÇA NE MARCHE PAS** (213, aucun Reel ≥ 1 000).
+Décision :
+1. **TikTok, nouvelle stratégie : le carrousel photo** (jamais testé ; autre format de diffusion, pas de voix). 1er essai **ce soir à 18 h** : la publication Buffer du jour 75 (6afbf11e…) passe de la vidéo de 69 s à 8 images (même sujet, mêmes faits de facts.md, `tools/carousel75.py`), contrôlée par un agent neuf (OK ; corrections cosmétiques facultatives non faites). Puis les 4 créneaux TikTok des 20 et 21.11 (bloc du 19.11 de RUNBOOK.md). Jugement les 21 et 23.11.
+   - Buffer a accepté `edit_post` vidéo → images ; `isAiGenerated` est resté à true ; la légende dit « image du robot générée par IA ».
+2. **Instagram : contenu inchangé** (la cause touche tous les Reels du compte) ; Story et Reel d'essai du jour 75 restent la vidéo. Hypothèse signalée à Marcio (reprises en série et clips d'un autre créateur), sans rien toucher à ses publications.
+3. Aucune partie 2 (aucune vidéo ≥ 600 TikTok ni ≥ 2 000 Instagram).
+4. Règle « jamais republier la vidéo d'un autre créateur » : les 2 clips Tomo du 18.11 (TikTok et Instagram) ne viennent pas de cette tâche ; notés ici, pas touchés.
