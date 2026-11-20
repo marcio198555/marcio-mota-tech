@@ -60,9 +60,12 @@
 
       // s01–s02 : image 0 — « 14 JOURS » qui monte (valeur de la fiche), duel GPS / sans GPS, question
       block(ctx, t, 0, S('s03'), () => {
-        const n = Math.round(lerp(2, 14, ease.out(clamp(t / 1.8))));
+        // valeur de la fiche dès l'image 0 (pas de compteur : aucune valeur inventée), simple pulsation
+        const pz = 1 + 0.05 * Math.sin(clamp(t / 1.2) * Math.PI);
         text(ctx, 'MONTRE CONNECTÉE', 500, 340, { size: 46, weight: 900, color: ICE, letter: 2 });
-        text(ctx, `« ${n} JOURS »`, 500, 432, { size: 110, weight: 900, family: F.mono, color: LIME, shadow: 'rgba(198,244,50,0.4)', shadowBlur: 24 });
+        ctx.save(); ctx.translate(500, 432); ctx.scale(pz, pz);
+        text(ctx, '« 14 JOURS »', 0, 0, { size: 110, weight: 900, family: F.mono, color: LIME, shadow: 'rgba(198,244,50,0.4)', shadowBlur: 24 });
+        ctx.restore();
         const q = t >= S('s02') ? 1 + 0.07 * Math.sin((t - S('s02')) * 9) * (1 - clamp((t - S('s02')) / 1.2)) : 1;
         ctx.save(); ctx.translate(500, 530); ctx.scale(q, q);
         text(ctx, 'QUI RECHARGE EN PREMIER ?', 0, 0, { size: 54, weight: 900, color: t >= S('s02') ? TEAL : WHITE, maxWidth: 860 });
