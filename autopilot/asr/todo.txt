@@ -99,3 +99,4 @@ autopilot/vo/day40_tk.wav
 autopilot/vo/day29_tk.wav
 autopilot/vo/day50_tk.wav
 autopilot/vo/day76_vo.wav
+autopilot/vo/day77_vo.wav

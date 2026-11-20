@@ -1,0 +1,103 @@
+{
+ "duration": 68.771,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton purificateur est fait pour cinquante mètres carrés ? Pour combien de renouvellements d'air ?",
+   "start": 0.12,
+   "end": 5.009,
+   "display": "Purificateur « 50 m² » ? | Pour combien de renouvellements ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non : cinquante, ce n'est pas fixe. À la fin, tu sauras calculer ta vraie surface.",
+   "start": 5.109,
+   "end": 9.846,
+   "display": "Non : 50 m², ce n'est pas fixe. | À la fin : ta vraie surface."
+  },
+  {
+   "id": "s03",
+   "text": "Exemple : le Core trois cents S de Lé-voït annonce cinquante mètres carrés.",
+   "start": 9.946,
+   "end": 15.338,
+   "display": "Exemple : Levoit Core 300S | « 50 m² »"
+  },
+  {
+   "id": "s04",
+   "text": "Son débit d'air propre, le cé-a-dé-èr : deux cent quarante mètres cubes par heure.",
+   "start": 15.438,
+   "end": 19.878,
+   "display": "Débit d'air propre (CADR) : | 240 m³/h"
+  },
+  {
+   "id": "s05",
+   "text": "Petite ligne de la notice : calculé pour deux renouvellements par heure.",
+   "start": 19.978,
+   "end": 23.964,
+   "display": "Notice : calculé pour | 2 renouvellements par heure"
+  },
+  {
+   "id": "s06",
+   "text": "Avec un plafond de deux mètres quarante.",
+   "start": 24.064,
+   "end": 26.809,
+   "display": "… avec un plafond | de 2,4 m"
+  },
+  {
+   "id": "s07",
+   "text": "Deux cent quarante, divisé par deux virgule quatre, divisé par deux : cinquante.",
+   "start": 26.909,
+   "end": 32.487,
+   "display": "240 ÷ 2,4 ÷ 2 | = 50 m²"
+  },
+  {
+   "id": "s08",
+   "text": "Mais l'a-ache-a-èm, l'association américaine des fabricants d'électroménager, vise quatre virgule huit.",
+   "start": 32.587,
+   "end": 38.765,
+   "display": "AHAM (fabricants d'électroménager, USA) : | 4,8 renouvellements"
+  },
+  {
+   "id": "s09",
+   "text": "Même appareil, même calcul : environ vingt et un mètres carrés.",
+   "start": 38.865,
+   "end": 42.813,
+   "display": "240 ÷ 2,4 ÷ 4,8 | ≈ 21 m²"
+  },
+  {
+   "id": "s10",
+   "text": "Deuxième surprise : l'a-ache-a-èm ne recommande pas de descendre sous deux virgule deux renouvellements.",
+   "start": 42.913,
+   "end": 49.323,
+   "display": "2e surprise : l'AHAM ne recommande pas | moins de 2,2 renouvellements"
+  },
+  {
+   "id": "s11",
+   "text": "Les cinquante mètres carrés sont donc calculés en dessous.",
+   "start": 49.423,
+   "end": 53.566,
+   "display": "Les 50 m² de la boîte : | calculés à 2, en dessous."
+  },
+  {
+   "id": "s12",
+   "text": "Avant d'acheter, cherche le cé-a-dé-èr en mètres cubes par heure, pas les mètres carrés.",
+   "start": 53.666,
+   "end": 58.184,
+   "display": "Avant d'acheter : | le CADR en m³/h, | pas les m²."
+  },
+  {
+   "id": "s13",
+   "text": "Ta pièce fait combien de mètres carrés ? Écris-le en commentaire.",
+   "start": 58.284,
+   "end": 62.116,
+   "display": "Ta pièce fait combien de m² ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : ce soir, l'écran « une milliseconde » qui ne répond pas en une milliseconde.",
+   "start": 62.216,
+   "end": 68.471,
+   "display": "Abonne-toi : ce soir, | l'écran « 1 ms » | qui ne répond pas en 1 ms."
+  }
+ ]
+}
