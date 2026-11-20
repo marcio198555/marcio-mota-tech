@@ -969,7 +969,7 @@
     "fiche d'une lampe certifiée FL1 (jamais une marque que Marcio a reçue, ex. Klarus)"
    ],
    "argent": "Affiliation lampes certifiées FL1",
-   "statut": "idée",
+   "statut": "planifiée (S4, voir jour 83)",
    "heure": null
   },
   {
@@ -1176,7 +1176,7 @@
     "norme IEC 60268 (puissance assignée)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "planifiée (S4, voir jour 76)",
    "heure": null,
    "ajoutee_le": "2026-11-05"
   },
@@ -1226,7 +1226,7 @@
     "vitesse réelle d'une clé contre vitesse de l'interface"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "planifiée (S4, voir jour 81)",
    "heure": null,
    "ajoutee_le": "2026-11-05"
   },
@@ -1242,7 +1242,7 @@
     "réglage overdrive et traînées"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "planifiée (S4, voir jour 85)",
    "heure": null,
    "ajoutee_le": "2026-11-05"
   },
@@ -1258,7 +1258,7 @@
     "rendement de la charge sans fil contre le câble"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "planifiée (S4, voir jour 79)",
    "heure": null,
    "ajoutee_le": "2026-11-05"
   },
@@ -1274,7 +1274,7 @@
     "lecture séquentielle contre fichiers réels"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "planifiée (S4, voir jour 92)",
    "heure": null,
    "ajoutee_le": "2026-11-05"
   },
@@ -1290,7 +1290,7 @@
     "règles suisses des trottinettes électriques si utile (OFROU)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "planifiée (S4, voir jour 80)",
    "heure": null,
    "ajoutee_le": "2026-11-05"
   },
@@ -1306,7 +1306,7 @@
     "fiche d'un purificateur courant"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "planifiée (S4, voir jour 77)",
    "heure": null,
    "ajoutee_le": "2026-11-05"
   },
@@ -1450,7 +1450,7 @@
     "étiquette énergie en Suisse (OEEE)"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "planifiée (S4, voir jour 82)",
    "heure": null,
    "ajoutee_le": "2026-11-05"
   },
@@ -1466,7 +1466,7 @@
     "usage typique décrit par le fabricant"
    ],
    "argent": "Croissance",
-   "statut": "idée",
+   "statut": "planifiée (S4, voir jour 87)",
    "heure": null,
    "ajoutee_le": "2026-11-05"
   },
@@ -1976,6 +1976,321 @@
     "controle": "agent neuf : OK (faits, image 1, zones sûres)"
    },
    "note_19_11": "Analyse du 19.11 : la vidéo TikTok de 18 h est remplacée par un carrousel photo (mêmes faits, même créneau, même publication Buffer). Story et Reel d'essai restent la vidéo."
+  },
+  {
+   "jour": 76,
+   "date": "2026-11-20",
+   "heure": "10:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "sujet": "Enceinte « 100 W » : watts crête ou watts RMS ?",
+   "mecanique": "chiffre de la boîte",
+   "accroche": "Ton enceinte fait cent watts ? Regarde d'abord quels watts.",
+   "a_verifier": [
+    "puissance crête/PMPO contre puissance RMS/continue (fabricant qui donne les deux)",
+    "norme IEC 60268 (puissance assignée)",
+    "fiche d'une enceinte Bluetooth courante (pas une marque reçue)"
+   ],
+   "tiktok": "carrousel (test du 19.11)",
+   "annonce": "Guirlande LED de Noël : combien en francs pour tout décembre ?",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 84,
+   "date": "2026-11-20",
+   "heure": "18:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "quotidien en francs",
+   "sujet": "Guirlande LED de Noël : combien en francs pour tout décembre ?",
+   "mecanique": "quotidien en francs",
+   "accroche": "Ta guirlande allumée tout décembre, ça coûte combien ?",
+   "a_verifier": [
+    "puissance d'une guirlande LED et d'une ancienne guirlande à incandescence (fiches)",
+    "tarif médian ElCom 2026 (27,7 ct/kWh hors TVA)",
+    "conseil SuisseEnergie (minuterie)"
+   ],
+   "tiktok": "carrousel (test du 19.11)",
+   "annonce": "Purificateur « jusqu'à 50 m² » : avec combien de renouvellements d'air ?",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 77,
+   "date": "2026-11-21",
+   "heure": "10:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "sujet": "Purificateur « jusqu'à 50 m² » : avec combien de renouvellements d'air ?",
+   "mecanique": "chiffre de la boîte",
+   "accroche": "Ton purificateur est fait pour cinquante mètres carrés ? Pour combien de renouvellements d'air ?",
+   "a_verifier": [
+    "CADR (m³/h) et calcul surface = CADR / (hauteur × renouvellements)",
+    "renouvellements recommandés (fabricant ou organisme officiel)",
+    "fiche d'un purificateur courant (pas une marque reçue)"
+   ],
+   "tiktok": "carrousel (test du 19.11)",
+   "annonce": "Écran « 1 ms » : ce n'est pas le vrai temps de réponse",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 85,
+   "date": "2026-11-21",
+   "heure": "18:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "sujet": "Écran « 1 ms » : ce n'est pas le vrai temps de réponse",
+   "mecanique": "chiffre de la boîte",
+   "accroche": "Ton écran répond en une milliseconde ? Pas vraiment.",
+   "a_verifier": [
+    "GtG et MPRT : définitions (fabricants, VESA)",
+    "mesure indépendante du temps de réponse",
+    "overdrive"
+   ],
+   "tiktok": "carrousel (test du 19.11)",
+   "annonce": "Suisse contre France : AirPods Pro 3, où sont-ils les moins chers ?",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 78,
+   "date": "2026-11-22",
+   "heure": "10:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "Suisse contre France",
+   "sujet": "Suisse contre France : AirPods Pro 3, où sont-ils les moins chers ?",
+   "mecanique": "Suisse contre France",
+   "accroche": "Tes AirPods, moins chers en France ?",
+   "a_verifier": [
+    "prix Apple officiels CH (CHF) et FR (EUR), date du relevé",
+    "cours BNS du jour",
+    "TVA 8,1 % et 20 %, franchise 150 CHF (OFDF)"
+   ],
+   "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
+   "annonce": "Sèche-cheveux 2 000 W : combien en francs par an ?",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 86,
+   "date": "2026-11-22",
+   "heure": "18:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "quotidien en francs",
+   "sujet": "Sèche-cheveux 2 000 W : combien en francs par an ?",
+   "mecanique": "quotidien en francs",
+   "accroche": "Ton sèche-cheveux, combien par an ?",
+   "a_verifier": [
+    "puissance d'un sèche-cheveux courant (fiche)",
+    "tarif médian ElCom 2026",
+    "durée d'usage = exemple"
+   ],
+   "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
+   "annonce": "Chargeur sans fil « 15 W » : ton téléphone en prend peut-être moins",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 79,
+   "date": "2026-11-23",
+   "heure": "10:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "sujet": "Chargeur sans fil « 15 W » : ton téléphone en prend peut-être moins",
+   "mecanique": "chiffre de la boîte",
+   "accroche": "Ton chargeur sans fil charge à quinze watts ? Ton téléphone n'en prend peut-être pas autant.",
+   "a_verifier": [
+    "norme Qi / Qi2 (Wireless Power Consortium)",
+    "puissance sans fil acceptée par un téléphone courant (fiche officielle, pas Apple ni Samsung)",
+    "pertes de la charge sans fil (source officielle)"
+   ],
+   "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
+   "annonce": "Montre connectée « 14 jours » : sans GPS ni écran toujours allumé",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 87,
+   "date": "2026-11-23",
+   "heure": "18:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "sujet": "Montre connectée « 14 jours » : sans GPS ni écran toujours allumé",
+   "mecanique": "chiffre de la boîte",
+   "accroche": "Ta montre connectée tient quatorze jours ? Pas avec le GPS.",
+   "a_verifier": [
+    "fiche officielle d'une montre : conditions de l'autonomie",
+    "autonomie GPS et écran toujours allumé"
+   ],
+   "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
+   "annonce": "Trottinette « 40 km d'autonomie » : dans les conditions du test",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 80,
+   "date": "2026-11-24",
+   "heure": "10:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "sujet": "Trottinette « 40 km d'autonomie » : dans les conditions du test",
+   "mecanique": "chiffre de la boîte",
+   "accroche": "Ta trottinette fait quarante kilomètres ? Oui, dans les conditions du test.",
+   "a_verifier": [
+    "fiche fabricant : poids, vitesse, température du test",
+    "effet du froid, du poids, des côtes",
+    "règles suisses (OFROU/TCS) si utile"
+   ],
+   "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
+   "annonce": "Four : faut-il vraiment préchauffer ?",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 88,
+   "date": "2026-11-24",
+   "heure": "18:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "quotidien en francs",
+   "sujet": "Four : faut-il vraiment préchauffer ?",
+   "mecanique": "quotidien en francs",
+   "accroche": "Tu préchauffes toujours ton four ?",
+   "a_verifier": [
+    "conseil SuisseEnergie / OFEN sur le préchauffage",
+    "consommation d'un préchauffage (fiche ou source officielle)",
+    "tarif ElCom 2026"
+   ],
+   "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
+   "annonce": "Clé « USB 3.2 » : peut-être 5 Gbit/s seulement",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 81,
+   "date": "2026-11-25",
+   "heure": "10:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "sujet": "Clé « USB 3.2 » : peut-être 5 Gbit/s seulement",
+   "mecanique": "chiffre de la boîte",
+   "accroche": "Ta clé USB 3.2 va à vingt gigabits ? Peut-être pas plus de cinq.",
+   "a_verifier": [
+    "USB-IF : Gen 1 = 5, Gen 2 = 10, Gen 2x2 = 20 Gbit/s",
+    "nouveaux noms USB-IF",
+    "vitesse réelle d'une clé (fiche fabricant)"
+   ],
+   "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
+   "annonce": "Suisse contre France : Spotify Premium",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 89,
+   "date": "2026-11-25",
+   "heure": "18:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "Suisse contre France",
+   "sujet": "Suisse contre France : Spotify Premium",
+   "mecanique": "Suisse contre France",
+   "accroche": "Spotify coûte combien de plus en Suisse ?",
+   "a_verifier": [
+    "prix Spotify officiels CH et FR, date",
+    "cours BNS"
+   ],
+   "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
+   "annonce": "Frigo « classe B » : la nouvelle étiquette énergie",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 82,
+   "date": "2026-11-26",
+   "heure": "10:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "sujet": "Frigo « classe B » : la nouvelle étiquette énergie",
+   "mecanique": "chiffre de la boîte",
+   "accroche": "Ton frigo est classé B ? Avant 2021, il aurait peut-être eu A+++.",
+   "a_verifier": [
+    "règlement UE 2019/2016, nouvelle étiquette 2021",
+    "correspondance ancienne/nouvelle échelle (SuisseEnergie)",
+    "étiquette en Suisse (OEEE)"
+   ],
+   "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
+   "annonce": "SSD « jusqu'à 7 000 Mo/s » : seulement au début",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 92,
+   "date": "2026-11-26",
+   "heure": "18:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "sujet": "SSD « jusqu'à 7 000 Mo/s » : seulement au début",
+   "mecanique": "chiffre de la boîte",
+   "accroche": "Ton SSD copie à sept mille mégaoctets par seconde ? Seulement au début.",
+   "a_verifier": [
+    "fiche officielle SSD NVMe (cache SLC)",
+    "vitesse après le cache (fabricant)"
+   ],
+   "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
+   "annonce": "Lampe torche « 10 000 lumens » : mesurés comment ?",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 83,
+   "date": "2026-11-27",
+   "heure": "10:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "chiffre de la boîte",
+   "sujet": "Lampe torche « 10 000 lumens » : mesurés comment ?",
+   "mecanique": "chiffre de la boîte",
+   "accroche": "Ta lampe torche fait dix mille lumens ? Pendant combien de temps ?",
+   "a_verifier": [
+    "norme ANSI/PLATO FL1 (lumens à 30 s)",
+    "baisse du mode turbo (fiche d'une lampe certifiée FL1)"
+   ],
+   "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
+   "annonce": "Console en mode repos : combien en francs par an ?",
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
+  },
+  {
+   "jour": 93,
+   "date": "2026-11-27",
+   "heure": "18:00",
+   "semaine": "S4",
+   "format": "V",
+   "type_sujet": "quotidien en francs",
+   "sujet": "Console en mode repos : combien en francs par an ?",
+   "mecanique": "quotidien en francs",
+   "accroche": "Ta console en mode repos, combien par an ?",
+   "a_verifier": [
+    "consommation en mode repos d'une console (fabricant ou EPREL ; pas Sony si marque reçue : vérifier r_queue)",
+    "tarif ElCom 2026"
+   ],
+   "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
+   "annonce": null,
+   "statut": "à produire",
+   "ajoute_le": "2026-11-20"
   }
  ],
  "rythme": "Depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour ») : dès le 7.11, 2 vidéos créées par jour sur TikTok, à 10 h et 18 h, toutes deux « chiffre-piège » (recette du 05.11 mise à jour à 10 h 40 avec les données vidIQ : objet ou habitude du quotidien, duel « toi / ton collègue », question ouverte, réponse au milieu, 50–70 s ; série « Suisse contre France » 2 fois par semaine ; RUNBOOK, bloc du 05.11, point 2 bis), chacune avec sa Story (fin « Nouvelle vidéo sur TikTok ») et son Reel d'essai. Vendredi : bilan + plan + 7 vidéos de 10 h (5 h 37) ; 7 vidéos de 18 h (11 h 37). Format R en pause (derniers essais : Sleepal 5.11, Aeotec 6.11). Format T abandonné. Stratégie du mois : strategy.json.",

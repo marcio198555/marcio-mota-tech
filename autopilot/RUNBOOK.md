@@ -17,6 +17,17 @@ signaler à Marcio dans le message final.
 **Du 30.10 au 5.12.2026 (prolongée le 05.11) : stratégie du mois (§ 10 et `strategy.json`)**, demandée par Marcio le 29.10 : chaque vendredi,
 on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles ; si ça ne marche pas, on change de stratégie.
 
+> **Changements du 20.11.2026 (bilan de S3 ; plan de S4, 20 → 27.11).** Constat (learnings.md, 20.11) : S3 TikTok médiane 250,5
+> (14 publications, dont 2 non diffusées : 58 et 50) ; carrousel du jour 75 : 239 vues à 8 h, même palier ; abonnés TikTok 80 → 84 ;
+> Instagram Reels d'essai médiane 299 (≈ 1 300 jusqu'au 15.11, ≈ 150 depuis le 16.11). Note ROUGE.
+> 1. **Format A abandonné** (règle R5 : plus faible que V 3 semaines de suite sur Instagram, pas mieux sur TikTok) : les 16 créneaux
+>    de S4 sont en **format V** (modèle `days/day50` et `days/day55`).
+> 2. **Test carrousel maintenu tel que décidé le 19.11** : les 4 créneaux TikTok des 20 et 21.11 (jours 76, 84, 77, 85) = carrousel
+>    (script `tools/carousel76.py` comme modèle) + vidéo pour la Story et le Reel d'essai. Du 22 au 27.11, TikTok reçoit la vidéo,
+>    sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel (elle fait alors les carrousels et `edit_post`).
+> 3. Plan : `plan.json`, entrées `semaine: "S4"` (2 « Suisse contre France » : 78 AirPods, 89 Spotify). Jours 90 et 91 = GTA 6, pris.
+>    18 h (tâche de 11 h 37) : 84, 85, 86, 87, 88, 89, 92, 93.
+
 > **Changements du 19.11.2026 (analyse tous les 2 jours ; TikTok seulement ; priment sur le bloc du 13.11 pour le format
 > TikTok des 20 et 21.11).** Constat (learnings.md, 19.11) : 34 vidéos TikTok de l'autopilote d'affilée entre 237 et
 > 356 vues, quels que soient le sujet, la durée (39–69 s), l'ordre, l'heure ou le format V/A ; même les publications
