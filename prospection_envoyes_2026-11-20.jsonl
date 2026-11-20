@@ -205,3 +205,138 @@
 {"id": "PD20F-041", "brand": "Cornhole Academy", "domain": "cornholeacademy.fr", "to": "contact@cornholeacademy.fr", "ts": "2026-11-20T10:34:21.040092"}
 {"id": "PD20F-042", "brand": "Envergure Cerfs-Volants", "domain": "envergure.com", "to": "info@envergure.com", "ts": "2026-11-20T10:34:21.040107"}
 {"id": "PD20F-043", "brand": "La Maison du Billard", "domain": "lamaisondubillard.com", "to": "contact@lamaisondubillard.com", "ts": "2026-11-20T10:34:21.040116"}
+{"id": "PD20G-001", "brand": "MiX3D", "domain": "mix3d.ch", "to": "info@mix3d.ch", "ts": "2026-11-20T10:51:07.833596"}
+{"id": "PD20G-002", "brand": "Forja", "domain": "forjastyle.com", "to": "info@forjastyle.com", "ts": "2026-11-20T10:51:32.154616"}
+{"id": "PD20G-003", "brand": "creativeprintdesign.ch", "domain": "creativeprintdesign.ch", "to": "shop@creativeprintdesign.ch", "ts": "2026-11-20T10:51:45.573370"}
+{"id": "PD20G-004", "brand": "Nova Studio", "domain": "novastudio.ch", "to": "welcome@novastudio.ch", "ts": "2026-11-20T10:51:55.289308"}
+{"id": "PD20G-005", "brand": "FyDa Printwerk", "domain": "fyda-printwerk.com", "to": "info@fyda-printwerk.com", "ts": "2026-11-20T10:52:06.845080"}
+{"id": "PD20G-006", "brand": "Milex3Design", "domain": "milex3design.fr", "to": "contact@milex3design.fr", "ts": "2026-11-20T10:52:19.090739"}
+{"id": "PD20G-007", "brand": "RIPOST", "domain": "ripostshop.com", "to": "contact@ripostshop.com", "ts": "2026-11-20T10:52:31.123183"}
+{"id": "PD20G-008", "brand": "SOLVY BIKE", "domain": "solvy.bike", "to": "bonjour@solvy.bike", "ts": "2026-11-20T10:52:42.664937"}
+{"id": "PD20G-009", "brand": "Cache-pot.fr", "domain": "cache-pot.fr", "to": "contact@cache-pot.fr", "ts": "2026-11-20T10:52:55.112570"}
+{"id": "PD20G-010", "brand": "Jagou Design", "domain": "jagoudesign.com", "to": "contact@jagoudesign.com", "ts": "2026-11-20T10:53:07.605423"}
+{"id": "PD20G-011", "brand": "Apihex", "domain": "apihex.fr", "to": "contact@apihex.fr", "ts": "2026-11-20T10:53:20.578260"}
+{"id": "PD20G-012", "brand": "Captain Cap", "domain": "captain-cap.ch", "to": "info@captain-cap.ch", "ts": "2026-11-20T10:53:32.858306"}
+{"id": "PD20G-013", "brand": "Atelier des lignes", "domain": "atelierdeslignes.com", "to": "contact@atelierdeslignes.com", "ts": "2026-11-20T10:53:46.377235"}
+{"id": "PD20G-014", "brand": "Atelier KOBO", "domain": "atelierkobo.ch", "to": "info@atelierkobo.ch", "ts": "2026-11-20T10:54:00.011417"}
+{"id": "PD20G-015", "brand": "Töpferei 8008", "domain": "toepferei8008.ch", "to": "hallo@toepferei8008.ch", "ts": "2026-11-20T10:54:13.603457"}
+{"id": "PD20G-016", "brand": "drechsler-team.ch", "domain": "drechsler-team.ch", "to": "info@drechsler-team.ch", "ts": "2026-11-20T10:54:26.132869"}
+{"id": "PD20G-017", "brand": "DrechselWerk", "domain": "drechselwerk.ch", "to": "mail@drechselwerk.ch", "ts": "2026-11-20T10:54:38.576595"}
+{"id": "PD20G-018", "brand": "Stöckli Manufaktur", "domain": "stoecklimanufaktur.ch", "to": "info@stoecklimanufaktur.ch", "ts": "2026-11-20T10:54:48.929484"}
+{"id": "PD20G-019", "brand": "Kochbretter Straub", "domain": "kochbretterstraub.ch", "to": "shop@kochbretterstraub.ch", "ts": "2026-11-20T10:54:59.068758"}
+{"id": "PD20G-020", "brand": "Nyfeler Holzwaren", "domain": "holzwarenshop.ch", "to": "info@holzwaren.ch", "ts": "2026-11-20T10:55:05.447597"}
+{"id": "PD20G-021", "brand": "Schnoderbox", "domain": "schnoderbox.ch", "to": "info@schnoderbox.ch", "ts": "2026-11-20T10:55:28.806346"}
+{"id": "PD20G-022", "brand": "atelier mond", "domain": "ateliermond.ch", "to": "hello@ateliermond.ch", "ts": "2026-11-20T10:55:35.519217"}
+{"id": "PD20G-023", "brand": "Sevy Créations Bois", "domain": "sevy-creations-bois.ch", "to": "info@sevy-creations-bois.ch", "ts": "2026-11-20T10:55:59.394101"}
+{"id": "PD20G-024", "brand": "HerzART", "domain": "herzart.ch", "to": "info@herzart.ch", "ts": "2026-11-20T10:56:12.465300"}
+{"id": "PD20G-025", "brand": "kln.swiss", "domain": "kln.swiss", "to": "info@kln.swiss", "ts": "2026-11-20T10:56:25.590882"}
+{"id": "PD20G-026", "brand": "Kochbretter", "domain": "kochbretter.ch", "to": "info@kochbretter.ch", "ts": "2026-11-20T10:56:38.595967", "bounced": true}
+{"id": "PD20G-027", "brand": "Seosa Wood Craft", "domain": "seosa.ch", "to": "info@seosa.ch", "ts": "2026-11-20T10:56:51.235597"}
+{"id": "PD20G-028", "brand": "Manufacture Gilbert", "domain": "manufacture-gilbert.ch", "to": "info@manufacture-gilbert.ch", "ts": "2026-11-20T10:57:04.418292"}
+{"id": "PD20G-029", "brand": "ZWEMA", "domain": "zwema.com", "to": "hello@zwema.com", "ts": "2026-11-20T10:57:14.063216"}
+{"id": "PD20G-030", "brand": "LuanArt", "domain": "luanart.ch", "to": "info@luanart.ch", "ts": "2026-11-20T10:57:24.458014"}
+{"id": "PD20G-031", "brand": "Atelier Agnès Thélin (Atheds)", "domain": "atheds.ch", "to": "info@atheds.ch", "ts": "2026-11-20T10:57:34.638040"}
+{"id": "PD20G-032", "brand": "Du Puits d'Argile", "domain": "dupuitsdargile.com", "to": "info@dupuitsdargile.com", "ts": "2026-11-20T10:57:48.040546"}
+{"id": "PD20G-033", "brand": "Zunder Atelier", "domain": "zunderatelier.ch", "to": "info@zunderatelier.ch", "ts": "2026-11-20T10:57:53.672263"}
+{"id": "PD20H-001", "brand": "JCB Menuiserie", "domain": "jcb-menuiserie.fr", "to": "contact@jcb-menuiserie.fr", "ts": "2026-11-20T10:59:28.951402"}
+{"id": "PD20H-002", "brand": "Tourlonias 1895", "domain": "tourlonias.fr", "to": "info@tourlonias.fr", "ts": "2026-11-20T10:59:54.566118"}
+{"id": "PD20H-003", "brand": "Lumigéode", "domain": "lumigeode.fr", "to": "contact@lumigeode.fr", "ts": "2026-11-20T11:00:06.693536"}
+{"id": "PD20H-004", "brand": "Laser Cut", "domain": "laser-cut.fr", "to": "contact@laser-cut.fr", "ts": "2026-11-20T11:00:18.552389"}
+{"id": "PD20H-005", "brand": "Ma Planche", "domain": "maplanche.fr", "to": "contact@maplanche.fr", "ts": "2026-11-20T11:00:30.824138"}
+{"id": "PD20H-006", "brand": "JMXWOOD", "domain": "jmxwood.com", "to": "contact@jmxwood.com", "ts": "2026-11-20T11:00:42.261965"}
+{"id": "PD20H-007", "brand": "WOOW-FRANCE", "domain": "woow-france.com", "to": "info@woow-france.com", "ts": "2026-11-20T11:00:54.194438"}
+{"id": "PD20H-008", "brand": "Aux Bois du Loup", "domain": "auxboisduloup.fr", "to": "contact@auxboisduloup.fr", "ts": "2026-11-20T11:01:06.165723"}
+{"id": "PD20H-009", "brand": "La Fabrique Rémoise", "domain": "lafabriqueremoise.fr", "to": "contact@lafabriqueremoise.fr", "ts": "2026-11-20T11:01:17.969537"}
+{"id": "PD20H-010", "brand": "L'Arbre Atelier", "domain": "arbreatelier.fr", "to": "contact@arbreatelier.fr", "ts": "2026-11-20T11:01:30.163146"}
+{"id": "PD20H-011", "brand": "ETS Gilbert Tournage", "domain": "boutique-accessoires-bois.fr", "to": "contact@boutique-accessoires-bois.fr", "ts": "2026-11-20T11:01:41.578652"}
+{"id": "PD20H-012", "brand": "Tectoluce", "domain": "tectoluce.com", "to": "contact@tectoluce.com", "ts": "2026-11-20T11:01:52.728958"}
+{"id": "PD20H-013", "brand": "Mekamagik", "domain": "mekamagik.fr", "to": "contact@mekamagik.fr", "ts": "2026-11-20T11:02:04.983425"}
+{"id": "PD20H-014", "brand": "Aurachronis", "domain": "aurachronis.com", "to": "contact@aurachronis.com", "ts": "2026-11-20T11:02:16.035010"}
+{"id": "PD20H-015", "brand": "Wantit", "domain": "wantit.fr", "to": "contact@wantit.fr", "ts": "2026-11-20T11:02:26.901085"}
+{"id": "PD20H-016", "brand": "Potiane", "domain": "potiane.fr", "to": "contact@potiane.fr", "ts": "2026-11-20T11:02:38.361716"}
+{"id": "PD20H-017", "brand": "Poterie Turgis", "domain": "poterie-turgis.com", "to": "infos@poterie-turgis.com", "ts": "2026-11-20T11:02:50.219293"}
+{"id": "PD20H-018", "brand": "Albane Trollé Céramique", "domain": "albanetrolle.com", "to": "info@albanetrolle.com", "ts": "2026-11-20T11:03:02.062785"}
+{"id": "PD20H-019", "brand": "Musarde", "domain": "musarde-ceramique.com", "to": "info@musarde-ceramique.com", "ts": "2026-11-20T11:03:13.975843"}
+{"id": "PD20H-020", "brand": "Grains de Céramique", "domain": "grainsdeceramique.fr", "to": "faitmain@grainsdeceramique.fr", "ts": "2026-11-20T11:03:19.115289"}
+{"id": "PD20H-021", "brand": "Poterie de Crestet", "domain": "poterie-de-crestet.com", "to": "contact@poterie-de-crestet.com", "ts": "2026-11-20T11:03:42.921255"}
+{"id": "PD20H-022", "brand": "Tò Mò Céramique", "domain": "tomoceramique.com", "to": "contact@tomoceramique.com", "ts": "2026-11-20T11:03:54.992378"}
+{"id": "PD20H-023", "brand": "Céline Dupret Céramique", "domain": "celinedupret.com", "to": "contact@celinedupret.com", "ts": "2026-11-20T11:04:06.571327"}
+{"id": "PD20H-024", "brand": "L'Atelier C", "domain": "latelierc.fr", "to": "contact@latelierc.fr", "ts": "2026-11-20T11:04:18.074708"}
+{"id": "PD20H-025", "brand": "Le Studio Poterie", "domain": "lestudiopoterie.fr", "to": "contact@lestudiopoterie.fr", "ts": "2026-11-20T11:04:29.930312"}
+{"id": "PD20H-026", "brand": "Poterie Lehmann Soufflenheim", "domain": "poterie-soufflenheim.com", "to": "lehmann@poterie-soufflenheim.com", "ts": "2026-11-20T11:04:41.517763"}
+{"id": "PD20H-027", "brand": "Studio Cel'In", "domain": "cel-in.com", "to": "contact@cel-in.com", "ts": "2026-11-20T11:04:54.931400"}
+{"id": "PD20H-028", "brand": "Clotilde Céramique", "domain": "clotilde-ceramique.fr", "to": "contact@clotilde-ceramique.fr", "ts": "2026-11-20T11:05:06.737837"}
+{"id": "PD20H-029", "brand": "KerAnne Céramiste", "domain": "keranne.com", "to": "contact@keranne.com", "ts": "2026-11-20T11:05:19.242210"}
+{"id": "PD20H-030", "brand": "Chemin de la potière", "domain": "chemindelapotiere.com", "to": "contact@chemindelapotiere.com", "ts": "2026-11-20T11:05:31.934559"}
+{"id": "PD20H-031", "brand": "EPURE Céramique", "domain": "epure-ceramique.com", "to": "epure@epure-ceramique.com", "ts": "2026-11-20T11:05:44.353515"}
+{"id": "PD20H-032", "brand": "Atelier Théra", "domain": "atelier-thera.fr", "to": "contact@atelier-thera.fr", "ts": "2026-11-20T11:05:56.637947"}
+{"id": "PD20H-033", "brand": "Élémenterres", "domain": "elementerres.fr", "to": "contact@elementerres.fr", "ts": "2026-11-20T11:06:08.571897"}
+{"id": "PD20H-034", "brand": "Virginie Couffin Céramique", "domain": "virginiecouffin.fr", "to": "ceramique@virginiecouffin.fr", "ts": "2026-11-20T11:06:20.796676"}
+{"id": "PD20H-035", "brand": "Lulu Bougies", "domain": "lulubougies.fr", "to": "contact@lulubougies.fr", "ts": "2026-11-20T11:06:32.904444"}
+{"id": "PD20H-036", "brand": "Falsanor", "domain": "falsanor.fr", "to": "contact@falsanor.fr", "ts": "2026-11-20T11:06:44.956344"}
+{"id": "PD20H-037", "brand": "Bougie d'Antan", "domain": "bougiedantan.fr", "to": "contact@bougiedantan.fr", "ts": "2026-11-20T11:06:55.715944"}
+{"id": "PD20H-038", "brand": "Herzog Kerzen", "domain": "herzogkerzen.ch", "to": "info@herzogkerzen.ch", "ts": "2026-11-20T11:07:08.232204"}
+{"id": "PD20H-039", "brand": "Sakura", "domain": "sakura.ch", "to": "info@sakura.ch", "ts": "2026-11-20T11:07:14.004329"}
+{"id": "PD20H-040", "brand": "Atelier Bougies", "domain": "atelierbougies.com", "to": "contact@atelierbougies.com", "ts": "2026-11-20T11:07:44.195509"}
+{"id": "PD20H-041", "brand": "Douce Flamme", "domain": "douce-flamme.com", "to": "info@douce-flamme.com", "ts": "2026-11-20T11:07:56.778606"}
+{"id": "PD20H-042", "brand": "René et Gigi", "domain": "rene-et-gigi.com", "to": "contacts@rene-et-gigi.com", "ts": "2026-11-20T11:08:12.255386"}
+{"id": "PD20H-043", "brand": "Coeur de Cigale", "domain": "coeurdecigale.com", "to": "contact@coeurdecigale.com", "ts": "2026-11-20T11:08:24.141544"}
+{"id": "PD20H-044", "brand": "Sologne Spirit Miss M Déco", "domain": "missmdeco.fr", "to": "contact@missmdeco.fr", "ts": "2026-11-20T11:08:37.151666"}
+{"id": "PD20H-045", "brand": "La Pernoise", "domain": "lapernoise.com", "to": "info@lapernoise.com", "ts": "2026-11-20T11:08:48.412008"}
+{"id": "PD20H-046", "brand": "Bål", "domain": "balbougie.com", "to": "contact@balbougie.com", "ts": "2026-11-20T11:08:59.676140"}
+{"id": "PD20H-047", "brand": "36 Chandelles", "domain": "36chandelles.com", "to": "contact@36chandelles.com", "ts": "2026-11-20T11:09:14.651707"}
+{"id": "PD20H-048", "brand": "Maison Bernadette", "domain": "maison-bernadette.fr", "to": "bonjour@maison-bernadette.fr", "ts": "2026-11-20T11:09:28.332267"}
+{"id": "PD20H-049", "brand": "La Verrerie de Biot", "domain": "verreriebiot.com", "to": "verrerie@verreriebiot.com", "ts": "2026-11-20T11:09:40.823472"}
+{"id": "PD20H-050", "brand": "Les infondus", "domain": "lesinfondus.com", "to": "contact@lesinfondus.com", "ts": "2026-11-20T11:09:53.084715"}
+{"id": "PD20H-051", "brand": "Mad Verrerie d'Art", "domain": "madverreriedart.fr", "to": "contact@madverreriedart.fr", "ts": "2026-11-20T11:10:04.853599"}
+{"id": "PD20H-052", "brand": "Verreries des Lumières", "domain": "verreriesdeslumieres.com", "to": "adv@verreriesdeslumieres.com", "ts": "2026-11-20T11:10:16.995416"}
+{"id": "PD20H-053", "brand": "Noiia", "domain": "noiia.ch", "to": "creations@noiia.ch", "ts": "2026-11-20T11:10:29.267589"}
+{"id": "PD20H-054", "brand": "Bykoko", "domain": "bykoko.ch", "to": "contact@bykoko.ch", "ts": "2026-11-20T11:10:40.842092"}
+{"id": "PD20I-001", "brand": "PRISEWALD", "domain": "prisewald.ch", "to": "info@prisewald.ch", "ts": "2026-11-20T11:10:43.834904"}
+{"id": "PD20I-002", "brand": "Aurélie Vannerie", "domain": "aurelievannerie.fr", "to": "contact@aurelievannerie.fr", "ts": "2026-11-20T11:10:43.834952"}
+{"id": "PD20I-003", "brand": "Chemin Tressant", "domain": "chemintressant.fr", "to": "contact@chemintressant.fr", "ts": "2026-11-20T11:10:43.834966"}
+{"id": "PD20I-004", "brand": "Joli Pot", "domain": "joli-pot.fr", "to": "contact@joli-pot.fr", "ts": "2026-11-20T11:10:43.834975"}
+{"id": "PD20I-005", "brand": "Katja Burri Glas", "domain": "katjaburri.ch", "to": "info@katjaburri.ch", "ts": "2026-11-20T11:10:43.834981"}
+{"id": "PD20H-055", "brand": "Les Bougies de Barbara", "domain": "lesbougiesdebarbara.ch", "to": "contact@lesbougiesdebarbara.ch", "ts": "2026-11-20T11:10:52.868511"}
+{"id": "PD20H-056", "brand": "Bougies du Monde", "domain": "bougiesdumonde.fr", "to": "contact@bougiesdumonde.fr", "ts": "2026-11-20T11:11:05.114073"}
+{"id": "PD20H-057", "brand": "Atelier La Cabane", "domain": "atelier-lacabane.fr", "to": "lacabane@atelier-lacabane.fr", "ts": "2026-11-20T11:11:18.297243"}
+{"id": "PD20I-006", "brand": "Kunstschlosser Shop", "domain": "kunstschlosser.ch", "to": "info@kunstschlosser.ch", "ts": "2026-11-20T11:11:21.720478"}
+{"id": "PD20I-007", "brand": "Designsurseine", "domain": "designsurseine.com", "to": "contact@designsurseine.com", "ts": "2026-11-20T11:11:21.720517"}
+{"id": "PD20I-008", "brand": "Verrerie d'Art d'Amboise", "domain": "verreriedartdamboise.com", "to": "contact@verreriedartdamboise.fr", "ts": "2026-11-20T11:11:21.720529"}
+{"id": "PD20I-009", "brand": "Bois des Landes", "domain": "boisdeslandes.fr", "to": "info@boisdeslandes.fr", "ts": "2026-11-20T11:11:21.720547"}
+{"id": "PD20I-010", "brand": "La Majo", "domain": "la-majo.fr", "to": "contact@la-majo.fr", "ts": "2026-11-20T11:11:21.720552"}
+{"id": "PD20I-011", "brand": "Bois et Cordes", "domain": "boisetcordes.fr", "to": "contact@boisetcordes.fr", "ts": "2026-11-20T11:11:21.720557"}
+{"id": "PD20I-012", "brand": "Gcrealine", "domain": "gcrealine.com", "to": "contact@gcrealine.com", "ts": "2026-11-20T11:11:21.720561"}
+{"id": "PD20I-013", "brand": "Astralux", "domain": "astralux.ch", "to": "info@astralux.ch", "ts": "2026-11-20T11:11:21.720565"}
+{"id": "PD20H-058", "brand": "Handels Kerzenatelier", "domain": "handel-kerzen.ch", "to": "info@handel-kerzen.ch", "ts": "2026-11-20T11:11:30.166681"}
+{"id": "PD20I-014", "brand": "Atelier Vassou", "domain": "atelier-vassou.com", "to": "contact@atelier-vassou.com", "ts": "2026-11-20T11:11:30.998181"}
+{"id": "PD20I-015", "brand": "Ambiance sur Mesure", "domain": "ambiance-sur-mesure.fr", "to": "contact@ambiance-sur-mesure.fr", "ts": "2026-11-20T11:11:30.998237"}
+{"id": "PD20I-016", "brand": "munu", "domain": "munu.fr", "to": "contact@munu.fr", "ts": "2026-11-20T11:11:30.998256", "bounced": true}
+{"id": "PD20I-017", "brand": "Il-Umine", "domain": "il-umine.com", "to": "contact@il-umine.com", "ts": "2026-11-20T11:11:30.998265"}
+{"id": "PD20I-018", "brand": "Atelier Maus", "domain": "ateliermaus.fr", "to": "contact@ateliermaus.fr", "ts": "2026-11-20T11:11:30.998272"}
+{"id": "PD20I-019", "brand": "Mhoz Luminaires", "domain": "mhoz.fr", "to": "contact@mhoz.fr", "ts": "2026-11-20T11:11:30.998278"}
+{"id": "PD20H-059", "brand": "Candelaia", "domain": "candelaia.ch", "to": "info@candelaia.ch", "ts": "2026-11-20T11:11:43.083248"}
+{"id": "PD20H-060", "brand": "Ceyssat Ma Bougie", "domain": "ceyssatmabougie.com", "to": "contact@ceyssatmabougie.com", "ts": "2026-11-20T11:11:56.874423"}
+{"id": "PD20I-020", "brand": "Atelier Henri Dejeant", "domain": "henridejeant.com", "to": "contact@henridejeant.com", "ts": "2026-11-20T11:12:04.206400"}
+{"id": "PD20I-021", "brand": "Alsalum", "domain": "alsalum.com", "to": "infos@alsalum.com", "ts": "2026-11-20T11:12:04.206441"}
+{"id": "PD20I-022", "brand": "Hesmée", "domain": "hesmee.com", "to": "contact@atelierhesmee.com", "ts": "2026-11-20T11:12:04.206455"}
+{"id": "PD20I-023", "brand": "Luxuriant Bois Tourné", "domain": "luxuriant.shop", "to": "contact@luxuriant.shop", "ts": "2026-11-20T11:12:04.206464"}
+{"id": "PD20I-024", "brand": "Centième", "domain": "maison-centieme.com", "to": "bonjour@maison-centieme.com", "ts": "2026-11-20T11:12:04.206469"}
+{"id": "PD20H-061", "brand": "Les secrets de Galou", "domain": "les-secrets-de-galou.com", "to": "contact@les-secrets-de-galou.com", "ts": "2026-11-20T11:12:06.988117"}
+{"id": "PD20H-062", "brand": "Bougiesmauves", "domain": "bougiesmauves.fr", "to": "contact@bougiesmauves.fr", "ts": "2026-11-20T11:12:18.511949"}
+{"id": "PD20H-063", "brand": "Rives de Saintonge", "domain": "rivesdesaintonge.com", "to": "contact@rivesdesaintonge.com", "ts": "2026-11-20T11:12:29.777229"}
+{"id": "PD20H-064", "brand": "Olfair", "domain": "olfair.ch", "to": "info@olfair.ch", "ts": "2026-11-20T11:12:44.998506"}
+{"id": "PD20H-065", "brand": "Bougies Vent d'Est", "domain": "bougiesventdest.com", "to": "contact@bougiesventdest.com", "ts": "2026-11-20T11:12:56.675604"}
+{"id": "PD20H-066", "brand": "Lune et Louise", "domain": "luneetlouise.fr", "to": "contact@luneetlouise.fr", "ts": "2026-11-20T11:13:08.398036"}
+{"id": "PD20H-067", "brand": "Kakahuete Wood", "domain": "kakahuete-wood.com", "to": "contact@kakahuete-wood.com", "ts": "2026-11-20T11:13:22.325129"}
+{"id": "PD20H-068", "brand": "L'Atelier de la Cire Genève", "domain": "latelierdelacire.com", "to": "contact@latelierdelacire.com", "ts": "2026-11-20T11:13:34.318392"}
+{"id": "PD20H-069", "brand": "MamaSays", "domain": "mamasays.pro", "to": "contact@mamasays.pro", "ts": "2026-11-20T11:13:46.640174"}
+{"id": "PD20H-070", "brand": "Mug in France", "domain": "muginfrance.fr", "to": "contact@muginfrance.fr", "ts": "2026-11-20T11:13:59.950647"}
+{"id": "PD20H-071", "brand": "Yadoni Céramiques", "domain": "yadoni.fr", "to": "contact@yadoni.fr", "ts": "2026-11-20T11:14:12.267252"}
+{"id": "PD20H-072", "brand": "Amani Ceramics", "domain": "amani-ceramics.com", "to": "contact@amani-ceramics.com", "ts": "2026-11-20T11:14:22.796540"}
+{"id": "PD20H-073", "brand": "M.A Poterie", "domain": "ma-poterie.com", "to": "contact@ma-poterie.com", "ts": "2026-11-20T11:14:34.926540"}
+{"id": "PD20H-074", "brand": "Sowilo C\u00e9ramique", "domain": "sowilo-ceramique.com", "to": "contact@sowilo-ceramique.com", "ts": "2026-11-20T11:14:46.850802"}
+{"id": "PD20H-075", "brand": "Poterie Navarraise", "domain": "poterie-navarraise.info", "to": "contact@poterie-navarraise.info", "ts": "2026-11-20T11:14:59.024579"}
+{"id": "PD20H-076", "brand": "Elisabeth Hardy", "domain": "elisabethhardy.fr", "to": "contact@elisabethhardy.fr", "ts": "2026-11-20T11:15:11.342275"}
+{"id": "PD20H-077", "brand": "Maison Poca", "domain": "maisonpoca.fr", "to": "info@maisonpoca.fr", "ts": "2026-11-20T11:15:23.397123"}
+{"id": "PD20H-078", "brand": "Aude Loison C\u00e9ramique", "domain": "audeloison-ceramique.com", "to": "hello@audeloison-ceramique.com", "ts": "2026-11-20T11:15:28.488592"}
