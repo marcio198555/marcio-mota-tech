@@ -110,7 +110,7 @@
       // s11 : exemple en francs
       block(ctx, t, S('s11'), S('s12'), () => {
         tag(ctx, 'EXEMPLE · 27,7 ct./kWh hors TVA', 500, 360, t, S('s11'), { size: 40, color: GOLD });
-        calc(ctx, ['150 kWh/an × 0,277', '≈ 41 CHF'], 500, 500, t, [S('s11') + 0.05, f('s11', 0.25)], { lastSize: 120, color: GREEN });
+        calc(ctx, ['150 kWh/an × 0,277', '≈ 41,55 CHF'], 500, 500, t, [S('s11') + 0.05, f('s11', 0.25)], { lastSize: 120, color: GREEN });
         calc(ctx, ['+40 % : 210 kWh/an', '≈ 58 CHF'], 500, 800, t, [f('s11', 0.55), f('s11', 0.7)], { lastSize: 120, color: RED });
         line(ctx, 'valeurs d\'exemple', 500, 1130, t, S('s11') + 0.1, { size: 42, weight: 800, color: 'rgba(255,255,255,0.8)', dx: 0 });
       });
