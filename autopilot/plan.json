@@ -2046,8 +2046,20 @@
    ],
    "tiktok": "carrousel (test du 19.11)",
    "annonce": "Écran « 1 ms » : ce n'est pas le vrai temps de réponse",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "programmée",
+   "ajoute_le": "2026-11-20",
+   "titre": "Purificateur « 50 m² » : avec combien de renouvellements ?",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153659/tiktok-autopilot/day77_purificateur-50m2.mp4",
+   "buffer_id": "6affd482738ce4635f8a5d76",
+   "story_instagram": {
+    "buffer_id": null,
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153661/tiktok-autopilot/stories/day77_story.mp4"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153663/tiktok-autopilot/reels/day77_reel.mp4",
+    "prevu": "2026-11-21T11:00"
+   }
   },
   {
    "jour": 85,

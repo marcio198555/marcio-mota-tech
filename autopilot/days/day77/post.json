@@ -1,0 +1,35 @@
+{
+ "day": 77,
+ "title": "Purificateur « 50 m² » : avec combien de renouvellements ?",
+ "format": "V",
+ "recette": "S4",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153659/tiktok-autopilot/day77_purificateur-50m2.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153661/tiktok-autopilot/stories/day77_story.mp4",
+ "heure": "10:00",
+ "date": "2026-11-21",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1200,
+ "statut": "programmée",
+ "tiktok_title": "Purificateur « 50 m² » : avec combien de renouvellements ?",
+ "caption": "Levoit Core 300S « 50 m² » : calculé pour seulement 2 renouvellements d'air par heure.\nNotice Levoit Core 300S : CADR 240 m³/h, 50 m² à 2 renouvellements, plafond 2,4 m. À 4,8 renouvellements (base de l'AHAM) : environ 21 m².\nTa pièce fait combien de m², et ton purificateur affiche quel CADR ?\n#purificateurdair #cadr #qualitedelair #blackfriday\nVoix de synthèse.",
+ "duree_s": 69.1,
+ "story_instagram": {
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153661/tiktok-autopilot/stories/day77_story.mp4",
+  "buffer_id": null,
+  "programme_le": null,
+  "statut": "prête (Buffer Instagram plein, 10/10, le 20.11 à 6 h 50 : à programmer par la tâche de 7 h 13)"
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-21T11:00",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153663/tiktok-autopilot/reels/day77_reel.mp4",
+  "caption": "Purificateur d'air Levoit Core 300S « 50 m² » : une surface calculée pour 2 renouvellements d'air par heure\n\nSelon sa notice, le Levoit Core 300S a un CADR de 240 m³/h et une surface idéale de 50 m², « basée sur 2 renouvellements de l'air toutes les heures », avec un plafond de 2,4 m : 240 ÷ 2,4 ÷ 2 = 50.\n\nL'AHAM, association américaine des fabricants d'électroménager, base sa surface conseillée sur 4,8 renouvellements et ne recommande pas de descendre sous 2,2. À 4,8 : 240 ÷ 2,4 ÷ 4,8 ≈ 21 m².\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#purificateurdair #qualitedelair #cadr #suisseromande #jemesuretout",
+  "statut": "en attente",
+  "cta": "abonnement"
+ },
+ "buffer_id": "6affd482738ce4635f8a5d76",
+ "programme_le": "2026-11-21T10:00:00+01:00",
+ "tiktok": "carrousel (test du 19.11)",
+ "carousel_caption": "Purificateur « 50 m² » : avec combien de renouvellements d'air ? Glisse jusqu'au verdict.\nSources : notice Levoit Core 300S (CADR 240 m³/h, 50 m² à 2 renouvellements par heure, plafond 2,4 m) et livre blanc AHAM 2025 (base 4,8, minimum 2,2).\nTa pièce fait combien de m², et ton purificateur affiche quel CADR ?\n#purificateurdair #cadr #qualitedelair #blackfriday\nVoix de synthèse.",
+ "carousel_title": "Purificateur « 50 m² » : combien de renouvellements ?"
+}
