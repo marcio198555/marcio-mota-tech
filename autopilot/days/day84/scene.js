@@ -93,7 +93,10 @@
         text(ctx, 'LED 3 W', 320, 1060, { size: 46, weight: 900, color: ICE });
         text(ctx, 'ANCIENNE 42 W', 680, 1060, { size: 42, weight: 900, color: RED });
         stamp(ctx, '× 14', 380, 560, t, f('s07', 0.15), { size: 110, color: GOLD });
-        line(ctx, 'ET CE N\'EST PAS TOUT…', 500, 1160, t, f('s07', 0.55), { size: 50, weight: 900, color: GOLD, dx: 0 });
+        // ×14 = ce modèle LED précis contre une moyenne US de 2008, pas une règle générale
+        text(ctx, 'ce modèle', 320, 1110, { size: 36, weight: 700, color: C.muted });
+        text(ctx, 'moyenne US 2008', 680, 1110, { size: 36, weight: 700, color: C.muted });
+        line(ctx, 'ET CE N\'EST PAS TOUT…', 500, 1200, t, f('s07', 0.55), { size: 50, weight: 900, color: GOLD, dx: 0 });
       });
       // s08 : 744 heures
       block(ctx, t, S('s08'), S('s09'), () => {
@@ -128,8 +131,11 @@
       // s13 : retour au duel, promesse tenue : 0,62 → 0,15 CHF (÷ 4) avec l'exemple 6 h
       block(ctx, t, S('s13'), S('s14'), () => {
         duel(ctx, t, { leftOn: 0.35 });
-        text(ctx, '8,66 CHF', 275, 900, { size: 74, weight: 900, family: F.mono, color: RED });
-        ctx.save(); ctx.strokeStyle = RED; ctx.lineWidth = 8; ctx.beginPath(); ctx.moveTo(130, 920); ctx.lineTo(420, 880); ctx.stroke(); ctx.restore();
+        // même exemple 6 h des deux côtés : l'ancienne passe aussi de 8,66 à 2,16 CHF (facts.md : 42 W × 186 h = 7,812 kWh × 0,277)
+        line(ctx, '8,66 CHF', 275, 880, t, S('s13'), { size: 60, weight: 900, family: F.mono, color: C.muted, dx: 0 });
+        pop(ctx, t, f('s13', 0.25), 275, 965, () => text(ctx, '÷ 4', 0, 0, { size: 80, weight: 900, family: F.mono, color: GOLD }));
+        big(ctx, '2,16 CHF', 275, 1075, t, f('s13', 0.5), { size: 110, color: RED, maxWidth: 400 });
+        line(ctx, 'tout décembre', 275, 1160, t, f('s13', 0.6), { size: 40, weight: 800, color: WHITE, dx: 0 });
         chip(ctx, 'exemple · 6 h par soir', 500, 790, { color: WHITE, size: 38 });
         line(ctx, '0,62 CHF', 725, 880, t, S('s13'), { size: 60, weight: 900, family: F.mono, color: C.muted, dx: 0 });
         pop(ctx, t, f('s13', 0.25), 725, 965, () => text(ctx, '÷ 4', 0, 0, { size: 80, weight: 900, family: F.mono, color: GOLD }));
