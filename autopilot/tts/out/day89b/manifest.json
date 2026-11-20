@@ -1,0 +1,22 @@
+{
+ "job": "day89b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s07",
+   "text": "Donc toi, tu paies plus chaque mois.",
+   "file": "s07.wav",
+   "duration": 3.56,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Des deux côtés, un essai gratuit existe, seulement pour un premier abonnement.",
+   "file": "s08.wav",
+   "duration": 5.2,
+   "rate": 24000
+  }
+ ],
+ "total": 8.76
+}
