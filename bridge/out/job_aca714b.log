@@ -1,0 +1,72 @@
++ export -f early_push
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/siwis/medium/fr_FR-siwis-medium
++ n=fr_FR-siwis-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx.json
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+skip day01
+skip day01fix
+skip day02
+skip day02cta
+skip day03
+skip day03cta
+skip day04
+skip day04cta
+skip day04fix
+skip day05
+skip day05cta
+skip day05fix
+skip day06
+skip day06cta
+skip day06cta2
+skip day07
+skip day07cta
+skip day07fix
+skip day08
+skip day08cta
+skip day09
+skip day09fix
+skip day12
+skip day12fix
+skip day13
+skip day13fix
+skip day16
+skip day17
+skip day20
+skip day21
+skip day21fix
+skip day23
+skip day23b
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+asr autopilot/vo/day88_vo.wav -> Toi, tu préchauffes ton four à 200 degrés, ton collègue enfourne direct, four froid, lequel a raison. À la fin, le préchauffage en francs par an, par an à temps, cuisinière et four, près de 7% de l'électricité des ménages. Et ce n'est pas tout ! Exemple fédéral, un four classe A, 50 litres, 0,72 kWh par cuisson. Selon SwissEnergy, sans préchauffage, tu économises 20% d'énergie. Ton collègue a rais
+asr autopilot/vo/day85_end.wav -> Le logo promis, VESA ClearMR qui compte les pixels nets contre les flous. ClearMR 7000, 65 à 75 fois plus de pixels nets que flous. Et abonne-toi demain, tes Airpods Pro 3 moins chers en France.
+asr autopilot/vo/day89_vo.wav -> Spotify Premium, toi en Suisse 15,95 francs par mois, ton collègue en France même abonnement qui paie le plus sur un an, à la fin l'écart en francs sur 12 mois, à temps, prix relevé le 20 novembre sur les deux sites officiels, France 12,14 euros par mois, au cours de la Banque Nationale 11,25 francs et ce n'est pas tout toi, tu ne paies plus chaque mois. Même offre des deux côtés, 3 mois 0 pour un
+asr autopilot/vo/day92_vo.wav -> Toi, ton SSD, jusqu'à 7000 mégaoctets par seconde. À temps, ton collègue, le même en 2 Teraoctets, qui copie plus vite. À la fin, ce qui arrive quand sa zone rapide est pleine. Pitch Kingston, en 512 Gigaoctets, lecture 7000. Et ce n'est pas tout, écriture 3900. En 2 Teraoctets, écriture 7000. Sur la fiche, presque deux fois plus vite. Mesuré sur un disque neuf. Le secret ? Le cache SLC. Selon Seb
++ early_push transcription
++ git config user.name 'github-actions[bot]'
++ git config user.email '41898283+github-actions[bot]@users.noreply.github.com'
++ git add -f bridge/out autopilot/tts/out autopilot/asr/out
