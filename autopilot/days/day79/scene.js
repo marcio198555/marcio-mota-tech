@@ -68,11 +68,11 @@
       block(ctx, t, S('s07'), S('s08'), () => {
         tag(ctx, 'GOOGLE STORE · FICHE PIXEL 9a', 500, 380, t, S('s07'), { size: 38, color: GOLD });
         tag(ctx, 'SANS FIL, JUSQU\'À', 500, 520, t, f('s07', 0.2), { size: 46 });
-        big(ctx, '7,5 W', 500, 720, t, f('s07', 0.45), { size: 190, color: GREEN });
+        big(ctx, '7,5 W', 500, 720, t, f('s07', 0.05), { size: 190, color: GREEN });
         tag(ctx, 'CHARGEUR EPP CERTIFIÉ Qi', 500, 900, t, f('s07', 0.7), { size: 40 });
       });
       block(ctx, t, S('s08'), S('s09'), () => {
-        bars(ctx, [{ label: 'Boîte du chargeur', v: 1, value: '15 W', color: GOLD, t0: S('s08') }, { label: 'Pixel 9a, sans fil', v: 0.5, value: '7,5 W', color: GREEN, t0: S('s08') + 0.4 }], 120, 470, 760, t, { size: 44 });
+        bars(ctx, [{ label: 'Boîte du chargeur (exemple)', v: 1, value: '15 W', color: GOLD, t0: S('s08') }, { label: 'Pixel 9a, sans fil', v: 0.5, value: '7,5 W', color: GREEN, t0: S('s08') + 0.4 }], 120, 470, 760, t, { size: 44 });
         stamp(ctx, 'LA MOITIÉ', 500, 960, t, f('s08', 0.45), { size: 90, color: RED });
       });
       block(ctx, t, S('s09'), S('s10'), () => {
