@@ -20,7 +20,7 @@
    "text": "À la fin : ce qui arrive quand sa zone rapide est pleine.",
    "start": 10.152,
    "end": 13.536,
-   "display": "À la fin : ce qui arrive | quand la zone rapide est pleine."
+   "display": "À la fin : ce qui arrive | quand sa zone rapide est pleine."
   },
   {
    "id": "s04",
@@ -41,7 +41,7 @@
    "text": "En deux téraoctets : écriture sept mille. Sur la fiche, presque deux fois plus vite.",
    "start": 23.22,
    "end": 29.194,
-   "display": "En 2 To : écriture 7 000 Mo/s. | Sur la fiche, presque | deux fois plus vite."
+   "display": "En 2 To : écriture 7 000 Mo/s. | Sur la fiche : | presque deux fois plus vite."
   },
   {
    "id": "s07",
@@ -69,7 +69,7 @@
    "text": "Surprise : selon Sanndisk, une partie de ce cache rétrécit quand le disque se remplit.",
    "start": 37.874,
    "end": 44.098,
-   "display": "Surprise : selon Sandisk, une partie | de ce cache rétrécit | quand le disque se remplit."
+   "display": "Surprise : selon Sandisk, | une partie de ce cache rétrécit | quand le disque se remplit."
   },
   {
    "id": "s11",
@@ -104,7 +104,7 @@
    "text": "Et abonne-toi : demain, la lampe torche à dix mille lumens… mesurés comment ?",
    "start": 60.048,
    "end": 64.788,
-   "display": "Abonne-toi : demain, la lampe | à 10 000 lumens… | mesurés comment ?"
+   "display": "Abonne-toi : demain, | la lampe à 10 000 lumens… | mesurés comment ?"
   }
  ]
 }

@@ -63,15 +63,16 @@
       background(ctx, t); theme(ctx, t);
       // s01–s02 : image 0 — compteur « 7 000 Mo/s ? » qui monte + duel 512 Go / 2 To + question
       block(ctx, t, 0, S('s03'), () => {
-        const v = counter(t, 0, 1.1, 5000, 7000);
+        const v = 7000; // valeur sourcée affichée dès l'image 0 (pas de chiffre intermédiaire)
         const z = 1 + 0.03 * Math.sin(t * 3);
-        ctx.save(); ctx.translate(500, 345); ctx.scale(z, z);
+        ctx.save(); ctx.translate(500, 380); ctx.scale(z, z);
         text(ctx, `${fmt(v)} Mo/s`, -50, 0, { size: 112, weight: 900, family: F.mono, color: GOLD, stroke: 'rgba(0,0,0,0.6)', shadow: GOLD + '66', shadowBlur: 30 });
         text(ctx, '?', 385, 0, { size: 140, weight: 900, color: RED });
         ctx.restore();
-        text(ctx, '« jusqu\'à » sur la boîte', 500, 445, { size: 42, weight: 800, color: 'rgba(255,255,255,0.85)' });
+        text(ctx, '« jusqu\'à » sur la boîte', 500, 465, { size: 42, weight: 800, color: 'rgba(255,255,255,0.85)' });
         duelImage(ctx, t, { glowR: t > S('s02') });
         KIT.head(ctx, 'QUI COPIE LE PLUS VITE ?', 1135, t, undefined, { size: 56, color: TEAL, bg: 'rgba(46,230,200,0.16)' });
+        if (t > f('s02', 0.55)) tag(ctx, 'À LA FIN : ZONE RAPIDE PLEINE…', 500, 985, t, f('s02', 0.55), { size: 38, color: GOLD });
         if (t > S('s02')) stamp(ctx, 'ATTENDS', 790, 610, t, S('s02'), { size: 46, color: GOLD, rot: 0.06 });
       });
       // s03 : promesse — barre de copie, zone rapide, puis « ? »
@@ -85,6 +86,7 @@
         text(ctx, 'ZONE RAPIDE', 330, 755, { size: 44, weight: 900, color: '#032', alpha: clamp(k * 3) });
         text(ctx, '?', 760, 758, { size: 100, weight: 900, color: RED, alpha: clamp((k - 0.8) * 5) });
         CHR.emo(ctx, 'hourglass_done', 500, 990, 190, t, f('s03', 0.5));
+        tag(ctx, 'schéma', 500, 870, t, f('s03', 0.3), { size: 36, color: 'rgba(255,255,255,0.8)' });
       });
       // s04 : fiche Kingston — lecture 7 000
       block(ctx, t, S('s04'), S('s06'), () => {
@@ -132,6 +134,7 @@
         cells(ctx, 170, 430, 7, 5, 86, 0.3, t, S('s09') + 0.1);
         chip(ctx, '1 = mode rapide (1 bit/cellule)', 140, 950, { size: 38, color: TEAL, align: 'left', alpha: clamp((t - f('s09', 0.5)) * 4) });
         chip(ctx, '3 = mémoire TLC (3 bits/cellule)', 140, 1025, { size: 38, color: '#8fb0c8', align: 'left', alpha: clamp((t - f('s09', 0.65)) * 4) });
+        tag(ctx, 'schéma, sans échelle', 500, 1130, t, S('s09') + 0.3, { size: 36, color: 'rgba(255,255,255,0.8)' });
       });
       // s10 : surprise — une partie du cache rétrécit quand le disque se remplit (Sandisk), schéma sans échelle
       block(ctx, t, S('s10'), S('s11'), () => {
@@ -142,7 +145,7 @@
         roundRect(ctx, 120, 600, 760, 150, 26); ctx.fillStyle = 'rgba(255,255,255,0.06)'; ctx.fill(); ctx.lineWidth = 4; ctx.strokeStyle = 'rgba(255,255,255,0.3)'; ctx.stroke();
         roundRect(ctx, 120, 600, 760 * fill, 150, 26); ctx.fillStyle = '#5a6f8a'; ctx.fill();
         roundRect(ctx, 120 + 760 * fill, 600, 760 * cache, 150, 18); ctx.fillStyle = TEAL; ctx.fill();
-        text(ctx, 'tes fichiers', 120 + 380 * fill, 675, { size: 40, weight: 800, color: WHITE, maxWidth: 760 * fill - 20 });
+        text(ctx, 'tes fichiers', 130, 565, { size: 40, weight: 800, color: '#a9bdd6', align: 'left' });
         text(ctx, 'cache', 120 + 760 * fill + 380 * cache, 565, { size: 44, weight: 900, color: TEAL });
         line(ctx, 'disque qui se remplit →', 500, 830, t, f('s10', 0.3), { size: 46, weight: 800, dx: 0 });
         line(ctx, 'une partie du cache rétrécit', 500, 910, t, f('s10', 0.55), { size: 52, weight: 900, color: TEAL, dx: 0 });
@@ -183,7 +186,7 @@
         duelImage(ctx, t, { glowL: true, glowR: true, sy: 700, y0: 470, y1: 900 });
         stamp(ctx, 'VITESSE APRÈS LE CACHE : ?', 500, 360, t, S('s14'), { size: 50, color: RED, rot: -0.03 });
         line(ctx, 'pas sur la fiche', 500, 960, t, f('s14', 0.2), { size: 50, weight: 900, color: WHITE, dx: 0 });
-        line(ctx, 'AU REPOS : ELLE REVIENT', 500, 1080, t, f('s14', 0.55), { size: 56, weight: 900, color: GREEN, dx: 0 });
+        line(ctx, 'AU REPOS, LE CACHE REVIENT', 500, 1080, t, f('s14', 0.55), { size: 56, weight: 900, color: GREEN, dx: 0 });
       });
       block(ctx, t, S('s15'), END + 1, () => followCTA(ctx, t, S('s15'), { when: 'DEMAIN', next: [`la lampe à 10${N}000 lumens…`, 'mesurés comment ?'] }));
       brand(ctx, t);

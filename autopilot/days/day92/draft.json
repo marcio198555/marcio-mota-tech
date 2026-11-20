@@ -2,19 +2,19 @@
  "display": {
   "s01": "Toi, ton SSD : | jusqu'à 7 000 Mo/s.",
   "s02": "Attends. Ton collègue, le même en 2 To. | Qui copie plus vite ?",
-  "s03": "À la fin : ce qui arrive | quand la zone rapide est pleine.",
+  "s03": "À la fin : ce qui arrive | quand sa zone rapide est pleine.",
   "s04": "Fiche Kingston, 512 Go : | lecture 7 000 Mo/s.",
   "s05": "Et ce n'est pas tout : | écriture 3 900 Mo/s.",
-  "s06": "En 2 To : écriture 7 000 Mo/s. | Sur la fiche, presque | deux fois plus vite.",
+  "s06": "En 2 To : écriture 7 000 Mo/s. | Sur la fiche : | presque deux fois plus vite.",
   "s07": "Mesuré sur un disque neuf.",
   "s08": "Le secret : le cache SLC.",
   "s09": "Selon Sabrent, une partie de la mémoire | passe en mode rapide.",
-  "s10": "Surprise : selon Sandisk, une partie | de ce cache rétrécit | quand le disque se remplit.",
+  "s10": "Surprise : selon Sandisk, | une partie de ce cache rétrécit | quand le disque se remplit.",
   "s11": "Avant d'acheter : compare l'écriture, | pas seulement la lecture.",
   "s12": "Ton SSD, combien de Go ? | Écris-le en commentaire.",
   "s13": "Cache plein ? Selon Sabrent : | vitesse de base, plus lente.",
   "s14": "La fiche ne dit pas laquelle. | Au repos, elle revient.",
-  "s15": "Abonne-toi : demain, la lampe | à 10 000 lumens… | mesurés comment ?"
+  "s15": "Abonne-toi : demain, | la lampe à 10 000 lumens… | mesurés comment ?"
  },
  "title": "SSD « jusqu'à 7 000 Mo/s » : seulement au début",
  "slug": "ssd-7000-cache",
