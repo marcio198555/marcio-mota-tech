@@ -119,10 +119,11 @@
         ctx.save(); ctx.globalAlpha *= fl; CHR.emo(ctx, 'light_bulb', 300, 600, 240, t, S('s10')); ctx.restore();
         line(ctx, 'léger', 300, 820, t, S('s10') + 0.1, { size: 50, weight: 900, color: GOLD, dx: 0 });
         line(ctx, 'scintillement', 300, 885, t, S('s10') + 0.15, { size: 50, weight: 900, color: GOLD, dx: 0 });
+        line(ctx, '(possible)', 300, 945, t, S('s10') + 0.2, { size: 40, weight: 800, color: C.muted, dx: 0 });
         text(ctx, 'FreeSync', 700, 520, { size: 56, weight: 900, color: WHITE });
         toggle(ctx, 700, 640, 1 - prog(t, f('s10', 0.5), 0.35), { w: 200, color: GREEN });
         line(ctx, 'COUPÉ', 700, 790, t, f('s10', 0.7), { size: 64, weight: 900, color: RED, dx: 0 });
-        line(ctx, '(possible, selon Dell)', 500, 1060, t, S('s10') + 0.2, { size: 40, weight: 800, color: C.muted, dx: 0 });
+        line(ctx, 'en mode MPRT · guide Dell', 500, 1060, t, S('s10') + 0.2, { size: 40, weight: 800, color: C.muted, dx: 0 });
       });
       // s11 : chacun sa méthode
       block(ctx, t, S('s11'), S('s12'), () => {
@@ -160,8 +161,9 @@
       // s15 : ClearMR 7000 = 65 à 75 fois plus de pixels nets
       block(ctx, t, S('s15'), S('s16'), () => {
         tag(ctx, 'VESA CLEARMR 7000', 500, 340, t, S('s15'), { size: 44, color: GREEN });
+        text(ctx, 'SCHÉMA', 840, 420, { size: 38, weight: 900, color: C.muted, family: F.mono });
         const n = Math.round(70 * ease.out(prog(t, S('s15') + 0.1, 1.2)));
-        for (let i = 0; i < 70; i++) { if (i >= n) break; const cx = 175 + (i % 10) * 72, cy = 450 + Math.floor(i / 10) * 60; ctx.fillStyle = SKY; ctx.fillRect(cx - 26, cy - 22, 52, 44); }
+        for (let i = 0; i < 70; i++) { if (i >= n) break; const cx = 175 + (i % 10) * 72, cy = 470 + Math.floor(i / 10) * 60; ctx.fillStyle = SKY; ctx.fillRect(cx - 26, cy - 22, 52, 44); }
         ctx.save(); ctx.filter = 'blur(6px)'; ctx.fillStyle = PINK; ctx.fillRect(810, 860, 60, 50); ctx.restore();
         text(ctx, '1 flou', 840, 950, { size: 38, weight: 800, color: PINK });
         big(ctx, '65 à 75 ×', 450, 1030, t, f('s15', 0.45), { size: 110, color: GOLD, maxWidth: 700 });

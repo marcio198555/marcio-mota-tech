@@ -63,8 +63,9 @@
     dryer(ctx, 290, 850, 0.5, t, { dir: 1, color: PINK });
     dryer(ctx, 710, 850, 0.5, t, { dir: -1, color: HOT });
     const a = o.left ?? 5, b = o.right ?? 15;
-    timer(ctx, 270, 1035, 72, a / 15, `${Math.round(a)}`, PINK);
-    timer(ctx, 730, 1035, 72, b / 15, `${Math.round(b)}`, HOT);
+    // anneaux animés, mais valeurs finales (5 et 15) lisibles dès l'image 0
+    timer(ctx, 270, 1035, 72, a / 15, '5', PINK);
+    timer(ctx, 730, 1035, 72, b / 15, '15', HOT);
     text(ctx, 'MIN/JOUR', 270, 1140, { size: 36, weight: 800, color: CREAM });
     text(ctx, 'MIN/JOUR', 730, 1140, { size: 36, weight: 800, color: CREAM });
     if (o.ex !== false) chip(ctx, 'exemple', 500, 1205, { color: CREAM, size: 36 });
@@ -119,10 +120,10 @@
       });
       // s07 : toi, 5 min/jour → 16,85 CHF
       block(ctx, t, S('s07'), S('s08'), () => {
-        tag(ctx, 'EXEMPLE · TOI · À PLEINE PUISSANCE', 500, 360, t, S('s07'), { size: 36, color: PINK });
+        tag(ctx, 'EXEMPLE · TOI · MAXIMUM, À FOND', 500, 360, t, S('s07'), { size: 36, color: PINK });
         calc(ctx, ['2 kW × 5 min × 365', '= 60,8 kWh/an', '≈ 16,85 CHF'], 500, 520, t,
           [S('s07') + 0.1, f('s07', 0.35), f('s07', 0.72)], { lastSize: 130, color: PINK, gap: 120 });
-        tag(ctx, 'exemple', 500, 1130, t, S('s07') + 0.1, { size: 40, color: WHITE });
+        tag(ctx, 'maximum (à fond) · exemple', 500, 1130, t, S('s07') + 0.1, { size: 40, color: WHITE });
       });
       // s08 : ton collègue, 15 min/jour → 50,55 CHF, barres
       block(ctx, t, S('s08'), S('s09'), () => {
@@ -131,7 +132,7 @@
           { label: 'Toi · 5 min/jour', v: 16.85 / 50.55, value: '16,85 CHF', color: PINK, t0: S('s08') + 0.05 },
           { label: 'Ton collègue · 15 min/jour', v: 1, value: '50,55 CHF', color: HOT, t0: f('s08', 0.45) },
         ], 120, 520, 760, t, { rh: 220, size: 44 });
-        tag(ctx, 'exemple · hors TVA', 500, 1060, t, S('s08') + 0.1, { size: 38, color: WHITE });
+        tag(ctx, 'exemple · maximum · hors TVA', 500, 1060, t, S('s08') + 0.1, { size: 38, color: WHITE });
       });
       // s09 : 2e surprise
       block(ctx, t, S('s09'), S('s10'), () => {
@@ -167,7 +168,7 @@
           roundRect(ctx, -420, -95, 840, 190, 30); ctx.fillStyle = 'rgba(8,10,20,0.92)'; ctx.fill(); ctx.lineWidth = 6; ctx.strokeStyle = HOT; ctx.stroke();
           text(ctx, "L'ÉCART ≈ 33,70 CHF/an", 0, 4, { size: 70, weight: 900, family: F.mono, color: HOT, maxWidth: 800 });
         });
-        tag(ctx, 'exemple · hors TVA', 500, 1205, t, f('s13', 0.4), { size: 36, color: CREAM });
+        tag(ctx, 'exemple · maximum · hors TVA', 500, 1205, t, f('s13', 0.4), { size: 36, color: CREAM });
       });
       block(ctx, t, S('s14'), END + 1, () => followCTA(ctx, t, S('s14'), { when: 'DEMAIN', next: ['chargeur sans fil « 15 W »…', 'ton téléphone en prend moins ?'] }));
       brand(ctx, t);
