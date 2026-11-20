@@ -1,116 +1,116 @@
 {
- "duration": 68.703,
+ "duration": 68.699,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, ton écran annonce une milliseconde.",
    "start": 0.12,
-   "end": 3.006,
+   "end": 2.973,
    "display": "Toi : ton écran | annonce 1 ms."
   },
   {
    "id": "s02",
    "text": "Ton collègue, quatre millisecondes. Lequel est le plus rapide ?",
-   "start": 3.106,
-   "end": 6.426,
+   "start": 3.073,
+   "end": 6.355,
    "display": "Ton collègue : 4 ms. | Lequel est le plus rapide ?"
   },
   {
    "id": "s03",
    "text": "Attends : à la fin, le logo qui mesure vraiment le flou.",
-   "start": 6.526,
-   "end": 11.278,
+   "start": 6.455,
+   "end": 11.153,
    "display": "Attends : à la fin, le logo | qui mesure vraiment le flou."
   },
   {
    "id": "s04",
    "text": "Souvent, c'est du « gris à gris » : un pixel qui change de gris.",
-   "start": 11.378,
-   "end": 16.171,
+   "start": 11.253,
+   "end": 15.992,
    "display": "Souvent : « gris à gris », | un pixel qui change de gris."
   },
   {
    "id": "s05",
    "text": "Et ce n'est pas tout : chez Dèl, un écran annonce une milliseconde… en mode Extrême.",
-   "start": 16.271,
-   "end": 20.8,
+   "start": 16.092,
+   "end": 20.569,
    "display": "Et ce n'est pas tout : Dell annonce | 1 ms… en mode Extreme."
   },
   {
    "id": "s06",
    "text": "En mode Fâste : quatre millisecondes.",
-   "start": 20.9,
-   "end": 23.708,
+   "start": 20.669,
+   "end": 23.445,
    "display": "En mode Fast : | 4 ms."
   },
   {
    "id": "s07",
    "text": "Vous avez peut-être le même écran.",
-   "start": 23.808,
-   "end": 26.552,
+   "start": 23.545,
+   "end": 26.258,
    "display": "Vous avez peut-être | le même écran."
   },
   {
    "id": "s08",
    "text": "Dèl prévient : légers défauts visibles possibles.",
-   "start": 26.652,
-   "end": 29.996,
+   "start": 26.358,
+   "end": 29.664,
    "display": "Dell prévient : | légers défauts visibles possibles."
   },
   {
    "id": "s09",
    "text": "Surprise : une autre fiche annonce une milliseconde èm-pé-èr-té.",
-   "start": 30.096,
-   "end": 35.473,
+   "start": 29.764,
+   "end": 35.08,
    "display": "Surprise : une autre fiche | annonce 1 ms MPRT."
   },
   {
    "id": "s10",
-   "text": "Avec un léger scintillement possible, et sans Fri-Sinque.",
-   "start": 35.573,
-   "end": 39.118,
-   "display": "Léger scintillement possible, | et sans FreeSync."
+   "text": "Avec un léger scintillement possible, et sans synchronisation adaptative.",
+   "start": 35.18,
+   "end": 39.441,
+   "display": "Léger scintillement possible, | et sans synchro adaptative (FreeSync)."
   },
   {
    "id": "s11",
    "text": "Selon un article diffusé par Vésa, chaque fabricant a sa propre méthode de test.",
-   "start": 39.218,
-   "end": 44.411,
+   "start": 39.541,
+   "end": 44.674,
    "display": "Selon un article diffusé par VESA, | chaque fabricant a sa méthode de test."
   },
   {
    "id": "s12",
    "text": "Avant d'acheter, regarde le mode de la milliseconde.",
-   "start": 44.511,
-   "end": 47.45,
+   "start": 44.774,
+   "end": 47.68,
    "display": "Avant d'acheter : | regarde le mode de la milliseconde."
   },
   {
    "id": "s13",
    "text": "Ton écran est réglé sur quel mode ? Écris-le en commentaire.",
-   "start": 47.55,
-   "end": 52.023,
+   "start": 47.78,
+   "end": 52.202,
    "display": "Ton écran est réglé sur quel mode ? | Écris-le en commentaire."
   },
   {
    "id": "s14",
    "text": "Le logo promis : Vésa Clir-èm-èr, qui compte les pixels nets contre les flous.",
-   "start": 52.123,
-   "end": 57.701,
+   "start": 52.302,
+   "end": 57.817,
    "display": "Le logo promis : VESA ClearMR, | pixels nets contre pixels flous."
   },
   {
    "id": "s15",
    "text": "Clir-èm-èr sept mille : soixante-cinq à soixante-quinze fois plus de pixels nets que flous.",
-   "start": 57.801,
-   "end": 63.83,
+   "start": 57.917,
+   "end": 63.877,
    "display": "ClearMR 7000 : 65 à 75 fois | plus de pixels nets que flous."
   },
   {
    "id": "s16",
    "text": "Et abonne-toi : demain, tes Èr-Pods Pro trois… moins chers en France ?",
-   "start": 63.93,
-   "end": 68.403,
+   "start": 63.977,
+   "end": 68.399,
    "display": "Abonne-toi : demain, | tes AirPods Pro 3… | moins chers en France ?"
   }
  ]
