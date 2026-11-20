@@ -2209,8 +2209,20 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Trottinette « 40 km d'autonomie » : dans les conditions du test",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "prête",
+   "ajoute_le": "2026-11-20",
+   "titre": "Montre connectée « 14 jours » : et avec le GPS ?",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181641/tiktok-autopilot/day87_montre-14-jours-gps.mp4",
+   "buffer_id": null,
+   "story_instagram": {
+    "buffer_id": null,
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181642/tiktok-autopilot/stories/day87_story.mp4"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181644/tiktok-autopilot/reels/day87_reel.mp4",
+    "prevu": "2026-11-23T19:00"
+   }
   },
   {
    "jour": 80,
@@ -2249,8 +2261,20 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Clé « USB 3.2 » : peut-être 5 Gbit/s seulement",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "prête",
+   "ajoute_le": "2026-11-20",
+   "titre": "Four : faut-il vraiment préchauffer ? Le calcul en francs",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181646/tiktok-autopilot/day88_four-prechauffer.mp4",
+   "buffer_id": null,
+   "story_instagram": {
+    "buffer_id": null,
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181648/tiktok-autopilot/stories/day88_story.mp4"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181650/tiktok-autopilot/reels/day88_reel.mp4",
+    "prevu": "2026-11-24T19:00"
+   }
   },
   {
    "jour": 81,
@@ -2377,8 +2401,20 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": null,
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "prête",
+   "ajoute_le": "2026-11-20",
+   "titre": "PS5 en mode repos : combien en francs par an ?",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181651/tiktok-autopilot/day93_ps5-mode-repos.mp4",
+   "buffer_id": null,
+   "story_instagram": {
+    "buffer_id": null,
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181652/tiktok-autopilot/stories/day93_story.mp4"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181654/tiktok-autopilot/reels/day93_reel.mp4",
+    "prevu": "2026-11-27T19:00"
+   }
   }
  ],
  "rythme": "Depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour ») : dès le 7.11, 2 vidéos créées par jour sur TikTok, à 10 h et 18 h, toutes deux « chiffre-piège » (recette du 05.11 mise à jour à 10 h 40 avec les données vidIQ : objet ou habitude du quotidien, duel « toi / ton collègue », question ouverte, réponse au milieu, 50–70 s ; série « Suisse contre France » 2 fois par semaine ; RUNBOOK, bloc du 05.11, point 2 bis), chacune avec sa Story (fin « Nouvelle vidéo sur TikTok ») et son Reel d'essai. Vendredi : bilan + plan + 7 vidéos de 10 h (5 h 37) ; 7 vidéos de 18 h (11 h 37). Format R en pause (derniers essais : Sleepal 5.11, Aeotec 6.11). Format T abandonné. Stratégie du mois : strategy.json.",
