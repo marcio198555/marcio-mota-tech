@@ -1,0 +1,19 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s07",
+   "text": "Donc toi, tu paies plus chaque mois."
+  },
+  {
+   "id": "s08",
+   "text": "Des deux côtés, un essai gratuit existe, seulement pour un premier abonnement."
+  }
+ ]
+}

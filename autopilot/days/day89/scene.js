@@ -53,7 +53,7 @@
         big(ctx, 'Spotify Premium', 500, 350, t, undefined, { size: 82, family: F.display, color: WHITE });
         split(ctx, t);
         player(ctx, 275, 790, 150, t, CH); player(ctx, 725, 790, 150, t, FR);
-        const v = lerp(12, 15.95, ease.out(clamp(t / 2.2)));
+        const v = 15.95; // prix réel dès l'image 0 (un compteur partant de 12 affichait « 12.00 CHF » en couverture)
         text(ctx, v.toFixed(2), 275, 1020, { size: 130, family: F.mono, weight: 900, color: CH, stroke: 'rgba(0,0,0,0.6)', shadow: CH + '77' });
         text(ctx, 'CHF / mois', 275, 1110, { size: 44, weight: 900, color: CH });
         text(ctx, '? €', 725, 1020, { size: 130, family: F.mono, weight: 900, color: FR, stroke: 'rgba(0,0,0,0.6)' });
@@ -97,10 +97,10 @@
       // ---- s08 : même offre d'essai
       block(ctx, t, S('s08'), S('s09'), () => {
         CHR.emo(ctx, 'package', 500, 520, 220, t, S('s08'));
-        big(ctx, '3 MOIS À 0', 500, 760, t, f('s08', 0.25), { size: 120, family: F.display, color: GREEN });
+        big(ctx, 'ESSAI GRATUIT', 500, 760, t, f('s08', 0.25), { size: 120, family: F.display, color: GREEN });
         pop(ctx, t, f('s08', 0.35), 330, 900, () => flagCH(ctx, 0, 0, 80)); pop(ctx, t, f('s08', 0.42), 670, 900, () => flagFR(ctx, 0, 0, 66));
-        tag(ctx, 'PREMIUM PERSONNEL · 1er ESSAI', 500, 1030, t, f('s08', 0.5), { size: 36 });
-        tag(ctx, 'JUSQU\'AU 31.12.2026', 500, 1120, t, f('s08', 0.6), { size: 36, color: GOLD });
+        tag(ctx, '1er ABONNEMENT SEULEMENT', 500, 1030, t, f('s08', 0.5), { size: 36 });
+        tag(ctx, 'durée selon le pays', 500, 1120, t, f('s08', 0.6), { size: 36, color: GOLD });
       });
       // ---- s09 : 2e surprise, Famille 6 comptes
       block(ctx, t, S('s09'), S('s10'), () => {
@@ -140,7 +140,7 @@
         months(ctx, 92, 680, n, CH); months(ctx, 542, 680, n, FR);
                 text(ctx, (15.95 * n).toFixed(2), 275, 960, { size: 92, family: F.mono, weight: 900, color: CH, stroke: 'rgba(0,0,0,0.6)' });
         text(ctx, (n === 12 ? 134.94 : 11.2453 * n).toFixed(2).replace('.', ','), 725, 960, { size: 92, family: F.mono, weight: 900, color: FR, stroke: 'rgba(0,0,0,0.6)' });
-        text(ctx, 'CHF', 275, 1040, { size: 44, weight: 900, color: CH }); text(ctx, 'CHF (≈ 135)', 725, 1040, { size: 44, weight: 900, color: FR });
+        text(ctx, 'CHF', 275, 1040, { size: 44, weight: 900, color: CH }); text(ctx, n === 12 ? 'CHF (≈ 135)' : 'CHF', 725, 1040, { size: 44, weight: 900, color: FR });
         stamp(ctx, '+ 56 CHF / AN', 500, 1160, t, S('s15') + 0.1, { size: 70, color: GOLD });
       });
       block(ctx, t, S('s16'), END + 1, () => followCTA(ctx, t, S('s16'), { when: 'DEMAIN', next: ['ton frigo classé B…', 'vraiment moyen ?'] }));
