@@ -2152,8 +2152,20 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Montre connectée « 14 jours » : sans GPS ni écran toujours allumé",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "programmée",
+   "ajoute_le": "2026-11-20",
+   "titre": "Chargeur sans fil « 15 W » : ton téléphone en prend moins ?",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795156710/tiktok-autopilot/day79_chargeur-sans-fil-15w.mp4",
+   "buffer_id": "6affeaf27b0a126cebb35779",
+   "story_instagram": {
+    "buffer_id": null,
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795156712/tiktok-autopilot/stories/day79_story.mp4"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795156713/tiktok-autopilot/reels/day79_reel.mp4",
+    "prevu": "2026-11-23T11:00"
+   }
   },
   {
    "jour": 87,
