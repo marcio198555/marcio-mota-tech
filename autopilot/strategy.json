@@ -91,24 +91,31 @@
     "abonnes_gagnes": 100
    },
    "experience": "10 h (7 vidéos, toutes V) : chiffre de la boîte d'un produit qu'on achète avant le Black Friday (TV 65 pouces, 200 Mpx, aspirateur 60 min, montre 50 m, batterie 10 000 mAh) + chauffage (annoncé) et console Suisse/France ; 40–50 s ; image 0 = produit + chiffre de la boîte avec « ≠ » ou « ? », phrase 1 = le chiffre en question, phrase 2 = « Non. » + le contre-pied. 18 h (7 vidéos, 4 A et 3 V) : vérité du quotidien en francs, 50–65 s, jamais d'eau. Jugement le 15.11, le 17.11 (analyses tous les 2 jours) et le 20.11 : médianes TikTok et Instagram par type, temps regardé, abonnés.",
-   "statut": "en cours",
-   "resultat": null,
-   "verdict": null,
-   "decision": null
+   "statut": "terminée",
+   "resultat": {
+    "vues_mediane": 250.5,
+    "retention_pct": null,
+    "abonnes_gagnes": 4,
+    "engagement_pour_mille": 1.4,
+    "instagram_reels_mediane": 299,
+    "note": "rétention non calculée (durées des versions courtes et carrousel mélangées) ; abonnés TikTok 80 → 84 au 18.11 (Metricool)"
+   },
+   "verdict": "ROUGE (min(250,5/900 ; 4/100) = 0,04)",
+   "decision": "Aucun type de sujet ne se distingue sur TikTok (boîte 251,5, quotidien 249, Suisse/France 257). Format A abandonné (R5). Test carrousel des 20-21.11 maintenu, jugé les 21 et 23.11. Instagram inchangé (baisse de tout le compte depuis le 16.11)."
   },
   {
    "id": "S4",
    "du": "2026-11-20",
    "au": "2026-11-27",
    "bilan": "2026-11-27",
-   "plan": null,
+   "plan": "16 créneaux V (A abandonné), semaine du Black Friday : 11 « chiffre de la boîte », 3-4 « quotidien en francs », 2 « Suisse contre France »",
    "objectifs": {
     "vues_mediane": 1300,
     "retention_pct": 40,
     "abonnes_gagnes": 150
    },
-   "experience": "Semaine du Black Friday (vendredi 27.11) : 8 jours, 16 vidéos (les deux tâches du 20.11 produisent jusqu'au 27.11 inclus), toutes liées aux achats.",
-   "statut": "à venir",
+   "experience": "TikTok : carrousel photo sur les 4 créneaux des 20 et 21.11 (jours 76, 84, 77, 85) contre la vidéo ; on garde le carrousel si un dépasse 400 vues ou si leur médiane dépasse 1,3 × 247. Instagram : même vidéo, Story et Reel d'essai.",
+   "statut": "en cours",
    "resultat": null,
    "verdict": null,
    "decision": null
@@ -376,6 +383,11 @@
    "date": "2026-11-19",
    "verdict": "analyse 2 jours : TikTok NE MARCHE PAS (247), Instagram NE MARCHE PAS (213 ; aucun Reel ≥ 1 000)",
    "decision": "TikTok (17–18.11, 4 vidéos ≥ 18 h) : 52 aspirateur 237 (10,5 s), 28 couvercle 254 (5,9 s), 40 montre courte 39 s 253 (10,7 s), 29 Wi-Fi courte 39 s 241 (10,3 s) ; médiane 247 ; versions courtes sans effet. Hors autopilote (pas touchées) : GTA 6 jour 90 234, clips Tomo 215 et 247, Fletch 238, GTA 6 jour 91 1 vue en 3 h. Abonnés 80 (dernier relevé Metricool 16.11). Instagram (Reels d'essai ≥ 18 h) : 52 126, 28 161, 40 265, 29 631 ; médiane 213 ; premier signal 50 136, 75 134 en 6 h. Tous les nouveaux Reels du compte (Marcio, reprises, Fletch, Tomo) sont aussi à 48–136 de portée depuis le 16.11 : cause au niveau du compte, pas du contenu. Décision TikTok (nouvelle stratégie : un autre format de diffusion, jamais testé) : carrousel photo TikTok de 8 images, mêmes faits vérifiés ; 1er essai ce soir à 18 h (jour 75, publication Buffer modifiée), puis les 4 créneaux TikTok des 20 et 21.11 (bloc du 19.11 de RUNBOOK.md). Instagram : contenu inchangé (cause au niveau du compte) ; signalé à Marcio. vidIQ sans crédits."
+  },
+  {
+   "date": "2026-11-20",
+   "verdict": "bilan S3 : ROUGE (TikTok 250,5, +4 abonnés ; Reels d'essai 299, ≈ 1 300 jusqu'au 15.11 puis ≈ 150)",
+   "decision": "Format A abandonné (R5) ; S4 = 16 vidéos V (Black Friday : chiffres de la boîte, quotidien en francs, 2 Suisse/France) ; test carrousel TikTok des 20-21.11 maintenu ; Instagram inchangé ; aucune partie 2."
   }
  ]
 }

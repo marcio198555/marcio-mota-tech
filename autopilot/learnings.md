@@ -508,3 +508,54 @@ Décision :
 2. **Instagram : contenu inchangé** (la cause touche tous les Reels du compte) ; Story et Reel d'essai du jour 75 restent la vidéo. Hypothèse signalée à Marcio (reprises en série et clips d'un autre créateur), sans rien toucher à ses publications.
 3. Aucune partie 2 (aucune vidéo ≥ 600 TikTok ni ≥ 2 000 Instagram).
 4. Règle « jamais republier la vidéo d'un autre créateur » : les 2 clips Tomo du 18.11 (TikTok et Instagram) ne viennent pas de cette tâche ; notés ici, pas touchés.
+
+## 20.11.2026 — Bilan de S3 (13.11 → 19.11) : ROUGE ; format A abandonné, test carrousel maintenu
+Sources : Buffer `list_posts` avec chiffres (mis à jour le 20.11 à 0 h 53 UTC), Metricool (abonnés TikTok jusqu'au 18.11), Windsor (Reels Instagram et abonnés, 20.11 vers 5 h 50). vidIQ : pas utilisé (plus de crédits aux analyses précédentes ; **donnée manquante** pour les tendances). Stories Instagram : Windsor ne les renvoie pas (**donnée manquante**).
+| TikTok S3 | Type | Format | Vues | Regardé |
+|---|---|---|---|---|
+| 61 LED la nuit (15.11, 18 h) | quotidien | A | **273** | 9,7 s |
+| 72 Netflix CH/FR (16.11, 18 h) | Suisse/France | V | 262 | 5,9 s |
+| 25 chauffage (13.11, 10 h) | quotidien | V | 259 | 12,0 s |
+| 49 TV 65 pouces (15.11, 10 h) | boîte | V | 257 | 11,8 s |
+| 28 couvercle (17.11, 18 h) | quotidien | A | 254 | 5,9 s |
+| 40 montre (18.11, 10 h, courte) | boîte | V | 254 | 10,7 s |
+| 73 Switch 2 CH/FR (14.11, 10 h) | Suisse/France | V | 252 | 16,5 s |
+| 34 mode avion (14.11, 18 h) | quotidien | V | 249 | 10,7 s |
+| 42 200 Mpx (16.11, 10 h) | boîte | V | 249 | 8,3 s |
+| 29 Wi-Fi (18.11, 18 h, courte) | quotidien | V | 245 | 10,3 s |
+| 75 robot aspirateur (19.11, 18 h) | quotidien | **carrousel** | 239 (à 8 h) | 4,1 s |
+| 52 aspirateur 60 min (17.11, 10 h) | boîte | V | 238 | 10,4 s |
+| 50 batterie (19.11, 10 h, courte) | boîte | V | **4** | 4,0 s |
+| 58 micro-ondes (13.11, 18 h) | quotidien | A | **1** | 6,0 s |
+Médiane : **250,5** (objectif 900). Abonnés TikTok : 80 (13.11) → 84 (18.11), +4 (objectif +100). Note R1 : min(0,28 ; 0,04) = **ROUGE**. 0 partage, 5 commentaires en tout.
+- Par type : boîte 251,5 (5) ; quotidien 249 (6, carrousel compris) ; Suisse/France 257 (2). Par format : V 252 (10) ; A 254 (3, dont 58 non diffusé). Par heure : 10 h 252, 18 h 249,5. Aucun écart qui dépasse le bruit.
+- 2 publications non diffusées cette semaine (58 et 50 : 1 et 4 vues), sans cause visible ; elles font la même chose que les autres en apparence.
+- Carrousel du jour 75 : 239 vues à 8 h, comme les vidéos à 8 h ; temps regardé 4,1 s (8 images). Premier signal seulement.
+- Hors autopilote (pas touchées) : GTA 6 jour 90 236, jour 91 3 ; clips Tomo 216 et 247 ; Fletch 240 ; 4 publications Fletch programmées par Marcio (20, 22, 24, 26.11 à 18 h 45).
+| Reels d'essai S3 (autopilote) | Vues | Portée |
+|---|---|---|
+| 73 Switch 2 CH/FR | **1 454** | 1 326 |
+| 34 mode avion | 1 356 | 1 193 |
+| 49 TV 65 pouces | 1 320 | 1 206 |
+| 25 chauffage | 1 308 | 1 180 |
+| 58 micro-ondes (A) | 782 | 707 |
+| 29 Wi-Fi | 631 | 577 |
+| 61 LED (A) | 333 | 315 |
+| 40 montre | 265 | 241 |
+| 28 couvercle (A) | 161 | 144 |
+| 50 batterie | 147 | 135 |
+| 75 robot aspirateur (A) | 147 | 136 |
+| 52 aspirateur | 126 | 119 |
+| 42 200 Mpx | 119 | 109 |
+| 72 Netflix | 1 | 1 |
+Médiane : **299** ; publiés jusqu'au 15.11 : 782 à 1 454 ; publiés depuis le 16.11 : 1 à 631 (médiane 147). Abonnés Instagram : 34 540 (17.11) → 34 578 (20.11) ; nouveaux abonnés par jour 4 à 6 jusqu'au 15.11, puis 38 et 61 les 16 et 17.11 (jours des Reels de Marcio à 9 800–13 600 vues), 11 le 18, 0 le 19.
+
+Ce qui a marché : sur Instagram jusqu'au 15.11, la recette (Suisse/France, mode avion, TV 65 pouces, chauffage : 1 300–1 450) ; les sujets « Suisse contre France » restent en tête sur Instagram (73 : 1 454 ; 70 : 2 178 en S2).
+Ce qui n'a pas marché : TikTok, 35 publications d’affilée de l'autopilote entre 237 et 356 vues (hors 2 non diffusées), quel que soit le type de sujet, la durée (39–69 s), le format (V, A, carrousel) ou l'heure ; Instagram depuis le 16.11 (tous les Reels du compte, pas seulement ceux de l'autopilote) ; format A, plus faible sur Instagram pour la 3e semaine (782, 333, 161, 147 contre 1 300 pour V à la même période).
+Décision (autonomie) :
+1. **Format A abandonné** (règle R5 : perdant plus de 2 semaines de suite) : les 16 créneaux de S4 sont en V.
+2. **Test carrousel maintenu tel que décidé le 19.11** (4 créneaux TikTok des 20 et 21.11 : 76, 84, 77, 85) ; jugement aux analyses du 21.11 et du 23.11. Changer autre chose maintenant mélangerait deux tests.
+3. Instagram : contenu inchangé ; la baisse touche tout le compte depuis le 16.11 (hypothèse non prouvée : nombre de Reels par jour, reprises et clips d'un autre créateur, déjà signalée à Marcio le 19.11).
+4. Plan S4 : semaine du Black Friday, sujets « chiffre de la boîte » de produits qu'on achète (enceinte, purificateur, chargeur sans fil, trottinette, clé USB, frigo, lampe torche, écran, montre, SSD), 3 « quotidien en francs » (guirlande, sèche-cheveux, four, console) et 2 « Suisse contre France » (AirPods Pro 3, Spotify).
+5. Aucune partie 2 (aucune vidéo ≥ 600 TikTok ni ≥ 2 000 Instagram).
+Production du 20.11 (10 h, jours 76 à 83) : faits, scripts, scènes et carrousels préparés par 4 agents en parallèle (2 vidéos chacun, 7 à 14 min) ; voix des 8 vidéos poussées dans un seul commit (b506213). Carrousels 76 et 77 contrôlés par un agent neuf : 5 points MAJEURS corrigés (texte jusqu'à x = 999 dans la zone droite → largeur 800 px ; « Seuls les watts RMS se comparent » plus fort que la source → « Compare les watts RMS, pas les watts crête » ; « 180 W » sans « sur secteur » ; notes en 34 px → 36 px). Firecrawl à court de crédits vers 6 h : les agents sont passés à Parallel et WebFetch.
