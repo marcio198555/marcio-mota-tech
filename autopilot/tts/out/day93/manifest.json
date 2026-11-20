@@ -1,0 +1,120 @@
+{
+ "job": "day93",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ta Plèïstéïcheune cinq dort en mode repos, tout activé.",
+   "file": "s01.wav",
+   "duration": 4.52,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, réglage par défaut. Attends : combien il gagne par an ?",
+   "file": "s02.wav",
+   "duration": 4.92,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, l'écart en francs. Et un piège.",
+   "file": "s03.wav",
+   "duration": 3.64,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Sony publie ses mesures, modèle cé-èf-i deux mille seize.",
+   "file": "s04.wav",
+   "duration": 5.68,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout : par défaut, zéro virgule trente et un watt.",
+   "file": "s05.wav",
+   "duration": 4.28,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Tout activé : trois virgule huit watts.",
+   "file": "s06.wav",
+   "duration": 3.04,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Environ douze fois plus que ton collègue.",
+   "file": "s07.wav",
+   "duration": 3.84,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Le piège : une option activée, et elle ne descend plus sous zéro virgule cinq watt.",
+   "file": "s08.wav",
+   "duration": 5.16,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Surprise : une heure de jeu vaut environ cinquante-sept heures de repos tout activé.",
+   "file": "s09.wav",
+   "duration": 5.4,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Conseil : Paramètres, Système, Gestion de l'alimentation, Fonctionnalités disponibles en mode repos.",
+   "file": "s10.wav",
+   "duration": 7.84,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Désactive le superflu.",
+   "file": "s11.wav",
+   "duration": 3.6,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Ta console dort avec quelles options ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 4.64,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Exemple : vingt heures de repos par jour, vingt-sept virgule sept centimes le kilowattheure.",
+   "file": "s13.wav",
+   "duration": 6.92,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Tout activé : sept francs soixante-huit par an. Par défaut : soixante-trois centimes.",
+   "file": "s14.wav",
+   "duration": 6.32,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "L'écart : environ sept francs par an.",
+   "file": "s15.wav",
+   "duration": 3.08,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Et abonne-toi : demain, un nouveau chiffre vérifié.",
+   "file": "s16.wav",
+   "duration": 4.68,
+   "rate": 24000
+  }
+ ],
+ "total": 77.56
+}
