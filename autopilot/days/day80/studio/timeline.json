@@ -1,0 +1,110 @@
+{
+ "duration": 68.9,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta trottinette fait quarante kilomètres avec une charge ?",
+   "start": 0.12,
+   "end": 4.11,
+   "display": "40 km | avec une charge ?"
+  },
+  {
+   "id": "s02",
+   "text": "Oui. Mais dans les conditions du test.",
+   "start": 4.21,
+   "end": 6.037,
+   "display": "Oui. | Mais dans les conditions du test."
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, tu sauras lire la petite ligne sous ce chiffre.",
+   "start": 6.137,
+   "end": 9.016,
+   "display": "À la fin : la petite ligne | sous ce chiffre."
+  },
+  {
+   "id": "s04",
+   "text": "Exemple : la Naïnbotte F deux D de Ségouè. Jusqu'à quarante kilomètres.",
+   "start": 9.116,
+   "end": 12.918,
+   "display": "Exemple : Segway Ninebot F2 D. | Jusqu'à 40 km."
+  },
+  {
+   "id": "s05",
+   "text": "Note du fabricant : batterie pleine, soixante-quinze kilos.",
+   "start": 13.018,
+   "end": 16.732,
+   "display": "Note du fabricant : | batterie pleine, 75 kg."
+  },
+  {
+   "id": "s06",
+   "text": "Vingt-cinq degrés, quinze kilomètres-heure de moyenne, sur chaussée.",
+   "start": 16.832,
+   "end": 20.204,
+   "display": "25 °C, 15 km/h de moyenne, | sur chaussée."
+  },
+  {
+   "id": "s07",
+   "text": "À fond, vingt kilomètres-heure : jusqu'à trente-six. Toujours à vingt-cinq degrés.",
+   "start": 20.304,
+   "end": 24.868,
+   "display": "À fond, 20 km/h : jusqu'à 36 km. | Toujours à 25 °C."
+  },
+  {
+   "id": "s08",
+   "text": "Toi, en novembre, tu roules à vingt-cinq degrés ?",
+   "start": 24.968,
+   "end": 28.255,
+   "display": "Toi, en novembre, | tu roules à 25 °C ?"
+  },
+  {
+   "id": "s09",
+   "text": "Ségouè l'écrit : le froid peut réduire l'autonomie. C'est normal.",
+   "start": 28.355,
+   "end": 41.903,
+   "display": "Segway l'écrit : le froid | peut réduire l'autonomie. C'est normal."
+  },
+  {
+   "id": "s10",
+   "text": "Dans un manuel Ségouè : à moins vingt degrés, l'autonomie peut tomber à moitié.",
+   "start": 42.003,
+   "end": 46.079,
+   "display": "Manuel Segway : à −20 °C, | l'autonomie peut tomber à moitié."
+  },
+  {
+   "id": "s11",
+   "text": "Et la pente maximale, dix-huit pour cent : avec soixante-quinze kilos.",
+   "start": 46.179,
+   "end": 50.066,
+   "display": "Et la pente max., 18 % : | avec 75 kg."
+  },
+  {
+   "id": "s12",
+   "text": "Avant d'acheter, lis la note sous l'autonomie : poids, vitesse, température.",
+   "start": 50.166,
+   "end": 55.038,
+   "display": "Avant d'acheter, lis la note : | poids, vitesse, température."
+  },
+  {
+   "id": "s13",
+   "text": "Bonus : stockée sous zéro ? Ségouè dit de la mettre au-dessus de cinq degrés avant de charger.",
+   "start": 55.138,
+   "end": 60.274,
+   "display": "Bonus : stockée sous 0 °C ? | Segway : au-dessus de 5 °C | avant de charger."
+  },
+  {
+   "id": "s14",
+   "text": "Ta trottinette fait combien de kilomètres en hiver ? Écris-le en commentaire.",
+   "start": 60.374,
+   "end": 64.523,
+   "display": "Ta trottinette, combien de km | en hiver ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Et abonne-toi : ce soir, faut-il vraiment préchauffer le four ?",
+   "start": 64.623,
+   "end": 68.6,
+   "display": "Abonne-toi : ce soir, | faut-il vraiment | préchauffer le four ?"
+  }
+ ]
+}
