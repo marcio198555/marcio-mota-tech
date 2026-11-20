@@ -2132,8 +2132,20 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Chargeur sans fil « 15 W » : ton téléphone en prend peut-être moins",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "programmée",
+   "ajoute_le": "2026-11-20",
+   "titre": "Sèche-cheveux 2 000 W : combien de francs par an ?",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795176015/tiktok-autopilot/day86_seche-cheveux-2000w.mp4",
+   "buffer_id": "6b003663c1f33e2aa5bf08a3",
+   "story_instagram": {
+    "buffer_id": null,
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795176018/tiktok-autopilot/stories/day86_story.mp4"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795176020/tiktok-autopilot/reels/day86_reel.mp4",
+    "prevu": "2026-11-22T19:00"
+   }
   },
   {
    "jour": 79,
