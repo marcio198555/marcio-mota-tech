@@ -159,11 +159,11 @@
       });
       // ---- retour au duel avant la fin
       block(ctx, t, f('s14', 0.62), S('s15'), () => {
-        head(ctx, 'PRÉCHAUFFER : ≈ 6 CHF/AN', 360, t, undefined, { size: 54, color: HOT, bg: 'rgba(255,138,61,0.18)' });
+        head(ctx, 'ÉCART : ≈ 6 CHF/AN', 360, t, undefined, { size: 54, color: HOT, bg: 'rgba(255,138,61,0.18)' });
         duel(ctx, t);
-        oven(ctx, 275, 720, 0.7, t, { heat: 1 }); oven(ctx, 725, 720, 0.7, t, { heat: 0 });
+        oven(ctx, 275, 720, 0.7, t, { heat: 1 }); oven(ctx, 725, 720, 0.7, t, { heat: 0.6 });
         text(ctx, '+ 6 CHF', 275, 960, { size: 92, family: F.mono, weight: 900, color: RED });
-        text(ctx, '0', 725, 960, { size: 92, family: F.mono, weight: 900, color: GREEN });
+        text(ctx, '−20 %', 725, 960, { size: 92, family: F.mono, weight: 900, color: GREEN });
         tag(ctx, 'EXEMPLE · PAR AN', 500, 1090, t, undefined, { size: 38 });
       });
       block(ctx, t, S('s15'), END + 1, () => followCTA(ctx, t, S('s15'), { when: 'DEMAIN', next: ['ta clé « USB 3.2 »…', 'peut-être 5 Gbit/s ?'] }));
