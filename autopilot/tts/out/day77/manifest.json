@@ -1,0 +1,106 @@
+{
+ "job": "day77",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton purificateur est fait pour cinquante mètres carrés ? Pour combien de renouvellements d'air ?",
+   "file": "s01.wav",
+   "duration": 5.56,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Non : cinquante, ce n'est pas fixe. À la fin, tu sauras calculer ta vraie surface.",
+   "file": "s02.wav",
+   "duration": 5.28,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Exemple : le Core trois cents S de Lé-voït annonce cinquante mètres carrés.",
+   "file": "s03.wav",
+   "duration": 6.44,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Son débit d'air propre, le cé-a-dé-èr : deux cent quarante mètres cubes par heure.",
+   "file": "s04.wav",
+   "duration": 5.72,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Petite ligne de la notice : calculé pour deux renouvellements par heure.",
+   "file": "s05.wav",
+   "duration": 5.2,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Avec un plafond de deux mètres quarante.",
+   "file": "s06.wav",
+   "duration": 3.28,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Deux cent quarante, divisé par deux virgule quatre, divisé par deux : cinquante.",
+   "file": "s07.wav",
+   "duration": 6.24,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Mais l'a-ache-a-èm, l'association américaine des fabricants d'électroménager, vise quatre virgule huit.",
+   "file": "s08.wav",
+   "duration": 7.48,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Même appareil, même calcul : environ vingt et un mètres carrés.",
+   "file": "s09.wav",
+   "duration": 4.84,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Deuxième surprise : l'a-ache-a-èm ne recommande pas de descendre sous deux virgule deux renouvellements.",
+   "file": "s10.wav",
+   "duration": 7.12,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Les cinquante mètres carrés sont donc calculés en dessous.",
+   "file": "s11.wav",
+   "duration": 4.64,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Avant d'acheter, cherche le cé-a-dé-èr en mètres cubes par heure, pas les mètres carrés.",
+   "file": "s12.wav",
+   "duration": 5.8,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Ta pièce fait combien de mètres carrés ? Écris-le en commentaire.",
+   "file": "s13.wav",
+   "duration": 4.44,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : ce soir, l'écran « une milliseconde » qui ne répond pas en une milliseconde.",
+   "file": "s14.wav",
+   "duration": 6.96,
+   "rate": 24000
+  }
+ ],
+ "total": 79.0
+}
