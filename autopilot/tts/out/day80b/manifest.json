@@ -1,0 +1,15 @@
+{
+ "job": "day80b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s09",
+   "text": "Ségouè l'écrit : le froid peut réduire l'autonomie. C'est normal.",
+   "file": "s09.wav",
+   "duration": 4.12,
+   "rate": 24000
+  }
+ ],
+ "total": 4.12
+}
