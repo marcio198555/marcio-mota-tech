@@ -1,0 +1,106 @@
+{
+ "job": "day86",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ton sèche-cheveux deux mille watts tourne cinq minutes par jour.",
+   "file": "s01.wav",
+   "duration": 4.08,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, quinze minutes. Combien de plus par an ?",
+   "file": "s02.wav",
+   "duration": 4.72,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Attends. À la fin, l'écart en francs.",
+   "file": "s03.wav",
+   "duration": 3.96,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Exemple : chez Bébilisse, le Power Pro deux mille affiche deux mille watts, soit deux kilowatts.",
+   "file": "s04.wav",
+   "duration": 7.52,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout : il faut le prix du courant.",
+   "file": "s05.wav",
+   "duration": 3.48,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Médiane ElCom deux mille vingt-six : vingt-sept virgule sept centimes le kilowattheure, hors TVA.",
+   "file": "s06.wav",
+   "duration": 7.44,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Exemple, toi : cinq minutes par jour, à fond, toute l'année : environ dix-sept francs.",
+   "file": "s07.wav",
+   "duration": 6.56,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Ton collègue, trois fois plus longtemps : environ cinquante et un francs.",
+   "file": "s08.wav",
+   "duration": 5.2,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : deux mille, ce n'est pas toujours des watts consommés.",
+   "file": "s09.wav",
+   "duration": 5.32,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Une notice Bébilisse annonce deux mille « draïe-watts »… pour mille quatre cents watts réels.",
+   "file": "s10.wav",
+   "duration": 6.12,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Conseil : sur la boîte, cherche la puissance en watts, pas en draïe-watts.",
+   "file": "s11.wav",
+   "duration": 5.08,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Toi, tu sèches combien de minutes ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 4.56,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Promesse tenue : l'écart, environ trente-quatre francs par an.",
+   "file": "s13.wav",
+   "duration": 4.32,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : demain, ton chargeur sans fil « quinze watts »… ton téléphone en prend peut-être moins.",
+   "file": "s14.wav",
+   "duration": 6.0,
+   "rate": 24000
+  }
+ ],
+ "total": 74.36
+}
