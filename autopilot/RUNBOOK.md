@@ -83,6 +83,10 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 > 7. **Tant que la médiane des Reels neufs reste sous 500 vues**, ne rien changer d'autre : la cause de la chute du
 >    16.11 n'est pas connue (elle a commencé le 16.11 au matin, avant les reprises et avant les clips). Seul Marcio
 >    peut lire « Statut du compte » dans l'appli.
+> 8. **Tenir le spectateur jusqu'à la fin** (ajouté le 20.11, à tester sur la part regardée) : s02 annonce ce qui
+>    arrive à la dernière scène (« à la fin, l'écart en francs ») ; le chiffre final n'apparaît jamais avant ; une
+>    relance vers 4 s, 9 s et 15 s ; à l'image 0, le plus gros élément bouge déjà (un chiffre qui monte) et se lit
+>    sans le son. Toute promesse faite est tenue à la fin.
 
 > **Changements du 11.11.2026 (Instagram seulement) : à appliquer en plus du bloc du 05.11.** Décidés après un audit du
 > compte Instagram et le feu vert de Marcio du 11.11 (« fais comme tu veux, je te donne le feu vert pour tout », « il ne
