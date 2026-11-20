@@ -2282,8 +2282,20 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "SSD « jusqu'à 7 000 Mo/s » : seulement au début",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "prête",
+   "ajoute_le": "2026-11-20",
+   "titre": "Frigo classé B : la nouvelle étiquette énergie",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795158553/tiktok-autopilot/day82_frigo-classe-b.mp4",
+   "buffer_id": null,
+   "story_instagram": {
+    "buffer_id": null,
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795158555/tiktok-autopilot/stories/day82_story.mp4"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795158556/tiktok-autopilot/reels/day82_reel.mp4",
+    "prevu": "2026-11-26T11:00"
+   }
   },
   {
    "jour": 92,
