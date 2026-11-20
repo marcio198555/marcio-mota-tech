@@ -1,0 +1,15 @@
+{
+ "job": "day85c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s10",
+   "text": "Avec un léger scintillement possible, et sans Fri-Sinque.",
+   "file": "s10.wav",
+   "duration": 4.76,
+   "rate": 24000
+  }
+ ],
+ "total": 4.76
+}
