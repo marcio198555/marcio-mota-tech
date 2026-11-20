@@ -1,0 +1,113 @@
+{
+ "job": "day87",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ta montre affiche quatorze jours d'autonomie. Tu cours avec le jé-pé-èss.",
+   "file": "s01.wav",
+   "duration": 4.76,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, même montre, sans jé-pé-èss. Qui recharge en premier ?",
+   "file": "s02.wav",
+   "duration": 4.96,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Attends. À la fin, ses heures de jé-pé-èss, selon la fiche.",
+   "file": "s03.wav",
+   "duration": 4.28,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Exemple : l'Amazfite Bip six, quatorze jours en usage typique.",
+   "file": "s04.wav",
+   "duration": 5.76,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout : typique, ça veut dire quoi ?",
+   "file": "s05.wav",
+   "duration": 3.88,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Selon Amazfite : cadran fixe, écran allumé cinq minutes par jour.",
+   "file": "s06.wav",
+   "duration": 5.24,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Et le jé-pé-èss : trois fois trente minutes par semaine.",
+   "file": "s07.wav",
+   "duration": 3.36,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "En usage intensif : jusqu'à six jours, selon la même fiche.",
+   "file": "s08.wav",
+   "duration": 5.28,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : chez Houawei, la Watch GT cinq quarante-six millimètres.",
+   "file": "s09.wav",
+   "duration": 5.96,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Quatorze jours en usage optimal. Écran toujours allumé : jusqu'à cinq jours.",
+   "file": "s10.wav",
+   "duration": 6.2,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Et la quarante et un millimètres : jusqu'à sept jours, au mieux.",
+   "file": "s11.wav",
+   "duration": 4.4,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Conseil : lis toujours la note sous l'autonomie.",
+   "file": "s12.wav",
+   "duration": 3.16,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Ta montre, tu la recharges tous les combien ? Écris-le en commentaire.",
+   "file": "s13.wav",
+   "duration": 4.48,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Promesse tenue : jé-pé-èss en continu, jusqu'à trente-deux heures. Moins d'un jour et demi.",
+   "file": "s14.wav",
+   "duration": 6.04,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Et abonne-toi : demain, la trottinette « quarante kilomètres »… dans les conditions du test.",
+   "file": "s15.wav",
+   "duration": 5.56,
+   "rate": 24000
+  }
+ ],
+ "total": 73.32
+}
