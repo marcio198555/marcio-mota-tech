@@ -1,0 +1,117 @@
+{
+ "duration": 68.859,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Spo-ti-faï Premium. Toi, en Suisse : quinze francs nonante-cinq par mois.",
+   "start": 0.12,
+   "end": 4.464,
+   "display": "Spotify Premium. | Toi, en Suisse : | 15.95 CHF par mois."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, en France, même abonnement. Qui paie le plus sur un an ?",
+   "start": 4.564,
+   "end": 9.046,
+   "display": "Ton collègue, en France, | même abonnement. | Qui paie le plus sur un an ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, l'écart en francs sur douze mois.",
+   "start": 9.146,
+   "end": 11.693,
+   "display": "À la fin : l'écart en francs | sur 12 mois."
+  },
+  {
+   "id": "s04",
+   "text": "Attends. Prix relevés le vingt novembre, sur les deux sites officiels.",
+   "start": 11.793,
+   "end": 16.449,
+   "display": "Attends. Prix relevés le 20.11.2026, | sur les deux sites officiels."
+  },
+  {
+   "id": "s05",
+   "text": "France : douze euros quatorze par mois.",
+   "start": 16.549,
+   "end": 19.303,
+   "display": "France : 12,14 € par mois."
+  },
+  {
+   "id": "s06",
+   "text": "Au cours de la Banque nationale : onze francs vingt-cinq.",
+   "start": 19.403,
+   "end": 22.609,
+   "display": "Au cours de la BNS : | 11,25 CHF."
+  },
+  {
+   "id": "s07",
+   "text": "Et ce n'est pas tout : toi, tu paies plus chaque mois.",
+   "start": 22.709,
+   "end": 28.949,
+   "display": "Et ce n'est pas tout : | toi, tu paies plus chaque mois."
+  },
+  {
+   "id": "s08",
+   "text": "Même offre des deux côtés : trois mois à zéro, pour un premier essai.",
+   "start": 29.049,
+   "end": 33.779,
+   "display": "Même offre des deux côtés : | 3 mois à 0, | pour un premier essai."
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : en Famille, jusqu'à six comptes à la même adresse.",
+   "start": 33.879,
+   "end": 38.368,
+   "display": "2e surprise : en Famille, | jusqu'à 6 comptes | à la même adresse."
+  },
+  {
+   "id": "s10",
+   "text": "Suisse : vingt-six francs nonante-cinq. France : vingt et un euros vingt-quatre.",
+   "start": 38.468,
+   "end": 44.476,
+   "display": "Suisse : 26.95 CHF. | France : 21,24 €."
+  },
+  {
+   "id": "s11",
+   "text": "Là, l'écart dépasse sept francs par mois.",
+   "start": 44.576,
+   "end": 46.783,
+   "display": "Là, l'écart dépasse | 7 francs par mois."
+  },
+  {
+   "id": "s12",
+   "text": "Conseil : à six, le Famille suisse fait moins de quatre francs cinquante par compte et par mois.",
+   "start": 46.883,
+   "end": 52.345,
+   "display": "Conseil : à 6, le Famille suisse | fait moins de 4,50 CHF | par compte et par mois."
+  },
+  {
+   "id": "s13",
+   "text": "Toi, tu paies combien par mois ? Écris-le en commentaire.",
+   "start": 52.445,
+   "end": 55.889,
+   "display": "Toi, tu paies combien par mois ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Promis : sur un an, toi, cent nonante et un francs. Ton collègue, environ cent trente-cinq.",
+   "start": 55.989,
+   "end": 61.255,
+   "display": "Promis : sur un an, toi, 191.40 CHF. | Ton collègue, environ 135."
+  },
+  {
+   "id": "s15",
+   "text": "L'écart : cinquante-six francs par an.",
+   "start": 61.355,
+   "end": 64.182,
+   "display": "L'écart : 56 francs par an."
+  },
+  {
+   "id": "s16",
+   "text": "Et abonne-toi : demain, ton frigo classé B… vraiment moyen ?",
+   "start": 64.282,
+   "end": 68.559,
+   "display": "Abonne-toi : demain, | ton frigo classé B… | vraiment moyen ?"
+  }
+ ]
+}
