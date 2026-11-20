@@ -559,3 +559,62 @@ Décision (autonomie) :
 4. Plan S4 : semaine du Black Friday, sujets « chiffre de la boîte » de produits qu'on achète (enceinte, purificateur, chargeur sans fil, trottinette, clé USB, frigo, lampe torche, écran, montre, SSD), 3 « quotidien en francs » (guirlande, sèche-cheveux, four, console) et 2 « Suisse contre France » (AirPods Pro 3, Spotify).
 5. Aucune partie 2 (aucune vidéo ≥ 600 TikTok ni ≥ 2 000 Instagram).
 Production du 20.11 (10 h, jours 76 à 83) : faits, scripts, scènes et carrousels préparés par 4 agents en parallèle (2 vidéos chacun, 7 à 14 min) ; voix des 8 vidéos poussées dans un seul commit (b506213). Carrousels 76 et 77 contrôlés par un agent neuf : 5 points MAJEURS corrigés (texte jusqu'à x = 999 dans la zone droite → largeur 800 px ; « Seuls les watts RMS se comparent » plus fort que la source → « Compare les watts RMS, pas les watts crête » ; « 180 W » sans « sur secteur » ; notes en 34 px → 36 px). Firecrawl à court de crédits vers 6 h : les agents sont passés à Parallel et WebFetch.
+
+
+## 20.11.2026 — Chute des Reels d'essai depuis le 16.11 : constat, recherche, nouvelle recette
+Source : vidIQ `vidiq_instagram_owner_insights`, relevé le 20.11 vers 7 h 45 ; recherche web et analyse de nos chiffres par deux agents.
+- Reels neufs : 15.11 TV 65 pouces 1 319, ampoule 332 ; **16.11 : 200 Mpx 118, Netflix 0** ; 17.11 couvercle 161 ; 18.11 Wi-Fi 631, montre 265 ; 19.11 robot 148, batterie 10 000 mAh 147.
+- Reprises d'anciens Reels (demandées par Marcio, 5 par jour depuis le 17.11) : 100 à 290 vues, 37 à 89 % de passages.
+- **La chute commence le 16.11 au matin, avant la première reprise (16.11, 22 h 35) et avant les clips du 18.11** : les reprises n'en sont pas la cause première. Cause inconnue.
+- Abonnés gagnés par jour : 4 à 11 du 05.11 au 15.11 ; 38 (16.11), 61 (17.11), 11 (18.11), 0 (19.11). Les deux bons jours suivent des Reels normaux de produits publiés sur la grille par Marcio. Compte : 34 577.
+- Recherche (sources officielles) : contenu d'autrui 10 fois en 30 jours = compte sorti des recommandations (creators.instagram.com/recommendations-and-originality) ; un Reel d'essai dont le contenu a déjà été partagé peut avoir une portée limitée ; aucune règle trouvée sur le nombre de Reels d'essai par jour.
+Décision : bloc « Changements du 20.11.2026 » de RUNBOOK.md.
+
+### Recette et sujets (analyse des 22 Reels d'essai du 05.11 au 15.11)
+## 3. La recette
+
+### Six règles
+
+1. **Format V uniquement, 59 à 65 s.** Preuve : V 1 404 vues de médiane (n = 14, 12/14 à 1 000 ou plus) contre A 782 (n = 5, 2/5). Les 7 Reels du haut sont tous en V et durent 59 à 69 s.
+2. **Ouvrir par le duel complet en s01–s03 : « Toi… Ton collègue… » puis une question « qui » ou « combien ».** Preuve : 7/7 du tiers du haut ; médiane 1 330 (n = 16). Limite : le duel ne compense pas un mauvais sujet (4 des 7 derniers sont des duels).
+3. **Rester dans quatre familles : linge et gros appareils en francs, téléphone/batterie, Suisse contre France sur un produit connu, télé.** Preuve en format V : téléphone 4/4 à 1 000 ou plus (médiane 1 457), Suisse/France 3/3 (1 452), TV 2/2 (1 403), électricité 2/3 (1 773). n de 2 à 4 par famille : on ne sait pas laquelle est la meilleure, on les fait tourner.
+4. **Un nombre ou un produit nommé dans la toute première phrase** (« Même iPhone 17 », « Ton téléphone charge à 45 W ? », « Toi, à 21 °C »). Preuve : 6/6 à 1 000 vues ou plus, 30,5 % de passages contre 40,1 % sans nombre (n = 6 contre 12). Piste, pas loi.
+5. **Juger chaque Reel à 24 h sur la part de passages : objectif 37 % ou moins ; à 44 % ou plus, le sujet n'a pas de suite.** Preuve : 9/10 à 1 000 vues ou plus sous 37 % ; 5/6 sous 720 vues à 44 % ou plus ; corrélation −0,75 (n = 21).
+6. **Une suite, et une seule, pour tout Reel à 2 000 vues ou plus.** Preuve : les 3 suites (linge → déshumidificateur 1 773 ; nuit → charge rapide 1 559 ; iPhone → Switch 2 1 452) dépassent toutes la médiane générale de 1 300, mais chacune perd 30 à 36 % sur l'original.
+
+### Trois choses à ne plus faire
+
+1. **Plus de sujet d'eau.** 231 et 208 vues, soit 5,4 et 6,0 fois moins que le Reel publié à la même minute ; 11 et 14 % regardés contre 29 % de médiane.
+2. **Plus de format A (objet qui parle), ni de vidéos courtes de l'ancienne recette.** A : médiane 782, perdant dans 4 paires sur 4. Ancienne recette de 11 à 32 s : 714, 765 et 1 310 vues, aucun envoi.
+3. **Plus de 2 Reels d'essai par jour.** Du 05.11 au 15.11, à 2 ou 3 par jour, la médiane est de 1 300. À 7 à 9 par jour depuis le 16.11, tout tombe vers 130 vues (200 mégapixels : 118).
+
+À surveiller sans l'interdire : « un petit appareil laissé allumé la nuit ». Box (352) et ampoule LED (332, format A) sont deux des trois pires de la recette. n = 2, dont un en format A.
+
+## 4. Quatorze sujets neufs
+
+Aucun n'est dans `plan.json` (ni publié, ni en idée). Tous en format V, duel, environ 60 s. Les accroches ne contiennent aucun chiffre à vérifier : les chiffres viennent des sources citées et se mettent à partir de s03. Chaque prix se relève le jour de la production, et chaque comparaison Suisse/France précise la TVA.
+
+| N° | Famille | Sujet | Accroche s01 | Où trouver le chiffre |
+|---|---|---|---|---|
+| 1 | Suisse contre France | PlayStation 5 : où est-elle la moins chère ? | Même PlayStation 5. Toi, tu l'achètes en Suisse.<br>Ton collègue, en France. Qui paie le moins ? | Boutique officielle PlayStation (pages Suisse et France) ; taux de TVA : Administration fédérale des contributions (AFC) et impots.gouv.fr |
+| 2 | Suisse contre France | Capsules Nespresso : le café du matin | Même capsule Nespresso. Toi, commandée en Suisse.<br>Ton collègue, en France. Qui paie son café le plus cher ? | Site officiel Nespresso (boutiques Suisse et France) |
+| 3 | Suisse contre France | Étagère BILLY d'IKEA | Même étagère BILLY. Toi, IKEA Suisse.<br>Ton collègue, IKEA France. Qui paie le moins ? | Sites officiels IKEA Suisse et IKEA France |
+| 4 | Suisse contre France | Thermomix | Même Thermomix. Toi, acheté en Suisse.<br>Ton collègue, en France. Combien d'écart ? | Sites officiels Vorwerk Suisse et Vorwerk France |
+| 5 | Suisse contre France | Spotify Premium sur un an | Même Spotify Premium. Toi, compte suisse.<br>Ton collègue, compte français. Qui paie le plus sur un an ? | Site officiel Spotify (pages tarifs Suisse et France) |
+| 6 | Téléphone/batterie | Chargeur laissé dans la prise, sans téléphone | Toi, ton chargeur reste dans la prise toute la journée.<br>Ton collègue le débranche. Combien il gagne par an ? | Règlement européen d'écoconception des alimentations externes (EUR-Lex, consommation à vide) ; tarif médian ElCom |
+| 7 | Téléphone/batterie | Changer la batterie ou changer de téléphone | Ton téléphone ne tient plus la journée. Toi, tu en rachètes un.<br>Ton collègue change la batterie. Combien il garde en poche ? | Page officielle de réparation du fabricant (tarif du remplacement de batterie en Suisse) ; prix du neuf sur la boutique suisse du même fabricant |
+| 8 | Téléphone/batterie | Téléphone au froid sur les pistes | Au ski, toi, ton téléphone est dans la poche extérieure.<br>Ton collègue le garde contre lui. Lequel s'éteint en premier ? | Assistance officielle Apple et assistance officielle Samsung (plages de température d'utilisation) |
+| 9 | Téléphone/batterie | Un an de recharges, en francs | Toi, tu recharges ton téléphone chaque nuit.<br>Ton collègue jure que ça pèse sur la facture. Combien par an, en vrai ? | Fiche technique du fabricant (capacité de la batterie en Wh) ; tarif médian ElCom |
+| 10 | Électricité appareil | Console en mode repos ou éteinte | Toi, ta PlayStation 5 reste en mode repos.<br>Ton collègue l'éteint vraiment. Combien il gagne par an ? | Page officielle PlayStation sur la consommation électrique de la console ; tarif médian ElCom |
+| 11 | Électricité appareil (linge) | Sèche-linge ancien ou à pompe à chaleur | Toi, un vieux sèche-linge à condensation.<br>Ton collègue, un modèle à pompe à chaleur. Combien d'écart par an ? | Base européenne EPREL (kWh par cycle sur l'étiquette énergie) ; Topten.ch ; SuisseEnergie ; tarif médian ElCom |
+| 12 | Électricité appareil | Radiateur d'appoint au bureau | Toi, un petit radiateur d'appoint sous le bureau.<br>Ton collègue, un pull. Combien ça te coûte par mois ? | Plaque signalétique ou notice du fabricant (puissance en watts) ; tarif médian ElCom ; SuisseEnergie |
+| 13 | Électricité appareil | Guirlande de Noël : LED ou ancienne | Toi, la vieille guirlande à ampoules.<br>Ton collègue, une guirlande LED. Qui paie le plus en décembre ? | Puissance indiquée sur l'emballage ou la notice du fabricant ; SuisseEnergie ; tarif médian ElCom |
+| 14 | TV/écran | Télé allumée en fond sonore | Toi, ta télé tourne en fond toute la soirée.<br>Ton collègue l'allume pour un seul film. Combien d'écart par an ? | Base européenne EPREL (kWh pour 1 000 h sur l'étiquette énergie) ; tarif médian ElCom |
+
+Notes de production :
+- **Ordre conseillé** : alterner les quatre familles, 2 Reels par jour au plus, deux familles différentes le même jour.
+- **Marques** : `learnings.md` (13.11) demande d'éviter comme exemples les marques dont des produits ont été reçus (Apple, Samsung, Dyson, iRobot, Dreame, Philips, Kärcher). Les sujets 1 à 5 et 10 n'en utilisent pas. Pour le sujet 7, prendre un fabricant hors de cette liste. Le sujet 8 cite Apple et Samsung comme sources d'assistance seulement.
+- **Sujet 13** : de saison, à publier avant mi-décembre. Il ressemble à l'ampoule LED (332 vues en format A) : le faire en V, et le retirer de la série si la part de passages atteint 44 %.
+- **Sujet 11** : le Reel du jour 37 citait déjà un sèche-linge à pompe à chaleur dans sa légende. La comparaison est nouvelle, le produit non.
+- **Deux tests à glisser dans ces 14**, un seul à la fois : un prix en francs dans s01 (jamais essayé) ; fin « abonne-toi » contre fin « envoie-la » sur deux sujets de la même famille publiés à la même minute.
+

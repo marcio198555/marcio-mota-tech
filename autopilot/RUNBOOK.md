@@ -66,6 +66,24 @@ on mesure, on note la semaine (VERT / ORANGE / ROUGE) et on applique les règles
 >    s'il fait baisser la médiane Instagram de plus de 20 %.
 > 6. **13.11** : Cloudinary et Buffer en panne de 14 h 30 à 16 h 40 ; tout rattrapé le soir même (jours 34, 61, 72 dans Buffer ; 28, 29, 75 sur Cloudinary, `post.json` « prête », pour la tâche de 7 h 13).
 
+> **Changements du 20.11.2026 (Instagram seulement) : ils priment sur les blocs du 11.11 et du 05.11 en cas de désaccord.**
+> Décidés après la chute des Reels d'essai (médiane ~1 300 vues du 05.11 au 15.11, ~130 depuis le 16.11) et deux
+> analyses (voir `learnings.md` au 20.11).
+> 1. **Deux Reels d'essai neufs par jour, jamais plus**, toutes tâches confondues. Aucune tâche de l'autopilote ne
+>    publie un 3e Reel d'essai le même jour, ni reprise, ni clip, ni annonce.
+> 2. **Zéro contenu d'un autre créateur sur Instagram** (clips, extraits). Règle officielle d'Instagram : 10
+>    publications de contenu d'autrui en 30 jours sortent le compte de toutes les recommandations, pour 30 jours.
+> 3. **Format V seulement** (voix et écran animé, 59 à 65 s). Plus de format A (objet qui parle) ni de vidéo courte.
+> 4. **Accroche** : duel complet « Toi… Ton collègue… » sur s01 à s03, avec **un nombre ou un produit nommé dès s01**.
+> 5. **Sujets** : rotation entre quatre familles (Suisse contre France, téléphone/batterie, électricité d'un
+>    appareil, télé/écran). **Plus aucun sujet d'eau** (le test du point 7 du bloc du 11.11 est clos). Les 14 sujets
+>    proposés dans `learnings.md` au 20.11 passent en premier.
+> 6. **Jugement à 24 h sur la part de passages** : 37 % ou moins = bonne accroche ; 44 % ou plus = accroche à ne pas
+>    refaire. Une seule suite pour un Reel qui dépasse 2 000 vues.
+> 7. **Tant que la médiane des Reels neufs reste sous 500 vues**, ne rien changer d'autre : la cause de la chute du
+>    16.11 n'est pas connue (elle a commencé le 16.11 au matin, avant les reprises et avant les clips). Seul Marcio
+>    peut lire « Statut du compte » dans l'appli.
+
 > **Changements du 11.11.2026 (Instagram seulement) : à appliquer en plus du bloc du 05.11.** Décidés après un audit du
 > compte Instagram et le feu vert de Marcio du 11.11 (« fais comme tu veux, je te donne le feu vert pour tout », « il ne
 > faut pas me demander des choses »). Le détail de l'audit est privé et n'est pas recopié ici.
