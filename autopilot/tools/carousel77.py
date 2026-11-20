@@ -15,7 +15,7 @@ def wrap(d,txt,font,maxw):
         if d.textlength(t,font=font)<=maxw: cur=t
         else: lines.append(cur); cur=w
     lines.append(cur); return lines
-def block(d,y,txt,font,fill,maxw=880,gap=12):
+def block(d,y,txt,font,fill,maxw=800,gap=12):
     for ln in wrap(d,txt,font,maxw):
         w=d.textlength(ln,font=font); d.text(((W-w)/2,y),ln,font=font,fill=fill); y+=font.size+gap
     return y
@@ -40,8 +40,8 @@ def save(im,i): im.save(f'{out}/slide{i}.jpg',quality=92)
 # 1 : objet + question
 im=bg(); d=ImageDraw.Draw(im); head(d,1)
 purifier(d,W//2,560,1.0)
-y=block(d,840,'Ton purificateur « 50 m² » :',f('InterDisplay-Bold.otf',66),WH)
-y=block(d,y+20,'AVEC COMBIEN DE RENOUVELLEMENTS D\'AIR ?',f('InterDisplay-Black.otf',92),ACC,gap=6)
+y=block(d,840,'Ton purificateur « 50 m² »',f('InterDisplay-Bold.otf',66),WH)
+y=block(d,y+20,'COMBIEN DE RENOUVELLEMENTS D\'AIR ?',f('InterDisplay-Black.otf',78),ACC,gap=6)
 block(d,y+30,'Notice Levoit · livre blanc AHAM',f('InterDisplay-Bold.otf',36),GR)
 swipe(d); save(im,1)
 
@@ -50,19 +50,19 @@ def slide(i,top,big,bigcol,sub,note):
     y=block(d,400,top,f('InterDisplay-Bold.otf',64),WH)
     y=block(d,y+50,big,f('InterDisplay-Black.otf',150),bigcol,gap=4)
     if sub: y=block(d,y+40,sub,f('InterDisplay-Black.otf',72),WH)
-    block(d,max(y+60,1150),note,f('InterDisplay-Bold.otf',36),GR,maxw=820)
+    block(d,max(y+60,1150),note,f('InterDisplay-Bold.otf',36),GR,maxw=800)
     swipe(d); save(im,i)
-slide(2,'Levoit Core 300S : débit d\'air propre (CADR)','240 m³/h',ACC,'surface de la boîte : 50 m²','Notice utilisateur Levoit Core 300S.')
+slide(2,'Levoit Core 300S : débit d\'air propre (CADR)','240 m³/h',ACC,'surface annoncée : 50 m²','Notice utilisateur Levoit Core 300S.')
 slide(3,'Petite ligne de la notice : la surface est calculée pour','2',RED,'renouvellements par heure','« Ideal Room Size is based on 2 air changes per hour », plafond de 2,4 m.')
 slide(4,'Le calcul : CADR ÷ hauteur ÷ renouvellements','50 m²',ACC,'240 ÷ 2,4 ÷ 2','Formule générale : renouvellements = débit ÷ volume de la pièce.')
-slide(5,'L\'AHAM (fabricants d\'électroménager, USA) vise 4,8 renouvellements','≈ 21 m²',GRN,'240 ÷ 2,4 ÷ 4,8','Livre blanc AHAM 2025 : « 4.8 eACH » dans la surface conseillée. Calcul refait : 20,8 m².')
-slide(6,'Surprise : l\'AHAM ne recommande pas de descendre sous','2,2',RED,'renouvellements','Livre blanc AHAM 2025. Les 50 m² de la boîte sont calculés à 2, en dessous.')
+slide(5,'L\'AHAM (fabricants d\'électroménager, USA) vise 4,8 renouvellements','≈ 21 m²',GRN,'240 ÷ 2,4 ÷ 4,8','Livre blanc AHAM (janv. 2026) : « 4.8 eACH » dans la surface conseillée. Calcul refait : 20,8 m².')
+slide(6,'Surprise : l\'AHAM ne recommande pas de descendre sous','2,2',RED,'renouvellements','Livre blanc AHAM (janv. 2026). Les 50 m² annoncés sont calculés à 2, en dessous (2,2 = logement très étanche).')
 # 7 verdict
 im=bg(); d=ImageDraw.Draw(im); head(d,7); card(d,330,1380)
 y=block(d,400,'VERDICT',f('InterDisplay-Black.otf',64),ACC)
 y=block(d,y+30,'« 50 m² » à 2 renouvellements, c\'est environ 21 m² à 4,8.',f('InterDisplay-Black.otf',70),WH,gap=10)
 y=block(d,y+50,'Avant d\'acheter : regarde le CADR en m³/h, pas les m².',f('InterDisplay-Bold.otf',54),GRN)
-block(d,y+40,'Ta surface ≈ CADR ÷ hauteur du plafond ÷ 4,8. Levoit précise que l\'appareil marche dans une pièce plus grande, mais plus lentement.',f('InterDisplay-Bold.otf',34),GR,maxw=820)
+block(d,y+40,'Ta surface ≈ CADR (m³/h) ÷ plafond (m) ÷ 4,8. Levoit : marche aussi plus grand, mais plus lentement.',f('InterDisplay-Bold.otf',36),GR,maxw=800)
 swipe(d); save(im,7)
 # 8 commentaires
 im=bg(); d=ImageDraw.Draw(im); head(d,8)

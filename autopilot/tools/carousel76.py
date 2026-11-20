@@ -15,7 +15,7 @@ def wrap(d,txt,font,maxw):
         if d.textlength(t,font=font)<=maxw: cur=t
         else: lines.append(cur); cur=w
     lines.append(cur); return lines
-def block(d,y,txt,font,fill,maxw=880,gap=12):
+def block(d,y,txt,font,fill,maxw=800,gap=12):
     for ln in wrap(d,txt,font,maxw):
         w=d.textlength(ln,font=font); d.text(((W-w)/2,y),ln,font=font,fill=fill); y+=font.size+gap
     return y
@@ -45,18 +45,18 @@ def slide(i,top,big,bigcol,sub,note):
     y=block(d,400,top,f('InterDisplay-Bold.otf',64),WH)
     y=block(d,y+50,big,f('InterDisplay-Black.otf',150),bigcol,gap=4)
     if sub: y=block(d,y+40,sub,f('InterDisplay-Black.otf',72),WH)
-    block(d,max(y+60,1150),note,f('InterDisplay-Bold.otf',36),GR,maxw=820)
+    block(d,max(y+60,1150),note,f('InterDisplay-Bold.otf',36),GR,maxw=800)
     swipe(d); save(im,i)
 slide(2,'Enceinte de sono JBL EON710 : puissance crête','1 300 W',RED,'un pic très bref','Fiche JBL (support Harman). Crête : « quelques millisecondes », selon le fabricant audio Cerwin-Vega.')
-slide(3,'La même, en puissance continue (RMS)','650 W',GRN,'pile la moitié','Fiche JBL EON710 : Power Rating Continuous 650 W, Peak 1 300 W.')
-slide(4,'Pire : un ampli annoncé «\u00a01\u00a0000\u00a0W\u00a0crête\u00a0»','≈ 250 W',RED,'RMS, peut-être','Exemple donné par le fabricant audio Cerwin-Vega (blog, 15.09.2025). Le rapport crête / RMS n\'est pas fixe.')
-slide(5,'JBL Boombox 3 : 80 + 2 × 40 + 2 × 10 W RMS','180 W',GRN,'sur batterie : 136 W','Fiche JBL : 60 + 2 × 30 + 2 × 8 W RMS en mode batterie. Même enceinte, moins de watts.')
+slide(3,'La même, en puissance continue','650 W',GRN,'pile la moitié','Fiche JBL EON710 : Power Rating Continuous 650 W, Peak 1 300 W.')
+slide(4,'Pire : un ampli annoncé «\u00a01\u00a0000\u00a0W\u00a0crête\u00a0»','250 W',RED,'RMS, peut-être','Exemple donné par le fabricant audio Cerwin-Vega (blog, 15.09.2025). Le rapport crête / RMS n\'est pas fixe.')
+slide(5,'JBL Boombox 3 sur secteur : 80 + 2 × 40 + 2 × 10 W RMS','180 W',GRN,'sur batterie : 136 W','Fiche JBL : 60 + 2 × 30 + 2 × 8 W RMS en mode batterie. Même enceinte, moins de watts.')
 # 6 verdict
 im=bg(); d=ImageDraw.Draw(im); head(d,6); card(d,330,1380)
 y=block(d,400,'VERDICT',f('InterDisplay-Black.otf',64),ACC)
-y=block(d,y+30,'«\u00a0100\u00a0W\u00a0» tout seul ne dit rien. Seuls les watts RMS (continus) se comparent.',f('InterDisplay-Black.otf',70),WH,gap=10)
+y=block(d,y+30,'«\u00a0100\u00a0W\u00a0» tout seul ne dit rien. Compare les watts RMS (continus), pas les watts crête.',f('InterDisplay-Black.otf',70),WH,gap=10)
 y=block(d,y+50,'Avant d\'acheter : cherche «\u00a0RMS\u00a0» ou «\u00a0continu\u00a0» sur la fiche.',f('InterDisplay-Bold.otf',54),GRN)
-block(d,y+40,'La norme IEC 60268-5 (2003, haut-parleurs passifs) distingue 4 puissances différentes.',f('InterDisplay-Bold.otf',34),GR,maxw=820)
+block(d,y+40,'La norme IEC 60268-5 (2003, haut-parleurs passifs) distingue 4 puissances différentes.',f('InterDisplay-Bold.otf',36),GR,maxw=800)
 swipe(d); save(im,6)
 # 7 commentaires
 im=bg(); d=ImageDraw.Draw(im); head(d,7)
