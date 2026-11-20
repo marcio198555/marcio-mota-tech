@@ -1,0 +1,110 @@
+{
+ "duration": 68.684,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton chargeur sans fil affiche quinze watts ? Ton téléphone n'en prend peut-être pas autant.",
+   "start": 0.12,
+   "end": 4.971,
+   "display": "Ton chargeur sans fil affiche 15 W ? | Ton téléphone n'en prend | peut-être pas autant."
+  },
+  {
+   "id": "s02",
+   "text": "Non, le chiffre de la boîte n'est pas une promesse. À la fin, tu sauras quoi vérifier.",
+   "start": 5.071,
+   "end": 11.344,
+   "display": "Non, le chiffre de la boîte | n'est pas une promesse. | À la fin, tu sauras quoi vérifier."
+  },
+  {
+   "id": "s03",
+   "text": "La norme Tchi l'explique.",
+   "start": 11.444,
+   "end": 14.481,
+   "display": "La norme Qi l'explique."
+  },
+  {
+   "id": "s04",
+   "text": "C'est le téléphone qui demande la puissance. Le chargeur envoie ce qu'il demande.",
+   "start": 14.581,
+   "end": 20.292,
+   "display": "C'est le téléphone | qui demande la puissance. | Le chargeur envoie | ce qu'il demande."
+  },
+  {
+   "id": "s05",
+   "text": "Un téléphone de cinq watts sur un chargeur de quinze ? Cinq watts maximum.",
+   "start": 20.392,
+   "end": 25.458,
+   "display": "Un téléphone de 5 W | sur un chargeur de 15 W ? | 5 W maximum."
+  },
+  {
+   "id": "s06",
+   "text": "Exemple : le Google Pixel neuf-A.",
+   "start": 25.558,
+   "end": 28.029,
+   "display": "Exemple : le Google Pixel 9a."
+  },
+  {
+   "id": "s07",
+   "text": "Selon Google, jusqu'à sept virgule cinq watts sans fil, avec un chargeur certifié.",
+   "start": 28.129,
+   "end": 33.68,
+   "display": "Selon Google, jusqu'à 7,5 W | sans fil, | avec un chargeur certifié."
+  },
+  {
+   "id": "s08",
+   "text": "La moitié des quinze watts de la boîte.",
+   "start": 33.78,
+   "end": 36.622,
+   "display": "La moitié des 15 W | de la boîte."
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : le Pixel dix-A, plus récent, monte jusqu'à dix watts.",
+   "start": 36.722,
+   "end": 42.46,
+   "display": "2e surprise : le Pixel 10a, | plus récent, | monte jusqu'à 10 W."
+  },
+  {
+   "id": "s10",
+   "text": "Toujours pas quinze.",
+   "start": 42.56,
+   "end": 44.056,
+   "display": "Toujours pas 15."
+  },
+  {
+   "id": "s11",
+   "text": "Et Google précise : la recharge réelle peut être plus lente.",
+   "start": 44.156,
+   "end": 47.914,
+   "display": "Et Google précise : | la recharge réelle | peut être plus lente."
+  },
+  {
+   "id": "s12",
+   "text": "Conseil : avant d'acheter, lis la fiche de ton téléphone, ligne recharge sans fil.",
+   "start": 48.014,
+   "end": 53.445,
+   "display": "Conseil : avant d'acheter, | lis la fiche de ton téléphone, | ligne « recharge sans fil »."
+  },
+  {
+   "id": "s13",
+   "text": "Elle dit sept virgule cinq ? C'est son maximum sans fil.",
+   "start": 53.545,
+   "end": 57.024,
+   "display": "Elle dit 7,5 W ? | C'est son maximum sans fil."
+  },
+  {
+   "id": "s14",
+   "text": "Et ton téléphone, il accepte combien de watts sans fil ? Écris-le en commentaire.",
+   "start": 57.124,
+   "end": 63.391,
+   "display": "Et ton téléphone, il accepte | combien de watts sans fil ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Et abonne-toi : ce soir, la montre connectée « quatorze jours »… sans jé-pé-èss ?",
+   "start": 63.491,
+   "end": 68.384,
+   "display": "Abonne-toi : ce soir, la montre | « 14 jours »… sans GPS ?"
+  }
+ ]
+}
