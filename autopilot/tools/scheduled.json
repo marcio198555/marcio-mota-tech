@@ -190,5 +190,69 @@
  "75": {
   "status": "prête",
   "when": "18:00"
+ },
+ "84": {
+  "status": "programmée (carrousel TikTok)",
+  "when": "18:00"
+ },
+ "85": {
+  "status": "programmée (carrousel TikTok)",
+  "when": "18:00"
+ },
+ "86": {
+  "status": "programmée",
+  "when": "18:00"
+ },
+ "87": {
+  "status": "prête",
+  "when": "18:00"
+ },
+ "88": {
+  "status": "prête",
+  "when": "18:00"
+ },
+ "89": {
+  "status": "prête",
+  "when": "18:00"
+ },
+ "92": {
+  "status": "prête",
+  "when": "18:00"
+ },
+ "93": {
+  "status": "prête",
+  "when": "18:00"
+ },
+ "76": {
+  "status": "programmée",
+  "when": "10:00"
+ },
+ "77": {
+  "status": "programmée",
+  "when": "10:00"
+ },
+ "78": {
+  "status": "programmée",
+  "when": "10:00"
+ },
+ "79": {
+  "status": "programmée",
+  "when": "10:00"
+ },
+ "80": {
+  "status": "à produire",
+  "when": "10:00"
+ },
+ "81": {
+  "status": "à produire",
+  "when": "10:00"
+ },
+ "82": {
+  "status": "prête",
+  "when": "10:00"
+ },
+ "83": {
+  "status": "à produire",
+  "when": "10:00"
  }
 }

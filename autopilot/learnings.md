@@ -618,3 +618,12 @@ Notes de production :
 - **Sujet 11** : le Reel du jour 37 citait déjà un sèche-linge à pompe à chaleur dans sa légende. La comparaison est nouvelle, le produit non.
 - **Deux tests à glisser dans ces 14**, un seul à la fois : un prix en francs dans s01 (jamais essayé) ; fin « abonne-toi » contre fin « envoie-la » sur deux sujets de la même famille publiés à la même minute.
 
+
+## 20.11.2026 (tâche de 11 h 37) — Production des 8 vidéos de 18 h (jours 84 à 89, 92, 93)
+- 4 agents en parallèle pour faits, scripts, scènes et carrousels (≈ 12–15 min) ; voix des 8 vidéos dans un seul commit (7f62aff) ; un agent de contrôle neuf par vidéo.
+- Carrousels TikTok 84 (20.11) et 85 (21.11) programmés à 18 h (test du 19.11) ; vidéo 86 programmée le 22.11 ; Buffer plein ensuite (10 TikTok, 10 Instagram) : 87, 88, 89, 92, 93 « prêtes » pour la tâche de 7 h 13.
+- Reel d'essai du jour 84 publié par cette tâche à 14 h (la tâche de 7 h 13 était passée) : 2 Reels neufs le 20.11 (76, 84), règle respectée.
+- Défauts trouvés par les contrôles et corrigés : compteurs d'image 0 qui partaient de valeurs non sourcées (87 « 2 jours », 89 « 12 CHF », 92 « 5 000 Mo/s ») → valeur sourcée fixe dès l'image 0 ; montant barré incohérent (84) ; « 0 » côté collègue (88) ; schémas sans mention « schéma » (92) ; « Selon VESA » au lieu d'« un article diffusé par VESA » (85) ; offre « 3 mois à 0 » non revérifiable côté suisse (89, phrase refaite).
+- Whisper / Chatterbox : « èl-eu-dé » entendu « LUD » (84 : remplacé par « à diodes ») ; « Fri-Sinc/Fri-Sinque » entendu « fricent / s'enfuit cinq » (remplacé par « synchronisation adaptative ») ; « Amazfite » → « Masfit », « Houawei » → « Wawa » (phrases refaites sans la marque, marque à l'écran) ; « Sanndisk » → « son disque » (« un autre fabricant ») ; « vingt et un euros vingt-quatre » → « 20,1 euros 24 » (écrire « vingt-et-un euros et vingt-quatre centimes »). « Bébilisse » donne bien « Babyliss ».
+- Après une reprise de phrase, `replace_segs.py` remonte la voix sans la correction de tempo de `finish.sh` (73 s au lieu de 69) : relancer `SRC=/home/claude/studio/dayNN/tts_merged bash tools/finish.sh NN V`.
+- #blackfriday retiré des légendes sans rapport avec un achat (86, 87, 88, 93, carrousel 84).
