@@ -1,102 +1,102 @@
 {
- "duration": 68.724,
+ "duration": 68.719,
  "segments": [
   {
    "id": "s01",
    "text": "Toi, ta vieille guirlande à ampoules reste allumée tout décembre.",
    "start": 0.12,
-   "end": 4.714,
+   "end": 4.735,
    "display": "Toi : ta vieille guirlande | allumée tout décembre."
   },
   {
    "id": "s02",
-   "text": "Ton collègue, sa guirlande èl-eu-dé, pareil. Qui paie combien ?",
-   "start": 4.814,
-   "end": 8.349,
-   "display": "Ton collègue : guirlande LED, | pareil. Qui paie combien ?"
+   "text": "Ton collègue, sa guirlande à diodes, pareil. Qui paie combien ?",
+   "start": 4.835,
+   "end": 9.071,
+   "display": "Ton collègue : guirlande à diodes (LED), | pareil. Qui paie combien ?"
   },
   {
    "id": "s03",
    "text": "Attends : à la fin, le geste qui peut diviser la facture par quatre.",
-   "start": 8.449,
-   "end": 12.948,
+   "start": 9.171,
+   "end": 13.692,
    "display": "Attends : à la fin, le geste | qui peut diviser la facture par 4."
   },
   {
    "id": "s04",
    "text": "D'abord, les watts écrits sur la fiche.",
-   "start": 13.048,
-   "end": 15.681,
+   "start": 13.792,
+   "end": 16.437,
    "display": "D'abord : les watts | écrits sur la fiche."
   },
   {
    "id": "s05",
-   "text": "Chez un fabricant, cent èl-eu-dé : trois watts.",
-   "start": 15.781,
-   "end": 18.578,
-   "display": "Fiche Konstsmide : | 100 LED = 3 W"
+   "text": "Chez un fabricant, cent diodes : trois watts.",
+   "start": 16.537,
+   "end": 19.033,
+   "display": "Fiche Konstsmide : | 100 diodes = 3 W"
   },
   {
    "id": "s06",
    "text": "Une ancienne guirlande miniature à incandescence : quarante-deux watts en moyenne, selon le département américain de l'énergie.",
-   "start": 18.678,
-   "end": 26.054,
+   "start": 19.133,
+   "end": 26.543,
    "display": "Ancienne, à incandescence : | 42 W en moyenne | (département US de l'énergie)"
   },
   {
    "id": "s07",
    "text": "Quatorze fois plus. Et ce n'est pas tout.",
-   "start": 26.154,
-   "end": 29.082,
+   "start": 26.643,
+   "end": 29.585,
    "display": "14 fois plus. | Et ce n'est pas tout."
   },
   {
    "id": "s08",
    "text": "Jour et nuit, décembre, c'est sept cent quarante-quatre heures.",
-   "start": 29.182,
-   "end": 32.949,
+   "start": 29.685,
+   "end": 33.47,
    "display": "Jour et nuit, décembre : | 744 heures."
   },
   {
    "id": "s09",
-   "text": "Au tarif médian suisse, vingt-sept virgule sept centimes le kilowattheure hors taxe, la guirlande èl-eu-dé coûte soixante-deux centimes.",
-   "start": 33.049,
-   "end": 41.397,
-   "display": "27,7 ct./kWh hors TVA : | la LED coûte 0,62 CHF."
+   "text": "Au tarif médian suisse, vingt-sept virgule sept centimes le kilowattheure hors taxe, la guirlande à diodes coûte soixante-deux centimes.",
+   "start": 33.57,
+   "end": 42.287,
+   "display": "27,7 ct./kWh hors TVA : | la guirlande à diodes coûte 0,62 CHF."
   },
   {
    "id": "s10",
    "text": "Surprise : l'ancienne coûte huit francs soixante-six pour le même mois.",
-   "start": 41.497,
-   "end": 46.571,
+   "start": 42.387,
+   "end": 47.484,
    "display": "Surprise : l'ancienne, | 8,66 CHF le même mois."
   },
   {
    "id": "s11",
    "text": "Et SuisseEnergie conseille une minuterie.",
-   "start": 46.671,
-   "end": 49.083,
+   "start": 47.584,
+   "end": 50.008,
    "display": "SuisseEnergie conseille | une minuterie."
   },
   {
    "id": "s12",
    "text": "Ta guirlande brille combien d'heures par soir ? Écris-le en commentaire.",
-   "start": 49.183,
-   "end": 53.821,
+   "start": 50.108,
+   "end": 54.767,
    "display": "Ta guirlande brille combien | d'heures par soir ? Écris-le !"
   },
   {
    "id": "s13",
-   "text": "Promis : exemple, six heures par soir avec minuterie. La guirlande èl-eu-dé coûte quinze centimes pour tout décembre.",
-   "start": 53.921,
-   "end": 62.447,
-   "display": "Exemple : 6 h par soir. | LED : 0,15 CHF | pour tout décembre."
+   "text": "Promis : exemple, six heures par soir avec minuterie. La guirlande à diodes coûte quinze centimes pour tout décembre.",
+   "start": 54.867,
+   "end": 62.415,
+   "display": "Exemple : 6 h par soir. | À diodes : 0,15 CHF | pour tout décembre."
   },
   {
    "id": "s14",
    "text": "Et abonne-toi : demain, ton purificateur « cinquante mètres carrés »… avec combien de renouvellements d'air ?",
-   "start": 62.547,
-   "end": 68.424,
+   "start": 62.515,
+   "end": 68.419,
    "display": "Abonne-toi : demain, | ton purificateur « 50 m² »… | combien de renouvellements ?"
   }
  ]

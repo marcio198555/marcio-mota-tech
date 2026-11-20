@@ -1,18 +1,18 @@
 {
  "display": {
   "s01": "Toi : ta vieille guirlande | allumée tout décembre.",
-  "s02": "Ton collègue : guirlande LED, | pareil. Qui paie combien ?",
+  "s02": "Ton collègue : guirlande à diodes (LED), | pareil. Qui paie combien ?",
   "s03": "Attends : à la fin, le geste | qui peut diviser la facture par 4.",
   "s04": "D'abord : les watts | écrits sur la fiche.",
-  "s05": "Fiche Konstsmide : | 100 LED = 3 W",
+  "s05": "Fiche Konstsmide : | 100 diodes = 3 W",
   "s06": "Ancienne, à incandescence : | 42 W en moyenne | (département US de l'énergie)",
   "s07": "14 fois plus. | Et ce n'est pas tout.",
   "s08": "Jour et nuit, décembre : | 744 heures.",
-  "s09": "27,7 ct./kWh hors TVA : | la LED coûte 0,62 CHF.",
+  "s09": "27,7 ct./kWh hors TVA : | la guirlande à diodes coûte 0,62 CHF.",
   "s10": "Surprise : l'ancienne, | 8,66 CHF le même mois.",
   "s11": "SuisseEnergie conseille | une minuterie.",
   "s12": "Ta guirlande brille combien | d'heures par soir ? Écris-le !",
-  "s13": "Exemple : 6 h par soir. | LED : 0,15 CHF | pour tout décembre.",
+  "s13": "Exemple : 6 h par soir. | À diodes : 0,15 CHF | pour tout décembre.",
   "s14": "Abonne-toi : demain, | ton purificateur « 50 m² »… | combien de renouvellements ?"
  },
  "title": "Guirlande LED de Noël : combien pour tout décembre ?",
