@@ -1,0 +1,106 @@
+{
+ "job": "day84",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ta vieille guirlande à ampoules reste allumée tout décembre.",
+   "file": "s01.wav",
+   "duration": 5.2,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, sa guirlande èl-eu-dé, pareil. Qui paie combien ?",
+   "file": "s02.wav",
+   "duration": 4.84,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Attends : à la fin, le geste qui peut diviser la facture par quatre.",
+   "file": "s03.wav",
+   "duration": 4.92,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "D'abord, les watts écrits sur la fiche.",
+   "file": "s04.wav",
+   "duration": 2.88,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Chez un fabricant, cent èl-eu-dé : trois watts.",
+   "file": "s05.wav",
+   "duration": 3.12,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Une ancienne guirlande miniature à incandescence : quarante-deux watts en moyenne, selon le département américain de l'énergie.",
+   "file": "s06.wav",
+   "duration": 8.36,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Quatorze fois plus. Et ce n'est pas tout.",
+   "file": "s07.wav",
+   "duration": 3.4,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Jour et nuit, décembre, c'est sept cent quarante-quatre heures.",
+   "file": "s08.wav",
+   "duration": 4.48,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Au tarif médian suisse, vingt-sept virgule sept centimes le kilowattheure hors taxe, la guirlande èl-eu-dé coûte soixante-deux centimes.",
+   "file": "s09.wav",
+   "duration": 9.0,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Surprise : l'ancienne coûte huit francs soixante-six pour le même mois.",
+   "file": "s10.wav",
+   "duration": 5.52,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Et SuisseEnergie conseille une minuterie.",
+   "file": "s11.wav",
+   "duration": 3.92,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Ta guirlande brille combien d'heures par soir ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 5.04,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Promis : exemple, six heures par soir avec minuterie. La guirlande èl-eu-dé coûte quinze centimes pour tout décembre.",
+   "file": "s13.wav",
+   "duration": 9.2,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : demain, ton purificateur « cinquante mètres carrés »… avec combien de renouvellements d'air ?",
+   "file": "s14.wav",
+   "duration": 7.08,
+   "rate": 24000
+  }
+ ],
+ "total": 76.96
+}
