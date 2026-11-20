@@ -1,0 +1,75 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Spo-ti-faï Premium. Toi, en Suisse : quinze francs nonante-cinq par mois."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, en France, même abonnement. Qui paie le plus sur un an ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, l'écart en francs sur douze mois."
+  },
+  {
+   "id": "s04",
+   "text": "Attends. Prix relevés le vingt novembre, sur les deux sites officiels."
+  },
+  {
+   "id": "s05",
+   "text": "France : douze euros quatorze par mois."
+  },
+  {
+   "id": "s06",
+   "text": "Au cours de la Banque nationale : onze francs vingt-cinq."
+  },
+  {
+   "id": "s07",
+   "text": "Et ce n'est pas tout : toi, tu paies plus chaque mois."
+  },
+  {
+   "id": "s08",
+   "text": "Même offre des deux côtés : trois mois à zéro, pour un premier essai."
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : en Famille, jusqu'à six comptes à la même adresse."
+  },
+  {
+   "id": "s10",
+   "text": "Suisse : vingt-six francs nonante-cinq. France : vingt et un euros vingt-quatre."
+  },
+  {
+   "id": "s11",
+   "text": "Là, l'écart dépasse sept francs par mois."
+  },
+  {
+   "id": "s12",
+   "text": "Conseil : à six, le Famille suisse fait moins de quatre francs cinquante par compte et par mois."
+  },
+  {
+   "id": "s13",
+   "text": "Toi, tu paies combien par mois ? Écris-le en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Promis : sur un an, toi, cent nonante et un francs. Ton collègue, environ cent trente-cinq."
+  },
+  {
+   "id": "s15",
+   "text": "L'écart : cinquante-six francs par an."
+  },
+  {
+   "id": "s16",
+   "text": "Et abonne-toi : demain, ton frigo classé B… vraiment moyen ?"
+  }
+ ]
+}

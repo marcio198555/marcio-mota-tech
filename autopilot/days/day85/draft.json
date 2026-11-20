@@ -1,0 +1,27 @@
+{
+ "display": {
+  "s01": "Toi : ton écran | annonce 1 ms.",
+  "s02": "Ton collègue : 4 ms. | Lequel est le plus rapide ?",
+  "s03": "Attends : à la fin, le logo | qui mesure vraiment le flou.",
+  "s04": "Souvent : « gris à gris », | un pixel qui change de gris.",
+  "s05": "Et ce n'est pas tout : Dell annonce | 1 ms… en mode Extreme.",
+  "s06": "En mode Fast : | 4 ms.",
+  "s07": "Vous avez peut-être | le même écran.",
+  "s08": "Dell prévient : | légers défauts visibles possibles.",
+  "s09": "Surprise : une autre fiche | annonce 1 ms MPRT.",
+  "s10": "Léger scintillement possible, | et sans FreeSync.",
+  "s11": "Selon VESA, chaque fabricant | a sa propre méthode de test.",
+  "s12": "Avant d'acheter : | regarde le mode de la milliseconde.",
+  "s13": "Ton écran est réglé sur quel mode ? | Écris-le en commentaire.",
+  "s14": "Le logo promis : VESA ClearMR, | pixels nets contre pixels flous.",
+  "s15": "ClearMR 7000 : 65 à 75 fois | plus de pixels nets que flous.",
+  "s16": "Abonne-toi : demain, | tes AirPods Pro 3… | moins chers en France ?"
+ },
+ "title": "Écran « 1 ms » : ce n'est pas le vrai temps de réponse",
+ "slug": "ecran-1-ms",
+ "format": "V",
+ "caption": "Ton écran « 1 ms » et celui à 4 ms sont peut-être le même modèle.\nSur la fiche Dell du G2724D : 1 ms gris à gris en mode Extreme (avec de « légers défauts visibles » possibles), 4 ms en mode Fast. Selon un article diffusé par VESA, chaque fabricant a sa propre méthode de test ; le logo ClearMR compte les pixels nets contre les pixels flous.\nTon écran est réglé sur quel mode de temps de réponse ?\n#ecrangaming #moniteur #tempsdereponse #blackfriday\nVoix de synthèse.",
+ "reel_caption": "Écran « 1 ms » : ce n'est pas le vrai temps de réponse, regarde le mode écrit à côté\n\nSur le guide Dell du G2724D : 1 ms gris à gris en mode Extreme, qui peut ajouter de légers défauts visibles, et 4 ms en mode Fast. Un autre écran Dell annonce 1 ms MPRT, avec un léger scintillement possible et sans FreeSync.\n\nSelon un article diffusé par VESA, chaque fabricant a sa propre méthode de test. Le logo VESA ClearMR compte les pixels nets contre les pixels flous : ClearMR 7000, c'est 65 à 75 fois plus de pixels nets.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#ecrangaming #moniteur #gamer #suisseromande #jemesuretout",
+ "carousel_title": "Écran « 1 ms » : vraiment une milliseconde ?",
+ "carousel_caption": "Ton écran répond vraiment en 1 ms ? Glisse jusqu'au verdict.\nSources : guides utilisateur Dell G2724D et SE2426H, VESA (ClearMR, communiqué du 22.08.2022) et article ClearMR 1.1 diffusé par VESA (2024).\nTon écran est réglé sur quel mode de temps de réponse ?\n#ecrangaming #moniteur #tempsdereponse #blackfriday\nTexte et images générés par IA."
+}

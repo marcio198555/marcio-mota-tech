@@ -1,0 +1,67 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ton sèche-cheveux deux mille watts tourne cinq minutes par jour."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, quinze minutes. Combien de plus par an ?"
+  },
+  {
+   "id": "s03",
+   "text": "Attends. À la fin, l'écart en francs."
+  },
+  {
+   "id": "s04",
+   "text": "Exemple : chez Bébilisse, le Power Pro deux mille affiche deux mille watts, soit deux kilowatts."
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout : il faut le prix du courant."
+  },
+  {
+   "id": "s06",
+   "text": "Médiane ElCom deux mille vingt-six : vingt-sept virgule sept centimes le kilowattheure, hors TVA."
+  },
+  {
+   "id": "s07",
+   "text": "Exemple, toi : cinq minutes par jour, à fond, toute l'année : environ dix-sept francs."
+  },
+  {
+   "id": "s08",
+   "text": "Ton collègue, trois fois plus longtemps : environ cinquante et un francs."
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : deux mille, ce n'est pas toujours des watts consommés."
+  },
+  {
+   "id": "s10",
+   "text": "Une notice Bébilisse annonce deux mille « draïe-watts »… pour mille quatre cents watts réels."
+  },
+  {
+   "id": "s11",
+   "text": "Conseil : sur la boîte, cherche la puissance en watts, pas en draïe-watts."
+  },
+  {
+   "id": "s12",
+   "text": "Toi, tu sèches combien de minutes ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Promesse tenue : l'écart, environ trente-quatre francs par an."
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : demain, ton chargeur sans fil « quinze watts »… ton téléphone en prend peut-être moins."
+  }
+ ]
+}

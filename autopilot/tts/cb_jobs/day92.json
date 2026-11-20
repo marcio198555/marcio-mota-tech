@@ -1,0 +1,71 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ton èsse-èsse-dé : jusqu'à sept mille mégaoctets par seconde."
+  },
+  {
+   "id": "s02",
+   "text": "Attends. Ton collègue, le même en deux téraoctets. Qui copie plus vite ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin : ce qui arrive quand sa zone rapide est pleine."
+  },
+  {
+   "id": "s04",
+   "text": "Fiche Kingston : en cinq cent douze gigaoctets, lecture sept mille."
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout : écriture, trois mille neuf cents."
+  },
+  {
+   "id": "s06",
+   "text": "En deux téraoctets : écriture sept mille. Sur la fiche, presque deux fois plus vite."
+  },
+  {
+   "id": "s07",
+   "text": "Mesuré sur un disque neuf."
+  },
+  {
+   "id": "s08",
+   "text": "Le secret : le cache èsse-èl-cé."
+  },
+  {
+   "id": "s09",
+   "text": "Selon Sébrennt, une partie de la mémoire passe en mode rapide."
+  },
+  {
+   "id": "s10",
+   "text": "Surprise : selon Sanndisk, une partie de ce cache rétrécit quand le disque se remplit."
+  },
+  {
+   "id": "s11",
+   "text": "Avant d'acheter, compare l'écriture, pas seulement la lecture."
+  },
+  {
+   "id": "s12",
+   "text": "Ton èsse-èsse-dé fait combien de gigaoctets ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Cache plein ? Selon Sébrennt, il passe à sa vitesse de base, plus lente."
+  },
+  {
+   "id": "s14",
+   "text": "La fiche ne dit pas laquelle. Au repos, elle revient."
+  },
+  {
+   "id": "s15",
+   "text": "Et abonne-toi : demain, la lampe torche à dix mille lumens… mesurés comment ?"
+  }
+ ]
+}

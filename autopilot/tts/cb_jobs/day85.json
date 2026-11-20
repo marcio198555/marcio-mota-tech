@@ -1,0 +1,75 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ton écran annonce une milliseconde."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, quatre millisecondes. Lequel est le plus rapide ?"
+  },
+  {
+   "id": "s03",
+   "text": "Attends : à la fin, le logo qui mesure vraiment le flou."
+  },
+  {
+   "id": "s04",
+   "text": "Souvent, c'est du « gris à gris » : un pixel qui change de gris."
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout : chez Dèl, un écran annonce une milliseconde… en mode Extrême."
+  },
+  {
+   "id": "s06",
+   "text": "En mode Fâste : quatre millisecondes."
+  },
+  {
+   "id": "s07",
+   "text": "Vous avez peut-être le même écran."
+  },
+  {
+   "id": "s08",
+   "text": "Dèl prévient : légers défauts visibles possibles."
+  },
+  {
+   "id": "s09",
+   "text": "Surprise : une autre fiche annonce une milliseconde èm-pé-èr-té."
+  },
+  {
+   "id": "s10",
+   "text": "Avec un léger scintillement possible, et sans Fri-Sinc."
+  },
+  {
+   "id": "s11",
+   "text": "Selon Vésa, chaque fabricant a sa propre méthode de test."
+  },
+  {
+   "id": "s12",
+   "text": "Avant d'acheter, regarde le mode de la milliseconde."
+  },
+  {
+   "id": "s13",
+   "text": "Ton écran est réglé sur quel mode ? Écris-le en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Le logo promis : Vésa Clir-èm-èr, qui compte les pixels nets contre les flous."
+  },
+  {
+   "id": "s15",
+   "text": "Clir-èm-èr sept mille : soixante-cinq à soixante-quinze fois plus de pixels nets que flous."
+  },
+  {
+   "id": "s16",
+   "text": "Et abonne-toi : demain, tes Èr-Pods Pro trois… moins chers en France ?"
+  }
+ ]
+}

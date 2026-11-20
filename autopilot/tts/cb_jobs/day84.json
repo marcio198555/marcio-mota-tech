@@ -1,0 +1,67 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ta vieille guirlande à ampoules reste allumée tout décembre."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, sa guirlande èl-eu-dé, pareil. Qui paie combien ?"
+  },
+  {
+   "id": "s03",
+   "text": "Attends : à la fin, le geste qui peut diviser la facture par quatre."
+  },
+  {
+   "id": "s04",
+   "text": "D'abord, les watts écrits sur la fiche."
+  },
+  {
+   "id": "s05",
+   "text": "Chez un fabricant, cent èl-eu-dé : trois watts."
+  },
+  {
+   "id": "s06",
+   "text": "Une ancienne guirlande miniature à incandescence : quarante-deux watts en moyenne, selon le département américain de l'énergie."
+  },
+  {
+   "id": "s07",
+   "text": "Quatorze fois plus. Et ce n'est pas tout."
+  },
+  {
+   "id": "s08",
+   "text": "Jour et nuit, décembre, c'est sept cent quarante-quatre heures."
+  },
+  {
+   "id": "s09",
+   "text": "Au tarif médian suisse, vingt-sept virgule sept centimes le kilowattheure hors taxe, la guirlande èl-eu-dé coûte soixante-deux centimes."
+  },
+  {
+   "id": "s10",
+   "text": "Surprise : l'ancienne coûte huit francs soixante-six pour le même mois."
+  },
+  {
+   "id": "s11",
+   "text": "Et SuisseEnergie conseille une minuterie."
+  },
+  {
+   "id": "s12",
+   "text": "Ta guirlande brille combien d'heures par soir ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Promis : exemple, six heures par soir avec minuterie. La guirlande èl-eu-dé coûte quinze centimes pour tout décembre."
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : demain, ton purificateur « cinquante mètres carrés »… avec combien de renouvellements d'air ?"
+  }
+ ]
+}

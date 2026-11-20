@@ -1,0 +1,25 @@
+{
+ "display": {
+  "s01": "Toi : ta PS5 dort en repos, | tout activé.",
+  "s02": "Ton collègue : réglage par défaut. | Attends : combien il gagne par an ?",
+  "s03": "À la fin : l'écart en francs. | Et un piège.",
+  "s04": "Mesures publiées par Sony : | PS5 CFI-2016.",
+  "s05": "Et ce n'est pas tout : | repos par défaut, 0,31 W.",
+  "s06": "Repos, tout activé : 3,8 W.",
+  "s07": "Environ 12 fois plus | que ton collègue.",
+  "s08": "Le piège : une option activée, | et elle ne descend plus | sous 0,5 W.",
+  "s09": "Surprise : 1 h de jeu (216,8 W) | ≈ 57 h de repos tout activé.",
+  "s10": "Paramètres > Système > | Gestion de l'alimentation > | Fonctionnalités disponibles en mode repos",
+  "s11": "Désactive le superflu.",
+  "s12": "Ta console dort avec quelles options ? | Écris-le en commentaire.",
+  "s13": "Exemple : 20 h de repos par jour, | 27,7 ct./kWh (ElCom, hors TVA).",
+  "s14": "Tout activé : 7,68 CHF/an. | Par défaut : 0,63 CHF/an.",
+  "s15": "L'écart : environ 7 CHF par an.",
+  "s16": "Abonne-toi : demain, | un nouveau chiffre vérifié."
+ },
+ "title": "PS5 en mode repos : combien en francs par an ?",
+ "slug": "ps5-mode-repos",
+ "format": "V",
+ "caption": "Ta PS5 en mode repos « tout activé » consomme environ 12 fois plus que le réglage par défaut.\nMesures publiées par Sony (PS5 CFI-2016) : 0,31 W en repos par défaut, 3,8 W avec la recharge USB et Internet. Exemple à 20 h de repos par jour et 27,7 ct./kWh (médiane ElCom 2026, hors TVA) : 7,68 CHF contre 0,63 CHF par an.\nTa console dort avec quelles options : USB, Internet ou aucune ?\n#ps5 #playstation5 #consommationelectrique #blackfriday\nVoix de synthèse.",
+ "reel_caption": "PS5 en mode repos : combien te coûtent la recharge USB et Internet par an ?\n\nSony publie les mesures de sa PS5 (modèle CFI-2016) : 0,31 W en mode repos par défaut, 3,8 W avec toutes les options activées. Selon le support PlayStation, dès qu'une option est activée, la console ne descend plus sous 0,5 W en repos.\n\nExemple à 20 h de repos par jour et 27,7 ct./kWh (médiane ElCom 2026, hors TVA) : 7,68 CHF par an tout activé, 0,63 CHF par défaut. Réglage : Paramètres > Système > Gestion de l'alimentation > Fonctionnalités disponibles en mode repos.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui laisse sa console en mode repos.\n\n#ps5 #jeuxvideo #gamer #suisseromande #jemesuretout"
+}

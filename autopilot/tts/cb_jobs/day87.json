@@ -1,0 +1,71 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ta montre affiche quatorze jours d'autonomie. Tu cours avec le jé-pé-èss."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, même montre, sans jé-pé-èss. Qui recharge en premier ?"
+  },
+  {
+   "id": "s03",
+   "text": "Attends. À la fin, ses heures de jé-pé-èss, selon la fiche."
+  },
+  {
+   "id": "s04",
+   "text": "Exemple : l'Amazfite Bip six, quatorze jours en usage typique."
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout : typique, ça veut dire quoi ?"
+  },
+  {
+   "id": "s06",
+   "text": "Selon Amazfite : cadran fixe, écran allumé cinq minutes par jour."
+  },
+  {
+   "id": "s07",
+   "text": "Et le jé-pé-èss : trois fois trente minutes par semaine."
+  },
+  {
+   "id": "s08",
+   "text": "En usage intensif : jusqu'à six jours, selon la même fiche."
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : chez Houawei, la Watch GT cinq quarante-six millimètres."
+  },
+  {
+   "id": "s10",
+   "text": "Quatorze jours en usage optimal. Écran toujours allumé : jusqu'à cinq jours."
+  },
+  {
+   "id": "s11",
+   "text": "Et la quarante et un millimètres : jusqu'à sept jours, au mieux."
+  },
+  {
+   "id": "s12",
+   "text": "Conseil : lis toujours la note sous l'autonomie."
+  },
+  {
+   "id": "s13",
+   "text": "Ta montre, tu la recharges tous les combien ? Écris-le en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Promesse tenue : jé-pé-èss en continu, jusqu'à trente-deux heures. Moins d'un jour et demi."
+  },
+  {
+   "id": "s15",
+   "text": "Et abonne-toi : demain, la trottinette « quarante kilomètres »… dans les conditions du test."
+  }
+ ]
+}

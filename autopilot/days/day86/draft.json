@@ -1,0 +1,23 @@
+{
+ "display": {
+  "s01": "Toi : sèche-cheveux 2 000 W, | 5 min par jour.",
+  "s02": "Ton collègue : 15 min. | Combien de plus par an ?",
+  "s03": "Attends. | À la fin : l'écart en francs.",
+  "s04": "Exemple : BaByliss Power Pro 2000 | = 2 000 W, soit 2 kW.",
+  "s05": "Et ce n'est pas tout : | le prix du courant.",
+  "s06": "Médiane ElCom 2026 : | 27,7 ct./kWh hors TVA.",
+  "s07": "Exemple, toi : 5 min/jour à fond, | toute l'année ≈ 16,85 CHF.",
+  "s08": "Ton collègue, 3 × plus longtemps : | ≈ 50,55 CHF.",
+  "s09": "2e surprise : « 2 000 » | n'est pas toujours | des watts consommés.",
+  "s10": "Notice BaByliss : 2 000 « DryWatts »… | pour 1 400 W réels.",
+  "s11": "Conseil : sur la boîte, | cherche des watts, | pas des « DryWatts ».",
+  "s12": "Toi, combien de minutes ? | Écris-le en commentaire.",
+  "s13": "Promesse tenue : l'écart | ≈ 33,70 CHF par an.",
+  "s14": "Abonne-toi : demain, | chargeur sans fil « 15 W »… | ton téléphone en prend moins ?"
+ },
+ "title": "Sèche-cheveux 2 000 W : combien de francs par an ?",
+ "slug": "seche-cheveux-2000w",
+ "format": "V",
+ "caption": "Ton sèche-cheveux 2 000 W, combien de francs par an ?\nÀ fond, 5 min par jour (exemple) au tarif médian ElCom 2026 (27,7 ct./kWh hors TVA) : environ 16,85 CHF par an ; 15 min : environ 50,55 CHF. Et une notice BaByliss annonce 2 000 « DryWatts » pour 1 400 W consommés.\nToi, tu sèches tes cheveux combien de minutes par jour ?\n#sechecheveux #electricite #facturedelectricite #suisse #blackfriday\nVoix de synthèse.",
+ "reel_caption": "Sèche-cheveux 2 000 W : combien de francs par an, 5 ou 15 minutes par jour ?\n\nUn sèche-cheveux courant affiche 2 000 W (exemple : BaByliss Power Pro 2000), soit 2 kW à pleine puissance. Au tarif médian ElCom 2026 (27,7 ct./kWh, hors TVA), 5 minutes par jour toute l'année font environ 16,85 CHF ; 15 minutes, environ 50,55 CHF. Durées d'exemple, sèche-cheveux à fond.\n\nAutre piège de la boîte : une notice BaByliss annonce 2 000 « DryWatts »… pour une consommation réelle de 1 400 W. Cherche les watts consommés.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui sèche ses cheveux le plus longtemps chez toi.\n\n#sechecheveux #electromenager #astucemaison #suisseromande #jemesuretout"
+}

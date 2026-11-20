@@ -1,0 +1,24 @@
+{
+ "display": {
+  "s01": "Toi, ton SSD : | jusqu'à 7 000 Mo/s.",
+  "s02": "Attends. Ton collègue, le même en 2 To. | Qui copie plus vite ?",
+  "s03": "À la fin : ce qui arrive | quand la zone rapide est pleine.",
+  "s04": "Fiche Kingston, 512 Go : | lecture 7 000 Mo/s.",
+  "s05": "Et ce n'est pas tout : | écriture 3 900 Mo/s.",
+  "s06": "En 2 To : écriture 7 000 Mo/s. | Sur la fiche, presque | deux fois plus vite.",
+  "s07": "Mesuré sur un disque neuf.",
+  "s08": "Le secret : le cache SLC.",
+  "s09": "Selon Sabrent, une partie de la mémoire | passe en mode rapide.",
+  "s10": "Surprise : selon Sandisk, une partie | de ce cache rétrécit | quand le disque se remplit.",
+  "s11": "Avant d'acheter : compare l'écriture, | pas seulement la lecture.",
+  "s12": "Ton SSD, combien de Go ? | Écris-le en commentaire.",
+  "s13": "Cache plein ? Selon Sabrent : | vitesse de base, plus lente.",
+  "s14": "La fiche ne dit pas laquelle. | Au repos, elle revient.",
+  "s15": "Abonne-toi : demain, la lampe | à 10 000 lumens… | mesurés comment ?"
+ },
+ "title": "SSD « jusqu'à 7 000 Mo/s » : seulement au début",
+ "slug": "ssd-7000-cache",
+ "format": "V",
+ "caption": "Ton SSD « jusqu'à 7 000 Mo/s » n'écrit pas toujours à 7 000.\nFiche officielle Kingston KC3000 : en 512 Go, lecture 7 000 Mo/s mais écriture 3 900 Mo/s (7 000 en 2 To), mesurées sur disque neuf. Selon Sabrent, une fois le cache SLC plein, le disque passe à sa vitesse d'écriture de base, plus lente.\nTon SSD fait combien de Go, et quelle vitesse d'écriture sur sa fiche ?\n#ssd #nvme #blackfriday #astucetech\nVoix de synthèse.",
+ "reel_caption": "SSD « jusqu'à 7 000 Mo/s » : pourquoi ta copie ralentit après les premiers gigaoctets\n\nSur la fiche officielle Kingston KC3000, le modèle 512 Go lit à 7 000 Mo/s mais écrit à 3 900 Mo/s ; le 2 To écrit à 7 000 Mo/s. Ces vitesses sont mesurées sur un disque neuf, sorti de la boîte.\n\nLe secret, c'est le cache SLC : une partie de la mémoire passe en mode rapide. Selon Sabrent, une fois ce cache plein, le disque passe à sa vitesse d'écriture de base, plus lente, et la retrouve après un moment au repos. Selon Sandisk, une partie de ce cache rétrécit quand le disque se remplit.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui monte son PC pour le Black Friday.\n\n#ssd #informatique #gamer #suisseromande #jemesuretout"
+}

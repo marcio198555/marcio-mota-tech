@@ -1,0 +1,75 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ta Plèïstéïcheune cinq dort en mode repos, tout activé."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, réglage par défaut. Attends : combien il gagne par an ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, l'écart en francs. Et un piège."
+  },
+  {
+   "id": "s04",
+   "text": "Sony publie ses mesures, modèle cé-èf-i deux mille seize."
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout : par défaut, zéro virgule trente et un watt."
+  },
+  {
+   "id": "s06",
+   "text": "Tout activé : trois virgule huit watts."
+  },
+  {
+   "id": "s07",
+   "text": "Environ douze fois plus que ton collègue."
+  },
+  {
+   "id": "s08",
+   "text": "Le piège : une option activée, et elle ne descend plus sous zéro virgule cinq watt."
+  },
+  {
+   "id": "s09",
+   "text": "Surprise : une heure de jeu vaut environ cinquante-sept heures de repos tout activé."
+  },
+  {
+   "id": "s10",
+   "text": "Conseil : Paramètres, Système, Gestion de l'alimentation, Fonctionnalités disponibles en mode repos."
+  },
+  {
+   "id": "s11",
+   "text": "Désactive le superflu."
+  },
+  {
+   "id": "s12",
+   "text": "Ta console dort avec quelles options ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Exemple : vingt heures de repos par jour, vingt-sept virgule sept centimes le kilowattheure."
+  },
+  {
+   "id": "s14",
+   "text": "Tout activé : sept francs soixante-huit par an. Par défaut : soixante-trois centimes."
+  },
+  {
+   "id": "s15",
+   "text": "L'écart : environ sept francs par an."
+  },
+  {
+   "id": "s16",
+   "text": "Et abonne-toi : demain, un nouveau chiffre vérifié."
+  }
+ ]
+}
