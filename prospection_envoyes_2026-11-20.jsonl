@@ -6,7 +6,7 @@
 {"id": "PD20A-006", "brand": "Spoolio", "domain": "spoolio.fr", "to": "contact@spoolio.fr", "ts": "2026-11-20T06:31:49.795501"}
 {"id": "PD20A-007", "brand": "Home by Ardiak", "domain": "homebyardiak.com", "to": "home@ardiak.tech", "ts": "2026-11-20T06:31:49.795507"}
 {"id": "PD20A-008", "brand": "Limen", "domain": "limenatelier.com", "to": "contact@limenatelier.com", "ts": "2026-11-20T06:31:49.795513"}
-{"id": "PD20A-009", "brand": "Pirouette Cacahou\u00e8te", "domain": "pirouettecacahouete.com", "to": "contact@pirouettecacahouete.com", "ts": "2026-11-20T06:31:49.795518"}
+{"id": "PD20A-009", "brand": "Pirouette Cacahouète", "domain": "pirouettecacahouete.com", "to": "contact@pirouettecacahouete.com", "ts": "2026-11-20T06:31:49.795518"}
 {"id": "PD20A-010", "brand": "Lundi en Huit", "domain": "lundienhuit.fr", "to": "contact@lundienhuit.fr", "ts": "2026-11-20T06:31:49.795524"}
 {"id": "PD20A-011", "brand": "Mister Blob", "domain": "misterblob.com", "to": "contact@misterblob.com", "ts": "2026-11-20T06:32:00.559963"}
 {"id": "PD20A-012", "brand": "Mako moulages", "domain": "makocreations.fr", "to": "contact@makocreations.com", "ts": "2026-11-20T06:32:00.559994"}
@@ -17,3 +17,191 @@
 {"id": "PD20A-017", "brand": "Till Start", "domain": "till-start.com", "to": "contact@till-start.com", "ts": "2026-11-20T06:32:00.560020"}
 {"id": "PD20A-018", "brand": "Deltaboard", "domain": "delta-board.com", "to": "info@delta-board.com", "ts": "2026-11-20T06:32:00.560024"}
 {"id": "PD20A-019", "brand": "Fingabol", "domain": "fingabol.com", "to": "contact@fingabol.com", "ts": "2026-11-20T06:32:00.560027"}
+{"id": "PD20B-001", "brand": "Gone's", "domain": "gones.fr", "to": "contact@gones.fr", "ts": "2026-11-20T06:46:07.181915"}
+{"id": "PD20B-002", "brand": "Ecomii", "domain": "ecomii.com", "to": "contact@ecomii.com", "ts": "2026-11-20T06:46:07.181959"}
+{"id": "PD20B-003", "brand": "Acebau Design", "domain": "acebaudesign.com", "to": "contact@acebaudesign.com", "ts": "2026-11-20T06:46:07.181969"}
+{"id": "PD20B-004", "brand": "home3", "domain": "home3.ch", "to": "info@home3.ch", "ts": "2026-11-20T06:46:07.181975"}
+{"id": "PD20B-005", "brand": "inbyko", "domain": "inbyko.com", "to": "info@inbyko.com", "ts": "2026-11-20T06:46:07.181979"}
+{"id": "PD20B-006", "brand": "Maron Bouillie", "domain": "maronbouillie.com", "to": "contact@maronbouillie.com", "ts": "2026-11-20T06:46:07.181983"}
+{"id": "PD20B-007", "brand": "Filgone", "domain": "filgone.com", "to": "contact@filgone.com", "ts": "2026-11-20T06:46:07.181987"}
+{"id": "PD20B-008", "brand": "Swiss On Off", "domain": "swissonoff.ch", "to": "info@swissonoff.ch", "ts": "2026-11-20T06:46:07.181990"}
+{"id": "PD20B-009", "brand": "Furber", "domain": "furber.ch", "to": "mail@furber.ch", "ts": "2026-11-20T06:46:07.181994"}
+{"id": "PD20B-010", "brand": "wood-werk.ch", "domain": "wood-werk.ch", "to": "info@wood-werk.ch", "ts": "2026-11-20T06:46:07.181997"}
+{"id": "PD20B-011", "brand": "alpvase", "domain": "alpvase.ch", "to": "info@alpvase.ch", "ts": "2026-11-20T06:46:50.300617"}
+{"id": "PD20B-012", "brand": "Colibrille", "domain": "colibrille.ch", "to": "info@colibrille.ch", "ts": "2026-11-20T06:46:50.300655"}
+{"id": "PD20B-013", "brand": "Minuby", "domain": "minuby.ch", "to": "kundenservice@minuby.ch", "ts": "2026-11-20T06:46:50.300665"}
+{"id": "PD20B-014", "brand": "Hundedinge", "domain": "hundedinge.ch", "to": "info@hundedinge.ch", "ts": "2026-11-20T06:46:50.300670"}
+{"id": "PD20B-015", "brand": "NEO", "domain": "neo-backpacks.fr", "to": "info@neoatelier.fr", "ts": "2026-11-20T06:46:50.300675"}
+{"id": "PD20B-016", "brand": "Petit Bloom", "domain": "petitbloom.com", "to": "contact@petitbloom.fr", "ts": "2026-11-20T06:46:50.300679"}
+{"id": "PD20B-017", "brand": "Petite Planète", "domain": "petiteplanete.fr", "to": "dir@petiteplanete.fr", "ts": "2026-11-20T06:46:50.300683"}
+{"id": "PD20B-018", "brand": "Manufacture de Charolles", "domain": "charolles.com", "to": "charolles@charolles.com", "ts": "2026-11-20T06:46:50.300687"}
+{"id": "PD20B-019", "brand": "Mademoiselle Lumière", "domain": "mademoisellelumiere.fr", "to": "contact@mademoisellelumiere.fr", "ts": "2026-11-20T06:46:50.300690"}
+{"id": "PD20B-020", "brand": "Aurabois", "domain": "aurabois.com", "to": "contact@aurabois.com", "ts": "2026-11-20T06:46:50.300694"}
+{"id": "PD20B-021", "brand": "La Coutellerie de Laguiole Honoré Durand", "domain": "lecoutelier.com", "to": "contact@lecoutelier.com", "ts": "2026-11-20T06:48:03.130429", "bounced": true}
+{"id": "PD20B-022", "brand": "Au Sabot", "domain": "ausabot.com", "to": "info@ausabot.com", "ts": "2026-11-20T06:48:03.130481"}
+{"id": "PD20B-023", "brand": "Coutellerie Ponson", "domain": "couteaux-ponson.com", "to": "contact@couteau-ponson.com", "ts": "2026-11-20T06:48:03.130491"}
+{"id": "PD20B-024", "brand": "Benoit l'Artisan", "domain": "laguiole-benoit.com", "to": "contact@benoit-artisan.com", "ts": "2026-11-20T06:48:03.130497"}
+{"id": "PD20B-025", "brand": "Royal Limoges", "domain": "royal-limoges.fr", "to": "contact@royal-limoges.fr", "ts": "2026-11-20T06:48:03.130502"}
+{"id": "PD20B-026", "brand": "Touchez du Bois", "domain": "touchezdubois.com", "to": "contact@touchezdubois.com", "ts": "2026-11-20T06:48:03.130506"}
+{"id": "PD20B-027", "brand": "Jurie & Jarre", "domain": "jurie-jarre.com", "to": "contact@jurie-jarre.com", "ts": "2026-11-20T06:48:03.130510"}
+{"id": "PD20B-028", "brand": "Aluminor", "domain": "aluminor.fr", "to": "contact@aluminor.fr", "ts": "2026-11-20T06:48:03.130514"}
+{"id": "PD20B-029", "brand": "Côte Ouest Déco", "domain": "cote-ouest-deco.com", "to": "contact@cote-ouest-deco.com", "ts": "2026-11-20T06:48:03.130520"}
+{"id": "PD20B-030", "brand": "Bretzheim", "domain": "bretzheim.com", "to": "hello@bretzheim.com", "ts": "2026-11-20T06:48:03.130524"}
+{"id": "PD20C-001", "brand": "Ronske", "domain": "ronske.ch", "to": "info@ronske.ch", "ts": "2026-11-20T06:54:13.130716"}
+{"id": "PD20C-002", "brand": "KURTS", "domain": "kurts.ch", "to": "mail@kurts.ch", "ts": "2026-11-20T06:54:13.130752"}
+{"id": "PD20C-003", "brand": "Deux Soeurs", "domain": "deuxsoeurs.ch", "to": "info@deuxsoeurs.ch", "ts": "2026-11-20T06:54:13.130762"}
+{"id": "PD20C-004", "brand": "Presse Citron", "domain": "presse-citron.com", "to": "eshop@presse-citron.com", "ts": "2026-11-20T06:54:13.130768"}
+{"id": "PD20C-005", "brand": "L'Atelier des Lumières", "domain": "latelierdeslumieres.com", "to": "contact@latelierdeslumieres.com", "ts": "2026-11-20T06:54:13.130772"}
+{"id": "PD20C-006", "brand": "EKOBENTO", "domain": "ekobento.com", "to": "hello@ekobento.com", "ts": "2026-11-20T06:54:13.130777"}
+{"id": "PD20C-007", "brand": "Sodiel (Entreprise Mitri)", "domain": "sodiel.com", "to": "info@sodiel.com", "ts": "2026-11-20T06:54:13.130780"}
+{"id": "PD20C-008", "brand": "SubTea'l", "domain": "subteal.fr", "to": "contact@subteal.fr", "ts": "2026-11-20T06:54:13.130784"}
+{"id": "PD20C-009", "brand": "bily design", "domain": "bilydesign.com", "to": "contact@bilydesign.com", "ts": "2026-11-20T06:54:13.130787"}
+{"id": "PD20C-010", "brand": "Obélie", "domain": "obelie.fr", "to": "contact@obelie.fr", "ts": "2026-11-20T06:54:13.130790"}
+{"id": "PD20C-011", "brand": "Little balance", "domain": "littlebalance.net", "to": "balancy@littlebalance.fr", "ts": "2026-11-20T06:55:00.587607"}
+{"id": "PD20C-012", "brand": "Jaym", "domain": "jaym.shop", "to": "contact@jaym.shop", "ts": "2026-11-20T06:55:00.587643"}
+{"id": "PD20C-013", "brand": "LouYou", "domain": "louyou.fr", "to": "hello@louyou.fr", "ts": "2026-11-20T06:55:00.587653"}
+{"id": "PD20C-014", "brand": "The Post Trace", "domain": "thepostrace.com", "to": "contact@thepostrace.com", "ts": "2026-11-20T06:55:00.587658"}
+{"id": "PD20C-015", "brand": "Kitchys", "domain": "kitchys.fr", "to": "contact@kitchys.fr", "ts": "2026-11-20T06:55:00.587662", "bounced": true}
+{"id": "PD20C-016", "brand": "Litogami", "domain": "litogami.com", "to": "info@litogami.com", "ts": "2026-11-20T06:55:00.587665"}
+{"id": "PD20C-017", "brand": "SiebSachen", "domain": "siebsachen.ch", "to": "info@siebsachen.ch", "ts": "2026-11-20T06:55:00.587668"}
+{"id": "PD20C-018", "brand": "Studio Nume", "domain": "studio-nume.ch", "to": "hallo@studio-nume.ch", "ts": "2026-11-20T06:55:00.587672"}
+{"id": "PD20C-019", "brand": "YUKKA Handwerk", "domain": "yukka.ch", "to": "info@yukka.ch", "ts": "2026-11-20T06:55:07.086172"}
+{"id": "PD20C-020", "brand": "Noser-Inox", "domain": "noser-inox.com", "to": "info@noser-inox.com", "ts": "2026-11-20T06:55:07.086226"}
+{"id": "PD20C-021", "brand": "WALKEY", "domain": "walkey.me", "to": "order@walkey.me", "ts": "2026-11-20T06:56:06.382529"}
+{"id": "PD20C-022", "brand": "Glaslabor", "domain": "glaslabor.ch", "to": "info@glaslabor.ch", "ts": "2026-11-20T06:56:06.382571"}
+{"id": "PD20C-023", "brand": "Allesmacherei", "domain": "allesmacherei.ch", "to": "info@allesmacherei.ch", "ts": "2026-11-20T06:56:06.382581"}
+{"id": "PD20C-024", "brand": "OÈST Ateliers", "domain": "oest-ateliers.fr", "to": "contact@oest-ateliers.fr", "ts": "2026-11-20T06:56:06.382586"}
+{"id": "PD20C-025", "brand": "Samadoyo", "domain": "samadoyo.ch", "to": "hello@samadoyo.ch", "ts": "2026-11-20T06:56:06.382591"}
+{"id": "PD20C-026", "brand": "Tweezy", "domain": "tweezy.ch", "to": "info@tweezy.ch", "ts": "2026-11-20T06:56:14.512099"}
+{"id": "PD20C-027", "brand": "Avenwood", "domain": "avenwood.ch", "to": "info@avenwood.ch", "ts": "2026-11-20T06:56:14.512132"}
+{"id": "PD20C-028", "brand": "Brändi", "domain": "braendi.ch", "to": "info@braendi.ch", "ts": "2026-11-20T06:56:14.512142"}
+{"id": "PD20C-029", "brand": "Alpen Swiss Tools", "domain": "alpenswisstools.com", "to": "contact@alpen.tools", "ts": "2026-11-20T06:56:14.512148"}
+{"id": "PD20C-030", "brand": "individo", "domain": "individo.ch", "to": "info@individo.ch", "ts": "2026-11-20T06:56:14.512152"}
+{"id": "PD20C-031", "brand": "Jungo Design", "domain": "jungo-shop.ch", "to": "info@jungo-design.ch", "ts": "2026-11-20T06:57:12.492322"}
+{"id": "PD20C-032", "brand": "Wildbiene + Partner", "domain": "wildbieneundpartner.ch", "to": "info@wildbieneundpartner.ch", "ts": "2026-11-20T06:57:12.492367"}
+{"id": "PD20C-033", "brand": "Forster Home", "domain": "forsterhome.ch", "to": "info@forsterhome.ch", "ts": "2026-11-20T06:57:12.492378"}
+{"id": "PD20C-034", "brand": "velokiste", "domain": "velokiste.ch", "to": "hallo@velokiste.ch", "ts": "2026-11-20T06:57:12.492384"}
+{"id": "PD20C-035", "brand": "Jungle Games", "domain": "jungle-games.ch", "to": "info@jungle-games.ch", "ts": "2026-11-20T06:57:12.492388"}
+{"id": "PD20C-036", "brand": "NUZZLE", "domain": "nuzzle.ch", "to": "hello@nuzzle.ch", "ts": "2026-11-20T06:57:12.492393"}
+{"id": "PD20C-037", "brand": "PFOTE", "domain": "pfote.ch", "to": "info@xelo.ch", "ts": "2026-11-20T06:57:12.492397"}
+{"id": "PD20C-038", "brand": "La Mia", "domain": "la-mia.ch", "to": "info@la-mia.ch", "ts": "2026-11-20T06:57:12.492401"}
+{"id": "PD20D-001", "brand": "Bloom Candles", "domain": "bloomcandles.ch", "to": "info@bloomcandles.ch", "ts": "2026-11-20T07:01:40.311854"}
+{"id": "PD20D-002", "brand": "1990 Candles", "domain": "1990candles.com", "to": "info@1990candles.com", "ts": "2026-11-20T07:01:40.311891"}
+{"id": "PD20D-003", "brand": "Bleu Blanc Course", "domain": "bleublanccourse.fr", "to": "adv@bleublanccourse.fr", "ts": "2026-11-20T07:01:40.311901"}
+{"id": "PD20D-004", "brand": "Platonia Games", "domain": "platoniagames.com", "to": "contact@platoniagames.com", "ts": "2026-11-20T07:01:40.311907"}
+{"id": "PD20D-005", "brand": "Detoximix", "domain": "detoximix.com", "to": "contact@sd-corp.fr", "ts": "2026-11-20T07:01:40.311912"}
+{"id": "PD20D-006", "brand": "Megableu", "domain": "megableu.com", "to": "info@megableu.fr", "ts": "2026-11-20T07:01:40.311916"}
+{"id": "PD20D-007", "brand": "Yogamatata", "domain": "yogamatata.fr", "to": "contact@yogamatata.fr", "ts": "2026-11-20T07:01:40.311921"}
+{"id": "PD20D-008", "brand": "Côté KUBE", "domain": "cotekube.fr", "to": "contact@cotekube.fr", "ts": "2026-11-20T07:01:40.311924"}
+{"id": "PD20D-009", "brand": "Chat Perché", "domain": "chatperche.fr", "to": "contact@chatperche.fr", "ts": "2026-11-20T07:01:40.311928"}
+{"id": "PD20D-010", "brand": "My 365", "domain": "my365.fr", "to": "hello@my365.fr", "ts": "2026-11-20T07:01:40.311932"}
+{"id": "PD20D-011", "brand": "La Fille des Carnets", "domain": "lafilledescarnets.com", "to": "contact@lafilledescarnets.com", "ts": "2026-11-20T07:02:39.351428"}
+{"id": "PD20D-012", "brand": "Achamana", "domain": "achamana.com", "to": "contact@achamana.com", "ts": "2026-11-20T07:02:39.351471"}
+{"id": "PD20D-013", "brand": "Monsieur Papier", "domain": "monsieurpapier.fr", "to": "contact@monsieurpapier.fr", "ts": "2026-11-20T07:02:39.351509"}
+{"id": "PD20D-014", "brand": "Hercule Studio", "domain": "hercule-studio.com", "to": "contact@hercule-studio.com", "ts": "2026-11-20T07:02:39.351518"}
+{"id": "PD20D-015", "brand": "Papier Merveille", "domain": "papiermerveille.com", "to": "hello@papiermerveille.com", "ts": "2026-11-20T07:02:39.351523"}
+{"id": "PD20D-016", "brand": "Jeux Faugère", "domain": "jeuxfaugere.com", "to": "contact@jeuxfaugere.com", "ts": "2026-11-20T07:02:49.598645"}
+{"id": "PD20D-017", "brand": "Ocean Clock", "domain": "oceanclock.com", "to": "contact@oceanclock.com", "ts": "2026-11-20T07:02:49.598690"}
+{"id": "PD20D-018", "brand": "Aquavie", "domain": "aquavie.fr", "to": "contact@aquavie.fr", "ts": "2026-11-20T07:02:49.598701"}
+{"id": "PD20D-019", "brand": "Hello Kit", "domain": "hello-kit.fr", "to": "bonjour@hello-kit.fr", "ts": "2026-11-20T07:02:49.598707"}
+{"id": "PD20D-020", "brand": "Au Lutin des Bois", "domain": "aulutindesbois.fr", "to": "contact@aulutindesbois.fr", "ts": "2026-11-20T07:02:49.598712"}
+{"id": "PD20D-021", "brand": "Rat Couture", "domain": "ratcouture.fr", "to": "contact@ratcouture.fr", "ts": "2026-11-20T07:03:22.199549"}
+{"id": "PD20D-022", "brand": "Atelier POUPE", "domain": "atelierpoupe.com", "to": "contact@atelierpoupe.com", "ts": "2026-11-20T07:03:22.199595"}
+{"id": "PD20D-023", "brand": "Ma Petite Ourse", "domain": "mapetiteourse.fr", "to": "contact@mapetiteourse.fr", "ts": "2026-11-20T07:03:22.199605"}
+{"id": "PD20D-024", "brand": "Roxane au Monde Céramique", "domain": "roxaneaumonde.fr", "to": "contact@roxaneaumonde.fr", "ts": "2026-11-20T07:03:22.199612"}
+{"id": "PD20D-025", "brand": "Mon Carré Créatif", "domain": "moncarrecreatif.fr", "to": "contact@moncarrecreatif.fr", "ts": "2026-11-20T07:03:22.199617"}
+{"id": "PD20D-026", "brand": "Le Grenier Ludique", "domain": "legrenierludique.fr", "to": "contact@legrenierludique.fr", "ts": "2026-11-20T07:04:23.703990"}
+{"id": "PD20D-027", "brand": "NitroSport", "domain": "nitrosport.ch", "to": "service@nitrosport.ch", "ts": "2026-11-20T07:04:23.704046"}
+{"id": "PD20D-028", "brand": "naturalNote", "domain": "naturalnote.ch", "to": "info@naturalnote.ch", "ts": "2026-11-20T07:04:23.704059"}
+{"id": "PD20D-029", "brand": "Bonilax", "domain": "bonilax.ch", "to": "info@bonilax.ch", "ts": "2026-11-20T07:04:23.704067"}
+{"id": "PD20D-030", "brand": "Bergfink", "domain": "bergfink.ch", "to": "info@bergfink.ch", "ts": "2026-11-20T07:04:23.704072"}
+{"id": "PD20D-031", "brand": "Pudol", "domain": "pudol.ch", "to": "info@pudol.ch", "ts": "2026-11-20T07:04:30.887606"}
+{"id": "PD20D-032", "brand": "em kraft", "domain": "emkraft.ch", "to": "info@emkraft.ch", "ts": "2026-11-20T07:04:30.887660"}
+{"id": "PD20D-033", "brand": "EcoClean Homeline", "domain": "ecocleanhomeline.ch", "to": "hello@ecocleanhomeline.ch", "ts": "2026-11-20T07:04:30.887674"}
+{"id": "PD20D-034", "brand": "cwirbelwind", "domain": "cwirbelwind.ch", "to": "info@cwirbelwind.ch", "ts": "2026-11-20T07:04:30.887683"}
+{"id": "PD20D-035", "brand": "VISION ONE", "domain": "vision-one.ch", "to": "info@vision-one.ch", "ts": "2026-11-20T07:04:30.887689"}
+{"id": "PD20D-036", "brand": "Fit-Bock", "domain": "fit-bock.ch", "to": "info@fit-bock.ch", "ts": "2026-11-20T07:04:57.613757"}
+{"id": "PD20D-037", "brand": "cross equip", "domain": "crossequip.ch", "to": "info@crossequip.ch", "ts": "2026-11-20T07:04:57.613809"}
+{"id": "PD20D-038", "brand": "Truffe & Co", "domain": "truffeco.com", "to": "contact@truffeco.com", "ts": "2026-11-20T07:04:57.613822"}
+{"id": "PD20E-001", "brand": "Be Bees", "domain": "bebees.fr", "to": "contact@bebees.fr", "ts": "2026-11-20T07:13:56.342311"}
+{"id": "PD20E-002", "brand": "L'Embeillage", "domain": "lembeillage.fr", "to": "info@lembeillage.fr", "ts": "2026-11-20T07:13:56.342345"}
+{"id": "PD20E-003", "brand": "Amphore", "domain": "amphore.co", "to": "contact@amphore.co", "ts": "2026-11-20T07:13:56.342355"}
+{"id": "PD20E-004", "brand": "April Eleven", "domain": "aprileleven.fr", "to": "contact@aprileleven.fr", "ts": "2026-11-20T07:13:56.342360"}
+{"id": "PD20E-005", "brand": "Lili for Life", "domain": "liliforlife.com", "to": "contact@liliforlife.com", "ts": "2026-11-20T07:13:56.342365"}
+{"id": "PD20E-006", "brand": "Atelier Perceval", "domain": "couteau.com", "to": "contact@couteau.com", "ts": "2026-11-20T07:13:56.342369"}
+{"id": "PD20E-007", "brand": "Mellipou", "domain": "mellipou.com", "to": "contact@mellipou.com", "ts": "2026-11-20T07:13:56.342372"}
+{"id": "PD20E-008", "brand": "Botaki", "domain": "botaki.fr", "to": "botalettres@botaki.fr", "ts": "2026-11-20T07:13:56.342377"}
+{"id": "PD20E-009", "brand": "La Maison du Hamac", "domain": "hamac.fr", "to": "contact@hamac.fr", "ts": "2026-11-20T07:13:56.342380"}
+{"id": "PD20E-010", "brand": "Miumy Bébé", "domain": "miumybebe.com", "to": "infos@miumybebe.com", "ts": "2026-11-20T07:13:56.342384"}
+{"id": "PD20E-011", "brand": "Cabanes à plumes", "domain": "cabanesaplumes.fr", "to": "contact@cabanesaplumes.fr", "ts": "2026-11-20T07:14:10.441316"}
+{"id": "PD20E-012", "brand": "Pailleinox", "domain": "pailleinox.fr", "to": "contact@pailleinox.fr", "ts": "2026-11-20T07:14:10.441375"}
+{"id": "PD20E-013", "brand": "Kopo Création", "domain": "kopocreation.fr", "to": "contact@kopocreation.fr", "ts": "2026-11-20T07:14:10.441388"}
+{"id": "PD20E-014", "brand": "Les Crodoux", "domain": "lescrodoux.com", "to": "contact@lescrodoux.com", "ts": "2026-11-20T07:14:10.441396"}
+{"id": "PD20E-015", "brand": "Millus Design", "domain": "millus-design.fr", "to": "hello@millus-design.fr", "ts": "2026-11-20T07:14:10.441403"}
+{"id": "PD20E-016", "brand": "Les Bulles de Sophie", "domain": "lesbullesdesophie.ch", "to": "info@lesbullesdesophie.ch", "ts": "2026-11-20T07:14:10.441408"}
+{"id": "PD20E-017", "brand": "HappyBottle", "domain": "happybottle.ch", "to": "contact@happybottle.ch", "ts": "2026-11-20T07:14:10.441414"}
+{"id": "PD20E-018", "brand": "KitoKids", "domain": "kitokids.com", "to": "contact@kitokids.com", "ts": "2026-11-20T07:14:10.441420"}
+{"id": "PD20E-019", "brand": "Idées Lumineuses", "domain": "ideeslumineuses.ch", "to": "info@temporel.ch", "ts": "2026-11-20T07:14:10.441426"}
+{"id": "PD20E-020", "brand": "matoupie.ch", "domain": "matoupie.ch", "to": "info@matoupie.ch", "ts": "2026-11-20T07:14:10.441431"}
+{"id": "PD20E-021", "brand": "L'Atelier du Vin", "domain": "atelierduvin.com", "to": "info@atelierduvin.com", "ts": "2026-11-20T07:15:51.508827"}
+{"id": "PD20E-022", "brand": "Ülfi", "domain": "ulfi.store", "to": "info@ulfi.store", "ts": "2026-11-20T07:15:51.508867"}
+{"id": "PD20E-023", "brand": "LCJ Nova", "domain": "lcjnova.fr", "to": "contact@lcjnova.fr", "ts": "2026-11-20T07:15:51.508877"}
+{"id": "PD20E-024", "brand": "Bonumer", "domain": "bonumer.com", "to": "hello@bonumer.com", "ts": "2026-11-20T07:15:51.508883"}
+{"id": "PD20E-025", "brand": "Halter Planet", "domain": "halterplanet.com", "to": "contact@halterplanet.fr", "ts": "2026-11-20T07:15:51.508886"}
+{"id": "PD20E-026", "brand": "Arbor Design", "domain": "arbordesign.ch", "to": "info@arbordesign.ch", "ts": "2026-11-20T07:15:51.508890"}
+{"id": "PD20E-027", "brand": "B&B LEDesign", "domain": "bbled.ch", "to": "info@bbled.ch", "ts": "2026-11-20T07:15:51.508894"}
+{"id": "PD20E-028", "brand": "Artnic Leuchtenmanufaktur", "domain": "artnic.ch", "to": "info@artnic.ch", "ts": "2026-11-20T07:15:51.508897"}
+{"id": "PD20E-029", "brand": "Wood and Light", "domain": "wood-and-light.ch", "to": "info@woodandlight.ch", "ts": "2026-11-20T07:15:51.508901"}
+{"id": "PD20E-030", "brand": "mygarden", "domain": "mygarden.ch", "to": "info@mygarden.ch", "ts": "2026-11-20T07:15:51.508904"}
+{"id": "PD20E-031", "brand": "SOLOS", "domain": "sol-os.ch", "to": "admin@sol-os.ch", "ts": "2026-11-20T07:16:01.326071"}
+{"id": "PD20E-032", "brand": "Gonchar", "domain": "gonchar.ch", "to": "info@gonchar.ch", "ts": "2026-11-20T07:16:01.326114"}
+{"id": "PD20E-033", "brand": "Klötzli Messerschmiede", "domain": "klotzli.com", "to": "info@klotzli.com", "ts": "2026-11-20T07:16:01.326127"}
+{"id": "PD20E-034", "brand": "MountainBock", "domain": "mountainbock.ch", "to": "shop@mountainbock.ch", "ts": "2026-11-20T07:16:01.326136"}
+{"id": "PD20E-035", "brand": "mixyourCANDLE", "domain": "mixyourcandle.ch", "to": "info@mixyourcandle.ch", "ts": "2026-11-20T07:16:01.326143"}
+{"id": "PD20E-036", "brand": "Hongler Kerzen", "domain": "hongler-kerzen.ch", "to": "info@hongler.ch", "ts": "2026-11-20T07:16:01.326148"}
+{"id": "PD20E-037", "brand": "Baurelia", "domain": "baurelia.ch", "to": "info@baurelia.ch", "ts": "2026-11-20T07:16:01.326153"}
+{"id": "PD20E-038", "brand": "TTM Raclette", "domain": "ttmsa.ch", "to": "info@ttmsa.ch", "ts": "2026-11-20T07:16:01.326158"}
+{"id": "PD20E-039", "brand": "böörds Tütenhüter", "domain": "boeoerds.ch", "to": "info@boeoerds.ch", "ts": "2026-11-20T07:16:01.326163"}
+{"id": "PD20F-001", "brand": "Field & Fish", "domain": "fieldandfish.com", "to": "info@fieldandfish.com", "ts": "2026-11-20T07:28:13.785819"}
+{"id": "PD20F-002", "brand": "Mallow", "domain": "mallow.fr", "to": "hello@mallow.fr", "ts": "2026-11-20T07:28:13.785860"}
+{"id": "PD20F-003", "brand": "Ontrack", "domain": "ontrack.shop", "to": "hello@ontrack.shop", "ts": "2026-11-20T07:28:13.785870"}
+{"id": "PD20F-004", "brand": "Maison Joliette", "domain": "maisonjoliette.fr", "to": "contact@maisonjoliette.fr", "ts": "2026-11-20T07:28:13.785876"}
+{"id": "PD20F-005", "brand": "Trashboard", "domain": "trashboard.fr", "to": "contact@trashboard.fr", "ts": "2026-11-20T07:28:13.785880"}
+{"id": "PD20F-006", "brand": "PolsterHeld", "domain": "polsterheld.ch", "to": "info@polsterheld.ch", "ts": "2026-11-20T07:29:17.442085"}
+{"id": "PD20F-007", "brand": "Matcha and Friends", "domain": "matchaandfriends.ch", "to": "info@matchafriends.com", "ts": "2026-11-20T07:29:17.442128"}
+{"id": "PD20F-008", "brand": "Wepot", "domain": "wepot.ch", "to": "contact@wepot.ch", "ts": "2026-11-20T07:29:17.442138"}
+{"id": "PD20F-009", "brand": "Bag'Era", "domain": "bagera.bike", "to": "contact@bagera.bike", "ts": "2026-11-20T07:29:17.442143"}
+{"id": "PD20F-010", "brand": "Petite Tortue", "domain": "petite-tortue.fr", "to": "contact@petite-tortue.fr", "ts": "2026-11-20T07:29:17.442147"}
+{"id": "PD20F-011", "brand": "Sohotree", "domain": "sohotree.ch", "to": "hello@sohotree.ch", "ts": "2026-11-20T07:29:17.442151"}
+{"id": "PD20F-012", "brand": "Lumerix", "domain": "lumerix.ch", "to": "support@lumerix.ch", "ts": "2026-11-20T07:29:17.442155"}
+{"id": "PD20F-013", "brand": "Eliobot", "domain": "eliobot.com", "to": "contact@eliobot.com", "ts": "2026-11-20T07:29:17.442158"}
+{"id": "PD20F-014", "brand": "Lixee", "domain": "lixee.fr", "to": "contact@lixee.fr", "ts": "2026-11-20T07:29:17.442161"}
+{"id": "PD20F-015", "brand": "Sloli", "domain": "sloli-editions.com", "to": "contact@sloli-editions.com", "ts": "2026-11-20T10:31:02.990262"}
+{"id": "PD20F-016", "brand": "Weejoo", "domain": "weejoo.fr", "to": "contact@weejoo.fr", "ts": "2026-11-20T10:31:02.990885"}
+{"id": "PD20F-017", "brand": "Jolihuit", "domain": "jolihuit.com", "to": "bonjour@jolihuit.com", "ts": "2026-11-20T10:31:02.990899"}
+{"id": "PD20F-018", "brand": "Carpeto", "domain": "play-carpeto.fr", "to": "contact@play-carpeto.com", "ts": "2026-11-20T10:31:02.990906"}
+{"id": "PD20F-019", "brand": "Aparté", "domain": "puzzlesaparte.fr", "to": "contact@puzzlesaparte.fr", "ts": "2026-11-20T10:31:02.990911"}
+{"id": "PD20F-020", "brand": "Nid'images", "domain": "nidimages.ch", "to": "info@nidimages.ch", "ts": "2026-11-20T10:32:29.397890"}
+{"id": "PD20F-021", "brand": "MamaToyz", "domain": "mamatoyz.ch", "to": "info@mamatoyz.ch", "ts": "2026-11-20T10:32:29.397939"}
+{"id": "PD20F-022", "brand": "Rolli-Coaster", "domain": "rolli-coaster.ch", "to": "info@rolli-coaster.ch", "ts": "2026-11-20T10:32:29.397954"}
+{"id": "PD20F-023", "brand": "Petit Menhir", "domain": "petitmenhir.com", "to": "contact@petitmenhir.com", "ts": "2026-11-20T10:32:29.397963"}
+{"id": "PD20F-024", "brand": "My unique story", "domain": "myuniquestory.com", "to": "info@myuniquestory.com", "ts": "2026-11-20T10:32:29.397971"}
+{"id": "PD20F-025", "brand": "Woodrock", "domain": "woodrock.fr", "to": "contact@woodrock.fr", "ts": "2026-11-20T10:33:04.929611"}
+{"id": "PD20F-026", "brand": "Abyss Climbing", "domain": "abyssclimbing.com", "to": "contact@abyssclimbing.com", "ts": "2026-11-20T10:33:04.929660"}
+{"id": "PD20F-027", "brand": "Magala Climbing Holds", "domain": "magalaclimbingholds.com", "to": "contact@magalaclimbingholds.com", "ts": "2026-11-20T10:33:04.929675"}
+{"id": "PD20F-028", "brand": "Zem Climbing", "domain": "zem-climbing.com", "to": "info@zem-climbing.com", "ts": "2026-11-20T10:33:04.929685"}
+{"id": "PD20F-029", "brand": "ADRN", "domain": "adrn-sup.com", "to": "contact@adrn-sup.com", "ts": "2026-11-20T10:33:04.929717"}
+{"id": "PD20F-030", "brand": "Bamboostar", "domain": "bamboostar.fr", "to": "contact@bamboostar.fr", "ts": "2026-11-20T10:33:38.699336"}
+{"id": "PD20F-031", "brand": "Oceanperf", "domain": "oceanperf.com", "to": "info@oceanperf.com", "ts": "2026-11-20T10:33:38.699370"}
+{"id": "PD20F-032", "brand": "La Boule Bleue", "domain": "laboulebleue.fr", "to": "info@laboulebleue.fr", "ts": "2026-11-20T10:33:38.699381"}
+{"id": "PD20F-033", "brand": "La Schmolle", "domain": "laschmolle.com", "to": "contact@laschmolle.com", "ts": "2026-11-20T10:33:38.699388"}
+{"id": "PD20F-034", "brand": "La Roda French Riviera", "domain": "larodafrenchriviera.com", "to": "serviceclient@larodafrenchriviera.com", "ts": "2026-11-20T10:33:38.699393"}
+{"id": "PD20F-035", "brand": "Skinup Sport", "domain": "skinupsport.com", "to": "hello@skinupsport.com", "ts": "2026-11-20T10:34:10.516573"}
+{"id": "PD20F-036", "brand": "Wantalis", "domain": "wantalis.fr", "to": "support@wantalis.fr", "ts": "2026-11-20T10:34:10.516622", "bounced": true}
+{"id": "PD20F-037", "brand": "Seven Suns", "domain": "sevensuns.fr", "to": "info@sevensuns.fr", "ts": "2026-11-20T10:34:10.516637"}
+{"id": "PD20F-038", "brand": "Quille Molle", "domain": "quillemolle.fr", "to": "contact@quillemolle.fr", "ts": "2026-11-20T10:34:10.516645"}
+{"id": "PD20F-039", "brand": "Cornhole Start", "domain": "cornhole-start.com", "to": "contact@cornhole-start.com", "ts": "2026-11-20T10:34:10.516652"}
+{"id": "PD20F-040", "brand": "LA12 Jeux", "domain": "la12-jeux.fr", "to": "contact@la12-jeux.fr", "ts": "2026-11-20T10:34:21.040046"}
+{"id": "PD20F-041", "brand": "Cornhole Academy", "domain": "cornholeacademy.fr", "to": "contact@cornholeacademy.fr", "ts": "2026-11-20T10:34:21.040092"}
+{"id": "PD20F-042", "brand": "Envergure Cerfs-Volants", "domain": "envergure.com", "to": "info@envergure.com", "ts": "2026-11-20T10:34:21.040107"}
+{"id": "PD20F-043", "brand": "La Maison du Billard", "domain": "lamaisondubillard.com", "to": "contact@lamaisondubillard.com", "ts": "2026-11-20T10:34:21.040116"}
