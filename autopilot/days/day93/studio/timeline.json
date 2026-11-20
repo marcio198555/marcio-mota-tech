@@ -1,0 +1,117 @@
+{
+ "duration": 68.745,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ta Plèïstéïcheune cinq dort en mode repos, tout activé.",
+   "start": 0.12,
+   "end": 3.94,
+   "display": "Toi : ta PS5 dort en repos, | tout activé."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, réglage par défaut. Attends : combien il gagne par an ?",
+   "start": 4.04,
+   "end": 8.166,
+   "display": "Ton collègue : réglage par défaut. | Attends : combien il gagne par an ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, l'écart en francs. Et un piège.",
+   "start": 8.266,
+   "end": 11.265,
+   "display": "À la fin : l'écart en francs. | Et un piège."
+  },
+  {
+   "id": "s04",
+   "text": "Sony publie ses mesures, modèle cé-èf-i deux mille seize.",
+   "start": 11.365,
+   "end": 16.146,
+   "display": "Mesures publiées par Sony : | PS5 CFI-2016."
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout : par défaut, zéro virgule trente et un watt.",
+   "start": 16.246,
+   "end": 20.031,
+   "display": "Et ce n'est pas tout : | repos par défaut, 0,31 W."
+  },
+  {
+   "id": "s06",
+   "text": "Tout activé : trois virgule huit watts.",
+   "start": 20.131,
+   "end": 22.891,
+   "display": "Repos, tout activé : 3,8 W."
+  },
+  {
+   "id": "s07",
+   "text": "Environ douze fois plus que ton collègue.",
+   "start": 22.991,
+   "end": 26.507,
+   "display": "Environ 12 fois plus | que ton collègue."
+  },
+  {
+   "id": "s08",
+   "text": "Le piège : une option activée, et elle ne descend plus sous zéro virgule cinq watt.",
+   "start": 26.607,
+   "end": 31.23,
+   "display": "Le piège : une option activée, | et elle ne descend plus | sous 0,5 W."
+  },
+  {
+   "id": "s09",
+   "text": "Surprise : une heure de jeu vaut environ cinquante-sept heures de repos tout activé.",
+   "start": 31.33,
+   "end": 36.193,
+   "display": "Surprise : 1 h de jeu (216,8 W) | ≈ 57 h de repos tout activé."
+  },
+  {
+   "id": "s10",
+   "text": "Conseil : Paramètres, Système, Gestion de l'alimentation, Fonctionnalités disponibles en mode repos.",
+   "start": 36.293,
+   "end": 42.555,
+   "display": "Paramètres > Système > | Gestion de l'alimentation > | Fonctionnalités disponibles en mode repos"
+  },
+  {
+   "id": "s11",
+   "text": "Désactive le superflu.",
+   "start": 42.655,
+   "end": 45.313,
+   "display": "Désactive le superflu."
+  },
+  {
+   "id": "s12",
+   "text": "Ta console dort avec quelles options ? Écris-le en commentaire.",
+   "start": 45.413,
+   "end": 49.65,
+   "display": "Ta console dort avec quelles options ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Exemple : vingt heures de repos par jour, vingt-sept virgule sept centimes le kilowattheure.",
+   "start": 49.75,
+   "end": 56.129,
+   "display": "Exemple : 20 h de repos par jour, | 27,7 ct./kWh (ElCom, hors TVA)."
+  },
+  {
+   "id": "s14",
+   "text": "Tout activé : sept francs soixante-huit par an. Par défaut : soixante-trois centimes.",
+   "start": 56.229,
+   "end": 61.804,
+   "display": "Tout activé : 7,68 CHF/an. | Par défaut : 0,63 CHF/an."
+  },
+  {
+   "id": "s15",
+   "text": "L'écart : environ sept francs par an.",
+   "start": 61.904,
+   "end": 64.364,
+   "display": "L'écart : environ 7 CHF par an."
+  },
+  {
+   "id": "s16",
+   "text": "Et abonne-toi : demain, un nouveau chiffre vérifié.",
+   "start": 64.464,
+   "end": 68.445,
+   "display": "Abonne-toi : demain, | un nouveau chiffre vérifié."
+  }
+ ]
+}
