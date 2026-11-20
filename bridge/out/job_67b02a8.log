@@ -1,0 +1,72 @@
++ export -f early_push
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/siwis/medium/fr_FR-siwis-medium
++ n=fr_FR-siwis-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx.json
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+skip day01
+skip day01fix
+skip day02
+skip day02cta
+skip day03
+skip day03cta
+skip day04
+skip day04cta
+skip day04fix
+skip day05
+skip day05cta
+skip day05fix
+skip day06
+skip day06cta
+skip day06cta2
+skip day07
+skip day07cta
+skip day07fix
+skip day08
+skip day08cta
+skip day09
+skip day09fix
+skip day12
+skip day12fix
+skip day13
+skip day13fix
+skip day16
+skip day17
+skip day20
+skip day21
+skip day21fix
+skip day23
+skip day23b
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+asr autopilot/vo/day84_vo.wav -> Toi, ta vieille guirlande à ampoules reste allumée tout décembre. Ton collègue, sa guirlande LUD, pareil, qui paye combien à temps, à la fin, le geste qui peut diviser la facture par 4. D'abord, les watts écrits sur la fiche, chez un fabricant, 100 LUD, 3 watts. Une ancienne guirlande, miniature à incandescence, 42 watts en moyenne, selon le département américain de l'énergie. 14 fois plus, et ce 
+asr autopilot/vo/day85_vo.wav -> Toi, ton écran annonce une milliseconde, ton collègue, quatre millisecondes, lequel est le plus rapide ? À temps, à la fin, le logo qui mesure vraiment le flou. Souvent, c'est du gris à gris, un pixel qui change de gris. Et ce n'est pas tout, chez Dell, un écran annonce une milliseconde en mode extrême. En mode fast, quatre millisecondes et vous avez peut-être le même écran. Dell prévient, léger d
+asr autopilot/vo/day86_vo.wav -> Toi, ton sèche cheveux, 2000 watts, tourne 5 minutes par jour. Ton collègue, 15 minutes. Combien de plus par an à ton, à la fin, l'écart en francs ? Et exemple chez Babyliss, le power pro 2000 affiches, 2000 watts, soit 2 kilowatts. Et ce n'est pas tout, il faut le prix du courant. Median Elcom, 2026, 27,7 centimes, le kWh, Hortva. Exemple toi, 5 minutes par jour, à fond, toute l'année, environ 17
+asr autopilot/vo/day87_vo.wav -> Toi, ta montre affiche 14 jours d'autonomie, tu cours avec le GPS, ton collègue, même montre, sans GPS, qui recharge en premier. Attends, à la fin, ces heures de GPS selon l'affiche, exemple, la Masfit Bipsys, 14 jours en usage typique. Et ce n'est pas tout, typique, ça veut dire quoi ? Selon un Masfit, cadran fixe, écran allumé 5 minutes par jour et le GPS 3 fois 30 minutes par semaine, en usage 
++ early_push transcription
++ git config user.name 'github-actions[bot]'
++ git config user.email '41898283+github-actions[bot]@users.noreply.github.com'
++ git add -f bridge/out autopilot/tts/out autopilot/asr/out
