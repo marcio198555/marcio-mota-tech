@@ -1,0 +1,113 @@
+{
+ "job": "day88",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu préchauffes ton four à deux cents degrés.",
+   "file": "s01.wav",
+   "duration": 3.92,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue enfourne direct, four froid. Lequel a raison ?",
+   "file": "s02.wav",
+   "duration": 4.32,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, le préchauffage en francs par an.",
+   "file": "s03.wav",
+   "duration": 3.36,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Attends. Cuisinière et four : près de sept pour cent de l'électricité des ménages.",
+   "file": "s04.wav",
+   "duration": 6.16,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout. Exemple fédéral : un four classe A, cinquante litres.",
+   "file": "s05.wav",
+   "duration": 6.16,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Zéro virgule septante-deux kilowattheure par cuisson.",
+   "file": "s06.wav",
+   "duration": 4.36,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Selon SuisseEnergie, sans préchauffage, tu économises vingt pour cent d'énergie.",
+   "file": "s07.wav",
+   "duration": 6.6,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Ton collègue a raison : les gâteaux sont tout aussi bons.",
+   "file": "s08.wav",
+   "duration": 4.0,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Seuls quelques plats, comme les soufflés, réussissent mieux four chaud.",
+   "file": "s09.wav",
+   "duration": 4.04,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Deuxième surprise : la chaleur tournante économise quinze pour cent face à la voûte ou la sole.",
+   "file": "s10.wav",
+   "duration": 7.32,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Conseil : éteins le four cinq minutes avant la fin.",
+   "file": "s11.wav",
+   "duration": 3.36,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Tu préchauffes pour quel plat ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 4.0,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Promis. Exemple : cent cinquante cuissons par an, cent huit kilowattheures.",
+   "file": "s13.wav",
+   "duration": 5.8,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Moins vingt pour cent, à vingt-sept centimes sept : environ six francs par an.",
+   "file": "s14.wav",
+   "duration": 5.08,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Et abonne-toi : demain, ta clé u-èss-bé trois point deux… peut-être cinq gigabits seulement.",
+   "file": "s15.wav",
+   "duration": 6.72,
+   "rate": 24000
+  }
+ ],
+ "total": 75.2
+}
