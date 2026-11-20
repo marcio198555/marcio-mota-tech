@@ -1,116 +1,116 @@
 {
- "duration": 68.785,
+ "duration": 68.738,
  "segments": [
   {
    "id": "s01",
    "text": "Spo-ti-faï Premium. Toi, en Suisse : quinze francs nonante-cinq par mois.",
    "start": 0.12,
-   "end": 4.766,
+   "end": 4.77,
    "display": "Spotify Premium. | Toi, en Suisse : | 15.95 CHF par mois."
   },
   {
    "id": "s02",
    "text": "Ton collègue, en France, même abonnement. Qui paie le plus sur un an ?",
-   "start": 4.866,
-   "end": 9.66,
+   "start": 4.87,
+   "end": 9.669,
    "display": "Ton collègue, en France, | même abonnement. | Qui paie le plus sur un an ?"
   },
   {
    "id": "s03",
    "text": "À la fin, l'écart en francs sur douze mois.",
-   "start": 9.76,
-   "end": 12.483,
+   "start": 9.769,
+   "end": 12.494,
    "display": "À la fin : l'écart en francs | sur 12 mois."
   },
   {
    "id": "s04",
    "text": "Attends. Prix relevés le vingt novembre, sur les deux sites officiels.",
-   "start": 12.583,
-   "end": 17.564,
+   "start": 12.594,
+   "end": 17.58,
    "display": "Attends. Prix relevés le 20.11.2026, | sur les deux sites officiels."
   },
   {
    "id": "s05",
    "text": "France : douze euros quatorze par mois.",
-   "start": 17.664,
-   "end": 20.609,
+   "start": 17.68,
+   "end": 20.627,
    "display": "France : 12,14 € par mois."
   },
   {
    "id": "s06",
    "text": "Au cours de la Banque nationale : onze francs vingt-cinq.",
-   "start": 20.709,
-   "end": 24.138,
+   "start": 20.727,
+   "end": 24.159,
    "display": "Au cours de la BNS : | 11,25 CHF."
   },
   {
    "id": "s07",
    "text": "Donc toi, tu paies plus chaque mois.",
-   "start": 24.238,
-   "end": 27.2,
+   "start": 24.259,
+   "end": 27.225,
    "display": "Donc toi, | tu paies plus chaque mois."
   },
   {
    "id": "s08",
    "text": "Des deux côtés, un essai gratuit existe, seulement pour un premier abonnement.",
-   "start": 27.3,
-   "end": 31.342,
+   "start": 27.325,
+   "end": 31.37,
    "display": "Des deux côtés : un essai gratuit, | seulement pour un premier abonnement."
   },
   {
    "id": "s09",
    "text": "Deuxième surprise : en Famille, jusqu'à six comptes à la même adresse.",
-   "start": 31.442,
-   "end": 36.244,
+   "start": 31.47,
+   "end": 36.276,
    "display": "2e surprise : en Famille, | jusqu'à 6 comptes | à la même adresse."
   },
   {
    "id": "s10",
-   "text": "Suisse : vingt-six francs nonante-cinq. France : vingt et un euros vingt-quatre.",
-   "start": 36.344,
-   "end": 42.77,
+   "text": "Suisse : vingt-six francs nonante-cinq. France : vingt-et-un euros et vingt-quatre centimes.",
+   "start": 36.376,
+   "end": 42.7,
    "display": "Suisse : 26.95 CHF. | France : 21,24 €."
   },
   {
    "id": "s11",
    "text": "Là, l'écart dépasse sept francs par mois.",
-   "start": 42.87,
-   "end": 45.23,
+   "start": 42.8,
+   "end": 45.162,
    "display": "Là, l'écart dépasse | 7 francs par mois."
   },
   {
    "id": "s12",
    "text": "Conseil : à six, le Famille suisse fait moins de quatre francs cinquante par compte et par mois.",
-   "start": 45.33,
-   "end": 51.172,
+   "start": 45.262,
+   "end": 51.11,
    "display": "Conseil : à 6, le Famille suisse | fait moins de 4,50 CHF | par compte et par mois."
   },
   {
    "id": "s13",
    "text": "Toi, tu paies combien par mois ? Écris-le en commentaire.",
-   "start": 51.272,
-   "end": 54.955,
+   "start": 51.21,
+   "end": 54.897,
    "display": "Toi, tu paies combien par mois ? | Écris-le en commentaire."
   },
   {
    "id": "s14",
    "text": "Promis : sur un an, toi, cent nonante et un francs. Ton collègue, environ cent trente-cinq.",
-   "start": 55.055,
-   "end": 60.688,
+   "start": 54.997,
+   "end": 60.634,
    "display": "Promis : sur un an, toi, 191.40 CHF. | Ton collègue, environ 135."
   },
   {
    "id": "s15",
    "text": "L'écart : cinquante-six francs par an.",
-   "start": 60.788,
-   "end": 63.811,
+   "start": 60.734,
+   "end": 63.76,
    "display": "L'écart : 56 francs par an."
   },
   {
    "id": "s16",
    "text": "Et abonne-toi : demain, ton frigo classé B… vraiment moyen ?",
-   "start": 63.911,
-   "end": 68.485,
+   "start": 63.86,
+   "end": 68.438,
    "display": "Abonne-toi : demain, | ton frigo classé B… | vraiment moyen ?"
   }
  ]

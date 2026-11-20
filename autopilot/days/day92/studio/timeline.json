@@ -1,5 +1,5 @@
 {
- "duration": 65.088,
+ "duration": 65.993,
  "segments": [
   {
    "id": "s01",
@@ -66,44 +66,44 @@
   },
   {
    "id": "s10",
-   "text": "Surprise : selon Sanndisk, une partie de ce cache rétrécit quand le disque se remplit.",
+   "text": "Surprise : selon un autre fabricant, une partie de ce cache rétrécit quand le disque se remplit.",
    "start": 37.874,
-   "end": 44.098,
-   "display": "Surprise : selon Sandisk, | une partie de ce cache rétrécit | quand le disque se remplit."
+   "end": 45.004,
+   "display": "Surprise : selon un autre fabricant, | une partie de ce cache rétrécit | quand le disque se remplit."
   },
   {
    "id": "s11",
    "text": "Avant d'acheter, compare l'écriture, pas seulement la lecture.",
-   "start": 44.198,
-   "end": 47.747,
+   "start": 45.104,
+   "end": 48.652,
    "display": "Avant d'acheter : compare l'écriture, | pas seulement la lecture."
   },
   {
    "id": "s12",
    "text": "Ton èsse-èsse-dé fait combien de gigaoctets ? Écris-le en commentaire.",
-   "start": 47.847,
-   "end": 51.738,
+   "start": 48.752,
+   "end": 52.644,
    "display": "Ton SSD, combien de Go ? | Écris-le en commentaire."
   },
   {
    "id": "s13",
    "text": "Cache plein ? Selon Sébrennt, il passe à sa vitesse de base, plus lente.",
-   "start": 51.838,
-   "end": 56.505,
+   "start": 52.744,
+   "end": 57.411,
    "display": "Cache plein ? Selon Sabrent : | vitesse de base, plus lente."
   },
   {
    "id": "s14",
    "text": "La fiche ne dit pas laquelle. Au repos, elle revient.",
-   "start": 56.605,
-   "end": 59.948,
+   "start": 57.511,
+   "end": 60.853,
    "display": "La fiche ne dit pas laquelle. | Au repos, elle revient."
   },
   {
    "id": "s15",
    "text": "Et abonne-toi : demain, la lampe torche à dix mille lumens… mesurés comment ?",
-   "start": 60.048,
-   "end": 64.788,
+   "start": 60.953,
+   "end": 65.693,
    "display": "Abonne-toi : demain, | la lampe à 10 000 lumens… | mesurés comment ?"
   }
  ]

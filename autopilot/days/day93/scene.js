@@ -54,12 +54,12 @@
       // s01–s02 : image 0 — duel des deux consoles en repos + « ? CHF / an » qui pulse + pièces qui tombent à gauche
       block(ctx, t, 0, S('s03'), () => {
         const z = 1 + 0.06 * Math.sin(t * 4);
-        ctx.save(); ctx.translate(500, 350); ctx.scale(z, z);
-        text(ctx, '? CHF / an', 0, 0, { size: 128, weight: 900, family: F.mono, color: GOLD, stroke: 'rgba(0,0,0,0.6)', shadow: GOLD + '66', shadowBlur: 30 });
+        ctx.save(); ctx.translate(500, 385); ctx.scale(z, z);
+        text(ctx, '? CHF / an', 0, 0, { size: 120, weight: 900, family: F.mono, color: GOLD, stroke: 'rgba(0,0,0,0.6)', shadow: GOLD + '66', shadowBlur: 30 });
         ctx.restore();
-        text(ctx, 'PS5 en MODE REPOS', 500, 450, { size: 44, weight: 800, color: '#d8ccff' });
-        duelImage(ctx, t, { y0: 520, y1: 1080 });
-        if (t > S('s02')) stamp(ctx, 'ATTENDS', 725, 600, t, f('s02', 0.45), { size: 46, color: GOLD, rot: 0.06 });
+        text(ctx, 'PS5 en MODE REPOS', 500, 478, { size: 44, weight: 800, color: '#d8ccff' });
+        duelImage(ctx, t, { y0: 545, y1: 1080 });
+        if (t > S('s02')) stamp(ctx, 'ATTENDS', 725, 720, t, f('s02', 0.45), { size: 46, color: GOLD, rot: 0.06 });
         KIT.head(ctx, 'COMBIEN PAR AN ?', 1170, t, undefined, { size: 56, color: VIO, bg: 'rgba(169,139,255,0.18)' });
       });
       // s03 : promesse + piège
@@ -113,7 +113,7 @@
           toggle(ctx, 250, 0, on, { color: GOLD });
         });
         line(ctx, '1 option activée →', 500, 900, t, f('s08', 0.45), { size: 52, weight: 900, dx: 0 });
-        big(ctx, 'jamais sous 0,5 W', 500, 1020, t, f('s08', 0.6), { size: 84, color: RED, family: F.display });
+        big(ctx, 'plus sous 0,5 W', 500, 1020, t, f('s08', 0.6), { size: 84, color: RED, family: F.display });
       });
       // s09 : surprise — 1 h de jeu ≈ 57 h de repos tout activé
       block(ctx, t, S('s09'), S('s10'), () => {
@@ -121,7 +121,7 @@
         chip(ctx, '1 h DE JEU', 230, 470, { size: 38, color: WHITE });
         big(ctx, '216,8 W', 230, 600, t, S('s09') + 0.2, { size: 72, color: ORANGE });
         text(ctx, '≈', 500, 600, { size: 110, weight: 900, color: WHITE, alpha: clamp((t - f('s09', 0.35)) * 4) });
-        chip(ctx, 'REPOS TOUT ACTIVÉ', 760, 470, { size: 34, color: GOLD });
+        chip(ctx, 'REPOS TOUT ACTIVÉ', 760, 470, { size: 36, color: GOLD });
         big(ctx, '57 h', 770, 600, t, f('s09', 0.45), { size: 110, color: GOLD });
         clock(ctx, 740, 860, 120, (t - S('s09')) * 8, { color: GOLD });
         pop(ctx, t, S('s09') + 0.25, 260, 860, () => { roundRect(ctx, -110, -70, 220, 140, 24); ctx.fillStyle = '#26203f'; ctx.fill(); ctx.strokeStyle = ORANGE; ctx.lineWidth = 5; ctx.stroke(); text(ctx, '🎮', 0, 4, { size: 90, family: F.emoji, weight: 400 }); });
