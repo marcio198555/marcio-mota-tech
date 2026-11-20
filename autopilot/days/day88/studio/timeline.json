@@ -1,0 +1,110 @@
+{
+ "duration": 68.643,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, tu préchauffes ton four à deux cents degrés.",
+   "start": 0.12,
+   "end": 3.283,
+   "display": "Toi, tu préchauffes | ton four à 200 °C."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue enfourne direct, four froid. Lequel a raison ?",
+   "start": 3.383,
+   "end": 6.692,
+   "display": "Ton collègue enfourne direct, | four froid. | Lequel a raison ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, le préchauffage en francs par an.",
+   "start": 6.792,
+   "end": 9.955,
+   "display": "À la fin : le préchauffage | en francs par an."
+  },
+  {
+   "id": "s04",
+   "text": "Attends. Cuisinière et four : près de sept pour cent de l'électricité des ménages.",
+   "start": 10.055,
+   "end": 15.905,
+   "display": "Attends. Cuisinière et four : | près de 7 % de l'électricité | des ménages."
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout. Exemple fédéral : un four classe A, cinquante litres.",
+   "start": 16.005,
+   "end": 21.864,
+   "display": "Et ce n'est pas tout. | Exemple fédéral : | four classe A, 50 litres."
+  },
+  {
+   "id": "s06",
+   "text": "Zéro virgule septante-deux kilowattheure par cuisson.",
+   "start": 21.964,
+   "end": 26.113,
+   "display": "0,72 kWh par cuisson."
+  },
+  {
+   "id": "s07",
+   "text": "Selon SuisseEnergie, sans préchauffage, tu économises vingt pour cent d'énergie.",
+   "start": 26.213,
+   "end": 32.169,
+   "display": "SuisseEnergie : sans préchauffage, | tu économises 20 % d'énergie."
+  },
+  {
+   "id": "s08",
+   "text": "Ton collègue a raison : les gâteaux sont tout aussi bons.",
+   "start": 32.269,
+   "end": 35.122,
+   "display": "Ton collègue a raison : | les gâteaux sont tout aussi bons."
+  },
+  {
+   "id": "s09",
+   "text": "Seuls quelques plats, comme les soufflés, réussissent mieux four chaud.",
+   "start": 35.222,
+   "end": 39.111,
+   "display": "Seuls quelques plats, | comme les soufflés, | réussissent mieux four chaud."
+  },
+  {
+   "id": "s10",
+   "text": "Deuxième surprise : la chaleur tournante économise quinze pour cent face à la voûte ou la sole.",
+   "start": 39.211,
+   "end": 46.002,
+   "display": "2e surprise : chaleur tournante, | 15 % d'économie | face à voûte ou sole."
+  },
+  {
+   "id": "s11",
+   "text": "Conseil : éteins le four cinq minutes avant la fin.",
+   "start": 46.102,
+   "end": 48.85,
+   "display": "Conseil : éteins le four | 5 minutes avant la fin."
+  },
+  {
+   "id": "s12",
+   "text": "Tu préchauffes pour quel plat ? Écris-le en commentaire.",
+   "start": 48.95,
+   "end": 52.684,
+   "display": "Tu préchauffes pour quel plat ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Promis. Exemple : cent cinquante cuissons par an, cent huit kilowattheures.",
+   "start": 52.784,
+   "end": 58.296,
+   "display": "Promis. Exemple : 150 cuissons | par an = 108 kWh."
+  },
+  {
+   "id": "s14",
+   "text": "Moins vingt pour cent, à vingt-sept centimes sept : environ six francs par an.",
+   "start": 58.396,
+   "end": 62.654,
+   "display": "−20 %, à 27,7 ct. : | environ 6 francs par an."
+  },
+  {
+   "id": "s15",
+   "text": "Et abonne-toi : demain, ta clé u-èss-bé trois point deux… peut-être cinq gigabits seulement.",
+   "start": 62.754,
+   "end": 68.343,
+   "display": "Abonne-toi : demain, ta clé « USB 3.2 »… | peut-être 5 Gbit/s seulement."
+  }
+ ]
+}

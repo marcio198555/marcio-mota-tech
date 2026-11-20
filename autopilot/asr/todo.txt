@@ -111,3 +111,4 @@ autopilot/vo/day84_vo.wav
 autopilot/vo/day85_vo.wav
 autopilot/vo/day86_vo.wav
 autopilot/vo/day87_vo.wav
+autopilot/vo/day88_vo.wav
