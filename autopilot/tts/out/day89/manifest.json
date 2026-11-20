@@ -1,0 +1,120 @@
+{
+ "job": "day89",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Spo-ti-faï Premium. Toi, en Suisse : quinze francs nonante-cinq par mois.",
+   "file": "s01.wav",
+   "duration": 5.12,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, en France, même abonnement. Qui paie le plus sur un an ?",
+   "file": "s02.wav",
+   "duration": 5.4,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, l'écart en francs sur douze mois.",
+   "file": "s03.wav",
+   "duration": 3.4,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Attends. Prix relevés le vingt novembre, sur les deux sites officiels.",
+   "file": "s04.wav",
+   "duration": 5.52,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "France : douze euros quatorze par mois.",
+   "file": "s05.wav",
+   "duration": 4.0,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Au cours de la Banque nationale : onze francs vingt-cinq.",
+   "file": "s06.wav",
+   "duration": 4.2,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Et ce n'est pas tout : toi, tu paies plus chaque mois.",
+   "file": "s07.wav",
+   "duration": 7.48,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Même offre des deux côtés : trois mois à zéro, pour un premier essai.",
+   "file": "s08.wav",
+   "duration": 5.6,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : en Famille, jusqu'à six comptes à la même adresse.",
+   "file": "s09.wav",
+   "duration": 5.32,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Suisse : vingt-six francs nonante-cinq. France : vingt et un euros vingt-quatre.",
+   "file": "s10.wav",
+   "duration": 7.12,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Là, l'écart dépasse sept francs par mois.",
+   "file": "s11.wav",
+   "duration": 2.96,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Conseil : à six, le Famille suisse fait moins de quatre francs cinquante par compte et par mois.",
+   "file": "s12.wav",
+   "duration": 6.56,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Toi, tu paies combien par mois ? Écris-le en commentaire.",
+   "file": "s13.wav",
+   "duration": 4.12,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Promis : sur un an, toi, cent nonante et un francs. Ton collègue, environ cent trente-cinq.",
+   "file": "s14.wav",
+   "duration": 6.56,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "L'écart : cinquante-six francs par an.",
+   "file": "s15.wav",
+   "duration": 3.36,
+   "rate": 24000
+  },
+  {
+   "id": "s16",
+   "text": "Et abonne-toi : demain, ton frigo classé B… vraiment moyen ?",
+   "file": "s16.wav",
+   "duration": 5.08,
+   "rate": 24000
+  }
+ ],
+ "total": 81.8
+}
