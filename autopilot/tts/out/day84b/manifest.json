@@ -1,0 +1,36 @@
+{
+ "job": "day84b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s02",
+   "text": "Ton collègue, sa guirlande à diodes, pareil. Qui paie combien ?",
+   "file": "s02.wav",
+   "duration": 4.76,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Chez un fabricant, cent diodes : trois watts.",
+   "file": "s05.wav",
+   "duration": 2.96,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Au tarif médian suisse, vingt-sept virgule sept centimes le kilowattheure hors taxe, la guirlande à diodes coûte soixante-deux centimes.",
+   "file": "s09.wav",
+   "duration": 9.92,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Promis : exemple, six heures par soir avec minuterie. La guirlande à diodes coûte quinze centimes pour tout décembre.",
+   "file": "s13.wav",
+   "duration": 8.76,
+   "rate": 24000
+  }
+ ],
+ "total": 26.4
+}
