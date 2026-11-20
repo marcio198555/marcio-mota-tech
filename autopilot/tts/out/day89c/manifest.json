@@ -1,0 +1,15 @@
+{
+ "job": "day89c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s10",
+   "text": "Suisse : vingt-six francs nonante-cinq. France : vingt-et-un euros et vingt-quatre centimes.",
+   "file": "s10.wav",
+   "duration": 7.56,
+   "rate": 24000
+  }
+ ],
+ "total": 7.56
+}
