@@ -100,6 +100,7 @@
       // s11 — écriture 60 Mo/s
       block(ctx, t, S('s11'), S('s12'), () => {
         tag(ctx, 'ÉCRITURE · DÈS 128 Go', 500, 360, t, S('s11'), { size: 44, color: CYAN });
+        tag(ctx, "JUSQU'À", 500, 470, t, S('s11') + 0.1, { size: 44 });
         big(ctx, '60 Mo/s', 500, 620, t, S('s11') + 0.15, { size: 150, color: CYAN });
         line(ctx, 'lecture : 200 Mo/s', 500, 820, t, f('s11', 0.5), { size: 50, weight: 900, color: C.muted, dx: 0 });
       });
