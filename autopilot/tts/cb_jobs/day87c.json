@@ -1,0 +1,23 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 23,
+ "segments": [
+  {
+   "id": "s04",
+   "text": "Exemple : la montre Bip six, quatorze jours en usage typique."
+  },
+  {
+   "id": "s06",
+   "text": "Selon la fiche du fabricant : cadran fixe, écran allumé cinq minutes par jour."
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : une autre marque, la Watch Gé-Té cinq, en quarante-six millimètres."
+  }
+ ]
+}
