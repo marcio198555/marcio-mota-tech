@@ -573,6 +573,16 @@
    "caption": "SSD « jusqu'à 7 000 Mo/s » : pourquoi ta copie ralentit après les premiers gigaoctets\n\nSur la fiche officielle Kingston KC3000, le modèle 512 Go lit à 7 000 Mo/s mais écrit à 3 900 Mo/s ; le 2 To écrit à 7 000 Mo/s. Ces vitesses sont mesurées sur un disque neuf, sorti de la boîte.\n\nLe secret, c'est le cache SLC : une partie de la mémoire passe en mode rapide. Selon Sabrent, une fois ce cache plein, le disque passe à sa vitesse d'écriture de base, plus lente, et la retrouve après un moment au repos. Selon Sandisk, une partie de ce cache rétrécit quand le disque se remplit.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui monte son PC pour le Black Friday.\n\n#ssd #informatique #gamer #suisseromande #jemesuretout",
    "statut": "en attente",
    "cta": "envoi"
+  },
+  {
+   "id": "day85",
+   "prevu": "2026-11-21T19:00",
+   "source": "autopilot jour 85",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182502/tiktok-autopilot/reels/day85_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Écran « 1 ms » ? Regarde le mode écrit à côté\n\nSur le guide Dell du G2724D : 1 ms gris à gris en mode Extreme, qui peut ajouter de légers défauts visibles, et 4 ms en mode Fast. Un autre écran Dell annonce 1 ms MPRT, avec un léger scintillement possible et sans FreeSync.\n\nSelon un article diffusé par VESA, chaque fabricant a sa propre méthode de test. Le logo VESA ClearMR compte les pixels nets contre les pixels flous : ClearMR 7000, c'est 65 à 75 fois plus de pixels nets que de pixels flous.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#ecrangaming #moniteur #gamer #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "cta": "abonnement"
   }
  ]
 }

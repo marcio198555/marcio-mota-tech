@@ -1,0 +1,34 @@
+{
+ "day": 85,
+ "title": "Écran « 1 ms » : ce n'est pas le vrai temps de réponse",
+ "format": "V",
+ "recette": "S4",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182498/tiktok-autopilot/day85_ecran-1-ms.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182500/tiktok-autopilot/stories/day85_story.mp4",
+ "heure": "18:00",
+ "date": "2026-11-21",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1200,
+ "statut": "programmée",
+ "tiktok_title": "Écran « 1 ms » : ce n'est pas le vrai temps de réponse",
+ "caption": "Ton écran « 1 ms » et celui à 4 ms sont peut-être le même modèle.\nDans le guide Dell du G2724D : 1 ms gris à gris en mode Extreme (avec de « légers défauts visibles » possibles), 4 ms en mode Fast. Selon un article diffusé par VESA, chaque fabricant a sa propre méthode de test ; le logo ClearMR compte les pixels nets contre les pixels flous.\nTon écran est réglé sur quel mode de temps de réponse ?\n#ecrangaming #moniteur #tempsdereponse #blackfriday\nVoix de synthèse.",
+ "duree_s": 69.0,
+ "story_instagram": {
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182500/tiktok-autopilot/stories/day85_story.mp4",
+  "buffer_id": null,
+  "programme_le": null
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-21T19:00",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182502/tiktok-autopilot/reels/day85_reel.mp4",
+  "caption": "Écran « 1 ms » ? Regarde le mode écrit à côté\n\nSur le guide Dell du G2724D : 1 ms gris à gris en mode Extreme, qui peut ajouter de légers défauts visibles, et 4 ms en mode Fast. Un autre écran Dell annonce 1 ms MPRT, avec un léger scintillement possible et sans FreeSync.\n\nSelon un article diffusé par VESA, chaque fabricant a sa propre méthode de test. Le logo VESA ClearMR compte les pixels nets contre les pixels flous : ClearMR 7000, c'est 65 à 75 fois plus de pixels nets que de pixels flous.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#ecrangaming #moniteur #gamer #suisseromande #jemesuretout",
+  "statut": "en attente",
+  "cta": "abonnement"
+ },
+ "buffer_id": "6b0029473d025b9e58a6461c",
+ "programme_le": "2026-11-21T18:00:00+01:00",
+ "tiktok": "carrousel (test du 19.11)",
+ "carousel_caption": "Ton écran répond vraiment en 1 ms ? Glisse jusqu'au verdict.\nSources : guides utilisateur Dell G2724D et SE2426H, VESA (ClearMR, communiqué du 22.08.2022) et article ClearMR 1.1 diffusé par VESA (2024).\nTon écran est réglé sur quel mode de temps de réponse ?\n#ecrangaming #moniteur #tempsdereponse #blackfriday\nTexte et images générés par IA.",
+ "carousel_title": "Écran « 1 ms » : vraiment une milliseconde ?"
+}

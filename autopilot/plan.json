@@ -2094,8 +2094,20 @@
    ],
    "tiktok": "carrousel (test du 19.11)",
    "annonce": "Suisse contre France : AirPods Pro 3, où sont-ils les moins chers ?",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "programmée",
+   "ajoute_le": "2026-11-20",
+   "titre": "Écran « 1 ms » : ce n'est pas le vrai temps de réponse",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182498/tiktok-autopilot/day85_ecran-1-ms.mp4",
+   "buffer_id": "6b0029473d025b9e58a6461c",
+   "story_instagram": {
+    "buffer_id": null,
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182500/tiktok-autopilot/stories/day85_story.mp4"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182502/tiktok-autopilot/reels/day85_reel.mp4",
+    "prevu": "2026-11-21T19:00"
+   }
   },
   {
    "jour": 78,
