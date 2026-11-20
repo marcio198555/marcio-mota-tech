@@ -111,7 +111,7 @@
         big(ctx, '−20 °C', 500, 560, t, S('s10') + 0.1, { size: 150, color: BLUE });
         const lv = lerp(1, 0.5, ease.out(prog(t, f('s10', 0.4), 0.7)));
         battery(ctx, 500, 820, 420, lv, { color: lv > 0.6 ? GREEN : RED });
-        big(ctx, "PEUT TOMBER À ÷ 2", 500, 1060, t, f('s10', 0.6), { size: 76, color: RED });
+        big(ctx, "JUSQU'À ÷ 2", 500, 1060, t, f('s10', 0.6), { size: 76, color: RED });
       });
       // s11 — pente 18 % avec 75 kg
       block(ctx, t, S('s11'), S('s12'), () => {
