@@ -9,7 +9,7 @@
   "s07": "Exemple, au même rapport : | 100 W crête = 50 W continus",
   "s08": "Pire, selon un fabricant audio : | ampli « 1 000 W crête » | = peut-être 250 W RMS",
   "s09": "JBL Boombox 3, sur secteur : | 80 + 2 × 40 + 2 × 10 | = 180 W RMS",
-  "s10": "Sur batterie : | 60 + 2 × 30 + 2 × 8 = 136 W RMS. | Même enceinte.",
+  "s10": "Sur batterie : | 60 + 2 × 30 + 2 × 8 | = 136 W RMS. | Même enceinte.",
   "s11": "Norme IEC 60268-5 (2003) : | 4 puissances différentes",
   "s12": "Avant d'acheter : | cherche RMS ou continu | sur la fiche.",
   "s13": "Ton enceinte affiche quels watts ? | Écris-le en commentaire.",
@@ -18,8 +18,8 @@
  "title": "Enceinte « 100 W » : watts crête ou watts RMS ?",
  "slug": "enceinte-100w",
  "format": "V",
- "caption": "Ton enceinte « 100 W » ne tient peut-être pas 100 W.\nJBL publie pour son enceinte de sono EON710 : 1 300 W crête, mais 650 W en continu, la moitié. La Boombox 3 : 180 W RMS sur secteur, 136 W sur batterie (fiches JBL).\nTa boîte d'enceinte écrit « RMS », « crête » ou rien du tout ?\n#enceintebluetooth #watts #rms #blackfriday\nVoix de synthèse.",
+ "caption": "Ton enceinte « 100 W » ne tient peut-être pas 100 W.\nJBL publie pour son enceinte de sono EON710 : 1 300 W crête, mais 650 W en continu, la moitié. La Boombox 3 : 80 + 2 × 40 + 2 × 10 = 180 W RMS sur secteur, 60 + 2 × 30 + 2 × 8 = 136 W RMS sur batterie (fiches JBL).\nTa boîte d'enceinte écrit « RMS », « crête » ou rien du tout ?\n#enceintebluetooth #watts #rms #blackfriday\nVoix de synthèse.",
  "reel_caption": "Enceinte bluetooth 100 W : watts crête ou watts RMS, ce n'est pas le même chiffre\n\nSelon la fiche JBL, l'enceinte de sono EON710 tient 650 W en continu pour 1 300 W crête : pile la moitié. Un pic crête dure souvent quelques millisecondes ; la puissance RMS, elle, tient dans la durée.\n\nLa JBL Boombox 3 : 80 + 2 × 40 + 2 × 10 = 180 W RMS sur secteur, mais 136 W RMS sur batterie.\n\nVoix de synthèse.\n\nEnvoie-la à l'ami qui compare les enceintes au nombre de watts.\n\n#enceintebluetooth #watts #blackfriday #suisseromande #jemesuretout",
  "carousel_title": "Enceinte « 100 W » : watts crête ou RMS ?",
- "carousel_caption": "Enceinte « 100 W » : watts crête ou watts RMS ? Glisse jusqu'au verdict.\nSources : fiches officielles JBL (EON710 : 1 300 W crête, 650 W continus ; Boombox 3 : 180 W RMS sur secteur, 136 W sur batterie) et blog du fabricant audio Cerwin-Vega.\nTa boîte d'enceinte écrit « RMS », « crête » ou rien du tout ?\n#enceintebluetooth #watts #rms #blackfriday\nVoix de synthèse."
+ "carousel_caption": "Enceinte « 100 W » : watts crête ou watts RMS ? Glisse jusqu'au verdict.\nSources : fiches officielles JBL (EON710 : 1 300 W crête, 650 W continus ; Boombox 3 : 80 + 2 × 40 + 2 × 10 = 180 W RMS sur secteur, 60 + 2 × 30 + 2 × 8 = 136 W RMS sur batterie) et blog du fabricant audio Cerwin-Vega.\nTa boîte d'enceinte écrit « RMS », « crête » ou rien du tout ?\n#enceintebluetooth #watts #rms #blackfriday\nVoix de synthèse."
 }
