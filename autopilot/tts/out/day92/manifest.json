@@ -1,0 +1,113 @@
+{
+ "job": "day92",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ton èsse-èsse-dé : jusqu'à sept mille mégaoctets par seconde.",
+   "file": "s01.wav",
+   "duration": 4.96,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Attends. Ton collègue, le même en deux téraoctets. Qui copie plus vite ?",
+   "file": "s02.wav",
+   "duration": 5.52,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin : ce qui arrive quand sa zone rapide est pleine.",
+   "file": "s03.wav",
+   "duration": 3.84,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Fiche Kingston : en cinq cent douze gigaoctets, lecture sept mille.",
+   "file": "s04.wav",
+   "duration": 5.2,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout : écriture, trois mille neuf cents.",
+   "file": "s05.wav",
+   "duration": 4.48,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "En deux téraoctets : écriture sept mille. Sur la fiche, presque deux fois plus vite.",
+   "file": "s06.wav",
+   "duration": 6.04,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Mesuré sur un disque neuf.",
+   "file": "s07.wav",
+   "duration": 2.6,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Le secret : le cache èsse-èl-cé.",
+   "file": "s08.wav",
+   "duration": 3.08,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Selon Sébrennt, une partie de la mémoire passe en mode rapide.",
+   "file": "s09.wav",
+   "duration": 4.08,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Surprise : selon Sanndisk, une partie de ce cache rétrécit quand le disque se remplit.",
+   "file": "s10.wav",
+   "duration": 6.56,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Avant d'acheter, compare l'écriture, pas seulement la lecture.",
+   "file": "s11.wav",
+   "duration": 4.28,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Ton èsse-èsse-dé fait combien de gigaoctets ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 4.6,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Cache plein ? Selon Sébrennt, il passe à sa vitesse de base, plus lente.",
+   "file": "s13.wav",
+   "duration": 5.8,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "La fiche ne dit pas laquelle. Au repos, elle revient.",
+   "file": "s14.wav",
+   "duration": 4.4,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Et abonne-toi : demain, la lampe torche à dix mille lumens… mesurés comment ?",
+   "file": "s15.wav",
+   "duration": 5.84,
+   "rate": 24000
+  }
+ ],
+ "total": 71.28
+}
