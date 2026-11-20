@@ -1,0 +1,110 @@
+{
+ "duration": 63.012,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta lampe torche fait dix mille lumens ? Pendant combien de temps ?",
+   "start": 0.12,
+   "end": 3.616,
+   "display": "10 000 lumens : | pendant combien de temps ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non. Pas toute l'autonomie de la fiche.",
+   "start": 3.716,
+   "end": 6.229,
+   "display": "Non. | Pas toute l'autonomie | de la fiche."
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, tu sauras lire l'astérisque du mode turbo.",
+   "start": 6.329,
+   "end": 10.417,
+   "display": "À la fin : | l'astérisque du mode turbo."
+  },
+  {
+   "id": "s04",
+   "text": "La norme èf-èl un mesure les lumens entre trente secondes et deux minutes.",
+   "start": 10.517,
+   "end": 15.771,
+   "display": "Norme ANSI/PLATO FL1 : | mesure entre 30 s et 2 min."
+  },
+  {
+   "id": "s05",
+   "text": "L'autonomie s'arrête quand il ne reste que dix pour cent.",
+   "start": 15.871,
+   "end": 18.623,
+   "display": "Autonomie : jusqu'à | 10 % de la valeur à 30 s."
+  },
+  {
+   "id": "s06",
+   "text": "Dix pour cent de dix mille : mille lumens.",
+   "start": 18.723,
+   "end": 21.714,
+   "display": "10 % de 10 000 lm | = 1 000 lm"
+  },
+  {
+   "id": "s07",
+   "text": "Exemple : la Fénix L R trente-cinq R. Dix mille lumens, une heure vingt-cinq en turbo.",
+   "start": 21.814,
+   "end": 28.402,
+   "display": "Exemple : Fenix LR35R | 10 000 lm, 1 h 25 en turbo."
+  },
+  {
+   "id": "s08",
+   "text": "L'astérisque : ce temps inclut les niveaux réduits par la chaleur.",
+   "start": 28.502,
+   "end": 32.126,
+   "display": "L'astérisque : ce temps inclut | les niveaux réduits | par la chaleur."
+  },
+  {
+   "id": "s09",
+   "text": "À soixante-cinq degrés, elle baisse sa puissance, dit Fénix.",
+   "start": 32.226,
+   "end": 36.41,
+   "display": "À 65 °C, elle baisse | sa puissance (Fenix)."
+  },
+  {
+   "id": "s10",
+   "text": "Surprise : en fort, trois mille lumens, une heure trente-cinq. Plus que le turbo.",
+   "start": 36.51,
+   "end": 42.064,
+   "display": "Surprise : mode fort, 3 000 lm : | 1 h 35. Plus que le turbo."
+  },
+  {
+   "id": "s11",
+   "text": "Donc pas une heure vingt-cinq à dix mille.",
+   "start": 42.164,
+   "end": 44.626,
+   "display": "Donc pas 1 h 25 | à 10 000 lm."
+  },
+  {
+   "id": "s12",
+   "text": "Version deux mille vingt-cinq : un boost très court se mesure entre une et dix secondes.",
+   "start": 44.726,
+   "end": 50.208,
+   "display": "Version 2025 : boost très court | mesuré entre 1 et 10 s."
+  },
+  {
+   "id": "s13",
+   "text": "Avant d'acheter, cherche èf-èl un et lis l'astérisque.",
+   "start": 50.308,
+   "end": 53.772,
+   "display": "Avant d'acheter : | cherche FL1, lis l'astérisque."
+  },
+  {
+   "id": "s14",
+   "text": "Ta lampe affiche combien de lumens ? Écris-le en commentaire.",
+   "start": 53.872,
+   "end": 57.619,
+   "display": "Ta lampe, combien de lumens ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Et abonne-toi : ce soir, ta console en repos, combien de francs par an ?",
+   "start": 57.719,
+   "end": 62.712,
+   "display": "Abonne-toi : ce soir, | ta console en repos, | combien de francs par an ?"
+  }
+ ]
+}
