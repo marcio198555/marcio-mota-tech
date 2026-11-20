@@ -1,0 +1,67 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton frigo neuf est classé B. Tu trouves ça moyen ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non. Au départ, la classe A devait rester vide."
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, tu sauras quelles lettres ont disparu des frigos neufs."
+  },
+  {
+   "id": "s04",
+   "text": "Avant deux mille vingt et un : de G à A triple plus."
+  },
+  {
+   "id": "s05",
+   "text": "Depuis mars deux mille vingt et un : retour de A à G."
+  },
+  {
+   "id": "s06",
+   "text": "Selon la Commission européenne, un ancien A triple plus pouvait passer en C."
+  },
+  {
+   "id": "s07",
+   "text": "En Suisse, l'ordonnance fédérale reprend ces règles."
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : depuis mars deux mille vingt-quatre, un frigo neuf doit être au moins en E."
+  },
+  {
+   "id": "s09",
+   "text": "F et G restent dessinés, mais pas pour un frigo neuf classique."
+  },
+  {
+   "id": "s10",
+   "text": "Selon SuisseEnergie, un C consomme jusqu'à quarante pour cent de plus qu'un A."
+  },
+  {
+   "id": "s11",
+   "text": "Exemple : cent cinquante kilowattheures par an, environ quarante et un francs. Plus quarante pour cent : cinquante-huit."
+  },
+  {
+   "id": "s12",
+   "text": "Avant d'acheter, regarde les kilowattheures par an."
+  },
+  {
+   "id": "s13",
+   "text": "Ton frigo affiche quelle lettre ? Écris-la en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : ce soir, le SSD à sept mille mégaoctets par seconde… seulement au début."
+  }
+ ]
+}

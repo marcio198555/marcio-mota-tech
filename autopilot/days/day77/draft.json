@@ -1,0 +1,25 @@
+{
+ "display": {
+  "s01": "Purificateur « 50 m² » ? | Pour combien de renouvellements ?",
+  "s02": "Non : 50 m², ce n'est pas fixe. | À la fin : ta vraie surface.",
+  "s03": "Exemple : Levoit Core 300S | « 50 m² »",
+  "s04": "Débit d'air propre (CADR) : | 240 m³/h",
+  "s05": "Notice : calculé pour | 2 renouvellements par heure",
+  "s06": "… avec un plafond | de 2,4 m",
+  "s07": "240 ÷ 2,4 ÷ 2 | = 50 m²",
+  "s08": "AHAM (fabricants d'électroménager, USA) : | 4,8 renouvellements",
+  "s09": "240 ÷ 2,4 ÷ 4,8 | ≈ 21 m²",
+  "s10": "2e surprise : l'AHAM ne recommande pas | moins de 2,2 renouvellements",
+  "s11": "Les 50 m² de la boîte : | calculés à 2, en dessous.",
+  "s12": "Avant d'acheter : | le CADR en m³/h, | pas les m².",
+  "s13": "Ta pièce fait combien de m² ? | Écris-le en commentaire.",
+  "s14": "Abonne-toi : ce soir, | l'écran « 1 ms » | qui ne répond pas en 1 ms."
+ },
+ "title": "Purificateur « 50 m² » : avec combien de renouvellements ?",
+ "slug": "purificateur-50m2",
+ "format": "V",
+ "caption": "Ton purificateur « 50 m² » est calculé pour 2 renouvellements d'air par heure.\nNotice Levoit Core 300S : CADR 240 m³/h, 50 m² à 2 renouvellements, plafond 2,4 m. À 4,8 renouvellements (base de l'AHAM) : environ 21 m².\nTa pièce fait combien de m², et ton purificateur affiche quel CADR ?\n#purificateurdair #cadr #qualitedelair #blackfriday\nVoix de synthèse.",
+ "reel_caption": "Purificateur d'air 50 m² : la surface est calculée pour 2 renouvellements d'air par heure\n\nSelon sa notice, le Levoit Core 300S a un CADR de 240 m³/h et une surface idéale de 50 m², « basée sur 2 renouvellements d'air par heure », avec un plafond de 2,4 m : 240 ÷ 2,4 ÷ 2 = 50.\n\nL'AHAM, association américaine des fabricants d'électroménager, base sa surface conseillée sur 4,8 renouvellements et ne recommande pas de descendre sous 2,2. À 4,8 : 240 ÷ 2,4 ÷ 4,8 ≈ 21 m².\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#purificateurdair #qualitedelair #cadr #suisseromande #jemesuretout",
+ "carousel_title": "Purificateur « 50 m² » : combien de renouvellements ?",
+ "carousel_caption": "Purificateur « 50 m² » : avec combien de renouvellements d'air ? Glisse jusqu'au verdict.\nSources : notice Levoit Core 300S (CADR 240 m³/h, 50 m² à 2 renouvellements par heure, plafond 2,4 m) et livre blanc AHAM 2025 (base 4,8, minimum 2,2).\nTa pièce fait combien de m², et ton purificateur affiche quel CADR ?\n#purificateurdair #cadr #qualitedelair #blackfriday\nVoix de synthèse."
+}

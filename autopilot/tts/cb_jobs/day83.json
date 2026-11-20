@@ -1,0 +1,71 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta lampe torche fait dix mille lumens ? Pendant combien de temps ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non. Pas toute l'autonomie de la fiche."
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, tu sauras lire l'astérisque du mode turbo."
+  },
+  {
+   "id": "s04",
+   "text": "La norme èf-èl un mesure les lumens entre trente secondes et deux minutes."
+  },
+  {
+   "id": "s05",
+   "text": "L'autonomie s'arrête quand il ne reste que dix pour cent."
+  },
+  {
+   "id": "s06",
+   "text": "Dix pour cent de dix mille : mille lumens."
+  },
+  {
+   "id": "s07",
+   "text": "Exemple : la Fénix L R trente-cinq R. Dix mille lumens, une heure vingt-cinq en turbo."
+  },
+  {
+   "id": "s08",
+   "text": "L'astérisque : ce temps inclut les niveaux réduits par la chaleur."
+  },
+  {
+   "id": "s09",
+   "text": "À soixante-cinq degrés, elle baisse sa puissance, dit Fénix."
+  },
+  {
+   "id": "s10",
+   "text": "Surprise : en fort, trois mille lumens, une heure trente-cinq. Plus que le turbo."
+  },
+  {
+   "id": "s11",
+   "text": "Donc pas une heure vingt-cinq à dix mille."
+  },
+  {
+   "id": "s12",
+   "text": "Version deux mille vingt-cinq : un boost très court se mesure entre une et dix secondes."
+  },
+  {
+   "id": "s13",
+   "text": "Avant d'acheter, cherche èf-èl un et lis l'astérisque."
+  },
+  {
+   "id": "s14",
+   "text": "Ta lampe affiche combien de lumens ? Écris-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Et abonne-toi : ce soir, ta console en repos, combien de francs par an ?"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton purificateur est fait pour cinquante mètres carrés ? Pour combien de renouvellements d'air ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non : cinquante, ce n'est pas fixe. À la fin, tu sauras calculer ta vraie surface."
+  },
+  {
+   "id": "s03",
+   "text": "Exemple : le Core trois cents S de Lé-voït annonce cinquante mètres carrés."
+  },
+  {
+   "id": "s04",
+   "text": "Son débit d'air propre, le cé-a-dé-èr : deux cent quarante mètres cubes par heure."
+  },
+  {
+   "id": "s05",
+   "text": "Petite ligne de la notice : calculé pour deux renouvellements par heure."
+  },
+  {
+   "id": "s06",
+   "text": "Avec un plafond de deux mètres quarante."
+  },
+  {
+   "id": "s07",
+   "text": "Deux cent quarante, divisé par deux virgule quatre, divisé par deux : cinquante."
+  },
+  {
+   "id": "s08",
+   "text": "Mais l'a-ache-a-èm, l'association américaine des fabricants d'électroménager, vise quatre virgule huit."
+  },
+  {
+   "id": "s09",
+   "text": "Même appareil, même calcul : environ vingt et un mètres carrés."
+  },
+  {
+   "id": "s10",
+   "text": "Deuxième surprise : l'a-ache-a-èm ne recommande pas de descendre sous deux virgule deux renouvellements."
+  },
+  {
+   "id": "s11",
+   "text": "Les cinquante mètres carrés sont donc calculés en dessous."
+  },
+  {
+   "id": "s12",
+   "text": "Avant d'acheter, cherche le cé-a-dé-èr en mètres cubes par heure, pas les mètres carrés."
+  },
+  {
+   "id": "s13",
+   "text": "Ta pièce fait combien de mètres carrés ? Écris-le en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : ce soir, l'écran « une milliseconde » qui ne répond pas en une milliseconde."
+  }
+ ]
+}

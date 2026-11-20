@@ -1,0 +1,67 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton enceinte fait cent watts ? Regarde d'abord quels watts."
+  },
+  {
+   "id": "s02",
+   "text": "Non. Cent watts, tout seul, ne dit rien. À la fin, tu sauras lesquels croire."
+  },
+  {
+   "id": "s03",
+   "text": "Les watts crête : un pic très bref, souvent quelques millisecondes."
+  },
+  {
+   "id": "s04",
+   "text": "Les watts èr-èm-èss, ou continus : ce qui tient dans la durée."
+  },
+  {
+   "id": "s05",
+   "text": "Chez Djé-bé-èl, une enceinte de sono : mille trois cents watts crête."
+  },
+  {
+   "id": "s06",
+   "text": "Mais six cent cinquante en continu. Pile la moitié."
+  },
+  {
+   "id": "s07",
+   "text": "Au même rapport, cent watts crête feraient cinquante watts continus."
+  },
+  {
+   "id": "s08",
+   "text": "Pire : un fabricant audio cite un ampli annoncé à mille watts crête, qui ne sort peut-être que deux cent cinquante èr-èm-èss."
+  },
+  {
+   "id": "s09",
+   "text": "Autre surprise : la Boombox trois de Djé-bé-èl, c'est cent quatre-vingts watts èr-èm-èss sur secteur."
+  },
+  {
+   "id": "s10",
+   "text": "Sur batterie : cent trente-six. Même enceinte."
+  },
+  {
+   "id": "s11",
+   "text": "Même la norme des haut-parleurs de deux mille trois distingue quatre puissances différentes."
+  },
+  {
+   "id": "s12",
+   "text": "Avant d'acheter, cherche « èr-èm-èss » ou « continu » sur la fiche."
+  },
+  {
+   "id": "s13",
+   "text": "Ton enceinte affiche quels watts sur la boîte ? Écris-le en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : ce soir, la guirlande LED de Noël allumée tout décembre, combien en francs ?"
+  }
+ ]
+}

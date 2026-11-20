@@ -1,0 +1,24 @@
+{
+ "display": {
+  "s01": "10 000 lumens : | pendant combien de temps ?",
+  "s02": "Non. | Pas toute l'autonomie | de la fiche.",
+  "s03": "À la fin : | l'astérisque du mode turbo.",
+  "s04": "Norme ANSI/PLATO FL1 : | mesure entre 30 s et 2 min.",
+  "s05": "Autonomie : jusqu'à | 10 % de la valeur à 30 s.",
+  "s06": "10 % de 10 000 lm | = 1 000 lm",
+  "s07": "Exemple : Fenix LR35R | 10 000 lm, 1 h 25 en turbo.",
+  "s08": "L'astérisque : ce temps inclut | les niveaux réduits | par la chaleur.",
+  "s09": "À 65 °C, elle baisse | sa puissance (Fenix).",
+  "s10": "Surprise : mode fort, 3 000 lm : | 1 h 35. Plus que le turbo.",
+  "s11": "Donc pas 1 h 25 | à 10 000 lm.",
+  "s12": "Version 2025 : boost très court | mesuré entre 1 et 10 s.",
+  "s13": "Avant d'acheter : | cherche FL1, lis l'astérisque.",
+  "s14": "Ta lampe, combien de lumens ? | Écris-le en commentaire.",
+  "s15": "Abonne-toi : ce soir, | ta console en repos, | combien de francs par an ?"
+ },
+ "title": "Lampe torche 10 000 lumens : mesurés comment ?",
+ "slug": "lampe-10000-lumens",
+ "format": "V",
+ "caption": "Ta lampe torche de 10 000 lumens ne les tient pas 1 h 25.\nNorme ANSI/PLATO FL1 : lumens mesurés entre 30 s et 2 min, autonomie jusqu'à 10 % de cette valeur. Fiche Fenix LR35R : turbo 10 000 lm, 1 h 25*, « y compris les niveaux réduits par la température » ; mode fort 3 000 lm : 1 h 35.\nTa lampe affiche combien de lumens, et quelle autonomie en turbo ?\n#lampetorche #lumens #blackfriday #astucetech\nVoix de synthèse.",
+ "reel_caption": "Lampe torche 10 000 lumens : ce que veut dire l'autonomie en turbo\n\nSelon la norme ANSI/PLATO FL1, les lumens se mesurent entre 30 secondes et 2 minutes après l'allumage, et l'autonomie court jusqu'à 10 % de cette valeur : pour 10 000 lumens, jusqu'à 1 000.\n\nExemple, fiche Fenix LR35R : turbo 10 000 lumens, 1 h 25, temps qui inclut les niveaux réduits par la température. Le mode fort, 3 000 lumens, annonce 1 h 35.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#lampetorche #lumens #blackfriday #suisseromande #jemesuretout"
+}

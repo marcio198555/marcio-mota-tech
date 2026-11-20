@@ -1,0 +1,71 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ta clé u-èss-bé trois point deux va à vingt gigabits ?"
+  },
+  {
+   "id": "s02",
+   "text": "Pas forcément. Peut-être cinq, au maximum."
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, tu sauras quoi chercher sur la boîte."
+  },
+  {
+   "id": "s04",
+   "text": "Selon l'organisme de la norme, trois point deux, c'est trois vitesses."
+  },
+  {
+   "id": "s05",
+   "text": "Djène un : cinq gigabits. Djène deux : dix. Djène deux fois deux : vingt."
+  },
+  {
+   "id": "s06",
+   "text": "Et l'organisme écrit : ce nom n'est pas fait pour les boîtes ni la pub."
+  },
+  {
+   "id": "s07",
+   "text": "Exemple : la Kaïsonne de Kingston. Fiche : trois point deux, Djène un."
+  },
+  {
+   "id": "s08",
+   "text": "Donc un signal à cinq gigabits, au maximum."
+  },
+  {
+   "id": "s09",
+   "text": "En lecture, la fiche annonce jusqu'à deux cents mégaoctets par seconde."
+  },
+  {
+   "id": "s10",
+   "text": "Fois huit : un virgule six gigabit. Loin de vingt."
+  },
+  {
+   "id": "s11",
+   "text": "En écriture, dès cent vingt-huit gigas : soixante mégaoctets par seconde."
+  },
+  {
+   "id": "s12",
+   "text": "Deuxième piège : sur un port plus lent, elle suit le plus lent."
+  },
+  {
+   "id": "s13",
+   "text": "Avant d'acheter, cherche les mégaoctets par seconde, lecture et écriture."
+  },
+  {
+   "id": "s14",
+   "text": "Ta clé écrit à combien ? Écris-le en commentaire."
+  },
+  {
+   "id": "s15",
+   "text": "Et abonne-toi : ce soir, Suisse contre France, Spotify Premium."
+  }
+ ]
+}

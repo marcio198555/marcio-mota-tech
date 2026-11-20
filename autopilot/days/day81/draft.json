@@ -1,0 +1,24 @@
+{
+ "display": {
+  "s01": "Clé USB 3.2 | = 20 Gbit/s ?",
+  "s02": "Pas forcément. | Peut-être 5, au maximum.",
+  "s03": "À la fin : | quoi chercher sur la boîte.",
+  "s04": "Selon l'USB-IF (la norme) : | USB 3.2 = 3 vitesses.",
+  "s05": "Gen 1 : 5 Gbit/s. Gen 2 : 10. | Gen 2x2 : 20.",
+  "s06": "USB-IF : ce nom n'est pas fait | pour les boîtes ni la pub.",
+  "s07": "Exemple : Kingston DataTraveler Kyson. | Fiche : USB 3.2 Gen 1.",
+  "s08": "Donc un signal à 5 Gbit/s, | au maximum.",
+  "s09": "Lecture, selon la fiche : | jusqu'à 200 Mo/s.",
+  "s10": "× 8 = 1,6 Gbit/s. | Loin de 20.",
+  "s11": "Écriture, dès 128 Go : | 60 Mo/s.",
+  "s12": "2e piège : sur un port plus lent, | elle suit le plus lent.",
+  "s13": "Avant d'acheter : les Mo/s, | lecture et écriture.",
+  "s14": "Ta clé écrit à combien ? | Écris-le en commentaire.",
+  "s15": "Abonne-toi : ce soir, | Suisse contre France, | Spotify Premium."
+ },
+ "title": "Clé « USB 3.2 » : peut-être 5 Gbit/s seulement",
+ "slug": "cle-usb-32",
+ "format": "V",
+ "caption": "Ta clé « USB 3.2 » ne va peut-être pas à 20 Gbit/s.\nSelon l'USB-IF, USB 3.2 regroupe 3 débits : Gen 1 = 5 Gbit/s, Gen 2 = 10, Gen 2x2 = 20. La Kingston DataTraveler Kyson est en Gen 1 : jusqu'à 200 Mo/s en lecture (1,6 Gbit/s), 60 Mo/s en écriture dès 128 Go, selon Kingston.\nTa clé écrit à combien de Mo/s ?\n#cleusb #usb #astucetech #blackfriday\nVoix de synthèse.",
+ "reel_caption": "Clé USB 3.2 : peut-être 5 Gbit/s seulement, pas 20\n\nSelon l'USB-IF, l'organisme de la norme, USB 3.2 regroupe trois débits : Gen 1 = 5 Gbit/s, Gen 2 = 10 Gbit/s, Gen 2x2 = 20 Gbit/s. Il écrit aussi que le nom « USB 3.2 » n'est pas fait pour les emballages.\n\nExemple : la Kingston DataTraveler Kyson est en USB 3.2 Gen 1. Sa fiche annonce jusqu'à 200 Mo/s en lecture (1,6 Gbit/s) et 60 Mo/s en écriture dès 128 Go.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#cleusb #usb #astucetech #suisseromande #jemesuretout"
+}
