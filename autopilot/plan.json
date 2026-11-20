@@ -2028,8 +2028,22 @@
    ],
    "tiktok": "carrousel (test du 19.11)",
    "annonce": "Purificateur « jusqu'à 50 m² » : avec combien de renouvellements d'air ?",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "programmée",
+   "ajoute_le": "2026-11-20",
+   "titre": "Guirlande LED de Noël : combien pour tout décembre ?",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795179346/tiktok-autopilot/day84_guirlande-led-decembre.mp4",
+   "buffer_id": "6b002925c1f33e2aa5b980f3",
+   "story_instagram": {
+    "buffer_id": "6b00435ffc5b97f0f8073c26",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795179347/tiktok-autopilot/stories/day84_story.mp4"
+   },
+   "reel_instagram": {
+    "statut": "publié",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795179349/tiktok-autopilot/reels/day84_reel.mp4",
+    "prevu": "2026-11-20T19:00",
+    "publie_le": "2026-11-20T14:00",
+    "permalink": "https://www.instagram.com/reel/Df9tNd1knG1/"
+   }
   },
   {
    "jour": 77,
