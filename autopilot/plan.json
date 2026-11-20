@@ -1994,8 +1994,20 @@
    ],
    "tiktok": "carrousel (test du 19.11)",
    "annonce": "Guirlande LED de Noël : combien en francs pour tout décembre ?",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "programmée",
+   "ajoute_le": "2026-11-20",
+   "titre": "Enceinte « 100 W » : watts crête ou watts RMS ?",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795152755/tiktok-autopilot/day76_enceinte-100w.mp4",
+   "buffer_id": "6affd36ed5f8acdd0d714f9d",
+   "story_instagram": {
+    "buffer_id": "6affdb7f4c1afd05def59d3b",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795152757/tiktok-autopilot/stories/day76_story.mp4"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795152759/tiktok-autopilot/reels/day76_reel.mp4",
+    "prevu": "2026-11-20T11:00"
+   }
   },
   {
    "jour": 84,

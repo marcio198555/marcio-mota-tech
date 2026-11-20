@@ -447,6 +447,16 @@
    "media_id": "18608194780066779",
    "container_id": "17958292134294026",
    "via": "vidIQ (Reel d'essai, SS_PERFORMANCE)"
+  },
+  {
+   "id": "day76",
+   "prevu": "2026-11-20T11:00",
+   "source": "autopilot jour 76",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795152759/tiktok-autopilot/reels/day76_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Enceinte bluetooth 100 W : watts crête ou watts RMS, ce n'est pas le même chiffre\n\nSelon la fiche JBL, l'enceinte de sono EON710 tient 650 W en continu pour 1 300 W crête : pile la moitié. Un pic crête dure souvent quelques millisecondes ; la puissance RMS, elle, tient dans la durée.\n\nLa JBL Boombox 3 : 80 + 2 × 40 + 2 × 10 = 180 W RMS sur secteur, mais 136 W RMS sur batterie.\n\nVoix de synthèse.\n\nEnvoie-la à l'ami qui compare les enceintes au nombre de watts.\n\n#enceintebluetooth #watts #blackfriday #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "cta": "envoi"
   }
  ]
 }
