@@ -1,0 +1,106 @@
+{
+ "job": "day76",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton enceinte fait cent watts ? Regarde d'abord quels watts.",
+   "file": "s01.wav",
+   "duration": 4.52,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Non. Cent watts, tout seul, ne dit rien. À la fin, tu sauras lesquels croire.",
+   "file": "s02.wav",
+   "duration": 6.08,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "Les watts crête : un pic très bref, souvent quelques millisecondes.",
+   "file": "s03.wav",
+   "duration": 4.8,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Les watts èr-èm-èss, ou continus : ce qui tient dans la durée.",
+   "file": "s04.wav",
+   "duration": 5.2,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Chez Djé-bé-èl, une enceinte de sono : mille trois cents watts crête.",
+   "file": "s05.wav",
+   "duration": 5.8,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Mais six cent cinquante en continu. Pile la moitié.",
+   "file": "s06.wav",
+   "duration": 3.56,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Au même rapport, cent watts crête feraient cinquante watts continus.",
+   "file": "s07.wav",
+   "duration": 4.64,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Pire : un fabricant audio cite un ampli annoncé à mille watts crête, qui ne sort peut-être que deux cent cinquante èr-èm-èss.",
+   "file": "s08.wav",
+   "duration": 8.32,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Autre surprise : la Boombox trois de Djé-bé-èl, c'est cent quatre-vingts watts èr-èm-èss sur secteur.",
+   "file": "s09.wav",
+   "duration": 7.2,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Sur batterie : cent trente-six. Même enceinte.",
+   "file": "s10.wav",
+   "duration": 4.32,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Même la norme des haut-parleurs de deux mille trois distingue quatre puissances différentes.",
+   "file": "s11.wav",
+   "duration": 5.64,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Avant d'acheter, cherche « èr-èm-èss » ou « continu » sur la fiche.",
+   "file": "s12.wav",
+   "duration": 4.56,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Ton enceinte affiche quels watts sur la boîte ? Écris-le en commentaire.",
+   "file": "s13.wav",
+   "duration": 5.28,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : ce soir, la guirlande LED de Noël allumée tout décembre, combien en francs ?",
+   "file": "s14.wav",
+   "duration": 7.2,
+   "rate": 24000
+  }
+ ],
+ "total": 77.12
+}
