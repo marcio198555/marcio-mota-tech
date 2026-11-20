@@ -16,6 +16,7 @@ def wrap(d,txt,font,maxw):
         else: lines.append(cur); cur=w
     lines.append(cur); return lines
 def block(d,y,txt,font,fill,maxw=800,gap=12):
+    txt=txt.replace('« ','«\u00a0').replace(' »','\u00a0»')
     for ln in wrap(d,txt,font,maxw):
         w=d.textlength(ln,font=font); d.text(((W-w)/2,y),ln,font=font,fill=fill); y+=font.size+gap
     return y

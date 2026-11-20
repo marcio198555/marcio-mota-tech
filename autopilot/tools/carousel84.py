@@ -16,6 +16,7 @@ def wrap(d,txt,font,maxw):
         else: lines.append(cur); cur=w
     lines.append(cur); return lines
 def block(d,y,txt,font,fill,maxw=800,gap=12):
+    txt=txt.replace('« ','«\u00a0').replace(' »','\u00a0»')
     for ln in wrap(d,txt,font,maxw):
         w=d.textlength(ln,font=font); d.text(((W-w)/2,y),ln,font=font,fill=fill); y+=font.size+gap
     return y
@@ -55,15 +56,15 @@ def slide(i,top,big,bigcol,sub,note):
     block(d,max(y+60,1150),note,f('InterDisplay-Bold.otf',36),GR,maxw=800)
     swipe(d); save(im,i)
 slide(2,'Guirlande LED de 100 diodes','3 W',ACC,'sur la fiche du fabricant','Fiche Konstsmide 6304-100 : 3 kWh pour 1000 h (étiquette énergie).')
-slide(3,'Ancienne guirlande miniature à incandescence','42 W',RED,'en moyenne','Département américain de l\'énergie, rapport d\'octobre 2008 (guirlandes 120 V). 14 fois la LED.')
+slide(3,'Ancienne guirlande miniature à incandescence','42 W',RED,'en moyenne','Département américain de l\'énergie, rapport d\'octobre 2008 (guirlandes 120 V). Soit 14 fois cette LED.')
 slide(4,'Allumée jour et nuit, tout décembre','744 h',ACC,'31 jours × 24 h','Scénario « jour et nuit », pas une mesure.')
 slide(5,'La guirlande LED, tout décembre','0,62 CHF',GRN,'3 W × 744 h = 2,23 kWh','Tarif médian ElCom 2026 : 27,7 ct./kWh hors TVA (ménage H4).')
 slide(6,'L\'ancienne, le même mois','8,66 CHF',RED,'42 W × 744 h = 31,2 kWh','Même tarif : 27,7 ct./kWh hors TVA.')
 # 7 verdict
 im=bg(); d=ImageDraw.Draw(im); head(d,7); card(d,330,1380)
 y=block(d,400,'VERDICT',f('InterDisplay-Black.otf',64),ACC)
-y=block(d,y+30,'La LED coûte 14 fois moins. Et une minuterie divise encore par 4.',f('InterDisplay-Black.otf',66),WH,gap=10)
-y=block(d,y+50,'Exemple : 6 h par soir → LED 0,15 CHF, ancienne 2,16 CHF pour tout décembre.',f('InterDisplay-Bold.otf',52),GRN)
+y=block(d,y+30,'Ici, la LED coûte 14 fois moins que l\'ancienne. Avec une minuterie, encore moins.',f('InterDisplay-Black.otf',66),WH,gap=10)
+y=block(d,y+50,'Exemple : 6 h par soir, facture ÷ 4 → LED 0,15\u00a0CHF, ancienne 2,16\u00a0CHF pour tout décembre.',f('InterDisplay-Bold.otf',52),GRN)
 block(d,y+40,'SuisseEnergie conseille une minuterie. 6 h par soir est une valeur d\'exemple ; montants hors TVA.',f('InterDisplay-Bold.otf',36),GR,maxw=800)
 swipe(d); save(im,7)
 # 8 commentaires
