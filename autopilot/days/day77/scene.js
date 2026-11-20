@@ -47,7 +47,7 @@
         tag(ctx, 'EXEMPLE · LEVOIT CORE 300S', 500, 340, t, S('s03'), { size: 44, color: GOLD });
         purifier(ctx, 300, 720, 0.85, t);
         big(ctx, '50 m²', 690, 700, t, f('s03', 0.4), { size: 140, color: GOLD });
-        line(ctx, 'SUR LA BOÎTE', 690, 830, t, f('s03', 0.55), { size: 50, weight: 900, color: WHITE, dx: 0 });
+        line(ctx, 'DANS LA NOTICE', 690, 830, t, f('s03', 0.55), { size: 50, weight: 900, color: WHITE, dx: 0 });
       });
       block(ctx, t, S('s04'), S('s05'), () => {
         tag(ctx, "DÉBIT D'AIR PROPRE (CADR)", 500, 340, t, S('s04'), { size: 44, color: CYAN });
@@ -69,7 +69,7 @@
         big(ctx, '2,4 m', 590, 750, t, f('s06', 0.3), { size: 150, color: GOLD });
       });
       block(ctx, t, S('s07'), S('s08'), () => {
-        tag(ctx, 'LE CALCUL DE LA BOÎTE', 500, 340, t, S('s07'), { size: 44, color: GOLD });
+        tag(ctx, 'LE CALCUL DE LA NOTICE', 500, 340, t, S('s07'), { size: 44, color: GOLD });
         calc(ctx, ['240 ÷ 2,4 ÷ 2', '= 50 m²'], 500, 600, t, [S('s07') + 0.1, f('s07', 0.6)], { lastSize: 150, color: GOLD });
       });
       block(ctx, t, S('s08'), S('s09'), () => {
@@ -83,7 +83,7 @@
         const a = ease.out(prog(t, f('s09', 0.5), 0.5));
         room(ctx, 500, 950, 50, 48, GOLD, '', a);
         room(ctx, 500, 950, 21, 48, GREEN, '21 m²', a);
-        if (a > 0.8) text(ctx, '50 m² (boîte)', 500, 950 - Math.sqrt(50) * 24 - 40, { size: 44, weight: 900, color: GOLD });
+        if (a > 0.8) text(ctx, '50 m² (notice)', 500, 950 - Math.sqrt(50) * 24 - 40, { size: 44, weight: 900, color: GOLD });
       });
       block(ctx, t, S('s10'), S('s11'), () => {
         CHR.emo(ctx, 'warning', 500, 420, 150, t, S('s10'));
@@ -93,7 +93,7 @@
         line(ctx, 'RENOUVELLEMENTS', 500, 1000, t, f('s10', 0.65), { size: 50, weight: 900, color: WHITE, dx: 0 });
       });
       block(ctx, t, S('s11'), S('s12'), () => {
-        tag(ctx, 'LES 50 m² DE LA BOÎTE', 500, 340, t, S('s11'), { size: 44, color: GOLD });
+        tag(ctx, 'LES 50 m² DE LA NOTICE', 500, 340, t, S('s11'), { size: 44, color: GOLD });
         big(ctx, '2 < 2,2', 500, 620, t, S('s11') + 0.15, { size: 170, color: RED });
         line(ctx, 'CALCULÉS EN DESSOUS', 500, 820, t, f('s11', 0.45), { size: 60, weight: 900, color: WHITE, dx: 0 });
       });
