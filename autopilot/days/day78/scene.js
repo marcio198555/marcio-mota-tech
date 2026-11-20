@@ -70,9 +70,9 @@
         stamp(ctx, '+ 12 CHF', 725, 1070, t, f('s06', 0.3), { size: 76, color: RED });
       });
       block(ctx, t, S('s07'), S('s08'), () => {
-        tag(ctx, 'OFDF · FRANCHISE 150 CHF', 500, 380, t, S('s07'), { size: 40, color: GOLD });
+        tag(ctx, 'OFDF · SANS TVA FR : FRANCHISE 150', 500, 380, t, S('s07'), { size: 40, color: GOLD });
         CHR.emo(ctx, 'package', 500, 630, 250, t, S('s07') + 0.1);
-        line(ctx, '231 > 150', 500, 860, t, f('s07', 0.35), { size: 70, family: F.mono, weight: 700, color: WHITE, dx: 0 });
+        line(ctx, '192 > 150', 500, 860, t, f('s07', 0.35), { size: 70, family: F.mono, weight: 700, color: WHITE, dx: 0 });
         line(ctx, 'TVA SUISSE 8,1 %', 500, 970, t, f('s07', 0.6), { size: 60, weight: 900, color: CH, dx: 0 });
       });
       block(ctx, t, S('s08'), S('s09'), () => {

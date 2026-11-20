@@ -6,7 +6,7 @@
    "text": "Mêmes Èr-pods Pro trois. Toi, en Suisse. Ton collègue, en France. Qui paie le moins ?",
    "start": 0.12,
    "end": 6.599,
-   "display": "Mêmes AirPods Pro 3. | Toi, en Suisse. | Ton collègue, en France. | Qui paie le moins ?"
+   "display": "Mêmes AirPods Pro 3. | Toi, en Suisse. | Ton collègue achète en France. | Qui paie le moins ?"
   },
   {
    "id": "s02",
@@ -111,7 +111,7 @@
    "text": "Et abonne-toi : ce soir, ton sèche-cheveux, combien de francs par an ?",
    "start": 64.117,
    "end": 68.385,
-   "display": "Abonne-toi : ce soir, ton sèche-cheveux, | combien de francs par an ?"
+   "display": "Et abonne-toi : ce soir, ton sèche-cheveux, | combien de francs par an ?"
   }
  ]
 }
