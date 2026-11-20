@@ -2312,8 +2312,20 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Frigo « classe B » : la nouvelle étiquette énergie",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "prête",
+   "ajoute_le": "2026-11-20",
+   "titre": "Spotify Premium : Suisse ou France, l'écart sur un an",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181880/tiktok-autopilot/day89_spotify-suisse-france.mp4",
+   "buffer_id": null,
+   "story_instagram": {
+    "buffer_id": null,
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181883/tiktok-autopilot/stories/day89_story.mp4"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181885/tiktok-autopilot/reels/day89_reel.mp4",
+    "prevu": "2026-11-25T19:00"
+   }
   },
   {
    "jour": 82,
@@ -2363,8 +2375,20 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Lampe torche « 10 000 lumens » : mesurés comment ?",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "prête",
+   "ajoute_le": "2026-11-20",
+   "titre": "SSD « jusqu'à 7 000 Mo/s » : seulement au début",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181886/tiktok-autopilot/day92_ssd-7000-cache.mp4",
+   "buffer_id": null,
+   "story_instagram": {
+    "buffer_id": null,
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181888/tiktok-autopilot/stories/day92_story.mp4"
+   },
+   "reel_instagram": {
+    "statut": "en attente",
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181890/tiktok-autopilot/reels/day92_reel.mp4",
+    "prevu": "2026-11-26T19:00"
+   }
   },
   {
    "jour": 83,

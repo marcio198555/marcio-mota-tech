@@ -553,6 +553,26 @@
    "caption": "PS5 en mode repos : combien te coûtent la recharge USB et Internet par an ?\n\nSony publie les mesures de sa PS5 (modèle CFI-2016) : 0,31 W en mode repos par défaut, 3,8 W avec toutes les options activées. Selon le support PlayStation, dès qu'une option est activée, la console ne descend plus sous 0,5 W en repos.\n\nExemple à 20 h de repos par jour et 27,7 ct./kWh (médiane ElCom 2026, hors TVA) : 7,68 CHF par an tout activé, 0,63 CHF par défaut. Réglage : Paramètres > Système > Gestion de l'alimentation > Fonctionnalités disponibles en mode repos.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui laisse sa console en mode repos.\n\n#ps5 #jeuxvideo #gamer #suisseromande #jemesuretout",
    "statut": "en attente",
    "cta": "envoi"
+  },
+  {
+   "id": "day89",
+   "prevu": "2026-11-25T19:00",
+   "source": "autopilot jour 89",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181885/tiktok-autopilot/reels/day89_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Spotify Premium en Suisse ou en France : 56 francs d'écart sur un an\n\nSites officiels Spotify, prix relevés le 20.11.2026 : Premium Personnel 15.95 CHF par mois en Suisse, 12,14 € par mois en France, soit 11,25 CHF au cours de la BNS du 19.11.2026 (1 € = 0,9263 CHF). Sur douze mois : 191.40 CHF contre 134,94 CHF, soit 56,46 CHF d'écart.\n\nEn Famille (jusqu'à 6 comptes à la même adresse) : 26.95 CHF contre 21,24 €, soit 19,67 CHF : plus de 7 francs par mois d'écart. À six, le Famille suisse revient à moins de 4,50 CHF par compte et par mois.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#spotify #abonnement #suissecontrefrance #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "cta": "abonnement"
+  },
+  {
+   "id": "day92",
+   "prevu": "2026-11-26T19:00",
+   "source": "autopilot jour 92",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181890/tiktok-autopilot/reels/day92_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "SSD « jusqu'à 7 000 Mo/s » : pourquoi ta copie ralentit après les premiers gigaoctets\n\nSur la fiche officielle Kingston KC3000, le modèle 512 Go lit à 7 000 Mo/s mais écrit à 3 900 Mo/s ; le 2 To écrit à 7 000 Mo/s. Ces vitesses sont mesurées sur un disque neuf, sorti de la boîte.\n\nLe secret, c'est le cache SLC : une partie de la mémoire passe en mode rapide. Selon Sabrent, une fois ce cache plein, le disque passe à sa vitesse d'écriture de base, plus lente, et la retrouve après un moment au repos. Selon Sandisk, une partie de ce cache rétrécit quand le disque se remplit.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui monte son PC pour le Black Friday.\n\n#ssd #informatique #gamer #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "cta": "envoi"
   }
  ]
 }

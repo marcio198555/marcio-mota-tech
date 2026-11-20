@@ -1,0 +1,31 @@
+{
+ "day": 92,
+ "title": "SSD « jusqu'à 7 000 Mo/s » : seulement au début",
+ "format": "V",
+ "recette": "S4",
+ "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181886/tiktok-autopilot/day92_ssd-7000-cache.mp4",
+ "story_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181888/tiktok-autopilot/stories/day92_story.mp4",
+ "heure": "18:00",
+ "date": "2026-11-26",
+ "aigc": true,
+ "branded": false,
+ "cover_ms": 1200,
+ "statut": "prête",
+ "tiktok_title": "SSD « jusqu'à 7 000 Mo/s » : seulement au début",
+ "caption": "Ton SSD « jusqu'à 7 000 Mo/s » n'écrit pas toujours à 7 000.\nFiche officielle Kingston KC3000 : en 512 Go, lecture 7 000 Mo/s mais écriture 3 900 Mo/s (7 000 en 2 To), mesurées sur disque neuf. Selon Sabrent, une fois le cache SLC plein, le disque passe à sa vitesse d'écriture de base, plus lente.\nTon SSD fait combien de Go, et quelle vitesse d'écriture sur sa fiche ?\n#ssd #nvme #blackfriday #astucetech\nVoix de synthèse.",
+ "duree_s": 66.3,
+ "story_instagram": {
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181888/tiktok-autopilot/stories/day92_story.mp4",
+  "buffer_id": null,
+  "programme_le": null
+ },
+ "reel_instagram": {
+  "prevu": "2026-11-26T19:00",
+  "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181890/tiktok-autopilot/reels/day92_reel.mp4",
+  "caption": "SSD « jusqu'à 7 000 Mo/s » : pourquoi ta copie ralentit après les premiers gigaoctets\n\nSur la fiche officielle Kingston KC3000, le modèle 512 Go lit à 7 000 Mo/s mais écrit à 3 900 Mo/s ; le 2 To écrit à 7 000 Mo/s. Ces vitesses sont mesurées sur un disque neuf, sorti de la boîte.\n\nLe secret, c'est le cache SLC : une partie de la mémoire passe en mode rapide. Selon Sabrent, une fois ce cache plein, le disque passe à sa vitesse d'écriture de base, plus lente, et la retrouve après un moment au repos. Selon Sandisk, une partie de ce cache rétrécit quand le disque se remplit.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui monte son PC pour le Black Friday.\n\n#ssd #informatique #gamer #suisseromande #jemesuretout",
+  "statut": "en attente",
+  "cta": "envoi"
+ },
+ "buffer_id": null,
+ "programme_le": null
+}
