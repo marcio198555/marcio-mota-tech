@@ -1,0 +1,103 @@
+{
+ "duration": 65.534,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Ton frigo neuf est classé B. Tu trouves ça moyen ?",
+   "start": 0.12,
+   "end": 4.127,
+   "display": "Frigo neuf classé B : | c'est moyen ?"
+  },
+  {
+   "id": "s02",
+   "text": "Non. Au départ, la classe A devait rester vide.",
+   "start": 4.227,
+   "end": 7.427,
+   "display": "Non. | Au départ, la classe A | devait rester vide."
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, tu sauras quelles lettres ont disparu des frigos neufs.",
+   "start": 7.527,
+   "end": 10.936,
+   "display": "À la fin : les lettres | disparues des frigos neufs."
+  },
+  {
+   "id": "s04",
+   "text": "Avant deux mille vingt et un : de G à A triple plus.",
+   "start": 11.036,
+   "end": 14.551,
+   "display": "Avant 2021 : | de G à A+++"
+  },
+  {
+   "id": "s05",
+   "text": "Depuis mars deux mille vingt et un : retour de A à G.",
+   "start": 14.651,
+   "end": 19.38,
+   "display": "Depuis mars 2021 : | de A à G | (règlement UE 2019/2016)"
+  },
+  {
+   "id": "s06",
+   "text": "Selon la Commission européenne, un ancien A triple plus pouvait passer en C.",
+   "start": 19.48,
+   "end": 24.807,
+   "display": "Commission européenne : | un ancien A+++ | pouvait passer en C."
+  },
+  {
+   "id": "s07",
+   "text": "En Suisse, l'ordonnance fédérale reprend ces règles.",
+   "start": 24.907,
+   "end": 29.606,
+   "display": "En Suisse : l'OEEE | reprend ces règles."
+  },
+  {
+   "id": "s08",
+   "text": "Surprise : depuis mars deux mille vingt-quatre, un frigo neuf doit être au moins en E.",
+   "start": 29.706,
+   "end": 35.079,
+   "display": "Surprise : depuis mars 2024, | un frigo neuf doit être | au moins en E."
+  },
+  {
+   "id": "s09",
+   "text": "F et G restent dessinés, mais pas pour un frigo neuf classique.",
+   "start": 35.179,
+   "end": 39.592,
+   "display": "F et G restent dessinés, | mais pas pour un frigo | neuf classique."
+  },
+  {
+   "id": "s10",
+   "text": "Selon SuisseEnergie, un C consomme jusqu'à quarante pour cent de plus qu'un A.",
+   "start": 39.692,
+   "end": 44.37,
+   "display": "SuisseEnergie : un C consomme | jusqu'à 40 % de plus qu'un A."
+  },
+  {
+   "id": "s11",
+   "text": "Exemple : cent cinquante kilowattheures par an, environ quarante et un francs. Plus quarante pour cent : cinquante-huit.",
+   "start": 44.47,
+   "end": 51.964,
+   "display": "Exemple : 150 kWh/an ≈ 41 CHF. | +40 % : 58 CHF."
+  },
+  {
+   "id": "s12",
+   "text": "Avant d'acheter, regarde les kilowattheures par an.",
+   "start": 52.064,
+   "end": 55.31,
+   "display": "Avant d'acheter : | regarde les kWh par an."
+  },
+  {
+   "id": "s13",
+   "text": "Ton frigo affiche quelle lettre ? Écris-la en commentaire.",
+   "start": 55.41,
+   "end": 58.85,
+   "display": "Ton frigo, quelle lettre ? | Écris-la en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : ce soir, le SSD à sept mille mégaoctets par seconde… seulement au début.",
+   "start": 58.95,
+   "end": 65.234,
+   "display": "Abonne-toi : ce soir, | le SSD à 7 000 Mo/s… | seulement au début."
+  }
+ ]
+}
