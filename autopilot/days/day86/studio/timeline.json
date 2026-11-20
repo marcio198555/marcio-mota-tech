@@ -1,0 +1,103 @@
+{
+ "duration": 68.058,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Toi, ton sèche-cheveux deux mille watts tourne cinq minutes par jour.",
+   "start": 0.12,
+   "end": 3.987,
+   "display": "Toi : sèche-cheveux 2 000 W, | 5 min par jour."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, quinze minutes. Combien de plus par an ?",
+   "start": 4.087,
+   "end": 7.182,
+   "display": "Ton collègue : 15 min. | Combien de plus par an ?"
+  },
+  {
+   "id": "s03",
+   "text": "Attends. À la fin, l'écart en francs.",
+   "start": 7.282,
+   "end": 10.351,
+   "display": "Attends. | À la fin : l'écart en francs."
+  },
+  {
+   "id": "s04",
+   "text": "Exemple : chez Bébilisse, le Power Pro deux mille affiche deux mille watts, soit deux kilowatts.",
+   "start": 10.451,
+   "end": 17.903,
+   "display": "Exemple : BaByliss Power Pro 2000 | = 2 000 W, soit 2 kW."
+  },
+  {
+   "id": "s05",
+   "text": "Et ce n'est pas tout : il faut le prix du courant.",
+   "start": 18.003,
+   "end": 21.088,
+   "display": "Et ce n'est pas tout : | le prix du courant."
+  },
+  {
+   "id": "s06",
+   "text": "Médiane ElCom deux mille vingt-six : vingt-sept virgule sept centimes le kilowattheure, hors TVA.",
+   "start": 21.188,
+   "end": 28.553,
+   "display": "Médiane ElCom 2026 : | 27,7 ct./kWh hors TVA."
+  },
+  {
+   "id": "s07",
+   "text": "Exemple, toi : cinq minutes par jour, à fond, toute l'année : environ dix-sept francs.",
+   "start": 28.653,
+   "end": 35.109,
+   "display": "Exemple, toi : 5 min/jour à fond, | toute l'année ≈ 16,85 CHF."
+  },
+  {
+   "id": "s08",
+   "text": "Ton collègue, trois fois plus longtemps : environ cinquante et un francs.",
+   "start": 35.209,
+   "end": 39.418,
+   "display": "Ton collègue, 3 × plus longtemps : | ≈ 50,55 CHF."
+  },
+  {
+   "id": "s09",
+   "text": "Deuxième surprise : deux mille, ce n'est pas toujours des watts consommés.",
+   "start": 39.518,
+   "end": 43.825,
+   "display": "2e surprise : « 2 000 » | n'est pas toujours | des watts consommés."
+  },
+  {
+   "id": "s10",
+   "text": "Une notice Bébilisse annonce deux mille « draïe-watts »… pour mille quatre cents watts réels.",
+   "start": 43.925,
+   "end": 49.321,
+   "display": "Notice BaByliss : 2 000 « DryWatts »… | pour 1 400 W réels."
+  },
+  {
+   "id": "s11",
+   "text": "Conseil : sur la boîte, cherche la puissance en watts, pas en draïe-watts.",
+   "start": 49.421,
+   "end": 53.991,
+   "display": "Conseil : sur la boîte, | cherche des watts, | pas des « DryWatts »."
+  },
+  {
+   "id": "s12",
+   "text": "Toi, tu sèches combien de minutes ? Écris-le en commentaire.",
+   "start": 54.091,
+   "end": 57.796,
+   "display": "Toi, combien de minutes ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Promesse tenue : l'écart, environ trente-quatre francs par an.",
+   "start": 57.896,
+   "end": 61.723,
+   "display": "Promesse tenue : l'écart | ≈ 33,70 CHF par an."
+  },
+  {
+   "id": "s14",
+   "text": "Et abonne-toi : demain, ton chargeur sans fil « quinze watts »… ton téléphone en prend peut-être moins.",
+   "start": 61.823,
+   "end": 67.758,
+   "display": "Abonne-toi : demain, | chargeur sans fil « 15 W »… | ton téléphone en prend moins ?"
+  }
+ ]
+}
