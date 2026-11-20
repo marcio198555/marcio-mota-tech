@@ -1,5 +1,5 @@
 {
- "duration": 67.519,
+ "duration": 68.069,
  "segments": [
   {
    "id": "s01",
@@ -24,86 +24,86 @@
   },
   {
    "id": "s04",
-   "text": "Exemple : l'Amazfite Bip six, quatorze jours en usage typique.",
+   "text": "Exemple : la montre Bip six, quatorze jours en usage typique.",
    "start": 13.021,
-   "end": 18.692,
+   "end": 18.437,
    "display": "Exemple : Amazfit Bip 6, | 14 jours en usage typique."
   },
   {
    "id": "s05",
    "text": "Et ce n'est pas tout : typique, ça veut dire quoi ?",
-   "start": 18.792,
-   "end": 21.241,
+   "start": 18.537,
+   "end": 20.986,
    "display": "Et ce n'est pas tout : | « typique », ça veut dire quoi ?"
   },
   {
    "id": "s06",
-   "text": "Selon Amazfite : cadran fixe, écran allumé cinq minutes par jour.",
-   "start": 21.341,
-   "end": 26.406,
-   "display": "Selon Amazfit : cadran fixe, | écran allumé 5 min par jour."
+   "text": "Selon la fiche du fabricant : cadran fixe, écran allumé cinq minutes par jour.",
+   "start": 21.086,
+   "end": 26.243,
+   "display": "Selon la fiche du fabricant : | cadran fixe, écran allumé 5 min par jour."
   },
   {
    "id": "s07",
    "text": "Et le jé-pé-èss : trois fois trente minutes par semaine.",
-   "start": 26.506,
-   "end": 29.572,
+   "start": 26.343,
+   "end": 29.41,
    "display": "Et le GPS : | 3 × 30 min par semaine."
   },
   {
    "id": "s08",
    "text": "En usage intensif : jusqu'à six jours, selon la même fiche.",
-   "start": 29.672,
-   "end": 34.227,
+   "start": 29.51,
+   "end": 34.065,
    "display": "Usage intensif : | jusqu'à 6 jours | (même fiche)."
   },
   {
    "id": "s09",
-   "text": "Deuxième surprise : chez Houawei, la Watch GT cinq quarante-six millimètres.",
-   "start": 34.327,
-   "end": 39.788,
-   "display": "2e surprise : | Huawei Watch GT 5, 46 mm."
+   "text": "Deuxième surprise : une autre marque, la Watch Gé-Té cinq, en quarante-six millimètres.",
+   "start": 34.165,
+   "end": 40.338,
+   "display": "2e surprise, une autre marque : | Huawei Watch GT 5, 46 mm."
   },
   {
    "id": "s10",
    "text": "Quatorze jours en usage optimal. Écran toujours allumé : jusqu'à cinq jours.",
-   "start": 39.888,
-   "end": 45.455,
+   "start": 40.438,
+   "end": 46.005,
    "display": "14 jours en usage optimal. | Écran toujours allumé : | jusqu'à 5 jours."
   },
   {
    "id": "s11",
    "text": "Et la quarante et un millimètres : jusqu'à sept jours, au mieux.",
-   "start": 45.555,
-   "end": 48.639,
+   "start": 46.105,
+   "end": 49.189,
    "display": "Version 41 mm : | jusqu'à 7 jours, au mieux."
   },
   {
    "id": "s12",
    "text": "Conseil : lis toujours la note sous l'autonomie.",
-   "start": 48.739,
-   "end": 51.48,
+   "start": 49.289,
+   "end": 52.03,
    "display": "Conseil : lis toujours | la note sous l'autonomie."
   },
   {
    "id": "s13",
    "text": "Ta montre, tu la recharges tous les combien ? Écris-le en commentaire.",
-   "start": 51.58,
-   "end": 55.615,
+   "start": 52.13,
+   "end": 56.165,
    "display": "Ta montre, tu la recharges | tous les combien ? | Écris-le en commentaire."
   },
   {
    "id": "s14",
    "text": "Promesse tenue : jé-pé-èss en continu, jusqu'à trente-deux heures. Moins d'un jour et demi.",
-   "start": 55.715,
-   "end": 61.681,
+   "start": 56.265,
+   "end": 62.231,
    "display": "Promesse tenue : | GPS en continu, jusqu'à 32 h. | Moins d'un jour et demi."
   },
   {
    "id": "s15",
    "text": "Et abonne-toi : demain, la trottinette « quarante kilomètres »… dans les conditions du test.",
-   "start": 61.781,
-   "end": 67.219,
+   "start": 62.331,
+   "end": 67.769,
    "display": "Abonne-toi : demain, | la trottinette « 40 km »… | dans les conditions du test."
   }
  ]
