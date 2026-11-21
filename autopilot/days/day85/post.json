@@ -10,7 +10,7 @@
  "aigc": true,
  "branded": false,
  "cover_ms": 1200,
- "statut": "programmée",
+ "statut": "annulée (TikTok arrêté le 21.11.2026)",
  "tiktok_title": "Écran « 1 ms » : ce n'est pas le vrai temps de réponse",
  "caption": "Ton écran « 1 ms » et celui à 4 ms sont peut-être le même modèle.\nDans le guide Dell du G2724D : 1 ms gris à gris en mode Extreme (avec de « légers défauts visibles » possibles), 4 ms en mode Fast. Selon un article diffusé par VESA, chaque fabricant a sa propre méthode de test ; le logo ClearMR compte les pixels nets contre les pixels flous.\nTon écran est réglé sur quel mode de temps de réponse ?\n#ecrangaming #moniteur #tempsdereponse #blackfriday\nVoix de synthèse.",
  "duree_s": 69.0,
@@ -18,7 +18,7 @@
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182500/tiktok-autopilot/stories/day85_story.mp4",
   "buffer_id": null,
   "programme_le": null,
-  "statut": "non programmée : Buffer Instagram plein (10/10) le 21.11 à 7 h 17"
+  "statut": "annulée (Stories arrêtées le 21.11.2026)"
  },
  "reel_instagram": {
   "prevu": "2026-11-21T19:00",
@@ -29,9 +29,9 @@
   "publie_le": "2026-11-21T07:20",
   "permalink": "https://www.instagram.com/reel/Df_kW_1D37L/"
  },
- "buffer_id": "6b0029473d025b9e58a6461c",
  "programme_le": "2026-11-21T18:00:00+01:00",
  "tiktok": "carrousel (test du 19.11)",
  "carousel_caption": "Ton écran répond vraiment en 1 ms ? Glisse jusqu'au verdict.\nSources : guides utilisateur Dell G2724D et SE2426H, VESA (ClearMR, communiqué du 22.08.2022) et article ClearMR 1.1 diffusé par VESA (2024).\nTon écran est réglé sur quel mode de temps de réponse ?\n#ecrangaming #moniteur #tempsdereponse #blackfriday\nTexte et images générés par IA.",
- "carousel_title": "Écran « 1 ms » : vraiment une milliseconde ?"
+ "carousel_title": "Écran « 1 ms » : vraiment une milliseconde ?",
+ "buffer_id_supprime": "6b0029473d025b9e58a6461c"
 }

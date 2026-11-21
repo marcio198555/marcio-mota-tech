@@ -1,5 +1,5 @@
 {
- "_lisez_moi": "File des Reels d'essai Instagram publiés par vidIQ (RUNBOOK, bloc du 03.11, point 2). La tâche « Autopilot : programmation Buffer » (7 h 13) publie chaque matin les entrées « en attente » dont la date est aujourd'hui ou avant, les plus anciennes d'abord, 3 au plus par jour, puis met statut « publié », la date et le lien. Les tâches du vendredi ajoutent une entrée par vidéo. Jamais un Reel normal, jamais deux fois la même entrée.",
+ "_lisez_moi": "File des Reels d'essai Instagram publiés par vidIQ. Depuis le 21.11.2026, une seule tâche, « Instagram : 2 Reels d'essai par jour », publie chaque jour les 2 plus anciennes entrées « en attente » (ordre du champ prevu) et ajoute 2 nouvelles vidéos quand il en reste moins de 6 (voir autopilot/INSTAGRAM.md). Jamais un Reel normal, jamais deux fois la même entrée, jamais plus de 2 Reels d'essai neufs par jour.",
  "reels": [
   {
    "id": "day20",

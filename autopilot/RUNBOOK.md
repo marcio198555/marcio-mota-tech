@@ -1,3 +1,5 @@
+> **21.11.2026 : TikTok arrêté, Instagram seulement.** Marcio : « je veux tout annuler et avoir juste Instagram, avec les Reels d'essai ». Lire d'abord `autopilot/INSTAGRAM.md` : il prime sur tout ce document. Les sections TikTok, Buffer, Stories et les tâches du vendredi ci-dessous ne s'appliquent plus ; on garde seulement la recette de production (§ 4 à § 7, § 11.7) et les règles Instagram (blocs du 20.11, du 11.11 et du 03.11 point 2).
+
 # Autopilot TikTok @marcio.mota8 — procédure hebdomadaire (chaque vendredi)
 
 Ce document est suivi par deux tâches programmées, chaque vendredi (heure de Zurich), qui démarrent chacune

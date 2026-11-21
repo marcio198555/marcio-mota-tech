@@ -2063,14 +2063,13 @@
    ],
    "tiktok": "carrousel (test du 19.11)",
    "annonce": "Écran « 1 ms » : ce n'est pas le vrai temps de réponse",
-   "statut": "programmée",
+   "statut": "annulée (TikTok)",
    "ajoute_le": "2026-11-20",
    "titre": "Purificateur « 50 m² » : avec combien de renouvellements ?",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153659/tiktok-autopilot/day77_purificateur-50m2.mp4",
-   "buffer_id": "6affd482738ce4635f8a5d76",
    "story_instagram": {
-    "buffer_id": "6b0137505102766245fe7b7c",
-    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153661/tiktok-autopilot/stories/day77_story.mp4"
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153661/tiktok-autopilot/stories/day77_story.mp4",
+    "buffer_id_supprime": "6b0137505102766245fe7b7c"
    },
    "reel_instagram": {
     "statut": "publié",
@@ -2078,7 +2077,9 @@
     "prevu": "2026-11-21T11:00",
     "publie_le": "2026-11-21T07:20",
     "permalink": "https://www.instagram.com/reel/Df_kZQoASbL/"
-   }
+   },
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)",
+   "buffer_id_supprime": "6affd482738ce4635f8a5d76"
   },
   {
    "jour": 85,
@@ -2097,11 +2098,10 @@
    ],
    "tiktok": "carrousel (test du 19.11)",
    "annonce": "Suisse contre France : AirPods Pro 3, où sont-ils les moins chers ?",
-   "statut": "programmée",
+   "statut": "annulée (TikTok)",
    "ajoute_le": "2026-11-20",
    "titre": "Écran « 1 ms » : ce n'est pas le vrai temps de réponse",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182498/tiktok-autopilot/day85_ecran-1-ms.mp4",
-   "buffer_id": "6b0029473d025b9e58a6461c",
    "story_instagram": {
     "buffer_id": null,
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182500/tiktok-autopilot/stories/day85_story.mp4"
@@ -2112,7 +2112,9 @@
     "prevu": "2026-11-21T19:00",
     "publie_le": "2026-11-21T07:20",
     "permalink": "https://www.instagram.com/reel/Df_kW_1D37L/"
-   }
+   },
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)",
+   "buffer_id_supprime": "6b0029473d025b9e58a6461c"
   },
   {
    "jour": 78,
@@ -2131,11 +2133,10 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Sèche-cheveux 2 000 W : combien en francs par an ?",
-   "statut": "programmée",
+   "statut": "annulée (TikTok)",
    "ajoute_le": "2026-11-20",
    "titre": "AirPods Pro 3 : Suisse ou France, où moins chers ?",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795155561/tiktok-autopilot/day78_airpods-pro-3-suisse-france.mp4",
-   "buffer_id": "6affe6787b0a126cebb1f948",
    "story_instagram": {
     "buffer_id": null,
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795155562/tiktok-autopilot/stories/day78_story.mp4"
@@ -2144,7 +2145,9 @@
     "statut": "en attente",
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795155564/tiktok-autopilot/reels/day78_reel.mp4",
     "prevu": "2026-11-22T11:00"
-   }
+   },
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)",
+   "buffer_id_supprime": "6affe6787b0a126cebb1f948"
   },
   {
    "jour": 86,
@@ -2163,11 +2166,10 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Chargeur sans fil « 15 W » : ton téléphone en prend peut-être moins",
-   "statut": "programmée",
+   "statut": "annulée (TikTok)",
    "ajoute_le": "2026-11-20",
    "titre": "Sèche-cheveux 2 000 W : combien de francs par an ?",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795176015/tiktok-autopilot/day86_seche-cheveux-2000w.mp4",
-   "buffer_id": "6b003663c1f33e2aa5bf08a3",
    "story_instagram": {
     "buffer_id": null,
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795176018/tiktok-autopilot/stories/day86_story.mp4"
@@ -2176,7 +2178,9 @@
     "statut": "en attente",
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795176020/tiktok-autopilot/reels/day86_reel.mp4",
     "prevu": "2026-11-22T19:00"
-   }
+   },
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)",
+   "buffer_id_supprime": "6b003663c1f33e2aa5bf08a3"
   },
   {
    "jour": 79,
@@ -2195,11 +2199,10 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Montre connectée « 14 jours » : sans GPS ni écran toujours allumé",
-   "statut": "programmée",
+   "statut": "annulée (TikTok)",
    "ajoute_le": "2026-11-20",
    "titre": "Chargeur sans fil « 15 W » : ton téléphone en prend moins ?",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795156710/tiktok-autopilot/day79_chargeur-sans-fil-15w.mp4",
-   "buffer_id": "6affeaf27b0a126cebb35779",
    "story_instagram": {
     "buffer_id": null,
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795156712/tiktok-autopilot/stories/day79_story.mp4"
@@ -2208,7 +2211,9 @@
     "statut": "en attente",
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795156713/tiktok-autopilot/reels/day79_reel.mp4",
     "prevu": "2026-11-23T11:00"
-   }
+   },
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)",
+   "buffer_id_supprime": "6affeaf27b0a126cebb35779"
   },
   {
    "jour": 87,
@@ -2226,11 +2231,10 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Trottinette « 40 km d'autonomie » : dans les conditions du test",
-   "statut": "programmée",
+   "statut": "annulée (TikTok)",
    "ajoute_le": "2026-11-20",
    "titre": "Montre connectée « 14 jours » : et avec le GPS ?",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181641/tiktok-autopilot/day87_montre-14-jours-gps.mp4",
-   "buffer_id": "6b01375120a2d09a0ada2c64",
    "story_instagram": {
     "buffer_id": null,
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181642/tiktok-autopilot/stories/day87_story.mp4"
@@ -2239,7 +2243,9 @@
     "statut": "en attente",
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181644/tiktok-autopilot/reels/day87_reel.mp4",
     "prevu": "2026-11-23T19:00"
-   }
+   },
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)",
+   "buffer_id_supprime": "6b01375120a2d09a0ada2c64"
   },
   {
    "jour": 80,
@@ -2258,8 +2264,9 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Four : faut-il vraiment préchauffer ?",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "annulée",
+   "ajoute_le": "2026-11-20",
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)"
   },
   {
    "jour": 88,
@@ -2278,7 +2285,7 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Clé « USB 3.2 » : peut-être 5 Gbit/s seulement",
-   "statut": "prête",
+   "statut": "annulée (TikTok)",
    "ajoute_le": "2026-11-20",
    "titre": "Four : faut-il vraiment préchauffer ? Le calcul en francs",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181646/tiktok-autopilot/day88_four-prechauffer.mp4",
@@ -2291,7 +2298,8 @@
     "statut": "en attente",
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181650/tiktok-autopilot/reels/day88_reel.mp4",
     "prevu": "2026-11-24T19:00"
-   }
+   },
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)"
   },
   {
    "jour": 81,
@@ -2310,8 +2318,9 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Suisse contre France : Spotify Premium",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "annulée",
+   "ajoute_le": "2026-11-20",
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)"
   },
   {
    "jour": 89,
@@ -2329,7 +2338,7 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Frigo « classe B » : la nouvelle étiquette énergie",
-   "statut": "prête",
+   "statut": "annulée (TikTok)",
    "ajoute_le": "2026-11-20",
    "titre": "Spotify Premium : Suisse ou France, l'écart sur un an",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181880/tiktok-autopilot/day89_spotify-suisse-france.mp4",
@@ -2342,7 +2351,8 @@
     "statut": "en attente",
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181885/tiktok-autopilot/reels/day89_reel.mp4",
     "prevu": "2026-11-25T19:00"
-   }
+   },
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)"
   },
   {
    "jour": 82,
@@ -2361,7 +2371,7 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "SSD « jusqu'à 7 000 Mo/s » : seulement au début",
-   "statut": "prête",
+   "statut": "annulée (TikTok)",
    "ajoute_le": "2026-11-20",
    "titre": "Frigo classé B : la nouvelle étiquette énergie",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795158553/tiktok-autopilot/day82_frigo-classe-b.mp4",
@@ -2374,7 +2384,8 @@
     "statut": "en attente",
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795158556/tiktok-autopilot/reels/day82_reel.mp4",
     "prevu": "2026-11-26T11:00"
-   }
+   },
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)"
   },
   {
    "jour": 92,
@@ -2392,7 +2403,7 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Lampe torche « 10 000 lumens » : mesurés comment ?",
-   "statut": "prête",
+   "statut": "annulée (TikTok)",
    "ajoute_le": "2026-11-20",
    "titre": "SSD « jusqu'à 7 000 Mo/s » : seulement au début",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181886/tiktok-autopilot/day92_ssd-7000-cache.mp4",
@@ -2405,7 +2416,8 @@
     "statut": "en attente",
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181890/tiktok-autopilot/reels/day92_reel.mp4",
     "prevu": "2026-11-26T19:00"
-   }
+   },
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)"
   },
   {
    "jour": 83,
@@ -2423,8 +2435,9 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Console en mode repos : combien en francs par an ?",
-   "statut": "à produire",
-   "ajoute_le": "2026-11-20"
+   "statut": "annulée",
+   "ajoute_le": "2026-11-20",
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)"
   },
   {
    "jour": 93,
@@ -2442,7 +2455,7 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": null,
-   "statut": "prête",
+   "statut": "annulée (TikTok)",
    "ajoute_le": "2026-11-20",
    "titre": "PS5 en mode repos : combien en francs par an ?",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181651/tiktok-autopilot/day93_ps5-mode-repos.mp4",
@@ -2455,7 +2468,8 @@
     "statut": "en attente",
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181654/tiktok-autopilot/reels/day93_reel.mp4",
     "prevu": "2026-11-27T19:00"
-   }
+   },
+   "statut_tiktok": "annulée le 21.11.2026 : Marcio arrête TikTok (voir INSTAGRAM.md)"
   }
  ],
  "rythme": "Depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour ») : dès le 7.11, 2 vidéos créées par jour sur TikTok, à 10 h et 18 h, toutes deux « chiffre-piège » (recette du 05.11 mise à jour à 10 h 40 avec les données vidIQ : objet ou habitude du quotidien, duel « toi / ton collègue », question ouverte, réponse au milieu, 50–70 s ; série « Suisse contre France » 2 fois par semaine ; RUNBOOK, bloc du 05.11, point 2 bis), chacune avec sa Story (fin « Nouvelle vidéo sur TikTok ») et son Reel d'essai. Vendredi : bilan + plan + 7 vidéos de 10 h (5 h 37) ; 7 vidéos de 18 h (11 h 37). Format R en pause (derniers essais : Sleepal 5.11, Aeotec 6.11). Format T abandonné. Stratégie du mois : strategy.json.",
@@ -2503,5 +2517,6 @@
    "statut": "programmée"
   }
  ],
- "format_R_note": "En pause depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour »). r01 Roomba : 79 vues après 16 h (05.11, 8 h 50). r02 et r03 = derniers essais."
+ "format_R_note": "En pause depuis le 05.11.2026 (choix de Marcio : « 2 chiffres-pièges par jour »). r01 Roomba : 79 vues après 16 h (05.11, 8 h 50). r02 et r03 = derniers essais.",
+ "note_21_11": "Depuis le 21.11.2026 : Instagram seulement (Reels d'essai). Voir autopilot/INSTAGRAM.md. Ce fichier n'est plus tenu à jour pour TikTok."
 }

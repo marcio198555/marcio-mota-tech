@@ -10,14 +10,15 @@
  "aigc": true,
  "branded": false,
  "cover_ms": 1200,
- "statut": "programmée",
+ "statut": "annulée (TikTok arrêté le 21.11.2026)",
  "tiktok_title": "Chargeur sans fil « 15 W » : ton téléphone en prend moins ?",
  "caption": "Chargeur sans fil 15 W : ton téléphone n'en prend peut-être que la moitié 🔌\nNorme Qi (Wireless Power Consortium) : c'est le téléphone qui demande la puissance, et un appareil de 5 W posé sur un chargeur de 15 W ne reçoit pas plus de 5 W. Google Store : Pixel 9a jusqu'à 7,5 W sans fil, Pixel 10a jusqu'à 10 W (chargeurs EPP certifiés Qi).\nTon téléphone accepte combien de watts sans fil ? Regarde sa fiche et écris-le 👇\n#chargeursansfil #astucetech #recharge #blackfriday #smartphone\nVoix de synthèse.",
  "duree_s": 68.9,
  "story_instagram": {
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795156712/tiktok-autopilot/stories/day79_story.mp4",
   "buffer_id": null,
-  "programme_le": null
+  "programme_le": null,
+  "statut": "annulée (Stories arrêtées le 21.11.2026)"
  },
  "reel_instagram": {
   "prevu": "2026-11-23T11:00",
@@ -26,6 +27,6 @@
   "statut": "en attente",
   "cta": "abonnement"
  },
- "buffer_id": "6affeaf27b0a126cebb35779",
- "programme_le": "2026-11-23T10:00:00+01:00"
+ "programme_le": "2026-11-23T10:00:00+01:00",
+ "buffer_id_supprime": "6affeaf27b0a126cebb35779"
 }

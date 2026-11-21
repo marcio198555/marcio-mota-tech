@@ -10,14 +10,15 @@
  "aigc": true,
  "branded": false,
  "cover_ms": 1200,
- "statut": "programmée",
+ "statut": "annulée (TikTok arrêté le 21.11.2026)",
  "tiktok_title": "Sèche-cheveux 2 000 W : combien de francs par an ?",
  "caption": "Ton sèche-cheveux 2 000 W, combien de francs par an ?\nÀ fond (donc un maximum), 5 min par jour (exemple) au tarif médian ElCom 2026 (27,7 ct./kWh hors TVA) : au plus environ 16,85 CHF par an ; 15 min (exemple) : au plus environ 50,55 CHF. Et une notice BaByliss annonce 2 000 « DryWatts » pour 1 400 W consommés.\nToi, tu sèches tes cheveux combien de minutes par jour ?\n#sechecheveux #electricite #facturedelectricite #suisse\nVoix de synthèse.",
  "duree_s": 68.4,
  "story_instagram": {
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795176018/tiktok-autopilot/stories/day86_story.mp4",
   "buffer_id": null,
-  "programme_le": null
+  "programme_le": null,
+  "statut": "annulée (Stories arrêtées le 21.11.2026)"
  },
  "reel_instagram": {
   "prevu": "2026-11-22T19:00",
@@ -26,6 +27,6 @@
   "statut": "en attente",
   "cta": "envoi"
  },
- "buffer_id": "6b003663c1f33e2aa5bf08a3",
- "programme_le": "2026-11-22T18:00:00+01:00"
+ "programme_le": "2026-11-22T18:00:00+01:00",
+ "buffer_id_supprime": "6b003663c1f33e2aa5bf08a3"
 }
