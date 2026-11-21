@@ -18,7 +18,7 @@ for r in rd(os.path.join(PAID, "verified.jsonl")):
     if len(Q) >= N: break
     em = r["email"].lower()
     if em in SE or stem(r["domain"]) in SS or stem(em.split("@")[1]) in SS: skip.append(r["id"]); continue
-    lang = r.get("lang") if r.get("lang") in T else ("fr" if r.get("country") == "FR" else "de")
+    lang = r.get("lang") if r.get("lang") in T else {"FR": "fr", "BE": "fr", "LU": "fr", "DE": "de", "AT": "de", "CH": "de"}.get(r.get("country"), "en")
     t = T[lang]; name = clean(r["brand"]); prod = clean(r["product"])
     if not prod or len(prod) > 70: skip.append(r["id"]); continue
     key = {"fr": "addr_fr", "en": "addr_en", "de": "addr_de"}[lang]
