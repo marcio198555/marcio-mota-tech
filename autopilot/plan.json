@@ -2001,7 +2001,8 @@
    "buffer_id": "6affd36ed5f8acdd0d714f9d",
    "story_instagram": {
     "buffer_id": "6affdb7f4c1afd05def59d3b",
-    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795152757/tiktok-autopilot/stories/day76_story.mp4"
+    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795152757/tiktok-autopilot/stories/day76_story.mp4",
+    "statut": "publiée (erreur média à 10 h 05 le 20.11, relancée une fois le 21.11 à 7 h 17)"
    },
    "reel_instagram": {
     "statut": "publié",
@@ -2068,13 +2069,15 @@
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153659/tiktok-autopilot/day77_purificateur-50m2.mp4",
    "buffer_id": "6affd482738ce4635f8a5d76",
    "story_instagram": {
-    "buffer_id": null,
+    "buffer_id": "6b0137505102766245fe7b7c",
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153661/tiktok-autopilot/stories/day77_story.mp4"
    },
    "reel_instagram": {
-    "statut": "en attente",
+    "statut": "publié",
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795153663/tiktok-autopilot/reels/day77_reel.mp4",
-    "prevu": "2026-11-21T11:00"
+    "prevu": "2026-11-21T11:00",
+    "publie_le": "2026-11-21T07:20",
+    "permalink": "https://www.instagram.com/reel/Df_kZQoASbL/"
    }
   },
   {
@@ -2104,9 +2107,11 @@
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182500/tiktok-autopilot/stories/day85_story.mp4"
    },
    "reel_instagram": {
-    "statut": "en attente",
+    "statut": "publié",
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182502/tiktok-autopilot/reels/day85_reel.mp4",
-    "prevu": "2026-11-21T19:00"
+    "prevu": "2026-11-21T19:00",
+    "publie_le": "2026-11-21T07:20",
+    "permalink": "https://www.instagram.com/reel/Df_kW_1D37L/"
    }
   },
   {
@@ -2221,11 +2226,11 @@
    ],
    "tiktok": "vidéo (sauf si l'analyse du 21.11 ou du 23.11 retient le carrousel)",
    "annonce": "Trottinette « 40 km d'autonomie » : dans les conditions du test",
-   "statut": "prête",
+   "statut": "programmée",
    "ajoute_le": "2026-11-20",
    "titre": "Montre connectée « 14 jours » : et avec le GPS ?",
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181641/tiktok-autopilot/day87_montre-14-jours-gps.mp4",
-   "buffer_id": null,
+   "buffer_id": "6b01375120a2d09a0ada2c64",
    "story_instagram": {
     "buffer_id": null,
     "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181642/tiktok-autopilot/stories/day87_story.mp4"

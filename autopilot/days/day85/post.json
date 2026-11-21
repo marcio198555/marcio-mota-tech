@@ -17,14 +17,17 @@
  "story_instagram": {
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182500/tiktok-autopilot/stories/day85_story.mp4",
   "buffer_id": null,
-  "programme_le": null
+  "programme_le": null,
+  "statut": "non programmée : Buffer Instagram plein (10/10) le 21.11 à 7 h 17"
  },
  "reel_instagram": {
   "prevu": "2026-11-21T19:00",
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795182502/tiktok-autopilot/reels/day85_reel.mp4",
   "caption": "Écran « 1 ms » ? Regarde le mode écrit à côté\n\nSur le guide Dell du G2724D : 1 ms gris à gris en mode Extreme, qui peut ajouter de légers défauts visibles, et 4 ms en mode Fast. Un autre écran Dell annonce 1 ms MPRT, avec un léger scintillement possible et sans FreeSync.\n\nSelon un article diffusé par VESA, chaque fabricant a sa propre méthode de test. Le logo VESA ClearMR compte les pixels nets contre les pixels flous : ClearMR 7000, c'est 65 à 75 fois plus de pixels nets que de pixels flous.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#ecrangaming #moniteur #gamer #suisseromande #jemesuretout",
-  "statut": "en attente",
-  "cta": "abonnement"
+  "statut": "publié",
+  "cta": "abonnement",
+  "publie_le": "2026-11-21T07:20",
+  "permalink": "https://www.instagram.com/reel/Df_kW_1D37L/"
  },
  "buffer_id": "6b0029473d025b9e58a6461c",
  "programme_le": "2026-11-21T18:00:00+01:00",

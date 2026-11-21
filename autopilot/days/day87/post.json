@@ -10,14 +10,15 @@
  "aigc": true,
  "branded": false,
  "cover_ms": 1200,
- "statut": "prête",
+ "statut": "programmée",
  "tiktok_title": "Montre connectée « 14 jours » : et avec le GPS ?",
  "caption": "Ta montre connectée « 14 jours » ne tient pas 14 jours avec le GPS en continu.\nFiche Amazfit Bip 6 : 14 jours en usage typique (cadran fixe, GPS 3 × 30 min par semaine), mais GPS en continu jusqu'à 32 h. Fiche Huawei Watch GT 5 46 mm : 14 jours en usage optimal, 5 jours avec l'écran toujours allumé.\nTa montre, tu la recharges tous les combien de jours ?\n#montreconnectee #smartwatch #gps #autonomie\nVoix de synthèse.",
  "duree_s": 68.4,
  "story_instagram": {
   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181642/tiktok-autopilot/stories/day87_story.mp4",
   "buffer_id": null,
-  "programme_le": null
+  "programme_le": null,
+  "statut": "prête (Buffer Instagram plein le 21.11)"
  },
  "reel_instagram": {
   "prevu": "2026-11-23T19:00",
@@ -26,6 +27,6 @@
   "statut": "en attente",
   "cta": "abonnement"
  },
- "buffer_id": null,
- "programme_le": null
+ "buffer_id": "6b01375120a2d09a0ada2c64",
+ "programme_le": "2026-11-23T18:00:00+01:00"
 }
