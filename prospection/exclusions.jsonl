@@ -30,3 +30,5 @@
 {"to": "impressum@koempf24.de", "domain": "koempf24.de", "id": "EXCL"}
 {"to": "info@telcomdis.com", "domain": "telcomdis.com", "id": "EXCL"}
 {"to": "shop@skinpixel.co.uk", "domain": "skinpixel.co.uk", "id": "EXCL"}
+{"to": "contact@terreentete.com", "id": "BOUNCE"}
+{"to": "info@philippe-k.com", "id": "BOUNCE"}
