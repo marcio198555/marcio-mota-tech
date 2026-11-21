@@ -23,3 +23,9 @@ Aucune donnée personnelle ici (adresse et téléphone restent hors dépôt, dan
 
 ## Modèle d'e-mail (build_perso.py)
 Boutique : 2 produits vus sur le site + une mesure affichée à l'écran (W, dB, lux, °C, s, g, mm, h, Mbit/s), sinon les marques vendues, sinon le rayon (`category`). Marque : 1 ou 2 de ses produits. Distributeur : marques représentées. Langues : fr, de, en.
+
+## Campagne « Reel rémunéré / guide de cadeaux de Noël » (depuis le 17/11)
+- Modèles : `outils/templates_noel.json` (fr/en/de). Adresse et téléphone : `travail/signature_privee.json` (clés addr_fr, addr_en, addr_de, phone), à recopier depuis la signature d'un e-mail envoyé (Gmail : `subject:"Reel rémunéré"`).
+- Recherche : `briefs/NOEL.md` (remplacer __TRANCHE__ et __TAG__), agents Sonnet, Parallel web_search + web_fetch. Candidats : `outils/add_cand.py TAG`, contrôle : `outils/check_cands.py`, validation : `outils/add_verified.py`, lot : `outils/build_noel.py LOT N` (phrase douane retirée pour les marques suisses).
+- Envoi : `briefs/ENVOI_NOEL.md` (remplacer __FILES__ et __QUOTE__). Maximum 370 sur 24 h glissantes.
+- Meilleur rendement : ateliers d'artisans (céramique, bois, bougies, verre, luminaires, cadeaux gravés) ; les marques « classiques » CH/FR sont presque toutes déjà contactées.
