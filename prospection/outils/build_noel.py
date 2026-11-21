@@ -29,7 +29,7 @@ for r in rd(os.path.join(PAID, "verified.jsonl")):
     SE.add(em); SS.add(stem(r["domain"]))
 out = os.path.join(ENV, f"queue_{lot}.jsonl")
 open(out, "w").write("".join(json.dumps(q, ensure_ascii=False) + "\n" for q in Q))
-gq = ["in:anywhere -category:promotions -category:social (" + " OR ".join(sorted({q['domain'] for q in Q[i:i+15]} | {q['to'].split('@')[1] for q in Q[i:i+15]})) + ")" for i in range(0, len(Q), 15)]
+gq = ["in:anywhere -category:promotions -category:social (" + " OR ".join('"%s"' % d for d in sorted({q['domain'] for q in Q[i:i+8]} | {q['to'].split('@')[1] for q in Q[i:i+8]})) + ")" for i in range(0, len(Q), 8)]
 open(os.path.join(ENV, f"queue_{lot}_gq.txt"), "w").write("\n".join(gq) + "\n")
 with open(os.path.join(PAID, "built_ids.txt"), "a") as f:
     for q in Q: f.write(q["src"] + "\n")
