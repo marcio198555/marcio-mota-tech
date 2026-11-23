@@ -1,0 +1,22 @@
+{
+ "job": "day94b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même Thermomiks. Toi, tu l'achètes en Suisse.",
+   "file": "s01.wav",
+   "duration": 4.4,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Sur le prix hors té-vé-a française : environ cent francs.",
+   "file": "s09.wav",
+   "duration": 4.84,
+   "rate": 24000
+  }
+ ],
+ "total": 9.24
+}
