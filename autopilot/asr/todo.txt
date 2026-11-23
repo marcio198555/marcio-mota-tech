@@ -145,3 +145,4 @@ autopilot/vo/day94h_s08.wav
 autopilot/vo/day94h_s10.wav
 autopilot/vo/day94i_s08.wav
 autopilot/vo/day94i_s10.wav
+autopilot/vo/day94_vo3.wav
