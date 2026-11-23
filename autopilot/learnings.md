@@ -627,3 +627,45 @@ Notes de production :
 - Whisper / Chatterbox : « èl-eu-dé » entendu « LUD » (84 : remplacé par « à diodes ») ; « Fri-Sinc/Fri-Sinque » entendu « fricent / s'enfuit cinq » (remplacé par « synchronisation adaptative ») ; « Amazfite » → « Masfit », « Houawei » → « Wawa » (phrases refaites sans la marque, marque à l'écran) ; « Sanndisk » → « son disque » (« un autre fabricant ») ; « vingt et un euros vingt-quatre » → « 20,1 euros 24 » (écrire « vingt-et-un euros et vingt-quatre centimes »). « Bébilisse » donne bien « Babyliss ».
 - Après une reprise de phrase, `replace_segs.py` remonte la voix sans la correction de tempo de `finish.sh` (73 s au lieu de 69) : relancer `SRC=/home/claude/studio/dayNN/tts_merged bash tools/finish.sh NN V`.
 - #blackfriday retiré des légendes sans rapport avec un achat (86, 87, 88, 93, carrousel 84).
+
+## 23.11.2026 — Bilan du lundi : Reels d'essai de la semaine du 16.11 au 22.11 (file `reels_queue.json` seulement)
+Source : vidIQ `vidiq_instagram_owner_insights` (mode reels + insights par Reel : reach, views, shares, saved), relevé le 23.11 vers 10 h 35. Chiffres à vie au moment du relevé ; les Reels du 21 et du 22.11 ont moins de 3 jours. Les Reels de Marcio (produits, Fletch, clips) sont exclus. Les 2 Reels publiés ce matin (79, 87) n'ont pas encore de chiffres.
+
+| Jour | Sujet | Famille | Comptes touchés | Vues | Passages | Regardé | Partages | Enregistr. | Appel |
+|---|---|---|---|---|---|---|---|---|---|
+| 42 (16.11) | 200 mégapixels Redmi | téléphone | 111 | 122 | 47,3 % | 23,6 % | 0 | 0 | envoi |
+| 72 (16.11) | Netflix Suisse/France | Suisse/France | 1 | 1 | 100 % | 1,0 % | 0 | 0 | envoi |
+| 52 (17.11) | Aspirateur sans fil 80 min | batterie | 119 | 126 | 37,8 % | 20,7 % | 0 | 0 | abonnement |
+| 28 (17.11) | Couvercle sur la casserole | électricité | 144 | 161 | 38,9 % | 16,0 % | 0 | 0 | abonnement |
+| 40 (18.11) | Montre étanche 50 m | objet | 242 | 266 | 43,2 % | 27,5 % | 0 | 1 | envoi |
+| 29 (18.11) | Wi-Fi 2,4 ou 5 GHz | maison | 579 | 633 | 37,0 % | 22,3 % | 0 | 1 | envoi |
+| 50 (19.11) | Batterie externe 10 000 mAh | téléphone | 135 | 147 | 55,5 % | 16,2 % | 0 | 0 | abonnement |
+| 75 (19.11) | Robot aspirateur, francs/an | électricité | 139 | 151 | 46,3 % | 15,4 % | 0 | 0 | abonnement |
+| 76 (20.11) | Enceinte 100 W crête/RMS | chiffre de la boîte | **1 258** | 1 488 | 35,2 % | 32,2 % | 3 | 9 | envoi |
+| 84 (20.11) | Guirlande LED, francs | électricité | 247 | 267 | 44,1 % | 20,1 % | 0 | 1 | envoi |
+| 77 (21.11) | Purificateur « 50 m² » | chiffre de la boîte | 382 | 410 | 51,1 % | 17,8 % | 0 | 0 | abonnement |
+| 85 (21.11) | Écran « 1 ms » | TV/écran | **1 200** | 1 290 | 24,0 % | 20,0 % | 0 | 1 | abonnement |
+| 78 (22.11) | AirPods Pro 3 Suisse/France | Suisse/France | **1 051** | 1 150 | 27,2 % | 26,6 % | 0 | 0 | envoi |
+| 86 (22.11) | Sèche-cheveux, francs/an | électricité | 349 | 370 | 34,4 % | 10,1 % | 0 | 0 | envoi |
+
+Ce qui a marché :
+- **Retour à 2 Reels par jour (depuis le 20.11) : la portée remonte.** Médiane des vues du 16 au 19.11 (8 Reels, plusieurs par jour) : 149. Médiane du 20 au 22.11 (6 Reels, 2 par jour) : 780. Trois Reels dépassent 1 000 comptes touchés (76, 85, 78) ; aucun ne dépasse 1 500 (seuil du message à Marcio).
+- **La part de passages reste le meilleur signal** : les 3 Reels à plus de 1 000 comptes touchés ont 24 à 35 % de passages ; les 5 Reels à 44 % ou plus restent tous sous 420 vues.
+- **Angle « le chiffre écrit sur la boîte ne veut pas dire ce que tu crois »** (enceinte 100 W crête, écran 1 ms) : les deux meilleurs Reels de la semaine. L'enceinte est le seul Reel avec des partages (3) et des enregistrements notables (9).
+- **Suisse contre France sur un produit connu** : AirPods Pro 3, 1 051 comptes touchés, 27,2 % de passages.
+
+Ce qui n'a pas marché :
+- **« Combien en francs par an » pour un appareil électrique** : couvercle 161, robot 151, guirlande 267, sèche-cheveux 370 vues. 4 sur 4 sous 400 cette semaine ; le sèche-cheveux n'est regardé qu'à 10,1 %.
+- **Téléphone/batterie expliqué par un calcul** (200 Mpx 122, batterie 10 000 mAh 147 avec 55,5 % de passages) : faible, mais publié pendant la période à plusieurs Reels par jour, donc pas jugeable seul.
+- Netflix (16.11) : 1 seul compte touché. Cause inconnue (pas d'erreur dans la file) ; rien à conclure.
+- **Partages quasi nuls** : 3 partages en tout, tous sur l'enceinte, alors que la moitié des légendes demandait « Envoie-la à… ».
+
+Données qui manquent :
+- **Abonnés gagnés par Reel : non disponibles** (Instagram ne donne pas le champ « follows » pour ces Reels). Compte entier du 16 au 22.11 : 207 abonnements et 60 désabonnements, mais la même semaine, les Reels normaux de Marcio (échecs, platine Dual, caméras GoXtreme) ont fait 9 953 à 13 734 vues : impossible d'attribuer ces abonnés aux Reels d'essai.
+- Appel à l'action : depuis le 20.11, « envoi » 1 488, 1 150, 370, 267 vues ; « abonnement » 1 290, 410. Trop peu de Reels pour trancher ; décision au bilan du 30.11.
+
+Ce que je change pour les prochains sujets :
+1. Priorité à l'angle « chiffre de la boîte contre usage réel » (watts, mAh, « jusqu'à », « m² », « heures ») et à Suisse contre France sur un produit connu.
+2. « Combien en francs par an » pour un appareil électrique : au plus 1 sujet sur 4, et seulement si le montant final surprend (plus de 50 CHF par an ou un écart de plus de 2 fois).
+3. Toujours un chiffre ou un produit nommé dans s01, duel « Toi… Ton collègue… », 59 à 65 s.
+4. Au bilan du 30.11, juger aussi les 2 Reels du 23.11 (chargeur sans fil, montre « 14 jours », même angle « chiffre de la boîte »).
