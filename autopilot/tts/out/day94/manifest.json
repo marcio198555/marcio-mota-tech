@@ -1,0 +1,113 @@
+{
+ "job": "day94",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même Thermomix. Toi, tu l'achètes en Suisse.",
+   "file": "s01.wav",
+   "duration": 3.92,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, en France. Qui paie le moins ?",
+   "file": "s02.wav",
+   "duration": 2.96,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, l'écart en francs, taxe suisse comprise.",
+   "file": "s03.wav",
+   "duration": 4.16,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Site suisse : mille six cent nonante-neuf francs.",
+   "file": "s04.wav",
+   "duration": 4.4,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Site français : mille cinq cent nonante-neuf euros.",
+   "file": "s05.wav",
+   "duration": 3.6,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Au cours de la Banque nationale : mille quatre cent septante-six francs.",
+   "file": "s06.wav",
+   "duration": 5.76,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Déjà deux cent vingt-trois francs de moins.",
+   "file": "s07.wav",
+   "duration": 3.08,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Mais à la frontière, il doit la té-vé-a suisse : huit virgule un pour cent.",
+   "file": "s08.wav",
+   "duration": 4.8,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Sur le prix sans té-vé-a française : environ cent francs.",
+   "file": "s09.wav",
+   "duration": 4.12,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Deuxième surprise : garantie trois ans sur le site français. Deux en Suisse.",
+   "file": "s10.wav",
+   "duration": 5.96,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Et en Suisse, le prix augmente le douze janvier.",
+   "file": "s11.wav",
+   "duration": 4.04,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Ton robot de cuisine, acheté où ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 4.72,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Toi, mille six cent nonante-neuf. Ton collègue, environ mille cinq cent septante-six.",
+   "file": "s13.wav",
+   "duration": 5.4,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "L'écart : environ cent vingt-trois francs.",
+   "file": "s14.wav",
+   "duration": 3.44,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "file": "s15.wav",
+   "duration": 4.44,
+   "rate": 24000
+  }
+ ],
+ "total": 64.8
+}
