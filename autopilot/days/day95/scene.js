@@ -32,7 +32,6 @@
   // batterie qui se vide en boucle (illustration, aucune valeur)
   function drain(ctx, x, y, w, t, col) { battery(ctx, x, y, w, 0.15 + 0.85 * (1 - ((t * 0.35) % 1)), { color: col }); }
   function igEnd(ctx, t, t0) {
-    pop(ctx, t, t0, 500, 520, () => { chip(ctx, 'JE MESURE TOUT', 0, 0, { color: GOLD, dot: RED, size: 46 }); });
     const k = ease.back(prog(t, t0 + 0.25, 0.35));
     ctx.save(); ctx.globalAlpha *= clamp(k * 2); ctx.translate(500, 800); ctx.scale(0.9 + 0.1 * k, 0.9 + 0.1 * k);
     panel(ctx, -420, -190, 840, 380, { r: 40, border: GOLD, lw: 4, bg: 'rgba(201,168,76,0.12)' });
@@ -54,7 +53,7 @@
         text(ctx, 'Sony WF-1000XM6', 500, 330, { size: 58, family: F.display, weight: 900, color: WHITE });
         const b = 1 + 0.07 * Math.sin(t * 5);
         ctx.save(); ctx.translate(500, 410); ctx.scale(b, b); text(ctx, '24 HEURES ?', 0, 0, { size: 92, family: F.mono, weight: 900, color: GOLD, stroke: 'rgba(0,0,0,0.6)', maxWidth: 860 }); ctx.restore();
-        split(ctx, 'SON STANDARD', 'SON HI-RES');
+        split(ctx, 'SON STANDARD', 'HAUTE QUALITÉ');
         ctx.save(); ctx.translate(0, 120);
         buds(ctx, 275, 640, 0.85, t); buds(ctx, 725, 640, 0.85, t + 0.8);
         drain(ctx, 275, 900, 220, t, L); drain(ctx, 725, 900, 220, t + 0.4, R);
@@ -120,13 +119,13 @@
         tag(ctx, 'CONSEIL', 500, 420, t, S('s11'), { size: 46, color: GREEN });
         CHR.emo(ctx, 'clipboard', 500, 650, 240, t, S('s11') + 0.1);
         line(ctx, "LE GUIDE D'AIDE", 500, 900, t, f('s11', 0.3), { size: 70, weight: 900, color: GOLD, dx: 0 });
-        line(ctx, 'PAS LA PUBLICITÉ', 500, 995, t, f('s11', 0.55), { size: 70, weight: 900, color: WHITE, dx: 0 });
+        line(ctx, 'PAS SEULEMENT LA FICHE', 500, 995, t, f('s11', 0.55), { size: 70, weight: 900, color: WHITE, dx: 0 });
       });
       block(ctx, t, S('s12'), S('s13'), () => { comment(ctx, t, S('s12'), ['Tes écouteurs', 'tiennent combien', "d'heures ?"], { color: GOLD, size: 64 }); });
       block(ctx, t, S('s13'), S('s14'), () => {
-        tag(ctx, 'PUBLICITÉ', 500, 420, t, S('s13'), { size: 44, color: GOLD });
+        tag(ctx, 'FICHE : AVEC LE BOÎTIER', 500, 420, t, S('s13'), { size: 42, color: GOLD });
         big(ctx, '24 H', 500, 590, t, S('s13') + 0.1, { size: 170, color: GOLD });
-        chip(ctx, 'TON COLLÈGUE · HAUTE RÉSOLUTION', 500, 790, { color: R, size: 38 });
+        chip(ctx, 'TON COLLÈGUE · HAUTE QUALITÉ', 500, 790, { color: R, size: 38 });
         drain(ctx, 500, 960, 300, t, R);
         text(ctx, '?', 500, 1110, { size: 110, weight: 900, color: R });
       });
@@ -134,7 +133,7 @@
         tag(ctx, 'LDAC + RÉDUCTION DE BRUIT', 500, 420, t, S('s14'), { size: 40, color: R });
         big(ctx, '5 H', 500, 640, t, S('s14') + 0.1, { size: 230, color: R });
         line(ctx, "D'AFFILÉE, AU MAXIMUM", 500, 830, t, f('s14', 0.3), { size: 56, weight: 900, dx: 0 });
-        stamp(ctx, '≈ 5 FOIS MOINS QUE 24 H', 500, 980, t, f('s14', 0.55), { size: 56, color: GOLD });
+        stamp(ctx, '3 H DE MOINS QUE TOI', 500, 980, t, f('s14', 0.55), { size: 60, color: GOLD });
         tag(ctx, "SOURCE : GUIDE D'AIDE SONY", 500, 1110, t, f('s14', 0.6), { size: 36 });
       });
       block(ctx, t, S('s15'), END + 1, () => igEnd(ctx, t, S('s15')));

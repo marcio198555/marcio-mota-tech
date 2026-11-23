@@ -42,7 +42,6 @@
   }
   // fin propre à Instagram : pas d'@, pas de « ce soir », pas de carte TikTok
   function igEnd(ctx, t, t0) {
-    pop(ctx, t, t0, 500, 520, () => { chip(ctx, 'JE MESURE TOUT', 0, 0, { color: GOLD, dot: RED, size: 46 }); });
     const k = ease.back(prog(t, t0 + 0.25, 0.35));
     ctx.save(); ctx.globalAlpha *= clamp(k * 2); ctx.translate(500, 800); ctx.scale(0.9 + 0.1 * k, 0.9 + 0.1 * k);
     panel(ctx, -420, -190, 840, 380, { r: 40, border: GOLD, lw: 4, bg: 'rgba(201,168,76,0.12)' });

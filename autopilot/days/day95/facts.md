@@ -21,29 +21,30 @@ Sujet neuf : aucune vidéo sur l'autonomie d'écouteurs à réduction de bruit d
 | « Toi » : son standard (AAC ou SBC), réduction de bruit activée | 8 h au maximum d'une traite | « huit heures au maximum » |
 | Sans réduction de bruit (AAC/SBC) | 12 h | « sans réduction de bruit, douze » |
 | « Ton collègue » : LDAC (son haute résolution), réduction de bruit activée | 5 h au maximum d'une traite | « cinq heures d'affilée » (chiffre final, seulement à la fin) |
-| 24 / 5 | 4,8 | « presque cinq fois moins » (l'écran précise : 5 h d'affilée contre 24 h annoncées avec le boîtier) |
+| 8 − 5 (même nature : une charge, réduction de bruit activée) | 3 h | « trois de moins que toi » (comparaison corrigée le 23.11 après contrôle : plus de facteur « fois » entre 24 h avec boîtier et 5 h d'une charge) |
 
 ## Limites
 - Toutes les valeurs sont des maximums du fabricant (« Maximum ») ; l'usage réel dépend des réglages et de l'environnement (note du guide).
-- La comparaison finale met en face un chiffre « avec boîtier » (24 h) et une écoute d'une traite (5 h) : c'est le sujet
-  de la vidéo, expliqué en s05–s06 (« c'est avec le boîtier de charge »). On ne calcule pas combien de recharges LDAC le
+- La comparaison finale compare deux écoutes d'une traite (8 h contre 5 h, réduction de bruit activée) ; le 24 h est
+  rappelé « avec le boîtier ». On ne calcule pas combien de recharges LDAC le
   boîtier donne (non publié par Sony).
 - « Son standard » = AAC ou SBC (indiqué à l'écran) ; le codec utilisé dépend du téléphone (le guide : vérifiable dans l'appli « Sound Connect »).
 - Aucun prix cité.
 
-## Script (voix, 15 segments)
+## Script (voix, 15 segments ; version corrigée du 23.11 après contrôle)
 s01 : Mêmes écouteurs Sony, vingt-quatre heures annoncées. Toi, son standard.
-s02 : Ton collègue, son haute résolution. Qui tient le plus longtemps d'une traite ?
+s02 : Ton collègue, son en haute qualité. Qui tient le plus longtemps d'une traite ?
 s03 : À la fin, le vrai chiffre de ton collègue.
 s04 : Sony annonce vingt-quatre heures, réduction de bruit activée.
 s05 : Mais lis la note : c'est avec le boîtier de charge.
 s06 : Huit heures dans les écouteurs, seize dans le boîtier.
 s07 : Toi, d'une traite : huit heures au maximum.
-s08 : Sans réduction de bruit, douze. Mais tu les as achetés pour ça.
+s08 : Sans la réduction de bruit : douze heures. Mais tu les as achetés pour ça.
 s09 : Et égaliseur ou amélioration du son activés : encore moins.
 s10 : Bonne nouvelle : cinq minutes de charge, environ une heure d'écoute.
-s11 : Conseil : lis le guide d'aide du fabricant, pas la publicité.
+s11 : Conseil : lis le guide d'aide du fabricant, pas seulement la fiche.
 s12 : Tes écouteurs tiennent combien d'heures ? Écris-le en commentaire.
-s13 : Sur la publicité, vingt-quatre heures. Ton collègue, en son haute résolution :
-s14 : cinq heures d'affilée. Presque cinq fois moins.
+s13 : Sur la fiche, vingt-quatre heures avec le boîtier. Ton collègue, en haute qualité :
+s14 : cinq heures d'affilée. Trois de moins que toi.
 s15 : Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.
+(« son en haute qualité » remplace « son haute résolution », entendu « son autre résolution » par Whisper.)

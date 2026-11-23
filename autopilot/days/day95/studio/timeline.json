@@ -1,109 +1,109 @@
 {
- "duration": 61.057,
+ "duration": 62.402,
  "segments": [
   {
    "id": "s01",
    "text": "Mêmes écouteurs Sony, vingt-quatre heures annoncées. Toi, son standard.",
    "start": 0.12,
-   "end": 5.57,
+   "end": 5.484,
    "display": "Mêmes écouteurs Sony, | 24 heures annoncées. | Toi, son standard."
   },
   {
    "id": "s02",
-   "text": "Ton collègue, son haute résolution. Qui tient le plus longtemps d'une traite ?",
-   "start": 5.67,
-   "end": 9.534,
-   "display": "Ton collègue, son haute résolution. | Qui tient le plus longtemps | d'une traite ?"
+   "text": "Ton collègue, son en haute qualité. Qui tient le plus longtemps d'une traite ?",
+   "start": 5.584,
+   "end": 10.709,
+   "display": "Ton collègue, son en haute qualité. | Qui tient le plus longtemps | d'une traite ?"
   },
   {
    "id": "s03",
    "text": "À la fin, le vrai chiffre de ton collègue.",
-   "start": 9.633,
-   "end": 12.107,
+   "start": 10.809,
+   "end": 13.244,
    "display": "À la fin, le vrai chiffre | de ton collègue."
   },
   {
    "id": "s04",
    "text": "Sony annonce vingt-quatre heures, réduction de bruit activée.",
-   "start": 12.207,
-   "end": 16.631,
+   "start": 13.344,
+   "end": 17.697,
    "display": "Sony annonce 24 heures, | réduction de bruit activée."
   },
   {
    "id": "s05",
    "text": "Mais lis la note : c'est avec le boîtier de charge.",
-   "start": 16.731,
-   "end": 19.685,
+   "start": 17.797,
+   "end": 20.705,
    "display": "Mais lis la note : | c'est avec le boîtier de charge."
   },
   {
    "id": "s06",
    "text": "Huit heures dans les écouteurs, seize dans le boîtier.",
-   "start": 19.785,
-   "end": 22.757,
+   "start": 20.805,
+   "end": 23.73,
    "display": "8 heures dans les écouteurs, | 16 dans le boîtier."
   },
   {
    "id": "s07",
    "text": "Toi, d'une traite : huit heures au maximum.",
-   "start": 22.857,
-   "end": 25.838,
+   "start": 23.83,
+   "end": 26.764,
    "display": "Toi, d'une traite : | 8 heures au maximum."
   },
   {
    "id": "s08",
    "text": "Sans la réduction de bruit : douze heures. Mais tu les as achetés pour ça.",
-   "start": 25.938,
-   "end": 30.053,
+   "start": 26.864,
+   "end": 30.914,
    "display": "Sans la réduction de bruit : 12 heures. | Mais tu les as achetés pour ça."
   },
   {
    "id": "s09",
    "text": "Et égaliseur ou amélioration du son activés : encore moins.",
-   "start": 30.153,
-   "end": 33.979,
+   "start": 31.014,
+   "end": 34.78,
    "display": "Et égaliseur ou amélioration du son | activés : encore moins."
   },
   {
    "id": "s10",
    "text": "Bonne nouvelle : cinq minutes de charge, environ une heure d'écoute.",
-   "start": 34.079,
-   "end": 39.012,
+   "start": 34.88,
+   "end": 39.736,
    "display": "Bonne nouvelle : 5 minutes de charge, | environ 1 heure d'écoute."
   },
   {
    "id": "s11",
-   "text": "Conseil : lis le guide d'aide du fabricant, pas la publicité.",
-   "start": 39.112,
-   "end": 44.077,
-   "display": "Conseil : lis le guide d'aide | du fabricant, pas la publicité."
+   "text": "Conseil : lis le guide d'aide du fabricant, pas seulement la fiche.",
+   "start": 39.836,
+   "end": 44.941,
+   "display": "Conseil : lis le guide d'aide | du fabricant, pas seulement la fiche."
   },
   {
    "id": "s12",
    "text": "Tes écouteurs tiennent combien d'heures ? Écris-le en commentaire.",
-   "start": 44.177,
-   "end": 48.305,
+   "start": 45.041,
+   "end": 49.103,
    "display": "Tes écouteurs tiennent combien d'heures ? | Écris-le en commentaire."
   },
   {
    "id": "s13",
-   "text": "Sur la publicité, vingt-quatre heures. Ton collègue, en son haute résolution :",
-   "start": 48.405,
-   "end": 53.395,
-   "display": "Sur la publicité, 24 heures. | Ton collègue, | en son haute résolution :"
+   "text": "Sur la fiche, vingt-quatre heures avec le boîtier. Ton collègue, en haute qualité :",
+   "start": 49.203,
+   "end": 54.598,
+   "display": "Sur la fiche, 24 heures | avec le boîtier. | Ton collègue, en haute qualité :"
   },
   {
    "id": "s14",
-   "text": "cinq heures d'affilée. Presque cinq fois moins.",
-   "start": 53.495,
-   "end": 56.568,
-   "display": "5 heures d'affilée. | Presque 5 fois moins."
+   "text": "cinq heures d'affilée. Trois de moins que toi.",
+   "start": 54.698,
+   "end": 57.976,
+   "display": "5 heures d'affilée. | 3 de moins que toi."
   },
   {
    "id": "s15",
    "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
-   "start": 56.668,
-   "end": 60.757,
+   "start": 58.076,
+   "end": 62.102,
    "display": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
   }
  ]
