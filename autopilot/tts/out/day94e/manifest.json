@@ -1,0 +1,15 @@
+{
+ "job": "day94e",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s09",
+   "text": "Sur le prix hors taxe française : environ cent francs.",
+   "file": "s09.wav",
+   "duration": 3.56,
+   "rate": 24000
+  }
+ ],
+ "total": 3.56
+}
