@@ -106,7 +106,7 @@
         line(ctx, '1599 ÷ 1,2 = 1332,50 €', 500, 420, t, S('s09'), { size: 52, family: F.mono, weight: 700, color: '#c9d2e3', dx: 0 });
         line(ctx, '× 0,9232 = 1230 CHF', 500, 520, t, S('s09') + 0.2, { size: 52, family: F.mono, weight: 700, color: '#c9d2e3', dx: 0 });
         line(ctx, '1230 × 8,1 %', 500, 650, t, f('s09', 0.35), { size: 70, family: F.mono, weight: 700, dx: 0 });
-        big(ctx, '≈ 100 CHF', 500, 860, t, f('s09', 0.6), { size: 150, color: CH });
+        big(ctx, '≈ 100 CHF', 500, 860, t, f('s09', 0.6), { size: 130, color: CH });
       });
       block(ctx, t, S('s10'), S('s11'), () => {
         stamp(ctx, '2e SURPRISE', 500, 400, t, S('s10'), { size: 66, color: GOLD });
@@ -128,7 +128,7 @@
       });
       block(ctx, t, S('s14'), S('s15'), () => {
         tag(ctx, 'TVA SUISSE COMPRISE', 500, 420, t, S('s14'), { size: 42, color: GOLD });
-        big(ctx, '≈ 123 CHF', 500, 640, t, f('s14', 0.3), { size: 170, color: GREEN });
+        big(ctx, '≈ 123 CHF', 500, 640, t, f('s14', 0.3), { size: 145, color: GREEN });
         line(ctx, 'DE MOINS EN FRANCE', 500, 820, t, f('s14', 0.5), { size: 64, weight: 900, dx: 0 });
         tag(ctx, 'EXEMPLE DE CALCUL', 500, 950, t, f('s14', 0.6), { size: 38 });
         tag(ctx, 'PAS UN CONSEIL FISCAL', 500, 1020, t, f('s14', 0.6), { size: 38 });
