@@ -4,7 +4,8 @@ set -e
 D=$1; F=${2:-V}; R=/home/claude/marcio-mota-tech/autopilot; ST=/home/claude/studio/day$D; mkdir -p $ST
 SRC=${SRC:-$R/tts/out/day$D}
 python3 $R/assemble_vo.py $SRC $ST/vo.wav $ST/timeline.json --lead 0.12 --gap 0.1 | tail -1
-T=$(python3 -c "import json;d=json.load(open('$ST/timeline.json'))['duration'];print(round(d/68.6,3) if d>69 else '')")
+TGT=${TGT:-68.6}  # durée visée si la voix est trop longue (Reels d'essai Instagram : TGT=63)
+T=$(python3 -c "import json;d=json.load(open('$ST/timeline.json'))['duration'];print(round(d/$TGT,3) if d>$TGT+0.4 else '')")
 if [ -n "$T" ]; then python3 $R/assemble_vo.py $SRC $ST/vo.wav $ST/timeline.json --lead 0.12 --gap 0.1 --tempo $T | tail -1; echo tempo $T; fi
 python3 - "$R/days/day$D/draft.json" "$ST/timeline.json" <<'P'
 import json,sys
