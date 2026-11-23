@@ -1,0 +1,15 @@
+{
+ "job": "day95b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s08",
+   "text": "Sans la réduction de bruit : douze heures. Mais tu les as achetés pour ça.",
+   "file": "s08.wav",
+   "duration": 4.96,
+   "rate": 24000
+  }
+ ],
+ "total": 4.96
+}
