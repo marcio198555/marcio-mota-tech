@@ -1,0 +1,71 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Mêmes écouteurs Sony, vingt-quatre heures annoncées. Toi, son standard."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, son haute résolution. Qui tient le plus longtemps d'une traite ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, le vrai chiffre de ton collègue."
+  },
+  {
+   "id": "s04",
+   "text": "Sony annonce vingt-quatre heures, réduction de bruit activée."
+  },
+  {
+   "id": "s05",
+   "text": "Mais lis la note : c'est avec le boîtier de charge."
+  },
+  {
+   "id": "s06",
+   "text": "Huit heures dans les écouteurs, seize dans le boîtier."
+  },
+  {
+   "id": "s07",
+   "text": "Toi, d'une traite : huit heures au maximum."
+  },
+  {
+   "id": "s08",
+   "text": "Sans réduction de bruit, douze. Mais tu les as achetés pour ça."
+  },
+  {
+   "id": "s09",
+   "text": "Et égaliseur ou amélioration du son activés : encore moins."
+  },
+  {
+   "id": "s10",
+   "text": "Bonne nouvelle : cinq minutes de charge, environ une heure d'écoute."
+  },
+  {
+   "id": "s11",
+   "text": "Conseil : lis le guide d'aide du fabricant, pas la publicité."
+  },
+  {
+   "id": "s12",
+   "text": "Tes écouteurs tiennent combien d'heures ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Sur la publicité, vingt-quatre heures. Ton collègue, en son haute résolution :"
+  },
+  {
+   "id": "s14",
+   "text": "cinq heures d'affilée. Presque cinq fois moins."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison."
+  }
+ ]
+}
