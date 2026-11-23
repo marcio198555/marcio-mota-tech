@@ -1,0 +1,81 @@
++ export -f early_push
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/siwis/medium/fr_FR-siwis-medium
++ n=fr_FR-siwis-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx.json
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+skip day01
+skip day01fix
+skip day02
+skip day02cta
+skip day03
+skip day03cta
+skip day04
+skip day04cta
+skip day04fix
+skip day05
+skip day05cta
+skip day05fix
+skip day06
+skip day06cta
+skip day06cta2
+skip day07
+skip day07cta
+skip day07fix
+skip day08
+skip day08cta
+skip day09
+skip day09fix
+skip day12
+skip day12fix
+skip day13
+skip day13fix
+skip day16
+skip day17
+skip day20
+skip day21
+skip day21fix
+skip day23
+skip day23b
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+asr autopilot/vo/day95_vo3.wav -> Même écouteurs Sony, 24 heures annoncées, toi, son standard, ton collègue, son en haute qualité, qui tient le plus longtemps d'une traite. A la fin, le vrai chiffre de ton collègue. Sony annonce 24 heures, réduction de bruit activé, mais lis la note, c'est avec le boîtier de charge. 8 heures dans les écouteurs, 16 dans le boîtier, toi, d'une traite, 8 heures au maximum. Sans la réduction de bruit,
+asr autopilot/vo/day95e_s02.wav -> ton collègue, sont en haute qualité, qui tient le plus longtemps d'une traite.
+asr autopilot/vo/day95e_s11.wav -> conseil y est le guide d'aide du fabricant pas seulement l'affiche
+asr autopilot/vo/day95e_s13.wav -> Sur la fiche, 24 heures avec le boîtier, ton collègue en haute qualité.
+asr autopilot/vo/day95e_s14.wav -> Cinq heures d'affilée, trois de moins que toi.
+asr autopilot/vo/day95f_s02.wav -> Ton collègues sont en haute qualité, qui tient le plus longtemps d'une traite.
+asr autopilot/vo/day95f_s11.wav -> Conseil, lis le guide d'aide du fabricant, pas seulement la fiche.
+asr autopilot/vo/day95f_s13.wav -> sur la fiche. 24 heures avec le boîtier. Ton collègue en haute qualité.
+asr autopilot/vo/day95f_s14.wav -> 5 heures d'affilée, 3 de moins que toi.
+asr autopilot/vo/day95g_s02.wav -> Ton collègues sont en haute qualité, qui tient le plus longtemps d'une traite.
+asr autopilot/vo/day95g_s11.wav -> Conseil, lis le guide d'aide du fabricant, pas seulement l'affiche.
+asr autopilot/vo/day95g_s13.wav -> Sur l'affiche, 24 heures avec le boîtier, ton collègue en haute qualité.
+asr autopilot/vo/day95g_s14.wav -> Cinq heures d'affilée. Trois de moins que toi.
++ early_push transcription
++ git config user.name 'github-actions[bot]'
++ git config user.email '41898283+github-actions[bot]@users.noreply.github.com'
++ git add -f bridge/out autopilot/tts/out autopilot/asr/out
