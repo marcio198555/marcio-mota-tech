@@ -124,3 +124,4 @@ autopilot/vo/day93_vo.wav
 autopilot/vo/day89_vo3.wav
 autopilot/vo/day92_vo2.wav
 autopilot/vo/day85_vo3.wav
+autopilot/vo/day94_vo.wav
