@@ -1,0 +1,113 @@
+{
+ "job": "day95",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Mêmes écouteurs Sony, vingt-quatre heures annoncées. Toi, son standard.",
+   "file": "s01.wav",
+   "duration": 5.52,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, son haute résolution. Qui tient le plus longtemps d'une traite ?",
+   "file": "s02.wav",
+   "duration": 4.92,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, le vrai chiffre de ton collègue.",
+   "file": "s03.wav",
+   "duration": 2.88,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Sony annonce vingt-quatre heures, réduction de bruit activée.",
+   "file": "s04.wav",
+   "duration": 5.08,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Mais lis la note : c'est avec le boîtier de charge.",
+   "file": "s05.wav",
+   "duration": 3.08,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Huit heures dans les écouteurs, seize dans le boîtier.",
+   "file": "s06.wav",
+   "duration": 4.04,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Toi, d'une traite : huit heures au maximum.",
+   "file": "s07.wav",
+   "duration": 3.2,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Sans réduction de bruit, douze. Mais tu les as achetés pour ça.",
+   "file": "s08.wav",
+   "duration": 5.08,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Et égaliseur ou amélioration du son activés : encore moins.",
+   "file": "s09.wav",
+   "duration": 5.0,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Bonne nouvelle : cinq minutes de charge, environ une heure d'écoute.",
+   "file": "s10.wav",
+   "duration": 5.0,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Conseil : lis le guide d'aide du fabricant, pas la publicité.",
+   "file": "s11.wav",
+   "duration": 5.2,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Tes écouteurs tiennent combien d'heures ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 4.52,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Sur la publicité, vingt-quatre heures. Ton collègue, en son haute résolution :",
+   "file": "s13.wav",
+   "duration": 5.2,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "cinq heures d'affilée. Presque cinq fois moins.",
+   "file": "s14.wav",
+   "duration": 3.24,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "file": "s15.wav",
+   "duration": 4.44,
+   "rate": 24000
+  }
+ ],
+ "total": 66.4
+}
