@@ -1,0 +1,36 @@
+{
+ "job": "day95e",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s02",
+   "text": "Ton collègue, son en haute qualité. Qui tient le plus longtemps d'une traite ?",
+   "file": "s02.wav",
+   "duration": 5.28,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Conseil : lis le guide d'aide du fabricant, pas seulement la fiche.",
+   "file": "s11.wav",
+   "duration": 5.28,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Sur la fiche, vingt-quatre heures avec le boîtier. Ton collègue, en haute qualité :",
+   "file": "s13.wav",
+   "duration": 5.52,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "cinq heures d'affilée. Trois de moins que toi.",
+   "file": "s14.wav",
+   "duration": 3.72,
+   "rate": 24000
+  }
+ ],
+ "total": 19.8
+}
