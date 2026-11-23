@@ -1,0 +1,19 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 11,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même Thermomiks. Toi, tu l'achètes en Suisse."
+  },
+  {
+   "id": "s09",
+   "text": "Sur le prix hors té-vé-a française : environ cent francs."
+  }
+ ]
+}
