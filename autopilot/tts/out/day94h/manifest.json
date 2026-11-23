@@ -1,0 +1,22 @@
+{
+ "job": "day94h",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s08",
+   "text": "Mais à la frontière, il doit la taxe suisse : huit virgule un pour cent.",
+   "file": "s08.wav",
+   "duration": 4.8,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Deuxième surprise : garantie trois ans sur le site français. Deux ans en Suisse.",
+   "file": "s10.wav",
+   "duration": 6.12,
+   "rate": 24000
+  }
+ ],
+ "total": 10.92
+}
