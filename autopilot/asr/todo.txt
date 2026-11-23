@@ -137,3 +137,11 @@ autopilot/vo/day95c_s08.wav
 autopilot/vo/day95d_s08.wav
 autopilot/vo/day94_vo2.wav
 autopilot/vo/day95_vo2.wav
+autopilot/vo/day94e_s09.wav
+autopilot/vo/day94f_s09.wav
+autopilot/vo/day94g_s08.wav
+autopilot/vo/day94g_s10.wav
+autopilot/vo/day94h_s08.wav
+autopilot/vo/day94h_s10.wav
+autopilot/vo/day94i_s08.wav
+autopilot/vo/day94i_s10.wav
