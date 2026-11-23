@@ -51,9 +51,9 @@
       background(ctx, t);
       // image 0 : « 24 HEURES » en très gros qui bat, les deux paires d'écouteurs, batteries qui se vident, « ? »
       block(ctx, t, 0, S('s03'), () => {
-        text(ctx, 'Sony WF-1000XM6', 500, 342, { size: 66, family: F.display, weight: 900, color: WHITE });
+        text(ctx, 'Sony WF-1000XM6', 500, 330, { size: 58, family: F.display, weight: 900, color: WHITE });
         const b = 1 + 0.07 * Math.sin(t * 5);
-        ctx.save(); ctx.translate(500, 425); ctx.scale(b, b); text(ctx, '24 HEURES ?', 0, 0, { size: 104, family: F.mono, weight: 900, color: GOLD, stroke: 'rgba(0,0,0,0.6)', maxWidth: 860 }); ctx.restore();
+        ctx.save(); ctx.translate(500, 410); ctx.scale(b, b); text(ctx, '24 HEURES ?', 0, 0, { size: 92, family: F.mono, weight: 900, color: GOLD, stroke: 'rgba(0,0,0,0.6)', maxWidth: 860 }); ctx.restore();
         split(ctx, 'SON STANDARD', 'SON HI-RES');
         ctx.save(); ctx.translate(0, 120);
         buds(ctx, 275, 640, 0.85, t); buds(ctx, 725, 640, 0.85, t + 0.8);

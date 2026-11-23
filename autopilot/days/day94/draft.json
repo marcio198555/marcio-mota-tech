@@ -7,8 +7,8 @@
   "s05": "Site français : | 1 599 euros.",
   "s06": "Au cours | de la Banque nationale : | 1 476 francs.",
   "s07": "Déjà 223 francs de moins.",
-  "s08": "Mais à la frontière, | il doit la TVA suisse : 8,1 %.",
-  "s09": "Sur le prix sans TVA française : | environ 100 francs.",
+  "s08": "Mais à la frontière, | il doit la taxe suisse : 8,1 %.",
+  "s09": "Sur le prix hors taxe française : | environ 100 francs.",
   "s10": "2e surprise : garantie 3 ans | sur le site français. | 2 ans en Suisse.",
   "s11": "Et en Suisse, le prix augmente | le 12 janvier.",
   "s12": "Ton robot de cuisine, acheté où ? | Écris-le en commentaire.",
@@ -18,5 +18,6 @@
  },
  "title": "Même Thermomix : Suisse ou France, qui paie le moins ?",
  "slug": "thermomix-suisse-france",
- "format": "V"
+ "format": "V",
+ "reel_caption": "Thermomix TM7 en Suisse ou en France : même avec la TVA suisse, environ 123 francs d'écart\n\nSites officiels Vorwerk, prix relevés le 23.11.2026 : 1699 CHF en Suisse (garantie 2 ans), 1 599,00 € en France (TVA 20 % comprise, garantie 3 ans), soit 1 476,20 CHF (BNS, 20.11.2026 : 1 € = 0,9232 CHF). Au-dessus de la franchise de 150 francs, TVA suisse de 8,1 % sur le prix sans TVA française, si elle figure sur le ticket (OFDF) : 99,64 CHF, total 1 575,84 CHF.\n\nVorwerk Suisse annonce une hausse du prix du TM7 dès le 12 janvier 2027 (montant pas encore publié). La boutique française livre en France. Exemple de calcul, pas un conseil fiscal.\n\nVoix de synthèse.\n\nEnvoie-la à l'ami qui hésite à acheter son Thermomix en France.\n\n#thermomix #robotcuisine #achatfrontiere #suisseromande #jemesuretout"
 }

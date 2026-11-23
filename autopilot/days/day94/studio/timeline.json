@@ -1,0 +1,110 @@
+{
+ "duration": 61.643,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même Thermomiks. Toi, tu l'achètes en Suisse.",
+   "start": 0.12,
+   "end": 4.813,
+   "display": "Même Thermomix. | Toi, tu l'achètes en Suisse."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, en France. Qui paie le moins ?",
+   "start": 4.913,
+   "end": 7.39,
+   "display": "Ton collègue, en France. | Qui paie le moins ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, l'écart en francs, taxe suisse comprise.",
+   "start": 7.49,
+   "end": 11.21,
+   "display": "À la fin : l'écart en francs, | TVA suisse comprise."
+  },
+  {
+   "id": "s04",
+   "text": "Site suisse : mille six cent nonante-neuf francs.",
+   "start": 11.31,
+   "end": 15.623,
+   "display": "Site suisse : | 1 699 francs."
+  },
+  {
+   "id": "s05",
+   "text": "Site français : mille cinq cent nonante-neuf euros.",
+   "start": 15.723,
+   "end": 18.934,
+   "display": "Site français : | 1 599 euros."
+  },
+  {
+   "id": "s06",
+   "text": "Au cours de la Banque nationale : mille quatre cent septante-six francs.",
+   "start": 19.034,
+   "end": 24.475,
+   "display": "Au cours | de la Banque nationale : | 1 476 francs."
+  },
+  {
+   "id": "s07",
+   "text": "Déjà deux cent vingt-trois francs de moins.",
+   "start": 24.575,
+   "end": 26.957,
+   "display": "Déjà 223 francs de moins."
+  },
+  {
+   "id": "s08",
+   "text": "Mais à la frontière, il doit la taxe suisse : huit virgule un pour cent.",
+   "start": 27.057,
+   "end": 31.483,
+   "display": "Mais à la frontière, | il doit la taxe suisse : 8,1 %."
+  },
+  {
+   "id": "s09",
+   "text": "Sur le prix hors taxe française : environ cent francs.",
+   "start": 31.583,
+   "end": 34.892,
+   "display": "Sur le prix hors taxe française : | environ 100 francs."
+  },
+  {
+   "id": "s10",
+   "text": "Deuxième surprise : garantie trois ans sur le site français. Deux ans en Suisse.",
+   "start": 34.992,
+   "end": 40.558,
+   "display": "2e surprise : garantie 3 ans | sur le site français. | 2 ans en Suisse."
+  },
+  {
+   "id": "s11",
+   "text": "Et en Suisse, le prix augmente le douze janvier.",
+   "start": 40.658,
+   "end": 44.48,
+   "display": "Et en Suisse, le prix augmente | le 12 janvier."
+  },
+  {
+   "id": "s12",
+   "text": "Ton robot de cuisine, acheté où ? Écris-le en commentaire.",
+   "start": 44.58,
+   "end": 48.526,
+   "display": "Ton robot de cuisine, acheté où ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Toi, mille six cent nonante-neuf. Ton collègue, environ mille cinq cent septante-six.",
+   "start": 48.626,
+   "end": 53.787,
+   "display": "Toi, 1 699. | Ton collègue, environ 1 576."
+  },
+  {
+   "id": "s14",
+   "text": "L'écart : environ cent vingt-trois francs.",
+   "start": 53.887,
+   "end": 57.154,
+   "display": "L'écart : | environ 123 francs."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "start": 57.254,
+   "end": 61.343,
+   "display": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
+  }
+ ]
+}
