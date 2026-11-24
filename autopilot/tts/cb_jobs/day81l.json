@@ -1,0 +1,19 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 42,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même clé, u-èss-bé trois point deux. Toi, tu crois qu'elle va à vingt gigabits."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue lit la fiche technique. Qui a raison ?"
+  }
+ ]
+}
