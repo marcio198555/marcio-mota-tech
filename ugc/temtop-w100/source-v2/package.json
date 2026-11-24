@@ -1,0 +1,7 @@
+{
+  "name": "temtop-w100-ugc-ad-v2",
+  "private": true,
+  "description": "Real-footage edit of the Temtop W100 UGC ad: renders the transparent motion-graphics layer",
+  "scripts": { "build": "bash build_v2.sh" },
+  "dependencies": { "playwright-core": "1.56.1" }
+}

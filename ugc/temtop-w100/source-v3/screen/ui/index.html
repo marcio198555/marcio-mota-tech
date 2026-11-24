@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>W100 screen replica</title>
+<!-- Faithful replica of the Temtop W100 7" screen pages (from the official user manual V1.0):
+     air-quality page, PM2.5 history bar chart, 7-day forecast, alert settings.
+     Logical size 1024x600 (the 7" panel), animated deterministically by renderFrame(t). -->
+<link rel="stylesheet" href="fonts/local.css">
+<style>
+:root{--bg:#060607;--panel:#17181b;--panel2:#1d1e22;--line:#2a2b30;--txt:#f2f2f2;--sub:#9a9ba0;--org:#f2873a;--grn:#37c25b;--ora:#f39233;--red:#ef4040}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1024px;height:600px;overflow:hidden;background:#000}
+body{font-family:'Barlow Semi Condensed',sans-serif;color:var(--txt);-webkit-font-smoothing:antialiased}
+.scr{position:absolute;inset:0;overflow:hidden;background:radial-gradient(120% 90% at 30% 0%,#17181b 0%,#0b0b0c 45%,#050505 100%)}
+.scr.light{background:#eceef1;color:#2b2d33}
+.hdr{position:absolute;left:0;right:0;top:0;height:64px}
+.time{position:absolute;left:28px;top:20px;font-weight:500;font-size:24px;letter-spacing:.3px}
+.pill{position:absolute;left:170px;top:20px;height:32px;width:160px;text-align:center;border-radius:16px;background:var(--org);color:#fff;font-weight:600;font-size:21px;line-height:32px}
+.dots{position:absolute;left:459.5px;top:32.5px;display:flex;gap:18.5px}
+.dots i{width:9px;height:9px;border-radius:50%;background:#6f7075}
+.dots i.on{background:#fff}
+.icons{position:absolute;right:26px;top:19px;display:flex;gap:18px;align-items:center}
+.icons svg{display:block}
+.back{position:absolute;left:28px;top:20px;font-size:24px;font-weight:500;color:#c9cacf}
+/* air quality page */
+.big{position:absolute;left:40px;top:118px;height:120px;display:flex;align-items:center}
+.bar{width:9px;height:88px;border-radius:5px;background:var(--grn);margin-right:14px}
+.bigv{font-weight:700;font-size:124px;line-height:1;letter-spacing:-2px;font-variant-numeric:tabular-nums}
+.pmlbl{position:absolute;left:362px;top:138px;width:90px;text-align:center}
+.pmlbl .ic{width:40px;height:40px;border-radius:50%;background:#2b2c30;margin:0 auto 10px}
+.pmlbl b{display:block;font-size:27px;font-weight:700}
+.pmlbl small{font-size:13px;color:var(--sub)}
+.adv{position:absolute;left:494px;top:112px;width:492px}
+.adv h3{font-size:29px;font-weight:600;display:flex;align-items:center;gap:12px;color:#dedfe3}
+.adv p{margin-top:18px;font-size:19px;line-height:1.3;color:#b9babe;font-weight:500}
+.tiles{position:absolute;left:24px;top:300px;width:976px;display:grid;grid-template-columns:repeat(3,1fr);gap:24px 26px}
+.tile{position:relative;height:112px;border-radius:16px;background:linear-gradient(180deg,#1b1c20,#141518);box-shadow:inset 0 0 0 1.5px #24252a}
+.tile .d{position:absolute;left:26px;top:47px;width:20px;height:20px;border-radius:50%;background:var(--grn)}
+.tile .v{position:absolute;left:62px;top:24px;font-weight:600;font-size:54px;line-height:1;font-variant-numeric:tabular-nums}
+.tile .l{position:absolute;right:22px;top:26px;text-align:right;font-weight:600;font-size:22px;color:#d6d7db;line-height:1}
+.tile .l small{display:block;margin-top:5px;font-size:13px;color:var(--sub);font-weight:500}
+.tile .al{position:absolute;right:24px;bottom:14px;opacity:0}
+/* chart page */
+.panel{position:absolute;left:18px;top:66px;width:988px;height:520px;border-radius:18px;background:#131417;box-shadow:inset 0 0 0 1.5px #1f2024}
+.ch-h{position:absolute;left:40px;top:28px;font-size:30px;font-weight:700}
+.ch-h small{font-size:14px;color:var(--sub);font-weight:500;margin-left:6px}
+.now{position:absolute;left:330px;top:30px;font-size:28px;font-weight:600}
+.now span{color:#c8c9cd}
+.tog{position:absolute;right:120px;top:22px;width:190px;height:48px;border-radius:10px;background:#1f2024;display:flex;align-items:center;padding:4px}
+.tog div{flex:1;height:100%;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:600;color:#8d8e93}
+.tog .a{background:#2c2d32;color:var(--org)}
+.sel{position:absolute;top:92px;display:flex;align-items:center;height:48px;border-radius:10px;background:#0d0d0f;box-shadow:inset 0 0 0 1.5px #24252a;font-size:24px;font-weight:600}
+.sel b{width:40px;text-align:center;color:#c9cacf;font-weight:500}
+.sel span{width:80px;text-align:center}
+.leg{position:absolute;right:120px;top:96px;font-size:17px;line-height:1.35;color:#d9dadd}
+.leg i{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--org);margin-right:8px;vertical-align:2px}
+.leg em{font-style:normal;color:var(--org);margin-right:6px}
+.chart{position:absolute;left:40px;top:160px;width:910px;height:320px}
+/* forecast */
+.loc{position:absolute;left:30px;top:76px;font-size:21px;font-weight:500;display:flex;gap:8px;align-items:center}
+.wdate{position:absolute;left:182px;top:168px;font-size:30px;font-weight:500}
+.wtemp{position:absolute;left:36px;top:250px;font-size:120px;font-weight:600;line-height:1;letter-spacing:-1px}
+.wtemp small{font-size:72px;font-weight:400;margin-left:34px}
+.waq{position:absolute;left:36px;top:420px;font-size:23px;font-weight:600;color:#d7d8dc;display:flex;gap:40px}
+.fcp{position:absolute;left:452px;top:62px;width:552px;height:470px;border-radius:16px;background:rgba(30,31,35,.72)}
+.fcp h4{position:absolute;left:26px;top:20px;font-size:24px;font-weight:600;color:#a5a6ab}
+.row{position:absolute;left:16px;width:520px;height:48px;border-radius:9px;background:#26272b;display:flex;align-items:center;font-size:21px;font-weight:500;color:#a9aaaf}
+.row .dn{width:110px;padding-left:22px;color:#c3c4c8}
+.row .wi{width:60px;display:flex;justify-content:center}
+.row .mn{width:170px;text-align:right}
+.row .mx{width:170px;text-align:right}
+.row b{color:#e6e7ea;font-weight:600}
+/* alerts (light theme) */
+.lpanel{position:absolute;left:18px;top:66px;width:988px;height:520px;border-radius:18px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.lt{position:absolute;left:36px;top:24px;font-size:28px;font-weight:700;display:flex;align-items:center;gap:12px;color:#2b2d33}
+.reset{position:absolute;right:30px;top:20px;height:40px;padding:0 22px;border-radius:9px;background:#fff1e6;color:var(--org);font-size:21px;font-weight:600;line-height:40px;box-shadow:inset 0 0 0 1.5px #ffd2b0}
+.mxh{position:absolute;left:452px;top:80px;font-size:20px;font-weight:600;color:#55575e}
+.arow{position:absolute;left:0;width:988px;height:62px;display:flex;align-items:center}
+.arow .n{width:420px;text-align:right;padding-right:26px;font-size:24px;font-weight:600;color:#3a3c42}
+.arow .n small{font-size:15px;color:#8b8d93;font-weight:500;margin-left:4px}
+.inp{width:150px;height:44px;border-radius:7px;background:#fff;box-shadow:inset 0 0 0 1.5px #d6d8dd;display:flex;align-items:center;justify-content:center;font-size:23px;font-weight:600;color:#2b2d33;font-variant-numeric:tabular-nums}
+.sw{width:60px;height:32px;border-radius:16px;background:#cfd2d8;position:relative;margin-left:26px}
+.sw i{position:absolute;top:4px;left:4px;width:24px;height:24px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.sw.on{background:var(--org)}
+.sw.on i{left:32px}
+
+/* home (weather) page, from the manual's home-screen capture */
+.dpill{position:absolute;left:389px;top:66px;width:247px;height:38px;border-radius:19px;background:#1c1d21;color:#a4a5aa;font-size:17px;font-weight:500;line-height:38px;padding-left:24px;letter-spacing:.4px}
+.dpill svg{position:absolute;right:20px;top:11px}
+.sep{position:absolute;height:1.5px;background:#222327}
+.hl{position:absolute;font-size:21px;font-weight:500;color:#ebebed;display:flex;align-items:center;gap:6px;white-space:nowrap}
+.hv{position:absolute;display:flex;align-items:flex-start;font-weight:600;line-height:1;font-variant-numeric:tabular-nums}
+.hv .i{font-size:76px;letter-spacing:-1px}
+.hv .u{display:flex;flex-direction:column;justify-content:space-between;height:60px;margin-left:5px;margin-top:4px}
+.hv .u b{font-size:21px;font-weight:600;line-height:1}
+.hv .u em{font-style:normal;font-size:25px;line-height:1}
+.hv .tr{margin-left:3px;margin-top:44px}
+.hv .pc{font-size:40px;font-weight:500;margin-left:6px;margin-top:30px}
+.lbar{position:absolute;height:31px;border-radius:3px;background:linear-gradient(90deg,rgba(40,41,46,.15),#2a2b30 50%,rgba(40,41,46,.15));color:#8e8f95;font-size:15px;font-weight:600;letter-spacing:.6px;display:flex;align-items:center;justify-content:center;gap:7px;text-transform:uppercase}
+.lbar.big{height:36px;font-size:24px;color:#b5b6bb;letter-spacing:.3px}
+.mv{position:absolute;font-weight:600;line-height:1;font-variant-numeric:tabular-nums;white-space:nowrap}
+.mv small{font-weight:500;color:#e2e2e5}
+.cmp{position:absolute;left:371px;top:126px;width:286px;height:286px}
+.ctx{position:absolute;text-align:center;color:#fff;line-height:1;font-variant-numeric:tabular-nums}
+.sunl{position:absolute;font-size:22px;font-weight:500;color:#e0e0e3;line-height:1}
+.sunv{position:absolute;font-size:30px;font-weight:600;color:#ecd27a;line-height:1;font-variant-numeric:tabular-nums}
+.sunv small{font-size:13px;color:#b9b9bd;font-weight:500;margin-left:5px}
+.srs{position:absolute;font-size:14px;font-weight:500;color:#a7a8ad;display:flex;align-items:center;gap:4px}
+/* touch indicator */
+#touch{position:absolute;left:0;top:0;width:0;height:0;pointer-events:none}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const P=new URLSearchParams(location.search);
+const PAGE=P.get('page')||'aq';     // aq | chart | forecast | alerts
+const SCN=P.get('scene')||'good';   // aq: good | cook | co2 ; chart: cook
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const lerp=(a,b,u)=>a+(b-a)*u;
+const ss=u=>u*u*(3-2*u);
+const pr=(t,a,b)=>clamp((t-a)/(b-a));
+const C={grn:'#37c25b',ora:'#f39233',red:'#ef4040'};
+// official reference levels (user manual V1.0, "Air Quality Parameter For Reference")
+const LV={pm25:[9,55.4],pm10:[54.9,254.9],aqi:[50,150],co2:[1000,1500],tvoc:[100,350]};
+const lvl=(k,v)=>v<=LV[k][0]?C.grn:v<=LV[k][1]?C.ora:C.red;
+const comfT=v=>v>=20&&v<=26?C.grn:C.ora, comfRH=v=>v>=30&&v<=60?C.grn:C.ora;
+
+const ICONS=`<div class="icons">
+ ${PAGE==='forecast'?'<svg width="22" height="22" viewBox="0 0 24 24"><path d="M4 9h4l5-4v14l-5-4H4z" fill="#eee"/><path d="M16 9c1.5 1.5 1.5 4.5 0 6" stroke="#eee" stroke-width="2" fill="none" stroke-linecap="round"/></svg>':'<svg width="22" height="22" viewBox="0 0 24 24"><path d="M3.5 11.5L12 4l8.5 7.5" stroke="#eee" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 10v10h12V10" stroke="#eee" stroke-width="2.2" fill="none" stroke-linejoin="round"/><rect x="10" y="13.5" width="4" height="6.5" fill="#eee"/></svg>'}
+ <svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="13" r="7.5" fill="none" stroke="#eee" stroke-width="2.4"/><path d="M12 9v4.5l3 2" stroke="#eee" stroke-width="2.2" fill="none" stroke-linecap="round"/><path d="M4 6l3-3M20 6l-3-3" stroke="#eee" stroke-width="2.2" stroke-linecap="round"/></svg>
+ <svg width="24" height="20" viewBox="0 0 24 20"><path d="M2 7a14 14 0 0 1 20 0M5.5 10.5a9 9 0 0 1 13 0M9 14a4 4 0 0 1 6 0" stroke="#eee" stroke-width="2.2" fill="none" stroke-linecap="round"/><circle cx="12" cy="17" r="1.6" fill="#eee"/></svg>
+ <svg width="34" height="18" viewBox="0 0 34 18"><rect x="1" y="2" width="28" height="14" rx="3" fill="none" stroke="#3ccb63" stroke-width="2"/><rect x="4" y="5" width="22" height="8" rx="1.5" fill="#3ccb63"/><rect x="30" y="6" width="3" height="6" rx="1" fill="#3ccb63"/></svg>
+</div>`;
+const ICONS_L=ICONS.replaceAll('#eee','#5b5d63');
+const ALARM=(c='#ef4040')=>`<svg width="30" height="30" viewBox="0 0 24 24"><path d="M6 18v-6a6 6 0 0 1 12 0v6z" fill="${c}"/><rect x="4" y="18" width="16" height="3" rx="1" fill="${c}"/><path d="M12 2v2M4.5 5.5 6 7M19.5 5.5 18 7" stroke="${c}" stroke-width="2" stroke-linecap="round"/></svg>`;
+
+const root=document.getElementById('root');
+function header(pill,dotOn,light=false){
+  return `<div class="hdr"><div class="time" style="${light?'color:#2b2d33':''}">${pill==='back'?'':(PAGE==='home'?(HOME[SCN]||HOME.morning).time:'09:00 PM')}</div>${pill&&pill!=='back'?`<div class="pill">${pill}</div>`:''}${pill==='back'?`<div class="back" style="${light?'color:#6a6c72':''}">&lsaquo; Back</div>`:''}
+   ${dotOn>=0?`<div class="dots">${[0,1,2,3].map(i=>`<i class="${i===dotOn?'on':''}"></i>`).join('')}</div>`:''}${light?ICONS_L:ICONS}</div>`;
+}
+
+/* ---------- pages ---------- */
+function buildAQ(){
+  root.innerHTML=`<div class="scr">${header('Air Quality',2)}
+   <div class="big"><div class="bar" id="bar"></div><div class="bigv" id="bigv">4.5</div></div>
+   <div class="pmlbl"><div class="ic"></div><b>PM2.5</b><small>ug/m³</small></div>
+   <div class="adv"><h3><svg width="26" height="26" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="#cfd0d4" stroke-width="2"/><path d="M7 9h10M7 13h10M7 17h6" stroke="#cfd0d4" stroke-width="2" stroke-linecap="round"/></svg>Health Advice</h3><p id="advice"></p></div>
+   <div class="tiles">
+    ${['pm10','aqi','co2','tvoc','temp','rh'].map(k=>`<div class="tile" id="t_${k}"><div class="d"></div><div class="v"></div><div class="l"></div><div class="al">${ALARM()}</div></div>`).join('')}
+   </div><div id="touch"></div></div>`;
+  const L={pm10:['PM10','ug/m³'],aqi:['AQI',''],co2:['CO₂','ppm'],tvoc:['TVOC',''],temp:['Temp','°C'],rh:['RH','%RH']};
+  for(const k in L){const el=document.querySelector(`#t_${k} .l`); el.innerHTML=`${L[k][0]}${L[k][1]?`<small>${L[k][1]}</small>`:''}`;}
+}
+const ADV_GOOD='The air quality is excellent. During some outdoor sports is good for health.';
+const ADV_PM='Activate air purifiers. Sensitive groups should monitor blood oxygen and heart rate, seeking medical attention promptly if abnormalities occur.';
+function aqValues(t){
+  // scene timelines (seconds within the insert clip)
+  if(SCN==='cook'){ // pan on the stove: particles climb past the PM2.5 threshold set by the user
+    const u=ss(pr(t,0.2,2.6));
+    return {pm25:lerp(6.8,68.4,u),pm10:lerp(9.0,96.5,u),aqi:lerp(28,157,u),co2:lerp(712,868,u),tvoc:lerp(58,214,u),temp:lerp(22.4,23.1,u),rh:lerp(46.2,55.0,u),alarm:t>2.0};
+  }
+  if(SCN==='co2'){ // closed office, CO2 builds up
+    const u=ss(pr(t,0.2,2.6));
+    return {pm25:4.6,pm10:6.1,aqi:19,co2:lerp(1062,1538,u),tvoc:lerp(71,92,u),temp:22.8,rh:48.3,alarm:t>2.0};
+  }
+  return {pm25:4.5,pm10:5.0,aqi:19,co2:lerp(602,606,pr(t,0,3)),tvoc:62,temp:21.6,rh:48.3,alarm:false};
+}
+function drawAQ(t){
+  const v=aqValues(t);
+  const pmc=lvl('pm25',v.pm25);
+  document.getElementById('bigv').textContent=v.pm25.toFixed(1);
+  document.getElementById('bar').style.background=pmc;
+  document.getElementById('advice').textContent=v.pm25>9?ADV_PM:ADV_GOOD;
+  const set=(k,txt,col,al)=>{const el=document.getElementById('t_'+k);el.querySelector('.v').textContent=txt;el.querySelector('.d').style.background=col;
+    el.querySelector('.al').style.opacity=al?(Math.sin(t*2*Math.PI*2)>0?1:0.15):0;};
+  set('pm10',v.pm10.toFixed(1),lvl('pm10',v.pm10),false);
+  set('aqi',Math.round(v.aqi),lvl('aqi',v.aqi),false);
+  set('co2',Math.round(v.co2),lvl('co2',v.co2),SCN==='co2'&&v.alarm);
+  set('tvoc',Math.round(v.tvoc),lvl('tvoc',v.tvoc),false);
+  set('temp',v.temp.toFixed(1),comfT(v.temp),false);
+  set('rh',v.rh.toFixed(1),comfRH(v.rh),false);
+  // PM2.5 over the user's threshold: the alarm icon flashes next to the big reading
+  let al=document.getElementById('bigal');
+  if(!al){al=document.createElement('div');al.id='bigal';al.style.cssText='position:absolute;left:300px;top:126px;opacity:0';al.innerHTML=ALARM();document.querySelector('.scr').appendChild(al);}
+  al.style.opacity=(SCN==='cook'&&v.alarm)?(Math.sin(t*2*Math.PI*2)>0?1:0.15):0;
+}
+
+function buildChart(){
+  root.innerHTML=`<div class="scr">${header('back',-1)}
+   <div class="panel">
+    <div class="ch-h">PM2.5<small>ug/m³</small></div><div class="now"><span>NOW:</span> <b id="now">6.0</b></div>
+    <div class="tog"><div class="a">Day</div><div>Month</div></div>
+    <div class="sel" style="left:40px;width:180px"><b>&lsaquo;</b><span>2026</span><b>&rsaquo;</b></div>
+    <div class="sel" style="left:236px;width:160px"><b>&lsaquo;</b><span style="width:80px">10</span><b>&rsaquo;</b></div>
+    <div class="sel" style="left:412px;width:160px"><b>&lsaquo;</b><span style="width:80px">01</span><b>&rsaquo;</b></div>
+    <div class="leg"><div><i></i><em>min</em><b id="mn">3.8</b></div><div><i></i><em>max</em><b id="mx">71.6</b></div></div>
+    <svg class="chart" id="chart" viewBox="0 0 910 320"></svg>
+   </div><div id="touch"></div></div>`;
+}
+// one day of PM2.5 (hourly): clean air all day, cooking spike in the evening, back down after airing
+const DAY=[4.2,3.9,3.8,3.9,4.1,4.4,5.0,7.6,8.4,6.1,5.2,5.0,8.8,11.6,7.2,5.4,5.1,5.9,9.8,44.6,71.6,38.2,12.4,6.0];
+function drawChart(t){
+  const svg=document.getElementById('chart');
+  const ymax=80, H=270, top=20, left=70, w=830, bw=w/24;
+  let s='';
+  [[ymax,'80.0'],[ymax/2,'40.0'],[0,'0.0']].forEach(([v,l])=>{const y=top+H-(v/ymax)*H;
+    s+=`<text x="0" y="${y+7}" fill="#e6e7ea" font-size="20" font-weight="600" font-family="Barlow Semi Condensed">${l}</text><line x1="${left}" x2="${left+w}" y1="${y}" y2="${y}" stroke="#2c2d31" stroke-width="1.5"/>`;});
+  DAY.forEach((v,i)=>{const g=ss(pr(t,0.15+i*0.035,0.55+i*0.035)); const h=(v/ymax)*H*g; const x=left+i*bw+bw*0.22;
+    s+=`<rect x="${x.toFixed(1)}" y="${(top+H-h).toFixed(1)}" width="${(bw*0.56).toFixed(1)}" height="${h.toFixed(1)}" fill="${lvl('pm25',v)}"/>`;
+    if(i%3===0) s+=`<text x="${(left+i*bw+bw/2).toFixed(1)}" y="${top+H+24}" fill="#8d8e93" font-size="13" text-anchor="middle" font-family="Barlow Semi Condensed">${String(i).padStart(2,'0')}:00</text>`;});
+  svg.innerHTML=s;
+}
+
+const WX={sun:`<svg width="34" height="34" viewBox="0 0 34 34"><g stroke="#f7b733" stroke-width="2.6" stroke-linecap="round">${[0,45,90,135,180,225,270,315].map(a=>{const r=a*Math.PI/180;return `<line x1="${17+11*Math.cos(r)}" y1="${17+11*Math.sin(r)}" x2="${17+15*Math.cos(r)}" y2="${17+15*Math.sin(r)}"/>`}).join('')}</g><circle cx="17" cy="17" r="7.5" fill="#f9a826"/></svg>`,
+ cloud:`<svg width="38" height="30" viewBox="0 0 38 30"><circle cx="25" cy="10" r="6" fill="#f9a826"/><path d="M9 26a7 7 0 0 1 1-14 9 9 0 0 1 17 2 6 6 0 0 1 1 12z" fill="#cfe3f2"/></svg>`,
+ over:`<svg width="38" height="28" viewBox="0 0 38 28"><path d="M9 24a7 7 0 0 1 1-14 9 9 0 0 1 17 2 6 6 0 0 1 1 12z" fill="#b9d3e8"/></svg>`,
+ rain:`<svg width="38" height="34" viewBox="0 0 38 34"><path d="M9 20a7 7 0 0 1 1-14 9 9 0 0 1 17 2 6 6 0 0 1 1 12z" fill="#cfe3f2"/><path d="M13 24l-2 5M20 24l-2 5M27 24l-2 5" stroke="#39a6e0" stroke-width="2.6" stroke-linecap="round"/></svg>`};
+function buildForecast(){
+  const rows=[['Today','rain','9.8','15.2'],['Sat','cloud','8.6','16.9'],['Sun','sun','7.9','18.4'],['Mon','sun','8.8','19.1'],['Tue','cloud','10.2','17.6'],['Wed','over','11.0','15.8'],['Thu','rain','9.4','14.2']];
+  root.innerHTML=`<div class="scr">${header('',0)}
+   <div class="loc"><svg width="14" height="18" viewBox="0 0 14 18"><path d="M7 1a6 6 0 0 1 6 6c0 4.5-6 10-6 10S1 11.5 1 7a6 6 0 0 1 6-6z" fill="#eee"/><circle cx="7" cy="7" r="2.2" fill="#111"/></svg>Lausanne</div>
+   <div style="position:absolute;left:40px;top:134px;transform:scale(2.6);transform-origin:0 0">${WX.rain}</div>
+   <div class="wdate">Oct 2, 2026</div>
+   <div class="wtemp"><span id="wt">14.6</span><small>°C</small></div>
+   <div class="waq"><span>AQI : 21</span><span>RH : 64%</span></div>
+   <div class="fcp"><h4>Weather forecast for the 7day</h4>
+    ${rows.map((r,i)=>`<div class="row" id="fr${i}" style="top:${66+i*57}px"><span class="dn">${r[0]}</span><span class="wi">${WX[r[1]]}</span><span class="mn">Min <b>${r[2]}</b> °C</span><span class="mx">Max <b>${r[3]}</b> °C</span></div>`).join('')}
+   </div><div id="touch"></div></div>`;
+}
+function drawForecast(t){
+  for(let i=0;i<7;i++){const el=document.getElementById('fr'+i); const u=ss(pr(t,0.1+i*0.07,0.45+i*0.07)); el.style.opacity=u; el.style.transform=`translateX(${(1-u)*40}px)`;}
+}
+
+function buildAlerts(){
+  const rows=[['TVOC','','350'],['CO₂','(ppm)','1000'],['PM2.5','(ug/m³)','35.0'],['PM10','(ug/m³)','150'],['AQI','','100']];
+  root.innerHTML=`<div class="scr light">${header('back',-1,true)}
+   <div class="lpanel">
+    <div class="lt"><svg width="30" height="30" viewBox="0 0 30 30"><circle cx="15" cy="15" r="14" fill="#f2873a"/><path d="M10 19v-4a5 5 0 0 1 10 0v4z" fill="#fff"/><rect x="8.5" y="19" width="13" height="2.4" rx="1" fill="#fff"/></svg>Alert</div>
+    <div class="reset">Reset</div>
+    <div class="mxh">Max <span style="color:#ef4040">&#9650;</span></div>
+    ${rows.map((r,i)=>`<div class="arow" style="top:${120+i*76}px"><div class="n">${r[0]}<small>${r[1]}</small></div><div class="inp" id="in${i}">${r[2]}</div><div class="sw on" id="sw${i}"><i></i></div></div>`).join('')}
+   </div><div id="touch"></div></div>`;
+}
+function drawAlerts(t){
+  // the user edits the PM2.5 maximum, then switches its alert on
+  const inp=document.getElementById('in2'); const sw=document.getElementById('sw2');
+  const typed=t<0.9?'35.0':t<1.1?'':t<1.3?'2':'25.0';
+  inp.textContent=typed; inp.style.boxShadow=(t>0.7&&t<1.6)?'inset 0 0 0 2.5px #f2873a':'inset 0 0 0 1.5px #d6d8dd';
+  sw.classList.toggle('on',t>1.9);
+}
+
+
+/* ---------- home (weather) page ---------- */
+const HOME={morning:{time:'07:42 AM',date:'FRI/10/02/2026',ot:[12,4],oh:78,dew:'8.7',feel:'11.9',moon:'WANING GIBBOUS',rt:'2.6',gust:'5.4',dir:225,sun:'6.8',uv:'0.4',sr:'AM 07:31',ss:'PM 07:12',it:[21,6],ih:48,rain:'0.0',rate:'0.0',pres:'101.82'}};
+const ICO={
+ otemp:`<svg width="24" height="26" viewBox="0 0 24 26"><path d="M8 4a2.6 2.6 0 0 1 5.2 0v10.6a4.6 4.6 0 1 1-5.2 0z" fill="none" stroke="#f2873a" stroke-width="2"/><circle cx="10.6" cy="18.4" r="2.2" fill="#f2873a"/><path d="M10.6 9v8" stroke="#f2873a" stroke-width="2"/><path d="M3 5.5l-1.6-1M3 10H1M17 3.5l1.6-1.2M19 8h2" stroke="#f2873a" stroke-width="1.8" stroke-linecap="round"/></svg>`,
+ hum:`<svg width="22" height="26" viewBox="0 0 22 26"><path d="M11 2.5c4 5 7 8.3 7 12a7 7 0 0 1-14 0c0-3.7 3-7 7-12z" fill="none" stroke="#f2873a" stroke-width="2.2"/><path d="M8 15.5a3 3 0 0 0 3 3" stroke="#f2873a" stroke-width="2" stroke-linecap="round" fill="none"/></svg>`,
+ itemp:`<svg width="14" height="26" viewBox="0 0 14 26"><path d="M4.2 3.4a2.8 2.8 0 0 1 5.6 0v11.4a5 5 0 1 1-5.6 0z" fill="#f2873a"/><circle cx="7" cy="19" r="3.4" fill="#fbd0ad"/></svg>`,
+ ihum:`<svg width="22" height="26" viewBox="0 0 22 26"><path d="M8 3c3 3.8 5.2 6.2 5.2 9a5.2 5.2 0 0 1-10.4 0C2.8 9.2 5 6.8 8 3z" fill="#f2873a"/><path d="M16 11c2 2.4 3.4 4 3.4 5.8a3.4 3.4 0 0 1-6.8 0c0-1.8 1.4-3.4 3.4-5.8z" fill="#f2873a"/></svg>`,
+ up:`<svg width="14" height="14" viewBox="0 0 14 14"><path d="M2.5 11.5L10.5 3.5M5 3.5h5.5V9" stroke="#38c75a" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+ sig:`<svg width="20" height="16" viewBox="0 0 20 16"><rect x="1" y="11" width="3" height="4" fill="#fff"/><rect x="6" y="8" width="3" height="7" fill="#fff"/><rect x="11" y="5" width="3" height="10" fill="#fff"/><rect x="16" y="1" width="3" height="14" fill="#fff"/></svg>`,
+ dew:`<svg width="16" height="16" viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="13" height="13" rx="2" fill="none" stroke="#8e8f95" stroke-width="1.6"/><path d="M5 11V6M8 11V4.5M11 11V8" stroke="#8e8f95" stroke-width="1.6" stroke-linecap="round"/></svg>`,
+ rain:`<svg width="24" height="22" viewBox="0 0 24 22"><path d="M3 4h7v6.5a3.5 3.5 0 0 1-7 0z" fill="none" stroke="#b5b6bb" stroke-width="1.8"/><path d="M14 3l-1.4 3M18 3l-1.4 3M16 9l-1.4 3M20 9l-1.4 3M14 15l-1.4 3" stroke="#b5b6bb" stroke-width="1.8" stroke-linecap="round"/></svg>`,
+ pres:`<svg width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5" fill="none" stroke="#b5b6bb" stroke-width="1.9"/><path d="M12 12l4.5-4" stroke="#b5b6bb" stroke-width="2" stroke-linecap="round"/><path d="M6.5 15.5a6.5 6.5 0 0 1 0-7" stroke="#b5b6bb" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>`,
+ sunrise:`<svg width="16" height="12" viewBox="0 0 16 12"><path d="M2 11h12" stroke="#4aa3df" stroke-width="1.6" stroke-linecap="round"/><path d="M4.5 9a3.5 3.5 0 0 1 7 0z" fill="#4aa3df"/><path d="M8 1v3M5.6 4.4L6.5 5.3M10.4 4.4L9.5 5.3" stroke="#4aa3df" stroke-width="1.4" stroke-linecap="round"/></svg>`};
+function homeVal(x,y,iv,dv,unit,trend,size=76){
+  return `<div class="hv" style="left:${x}px;top:${y}px"><span class="i" style="font-size:${size}px">${iv}</span><span class="u"><b>${unit}</b><em>.${dv}</em></span>${trend?`<span class="tr">${ICO.up}</span>`:''}</div>`;
+}
+function compassSVG(dir){
+  const c=143, R=131; let t='';
+  for(let a=0;a<360;a+=6){const r=(a-90)*Math.PI/180, l=a%30===0?9:5;
+    t+=`<line x1="${(c+(R-14)*Math.cos(r)).toFixed(1)}" y1="${(c+(R-14)*Math.sin(r)).toFixed(1)}" x2="${(c+(R-14-l)*Math.cos(r)).toFixed(1)}" y2="${(c+(R-14-l)*Math.sin(r)).toFixed(1)}" stroke="#3d6f93" stroke-width="${a%30===0?1.8:1.1}"/>`;}
+  const L=[['N',0],['E',90],['S',180],['W',270]].map(([k,a])=>{const r=(a-90)*Math.PI/180;return `<text x="${(c+(R-34)*Math.cos(r)).toFixed(1)}" y="${(c+(R-34)*Math.sin(r)+5).toFixed(1)}" fill="#5b8db2" font-size="14" font-weight="600" text-anchor="middle" font-family="Barlow Semi Condensed">${k}</text>`}).join('');
+  const pr_=(dir-90)*Math.PI/180, px=c+(R+3)*Math.cos(pr_), py=c+(R+3)*Math.sin(pr_);
+  return `<svg width="286" height="286" viewBox="0 0 286 286" style="overflow:visible">
+   <defs><radialGradient id="cg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#0c1116"/><stop offset=".86" stop-color="#0a0d11"/><stop offset="1" stop-color="#13293a"/></radialGradient>
+   <filter id="gl" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4.5"/></filter></defs>
+   <circle cx="${c}" cy="${c}" r="${R}" fill="url(#cg)"/>
+   <circle cx="${c}" cy="${c}" r="${R}" fill="none" stroke="#2aa5f0" stroke-width="9" filter="url(#gl)" opacity=".9"/>
+   <circle cx="${c}" cy="${c}" r="${R}" fill="none" stroke="#3db4ff" stroke-width="5.5"/>
+   <circle cx="${c}" cy="${c}" r="${R-7}" fill="none" stroke="#173a52" stroke-width="1.2"/>
+   ${t}${L}
+   <line x1="${c-66}" x2="${c+66}" y1="${c-4}" y2="${c-4}" stroke="#3a3b40" stroke-width="1.5"/>
+   <g transform="translate(${px.toFixed(1)},${py.toFixed(1)}) rotate(${dir})"><path d="M0 18 L-9 -10 L0 -4 L9 -10 Z" fill="#f4f4f6"/><path d="M0 18 L0 -4 L9 -10 Z" fill="#c9cacf"/></g>
+  </svg>`;
+}
+function moonSVG(){
+  // waning gibbous: lit on the left, shadow on the right limb
+  return `<svg width="150" height="120" viewBox="0 0 150 120">
+   <defs><radialGradient id="mg" cx="42%" cy="40%" r="62%"><stop offset="0" stop-color="#c9c9c6"/><stop offset=".7" stop-color="#9c9c99"/><stop offset="1" stop-color="#6f6f6d"/></radialGradient>
+   <radialGradient id="ms" cx="50%" cy="50%" r="50%"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".0"/></radialGradient>
+   <clipPath id="mc"><circle cx="75" cy="60" r="36"/></clipPath><filter id="mb"><feGaussianBlur stdDeviation="2.2"/></filter></defs>
+   ${[[20,22],[130,22],[12,60],[138,60],[20,98],[130,98],[75,8],[75,112]].map(([x,y])=>`<path d="M${x} ${y-6}L${x+1.6} ${y-1.6}L${x+6} ${y}L${x+1.6} ${y+1.6}L${x} ${y+6}L${x-1.6} ${y+1.6}L${x-6} ${y}L${x-1.6} ${y-1.6}Z" fill="#c8d8ea"/>`).join('')}
+   <circle cx="75" cy="60" r="36" fill="url(#mg)"/>
+   <g clip-path="url(#mc)" opacity=".55"><circle cx="64" cy="48" r="8" fill="#868683"/><circle cx="86" cy="66" r="10" fill="#8a8a87"/><circle cx="70" cy="76" r="6" fill="#80807d"/><circle cx="58" cy="64" r="4.5" fill="#8d8d8a"/><circle cx="88" cy="44" r="5" fill="#90908d"/></g>
+   <g clip-path="url(#mc)"><ellipse cx="118" cy="60" rx="30" ry="44" fill="#050506" opacity=".93" filter="url(#mb)"/></g>
+  </svg>`;
+}
+function buildHome(){
+  const h=HOME[SCN]||HOME.morning;
+  root.innerHTML=`<div class="scr" style="background:#020203">${header('Weather',1)}
+   <div class="dpill">${h.date}${ICO.sig}</div>
+   <div class="sep" style="left:18px;width:328px;top:74px"></div><div class="sep" style="left:668px;width:338px;top:74px"></div>
+   <div class="hl" style="left:14px;top:98px">${ICO.otemp}Outdoor Temp</div><div class="hl" style="left:209px;top:98px">${ICO.hum}Humidity</div>
+   ${homeVal(56,136,h.ot[0],h.ot[1],'°C',true)}
+   <div class="hv" style="left:218px;top:136px"><span class="i">${h.oh}</span><span class="pc">%</span></div>
+   <div class="sep" style="left:18px;width:328px;top:218px"></div>
+   <div class="lbar" style="left:30px;width:310px;top:228px">${ICO.dew}Dew Point</div>
+   <div class="mv" style="left:0;width:362px;text-align:center;top:275px;font-size:44px">${h.dew} <small style="font-size:26px">°C</small></div>
+   <div class="lbar" style="left:30px;width:310px;top:334px">${ICO.dew}Feels Like</div>
+   <div class="mv" style="left:0;width:362px;text-align:center;top:381px;font-size:44px">${h.feel} <small style="font-size:26px">°C</small></div>
+   <div class="sep" style="left:18px;width:328px;top:441px"></div>
+   <div class="mv" style="left:0;width:362px;text-align:center;top:457px;font-size:22px;font-weight:600;letter-spacing:.3px">${h.moon}</div>
+   <div style="position:absolute;left:105px;top:478px">${moonSVG()}</div>
+   <div class="cmp">${compassSVG(h.dir)}
+    <div class="ctx" style="left:0;width:286px;top:60px;font-size:17px;color:#cfd0d4;font-weight:500">RT</div>
+    <div class="ctx" style="left:0;width:286px;top:80px;font-size:62px;font-weight:600">${h.rt}</div>
+    <div class="ctx" style="left:0;width:286px;top:149px;font-size:14px;color:#9a9ba0;font-weight:600;letter-spacing:.5px">GUST</div>
+    <div class="ctx" style="left:0;width:286px;top:166px;font-size:38px;font-weight:600">${h.gust}<span style="font-size:14px;color:#c9cacf;font-weight:500;margin-left:5px">m/s</span></div>
+    <div class="ctx" style="left:0;width:286px;top:215px;font-size:24px;font-weight:500;color:#e4e4e7"><svg width="15" height="17" viewBox="0 0 15 17" style="vertical-align:-1px;margin-right:4px"><path d="M2 16V2" stroke="#e4e4e7" stroke-width="2"/><path d="M3 2h10l-3 3.5 3 3.5H3z" fill="#e4e4e7"/></svg>${h.dir}°</div>
+   </div>
+   <svg style="position:absolute;left:318px;top:452px" width="390" height="150" viewBox="0 0 390 150"><path d="M8 148 A190 150 0 0 1 382 148" fill="none" stroke="#4b4c51" stroke-width="2.2" stroke-dasharray="7 7"/></svg>
+   <svg style="position:absolute;left:358px;top:487px" width="56" height="56" viewBox="0 0 56 56"><defs><radialGradient id="sg"><stop offset="0" stop-color="#fff6c4"/><stop offset=".35" stop-color="#ffd84a"/><stop offset=".62" stop-color="#ffb800" stop-opacity=".55"/><stop offset="1" stop-color="#ff9d00" stop-opacity="0"/></radialGradient></defs><circle cx="28" cy="28" r="27" fill="url(#sg)"/></svg>
+   <div class="sunl" style="left:445px;top:500px">SUN</div><div class="sunv" style="left:432px;top:536px">${h.sun}<small>Klux</small></div>
+   <div class="sunl" style="left:563px;top:500px">UV</div><div class="sunv" style="left:552px;top:536px">${h.uv}</div>
+   <div class="srs" style="left:318px;top:572px">${ICO.sunrise}${h.sr}</div><div class="srs" style="left:629px;top:572px">${ICO.sunrise}${h.ss}</div>
+   <div class="hl" style="left:676px;top:98px">${ICO.itemp}Indoor Temp</div><div class="hl" style="left:856px;top:98px">${ICO.ihum}Humidity</div>
+   ${homeVal(722,136,h.it[0],h.it[1],'°C',true)}
+   <div class="hv" style="left:874px;top:136px"><span class="i">${h.ih}</span><span class="pc">%</span></div>
+   <div class="sep" style="left:668px;width:338px;top:218px"></div>
+   <div class="lbar big" style="left:690px;width:312px;top:230px">${ICO.rain}RAIN</div>
+   <div class="mv" style="left:822px;top:292px;font-size:70px">${h.rain}</div>
+   <div class="mv" style="left:918px;top:296px;font-size:17px;color:#d9d9dc;font-weight:500;line-height:1.3">1h<br>mm</div>
+   <div class="mv" style="left:818px;top:378px;font-size:17px;color:#b9babe;font-weight:500">Rate</div><div class="mv" style="left:868px;top:372px;font-size:27px;font-weight:500">${h.rate}</div><div class="mv" style="left:916px;top:380px;font-size:16px;color:#b9babe;font-weight:500">mm/h</div>
+   <div class="lbar big" style="left:690px;width:312px;top:428px">${ICO.pres}AIR PRESSURE</div>
+   <div class="mv" style="left:738px;top:490px;font-size:67px">${h.pres}</div>
+   <div class="mv" style="left:922px;top:498px;font-size:18px;color:#d9d9dc;font-weight:500;line-height:1.35">REL<br>kPa</div>
+   <div id="touch"></div></div>`;
+}
+function drawHome(t){}
+
+/* ---------- touch ripple (finger taps) ---------- */
+const TAPS={home:[],aq:[],chart:[],forecast:[],alerts:[[0.75,513,369],[1.85,644,369]]};
+function drawTouch(t){
+  const el=document.getElementById('touch'); if(!el||P.get('notouch')) return; let h='';
+  for(const [ta,x,y] of TAPS[PAGE]||[]){ if(t<ta-0.15||t>ta+0.7) continue;
+    const u=pr(t,ta,ta+0.55); const R=lerp(16,60,u), o=t<ta?pr(t,ta-0.15,ta)*0.5:(1-u)*0.55;
+    h+=`<div style="position:absolute;left:${x-R}px;top:${y-R}px;width:${2*R}px;height:${2*R}px;border-radius:50%;background:rgba(255,255,255,${(o*0.6).toFixed(3)});box-shadow:0 0 0 3px rgba(242,135,58,${o.toFixed(3)})"></div>`;}
+  el.innerHTML=h;
+}
+
+const B={home:buildHome,aq:buildAQ,chart:buildChart,forecast:buildForecast,alerts:buildAlerts}[PAGE];
+const D={home:drawHome,aq:drawAQ,chart:drawChart,forecast:drawForecast,alerts:drawAlerts}[PAGE];
+B();
+window.renderFrame=t=>{D(t);drawTouch(t);};
+window.ready=document.fonts.ready.then(()=>Promise.all([document.fonts.load('700 120px "Barlow Semi Condensed"'),document.fonts.load('500 20px "Barlow Semi Condensed"'),document.fonts.load('600 20px "Barlow Semi Condensed"')])).then(()=>{window.renderFrame(0);return true;});
+</script>
+</body>
+</html>
