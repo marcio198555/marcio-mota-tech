@@ -1,24 +1,24 @@
 {
  "display": {
-  "s01": "40 km | avec une charge ?",
-  "s02": "Oui. | Mais dans les conditions du test.",
-  "s03": "À la fin : la petite ligne | sous ce chiffre.",
+  "s01": "Même trottinette, 40 km annoncés. | Toi, tu roules en été.",
+  "s02": "Ton collègue, en plein hiver. | Qui va le plus loin ?",
+  "s03": "À la fin : la petite ligne | à lire avant d'acheter.",
   "s04": "Exemple : Segway Ninebot F2 D. | Jusqu'à 40 km.",
   "s05": "Note du fabricant : | batterie pleine, 75 kg.",
   "s06": "25 °C, 15 km/h de moyenne, | sur chaussée.",
   "s07": "À fond, 20 km/h : jusqu'à 36 km. | Toujours à 25 °C.",
-  "s08": "Toi, en novembre, | tu roules à 25 °C ?",
-  "s09": "Segway l'écrit : le froid | peut réduire l'autonomie. C'est normal.",
+  "s08": "Et ton collègue, en novembre, | il roule à 25 °C ?",
+  "s09": "Segway l'écrit : le froid | peut réduire l'autonomie. | C'est normal.",
   "s10": "Manuel Segway : à −20 °C, | l'autonomie peut tomber à moitié.",
   "s11": "Et la pente max., 18 % : | avec 75 kg.",
-  "s12": "Avant d'acheter, lis la note : | poids, vitesse, température.",
+  "s12": "Donc, en général, c'est toi, en été, | qui vas le plus loin. | Avant d'acheter, lis la note : | poids, vitesse, température.",
   "s13": "Bonus : stockée sous 0 °C ? | Segway : au-dessus de 5 °C | avant de charger.",
   "s14": "Ta trottinette, combien de km | en hiver ? | Écris-le en commentaire.",
-  "s15": "Abonne-toi : ce soir, | faut-il vraiment | préchauffer le four ?"
+  "s15": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
  },
  "title": "Trottinette « 40 km » : dans les conditions du test",
  "slug": "trottinette-40km",
  "format": "V",
  "caption": "Ta trottinette « 40 km d'autonomie » : oui, mais à 25 °C et 75 kg.\nSegway, Ninebot F2 D (site suisse) : jusqu'à 40 km, testés batterie pleine, 75 kg, 25 °C, 15 km/h de moyenne sur chaussée ; 36 km à 20 km/h. Selon le manuel de la série ES de Segway, à −20 °C l'autonomie peut tomber à moitié.\nTa trottinette fait combien de km en hiver ?\n#trottinetteelectrique #segway #autonomie #blackfriday\nVoix de synthèse.",
- "reel_caption": "Trottinette électrique « 40 km d'autonomie » : les conditions du test\n\nSur le site suisse de Segway, la Ninebot F2 D annonce jusqu'à 40 km, testés batterie pleine, avec 75 kg, à 25 °C et 15 km/h de moyenne sur chaussée. À sa vitesse max. de 20 km/h : jusqu'à 36 km, mêmes conditions.\n\nSegway écrit que le froid peut réduire l'autonomie ; dans le manuel de sa série ES : à −20 °C, l'autonomie peut tomber à la moitié de celle à 22 °C.\n\nVoix de synthèse.\n\nEnvoie-la à ton collègue qui va au travail en trottinette.\n\n#trottinetteelectrique #segway #autonomie #suisseromande #jemesuretout"
+ "reel_caption": "Trottinette électrique « 40 km d'autonomie » : les conditions du test\n\nSur le site suisse de Segway, la Ninebot F2 D annonce jusqu'à 40 km, testés batterie pleine, avec 75 kg, à 25 °C et 15 km/h de moyenne sur chaussée. À sa vitesse max. de 20 km/h : jusqu'à 36 km, mêmes conditions.\n\nSegway écrit que le froid peut réduire l'autonomie ; dans le manuel de sa série ES : à −20 °C, l'autonomie peut tomber à la moitié de celle à 22 °C.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#trottinetteelectrique #segway #autonomie #suisseromande #jemesuretout"
 }

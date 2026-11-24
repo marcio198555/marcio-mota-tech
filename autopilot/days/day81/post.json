@@ -1,0 +1,16 @@
+{
+ "day": 81,
+ "title": "Clé « USB 3.2 » : peut-être 5 Gbit/s seulement",
+ "format": "V",
+ "recette": "Instagram 20.11",
+ "duree_s": 63.5,
+ "cover_ms": 1200,
+ "aigc": true,
+ "branded": false,
+ "video": "media/reels/day81_reel.mp4",
+ "reel_instagram": {
+  "caption": "Clé USB 3.2 : peut-être 5 Gbit/s seulement, pas 20\n\nSelon l'USB-IF, l'organisme de la norme, USB 3.2 regroupe trois débits : Gen 1 = 5 Gbit/s, Gen 2 = 10 Gbit/s, Gen 2x2 = 20 Gbit/s. Il écrit aussi que le nom « USB 3.2 » n'est pas fait pour les emballages.\n\nExemple : la Kingston DataTraveler Kyson est en USB 3.2 Gen 1. Sa fiche annonce jusqu'à 200 Mo/s en lecture (1,6 Gbit/s) et jusqu'à 60 Mo/s en écriture dès 128 Go.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#cleusb #usb #astucetech #suisseromande #jemesuretout",
+  "cta": "abonnement",
+  "statut": "en file (reels_queue.json)"
+ }
+}

@@ -1,110 +1,110 @@
 {
- "duration": 68.634,
+ "duration": 63.248,
  "segments": [
   {
    "id": "s01",
-   "text": "Ta clé u-èss-bé trois point deux va à vingt gigabits ?",
+   "text": "Même clé, u-èss-bé trois point deux. Toi, tu crois qu'elle va à vingt gigabits.",
    "start": 0.12,
-   "end": 3.149,
-   "display": "Clé USB 3.2 | = 20 Gbit/s ?"
+   "end": 4.471,
+   "display": "Même clé, USB 3.2. | Toi, tu crois | qu'elle va à 20 Gbit/s."
   },
   {
    "id": "s02",
-   "text": "Pas forcément. Peut-être cinq, au maximum.",
-   "start": 3.249,
-   "end": 6.35,
-   "display": "Pas forcément. | Peut-être 5, au maximum."
+   "text": "Ton collègue lit la fiche technique. Qui a raison ?",
+   "start": 4.571,
+   "end": 7.594,
+   "display": "Ton collègue lit la fiche technique. | Qui a raison ?"
   },
   {
    "id": "s03",
-   "text": "À la fin, tu sauras quoi chercher sur la boîte.",
-   "start": 6.45,
-   "end": 10.004,
-   "display": "À la fin : | quoi chercher sur la boîte."
+   "text": "À la fin, quoi chercher sur la boîte avant d'acheter.",
+   "start": 7.694,
+   "end": 10.544,
+   "display": "À la fin : quoi chercher | sur la boîte avant d'acheter."
   },
   {
    "id": "s04",
    "text": "Selon l'organisme de la norme, trois point deux, c'est trois vitesses.",
-   "start": 10.104,
-   "end": 15.216,
+   "start": 10.644,
+   "end": 15.095,
    "display": "Selon l'USB-IF (la norme) : | USB 3.2 = 3 vitesses."
   },
   {
    "id": "s05",
    "text": "Djène un : cinq gigabits. Djène deux : dix. Djène deux fois deux : vingt.",
-   "start": 15.316,
-   "end": 22.308,
+   "start": 15.195,
+   "end": 21.284,
    "display": "Gen 1 : 5 Gbit/s. Gen 2 : 10. | Gen 2x2 : 20."
   },
   {
    "id": "s06",
    "text": "Et l'organisme écrit : ce nom n'est pas fait pour les boîtes ni la pub.",
-   "start": 22.408,
-   "end": 26.677,
+   "start": 21.384,
+   "end": 25.102,
    "display": "USB-IF : ce nom n'est pas fait | pour les boîtes ni la pub."
   },
   {
    "id": "s07",
    "text": "Exemple : la Kaïsonne de Kingston. Fiche : trois point deux, Djène un.",
-   "start": 26.777,
-   "end": 32.389,
+   "start": 25.202,
+   "end": 30.089,
    "display": "Exemple : Kingston DataTraveler Kyson. | Fiche : USB 3.2 Gen 1."
   },
   {
    "id": "s08",
    "text": "Donc un signal à cinq gigabits, au maximum.",
-   "start": 32.489,
-   "end": 35.708,
+   "start": 30.189,
+   "end": 32.993,
    "display": "Donc un signal à 5 Gbit/s, | au maximum."
   },
   {
    "id": "s09",
    "text": "En lecture, la fiche annonce jusqu'à deux cents mégaoctets par seconde.",
-   "start": 35.808,
-   "end": 40.832,
+   "start": 33.093,
+   "end": 37.468,
    "display": "Lecture, selon la fiche : | jusqu'à 200 Mo/s."
   },
   {
    "id": "s10",
-   "text": "Fois huit : un virgule six gigabit. Loin de vingt.",
-   "start": 40.932,
-   "end": 44.57,
-   "display": "× 8 = 1,6 Gbit/s. | Loin de 20."
+   "text": "Fois huit : un virgule six gigabit. Ton collègue a raison : sur cette clé, cinq maximum, pas vingt.",
+   "start": 37.568,
+   "end": 43.31,
+   "display": "× 8 = 1,6 Gbit/s. | Ton collègue a raison : | sur cette clé, 5 max., pas 20."
   },
   {
    "id": "s11",
-   "text": "En écriture, dès cent vingt-huit gigas : soixante mégaoctets par seconde.",
-   "start": 44.67,
-   "end": 49.813,
-   "display": "Écriture, dès 128 Go : | 60 Mo/s."
+   "text": "En écriture, dès cent vingt-huit gigas : jusqu'à soixante mégaoctets par seconde.",
+   "start": 43.41,
+   "end": 48.047,
+   "display": "Écriture, dès 128 Go : | jusqu'à 60 Mo/s."
   },
   {
    "id": "s12",
    "text": "Deuxième piège : sur un port plus lent, elle suit le plus lent.",
-   "start": 49.913,
-   "end": 54.329,
+   "start": 48.147,
+   "end": 52.056,
    "display": "2e piège : sur un port plus lent, | elle suit le plus lent."
   },
   {
    "id": "s13",
    "text": "Avant d'acheter, cherche les mégaoctets par seconde, lecture et écriture.",
-   "start": 54.429,
-   "end": 59.824,
+   "start": 52.156,
+   "end": 56.238,
    "display": "Avant d'acheter : les Mo/s, | lecture et écriture."
   },
   {
    "id": "s14",
    "text": "Ta clé écrit à combien ? Écris-le en commentaire.",
-   "start": 59.924,
-   "end": 63.409,
+   "start": 56.338,
+   "end": 59.373,
    "display": "Ta clé écrit à combien ? | Écris-le en commentaire."
   },
   {
    "id": "s15",
-   "text": "Et abonne-toi : ce soir, Suisse contre France, Spotify Premium.",
-   "start": 63.509,
-   "end": 68.334,
-   "display": "Abonne-toi : ce soir, | Suisse contre France, | Spotify Premium."
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "start": 59.473,
+   "end": 62.948,
+   "display": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
   }
  ]
 }

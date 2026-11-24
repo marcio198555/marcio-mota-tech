@@ -1,8 +1,28 @@
 // Vidéo 80 — trottinette « 40 km » : conditions du test (Segway Ninebot F2 D, site suisse). Chiffres : days/day80/facts.md.
 (function () {
-  const { C, F, clamp, lerp, ease, prog, S, E, background, text, chip, captions, brand, block, followCTA, roundRect } = ENG;
+  const { C, F, clamp, lerp, ease, prog, S, E, background, text, chip, captions, brand, block, roundRect } = ENG;
   const { RED, GOLD, GREEN, BLUE, CYAN, WHITE, f, pop, stamp, panel, big, line, tag, calc, battery, thermometer, head, comment } = KIT;
   const END = E('s15') + 0.6;
+  const L = '#58d68d', R = '#ff5a5f';
+  function split(ctx, lt, rt) {
+    ctx.save(); ctx.globalAlpha *= 0.14; ctx.fillStyle = L; ctx.fillRect(0, 440, 500, 760); ctx.fillStyle = R; ctx.fillRect(500, 440, 580, 760); ctx.restore();
+    ctx.save(); ctx.setLineDash([16, 16]); ctx.strokeStyle = 'rgba(230,198,106,0.6)'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(500, 450); ctx.lineTo(500, 1190); ctx.stroke(); ctx.restore();
+    chip(ctx, 'TOI', 275, 500, { color: WHITE, size: 38 }); chip(ctx, 'TON COLLÈGUE', 725, 500, { color: WHITE, size: 36 });
+    if (lt) chip(ctx, lt, 275, 575, { color: L, size: 36 });
+    if (rt) chip(ctx, rt, 725, 575, { color: R, size: 36 });
+  }
+  function igEnd(ctx, t, t0) {
+    const k = ease.back(prog(t, t0 + 0.25, 0.35));
+    ctx.save(); ctx.globalAlpha *= clamp(k * 2); ctx.translate(500, 800); ctx.scale(0.9 + 0.1 * k, 0.9 + 0.1 * k);
+    panel(ctx, -420, -190, 840, 380, { r: 40, border: GOLD, lw: 4, bg: 'rgba(201,168,76,0.12)' });
+    text(ctx, 'CHAQUE JOUR', 0, -110, { size: 44, family: F.mono, weight: 700, color: GOLD, letter: 6 });
+    text(ctx, 'un chiffre vérifié', 0, -10, { size: 72, weight: 900, color: WHITE, maxWidth: 780 });
+    text(ctx, 'sur les objets', 0, 75, { size: 60, weight: 800, color: WHITE, maxWidth: 780 });
+    text(ctx, 'de ta maison', 0, 145, { size: 60, weight: 800, color: WHITE, maxWidth: 780 });
+    ctx.restore();
+    const p = 1 + 0.05 * Math.sin((t - t0) * 7);
+    pop(ctx, t, t0 + 0.5, 500, 1110, () => { ctx.scale(p, p); roundRect(ctx, -230, -58, 460, 116, 58); ctx.fillStyle = RED; ctx.fill(); text(ctx, 'ABONNE-TOI', 0, 2, { size: 56, weight: 900, color: WHITE }); });
+  }
   // trottinette dessinée (sans logo), centrée sur le plateau
   function scooter(ctx, x, y, s, o = {}) {
     ctx.save(); ctx.translate(x, y); ctx.scale(s, s);
@@ -35,27 +55,25 @@
     load: () => CHR.load(['thermometer', 'battery', 'low_battery', 'thinking_face', 'magnifying_glass_tilted_left', 'check_mark_button', 'warning', 'clipboard', 'stopwatch', 'package']),
     draw(ctx, t) {
       background(ctx, t);
-      // s01 — image 0 : trottinette + 40 km ?
-      block(ctx, t, 0, S('s02'), () => {
-        head(ctx, 'TA TROTTINETTE', 350, t, undefined, { size: 56, color: GOLD });
-        big(ctx, '40 km', 500, 590, t, undefined, { size: 200, color: GOLD });
-        big(ctx, '?', 840, 820, t, undefined, { size: 190, color: RED });
-        road(ctx, 1130, t);
-        scooter(ctx, 470, 1060, 1.05, { spin: t * 4 });
-      });
-      // s02 — oui, mais
-      block(ctx, t, S('s02'), S('s03'), () => {
-        stamp(ctx, 'OUI…', 500, 400, t, S('s02'), { size: 100, color: GREEN });
-        line(ctx, 'MAIS DANS LES', 500, 640, t, f('s02', 0.35), { size: 66, weight: 900, color: WHITE, dx: 0 });
-        line(ctx, 'CONDITIONS DU TEST', 500, 740, t, f('s02', 0.45), { size: 66, weight: 900, color: GOLD, dx: 0 });
-        CHR.emo(ctx, 'clipboard', 500, 990, 220, t, f('s02', 0.55));
+      // s01-s02 — image 0 : duel été / hiver, « 40 km ? » qui bat
+      block(ctx, t, 0, S('s03'), () => {
+        text(ctx, 'MÊME TROTTINETTE', 500, 345, { size: 50, family: F.display, weight: 900, color: WHITE });
+        const b = 1 + 0.07 * Math.sin(t * 5);
+        ctx.save(); ctx.translate(500, 418); ctx.scale(b, b); text(ctx, '40 km ?', 0, 0, { size: 84, family: F.mono, weight: 900, color: GOLD, stroke: 'rgba(0,0,0,0.6)' }); ctx.restore();
+        split(ctx, 'EN ÉTÉ', 'EN HIVER');
+        scooter(ctx, 255, 830, 0.62, { spin: t * 5 });
+        scooter(ctx, 715, 830, 0.62, { spin: t * 5 + 1 });
+        thermometer(ctx, 275, 1040, 110, 0.75, GOLD);
+        thermometer(ctx, 725, 1040, 110, 0.12, BLUE);
+        if (t >= S('s02')) head(ctx, 'QUI VA LE PLUS LOIN ?', 1195, t, S('s02') + 0.3, { size: 50 });
       });
       // s03 — promesse
       block(ctx, t, S('s03'), S('s04'), () => {
-        tag(ctx, 'À LA FIN, TU SAURAS LIRE…', 500, 380, t, S('s03'), { size: 44, color: CYAN });
-        big(ctx, '40 km', 500, 620, t, S('s03') + 0.1, { size: 150, color: GOLD });
-        pop(ctx, t, f('s03', 0.45), 500, 800, () => { panel(ctx, -380, -55, 760, 110); text(ctx, '* la petite ligne sous ce chiffre', 0, 4, { size: 40, weight: 800, color: WHITE }); });
-        CHR.emo(ctx, 'magnifying_glass_tilted_left', 760, 950, 180, t, f('s03', 0.6));
+        tag(ctx, 'À LA FIN', 500, 380, t, S('s03'), { size: 46, color: GOLD });
+        big(ctx, '40 km', 500, 600, t, S('s03') + 0.1, { size: 150, color: GOLD });
+        pop(ctx, t, f('s03', 0.35), 500, 790, () => { panel(ctx, -400, -55, 800, 110); text(ctx, '* la petite ligne à lire', 0, 4, { size: 42, weight: 800, color: WHITE }); });
+        line(ctx, "AVANT D'ACHETER", 500, 940, t, f('s03', 0.5), { size: 56, weight: 900, color: CYAN, dx: 0 });
+        CHR.emo(ctx, 'magnifying_glass_tilted_left', 780, 1060, 160, t, f('s03', 0.6));
       });
       // s04 — exemple Segway Ninebot F2 D
       block(ctx, t, S('s04'), S('s05'), () => {
@@ -91,7 +109,7 @@
       });
       // s08 — toi en novembre ?
       block(ctx, t, S('s08'), S('s09'), () => {
-        head(ctx, 'TOI, EN NOVEMBRE…', 360, t, S('s08'), { size: 60, color: CYAN });
+        head(ctx, 'TON COLLÈGUE, EN NOVEMBRE…', 360, t, S('s08'), { size: 60, color: CYAN });
         const k = ease.out(prog(t, f('s08', 0.3), 0.8));
         thermometer(ctx, 260, 900, 380, lerp(0.7, 0.12, k), lerp(0, 1, k) > 0.5 ? BLUE : GOLD);
         big(ctx, '25 °C', 680, 680, t, S('s08') + 0.1, { size: 130, color: GOLD });
@@ -111,7 +129,7 @@
         big(ctx, '−20 °C', 500, 560, t, S('s10') + 0.1, { size: 150, color: BLUE });
         const lv = lerp(1, 0.5, ease.out(prog(t, f('s10', 0.4), 0.7)));
         battery(ctx, 500, 820, 420, lv, { color: lv > 0.6 ? GREEN : RED });
-        big(ctx, "JUSQU'À ÷ 2", 500, 1060, t, f('s10', 0.6), { size: 76, color: RED });
+        big(ctx, '÷ 2 vs 22 °C', 500, 1060, t, f('s10', 0.6), { size: 76, color: RED });
       });
       // s11 — pente 18 % avec 75 kg
       block(ctx, t, S('s11'), S('s12'), () => {
@@ -122,12 +140,12 @@
         big(ctx, '75 kg', 760, 700, t, f('s11', 0.55), { size: 110, color: WHITE });
         line(ctx, 'AVEC', 760, 570, t, f('s11', 0.5), { size: 44, weight: 900, color: C.muted, dx: 0 });
       });
-      // s12 — conseil avant d'acheter
+      // s12 — réponse au duel + conseil avant d'acheter
       block(ctx, t, S('s12'), S('s13'), () => {
-        tag(ctx, "AVANT D'ACHETER", 500, 360, t, S('s12'), { size: 46, color: GREEN });
-        pop(ctx, t, S('s12') + 0.1, 500, 720, () => { panel(ctx, -380, -260, 760, 520);
-          text(ctx, "* NOTE SOUS L'AUTONOMIE", 0, -180, { size: 40, weight: 800, color: C.muted }); });
-        ['POIDS : 75 kg', 'VITESSE : 15 km/h', 'TEMPÉRATURE : 25 °C'].forEach((s, i) => line(ctx, '✓ ' + s, 500, 640 + i * 110, t, f('s12', 0.3 + i * 0.15), { size: 54, weight: 900, color: [WHITE, WHITE, GOLD][i], dx: 0 }));
+        tag(ctx, 'EN GÉNÉRAL : TOI, EN ÉTÉ, PLUS LOIN', 500, 360, t, S('s12'), { size: 40, color: GREEN });
+        pop(ctx, t, f('s12', 0.3), 500, 760, () => { panel(ctx, -380, -260, 760, 520);
+          text(ctx, "AVANT D'ACHETER : LA NOTE", 0, -180, { size: 40, weight: 800, color: C.muted }); });
+        ['POIDS : 75 kg', 'VITESSE : 15 km/h', 'TEMPÉRATURE : 25 °C'].forEach((s, i) => line(ctx, '✓ ' + s, 500, 680 + i * 110, t, f('s12', 0.4 + i * 0.1), { size: 54, weight: 900, color: [WHITE, WHITE, GOLD][i], dx: 0 }));
       });
       // s13 — bonus : stockage sous 0 °C
       block(ctx, t, S('s13'), S('s14'), () => {
@@ -139,7 +157,7 @@
       });
       // s14 — question commentaires
       block(ctx, t, S('s14'), S('s15'), () => { comment(ctx, t, S('s14'), ['Ta trottinette,', 'combien de km', 'en hiver ?'], { color: GOLD }); });
-      block(ctx, t, S('s15'), END + 1, () => followCTA(ctx, t, S('s15'), { when: 'CE SOIR', next: ['le four : faut-il vraiment', 'le préchauffer ?'] }));
+      block(ctx, t, S('s15'), END + 1, () => igEnd(ctx, t, S('s15')));
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });
     }

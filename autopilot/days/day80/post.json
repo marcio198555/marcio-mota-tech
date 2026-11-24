@@ -1,0 +1,16 @@
+{
+ "day": 80,
+ "title": "Trottinette « 40 km » : dans les conditions du test",
+ "format": "V",
+ "recette": "Instagram 20.11",
+ "duree_s": 63.5,
+ "cover_ms": 1200,
+ "aigc": true,
+ "branded": false,
+ "video": "media/reels/day80_reel.mp4",
+ "reel_instagram": {
+  "caption": "Trottinette électrique « 40 km d'autonomie » : les conditions du test\n\nSur le site suisse de Segway, la Ninebot F2 D annonce jusqu'à 40 km, testés batterie pleine, avec 75 kg, à 25 °C et 15 km/h de moyenne sur chaussée. À sa vitesse max. de 20 km/h : jusqu'à 36 km, mêmes conditions.\n\nSegway écrit que le froid peut réduire l'autonomie ; dans le manuel de sa série ES : à −20 °C, l'autonomie peut tomber à la moitié de celle à 22 °C.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#trottinetteelectrique #segway #autonomie #suisseromande #jemesuretout",
+  "cta": "abonnement",
+  "statut": "en file (reels_queue.json)"
+ }
+}

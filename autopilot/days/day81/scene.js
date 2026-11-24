@@ -1,6 +1,6 @@
 // Vidéo 81 — clé « USB 3.2 » : peut-être 5 Gbit/s seulement (USB-IF, Kingston DataTraveler Kyson). Chiffres : days/day81/facts.md.
 (function () {
-  const { C, F, clamp, lerp, ease, prog, S, E, background, text, chip, captions, brand, block, followCTA, roundRect } = ENG;
+  const { C, F, clamp, lerp, ease, prog, S, E, background, text, chip, captions, brand, block, roundRect } = ENG;
   const { RED, GOLD, GREEN, BLUE, CYAN, WHITE, f, pop, stamp, panel, big, line, tag, calc, bars, head, comment } = KIT;
   const END = E('s15') + 0.6;
   // clé USB dessinée (sans logo), connecteur à gauche
@@ -20,31 +20,77 @@
     const iw = Math.max(0, (w - 12) * frac * k); if (iw > 4) { roundRect(ctx, x + 6, y + 6, iw, 44, 22); ctx.fillStyle = col; ctx.fill(); }
     if (label) text(ctx, label, x + w / 2, y + 100, { size: 44, weight: 900, color: col });
   }
+  const L = '#58d68d', R = '#ff5a5f';
+  function split(ctx, lt, rt) {
+    ctx.save(); ctx.globalAlpha *= 0.14; ctx.fillStyle = L; ctx.fillRect(0, 440, 500, 760); ctx.fillStyle = R; ctx.fillRect(500, 440, 580, 760); ctx.restore();
+    ctx.save(); ctx.setLineDash([16, 16]); ctx.strokeStyle = 'rgba(230,198,106,0.6)'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(500, 450); ctx.lineTo(500, 1190); ctx.stroke(); ctx.restore();
+    chip(ctx, 'TOI', 275, 500, { color: WHITE, size: 38 }); chip(ctx, 'TON COLLÈGUE', 725, 500, { color: WHITE, size: 36 });
+    if (lt) chip(ctx, lt, 275, 575, { color: L, size: 36 });
+    if (rt) chip(ctx, rt, 725, 575, { color: R, size: 36 });
+  }
+  function igEnd(ctx, t, t0) {
+    const k = ease.back(prog(t, t0 + 0.25, 0.35));
+    ctx.save(); ctx.globalAlpha *= clamp(k * 2); ctx.translate(500, 800); ctx.scale(0.9 + 0.1 * k, 0.9 + 0.1 * k);
+    panel(ctx, -420, -190, 840, 380, { r: 40, border: GOLD, lw: 4, bg: 'rgba(201,168,76,0.12)' });
+    text(ctx, 'CHAQUE JOUR', 0, -110, { size: 44, family: F.mono, weight: 700, color: GOLD, letter: 6 });
+    text(ctx, 'un chiffre vérifié', 0, -10, { size: 72, weight: 900, color: WHITE, maxWidth: 780 });
+    text(ctx, 'sur les objets', 0, 75, { size: 60, weight: 800, color: WHITE, maxWidth: 780 });
+    text(ctx, 'de ta maison', 0, 145, { size: 60, weight: 800, color: WHITE, maxWidth: 780 });
+    ctx.restore();
+    const p = 1 + 0.05 * Math.sin((t - t0) * 7);
+    pop(ctx, t, t0 + 0.5, 500, 1110, () => { ctx.scale(p, p); roundRect(ctx, -230, -58, 460, 116, 58); ctx.fillStyle = RED; ctx.fill(); text(ctx, 'ABONNE-TOI', 0, 2, { size: 56, weight: 900, color: WHITE }); });
+  }
+  // trottinette dessinée (sans logo), centrée sur le plateau
+  function scooter(ctx, x, y, s, o = {}) {
+    ctx.save(); ctx.translate(x, y); ctx.scale(s, s);
+    const spin = o.spin || 0;
+    ctx.lineCap = 'round';
+    // plateau
+    roundRect(ctx, -170, -18, 330, 36, 18); ctx.fillStyle = '#2b3446'; ctx.fill(); ctx.lineWidth = 6; ctx.strokeStyle = '#4a5670'; ctx.stroke();
+    // garde-boue arrière + colonne
+    ctx.strokeStyle = '#8c97ad'; ctx.lineWidth = 16;
+    ctx.beginPath(); ctx.moveTo(150, 0); ctx.lineTo(200, -30); ctx.lineTo(160, -330); ctx.stroke();
+    ctx.lineWidth = 14; ctx.beginPath(); ctx.moveTo(105, -335); ctx.lineTo(215, -325); ctx.stroke();
+    // lampe avant
+    ctx.fillStyle = GOLD; ctx.beginPath(); ctx.arc(176, -250, 9, 0, 7); ctx.fill();
+    // roues
+    for (const wx of [-180, 210]) {
+      ctx.save(); ctx.translate(wx, 40);
+      ctx.beginPath(); ctx.arc(0, 0, 58, 0, 7); ctx.fillStyle = '#0d121c'; ctx.fill(); ctx.lineWidth = 12; ctx.strokeStyle = '#3b455a'; ctx.stroke();
+      ctx.rotate(spin); ctx.lineWidth = 6; ctx.strokeStyle = '#7d889f';
+      for (let i = 0; i < 3; i++) { ctx.rotate(Math.PI / 3); ctx.beginPath(); ctx.moveTo(-32, 0); ctx.lineTo(32, 0); ctx.stroke(); }
+      ctx.restore();
+    }
+    ctx.restore();
+  }
+  function road(ctx, y, t, speed = 1) {
+    ctx.save(); ctx.strokeStyle = 'rgba(255,255,255,0.25)'; ctx.lineWidth = 6; ctx.setLineDash([60, 40]); ctx.lineDashOffset = t * 300 * speed;
+    ctx.beginPath(); ctx.moveTo(80, y); ctx.lineTo(1000, y); ctx.stroke(); ctx.restore();
+  }
   window.SCENE = {
     duration: END,
     load: () => CHR.load(['thinking_face', 'magnifying_glass_tilted_left', 'package', 'label', 'warning', 'stopwatch', 'laptop', 'link', 'check_mark_button', 'clipboard']),
     draw(ctx, t) {
       background(ctx, t);
-      // s01 — image 0 : clé + 20 Gbit/s ?
-      block(ctx, t, 0, S('s02'), () => {
-        head(ctx, 'TA CLÉ « USB 3.2 »', 350, t, undefined, { size: 56, color: GOLD });
-        stick(ctx, 500, 560, 1.1 + 0.02 * Math.sin(t * 2), { label: 'USB 3.2' });
-        big(ctx, '20', 380, 860, t, undefined, { size: 220, color: GOLD });
-        line(ctx, 'Gbit/s', 380, 1010, undefined, undefined, { size: 64, weight: 900, color: WHITE, dx: 0 });
-        big(ctx, '?', 740, 880, t, undefined, { size: 220, color: RED });
-      });
-      // s02 — peut-être 5
-      block(ctx, t, S('s02'), S('s03'), () => {
-        stamp(ctx, 'PAS FORCÉMENT', 500, 400, t, S('s02'), { size: 80 });
-        big(ctx, '5', 500, 720, t, f('s02', 0.45), { size: 240, color: RED });
-        line(ctx, 'Gbit/s AU MAXIMUM ?', 500, 900, t, f('s02', 0.55), { size: 60, weight: 900, color: WHITE, dx: 0 });
+      // s01-s02 — image 0 : duel « 20 Gbit/s ? » : toi tu y crois, ton collègue lit la fiche
+      block(ctx, t, 0, S('s03'), () => {
+        text(ctx, 'MÊME CLÉ « USB 3.2 »', 500, 335, { size: 46, family: F.display, weight: 900, color: WHITE });
+        const b = 1 + 0.07 * Math.sin(t * 5);
+        ctx.save(); ctx.translate(500, 408); ctx.scale(b, b); text(ctx, '20 Gbit/s ?', 0, 0, { size: 72, family: F.mono, weight: 900, color: GOLD, stroke: 'rgba(0,0,0,0.6)' }); ctx.restore();
+        split(ctx, 'TU Y CROIS', 'IL LIT LA FICHE');
+        stick(ctx, 285, 760, 0.8 + 0.01 * Math.sin(t * 2), { label: 'USB 3.2' });
+        stick(ctx, 740, 760, 0.8 + 0.01 * Math.sin(t * 2 + 1), { label: 'USB 3.2' });
+        CHR.emo(ctx, 'thinking_face', 265, 1000, 170, t, -1);
+        CHR.emo(ctx, 'magnifying_glass_tilted_left', 735, 1000, 170, t, -1);
+        if (t >= S('s02')) head(ctx, 'QUI A RAISON ?', 1195, t, S('s02') + 0.3, { size: 52 });
       });
       // s03 — promesse
       block(ctx, t, S('s03'), S('s04'), () => {
-        tag(ctx, 'À LA FIN, TU SAURAS…', 500, 380, t, S('s03'), { size: 44, color: CYAN });
-        CHR.emo(ctx, 'package', 500, 680, 280, t, S('s03') + 0.1);
-        CHR.emo(ctx, 'magnifying_glass_tilted_left', 700, 800, 170, t, f('s03', 0.4));
-        line(ctx, 'QUOI CHERCHER SUR LA BOÎTE', 500, 1000, t, f('s03', 0.5), { size: 54, weight: 900, color: GOLD, dx: 0 });
+        tag(ctx, 'À LA FIN', 500, 380, t, S('s03'), { size: 46, color: GOLD });
+        CHR.emo(ctx, 'package', 500, 660, 280, t, S('s03') + 0.1);
+        CHR.emo(ctx, 'magnifying_glass_tilted_left', 700, 780, 170, t, f('s03', 0.35));
+        line(ctx, 'QUOI CHERCHER SUR LA BOÎTE', 500, 980, t, f('s03', 0.45), { size: 54, weight: 900, color: GOLD, dx: 0 });
+        line(ctx, "AVANT D'ACHETER", 500, 1070, t, f('s03', 0.6), { size: 50, weight: 900, color: CYAN, dx: 0 });
       });
       // s04 — USB-IF : 3 vitesses
       block(ctx, t, S('s04'), S('s05'), () => {
@@ -80,7 +126,7 @@
       });
       // s08 — 5 Gbit/s max
       block(ctx, t, S('s08'), S('s09'), () => {
-        tag(ctx, 'Gen 1 = SIGNAL À', 500, 380, t, S('s08'), { size: 46, color: CYAN });
+        tag(ctx, 'Gen 1 = SIGNAL MAXIMUM', 500, 380, t, S('s08'), { size: 46, color: CYAN });
         big(ctx, '5 Gbit/s', 500, 620, t, S('s08') + 0.1, { size: 150, color: RED });
         line(ctx, 'AU MAXIMUM', 500, 790, t, f('s08', 0.5), { size: 60, weight: 900, color: WHITE, dx: 0 });
         gauge(ctx, 220, 900, 640, 0.25, RED, 'sur 20', t, f('s08', 0.4));
@@ -95,7 +141,8 @@
       // s10 — × 8 = 1,6 Gbit/s
       block(ctx, t, S('s10'), S('s11'), () => {
         calc(ctx, ['200 Mo/s × 8', '= 1,6 Gbit/s'], 500, 540, t, [S('s10') + 0.05, f('s10', 0.3)], { lastSize: 110, color: GOLD });
-        gauge(ctx, 220, 900, 640, 1.6 / 20, GOLD, 'loin de 20 Gbit/s', t, f('s10', 0.55));
+        gauge(ctx, 220, 780, 640, 1.6 / 20, GOLD, 'loin de 20 Gbit/s', t, f('s10', 0.3));
+        pop(ctx, t, f('s10', 0.5), 500, 1040, () => { panel(ctx, -400, -70, 800, 140, { border: GREEN }); text(ctx, 'TON COLLÈGUE A RAISON ✓', 0, -12, { size: 48, weight: 900, color: GREEN }); text(ctx, 'sur cette clé : 5 max., pas 20', 0, 40, { size: 38, weight: 800, color: WHITE }); });
       });
       // s11 — écriture 60 Mo/s
       block(ctx, t, S('s11'), S('s12'), () => {
@@ -121,7 +168,7 @@
         line(ctx, '✓ ÉCRITURE', 500, 810, t, f('s13', 0.5), { size: 60, weight: 900, color: WHITE, dx: 0 });
       });
       block(ctx, t, S('s14'), S('s15'), () => { comment(ctx, t, S('s14'), ['Ta clé', 'écrit à combien', 'de Mo/s ?'], { color: GOLD }); });
-      block(ctx, t, S('s15'), END + 1, () => followCTA(ctx, t, S('s15'), { when: 'CE SOIR', next: ['Suisse contre France :', 'Spotify Premium'] }));
+      block(ctx, t, S('s15'), END + 1, () => igEnd(ctx, t, S('s15')));
       brand(ctx, t);
       captions(ctx, t, { y: 1335, size: 64, maxWidth: 800, x: 515 });
     }

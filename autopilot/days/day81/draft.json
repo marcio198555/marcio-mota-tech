@@ -1,20 +1,20 @@
 {
  "display": {
-  "s01": "Clé USB 3.2 | = 20 Gbit/s ?",
-  "s02": "Pas forcément. | Peut-être 5, au maximum.",
-  "s03": "À la fin : | quoi chercher sur la boîte.",
+  "s01": "Même clé, USB 3.2. | Toi, tu crois | qu'elle va à 20 Gbit/s.",
+  "s02": "Ton collègue lit la fiche technique. | Qui a raison ?",
+  "s03": "À la fin : quoi chercher | sur la boîte avant d'acheter.",
   "s04": "Selon l'USB-IF (la norme) : | USB 3.2 = 3 vitesses.",
   "s05": "Gen 1 : 5 Gbit/s. Gen 2 : 10. | Gen 2x2 : 20.",
   "s06": "USB-IF : ce nom n'est pas fait | pour les boîtes ni la pub.",
   "s07": "Exemple : Kingston DataTraveler Kyson. | Fiche : USB 3.2 Gen 1.",
   "s08": "Donc un signal à 5 Gbit/s, | au maximum.",
   "s09": "Lecture, selon la fiche : | jusqu'à 200 Mo/s.",
-  "s10": "× 8 = 1,6 Gbit/s. | Loin de 20.",
+  "s10": "× 8 = 1,6 Gbit/s. | Ton collègue a raison : | sur cette clé, 5 max., pas 20.",
   "s11": "Écriture, dès 128 Go : | jusqu'à 60 Mo/s.",
   "s12": "2e piège : sur un port plus lent, | elle suit le plus lent.",
   "s13": "Avant d'acheter : les Mo/s, | lecture et écriture.",
   "s14": "Ta clé écrit à combien ? | Écris-le en commentaire.",
-  "s15": "Abonne-toi : ce soir, | Suisse contre France, | Spotify Premium."
+  "s15": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
  },
  "title": "Clé « USB 3.2 » : peut-être 5 Gbit/s seulement",
  "slug": "cle-usb-32",

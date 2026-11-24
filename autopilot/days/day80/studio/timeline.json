@@ -1,110 +1,110 @@
 {
- "duration": 68.599,
+ "duration": 63.224,
  "segments": [
   {
    "id": "s01",
-   "text": "Ta trottinette fait quarante kilomètres avec une charge ?",
+   "text": "Même trottinette, quarante kilomètres annoncés. Toi, tu roules en été.",
    "start": 0.12,
-   "end": 4.802,
-   "display": "40 km | avec une charge ?"
+   "end": 4.073,
+   "display": "Même trottinette, 40 km annoncés. | Toi, tu roules en été."
   },
   {
    "id": "s02",
-   "text": "Oui. Mais dans les conditions du test.",
-   "start": 4.902,
-   "end": 7.047,
-   "display": "Oui. | Mais dans les conditions du test."
+   "text": "Ton collègue, en plein hiver. Qui va le plus loin ?",
+   "start": 4.173,
+   "end": 7.729,
+   "display": "Ton collègue, en plein hiver. | Qui va le plus loin ?"
   },
   {
    "id": "s03",
-   "text": "À la fin, tu sauras lire la petite ligne sous ce chiffre.",
-   "start": 7.147,
-   "end": 10.525,
-   "display": "À la fin : la petite ligne | sous ce chiffre."
+   "text": "À la fin, la petite ligne à lire avant d'acheter.",
+   "start": 7.829,
+   "end": 10.456,
+   "display": "À la fin : la petite ligne | à lire avant d'acheter."
   },
   {
    "id": "s04",
    "text": "Exemple : la Naïnbotte F deux D de Ségouè. Jusqu'à quarante kilomètres.",
-   "start": 10.625,
-   "end": 15.088,
+   "start": 10.556,
+   "end": 14.484,
    "display": "Exemple : Segway Ninebot F2 D. | Jusqu'à 40 km."
   },
   {
    "id": "s05",
    "text": "Note du fabricant : batterie pleine, soixante-quinze kilos.",
-   "start": 15.188,
-   "end": 19.546,
+   "start": 14.584,
+   "end": 18.421,
    "display": "Note du fabricant : | batterie pleine, 75 kg."
   },
   {
    "id": "s06",
    "text": "Vingt-cinq degrés, quinze kilomètres-heure de moyenne, sur chaussée.",
-   "start": 19.646,
-   "end": 23.604,
+   "start": 18.521,
+   "end": 22.005,
    "display": "25 °C, 15 km/h de moyenne, | sur chaussée."
   },
   {
    "id": "s07",
    "text": "À fond, vingt kilomètres-heure : jusqu'à trente-six. Toujours à vingt-cinq degrés.",
-   "start": 23.704,
-   "end": 29.06,
+   "start": 22.105,
+   "end": 26.821,
    "display": "À fond, 20 km/h : jusqu'à 36 km. | Toujours à 25 °C."
   },
   {
    "id": "s08",
-   "text": "Toi, en novembre, tu roules à vingt-cinq degrés ?",
-   "start": 29.16,
-   "end": 33.017,
-   "display": "Toi, en novembre, | tu roules à 25 °C ?"
+   "text": "Et ton collègue, en novembre, il roule à vingt-cinq degrés ?",
+   "start": 26.921,
+   "end": 30.112,
+   "display": "Et ton collègue, en novembre, | il roule à 25 °C ?"
   },
   {
    "id": "s09",
    "text": "Ségouè l'écrit : le froid peut réduire l'autonomie. C'est normal.",
-   "start": 33.117,
-   "end": 37.071,
-   "display": "Segway l'écrit : le froid | peut réduire l'autonomie. C'est normal."
+   "start": 30.212,
+   "end": 33.607,
+   "display": "Segway l'écrit : le froid | peut réduire l'autonomie. | C'est normal."
   },
   {
    "id": "s10",
    "text": "Dans un manuel Ségouè : à moins vingt degrés, l'autonomie peut tomber à moitié.",
-   "start": 37.171,
-   "end": 41.955,
+   "start": 33.707,
+   "end": 37.918,
    "display": "Manuel Segway : à −20 °C, | l'autonomie peut tomber à moitié."
   },
   {
    "id": "s11",
    "text": "Et la pente maximale, dix-huit pour cent : avec soixante-quinze kilos.",
-   "start": 42.055,
-   "end": 46.616,
+   "start": 38.018,
+   "end": 42.034,
    "display": "Et la pente max., 18 % : | avec 75 kg."
   },
   {
    "id": "s12",
-   "text": "Avant d'acheter, lis la note sous l'autonomie : poids, vitesse, température.",
-   "start": 46.716,
-   "end": 52.434,
-   "display": "Avant d'acheter, lis la note : | poids, vitesse, température."
+   "text": "Donc, en général, c'est toi, en été, qui vas le plus loin. Avant d'acheter, lis la note : poids, vitesse, température.",
+   "start": 42.134,
+   "end": 49.458,
+   "display": "Donc, en général, c'est toi, en été, | qui vas le plus loin. | Avant d'acheter, lis la note : | poids, vitesse, température."
   },
   {
    "id": "s13",
    "text": "Bonus : stockée sous zéro ? Ségouè dit de la mettre au-dessus de cinq degrés avant de charger.",
-   "start": 52.534,
-   "end": 58.562,
+   "start": 49.558,
+   "end": 54.864,
    "display": "Bonus : stockée sous 0 °C ? | Segway : au-dessus de 5 °C | avant de charger."
   },
   {
    "id": "s14",
    "text": "Ta trottinette fait combien de kilomètres en hiver ? Écris-le en commentaire.",
-   "start": 58.662,
-   "end": 63.532,
+   "start": 54.964,
+   "end": 59.252,
    "display": "Ta trottinette, combien de km | en hiver ? | Écris-le en commentaire."
   },
   {
    "id": "s15",
-   "text": "Et abonne-toi : ce soir, faut-il vraiment préchauffer le four ?",
-   "start": 63.632,
-   "end": 68.299,
-   "display": "Abonne-toi : ce soir, | faut-il vraiment | préchauffer le four ?"
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "start": 59.352,
+   "end": 62.924,
+   "display": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
   }
  ]
 }
