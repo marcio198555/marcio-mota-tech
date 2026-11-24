@@ -1,0 +1,19 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 42,
+ "segments": [
+  {
+   "id": "s12",
+   "text": "Deuxième piège : sur un port plus lent, elle suit le plus lent."
+  },
+  {
+   "id": "s13",
+   "text": "Avant d'acheter, cherche les mégaoctets par seconde, lecture et écriture."
+  }
+ ]
+}
