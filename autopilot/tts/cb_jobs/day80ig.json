@@ -1,0 +1,31 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même trottinette, quarante kilomètres annoncés. Toi, tu roules en été."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, en plein hiver. Qui va le plus loin ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, la petite ligne à lire avant d'acheter."
+  },
+  {
+   "id": "s08",
+   "text": "Et ton collègue, en novembre, il roule à vingt-cinq degrés ?"
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison."
+  }
+ ]
+}

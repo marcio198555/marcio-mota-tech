@@ -1,0 +1,27 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même clé u-èss-bé trois point deux. Toi, tu crois qu'elle va à vingt gigabits."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue lit la fiche. Qui a raison ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, quoi chercher sur la boîte avant d'acheter."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison."
+  }
+ ]
+}
