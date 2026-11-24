@@ -1,0 +1,43 @@
+{
+ "job": "day80ig",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même trottinette, quarante kilomètres annoncés. Toi, tu roules en été.",
+   "file": "s01.wav",
+   "duration": 5.28,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, en plein hiver. Qui va le plus loin ?",
+   "file": "s02.wav",
+   "duration": 4.32,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, la petite ligne à lire avant d'acheter.",
+   "file": "s03.wav",
+   "duration": 4.24,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Et ton collègue, en novembre, il roule à vingt-cinq degrés ?",
+   "file": "s08.wav",
+   "duration": 5.08,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "file": "s15.wav",
+   "duration": 4.44,
+   "rate": 24000
+  }
+ ],
+ "total": 23.36
+}
