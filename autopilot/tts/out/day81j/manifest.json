@@ -1,0 +1,22 @@
+{
+ "job": "day81j",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même clé, u-èss-bé trois point deux. Toi, tu crois qu'elle va à vingt gigabits.",
+   "file": "s01.wav",
+   "duration": 5.44,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue lit la fiche technique. Qui a raison ?",
+   "file": "s02.wav",
+   "duration": 4.4,
+   "rate": 24000
+  }
+ ],
+ "total": 9.84
+}
