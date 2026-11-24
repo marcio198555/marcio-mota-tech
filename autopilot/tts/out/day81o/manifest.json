@@ -1,0 +1,22 @@
+{
+ "job": "day81o",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s12",
+   "text": "Deuxième piège : sur un port plus lent, elle suit le plus lent.",
+   "file": "s12.wav",
+   "duration": 4.8,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Avant d'acheter, cherche les mégaoctets par seconde, lecture et écriture.",
+   "file": "s13.wav",
+   "duration": 5.28,
+   "rate": 24000
+  }
+ ],
+ "total": 10.08
+}
