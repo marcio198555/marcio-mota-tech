@@ -669,3 +669,10 @@ Ce que je change pour les prochains sujets :
 2. « Combien en francs par an » pour un appareil électrique : au plus 1 sujet sur 4, et seulement si le montant final surprend (plus de 50 CHF par an ou un écart de plus de 2 fois).
 3. Toujours un chiffre ou un produit nommé dans s01, duel « Toi… Ton collègue… », 59 à 65 s.
 4. Au bilan du 30.11, juger aussi les 2 Reels du 23.11 (chargeur sans fil, montre « 14 jours », même angle « chiffre de la boîte »).
+
+## 24.11.2026 — Tâche Instagram : Reels 88 et 89 publiés ; réserve 80 et 81
+- Reels d'essai publiés (tâche lancée à 16 h 52, en retard) : 88 (four) et 89 (Spotify Suisse/France).
+- Réserve : les jours 80 (trottinette « 40 km ») et 81 (clé « USB 3.2 »), produits pour TikTok le 19.11 puis annulés, jamais publiés, ont été repris pour Instagram : accroche en duel (s01–s03 refaites), fin Instagram (s15 = prise du jour 95, même phrase), phrase qui répond au duel (80 s12, 81 s10), demandée par le contrôle. En file pour le 29.11 (11:00 et 19:00, appel « abonnement »).
+- Whisper sur la voix montée entière : il a trouvé un bruit « Et écris-tu » à la fin de s13 du jour 81, déjà présent dans la version TikTok contrôlée le 19.11 (reprise s13 avec une autre graine). Toujours faire passer la voix montée complète, pas seulement les phrases refaites.
+- « un virgule six gigabit » : Chatterbox étire « gigabit » devant une nouvelle phrase (« gigabitre ») ou dit « à virgule » ; solution : début de la prise d'origine + fin de la reprise, collés dans un silence (`tts/out/day81s`).
+- Conteneur neuf : les bruitages `/home/claude/studio/sfx` manquaient ; les recréer avec `python3 audio/synth.py sfx /home/claude/studio/sfx` avant `finish.sh`.
