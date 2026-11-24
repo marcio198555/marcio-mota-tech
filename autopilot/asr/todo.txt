@@ -159,3 +159,8 @@ autopilot/vo/day95g_s02.wav
 autopilot/vo/day95g_s11.wav
 autopilot/vo/day95g_s13.wav
 autopilot/vo/day95g_s14.wav
+autopilot/vo/day80ig_s01.wav
+autopilot/vo/day80ig_s02.wav
+autopilot/vo/day80ig_s03.wav
+autopilot/vo/day80ig_s08.wav
+autopilot/vo/day80ig_s15.wav
