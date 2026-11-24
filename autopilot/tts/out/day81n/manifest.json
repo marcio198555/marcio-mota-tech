@@ -1,0 +1,15 @@
+{
+ "job": "day81n",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s10",
+   "text": "Fois huit : un virgule six gigabit. Ton collègue a raison : sur cette clé, cinq maximum, pas vingt.",
+   "file": "s10.wav",
+   "duration": 7.08,
+   "rate": 24000
+  }
+ ],
+ "total": 7.08
+}
