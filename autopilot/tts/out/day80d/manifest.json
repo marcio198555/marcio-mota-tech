@@ -1,0 +1,15 @@
+{
+ "job": "day80d",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s12",
+   "text": "Donc, en général, c'est toi, en été, qui vas le plus loin. Avant d'acheter, lis la note : poids, vitesse, température.",
+   "file": "s12.wav",
+   "duration": 9.12,
+   "rate": 24000
+  }
+ ],
+ "total": 9.12
+}
