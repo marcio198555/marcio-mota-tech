@@ -1,109 +1,109 @@
 {
- "duration": 63.249,
+ "duration": 63.259,
  "segments": [
   {
    "id": "s01",
-   "text": "Même Billy d'Ikéa. Toi, tu l'achètes en Suisse.",
+   "text": "Même Bili d'Ikéa. Toi, tu l'achètes en Suisse.",
    "start": 0.12,
-   "end": 3.634,
+   "end": 3.913,
    "display": "Même BILLY d'IKEA. | Toi, tu l'achètes en Suisse."
   },
   {
    "id": "s02",
    "text": "Ton collègue, en France. Qui paie le moins ?",
-   "start": 3.734,
-   "end": 5.872,
+   "start": 4.013,
+   "end": 6.141,
    "display": "Ton collègue, en France. | Qui paie le moins ?"
   },
   {
    "id": "s03",
    "text": "À la fin : la quatrième étagère, celle qui fait fondre l'écart.",
-   "start": 5.972,
-   "end": 9.736,
+   "start": 6.241,
+   "end": 9.985,
    "display": "À la fin : la quatrième étagère, | celle qui fait fondre l'écart."
   },
   {
    "id": "s04",
    "text": "Site suisse : cinquante-neuf francs nonante-cinq.",
-   "start": 9.836,
-   "end": 12.639,
+   "start": 10.085,
+   "end": 12.873,
    "display": "Site suisse : | 59.95 francs."
   },
   {
    "id": "s05",
    "text": "Site français : cinquante-neuf euros nonante-neuf. Presque le même chiffre.",
-   "start": 12.739,
-   "end": 17.578,
+   "start": 12.973,
+   "end": 17.788,
    "display": "Site français : 59,99 euros. | Presque le même chiffre."
   },
   {
    "id": "s06",
    "text": "Mais au cours de la Banque nationale, ça fait cinquante-cinq francs dix-sept.",
-   "start": 17.678,
-   "end": 22.178,
+   "start": 17.888,
+   "end": 22.364,
    "display": "Mais au cours | de la Banque nationale : | 55.17 francs."
   },
   {
    "id": "s07",
    "text": "Ton collègue gagne déjà quatre francs septante-huit.",
-   "start": 22.278,
-   "end": 25.206,
+   "start": 22.464,
+   "end": 25.378,
    "display": "Ton collègue gagne déjà | 4.78 francs."
   },
   {
    "id": "s08",
    "text": "Et à la frontière ? Pas de taxe suisse jusqu'à cent cinquante francs, par personne et par jour.",
-   "start": 25.306,
-   "end": 30.618,
+   "start": 25.478,
+   "end": 30.762,
    "display": "Et à la frontière ? | Pas de TVA suisse jusqu'à 150 francs, | par personne et par jour."
   },
   {
    "id": "s09",
    "text": "Le prix compte sans la taxe française. Alors il en prend trois : il gagne quatorze francs trente-trois.",
-   "start": 30.718,
-   "end": 36.935,
+   "start": 30.862,
+   "end": 37.047,
    "display": "Le prix compte sans la TVA française. | Alors il en prend trois : | il gagne 14.33 francs."
   },
   {
    "id": "s10",
    "text": "Puis il en prend une quatrième, pour finir le mur.",
-   "start": 37.035,
-   "end": 39.543,
+   "start": 37.147,
+   "end": 39.643,
    "display": "Puis il en prend une quatrième, | pour finir le mur."
   },
   {
    "id": "s11",
    "text": "Là, il dépasse cent cinquante francs : huit virgule un pour cent de taxe suisse sur le tout. Quatorze francs nonante.",
-   "start": 39.643,
-   "end": 46.07,
+   "start": 39.743,
+   "end": 46.136,
    "display": "Là, il dépasse 150 francs : | 8,1 % de TVA suisse sur le tout. | 14.90 francs."
   },
   {
    "id": "s12",
    "text": "Tes étagères, tu les achètes où ? Écris-le en commentaire.",
-   "start": 46.17,
-   "end": 49.935,
+   "start": 46.236,
+   "end": 49.982,
    "display": "Tes étagères, tu les achètes où ? | Écris-le en commentaire."
   },
   {
    "id": "s13",
-   "text": "Quatre Billy : toi, presque deux cent quarante francs. Ton collègue, deux cent trente-cinq francs cinquante-neuf.",
-   "start": 50.035,
-   "end": 55.632,
+   "text": "Quatre Bili : toi, presque deux cent quarante francs. Ton collègue, deux cent trente-cinq francs cinquante-neuf.",
+   "start": 50.082,
+   "end": 55.679,
    "display": "Quatre BILLY : toi, presque 240. | Ton collègue, 235.59."
   },
   {
    "id": "s14",
    "text": "L'écart tombe à quatre francs vingt et un. Moins qu'avec une seule étagère.",
-   "start": 55.732,
-   "end": 59.317,
+   "start": 55.779,
+   "end": 59.346,
    "display": "L'écart tombe à 4.21 francs. | Moins qu'avec une seule étagère."
   },
   {
    "id": "s15",
    "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
-   "start": 59.417,
-   "end": 62.949,
+   "start": 59.446,
+   "end": 62.959,
    "display": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
   }
  ]

@@ -193,3 +193,5 @@ autopilot/vo/day96_vo.wav
 autopilot/vo/day97_vo.wav
 autopilot/vo/day96_vo2.wav
 autopilot/vo/day97_vo2.wav
+autopilot/vo/day96_vo3.wav
+autopilot/vo/day97_vo3.wav
