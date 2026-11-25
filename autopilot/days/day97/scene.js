@@ -89,14 +89,14 @@
         duel(ctx, t, { ga: 0.4, gb: 1 });
         big(ctx, '400', 275, 1000, t, S('s06'), { size: 110, color: A }); big(ctx, '1000', 725, 1000, t, S('s06') + 0.25, { size: 110, color: B });
         tag(ctx, 'cd/m² (MINIMUM)', 500, 1110, t, S('s06') + 0.3, { size: 36 });
-        stamp(ctx, '× 2,5', 500, 330, t, f('s06', 0.6), { size: 90, color: GOLD });
+        stamp(ctx, '× 2,5', 500, 1200, t, f('s06', 0.6), { size: 90, color: GOLD });
       });
       block(ctx, t, S('s07'), S('s08'), () => {
         CHR.emo(ctx, 'light_bulb', 330, 650, 220, t, S('s07'));
         pop(ctx, t, f('s07', 0.5), 680, 650, () => { ctx.beginPath(); ctx.arc(0, 0, 120, 0, 7); ctx.fillStyle = '#000'; ctx.fill(); ctx.lineWidth = 6; ctx.strokeStyle = '#555c6b'; ctx.stroke(); });
         line(ctx, 'LUMIÈRE', 330, 880, t, S('s07') + 0.2, { size: 56, weight: 900, color: GOLD, dx: 0 });
         line(ctx, 'NOIR', 680, 880, t, f('s07', 0.55), { size: 56, weight: 900, color: WHITE, dx: 0 });
-        big(ctx, '50 / 50', 500, 1050, t, f('s07', 0.6), { size: 100, color: WHITE });
+        big(ctx, '+', 505, 650, t, f('s07', 0.4), { size: 120, color: WHITE });
       });
       block(ctx, t, S('s08'), S('s09'), () => {
         tag(ctx, 'TEST OFFICIEL DU NOIR', 500, 420, t, S('s08'), { size: 44, color: GOLD });
@@ -114,19 +114,19 @@
         stamp(ctx, '× 8 PLUS SOMBRE', 500, 1000, t, S('s10') + 0.1, { size: 72, color: GREEN });
       });
       block(ctx, t, S('s11'), S('s12'), () => {
-        tag(ctx, 'HDR 1000 : GRADATION LOCALE EXIGÉE', 500, 420, t, S('s11'), { size: 38, color: B });
+        tag(ctx, 'HDR 1000 : GRADATION LOCALE 2D (OU MIEUX)', 500, 420, t, S('s11'), { size: 38, color: B });
         monitor(ctx, 500, 730, 760, t, { border: B, zones: true });
         tag(ctx, 'SCHÉMA', 500, 1080, t, f('s11', 0.3), { size: 34 });
       });
-      block(ctx, t, S('s12'), S('s13'), () => { comment(ctx, t, S('s12'), ['Ton écran,', 'il a quel logo HDR ?', '400 · 600 · 1000 ?'], { color: GOLD, size: 60 }); });
+      block(ctx, t, S('s12'), S('s13'), () => { comment(ctx, t, S('s12'), ['Ton écran,', 'il a quel logo HDR ?', '400 ? 1000 ?'], { color: GOLD, size: 60 }); });
       block(ctx, t, S('s13'), S('s14'), () => {
         tag(ctx, 'CONTRASTE MINIMUM, MÊME IMAGE', 500, 420, t, S('s13'), { size: 40, color: GOLD });
         KIT.duelFrame(ctx, { y0: 500, y1: 1150 });
         const ka = ease.out(prog(t, S('s13') + 0.3, 0.6)), kb = ease.out(prog(t, f('s13', 0.5), 0.9));
-        roundRect(ctx, 215, 1080 - 30 * ka, 120, 30 * ka + 4, 10); ctx.fillStyle = A; ctx.fill();
-        roundRect(ctx, 665, 1080 - 460 * kb, 120, 460 * kb + 4, 10); ctx.fillStyle = B; ctx.fill();
+        roundRect(ctx, 215, 1080 - 18 * ka, 120, 18 * ka + 4, 10); ctx.fillStyle = A; ctx.fill();
+        roundRect(ctx, 665, 1080 - 415 * kb, 120, 415 * kb + 4, 10); ctx.fillStyle = B; ctx.fill();
         line(ctx, '1300 : 1', 275, 980, t, S('s13') + 0.4, { size: 58, family: F.mono, weight: 900, color: A, dx: 0 });
-        line(ctx, '30 000 : 1', 725, 570, t, f('s13', 0.6), { size: 58, family: F.mono, weight: 900, color: B, dx: 0 });
+        line(ctx, '30 000 : 1', 725, 620, t, f('s13', 0.6), { size: 58, family: F.mono, weight: 900, color: B, dx: 0 });
       });
       block(ctx, t, S('s14'), S('s15'), () => {
         big(ctx, '× 23', 500, 640, t, S('s14'), { size: 220, color: GREEN });

@@ -1,0 +1,110 @@
+{
+ "duration": 63.277,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Écran ache-dé-erre quatre cents. Toi, tu le prends pour tes films.",
+   "start": 0.12,
+   "end": 3.851,
+   "display": "Écran HDR 400. | Toi, tu le prends pour tes films."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue prend le ache-dé-erre mille. Combien de fois mieux, vraiment ?",
+   "start": 3.951,
+   "end": 8.428,
+   "display": "Ton collègue prend le HDR 1000. | Combien de fois mieux, vraiment ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, le chiffre que le logo ne t'écrit pas.",
+   "start": 8.528,
+   "end": 11.005,
+   "display": "À la fin : le chiffre | que le logo ne t'écrit pas."
+  },
+  {
+   "id": "s04",
+   "text": "Ces logos viennent d'un label officiel de Vésa, qui fixe des normes pour les écrans.",
+   "start": 11.105,
+   "end": 15.554,
+   "display": "Ces logos viennent d'un label officiel de VESA, | qui fixe des normes pour les écrans."
+  },
+  {
+   "id": "s05",
+   "text": "Le chiffre, c'est la lumière maximale, sur un petit carré au centre de l'écran.",
+   "start": 15.654,
+   "end": 19.899,
+   "display": "Le chiffre : la lumière maximale, | sur un petit carré | au centre de l'écran."
+  },
+  {
+   "id": "s06",
+   "text": "Quatre cents, contre mille candelas par mètre carré. Deux fois et demie plus.",
+   "start": 19.999,
+   "end": 23.854,
+   "display": "400 contre 1000 cd/m². | Deux fois et demie plus."
+  },
+  {
+   "id": "s07",
+   "text": "Mais le ache-dé-erre, ce n'est pas que la lumière. Il y a aussi le noir.",
+   "start": 23.954,
+   "end": 27.673,
+   "display": "Mais le HDR, | ce n'est pas que la lumière. | Il y a aussi le noir."
+  },
+  {
+   "id": "s08",
+   "text": "Le test officiel : deux coins tout blancs, et on mesure le noir au milieu.",
+   "start": 27.773,
+   "end": 32.436,
+   "display": "Le test officiel : | deux coins tout blancs, | et on mesure le noir au milieu."
+  },
+  {
+   "id": "s09",
+   "text": "ache-dé-erre quatre cents : zéro virgule quatre au maximum. ache-dé-erre mille : zéro virgule zéro cinq.",
+   "start": 32.536,
+   "end": 39.678,
+   "display": "HDR 400 : 0,4 au maximum. | HDR 1000 : 0,05."
+  },
+  {
+   "id": "s10",
+   "text": "Un noir huit fois plus sombre.",
+   "start": 39.778,
+   "end": 41.99,
+   "display": "Un noir | huit fois plus sombre."
+  },
+  {
+   "id": "s11",
+   "text": "Le label mille exige une gradation locale en deux dimensions, ou mieux.",
+   "start": 42.09,
+   "end": 46.785,
+   "display": "Le label 1000 exige | une gradation locale en deux dimensions, | ou mieux."
+  },
+  {
+   "id": "s12",
+   "text": "Ton écran, il a quel logo ache-dé-erre ? Écris-le en commentaire.",
+   "start": 46.885,
+   "end": 51.47,
+   "display": "Ton écran, il a quel logo HDR ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Sur une même image, le contraste minimum passe de mille trois cents pour un, à trente mille pour un.",
+   "start": 51.57,
+   "end": 57.026,
+   "display": "Sur une même image, contraste minimum : | de 1300 : 1 | à 30 000 : 1."
+  },
+  {
+   "id": "s14",
+   "text": "Vingt-trois fois plus. Pas deux fois et demie.",
+   "start": 57.126,
+   "end": 59.352,
+   "display": "23 fois plus. | Pas deux fois et demie."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "start": 59.452,
+   "end": 62.977,
+   "display": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
+  }
+ ]
+}

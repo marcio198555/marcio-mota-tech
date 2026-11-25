@@ -3,21 +3,21 @@
   "s01": "Écran HDR 400. | Toi, tu le prends pour tes films.",
   "s02": "Ton collègue prend le HDR 1000. | Combien de fois mieux, vraiment ?",
   "s03": "À la fin : le chiffre | que le logo ne t'écrit pas.",
-  "s04": "Ces logos : un label officiel de VESA, | qui fixe des normes pour les écrans.",
+  "s04": "Ces logos viennent d'un label officiel de VESA, | qui fixe des normes pour les écrans.",
   "s05": "Le chiffre : la lumière maximale, | sur un petit carré | au centre de l'écran.",
   "s06": "400 contre 1000 cd/m². | Deux fois et demie plus.",
-  "s07": "Mais la lumière, | c'est la moitié du HDR. | L'autre moitié, c'est le noir.",
+  "s07": "Mais le HDR, | ce n'est pas que la lumière. | Il y a aussi le noir.",
   "s08": "Le test officiel : | deux coins tout blancs, | et on mesure le noir au milieu.",
   "s09": "HDR 400 : 0,4 au maximum. | HDR 1000 : 0,05.",
   "s10": "Un noir | huit fois plus sombre.",
-  "s11": "Pour ça, le label 1000 exige | que l'écran éteigne sa lumière par zones, | là où l'image est noire.",
+  "s11": "Le label 1000 exige | une gradation locale en deux dimensions, | ou mieux.",
   "s12": "Ton écran, il a quel logo HDR ? | Écris-le en commentaire.",
-  "s13": "Sur une même image, contraste minimum : | 1300 : 1, | contre 30 000 : 1.",
+  "s13": "Sur une même image, contraste minimum : | de 1300 : 1 | à 30 000 : 1.",
   "s14": "23 fois plus. | Pas deux fois et demie.",
   "s15": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
  },
  "title": "Écran HDR 400 ou HDR 1000 : combien de fois mieux ?",
  "slug": "hdr400-hdr1000",
  "format": "V",
- "reel_caption": "Écran HDR 400 ou HDR 1000 : 2,5 fois plus de lumière, mais 23 fois plus de contraste minimum\n\nSelon les critères officiels du label VESA DisplayHDR (version 1.2, mai 2024) : un petit carré central doit atteindre au moins 400 cd/m² en HDR 400 et 1000 cd/m² en HDR 1000. Au test des deux coins blancs, le noir au centre ne doit pas dépasser 0,4 cd/m² en HDR 400 et 0,05 cd/m² en HDR 1000.\n\nContraste minimum sur une même image : 1 300 : 1 contre 30 000 : 1, et le HDR 1000 exige une gradation locale en deux dimensions. Ce sont des minimums : un écran certifié peut faire mieux, et un écran certifié avant 2024 a passé les anciens critères.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui choisit un écran pour le Black Friday.\n\n#ecranhdr #moniteur #gamer #suisseromande #jemesuretout"
+ "reel_caption": "Écran HDR 400 ou HDR 1000 : 2,5 fois plus de lumière, mais regarde le contraste minimum\n\nSelon les critères officiels du label VESA DisplayHDR (version 1.2, mai 2024) : un petit carré central doit atteindre au moins 400 cd/m² en HDR 400 et 1000 cd/m² en HDR 1000. Au test des deux coins blancs, le noir au centre ne doit pas dépasser 0,4 cd/m² en HDR 400 et 0,05 cd/m² en HDR 1000.\n\nContraste minimum sur une même image : 1 300 : 1 contre 30 000 : 1, et le HDR 1000 exige une gradation locale en deux dimensions. Ce sont des minimums : un écran certifié peut faire mieux, et un écran certifié avant 2024 a passé les anciens critères.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui choisit un écran pour le Black Friday.\n\n#ecranhdr #moniteur #gamer #suisseromande #jemesuretout"
 }

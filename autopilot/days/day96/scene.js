@@ -75,8 +75,8 @@
       block(ctx, t, S('s03'), S('s04'), () => {
         tag(ctx, 'À LA FIN', 500, 430, t, S('s03'), { size: 46, color: GOLD });
         wall(ctx, 500, 760, 4, 0.7, t, S('s03') + 0.1);
-        ctx.save(); ctx.globalAlpha *= clamp((t - f('s03', 0.5)) * 3); ctx.strokeStyle = RED; ctx.lineWidth = 10; ctx.beginPath(); ctx.arc(500 + 1.5 * 170 * 0.7, 760, 175, 0, 7); ctx.stroke(); ctx.restore();
-        big(ctx, "L'ÉTAGÈRE DE TROP", 500, 1070, t, f('s03', 0.35), { size: 80, family: F.display, color: GOLD });
+        ctx.save(); ctx.globalAlpha *= clamp((t - f('s03', 0.5)) * 3); ctx.strokeStyle = RED; ctx.lineWidth = 10; ctx.beginPath(); ctx.arc(500 + 1.5 * 170 * 0.7, 760, 92, 0, 7); ctx.stroke(); ctx.restore();
+        big(ctx, 'LA 4e ÉTAGÈRE', 500, 1070, t, f('s03', 0.35), { size: 80, family: F.display, color: GOLD });
       });
       block(ctx, t, S('s04'), S('s05'), () => {
         flagCH(ctx, 500, 405, 130); shelf(ctx, 500, 770, 0.95, t);
@@ -105,9 +105,9 @@
         line(ctx, 'PAR PERSONNE ET PAR JOUR', 500, 1000, t, f('s08', 0.6), { size: 50, weight: 900, color: WHITE, dx: 0 });
       });
       block(ctx, t, S('s09'), S('s10'), () => {
-        line(ctx, 'SANS TVA FRANÇAISE (20 %)', 500, 400, t, S('s09'), { size: 46, weight: 900, color: '#c9d2e3', dx: 0 });
+        line(ctx, 'VALEUR SANS TVA FRANÇAISE (20 %)', 500, 400, t, S('s09'), { size: 44, weight: 900, color: '#c9d2e3', dx: 0 });
         wall(ctx, 500, 680, 3, 0.62, t, f('s09', 0.3));
-        line(ctx, '3 × 49,99 € × 0,9197 = 137.93', 500, 920, t, f('s09', 0.45), { size: 44, family: F.mono, weight: 700, color: WHITE, dx: 0 });
+        line(ctx, '3 × 59,99 € / 1,2 × 0,9197 = 137.93', 500, 920, t, f('s09', 0.45), { size: 42, family: F.mono, weight: 700, color: WHITE, dx: 0 });
         stamp(ctx, '< 150 CHF', 500, 1020, t, f('s09', 0.55), { size: 52, color: GREEN }); big(ctx, '− 14.33 CHF', 500, 1150, t, f('s09', 0.75), { size: 90, color: GREEN });
       });
       block(ctx, t, S('s10'), S('s11'), () => {
@@ -115,7 +115,7 @@
         stamp(ctx, '+ 1', 500 + 1.5 * 170 * 0.62, 470, t, f('s10', 0.3), { size: 80, color: GOLD });
       });
       block(ctx, t, S('s11'), S('s12'), () => {
-        line(ctx, '4 × 49,99 € × 0,9197 = 183.91', 500, 420, t, S('s11'), { size: 44, family: F.mono, weight: 700, color: '#c9d2e3', dx: 0 });
+        line(ctx, '4 × 59,99 € / 1,2 × 0,9197 = 183.91', 500, 420, t, S('s11'), { size: 42, family: F.mono, weight: 700, color: '#c9d2e3', dx: 0 });
         stamp(ctx, '> 150 CHF', 500, 560, t, S('s11') + 0.3, { size: 70, color: RED });
         CHR.emo(ctx, 'warning', 500, 740, 180, t, f('s11', 0.35));
         line(ctx, '183.91 × 8,1 %', 500, 900, t, f('s11', 0.5), { size: 66, family: F.mono, weight: 700, dx: 0 });
@@ -126,15 +126,15 @@
         split(ctx);
         tag(ctx, '4 BILLY', 500, 700, t, S('s13'), { size: 44, color: GOLD });
         price(ctx, '239.80', 275, 900, t, S('s13'), CH, { w: 200, size: 84 }); price(ctx, '235.59', 725, 900, t, f('s13', 0.45), FR, { w: 200, size: 84 });
-        tag(ctx, 'TVA SUISSE COMPRISE', 725, 1040, t, f('s13', 0.55), { size: 32 });
+        tag(ctx, 'TVA SUISSE COMPRISE', 725, 1040, t, f('s13', 0.55), { size: 36 });
       });
       block(ctx, t, S('s14'), S('s15'), () => {
         tag(ctx, '4 ÉTAGÈRES', 500, 420, t, S('s14'), { size: 42, color: GOLD });
         big(ctx, '4.21 CHF', 500, 620, t, f('s14', 0.2), { size: 150, color: GREEN });
         line(ctx, "D'ÉCART SEULEMENT", 500, 790, t, f('s14', 0.35), { size: 62, weight: 900, dx: 0 });
-        line(ctx, '1 étagère : 4.78 · 3 étagères : 14.33', 500, 900, t, f('s14', 0.55), { size: 42, family: F.mono, weight: 700, color: '#c9d2e3', dx: 0 });
-        tag(ctx, 'EXEMPLE DE CALCUL', 500, 1010, t, f('s14', 0.6), { size: 36 });
-        tag(ctx, 'SANS AUTRE ACHAT CE JOUR-LÀ', 500, 1075, t, f('s14', 0.6), { size: 36 });
+        line(ctx, '1 étagère : 4.78 · 3 étagères : 14.33', 500, 900, t, f('s14', 0.55), { size: 46, family: F.mono, weight: 700, color: '#c9d2e3', dx: 0 });
+        tag(ctx, 'EXEMPLE DE CALCUL', 500, 1020, t, f('s14', 0.6), { size: 42 });
+        tag(ctx, 'SANS AUTRE ACHAT CE JOUR-LÀ', 500, 1095, t, f('s14', 0.6), { size: 42 });
       });
       block(ctx, t, S('s15'), END + 1, () => igEnd(ctx, t, S('s15')));
       brand(ctx, t);
