@@ -1,0 +1,22 @@
+{
+ "job": "day96c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même Bili d'Ikéa. Toi, tu l'achètes en Suisse.",
+   "file": "s01.wav",
+   "duration": 4.52,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Quatre Bili : toi, presque deux cent quarante francs. Ton collègue, deux cent trente-cinq francs cinquante-neuf.",
+   "file": "s13.wav",
+   "duration": 6.96,
+   "rate": 24000
+  }
+ ],
+ "total": 11.48
+}
