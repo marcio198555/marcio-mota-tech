@@ -88,8 +88,8 @@
       block(ctx, t, S('s06'), S('s07'), () => {
         duel(ctx, t, { ga: 0.4, gb: 1 });
         big(ctx, '400', 275, 1000, t, S('s06'), { size: 110, color: A }); big(ctx, '1000', 725, 1000, t, S('s06') + 0.25, { size: 110, color: B });
-        tag(ctx, 'cd/m² (MINIMUM)', 500, 1110, t, S('s06') + 0.3, { size: 36 });
-        stamp(ctx, '× 2,5', 500, 1200, t, f('s06', 0.6), { size: 90, color: GOLD });
+        tag(ctx, 'cd/m² (MINIMUM)', 500, 1085, t, S('s06') + 0.3, { size: 36 });
+        stamp(ctx, '× 2,5', 500, 1215, t, f('s06', 0.6), { size: 90, color: GOLD });
       });
       block(ctx, t, S('s07'), S('s08'), () => {
         CHR.emo(ctx, 'light_bulb', 330, 650, 220, t, S('s07'));
@@ -114,7 +114,7 @@
         stamp(ctx, '× 8 PLUS SOMBRE', 500, 1000, t, S('s10') + 0.1, { size: 72, color: GREEN });
       });
       block(ctx, t, S('s11'), S('s12'), () => {
-        tag(ctx, 'HDR 1000 : GRADATION LOCALE 2D (OU MIEUX)', 500, 420, t, S('s11'), { size: 38, color: B });
+        tag(ctx, 'HDR 1000 : GRADATION LOCALE 2D', 500, 420, t, S('s11'), { size: 38, color: B });
         monitor(ctx, 500, 730, 760, t, { border: B, zones: true });
         tag(ctx, 'SCHÉMA', 500, 1080, t, f('s11', 0.3), { size: 34 });
       });
