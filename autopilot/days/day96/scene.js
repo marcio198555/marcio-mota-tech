@@ -107,8 +107,8 @@
       block(ctx, t, S('s09'), S('s10'), () => {
         line(ctx, 'SANS TVA FRANÇAISE (20 %)', 500, 400, t, S('s09'), { size: 46, weight: 900, color: '#c9d2e3', dx: 0 });
         wall(ctx, 500, 680, 3, 0.62, t, f('s09', 0.3));
-        line(ctx, '3 × 49,99 € × 0,9197 = 137.93', 500, 960, t, f('s09', 0.45), { size: 44, family: F.mono, weight: 700, color: WHITE, dx: 0 });
-        stamp(ctx, '< 150 · − 14.33 CHF', 500, 1080, t, f('s09', 0.65), { size: 58, color: GREEN });
+        line(ctx, '3 × 49,99 € × 0,9197 = 137.93', 500, 920, t, f('s09', 0.45), { size: 44, family: F.mono, weight: 700, color: WHITE, dx: 0 });
+        stamp(ctx, '< 150 CHF', 500, 1020, t, f('s09', 0.55), { size: 52, color: GREEN }); big(ctx, '− 14.33 CHF', 500, 1150, t, f('s09', 0.75), { size: 90, color: GREEN });
       });
       block(ctx, t, S('s10'), S('s11'), () => {
         wall(ctx, 500, 760, 4, 0.62, t, S('s10') - 0.9);

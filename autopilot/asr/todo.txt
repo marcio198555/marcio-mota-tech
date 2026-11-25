@@ -189,3 +189,5 @@ autopilot/vo/day81q_s10.wav
 autopilot/vo/day81r_s10.wav
 autopilot/vo/day81s_s10.wav
 autopilot/vo/day81_voig2.wav
+autopilot/vo/day96_vo.wav
+autopilot/vo/day97_vo.wav

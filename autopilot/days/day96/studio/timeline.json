@@ -1,0 +1,110 @@
+{
+ "duration": 63.227,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même Billy d'Ikéa. Toi, tu l'achètes en Suisse.",
+   "start": 0.12,
+   "end": 3.634,
+   "display": "Même BILLY d'IKEA. | Toi, tu l'achètes en Suisse."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, en France. Qui paie le moins ?",
+   "start": 3.734,
+   "end": 5.872,
+   "display": "Ton collègue, en France. | Qui paie le moins ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin : l'étagère de trop, celle qui fait fondre l'écart.",
+   "start": 5.972,
+   "end": 10.151,
+   "display": "À la fin : l'étagère de trop, | celle qui fait fondre l'écart."
+  },
+  {
+   "id": "s04",
+   "text": "Site suisse : cinquante-neuf francs nonante-cinq.",
+   "start": 10.251,
+   "end": 13.054,
+   "display": "Site suisse : | 59.95 francs."
+  },
+  {
+   "id": "s05",
+   "text": "Site français : cinquante-neuf euros nonante-neuf. Presque le même chiffre.",
+   "start": 13.154,
+   "end": 17.993,
+   "display": "Site français : 59,99 euros. | Presque le même chiffre."
+  },
+  {
+   "id": "s06",
+   "text": "Mais au cours de la Banque nationale, ça fait cinquante-cinq francs dix-sept.",
+   "start": 18.093,
+   "end": 22.593,
+   "display": "Mais au cours | de la Banque nationale : | 55.17 francs."
+  },
+  {
+   "id": "s07",
+   "text": "Ton collègue gagne déjà quatre francs septante-huit.",
+   "start": 22.693,
+   "end": 25.621,
+   "display": "Ton collègue gagne déjà | 4.78 francs."
+  },
+  {
+   "id": "s08",
+   "text": "Et à la frontière ? Pas de taxe suisse jusqu'à cent cinquante francs, par personne et par jour.",
+   "start": 25.721,
+   "end": 31.033,
+   "display": "Et à la frontière ? | Pas de TVA suisse jusqu'à 150 francs, | par personne et par jour."
+  },
+  {
+   "id": "s09",
+   "text": "Le prix compte sans la taxe française. Alors il en prend trois : il gagne quatorze francs trente-trois.",
+   "start": 31.133,
+   "end": 37.35,
+   "display": "Le prix compte sans la TVA française. | Alors il en prend trois : | il gagne 14.33 francs."
+  },
+  {
+   "id": "s10",
+   "text": "Puis il en prend une quatrième, pour finir le mur.",
+   "start": 37.45,
+   "end": 39.958,
+   "display": "Puis il en prend une quatrième, | pour finir le mur."
+  },
+  {
+   "id": "s11",
+   "text": "Là, il dépasse cent cinquante francs : huit virgule un pour cent de taxe suisse sur le tout. Quatorze francs nonante.",
+   "start": 40.058,
+   "end": 46.485,
+   "display": "Là, il dépasse 150 francs : | 8,1 % de TVA suisse sur le tout. | 14.90 francs."
+  },
+  {
+   "id": "s12",
+   "text": "Tes étagères, tu les achètes où ? Écris-le en commentaire.",
+   "start": 46.585,
+   "end": 50.35,
+   "display": "Tes étagères, tu les achètes où ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Quatre Billy : toi, presque deux cent quarante francs. Ton collègue, deux cent trente-cinq francs soixante.",
+   "start": 50.45,
+   "end": 55.61,
+   "display": "Quatre BILLY : toi, presque 240. | Ton collègue, 235.60."
+  },
+  {
+   "id": "s14",
+   "text": "L'écart tombe à quatre francs vingt et un. Moins qu'avec une seule étagère.",
+   "start": 55.71,
+   "end": 59.295,
+   "display": "L'écart tombe à 4.21 francs. | Moins qu'avec une seule étagère."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "start": 59.395,
+   "end": 62.927,
+   "display": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
+  }
+ ]
+}
