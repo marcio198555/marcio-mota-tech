@@ -42,15 +42,15 @@
 {"to": "hello@loculdesign.com", "id": "BOUNCE"}
 {"to": "info@karoohandgemaak.com", "id": "BOUNCE"}
 {"to": "sales@smallindulgences.net", "id": "BOUNCE"}
-{"domain": "ikawacoffee.com", "reason": "bounce", "date": "2026-11-25"}
-{"domain": "enovis.com", "reason": "bounce", "date": "2026-11-25"}
-{"domain": "petcube.com", "reason": "bounce", "date": "2026-11-25"}
-{"domain": "pgw.tw", "reason": "bounce", "date": "2026-11-25"}
-{"domain": "suunto.com", "reason": "bounce", "date": "2026-11-25"}
-{"domain": "mobvoi.com", "reason": "bounce", "date": "2026-11-25"}
-{"domain": "puressentiel.com", "reason": "bounce", "date": "2026-11-25"}
-{"domain": "sodastream.com", "reason": "bounce", "date": "2026-11-25"}
-{"domain": "lexon-design.com", "reason": "bounce", "date": "2026-11-25"}
-{"domain": "lampeberger.fr", "reason": "bounce", "date": "2026-11-25"}
-{"domain": "avermedia.com", "reason": "bounce", "date": "2026-11-25"}
-{"domain": "geberit.com", "reason": "bounce", "date": "2026-11-25"}
+{"to": "hereforyou@ikawacoffee.com", "id": "BOUNCE"}
+{"to": "ukenquiries@enovis.com", "id": "BOUNCE"}
+{"to": "hellosocials@petcube.com", "id": "BOUNCE"}
+{"to": "supportducky@pgw.tw", "id": "BOUNCE"}
+{"to": "alexandradirito@suunto.com", "id": "BOUNCE"}
+{"to": "rongrongzhao@mobvoi.com", "id": "BOUNCE"}
+{"to": "aletouze@puressentiel.com", "id": "BOUNCE"}
+{"to": "socialcareusa@sodastream.com", "id": "BOUNCE"}
+{"to": "acorlay@lexon-design.com", "id": "BOUNCE"}
+{"to": "erault@lampeberger.fr", "id": "BOUNCE"}
+{"to": "gamerzone@avermedia.com", "id": "BOUNCE"}
+{"to": "salesde@geberit.com", "id": "BOUNCE"}
