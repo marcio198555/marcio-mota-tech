@@ -647,6 +647,26 @@
    "caption": "Clé USB 3.2 : peut-être 5 Gbit/s seulement, pas 20\n\nSelon l'USB-IF, l'organisme de la norme, USB 3.2 regroupe trois débits : Gen 1 = 5 Gbit/s, Gen 2 = 10 Gbit/s, Gen 2x2 = 20 Gbit/s. Il écrit aussi que le nom « USB 3.2 » n'est pas fait pour les emballages.\n\nExemple : la Kingston DataTraveler Kyson est en USB 3.2 Gen 1. Sa fiche annonce jusqu'à 200 Mo/s en lecture (1,6 Gbit/s) et jusqu'à 60 Mo/s en écriture dès 128 Go.\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#cleusb #usb #astucetech #suisseromande #jemesuretout",
    "statut": "en attente",
    "cta": "abonnement"
+  },
+  {
+   "id": "day96",
+   "prevu": "2026-11-30T11:00",
+   "source": "autopilot jour 96",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795605358/tiktok-autopilot/reels/day96_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "BILLY d'IKEA en Suisse ou en France : qui paie le moins, et pourquoi la quatrième étagère change tout\n\nSites officiels IKEA, prix relevés le 25.11.2026 : bibliothèque BILLY blanche 80x28x202 cm à 59.95 CHF en Suisse et à 59,99 € en France, soit 55.17 CHF (BNS, 24.11.2026 : 1 € = 0,9197 CHF). Mêmes dimensions, mêmes matériaux, 1 tablette fixe et 4 réglables sur les deux sites.\n\nSelon l'OFDF, pas de TVA suisse jusqu'à 150 francs par personne et par jour, valeur comptée sans la TVA française. Trois étagères : valeur 137.93 CHF, écart 14.33 CHF. Quatre : valeur 183.91 CHF, donc 8,1 % sur le tout (14.90 CHF) et l'écart tombe à 4.21 CHF. Exemple de calcul, sans autre achat ce jour-là, pas un conseil fiscal.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui veut remplir tout un mur d'étagères.\n\n#ikea #etagere #achatfrontiere #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "cta": "envoi"
+  },
+  {
+   "id": "day97",
+   "prevu": "2026-11-30T19:00",
+   "source": "autopilot jour 97",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795605362/tiktok-autopilot/reels/day97_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Écran HDR 400 ou HDR 1000 : 2,5 fois plus de lumière, mais regarde le contraste minimum\n\nSelon les critères officiels du label VESA DisplayHDR (version 1.2, mai 2024) : un petit carré central doit atteindre au moins 400 cd/m² en HDR 400 et 1000 cd/m² en HDR 1000. Au test des deux coins blancs, le noir au centre ne doit pas dépasser 0,4 cd/m² en HDR 400 et 0,05 cd/m² en HDR 1000.\n\nContraste minimum sur une même image : 1 300 : 1 contre 30 000 : 1, et le HDR 1000 exige une gradation locale en deux dimensions. Ce sont des minimums : un écran certifié peut faire mieux, et un écran certifié avant 2024 a passé les anciens critères.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui choisit un écran pour le Black Friday.\n\n#ecranhdr #moniteur #gamer #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "cta": "envoi"
   }
  ]
 }

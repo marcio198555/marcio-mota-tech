@@ -676,3 +676,10 @@ Ce que je change pour les prochains sujets :
 - Whisper sur la voix montée entière : il a trouvé un bruit « Et écris-tu » à la fin de s13 du jour 81, déjà présent dans la version TikTok contrôlée le 19.11 (reprise s13 avec une autre graine). Toujours faire passer la voix montée complète, pas seulement les phrases refaites.
 - « un virgule six gigabit » : Chatterbox étire « gigabit » devant une nouvelle phrase (« gigabitre ») ou dit « à virgule » ; solution : début de la prise d'origine + fin de la reprise, collés dans un silence (`tts/out/day81s`).
 - Conteneur neuf : les bruitages `/home/claude/studio/sfx` manquaient ; les recréer avec `python3 audio/synth.py sfx /home/claude/studio/sfx` avant `finish.sh`.
+
+## 25.11.2026 — Tâche Instagram : Reels 82 et 92 publiés ; réserve 96 et 97
+- Reels d'essai publiés à 10 h 23 et 10 h 24 : 82 (étiquette énergie du frigo) et 92 (SSD « 7 000 Mo/s »).
+- Réserve : 96 (BILLY d'IKEA, Suisse/France : 4.78 CHF d'écart pour une, 14.33 pour trois, 4.21 pour quatre à cause de la franchise de 150 francs) et 97 (écran HDR 400 contre HDR 1000, critères VESA DisplayHDR 1.2 : lumière × 2,5, contraste minimum × 23). En file pour le 30.11 (11:00 et 19:00, appel « envoi »).
+- Prix IKEA France : la page directe refuse l'outil d'extraction ; le fournisseur Firecrawl « ikea-com » (recherche + fiche produit) donne le prix officiel. Numéro d'article différent selon le pays (002.638.50 / 205.220.46), même description et mêmes matériaux.
+- Contrôle neuf : « 50 / 50 » (lumière = moitié du HDR) non sourcé, retiré ; 235.60 dit au lieu de 235.59 (l'écart serait 4.20) ; formule affichée avec 49,99 arrondi fausse au centime (écrire 59,99 / 1,2).
+- Whisper / Chatterbox : « Billy » lu « billet » → écrire « Bili » ; « Combien de fois mieux, vraiment ? » a produit « vraiment » deux fois → phrase sans « vraiment » ; une phrase longue de chiffres (s13 du 97) a été avalée à la 1re prise → phrase plus simple (« passe de … à … »).
