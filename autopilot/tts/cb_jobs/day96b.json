@@ -1,0 +1,19 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 11,
+ "segments": [
+  {
+   "id": "s03",
+   "text": "À la fin : la quatrième étagère, celle qui fait fondre l'écart."
+  },
+  {
+   "id": "s13",
+   "text": "Quatre Billy : toi, presque deux cent quarante francs. Ton collègue, deux cent trente-cinq francs cinquante-neuf."
+  }
+ ]
+}

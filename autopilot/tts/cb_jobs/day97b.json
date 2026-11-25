@@ -1,0 +1,31 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 11,
+ "segments": [
+  {
+   "id": "s03",
+   "text": "À la fin, le chiffre que le logo ne t'écrit pas."
+  },
+  {
+   "id": "s04",
+   "text": "Ces logos viennent d'un label officiel de Vésa, qui fixe des normes pour les écrans."
+  },
+  {
+   "id": "s07",
+   "text": "Mais le ache-dé-erre, ce n'est pas que la lumière. Il y a aussi le noir."
+  },
+  {
+   "id": "s11",
+   "text": "Le label mille exige une gradation locale en deux dimensions, ou mieux."
+  },
+  {
+   "id": "s13",
+   "text": "Sur une même image, le contraste minimum passe de mille trois cents pour un, à trente mille pour un."
+  }
+ ]
+}
