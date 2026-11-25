@@ -1,0 +1,22 @@
+{
+ "job": "day96b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s03",
+   "text": "À la fin : la quatrième étagère, celle qui fait fondre l'écart.",
+   "file": "s03.wav",
+   "duration": 4.52,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Quatre Billy : toi, presque deux cent quarante francs. Ton collègue, deux cent trente-cinq francs cinquante-neuf.",
+   "file": "s13.wav",
+   "duration": 6.6,
+   "rate": 24000
+  }
+ ],
+ "total": 11.12
+}
