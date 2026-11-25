@@ -1,0 +1,70 @@
++ export -f early_push
++ P=/home/runner/.cache/piper
++ mkdir -p /home/runner/.cache/piper/voices
++ '[' '!' -x /home/runner/.cache/piper/piper/piper ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/tom/medium/fr_FR-tom-medium
++ n=fr_FR-tom-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-tom-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/upmc/medium/fr_FR-upmc-medium
++ n=fr_FR-upmc-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-upmc-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/mls/medium/fr_FR-mls-medium
++ n=fr_FR-mls-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx ']'
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-mls-medium.onnx.json ']'
++ for v in fr/fr_FR/tom/medium/fr_FR-tom-medium fr/fr_FR/upmc/medium/fr_FR-upmc-medium fr/fr_FR/mls/medium/fr_FR-mls-medium fr/fr_FR/siwis/medium/fr_FR-siwis-medium
+++ basename fr/fr_FR/siwis/medium/fr_FR-siwis-medium
++ n=fr_FR-siwis-medium
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx
++ '[' -s /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json ']'
++ curl -fsSL -o /home/runner/.cache/piper/voices/fr_FR-siwis-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx.json
++ python3 autopilot/tts/synth.py --piper /home/runner/.cache/piper/piper/piper --voices /home/runner/.cache/piper/voices
+skip day01
+skip day01fix
+skip day02
+skip day02cta
+skip day03
+skip day03cta
+skip day04
+skip day04cta
+skip day04fix
+skip day05
+skip day05cta
+skip day05fix
+skip day06
+skip day06cta
+skip day06cta2
+skip day07
+skip day07cta
+skip day07fix
+skip day08
+skip day08cta
+skip day09
+skip day09fix
+skip day12
+skip day12fix
+skip day13
+skip day13fix
+skip day16
+skip day17
+skip day20
+skip day21
+skip day21fix
+skip day23
+skip day23b
++ '[' -f autopilot/asr/todo.txt ']'
++ python3 -m pip install -q faster-whisper
++ tail -1
++ python3 autopilot/asr/asr.py
+asr autopilot/vo/day96_vo2.wav -> Même billet d'Ikea. Toi, tu l'achètes en Suisse, ton collègue en France. Qui paie le moins ? La fin, la quatrième étagère, celle qui fait fondre l'écart. Site suisse, 59 francs 95. Site français, 59 euros 99. Presque le même chiffre. Mais au cours de la Banque nationale, ça fait 55 francs 17. Ton collègue gagne déjà 4 francs 78. Et à la frontière, pas de taxes suisses jusqu'à 150 francs. Par perso
+asr autopilot/vo/day97_vo2.wav -> Écrans HDR 400. Toi, tu le prends pour tes films. Ton collègue prend le HDR 1000. Combien de fois mieux vraiment ? Vraiment. A la fin, le chiffre que le logo ne t'écrit pas. Ces logos viennent d'un label officiel de VESA qui fixe des normes pour les écrans. Le chiffre, c'est la lumière maximale sur un petit carré au centre de l'écran. 400 contre 1000 qu'en-delà par mètre carré. Deux fois et demi p
++ early_push transcription
++ git config user.name 'github-actions[bot]'
++ git config user.email '41898283+github-actions[bot]@users.noreply.github.com'
++ git add -f bridge/out autopilot/tts/out autopilot/asr/out
