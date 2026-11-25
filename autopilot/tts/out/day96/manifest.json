@@ -1,0 +1,113 @@
+{
+ "job": "day96",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même Billy d'Ikéa. Toi, tu l'achètes en Suisse.",
+   "file": "s01.wav",
+   "duration": 4.2,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue, en France. Qui paie le moins ?",
+   "file": "s02.wav",
+   "duration": 2.96,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin : l'étagère de trop, celle qui fait fondre l'écart.",
+   "file": "s03.wav",
+   "duration": 5.24,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Site suisse : cinquante-neuf francs nonante-cinq.",
+   "file": "s04.wav",
+   "duration": 3.64,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Site français : cinquante-neuf euros nonante-neuf. Presque le même chiffre.",
+   "file": "s05.wav",
+   "duration": 5.64,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Mais au cours de la Banque nationale, ça fait cinquante-cinq francs dix-sept.",
+   "file": "s06.wav",
+   "duration": 5.28,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Ton collègue gagne déjà quatre francs septante-huit.",
+   "file": "s07.wav",
+   "duration": 4.04,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Et à la frontière ? Pas de taxe suisse jusqu'à cent cinquante francs, par personne et par jour.",
+   "file": "s08.wav",
+   "duration": 6.28,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Le prix compte sans la taxe française. Alors il en prend trois : il gagne quatorze francs trente-trois.",
+   "file": "s09.wav",
+   "duration": 7.28,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Puis il en prend une quatrième, pour finir le mur.",
+   "file": "s10.wav",
+   "duration": 2.96,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Là, il dépasse cent cinquante francs : huit virgule un pour cent de taxe suisse sur le tout. Quatorze francs nonante.",
+   "file": "s11.wav",
+   "duration": 7.56,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Tes étagères, tu les achètes où ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 4.52,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Quatre Billy : toi, presque deux cent quarante francs. Ton collègue, deux cent trente-cinq francs soixante.",
+   "file": "s13.wav",
+   "duration": 6.64,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "L'écart tombe à quatre francs vingt et un. Moins qu'avec une seule étagère.",
+   "file": "s14.wav",
+   "duration": 4.6,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "file": "s15.wav",
+   "duration": 4.44,
+   "rate": 24000
+  }
+ ],
+ "total": 75.28
+}
