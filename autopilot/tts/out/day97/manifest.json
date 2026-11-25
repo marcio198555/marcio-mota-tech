@@ -1,0 +1,113 @@
+{
+ "job": "day97",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Écran ache-dé-erre quatre cents. Toi, tu le prends pour tes films.",
+   "file": "s01.wav",
+   "duration": 5.36,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue prend le ache-dé-erre mille. Combien de fois mieux, vraiment ?",
+   "file": "s02.wav",
+   "duration": 5.36,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, le chiffre que le logo ne t'écrit pas.",
+   "file": "s03.wav",
+   "duration": 4.04,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Ces logos, c'est un label officiel de Vésa, qui fixe des normes pour les écrans.",
+   "file": "s04.wav",
+   "duration": 6.16,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Le chiffre, c'est la lumière maximale, sur un petit carré au centre de l'écran.",
+   "file": "s05.wav",
+   "duration": 5.96,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Quatre cents, contre mille candelas par mètre carré. Deux fois et demie plus.",
+   "file": "s06.wav",
+   "duration": 4.84,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Mais la lumière, c'est la moitié du ache-dé-erre. L'autre moitié, c'est le noir.",
+   "file": "s07.wav",
+   "duration": 4.92,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Le test officiel : deux coins tout blancs, et on mesure le noir au milieu.",
+   "file": "s08.wav",
+   "duration": 5.6,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "ache-dé-erre quatre cents : zéro virgule quatre au maximum. ache-dé-erre mille : zéro virgule zéro cinq.",
+   "file": "s09.wav",
+   "duration": 8.36,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Un noir huit fois plus sombre.",
+   "file": "s10.wav",
+   "duration": 2.72,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Pour ça, le label mille exige que l'écran éteigne sa lumière par zones, là où l'image est noire.",
+   "file": "s11.wav",
+   "duration": 7.4,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Ton écran, il a quel logo ache-dé-erre ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 5.44,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Sur une même image, contraste minimum : mille trois cents pour un, contre trente mille pour un.",
+   "file": "s13.wav",
+   "duration": 6.08,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Vingt-trois fois plus. Pas deux fois et demie.",
+   "file": "s14.wav",
+   "duration": 3.08,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "file": "s15.wav",
+   "duration": 4.44,
+   "rate": 24000
+  }
+ ],
+ "total": 79.76
+}
