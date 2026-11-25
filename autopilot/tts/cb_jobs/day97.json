@@ -1,0 +1,71 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Écran ache-dé-erre quatre cents. Toi, tu le prends pour tes films."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue prend le ache-dé-erre mille. Combien de fois mieux, vraiment ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin, le chiffre que le logo ne t'écrit pas."
+  },
+  {
+   "id": "s04",
+   "text": "Ces logos, c'est un label officiel de Vésa, qui fixe des normes pour les écrans."
+  },
+  {
+   "id": "s05",
+   "text": "Le chiffre, c'est la lumière maximale, sur un petit carré au centre de l'écran."
+  },
+  {
+   "id": "s06",
+   "text": "Quatre cents, contre mille candelas par mètre carré. Deux fois et demie plus."
+  },
+  {
+   "id": "s07",
+   "text": "Mais la lumière, c'est la moitié du ache-dé-erre. L'autre moitié, c'est le noir."
+  },
+  {
+   "id": "s08",
+   "text": "Le test officiel : deux coins tout blancs, et on mesure le noir au milieu."
+  },
+  {
+   "id": "s09",
+   "text": "ache-dé-erre quatre cents : zéro virgule quatre au maximum. ache-dé-erre mille : zéro virgule zéro cinq."
+  },
+  {
+   "id": "s10",
+   "text": "Un noir huit fois plus sombre."
+  },
+  {
+   "id": "s11",
+   "text": "Pour ça, le label mille exige que l'écran éteigne sa lumière par zones, là où l'image est noire."
+  },
+  {
+   "id": "s12",
+   "text": "Ton écran, il a quel logo ache-dé-erre ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Sur une même image, contraste minimum : mille trois cents pour un, contre trente mille pour un."
+  },
+  {
+   "id": "s14",
+   "text": "Vingt-trois fois plus. Pas deux fois et demie."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison."
+  }
+ ]
+}

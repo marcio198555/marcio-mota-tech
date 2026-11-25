@@ -1,0 +1,22 @@
+{
+ "display": {
+  "s01": "Écran HDR 400. | Toi, tu le prends pour tes films.",
+  "s02": "Ton collègue prend le HDR 1000. | Combien de fois mieux, vraiment ?",
+  "s03": "À la fin : le chiffre | que le logo ne t'écrit pas.",
+  "s04": "Ces logos : un label officiel de VESA, | qui fixe des normes pour les écrans.",
+  "s05": "Le chiffre : la lumière maximale, | sur un petit carré | au centre de l'écran.",
+  "s06": "400 contre 1000 cd/m². | Deux fois et demie plus.",
+  "s07": "Mais la lumière, | c'est la moitié du HDR. | L'autre moitié, c'est le noir.",
+  "s08": "Le test officiel : | deux coins tout blancs, | et on mesure le noir au milieu.",
+  "s09": "HDR 400 : 0,4 au maximum. | HDR 1000 : 0,05.",
+  "s10": "Un noir | huit fois plus sombre.",
+  "s11": "Pour ça, le label 1000 exige | que l'écran éteigne sa lumière par zones, | là où l'image est noire.",
+  "s12": "Ton écran, il a quel logo HDR ? | Écris-le en commentaire.",
+  "s13": "Sur une même image, contraste minimum : | 1300 : 1, | contre 30 000 : 1.",
+  "s14": "23 fois plus. | Pas deux fois et demie.",
+  "s15": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
+ },
+ "title": "Écran HDR 400 ou HDR 1000 : combien de fois mieux ?",
+ "slug": "hdr400-hdr1000",
+ "format": "V"
+}
