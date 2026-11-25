@@ -1,0 +1,15 @@
+{
+ "job": "day97c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s02",
+   "text": "Ton collègue prend le ache-dé-erre mille. Combien de fois mieux ?",
+   "file": "s02.wav",
+   "duration": 5.4,
+   "rate": 24000
+  }
+ ],
+ "total": 5.4
+}
