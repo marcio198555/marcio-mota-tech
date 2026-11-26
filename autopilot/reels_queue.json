@@ -567,8 +567,12 @@
    "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795181654/tiktok-autopilot/reels/day93_reel.mp4",
    "isAiGenerated": true,
    "caption": "PS5 en mode repos : combien te coûtent la recharge USB et Internet par an ?\n\nSony publie les mesures de sa PS5 (modèle CFI-2016) : 0,31 W en mode repos par défaut, 3,8 W avec toutes les options activées. Selon le support PlayStation, dès qu'une option est activée, la console ne descend plus sous 0,5 W en repos.\n\nExemple à 20 h de repos par jour et 27,7 ct./kWh (médiane ElCom 2026, hors TVA) : 7,68 CHF par an tout activé, 0,63 CHF par défaut. Réglage : Paramètres > Système > Gestion de l'alimentation > Fonctionnalités disponibles en mode repos.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui laisse sa console en mode repos.\n\n#ps5 #jeuxvideo #gamer #suisseromande #jemesuretout",
-   "statut": "en attente",
-   "cta": "envoi"
+   "statut": "publié",
+   "cta": "envoi",
+   "publie_le": "2026-11-26T10:23+01:00",
+   "permalink": "https://www.instagram.com/reel/DgMxdMRSrhE/",
+   "media_id": "18126245351291101",
+   "via": "vidIQ (Reel d'essai, SS_PERFORMANCE, tâche 10 h 19)"
   },
   {
    "id": "day89",
