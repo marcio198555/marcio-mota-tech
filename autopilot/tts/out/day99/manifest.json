@@ -1,0 +1,113 @@
+{
+ "job": "day99",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Chargeur cent watts. Toi, tu y branches un câble u-èss-bé cé standard.",
+   "file": "s01.wav",
+   "duration": 4.68,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue prend un câble marqué deux cent quarante watts. Combien de watts passent vraiment ?",
+   "file": "s02.wav",
+   "duration": 6.4,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin : combien de watts tu perds, toi, à cause du câble.",
+   "file": "s03.wav",
+   "duration": 4.68,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Sur les câbles certifiés, l'organisme u-èss-bé impose un logo : soixante ou deux cent quarante watts.",
+   "file": "s04.wav",
+   "duration": 6.8,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Un câble standard est prévu pour trois ampères.",
+   "file": "s05.wav",
+   "duration": 4.08,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Jusqu'à cinq ampères, il faut une puce dans le câble, qui se présente au chargeur.",
+   "file": "s06.wav",
+   "duration": 4.84,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Avant de dépasser trois ampères, le chargeur demande au câble ce qu'il supporte.",
+   "file": "s07.wav",
+   "duration": 5.44,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Ton chargeur monte à vingt volts au maximum.",
+   "file": "s08.wav",
+   "duration": 3.16,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Vingt volts fois trois ampères : soixante watts.",
+   "file": "s09.wav",
+   "duration": 3.56,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Le câble du collègue ? Avec le même chargeur, il plafonne à cent watts. Vingt volts fois cinq.",
+   "file": "s10.wav",
+   "duration": 27.76,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Les deux cent quarante watts, c'est quarante-huit volts. Il faut aussi un chargeur et un appareil compatibles.",
+   "file": "s11.wav",
+   "duration": 7.4,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Ton câble, il a quel logo ? Écris-le en commentaire.",
+   "file": "s12.wav",
+   "duration": 5.04,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Attention : ton téléphone ne prend que ce qu'il demande. Souvent, il charge pareil avec les deux.",
+   "file": "s13.wav",
+   "duration": 6.6,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Mais un ordinateur portable qui demande cent watts : toi, soixante. Quarante watts perdus, à cause du câble.",
+   "file": "s14.wav",
+   "duration": 7.56,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "file": "s15.wav",
+   "duration": 4.44,
+   "rate": 24000
+  }
+ ],
+ "total": 102.44
+}
