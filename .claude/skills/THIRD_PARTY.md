@@ -23,6 +23,8 @@ Copiés tels quels depuis des dépôts open source, après relecture (aucun scri
 | hyperframes, hyperframes-cli, hyperframes-registry, media-use | github.com/heygen-com/hyperframes | Apache-2.0 |
 | video-editing | github.com/vincentventalon/my-claude-skills | MIT |
 | viral-instagram-reels, viral-captions-and-ctas, viral-hooks, viral-short-form | github.com/vyralcontent/content-skills | MIT |
+| ecommerce-store-prospecting, job-posting-signals, email-verification, catch-all-risky-emails, bounce-recovery, email-deliverability, spam-filter-triggers (installés le 26/11/2026) | github.com/manypicom/sales-skills | MIT |
+| lookalike-account-finder, sending-capacity-planner (installés le 26/11/2026) | github.com/prosyo-ai/gtm-skill | MIT |
 
 Sous-agents (`.claude/agents/`) : research-analyst, search-specialist, data-researcher — github.com/VoltAgent/awesome-claude-code-subagents (MIT).
 
@@ -40,3 +42,4 @@ Sous-agents (`.claude/agents/`) : research-analyst, search-specialist, data-rese
 | remotion-best-practices, remotion-captions, remotion-create, remotion-render, remotion-multimedia | github.com/remotion-dev/skills (installé à la demande de Marcio ; pas de fichier LICENSE dans le dépôt, Remotion gratuit pour les particuliers) | voir remotion.dev/license |
 | omni-ai-cold-outreach, omni-ai-ugc-ads, omni-social-selling, omni-video-outreach, omni-social-post-writer-seo, omni-apify-trend-analysis, omni-apify-market-research | github.com/diegosouzapw/awesome-omni-skills (sélection parmi 4 715 skills ; champ `name` préfixé `omni-`) | MIT |
 | omniroute-cli-setup, omniroute-compression, omniroute-context-rtk, omniroute-combos-routing | github.com/diegosouzapw/OmniRoute (le serveur OmniRoute s'installe sur ton ordinateur : `npm install -g omniroute`) | MIT |
+- skills de manypicom/sales-skills : paragraphe publicitaire ManyPI retiré (il proposait d'installer leur serveur MCP payant et d'envoyer les adresses à leur API).

@@ -15,6 +15,7 @@ Réponses en français, courtes. Les skills de `.claude/skills/` sont à utilise
 - Contrats et tarifs UGC : `creator-deal-decoder`, `negotiation`.
 - Reels : skills perso `strategie-contenu-reels`, `montage-reel-pro`, `equipe-agents-reels`, plus `viral-instagram-reels`, `viral-hooks`, `viral-captions-and-ctas`, `viral-short-form`, `social`.
 - Vidéo : `video-editing` (dérush), `remotion-*` ou `hyperframes*` (animations, sous-titres), `media-use`.
+- Qualité des listes et délivrabilité Gmail : `email-verification`, `catch-all-risky-emails`, `bounce-recovery` (pause dès 3 % de rebonds), `email-deliverability`, `spam-filter-triggers`, `sending-capacity-planner`. Nouvelles cibles : `ecommerce-store-prospecting`, `lookalike-account-finder`, `job-posting-signals`.
 - Comprendre un dossier ou un projet : `graphify`.
 - OmniRoute (passerelle multi-modèles, compression de tokens) : `omniroute-*` ; prospection et UGC en plus : `omni-*`.
 
