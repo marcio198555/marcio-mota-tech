@@ -1,0 +1,71 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même capsule Nespresso Livanto. Toi, tu la commandes en Suisse."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue l'achète en France. Qui paie son café le plus cher ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin : la capsule de trop, celle qui fait payer la TVA."
+  },
+  {
+   "id": "s04",
+   "text": "Site suisse : cinq francs septante l'étui de dix. Cinquante-sept centimes la capsule."
+  },
+  {
+   "id": "s05",
+   "text": "Site français : quatre euros soixante l'étui."
+  },
+  {
+   "id": "s06",
+   "text": "Au cours de la Banque nationale : quatre francs vingt."
+  },
+  {
+   "id": "s07",
+   "text": "Ton collègue paie chaque capsule quinze centimes de moins. Plus d'un quart moins cher."
+  },
+  {
+   "id": "s08",
+   "text": "Mais Nespresso France ne livre qu'en France. Il ramène donc son café lui-même."
+  },
+  {
+   "id": "s09",
+   "text": "À la frontière, pas de TVA suisse jusqu'à cent cinquante francs, par personne et par jour, sans compter la TVA française."
+  },
+  {
+   "id": "s10",
+   "text": "Cent capsules : il paie quarante-deux francs. Toi, cinquante-sept. Quinze francs d'écart."
+  },
+  {
+   "id": "s11",
+   "text": "Trois cents capsules : quarante-cinq francs d'écart. Toujours sous la limite."
+  },
+  {
+   "id": "s12",
+   "text": "Ton café, tu l'achètes où ? Écris-le en commentaire."
+  },
+  {
+   "id": "s13",
+   "text": "Au-delà de cent cinquante francs, il paie la TVA suisse sur le tout. Pour le café, deux virgule six pour cent."
+  },
+  {
+   "id": "s14",
+   "text": "La limite tombe à la trois cent septante-septième capsule. Trente-sept étuis passent, le trente-huitième fait payer."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison."
+  }
+ ]
+}
