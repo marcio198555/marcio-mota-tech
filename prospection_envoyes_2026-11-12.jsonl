@@ -1,0 +1,369 @@
+{"id": "PD12A-001", "brand": "UrbanDotted", "domain": "urbandotted.com", "to": "support@urbandotted.com", "ts": "2026-11-12T10:31:50.736604"}
+{"id": "PD12A-002", "brand": "Hypergrind Coffee", "domain": "hypergrindcoffee.com.au", "to": "support@hypergrindcoffee.com.au", "ts": "2026-11-12T10:31:50.736635"}
+{"id": "PD12A-003", "brand": "Brewed by TJ", "domain": "brewedbytj.com.au", "to": "info@brewedbytj.com.au", "ts": "2026-11-12T10:31:50.736643"}
+{"id": "PD12A-004", "brand": "Pure Over", "domain": "pureover.com", "to": "support@pureover.com", "ts": "2026-11-12T10:31:50.736648"}
+{"id": "PD12A-005", "brand": "Fluff Trough", "domain": "flufftrough.com", "to": "hello@flufftrough.com", "ts": "2026-11-12T10:31:50.736652"}
+{"id": "PD12A-006", "brand": "PuzzleFeeder", "domain": "thepuzzlefeeder.com", "to": "info@thepuzzlefeeder.com", "ts": "2026-11-12T10:31:50.736656"}
+{"id": "PD12A-007", "brand": "Ridgebrew", "domain": "ridgebrew.com", "to": "hello@ridgebrew.com", "ts": "2026-11-12T10:31:50.736659"}
+{"id": "PD12A-008", "brand": "Pressca", "domain": "pressca.com.br", "to": "contato@pressca.com.br", "ts": "2026-11-12T10:31:50.736662"}
+{"id": "PD12A-009", "brand": "Shishu", "domain": "shishu.co", "to": "business@shishu.co", "ts": "2026-11-12T10:31:50.736665"}
+{"id": "PD12A-010", "brand": "MiniVault", "domain": "minivault.com.au", "to": "admin@minivault.com.au", "ts": "2026-11-12T10:31:50.736669"}
+{"id": "PD12D-001", "brand": "Limteh Project", "domain": "limtehproject.com", "to": "info@limtehproject.com", "ts": "2026-11-12T10:31:56.461832"}
+{"id": "PD12D-002", "brand": "The Royals Group", "domain": "theroyalsgroup.co", "to": "sales@theroyalsgroup.co", "ts": "2026-11-12T10:31:56.461864"}
+{"id": "PD12D-003", "brand": "Kopipets", "domain": "kopipets.com.sg", "to": "info@kopipets.com.sg", "ts": "2026-11-12T10:31:56.461875"}
+{"id": "PD12D-004", "brand": "Bonijoy", "domain": "bonijoy.com", "to": "sg@bonijoy.com", "ts": "2026-11-12T10:31:56.461882"}
+{"id": "PD12D-005", "brand": "MOMIJI", "domain": "momiji-home.com", "to": "hello@momiji-home.com", "ts": "2026-11-12T10:31:56.461886"}
+{"id": "PD12D-006", "brand": "Mei's Own", "domain": "meisown.com", "to": "info@meisown.com", "ts": "2026-11-12T10:31:56.461891", "bounced": true}
+{"id": "PD12D-007", "brand": "Nirlon Kitchenware", "domain": "nirlonkitchenware.com", "to": "support@nirlonkitchenware.com", "ts": "2026-11-12T10:31:56.461895"}
+{"id": "PD12D-008", "brand": "Steelish", "domain": "steelishkitchenware.com", "to": "info@steelishkitchenware.com", "ts": "2026-11-12T10:31:56.461899"}
+{"id": "PD12D-009", "brand": "Lily Kitchenware", "domain": "lilykitchenware.in", "to": "team@lilykitchenware.in", "ts": "2026-11-12T10:31:56.461903"}
+{"id": "PD12D-010", "brand": "AB Fitness", "domain": "abfitness.in", "to": "info@abfitness.in", "ts": "2026-11-12T10:31:56.461907", "bounced": true}
+{"id": "PD12C-001", "brand": "Mubitech", "domain": "mubitech.com", "to": "soporte@mubitech.com", "ts": "2026-11-12T10:32:19.689675"}
+{"id": "PD12C-002", "brand": "Monkey Gaming Site", "domain": "monkeygamingsite.com", "to": "info@monkeygamingsite.com", "ts": "2026-11-12T10:32:19.689718"}
+{"id": "PD12C-003", "brand": "Matdala", "domain": "matdala.com", "to": "tienda@matdala.com", "ts": "2026-11-12T10:32:19.689734"}
+{"id": "PD12C-004", "brand": "Fluye Bottle", "domain": "fluyebottle.com", "to": "atencionalcliente@fluyebottle.com", "ts": "2026-11-12T10:32:19.689743"}
+{"id": "PD12C-005", "brand": "Fantuzzi", "domain": "fantuzzi.cl", "to": "info@fantuzzi.cl", "ts": "2026-11-12T10:32:19.689750"}
+{"id": "PD12C-006", "brand": "Meu BQ", "domain": "meubq.com.br", "to": "atendimento@meubq.com.br", "ts": "2026-11-12T10:32:19.689757"}
+{"id": "PD12C-007", "brand": "Una Ambientes", "domain": "unaambientes.com", "to": "contato@unavasos.com.br", "ts": "2026-11-12T10:32:19.689763"}
+{"id": "PD12C-008", "brand": "GIOUCO", "domain": "giouco.com", "to": "contacto@giouco.com", "ts": "2026-11-12T10:32:19.689769"}
+{"id": "PD12C-009", "brand": "diako abc", "domain": "diako.com.mx", "to": "info@diako.com.mx", "ts": "2026-11-12T10:32:19.689775"}
+{"id": "PD12C-010", "brand": "Tëkun Juegos", "domain": "tekunjuegos.com", "to": "contacto@tekunjuegos.com", "ts": "2026-11-12T10:32:19.689781"}
+{"id": "PD12D-011", "brand": "Mozaic Games", "domain": "mozaicgames.com", "to": "support@mozaicgames.com", "ts": "2026-11-12T10:32:23.863537"}
+{"id": "PD12D-012", "brand": "Kheeladi", "domain": "kheeladi.com", "to": "support@kheeladi.com", "ts": "2026-11-12T10:32:23.863574"}
+{"id": "PD12D-013", "brand": "Lumicharge", "domain": "thelumicharge.com", "to": "info@thelumicharge.com", "ts": "2026-11-12T10:32:23.863585"}
+{"id": "PD12D-014", "brand": "AccuSharp", "domain": "accusharp.com", "to": "contact@accusharp.com", "ts": "2026-11-12T10:32:23.863592"}
+{"id": "PD12D-015", "brand": "Leo's Paw", "domain": "leospaw.com", "to": "info@leospaw.com", "ts": "2026-11-12T10:32:23.863596"}
+{"id": "PD12D-016", "brand": "Phodan", "domain": "phodan.com", "to": "contact@phodan.com", "ts": "2026-11-12T10:32:23.863608", "bounced": true}
+{"id": "PD12D-017", "brand": "VASA Pet", "domain": "vasapet.com", "to": "support@vasapet.com", "ts": "2026-11-12T10:32:23.863615"}
+{"id": "PD12D-018", "brand": "Pawoof", "domain": "pawoof.com", "to": "hello@pawoof.com", "ts": "2026-11-12T10:32:23.863619", "bounced": true}
+{"id": "PD12D-019", "brand": "Clean Bottle", "domain": "cleanbottle.com", "to": "info@cleanbottle.com", "ts": "2026-11-12T10:32:23.863623"}
+{"id": "PD12D-020", "brand": "Bridgetown Garden Tools", "domain": "bridgetowngardentools.com", "to": "sales@bridgetowngardentools.com", "ts": "2026-11-12T10:32:23.863626"}
+{"id": "PD12B-001", "brand": "Kidantics", "domain": "kidantics.co.nz", "to": "info@kidantics.co.nz", "ts": "2026-11-12T10:32:26.227057"}
+{"id": "PD12B-002", "brand": "Nomad Design Tackle", "domain": "nomadtackle.com", "to": "support@nomaddesigntackle.com", "ts": "2026-11-12T10:32:26.227094"}
+{"id": "PD12B-003", "brand": "Hackerlily", "domain": "hackerlily.com", "to": "hello@hackerlily.com", "ts": "2026-11-12T10:32:26.227106"}
+{"id": "PD12B-004", "brand": "Lune & Littles", "domain": "luneandlittles.com.au", "to": "hello@luneandlittles.com.au", "ts": "2026-11-12T10:32:26.227113"}
+{"id": "PD12B-005", "brand": "Bambeso", "domain": "bambeso.com", "to": "info@bambeso.com", "ts": "2026-11-12T10:32:26.227118"}
+{"id": "PD12B-006", "brand": "FOOD TIE", "domain": "thefoodtie.com", "to": "service@thefoodtie.com", "ts": "2026-11-12T10:32:26.227123"}
+{"id": "PD12B-007", "brand": "Dogsy & Co", "domain": "dogsyandco.com", "to": "hello@dogsyandco.com", "ts": "2026-11-12T10:32:26.227128"}
+{"id": "PD12B-008", "brand": "Drovers Dog & Co", "domain": "droversdogandco.com", "to": "hello@droversdogandco.com", "ts": "2026-11-12T10:32:26.227132"}
+{"id": "PD12B-009", "brand": "Simplify Living", "domain": "simplifyliving.com.au", "to": "customercare@simplifyliving.com.au", "ts": "2026-11-12T10:32:26.227136"}
+{"id": "PD12B-010", "brand": "Second Earth", "domain": "secondearth.com.au", "to": "2e@secondearth.com.au", "ts": "2026-11-12T10:32:26.227140"}
+{"id": "PD12A-011", "brand": "Barista-Essentials", "domain": "barista-essentials.com", "to": "info@barista-essentials.com", "ts": "2026-11-12T10:32:28.410660"}
+{"id": "PD12A-012", "brand": "Ovalware", "domain": "ovalware.com", "to": "support@ovalware.com", "ts": "2026-11-12T10:32:28.410687"}
+{"id": "PD12A-013", "brand": "Slow Pour Supply", "domain": "slowpoursupply.co", "to": "support@slowpoursupply.co", "ts": "2026-11-12T10:32:28.410695"}
+{"id": "PD12A-014", "brand": "Mr. Canary", "domain": "mrcanary.com", "to": "info@mrcanary.com", "ts": "2026-11-12T10:32:28.410700", "bounced": true}
+{"id": "PD12A-015", "brand": "EmeryPets", "domain": "emerypets.com", "to": "collab@emerypets.com", "ts": "2026-11-12T10:32:28.410704"}
+{"id": "PD12A-016", "brand": "Gardenature", "domain": "gardenature.co.uk", "to": "hello@gardenature.co.uk", "ts": "2026-11-12T10:32:28.410707"}
+{"id": "PD12A-017", "brand": "Grumpy Gardener", "domain": "grumpygardener.co.uk", "to": "enquiries@greanbase.co.uk", "ts": "2026-11-12T10:32:28.410711"}
+{"id": "PD12A-018", "brand": "Dine-A-Chook", "domain": "dineachook.com.au", "to": "support@dineachook.com.au", "ts": "2026-11-12T10:32:28.410714"}
+{"id": "PD12A-019", "brand": "Spunky Pup", "domain": "spunkypup.com", "to": "info@spunkypup.com", "ts": "2026-11-12T10:32:28.410728"}
+{"id": "PD12A-020", "brand": "Little Teether", "domain": "littleteether.com", "to": "hello@littleteether.com", "ts": "2026-11-12T10:32:28.410733"}
+{"id": "PD12B-011", "brand": "Tarata Toys", "domain": "tarata.com", "to": "sales@tarata.com", "ts": "2026-11-12T10:32:54.828723"}
+{"id": "PD12B-012", "brand": "Eco Dog & Cat", "domain": "ecodogncat.com", "to": "support@ecodogncat.com", "ts": "2026-11-12T10:32:54.828755"}
+{"id": "PD12B-013", "brand": "TrailSurvivor", "domain": "trailsurvivor.com.au", "to": "support@trailsurvivor.com.au", "ts": "2026-11-12T10:32:54.828766"}
+{"id": "PD12B-014", "brand": "Titan Range", "domain": "titanrange.com.au", "to": "sales@titanrange.com.au", "ts": "2026-11-12T10:32:54.828772"}
+{"id": "PD12B-015", "brand": "Hugo & Hudson", "domain": "hugoandhudson.com", "to": "info@hugohudson.co.uk", "ts": "2026-11-12T10:32:54.828776"}
+{"id": "PD12B-016", "brand": "Neerdog", "domain": "neerdog.com", "to": "info@neerdog.com", "ts": "2026-11-12T10:32:54.828780"}
+{"id": "PD12B-017", "brand": "Woof and Snout", "domain": "woofandsnout.com", "to": "hello@woofandsnout.com", "ts": "2026-11-12T10:32:54.828784"}
+{"id": "PD12B-018", "brand": "Fell Dog", "domain": "felldog.com", "to": "bark@felldog.com", "ts": "2026-11-12T10:32:54.828788"}
+{"id": "PD12B-019", "brand": "By Teddy", "domain": "byteddy.co", "to": "hello@byteddy.com", "ts": "2026-11-12T10:32:54.828791"}
+{"id": "PD12B-020", "brand": "Zelda & Harley", "domain": "zeldaandharley.com", "to": "hello@zeldaandharley.com", "ts": "2026-11-12T10:32:54.828795"}
+{"id": "PD12C-011", "brand": "Maderandia", "domain": "maderandia.com", "to": "ventas@maderandia.com", "ts": "2026-11-12T10:33:06.369968"}
+{"id": "PD12C-012", "brand": "Vinzer", "domain": "vinzer.com", "to": "info@vinzerhome.pl", "ts": "2026-11-12T10:33:06.370001"}
+{"id": "PD12C-013", "brand": "Gerlach", "domain": "gerlach.pl", "to": "sklep@gerlach.pl", "ts": "2026-11-12T10:33:06.370012"}
+{"id": "PD12C-014", "brand": "Wilmax", "domain": "wilmax.eu", "to": "info@wilmax.eu", "ts": "2026-11-12T10:33:06.370018"}
+{"id": "PD12C-015", "brand": "Halkalife", "domain": "halkalife.pl", "to": "kontakt@halkalife.pl", "ts": "2026-11-12T10:33:06.370023"}
+{"id": "PD12C-016", "brand": "Leash Up", "domain": "leashup.store", "to": "kontakt@leashup.store", "ts": "2026-11-12T10:33:06.370027"}
+{"id": "PD12C-017", "brand": "Psiełapki", "domain": "psielapki.pl", "to": "kontakt@psielapki.pl", "ts": "2026-11-12T10:33:06.370031"}
+{"id": "PD12C-018", "brand": "Psie Smyczki", "domain": "psiesmyczki.pl", "to": "kontakt@psiesmyczki.pl", "ts": "2026-11-12T10:33:06.370035"}
+{"id": "PD12C-019", "brand": "Nosiboo", "domain": "nosiboo.eu", "to": "sales@nosiboo.com", "ts": "2026-11-12T10:33:06.370039"}
+{"id": "PD12C-020", "brand": "Techi", "domain": "techi.lt", "to": "info@techi.lt", "ts": "2026-11-12T10:33:06.370043"}
+{"id": "PD12C-021", "brand": "Premium Wood", "domain": "premium-wood.pl", "to": "sklep@premium-wood.pl", "ts": "2026-11-12T10:33:17.304786"}
+{"id": "PD12C-022", "brand": "Drewpart", "domain": "drewpart.pl", "to": "biuro@drewpart.pl", "ts": "2026-11-12T10:33:17.304815"}
+{"id": "PD12C-023", "brand": "Grawlas", "domain": "grawlas.com.pl", "to": "kontakt@grawlas.com.pl", "ts": "2026-11-12T10:33:17.304823"}
+{"id": "PD12C-024", "brand": "BAJO", "domain": "bajo.eu", "to": "contact@bajo.eu", "ts": "2026-11-12T10:33:17.304828"}
+{"id": "PD12C-025", "brand": "BAFPET", "domain": "bafpet.cz", "to": "e-shop@bafpet.cz", "ts": "2026-11-12T10:33:17.304832"}
+{"id": "PD12C-026", "brand": "BRAUBRAU", "domain": "braubrau.com", "to": "hello@braubrau.com", "ts": "2026-11-12T10:33:17.304836"}
+{"id": "PD12C-027", "brand": "EstCrafts", "domain": "estcrafts.ee", "to": "info@estcrafts.ee", "ts": "2026-11-12T10:33:17.304839"}
+{"id": "PD12C-028", "brand": "Moonstruck", "domain": "moonstruck.co.in", "to": "support@moonstruck.co.in", "ts": "2026-11-12T10:33:17.304843"}
+{"id": "PD12C-029", "brand": "Human Hydro", "domain": "humanhydro.com", "to": "support@humanhydro.com", "ts": "2026-11-12T10:33:17.304846"}
+{"id": "PD12C-030", "brand": "Unbottle", "domain": "unbottle.com", "to": "support@unbottle.com", "ts": "2026-11-12T10:33:17.304849"}
+{"id": "PD12D-021", "brand": "Woodland Tools", "domain": "woodlandtools.com", "to": "customerservice@woodlandtools.com", "ts": "2026-11-12T10:33:37.374541"}
+{"id": "PD12D-022", "brand": "Peel", "domain": "buypeel.com", "to": "hello@buypeel.com", "ts": "2026-11-12T10:33:37.374569"}
+{"id": "PD12D-023", "brand": "Snap Wireless", "domain": "snapwireless.com.au", "to": "help@snapwireless.com.au", "ts": "2026-11-12T10:33:37.374578"}
+{"id": "PD12D-024", "brand": "keycadets", "domain": "keycadets.com", "to": "hello@keycadets.com", "ts": "2026-11-12T10:33:37.374583"}
+{"id": "PD12D-025", "brand": "Padloom", "domain": "padloom.com", "to": "info@padloom.com", "ts": "2026-11-12T10:33:37.374587"}
+{"id": "PD12D-026", "brand": "Yakka Goods", "domain": "yakkagoods.com.au", "to": "contact@yakkagoods.com.au", "ts": "2026-11-12T10:33:37.374590"}
+{"id": "PD12D-027", "brand": "Cowbell Plant Co.", "domain": "cowbellplant.com", "to": "hi@cowbellplant.com", "ts": "2026-11-12T10:33:37.374594"}
+{"id": "PD12D-028", "brand": "Harvest Thyme", "domain": "smartharvestthyme.com", "to": "info@smartharvestthyme.com", "ts": "2026-11-12T10:33:37.374597"}
+{"id": "PD12D-029", "brand": "Prepara", "domain": "prepara.com", "to": "info@prepara.com", "ts": "2026-11-12T10:33:37.374600"}
+{"id": "PD12D-030", "brand": "Razab", "domain": "razab.com", "to": "cs@razab.com", "ts": "2026-11-12T10:33:37.374603"}
+{"id": "PD12A-021", "brand": "Delton", "domain": "deltonstudio.com", "to": "cs@deltonstudio.com", "ts": "2026-11-12T10:33:37.642607"}
+{"id": "PD12A-022", "brand": "Domain Cycling", "domain": "domaincycling.com", "to": "support@domaincycling.com", "ts": "2026-11-12T10:33:37.642636", "bounced": true}
+{"id": "PD12A-023", "brand": "EzPacking", "domain": "ezpacking.com", "to": "contact@ezpacking.com", "ts": "2026-11-12T10:33:37.642645"}
+{"id": "PD12A-024", "brand": "Jolly Pets", "domain": "jollypets.com", "to": "cservice@jollypets.com", "ts": "2026-11-12T10:33:37.642650"}
+{"id": "PD12A-025", "brand": "Zoe Sage", "domain": "zoesage.com.au", "to": "info@zoesage.com.au", "ts": "2026-11-12T10:33:37.642654"}
+{"id": "PD12A-026", "brand": "KriyaFit", "domain": "kriya.fit", "to": "info@kriya.fit", "ts": "2026-11-12T10:33:37.642657"}
+{"id": "PD12A-027", "brand": "Bonka Bird Toys", "domain": "bonkabirdtoys.com", "to": "sales@bonkabirdtoys.com", "ts": "2026-11-12T10:33:37.642660"}
+{"id": "PD12A-028", "brand": "Mukikim & Odyssey Toys", "domain": "mukikim.com", "to": "info@mukikim.com", "ts": "2026-11-12T10:33:37.642664"}
+{"id": "PD12A-029", "brand": "Chris the Cat", "domain": "christhecat.com", "to": "info@christhecat.com", "ts": "2026-11-12T10:33:37.642667"}
+{"id": "PD12A-030", "brand": "HANGTIME", "domain": "hangtimegear.com", "to": "hello@hangtimegear.com", "ts": "2026-11-12T10:33:37.642670"}
+{"id": "PD12B-021", "brand": "Annabel James", "domain": "annabeljames.co.uk", "to": "hello@annabeljames.co.uk", "ts": "2026-11-12T10:33:48.066479"}
+{"id": "PD12B-022", "brand": "Coupland Leather", "domain": "couplandleather.co.uk", "to": "hello@couplandleather.co.uk", "ts": "2026-11-12T10:33:48.066513"}
+{"id": "PD12B-023", "brand": "Playsam", "domain": "playsam.com", "to": "info@playsam.com", "ts": "2026-11-12T10:33:48.066525"}
+{"id": "PD12B-024", "brand": "Kay Bojesen", "domain": "kaybojesen.com", "to": "info@kaybojesen.dk", "ts": "2026-11-12T10:33:48.066531"}
+{"id": "PD12B-025", "brand": "Barkalot", "domain": "barkalot.com", "to": "info@barkalot.com", "ts": "2026-11-12T10:33:48.066536"}
+{"id": "PD12B-026", "brand": "Fantail", "domain": "fantail.eu", "to": "info@fantail.eu", "ts": "2026-11-12T10:33:48.066540"}
+{"id": "PD12B-027", "brand": "byRavn", "domain": "byravn.dk", "to": "byravn@byravn.dk", "ts": "2026-11-12T10:33:48.066545"}
+{"id": "PD12B-028", "brand": "Kilometer Studios", "domain": "kilometer.studio", "to": "hq@kilometer.studio", "ts": "2026-11-12T10:33:48.066549"}
+{"id": "PD12B-029", "brand": "Leaf Studios", "domain": "leafstudios.in", "to": "support@leafstudios.in", "ts": "2026-11-12T10:33:48.066553"}
+{"id": "PD12B-030", "brand": "GOVO", "domain": "govo.life", "to": "help@govo.life", "ts": "2026-11-12T10:33:48.066556"}
+{"id": "PD12B-031", "brand": "Zenwood Games", "domain": "zenwoodgames.com", "to": "hello@zenwoodgames.com", "ts": "2026-11-12T10:33:48.088581"}
+{"id": "PD12B-032", "brand": "Chittam", "domain": "chittam.in", "to": "namaste@chittam.in", "ts": "2026-11-12T10:33:48.088611"}
+{"id": "PD12A-031", "brand": "Darling Dear Co", "domain": "darlingdearco.com", "to": "hello@darlingdearco.com", "ts": "2026-11-12T10:33:49.323000", "bounced": true}
+{"id": "PD12A-032", "brand": "Beba Canada", "domain": "bebacanada.ca", "to": "shop.us@bebacanada.ca", "ts": "2026-11-12T10:33:49.323028"}
+{"id": "PD12A-033", "brand": "Newbornlander", "domain": "newbornlander.ca", "to": "info@newbornlander.ca", "ts": "2026-11-12T10:33:49.323037"}
+{"id": "PD12A-034", "brand": "BRAI + CO.", "domain": "braiandco.com", "to": "info@braiandco.com", "ts": "2026-11-12T10:33:49.323042"}
+{"id": "PD12A-035", "brand": "Arronax Canada", "domain": "arronax.ca", "to": "info@arronax.ca", "ts": "2026-11-12T10:33:49.323046", "bounced": true}
+{"id": "PD12A-036", "brand": "Combat Paddles", "domain": "combatpaddles.com", "to": "info@combatpaddles.com", "ts": "2026-11-12T10:33:49.323049"}
+{"id": "PD12A-037", "brand": "Brick House Paddles", "domain": "brickhousepaddles.com", "to": "information_please@brickhousepaddles.com", "ts": "2026-11-12T10:33:49.323053"}
+{"id": "PD12A-038", "brand": "Faber Snowshoes", "domain": "fabersnowshoes.com", "to": "info@fabersnowshoes.com", "ts": "2026-11-12T10:33:49.323056"}
+{"id": "PD12A-039", "brand": "HockeyShot", "domain": "hockeyshot.ca", "to": "customersupport@hockeyshot.com", "ts": "2026-11-12T10:33:49.323059"}
+{"id": "PD12A-040", "brand": "Canadian Board Co", "domain": "canadianboardco.com", "to": "info@canadianboardco.com", "ts": "2026-11-12T10:33:49.323062"}
+{"id": "PD12D-031", "brand": "Hog Wild Toys", "domain": "hogwildtoys.com", "to": "info@hogwild.toys", "ts": "2026-11-12T10:34:08.085799", "bounced": true}
+{"id": "PD12D-032", "brand": "Up Dog Shop", "domain": "updogshop.com", "to": "info@updogshop.com", "ts": "2026-11-12T10:34:08.085846"}
+{"id": "PD12D-033", "brand": "Friendli Pet", "domain": "friendlipet.com", "to": "info@friendlipet.com", "ts": "2026-11-12T10:34:08.085858"}
+{"id": "PD12D-034", "brand": "Wilderdog", "domain": "wilderdog.com", "to": "info@wilderdog.com", "ts": "2026-11-12T10:34:08.085882"}
+{"id": "PD12D-035", "brand": "Coziwow", "domain": "coziwow.com", "to": "pr@coziwow.com", "ts": "2026-11-12T10:34:08.085888"}
+{"id": "PD12D-036", "brand": "M&M Bird Toys", "domain": "mmbirdtoys.com", "to": "sales@mmbirdtoys.com", "ts": "2026-11-12T10:34:08.085893"}
+{"id": "PD12C-031", "brand": "Mr Butler", "domain": "mrbutlers.com", "to": "onlinesales@mrbutlers.com", "ts": "2026-11-12T10:34:34.197200"}
+{"id": "PD12C-032", "brand": "Casegear", "domain": "casegear.in", "to": "support@casegear.in", "ts": "2026-11-12T10:34:34.197230"}
+{"id": "PD12C-033", "brand": "CASEXS", "domain": "casexstudio.com", "to": "contact@casexstudio.com", "ts": "2026-11-12T10:34:34.197276"}
+{"id": "PD12C-034", "brand": "VOIK India", "domain": "voikindia.in", "to": "info@voikindia.in", "ts": "2026-11-12T10:34:34.197283"}
+{"id": "PD12C-035", "brand": "stotodo", "domain": "stotodo.com", "to": "support@stotodo.com", "ts": "2026-11-12T10:34:34.197288"}
+{"id": "PD12C-036", "brand": "Kreo", "domain": "kreo-tech.com", "to": "help@kreo-tech.com", "ts": "2026-11-12T10:34:34.197292"}
+{"id": "PD12C-037", "brand": "PURRZ", "domain": "purrz.com", "to": "hello@purrz.com", "ts": "2026-11-12T10:34:34.197296"}
+{"id": "PD12C-038", "brand": "The Balcony Garden", "domain": "thebalconygarden.com.au", "to": "info@thebalconygarden.com.au", "ts": "2026-11-12T10:34:34.197300"}
+{"id": "PD12C-039", "brand": "Urban Cat", "domain": "urbancat.co.nz", "to": "orders@urbancat.co.nz", "ts": "2026-11-12T10:34:34.197304"}
+{"id": "PD12C-040", "brand": "Pet Factory", "domain": "petfactory.co.nz", "to": "support@petfactory.co.nz", "ts": "2026-11-12T10:34:34.197308"}
+{"id": "PD12D-037", "brand": "Bago Lures", "domain": "bagolures.com", "to": "service@bagolures.com", "ts": "2026-11-12T10:34:58.614696"}
+{"id": "PD12D-038", "brand": "Finn Tackle Company", "domain": "finnspoons.com", "to": "inquiries@finnspoons.com", "ts": "2026-11-12T10:34:58.614743"}
+{"id": "PD12D-039", "brand": "Creative Crafthouse", "domain": "creativecrafthouse.com", "to": "puzzles@creativecrafthouse.com", "ts": "2026-11-12T10:34:58.614758"}
+{"id": "PD12D-040", "brand": "Magic Cat Toys", "domain": "magiccattoys.com", "to": "info@magiccattoys.com", "ts": "2026-11-12T10:34:58.614767"}
+{"id": "PD12D-041", "brand": "Kats'n Us", "domain": "catsnus.com", "to": "info@katsnus.com", "ts": "2026-11-12T10:34:58.614774"}
+{"id": "PD12D-042", "brand": "KALF", "domain": "kalf.com.br", "to": "atendimento@kalf.com.br", "ts": "2026-11-12T10:34:58.614780"}
+{"id": "PD12D-043", "brand": "Bucaneiros Jogos", "domain": "bucaneirosjogos.com.br", "to": "contato@bucaneirosjogos.com.br", "ts": "2026-11-12T10:34:58.614785"}
+{"id": "PD12D-044", "brand": "Ludofun", "domain": "ludofun.com.br", "to": "contato@ludofun.com.br", "ts": "2026-11-12T10:34:58.614790"}
+{"id": "PD12D-045", "brand": "KOAR", "domain": "koar.com.br", "to": "atendimento@koar.com.br", "ts": "2026-11-12T10:34:58.614795"}
+{"id": "PD12D-046", "brand": "Brota Company", "domain": "brotacompany.com.br", "to": "cliente@brotacompany.com.br", "ts": "2026-11-12T10:34:58.614800"}
+{"id": "PD12B-033", "brand": "Syvo", "domain": "syvo.in", "to": "hello@syvo.in", "ts": "2026-11-12T10:35:03.137167"}
+{"id": "PD12B-034", "brand": "WatchOut Wearables", "domain": "watchoutwearables.com", "to": "support@watchoutwearables.com", "ts": "2026-11-12T10:35:03.137201"}
+{"id": "PD12B-035", "brand": "Walta Elite", "domain": "waltaelite.in", "to": "care@waltaelite.in", "ts": "2026-11-12T10:35:03.137213"}
+{"id": "PD12B-036", "brand": "Gizmore", "domain": "gizmore.in", "to": "info@gizmore.in", "ts": "2026-11-12T10:35:03.137219"}
+{"id": "PD12B-037", "brand": "SnapUp", "domain": "snapup.life", "to": "care@startronlife.com", "ts": "2026-11-12T10:35:03.137224"}
+{"id": "PD12B-038", "brand": "Probott", "domain": "probott.com", "to": "online.operations@probott.com", "ts": "2026-11-12T10:35:03.137229"}
+{"id": "PD12B-039", "brand": "Skergo", "domain": "skergo.com", "to": "support@skergo.com", "ts": "2026-11-12T10:35:03.137234"}
+{"id": "PD12B-040", "brand": "North Pole", "domain": "northpoleluggages.com", "to": "info@northpoleluggages.com", "ts": "2026-11-12T10:35:03.137237"}
+{"id": "PD12B-041", "brand": "Nirvana Hammocks", "domain": "nirvanahammocks.com", "to": "marketing@nirvanahammocks.com", "ts": "2026-11-12T10:35:03.137241"}
+{"id": "PD12B-042", "brand": "Arctic Fox", "domain": "arcticfox.com", "to": "customercare@arcticfox.com", "ts": "2026-11-12T10:35:03.137269"}
+{"id": "PD12B-043", "brand": "Harissons", "domain": "harissonsbags.com", "to": "customercare@harissonsbags.com", "ts": "2026-11-12T10:35:03.155709"}
+{"id": "PD12B-044", "brand": "For the love of Dog", "domain": "fortheloveofdog.co.in", "to": "hello@fortheloveofdog.co.in", "ts": "2026-11-12T10:35:03.155815"}
+{"id": "PD12A-041", "brand": "The Little K Company", "domain": "littlek.ca", "to": "hello@littlek.ca", "ts": "2026-11-12T10:35:12.824420"}
+{"id": "PD12A-042", "brand": "Kelmatt Outdoor Gear", "domain": "kelmatt.com.au", "to": "sales@kelmatt.com.au", "ts": "2026-11-12T10:35:12.824466"}
+{"id": "PD12A-043", "brand": "TEGAL", "domain": "tegal.com.au", "to": "admin@tegal.com.au", "ts": "2026-11-12T10:35:12.824480"}
+{"id": "PD12A-044", "brand": "Beep Bells", "domain": "beepbells.com.au", "to": "hello@beepbells.com", "ts": "2026-11-12T10:35:12.824489"}
+{"id": "PD12A-045", "brand": "Bow Wow Boutique NZ", "domain": "bowwowboutique.co.nz", "to": "info@bowwowboutique.co.nz", "ts": "2026-11-12T10:35:12.824497"}
+{"id": "PD12A-046", "brand": "The Nappy Society", "domain": "thenappysociety.com.au", "to": "hello@thenappysociety.com.au", "ts": "2026-11-12T10:35:12.824503"}
+{"id": "PD12A-047", "brand": "PK9 Gear", "domain": "pk9gear.com.au", "to": "support@pk9gear.com.au", "ts": "2026-11-12T10:35:12.824510"}
+{"id": "PD12A-048", "brand": "The Aussie Pal", "domain": "theaussiepal.com.au", "to": "hey@theaussiepal.com.au", "ts": "2026-11-12T10:35:12.824516"}
+{"id": "PD12A-049", "brand": "Nomad Australia", "domain": "nomadaustralia.com.au", "to": "info@nomadaustralia.com.au", "ts": "2026-11-12T10:35:12.824522"}
+{"id": "PD12A-050", "brand": "Dokitti", "domain": "dokitti.com", "to": "customercare@dokitti.com", "ts": "2026-11-12T10:35:12.824528"}
+{"id": "PD12A-051", "brand": "Gobinkies", "domain": "gobinkies.com", "to": "info@gobinkies.com", "ts": "2026-11-12T10:35:35.200838"}
+{"id": "PD12A-052", "brand": "Pawsindia", "domain": "pawsindia.com", "to": "contact@pawsindia.com", "ts": "2026-11-12T10:35:35.200869"}
+{"id": "PD12A-053", "brand": "BearHugs", "domain": "bearhugsofficial.com", "to": "info@bearhugsofficial.com", "ts": "2026-11-12T10:35:35.200879"}
+{"id": "PD12A-054", "brand": "Kosha Yoga Co.", "domain": "koshayoga.co", "to": "info@koshayoga.co", "ts": "2026-11-12T10:35:35.200885"}
+{"id": "PD12A-055", "brand": "Twin Birds", "domain": "mytwinbirds.com", "to": "enquiry@mytwinbirds.com", "ts": "2026-11-12T10:35:35.200890"}
+{"id": "PD12A-056", "brand": "HomeMate", "domain": "homemate.co.in", "to": "support@homemate.co.in", "ts": "2026-11-12T10:35:35.200906"}
+{"id": "PD12A-057", "brand": "DuraPaw", "domain": "durapaw.ca", "to": "hello@durapaw.ca", "ts": "2026-11-12T10:35:35.200911"}
+{"id": "PD12A-058", "brand": "Goo-eez", "domain": "gooeez.com", "to": "hello@gooeez.com", "ts": "2026-11-12T10:35:35.200914"}
+{"id": "PD12A-059", "brand": "Hugsmart Pet", "domain": "hugsmartpet.com", "to": "info@hugsmartpet.com", "ts": "2026-11-12T10:35:35.200918"}
+{"id": "PD12A-060", "brand": "BodyliteGear", "domain": "bodylitegear.com", "to": "info@bodylitegear.com", "ts": "2026-11-12T10:35:35.200921"}
+{"id": "PD12C-041", "brand": "Project PARGO", "domain": "projectpargo.com", "to": "hello@projectpargo.com", "ts": "2026-11-12T10:35:48.928995"}
+{"id": "PD12C-042", "brand": "HeyDoodle", "domain": "heydoodle.com.au", "to": "hello@heydoodle.com.au", "ts": "2026-11-12T10:35:48.929032"}
+{"id": "PD12C-043", "brand": "Cup O Flora", "domain": "cupoflora.com", "to": "info@cupoflora.com", "ts": "2026-11-12T10:35:48.929044"}
+{"id": "PD12C-044", "brand": "Mr Bob Puzzles", "domain": "mrbobpuzzles.com.au", "to": "admin@mrbobpuzzles.com.au", "ts": "2026-11-12T10:35:48.929050"}
+{"id": "PD12C-045", "brand": "Mapley", "domain": "mapley.com.au", "to": "hello@mapley.com.au", "ts": "2026-11-12T10:35:48.929055"}
+{"id": "PD12C-046", "brand": "Mariska", "domain": "mariska.com.au", "to": "hello@mariska.com.au", "ts": "2026-11-12T10:35:48.929060", "bounced": true}
+{"id": "PD12C-047", "brand": "Tail Living", "domain": "tailliving.com", "to": "info@tailliving.com", "ts": "2026-11-12T10:35:48.929064"}
+{"id": "PD12C-048", "brand": "North Aura", "domain": "northaura.se", "to": "hey@northaura.se", "ts": "2026-11-12T10:35:48.929068"}
+{"id": "PD12C-049", "brand": "Ateljé", "domain": "shopatelje.com", "to": "info@shopatelje.com", "ts": "2026-11-12T10:35:48.929073"}
+{"id": "PD12C-050", "brand": "Philbert Design", "domain": "philbert.design", "to": "info@philbert.design", "ts": "2026-11-12T10:35:48.929077"}
+{"id": "PD12C-051", "brand": "Kartotek Copenhagen", "domain": "kartotekcopenhagen.com", "to": "webshop@kartotekcopenhagen.dk", "ts": "2026-11-12T10:35:48.949879"}
+{"id": "PD12C-052", "brand": "TEGO", "domain": "tego.fit", "to": "cs@tego.fit", "ts": "2026-11-12T10:35:48.949904"}
+{"id": "PD12C-053", "brand": "Permo", "domain": "permo.in", "to": "support@permo.in", "ts": "2026-11-12T10:36:06.282871"}
+{"id": "PD12C-054", "brand": "Bionmart", "domain": "bionmart.in", "to": "support@bionmart.in", "ts": "2026-11-12T10:36:06.282903"}
+{"id": "PD12C-055", "brand": "YogaKargha", "domain": "yogakargha.com", "to": "support@yogakargha.com", "ts": "2026-11-12T10:36:06.282913", "bounced": true}
+{"id": "PD12C-056", "brand": "GRIP", "domain": "gripyoga.com", "to": "info@gripinternational.in", "ts": "2026-11-12T10:36:06.282918"}
+{"id": "PD12C-057", "brand": "Brainsmith", "domain": "brainsmith.in", "to": "info@brainsmith.in", "ts": "2026-11-12T10:36:06.282922"}
+{"id": "PD12C-058", "brand": "toyroom", "domain": "toyroom.in", "to": "info@toyroom.in", "ts": "2026-11-12T10:36:06.282926", "bounced": true}
+{"id": "PD12C-059", "brand": "PlayBox", "domain": "playboxindia.com", "to": "hello@playboxindia.com", "ts": "2026-11-12T10:36:06.282929"}
+{"id": "PD12C-060", "brand": "Ansoz", "domain": "ansoz.com", "to": "contact@ansoz.com", "ts": "2026-11-12T10:36:06.282932"}
+{"id": "PD12C-061", "brand": "Black Magnum", "domain": "blackmagnum.in", "to": "sales@blackmagnum.in", "ts": "2026-11-12T10:36:06.282936"}
+{"id": "PD12D-047", "brand": "Elitepet Design", "domain": "elitepet.com.br", "to": "contato@elitepet.com.br", "ts": "2026-11-12T10:36:15.222849"}
+{"id": "PD12D-048", "brand": "Luppet", "domain": "luppetshop.com.br", "to": "atendimento@luppet.com.br", "ts": "2026-11-12T10:36:15.222894"}
+{"id": "PD12D-049", "brand": "Mimos Baby Store", "domain": "mimosbabystore.com.br", "to": "contato@mimosbabystore.com.br", "ts": "2026-11-12T10:36:15.222904"}
+{"id": "PD12D-050", "brand": "Éttore Decor", "domain": "ettoredecor.com.br", "to": "suporte@ettoredecor.com.br", "ts": "2026-11-12T10:36:15.222909"}
+{"id": "PD12D-051", "brand": "Blackdrop Coffee", "domain": "blackdrop.cl", "to": "hola@blackdrop.cl", "ts": "2026-11-12T10:36:15.222912"}
+{"id": "PD12D-052", "brand": "Wood Toys", "domain": "woodtoys.com.br", "to": "contato@woodtoys.com.br", "ts": "2026-11-12T10:36:15.222916"}
+{"id": "PD12D-053", "brand": "Bambalalão Brinquedos", "domain": "bambalalaobrinquedos.com.br", "to": "contato@bambalalaobrinquedos.com.br", "ts": "2026-11-12T10:36:15.222919"}
+{"id": "PD12D-054", "brand": "Trompolin Didáctico", "domain": "trompolin.com.ar", "to": "info@trompolin.com.ar", "ts": "2026-11-12T10:36:15.222922"}
+{"id": "PD12D-055", "brand": "Etical", "domain": "etical.pe", "to": "hola@etical.pe", "ts": "2026-11-12T10:36:15.222926"}
+{"id": "PD12D-056", "brand": "Paws Chile", "domain": "pawschile.com", "to": "hola@pawschile.com", "ts": "2026-11-12T10:36:15.222929"}
+{"id": "PD12B-045", "brand": "Kettlogue", "domain": "kettlogue.com", "to": "info@kettlogue.com", "ts": "2026-11-12T10:36:24.114582"}
+{"id": "PD12B-046", "brand": "FibReel", "domain": "fibreel.com", "to": "sales@fibreel.com", "ts": "2026-11-12T10:36:24.114631"}
+{"id": "PD12B-047", "brand": "Slicy", "domain": "slicy-products.com", "to": "contact@slicy-products.com", "ts": "2026-11-12T10:36:24.114646"}
+{"id": "PD12B-048", "brand": "La Manufacture de Digoin", "domain": "manufacturededigoin.com", "to": "direction@manufacturededigoin.com", "ts": "2026-11-12T10:36:24.114655"}
+{"id": "PD12B-049", "brand": "Cocktail Games", "domain": "cocktailgames.com", "to": "info@cocktailgames.com", "ts": "2026-11-12T10:36:24.114662"}
+{"id": "PD12B-050", "brand": "BLAM! Edition", "domain": "blam-edition.com", "to": "contact@blam-edition.com", "ts": "2026-11-12T10:36:24.114669"}
+{"id": "PD12B-051", "brand": "Hector Saxe Paris", "domain": "hectorsaxeparis.com", "to": "contact@hectorsaxeparis.com", "ts": "2026-11-12T10:36:24.114675"}
+{"id": "PD12B-052", "brand": "Petit Jour Paris", "domain": "petitjour.com", "to": "welcome@petitjour.com", "ts": "2026-11-12T10:36:24.114681"}
+{"id": "PD12B-053", "brand": "Wiplii", "domain": "wiplii.com", "to": "contact@wiplii.com", "ts": "2026-11-12T10:36:39.036860"}
+{"id": "PD12B-054", "brand": "Elémenterre", "domain": "elementerre.fr", "to": "info@elementerre.fr", "ts": "2026-11-12T10:36:39.036896"}
+{"id": "PD12B-059", "brand": "iskn", "domain": "iskn.co", "to": "contact@iskn.co", "ts": "2026-11-12T10:36:39.036907"}
+{"id": "PD12B-060", "brand": "GYL", "domain": "gylbag.com", "to": "sav@gylbag.com", "ts": "2026-11-12T10:36:39.036914"}
+{"id": "PD12B-055", "brand": "Tunez", "domain": "gotunez.com", "to": "cs@gotunez.com", "ts": "2026-11-12T10:36:39.036919"}
+{"id": "PD12D-057", "brand": "Pipitos", "domain": "pipitos.cl", "to": "contacto@pipitos.cl", "ts": "2026-11-12T10:36:53.434916"}
+{"id": "PD12D-058", "brand": "Cocó Bebé", "domain": "tiendacocobebe.cl", "to": "ventas@cocobebe.cl", "ts": "2026-11-12T10:36:53.434965"}
+{"id": "PD12D-059", "brand": "FrancisPet", "domain": "francispet.uy", "to": "info@francispet.uy", "ts": "2026-11-12T10:36:53.434982"}
+{"id": "PD12D-060", "brand": "Hualle", "domain": "hualle.cl", "to": "contacto@hualle.cl", "ts": "2026-11-12T10:36:53.434991"}
+{"id": "PD12D-061", "brand": "Casológica", "domain": "casologica.com.br", "to": "contato@casologica.com.br", "ts": "2026-11-12T10:36:53.434998"}
+{"id": "PD12D-062", "brand": "Lanco Pets", "domain": "lanco-pets.es", "to": "info@lanco-toys.es", "ts": "2026-11-12T10:36:53.435004"}
+{"id": "PD12D-063", "brand": "Oficina de Artesanato César", "domain": "oficinacesar.pt", "to": "info@oficinacesar.pt", "ts": "2026-11-12T10:36:53.435010"}
+{"id": "PD12D-064", "brand": "LoveandCork", "domain": "loveandcork.com", "to": "info@loveandcork.com", "ts": "2026-11-12T10:36:53.435015"}
+{"id": "PD12D-065", "brand": "Draco Ideas", "domain": "dracoideas.com", "to": "info@dracoideas.com", "ts": "2026-11-12T10:36:53.435021"}
+{"id": "PD12D-066", "brand": "Melmac Games", "domain": "melmacgames.com", "to": "info@melmacgames.com", "ts": "2026-11-12T10:36:53.435026"}
+{"id": "PD12A-061", "brand": "JRC Components", "domain": "jrc-components.com", "to": "info@jrc-components.com", "ts": "2026-11-12T10:36:53.507980"}
+{"id": "PD12A-062", "brand": "Swifter", "domain": "swifterstore.com", "to": "info@swifterstore.com", "ts": "2026-11-12T10:36:53.508021"}
+{"id": "PD12A-063", "brand": "Amiba", "domain": "amiba.shop", "to": "support@amiba.ca", "ts": "2026-11-12T10:36:53.508034"}
+{"id": "PD12A-064", "brand": "Gamer Gadgetry", "domain": "gamergadgetry.com", "to": "support@gamergadgetry.com", "ts": "2026-11-12T10:36:53.508041"}
+{"id": "PD12A-065", "brand": "Coastal Range Equipment", "domain": "thecoastrange.com", "to": "info@thecoastrange.com", "ts": "2026-11-12T10:36:53.508047"}
+{"id": "PD12A-066", "brand": "CatnipTakeout", "domain": "catniptakeout.com", "to": "contact@catniptakeout.com", "ts": "2026-11-12T10:36:53.508053"}
+{"id": "PD12A-067", "brand": "HuggleHounds", "domain": "hugglehounds.com", "to": "customerservice@hugglehounds.com", "ts": "2026-11-12T10:36:53.508058"}
+{"id": "PD12A-068", "brand": "Moonjax", "domain": "moonjax.com", "to": "info@moonjax.com", "ts": "2026-11-12T10:36:53.508064"}
+{"id": "PD12A-069", "brand": "FreeDog USA", "domain": "freedogusa.com", "to": "info@freedogusa.com", "ts": "2026-11-12T10:36:53.508068"}
+{"id": "PD12A-070", "brand": "Dog Meets Toy", "domain": "dogmeetstoy.com", "to": "customerservice@dogmeetstoy.com", "ts": "2026-11-12T10:36:53.508073"}
+{"id": "PD12A-071", "brand": "Andreas Silicone", "domain": "andreastrivets.com", "to": "info@andreastrivets.com", "ts": "2026-11-12T10:36:53.543462"}
+{"id": "PD12A-072", "brand": "HaiKitti", "domain": "haikitti.com", "to": "support@haikitti.com", "ts": "2026-11-12T10:37:12.146868"}
+{"id": "PD12A-073", "brand": "Let's Make Art", "domain": "letsmakeart.com", "to": "hello@letsmakeart.com", "ts": "2026-11-12T10:37:12.146895"}
+{"id": "PD12A-074", "brand": "Vaya Bags", "domain": "vayabags.com", "to": "info@vayabags.com", "ts": "2026-11-12T10:37:12.146904"}
+{"id": "PD12A-075", "brand": "Houndsy", "domain": "houndsy.com", "to": "hello@houndsy.com", "ts": "2026-11-12T10:37:12.146909"}
+{"id": "PD12A-076", "brand": "AveryDay", "domain": "averyday.co", "to": "hello@averyday.co", "ts": "2026-11-12T10:37:12.146913"}
+{"id": "PD12A-077", "brand": "TiRoam", "domain": "tiroam.com", "to": "support@tiroam.com", "ts": "2026-11-12T10:37:12.146916"}
+{"id": "PD12A-078", "brand": "Busy Baby", "domain": "busybabymat.com", "to": "support@busybaby.com", "ts": "2026-11-12T10:37:12.146919"}
+{"id": "PD12A-079", "brand": "Ali + Tings", "domain": "aliandtings.com", "to": "contact@aliandtings.com", "ts": "2026-11-12T10:37:12.146923"}
+{"id": "PD12C-062", "brand": "Pet Glam", "domain": "petglam.in", "to": "support@petglam.in", "ts": "2026-11-12T10:37:29.238338"}
+{"id": "PD12C-063", "brand": "PicassoTiles", "domain": "picassotiles.com", "to": "support@picassotiles.com", "ts": "2026-11-12T10:37:29.238379"}
+{"id": "PD12C-064", "brand": "ShredLights", "domain": "shredlights.com", "to": "support@shredlights.com", "ts": "2026-11-12T10:37:29.238391"}
+{"id": "PD12C-065", "brand": "Stim Me Flex", "domain": "stimmeflex.com", "to": "info@stimmeflex.com", "ts": "2026-11-12T10:37:29.238397"}
+{"id": "PD12C-066", "brand": "LighterBro", "domain": "lighterbro.com", "to": "support@lighterbro.com", "ts": "2026-11-12T10:37:29.238401"}
+{"id": "PD12C-067", "brand": "Barillio", "domain": "barillio-barware.com", "to": "info@barillio-barware.com", "ts": "2026-11-12T10:37:29.238406"}
+{"id": "PD12C-068", "brand": "Griffin Pocket Tool", "domain": "griffinpockettool.com", "to": "info@griffinpockettool.com", "ts": "2026-11-12T10:37:29.238411"}
+{"id": "PD12C-069", "brand": "Carve Design", "domain": "geekey.com", "to": "info@geekey.com", "ts": "2026-11-12T10:37:29.238415"}
+{"id": "PD12C-070", "brand": "UEndure", "domain": "uendure.com", "to": "support@uendure.com", "ts": "2026-11-12T10:37:29.238419"}
+{"id": "PD12C-071", "brand": "ReTrak", "domain": "myretrak.com", "to": "support@myretrak.com", "ts": "2026-11-12T10:37:29.238423"}
+{"id": "PD12C-072", "brand": "MoosePacks", "domain": "moosepacks.com", "to": "info@moosepacks.com", "ts": "2026-11-12T10:37:29.266134"}
+{"id": "PD12C-073", "brand": "Revelate Designs", "domain": "revelatedesigns.com", "to": "info@revelatedesigns.com", "ts": "2026-11-12T10:37:38.862293"}
+{"id": "PD12C-074", "brand": "HandleStash", "domain": "handlestash.com", "to": "support@handlestash.com", "ts": "2026-11-12T10:37:38.862367"}
+{"id": "PD12C-075", "brand": "North St. Bags", "domain": "northstbags.com", "to": "customerservice@northstbags.com", "ts": "2026-11-12T10:37:38.862377"}
+{"id": "PD12C-076", "brand": "Boxie", "domain": "boxiecat.com", "to": "hello@boxiecat.com", "ts": "2026-11-12T10:37:38.862382"}
+{"id": "PD12C-077", "brand": "PupPod", "domain": "puppod.com", "to": "support@puppod.com", "ts": "2026-11-12T10:37:38.862386"}
+{"id": "PD12C-078", "brand": "Dice Throne", "domain": "dicethrone.com", "to": "media@dicethrone.com", "ts": "2026-11-12T10:37:38.862390"}
+{"id": "PD12C-079", "brand": "Renegade Game Studios", "domain": "renegadegames.com", "to": "customerservice@renegadegames.com", "ts": "2026-11-12T10:37:38.862393"}
+{"id": "PD12C-080", "brand": "Plus-Plus USA", "domain": "plusplususa.com", "to": "shop@plus-plus.us", "ts": "2026-11-12T10:37:38.862396"}
+{"id": "PD12C-081", "brand": "Arcane Wonders", "domain": "arcanewonders.com", "to": "customerservice@arcanewonders.com", "ts": "2026-11-12T10:37:38.862399"}
+{"id": "PD12C-082", "brand": "Aquapaw", "domain": "aquapaw.com", "to": "mail@aquapaw.com", "ts": "2026-11-12T10:37:38.862402"}
+{"id": "PD12B-056", "brand": "Smartflick", "domain": "smartflick.in", "to": "support@smartflick.in", "ts": "2026-11-12T10:38:01.176730"}
+{"id": "PD12B-057", "brand": "Sault", "domain": "sault.in", "to": "care@sault.in", "ts": "2026-11-12T10:38:01.176791", "bounced": true}
+{"id": "PD12B-058", "brand": "Conekt Gadgets", "domain": "conekt.in", "to": "support@conekt.in", "ts": "2026-11-12T10:38:01.176806"}
+{"id": "PD12B-061", "brand": "Puppy Dog Shop", "domain": "puppydogshop.es", "to": "info@puppydogshop.es", "ts": "2026-11-12T10:38:01.176815"}
+{"id": "PD12B-062", "brand": "Belka", "domain": "belkaperro.com", "to": "info@belkaperro.com", "ts": "2026-11-12T10:38:01.176822"}
+{"id": "PD12B-063", "brand": "Welpe", "domain": "welpeshop.com", "to": "hola@welpeshop.com", "ts": "2026-11-12T10:38:01.176828"}
+{"id": "PD12B-064", "brand": "Caninetto", "domain": "caninetto.es", "to": "contacto@caninetto.es", "ts": "2026-11-12T10:38:01.176833"}
+{"id": "PD12B-065", "brand": "Magnetolab", "domain": "magnetolab.it", "to": "info@magnetolab.it", "ts": "2026-11-12T10:38:01.176839"}
+{"id": "PD12B-066", "brand": "Lorenzi Milano", "domain": "lorenzi-milano.com", "to": "info@lorenzi-milano.com", "ts": "2026-11-12T10:38:01.176845"}
+{"id": "PD12A-081", "brand": "ChooBee", "domain": "choobeedog.com", "to": "info@choobeedog.com", "ts": "2026-11-12T10:38:05.593824"}
+{"id": "PD12A-082", "brand": "Knots of Fun", "domain": "happyhandshappydogs.com", "to": "info@happyhandshappydogs.com", "ts": "2026-11-12T10:38:05.593858"}
+{"id": "PD12A-083", "brand": "resinwood.art", "domain": "resinwood.art", "to": "contact@resinwood.art", "ts": "2026-11-12T10:38:05.593868"}
+{"id": "PD12A-084", "brand": "Pawezy", "domain": "pawezy.com.au", "to": "support@pawezy.com.au", "ts": "2026-11-12T10:38:05.593874"}
+{"id": "PD12A-085", "brand": "PUPSTYLE", "domain": "pupstylestore.com.au", "to": "woof@pupstylestore.com", "ts": "2026-11-12T10:38:05.593879"}
+{"id": "PD12A-086", "brand": "EzyDog", "domain": "ezydog.com.au", "to": "enquiries@ezydog.com.au", "ts": "2026-11-12T10:38:05.593883"}
+{"id": "PD12A-087", "brand": "Meomari", "domain": "meomari.com", "to": "boutique@meomari.com", "ts": "2026-11-12T10:38:05.593887"}
+{"id": "PD12A-088", "brand": "Miracle Toys", "domain": "miracletoys.co.nz", "to": "info@miracletoys.co.nz", "ts": "2026-11-12T10:38:05.593891"}
+{"id": "PD12A-089", "brand": "The Little Guy", "domain": "lovethelittleguy.com", "to": "sales@lovethelittleguy.com", "ts": "2026-11-12T10:38:05.593895"}
+{"id": "PD12A-090", "brand": "Blissful Little Home", "domain": "blissfullittlehome.com.au", "to": "hello@blissfullittlehome.com.au", "ts": "2026-11-12T10:38:05.593899"}
+{"id": "PD12A-091", "brand": "Meow and Paw", "domain": "meowandpaw.com", "to": "support@meowandpaw.com", "ts": "2026-11-12T10:38:05.622840"}
+{"id": "PD12A-092", "brand": "Paws and Willow", "domain": "pawsandwillow.com.au", "to": "sales@pawsandwillow.com.au", "ts": "2026-11-12T10:38:05.622880"}
+{"id": "PD12A-093", "brand": "Lily & George", "domain": "lilyandgeorge.com.au", "to": "shop@lilyandgeorge.com.au", "ts": "2026-11-12T10:38:05.622893"}
+{"id": "PD12D-067", "brand": "Eclipse Editorial", "domain": "eclipseeditorial.com", "to": "eclipse@eclipseeditorial.com", "ts": "2026-11-12T10:38:09.791537"}
+{"id": "PD12D-068", "brand": "Abbagames", "domain": "abbagames.com", "to": "info@abbagames.com", "ts": "2026-11-12T10:38:09.791570"}
+{"id": "PD12D-069", "brand": "Morso", "domain": "morsoworld.com", "to": "info@morsoworld.com", "ts": "2026-11-12T10:38:09.791581"}
+{"id": "PD12D-070", "brand": "Pettyitalia", "domain": "pettyitalia.com", "to": "info@pettyitalia.com", "ts": "2026-11-12T10:38:09.791587"}
+{"id": "PD12D-071", "brand": "Pet Chérie", "domain": "petcherie.it", "to": "info@petcherie.it", "ts": "2026-11-12T10:38:09.791592"}
+{"id": "PD12D-072", "brand": "DEBARRO", "domain": "debarro.pt", "to": "info@debarro.pt", "ts": "2026-11-12T10:38:09.791596"}
+{"id": "PD12D-073", "brand": "Flairpet", "domain": "flairpet.com", "to": "info@flairpet.com", "ts": "2026-11-12T10:38:09.791600"}
+{"id": "PD12D-074", "brand": "Labilla", "domain": "labilla.com", "to": "info@labilla.com", "ts": "2026-11-12T10:38:09.791604"}
+{"id": "PD12D-075", "brand": "MALÜ Pet Wear", "domain": "malupetwear.pt", "to": "info@malupetwear.pt", "ts": "2026-11-12T10:38:09.791608"}
+{"id": "PD12D-076", "brand": "Foffiny", "domain": "foffiny.com", "to": "info@foffiny.pt", "ts": "2026-11-12T10:38:09.791612"}
+{"id": "PD12B-067", "brand": "Kalko", "domain": "kalko.gr", "to": "kalko@kalko.gr", "ts": "2026-11-12T10:38:11.750055"}
+{"id": "PD12B-068", "brand": "Light Cookie", "domain": "lightcookie.com", "to": "hello@lightcookie.com", "ts": "2026-11-12T10:38:11.750085"}
+{"id": "PD12B-069", "brand": "Mini Trees", "domain": "minitrees.gr", "to": "info@minitrees.gr", "ts": "2026-11-12T10:38:11.750094"}
+{"id": "PD12B-070", "brand": "Habitar las Formas", "domain": "habitarlasformas.com", "to": "info@habitarlasformas.com", "ts": "2026-11-12T10:38:11.750099"}
+{"id": "PD12B-071", "brand": "Lica Sport", "domain": "licasport.com", "to": "info@licasport.com", "ts": "2026-11-12T10:38:11.750102"}
+{"id": "PD12B-072", "brand": "Lusi Doog", "domain": "lusidoog.com", "to": "info@lusidoog.com", "ts": "2026-11-12T10:38:11.750106"}
+{"id": "PD12B-073", "brand": "Nature's Cork", "domain": "naturescork.com", "to": "hello@naturescork.com", "ts": "2026-11-12T10:38:11.750109"}
+{"id": "PD12B-074", "brand": "PaperCat", "domain": "papercatdesign.com", "to": "hello@papercatdesign.com", "ts": "2026-11-12T10:38:11.750112"}
+{"id": "PD12B-075", "brand": "Dear Pet Co", "domain": "dearpet.co.za", "to": "info@dearpet.co.za", "ts": "2026-11-12T10:38:11.750115"}
+{"id": "PD12B-076", "brand": "Gear4Gear", "domain": "gear4gear.co.za", "to": "info@gear4gear.co.za", "ts": "2026-11-12T10:38:11.750118"}
+{"id": "PD12C-083", "brand": "Snowbright Studio", "domain": "snowbrightstudio.com", "to": "contact@snowbrightstudio.com", "ts": "2026-11-12T10:38:25.354739"}
+{"id": "PD12C-084", "brand": "Uzzle", "domain": "theuzzle.com", "to": "help@theuzzle.com", "ts": "2026-11-12T10:38:25.354767"}
+{"id": "PD12C-085", "brand": "Lilly Brush", "domain": "lillybrush.com", "to": "sales@lillybrush.com", "ts": "2026-11-12T10:38:25.354776"}
+{"id": "PD12C-086", "brand": "Rascat", "domain": "rascadoresrascat.com.ar", "to": "info@rascadoresrascat.com.ar", "ts": "2026-11-12T10:38:25.354781"}
+{"id": "PD12C-087", "brand": "Atakama Outdoor", "domain": "atakamaoutdoor.cl", "to": "hola@atakamaoutdoor.cl", "ts": "2026-11-12T10:38:25.354785"}
+{"id": "PD12C-088", "brand": "Botéo", "domain": "boteo.mx", "to": "teofrasto@boteo.mx", "ts": "2026-11-12T10:38:25.354789"}
+{"id": "PD12C-089", "brand": "Freshwater Game Company", "domain": "freshwatergameco.com", "to": "info@freshwatergameco.com", "ts": "2026-11-12T10:38:25.354792", "bounced": true}
+{"id": "PD12C-090", "brand": "Cat Claws", "domain": "catclaws.com", "to": "meow@catclaws.com", "ts": "2026-11-12T10:38:25.354796"}
+{"id": "PD12C-091", "brand": "Iron Hippo Games", "domain": "ironhippo.com", "to": "info@ironhippo.com", "ts": "2026-11-12T10:38:25.354799"}
+{"id": "PD12C-092", "brand": "Botella", "domain": "botella.my", "to": "support@botella.my", "ts": "2026-11-12T10:38:25.354802"}
+{"id": "PD12D-077", "brand": "Macrocamping", "domain": "macrocamping.pt", "to": "macrocamping@armindo.pt", "ts": "2026-11-12T10:38:48.282244"}
+{"id": "PD12D-078", "brand": "Warm and wood", "domain": "warmandwood.com", "to": "info@warmandwood.com", "ts": "2026-11-12T10:38:48.282292"}
+{"id": "PD12D-079", "brand": "il Leccio", "domain": "illeccio.com", "to": "info@illeccio.com", "ts": "2026-11-12T10:38:48.282313"}
+{"id": "PD12D-080", "brand": "Quercetti", "domain": "quercetti.it", "to": "servizioclienti@quercetti.it", "ts": "2026-11-12T10:38:48.282352"}
+{"id": "PD12D-081", "brand": "Undigital Atelier", "domain": "undigitalatelier.com", "to": "info@undigitalatelier.com", "ts": "2026-11-12T10:38:48.282363"}
+{"id": "PD12D-082", "brand": "Tabula Games", "domain": "tabula.games", "to": "contact@tabula.games", "ts": "2026-11-12T10:38:48.282369", "bounced": true}
+{"id": "PD12D-083", "brand": "doit games", "domain": "doitgames.com", "to": "info@doitgames.com", "ts": "2026-11-12T10:38:48.282374"}
+{"id": "PD12D-084", "brand": "Demoela", "domain": "demoela.com", "to": "info@demoela.com", "ts": "2026-11-12T10:38:48.282380"}
+{"id": "PD12D-085", "brand": "Red Mojo Games", "domain": "redmojo.es", "to": "info@redmojo.es", "ts": "2026-11-12T10:38:48.282392"}
+{"id": "PD12D-086", "brand": "AlienS games", "domain": "aliensgames.es", "to": "info@aliensgames.es", "ts": "2026-11-12T10:38:48.282401"}
+{"id": "PD12B-077", "brand": "MRIYA", "domain": "mriyahomes.com", "to": "info@mriyahomes.com", "ts": "2026-11-12T10:39:23.203203"}
+{"id": "PD12B-078", "brand": "Blondi", "domain": "blondi.com.ar", "to": "info@blondi.com.ar", "ts": "2026-11-12T10:39:23.203233"}
+{"id": "PD12B-079", "brand": "Woow Guau", "domain": "woowguau.mx", "to": "atencionaclientes@woowguau.mx", "ts": "2026-11-12T10:39:23.203242"}
+{"id": "PD12B-080", "brand": "Colheradas de Amor", "domain": "lojacolheradasdeamor.com.br", "to": "contato@lojacolheradasdeamor.com.br", "ts": "2026-11-12T10:39:23.203247"}
+{"id": "PD12B-081", "brand": "Global Alumínio", "domain": "globalaluminio.com", "to": "global@globalaluminio.com", "ts": "2026-11-12T10:39:23.203251"}
+{"id": "PD12B-082", "brand": "Ame Cozinha", "domain": "amecozinha.com.br", "to": "contato@amecozinha.com.br", "ts": "2026-11-12T10:39:23.203254"}
+{"id": "PD12B-083", "brand": "Nalush", "domain": "nalush.com.br", "to": "contato@nalush.com.br", "ts": "2026-11-12T10:39:23.203258"}
+{"id": "PD12B-084", "brand": "Loop Baby", "domain": "loopbaby.cl", "to": "contacto@loopbaby.cl", "ts": "2026-11-12T10:39:23.203261"}
+{"id": "PD12B-085", "brand": "Molvu", "domain": "molvu.com.gt", "to": "servicioalcliente@molvu.com", "ts": "2026-11-12T10:39:23.203264"}
+{"id": "PD12B-086", "brand": "Redlemon", "domain": "redlemon.com.mx", "to": "ventas@redlemon.com.mx", "ts": "2026-11-12T10:39:23.203267"}
+{"id": "PD12D-087", "brand": "APE Games", "domain": "apegames.com", "to": "info@apegames.com", "ts": "2026-11-12T10:39:30.188892"}
+{"id": "PD12D-088", "brand": "FISURA", "domain": "fisura.com", "to": "online@fisura.com", "ts": "2026-11-12T10:39:30.188930"}
+{"id": "PD12D-089", "brand": "Companhia Atlântica", "domain": "companhiaatlantica.pt", "to": "info@companhiaatlantica.pt", "ts": "2026-11-12T10:39:30.188941"}
+{"id": "PD12D-090", "brand": "dESIGNoBJECT", "domain": "designobject.it", "to": "info@designobject.it", "ts": "2026-11-12T10:39:30.188948"}
+{"id": "PD12D-091", "brand": "Doolkin", "domain": "doolkin.com", "to": "info@doolkin.com", "ts": "2026-11-12T10:39:30.188952"}
+{"id": "PD12D-092", "brand": "GOBAGS", "domain": "gobags.us", "to": "hello@gobags.us", "ts": "2026-11-12T10:39:30.188956"}
+{"id": "PD12B-087", "brand": "Valeska", "domain": "valeska.com.pe", "to": "ventas@valeska.com.pe", "ts": "2026-11-12T10:39:31.695371"}
+{"id": "PD12B-088", "brand": "BossCamp", "domain": "bosscamp.cl", "to": "tienda@ibyk.cl", "ts": "2026-11-12T10:39:31.695417"}
+{"id": "PD12B-089", "brand": "AM Mascotas", "domain": "ammascotas.com", "to": "almacen@ammascotas.com", "ts": "2026-11-12T10:39:31.695430"}
+{"id": "PD12B-090", "brand": "Arom 3D", "domain": "arom3d.com", "to": "hello@arom3d.com", "ts": "2026-11-12T10:39:31.695438"}
+{"id": "PD12B-091", "brand": "Astrelia", "domain": "astrelia.mx", "to": "hola@astrelia.mx", "ts": "2026-11-12T10:39:31.695444"}
+{"id": "PD12B-092", "brand": "TUIO", "domain": "tuio.mx", "to": "contacto@tuio.mx", "ts": "2026-11-12T10:39:31.695450"}
+{"id": "PD12B-093", "brand": "Blok 3D", "domain": "blok3d.cl", "to": "hola@blok3d.cl", "ts": "2026-11-12T10:39:31.695455"}

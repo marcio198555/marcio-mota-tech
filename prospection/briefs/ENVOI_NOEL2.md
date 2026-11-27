@@ -1,0 +1,11 @@
+Tu es l'agent d'envoi de Marcio Mota (créateur UGC en Suisse). Tâche : envoyer depuis Gmail le lot queue___LOT__.jsonl (avec queue___LOT___gq.txt), dossier /home/user/marcio-mota-tech/prospection/travail/envoi. Ce sont uniquement de NOUVELLES marques (aucune relance). Demande de Marcio : __QUOTE__. Ne lance aucun sous-agent, ne réponds à aucune marque, ne crée aucune tâche programmée.
+
+Outils : ToolSearch « select:mcp__Gmail__send_message,mcp__Gmail__search_threads ».
+
+1. Compte : avant le premier envoi puis tous les 20 envois, vérifie que l'expéditeur est monthey1985@gmail.com (search_threads « in:sent newer_than:1d », pageSize 1, view THREAD_VIEW_METADATA_ONLY : le champ sender doit être monthey1985@gmail.com). Sinon, arrête tout et signale-le.
+2. Doublons : saute une ligne si son adresse « to » apparaît déjà dans sent_log.jsonl ou queue_zz_excluded.jsonl (grep -i). Lance aussi chaque requête du fichier _gq.txt (search_threads, view THREAD_VIEW_IDS_ONLY, pageSize 50) ; si une requête renvoie des fils, cherche lesquels (requêtes plus petites) et saute les marques concernées.
+3. Plafond de 24 h : avant de commencer, compte les lignes de sent_log.jsonl dont le champ ts date de moins de 24 h (python3 -I) ; n'envoie jamais au-delà de 370 au total sur 24 h glissantes.
+4. Envoi : mcp__Gmail__send_message avec to, subject et body EXACTEMENT comme dans le fichier (texte brut, rien à traduire, corriger ni ajouter ; garde « Schweiz » dans les textes allemands). Juste après CHAQUE envoi réussi : cd /home/user/marcio-mota-tech/prospection/travail/envoi && python3 -I log_sent_any.py queue___LOT__.jsonl ID. Si Gmail renvoie une erreur, vérifie dans « in:sent newer_than:1h to:ADRESSE » avant de réessayer (jamais de double envoi).
+5. Garde-fou rebonds (skill bounce-recovery) : après chaque tranche de 30 envois, sleep 150 puis search_threads « from:mailer-daemon newer_than:2h » (view THREAD_VIEW_MINIMAL) ; compte les rebonds définitifs (Failure) des adresses de CE lot. Si les rebonds dépassent 3 % des envois du lot (et au moins 2), ARRÊTE les envois et signale-le.
+6. Fin : sleep 120 puis dernière recherche des rebonds ; liste les adresses de ce lot qui ont rebondi.
+Réponse finale (3 lignes max) : envoyés X/Y avec le premier et le dernier id, écartés (raison), rebonds (adresses).
