@@ -1,0 +1,15 @@
+{
+ "job": "day100b",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Sous zéro sur les pistes. Toi, ton téléphone est dans la poche extérieure de ta veste.",
+   "file": "s01.wav",
+   "duration": 6.12,
+   "rate": 24000
+  }
+ ],
+ "total": 6.12
+}
