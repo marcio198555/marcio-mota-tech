@@ -685,6 +685,17 @@
    "caption": "Écran HDR 400 ou HDR 1000 : 2,5 fois plus de lumière, mais regarde le contraste minimum\n\nSelon les critères officiels du label VESA DisplayHDR (version 1.2, mai 2024) : un petit carré central doit atteindre au moins 400 cd/m² en HDR 400 et 1000 cd/m² en HDR 1000. Au test des deux coins blancs, le noir au centre ne doit pas dépasser 0,4 cd/m² en HDR 400 et 0,05 cd/m² en HDR 1000.\n\nContraste minimum sur une même image : 1 300 : 1 contre 30 000 : 1, et le HDR 1000 exige une gradation locale en deux dimensions. Ce sont des minimums : un écran certifié peut faire mieux, et un écran certifié avant 2024 a passé les anciens critères.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui choisit un écran pour le Black Friday.\n\n#ecranhdr #moniteur #gamer #suisseromande #jemesuretout",
    "statut": "en attente",
    "cta": "envoi"
+  },
+  {
+   "id": "day100",
+   "prevu": "2026-12-01T11:00",
+   "source": "autopilot jour 100",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795774756/tiktok-autopilot/reels/day100_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Téléphone au ski : poche extérieure ou intérieure, lequel s'éteint en premier ?\n\nApple conçoit l'iPhone pour une température ambiante entre 0 et 35 °C ; Samsung donne la même plage (0 à 35 °C) pour ses Galaxy. Dans un froid très fort, hors de cette plage, Apple prévient que l'autonomie peut baisser temporairement et que l'appareil peut s'éteindre ; elle redevient normale une fois au chaud.\n\nSamsung explique pourquoi : le froid fait chuter la tension de la batterie, et le téléphone peut s'éteindre même si l'écran affiche encore beaucoup de batterie (pages d'assistance Apple et Samsung).\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#ski #smartphone #batterie #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "cta": "abonnement",
+   "note": "cta selon la règle des jours impairs ; à ajuster si le bilan du 30.11 retient « envoi »"
   }
  ]
 }

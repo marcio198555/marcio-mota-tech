@@ -1,0 +1,21 @@
+{
+ "display": {
+  "s01": "Même capsule Nespresso Livanto. | Toi, tu la commandes en Suisse.",
+  "s02": "Ton collègue l'achète en France. | Qui paie son café le plus cher ?",
+  "s03": "À la fin : la capsule de trop, | celle qui fait payer la TVA.",
+  "s04": "Site suisse : 5.70 francs l'étui de 10. | 57 centimes la capsule.",
+  "s05": "Site français : 4,60 euros l'étui.",
+  "s06": "Au cours de la Banque nationale : | 4.20 francs.",
+  "s07": "Ton collègue paie chaque capsule | 15 centimes de moins. | Plus d'un quart moins cher.",
+  "s08": "Mais Nespresso France | ne livre qu'en France. | Il ramène donc son café lui-même.",
+  "s09": "À la frontière, pas de TVA suisse | jusqu'à 150 francs, | par personne et par jour, | sans compter la TVA française.",
+  "s10": "100 capsules : il paie 42 francs. | Toi, 57. | 15 francs d'écart.",
+  "s12": "Ton café, tu l'achètes où ? | Écris-le en commentaire.",
+  "s13": "Au-delà de 150 francs, | il paie la TVA suisse sur le tout. | Pour le café, 2,6 %.",
+  "s14": "La limite tombe à la 377e capsule. | 37 étuis passent, | le 38e fait payer.",
+  "s15": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
+ },
+ "title": "Même capsule Nespresso : Suisse ou France, qui paie le plus ?",
+ "slug": "nespresso-suisse-france",
+ "format": "V"
+}
