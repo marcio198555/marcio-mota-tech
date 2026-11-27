@@ -1,0 +1,113 @@
+{
+ "job": "day100",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Zéro degré sur les pistes. Toi, ton téléphone est dans la poche extérieure de ta veste.",
+   "file": "s01.wav",
+   "duration": 6.08,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue le garde dans sa poche intérieure, contre lui. Lequel s'éteint en premier ?",
+   "file": "s02.wav",
+   "duration": 6.48,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin : la phrase des fabricants qui explique pourquoi ton écran te ment.",
+   "file": "s03.wav",
+   "duration": 5.52,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Apple l'écrit : un aïe-fone est conçu pour une température ambiante entre zéro et trente-cinq degrés.",
+   "file": "s04.wav",
+   "duration": 6.72,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Samsung donne la même plage pour ses téléphones Galaxy : de zéro à trente-cinq degrés.",
+   "file": "s05.wav",
+   "duration": 5.92,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Sous zéro, ton téléphone sort de cette plage.",
+   "file": "s06.wav",
+   "duration": 3.72,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Apple prévient : dans un froid très fort, l'autonomie peut baisser pour un temps, et le téléphone peut s'éteindre.",
+   "file": "s07.wav",
+   "duration": 7.52,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Samsung explique pourquoi : le froid fait chuter la tension de la batterie.",
+   "file": "s08.wav",
+   "duration": 5.36,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Alors le téléphone se coupe, pour protéger ses composants.",
+   "file": "s09.wav",
+   "duration": 5.08,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Ton collègue garde le sien plus au chaud, contre son corps. Le tien risque de s'éteindre en premier.",
+   "file": "s10.wav",
+   "duration": 6.88,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Et s'il s'éteint, ce n'est pas fini : selon Apple, l'autonomie redevient normale une fois au chaud.",
+   "file": "s11.wav",
+   "duration": 6.44,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Mais trop froid, il peut refuser de charger. Laisse-le d'abord se réchauffer.",
+   "file": "s12.wav",
+   "duration": 4.96,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Ton téléphone, il voyage dans quelle poche ? Écris-le en commentaire.",
+   "file": "s13.wav",
+   "duration": 4.92,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "La phrase de Samsung : il peut s'éteindre, même si l'écran affiche encore beaucoup de batterie.",
+   "file": "s14.wav",
+   "duration": 6.76,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "file": "s15.wav",
+   "duration": 4.44,
+   "rate": 24000
+  }
+ ],
+ "total": 86.8
+}
