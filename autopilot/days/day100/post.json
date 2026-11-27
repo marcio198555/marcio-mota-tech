@@ -1,0 +1,17 @@
+{
+ "day": 100,
+ "title": "Téléphone au ski : poche extérieure ou intérieure ?",
+ "format": "V",
+ "recette": "Instagram 20.11",
+ "cover_ms": 1200,
+ "aigc": true,
+ "branded": false,
+ "video": "media/reels/day100_reel.mp4",
+ "voix": "tts/out/day100 sans s06, s09, s12 (retirés au montage) ; s01 remplacé par tts/out/day100c/s01 (« Sous zéro… », Whisper vérifié) ; SRC=studio/tts_sel, TGT=63",
+ "reel_instagram": {
+  "caption": "Téléphone au ski : poche extérieure ou intérieure, lequel s'éteint en premier ?\n\nApple conçoit l'iPhone pour une température ambiante entre 0 et 35 °C ; Samsung donne la même plage (0 à 35 °C) pour ses Galaxy. Dans un froid très fort, hors de cette plage, Apple prévient que l'autonomie peut baisser temporairement et que l'appareil peut s'éteindre ; elle redevient normale une fois au chaud.\n\nSamsung explique pourquoi : le froid fait chuter la tension de la batterie, et le téléphone peut s'éteindre même si l'écran affiche encore beaucoup de batterie (pages d'assistance Apple et Samsung).\n\nVoix de synthèse.\n\nAbonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.\n\n#ski #smartphone #batterie #suisseromande #jemesuretout",
+  "cta": "abonnement",
+  "statut": "en file (reels_queue.json, 01.12)"
+ },
+ "duree_s": 63.4
+}

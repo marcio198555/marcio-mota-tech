@@ -1,0 +1,89 @@
+{
+ "duration": 63.132,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Sous zéro sur les pistes. Toi, ton téléphone est dans la poche extérieure de ta veste.",
+   "start": 0.12,
+   "end": 5.166,
+   "display": "Sous zéro sur les pistes. | Toi, ton téléphone est | dans la poche extérieure | de ta veste."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue le garde dans sa poche intérieure, contre lui. Lequel s'éteint en premier ?",
+   "start": 5.266,
+   "end": 10.058,
+   "display": "Ton collègue le garde | dans sa poche intérieure, | contre lui. | Lequel s'éteint en premier ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin : la phrase des fabricants qui explique pourquoi ton écran te ment.",
+   "start": 10.158,
+   "end": 14.577,
+   "display": "À la fin : la phrase des fabricants | qui explique pourquoi ton écran te ment."
+  },
+  {
+   "id": "s04",
+   "text": "Apple l'écrit : un aïe-fone est conçu pour une température ambiante entre zéro et trente-cinq degrés.",
+   "start": 14.677,
+   "end": 20.518,
+   "display": "Apple l'écrit : un iPhone est conçu | pour une température ambiante | entre 0 et 35 °C."
+  },
+  {
+   "id": "s05",
+   "text": "Samsung donne la même plage pour ses téléphones Galaxy : de zéro à trente-cinq degrés.",
+   "start": 20.618,
+   "end": 25.832,
+   "display": "Samsung donne la même plage | pour ses téléphones Galaxy : | de 0 à 35 °C."
+  },
+  {
+   "id": "s07",
+   "text": "Apple prévient : dans un froid très fort, l'autonomie peut baisser pour un temps, et le téléphone peut s'éteindre.",
+   "start": 25.932,
+   "end": 32.34,
+   "display": "Apple prévient : dans un froid très fort, | l'autonomie peut baisser pour un temps, | et le téléphone peut s'éteindre."
+  },
+  {
+   "id": "s08",
+   "text": "Samsung explique pourquoi : le froid fait chuter la tension de la batterie.",
+   "start": 32.44,
+   "end": 36.95,
+   "display": "Samsung explique pourquoi : | le froid fait chuter | la tension de la batterie."
+  },
+  {
+   "id": "s10",
+   "text": "Ton collègue garde le sien plus au chaud, contre son corps. Le tien risque de s'éteindre en premier.",
+   "start": 37.05,
+   "end": 43.136,
+   "display": "Ton collègue garde le sien plus au chaud, | contre son corps. | Le tien risque de s'éteindre en premier."
+  },
+  {
+   "id": "s11",
+   "text": "Et s'il s'éteint, ce n'est pas fini : selon Apple, l'autonomie redevient normale une fois au chaud.",
+   "start": 43.236,
+   "end": 48.923,
+   "display": "Et s'il s'éteint, ce n'est pas fini : | selon Apple, l'autonomie redevient normale | une fois au chaud."
+  },
+  {
+   "id": "s13",
+   "text": "Ton téléphone, il voyage dans quelle poche ? Écris-le en commentaire.",
+   "start": 49.023,
+   "end": 53.034,
+   "display": "Ton téléphone, il voyage dans quelle poche ? | Écris-le en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "La phrase de Samsung : il peut s'éteindre, même si l'écran affiche encore beaucoup de batterie.",
+   "start": 53.134,
+   "end": 59.074,
+   "display": "La phrase de Samsung : il peut s'éteindre, | même si l'écran affiche | encore beaucoup de batterie."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "start": 59.174,
+   "end": 62.832,
+   "display": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
+  }
+ ]
+}
