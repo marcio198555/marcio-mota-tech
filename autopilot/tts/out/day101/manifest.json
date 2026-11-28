@@ -1,0 +1,113 @@
+{
+ "job": "day101",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même disque dur d'un téraoctet. Toi, ton PC Ouindoze affiche neuf cent trente et un gigaoctets.",
+   "file": "s01.wav",
+   "duration": 6.52,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue le branche sur son Mac : un téraoctet pile. Qui s'est fait avoir ?",
+   "file": "s02.wav",
+   "duration": 5.0,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin : sur un disque de vingt téraoctets, combien Ouindoze semble te voler.",
+   "file": "s03.wav",
+   "duration": 5.88,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "Sigate, le fabricant de disques, l'explique : la boîte compte en base dix.",
+   "file": "s04.wav",
+   "duration": 5.6,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Un gigaoctet, c'est un milliard d'octets. Un téraoctet, mille milliards.",
+   "file": "s05.wav",
+   "duration": 5.76,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Ouindoze, lui, compte en base deux. Son gigaoctet est environ sept pour cent plus gros.",
+   "file": "s06.wav",
+   "duration": 6.72,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Mille milliards d'octets, rangés dans ces gros gigaoctets : il en tient neuf cent trente et un.",
+   "file": "s07.wav",
+   "duration": 6.56,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "L'unité ne fait rien disparaître. C'est la même quantité, comptée autrement.",
+   "file": "s08.wav",
+   "duration": 5.68,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Sigate compare ça à une distance : en kilomètres ou en miles, le chemin ne change pas.",
+   "file": "s09.wav",
+   "duration": 6.24,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Et le Mac ? Apple affiche le stockage en base dix, comme sur la boîte.",
+   "file": "s10.wav",
+   "duration": 5.04,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Ton collègue n'a donc pas un octet de plus que toi. Personne ne s'est fait avoir.",
+   "file": "s11.wav",
+   "duration": 4.52,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Mais plus le disque est gros, plus l'écart à l'écran grandit.",
+   "file": "s12.wav",
+   "duration": 4.4,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Ton disque, il affiche combien ? Écris-le en commentaire.",
+   "file": "s13.wav",
+   "duration": 4.92,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Vingt téraoctets sur la boîte : Ouindoze affiche dix-huit virgule dix-huit. Presque deux téraoctets qui n'ont jamais manqué.",
+   "file": "s14.wav",
+   "duration": 8.68,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "file": "s15.wav",
+   "duration": 4.44,
+   "rate": 24000
+  }
+ ],
+ "total": 85.96
+}
