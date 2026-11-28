@@ -207,3 +207,5 @@ autopilot/vo/day102b_s01.wav
 autopilot/vo/day102b_s04.wav
 autopilot/vo/day102c_s01.wav
 autopilot/vo/day102c_s04.wav
+autopilot/vo/day101_vo2.wav
+autopilot/vo/day102_vo2.wav

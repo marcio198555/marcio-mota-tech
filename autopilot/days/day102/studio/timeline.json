@@ -1,81 +1,74 @@
 {
- "duration": 63.087,
+ "duration": 58.754,
  "segments": [
   {
    "id": "s01",
    "text": "Même chargeur Ankeur de soixante-cinq watts. Toi, tu y branches seulement ton ordinateur portable.",
    "start": 0.12,
-   "end": 5.748,
-   "display": "Même chargeur Anker de 65 W. | Toi, tu y branches seulement | ton ordinateur portable."
+   "end": 5.697,
+   "display": "Même chargeur de 65 W. | Toi, tu y branches seulement | ton ordinateur portable."
   },
   {
    "id": "s02",
    "text": "Ton collègue y ajoute son téléphone. Combien reste-t-il pour son ordinateur ?",
-   "start": 5.848,
-   "end": 10.634,
+   "start": 5.797,
+   "end": 10.788,
    "display": "Ton collègue y ajoute son téléphone. | Combien reste-t-il pour son ordinateur ?"
   },
   {
    "id": "s03",
    "text": "À la fin : les deux ports qui, ensemble, font perdre plus de la moitié de sa puissance à ce chargeur.",
-   "start": 10.734,
-   "end": 16.267,
+   "start": 10.888,
+   "end": 16.659,
    "display": "À la fin : les deux ports qui, ensemble, | font perdre plus de la moitié | de sa puissance à ce chargeur."
-  },
-  {
-   "id": "s04",
-   "text": "C'est le chargeur Ankeur sept cent trente-cinq, trois ports. Sa fiche officielle donne chaque cas.",
-   "start": 16.367,
-   "end": 22.687,
-   "display": "C'est le chargeur Anker 735, 3 ports. | Sa fiche officielle donne chaque cas."
   },
   {
    "id": "s05",
    "text": "Seul sur un port u-èss-bé cé, ton ordinateur peut recevoir jusqu'à soixante-cinq watts.",
-   "start": 22.787,
-   "end": 28.162,
+   "start": 16.759,
+   "end": 22.365,
    "display": "Seul sur un port USB-C, | ton ordinateur peut recevoir | jusqu'à 65 W."
   },
   {
    "id": "s06",
    "text": "Mais ces soixante-cinq watts, c'est pour tout le chargeur, pas pour chaque port.",
-   "start": 28.262,
-   "end": 32.337,
+   "start": 22.465,
+   "end": 26.715,
    "display": "Mais ces 65 W, | c'est pour tout le chargeur, | pas pour chaque port."
   },
   {
    "id": "s08",
    "text": "Le premier port tombe à quarante-cinq watts au maximum. Le deuxième, à vingt.",
-   "start": 32.437,
-   "end": 37.888,
+   "start": 26.815,
+   "end": 32.501,
    "display": "Le premier port tombe à 45 W au maximum. | Le deuxième, à 20."
   },
   {
    "id": "s12",
    "text": "Toi, tu gardes les soixante-cinq watts. Son ordinateur, avec moins, peut charger moins vite.",
-   "start": 37.988,
-   "end": 44.318,
+   "start": 32.601,
+   "end": 39.203,
    "display": "Toi, tu gardes les 65 W. | Son ordinateur, avec moins, | peut charger moins vite."
   },
   {
    "id": "s13",
    "text": "Et toi, tu branches combien d'appareils sur ton chargeur ? Écris-le en commentaire.",
-   "start": 44.418,
-   "end": 49.063,
+   "start": 39.303,
+   "end": 44.148,
    "display": "Et toi, tu branches combien d'appareils | sur ton chargeur ? | Écris-le en commentaire."
   },
   {
    "id": "s14",
    "text": "Le piège : le deuxième port u-èss-bé cé avec le port u-èss-bé a. Douze watts chacun : vingt-quatre en tout, sur un chargeur de soixante-cinq.",
-   "start": 49.163,
-   "end": 58.766,
+   "start": 44.248,
+   "end": 54.264,
    "display": "Le piège : le deuxième port USB-C | avec le port USB-A. | 12 W chacun : 24 en tout, | sur un chargeur de 65."
   },
   {
    "id": "s15",
    "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
-   "start": 58.866,
-   "end": 62.787,
+   "start": 54.364,
+   "end": 58.454,
    "display": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
   }
  ]

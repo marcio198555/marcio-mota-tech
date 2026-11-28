@@ -71,7 +71,7 @@
       line(ctx0, 'Anker 735 (Nano II) · 3 ports', 500, 1080, t, f('s04', 0.35), { size: 50, weight: 900, dx: 0 });
     }],
     ['s05', t => {
-      tag(ctx0, '1 SEUL APPAREIL', 500, 420, t, S('s05'), { size: 44, color: GREEN });
+      tag(ctx0, 'FICHE ANKER 735 (NANO II)', 500, 420, t, S('s05'), { size: 40, color: GOLD }); line(ctx0, '1 seul appareil', 500, 520, t, S('s05') + 0.2, { size: 46, weight: 900, color: GREEN, dx: 0 });
       charger(ctx0, 480, 760, 1.25, { C1: 65 }, t);
       laptop(ctx0, 500, 1090, 0.8);
     }],
