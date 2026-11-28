@@ -1,0 +1,22 @@
+{
+ "display": {
+  "s01": "Même disque dur d'1 To. | Toi, ton PC Windows affiche | 931 Go.",
+  "s02": "Ton collègue le branche sur son Mac : | 1 To pile. | Qui s'est fait avoir ?",
+  "s03": "À la fin : sur un disque de 20 To, | combien Windows semble te voler.",
+  "s04": "Seagate, le fabricant de disques, l'explique : | la boîte compte en base 10.",
+  "s05": "1 Go, c'est 1 milliard d'octets. | 1 To, 1 000 milliards.",
+  "s06": "Windows, lui, compte en base 2. | Son gigaoctet est environ | 7 % plus gros.",
+  "s07": "1 000 milliards d'octets, | rangés dans ces gros gigaoctets : | il en tient 931.",
+  "s08": "L'unité ne fait rien disparaître. | C'est la même quantité, | comptée autrement.",
+  "s09": "Seagate compare ça à une distance : | en kilomètres ou en miles, | le chemin ne change pas.",
+  "s10": "Et le Mac ? Apple affiche le stockage | en base 10, comme sur la boîte.",
+  "s11": "Ton collègue n'a donc pas | un octet de plus que toi. | Personne ne s'est fait avoir.",
+  "s12": "Mais plus le disque est gros, | plus l'écart à l'écran grandit.",
+  "s13": "Ton disque, il affiche combien ? | Écris-le en commentaire.",
+  "s14": "20 To sur la boîte : | Windows affiche 18,18. | Presque 2 To | qui n'ont jamais manqué.",
+  "s15": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
+ },
+ "title": "Disque d'1 To : 931 Go sous Windows, 1 To sur Mac",
+ "slug": "disque-1to-931go",
+ "format": "V"
+}

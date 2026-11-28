@@ -1,0 +1,22 @@
+{
+ "display": {
+  "s01": "Même chargeur Anker de 65 W. | Toi, tu y branches seulement | ton ordinateur portable.",
+  "s02": "Ton collègue y ajoute son téléphone. | Combien reste-t-il pour son ordinateur ?",
+  "s03": "À la fin : les deux ports qui, ensemble, | font perdre plus de la moitié | de sa puissance à ce chargeur.",
+  "s04": "C'est le chargeur Anker 735, 3 ports. | Sa fiche officielle donne chaque cas.",
+  "s05": "Seul sur un port USB-C, | ton ordinateur peut recevoir | jusqu'à 65 W.",
+  "s06": "Mais ces 65 W, | c'est pour tout le chargeur, | pas pour chaque port.",
+  "s07": "Ton collègue branche ses deux appareils | sur les deux ports USB-C.",
+  "s08": "Le premier port tombe à 45 W au maximum. | Le deuxième, à 20.",
+  "s09": "Son ordinateur perd donc 20 W, | sur le papier.",
+  "s10": "Et s'il branche aussi ses écouteurs, | sur le port USB-A ?",
+  "s11": "40 W au maximum pour le premier port. | 12 pour chacun des deux autres.",
+  "s12": "Toi, tu gardes les 65 W. | Son ordinateur, avec moins, | peut charger moins vite.",
+  "s13": "Et toi, tu branches combien d'appareils | sur ton chargeur ? | Écris-le en commentaire.",
+  "s14": "Le piège : le deuxième port USB-C | avec le port USB-A. | 12 W chacun : 24 en tout, | sur un chargeur de 65.",
+  "s15": "Abonne-toi : chaque jour, | un chiffre vérifié | sur les objets de ta maison."
+ },
+ "title": "Chargeur 65 W à 3 ports : combien par port ?",
+ "slug": "chargeur-65w-multiport",
+ "format": "V"
+}
