@@ -1,0 +1,113 @@
+{
+ "job": "day102",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même chargeur Ankeur de soixante-cinq watts. Toi, tu y branches seulement ton ordinateur portable.",
+   "file": "s01.wav",
+   "duration": 6.48,
+   "rate": 24000
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue y ajoute son téléphone. Combien reste-t-il pour son ordinateur ?",
+   "file": "s02.wav",
+   "duration": 5.12,
+   "rate": 24000
+  },
+  {
+   "id": "s03",
+   "text": "À la fin : les deux ports qui, ensemble, font perdre plus de la moitié de sa puissance à ce chargeur.",
+   "file": "s03.wav",
+   "duration": 6.12,
+   "rate": 24000
+  },
+  {
+   "id": "s04",
+   "text": "C'est le chargeur Ankeur sept cent trente-cinq, trois ports. Sa fiche officielle donne chaque cas.",
+   "file": "s04.wav",
+   "duration": 6.68,
+   "rate": 24000
+  },
+  {
+   "id": "s05",
+   "text": "Seul sur un port u-èss-bé cé, ton ordinateur peut recevoir jusqu'à soixante-cinq watts.",
+   "file": "s05.wav",
+   "duration": 6.24,
+   "rate": 24000
+  },
+  {
+   "id": "s06",
+   "text": "Mais ces soixante-cinq watts, c'est pour tout le chargeur, pas pour chaque port.",
+   "file": "s06.wav",
+   "duration": 4.8,
+   "rate": 24000
+  },
+  {
+   "id": "s07",
+   "text": "Ton collègue branche ses deux appareils sur les deux ports u-èss-bé cé.",
+   "file": "s07.wav",
+   "duration": 4.88,
+   "rate": 24000
+  },
+  {
+   "id": "s08",
+   "text": "Le premier port tombe à quarante-cinq watts au maximum. Le deuxième, à vingt.",
+   "file": "s08.wav",
+   "duration": 5.76,
+   "rate": 24000
+  },
+  {
+   "id": "s09",
+   "text": "Son ordinateur perd donc vingt watts, sur le papier.",
+   "file": "s09.wav",
+   "duration": 4.36,
+   "rate": 24000
+  },
+  {
+   "id": "s10",
+   "text": "Et s'il branche aussi ses écouteurs, sur le port u-èss-bé a ?",
+   "file": "s10.wav",
+   "duration": 4.64,
+   "rate": 24000
+  },
+  {
+   "id": "s11",
+   "text": "Quarante watts au maximum pour le premier port. Douze pour chacun des deux autres.",
+   "file": "s11.wav",
+   "duration": 5.12,
+   "rate": 24000
+  },
+  {
+   "id": "s12",
+   "text": "Toi, tu gardes les soixante-cinq watts. Son ordinateur, avec moins, peut charger moins vite.",
+   "file": "s12.wav",
+   "duration": 6.68,
+   "rate": 24000
+  },
+  {
+   "id": "s13",
+   "text": "Et toi, tu branches combien d'appareils sur ton chargeur ? Écris-le en commentaire.",
+   "file": "s13.wav",
+   "duration": 5.56,
+   "rate": 24000
+  },
+  {
+   "id": "s14",
+   "text": "Le piège : le deuxième port u-èss-bé cé avec le port u-èss-bé a. Douze watts chacun : vingt-quatre en tout, sur un chargeur de soixante-cinq.",
+   "file": "s14.wav",
+   "duration": 10.08,
+   "rate": 24000
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison.",
+   "file": "s15.wav",
+   "duration": 4.44,
+   "rate": 24000
+  }
+ ],
+ "total": 86.96
+}
