@@ -200,3 +200,4 @@ autopilot/vo/day100_vo.wav
 autopilot/vo/day100b_s01.wav
 autopilot/vo/day100c_s01.wav
 autopilot/vo/day101_vo.wav
+autopilot/vo/day102_vo.wav

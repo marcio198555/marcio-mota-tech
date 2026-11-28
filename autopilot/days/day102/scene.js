@@ -80,9 +80,9 @@
       big(ctx0, '65 W', 500, 680, t, f('s06', 0.1), { size: 190, family: F.display, color: GOLD });
       stamp(ctx0, 'À PARTAGER', 500, 950, t, f('s06', 0.5), { size: 72, color: RED });
     }],
-    ['s07', t => {
-      tag(ctx0, 'USB-C 1 + USB-C 2', 500, 420, t, S('s07'), { size: 44, color: GOLD });
-      const on = t > f('s08', 0.1) || !has('s08');
+    ['s08', t => {
+      tag(ctx0, 'USB-C 1 + USB-C 2', 500, 420, t, S('s08'), { size: 44, color: GOLD });
+      const on = t > f('s08', 0.25);
       charger(ctx0, 480, 760, 1.25, on ? { C1: 45, C2: 20 } : { C1: '?', C2: '?' }, t);
       laptop(ctx0, 330, 1100, 0.6); phoneIcon(ctx0, 640, 1090, 0.55);
     }],

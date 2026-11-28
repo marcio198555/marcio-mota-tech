@@ -1,0 +1,127 @@
+[
+ {
+  "file": "/home/claude/studio/sfx/impact.wav",
+  "t": 0.02,
+  "db": -12
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 2.371,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 5.848,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 7.762,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 10.734,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 12.947,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 16.367,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 18.895,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 22.787,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 24.937,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 28.262,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 29.892,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 32.437,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 34.617,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 37.988,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 40.52,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/impact.wav",
+  "t": 40.837,
+  "db": -12
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 44.418,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 46.276,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 49.163,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 53.004,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/impact.wav",
+  "t": 53.484,
+  "db": -12
+ },
+ {
+  "file": "/home/claude/studio/sfx/whoosh.wav",
+  "t": 58.866,
+  "db": -17
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 59.116,
+  "db": -15
+ },
+ {
+  "file": "/home/claude/studio/sfx/ui_pop.wav",
+  "t": 60.434,
+  "db": -15
+ }
+]
