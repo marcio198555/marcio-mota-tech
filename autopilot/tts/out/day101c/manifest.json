@@ -1,0 +1,15 @@
+{
+ "job": "day101c",
+ "engine": "chatterbox-multilingual",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "segments": [
+  {
+   "id": "s04",
+   "text": "Un grand fabricant de disques durs l'explique sur son site : la boîte compte en base dix.",
+   "file": "s04.wav",
+   "duration": 5.84,
+   "rate": 24000
+  }
+ ],
+ "total": 5.84
+}
