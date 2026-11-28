@@ -51,7 +51,7 @@
   const PLAN = [
     ['s01', t => {
       const b = 1 + 0.07 * Math.sin(t * 5);
-      ctx0.save(); ctx0.translate(500, 420); ctx0.scale(b, b); text(ctx0, 'CHARGEUR 65 W', 0, 0, { size: 112, family: F.display, weight: 900, color: GOLD, stroke: 'rgba(0,0,0,0.6)' }); ctx0.restore();
+      ctx0.save(); ctx0.translate(500, 420); ctx0.scale(b, b); text(ctx0, 'CHARGEUR 65 W', 0, 0, { size: 96, family: F.display, weight: 900, color: GOLD, stroke: 'rgba(0,0,0,0.6)' }); ctx0.restore();
       duelFrame(ctx0, { y0: 540, y1: 1180 });
       laptop(ctx0, 275, 720, 0.9); laptop(ctx0, 725, 700, 0.8); phoneIcon(ctx0, 860, 760, 0.6);
       text(ctx0, '1 appareil', 275, 900, { size: 44, weight: 900, color: WHITE }); text(ctx0, '+ son téléphone', 725, 900, { size: 44, weight: 900, color: WHITE });
@@ -67,12 +67,12 @@
     }],
     ['s04', t => {
       tag(ctx0, 'FICHE OFFICIELLE ANKER', 500, 420, t, S('s04'), { size: 40, color: GOLD });
-      charger(ctx0, 470, 760, 1.25, {}, t, { title: '735' });
-      line(ctx0, 'Anker 735 · 3 ports · 65 W', 500, 1080, t, f('s04', 0.35), { size: 50, weight: 900, dx: 0 });
+      charger(ctx0, 470, 760, 1.25, {}, t, { title: 'NANO II' });
+      line(ctx0, 'Anker 735 (Nano II) · 3 ports', 500, 1080, t, f('s04', 0.35), { size: 50, weight: 900, dx: 0 });
     }],
     ['s05', t => {
       tag(ctx0, '1 SEUL APPAREIL', 500, 420, t, S('s05'), { size: 44, color: GREEN });
-      charger(ctx0, 420, 760, 1.25, { C1: 65 }, t);
+      charger(ctx0, 480, 760, 1.25, { C1: 65 }, t);
       laptop(ctx0, 500, 1090, 0.8);
     }],
     ['s06', t => {
@@ -83,7 +83,7 @@
     ['s07', t => {
       tag(ctx0, 'USB-C 1 + USB-C 2', 500, 420, t, S('s07'), { size: 44, color: GOLD });
       const on = t > f('s08', 0.1) || !has('s08');
-      charger(ctx0, 420, 760, 1.25, on ? { C1: 45, C2: 20 } : { C1: '?', C2: '?' }, t);
+      charger(ctx0, 480, 760, 1.25, on ? { C1: 45, C2: 20 } : { C1: '?', C2: '?' }, t);
       laptop(ctx0, 330, 1100, 0.6); phoneIcon(ctx0, 640, 1090, 0.55);
     }],
     ['s09', t => {
@@ -94,7 +94,7 @@
     ['s10', t => {
       tag(ctx0, '3 APPAREILS', 500, 420, t, S('s10'), { size: 44, color: GOLD });
       const on = has('s11') && t > f('s11', 0.05);
-      charger(ctx0, 420, 760, 1.25, on ? { C1: 40, C2: 12, A: 12 } : { C1: '?', C2: '?', A: '?' }, t);
+      charger(ctx0, 480, 760, 1.25, on ? { C1: 40, C2: 12, A: 12 } : { C1: '?', C2: '?', A: '?' }, t);
       CHR.emo(ctx0, 'headphone', 760, 1080, 120, t, f('s10', 0.3));
     }],
     ['s12', t => {
@@ -102,13 +102,13 @@
       laptop(ctx0, 275, 760, 0.9); laptop(ctx0, 725, 760, 0.9);
       text(ctx0, '65 W', 275, 960, { size: 96, family: F.display, weight: 900, color: GREEN });
       text(ctx0, '45 W max', 725, 960, { size: 76, family: F.display, weight: 900, color: GOLD });
-      stamp(ctx0, 'PEUT CHARGER MOINS VITE', 725, 1110, t, f('s12', 0.55), { size: 34, color: RED });
+      stamp(ctx0, 'PLUS LENT POSSIBLE', 725, 1110, t, f('s12', 0.55), { size: 40, color: RED });
     }],
     ['s13', t => { comment(ctx0, t, S('s13'), ['Combien d\'appareils', 'sur ton chargeur ?'], { color: GOLD, size: 64 }); }],
     ['s14', t => {
       tag(ctx0, 'LE PIÈGE', 500, 410, t, S('s14'), { size: 46, color: RED });
       const on = t > f('s14', 0.35);
-      charger(ctx0, 420, 720, 1.2, on ? { C2: 12, A: 12 } : {}, t);
+      charger(ctx0, 480, 720, 1.2, on ? { C2: 12, A: 12 } : {}, t);
       big(ctx0, '24 W', 500, 1040, t, f('s14', 0.6), { size: 150, family: F.display, color: RED });
       line(ctx0, 'sur 65 W', 500, 1165, t, f('s14', 0.68), { size: 52, weight: 900, dx: 0 });
     }],
