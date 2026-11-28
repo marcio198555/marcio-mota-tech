@@ -1,0 +1,71 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 7,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même disque dur d'un téraoctet. Toi, ton PC Ouindoze affiche neuf cent trente et un gigaoctets."
+  },
+  {
+   "id": "s02",
+   "text": "Ton collègue le branche sur son Mac : un téraoctet pile. Qui s'est fait avoir ?"
+  },
+  {
+   "id": "s03",
+   "text": "À la fin : sur un disque de vingt téraoctets, combien Ouindoze semble te voler."
+  },
+  {
+   "id": "s04",
+   "text": "Sigate, le fabricant de disques, l'explique : la boîte compte en base dix."
+  },
+  {
+   "id": "s05",
+   "text": "Un gigaoctet, c'est un milliard d'octets. Un téraoctet, mille milliards."
+  },
+  {
+   "id": "s06",
+   "text": "Ouindoze, lui, compte en base deux. Son gigaoctet est environ sept pour cent plus gros."
+  },
+  {
+   "id": "s07",
+   "text": "Mille milliards d'octets, rangés dans ces gros gigaoctets : il en tient neuf cent trente et un."
+  },
+  {
+   "id": "s08",
+   "text": "L'unité ne fait rien disparaître. C'est la même quantité, comptée autrement."
+  },
+  {
+   "id": "s09",
+   "text": "Sigate compare ça à une distance : en kilomètres ou en miles, le chemin ne change pas."
+  },
+  {
+   "id": "s10",
+   "text": "Et le Mac ? Apple affiche le stockage en base dix, comme sur la boîte."
+  },
+  {
+   "id": "s11",
+   "text": "Ton collègue n'a donc pas un octet de plus que toi. Personne ne s'est fait avoir."
+  },
+  {
+   "id": "s12",
+   "text": "Mais plus le disque est gros, plus l'écart à l'écran grandit."
+  },
+  {
+   "id": "s13",
+   "text": "Ton disque, il affiche combien ? Écris-le en commentaire."
+  },
+  {
+   "id": "s14",
+   "text": "Vingt téraoctets sur la boîte : Ouindoze affiche dix-huit virgule dix-huit. Presque deux téraoctets qui n'ont jamais manqué."
+  },
+  {
+   "id": "s15",
+   "text": "Abonne-toi : chaque jour, un chiffre vérifié sur les objets de ta maison."
+  }
+ ]
+}
