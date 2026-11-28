@@ -14,7 +14,7 @@
     ctx.save(); ctx.translate(-55, -5); ctx.rotate((o.spin || 0)); ctx.strokeStyle = '#5c677c'; ctx.lineWidth = 3;
     for (let i = 0; i < 3; i++) { ctx.beginPath(); ctx.arc(0, 0, 30 + i * 13, i, i + 1.6); ctx.stroke(); } ctx.restore();
     ctx.strokeStyle = '#e6e9f0'; ctx.lineWidth = 9; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(90, 70); ctx.lineTo(10, -20); ctx.stroke();
-    if (label) { roundRect(ctx, 40, -86, 100, 52, 10); ctx.fillStyle = o.labelBg || GOLD; ctx.fill(); text(ctx, label, 90, -60, { size: 34, weight: 900, color: '#071018', maxWidth: 92 }); }
+    if (label) { roundRect(ctx, 20, -96, 136, 70, 12); ctx.fillStyle = o.labelBg || GOLD; ctx.fill(); text(ctx, label, 88, -60, { size: o.labelSize || 48, weight: 900, color: '#071018', maxWidth: 128 }); }
     ctx.restore();
   }
   // écran d'ordinateur avec la capacité affichée
@@ -22,7 +22,7 @@
     ctx.save(); ctx.translate(x, y); ctx.scale(s, s);
     roundRect(ctx, -170, -120, 340, 220, 18); ctx.fillStyle = '#0d1420'; ctx.fill(); ctx.lineWidth = 6; ctx.strokeStyle = '#c9d2e3'; ctx.stroke();
     ctx.fillStyle = '#c9d2e3'; ctx.fillRect(-30, 100, 60, 40); roundRect(ctx, -90, 136, 180, 16, 8); ctx.fill();
-    if (sub) text(ctx, sub, 0, -70, { size: 36, weight: 800, color: '#9fb0c8' });
+    if (sub) text(ctx, sub, 0, -72, { size: 46, weight: 800, color: '#9fb0c8', maxWidth: 320 });
     text(ctx, value, 0, 10, { size: 92, family: F.display, weight: 900, color });
     ctx.restore();
   }
