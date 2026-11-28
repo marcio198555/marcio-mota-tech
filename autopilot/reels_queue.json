@@ -702,6 +702,26 @@
    "statut": "en attente",
    "cta": "abonnement",
    "note": "cta selon la règle des jours impairs ; à ajuster si le bilan du 30.11 retient « envoi »"
+  },
+  {
+   "id": "day101",
+   "prevu": "2026-12-02T11:00",
+   "source": "autopilot jour 101",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795863677/tiktok-autopilot/reels/day101_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Disque d'1 To : 931 Go sous Windows, 1 To sur Mac. Qui s'est fait avoir ?\n\nSelon Seagate, les fabricants comptent en base 10 : 1 Go = 1 000 000 000 octets, 1 To = 1 000 000 000 000 octets. Windows compte en base 2 (1 Go = 1 073 741 824 octets) : un disque d'1 To s'affiche 931 Go. Même quantité, autre unité, et l'écart grandit avec la taille du disque.\n\nSelon l'assistance Apple, d'anciens systèmes comme OS X Leopard (et avant) ou iOS 10 (et avant) comptaient en base 2. Le formatage et le système prennent en plus un peu de place.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui croit que son disque lui a volé des gigaoctets.\n\n#disquedur #stockage #astucetech #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "cta": "envoi"
+  },
+  {
+   "id": "day102",
+   "prevu": "2026-12-02T19:00",
+   "source": "autopilot jour 102",
+   "video_url": "https://res.cloudinary.com/qvn2mlgf/video/upload/v1795863680/tiktok-autopilot/reels/day102_reel.mp4",
+   "isAiGenerated": true,
+   "caption": "Chargeur 65 W à 3 ports : combien reste-t-il quand tu branches 2 appareils ?\n\nFiche officielle Anker 735 (Nano II 65W, modèle A2667) : seul sur un port USB-C, jusqu'à 65 W. USB-C 1 + USB-C 2 : 45 W max + 20 W max. Les 3 ports : 40 W, 12 W et 12 W max. USB-C 2 + USB-A : 12 W max chacun, 24 W en tout.\n\nLes 65 W sont la capacité totale du chargeur, pas celle de chaque port. Avant de brancher plusieurs appareils, regarde le tableau des ports sur la fiche de ton modèle.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui charge tout sur le même chargeur.\n\n#chargeur #usbc #astucetech #suisseromande #jemesuretout",
+   "statut": "en attente",
+   "cta": "envoi"
   }
  ]
 }

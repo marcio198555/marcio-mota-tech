@@ -9,7 +9,7 @@ sans marque. Seagate et Apple cités comme sources d'assistance seulement.
 | 1 To affiché sous Windows | tableau : 1 TB → Mac OS X 1 TB, Windows 931 GB | même page ; WD : 931,30 GB (https://support-en.wd.com/app/answers/detailweb/a_id/16656) | officiel (Seagate, WD) |
 | 4 To, 10 To, 20 To sous Windows | 3,63 TB ; 9,09 TB ; 18,18 TB | même page Seagate | officiel |
 | Même quantité | « decimal and binary translates to the same amount of storage capacity » ; comparaison 1 km = 0,621 mile | même page Seagate | officiel |
-| Mac en base 10 | Apple : seuls « iOS 10 and earlier and OS X Leopard and earlier » comptent en binaire | https://support.apple.com/en-us/102119 | officiel (Apple, 26.02.2025) |
+| Mac en base 10 | Apple : « Some apps and operating systems, such as iOS 10 and earlier and OS X Leopard and earlier, report storage capacity using the binary system » (exemples, pas une liste fermée) ; tableau Seagate : Mac OS X en décimal | https://support.apple.com/en-us/102119 | officiel (Apple, 26.02.2025) |
 
 ## Calculs (faits par moi, à partir des chiffres ci-dessus)
 - 1 073 741 824 / 1 000 000 000 = 1,0737 → « environ 7 % plus gros ».
@@ -19,3 +19,6 @@ sans marque. Seagate et Apple cités comme sources d'assistance seulement.
 ## Ce que la vidéo ne dit pas
 - Le formatage et le système prennent aussi un peu de place (Apple : « actual formatted capacity less ») : la vidéo
   parle seulement de l'unité (« l'unité ne fait rien disparaître »), pas de la place libre.
+
+## Contrôle (28.11.2026)
+Agent neuf : légende corrigée (Apple : « d'anciens systèmes comme… », chiffre final 18,18 retiré de la légende), textes des disques et écrans agrandis (≥ 44 px). Whisper : « Sigate » entendu « Si Gatt » → s04 refaite sans la marque (`day101c`, Seagate seulement à l'écran). Voix montée finale vérifiée (`asr/out/day101_vo2.json`).

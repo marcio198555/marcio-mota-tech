@@ -1,0 +1,17 @@
+{
+ "day": 101,
+ "title": "Disque d'1 To : 931 Go sous Windows, 1 To sur Mac",
+ "format": "V",
+ "recette": "Instagram 20.11",
+ "cover_ms": 1200,
+ "aigc": true,
+ "branded": false,
+ "video": "media/reels/day101_reel.mp4",
+ "voix": "tts/out/day101 sans s05, s09, s12 ; s04 remplacé par tts/out/day101c/s04 (sans le nom de la marque) ; SRC=studio/tts_sel, TGT=63",
+ "reel_instagram": {
+  "caption": "Disque d'1 To : 931 Go sous Windows, 1 To sur Mac. Qui s'est fait avoir ?\n\nSelon Seagate, les fabricants comptent en base 10 : 1 Go = 1 000 000 000 octets, 1 To = 1 000 000 000 000 octets. Windows compte en base 2 (1 Go = 1 073 741 824 octets) : un disque d'1 To s'affiche 931 Go. Même quantité, autre unité, et l'écart grandit avec la taille du disque.\n\nSelon l'assistance Apple, d'anciens systèmes comme OS X Leopard (et avant) ou iOS 10 (et avant) comptaient en base 2. Le formatage et le système prennent en plus un peu de place.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui croit que son disque lui a volé des gigaoctets.\n\n#disquedur #stockage #astucetech #suisseromande #jemesuretout",
+  "cta": "envoi",
+  "statut": "en file (reels_queue.json, 02.12)"
+ },
+ "duree_s": 63.4
+}

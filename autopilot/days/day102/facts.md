@@ -20,3 +20,6 @@ Chargeur dessiné (pas de photo du produit).
 - Pas de temps de charge (aucune source) : seulement « peut charger moins vite ».
 - Ces chiffres valent pour ce modèle (A2667) ; la nouvelle version Anker 735 (A2668, GaNPrime) répartit autrement.
   La vidéo nomme « Anker 735 » et le carton dit « fiche officielle » : préciser A2667 / Nano II dans la légende.
+
+## Contrôle (28.11.2026)
+Whisper : « Ankeur » entendu « en cœur » → s01 refaite sans la marque (`day102b`), s04 retirée (reprises « dans chaque cas » / « trois torts ») ; la marque et le modèle (Anker 735 Nano II) restent à l'écran (carton « FICHE ANKER 735 (NANO II) ») et dans la légende. Agent neuf : publiable, mineurs (texte « 1 seul appareil » décollé du chargeur). Voix montée finale vérifiée (`asr/out/day102_vo2.json`).

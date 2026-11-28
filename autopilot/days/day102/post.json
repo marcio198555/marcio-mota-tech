@@ -1,0 +1,17 @@
+{
+ "day": 102,
+ "title": "Chargeur 65 W à 3 ports : combien par port ?",
+ "format": "V",
+ "recette": "Instagram 20.11",
+ "cover_ms": 1200,
+ "aigc": true,
+ "branded": false,
+ "video": "media/reels/day102_reel.mp4",
+ "voix": "tts/out/day102 sans s04, s07, s09, s10, s11 ; s01 remplacé par tts/out/day102b/s01 (sans « Ankeur ») ; SRC=studio/tts_sel, TGT=63",
+ "reel_instagram": {
+  "caption": "Chargeur 65 W à 3 ports : combien reste-t-il quand tu branches 2 appareils ?\n\nFiche officielle Anker 735 (Nano II 65W, modèle A2667) : seul sur un port USB-C, jusqu'à 65 W. USB-C 1 + USB-C 2 : 45 W max + 20 W max. Les 3 ports : 40 W, 12 W et 12 W max. USB-C 2 + USB-A : 12 W max chacun, 24 W en tout.\n\nLes 65 W sont la capacité totale du chargeur, pas celle de chaque port. Avant de brancher plusieurs appareils, regarde le tableau des ports sur la fiche de ton modèle.\n\nVoix de synthèse.\n\nEnvoie-la à la personne qui charge tout sur le même chargeur.\n\n#chargeur #usbc #astucetech #suisseromande #jemesuretout",
+  "cta": "envoi",
+  "statut": "en file (reels_queue.json, 02.12)"
+ },
+ "duree_s": 59.07
+}
