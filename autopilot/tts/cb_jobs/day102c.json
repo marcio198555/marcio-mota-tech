@@ -1,0 +1,19 @@
+{
+ "engine": "chatterbox",
+ "lang": "fr",
+ "ref": "autopilot/tts/refs/tom_ref.wav",
+ "exaggeration": 0.55,
+ "cfg": 0.5,
+ "temperature": 0.8,
+ "seed": 23,
+ "segments": [
+  {
+   "id": "s01",
+   "text": "Même chargeur de soixante-cinq watts. Toi, tu y branches seulement ton ordinateur portable."
+  },
+  {
+   "id": "s04",
+   "text": "Exemple : ce modèle à trois ports. Sa fiche officielle donne chaque cas."
+  }
+ ]
+}
